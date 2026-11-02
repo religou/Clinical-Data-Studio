@@ -1,0 +1,17 @@
+# Issues Resolved Outside Patient Profiles CLoud List Available On Knowledge Space
+
+## Issues Resolved Outside Patient Profiles CLoud List Available On Knowledge Space
+## Description
+ You can now see issues found in Patient Profiles Cloud that have been resolved in other Medidata products in the  Issues Resolved Outside Patient Profiles Cloud list . This list:
+- always has the most current issue information; 
+- is filterable by columns like 'module' and 'severity'; and 
+- supports PDF and CSV exports. 
+## Affected Roles
+ All.
+## Advantages
+ The list of resolved issues reported against Patient Profiles Cloud enables transparency regarding development efforts across Medidata products or services related to Patient Profiles Cloud. This list is in addition to the current release's resolved issues list. 
+## User Impact
+ This is a documentation enhancement, which does not impact the software application.
+ Important : The list updates automatically on a recurring basis; therefore, the resolved issues in this list are only available in English.
+## Special Considerations
+ None.

@@ -1,0 +1,17 @@
+# Download Data Mapping Report PDFs
+
+## Download Data Mapping Report PDFs
+ You can download a Data Mapping Report PDF. The report contains pertinent information about your study environment's data anomaly detection plot, event incidence, potential duplicate patient, and rounding and propagation analysis configuration.
+ Downloading the report PDF allows you to view on demand the data mappings and associated details for each analysis configured in your study environment. The PDF presents the report in a clear, easy-to-read, and exchangeable format for:
+- Offline stakeholder communication 
+- Record retention 
+- Review, approval, and signature 
+ Note : The Data Mapping Report only shows configuration details for configured analyses. 
+- Access Data Surveillance or RBQM , and then click Configuration > Data Mapping in the left-hand menu.
+ The Data Mapping page appears. 
+- On any tab, click Data Mapping Report . 
+- On the Data Mapping Report dialog box, select the analyses that you want to include in the report. 
+- Click Download .
+The report downloads to your machine. 
+- Open the PDF.
+The report name is formatted as <client name>_<study name>_CSM_Configuration_Report_<export date in dd-Mmm-yyyy>.

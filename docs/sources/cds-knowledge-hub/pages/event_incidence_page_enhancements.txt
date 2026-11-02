@@ -1,0 +1,22 @@
+# Event Incidence Page Enhancements
+
+## Event Incidence Page Enhancements
+## Description
+ The Event Incidence Plot includes the following enhancements: 
+- You can zoom in on a specific section of the Event Incidence  Plot.  
+- The Event Incidence Plot shows plot sites and countries for events even if there is no recorded event at the site or country. 
+## Affected Roles
+- Central monitors 
+- Data managers 
+- Medical monitors 
+## Advantages
+ For plots that have a high volume of data points, zooming in helps you take a closer, more granular view of specific data points on the plot. 
+ Including sites with non-events can help determine if a site is underreporting. 
+## User Impact
+ You can click, hold, and drag your cursor on the Event Incidence plot to draw a box on a specific section you want to zoom on. You can then click  Reset Zoom at the upper-right of the visualization to return to the default zoom level.
+ If you select a site or country from the Site or Country filter and that site or country has no recorded events, the Event Incidence Plot shows a  ,  , or   for that site or country and indicates that it is a non-event.
+## Knowledge Space Updates
+ The following articles have been created or updated in the Medidata Detect Knowledge Space to support this enhancement:
+- Investigate Data Using the Event Incidence Plot 
+## Special Considerations
+ None.

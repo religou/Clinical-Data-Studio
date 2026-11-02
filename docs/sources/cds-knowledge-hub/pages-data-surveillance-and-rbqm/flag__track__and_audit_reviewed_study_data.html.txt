@@ -1,0 +1,76 @@
+# Flag, Track, and Audit Reviewed Study Data
+
+## Flag, Track, and Audit Reviewed Study Data
+ You can mark outlier data points  on Data Anomaly Detection plots as reviewed. Marking outlier data points as reviewed helps you and other team members identify which data has or has not been reviewed. This optimizes your overall team performance by preventing repeat work and helping your team recognize and focus on the data that still requires review. 
+## Flag Reviewed Study Data
+ After you review individual outlier data points on Data Anomaly Detection plots, you can mark those data points as reviewed. Marking outlier data points as reviewed helps you and other team members identify which data has or has not been reviewed.
+ Important : Only users with Review CSM permissions can mark study data as reviewed.
+- If necessary,  access the Data Anomaly Detection page . 
+- Select the Domain Set . 
+- Select the Variable .
+The list of plots associated with the selected variable show in the Plot table below.
+- Plot Name – The variable or variables that RBQM has analyzed. 
+- # Outliers  – The total number of the variable's data points that are considered outliers. 
+- Click a plot name.
+ The selected plot shows in the plot visualization along with summary information below. 
+- Scroll down the Data Anomaly Detection page to the Summary section. 
+- Click the View By filter and select Data: Top 100 Outliers . 
+- Find the data point you want to mark as reviewed in the Summary table.
+ Tip: Filter and Sort the Summary Table to Help Find the Data You Need
+- To filter the Summary table to show only data from a specific patient, click the Patient filter, and select a patient ID. 
+- By default, the Summary table is sorted by Discrepancy Score .  Click any column header to sort the table by that column. The sorted header shows in blue font.  indicates that the column is sorted in descending numeric order (highest value at the top, lowest at the bottom).  Click a column header twice  to sort in ascending numeric order (lowest value at the top, highest at the bottom). 
+- Click  in the Actions column for the corresponding data point. 
+- Click Mark as Reviewed .
+ Important : The Mark as Reviewed option is only active for users with Review CSM permissions. Otherwise, this option is grayed-out and inactive.
+ The data point's Status column updates to show , which indicates the data point as reviewed. The review status change also gets recorded in the data point's review audit history. To learn more about the review audit history, see Track and Audit Reviewed Study Data .
+## Track and Audit Reviewed Study Data
+ You can track which of a variable's outlier data points have or have not been reviewed on  Data Anomaly Detection plots . Knowing the review status of data points in your study prevents inadvertent, repeat review work and helps your team recognize and focus on the data that still requires review. You can also track previous users who reviewed specific data points and when those reviews occurred.
+- If necessary,  Access the Data Anomaly Detection page . 
+- Select the Domain Set . 
+- Select the Variable .
+The list of plots associated with the selected variable show in the Plot table below.
+- Plot Name – The variable or variables that RBQM analyzes. 
+- # Outliers  – The total number of the variable's data points that are considered outliers. 
+- Click a plot name.
+ The selected plot shows in the plot visualization along with summary information below. 
+- Scroll down the Data Anomaly Detection page to the Summary section. 
+- Click the View By filter and select Data: Top 100 Outliers .
+ Tip: Filter and Sort the Summary Table to Help Find the Data You Need
+- To filter the Summary table to show only data from a specific patient, click the Patient filter, and select a patient ID. 
+- By default, the Summary table is sorted by Discrepancy Score .  Click any column header to sort the table by that column. The sorted header show in blue font.  indicates that the column is sorted in descending numeric order (highest value at the top, lowest at the bottom).  Click a column header twice  to sort in ascending numeric order (lowest value at the top, highest at the bottom). 
+- For each data point, the Status column shows one of the following status icons:
+- – The data point was reviewed at least once before, but has reverted to unreviewed status. For example, you can mark a data point as unreviewed if the study's source data has changed, the data point's error score has changed beyond the outlier threshold, or the data point was mistakenly marked as reviewed. 
+-  – The data point review is complete. 
+- <blank>  – The data point has never been reviewed. 
+- To audit a data point's review history, click   for the corresponding data point.
+A panel appears on the right side of the page. 
+- View the following information:
+- Reviewed – Confirms the data point's status as reviewed. 
+- Patient – The patient ID for the patient represented in the data point.  
+- Country  – The country in which the patient's site is located. 
+- Site  – The site the patient belongs to. 
+- Reviewer  – The user who performed the review status change. 
+- Review Date – The date in which the reviewer's review status change occurred. 
+- Changes  – Indicates the type of review status change made. 
+ Tip : You can click the Reviewer, Review Date, or Changes column header to sort the table by column. 
+## Mark Study Data as Reopened for Review
+ Data points marked as reviewed at times may need to be reopened for review. For example, if the study's source data has changed, the data point's discrepancy score has changed beyond the outlier threshold , or the data point was mistakenly marked as reviewed. Therefore, you can update a data point's status to "unreviewed," which indicates the data point is reopened for review.
+ Important : Only users with Review CSM permissions can flag study data as not reviewed.
+- If necessary,  Access the Data Anomaly Detection page . 
+- Select the Domain Set . 
+- Select the Variable .
+The list of plots associated with the selected variable show in the Plot table below.
+- Plot Name – The variable or variables that RBQM analyzes. 
+- # Outliers  – The total number of the variable's data points that are considered outliers. 
+- Click a plot name.
+ The selected plot shows in the plot visualization along with summary information below. 
+- Scroll down the Data Anomaly Detection page to the Summary section. 
+- Click the View By filter and select Data: Top 100 Outliers . 
+- Find the data point you want to mark as reviewed in the Summary table.
+ Tip: Filter and Sort the Summary Table to Help Find the Data You Need
+- To filter the Summary table to show only data from a specific patient, click the Patient filter, and select a patient ID. 
+- By default, the Summary table is sorted by Discrepancy Score .  Click any column header to sort the table by that column. The sorted header shows in blue font.  indicates that the column is sorted in descending numeric order (highest value at the top, lowest at the bottom).  Click a column header twice  to sort in ascending numeric order (lowest value at the top, highest at the bottom). 
+- Click  in the Actions column for the corresponding data point. 
+- Click Mark Not Reviewed .
+ Important : The Mark Not Reviewed option is only active for users with Review CSM permissions. Otherwise, this option is grayed-out and inactive.
+ The data point's Status column updates to show , which indicates the data point was reviewed at least once before, but is now in unreviewed status. The review status change also gets recorded in the data point's review audit history. To learn more about the review audit history, see Track and Audit Reviewed Study Data .

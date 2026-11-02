@@ -1,0 +1,64 @@
+# Visualizations: Chart Categorical Study Data Counts Using Tabular Visualizations
+
+## Visualizations: Chart Categorical Study Data Counts Using Tabular Visualizations
+## What Is New?
+ Data Surveillance > Visualizations includes a new chart type, tabular visualizations, that you can use to obtain counts or percentages of categorical study data. Tabular visualizations aggregate data by summing or averaging multiple dataset variables in a table format created using Data Connect Transformations . The chart shows data in rows and columns with information summarized (aggregated) at the intersection points. For example, the percentage of patients experiencing the AE at the preferred term level, and the associated seriousness.
+ Note : You must have at least one Tabular Visual type collection  in Data Connect to create tabular visualizations in Data Surveillance.
+## What Is the Impact?
+## Users/Roles
+ Data Managers, and users with the Manage Visualizations building block in Data Surveillance, and Manage Data Connect Collections and Manage Transformation Projects building blocks in Data Connect.
+## Workflow Process
+ The workflow process is as follows:
+## Other Applications
+ You must have at least one Tabular Visual type collection in Data Connect to create tabular visualizations in Data Surveillance.
+## How Do I Benefit?
+ With tabular visualizations, data managers can segment populations of interest and identify patient groups for further investigation. Investigating counts or percentages of required parameters in study data enables data managers to:
+- Understand treatment efficacy by comparing outcomes and treatments. 
+- Evaluate compliance looking at rates of completion and adherence to medication. 
+- Explore differential subgroup responses based on demographic or baseline characteristics. 
+- Examine how well groups meet primary and secondary endpoints. 
+- Analyze AE trends relative to outcomes, treatments, or other effect states. 
+## Where Do I See the Change?
+ On the Data Surveillance > Visualizations page, if you click Add visualization, a new  chart type appears on the New Visualizations page. If you click the tabular chart, the Visualization page shows the following:
+ Tip : Click the image to enlarge.
+ Image A 
+ Image B 
+ | 
+ | 
+ Number 
+ Description 
+ | 1. 
+ | 
+ Tabular charts – The new chart type you can use to create a table that shows data in rows and columns with information aggregated at the intersection points. For example, the counts of diabetic patients in the study, or the percentage of pregnant women in the population. 
+ Note : Chart filters and Color series fields become disabled if you select tabular charts.
+ | 2. 
+ | 
+ Tabular Datasets –  If you select a tabular visualization chart, the left pane updates to show tabular datasets. These are activated datasets built from transformations with collection type as Tabular Visual in Data Connect. 
+You can select only one tabular dataset at a time to build a tabular visualization.
+ | 3. 
+ | 
+ Rows and Columns –   You can drag and drop a single tabular dataset into the row. You can then select a variable from the dataset into the row. The column field remains disabled if no dataset is added to the row. You can add multiple variables into the column field. That is, you can have multiple columns for each row in the tabular visualization. Date variables appear with a calendar icon -  in the list.
+ | 4. 
+ | Display Settings – You can type a title and description for the visualization. This appears above the visualization.  
+ | 5.  
+ | Refresh Data – If you want to generate or regenerate the tabular visualization, click Refresh Data . The visualization appears in the Preview section. You can then click Save to save the visualization. 
+ | 6. 
+ | 
+ Tabular Visualization Example (Image B) – 
+ The Adverse Event Grades by Term tabular visualization shows the count of Grade 1, Grade 2, Grade 3, Grade, 4 and Grade 5, and the total counts of adverse events by preferred terms.  
+ | 7 
+ | 
+ Edit – If you click Edit , the page shows the tabular visualization configuration page where you edit the chart.
+- If you edit a tabular visualization where the tabular dataset variables are no longer available (from Data Connect ), a "A new tabular report configuration is available" message appears.  
+- If you select the specific dataset variable in the row or column field, it appears disabled, with a "Variable is no longer available" message. If you select a new dataset and configure the tabular visualization with new rows and columns, and then click preview, a " The data configuration has changed. Refreshing will reload the chart with the latest settings". message appears. 
+ Download – You can download tabular visualizations as PDF or CSV files. 
+ | 8  
+ | 
+ Column Configuration –  If you click the More icon, and then click Column Configuration , you can rearrange or hide columns in the tabular visualization. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Access and View Visualizations. 
+- Create, Edit, and Delete Visualizations. 
+## What Else Should I Know?
+ Only activated datasets with collection type as t abular visual used in Data Connect, are available as tabular datasets in Data Surveillance.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

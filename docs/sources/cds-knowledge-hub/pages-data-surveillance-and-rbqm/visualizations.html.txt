@@ -1,0 +1,35 @@
+# Custom Graphs
+
+## Custom Graphs
+ Custom Graphs is a self-serve data visualization and reporting tool that enables you to chart the relationship between any combination of datasets on a single visual using real-time study data on demand. 
+ You can plot any study data you want to visualize based on your specific needs or area of interest to: 
+- Gain a clearer understanding or perspective of the data. 
+- Identify study trends and patterns. 
+- Track study performance. 
+- Build and share reports. 
+## What Is Custom Graphs?
+ Custom Graphs is a self-serve study data visualization and reporting tool. 
+## What is the Purpose of Custom Graphs?
+ You can use Custom Graphs to chart the relationship between any combination of datasets on a single visual using real-time study data on demand. 
+## Who Uses Custom Graphs?
+ All study team members can use Custom Graphs to create or view data visualizations.
+## What Are the Benefits of Using Custom Graphs?
+ Custom Graphs enables you to flexibly plot any study data you want to visualize, catering to your specific needs or area of interest. For example: 
+- Medical monitors can view the number of adverse events per site.
+- Site monitors can track patient enrollment rate.   
+- Data managers can view missed visits or data entry delays. 
+- CRAs can view, track, and compare patients records for pulse against blood pressure.  
+- Study managers can see the number of nonrandomized patients in the study or track the number of study dropouts per month. 
+ You can also view the data in the optimal graphical rendering—whether in a bar chart, stacked bar chart, line chart, multiline chart, scatter chart, donut chart, or segmented donut chart. 
+ Graphically visualizing study data relationships enables you to more effectively: 
+- Gain a clearer understanding or perspective of the study data. 
+- Identify study trends and patterns. 
+- Track study performance. 
+- Build and share reports or present on study data metrics using clear, visually appealing graphical renderings. 
+ And you can create Custom Graphs on your own anytime you want. 
+## How Does Custom Graphs Work?
+ You can plot study data in a bar chart, stacked bar chart, line chart, multiline chart, scatter chart, donut chart, segmented donut chart, or tabular chart. 
+ You can create, view, edit, and delete study data visualizations. 
+ Note : In Data Surveillance and RBQM, s tudy data automatically refreshes four times daily at approximately 9:00am (EST), 3:00pm (EST), 9:00pm (EST) and 3:00am (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, 5:00 am (EST) the same day, 11:00 am (EST) the same day, 5:00 pm (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Medidata Rave, and   activated datasets from Data Connect   are available in 6 to 12 hours within Data Surveillance and RBQM. 
+## How Do I Create Custom Graphs?
+ See Create Custom Graphs .

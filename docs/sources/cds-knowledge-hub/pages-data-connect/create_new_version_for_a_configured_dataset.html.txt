@@ -1,0 +1,21 @@
+# Create New Version for a Configured Dataset
+
+## Create New Version for a Configured Dataset
+ You can create a new version for the updated datasets when the imported datasets show errors due to changes between imported dataset and the configured dataset. 
+ Important :
+- You cannot edit published datasets. 
+- Imports automatically de-activates streaming of an older dataset to Data Surveillance when you create a new version. 
+- Before creating a new version of a dataset, that dataset is not in use by Data Surveillance. If necessary, deactivate the dataset before creating a new version.  
+- Access Data Connect , and click   Imports   in the left-hand menu. 
+- Click the More icon of the data source, and select View. 
+- Click the More icon of the dataset, and select Edit and test specifications . 
+- On the Dataset screen, click the More icon > Edit. 
+- On the Edit Dataset Schema pop-up, click Proceed to editing . 
+- On the Configure Dataset Specification screen, configure the dataset specification for the new file.  
+- Click Publish .
+ Important :  Changing key fields after you publish datasets and import records can cause errors in RBQM and Data Surveillance. 
+ Tip : To view the data from the previous versions of the dataset.
+- Access Data Connect , and click   Imports   in the left-hand menu. 
+- Click the More icon of the data source, and select View. 
+- Click the > arrow to the left of the dataset name. 
+- Click the version you want to view.

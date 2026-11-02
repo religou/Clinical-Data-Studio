@@ -1,0 +1,31 @@
+# Data Ingestion Flowchart
+
+## Data Ingestion Flowchart
+ With Ingestor, you can create import jobs to ingest data from various sources into target locations for later use. The flowchart below shows Ingestor's overall data ingestion lifecycle. 
+- Prepare data files for importing into Ingestor. The data files must conform to Ingestor's data file standards. For details, see  Import File Standards . 
+- In Ingestor:
+- Create import jobs  for each data type you want to ingest. 
+- Load data files  with the corresponding import job type.
+- Ingestor processes the data files. Depending on the data type, sends the data to other services or applications.
+- The target services and application create or update data according to the uploaded data files. 
+- If there are errors with data processing, the service or application notifies Ingestor. 
+- You can  review error details  in Ingestor. 
+- Repeat steps 1 and 2 as necessary. 
+ Note : 
+ When loading clinical data or clinical operational data:
+- You must create two import jobs: study design metadata (SDM) and external EDC. You must first create the SDM job and upload the requisite SDM files, then you can create the external EDC job and upload the clinical and clinical operational data files with the external EDC job.  
+- SDM import jobs:
+- Define the structure of the data to be loaded to the variability of data capture of EDC data. 
+- Only require configuration once. When you upload SDM files, Ingestor creates a protocol configuration that you can use for multiple external EDC jobs. You can upload new SDM files to the SDM import job to update the protocol configuration and to capture SDM changes, such as new data fields. For details on how Ingestor processes SDM files, see  Study Design Metadata Import Process . 
+- Enable clinical data loading. Ingestor uses the output from successful SDM imports when configuring external EDC import jobs. 
+- External EDC data files must match the structure as defined by the imported SDM files. 
+- For details on how Ingestor processes external EDC files, see  Content Flow for EDC Data 
+ When loading data to Cloud Administration:
+- You must create and import data using the Study Master Data type. 
+- Data files for Cloud Administration are preset data structures. For file specifications, see  Study Master Data File Standards . 
+- For details on how Study Master Data files flow in Ingestor, see  Content Flow for Study Master Data and CTMS Data . 
+ When loading data to CTMS:
+- You must create and import data using the CTMS data type. 
+- Data file for CTMS have preset data structures. For file specifications, see  Medidata CTMS Data File Standards . 
+- Study Master data may be necessary to enable CTMS data import. 
+- For details on how CTMS data files flow in Ingestor, see  Content Flow for Study Master Data and CTMS Data .

@@ -1,0 +1,24 @@
+# PDS: Data Reviewer Shows Snapshot Timestamp of Data Currently Presented on Screen
+
+## PDS: Data Reviewer Shows Snapshot Timestamp of Data Currently Presented on Screen
+## What Is New?
+ Data Reviewer now shows a timestamp stating when the current study data presented on the Data Listings page and Data Sets page was processed. 
+ The timestamp is formatted as: Current Data: DD Mon YYYY HH:MM:SS. For example, Current Data: 02 Apr 2024 04:04:14 . 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The Current Data timestamp shows how recent the study data is on the Data Sets page and Data Listings page and what data to expect when you refresh data listings. 
+## Where Do I See the Change?
+ In Patient Data Surveillance (PDS) > Data Reviewer, at the top of the:
+- Data Sets page 
+- Data Listings page 
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ Data Reviewer processes study data daily and presents the study data in the user interface as of the time and date posted in the Current Data timestamp. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

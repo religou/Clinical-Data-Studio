@@ -1,0 +1,130 @@
+# Review RECIST 1.1 Dashboard Findings
+
+## Review RECIST 1.1 Dashboard Findings
+ Patients in oncology studies have cancerous tumors measured at baseline, and again at various junctures of the study. Study managers target a set of marked tumors and monitor growth, shrinkage, disappearance, or appearance of new tumors closely. Clinical research conductors assess how the patients respond to the treatment in the study based on the tumor change. You can use the RECIST 1.1 Dashboard to view and analyze: 
+- The tumor burden change in patients participating in the study by specific scan visit type. 
+- Individual patient journeys comprised of various tumor response stages throughout the study. 
+- The discrepancies in tumor response measurements:
+- Calculated based on information that sites enter, and that
+- Calculated by the proprietary RECIST 1.1 algorithm.
+- Tumor burden, tumor burden response, and scan visit information obtained at specific sites.
+- The total number of patients at various stages of the overall tumor response in the study.
+## Find the Tumor Burden Change Data
+ To help find the tumor burden change data, you can:
+- Filter study data by scan visit type.
+- Drill deeper to view individual patient progress. 
+- Sort records in the tumor response by patient table 
+- Filter through patient records table to identify discrepancies. 
+ By default the Scan Visit is set to Last Scan Visit when the RECIST 1.1 Dashboard appears. That is, the RECIST 1.1 waterfall plot shows all scheduled or unscheduled visits at which the patient underwent scans to measure the tumor.
+## Filter Patient Data By Scan Visit Type
+ The interactive RECIST 1.1 dashboard visualizes, classifies, and lists the tumor burden change for patients.   
+- Access Data Surveillance , and then click Oncology in the left-hand menu.
+The RECIST 1.1 page shows. 
+- Click the Scan Visit menu, and then s elect the scan visit that you want view. 
+The interactive Tumor Burden Change (%) waterfall chart updates based on the scan visit. The chart shows the percentage change relative to the baseline tumor burden for each patient at a specific time, for example, at Last Scan Visit or Cycle 3 Day 1. 
+- Each bar represents a patient. Hover over the bar to view a patient's details. 
+- The horizontal axis (x) indicates the baseline measure per patient and the vertical bars may go either above or below the baseline. The x-axis shows patient IDs corresponding to each bar. The vertical axis (y) quantifies the response to treatment, for example, percentage of growth or reduction in tumor measurements. 
+- The y axis values range between a minimum and maximum of +20 and -30 as per RECIST v1.1 guidelines. Bars above the x axis indicate a reduction in tumor burden. Bars below the x axis indicate nonresponders or progression. The bars appear ordered from the worst (PD) response on the left to the best (CR) value on the right of the waterfall plot.  The various outcomes listed are:
+- Partial Response (PR)  
+- Complete Response (CR)  
+- Progressive Disease (PD)  
+- Stable Disease (SD)  
+- Non-CR/Non-PD (NN)  
+- Not Evaluable/Not Applicable (NE/NA)  
+- Overall response is classified as per the following table: 
+ Target lesions 
+ Non-target lesions 
+ New lesions 
+ Overall response 
+ | CR 
+ | CR 
+ | No 
+ | Complete Response 
+ | CR 
+ | Non-CR/non-PD 
+ | No 
+ | Partial Response 
+ | PR 
+ | Non-CR/non-PD 
+ | No 
+ | Partial Response 
+ | SD 
+ | Non-CR/non-PD 
+ | No 
+ | Stable Disease 
+ | PD 
+ | Any 
+ | Yes/no 
+ | Progressive Disease 
+ | Any  
+ | PD 
+ | Yes/no 
+ | Progressive Disease 
+ | Any 
+ | Any 
+ | Yes 
+ | Progressive Disease 
+- Optional. Select sites from the list to filter results by specific sites. 
+## View Individual Patient Tumor Progression 
+- Access Data Surveillance , and then click Oncology in the left-hand menu.
+The RECIST 1.1 page shows. 
+- Click the Scan Visit menu, and then s elect the scan visit that you want view.  
+- In the waterfall plot, hover your cursor over a bar.
+A card shows the following:
+ Field Descriptions 
+- Patient ID – The ID of the patient who participated in the Oncology study. 
+- Visit – The visit type at which the tumor measurements took place. 
+- Overall Response – The overall tumor response calculated based on site entered tumor measurements. 
+- Tumor % change – The percentage change in tumor measurements as compared with the last scan. 
+- See tumor burden over time – A hyperlink to view the t umor burden chart over time . Click the See Burden Over Time link in the card, to view the spaghetti plot for the tumor burden change for the patient throughout the study.
+ Tip : The image shows a sample spaghetti plot for a patient throughout the study. Click to enlarge.
+## View Individual Patient Profiles from the Tumor Response by Patient Table
+ You can view profile designs associated with patients in the Tumor Response by Patient Table.
+- Access Data Surveillance , and then click Oncology in the left-hand menu.
+The RECIST 1.1 page shows. 
+- Click the Scan Visit menu, and then s elect the scan visit that you want view.  
+- Optional . Select Site . 
+- Scroll down to the Tumor Response by Patient table. 
+- Click any Patient ID hyperlink in the Patient ID column. The corresponding profile design associated with the patient in Patient Profiles appears.  
+- Optional. Click Show Patient Selector . You can select a profile design for another patient from the Patient Selector table. 
+## Sort Records in the Tumor Response by Patient Table
+ You can sort the Tumor Response By Patient table to view specific data, for example, all records with Overall Response is Progressive Disease.
+- Access Data Surveillance , and then click Oncology in the left-hand menu.
+The RECIST 1.1 page shows. 
+- Click the Scan Visit menu, and then s elect the scan visit that you want view.  
+- Optional . Select Site . 
+- Scroll down to the Tumor Response by Patient table. 
+- Click the column header for any column. 
+-   – Indicates the table shows records sorted in the descending order based on the column. 
+-   – Indicates the table shows records sorted in the ascending order based on the column. 
+## Filter Records in the Tumor Response by Patient Table
+ You can filter records in the Tumor Response By Patient table to identify specific records. For example, unreviewed records with possible discrepancies between the tumor response measurements from site and those calculated by the built-in algorithm.
+- Access Data Surveillance , and then click Oncology in the left-hand menu.
+The RECIST 1.1 page shows. 
+- Click the Scan Visit menu, and then s elect the scan visit that you want view.  
+- Optional . Select Site . 
+- Scroll down to the Tumor Response by Patient table. 
+- Click the icon. 
+- Click one or more of the following filters: 
+- Patient ID – Select patient IDs to filter by. 
+- Site – Select the sites to filter by. 
+- Country – Select the countries you want to filter by. 
+- Status – Records with potential discrepancies between site entered and algorithm calculated overall tumor response, show , a warning icon in the Status column. You can mark a record as reviewed or unreviewed. Once you mark a record as reviewed, the Status column shows a icon. Select from the following to filter records by:
+- Unreviewed possible discrepancy – indicates unreviewed records where the site entered tumor measurements do not match the RECIST 1.1 algorithm calculated values. 
+- Reviewed possible discrepancy –  indicates records marked as reviewed, where the site entered tumor measurements do not match the RECIST 1.1 algorithm calculated values. 
+- No discrepancy – indicates records have no discrepancy in the overall tumor response measurements entered by site and calculated by the RECIST 1.1 algorithm. 
+## Mark Records as Reviewed In the Tumor Response by Patient Table
+ You can investigate and review all the data in patient records listed in the tumor response by patient table. You can then mark records as reviewed; for example, if the record:
+- Is acceptable  
+- Has no discrepancy. 
+ You can also mark records as unreviewed. For example, if your study team determines that a record previously marked as reviewed was marked in error and should revert to unreviewed. 
+- Access Data Surveillance , and then click Oncology in the left-hand menu.
+The RECIST 1.1 page shows. 
+- Click the Scan Visit menu, and then s elect the scan visit that you want view.  
+- Optional . Select Site . 
+- Scroll down to the Tumor Response by Patient table. 
+- Select one or more patient records. 
+- Do one of the following:
+- To mark a record as reviewed, click the in the row corresponding to the record you want to review, and then click Mark as reviewed . 
+- To mark a record as unreviewed, click the in the row corresponding to the record you want to update, and then click Mark as unreviewed . 
+        Once you mark a record as reviewed, the Status column shows a icon.

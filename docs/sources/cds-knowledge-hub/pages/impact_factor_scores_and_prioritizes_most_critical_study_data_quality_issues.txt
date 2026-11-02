@@ -1,0 +1,20 @@
+# Impact Factor Scores and Prioritizes Most Critical Study Data Quality Issues
+
+## Impact Factor Scores and Prioritizes Most Critical Study Data Quality Issues
+## Description
+ The impact factor is a numeric score given to the most critical data quality issues affecting your study as identified by Detect. The impact factor quantifies the priority with which Detect's analyses of those data quality issues may require review. Detect calculates the impact factor based on a combination of the following  factors: 
+- SDTM Weight –  A weight attributed to the issue based on SDTM domain.  
+- Analysis Type –  Type of analysis performed on the issue; that is,error plot,event incidence plot, or KRI. 
+- Extent of the Issue – The n umber of affected sites, patients, and data points affected by the issue. 
+- Magnitude of the Issue –  Extremeness of the issue's outliers based on a discrepancy score of 0.0-8.0 . 
+- Detect Weight – User-defined weight that may be used in the future. Default of 1 for every variable (optional). 
+ The higher the impact factor, the greater impact the data quality issue has on your study's discrepancy score. 
+## Affected Roles
+ All.
+## Advantages
+ The impact factor helps you find, prioritize, and focus on reviewing and mitigating study data issues most impacting the quality your overall study.
+## User Impact
+ The Impact Factor displays on Overview page > Top Contributors sub-page > Contributors list > Impact Factor column.
+ Tip : Click to enlarge.
+## Special Considerations
+ The Contributors list sorts by impact factor in descending order (highest to lowest value) by default.

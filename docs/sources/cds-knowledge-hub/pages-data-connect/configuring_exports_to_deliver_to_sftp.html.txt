@@ -1,0 +1,7 @@
+# Configuring Exports to Deliver to SFTP
+
+## Configuring Exports to Deliver to SFTP
+ When creating exports, you can configure the exports to send a copy of extracted files to a server using a secure file transfer protocol (STFP). Medidata's implementation of SFTP is FTP over a Secure Shell Protocol, also known as SSH. After adding one or more SFTP connection, list of connections is available to other users in your study group.
+ Important : To configure the list of SFTP connections, your platform role must include the Extractor Admin building block. For details, see  Grant Access to Data Connect and Data Connect Roles and Capabilities .
+ Tip : Manage SFTP Connections with API Resources 
+ You can also manage SFTP connections from the Medidata platform by using Clinical Cloud API resources. For details, see the Create External File Location for Data Import and Export Jobs workflow and the Export File Locations resource on the Clinical Cloud API Knowledge Space.

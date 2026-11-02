@@ -1,0 +1,26 @@
+# View Details For Processing Job Files
+
+## View Details For Processing Job Files
+## Description
+ While reviewing an import job's Job Files tab the panel now groups processing details as a single processing job instead of showing details for each uploaded file. Grouped processing details include: 
+- Status – The processing job's status. 
+- Start Time – The processing job's start date and time.  
+- End Time – The processing job's end date and time. 
+- Imported by – The full name of the user that started the processing job. 
+- No. of Records  – A link that opens the Import Summary panel. The Import Summary panel contains details about the individual processed files. 
+ Feature/enhancement stories referenced in this article:
+ MCC-794829, MCC-810463, MCC-819365 
+## Affected Roles
+ All.
+## Advantages
+ The updated Job Files tab streamlines the details that appear about your processed import job files, or processing jobs. With the streamlined tab, you can easily see common information about your latest processing jobs and make decisions without needing to delve into the details about each file.
+## User Impact
+ See Description.
+## Knowledge Space Updates
+ The MEDS Ingestor Knowledge Space provides updated content to support this enhancement: 
+- Track Progress for CTMS Jobs 
+- Track Progress for Clinical Data Import Jobs 
+- Track Progress for Study Design Metadata Jobs 
+- Track Progress for Study Master Data Jobs 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

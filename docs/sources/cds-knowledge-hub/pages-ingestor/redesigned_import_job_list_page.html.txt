@@ -1,0 +1,30 @@
+# Redesigned Import Job List Page
+
+## Redesigned Import Job List Page
+## Description
+ MEDS Ingestor streamlines the Import Jobs page. Upon entering MEDS Ingestor, the import jobs list appears.  The list includes the following attributes: 
+- Job Status – The job's status: Active or Completed . 
+- Job Name – The job's name. 
+- Study – The job's target study. 
+- Data Type – The job's data type. 
+- Data Integration | Version – The job's data integration name and version. Only applicable to external EDC jobs. 
+- Version Status – Denotes if the job's data integration has a new version available. Only applicable to external EDC jobs. 
+- Lock Status – Denotes if the job's data integration is locked or unlocked. Only applicable to external EDC jobs. 
+- Environment – The job's target study environment. Only applicable to external EDC jobs. 
+ Tip : Click image to enlarge.
+ Feature/enhancement stories referenced in this article:
+ MCC-749428, MCC-743837, MCC-771259, MCC-754109, MCC-778938 
+## Affected Roles
+ All roles with access to MEDS Ingestor.
+## Advantages
+ With the redesigned Jobs List page, you can see your import jobs in a single paginated list. The list shows the jobs' relevant data without needing to inspect individual jobs. You can filter the list, which allows you to quickly find and manage specific jobs.   
+## User Impact
+ The Import Jobs page appears when you enter MEDS Ingestor from iMedidata.
+ From the Import Jobs page, you can perform the following actions:
+- Click  Add Import Job to open the New Import Job wizard. 
+- Sort the import jobs list by any of the attributes. 
+- Click any of the listed import jobs to open the job's Job Files page. 
+- Click any job's gear icon to open the job's Job Configurations page. 
+ The updated import job list does not affect your import job visibility or access. If you cannot see or access your previously created import jobs, review  Updated Building Blocks for MEDS Ingestor and ensure that your role has the appropriate building blocks.
+## Special Considerations
+ None.

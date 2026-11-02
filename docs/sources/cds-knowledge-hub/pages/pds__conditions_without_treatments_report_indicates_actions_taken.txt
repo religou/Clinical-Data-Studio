@@ -1,0 +1,23 @@
+# PDS: Conditions Without Treatments Report Indicates Actions Taken
+
+## PDS: Conditions Without Treatments Report Indicates Actions Taken
+## What Is New?
+ In AI Data Reconciliation, the Conditions without Treatments report now includes the following columns:
+- ACTION TAKEN CM – A check mark indicates that the patient took a concomitant medication.  
+- ACTION TAKEN CP – A check mark indicates that the patient underwent a concomitant procedure. 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ You must map a Treatment ConMed and Treatment ConProcedure in Detect Mapping's Event Analysis for the Action Taken CM and Action Taken CP columns to show in the Conditions without Treatments report.
+## How Do I Benefit?
+ You can quickly determine whether or not there have been concomitant medications taken or concomitant procedures performed on patients who experienced specific conditions.
+## Where Do I See the Change?
+ Patient Data Surveillance > AI Data Reconciliation > Conditions tab > Conditions without Treatments report
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- AI Data Reconciliation 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

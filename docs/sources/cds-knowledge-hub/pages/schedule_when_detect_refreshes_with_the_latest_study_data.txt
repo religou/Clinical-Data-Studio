@@ -1,0 +1,22 @@
+# Schedule When Detect Refreshes with the Latest Study Data
+
+## Schedule When Detect Refreshes with the Latest Study Data
+## Description
+ Medidata Detect now has a Schedule page, which allows you to schedule when Detect refreshes and renders the most recent study data analysis.
+## Affected Roles
+ Medidata Detect administrators
+## Advantages
+ In previous Medidata Detect releases, you had to manually trigger Detect to refresh and render analyses from updated study data snapshots. Now you can schedule automatic, periodic data refreshes to align with the cadence of your organization's data review cycle. And you no longer need to worry about manually triggering the data refresh.
+## User Impact
+ You can now access the Schedule page from Detect's left-hand menu.  On the Schedule page, you can: 
+- Select the Snapshot Schedule to determine the data refresh frequency:
+- Weekly 
+- Bi-Weekly 
+- Monthly 
+- Bi-Monthly 
+- Quarterly 
+- Select the specific day of the week or month you want the data refresh to trigger. 
+ Tip : Click image to enlarge.
+ Also, note that the Refresh Analytics button is removed from all Detect pages.
+## Special Considerations
+ Depending on study data volume, there may be lag time between when the data refresh triggers and when the updated data renders in Detect. So newly rendered data analyses that you view in Detect may reflect the data snapshot from a day or two prior.

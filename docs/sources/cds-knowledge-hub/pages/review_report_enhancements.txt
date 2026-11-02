@@ -1,0 +1,25 @@
+# Review Report Enhancements
+
+## Review Report Enhancements
+## Description
+ With correct permissions, you can now:
+- Delete any created/saved review reports 
+- See all newly created modules accessible to you , when you go to the dropdown for a module  
+- See a popup window that includes the text body, w hen you hover on a description item  
+- See the full content of the message, w hen you type in a ticket description 
+- Mark multiple data domains, including N/A, w hen you create/edit a row item 
+- Store a much larger patient narrative , when you enter text in a description 
+- Expand and contract columns, w hen you navigate to a report and scroll to the report items table. 
+## Affected Roles
+ All.
+## Advantages
+- You can now delete reports that have been erroneously created. 
+- Enhanced User Interface (UI) with full coverage of Detect modules, and updated report item interactions. 
+## User Impact
+ Detect Landing Page > Review Reports > kebab menu > Delete option. 
+## Knowledge Updates
+ Here are links to new and updated content to support this feature/enhancement: 
+ Review Reports 
+## Special Considerations
+ When you delete a report, that report is permanently deleted.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

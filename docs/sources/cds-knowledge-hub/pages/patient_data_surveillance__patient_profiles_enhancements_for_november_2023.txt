@@ -1,0 +1,40 @@
+# Patient Data Surveillance: Patient Profiles Enhancements for November 2023
+
+## Patient Data Surveillance: Patient Profiles Enhancements for November 2023
+## What Is New?
+ Patient Profiles includes the following enhancements in the November 2023 release:
+- The page header section and body section on all Patient Profiles pages include stylistic updates to match the page design of all other Medidata Detect capability pages. 
+- The Design page includes the Last Updated field, which shows the time and date in which the study data currently presented in Patient Profiles was last refreshed and rendered in the user interface. 
+## What Is the Impact?
+## Users/Roles
+ All Patient Profiles users.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+- The updated page header and body design:
+- Promotes cross-capability consistency by aligning the Patient Profiles page design with the page design in all other Medidata Detect capabilities. 
+- Modernizes the Patient Profiles page design with a sleeker look and feel. 
+- The Last Updated timestamp:
+- Clearly communicates when the most recent study data refresh in Patient Profiles occurred 
+- Helps you determine whether or not study data refreshes are occurring at the expected frequency. 
+## Where Do I See the Change?
+ All Patient Profiles page header sections include the updated design.
+ Tip: Click images to enlarge.
+ Old Design 
+ New Design 
+ Changes 
+ | 
+ | 
+ | 
+- The white page header section is clearly differentiated from the gray body section. 
+- A gray divider bar separates the page header section from the body section. 
+- The padding is decreased on each side of the page header section and body section. 
+- The study name no longer shows beneath the page header. 
+ The Last Updated timestamp shows in the far-right side of the Design page header section:
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ Study data automatically refreshes in Patient Profiles daily at approximately 8:00 am (EST), and the data presented within the user interface is current as of 2:00pm (EST) the previous day.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

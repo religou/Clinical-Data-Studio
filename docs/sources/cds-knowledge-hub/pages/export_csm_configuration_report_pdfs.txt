@@ -1,0 +1,21 @@
+# Export CSM Configuration Report PDFs
+
+## Export CSM Configuration Report PDFs
+## Description
+ You can download a CSM Configuration Report. The report contains pertinent configuration information about the error plot, event, potential duplicate patient, and rounding and propagation analysis configuration in your study environment.
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ You can view on demand the data mappings and associated details for each CSM analysis configured in your study environment. The PDF presents the report in a clear, easy-to-read, and exchangeable format for:
+- Offline stakeholder communication 
+- Record retention 
+- Review, approval, and signature 
+## User Impact
+ The CSM Configuration page contains a CSM Configuration Report button. You can click the button to select one or more CSM analyses whose configuration analysis you want to generate in a PDF report. The report contains metadata and pertinent configuration details about each selected CSM analysis configured in your study environment.
+ To learn more, see  Download Detect Mapping Report PDFs .
+## Knowledge Space Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support this feature: 
+- Download Detect Mapping Report PDFs 
+## Special Considerations
+ The CSM Configuration Report only shows configuration details for configured analyses.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,26 @@
+# Create Derived Variable with Check All That Apply
+
+## Create Derived Variable with Check All That Apply
+ You can combine multiple Boolean data set variables into a single derived variable. 
+ U 
+ se Check all that apply derivations when Medidata Rave data is structured such that multiple options can apply to a single field. For example, multiple races can be selected in the demographics form. By using this derived variable type, you can automatically concatenate Boolean data set variables to create a text variable.  
+- Access Data Surveillance or RBQM , and then click Configuration > Derived Variables in the left-hand menu. 
+- Click  Create Derived Variable . 
+- Identify and drag a data set  from the Data Sets list into the Configure Variable section. For example, Adverse Events.
+ Note : If data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or _DTC. For example, the source date is missing the day, the enriched _INT field interpolates the 1st day of the month, and _DTC fields drop the unknown value. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms.
+- Enter the derived variable’s identification information. 
+- Name – Object identifier (OID) of derived variable. For example, "AESER_AESER_TXT". Must be unique. 
+- Label  – Name for derived variable to appear in other applications. This can be the same as the Name field, or a more specific descriptor. For example, "AE Serious, Full". 
+- Select Check all that Apply  from the Derived Variable Type menu. 
+- Drag Boolean variables into the respective Variable  fields.
+ Note : There are initially four Variable fields.  When you add variables into the available fields, another row of fields appears. 
+- Complete the Concatenate wizard: 
+- Prefix – Optional . Enter the text to appear before the derived variable. 
+- Separator   – Optional . Enter the text to appear between the derived variables. Defaults to an extra blank space that you can delete.
+ Note : The default separator is comma (,). You can change the separator as required.
+- Suffix  – Optional . Enter the text to after the derived variable. 
+- Optional . Click   Preview   to view the preview panel.
+ With the preview panel, you can review the derived variable and adjust the variable's parameters before saving. 
+- Click  Save .
+ In Data Surveillance and RBQM, the list of available datasets and variables that you can view and select from include derived variables at the bottom of the list. In Data Surveillance, the list of available datasets and variables appends derived variable names with the blue DERIVED icon. 
+ Note : If the Boolean variable value is null (0), the derived variable parameter appears empty.

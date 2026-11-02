@@ -1,0 +1,8 @@
+# Query Data
+
+## Query Data
+ Medidata Patient Profiles includes the following capabilities relating to Rave query data:
+- Patient Profiles Displays Queries In Study Data 
+- Sort Query Data By Column Headers 
+- Search Query Data By Column Filters 
+- Access to Rave EDC Source Data Only Available for Rave EDC-Derived Patient Profile Data

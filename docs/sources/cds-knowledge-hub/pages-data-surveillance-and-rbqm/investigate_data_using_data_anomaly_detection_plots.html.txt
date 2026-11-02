@@ -1,0 +1,363 @@
+# Investigate Data Using Data Anomaly Detection Plots
+
+## Investigate Data Using Data Anomaly Detection Plots
+ You can use the various Data Anomaly Detection features and capabilities to help you to determine outliers , anomalies, risks, and trends in your study data. 
+ Tip : Data Anomaly Detection visualizations and capabilities vary depending on the type of data analysis Statistical Monitoring applies to the variables you select to view. Therefore, being able to identify which data analysis you are viewing in a Data Anomaly Detection plot helps you effectively use and interpret plots.
+ While reviewing Data Anomaly Detection plots, you can:
+- View individual patient profiles 
+- Flag, track, and audit reviewed study data 
+- View Rave Queries in Data Anomaly Detection Plots 
+- Log, track, and manage issues   discovered based on Statistical Monitoring's data analysis. 
+ Note: Last Updated Timestamp
+ The Last Updated timestamp reflects the date and time when the most recent data snapshot generation process started. It does not represent the date and time when the data in Data Anomaly Detection was last refreshed. Therefore, the Last Updated timestamp may be earlier than the time at which the refreshed data becomes available in Data Anomaly Detection.
+ Tip : Play the video below to learn how to investigate data using data anomaly detection plots.
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+## Sort, Filter, and Zoom In on Data Anomaly Detection Data
+ The Data Anomaly Detection visualization tool provides a unique set of plot sorting, filtering, and zoom options based on which type of data analysis RBQM applies to the selected variable. You can use the sorting, filtering, and zoom options to:
+- View and interpret your study data from multiple view points,  
+- Find and drill down on specific data. 
+ Click a data analysis type below to learn how you can sort, filter, and zoom in on plot data based on which type of data analysis you are viewing.
+ Text Analysis 
+ Sort the Plot Data 
+ You can sort the data in the Text Analysis plot visualization using the following options:
+- High - Low Score – Shows text values on the x-axis from left to right in descending order based on error score. That is, the text values with the highest error scores show the left; the text values with the lowest error scores show on the right. This is the default plot setting. 
+- Low - High Score – Shows text values on the x-axis from left to right in ascending order based on error score. That is, the text values with the lowest error scores show on the left; the text values with the highest error scores show on the right. 
+- Alphabetical Text – Shows text values on the x-axis from left to right alphabetically in ascending order; that is, from A on the left to Z on the right. 
+ Tip : Click Reset Plot to reset to the default High - Low Score filter view.
+ Filter the Plot to Display Specific Country-, Site-, or Patient-related Data Points 
+ By default, the plot shows the frequency with which each text value occurs within the selected variable. But you can also drill down further and filter the plot to view only data points that correspond with a specific country, site, or patient. 
+- Navigate to the Summary section below the plot visualization.
+ Note : By default, the plot shows all data points associated with the selected variable
+- Do any of the following:
+ Filter the plot to display specific country-related data points 
+- Click the View By filter, select Country , and then either select a country from the Country  filter or click a specific country's row in the table. 
+ Filter the plot to display specific site-related data points 
+- Click the View By filter, select Site , and then either select a site from the Site filter or click a specific site's row in the table. 
+ Filter the plot to display specific patient-related data points 
+- Click the View By filter, select Patient , and then either select a patient ID from the Patient  filter or click a specific patient's row in the table below. 
+- Click the View By filter, select Data: Top 100 Outliers , and then either select a patient ID from the Patient  filter or click a specific patient's row in the table. 
+ Based on your filter selection, the plot visualization highlights the specified country, site, or patient-related data points and dims all other data points. 
+ Numeric Analysis 
+ Filter the Plot to Display Data Based on Range and Outliers 
+ You can filter the Numeric Analysis plot visualization using the following options:
+- Outer Values – Filters the plot so that only data points that are outside of the interquartile range show. For example, if a plot contains a high volume of data points, then you can use the Outer Values filter to show only data that is outside of the interquartile range to help you focus more on the data you need. 
+- Outliers – Filters the plot to show only outlier data points. Selecting this option helps you better identify anomalies in your study data that may require further investigating or reporting. 
+- Box Plot – Filters the plot to show the plot's lower whisker value, 25th percentile value, median value, 75th percentile value, and upper whisker value. Using the Box Plot filter helps you better see the variable's distribution of data. 
+ Tip : Click Reset to reset to the default filter view. The default visualization shows all data points and the box plot and whiskers.
+ Filter the Plot to Display Specific Country-, Site-, or Patient-related Data Points 
+ By default, the data anomaly detection plot shows all data points associated with the selected variable. But you can also drill down further and filter the plot to show only data points that correspond to a specific country, site, or patient. 
+- Navigate to the Summary section below the plot visualization.
+ Note : By default, the plot shows all data points associated with the selected variable.
+- Do any of the following:
+ Filter the plot to display specific country-related data points 
+- Click the View By filter, select Country , and then either select a country from the Country  filter or click a specific country's row in the table. 
+ Filter the plot to display specific site-related data points 
+- Click the View By filter, select Site , and then either select a site from the Site filter or click a specific site's row in the table. 
+ Filter the plot to display specific patient-related data points 
+- Click the View By filter, select Patient , and then either select a patient ID from the Patient  filter or click a specific patient's row in the table. 
+- Click the View By filter, select Data: Top 100 Outliers , and then either select a patient ID from the Patient  filter or click a specific patient's row in the table. 
+ Based on your filter selection, the plot visualization highlights the specified country, site, or patient-related data points and dims all other data points. 
+ Zoom In on Data Points on a Specific Section of the Plot 
+ You can zoom in on a specific section of the Numeric Analysis Plot. For plots that have a high volume of data points, zooming in helps you get a closer, more granular view of specific data points on the plot. 
+- Click, hold, and drag your cursor to draw a box on a specific section of the plot that you want to zoom in on. 
+- If necessary, click Reset Zoom at the upper right of the visualization to return to the default zoom level. 
+ Text Versus Text Analysis 
+ View the Plot Data Based on Occurrences or Threshold 
+ From the Text Versus Text Analysis plot's  Show filter, you can select one of the following:
+- Threshold – Shows both variables' text values in a frequency distribution plot. Viewing by Threshold helps you see which variable combinations that RBQM considers as the most extreme outliers across the pair of variables. This is the Text Versus Text Analysis plot's default view. If you select Threshold, the following plot filter options appear:
+- High - Low Score – Shows text values on the x-axis from left to right in descending order based on error score . That is, the text values with the highest error scores show on the left; the text values with the lowest error scores show on the right. This is the default plot setting. 
+- Low - High Score – Shows text values on the x-axis from left to right in ascending order based on error score. That is, the text values with the lowest error scores show on the left; the text values with the highest error scores show on the right. 
+- Alphabetical Text – Shows text values on the x-axis from left to right alphabetically in ascending order; that is, from A on the left to Z on the right. 
+- Swap Axis  –  Select to swap the X and Y axes. Swapping the X and Y axes allows you to view the variables' data from a different angle or perspective to evaluate how the data is clumping and trending. 
+ Tip : Click Reset Plot to reset to the default High - Low Score filter view.
+- Occurrences – Displays both variables' text values in a frequency distribution plot. Viewing by Occurrences shows all possible text value combinations and the frequency in which each combination occurs across the pair of variables. If you select Occurrences, the following plot filter option shows:
+- Swap Axis  –  Select to swap the X and Y axes. Swapping the X and Y axes allows you to view the variables' data from a different angle or perspective to evaluate how the data is clumping and trending. 
+ Tip : Click Reset Plot to reset to the default filter view. The default filter view has Threshold selected from the Show filter.
+ Filter the Plot to Display Specific Country-, Site-, or Patient-related Data Points 
+ By default, the plot shows all data points associated with the selected variable. But you can also drill down further and filter the plot to show only data points that correspond with a specific country, site, or patient. 
+- Navigate to the Summary section below the plot visualization.
+ Note : By default, the plot shows all data points associated with the selected variable.
+- Do any of the following:
+ Filter the plot to display specific country-related data points 
+- Click the View By filter, select Country , and then either select a country from the Country  filter or click a specific country's row in the table. 
+ Filter the plot to display specific site-related data points 
+- Click the View By filter, select Site , and then either select a site from the Site filter or click a specific site's row in the table. 
+ Filter the plot to display specific patient-related data points 
+- Click the View By filter, select Patient , and then either select a patient ID from the Patient  filter or click a specific patient's row in the table. 
+- Click the View By filter, select Data: Top 100 Outliers , and then either select a patient ID from the Patient  filter or click a specific patient's row in the table. 
+ Based on your filter selection, the plot visualization highlights the specified country-, site-, or patient-related data points and dims all other data points. 
+ Numeric Versus Numeric Analysis 
+ Filter the Plot Based on Outliers and Jitter the Plot 
+ You can filter the Numeric Versus Numeric Analysis plot visualization using the following options:
+- Swap Axis  –  Select to swap the X and Y axes. Swapping the X and Y axes allows you to view the variables' data from a different angle or perspective to evaluate how the data is clumping and trending. 
+- Outliers – Filters the plot to show only outlier data points. Selecting this option helps you better identify anomalies in your study data that may require further investigating or reporting. 
+- Jittered –  Jittered is selected by default. If many data points have the same numeric value, the selected jittered option adjusts the data anomaly detection plot visualization to show each individual data point. If you clear the jittered option, then all data points with the same numeric value are indistinguishable on the plot. Select jittered if you want to see the individual data points. Deselect jittered if you want a better view of the trending in the variables' overall data. 
+ Tip : Click Reset to reset the plot to the default view, which has only Jittered selected.
+ Filter the Plot to Display Specific Country-, Site-, or Patient-related Data Points 
+ By default, the plot shows all data points associated with the selected variable. But you can also drill down further and filter the plot to show only data points that correspond with a specific country, site, or patient. 
+- Navigate to the Summary section below the plot visualization.
+ Note : By default, the plot shows all data points associated with the selected variable.
+- Do any of the following:
+ Filter the plot to display specific country-related data points 
+- Click the View By filter, select Country , and then either select a country from the Country  filter or click a specific country's row in the table. 
+ Filter the plot to display specific site-related data points 
+- Click the View By filter, select Site , and then either select a site from the Site filter or click a specific site's row in the table. 
+ Filter the plot to display specific patient-related data points 
+- Click the View By filter, select Patient , and then either select a patient ID from the Patient  filter or click a specific patient's row in the table. 
+- Click the View By filter, select Data: Top 100 Outliers , and then either select a patient ID from the Patient  filter or click a specific patient's row in the table. 
+ Based on your filter selection, the plot visualization highlights the specified country-, site-, or patient-related data points and dims all other data points. 
+ Zoom In on Data Points on a Specific Section of the Plot 
+ You can zoom in on a specific section of the Numeric Versus Numeric Analysis plot. For plots that have a high volume of data points, zooming in helps you get a closer, more granular view of specific data points on the plot. 
+- Click, hold, and drag your cursor to draw a box on a specific section of the plot that you want to zoom in on. 
+- If necessary, click Reset Zoom at the upper right of the visualization to return to the default zoom level. 
+ Numeric Versus Text Analysis 
+ Filter the Plot to Display Data Based on Range and Outliers 
+ You can filter the Numeric Versus Text Analysis plot visualization using the following options:
+- Outer Values – Filters the plot so that only data points that are outside of the interquartile range show. For example, if a plot contains a high volume of data points, then you can use the Outer Values filter to show only data that is outside of the interquartile range to help you focus more on the data you need. 
+- Outliers – Filters the plot to show only outlier data points. Selecting this option helps you better identify anomalies in your study data that may require further investigating or reporting. 
+- Box Plot – Filters the plot to show the plot's lower whisker value, 25th percentile value, median value, 75th percentile value, and upper whisker value. Using the Box Plot filter helps you better see the variables' distribution of data. 
+ Tip : Click Reset to reset to the default filter view. The default visualization shows all data points and the box plot and whiskers.
+ Sort the Plot Data 
+ You can sort the data in the Numeric Versus Text Analysis plot visualization by Alphabetical order, Mean, Median, or spread (Q3-Q1).
+- From the Sort by filter, select one of the following options:
+- Alphabetical  – Sorts text values on the X-axis in ascending alphabetical order (A on the left; Z on the right). 
+- Mean  – Sorts the X-axis based on box plot from lowest mean on the left to highest mean on the right. 
+- Median  – Sorts the X-axis based on box plot from lowest median on the left to highest median on the right. 
+- Spread (Q3-Q1)  – Sorts the X-axis based on box plot from smallest middle 50th percentile on the left to largest middle 50th percentile on the right. 
+ Tip : Click Reset Plot  to reset to the default filter view. The default visualization shows all data points and the box plot and whiskers.
+ Filter the Plot to Display Specific Country-, Site-, or Patient-related Data Points 
+ By default, the plot shows all data points associated with the selected variable. But you can also drill down further and filter the plot to view only data points that correspond to a specific country, site, or patient. 
+- Navigate to the Summary section below the plot visualization.
+ Note : By default, the plot shows all data points associated with the selected variable.
+- Do any of the following:
+ Filter the plot to display specific country-related data points 
+- Click the View By filter, select Country , and then either select a country from the Country  filter or click a specific country's row in the table. 
+ Filter the plot to display specific site-related data points 
+- Click the View By filter, select Site , and then either select a site from the Site filter or click a specific site's row in the table. 
+ Filter the plot to display specific patient-related data points 
+- Click the View By filter, select Patient , and then either select a patient ID from the Patient  filter or click a specific patient's row in the table. 
+- Click the View By filter, select Data: Top 100 Outliers , and then either select a patient ID from the Patient  filter or click a specific patient's row in the table. 
+ Based on your filter selection, the plot visualization highlights the specified country-, site-, or patient-related data points and dims all other data points. 
+ Zoom In on Data Points on a Specific Section of the Plot 
+ You can zoom in on a specific section of the Numeric Versus Text Analysis Plot. For plots that have a high volume of data points, zooming in helps you get a closer, more granular view of specific data points on the plot. 
+- Click, hold, and drag your cursor to draw a box on a specific section of the plot that you want to zoom in on. 
+- If necessary, click Reset Zoom at the upper right of the visualization to return to the default zoom level. 
+## Interpret Data Anomaly Detection Plots
+ Your proficiency in reading and understanding Data Anomaly Detection plots greatly affects your ability to determine outliers , anomalies, risks, and trends in your study data. This determination helps ensure you take efficient, well-informed follow-up actions in how you further investigate or report your study data findings.
+ Click a data analysis type below to learn how to interpret the plot based on which type of data analysis RBQM applies to the variable.
+ Text Analysis Plot 
+- The Y-axis shows the error or discrepancy score . 
+- The X-axis show each unique text value as entered by the patients in the eCRF for the selected variable. By default, the text values list from highest error score to the lowest error score. 
+- The number of times that the text value occurs within the variable shows on the plot in a blue rectangle, orange hexagon, or red pentagon. For example, . 
+- Each color-coded shape is defined below:
+- Blue Rectangle   – The text value's error score is less than 2.95. This means that the text value has a statistically normal number of occurrences within the variable. 
+- Orange Hexagon   – The text value's error score is between 2.95 and 4.95. This means that the text value has a higher- or lower-than-normal number of occurrences within the variable. Thus, RBQM considers the data type an outlier. 
+- Red Pentagon   – The text value's error score exceeds 4.95. This means that the text value has a significantly higher- or lower-than-normal number of occurrences within the variable. Thus, RBQM considers the data type an extreme outlier. 
+- You can hover your cursor on a blue square, orange hexagon, or red pentagon to view the text value name and its error score. 
+- You can click a blue square, orange hexagon, or red pentagon to display additional information about that data point in a separate panel to the right of the plot.
+ Field Descriptions 
+- Data Point  – The selected data point's raw text value as entered by the patients in the eCRF for the variable. 
+- Data Point Score – A numeric score generated by Statistical Monitoring's high-dimensional data anomaly detection algorithms , which measures the discrepancy of an individual data point relative to the overall study data. Data point scores help you uncover outliers, anomalies, risks, and trends in your study data, which may require follow-up action. An error score of less than 2.95 indicates statistically normal data; between 2.95 and 4.95 indicates outlier data; exceeding 4.95 indicates extreme outlier data. 
+- Occurrences  – The combined total number of times in which all patients entered the text value for the selected variable. 
+- Patient  –  The patient ID for the patient represented in the data point.  
+- Site  – The site the patient belongs to.   
+- Country  –  The country in which the patient's site is located. 
+- #  – The number of times the text value occurred per individual patient represented in the selected data point. 
+- X  – Located in the upper-right hand corner of the panel. Click to close the panel. 
+- The dotted red line, , represents the outlier threshold  and spans across the plot at the 2.95 error score mark. All text value data points positioned above the line are outliers. All text value data points below the line are in the normal range. 
+ Numeric Analysis Plot 
+- Each patient data point on the plot is represented by a blue square, orange circle, or red diamond:
+- Blue Square  – The patient data point's  discrepancy score is less than 2.95. This means that the patient data point has a statistically normal numeric value within the variable. 
+- Orange Circle   – The patient data point's discrepancy score is between 2.95 and 4.95. This means that the patient data point has a higher- or lower-than-normal numeric value within the variable. Thus, RBQM considers the numeric value an outlier. 
+- Red Diamond   – The patient data point's discrepancy score exceeds 4.95. This means that the patient data point has a significantly higher- or lower-than-normal numeric value within the variable. Thus, RBQM considers the numeric value an extreme outlier. 
+- You can hover your cursor on any blue square, orange circle, or red diamond to view the following data point-specific information:
+- Patient  – The patient ID for the patient represented in the data point.  
+- Value  – The raw value entered in the eCRF for the patient with regards to the variable. 
+- Site  – The site the patient belongs to. 
+- Country  – The country in which the site is located. 
+- Disc Score  –  A numeric score generated by Statistical Monitoring's high-dimensional data anomaly detection algorithms , which measures the discrepancy of an individual data point relative to the overall study data. Discrepancy scores help you uncover outliers, anomalies, risks, and trends in your study data, which may require follow-up action. An error score of less than 2.95 indicates statistically normal data; between 2.95 and 4.95 indicates outlier data; exceeding 4.95 indicates extreme outlier data. 
+- By default, the variable's data points show on an overlay of a box-and-whisker plot. All data points that lie within the green box, , are within the interquartile range range for all data points within the variable. 
+- If you choose the Box Plot filter option, the visualization removes all data points from the box-and-whisker plot. Doing so helps you better view the variable's distribution of data in terms of (from top to bottom) the variable's upper whisker value , 75th percentile value, median, 25th percentile value, and lower whisker value . T he green box,  , also shows the interquartile range . For example:
+ Text Versus Text Analysis Plot 
+ The Text Versus Text Analysis plot allows you to view your data from two perspectives:
+- Threshold  – Displays both variables' data in a frequency distribution plot so that you can see which combination of text values are outliers across both variables. This is the default view. 
+- Occurrences – Displays both variables' data in a frequency distribution plot so that you can see the number of times two combined text values occur across both variables. Using the Occurrences view helps you see the count of all text value combinations across two variables. 
+ When Viewing By Threshold 
+- The X-axis shows the paired text values that occur across both variables . 
+- The Y-axis shows the paired text values' discrepancy score . 
+- The number of times that the paired text values occur within the selected pair of variables shows on the plot in a blue rectangle, orange hexagon, or red pentagon. For example, . Each color-coded shape is defined below:
+- Blue Rectangle  – The text value combination's  error score is less than 2.95. This means that the text data type has a statistically normal number of occurrences within the variable. 
+- Orange Hexagon   – The text value combination's error score is between 2.95 and 4.95. This means that the text value combination has a  higher- or lower-than-normal number of occurrences within the variable. Thus, RBQM considers the text value combination an outlier . 
+- Red Pentagon  – The text value combination's score exceeds 4.95. This means that the text data type has a significantly   higher- or lower-than-normal number of occurrences within the variable. Thus, RBQM considers the text value combination an extreme outlier. 
+- You can hover your cursor on a blue square, orange hexagon, or red pentagon to view the data point's text values and discrepancy score.
+- You can click a blue square, orange hexagon, or red pentagon to view additional information about that data point in a separate panel to the right of the plot.
+ Field Descriptions 
+- <Text Value Name 1>  –  One of the raw text values out of the combined pair entered in the eCRF for the patient that occurs across both variables. 
+- <Text Value Name 2>  –  The other raw text value out of the combined pair entered in the eCRF for the patient that occurs across both variables . 
+- Data Point Score – A numeric score generated by Statistical Monitoring's high-dimensional data anomaly detection algorithms , which measures the discrepancy of an individual data point relative to the overall study data. Data point scores help you uncover outliers , anomalies, risks, and trends in your study data, which may require follow-up action. An error score of less than 2.95 indicates statistically normal data; between 2.95 and 4.95 indicates outlier data; exceeding 4.95 indicates extreme outlier data. 
+- Occurrences  – The number of times in which a patient entered a combined pair of text values across both variables. 
+- Patient  –  The patient ID for the patient represented in the data point.  
+- Site  – The site the patient belongs to.   
+- Country  –  The country in which the site is located. 
+- Frequency  – The number of times the paired text values occurred per individual patient represented in the selected data point. 
+- X  – Located in the upper-right hand corner of the panel. Click to close the panel. 
+- The dotted red line, , represents the outlier  threshold and spans across the plot at the 2.95 error score mark. All data points positioned above the line are outliers. All data points below the line or in the normal range. 
+ When Viewing By Occurrences: 
+- The X-axis shows one variable's set of text values. 
+- The Y-axis show the other variable's set of text values. 
+- The number of times that the paired text values occur within the selected pair of variables shows on the plot in a blue rectangle, orange hexagon, or red pentagon. For example, . 
+- Each color-coded shape is defined below:
+- Blue Rectangle  – The text value combination's  error score is less than 2.95. This means that the text value combination has a statistically normal number of occurrences within the variable. 
+- Orange Hexagon   – The text value combination's error score is between 2.95 and 4.95. This means that the text value combination has a higher- or lower-than-normal number of occurrences within the variable. Thus, RBQM considers the text value combination an outlier. 
+- Red Pentagon   – The text value combination's error score exceeds 4.95. This means that the text value combination has a significantly higher- or lower-than-normal number of occurrences within the variable. Thus, RBQM considers the text value combination an extreme outlier. 
+- You can hover your cursor on a blue square, orange hexagon, or red pentagon to view the data point's text values' error score.
+- You can click a blue square, orange hexagon, or red pentagon to view additional information about that data point in a separate panel to the right of the plot.
+ Field Descriptions 
+- <X-Axis Text Value Name>  –  The raw text value entered in the eCRF for the patient with regards to the X-axis variable. 
+- <Y-Axis Text Value Name>  –  The raw text value entered in the eCRF for the patient with regards to the Y-axis variable. 
+- Data Point Score – A numeric score generated by Statistical Monitoring's high-dimensional data anomaly detection algorithms , which measures the discrepancy of an individual data point relative to the overall study data. Data point scores help you uncover outliers , anomalies, risks, and trends in your study data, which may require follow-up action. An error score of less than 2.95 indicates statistically normal data; between 2.95 and 4.95 indicates outlier data; exceeding 4.95 indicates extreme outlier data. 
+- Occurrences  – The number of times in which a patient entered a combined pair of text values across both variables. 
+- Patient  –  The patient ID for the patient represented in the data point.  
+- Site  – The site the patient belongs to.   
+- Country  –  The country in which the patient's site is located. 
+- Frequency  – The number of times the paired text values occurred per individual patient represented in the selected data point. 
+- X  – Located in the upper-right hand corner of the panel. Click to close the panel. 
+ Numeric Versus Numeric Analysis Plot 
+- The X-axis shows one variable's set of numeric values in ascending order (lowest to highest from left to right). 
+- The Y-axis shows the other variable's set of numeric values in descending order (lowest to highest from bottom to top). 
+- Each patient data point on the plot is represented by a blue square, orange circle, or red diamond:
+- Blue Square  – The patient data point's  discrepancy score is less than 2.95. This means that the patient data point has a statistically normal numeric value within the variable. 
+- Orange Circle   – The patient data point's discrepancy score is between 2.95 and 4.95. This means that the patient data point has a higher- or lower-than-normal numeric value within the variable. Thus, RBQM considers the numeric value an outlier. 
+- Red Diamond   – The patient data point's discrepancy score exceeds 4.95. This means that the patient data point has a significantly higher- or lower-than-normal numeric value within the variable. Thus, RBQM considers the numeric value an extreme outlier. 
+- You can hover your cursor on any blue square, orange circle, or red diamond to view the following data point-specific information:
+- Patient  – The patient ID for the patient represented in the data point.  
+- <X-axis variable name> –  The raw value entered in the eCRF for the patient with regards to the X-axis variable. 
+- <Y-axis variable name>  –  The raw value entered in the eCRF for the patient with regards to the Y-axis variable. 
+- Site  – The site the patient belongs to. 
+- Country  – The country in which the site is located. 
+- Disc Score – A numeric score generated by Statistical Monitoring's high-dimensional data anomaly detection algorithms , which measures the discrepancy of an individual data point relative to the overall study data. Discrepancy scores help you uncover outliers , anomalies, risks, and trends in your study data, which may require follow-up action. An error score of less than 2.95 indicates statistically normal data; between 2.95 and 4.95 indicates outlier data; exceeding 4.95 indicates extreme outlier data. 
+ Numeric Versus Text Analysis Plot 
+- The X-axis shows one variable's text values. By default, the text values show in ascending alphabetical order (A on the left; Z on the right). 
+- The Y-axis shows the other variable's numeric values in descending order (lowest to highest from bottom to top). 
+- A series of box-and-whisker plots show side by side. Each text value has its own corresponding box-and-whisker plot. 
+- Each patient data point on the plot is represented by a blue square, orange circle, or red diamond:
+- Blue Square  – The patient data point's  discrepancy score is less than 2.95. This means that the patient data point has a statistically normal numeric value within the variable. 
+- Orange Circle   – The patient data point's discrepancy score is between 2.95 and 4.95. This means that the patient data point has a higher- or lower-than-normal numeric value within the variable. Thus, RBQM considers the numeric value an outlier . 
+- Red Diamond   – The patient data point's discrepancy score exceeds 4.95. This means that the patient data point has a significantly higher- or lower-than-normal numeric value within the variable. Thus, RBQM considers the numeric value an extreme outlier. 
+- You can hover your cursor on any blue square, orange circle, or red diamond to view the following data point-specific information:
+- Patient  – The patient ID for the patient represented in the data point.  
+- <Y-axis variable name>  –  The raw value entered in the eCRF for the patient with regards to the Y-axis variable. 
+- <X-axis variable name> –  The raw value entered in the eCRF for the patient with regards to the X-axis variable. 
+- Site  – The site the patient belongs to. 
+- Country  – The country in which the site is located. 
+- Disc Score – A numeric score generated by Statistical Monitoring's high-dimensional  data anomaly detection algorithms , which measures the discrepancy of an individual data point relative to the overall study data. Discrepancy scores help you uncover outliers, anomalies, risks, and trends in your study data, which may require follow-up action. An error score of less than 2.95 indicates statistically normal data; between 2.95 and 4.95 indicates outlier data; exceeding 4.95 indicates extreme outlier data. 
+- By default, the variables' data points show on an overlay of a box-and-whisker plot. All data points that lie within the green box,  , are within the interquartile range for all data points within the variable. 
+- If you choose the Box Plot filter option, the visualization removes all data points from the box-and-whisker plot so that you can better view the variables' distribution of data in terms of (from top to bottom) the variables' upper whisker vallue , 75th percentile value, median, 25th percentile value, and lower whisker value . T he green box,  , also shows the interquartile range. For example:
+## Use and Interpret the Plot Summary Table
+ The Summary table lists a summary of all data points in the plot visualization. From the Summary table, you can:
+- View all of the selected variable's  data points by:
+- Country 
+- Site 
+- Patient 
+- Top 100 outliers 
+- Sort by column to view and find data. 
+- Filter the plot to highlight specific country-, site-, or patient-related data points to help you better find specific data on the plot.
+ View Summary Table Data By Country, Site, Patient, or Top 100 Outliers 
+- Navigate to the Summary section below the plot visualization. 
+- From the View By filter, select any of the following:
+ Country 
+ The Summary table lists all countries in the study by default. To filter the Summary table to show a specific country's data, select a country from the Country filter.
+ Columns When Viewing By Country 
+- Country  –  The country in which the patient's site is located. 
+- Mean Outlier Score  – The mean  discrepancy score of all the country's data points that are considered outliers ; that is, the mean score of all data points with a discrepancy score above 2.95. 
+- # of Sites   – The number of sites located within the country. 
+- # of Patients   – The number of patients located within the country. 
+- # of Datapoints   – The number of data points associated with the country. 
+- # Outlier   – The number of data points associated with the country that are considered outliers . 
+- % Outlier   – The percentage of data points associated with the country that are considered outliers. 
+- # Outlier Patients   – The number of patients associated with the country that reported outlying data. 
+- % Outlier Patients   – The percentage of patients associated with the country that reported outlying data. 
+- Status  – Indicates the status of any issues logged against the site. You can click a status icon to view more details about the issues reported at the site. 
+- <Blank> – A blank cell indicates that an issue has never been logged at the site.  
+-  – Indicates that at least one issue at the site or country remains unresolved. 
+-  – Indicates all reported issues at the site or country are resolved. 
+- The number next to the flag; for example, , represents the number of issues reported at the site or country. 
+- Actions  – Click  in the row that corresponds with the site you want to create an issue for. You can create a Non-protocol Deviation. 
+ Site 
+ The Summary table lists all sites in the variable by default. To filter the Summary table to show only data from a specific site, click the Site filter, and select a site.
+ Columns When Viewing By Site 
+- Site  –  The site the patient belongs to. 
+- Mean Outlier Score  –  The mean discrepancy score of all the site's data points that are considered outliers ; that is, the mean score of all data points with a discrepancy score above 2.95. 
+- Country   – The country in which the site is located. 
+- # of Patients   – The number of patients belonging to the site. 
+- # of Datapoints   – The number of data points associated with the site. 
+- # Outlier   – The number of data points associated with the site that are considered outliers . 
+- % Outlier   – The percentage of data points associated with the site that are considered outliers. 
+- # Outlier Patients   – The number of patients associated with the site that reported outlying data. 
+- % Outlier Patients   – The percentage of patients associated with the site that reported outlying data. 
+- Status  – Indicates the status of any issues logged against the site. You can click a status icon to view more details about the issues reported at the site. 
+- <Blank> – A blank cell indicates that an issue has never been logged at the site.  
+-  – Indicates that at least one issue at the site or country remains unresolved. 
+-  – Indicates all reported issues at the site or country are resolved. 
+- The number next to the flag; for example, , represents the number of issues reported at the site or country. 
+- Actions  – Click  in the row that corresponds with the site you want to create an issue for. You can create a Protocol Deviation or Non-protocol Deviation. 
+ Patient 
+ The Summary table lists all patients in the variable by default. To filter the Summary table to show only data from a specific patient, click the Patient filter, and select a patient ID.
+ Columns When Viewing By Patient 
+- Patient  –  The patient ID for the patient represented in the data point .  
+- Mean Outlier Score – The mean  discrepancy score of all the patient's data points that are considered outliers ; that is, the mean score of all data points with a discrepancy score above 2.95. 
+- Country   – The country in which the patient's site is located. 
+- Site   – The site the patient belongs to. 
+- # of Datapoints   – The number of data points associated with the patient. 
+- # Outlier   – The number of data points associated with the patient that are considered outliers . 
+- % Outlier   – The percentage of data points associated with the patient that are considered outliers. 
+ Data: Top 100 Outliers 
+ The Summary table lists the top 100 outlier data points  in the variable by default. To filter the Summary table to show only data from a specific patient, click the Patient filter, and select a patient ID.
+ Columns When Viewing By Data: Top 100 Outliers 
+- Patient  –  The patient ID for the patient represented in the data point.  
+- Country –  The country in which the patient's site is located. 
+- Site  –  The site the patient belongs to. 
+- <variable 1>   – The text or numeric value represented on the data anomaly detection plot's X-axis. 
+- <variable 2> – Only appears on plots that compare two variables. This represents the second text or numeric value represented on the data anomaly detection plot's X-axis when the data anomaly detection plot shows text versus text , numeric versus numeric , or numeric versus text analysis . 
+- Discrepancy Score   – A numeric score generated by Statistical Monitoring's high-dimensional data anomaly detection algorithms , which measures the discrepancy of an individual data point relative to the overall study data. Discrepancy scores help you uncover outliers, anomalies, risks, and trends in your study data, which may require follow-up action. An error score of less than 2.95 indicates statistically normal data; between 2.95 and 4.95 indicates outlier data; exceeding 4.95 indicates extreme outlier data. 
+- Status   –  indicates that the data point has review action history, but is not currently in a reviewed state .  indicates that the data point is reviewed. To learn more, see Flag, Track, and Audit Reviewed Study Data . 
+- Actions   – Clicking  lists a set of actions available to you, such as Mark as Reviewed . To learn more, see  Flag, Track, and Audit Reviewed Study Data . 
+ Sort the Summary Table 
+- Navigate to the Summary section below the plot visualization.
+By default, the Summary table is sorted by Mean Outlier Score in descending order (highest score at the top; lowest at the bottom).
+ Note : If viewing the table by Data: Top 100 Outliers, then by default the table is sorted by  Discrepancy Score . 
+- Click any column header to sort by the column. The sorted header shows in blue font.  indicates that the column is sorted in ascending alphabetical (A at the top; Z at the bottom) or descending numeric order (highest value at the top, lowest at the bottom). 
+- Click a column header twice  to sort in descending alphabetical (Z at the top; A at the bottom) or ascending numeric order (lowest value at the top, highest at the bottom). 
+ Filter the Plot to Display Specific Country-, Site-, or Patient-related Data Points 
+ By default, the data anomaly detection plot shows all data points associated with the selected variable. But you can also drill down further and filter the plot to show only data points that correspond with a specific country, site, or patient. 
+- Navigate to the Summary section below the plot visualization.
+ Note : By default, the plot shows all data points associated with the selected variable.
+- Do any of the following:
+ Filter the plot to display specific country-related data points 
+- Click the View By filter, select Country , and then either select a country from the Country  filter or click a specific country's row in the table. 
+ Filter the plot to display specific site-related data points 
+- Click the View By filter, select Site , and then either select a site from the Site filter or click a specific site's row in the table. 
+ Filter the plot to display specific patient-related data points 
+- Click the View By filter, select Patient , and then either select a patient ID from the Patient  filter or click a specific patient's row in the table. 
+- Click the View By filter, select Data: Top 100 Outliers , and then either select a patient ID from the Patient  filter or click a specific patient's row in the table. 
+ Based on your filter selection, the data anomaly detection plot visualization highlights the specified country-, site-, or patient-related data points and dims all other data points. 
+## Review Individual Patients with Critical Data
+ Statistical Monitoring users with authorized Medidata Patient Profiles access can view individual patient profiles from Statistical Monitoring's Data Anomaly Detection page. This enables you to: 
+- View individual patient's profile by clicking individual plot data points 
+- Quickly drill into Patient Profiles directly from Statistical Monitoring's Data Anomaly Detection plots to help you better understand the patient's data in context. 
+- Seamlessly perform data point analysis on specific patients to determine why the patient is an outlier. 
+- Conveniently view data in a per-patient format to understand the patients’ journey throughout the trial. 
+ To learn more, see  View Individual Patient Profiles from the Data Anomaly Detection Page . 
+## Flag, Track, and Audit Reviewed Study Data
+ You can mark outlier data points on plots as reviewed. Marking outlier data points as reviewed helps you and other team members identify which data has or has not been reviewed. This optimizes your overall team performance by preventing repeat work and helping your team recognize and focus on the data that still requires review.
+ To learn more, see  Flag, Track, and Audit Reviewed Study Data .
+## Log and Track Issues
+ Authorized users working in Statistical Monitoring can log, track, and manage  issues while jointly reviewing Statistical Monitoring's study data analysis.   This yields the following benefits: 
+- Streamlined issue logging. 
+- Reduced recurrence of duplicate issues. 
+- Clear line of sight of site or country  issues and issue status. 
+- Reduced time and cost required to create and manage issues. 
+- Enhanced work experience and productivity in a centralized location. 
+- Improved ability to identify and mitigate risks to protocol compliance, patient safety, data integrity, and overall study quality. 
+ Important : You  can only view or create issues for sites and countries assigned to you. 
+ To learn more, see  Create, View, and Edit Issues from Data Anomaly Detection Plots .

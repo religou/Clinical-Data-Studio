@@ -1,0 +1,31 @@
+# RBQM: Risk Assessment Quality of Life Improvements for RBQM September 2024
+
+## RBQM: Risk Assessment Quality of Life Improvements for RBQM September 2024
+## What Is New?
+ Risk Assessment includes the following enhancements:
+- On the Assessment Details page, you can add a study users as participants. 
+- On the Critical Data page, you can add derived variables and stacked datasets as critical data points. 
+- When adding risks, the risk automatically takes on the same category as the parent critical data, critical process, or risk category that risk is associated with. 
+## What Is the Impact?
+## Users/Roles
+ Risk managers
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ Study users assigned as risk assessment participants receive overdue risk assessment notifications through iMedidata.
+## How Do I Benefit?
+- By selecting study users as participants, those participants receive iMedidata notifications when a risk assessment is overdue. 
+- You can now mark all types of study data as critical data, including derived variables and stacked datasets. 
+- Automatically assigning risks with the same category as the parent critical data, critical process, or risk category streamlines the risk documentation process. 
+## Where Do I See the Change?
+- On the RBQM > Risk Assessment > Assessment Details page, if you click Add Participant, the Add Participant dialog now includes a User menu, which you can click to select study users you want to add as participants. 
+- On the RBQM > Risk Assessment > Critical Data page > Add Critical Data dialog and Edit Critical Data > Data Points section, you can select derived variables and stacked datasets from the Data Set field and Variable field as critical data points. 
+- On the RBQM > Risk Assessment > Add Risk dialog, the Category field automatically populates with the category assigned to the risk's parent critical data, critical process, or risk category. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of these enhancements:
+- Add and Manage Risk Assessment Participants 
+- Add and Manage Critical Data 
+- Add and Manage Risks 
+## What Else Should I Know?
+ When adding participants, if you select a user from the User menu, then that user will be opted in to receive iMedidata notifications for overdue risk assessments or when a risk is ready for review. However, if you do not select a user from the User menu and instead manually enter the participant name in the First Name field and Last Name field, then that user will not receive iMedidata notifications for overdue risk assessments or new risk reviews.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,15 @@
+# Ensure Unique Upload File Names
+
+## Ensure Unique Upload File Names
+## Description
+ MEDS Ingestor 2020.2.1 requires that any uploaded file to have a unique file name for a given study and environment. If the file is not unique, an error message prevents the file upload starting.
+ Feature/enhancement stories referenced in this article:
+ MCC-686689 
+## Affected Roles
+ All roles   with the Data Import   permission.
+## Advantages
+ This new unique filename requirement ensures easy traceability between the import job and the data files imported.
+## User Impact
+ The file name of the import data must be unique for the study and environment of the import job.
+## Special Considerations
+ None.

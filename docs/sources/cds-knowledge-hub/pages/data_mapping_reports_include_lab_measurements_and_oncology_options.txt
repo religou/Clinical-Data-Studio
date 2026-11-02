@@ -1,0 +1,31 @@
+# Data Mapping Reports Include Lab Measurements And Oncology Options
+
+## Data Mapping Reports Include Lab Measurements And Oncology Options
+## What Is New?
+ You can configure within Data Surveillance or RBQM > Configuration > Data Mapping, the lab measurements and oncology data sets and variables that AI Data Reconciliation uses to produce the statistical analysis and visual output for respective reports. The Data Mapping Report now includes new options: 
+- Lab Measurements 
+- Oncology 
+ If you click Data mapping report , and then select Event Analysis , the downloaded report includes CTCAE grade information.
+## What Is the Impact?
+## Users/Roles
+ Detect Configuration Manager Admin, Centralized Statistical Monitor.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ The CTCAE reports in AI Data Reconciliation show the data sets and variables you configure in Data Surveillance or RBQM > Configuration > Data Mapping > Lab Measurements. For more information, see About AI Reconciliation Reports .
+Similarly, RECIST 1.1 reports show the data sets and variables you configure in Data Surveillance or RBQM > Configuration > Data Mapping > Oncology. For more information, see RECIST 1.1 .
+## How Do I Benefit?
+ Data managers can use the CTCAE and RECIST 1.1 reports to get consistent and accurate rating while reconciling data, and effectively compare treatment outcomes to ensure patient safety.
+## Where Do I See the Change?
+ See What Is New?
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Map Lab Measurements Data 
+- Download Data Mapping Report PDFs 
+- Map RECIST 1.1 Data 
+## What Else Should I Know?
+- To edit the Lab Measurements Mapping table, you need Manage CSM Configuration access, whereas to view the table, you need View CSM Configuration. 
+- The CTCAE grade in data you ingest from Rave must be a numeric value. CTCAE reports do not work if the CTCAE grade is in Roman numerals. 
+- Data you ingest from Rave must be in Central Lab data format, that is, each row must correspond to a single analyte name. If not, for example, if the data is in Local Lab format, you must use transformations in Clinical Data Studio - Data Connect to pivot lab data. 
+- If you resize any tab on the Data Surveillance > Configuration > Data Mapping page, based on your browser's screen resolution, the page resizes and becomes scrollable. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

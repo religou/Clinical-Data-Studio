@@ -1,0 +1,21 @@
+# Generate KRI Dashboard Audit Reports
+
+## Generate KRI Dashboard Audit Reports
+ You can generate audit reports to show historical KRI details based on specific countries or sites, users who performed actions, and the date range of actions taken in your study environment. Audit reports: 
+- Enable sponsors to quickly and efficiently show compliance with clear, comprehensive audit details of actions performed in RBQM. 
+- Provide sponsors with greater oversight to ensure study data is monitored correctly. 
+- Allow for a quick view of the review status of KRI data points in bulk in tabular format. 
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows . 
+- Click  next to the KRI Dashboard page header. 
+- On the Audit Reports Details dialog, select or enter one or more of the following audit report details:
+ Field Descriptions 
+- KRI Name  – Enter or select the name of the KRI whose audit report details you want to view. 
+- Find  – To filter the Audit Reports Details dialog to show specific sites or countries whose audit history details you want to view for the selected KRI, enter the name of the country or site, and then click  . Click  to revert the list to show all countries and sites. 
+- Include  – Select one or more countries or sites.
+ Tip : In the Select column, click   to show all selectable sites associated with the country in the respective row. You can also select the check box in the Select column header to select all listed countries and sites.
+- Actions Taken By   – Select the user whose actions you want to audit. 
+- Date (Actions)  – Select the date range in which the actions took place that you want to audit. 
+- Click View Audit History .
+ A new browser tab opens to the Audit Viewer > Medidata KRI Issues Audit Report page.
+ Tip : In Audit Viewer, you can click Export and then  Excel , CSV , or PDF to view the report offline or sort data by column headings.

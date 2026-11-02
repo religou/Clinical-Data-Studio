@@ -1,0 +1,6 @@
+# Data Listings Video Library
+
+## Data Listings Video Library
+ Click any video title in the library to learn more about Data Listings.
+- Show Me - Create Listings 
+- Show Me - Submit Rave Queries for Listings

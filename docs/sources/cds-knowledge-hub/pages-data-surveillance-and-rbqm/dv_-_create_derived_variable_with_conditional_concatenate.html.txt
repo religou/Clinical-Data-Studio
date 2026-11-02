@@ -1,0 +1,86 @@
+# Create Derived Variable with Conditional Concatenate
+
+## Create Derived Variable with Conditional Concatenate
+ You can combine multiple IF-THEN-ELSE blocks to build a text derived variable by using the Conditional Concatenate on data set variables.   Use Concatenate derivations to concatenate mathematical and logical expressions. For example, you can bring together values in two fields, namely "Visit" and " Timepoint" in Medidata Rave, to create a new derived field. 
+- Access Data Surveillance or RBQM , and then click Configuration > Derived Variables in the left-hand menu. 
+- Click  Create Derived Variable . 
+- Identify and drag a data set  from the Data Sets list into the Configure Variable section. For example, Adverse Events.
+ Note : If data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or _DTC. For example, the source date is missing the day, the enriched _INT field interpolates the 1st day of the month, and _DTC fields drop the unknown value. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms.
+- Enter the derived variable’s identification information. 
+- Name – Object identifier (OID) of derived variable. For example, "AESER_AESER_TXT". Must be unique. 
+- Label  – Name for derived variable to appear in other applications. This can be the same as the Name field, or a more specific descriptor. For example, "AE Serious, Full". 
+- Select Conditional Concatenate from the Derived Variable Type menu. Two sets of  If Then Else blocks appear. 
+- Complete the Concatenate wizard: 
+- Prefix  – Optional . Enter the text to appear before the derived variable. 
+- Separator  – Optional . Enter the text to appear between the derived variables. Defaults to an extra blank space that you can delete.
+ Note : The default separator is comma (,). You can change the separator as required.
+- Suffix  – Optional . Enter the text to after the derived variable. 
+- Complete the conditional expression:
+- Navigate to the  Data Set s  tab, and drag data set variables into  the respective If , Then , and Else fields. You can concatenate a maximum of 20 data variables. 
+- Navigate to the Operator tab and drag various operators and values i nto the expression builder fields. 
+- Repeat steps 4 and 5 for the second If Then Else block.  
+- Optional . Click  Add Condition to concatenate another conditional expression. 
+- Optional . Click  Preview  to show the preview panel.
+With the preview panel, you can review the derived variable and adjust the variable's parameters before saving.
+- Click  Save .
+ In Data Surveillance and RBQM, the list of available datasets and variables that you can view and select from include derived variables at the bottom of the list. In Data Surveillance, the list of available datasets and variables appends derived variable names with the blue DERIVED icon. 
+ Note :  After creating a  Conditional Concatenate derived variable, you can only edit the derived variable's label; all other fields become read-only. 
+## Expression Builder Element Key
+ Type 
+ Name 
+ Description 
+ | Logical Operator 
+ | AND 
+ | Logical "And" operation. 
+ | Logical Operator 
+ | OR 
+ | Logical "Or" operation. 
+ | Logical Operator 
+ | (
+ )
+ | Parenthesis. 
+ | Logical Operator 
+ | = 
+ | Compared values are equal. 
+ | Logical Operator 
+ | != 
+ | Compared values are not equal. 
+ | Logical Operator 
+ | > 
+ | Left value greater than right value. 
+ | Logical Operator 
+ | < 
+ | Left value less than right value. 
+ | Logical Operator 
+ | Is missing 
+ | Compared value is missing. 
+ | Logical Operator 
+ | Is not missing 
+ | Compared value is not missing. 
+ | Number 
+ | Numeric Value 
+ | A customizable number field. Drag the value into the expression builder and enter a value.  
+ | Text 
+ | Text Field 
+ | A customizable text field. Drag the field into the expression builder and enter the text. 
+ | Date 
+ | MM DD YYYY 
+ | A customizable date field. Drag the field into the expression builder and enter the date in the MM DD YYYY format. 
+ | Mathematical Operator 
+ | + 
+ | Mathematical plus operation. 
+ | Mathematical Operator 
+ | - 
+ | Mathematical minus operation. 
+ | Mathematical Operator 
+ | * 
+ | Mathematical multiplication operation. 
+ | Mathematical Operator 
+ | / 
+ | Mathematical division operation. 
+ | Logical Operator 
+ | one of  
+ | Checks if the compared value matches with any one of the values of the selected data set variable. 
+ | Text 
+ | contains 
+ | Checks if the compared value contains a substring from a selected data set variable value.

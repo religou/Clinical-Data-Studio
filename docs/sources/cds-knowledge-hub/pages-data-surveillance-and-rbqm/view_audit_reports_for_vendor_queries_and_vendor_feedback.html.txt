@@ -1,0 +1,13 @@
+# View and Export Audit Reports for Vendor Queries and Vendor Feedback
+
+## View and Export Audit Reports for Vendor Queries and Vendor Feedback
+ You can view audit reports  to track actions made on vendor queries in your study. For example, you can 
+- Identify specific changes that were made (like creation or deletion of vendor queries, updates on vendor feedback). 
+- Track the study personnel who made updates. 
+- Identify when the updates were made. 
+ Note: You require permissions to view the audit trail. For more information, see Data Surveillance Building Blocks and Permissions . 
+- Access Data Surveillance , and then click   Vendor Queries   in the left-hand menu. The Vendor Queries page shows. 
+- Click the Clock   icon at upper-right corner of the page. A new browser tab opens up the Audit Viewer >   Vendor Audit Report page. 
+- Optional: You can click   Show Filters  above the upper-right corner of the table to filter the reports by Start Date and End Date . 
+ Note: In the Vendor Audit Report, a Sub ID   column next to the Patient ID column helps distinguish Vendor Feedback updates from other updates on Vendor Queries.
+ Tip :     In Audit Viewer, you can click   Export   and then  Excel ,   CSV , or   PDF   to download the report locally and view   offline or sort data by column headings. Report exports include the entire history, regardless of the filters applied in the Audit Viewer window.

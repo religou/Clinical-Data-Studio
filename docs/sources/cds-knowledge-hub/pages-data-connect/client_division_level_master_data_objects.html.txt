@@ -1,0 +1,336 @@
+# Client Division Level Master Data Objects
+
+## Client Division Level Master Data Objects
+ You can export Client Division Level Master Data data objects detailing client division people, client division users, and client division organizations.  
+ Important : Your Rave URL configuration can affect your ability to access exported data. For details, please contact your Medidata representative or Medidata Support.
+## People
+ The People data file contains details on client division persons (people) and addresses from Cloud Administration. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The client division's name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The client division's unique identifier. 
+ | Primary Email 
+ | Alphanumeric 
+ | 256 
+ | 
+ The person's email address.
+ | Title 
+ | Text 
+ | 50 
+ | The person's title. 
+ | First Name 
+ | Text 
+ | 50 
+ | The person's first name. 
+ | Middle Name 
+ | Text 
+ | 50 
+ | 
+ The person's middle name.
+ | Last Name 
+ | Text 
+ | 50 
+ | 
+ The person's last name.
+ | Address 1 
+ | Alphanumeric 
+ | 256 
+ | The first field of the person's physical address. 
+ | Address 2 
+ | Alphanumeric 
+ | 256 
+ | 
+ The second field of the person's physical address.
+ | Address UUID 
+ | Unique Identifier 
+ | 16 
+ | The unique identifier of the organization's address. 
+ | Address Type 
+ | Text 
+ | 3 
+ | Denotes the address type, such as Main. 
+ | City 
+ | Text 
+ | 256 
+ | The city of the person's physical address. 
+ | State/Province 
+ | Text 
+ | 256 
+ | 
+ The state or province of the person's physical address.
+ | Country 
+ | Text 
+ | 2048 
+ | The country of the person's physical address. 
+ | Postal Code 
+ | Alphanumeric 
+ | 30 
+ | The postal code of the person's physical address. 
+ | Primary Phones 
+ | Numeric 
+ | 256 
+ | Lists the person's primary phone numbers. 
+ | Person Status 
+ | Text 
+ | 16 
+ | The person's Cloud Administration status:
+- Active 
+- Inactive 
+ | User UUID 
+ | Unique Identifier 
+ | 16 
+ | The person's unique identification number. 
+## Users
+ The Users data file contains details on client division user assignments from Cloud Administration. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The name of the user's client division. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The unique identifier of the user's client division. 
+ | Client Division Scheme UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The unique identifier of the user's client division scheme.
+ | Client Division Scheme Name 
+ | Text 
+ | 256 
+ | The name of the user's client division scheme. 
+ | E-mail 
+ | Alphanumeric 
+ | 256 
+ | A study's unique identifier. 
+ | First Name 
+ | Text 
+ | 50 
+ | The user's first name. 
+ | First Name 
+ | Text 
+ | 50 
+ | The user's last name. 
+ | User UUID 
+ | Unique Identifier 
+ | 16 
+ | The user's unique identifier. 
+ | Phone Number 
+ | Numeric 
+ | 256 
+ | 
+ The user's phone number.
+ | Client Division Role 
+ | Text 
+ | 256 
+ | The user's client division role 
+## Organizations
+ The Organizations data file contains details on client division organization addresses from Cloud Administration.
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The name of the organization's client division. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The unique identifier of the organization's client division. 
+ | Client Division Organization ID 
+ | Text 
+ | 255 
+ | 
+ The organization's identification number.
+ | Status 
+ | Text 
+ | 16 
+ | 
+ The organization's status:
+- Active 
+- Inactive 
+ | Organization Name 
+ | Text 
+ | 256 
+ | The organization's name. 
+ | Organization Type 
+ | Text 
+ | 30 
+ | 
+ The organization's type, such as Healthcare Facility.
+ | Parent Organization 
+ | Text 
+ | 256 
+ | The organization's parent organization. 
+ | Primary Phone 
+ | Numeric 
+ | 256 
+ | The organization's primary phone number. 
+ | Primary Email 
+ | Alphanumeric 
+ | 256 
+ | The organization's primary email address. 
+ | Address Type 
+ | Text 
+ | 256 
+ | 
+ The organization's address type, such as Main.
+ | Address 1 
+ | Alphanumeric 
+ | 256 
+ | 
+ The first field of the organization's physical address.
+ | Address 2 
+ | Alphanumeric 
+ | 256 
+ | The second field of the organization's physical address. 
+ | City 
+ | Text 
+ | 256 
+ | The city of the organization's physical address. 
+ | State/Province 
+ | Text 
+ | 256 
+ | The state or province of the organization's physical address. 
+ | Country 
+ | Text 
+ | 2048 
+ | The country of the organization's physical address. 
+ | Postal Code 
+ | Alphanumeric 
+ | 30 
+ | The postal code of the organization's physical address. 
+ | Address UUID 
+ | Unique Identifier 
+ | 16 
+ | The unique identifier of the organization's physical address. 
+ | Protocol ID 
+ | Alphanumeric 
+ | 36 
+ | 
+ The protocol identification number associated with the organization.
+## Studies
+ The Studies data file contains details on studies within a Cloud Administration client division. For details on defining studies with Cloud Administration, see  Create Studies .
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The name of the organization's client division. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The unique identifier of the organization's client division. 
+ | Client Division Scheme Name 
+ | Text 
+ | 256 
+ | 
+ The name of the user's client division scheme.
+ | Client Division Scheme UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The unique identifier of the user's client division scheme.
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study State 
+ | Text 
+ | 256 
+ | 
+ The study's state, such as:
+- Active 
+- Withdrawn
+- Administratively Complete 
+ Note :
+- Cloud Administration's Inactive study state maps to the Withdrawn status within the Medidata Data Fabric. Moreover, the Inactive study state does not appear in data extracts. 
+- Cloud Administration's Locked status mapp to the data extract's Administratively Complete status. 
+ | Study Status 
+ | Text 
+ | 256 
+ | The study’s status in CTMS. Values vary depending on study configuration.
+ This attribute is only supported for cumulative exports.
+ | Therapeutic Area 
+ | Text 
+ | 256 
+ | 
+ The therapeutic area that the study pertains to.
+ | Primary Indication 
+ | Text 
+ | 256 
+ | The primary indication that the study pertains to. 
+ | Primary Indication UUID 
+ | Unique Identifier 
+ | 16 
+ | The primary indication's unique identifier. 
+ | Secondary Indication 
+ | Text 
+ | 256 
+ | The primary indication that the study pertains to. 
+ | Study Phase 
+ | Text 
+ | 256 
+ | The study's current phase. 
+ | Protocol ID 
+ | Alphanumeric 
+ | 16 
+ | 
+ The protocol identification number associated with the study.
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study environment's name, for example: PROD or UAT.
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Environment Type 
+ | Text 
+ | 10 
+ | The study environment's type:
+- Standard – The study environment is one of the following default environments:
+- Production 
+- Development 
+- Functional Testing 
+- Interactive Verification 
+- User Acceptance Testing (UAT) 
+- Training 
+- Non-Standard – The study environment is a user-generated environment. 
+ | Internal Number 
+ | Alphanumeric 
+ | 100 
+ | Internal Number as entered in Cloud Administration 
+ | Sponsor 
+ | Alphanumeric 
+ | 255 
+ | Sponsor Name as entered in Cloud Administration 
+ | Investigational Product 
+ | Alphanumeric 
+ | 2000 
+ | Investigational Product Name as entered in Cloud Administration 
+ | Program 
+ | Alphanumeric 
+ | 1000 
+ | Program Name as entered in Cloud Administration

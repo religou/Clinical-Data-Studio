@@ -1,0 +1,64 @@
+# Activate Datasets
+
+## Activate Datasets
+ You must activate datasets so that you can use them for other capabilities compatible with Data Connect, such as Data Surveillance and RBQM . You can activate the following dataset types: 
+- Imported third-party EDC data 
+- Transformed datasets 
+## Activation Considerations
+## Dataset Upgrade Considerations
+- Derived datasets created before May 23, 2025 must be upgraded and then reactivated to enable direct Rave querying in Data Surveillance. 
+- Derived datasets created on or after May 23, 2025 do not need to be upgraded. 
+- Derived datasets using the following operations from Rave datasets will be enabled for direct Rave querying in Data Surveillance:
+- Join 
+- Union 
+- Replicate or Filter 
+- Medidata recommends upgrading no more than five datasets at a time per study. To upgrade more datasets, wait for any queued upgrades to finish. 
+## Other Considerations
+- Any records associated with identified unregistered values are unavailable for the downstream applications that you activated the dataset for. 
+- Data Connect only activates the latest dataset version. When there is a new dataset version after activation, a notification prompting you to update the activated dataset appears. 
+- An activated dataset can have six possible states: Activated, Upgrade Available, Inactive, Error, and Blanks. For details on each, see Dataset Statuses . 
+- If you or another user applies a sequence number configuration onto a dataset, the resulting dataset records can be initially inconsistent with the expected record count since the system actively processes the dataset. The system eventually completes processing, and records and record count become consistent. 
+- The activated datasets have a limit of 100 columns for downstream applications. 
+## Activate Dataset
+ Important : Activation for Medidata DQM  
+- The  Medidata system considers records with  an empty visit_name as unregistered and thus they do not appear in Data Surveillance or RBQM. Data Connect considers records with an empty visit_name as unregistered. 
+- Mixing fields that contain raw dates with those that contain interpolated dates result in query submission failures in Data Surveillance and RBQM. For more, see  Interpolated Variables Behavior in Data Surveillance and RBQM 
+- If you do not see all visit date values after activation, check your dataset mapping. For details, see  Missing VISIT_DATE Values . 
+- Access Data Connect , and  click   Datasets   in the left-hand menu. 
+- Select a dataset.
+ You can filter the dataset list by clicking one of the following categories:
+- All – Show all datasets. 
+- Alerts  – Show all dataset that has errors or warnings. 
+- Internal – Show datasets from internal sources from within the Medidata platform, such as Rave data. 
+- SDTM / Enriched View / Custom Data Model / Derived Dataset – Show datasets from the respective data transformation type as produced through Data Connect's Transformations capability. 
+- External – Show datasets from sources imported through Data Connect, such as Labs data. 
+- Sensor – Show datasets from the Sensor Cloud. 
+- Select the  Activation tab. 
+- Click the More icon, and select  Activate to open the Dataset Activation  screen. 
+- Map source fields as necessary, and click  Validate to run validation testing.
+ Note : Field Mapping to Clinical Data Studio Metadata 
+ The following table highlights how fields map to downstream data in Clinical Data Studio, such as RBQM and Data Surveillance. 
+ Field 
+ Metadata in Clinical Data Studio 
+ | site_id 
+ | Site
+ | subject_id 
+ | Patient
+ | visit_name 
+ | Performed Event Name
+ | visit_date 
+ | Performed Event Date
+ | record_sequence 
+ | Item Group Report Key
+ Ensure that you map visit_date if you plan to use the dataset for visualizations in Clinical Data Studio. 
+- Review the data preview tabs as necessary.
+ Tip :  Addressing Unscheduled Visits 
+ You can add unscheduled visits during the activation process, but Data Connect does not have a visit scheduler. Instead, you can do one of the following:
+- Create a derived dataset, and sort by dates. 
+- While activating the dataset, configure the dataset sequence by sorting by dates.  
+- Address any issues in the Quality Control tab by transforming the target data: 
+- Identify a row with a target field to transform. 
+- Click the row's More icon, and click Transformation Instruction to open the Edit Transformation screen. 
+- Apply transformation instructions as necessary. 
+- Close the Edit Transformation screen and return to the Dataset Activation Screen. 
+- Click  Activate .

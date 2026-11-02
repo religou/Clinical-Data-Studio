@@ -1,0 +1,23 @@
+# Navigation in Patient Profiles
+
+## Navigation in Patient Profiles
+## Description
+ Patient Profiles implements a primary navigation panel on the left-hand side of the page, which has the following three options:
+- Design
+- Includes the following secondary tabs: Elements tab and Layout tab 
+- Reports
+- Includes the following secondary tab: Profile Design 
+- Settings 
+- 
+- Includes the following secondary tabs: Design Options tab and CSA tab. 
+ Note : The primary navigation panel does not display in the Studies page or Patient Profile Design page.
+ You can expand and collapse the primary navigation panel.
+## Affected Roles
+ All.
+## Advantages
+ The primary panel and secondary tab navigation scheme enable a clean and simple user interface, which contains ample functionality and data.
+ The user interface's consistent look-and-feel yields an easily accessible, user-friendly work space.
+## User Impact
+ All pages in Medidata Patient Profiles.
+## Special Considerations
+ None.

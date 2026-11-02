@@ -1,0 +1,22 @@
+# View Historical Data Snapshots
+
+## View Historical Data Snapshots
+ Statistical Monitoring provides a list of historical data snapshots . You can select a data snapshot to enter History View mode to see how the data looked throughout Statistical Monitoring when the snapshot occurred. By viewing historical data snapshots, you can efficiently audit studies and reconcile the data and actions made between snapshots.
+- Access RBQM , and then click Statistical Monitoring > History in the left-hand menu.
+ The History page lists all prior data snapshots from most recent at the top to oldest at the bottom. 
+- Click the row of the snapshot you want to view.
+Statistical Monitoring automatically navigates you to the Overview page in History View. While in History View, a blue banner appears at the top of all Statistical Monitoring pages. The banner indicates the date when the historical snapshot's data refresh occurred. For example:
+ In addition, the upper- right corner of all Statistical Monitoring pages shows the time stamp of when the historical snapshot in view occurred.  For example:  
+- Click Exit History View in the blue banner to revert to the latest data snapshot. 
+ Notes About History View
+- History View mode shows the actions that occurred in the immediate data snapshot following the snapshot date you selected to view. For example, say you selected to view a data snapshot with a date of 17 Oct 2020 and the following data snapshot took place on 22 Oct 2020. In such case, History View mode shows the data in Statistical Monitoring as of 17 Oct 2020, but shows the actions made in Statistical Monitoring up until 22 Oct 2020. 
+- While in History View mode:
+- Data is read-only. 
+- The Data Anomaly Detection page > Summary section > Actions column does not appear. 
+- The Event Incidence page > Summary section > Actions column does not appear. 
+- You cannot deep link into Issue Management. 
+- You cannot update track review data. 
+- Track reviews and issues created are those that occurred against the selected historical snapshot or previous snapshots. That is, the created dates may be after the snapshot date, but before the following snapshot. 
+- On the Issues slide-out panel, the Assignee column and Status column do not appear. 
+- On the Issues slide-out panel, the Is Closed column appears.
+ Note : If the issue was resolved after the date of the snapshot in view, then Is Closed has a value of No . If the resolved date occurred before the date of the snapshot in view, then Is Closed has a value of Yes .

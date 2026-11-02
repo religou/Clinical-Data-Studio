@@ -1,0 +1,225 @@
+# Create Audit Trail Reviews
+
+## Create Audit Trail Reviews
+ During a study, teams perform audits on operational study data using audit trails. Audit reviews reveal incorrect data processing, help prevent inaccurate data reporting, and identify the need for additional training of personnel. You can use RBQM to create audit trail reviews, which include operational data that shows the events relating to creation, modification, or deletion of study data. 
+ You can build audit data sets by engaging with a chat interface powered by Generative AI and Large Learning Models (LLMs), that parses complex study data to capture non-clinical records that match the question you ask. For example, you can ask a question about audit data between two dates for the Joint Counts data set. The records in the audit data set are not patient records, but operational data that match your question in the Joint Counts data set, that your study team wants to review. 
+ By creating and using audit data sets, you can: 
+- Extract insights to make better data decisions. 
+- Ensure protocol compliance, patient safety, data quality, and data integrity. 
+ Note : You must have the Manage Audit Trail Review building block added to your Cloud Administration role to create audit data sets. For more information, see RBQM Building Blocks and Permissions . 
+## Create Audit Data Sets
+- Access RBQM , and then click Audit Trail Review in the left-hand menu.
+The Audit Trail Review page shows a new audit session by default.
+- Optional. Click Audit Review from the upper-right corner of the page. 
+- In the New Audit Review section, type a question in the prompt field. The AI-enabled chat assistant is named Dot. The prompt shows a default message: Ask Dot about data that you need for auditing purposes....  You can ask questions like:
+- What are the critical data points that have changed this year? 
+- What data points were modified after the database was locked on 12/12/2024? 
+- Give me audits where data in vitals form was modified more than 10 times. 
+- Show me queries created against vital signs form. 
+- The chat interface summarizes, and provides a confirmation of your question. For example, if you asked a question like Show me critical data that was data collected or entered after midnight 12/12/2019 EST,  the confirmation message may read as  You are asking for audits on critical fields that were created on or after December 13, 2019. Is that correct?
+ Note : You can ask questions in English only. Filtering by time is not currently supported. 
+-   Do one of the following: 
+- Click No , if the question confirmation does not match what you asked. Retype or edit the question as per the audit trail data you want to view. 
+ OR Click  Yes, if the question confirmation matches what you asked.
+The chat interface shows a message, "Great, let me generate the dataset for you.". 
+- Repeat steps 3, 4, and 5 until the chat interface shows a question confirmation you asked.
+The Data Preview section shows the generated audit data set.
+ Note : 
+- The AI assistant Dot, can make mistakes, and we recommend you check the output shown in the Data Preview section before you proceed. 
+- The Audit time that you see in the Data Preview section is in UTC.  
+- Optional. Click the More icon  in the upper-right corner of the chat interface section, then click View SQL. The section shows the underlying SQL code used to retrieve audit data from Medidata Rave. You can use this information to validate the results shown in the Data Preview section. 
+ Note : Each question you enter is processed individually as ATR does not store the conversation history in the current chat session. However, you can save prompts, and access them through Saved Chats. 
+## Audit Trail Data Limitations
+ Currently Audit Trail Review (ATR) has the following limitations:
+- ATR times out if the Large Language Model (LLM) that processes your query takes more than five minutes to retrieve audit data. 
+- ATR does not support:
+- Results at any level other than data points. For example, a question like  Give me all sites in the data,  does not produce a result. 
+- Filtering on data point values. 
+- Question prompts asking for all audits in the study . 
+## Audit Subcategories
+ ATR retrieves data for questions you ask based on the following Rave sub-categories:
+- 
+- Regarding data creation 
+- EnteredNonConformant 
+- Entered 
+- EnteredEmpty 
+- EnteredWithMissingCode 
+- EnteredInForeignLocale 
+- Regarding inactivated data 
+- InactivatedWithReasonCode 
+- Inactivated. For example, " Give me audits for critical data which was inactivated". 
+- Regarding data modified or entered
+- Activated 
+- Entered 
+- EnteredByDdeAutoReconcile 
+- EnteredEmpty 
+- EnteredEmptyWithChangeCode 
+- EnteredForeignLocale 
+- EnteredForeignLocaleWithChangeCode 
+- EnteredNonConformant 
+- EnteredWithChangeCode 
+- EnteredWithMissingCode 
+- Regarding queries
+- QueryOpen 
+- QueryAnswer 
+- QueryAnswerByChange 
+- QueryClose 
+- QueryCancel 
+ For more information, see Audit Subcategories .
+## Recommended Chat Practices
+ We recommend the following while entering questions in the chat option:
+- Be specific : If you know the form, variable, site, or patient name, add that to your chat question.  
+- We recommend using the term form instead of data set in your questions, for example, "show audits for Adverse Events form".  
+- Dates : Specify complete dates. For example, instead of "List audits for Tuesday", say " List audits for Tuesday, 7th Jan 2024". You can also use relative dates, like "show audits for the AE form for the last 10 days". 
+- Responses Shown:  The AI assistant Dot returns responses that best align with questions you ask allowable operations within ATR, or the LLM's processing of the input, or conditions you provide based on patterns learned through training. 
+- User Specific Audits:  While searching for audits by a specific user, type the initial for the user's first name, then add a space, and then the last name. For example, J Smith. Do not add extra spaces between the first and last names.  
+- Within the same chat session, if responses are incorrect, add more specific information to guide responses. If responses are correct, save the chat so you can rerun the chat prompt or edit it in future. 
+## Chat Prompt Use Cases 
+ The following table lists some common chat prompts you can ask:
+ Query Management 
+ Category 
+ Sample Prompt 
+ Suggested Action Based on Findings 
+ | Data review and query timing 
+ | Show me all audits where queries were opened in September 2025. 
+ | This is available as a standard Rave 360 report but audit can serve as an ad hoc report to evaluate review and querying patterns, query volume per site in a given timeframe and so on. 
+ | Query timing analysis 
+ | Give audits for cancelled queries. 
+ | This is available as a standard Rave 360 report but audit can serve as an ad hoc report to identify total number of cancelled queries, timeline and site impact. 
+ | System query effectiveness and impact 
+ | Give audits where data modifications occurred due to system queries. 
+ | Assess effectiveness of edit checks. High modification rates after system queries indicate good automated quality control. 
+ | Manual query effectiveness and impact 
+ | Give audits for data that was modified due to manual queries. 
+ | Evaluate human data review quality. Patterns may inform additional edit checks, removal or certain queries and reviews. 
+ Users can refine this data to include only modifications and then create visualization charts to track number of modifications made by specific audit users. 
+ | User activity outside business hours 
+ | Show me  queries opened between Friday 9:00 pm–Sunday 9:00 pm in the site's local time zone 
+ | Investigate why queries are being opened outside site's business hours. This may indicate intentional evasion of real-time oversight, rushed data fabrication, or credential misuse. 
+ Site Monitoring Support 
+ Category 
+ Sample Prompt 
+ Suggested Action Based on Findings 
+ | Source data quality 
+ | Show me audits for data that was modified due to a query. 
+ | Create KRIs to identify sites with significantly higher or lower numbers of changes.
+ Consider following up with the sites to address the process of data entry and source documentation quality, increasing SDV allocation for sites requiring a higher number of changes and decreasing for the ones without changes. 
+ In cases with multiple queries, re-queries and data changes, you must consider CRA/medic site call versus continuation of re-queries and data changes, as this is an audit flag. 
+ |  Unprompted modifications 
+ | Show me audits for data that was modified without a query. 
+ | Create KRIs to identify sites with significantly higher or lower number of changes, or  visualizations with counts per site. 
+ High rates of unprompted modifications could warrant investigating the reason and processes that lead to data changes, may indicate incorrect source document usage, or data fabrication. Investigate what triggered data changes and adjust SDV risk stratification accordingly.
+ | Recent site activity
+ | Show me all audits for the last three days from site A. 
+ | Real-time operational oversight useful for regular monitoring of data interaction.
+ | Site-specific inactivation patterns 
+ | Give me audits for inactivated data from site A. 
+ | High inactivation rates at specific sites may indicate need for targeted site support.
+ | High number of modifications 
+ | Show me audits where critical data was modified more than 3 times. 
+ | You can create KRIs or visualizations to track number of modifications happening happening at each site to determine high risk sites.
+ High rates of modifications could indicate lack of site training or problems with source documentation. Sites must consider the CRA's or medic's call instead of continuing with data changes.
+ | Site query management 
+ | Give audits where modifications occurred a week after queries were answered. 
+ | Assess site query management process.
+ | Site activity outside business hours 
+ | Give data entered outside business hours 
+ | Investigate why data is being entered outside site's business hours. This may indicate fabrication, falsification, and unauthorized handling of source data. 
+ Note: O utside business hours include: 
+- Daily off-hours – 8:00 pm–7:00 am 
+- Weekends – Determined by country 
+ Longitudinal Monitoring 
+ Category 
+ Sample Prompt 
+ Suggested Action Based on Findings 
+ | Date specific audits
+OR
+Recent data changes 
+ | 
+- What are the created and modified data points between July 2, 2024 and July 15, 2024 . 
+- Give me the audits from last week. 
+ | Immediate operational oversight for identifying emerging issues.
+ | Repeated corrections 
+ | 
+- Show me audits on data points that have been modified more than once. 
+- List audits for adverse event start date that have been modified at least three times. 
+ | Investigate patterns of repeated corrections. May indicate unclear CRF instructions, confusing field definitions, protocol design issues, or need for additional site training
+ Regulatory Preparedness 
+ Clinical Trial Risk 
+ Sample Prompt 
+ Suggested Action Based on Findings 
+ | Inactivation documentation 
+ | 
+- Show me all inactivated audits this month. 
+- Show me all data that was inactivated. 
+- Give me inactivated audits that were changed four times. 
+ | Identify inactivations and ensure that the reason is valid and appropriate documentation available.
+ | Non-conformant data entry 
+ | 
+- Show me audits where data was entered non-conformant. 
+ | Identify data integrity issues where query possibly closed and data left as is.
+ | Changes to data after DB lock critical data 
+ | Show me audits where critical data was modified after database lock date of May 21 2025. 
+ | Investigate the cause of (critical) data being modified after database lock.
+## Save Audit Chat Prompts 
+ Saving chats enables you to store queries for future use and quickly retrieve audit data, without building complex audit data sets every time you want to explore audit trails.
+-   Access RBQM , and then click Audit Trail Review in the left-hand menu.
+ The Audit Trail Review page shows a new audit session by default. 
+- In the New Audit Review section, type a question in the prompt field. For example, you can ask a question like " What are the critical data points that have changed this year". 
+- The chat interface summaries and provides a confirmation of your question.  
+-   Do one of the following: 
+- Click No , if the question confirmation does not match what you asked. Retype the question as per the audit trail data you want to view. 
+ OR Click  Yes, if the question confirmation matches what you asked.
+The question you asked becomes the title at the top of the chat interface. A message, "Great, let me generate the dataset for you." appears. 
+- From the top of the page, click Save Prompt .
+The chat you started in the current audit trail session, saves. 
+- From the top right corner of the page, click Saved Chats .
+A slide-out panel appears on the right, showing all the saved chats in the study.
+ Note : You must save a chat to publish the data as an audit dataset. The Publish as dataset button in the top right corner of the Data Preview section remains disabled for unsaved chats.
+ You can open or delete saved chats in a study. You can also edit saved chat names. For more information, see  Manage Saved Chats .
+## Start A New Audit Trail Session
+ Audit trails enable you to query operational data for your study. However, if the current audit trail session is no longer of interest, you can exit with or without saving.
+- If necessary,  Access RBQM . 
+- Click Audit Trail Review in the left-hand menu. 
+- In the New Audit Review section, type a question in the prompt field. 
+- Click +Audit Review from the top-right corner of the page.
+A Start a New Session? message appears.
+ Note : You have an audit review in progress. If you start a new session, you lose any data shown in the current session. 
+- Do one of the following: 
+- Click Stay .
+The current audit review session continues. 
+- Click Start a new session .
+A new audit review session starts. 
+## Filter Audit Data Sets
+ To help find the audit data sets records you need, you can filter the Data Preview table to show:
+- Specific audit records by Patient ID. 
+- Only audit records created by specific users. 
+- Only audit records with specific audit actions that were last updated by specific users. 
+ If you filter by specific audit actions first, and then by patient ID, audit records where the patient IDs underwent the selected audit action show. 
+- If necessary, create an audit data set. 
+- Click , double-sided arrows at the upper-right corner of the Data Preview section.
+An expanded view of the Data Preview section with the first 100 records from the audit data set appears. 
+- Click the Filter button,     at the upper-right corner of the audit data set table. 
+- Click one or more of the following filters:
+- PatientID  – Filters to show audits by patient ID. 
+- Site – Filters to show audits at the site. 
+- Country – Filters to show audits by the country. 
+- Folder – Filters to show audits by the Rave folder. 
+- Form – Filters to show audits by the Rave form. 
+- Field – Filters to show audits by the Rave data set variable. 
+- Audit Action – Filters to show audits by the specific audit action. 
+- Audit User – Filters to only show audits by specific users. 
+- Audit Datetimestamp (GMT)  – Filters to only show audits by date and time based on the standard UTC time zone. 
+- Audit Site's Local Time – Filters to only show audits by date and time based on your local time zone. 
+- Select one or more filter items. 
+- Click   Apply .  
+- If necessary, click   Clear Filters   to revert to the audit data set's default view. 
+ Note : You can also filter published audit data sets . However, filtering only applies to the following fields:
+- Patient ID 
+- Site 
+- Country 
+- Audit User  
+- Audit Datetimestamp 
+- Audit Site's Local Time 
+- Form OID 
+- Audit Subcategories. For more information, see Audit Subcategories .

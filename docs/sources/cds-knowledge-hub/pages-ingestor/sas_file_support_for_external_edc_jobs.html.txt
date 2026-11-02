@@ -1,0 +1,43 @@
+# SAS File Support for External EDC Jobs
+
+## SAS File Support for External EDC Jobs
+## Description
+ You can now use SAS (*.xpt) files to import clinical data onto the Medidata Platform with External EDC import jobs. You can upload SAS files with the file import interface or with SFTP. MEDS Ingestor only supports the SAS V5 Transport file format and below.
+ Feature/enhancement stories referenced in this article:
+ MCC-801498, MCC-810509, MCC-849447 
+## Affected Roles
+ All roles with access to import data with External EDC jobs. For details, see  Ingestor Roles and Permissions List .
+## Advantages
+ You can have more options to upload your clinical data, saving you possible issues when converting from the SAS format to the comma-separated value (*.csv) format.
+## User Impact
+ When uploading files to External EDC import jobs, you can use SAS files in the .XPT format. The Job Configuration screen for external EDC jobs also lists the new file type.
+ Note :
+- Standard Medidata Concepts formatting rules still apply when using SAS files. For details, see  External EDC Standard Concepts . 
+- Uploaded SAS files must be version 5 or lower. 
+## Knowledge Space Updates
+ The MEDS Ingestor Knowledge Space provides updated content to support this enhancement: 
+- Quick Start Ingestor - Import Clinical Data from External EDC Sources 
+- Import Data 
+- Import Clinical Data from External EDC Sources 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal . 
+## Description
+ You can now use SAS (*.xpt) files to import clinical data onto the Medidata Platform with External EDC import jobs. You can upload SAS files with the file import interface or with SFTP. MEDS Ingestor only supports SAS files of version 5 and below.
+ Feature/enhancement stories referenced in this article:
+ MCC-801498, MCC-810509, MCC-849447 
+## Affected Roles
+ All roles with access to import data with External EDC jobs. For details, see  Ingestor Roles and Permissions List .
+## Advantages
+ You can have more options to upload your clinical data, saving you possible issues when converting from the SAS format to the comma-separated value (*.csv) format.
+## User Impact
+ When uploading files to External EDC import jobs, you can use SAS files in the .XPT format. The Job Configuration screen for external EDC jobs also lists the new file type.
+ Note :
+- Standard Medidata Concepts formatting rules still apply when using SAS files. For details, see  External EDC Standard Concepts . 
+- Uploaded SAS files must be version 5 or lower. 
+## Knowledge Space Updates
+ The MEDS Ingestor Knowledge Space provides updated content to support this enhancement: 
+- Quick Start Ingestor - Import Clinical Data from External EDC Sources 
+- Import Data 
+- Import Clinical Data from External EDC Sources 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

@@ -1,0 +1,21 @@
+# Interface Localization Support for APAC
+
+## Interface Localization Support for APAC
+## Description
+ Ingestor now supports the following APAC locales:
+- Chinese 
+- Korean 
+- Japanese 
+ When you select one of these locales in iMedidata and navigate to Ingestor, Ingestor interface strings appear in corresponding language. Affected strings include titles, button names, and tool tips.
+ Feature/enhancement stories referenced in this article:
+ MCC-981834 
+## Affected Roles
+ All.
+## Advantages
+ Those in the Chinese, Korean, or Japanese locales can use Ingestor in their native language.
+## User Impact
+ This update affects how Ingestor appears in the affected locales, but does not affect how you use Ingestor.
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

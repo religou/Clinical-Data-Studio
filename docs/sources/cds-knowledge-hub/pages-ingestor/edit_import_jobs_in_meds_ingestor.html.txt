@@ -1,0 +1,21 @@
+# Edit Import Jobs in MEDS Ingestor
+
+## Edit Import Jobs in MEDS Ingestor
+## Description
+ MEDS Ingestor allows you to review and edit active import jobs that you have previously created. You can review the current status of all active data import jobs for a given study across environments. When you publish a new version of the source data integration in  Experimental Design  you can also update its corresponding import jobs in MEDS Ingestor to use the latest version. You can also view detailed import history lists describing the status of your imported data.
+ Feature/enhancement stories referenced in this article:
+ MCC-380414, MCC-414770, MCC-441796, MCC-450144, MCC-469677, MCC-410291, MCC-417856, MCC-446528, MCC-451303, MCC-469678, MCC-410685, MCC-427957, MCC-450121, MCC-458272, MCC-470252 
+## Affected Roles
+ All.
+## Advantages
+ Reviewing active imports allows you to:
+- fine-tune existing import jobs to your specifications; and 
+- review the success of imported data so you can take further action, if needed. 
+## User Impact
+ In MEDS Ingestor, you can select an existing import job to review its contents. While reviewing the contents of an existing import job, you can:
+- Review import jobs by previously added environments; 
+- Add additional environments to the import job; 
+- Update the data integration version of the import job, as defined in Designer; and 
+- Import data into the import job. 
+## Special Considerations
+ MEDS Ingestor is in a nonfunctional beta release. You can upload and store files with MEDS Ingestor but MEDS Ingestor does not process the files or import the files into MEDS.

@@ -1,0 +1,48 @@
+# Edit KRI Details and Configurations
+
+## Edit KRI Details and Configurations
+## Description
+ On the Key Risk Indicators page, you can now edit:
+- All custom numeric KRI details 
+- All custom percentage KRI including the KRI expression conditions 
+ Detect Configuration Manager records: 
+- User name  
+- Date stamp of the last edit 
+- User entered reason for the KRI change 
+## Affected Roles
+ Detect Configuration Manager Administrators. 
+## Advantages
+ In previous releases, you created a KRI configuration to correct an error or alter a KRI configuration. This resulted in a process that accumulated multiple stale KRI configurations for your study. With the new editing capability, you can edit an existing KRI that is much cleaner in your study.  
+## User Impact
+ On the Custom Numeric KRI dialog box, in addition to the Name and Description, you can now edit: 
+- Data Set 
+- Variable 
+- Threshold Type 
+- Moderate Risk Threshold 
+- High Risk Threshold 
+- Calculation Type 
+- Risk Category 
+- Reason for Change (mandatory) 
+ On the Custom Percentage KRI dialog box, in addition to the Name and Description, you can now edit:
+- Threshold Type 
+- Moderate Risk Threshold 
+- High Risk Threshold  
+- Risk Category 
+- Reason for Change (mandatory) 
+- The condition or conditions that define the expression 
+ You can save Custom Numeric KRIs or Custom Percentage KRIs only if you complete mandatory fields. A warning message in red text shows if you leave fields empty or have an incomplete expression in the Edit dialog box. 
+ Note : The Threshold Type, Moderate Risk Threshold, High Risk Threshold, and Reason for Change fields are new as of the Detect Configuration Manager 2022.1.0 release. To learn more about the Threshold Type enhancement, see Configure Custom KRI Thresholds . 
+ The Key Risk Indicators page includes the following new columns: 
+- Updated By – User name of the user who edited the KRI. 
+- Last Updated – Last KRI edit timestamp showing date and time 
+ For any updated KRI, the Updated By Column has a Message icon for the associated KRI that shows reason for change by user.  
+ Knowledge Space Updates 
+ None.
+## Special Considerations
+- You can only edit inactive KRIs. 
+- You can make a KRI inactive at any time to modify the configuration. 
+- Reason for Change is a mandatory field. You cannot save a KRI unless you specify the reason for change. 
+- High Risk Threshold is an optional field. If you only specify the Moderate Risk threshold, then KRIs appear green if values are below moderate risk, and red if the values are above moderate risk threshold. 
+- If you edit KRIs active in the past, the edits will affect the KRIs trending values when you compare values before and after saving the edit. 
+- Before editing KRIs, download and archive a PDF of the KRI's original configurations. Detect Configuration Manager does not audit KRI changes. 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

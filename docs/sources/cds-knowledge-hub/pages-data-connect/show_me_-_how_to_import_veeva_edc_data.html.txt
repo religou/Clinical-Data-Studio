@@ -1,0 +1,18 @@
+# Show Me - How to Import Veeva EDC Data
+
+## Show Me - How to Import Veeva EDC Data
+ Summary 
+ | An overview on add datasets and import Veeva EDC data in Imports. 
+ Duration 
+ | 2 min 31 sec 
+ Product 
+ | Data Connect 
+ Release 
+ | Feb 2026 
+ Video Category 
+ | Imports 
+ Related Topics 
+ | 
+- Import with Veeva EDC Direct Connect 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

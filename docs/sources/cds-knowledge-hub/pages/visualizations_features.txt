@@ -1,0 +1,15 @@
+# Visualizations Features
+
+## Visualizations Features
+ Visualizations includes the following capabilities: 
+- Visualizations: Create Visualization Charts Using Queries and Audit Datasets 
+- Visualizations: Identify Data Patterns Using Scatter Plots 
+- Visualizations: Updated User Interface Provides Better Usability 
+- Data Surveillance: Reuse Visualizations Across Study Environments Using Templates 
+- Visualizations: PDF Downloads Include Summary Table 
+- Visualizations: Additional Aggregations Available For All Charts 
+- Visualizations: Chart Categorical Study Data Counts Using Tabular Visualizations 
+- Visualizations: Updated Charts Provide Better Usability 
+- Data Surveillance: Build Visualizations For A Maximum Of Twenty Categories Using Donut Charts 
+- Data Surveillance: Updated Visualizations Include Additional Sort Options And Better Usability 
+- Data Surveillance: Visualization Donut Charts Show Values Up to Two Decimal Points

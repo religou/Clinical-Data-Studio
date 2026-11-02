@@ -1,0 +1,24 @@
+# Trends Plots Improve Your Ability to Monitor Variable Data Across Sites
+
+## Trends Plots Improve Your Ability to Monitor Variable Data Across Sites
+## Description
+ Trends plots graphically display a variable's data at each site from a side-by-side perspective.
+ Trends plots for a single numeric variable are output using a box plot.  Trends plots for a single text variable are output using a stacked bar chart. 
+ Detect also computes a strength of association for each variable. The strength of association indicates the likelihood that patients at an individual site will have reported the same or similar numeric or text values for a particular variable. The higher a variable's strength of association, the more likely it will be that all or most reported values at a site will be the same or similar. Medidata Detect calculates strength of association on a range from 0.00 to 1.00. 
+## Affected Roles
+- Site Monitors 
+- Data Managers 
+- Medical Monitors 
+## Advantages
+ Trends plots allow you to easily compare a variable's patient-reported data across sites to help you pinpoint sites with abnormal or incorrect data that may warrant investigation.
+ Trends plots greatly increase your ability to focus on and monitor variables that are important to your study.
+ By knowing a variable's strength of association, you gain clearer expectations for how each individual site should report patient data. For example, if a variable has a very high strength of association, but one particular site contains a high level of variance in reported data points for that variable, then you might want to investigate that site.
+## User Impact
+ On the Error Plots page, you can click the Trends List tab to display a list of variables in the Trends List. You can click a variable in the Trends List to display the variable's graphical output for each site and accompanying Summary data in the Trends Plot tab.
+ Tip : Click to enlarge the Trends Plot stacked bar chart image and box plot image below, respectively.
+ To learn more, see  Trends Plots .
+ The Error Plots page also provides  additional high-level performance-related plot variable metrics next to the plot list for:
+- Strength of Association 
+## Special Considerations
+- Trends plots only output for single text variables and single numeric variables. 
+- You can only view trends plots for sites that you have access to view in Detect.

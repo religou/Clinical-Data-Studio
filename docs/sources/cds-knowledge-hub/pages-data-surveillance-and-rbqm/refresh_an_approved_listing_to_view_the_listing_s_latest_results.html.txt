@@ -1,0 +1,163 @@
+# Refresh Approved Listings to View the Listing's Latest Results
+
+## Refresh Approved Listings to View the Listing's Latest Results
+ You can refresh listings to produce listing results based on the most recent study data.  You can schedule a maximum of 15 listing refreshes  in total to run on a  daily cadence . However there is no limit for all other cadences of scheduled refreshes (monthly, weekly, quarterly) that can run  simultaneously . You can manually refresh listings on-demand each day.  
+ You need the Refresh Listings building block to refresh listings manually. For more information, see  Data Surveillance Building Blocks and Permissions . 
+ Tip : We recommend refreshing listings before data cleaning to ensure the records captured in the listings' results are based on the most recent study data. As Data Surveillance refreshes four times daily, you can obtain the updated Medidata Rave data from four separate snapshots in a day. For more information, see Clinical Data Studio Data Pipeline .
+## Refresh Listing Data On-Demand
+ Unified Scheduler does not replace on-demand refresh capabilities . You can start an on-demand refresh from within Listings  to manually update data independently of predefined automated schedules . 
+ Items already scheduled or queued for data refresh today disable automatically and are unavailable for selection . Total daily refreshes combine both scheduled and on-demand refreshes. Listings allow up to four refreshes per day for a listing. 
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Data Listings page, click the  Approved Listings tab.
+The Approved Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's Object identifier (OID) 
+- Description – The listing's description used to provide additional details 
+- Expression – The listing's conditional expression that is used to identify and flag patient data that meet the specified conditions. 
+- Protocol Deviation – A check mark indicates the listing is included in protocol deviation. No check mark indicates that the listing is not part of protocol deviation. 
+- EDC Queries – A check mark indicates that the listing is Rave enabled, meaning that you can view the listing's Rave query status in Data Surveillance. No check mark indicates that the listing is not Rave enabled. 
+- Vendor Queries – A check mark indicates that the listing is part of a vendor query set, meaning that the listing's records have vendor queries raised . No check mark indicates that the listing has no vendor queries raised. 
+- Created By – The user who created the approved listing to show the latest results. 
+- Refreshed By – The last user who refreshed the approved listing to show the latest results. 
+- Included in Refresh Schedule – A check mark indicates that the listing is included in a scheduled refresh, meaning that the listing's data refreshes at a specific cadence . No check mark indicates that the listing is not part of a refresh schedule. 
+- Track – Enables you to activate or inactivate the approved listing for Clean Patient Tracker analysis. 
+- If necessary, filter or sort  the Approved Listings table to help find the listing you need. 
+- Above the approved listing results table, click  Refresh .
+The On-demand Refresh page appears.
+- Select a maximum of 15 records.
+ Note : Records currently being refreshed or part of a scheduled refresh do not appear for selection.
+- Click Refresh .
+A "Refresh has started." message appears. The listings show the most recent search results once the refresh completes.
+ Note : The Status column shows a warning symbol to indicate changed data against data point values that changed after a refresh.  If a record marked as reviewed undergoes changes in its data point values, it is marked as unreviewed. 
+## Refresh Data On A Fixed Schedule
+ You can set all listings to refresh data at a specified cadence by configuring a refresh schedule on the Unified Scheduler page . You can also schedule refreshes on the Listings page.
+## View Refresh Schedule
+ You can view the details of the single scheduled refresh configured for listings.
+- Access Data Surveillance , and then click   Listings   in the left-hand menu.
+The Listings page shows. 
+- Click Approved Listings. 
+- Click   , the   More   icon at the top right corner of the page. 
+- Click   View Schedule .
+The Refresh schedule page shows all the scheduled refreshes. For each schedule, the following appears:
+ Schedule Refresh Details 
+- Name – Title of the refresh. 
+- Frequency – Frequency at which refresh occurs. of the refresh. 
+- Last Edited B y – The user who last edited the refresh schedule. 
+- Optional.  Click Export Settings to export the scheduled refresh configurations. 
+## Create Refresh Schedule
+- Access Data Surveillance , and then click   Listings   in the left-hand menu.
+The Listings page shows. 
+- Click Approved Listings. 
+- Click   , the   More   icon at the top right corner of the page. 
+- Click   View Schedule .
+The Refresh schedule page shows all the scheduled refreshes. For each schedule, the following appears:
+ Schedule Refresh Details 
+- Name – Title of the refresh. 
+- Frequency – Frequency at which refresh occurs. of the refresh. 
+- Last Edited B y – The user who last edited the refresh schedule. 
+- Click Create Schedule from the top right corner of the page. 
+- Complete the following fields as needed.
+ Table Column Descriptions 
+- Title – Read-only; non-editable.  T itle for the scheduled refresh. 
+- Frequency – Select the cadence at which the scheduled refresh. 
+- None – Saves the items in the scheduled refresh as a group. You can add frequency later as needed. 
+- Daily – Runs the scheduled refresh daily. 
+- Weekly – Runs the scheduled refresh weekly. You must further select the day. 
+- Biweekly – Runs the scheduled refresh every other week. You must further select the day.  
+- Monthly – Runs the scheduled refresh once a month. You must further select the day: 
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Bimonthly – Runs the scheduled refresh once every two months. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Quarterly – Runs the scheduled refresh once every quarter. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Select one or more records. 
+ Note: You select a maximum of 15 records from approved listings. 
+- Click Save Schedule . 
+## Edit Refresh Schedule
+- Access Data Surveillance , and then click   Listings   in the left-hand menu.
+The Listings page shows. 
+- Click Approved Listings. 
+- Click   View Schedule .
+The Refresh schedule page shows all the scheduled refreshes 
+- For any schedule, click   , the   More   icon from the top right corner of the schedule. 
+- Click Edit .  
+- Update the following fields as needed.
+ Table Column Descriptions 
+- Title – Read-only; non-editable.  T itle for the scheduled refresh. 
+- Frequency – Select the cadence at which the scheduled refresh. 
+- None – Saves the items in the scheduled refresh as a group. You can add frequency later as needed. 
+- Daily – Runs the scheduled refresh daily. 
+- Weekly – Runs the scheduled refresh weekly. You must further select the day. 
+- Biweekly – Runs the scheduled refresh every other week. You must further select the day.  
+- Monthly – Runs the scheduled refresh once a month. You must further select the day: 
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Bimonthly – Runs the scheduled refresh once every two months. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Quarterly – Runs the scheduled refresh once every quarter. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Select one or more records. 
+ Note: You select a maximum of 15 records from approved listings. 
+- Click Save Schedule . 
+## View Included Items 
+ You can view the list of records included in a scheduled refresh.
+- Access Data Surveillance , and then click   Listings   in the left-hand menu.
+The Listings page shows. 
+- Click Approved Listings. 
+- Click   View Schedule .
+The Refresh schedule page shows all the scheduled refreshes 
+- For any schedule, click   , the   More   icon from the top right corner of the schedule. 
+- Click Included Items .
+The Included Items in a schedule window shows all listings in the schedule. 
+## Delete Schedule
+ If a refresh schedule is no longer required, you can delete it.
+- Access Data Surveillance , and then click   Listings   in the left-hand menu.
+The Listings page shows. 
+- Click Approved Listings. 
+- Click   View Schedule .
+The Refresh schedule page shows all the scheduled refreshes 
+- For any schedule, click   , the   More   icon from the top right corner of the schedule. 
+- Click Delete . 
+- A Delete Schedule message appears.
+ Note : You cannot undo deletion. We recommend deleting schedules only if needed.
+- Click Delete.
+ The refresh schedule is deleted. 
+## View Refresh History
+ Review data refresh history within to monitor data update details for each listing.  The Refresh history page shows: 
+- When refreshes occurred . 
+- The type of refresh performed  
+- The associated snapshot date . 
+- The user who scheduled or started the refresh . 
+- For listings, it shows the record count associated with the refresh. 
+- Access Data Surveillance , and then click   Listings   in the left-hand menu.
+The Listings page shows. 
+- Click Approved Listings . 
+- Select any listing. 
+- Click History above the listing records table.
+The Refresh History page shows all refreshes for the listing.
+ Column Descriptions 
+- Refresh Date – Date and time when refresh started. 
+- Refresh Type – Scheduled or On-demand. For scheduled refreshes, the refresh cadence also appears. 
+- Snapshot Date – Date and time for the data snapshot.  
+- Record Count – Number of records in the listing's results after each refresh. 
+- Refreshed By – Person who started the refresh.

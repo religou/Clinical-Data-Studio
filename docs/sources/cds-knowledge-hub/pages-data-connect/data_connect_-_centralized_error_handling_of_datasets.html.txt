@@ -1,0 +1,21 @@
+# Data Connect - Centralized Error Handling of Datasets
+
+## Data Connect - Centralized Error Handling of Datasets
+## What Is New?
+ Users can view end to end status of datasets from Data Connect's Imports, Exports, and Transformations directly in the Datasets module.
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to workflow processes.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ As a single dataset can be used in multiple Data Connect modules, it is time consuming to check each module separately for errors. This feature enables centralized error handling across Data Connect with clear error messages.
+## Where Do I See the Change?
+ To access this feature, access Data Connect and click Datasets on the left-hand menu.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Feature:
+- Review Datasets 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

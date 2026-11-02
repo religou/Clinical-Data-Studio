@@ -1,0 +1,22 @@
+# Configure All CSM-related Data Mappings on the CSM Configuration Page
+
+## Configure All CSM-related Data Mappings on the CSM Configuration Page
+## Description
+ In previous Detect Configuration Manager releases, the left-hand menu contained a CSM Configuration tab. When you clicked the CSM Configuration tab, the left-hand menu would expand to show two subtabs: Event Analysis Configuration and Duplicate Patient Configuration. Clicking each tab directed you to the Event Analysis Configuration page and Duplicate Patient Configuration page, respectively.
+ Now clicking the CSM Configuration tab navigates you to the CSM Configuration page. The CSM Configuration page contains four embedded tabs: Error Plots, Event Analysis, Potential Duplicate Patients, and Rounding and Propagation. You can click each tab to access the workspace containing the configuration functionality for each respective CSM analysis tool.
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ The new CSM Configuration page simplifies navigation and usability by logically consolidating all CSM-related configuration functionality in one clear, centralized workspace. 
+## User Impact
+ You can now click the CSM Configuration tab on the left-hand menu to access the CSM Configuration page. The CSM Configuration page contains four embedded tabs: Error Plots, Event Analysis , Potential Duplicate Patients , and Rounding and Propagation . You can click each tab to access the workspace containing the configuration functionality for each respective CSM analysis tool.
+ Detect Configuration Manager no longer contains the Event Analysis Configuration page or Duplicate Patient Configuration page. You can now access the functionality from those pages on the CSM Configuration page > Event Analysis tab and Potential Duplicate Patients tab.
+## Knowledge Space Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support this feature: 
+- Map Event Analysis Data 
+- Map Potential Duplicate Patient Data 
+- Map Vital Sign Data for Rounding and Propagation Analysis 
+- Map Data Set Analysis Data 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

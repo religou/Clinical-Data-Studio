@@ -1,0 +1,40 @@
+# Transform Variable Mappings
+
+## Transform Variable Mappings
+ When performing source-to-target mapping, you can use the Transformation Instructions tool to convert mapped variables to fit your needs.
+- From the Create Transformations screen, create the transformation using one of the following methods:
+ Important :
+- You can only use a single method per transformation. You cannot use no-code modules and custom code in a single transformation. 
+- You must use the standardized Date_INT field as the source field in transformations, rather than the Date field. For details, see  Interpolated Variables Behavior in Data Surveillance and RBQM 
+- Transform with Modules – Use the Add Function menu while in the Field Transformation and Calculated Fields tabs to configure each transformation . You can also use the Add Condition button to add IF-THEN conditional logic to your transformation.
+ Note :
+- Some operations assume that you mapped multiple source variables to the target variable. 
+- You can nest calculated fields to create complex calculations. 
+- The Is Missing and Is Not Missing conditions are incompatible with data in the Time format. As a workaround:
+- Create a calculated field for the Time field to convert the Time field to a String field. 
+- In Field Transformation, apply Is Missing or Is Not Missing to the calculated field. 
+- Transform with Custom Code – Enter the input transformation logic in the Custom Code tab's Code field with postgres SQL.
+ Important : The Custom Code transformation option is deprecated. If you already transformed a dataset using custom code, the transformation still functions as configured. However, once you remove the custom code configuration, you can no longer access this option. 
+ Tip : Custom Code Usage Notes 
+ Use the form’s name as the form’s alias and project type as the target’s alias; for example: AE.field1 || CUST.AEOUT.
+ Code validation includes the following error messages:
+ Click here to expand... 
+ Error 
+ Description 
+ Resolution 
+ | Complete rule or function to save transformation 
+ | There are incomplete fields in the transformation logic.  
+ | Complete all empty fields. 
+ | Calculated Field name… is already in use 
+ | The Calculated Fields tab has a field with a name already in use. 
+ | Update the field name. 
+ | 
+ Calculated field  cannot be deleted it is used because it  is used in other rules or Functions
+ | You tried to delete a calculated field that other transformations or calculated fields use. 
+ | Delete a different field as necessary. 
+ | Transformation… has dependency on… So this operation is not allowed 
+ | You tried to edit a field in such a way that causes an infinite loop. For example, when Field 2 uses Field 1, you update Field 1 so that Field 1 also uses Field 2. Therefore Field 1 and Field 2 endlessly refer to each other. 
+ | Edit a different field as necessary. 
+- Click the Refresh button in the bottom panel to preview the transformation. 
+- Click the Quality Control tab to see any quality issues you must address. 
+- Close the Edit Transformation dialog after resolving all quality issues.

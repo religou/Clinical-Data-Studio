@@ -1,0 +1,16 @@
+# The Patient Selector Highlights the Selected Patient ID
+
+## The Patient Selector Highlights the Selected Patient ID
+## Description
+ The Patient Selector highlights the selected patient ID's row in blue.
+## Affected Roles
+- Unblinded Patient Profile Viewers 
+- Blinded Patient Profile Viewers 
+- Unblinded Patient Profile Designers 
+- Blinded Patient Profile Designers 
+## Advantages
+ You can easily identify which patient ID is currently selected in the Patient Selector, and thus, which patient profile currently displays on the Profiles tab.
+## User Impact
+ On the Design page > Profiles tab, the Patient Selector section now highlights the selected patient ID's row in blue. When you first navigate to the Profiles tab, the top patient ID in the Patient Selector is selected and displays in blue by default. If you subsequently click another row in the Patient Selector, the Patient Selector updates to display the newly selected row in blue.
+## Special Considerations
+ If you navigate from the Profiles tab to another Patient Profiles page or tab and then return to the Profiles tab, then the last patient profile viewed displays by default. The Patient Selector also persists in displaying the last selected patient ID's row in blue.

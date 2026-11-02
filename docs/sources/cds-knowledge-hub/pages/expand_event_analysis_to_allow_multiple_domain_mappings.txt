@@ -1,0 +1,37 @@
+# Expand Event Analysis to Allow Multiple Domain Mappings
+
+## Expand Event Analysis to Allow Multiple Domain Mappings
+## What Is New?
+ Detect Mapping for Event Analysis provides you with the ability to capture data for multiple domains, like Adverse Events, Reactogenicity, Concomitant Meds, and Concomitant Procedures. You can now:
+- Specify a treatment as Con Procedure or Con Med 
+- Add multiple domains of each mapping type 
+- Specify the category of mapping as Treatment, Condition, or History. 
+## What Is the Impact?
+## Users/Roles
+- Study Designer 
+- Implementation Consultant 
+- All Configuration Management users. 
+## Workflow Process
+ Consistent with prior releases, go to Detect Mapping, select Event Analysis, New Mapping, and choose between the three types of mapping, that is, Treatment, Condition, or History. After you select a mapping type, fill in the necessary selections in the popup, then save. 
+## Other Applications
+- AI Date Reconciliation   
+- Detect CSM, specifically the Event Incidence and Under and Over Reporting features of Reporting Pattern Analysis. 
+## How Do I Benefit?
+- More detailed AI Data Reconciliation Analysis that further refines interactions between conditions, treatments, and histories 
+- Improved reconciliation reports 
+- Improved mapping workflow. 
+## Where Do I See the Change?
+- Detect landing page > Configuration Manager > Detect Mapping > Event Analysis > table of mappings. 
+- Added fields:
+- AE Action Taken - Concomitant Procedure 
+- Concomitant Treatment Type that enables users to select if the treatment is a procedure or medication 
+- Enable For check boxes used to enable features 
+- Detect landing page > Configuration Manager > Detect Mapping > Event Analysis > Detect Mapping Report > new PDF file structure. 
+## Where Do I Learn More?
+ The Detect Knowledge Space provides new and updated content to support this feature/enhancement:
+- Map Event Analysis Data 
+- Download Detect Mapping Report PDFs 
+## What Else Should I Know?
+ All existing mappings are automatically moved over to the new mapping configuration, providing you mapped them to the same data set.
+ Mappings that are not mapped to the same data set are not migrated, and require manual mapping.
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

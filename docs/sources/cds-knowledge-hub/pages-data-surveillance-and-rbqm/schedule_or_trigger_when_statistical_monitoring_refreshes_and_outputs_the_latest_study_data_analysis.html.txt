@@ -1,0 +1,42 @@
+# Schedule or Trigger When Statistical Monitoring Refreshes and Outputs the Latest Study Data Analysis
+
+## Schedule or Trigger When Statistical Monitoring Refreshes and Outputs the Latest Study Data Analysis
+ Users with the proper permissions can: 
+- Schedule when and how often Statistical Monitoring renders and reflects a specific study's latest study data analysis.  
+- Manually trigger Statistical Monitoring to render and reflect a specific study's latest study data analysis. 
+ When a refresh successfully processes:
+- All users receive a notification email. 
+- The notification is posted in the Medidata Notification Center. 
+ Important : Statistical Monitoring data refreshes occur independently and separately from data refreshes that occur in other RBQM capabilities such as QTL Dashboard and KRI Dashboard.
+ Study data automatically refreshes four times daily at approximately 9:00am (EST), 3:00pm (EST), 9:00pm (EST) and 3:00am (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, 5:00 am (EST) the same day, 11:00 am (EST) the same day, 5:00 pm (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Medidata Rave and  activated datasets from Data Connect is available in 6 to 12 hours within RBQM. For more information, see  Clinical Data Studio Data Pipeline . 
+## Set Data Refresh Schedule
+ Users with the proper permissions can schedule when and how often Statistical Monitoring renders and reflects a specific study's latest study data analysis. Therefore, you can control when Statistical Monitoring renders your latest batch of study data to accommodate  your organization's data review schedule and pace. 
+ Important : Only authorized users can view  the Schedule page and set the data refresh schedule. 
+- Access RBQM , and then click Statistical Monitoring > History in the left-hand menu.
+The History page shows. 
+- Select the following:
+- Snapshot Schedule  – Select the frequency in which you want Statistical Monitoring to trigger the data refresh. 
+- Start  – Select the time of the month that you want the data refresh to trigger. The Start menu only appears if you select a Monthly , Bi-Monthly , or  Quarterly frequency. 
+- Day  – Select the weekday within the specified weekly, monthly, or quarterly cadence that you want the data refresh to trigger. The Day menu does not appear if you select First Day of the Month or Last Day of the Month from the Start menu.
+ Tip: Display This Week's Latest Study Data
+ To show the current week's latest data, select the Weekly frequency, and then select the weekday that is two days ahead of the current day. For example, if today is Tuesday and you want to view the latest data for this week, select the Weekly frequency, and then select Thursday .
+- Click Save .
+ Statistical Monitoring will automatically, periodically refresh to show visual renderings of the latest study data analysis as scheduled.
+ The upper- right corner of all Statistical Monitoring pages shows the date and time when the most recent data snapshot generation process started . t does not represent the date and time when the data in Statistical Monitoring was last refreshed. For example, . 
+ Therefore, the Last Updated timestamp may be earlier than the time at which the refreshed data becomes available in Statistical Monitoring.
+## Refresh Data Now
+ Important : Only users with the proper permissions can:
+- View the Refresh Analytics Now button on the Schedule page. 
+- Trigger Statistical Monitoring to render visualizations from the most recent study data analysis. 
+ Users with the proper permissions can manually trigger Statistical Monitoring to render and reflect a specific study's latest study data analysis. Therefore, you can control when Statistical Monitoring renders your latest batch of study data to accommodate  your organization's data review schedule and pace.
+ The upper- right corner of the Schedule page shows the time stamp of the currently rendered study data's most recent completed run through Statistical Monitoring's analytics.  For example,  . 
+- Access RBQM , and then click Statistical Monitoring > History in the left-hand menu.
+The History page shows. 
+- Click Refresh .
+Statistical Monitoring refreshes to show Statistical Monitoring's visual renderings of the most recent study data analysis. The Last Updated field updates to show the time stamp of the currently rendered study data's most recent completed run through Statistical Monitoring's analytics. 
+## Stop or Suspend Scheduled Data Refreshes
+ You can discontinue or suspend scheduled data refreshes from occurring for closed studies or studies undergoing database lock or data clean up. 
+- Access RBQM , and then click Statistical Monitoring > History in the left-hand menu.
+The History page shows. 
+- In Snapshot Schedule , select  None . 
+- Click Save .

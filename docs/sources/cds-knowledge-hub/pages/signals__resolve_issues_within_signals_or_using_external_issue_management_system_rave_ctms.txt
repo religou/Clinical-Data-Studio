@@ -1,0 +1,114 @@
+# Signals: Resolve Issues Within Signals Or Using External Issue Management System Rave CTMS
+
+## Signals: Resolve Issues Within Signals Or Using External Issue Management System Rave CTMS
+## What Is New?
+ In the Centralized Monitoring process , a signal is an   alert or indication of a potential problem, risk, or deviation in a clinical study . An issue is a confirmed finding, the result of a signal validated through central monitor review, site discussions, or site visits. You can now raise site and study level issues and resolve them both internally within the Signals capability, or use an external clinical trial management system (CTMS) like Rave CTMS. You can no longer send issues from Key Risk Indicators (KRIs) and Statistical Monitoring dashboards to Rave CTMS. 
+## What Is the Impact?
+## Users/Roles
+- Central Monitors and Central Statistical Monitors, Clinical Research Associates 
+- Users with View Signals, Manage Signals, Create Issues , and View Issues and Actions building blocks. 
+## Workflow Process
+ Once your study is integrated with an external issue management like Rave CTMS, you can send issues for resolution. You can also receive issue progress information like issue status from Rave CTMS. Any issue-related actions you perform in Rave CTMS affect the issue outcome in Signals. However, if you close a signal with an open issue in Rave CTMS, the issue does not automatically close. 
+ For issues raised internally and tracked for resolution, the entire issue progress occurs within Signals.
+## Other Applications
+- You must have access to Rave CTMS to progress and resolve issues. 
+- Signals read data from the following capabilities:
+- Patient Profiles. 
+- KRIs. 
+- QTLs. 
+- Rounding. 
+- Propagation. 
+- Potential Duplicate Patients. 
+- Under/over Reporting. 
+## How Do I Benefit?
+ Depending on the sponsor set up, for signals that move into a formal issue management system like Rave CTMS, 
+- Tracking issues ensures that you can resolve protocol deviations, safety issues, minor, major, and high-risk findings in accordance with regulations, and in alignment with sponsor expectations. 
+- Resolving issues provides a clear audit trail of all actions and personnel involved, reducing inspection risks.  
+- Raising issues directly from within Signals avoids duplication of work in multiple systems and reduces human errors.  
+ For issues raised internally within Signals, tracking, reviewing progress, and resolution occurs in one place, allowing all study personnel involved a clear view into each step of the resolution process.
+## Where Do I See the Change?
+## For issues sent to Rave CTMS 
+ On the RBQM > Signals page, for any signal with Open or Reopened status, if you click , the More icon, and then click Raise an issue , the Create Issue window appears. If you  click the Send to CTMS option on the Create Issue window and select one of the issue types, you can send either a protocol deviation (PD), or a non-protocol deviation (Non-PD) issue to Rave CTMS for tracking and resolution. You cannot send an issue to Rave CTMS if actions are assigned for the signal. You can raise multiple issues of each type for a signal. Once you send an issue to Rave CTMS, the issue is tracked and resolved entirely within Rave CTMS. Only the issue status transmits back to Signals. Issues raised to Rave CTMS are at site and study level. 
+## For issues set for resolution internally within Signals  
+ On the RBQM > Signals page, for any signal with Open or Reopened status, if you click , the More icon, and then click Raise an issue , the Created Issue window appears. If you click either a protocol deviation (PD), or a non-protocol deviation (Non-PD) issue on the Create Issue window, then you can raise an issue within Signals. You can raise only one issue for resolution within Signals. The Raise an issue button becomes disabled if a signal has an issue set for resolution internally within Signals. You can resolve an issue by clicking the Clear Issue option.  
+ Image 1 - Create Issue 
+ Note : For duplicate patients, you can assign issues only if study team members are assigned to both the site and country.  
+ Protocol deviation issue sent to Rave CTMS 
+ Example Image 
+ Protocol Deviation Issue 
+ | 
+ | 
+ If you select protocol deviation (Image 1), then the Create CTMS Issue slide-out panel shows the following fields:
+- Country (Auto-populated) 
+- Site (Auto-populated) 
+- Issue Type (Auto-populated) 
+- Issue created by (Auto-populated) 
+- Issue created (Auto-populated) 
+- Assignee (Mandatory) 
+- Description  
+- Additional configuration
+- Protocol deviation category (Mandatory) 
+- Protocol deviation severity (Mandatory) 
+- Protocol deviation subcategory (Mandatory) 
+- Notification requirements
+- IRB notification required 
+- Sponsor notification required 
+- Regulatory notification required. 
+ Note : You cannot create a protocol deviation issue for QTLs or user generated signals without a site associated with it.
+ If you click Create CTMS Issue , the issue created is sent to Rave CTMS for tracking and resolution. The Issues column for the signal in reads Yes .
+ Non-Protocol deviation issue sent to Rave CTMS 
+ Example Image 
+ Non-Protocol Deviation Issue 
+ | 
+ | If you select non-protocol deviation (Image 1), then the Create CTMS Issue slide-out panel shows the following fields: 
+- Country (Auto-populated) 
+- Site (Auto-populated) 
+- Issue Type (Auto-populated) 
+- Issue created by (Auto-populated) 
+- Issue created (Auto-populated) 
+- Assignee (Mandatory) 
+- Description  
+- Severity (Mandatory) 
+- Category (Mandatory) 
+- Subcategory(Mandatory) 
+- Visibility (Mandatory) 
+ If you click Create CTMS Issue , the issue created is sent to Rave CTMS for tracking and resolution. The Issues column for the signal in reads Yes .
+ Protocol deviation issue resolved within Signals 
+ Example Image 
+ Protocol Deviation Issue 
+ | 
+ | If you select protocol deviation (Image 1), then the Create CTMS Issue slide-out panel shows the following optional fields: 
+- Protocol deviation severity. 
+- Protocol deviation sub-category. 
+- IRB notification required. 
+- Sponsor notification required. 
+- Regulatory notification required. 
+ If you click Create Issue , the issue is created for the signal, the Issues column for the signal reads Yes .
+ Non-Protocol deviation issue resolved within Signals 
+ Example Image 
+ Non-Protocol Deviation Issue 
+ | 
+ | If you select non-protocol deviation (Image 1), then the Create CTMS Issue slide-out panel shows the following optional fields: 
+- Subcategory. 
+- Severity. 
+ If you click Create Issue , the issue is created for the signal, the Issues column for the signal reads Yes . 
+## Issues and Signals 
+ On the RBQM > Signals page > Signals tab, for any signal with one or many issues associated, the Issues column reads Yes , otherwise, No . You can view all the issues created for any signal if you click , the More icon in the row corresponding to the signal ID, and then click Open signal details . The Signal Details slide-out panel appears as follows. If a signal has issues, then if you click the Resolution tab > Add Resolution , then the root cause, mitigation, and description fields are mandatory.
+ Issue Type 
+ Example 
+ | 
+ | 
+ Issue sent to Rave CTMS – The Overview section lists the Issue IDs for issues sent to Rave CTMS for resolution. If there are many issues associated with the signal, a +More hyperlink appears in the Overview section next to the issue IDs. If you click the hyperlink, an All Issues slide-out panel lists individual issues, along with their descriptions and issue statuses. You can click the issue link to view the individual issue details page.
+ | 
+ | Issue not sent to Rave CTMS – The Overview section identified the issue type for an issue set for resolution within Signals. The Issue Details section shows further information for the issue, in this case a non-protocol deviation issue.  
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the feature:
+- Raise And Resolve Signal Issues. 
+- Perform Signal Operations. 
+## What Else Should I Know?
+ You can no longer send issues from RBQM > Statistical Monitoring to Rave CTMS, and the Issues tab no longer appears in the following pages:
+- Weekend and Holiday Visits  
+- Event Incidence 
+- Anomalies 
+ In additional, you can no longer send issues from KRI Dashboard to Rave CTMS, and the Create Issue button no longer appears when you click a KRI value in the KRI Dashboard. For those with permissions enabled, you can also no longer view the Audit icon next to the KRI Dashboard page title, so you can no longer access and view the Audit Report Details window and view previously created issues from the KRI Dashboard.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

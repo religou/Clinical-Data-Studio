@@ -1,0 +1,13 @@
+# Study Environments Require Study Data to Create or Edit Designs
+
+## Study Environments Require Study Data to Create or Edit Designs
+## Description
+ You cannot create or edit study designs if at least one data sync has not run in your study's environment.
+## Affected Roles
+- Patient Profile Designer 
+## Advantages
+ This prevents patient profile designers from attempting to design patient profiles in environments that do not yet have study data to use.
+## User Impact
+ The Create Design button is disabled on the Patient Profile Designs page if at least one data sync has not yet run in your study's environment. You also cannot select an existing design to edit.
+## Special Considerations
+ None.

@@ -1,0 +1,63 @@
+# Protocol Integrity Report: Protocol Integrity Report Now Available
+
+## Protocol Integrity Report: Protocol Integrity Report Now Available
+ Important :
+- To learn more about changes done to these release notes, see the revision history . 
+- To learn more about features and enhancements covered in previous releases, see the releases history . 
+- To learn more about all features in this release, see the released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.3.0
+ Change Type 
+ | Feature (New Functionality) 
+ Functionality or Module 
+ | RBQM > Protocol Integrity Report
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter :
+ The Protocol Integrity Report (PIR) centralizes and automates the tracking of protocol deviations . It aggregates deviations from Rave EDC queries, clinical data listings, and manual entries into a single dashboard . PIR uses the Protocol Deviation Assessment Plan (PDAP) to categorize deviations . 
+ Benefit to Users 
+ | PIR replaces manual tracking and categorization . It aligns deviations with the PDAP to ensure consistent data and regulatory compliance . It provides a review and approval workflow with an audit trail and detects duplicate deviations. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ The change impacts users assigned the View Protocol Deviation or Manage Protocol Deviation roles. 
+ Impact to Workflow Processes 
+ The protocol deviation workflow moves from manual tracking to an automated process . Users review deviations in the Proposed, In Review, and Confirmed statuses, and finalize them as Approved or Dismissed. 
+ Impact to Applications 
+ PIR integrates with Rave EDC to import Answered or Closed queries prefixed with terms like PD or Potential PD . PIR also integrates with Listings to import flagged records. 
+ Impact on Interface 
+ A new Protocol Integrity Report dashboard is available in RBQM . A new Protocol Deviation Assessment Plan configuration is available in Plan Documents. 
+ Impact to Existing Data or Settings 
+ You must configure and publish a PDAP to map protocol deviations . You must configure Rave EDC queries with specific prefixes to enable automatic identification . 
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | 
+ The following lists any new or added resources that support this change:
+- Updated Article:  About RBQM 
+- Updated Article:  RBQM Building Blocks and Permissions 
+- Updated Article: Access, View, and Create Plan Documents 
+- New Article: Protocol Integrity Report 
+ Special Considerations 
+ | For Plan Documents :
+- You can only edit the plan under the Draft version. 
+- Only the most recent plan will be retained as the active plan document whether it is in Draft status or Published status. Any older versions of it will be archived. However, all other older plans will be removed from the interface. 
+- Users can only have one draft and one published plan at a time, and the one they have most recently worked on is treated as the final plan document. 
+ For Protocol Integrity Report (PIR) :
+- PIR automatically populates the Category, Impact on Data, and Classification fields based on the PDAP . 
+- You cannot edit these fields in PIR . 
+- PIR automatically marks records submitted from listings as reviewed in the listing. 
+- PIR excludes queries against blinded data. 
+- PIR fetches the PDAP details from the latest published plan document 
+ To view Medidata testing documentation for this release, see the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

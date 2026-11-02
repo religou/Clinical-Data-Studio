@@ -1,0 +1,248 @@
+# Investigate Data Using the KRI Dashboard
+
+## Investigate Data Using the KRI Dashboard
+ The KRI Dashboard  helps you identify, assess, monitor, and mitigate the issues and risks that could affect the quality or safety of your study.  
+ The KRI Dashboard enables you to: 
+- View all KRI values that your study tracks at the site and country level. 
+- Determine which site and country KRI values are outliers and non-outliers. 
+- View which sites and countries RBQM assesses as being medium or high risk to your study's performance. 
+- View high-level metadata for each KRI. 
+- View the distribution of KRI -specific data in a box-and-whisker plot at the site or country level for a visual perspective. 
+- View historical trends in site- and country-level KRI data. 
+- View site- and country-level KRI summary data 
+- Filter and sort the KRI Dashboard to help you find and view the information of most concern to you. 
+- Log, track, and manage issues   while jointly reviewing RBQM's KRI analysis. 
+ Note: Last Updated Timestamp
+ The Last Updated timestamp reflects the date and time when the most recent data snapshot generation process started. It does not represent the date and time when the data on the KRI Dashboard was last refreshed. Therefore, the Last Updated timestamp may be earlier than the time at which the refreshed data becomes available on the KRI Dashboard.
+## View High-Level KRI Attributes
+ You can v iew high-level attributes for each KRI. 
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows and  initially lists site-level KRI values by default. 
+ Tip : Click Refresh to trigger RBQM to render KRI data from the most recent study data analysis. Only users with proper permissions can perform a data refresh. 
+- If necessary, filter or sort the KRI Dashboard to find the KRIs you need. 
+- Hover your cursor over any KRI column header in the KRI Dashboard . 
+A tooltip shows: 
+- KRI Label – KRI name and description as defined in KRI Configuration . 
+- KRI Type – Specifies whether the KRI is a system KRI or custom KRI . 
+- Calculation Type – Specifies whether the KRI calculation uses a statistical threshold or user set threshold as defined in RBQM Configuration. For KRIs calculated using user set threshold limits, color-coded threshold values and ranges also show in the tooltip.  
+## View Medium-risk and High-risk Sites
+ The   KRI Dashboard   visually signifies sites that RBQM assesses as being medium or high risk to your study's performance by appending the site name with  a or icon. The Medium and High signal icons help you quickly identify and determine sites that may warrant investigation. 
+ Tip : You can filter the KRI Dashboard to show KRI values only for medium- or high-risk sites.
+ To learn more about how RBQM determines risks that are medium or high risk, see  Site Risk Alert Methodology . 
+## Interpret the KRI Dashboard
+ Your proficiency in reading and understanding the KRI Dashboard greatly affects your ability to  determine: 
+- The issues or risks in your study that require further investigate or mitigation.  
+- The best approach or mitigating actions to take on the issues or risks. 
+- The effect the mitigating actions have made on the issues or risks over time. 
+ The following details explain how to read and interpret the KRI Dashboard . 
+- The KRI Dashboard lists the KRIs being tracked in your study and their respective KRI values  at each site and country.  To learn more about each KRI type and how RBQM  calculates KRI values, see  KRI Descriptions and Calculation Methodologies .  
+- The KRI Dashboard shows site-level KRI values by default. Sites initially list vertically in the Site Name column in alphanumeric, ascending order.  
+ Tip : You can  filter the KRI Dashboard to show site- or country-level KRI values . You can also sort the KRI Dashboard by Site Name, Country Name, Enrolled Patient Count, or by a specific KRI's values in ascending or descending order.
+- A single column shows a KRI risk category in the first row, the KRI name in second row, and then the KRI's values across all currently displayed sites or countries in each subsequent row. To learn more about KRI risk categories or specific KRIs, see KRI Descriptions and Calculation Methodologies .
+ Tip : You can choose which KRI risk categories and which specific KRIs you want to view in the KRI Dashboard . See Filter the Key Risk Indicators Table by KRI Category .
+- By default, KRI risk categories appear from left to right in ascending alphabetical order (A on the left; Z on the right). 
+- By default, KRI column headers are grouped and listed in ascending alphabetical order within their respective KRI risk category.
+ Tip : You can reposition the KRI column headers in the KRI Dashboard. 
+- A single row lists a given site or country's KRI values across all KRIs currently in view in the KRI Dashboard. 
+- The KRI Dashboard visually signifies medium- and high-risk sites with a or icon. 
+- The KRI Dashboard indicates a KRI’s level of risk based on color-coded risk thresholds , which are configured based on RBQM's statistical analysis of the study data. RBQM automatically adjusts the thresholds with each new data refresh. 
+- Red** indicates  that  there is a strong association indicating that there may be an underlying cause at the site or country resulting in its KRI value to be an extreme outlier. The risk being monitored may warrant investigation at the site or country level. 
+- Orange*   indicates  there is a strong association indicating that there may be an underlying cause at the site or country resulting in its KRI value to be an outlier. The risk being monitored may warrant investigation at the site or country level. 
+- Green   suggests that there is nothing about the study data at the site or country that would raise alarm about the risk being monitored. The site or country is likely operating and reporting data as expected. 
+- Gray  indicates that  there are fewer than two patients at the site or country, which is not enough data to determine risk level. 
+ Tip : To learn more about how RBQM determines KRI risk level and color-codes KRI values, see KRI Risk Level Alert Methodology . 
+## View and Compare KRI Outliers Side-by-Side Across Multiple Sites or Countries
+ You can select up to four sites or countries whose KRI outlier metrics you would like to view and compare side by side. Side-by-side comparison provides a clear, concise view of the outlier KRIs and corresponding KRI values at each selected site or country.
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows and initially lists site-level KRI values by default. 
+- Click the View by filter.
+- Select either of the following:
+- Sites . 
+- Countries .
+- Click Side by Side View above the KRI Dashboard. 
+- Select up to four countries or sites. 
+- Click View . 
+## View KRI Data Distribution in a Box Plot Visualization
+ You can view the distribution of KRI results in a  box-and-whisker plot by site or country for any specific KRI and see where your site of interest stands.  
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows and initially lists site-level KRI values by default. 
+- If necessary, filter or sort the KRI Dashboard to find the KRIs you need. 
+- Click within the column of the KRI whose data you want to view in a box plot.
+The Box Plot  button appears above the table next to the View By filter. 
+- Click Box Plot .
+The Box Plot appears on the right-hand side of the page. To learn how to read and understand the KRI box plot visualization, see Interpret the KRI Box Plot Visualization .
+## Interpret the KRI Box Plot Visualization
+- The KRI Box Plot visualization shows the selected KRI's distribution of site or country data points on a box-and-whisker plot . 
+- The y-axis indicates the KRI value .
+ Note : The y-axis indicates the percentage of screen failures for Screen Failure Rate KRI data points.
+- Each site or country KRI data point on the plot is represented by a red triangle,  yellow square,  green diamond, or a gray circle. 
+- Red Triangle –  Indicates that there is a strong association indicating that there may be an underlying cause at the site or country resulting in its KRI value to be an extreme outlier. The risk being monitored may warrant investigation at the site or country level. 
+- Yellow Square  – I ndicates  there is a strong association indicating that there may be an underlying cause at the site or country resulting in its KRI value to be an outlier. The risk being monitored may warrant investigation at the site or country level. 
+- Green Diamond – Suggests that there is nothing about the study data at the site or country that would raise alarm about the risk being monitored. The site or country is likely operating and reporting data as expected. 
+- Gray Circle  – I ndicates that  there are fewer than two patients at the site or country, which is not enough data to determine risk level.
+ Tip : To learn more about how RBQM determines KRI risk level and color-codes KRI values, see KRI Risk Level Alert Methodology .
+- KRIs can be either two-sided or one-sided. Two-sided KRIs alert you to both high- and low-level thresholds. One-sided KRIs only indicate either a high-level threshold or low-level threshold, but not both. 
+- You can view the KRI's distribution  of site or country data in terms of (from top to bottom) the  KRI's upper whisker value , 75th percentile value, median, 25th percentile value, and lower whisker value . 
+- All data points that lie within the green box,  , are within the interquartile range  for all site or country data points within the KRI. 
+- Any site or country data points located outside of the 75th and 25th percentile values are considered  outliers . 
+- The line within the green box represents the median value.  
+- When you hover your mouse on a data point of a particular color, then all KRI values with the same color code are highlighted. Meanwhile, all other KRI values are faded. 
+- Hovering your cursor on an individual data point shows the following KRI-related details:
+- Site  – The site name appears if you are looking at a site-level KRI. 
+- Country  – The country name appears if you are looking at a country-level KRI. 
+- Value  – The KRI value. 
+- Total  – The total number of enrolled patients at the site or country. 
+- Hovering your cursor on an individual data point of a particular color highlights all other KRI data points of the same color and fades all other data points. For example, if you hover your cursor on a red data point, all red data points highlight, while all other data points fade. 
+- Hovering your cursor on a box plot line fades all data points and shows the following KRI details: 
+- Maximum  –  The 75th percentile plus 1.5 times the difference between the 75th and 25th percentile values.  If no data points exceed 1.5 times the interquartile range, then RBQM draws the whisker at the maximum data point that is within 1.5 times interquartile range. 
+- Upper quartile  – The KRI's 75th percentile KRI value. 
+- Median  – The KRI's median KRI value. 
+- Low quartile  – The KRI's 25th percentile KRI value. 
+- Minimum  – T he 25th percentile minus 1.5 times the difference between the 75th and 25th percentile values.  If no data points exceed 1.5 times the interquartile range, then RBQM draws the whisker at the minimum data point that is within 1.5 times interquartile range. 
+## View and Interpret Historical Trends in Site- and Country-level KRI Data
+ You can view trends in  key risk indicator data at the site and country level, and you can compare that data to all sites and countries overall in your study. Tracking  historical data helps you evaluate how KRI values change over time and how a given site or country's KRI values relate to the overall study data. 
+ Tracking KRI data over time also helps you determine whether you are correctly managing issues and that any mitigating actions you have taken are resulting in a positive outcome. 
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows and  initially lists site-level KRI values by default. 
+ Tip : Click Refresh to trigger RBQM to render KRI data from the most recent study data analysis. Only users with proper permissions can perform a data refresh. 
+- If necessary, filter or sort the KRI Dashboard to find the KRIs you need. 
+- In the KRI Dashboard , click the cell within the column of the KRI for the site or country whose historical data you want to view.
+The Trend Graph  button appears above the table. 
+- Click Trend Graph .
+In a separate dialog box, the KRI trend graph shows the  historical KRI trending data for the selected site or country.
+- KRI Value 
+- Date Modified  – The reported KRI value as of the specified date. 
+- Do any of the following: 
+- Hover your cursor   over a specific data   point on the graph to view:
+- The KRI snapshot date. 
+- The KRI value at the selected site or country. 
+- The KRI value for at the study level.. 
+- Specify a custom date range to appear on the graph by:
+- Using the From and To calendar pickers, or 
+- Clicking and dragging your mouse over a specific area on the bottom graph. 
+- Click Close to return to the Key Risk Indicators page. 
+## View Site and Country-level KRI Summary Data
+ You can view metadata about individual sites or countries to give you more context to the corresponding site and country's KRI value. 
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows and initially lists site-level KRI values by default. 
+- If necessary, filter or sort the KRI Dashboard to find the KRIs you need. 
+- Click any cell in the KRI Dashboard corresponding to the row of the site or country whose data you want to view.
+The Summary button appears above the KRI Dashboard. 
+- Click Summary .
+ Field Descriptions 
+- All Sites  – The All Sites column header appears if the KRI Dashboard is filtered by Site. That is, Site is selected from the View By filter. The data in the All Sites column corresponds to all sites in the study. 
+- <Site Name> – The site selected in the KRI Dashboard. 
+- All Countries  – The All Countries  column header appears if the KRI Dashboard is filtered by Country. That is, Country  is selected from the View By filter. The data in the All Countries column corresponds to all countries in the study. 
+- <Country Name> – The country selected in the KRI Dashboard. 
+- First patient visit date  –  The date of the first recorded patient visit at the selected site or country or for the entire study. 
+- Last patient visit date  –  The date of the last recorded patient visit at the selected site or country or for the entire study. 
+- Total number of patients  – The total number of Patients in the entire study or at the selected site or country. 
+- Average follow up time (days) – The average number of study days from  day 0 to the last visit date recorded in the study  or at the selected site or country. 
+- Average number of visits  – The average number of visits per patient at the selected site or country or for the entire study. 
+ The KRI Impact section includes a table that lists all patients at the selected site and shows the following for each patient. You can view the patient-level impact on KRI values. 
+- For Percentage KRIs, the KRI Impact section calls out all patients that either do (True) or do (False) not meet the criteria set for that percentage KRI. 
+- For Numeric KRIs, the KRI Impact section lists the value for each patient ID based on the calculation type configured for that numeric KRI. Calculations types can be:
+- Count 
+- Count values 
+- Mean 
+- Rate 
+- Rate values 
+- For System KRIs, the KRI Impact section lists the value for each patient ID based on the calculation type configured for that system KRI. 
+- The KRI Impact section only provides information about patients meeting the criteria for the following system KRIs by providing numeric values representing the percentages or numbers per month: 
+- Number of SAEs per Patient-Month 
+- Percent Out of Window Visit 
+- Missing Visit Percentage 
+- Number of AEs per Patient-Month. 
+- The KRI Impact section not provide information about patients meeting the criteria for the following site-level, operational system KRIs: 
+- AE Entry Delay 
+- Manual Query Rate 
+- Non-System Query Delay 
+- System Query Delay 
+- System Query Rate 
+- Visit Entry Delay  
+ You can then click patient IDs listed in the KRI Impact table to link to and directly access and review the patient profile for that patient ID.
+ Note : The KRI Impact table does not provide information for numeric KRIs or system KRIs whose calculation type is standard deviation. 
+ Tip : You can then click patient IDs listed in the KRI Impact table to link to and directly access and review the patient profile for that patient ID.
+## Filter and Sort the KRI Dashboard
+ To help find and view specific KRIs of most concern to you, you can: 
+- Filter the KRI Dashboard to show: 
+- Site-level KRI values . 
+- Country-level KRI values. 
+- KRI values only for medium- or high-risk sites. 
+- KRI values for specific sites or countries. 
+- KRIs values pertaining to all risk categories or specific risk categories. 
+- KRI values for all KRIs or specific KRIs. 
+- Sort the KRI Dashboard by: 
+- Sorting a specific column header vertically in ascending or descending order. 
+- Repositioning where KRI columns lie horizontally on the dashboard. 
+## Filter the KRI Dashboard by Site- or Country-level KRI Values
+ You can filter the KRI Dashboard to show: 
+- Site-level KRIs values, or 
+- Country-level KRI values. 
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows and  initially lists site-level KRI values by default. 
+ Tip : Click Refresh to trigger RBQM to render KRI data from the most recent study data analysis. Only users with proper permissions can perform a data refresh. 
+- Click the View by filter.
+- Select either of the following:
+- Sites . 
+- Countries .
+## Filter the KRI Dashboard by Medium- or High-Risk Sites
+ You can filter the KRI Dashboard to show KRIs values only for sites that RBQM assesses as being medium or high risk to your study's performance. 
+ Note : The KRI Dashboard visually signifies medium- and high-risk sites with a or icon.
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows and  initially lists site-level KRI values by default. 
+ Tip : Click Refresh to trigger RBQM to render KRI data from the most recent study data analysis. Only users with proper permissions can perform a data refresh. 
+- Click the View by filter. 
+- Click either of the following:
+- Sites - High Risk 
+- Sites - Medium Risk .
+## Filter the KRI Dashboard by Specific Sites or Countries
+ You can filter the KRI Dashboard to show the KRI values only for specific sites or countries that you are interested in. 
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows and  initially lists site-level KRI values by default. 
+ Tip : Click Refresh to trigger RBQM to render KRI data from the most recent study data analysis. Only users with proper permissions can perform a data refresh. 
+- Click the View by filter. 
+- Do either of the following:
+- Click Sites , and then select the check box for each site that you want to view in the KRI Dashboard. 
+- Click Countries , and then select the check box for each country that you want to view in the KRI Dashboard.
+ Tip : You can enter one or more characters in the Sites or Countries filter to narrow the list of selectable filter options 
+- Click Apply . 
+## Filter the KRI Dashboard by Risk Category
+ You can filter the KRI Dashboard to show KRIs values for all risk categories or specific risk categories. 
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows and  initially lists site-level KRI values by default. 
+ Tip : Click Refresh to trigger RBQM to render KRI data from the most recent study data analysis. Only users with proper permissions can perform a data refresh. 
+- Click Categories above the KRI Dashboard, and select: 
+- All to show all risk categories. 
+- Any combination of risk categories available from the Categories list that you want to view.
+ Tip : You can enter one or more characters in the Categories filter to narrow the list of selectable filter options.
+- Click Apply . 
+## Filter the KRI Dashboard by Specific KRIs
+ You can filter the KRI Dashboard to show KRIs values for all KRIs being tracked in your study or specific KRIs. 
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows and  initially lists site-level KRI values by default. 
+ Tip : Click Refresh to trigger RBQM to render KRI data from the most recent study data analysis. Only users with proper permissions can perform a data refresh. 
+- Click KRIs above the KRI Dashboard, and select: 
+- All to show all risk categories. 
+- Any combination of KRIs available from the KRIs list that you want to view.
+ Tip : You can enter one or more characters in the KRIs filter to narrow the list of selectable filter options.
+- Click Apply . 
+## Sort the KRI Dashboard Vertically in Alphanumeric Order by Column Header
+ You can sort the KRI Dashboard's column headers vertically in ascending or descending alphanumeric order. For example, you may want to sort by a specific KRI column header to show that KRI's lowest KRI values at the top of the KRI Dashboard. Or you may want to sort the Country category to list the countries in descending alphabetical order to quickly organize the dashboard and find the country-specific KRI values. 
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows and  initially lists site-level KRI values by default. 
+ Tip : Click Refresh to trigger RBQM to render KRI data from the most recent study data analysis. Only users with proper permissions can perform a data refresh. 
+- Hover your cursor on the column header you want to sort the table by.
+A appears next to the header name. 
+- Click to sort the column in ascending order.
+The   icon turns blue indicating the table is sorted by the selected column. 
+- If necessary, click to sort the column in descending order.
+A appears next to the header name indicating descending order. 
+## Reposition the KRI Dashboard's KRI Columns Horizontally
+ You can customize and assemble where the KRI column headers in the KRI Dashboard list from left to right. For example, you may want to position KRIs of most interested on the left side of the KRI Dashboard to better find and analysis that KRI's values.
+ Note : You cannot reposition the Site , Country , or Enrolled Patient Count columns.
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows and  initially lists site-level KRI values by default. 
+ Tip : Click Refresh to trigger RBQM to render KRI data from the most recent study data analysis. Only users with proper permissions can perform a data refresh. 
+- Hover your cursor on the KRI column header you want to reassemble in the KRI Dashboard. 
+- Click and drop the KRI column header horizontally where you want it assembled in the KRI Dashboard.

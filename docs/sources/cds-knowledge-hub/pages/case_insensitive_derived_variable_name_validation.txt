@@ -1,0 +1,13 @@
+# Case Insensitive Derived Variable Name Validation
+
+## Case Insensitive Derived Variable Name Validation
+## Description
+ The derived variable creation workflow now expands Name field validation to be case insensitive. Within a given data set, derived variables cannot share a name with any standard data set variable or derived variable.
+## Affected Roles
+ Any role with the Manage Derived Variables building block.
+## Advantages
+ The expanded validation ensures that you do not accidentally name derived variables with similar names such as derived_variable and derived_Variable. The change also guards you from accidentally creating new derived variables from a typo. 
+## User Impact
+ An error message appears when you attempt to save a derived variable that has a name similar to a standard data set variable or derived variable in the Name field.
+## Special Considerations
+ You can have derived variables with the same name in different data sets. For example, you can have a derived variable named DV1 in the Demographics dataset and a derived variable also named DV1 in the Chemistry data set.

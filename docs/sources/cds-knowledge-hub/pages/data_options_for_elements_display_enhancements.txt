@@ -1,0 +1,13 @@
+# Data Options For Elements Display Enhancements
+
+## Data Options For Elements Display Enhancements
+## Description
+ When working with an element on the Design page > Elements tab, the Data Options tab now reads as Data tab. All data variables display under the Data tab. 
+## Affected Roles
+ All. 
+## Advantages
+ You can identify the data variables listed for different elements when building profile designs. 
+## User Impact
+ See the Description section. 
+## Special Considerations
+ None.

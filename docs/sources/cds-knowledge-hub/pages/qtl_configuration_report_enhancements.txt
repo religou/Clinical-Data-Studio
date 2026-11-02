@@ -1,0 +1,36 @@
+# QTL Configuration Report Enhancements
+
+## QTL Configuration Report Enhancements
+## Description
+ On the QTL Configuration page:
+- The "PDF" button label is changed to "Report." 
+- The dates that display in the The Last Updated column are now formatted as DD-MMM-YYYY. 
+ In addition, the QTL Configuration Report:
+- Downloads as an XLS file instead of a PDF file. 
+- Includes the following additional columns:
+- Date Added 
+- Updated By 
+- Date Updated 
+- Modification Note 
+- Deactivation Date 
+- Deactivation Note 
+- Deactivated By 
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ The QTL Configuration page enhancements provide the following benefits:
+- Renaming the PDF button to the Report button:
+- Makes it clearer as to the functionality that the button provides. 
+- Ensures label consistency across other Detect modules. 
+- Downloading QTL Configuration Reports as XLS files:
+- Enables reports to support additional report data that PDF files did not support. 
+- Allows for greater report data manipulation like sorting and filtering capabilities. 
+## User Impact
+ See the Description section.
+## Knowledge Space Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support this enhancement: 
+- View and Sort the Quality Tolerance Limits List 
+- Download Detect Mapping Report PDFs 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

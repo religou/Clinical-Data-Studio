@@ -1,0 +1,5 @@
+# Data Oversight
+
+## Data Oversight
+ Clinical Data Studio includes the following Plan Documents capabilities: 
+- Data Oversight: Monitor Counts of Issues, Patients, and Study Data Using Data Oversight

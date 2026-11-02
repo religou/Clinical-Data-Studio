@@ -1,0 +1,16 @@
+# Enable Recurring Imports for a Dataset
+
+## Enable Recurring Imports for a Dataset
+ Imports fetches the active datasets from the data sources every hour. A dataset is inactive when ongoing import is disabled.
+ Note : The data ingestion time depends on the quantity of the ingested file, and parallel data ingestions running simultaneously for a data source.
+- Access Data Connect , and click   Imports   in the left-hand menu. 
+- Click the more icon of the data source, and select View. 
+- Click the dataset you want to activate. 
+- Click Activate dataset on the upper right. 
+ Tip :
+- Inactive dataset imports have recurring status Recurring paused .  
+- Active dataset imports have recurring status  Recurring. 
+- To inactivate a dataset: 
+- 
+- Repeat steps 1 to 3. 
+- Click Pause dataset on the upper right.

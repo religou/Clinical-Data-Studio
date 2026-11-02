@@ -1,0 +1,5 @@
+# Strength of Association Description and Calculation Methodology
+
+## Strength of Association Description and Calculation Methodology
+ Strength of association is a numeric value that indicates the probability that patients at an individual site will have reported the same or similar numeric or text values for a particular  variable . RBQM calculates strength of association on a range from 0.00 to 1.00. The higher a variable's strength of association with the site variable, the more likely you can predict the value of that variable for a new patient at a given site. RBQM calculates strength of association using an appropriate measure of effect size  depending on the variable types.
+ Take gender for example. Suppose a study has two sites: Site A and Site B. If Site A is all male patients and Site B is all female patients, then the strength of association for the gender variable in that study is 1.00. If a variable has a strength of association of 1.00, and if you know at least one data point value for a given site, then you can predict with one hundred percent accuracy that all other data points at that site have the same value.

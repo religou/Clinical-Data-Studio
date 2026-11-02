@@ -1,0 +1,411 @@
+# Review and Export Patient Profiles
+
+## Review and Export Patient Profiles
+ The workflow progress bar below depicts where viewing a patient profile occurs within the recommended patient profile design workflow. 
+ You can view and mark as reviewed any study subject's patient profile at any time during the profile design process. You can also export patient profiles to PDF format. 
+ Tip : Play the video below to learn how to review and publish a patient profile.
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+## View a Patient Profile
+ During the profile design process, patient profile designers and users with view-only privileges can view a patient profile with actual study data to help you evaluate how the profile design is taking shape in real time. As a designer, this provides the convenience of iteratively editing the design and then viewing the profile again with the modified design against the subject data. Therefore, you always have a clear and accurate picture of whether the design is correct and showing the required results. If not, you can quickly recognize what you need to edit in your design to achieve your design goals. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+ The Profiles tab > Patient Selector section shows data loaded in ascending alphanumeric order by Patient ID. By default, the patient profile for the first patient listed appears below. For large data sets, a progress bar appears above the Patient Selector section to indicate the progress of data uploaded from data sets. 
+- Optional . Sort or filter the Patient Selector to find the patient profiles you need.
+ Tip : You can click-and-drag in any Patient Selector column header to resize the column width to custom fit the table spacing to view more variables on screen.
+- Click within the corresponding row of a Patient ID to view that patient's patient profile. 
+## Sort the Patient Selector
+- Click any column header to sort the Patient Selector by column. indicates the column is sorted in ascending order (A to Z, 0 to 9); indicates descending order (Z to A, 9 to 0). 
+## Filter the Patient Selector
+- Click  to apply filters to all columns in the Patient Selector section. Sort or scroll through the list as necessary, and then click within the corresponding row of a Patient ID to view that patient's patient profile below. 
+ Tips for Viewing Patient Profile Data
+- Type or select from   in the Patient ID column to view the corresponding patient profile. For example,  if you enter 1005, and press Enter or click outside of the Filter field, the Patient Selector section loads profiles for patient IDs containing "1005", like 100501, 100523, 100528 in an ascending order.  
+- The filter response differs slightly depending on the selected parameter. You can apply column filters to all columns in the Patient Selector section. If you filter by one column and then by another, the first record that matches the filter parameters shows at the top of the Patient Selector section. The first query that matches the filter parameter in the Patient Selector section, shows at the top of the Patient Query table. 
+- When you select a Patient ID in the Patient Selector section, the Patient ID displays in the browser tab. When you navigate to another patient ID, the browser tab shows the new patient ID. For example, you select patient ID 10011004 from the Patient Selector section, the browser tab reads Patient Profiles - 10011004 . The browser tab reads Patient Profiles if you navigate to any other page in Patient Profiles. 
+- The Patient Profile tab below the Patient Selector section and all element tables in the patient profile appear as expanded by default. 
+- You can collapse all element tables simultaneously by clicking the Collapse All button below the section header and above the first element. Click Expand All to expand everything again. 
+- You can click  in the right-hand corner of the Patient Selector or any element table to collapse the section. Click  to expand again. 
+- You can also see Best Practices for Finding Profile Data for Specific Elements . 
+## Best Practices for Finding Profile Data for Specific Elements
+ On the Profiles tab, the Patient Profile tab below the Patient Selector section and all element tables in the patient profile appear as expanded by default. However, for patient profiles with many elements, having all elements expanded can require a lot of effort and page scrolling to find a particular element in the profile. Therefore, you can collapse all elements to help you scan the profile data and find the elements you need. And then you can expand individual element tables as needed. 
+- Click  Collapse All  below the section header and above the first element. 
+- Scan the profile data, and click  on each specific element you want to expand and view. 
+ Note : When you export a patient profile to PDF, all elements always display as expanded. 
+## Identify and Review Patient Profile Data Updates
+ When viewing an individual patient profile within a published patient profile design, you can quickly view an automated list of specific data within the selected patient profile that is new or updated as of the latest data refresh. 
+ The automatic listing and reporting of specific data changes in a patient profile:
+- Gives you clearer visibility and understanding of the data that w as previously reviewed but now requires rereview due to post-review data changes. 
+- Reduces the time and effort required to analyze patient profile data to determine which specific data requires review. 
+ Therefore, conducting patient profile design reviews is now clearer, simpler, and more efficient. 
+ Note : Patient Profiles only identifies and reports new and updated data for patient profiles that have been marked as reviewed prior to the most recent data refresh. It does not report new and updated data for patient profiles that have never been marked as reviewed.
+- 
+ View a patient profile. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+ The Profiles tab > Patient Selector section shows data loaded in ascending alphanumeric order by Patient ID. By default, the patient profile for the first patient listed appears below. For large data sets, a progress bar appears above the Patient Selector section to indicate the progress of data uploaded from data sets. 
+- Optional . Sort or filter the Patient Selector to find the patient profiles you need.
+ Tip : Filter the Patient Selector > Review Status column by Requiring Review to quickly show and identify patient profiles that were previously reviewed and have since had data updates as of the latest data refresh. 
+- Click within the corresponding row of a Patient ID to view that patient's patient profile. 
+- In the profile view, click Updates .
+ Note : When the Updates button is tagged with a small, blue circle in the upper-right corner, you can click the Updates button to open a Profile Updates panel and view data within the selected patient profile that is new or updated as of the latest data refresh. 
+ However, i f the Updates button does not show a blue dot, then there are currently no new patient data updates available. 
+- On the Profile Updates panel > Data Changes tab, do any of the following: 
+- Click All to view details on all new data and modified data in the patient profile. 
+- A blue plus icon indicates new data in the patient profile. 
+- An orange triangle icon  indicates modified data. 
+- Click Modified Data to view details on modified data. 
+- Click New Data to view details on new data. 
+- Click Mark Reviewed to mark the patient profile as reviewed. 
+## View Patient Data in Medidata Rave
+ If you want to investigate further patient records associated with a patient in Patient Profiles, you can view the patient's data in Rave from within Patient Profiles.
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+ The Profiles tab > Patient Selector section shows data loaded in ascending alphanumeric order by Patient ID. By default, the patient profile for the first patient listed appears below.
+ Tip : Click the Patient ID column header or Site ID column header to sort the Patient Selector by column. indicates the column is sorted in ascending order (A to Z, 0 to 9); indicates descending order (Z to A, 9 to 0). 
+- In the Patient Selector section > Patient ID column: sort or scroll through the list as necessary, and then click the Patient ID for the patient profile you want to view. The selected patient's patient profile appears in a subpage on the Profile  tab. 
+- In the profile view, click Open in Rave EDC .
+The patient's data appears in Rave in a separate browser tab.
+ Note : The   View in Rave EDC   button   appears only if the profile design contains a data set that originates from Rave.
+## Add and View Patient-level Internal Review Comments Within Patient Profile Designs
+ When reviewing patient profiles, you can add patient-level review comments directly within published patient profile designs. You can also view the historical list of comments submitted by you and others on your team at the patient level.  Review comments: 
+- Provide a convenient, centralized way to summarize or notate interesting review findings. 
+- Facilitate a highly visible and continuous flow of notes and findings to reference across review cycles. 
+ Notes:
+- All team members in your study can view all patient profile comments. 
+- You cannot add comments to a patient profile design while a data refresh for that design processes. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- In the Profiles tab > Patient Selector section > Comments column, in the row corresponding to the patient you want to comment on, click one of the following:
+- Plus Icon – Indicates that no comments have been made on the patient in the corresponding row. You can click the Plus icon to add a comment on the patient and start a comment thread. 
+- Comment Bubble Icon – Indicates that there has been at least one comment made on the patient. You can click the Comment Bubble icon to view previous comments made on the patient or to add comments to the thread. 
+- Enter your comment and click the Checkmark . 
+- Click Close . 
+## Edit and Delete Review Comments Within Patient Profile Designs
+ You can edit and delete existing comments submitted on patient profiles. For example, to fix a typo, add comment details, or remove unnecessary comments.
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- In the Profiles tab > Patient Selector section > Comments column, in the row responding to the patient you want to comment on, click the Comment Bubble Icon . 
+- Do either of the following:
+- Click Edit , modify the comment text, and then click the Checkmark . 
+- Click Delete .
+A message appears confirming the deletion. You cannot recover deleted comment; however, you can view the comment audit history for the comment's full historical details. 
+## View the Audit History of Comments Within Patient Profile Designs
+ You can view the  full detailed history of all comments and comment-related actions made on within a patient profile design. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- In the Profiles tab > Patient Selector section > click a patient ID. 
+- In the patient profile viewer page, click the  Audit icon, , in the header section.
+The Patient Profile Audit History page appears and shows the full history of comments details and comment-related actions made in the design.
+ Note : Comment actions take about 10 minutes before getting documented in the audit trail history.
+## Mark Patient Profiles as Reviewed or Unreviewed
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- In the Profiles tab > Patient Selector section, select one or more patient profiles that you want to mark as reviewed or unreviewed. 
+- Do one of the following:
+- Click Mark Reviewed to mark patient profiles as reviewed. 
+- Click Mark Unr eviewed to mark patient profiles as unreviewed. 
+## View the Review Status of Individual Patient Profiles
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+ The Patient Selector section shows data loaded in ascending alphanumeric order by Patient ID. 
+- Optional . Sort or filter the Patient Selector to find the patient profiles you need.
+ Field Descriptions 
+- Patient ID –   The ID of the patient represented in the patient profile. 
+- Site ID –   The patient's site location. 
+- Last Rave Entry – The date the patient profile was last updated. 
+- Reviewed On  – The date the patient profile was last marked as reviewed. 
+- Reviewer Name – The person who reviewed the patient data. 
+- Status – A checkmark indicates profiles that have been reviewed since the last profile update. 
+- Review Status – Indicates the following patient profile review statuses: 
+- Reviewed – Profiles that have been reviewed since the last profile update. 
+- Requiring Review – Profiles that have been reviewed at least once before, but not since the last profile update. 
+- Blanks – Profiles that have never been reviewed.
+- Non Blanks   – Profiles that are in 'Reviewed' or 'Requiring Review' status. 
+ Note : If you filter by Blanks in the Review Status column, the Patient Selector table shows all patient profiles with no reviewed status. If you filter by a specific name in the Reviewer Name column, the Patient Selector table shows patient profiles reviewed by the person selected. 
+## View the Audit History of Patient Profile Design Reviews
+ You can view the audit history of a patient profile design's review status updates and review actions made on the patient profile.
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- In the Profiles tab > Patient Selector section > click a patient ID. 
+- In the patient profile viewer page, click the  Audit icon, , in the header section.
+The Patient Profile Audit History page appears and shows the full history of review status updates and review-related actions made in the design.
+ Note : Review actions take about 10 minutes before getting documented in the audit trail history.
+## Export Patient Profiles to PDF
+ You can view and print patient profiles in PDF format. Doing so allows you to send the patient profile to design reviewers who do not have access to Medidata Patient Profiles. Therefore, reviewers without Medidata Patient Profiles can still evaluate the patient profile design and provide feedback to the designer. 
+## Export Individual Patient Profiles to PDF
+ You can view and print individual patient profiles in PDF format. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+ The Profiles tab > Patient Selector section shows data loaded in ascending alphanumeric order by Patient ID. By default, the patient profile for the first patient listed appears below.
+ Tip : Click the Patient ID column header or Site ID column header to sort the Patient Selector by column. indicates the column is sorted in ascending order (A to Z, 0 to 9); indicates descending order (Z to A, 9 to 0). 
+- In the Patient Selector section, select the check box for a patient profile.
+You can only select one profile to download. 
+- In the top right of the Patient Selector section, click the More menu , and then click  Download Profile . 
+- Click the Download Option menu, and then select: 
+- All – Include all patient profile design elements in the PDF. 
+- Charts & Timeline – Include graphs and timelines in the PDF. 
+- Tables – Include tables in the PDF. 
+- Comments – Include the design's comment history in the PDF.
+ Note : Comment timestamps in the PDF show in GMT/UTC; however, comment timestamps in the Patient Selector > Comments pane show in your local time zone.
+- Click Download .
+ The PDF downloads to your web browser. 
+## Export Patient Profiles to PDF in Bulk
+ You can view and print patient profiles for the patients in a study by site or patients in PDF format. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+ The Profiles tab > Patient Selector section shows data loaded in ascending alphanumeric order by Patient ID. By default, the patient profile for the first patient listed appears below.
+ Tip : Click the Patient ID column header or Site ID column header to sort the Patient Selector by column. indicates the column is sorted in ascending order (A to Z, 0 to 9); indicates descending order (Z to A, 9 to 0). 
+- In the page header section, click Download . 
+- Click one of the following: 
+- All Patients – Download all patient profiles to PDF in bulk. 
+- Site – Select a site ID to d ownload patient profiles belonging to that site. 
+- Click the Download Option menu, and then select: 
+- All – Include all patient profile design elements in the PDF. 
+- Charts & Timeline – Include graphs and timelines in the PDF. 
+- Tables – Include tables in the PDF. 
+- Comments – Include the design's comment history in the PDF.
+ Note : Comment timestamps in the PDF show in GMT/UTC; however, comment timestamps in the Patient Selector > Comments pane show in your local time zone. 
+- Click Download .
+You will receive an email with a link to download a zip file with the study name and current date.  
+ Note : PDF processing time takes at least one hour or more depending on the number of patient profiles in your study. The zip file contains separate PDF files for each patient profile in the study that was exported. The link expires after seven days. The email also includes patient IDs that fail to export to PDF.  
+- Click the link in the email to download the PDF. 
+The PDF file downloads to your browser.
+- Follow your browser's instructions for opening the file and downloading to your local machine. If the PDF did not generate, follow the instructions in the email for further action. 
+ Note : All elements always appear as expanded in PDFs. If you have configured upper and lower limit variables for a patient profile, the PDF shows  and markers for variables that lie outside a specified range. The PDF shows rows highlighted in the color you used if you have set up conditional highlighting for transposed tables. For more information, see  Transposed Tables Highlight Values With Conditional Highlighting . 
+ Bulk PDF Export Failures: 
+ For failed bulk patient profile design PDF exports, you receive an email that : 
+- States the number of patients who failed bulk PDF generation. 
+- Includes an attachment listing the corresponding patient IDs. 
+ The Medidata Support Team also receives this email for further action. 
+## Next Step
+ Review Design Report

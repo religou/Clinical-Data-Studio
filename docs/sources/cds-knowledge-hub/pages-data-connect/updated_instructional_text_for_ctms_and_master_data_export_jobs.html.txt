@@ -1,0 +1,16 @@
+# Updated Instructional Text for CTMS and Master Data Export Jobs
+
+## Updated Instructional Text for CTMS and Master Data Export Jobs
+## Description
+ When creating export jobs that extract CTMS or Master Data, at the Data Export Type step, the instructional text now shows the following:
+ "Incremental exports are only available for repeating CTMS or Master Data export jobs. If you select multiple data types, and at least one data type does not support incremental exports, then the incremental option becomes disabled."
+## Affected Roles
+ All roles that can create export jobs that include CTMS data or Master Data. For details, see Exports Roles and Capabilities.
+## Advantages
+ The updated instructional text provides clarity to what actions you can perform when creating export jobs.
+## User Impact
+ See Description.
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

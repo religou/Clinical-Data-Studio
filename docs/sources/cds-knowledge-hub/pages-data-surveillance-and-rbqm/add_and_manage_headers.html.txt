@@ -1,0 +1,172 @@
+# Add and Manage Headers
+
+## Add and Manage Headers
+ Headers identify the information contained in a section within the profile. Headers also hold variable information. Rows without headers—such as patient information tables, which contain information only—benefit from having headers atop the row to label and define the table.
+ You can:
+- Add headers 
+- Copy headers 
+- Name and rename headers 
+- Add header rows 
+- Rename header variables 
+- Change the placement of a header row 
+- Remove header rows 
+- Append notes to headers 
+## Add Headers
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- Click Header . 
+- Enter a unique header name. 
+- Locate the header variable in the data sets on the right side of the Design page > Elements tab.
+ Notes :
+- Data sets with a green left border contain at least one variable currently applied to the study. 
+- Data sets with a blue left border contain no variables currently applied to the study. 
+- Variables currently applied to the design appear with a green border on all sides. 
+- A blue flag next to datasets and variables   identified in Risk Assessment for that study as   critical data. 
+- Data set and variable names appended with a blue flag indicate that they are identified in Risk Assessment as   critical data for the study. 
+ Important : If you use a dataset with datetime operations, then you should use the date field and its enrichments—for example: _INT,   DT , _DTC—from the source Medidata Rave dataset to ensure data accuracy in the patient profiles. 
+- Click, drag, and drop the variable within a header row. 
+- Repeat steps 5 and 6 for each header variable you want to add. If necessary, click   or   to add more rows. 
+- Optional : Click Note to append a single note to show at the bottom of the header in the patient profile. To learn more, see Append Notes to Elements . 
+ Tip : Adding a note to show at the end of a header gives patient profile reviewers added insight into the profile's study data.
+- Click  Save . 
+## Copy Headers
+ You can copy headers within the same study or to studies on different environments and designs. To copy headers to another study, see  Copy Elements between Studies . Rows containing missing visit variables appear in yellow and with a yellow marker   . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. For more information, see Missing Data in Elements Indicated with Yellow Markers . 
+## Add Flags to Headers
+ You can add available %KRIs  as flags to headers in your profile design. To add flags to headers, see Add %KRIs as Flags . 
+ For a patient you select in the Patient Selector, the Patient Profile tab shows flags in red in the header section, if patient data matches set flags in the patient's profile design.
+## Rename Headers
+ You can rename headers to correct a typo or for general updates.
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved Elements table, click the name of the header you want to rename. 
+- In the Header section, edit the Name . 
+- Click Save . 
+## Rename Header Variables
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved elements table, click the name of the header you want to update. 
+- Edit the Name . 
+- Click Save . 
+## Change the Placement of Header Variables
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved elements table, click the name of the header you want to update. 
+- Click   within the header row you want to move, and then drag-and-drop the header row elsewhere in the Header section. 
+- Click  Save . 
+## Remove Header Variables
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved elements table, click the name of the header you want to update. 
+- Click  within the header row you want to remove from the header. 
+- Click  Save .

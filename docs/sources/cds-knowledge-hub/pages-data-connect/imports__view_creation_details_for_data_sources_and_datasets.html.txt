@@ -1,0 +1,22 @@
+# Imports: View Creation Details for Data Sources and Datasets
+
+## Imports: View Creation Details for Data Sources and Datasets
+## What Is New?
+ Users can view creator information on the Data Source and Dataset screens, including the creator's name and the creation date. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ There is no change to the existing process. 
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Users can now view Created By and Created On information on the data source and data set windows.
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Imports tab. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Change: 
+- Add Data Source 
+- Add Dataset 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

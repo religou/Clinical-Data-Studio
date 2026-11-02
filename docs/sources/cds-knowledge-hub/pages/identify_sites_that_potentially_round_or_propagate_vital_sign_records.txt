@@ -1,0 +1,39 @@
+# Identify Sites That Potentially Round or Propagate Vital Sign Records
+
+## Identify Sites That Potentially Round or Propagate Vital Sign Records
+## Description
+ Centralized Statistical Monitoring (CSM) analyzes a study's vital sign measurements recorded at each site for:
+- Rounding – Detect identifies potentially rounded records in two ways:
+- When your protocol calls for a vital sign's measurements to be recorded to a specific decimal value, but the records do not capture the decimal values in three or more consecutive visits. For example, if the protocol requires at each site visit that a patient's body temperature be recorded to the hundredth decimal value such as 100.25 degrees Fahrenheit, but the temperatures are recorded as 100, 98, 97. 
+- When the last digit of a patient's recorded vital measurement ends in 0 or 5 in three or more consecutive visits. For example, a patient's recorded pulse is 90, 75, 80 in three consecutive visits. 
+- Propagation – Detect identifies potentially propagated records when the same vital sign measurement is recorded for a patient in three or more consecutive site visits. For example, if a patient had a recorded blood pressure of 126/83 in three consecutive site visits. 
+## Affected Roles
+ Central monitors
+## Advantages
+ Since sites manually enter and collect vital signs, it is critical that sites follow protocol and record data accurately. Poor data could lead to major systemic issues in study conduct and could even compromise patient safely. 
+ Rounding and propagation analysis helps you:
+- Distinguish between reliable and potentially unreliable data in the vital signs collection case. 
+- Identify and investigate sites that:
+- May not be following the study protocol correctly. 
+- May be falsifying or fabricating data. 
+- May be performing misconduct in aspects of the trial outside of data collection. 
+## User Impact
+ In Medidata Detect > Centralized Statistical Monitoring > Data Veracity, you can click the new left-hand menu tab, Rounding & Propagation , to access the Rounding & Propagation page. The Rounding & Propagation page provides the following tabs:
+- Rounding Events 
+- Propagation Events 
+ Each tab contains a heatmap. Each heatmap cell shows the percentage of a particular vital sign's records at each site that Detect identifies as being rounded or propagated. Deeper and more intense cell coloring indicates a higher percentage of vital records at the site that Detect identifies as being rounded or propagated . You can click any heatmap cell to view a line graph showing the recorded vital sign values for each patient visit at the site over time. Flatter lines indicate a higher likelihood of rounded or propagated data. 
+ The Rounding Events tab and Propagation Events tab each contain a Summary table. The table lists per site for each vital sign the total number of rounded or propagated records against the total number of records.
+ You can also click the View Side by Side tab for a stacked view of the Rounding Events heatmap on top of the Propagation Events heatmap. This helps you simultaneously compare both the rounding and propagated event analysis at a site.
+ Tip : Click images to enlarge.
+ Sites with Rounding Events Table 
+ Sites with Propagation Events Table 
+ | 
+ | 
+## Knowledge Space Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support this feature: 
+- Rounding and Propagation Analysis 
+- Access and View Sites with Rounding and Propagation Events 
+- Identify and Investigate Sites That Potentially Round or Propagate Vital Sign Records 
+## Special Considerations
+ A CSM Configuration admin user must first configure Rounding and Propagation to enable the Rounding & Propagation feature in CSM.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

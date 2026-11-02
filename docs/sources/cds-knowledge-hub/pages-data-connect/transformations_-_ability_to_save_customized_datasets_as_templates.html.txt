@@ -1,0 +1,27 @@
+# Transformations: Ability to Save Customized Datasets as Templates
+
+## Transformations: Ability to Save Customized Datasets as Templates
+## What Is New?
+ When users publish certain transformation projects, they can save their target configurations as a template for reuse. Users can save configurations from custom SDTM-like datasets, derived datasets, and custom data models. Any user within the study group can use select these when creating custom SDTM projects.
+## What Is the Impact?
+## Users/Roles
+ All. 
+## Workflow Process
+ When users attempt to publish one of the aforementioned data project types, a popup appears giving the user an option to save the project's configuration as a template. If the user saves the template, that template appears as an option when creating a custom SDTM dataset. Custom SDTM datasets created in this way begin with preselected domains based on the selected template. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ The ability to save configurations enables different users such as programmers, data analysts, and data scientists to use different data models based on SDTM. This allows users to standardizes their study data for their specific use cases, such as analysis, visualization, or submission. 
+## Where Do I See the Change?
+ When publishing one of the aforementioned data projects: 
+- A popup appears giving the user an option to save the project's configuration as a template. 
+ When creating an SDTM dataset:
+- There is a new Target Setup option, where a user can select "Custom SDTM-like target". Once selected, the user can select one of the saved target SDTM templates. 
+## Where Do I Learn More?
+ The Data Connect documentation provides new and updated content to support this feature/enhancement: 
+- Generate Custom Data Models 
+- Generate Derived Datasets 
+- Generate SDTM-like Datasets 
+- Export Dataset Snapshots from Project 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

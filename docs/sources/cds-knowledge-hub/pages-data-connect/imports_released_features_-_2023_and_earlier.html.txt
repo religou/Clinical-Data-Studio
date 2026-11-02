@@ -1,0 +1,9 @@
+# Imports Released Features - 2023 and Earlier
+
+## Imports Released Features - 2023 and Earlier
+ Data Connect's Imports capability includes the following features, enhancements, and resolved issues that have been documented over the history of the releases:  Imports Releases History . 
+ Data Transfer Administration 
+- 
+ Imports: Import External Data with Data Connect 
+- 
+ Manage Third-Party Data Transfers with Sync

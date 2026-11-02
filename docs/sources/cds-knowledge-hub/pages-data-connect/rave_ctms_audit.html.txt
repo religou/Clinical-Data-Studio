@@ -1,0 +1,1636 @@
+# CTMS Audit
+
+## CTMS Audit
+ You can export study management data objects detailing service provider, site visits, and document data.  
+ Important : Your Rave URL configuration can affect your ability to access exported data. For details, please contact your Medidata representative or Medidata Support.
+## Action
+ The Action data file provides an audit trail of all recorded actions associated with issues . 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The client division's unique identifier.
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment's name. 
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment site's unique identifier.
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | The study site's name. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | 
+ The study environment site number.
+ | Country UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment country's unique identifier. 
+ | Country Name 
+ | Alphanumeric 
+ | 2048 
+ | The country's name. 
+ | Action ID 
+ | Alphanumeric 
+ | 50 
+ | The issue's action identification number. 
+ | Issue ID 
+ | Alphanumeric 
+ | 50 
+ | The issue's business identification number. The Medidata system generates the issue ID. The issue ID is unique to a given study environment. 
+ | Change 
+ | Alphanumeric 
+ | 10000 
+ | The change to the action since the previous extract. 
+ | Audit Type 
+ | Text 
+ | 6 
+ | The action's audit type, such as:
+- Create 
+- Update 
+ | Data Type 
+ | Text 
+ | 25 
+ | The action's data type, for example: "se_action". 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that last updated the action. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that last updated the action. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the person that last updated the action. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the action. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | 
+ The date and time when the action information was updated.
+ Data Connect stores the date and time in   UTC, and shows both in your local device's timezone. 
+## Medidata CTMS Documents
+ The Medidata CTMS Documents data file provides an audit trail of all documents associated with a study environment site. 
+ Note : Audits between 17-AUG-2020 17:48 UTC and 23-JUN-2021 14:59 UTC may not appear in extracts.
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The iMedidata client division's name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The client division's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | A study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ A study environment's name (for example Dev, Prod or UAT).
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ A study site's name.
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The study site's unique identifier. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The study site's number. 
+ | Study Country Name 
+ | Text 
+ | 2048 
+ | 
+ The study environment country's name.
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The country's unique identifier. 
+ | Visit Name 
+ | Alphanumeric 
+ | 10000 
+ | The visit's identifier number. The visit name includes the visit type acronym, such as SQV, SIV, IMV, COV; a hyphen; and an incrementing number that is unique with each study environment site; for example: IMV-1, IMV-2, IMV-3.  
+ | Document Type 
+ | Text 
+ | 256 
+ | The document's type. Possible values:
+- Letter 
+- Report 
+ | Document Name 
+ | Alphanumeric 
+ | 100 
+ | The document's name; a combination of Visit Name and Document Type. 
+ | Item 
+ | Text 
+ | 256 
+ | The reported audit item, such as Status. 
+ | Audit Type 
+ | Text 
+ | 6 
+ | The audit's type, such as:
+- Create 
+- Update 
+ | Changed From 
+ | Text 
+ | 10000 
+ | The previous value of the item. 
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated value of item as of extraction time. 
+ | Updated By Login  
+ | Alphanumeric 
+ | 256 
+ | The username of the person that updated the item. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that updated the item. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that updated the item. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the action. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | 
+ The date and time when the item was updated.
+ Data Connect stores the date and time in UTC, and shows both in your local device's timezone. 
+## Medidata CTMS Service Providers
+ The Medidata CTMS Service Providers data file provides an audit trail of the service provider data at the study level, country level, and site level. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The iMedidata client division's unique identifier. 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The client division's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | A study's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ A study environment's unique Identifier.
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study environment's name (for example Dev, Prod or UAT).
+ | Organization UUID 
+ | Unique Identifier 
+ | 16 
+ | The unique identifier of the organization providing the service.  
+ | Organization ID 
+ | Numeric 
+ | 255 
+ | The organization's identification number. 
+ | Organization Name 
+ | Alphanumeric 
+ | 256 
+ | The organization's name. 
+ | Service Contract UUID 
+ | Unique Identifier 
+ | 16 
+ | The provided service's unique identification number. 
+ | Audit Type 
+ | Text 
+ | 6 
+ | The reported audit's type, such as:
+- Create 
+- Update 
+ | Item 
+ | Text 
+ | 256 
+ | The item reported in the audit, such as the Country and Site. 
+ | Changed From 
+ | Text 
+ | 10000 
+ | If available, the previous status of the reported item. 
+ | Changed To 
+ | Text 
+ | 10000 
+ | The current status of the reported item. 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that last updated the item information. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that last updated the item. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the person that last updated the item. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the item. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | 
+ The date and time when the item was updated.
+ Data Connect stores the date and time in UTC, and shows both in your local device's timezone.
+## Medidata CTMS Site Visits
+ The Medidata CTMS Site Visits data file provides an audit trail of all site visits. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The iMedidata client division's unique identifier. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The client division's name. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | A study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ A study environment's name (for example Dev, Prod or UAT).
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study site's name.
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ A study site's unique identifier.
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The study site's number. 
+ | Study Country Name 
+ | Alphanumeric 
+ | 2048 
+ | 
+ The study environment country's name.
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment country's unique identifier. 
+ | Visit UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The visit's unique identifier.
+ | Visit Name 
+ | Alphanumeric 
+ | 256 
+ | The visit's identifier number. The visit name includes the visit type acronym, such as SQV, SIV, IMV, or COV; a hyphen; and an incrementing number that is unique within each study environment site; for example: IMV-1, IMV-2, IMV-3. 
+ | Audit Type 
+ | Text 
+ | 6 
+ | The visit's audit type, such as:
+- Create 
+- Update 
+ | Change 
+ | Alphanumeric 
+ | 10000 
+ | The change to the visit since the previous extraction. 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that last updated the visit information 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that last updated the visit information. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the person that last updated the visit information. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the visit information. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | 
+ The date and time when the visit information was updated.
+ Data Connect stores the date and time in UTC, and shows both in your local device's timezone. 
+## Enrollment Data
+ The Enrollment Data data file provides an audit trail of enrollment data. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The client division's name. 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The iMedidata client division's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | A study's unique identifier. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ A study environment's name (for example Dev, Prod or UAT).
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study site's name.
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ A study site's unique identifier.
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The study site's number. 
+ | Country Name 
+ | Alphanumeric 
+ | 2048 
+ | 
+ The study environment country's name.
+ | Enrollment Type 
+ | Text 
+ | 255 
+ | The reported enrollment's type, such as Study Environment Site.
+ | Item 
+ | Text 
+ | 256 
+ | The reported item, such as Enrollment Rate Target. 
+ | Changed From 
+ | Alphanumeric 
+ | 10000 
+ | The previous status of the item. 
+ | Change To 
+ | Alphanumeric 
+ | 10000 
+ | The current status of the item. 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that last updated the item. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that last updated the item. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the person that last updated the item. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the item. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | 
+ The date and time when the item was updated.
+ Data Connect stores the date and time in UTC, and shows both in your local device's timezone.
+## Issues
+ The Issues data file provides an audit trail of all recorded issues. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The client division's name.
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The client division's unique identifier.
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study environment's name.
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study site's name.
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study site's unique identifier.
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | 
+ The study environment site number.
+ | Country Name 
+ | Alphanumeric 
+ | 2048 
+ | 
+ The study environment country's name.
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The country's unique identifier. 
+ | Issue ID 
+ | Alphanumeric 
+ | 50 
+ | The issue's business identification number. The Medidata system generates the issue ID. The issue ID is unique to a given study environment. 
+ | Change 
+ | Alphanumeric 
+ | 10000 
+ | The change to the issue since the previous extract. 
+ | Audit Type 
+ | Text 
+ | 6 
+ | The issue's audit type, such as:
+- Create 
+- Update 
+ | Data Type 
+ | Text 
+ | 256 
+ | The issue's type:
+- Protocol Deviation 
+- Non-Protocol Deviation 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that last updated the issue. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that last updated the issue. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the person that last updated the issue. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the issue. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | 
+ The date and time when the issue was updated.
+ Data Connect stores the date and time in   UTC, and shows both in your local device's timezone. 
+## Study Environment Milestones
+ The Study Environment Milestones data file provides an audit trail of study environment milestones data. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The client division's name.
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The client division's unique identifier.
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study environment's name.
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study site's name.
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study site's unique identifier.
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | 
+ The study environment site number.
+ | Country Name 
+ | Alphanumeric 
+ | 2048 
+ | The country's name. 
+ | Item 
+ | Text 
+ | 256 
+ | The the reported item, such  as "Last Subject Last Visit: Actual". 
+ | Changed From 
+ | Text 
+ | 10000 
+ | If available, The item's previous value. 
+ | Changed To 
+ | Text 
+ | 10000 
+ | The item's current value. 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that last updated the item. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that last updated the item. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the person that last updated the item. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the item. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | 
+ The date and time when the milestone was updated.
+ Data Connect stores the date and time in   UTC, and shows both in your local device's timezone. 
+## Study Operational Data
+ The Study Operational Data data file provides an audit trail of a study's operational data. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The client division's unique identifier.
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division name. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study environment's name.
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study site's name.
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study site's unique identifier.
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | 
+ The study environment site number.
+ | Country Name 
+ | Alphanumeric 
+ | 2048 
+ | The country's name. 
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment country's unique identifier. 
+ | Organization ID 
+ | Alphanumeric 
+ | 255 
+ | The identification number of the organization pertaining to the study. 
+ | Item 
+ | Text 
+ | 256 
+ | The reported item, such as "Site Open Date". 
+ | Changed From 
+ | Text 
+ | 10000 
+ | If available, the item's previous value. 
+ | Changed To 
+ | Text 
+ | 10000 
+ | The item's current value. 
+ | Audit Type 
+ | Text 
+ | 6 
+ | The item's audit type, such as:
+- Create 
+- Update 
+ | Operational Data Type 
+ | Text 
+ | 256 
+ | The type of operational data that that item pertains to, such as Site.
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that last updated the item. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that last updated the item. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the person that last updated the item. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the item. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | 
+ The date and time when the item was updated.
+ Data Connect stores the date and time in UTC, and shows both in your local device's timezone.
+## Tasks
+ The Tasks data file provides an audit trail of task data. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The client division's name.
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The client division's unique identifier.
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study environment's name.
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Task UUID 
+ | Unique Identifier 
+ | 16 
+ | The task's unique identifier. 
+ | Task ID 
+ | Text 
+ | 50 
+ | The task's identification number. 
+ | Task Type 
+ | Text 
+ | 256 
+ | The task's type, such as "Study". 
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study site's name.
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study site's unique identifier.
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | 
+ The study environment site number.
+ | Study Country Name 
+ | Alphanumeric 
+ | 2048 
+ | 
+ The study environment country's name.
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment country's unique identifier. 
+ | Audit Type 
+ | Text 
+ | 6 
+ | The data's audit type:
+- Create 
+- Update 
+ | Item 
+ | Text 
+ | 256 
+ | The reported item, such as "NameDescriptionNotes". 
+ | Changed From 
+ | Text 
+ | 10000 
+ | If available, the item's previous value. 
+ | Changed To 
+ | Text 
+ | 10000 
+ | The item's current value. 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that last updated the item. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that last updated the item. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the person that last updated the item. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the item. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | 
+ The date and time when the item was updated.
+ The system stores the date and time in UTC, and shows both in your local device's timezone.
+## Reviewer and Approver
+ The Reviewer and Approver data file provides an audit trail of all recorded actions associated with reviewers and approvers. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Item 
+ | Text 
+ | 256 
+ | The reported audit item, such as Status.
+ | Changed From 
+ | Text 
+ | 10000 
+ | The previous value of the item.
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated value of item as of extraction time.
+ | Reason 
+ | Text 
+ | 256 
+ | The user specified reason as to why the item changed
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that updated the item.
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that updated the item.
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that updated the item.
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the action.
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the item was updated. Data Connect stores the date and time in UTC, and shows both in your local device's timezone.
+## Matrix
+ The Matrix data file provides an audit trail of all recorded actions associated with matrices. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Item 
+ | Text 
+ | 256 
+ | The reported audit item, such as Status.
+ | Changed From 
+ | Text 
+ | 10000 
+ | The previous value of the item.
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated value of item as of extraction time.
+ | Reason 
+ | Text 
+ | 256 
+ | The user specified reason as to why the item changed
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that updated the item.
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that updated the item.
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that updated the item.
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the action.
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the item was updated. Data Connect stores the date and time in UTC, and shows both in your local device's timezone.
+## Languages
+ The Languages data file provides an audit trail of all recorded actions associated with languages. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Item 
+ | Text 
+ | 256 
+ | The reported audit item, such as Status.
+ | Changed From 
+ | Text 
+ | 10000 
+ | The previous value of the item.
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated value of item as of extraction time.
+ | Reason 
+ | Text 
+ | 256 
+ | The user specified reason as to why the item changed
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that updated the item.
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that updated the item.
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that updated the item.
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the action.
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the item was updated. Data Connect stores the date and time in UTC, and shows both in your local device's timezone.
+## Deadlines
+ The Languages data file provides an audit trail of all recorded actions associated with deadlines. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Item 
+ | Text 
+ | 256 
+ | The reported audit item, such as Status.
+ | Changed From 
+ | Text 
+ | 10000 
+ | The previous value of the item.
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated value of item as of extraction time.
+ | Reason 
+ | Text 
+ | 256 
+ | The user specified reason as to why the item changed
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that updated the item.
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that updated the item.
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that updated the item.
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the action.
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the item was updated. Data Connect stores the date and time in UTC, and shows both in your local device's timezone.
+## Letter eSignature
+ The Languages data file provides an audit trail of all recorded actions associated with letter eSignatures. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Item 
+ | Text 
+ | 256 
+ | The reported audit item, such as Status.
+ | Changed From 
+ | Text 
+ | 10000 
+ | The previous value of the item.
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated value of item as of extraction time.
+ | Reason 
+ | Text 
+ | 256 
+ | The user specified reason as to why the item changed
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that updated the item.
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that updated the item.
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that updated the item.
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the action.
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the item was updated. Data Connect stores the date and time in UTC, and shows both in your local device's timezone.
+## Report eSignatures
+ The Report eSignatures data file provides an audit trail of all recorded actions associated with report eSignatures. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Item 
+ | Text 
+ | 256 
+ | The reported audit item, such as Status.
+ | Changed From 
+ | Text 
+ | 10000 
+ | The previous value of the item.
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated value of item as of extraction time.
+ | Reason 
+ | Text 
+ | 256 
+ | The user specified reason as to why the item changed
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that updated the item.
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that updated the item.
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that updated the item.
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the action.
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the item was updated. Data Connect stores the date and time in UTC, and shows both in your local device's timezone.
+## Restrictions
+ The Restrictions data file provides an audit trail of all recorded actions associated with restrictions. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Item 
+ | Text 
+ | 256 
+ | The reported audit item, such as Status.
+ | Changed From 
+ | Text 
+ | 10000 
+ | The previous value of the item.
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated value of item as of extraction time.
+ | Reason 
+ | Text 
+ | 256 
+ | The user specified reason as to why the item changed
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that updated the item.
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that updated the item.
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that updated the item.
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the action.
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the item was updated. Data Connect stores the date and time in UTC, and shows both in your local device's timezone.
+## Visits Schedules Listing
+ The Visits Schedules Listing data file provides an audit trail of all recorded actions associated with visit schedule listings. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Item 
+ | Text 
+ | 256 
+ | The reported audit item, such as Status.
+ | Changed From 
+ | Text 
+ | 10000 
+ | The previous value of the item.
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated value of item as of extraction time.
+ | Reason 
+ | Text 
+ | 256 
+ | The user specified reason as to why the item changed
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that updated the item.
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that updated the item.
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that updated the item.
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the action.
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the item was updated. Data Connect stores the date and time in UTC, and shows both in your local device's timezone.
+## Study Site Setting
+ The Study Site Setting data file provides an audit trail of all recorded actions associated with study site settings. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | 
+ | Item 
+ | Text 
+ | 256 
+ | The reported audit item, such as Status.
+ | 
+ | Changed From 
+ | Text 
+ | 10000 
+ | The previous value of the item.
+ | 
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated value of item as of extraction time.
+ | 
+ | Reason 
+ | Text 
+ | 256 
+ | The user specified reason as to why the item changed
+ | 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that updated the item.
+ | 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that updated the item.
+ | 
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that updated the item.
+ | 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the action.
+ | 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the item was updated. Data Connect stores the date and time in UTC, and shows both in your local device's timezone.
+ | 
+## Visit Summary
+ The Visit Summary data file provides an audit trail of all recorded actions associated with visit summaries. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The official name of the client division associated with this record. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) assigned to the client division. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The designated name of the clinical study. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) assigned to the specific study. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The name of the specific environment where the study is being conducted (for example: Dev, Prod, or UAT). 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) for the study environment. 
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | The official name of the site where the study is taking place. 
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) for the study site. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The unique numerical identifier assigned to the study site. 
+ | Country Name 
+ | Alphanumeric 
+ | 2048 
+ | The name of the country where the study site is located. 
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) representing the country of the study environment. 
+ | Visit ID 
+ | Alphanumeric 
+ | 256 
+ | The unique identifier for the specific monitoring visit (for example: IMV-1, IMV-2). 
+ | Item 
+ | Text 
+ | 256 
+ | The name of the specific data object or field in the visit details modified during the audit. 
+ | Changed From 
+ | Text 
+ | 10000 
+ | The original or previous value of the object before the modification occurred. 
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated or current value of the object after the modification. 
+ | Reason 
+ | Text 
+ | 256 
+ | The documented reason or justification for why the change was made. 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The system login username of the individual who performed the update. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the individual who made the change. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the individual who made the change. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the internal application or system component if the update was automated. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time (in UTC) when the audit record was created or modified. Data Connect stores the date and time in UTC, and shows both in your local device's timezone. 
+## Visit Report
+ The Visit Report data file provides an audit trail of all recorded actions associated with visit reports. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The official name of the client division associated with this record. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) assigned to the client division. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The designated name of the clinical study. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) assigned to the specific study. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The name of the specific environment where the study is being conducted (for example: Dev, Prod, or UAT). 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) for the study environment. 
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | The official name of the site where the study is taking place. 
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) for the study site. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The unique numerical identifier assigned to the study site. 
+ | Country Name 
+ | Alphanumeric 
+ | 2048 
+ | The name of the country where the study site is located. 
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) representing the country of the study environment. 
+ | Visit ID 
+ | Alphanumeric 
+ | 256 
+ | The unique identifier for the specific monitoring visit (for example: IMV-1, IMV-2). 
+ | Item 
+ | Text 
+ | 256 
+ | The name of the specific data object or field in the visit report modified during the audit. 
+ | Changed From 
+ | Text 
+ | 10000 
+ | The original or previous value of the object before the modification occurred. 
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated or current value of the object after the modification. 
+ | Reason 
+ | Text 
+ | 256 
+ | The documented reason or justification for why the change was made. 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The system login username of the individual who performed the update. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the individual who made the change. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the individual who made the change. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the internal application or system component if the update was automated. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time (in UTC) when the audit record was created or modified. Data Connect stores the date and time in UTC, and shows both in your local device's timezone. 
+## Confirmation Letter
+ The Confirmation Letter data file provides an audit trail of all recorded actions associated with confirmation letters. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The official name of the client division associated with this record. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) assigned to the client division. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The designated name of the clinical study. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) assigned to the specific study. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The name of the specific environment where the study is being conducted (for example: Dev, Prod, or UAT). 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) for the study environment. 
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | The official name of the site where the study is taking place. 
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) for the study site. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The unique numerical identifier assigned to the study site. 
+ | Country Name 
+ | Alphanumeric 
+ | 2048 
+ | The name of the country where the study site is located. 
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) representing the country of the study environment. 
+ | Visit ID 
+ | Alphanumeric 
+ | 256 
+ | The unique identifier for the specific monitoring visit (for example: IMV-1, IMV-2). 
+ | Item 
+ | Text 
+ | 256 
+ | The name of the specific data object or field in the confirmation letter modified during the audit. 
+ | Changed From 
+ | Text 
+ | 10000 
+ | The original or previous value of the object before the modification occurred. 
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated or current value of the object after the modification. 
+ | Reason 
+ | Text 
+ | 256 
+ | The documented reason or justification for why the change was made. 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The system login username of the individual who performed the update. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the individual who made the change. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the individual who made the change. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the internal application or system component if the update was automated. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time (in UTC) when the audit record was created or modified. Data Connect stores the date and time in UTC, and shows both in your local device's timezone. 
+## Follow-up Letter
+ The Follow-up Leeter data file provides an audit trail of all recorded actions associated with follow-up letters. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The official name of the client division associated with this record. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) assigned to the client division. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The designated name of the clinical study. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) assigned to the specific study. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The name of the specific environment where the study is being conducted (for example: Dev, Prod, or UAT). 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) for the study environment. 
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | The official name of the site where the study is taking place. 
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) for the study site. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The unique numerical identifier assigned to the study site. 
+ | Country Name 
+ | Alphanumeric 
+ | 2048 
+ | The name of the country where the study site is located. 
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The universally unique identifier (UUID) representing the country of the study environment. 
+ | Visit ID 
+ | Alphanumeric 
+ | 256 
+ | The unique identifier for the specific monitoring visit (for example: IMV-1, IMV-2). 
+ | Item 
+ | Text 
+ | 256 
+ | The name of the specific data object or field in the follow-up letter modified during the audit. 
+ | Changed From 
+ | Text 
+ | 10000 
+ | The original or previous value of the object before the modification occurred. 
+ | Changed To 
+ | Text 
+ | 10000 
+ | The updated or current value of the object after the modification. 
+ | Reason 
+ | Text 
+ | 256 
+ | The documented reason or justification for why the change was made. 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The system login username of the individual who performed the update. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the individual who made the change. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the individual who made the change. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the internal application or system component if the update was automated. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time (in UTC) when the audit record was created or modified. Data Connect stores the date and time in UTC, and shows both in your local device's timezone.

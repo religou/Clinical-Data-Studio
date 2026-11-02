@@ -1,0 +1,28 @@
+# Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience
+
+## Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience
+## Description
+ The Medidata Knowledge Hub is a new content experience that replaces the current Knowledge Spaces Help in Ingestor. The Knowledge Hub intends to unify all customer-facing product knowledge into a single self-service site to give you a streamlined, connected, and personalized interface. The Knowledge Hub allows you to fine-tune your search on certain parameters such as your role or what you are looking for related to your product. 
+ The Knowledge Hub puts you, the Medidata user, front and center, and empowers you to self-serve through an innovative, best-in-class knowledge experience integrated with all Medidata products. You do not have to sift through multiple sources of information, but rather enjoy a unified experience, seamlessly integrated with your  product.  
+ Feature/enhancement stories referenced in this article:
+ None. 
+## Affected Roles
+ All.
+## Advantages
+ Knowledge Hub benefits include: 
+- A user-friendly design that provides content from all sources in one site. 
+- A faceted search that uses product features to refine your results using machine learning and a built-in taxonomy, which is global and consistent. 
+- A personalized user experience that lets you define and save your own subset of the content. 
+- A fully integrated on-screen user assistance, which gives you quicker time to resolution in a self-service support model.  
+- A cross-platform workflow that helps you understand and go through the entire Knowledge Hub. 
+## User Impact
+ You access the new Knowledge Hub for Ingestor when you click:
+- Help > Knowledge Space Home 
+- Show More... on applicable interface help guides. 
+ When you enter the Knowledge Hub for the first time, you see a series of short tutorials to introduce this new, streamlined experience. 
+## Knowledge Updates
+ The Knowledge Space contains no new updates. See the new Knowledge Hub at learn.medidata.com . It currently provides the same content as the Knowledge Spaces site and will be expanded with additional content over time.
+## Special Considerations
+ As of 03 Apr 2023 , the Knowledge Hub will be the single source for product knowledge, and the Knowledge Spaces site will be shut down. Any saved links or bookmarks to pages on the Knowledge Spaces may no longer work. You can either: 
+- Update your bookmarks, or 
+- Use the new “My Collections” feature in the Knowledge Hub to create your own in-hub bookmarks, which you can organize into collections and share with colleagues.

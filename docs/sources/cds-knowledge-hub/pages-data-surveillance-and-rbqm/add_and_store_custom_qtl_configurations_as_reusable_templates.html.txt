@@ -1,0 +1,18 @@
+# Add and Store Custom QTL Configurations as Reusable Templates
+
+## Add and Store Custom QTL Configurations as Reusable Templates
+ You can add and store QTL  configurations as templates to study-level template groups. Adding and using specific custom QTLs as templates:
+- Enables you and your team to quickly and easily reapply common custom QTLs as needed across study configurations. 
+- Promotes faster study start time. 
+- Ensures consistency and accuracy in custom QTL details across studies. 
+ To learn more about templates, see Data Surveillance Template Library .
+- Access RBQM , and then click Configuration > QTLs in the left-hand menu.
+- On the Quality Tolerance Limits page, click any QTL name in the Parameter column.
+ Note : You can only export existing custom QTLs as a template. When creating custom QTLs, you must first save the QTL, and then open the QTL from the table on the QTL listing page > QTL Configurations tab.
+- At the bottom of the Quality Tolerance Limit window, click Export as Template . 
+- Select the Template Group within your organization's global template library where you would like to store the custom QTL template.
+ The list of template group names   shows in parentheses the client division name that the template group belongs to. 
+ Tip : For more information about template groups, see  View, Add, and Manage Template Groups .
+- Optional : If necessary, update the Template Name . 
+- Click Export .
+A confirmation message appears at the top of the page. You can now find the QTL template in your organization's global template library stored in the selected template group. You can also now import and use the QTL configuration template when creating QTLs in other studies within the same client division (CD) .

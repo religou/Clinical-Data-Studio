@@ -1,0 +1,110 @@
+# Treatments Without Conditions and Ongoing MH Algorithm Methodology
+
+## Treatments Without Conditions and Ongoing MH Algorithm Methodology
+ Patients undergo treatments in response to a condition in a study. The AI Reconciliation algorithm identifies treatments that do not treat a condition, and for which the treatment start date lies outside the time period of the condition. A treatment is considered to treat a condition if the treatment matches the condition in the Knowledge Graph . 
+## Descriptions used in the Algorithm
+ Term 
+ Description 
+ | Adverse Event (AE) 
+ | Any unfavorable and unintended sign, for example, abnormal laboratory findings, symptoms, or diseases, temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product. 
+ | Condition 
+ | An adverse event that occurs after the patient enters a study. It is possible for a condition to not appear in an AE form. 
+ | Treatment 
+ | A tr ea tm e nt i s a m edica t i on or pro ced ur e. 
+ | Finding 
+ | A finding is a data anomaly. Treatments can be findings if either, or both of the following are true:
+- Time frame Match - A treatment is administered outside the condition's time frame. For ongoing MH, no time frame alignment is required. 
+- Indication Match - A treatment's indication does not match any condition in the Knowledge Graph or verbatim comparison.  
+ The algorithm does not consider treatments if any of the following hold true: 
+- The treatment is missing a coded term. 
+- The treatment ended before the patient onboarded the study. 
+- The treatment's indication suggests it is used for purposes where a condition is not expected, such as diagnostic procedures, prophylates, birth control, or recreational use. 
+- The treatment's ATC code classifies it as a vitamin, vaccine, mineral supplement, or general nutrient, indicating no specific condition association is anticipated. 
+ | Related 
+ | T he c on di t i on i s l i n ked to t he tr ea tm e nt i n t he knowledge graph   w i t h c on di t i on - tr ea tm e nt p ai r. 
+ | Unrelated 
+ | The condition is linked to the treatment in the knowledge graph with condition-treatment pair. 
+ | In-time frame 
+ | 
+- Conditions in the same time frame of the treatment that are not related to the treatment per the knowledge graph. 
+- Conditions in the same time frame of the treatment that are not related to the treatment per the indication-AE raw term / AE-preferred term match. 
+ Concomitant Medication (CMs) or Concomitant Procedure (CPs) that ended before the patient on-boarded the study do not qualify as a finding as the anomaly is not relevant to the study.
+ | Out-of-time frame 
+ | Conditions related to the treatment as per the Knowledge Graph, but where the treatment started before the condition started, or after the condition ended. 
+ | Match 
+ | The c on di t i on p ai rs w i t h either both, or any   m edica t i on,   or pro ced ur e i n t he Knowledge Graph, and t he m edica t i on a n d / or pro ced ur e o cc urs w i t hi n t he t i m ef r a m e o f t he c on di t i on st a rt i n g a n d e n di n g . 
+ | Confidence Level 
+ | T he   deg r ee o f ce rt ai nty t ha t a da t a a nom a ly   su ch a s t he ab s e n ce o f a n ece ss a ry tr ea tm e nt f or a gi v e n c on di t i on, exists. 
+ | User linked 
+ | 
+ You can submit l i n k s be tw ee n c on di t i ons a n d tr ea tm e nts   us ed to up da t e t he c on fide n ce 
+ l e v e l . 
+  C on fide n ce l e v e l   up da t es f or us e r l i n k s i n - t i m ef r a m e , b ut does   up da t e   f or t h os e out - o f -time frame. AI Reconciliation does not distinguish between links submitted by mistake or those submitted intentionally. Once linked, the algorithms consider that the treatment treats the condition. You can confirm the validity of the links submitted in the Knowledge Graph.
+ | User feedback 
+ | 
+ You can provide feedback by clicking the thumbs up or thumbs down icon for the findings. AI Reconciliation uses this feedback for performance tracking. 
+## Data Requirements
+The algorithm requires the following data points for every treatment record:
+- T h e i nt e rpol a t ed (" st a n da r di z ed ") st a rt da t e 
+- T he i nt e rpol a t ed (" st a n da r di z ed ") e n d da t e 
+- T he v e r ba t i m o f t he t e rm 
+- T he c o ded t e rm 
+- T he p a t ie nt uu id 
+- T he r ec or d uu id 
+- T he i n dica t i on 
+ T he   a l g or i t h m   r e qu i r e s   t he   f ollow i n g   da t a   f or   e v e ry   c on di t i on   r ec or d : 
+- T he   i nt e rpol a t ed   (" st a n da r di z ed ")   st a rt   da t e 
+- T he   i nt e rpol a t ed   (" st a n da r di z ed ")   e n d   da t e 
+- T he   v e r ba t i m   o f   t he   t e rm 
+- T he   c o ded   t e rm 
+- T he   p a t ie nt   uu id 
+- T he   r ec or d   uu id 
+ The algorithm requires the following data for every history record: 
+- T he on g o i n g f l ag 
+- T he v e r ba t i m o f t he t e rm 
+- T he c o ded t e rm 
+- T he p a t ie nt uu id 
+- T he r ec or d uu id 
+## Use Cases for Treatments without Conditions and Ongoing Medical History (MH)
+ Sometimes conditions can exist without a corresponding treatment. The following section provides information on the criteria used to classify a condition as a data discrepancy finding, the associated confidence levels, and the reasons for these levels. 
+ Use Case 
+ Confidence Level 
+ Rationale 
+ | 
+ 1
+ | 
+ C on di t i on or Ongoing MH does not match. 
+- T he c on di t i on r ec or d i s pr e s e nt i n - t i m e f r a m e a n d not r e l a t ed to t he tr ea tm e nt p e r t he  knowledge graph . 
+- T he c on di t i on r ec or d i s pr e s e nt out - o f - t i m e f r a m e a n d is r e l a t ed to t he tr ea tm e nt p e r t he  knowledge graph . 
+- T he c on di t i on r ec or d i s pr e s e nt out - o f - t i m e f r a m e a n d not   r e l a t ed to t he tr ea tm e nt p e r t he knowledge graph . 
+- T he ongoing MH r ec or d i s pr e s e nt a n d not   r e l a t ed to t he tr ea tm e nt p e r t he knowledge graph . 
+ | High 
+ | 
+ | 
+ 2
+ | 
+ Condition and ongoing MH are not present in the data. 
+ | High 
+ | 
+ | 
+ 3
+ | 
+ The preferred term for the treatment does not exist in the Knowledge Graph. 
+- Condition is present or missing. 
+ | Low 
+ | 
+ | 
+ 4
+ | 
+ Condition record is present in-time frame and unrelated, and ongoing MH is present and unrelated. 
+ | Low 
+ | AI Reconciliation cannot ascertain the validity of condition-treatment links that users create in all cases. For example, you may pair Tylenol medication with headache, but this condition-treatment link may not be valid for all patients in the study . T yl e nol can also be   us ed to tr ea t a fe v e r . W e ca nnot a ssum e t ha t e v e ry i nst a n ce o f a p a t ie nt t aki n g T yl e nol w a s us ed to tr ea t a headache . Another patient in the study may have taken Tylenol to treat a fever. 
+ A treatment has low confidence of being an anomaly if: 
+- The t r ea tm e nt i s not present in   t he knowledge graph . 
+- A p a t ie nt ha s a n unr e l a t ed c on di t i on p e r t he knowledge graph   f or w hich som e us e r w i t hi n t he stu d y ha s l i n ked t he c on di t i on to t he tr ea tm e nt . 
+- User-linked c on di t i on a n d tr ea tm e nt pairs   r ea pp ea r i n t he stu d y . 
+ A treatment has high confidence of being an anomaly if: 
+- The treatment and condition do not appear as a pair in the knowledge graph within the time frame of the condition starting and ending. 
+- The condition's raw term or preferred term does not match the treatment indication, indicating that the condition and treatment are not related as a pair. 
+- The treatment is present in the knowledge graph. 
+- No conditions are user-linked.

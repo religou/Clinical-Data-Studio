@@ -1,0 +1,10 @@
+# Export Dataset Snapshots from Project
+
+## Export Dataset Snapshots from Project
+ You can export the data related to the data project’s transformations as a snapshot. 
+- Access Data Connect , and click   Transformations   in the left-hand menu. 
+- Expand a published project. 
+- Click More , and select one of the following:
+- Set Up Cloud Extraction – Links to the Export capability, where you can set up export jobs to download data. For details, see Extracting Data with Exports . 
+- Export CSV Locally – Downloads the datasets in the project as a CSV file.
+ Important : The exported file has a 500 record limit. To export more records, use the Set Up Cloud Extraction option.

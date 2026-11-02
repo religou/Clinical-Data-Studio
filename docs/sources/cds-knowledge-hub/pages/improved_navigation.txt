@@ -1,0 +1,15 @@
+# Improved Navigation
+
+## Improved Navigation
+## Description
+ Medidata Patient Profiles 2020.1.0 includes the following navigational enhancements:
+- When you initially access Patient Profiles, you land on the Patient Profiles Design page. 
+- Clicking the Patient Profiles Design page > Create Design button takes you to the Design page > Elements tab. 
+## Affected Roles
+ All.
+## Advantages
+ The improved navigation enhances your ability to work across Medidata's platform of products and streamlines your workflow within Patient Profiles.
+## User Impact
+ Initially accessing Patient Profiles lands you on the Patient Profiles Design page instead of the Studies page. The Studies page no longer exists. In addition, clicking the Patient Profiles Design page > Create Design button lands you on the Design page > Elements tab instead of the Design page > Design options tab.
+## Special Considerations
+ None.

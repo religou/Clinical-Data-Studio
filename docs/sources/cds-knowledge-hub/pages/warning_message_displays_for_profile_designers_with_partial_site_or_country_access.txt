@@ -1,0 +1,16 @@
+# Warning Message Displays for Profile Designers with Partial Site or Country Access
+
+## Warning Message Displays for Profile Designers with Partial Site or Country Access
+## Description
+ Profile Designers with partial or no access to sites or countries see a warning message when accessing the Design page > Profiles tab. If you have the correct access, no warning message appears.
+## Affected Roles
+ Patient Profile Designers.
+## Advantages
+ Using the IDs displayed in warning messages, patient profile designers can contact support to arrange the correct access.
+## User Impact
+ See Description.
+## Knowledge Space Updates
+ The Medidata Patient Profiles  Knowledge Space provides updated content to support this enhancement: 
+- User Roles 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

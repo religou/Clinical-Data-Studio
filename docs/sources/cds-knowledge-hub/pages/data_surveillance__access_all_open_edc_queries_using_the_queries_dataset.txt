@@ -1,0 +1,45 @@
+# Data Surveillance: Access All Open EDC Queries Using The Queries Dataset
+
+## Data Surveillance: Access All Open EDC Queries Using The Queries Dataset
+## What Is New?
+ Data Surveillance includes a new Queries dataset available in Data Sets and Listings that is a compilation of all Rave queries in your study. You can build additional analysis and close data reconciliation processes faster without accessing Rave EDC to check the status of submitted queries using the queries dataset.  
+## What Is the Impact?
+## Users/Roles
+ Data Managers. 
+## Workflow Process
+ No change to the workflow process. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ Using the queries dataset as a template, you can build listings to gather additional analysis for all the Rave queries submitted within your study. This speeds up the data reconciliation process and enables data managers to improve efficiency while maintaining data integrity and accuracy. 
+## Where Do I See the Change?
+ On the Data Surveillance tab:
+- Data Sets page, queries appears a data set, where the source column reads Queries.  
+- Listings page, when you click   Create Listing , the Queries data set appears in the left-hand Data Sets pane with a Queries label. You cannot build a Rave-enabled listing using the Queries dataset. The expression builder shows no variables from the Queries dataset in the Rave Query Details section if you click  Enabled Rave Query   for the listing.  
+- Open EDC Queries page, the total number of queries displayed matches in the number of records in the Queries dataset. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Data Sets 
+- View, Create, and Edit Draft Listings. 
+- Open EDC Queries 
+## What Else Should I Know?
+ The Queries dataset is not available in the following capabilities:
+ Data Surveillance 
+- Vendor Queries 
+- Data Surveillance >   Configuration 
+- Derived variables 
+- Clean Patient Tracker (Missing Pages Source) 
+- Stacked Dataset 
+ RBQM 
+- KRIs 
+- QTLs 
+- RBQM > Configuration
+- Datasets Mapping 
+- Event Analysis 
+- Potential Duplicate Patients 
+- Rounding and Propagation 
+- Oncology Mapping 
+- Patient Milestone 
+- Lab Measurements 
+- Risk Assessment > Critical Data 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

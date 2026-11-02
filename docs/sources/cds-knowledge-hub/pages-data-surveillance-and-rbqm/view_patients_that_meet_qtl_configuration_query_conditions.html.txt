@@ -1,0 +1,18 @@
+# View Patients That Meet QTL Configuration Query Conditions
+
+## View Patients That Meet QTL Configuration Query Conditions
+ You can view for each currently active QTL in your study, the enrolled patients that meet or do not meet the conditions specified in the QTL configuration's numerator query and denominator query. Viewing the patients that meet a QTL configuration's query conditions enables you to reconcile patient-level study data between the QTL and a data listing in Data Reviewer. For example, if a data listing shows 10% of patients withdrew from a study but a QTL indicates that 50% withdrew, then you can compare the QTL configuration's patient matches with the data listing. 
+- Access RBQM , and then click Configuration > QTLs in the left-hand menu.
+- On the Quality Tolerance Limits page, click the button next to an active QTL name. 
+- Click QTL Patient Matches .
+The QTL Patient Matches window shows the following information:
+ Field Descriptions 
+- Total Patients – The number of patients enrolled in the study. 
+- # Patients Matching Numerator – The number of enrolled patients in the study whose patient data meets the specifications defined in the QTL configuration's numerator query. 
+- # Patients Matching Denominators – The number of enrolled patients in the study whose patient data meets the specifications defined in the QTL configuration's denominator query. 
+- Last Updated – The time stamp in which the RBQM's most recent data refresh occurred. 
+- Patient ID – The patient's ID number. 
+- Site – The site the patient belongs to. 
+- Country – The country that the site resides in. 
+- Numerator Query – A check mark shows if the patient's data meets the conditions specified in the QTL configuration's numerator query. Otherwise, no check mark shows. A numerator query is the QTL configuration's manually defined conditional expression that parses your study data to capture patient records within a specified variable that   match the expression's defined conditions .   For example, you can configure an expression to capture patient data records for patients who discontinued the study treatment prematurely . 
+- Denominator Query – A check mark shows if the patient's data meets the conditions specified in the QTL configuration's denominator query. Otherwise, no check mark shows. A denominator query is the QTL configuration's specific data population subset defined in which the numerator query runs against. For example, you can create a QTL configuration to capture patient data records for patients who discontinued the study treatment prematurely  and are specifically female patients below age 50 .

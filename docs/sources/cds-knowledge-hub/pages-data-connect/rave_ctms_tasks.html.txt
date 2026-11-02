@@ -1,0 +1,122 @@
+# CTMS Tasks
+
+## CTMS Tasks
+ You can export data objects detailing Medidata CTMS tasks .  
+ Important : Your Rave URL configuration can affect your ability to access exported data. For details, please contact your Medidata representative or Medidata Support.
+## Tasks
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | 
+ The iMedidata name of the client division pertaining to the task.
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The client division's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The iMedidata name of the study pertaining to the task.
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The name of the study environment pertaining to the task, such as Dev, Prod, or UAT.
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment's unique identifier. 
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The iMedidata name of the study environment site pertaining to the task. Only available for Site level tasks.
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment site's unique identifier. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | 
+ The study environment site's number.
+ | Study Environment Country Name 
+ | Text 
+ | 2048 
+ | 
+ The iMedidata name of the study environment country pertaining to the task. Only available for Country level tasks.
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment country's unique identifier. 
+ | Task ID 
+ | Alphanumeric 
+ | 50 
+ | The task's system-generated identification number. The task ID is a combination of "TM", a hyphen, and an incrementing number, for example: TM-1, TM-2, TM-3. Each task ID is unique only within each study environment. 
+ | Task Name 
+ | Text 
+ | 256 
+ | The task's full name as entered in Task Management. If the task name is greater than 35 characters, then the full name appears when you hover over the name. 
+ | Task Description 
+ | Alphanumeric 
+ | 500 
+ | The task's description as entered in Task Management during task creation or editing. This field has a limit of 500 characters. 
+ | Status 
+ | Text 
+ | 1000 
+ | The task's status. 
+ | Lifecycle 
+ | Text 
+ | 50 
+ | The phase of the study's lifecycle where the task applies to, such as Startup, Conduct, or Closeout. 
+ | Billable 
+ | Text 
+ | 1 
+ | Denotes if the task incurs financial costs. Possible values:
+- Y 
+- N 
+ | Created Date 
+ | Date 
+ | 23 
+ | The task's creation date. 
+ | Due Date 
+ | Date 
+ | 23 
+ | The task's target completion date. The due date must be the current date or a future date. 
+ | Closed Date 
+ | Date 
+ | 23 
+ | The task's target closure date. The closure date must be the current date or a future date. 
+ | Reopened Date 
+ | Date 
+ | 23 
+ | The task's reopening date. 
+ | Assignee 
+ | Text 
+ | 150 
+ | The full name of the person responsible for the task's completion. 
+ | Assignee UUID 
+ | Alphanumeric 
+ | 16 
+ | The assignee's unique identifier. 
+ | Assignee Role 
+ | Text 
+ | 256 
+ | The assignee's iMedidata role. 
+ | Watchers 
+ | Text 
+ | 1000 
+ | The username and full name of each of the task's waters. 
+ | Notes 
+ | Text 
+ | 1000 
+ | The task's notes.

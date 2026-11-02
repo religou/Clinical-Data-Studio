@@ -1,0 +1,30 @@
+# Global SFTP Settings for Import Jobs
+
+## Global SFTP Settings for Import Jobs
+## Description
+ While configuring SFTP settings for your import jobs, you can set a single global SFTP folder for all of your import jobs within a client division scheme. When configuring an import job to import from an SFTP location, you can set the job to import from this global SFTP location.
+ When multiple import jobs use the same SFTP Input File Path, Ingestor can identify the appropriate jobs and transfer the corresponding files from the file names.
+ Feature/enhancement stories referenced in this article:
+ MCC-898652, MCC-898690, MCC-899004, MCC-899017, MCC-908305 
+## Affected Roles
+ All platform role with permission to configure SFTP locations and configure import jobs. For details, see  Ingestor Roles and Permissions List .
+## Advantages
+ Previously, when you configure import jobs to import from an SFTP location, you must use a unique SFTP location for each import jobs. You cannot reuse SFTP locations for multiple jobs. This can make import job creation operationally difficult if you manage multiple studies or have enterprise- or large-scale operations. With the new global SFTP location settings, you can connect multiple jobs to a single SFTP folder and cut down on operational resources required to manage multiple SFTP locations.
+## User Impact
+ While creating import jobs:
+- At the SFTP Settings step, you enable the selected SFTP location as a global import folder. The screen includes the required file path and file naming format.
+ Note : If you want to use an SFTP location as a global location in Ingestor, then you must configure the SFTP location for global use on the SFTP location configuration screen. You cannot mark an SFTP location as global in Ingestor if it is not set as global on the SFTP location configuration screen.
+- The Supported Data Sets panel now appears in the new Summary step that appears after the SFTP Settings step. The Summary step includes the file type supported by the import job and the import file name expectations. The same details appear for existing jobs when you click on the Job Files screen's Supported Data Sets button. 
+## Knowledge Space Updates
+ The Ingestor Knowledge Space provides updated content to support the added SFTP configuration options: 
+- Quick Start Ingestor - Import Clinical Data from External EDC Sources 
+- Quick Start Ingestor - Import CTMS Data Files 
+- Quick Start Ingestor - Import Patients Data from External EDC Sources 
+- Quick Start Ingestor - Import Study Master Data Files 
+- Create Import Job for CTMS Data 
+- Create Import Job for Clinical Data from External EDC Sources 
+- Create Import Job for Study Design Metadata Files 
+- Create Import Job for Study Master Data 
+- Create Import Job for Patients Data from External EDC Sources 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

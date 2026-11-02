@@ -1,0 +1,26 @@
+# Data Surveillance: Updated AI Reconciliation Provide Clearer Information In Reports
+
+## Data Surveillance: Updated AI Reconciliation Provide Clearer Information In Reports
+## What Is New?
+ On the Data Surveillance > AI Reconciliation page, the page title now reads AI Reconciliation.
+ Any AI Reconciliation Condition or Treatment report includes the following updates:
+- When downloading any AI Data Reconciliation report, a page loading icon indicates that the download is in progress. 
+- The Mark Reviewed button appears only if you have the Manage Data Reviewer building block assigned to your role. 
+- You can type up to 1084 characters in the query text field. 
+- AIl AI Reconciliation reports now include a new Loglines column, and a comments table. The Record ID also appears in report. 
+## What Is the Impact?
+## Users/Roles
+ Study managers and data managers.
+## Workflow Process
+ No change to workflow.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Data managers can identify what logline an event was recorded on in case there are multiple instances of the same adverse event or concomitant medication. Clearer information in AI Reconciliation reports enables data managers to easily locate study data of interest and speeds up the data reconciliation process.
+## Where Do I See the Change?
+ See What is New?
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- AI Reconciliation   
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

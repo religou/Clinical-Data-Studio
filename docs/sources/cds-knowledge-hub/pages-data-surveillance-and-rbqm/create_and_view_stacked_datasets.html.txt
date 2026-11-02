@@ -1,0 +1,68 @@
+# Create and View Stacked Datasets
+
+## Create and View Stacked Datasets
+ Study data can sometimes contain datasets that share numerous common variables. For example: 
+- Medidata Rave may include variations of the same type of eCRF, or 
+- Study data may come from multiple sources such as a Rave vitals dataset and an external vitals dataset, or 
+- Screening data and study collection data may have similar data points. 
+ You can merge datasets with common variables into one dataset called a stacked dataset. Stacked datasets include all variables from all the source datasets, even variables without any common matches across the source datasets. You can use stacked datasets across the Data Surveillance and RBQM capabilities just like you use any other dataset. For example, to build data listings , visualizations , patient profile design elements , or derived variables . Or you can use stacked datasets to configure data mappings , custom QTLs , or custom KRIs . 
+ In instances where multiple datasets have numerous shared variables, merging the datasets into one stacked dataset: 
+- Simplifies the organization of your study data. 
+- Streamlines your ability to access, review, and work with study data throughout Data Surveillance and RBQM. 
+- Optimizes the reports, statistical analysis, and visual outputs that Data Surveillance and RBQM produce on your study data. 
+ Note : You require the   View Detect CSM Configuration building block to access the Stacked Datasets page. You require the   Manage Detect CSM Configuration building block to create stacked datasets. 
+## Access and View Stacked Datasets
+ You can view the list of stacked datasets in your study along with associated details for each dataset. You can also view:
+- All variables that comprise a specific stacked dataset. 
+- The common variables across all source datasets that comprise a stacked dataset. 
+- Access Data Surveillance or RBQM , and then click Configuration > Stacked Data Sets in the left-hand menu.
+The Stacked Datasets page appears. The table lists all stacked datasets in your study.
+ Column Descriptions 
+- Name – The unique dataset name. 
+- OID – The dataset's unique object identifier. 
+- Source Datasets – The original datasets that were merged to form the stacked dataset. 
+- Created On – The stacked dataset creation date. 
+- Created By – The user who created the stacked dataset. 
+- In the Name column, click any stacked dataset name.
+The Stacked Dataset window appears and shows the following information:
+ Field Descriptions 
+- Full Match – The number of variables that exist in and are common across datasets being previewed.
+- Partial – The number of variables that exist in and are common across at least two datasets but not all datasets being previewed. 
+- No Match – The number of variables that only exist in one dataset and are not common across any other dataset being previewed. 
+- Variables – The list of unique variable OIDs existing across all datasets being previewed. 
+- Stack – Specifies whether the variable OID is a full match, partial match, or has no common matches across any other data sets being previewed.
+- Full – The variable OID exists in and is common across datasets being previewed.
+- Partial – The variable OID exists in and is common across at least two datasets but not all datasets being previewed. 
+- No Match – The variable OID only exists in one dataset and is not common across any other datasets being previewed. 
+- Source Datasets – The list of prospective datasets that would be merged to create the stacked dataset. A black check mark indicates that the variable exists within the dataset. 
+## Create Stacked Datasets
+ You can merge datasets with common variables into one dataset called a stacked dataset. Stacked datasets include all variables from all the source datasets, even variables without any common matches across the source datasets. 
+ You can use stacked datasets across the Data Surveillance and RBQM capabilities just like you use any other dataset. For example, to build data listings , visualizations , patient profile design elements , or derived variables . Or you can use stacked datasets to configure data mappings , custom QTLs , or custom KRIs . 
+ Stacked datasets: 
+- Simplify the organization of your study data. 
+- Streamline your ability to access, review, and work with study data throughout Data Surveillance and RBQM. 
+- Optimize the reports, statistical analysis, and visual outputs that Data Surveillance and RBQM produce on your study data. 
+- Access Data Surveillance , and then click Configuration > Stacked Data Sets in the left-hand menu.
+The Stacked Datasets page appears.
+- Click New Dataset . 
+- In Dataset Name , enter a unique name for the stacked datasets. 
+- In Dataset OID , enter a unique stacked dataset OID. The OID is the dataset object identifier, which helps identify and track the dataset. 
+- In the Select Source Dataset section, select the check box for each dataset you want to merge into the stacked dataset.
+ Note : You can merge up to 10 source datasets to create a stacked dataset.
+- Click Preview .
+The Stacked Dataset Preview window appears and shows the following:
+ Field Descriptions 
+- Full Match – The number of variables that exist in and are common across datasets being previewed.
+- Partial – The number of variables that exist in and are common across at least two datasets but not all datasets being previewed. 
+- No Match – The number of variables that only exist in one dataset and are not common across any other dataset being previewed. 
+- Variables – The list of unique variable OIDs existing across all datasets being previewed. 
+- Stack – Specifies whether the variable OID is a full match, partial match, or has no common matches across any other data sets being previewed.
+- Full – The variable OID exists in and is common across datasets being previewed.
+ Note : There must be at least one variable OID that is a full match across datasets to save and create a stacked dataset.
+- Partial – The variable OID exists in and is common across at least two datasets but not all datasets being previewed. 
+- No Match – The variable OID only exists in one dataset and is not common across any other datasets being previewed. 
+- Source Datasets – The list of prospective datasets that would be merged to create the stacked dataset. A black check mark indicates that the variable exists within the dataset. 
+ Tip : Previewing stacked datasets helps you assess the common variables across a set of datasets to determine if merging the datasets into one stacked dataset is an appropriate decision.
+- Click Close . 
+- Confirm your source dataset selections, and then click Save .
+ Note : There must be at least one variable OID that exists in and is common across all selected source datasets to create a stacked dataset.

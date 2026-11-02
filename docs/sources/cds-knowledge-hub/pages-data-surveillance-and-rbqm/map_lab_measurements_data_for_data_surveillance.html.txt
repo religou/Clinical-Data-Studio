@@ -1,0 +1,21 @@
+# Map Lab Measurements Data
+
+## Map Lab Measurements Data
+ You can configure the adverse events data sets and specific Common Terminology Criteria for Adverse Events (CTCAE) v 5.0 grading data variables that AI Data Reconciliation consumes to analyze laboratory measurement records. 
+ Note : If you do not set up the lab measurements data configuration, you cannot view the CTCAE report analysis in AI Data Reconciliation. The CTCAE grade in data you ingest from Medidata Rave must be a numeric value. CTCAE reports do not work if the CTCAE grade is in Roman numerals. Data you ingest from Rave must be in Central Lab data format (derived datasets), that is, each row must correspond to a single analyte name. If this is not the case, for example, if the data is in Local Lab format, you must use   transformations in Clinical Data Studio - Data Connect   to pivot lab data (external datasets). 
+- Access Data Surveillance or RBQM , and then click Configuration > Data Mapping in the left-hand menu.
+ The Data Mapping page appears. 
+- Click the Lab Measurements tab. 
+- Click Add Lab Measurements . 
+- Select or enter the following:
+- Dataset – The adverse event data set you want the AI Data Reconciliation algorithm to use to run its analysis on to show data in the CTCAE reports. 
+- Collection Date – The date on which the laboratory measurements were collected. 
+- Sample Type – The type of biological matter collected in the laboratory from patients to conduct tests.This can be either the panel name or the specimen type on the laboratory test form. For example, if panel name is Hematology, the corresponding specimen type is blood.
+ Note : If you configure only panel name or only specimen type in the Sample Type field, the AI Data Reconciliation algorithm still identifies lab records associated with the reported term (AE).
+- Analyte Name – The data set variable that corresponds to the type of specific substance or chemical being measured in the laboratory test. Analytes are components in a biological sample whose levels are measured to assess the effects of a drug, or to monitor the patient's health. Examples include glucose, hemoglobin, and cholesterol. 
+- Analyte Value – Optional. The data set variable value that corresponds to the analyte.  
+- Analyte Unit – Optional . The unit the analyte variable value is measured in. 
+- Upper Limit – Optional . The highest analyte value permissible. 
+- Lower Limit – Optional . The lowest analyte value permissible. 
+- Loinc Code – Optional . The analyte code as per the Logical Observation Identifiers Name and Codes database. 
+- Click Save.

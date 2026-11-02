@@ -1,0 +1,27 @@
+# Add Partial Dates for Published Derived Datasets
+
+## Add Partial Dates for Published Derived Datasets
+ You can now add raw dates for the published derived datasets activated for DQM.
+ Important : This configuration update is only necessary for derived datasets published before the Data Connect 2025.1.0 release. For newer projects, you ensure that you select raw and interpolated dates as applicable when creating new derived datasets for DQM.
+- Access Data Connect and click Transformations on the left-hand menu. 
+- Identify a project to add the raw date field.  
+- Click the More icon > View / Modify > Yes . 
+- To modify the configuration, select the first transformation node. 
+- Search for the field with interpolated dates. 
+- Edit the alias name by adding "_Int" as a suffix and click Apply . 
+- Search for the field with raw dates. 
+- Edit the alias name by adding "_Raw" as a suffix and click Apply. 
+- Repeat steps 3 to 8 where for other transformation nodes as necessary. 
+ Tip : A pply the configuration after each update, making bulk updates can result in errors or unintended output. 
+ Important :
+- Make sure the alias for interpolated dates has "_INT" suffix and a matching field name with a raw date, such as  LBDAT and LBDAT_INT. Data Surveillance and RBQM capabilities in DQM relies on the exact field name pattern for the algorithm to function. 
+- Do not remove or add nodes to the current derived datasets if you require the update to reflect in the original derived dataset in DQM. 
+- Transformations do not support "yy" datetime formats. 
+ Note : The added fields cascade to the next transformation node.   
+- Select the final transformation node and search for the field and ensure that both interpolated and raw fields are available.
+ Tip : If you have previously created derived variables that use the previous interpolated dates, reset the derived variable configuration to make sure the validation passes before you publish.
+- Go to the Transformation landing page. 
+- Identify the project that you modified. 
+- Publish Projects .
+ Note : After publishing, wait for around 10 minutes to view the new version of the dataset with new configuration in datasets module. 
+- Activate the derived dataset to see the changes in Data Surveillance and RBQM.

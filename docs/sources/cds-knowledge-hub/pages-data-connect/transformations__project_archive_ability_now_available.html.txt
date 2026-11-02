@@ -1,0 +1,26 @@
+# Transformations: Project Archive Ability Now Available
+
+## Transformations: Project Archive Ability Now Available
+## What Is New?
+ You can now archive projects from the Transformations > Projects page. There are two new building blocks that control who can archive projects:  
+- Manage Transformation Projects – You can archive your own projects. Medidata recommends this setting for most users. 
+- Transformation Admin – You can archive any user's project in the study group. 
+ The Projects page also includes a new Usage Limits button. Clicking it shows you the count of published and activated projects you have across all environments, and how many remaining of your quota you can publish or activate.
+## What Is the Impact?
+## Users/Roles
+- Project owners and creators 
+- Administrators 
+## Workflow Process
+ Archiving projects removes them from the list. If you archive published or activated projects, then you must republish or reactivate them if you unarchive them later.
+## Other Applications
+- Data Surveillance and RBQM – If you archive a project with activated datasets, then any data already delivered downstream to Data Surveillance and RBQM remains there as stale data. Downstream users do not receive notifications if an activated dataset has been archived in Data Connect. 
+- Data Connect >  Exports – Archival and unarchival actions appear in Data Connect data source exports. 
+## How Do I Benefit?
+ The ability to archive projects addresses user feedback requesting the ability to delete erroneous projects. Archiving provides an alternative to permanent deletion, which maintains compliance while helping you manage cluttered project lists by hiding irrelevant items.
+## Where Do I See the Change?
+ The Archive button is available on any given projects from the Transformations > Projects page. You can use the filters on the Projects page to show or hide archived projects. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Data Connect Roles and Capabilities (updated) 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

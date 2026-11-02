@@ -1,0 +1,252 @@
+# Add and Manage Risk Categories
+
+## Add and Manage Risk Categories
+ Risk categories are broader categories of risk as opposed to a specific piece of critical data or a critical process. You can identify and include as part of your risk assessment the risk categories that are critical to your study outcome; for example, technology or complexity.
+ Adding critical data to the risk assessment helps you focus and monitor the most important data to ensure:
+- Protocol compliance, patient safety, data quality, and data integrity. 
+- Product or treatment efficacy. 
+ You can:
+- Add risk categories to the risk assessment. 
+- Add, view, edit, and delete questions associated with a risk category. 
+- Score a risk category's level of risk to the study. 
+- Assign a risk score weight to a risk category. 
+- Add and manage the risks associated with risk categories. 
+- View the total sum of all risk category risk scores to get a general sense of the study's level of risk. 
+- View the risk categories included in the risk assessment. 
+- View the risks associated with risk categories. 
+- Delete risk categories. 
+- View and export Categorization Audit Reports. 
+## Add Risk Categories to the Risk Assessment
+ Risk categories are broader categories of risk as opposed to a specific piece of critical data or a critical process. You can identify and include as part of your risk assessment the risk categories that are critical to your study outcome; for example, technology or complexity.
+ You can add risk categories by: 
+- Creating new risk categories at the study level. 
+- Using a preexisting study-level critical data template. 
+ Note:  Risk categories are permanently inherited from the parent critical data or critical processes. Updating the risk category on the parent critical data or critical processes does not update existing associated risks. To change the risk category for a critical data or critical process, create a new critical data or critical process with the updated risk category and link your risks accordingly. 
+ When adding risk categories, you can add questions for the study team to consider when evaluating the risk category's risks.
+ Adding critical data to the risk assessment helps you focus and monitor the most important data to ensure:
+- Protocol compliance, patient safety, data quality, and data integrity. 
+- Product or treatment efficacy. 
+ Tip : After adding a risk category to the risk assessment, you can: 
+- Score a risk category's level of risk to the study. 
+- Assign a risk score weight to a risk category . 
+- Associate risks to the risk categories. And then in addition, you can:
+- Associate QTLs , KRIs , and risk mitigations to the risk. 
+- Monitor the risk in the Risk Inventory . 
+- Manage the risk from the Risk Assessment or Risk Inventory . 
+- Access RBQM , and then click Risk Assessment > Categorization  in the left-hand menu.
+ The Categorization page appears. 
+- Click Add Risk Category .
+- Do one of the following:
+- 
+ Add a predefined risk category 
+- Click the Select Risk Categorie(s) tab. 
+- Optional . Select the following:
+- Group Name – Select to filter the Select Risk Categories table to only show categories belonging to a specific group. 
+- Template Name – Select to filter the Select Risk Categories table to only categories belonging to one or more specific templates. 
+- In the Select Risk Categories table, click the check box in the corresponding row of one or more predefined risk categories that you want to add to the risk assessment. 
+- Click Save . 
+ Duplicate Prevention in Risk Categorization - You cannot add duplicate Risk Categories, regardless of the associated template. When performing a bulk selection, only the first instance of a specific category gets imported; subsequent duplicates are automatically filtered out to ensure data integrity.
+As a best practice, we recommend you name your templates with unique names across study groups and rather than selecting Select All while importing, select  the template that you want to use in your study.
+- 
+ Create a new risk category 
+- Click the Create A New Risk Category tab.
+ Note : To select all categories in the list, click the checkbox in the header. Reclick to clear all categories from the list.
+- In the New Risk Category table > Category column, click Select Category , and select a predefined category.
+- Optional . To edit the Risk Category Objective : hover your cursor on the risk category objective entry text, click the blue Pencil icon, , edit the text, and then click the check box, .
+ Note : Some objectives appear blank. We recommend adding text for each objective because this text appears when you hover your cursor over the risk name in any of the Risk Assessment pages. If you reuse a category, you can make the objective unique for each instance of the category name. This helps you distinguish one category from another when the category name is a duplicate.
+- Optional : To add questions for the team to consider regarding the risk category: click the blue Plus icon, ,  in the Add Question column, and then enter and save the following:
+- Enter New Question (Required) – Enter a question up to 300 characters that the team can use to help focus their conversation about the risks to the study. 
+- Enter Rationale – Enter up to 1000 characters to provide the reason for the question. For example, "Data supports the primary endpoint of the study." 
+- Enter Considerations – Enter up to 1000 characters of additional information you want the team members to be aware of when discussing ris k. 
+- Optional . Repeat step d. for each question you want to add. 
+- Click Save .
+- Click Save .
+## Add, View, Edit, and Delete Questions Associated with a Risk Category
+ When adding risk categories, you can configure a list of questions that the study team uses when discussing the risk or mitigation strategies. You can also: 
+- View the list of questions included for each risk category 
+- Edit question details. 
+- Delete questions from risk categories. 
+## Add Questions
+ When you add a risk category, you can configure a list of questions that the team uses when discussing the risk or mitigation strategies.
+- Access RBQM , and then click Risk Assessment > Categorization  in the left-hand menu.
+ The Categorization page appears. 
+- Optional . To filter the Categorization table to show only risk categories assigned to a specific category, click the View by menu, and then select a category. 
+- In the #Question column, click the numeric value in the corresponding row of the risk category that you want to add a new question to.
+A Risk Category Questions section appears below the table of risk categories.
+- View, enter, or select the following:
+- Enter New Question (Required) – Enter a question, up to 300 characters, that the team can use to help focus their conversation about the risks to the study. 
+- Enter Rationale – Enter up to 1000 characters to provide the reason for the question. For example, "Data supports the primary endpoint of the study." 
+- Enter Considerations – Enter up to 1000 characters of additional information you want the team members to be aware of when discussing ris k. 
+- Repeat step 4 for each question you want to add to the risk category. 
+## View and Edit Questions
+ You can view the list of questions included for each risk category. For example, you can view the questions:
+- For oversight to ensure the study team is following the risk plan, or 
+- As a reference for another study's risk assessment. 
+ You can also edit question details. For example, you can edit the question, rationale, or considerations text based on a protocol amendment or update a typo or other mistake.
+- Access RBQM , and then click Risk Assessment > Categorization  in the left-hand menu.
+ The Categorization page appears. 
+- Optional . To filter the Categorization table to show only risk categories assigned to a specific category, click the View by menu, and then select a category. 
+- In the #Question column, click the numeric value in the corresponding row of the risk category that you want to add a new question to.
+A Risk Category Questions section appears below the table of risk categories.
+- View, enter, or select the following:
+- Questions for Discussion (Required)  – Enter a question, up to 300 characters, that the team can use to help focus their conversation about the risks to the study. 
+- Rationale – Enter up to 1000 characters to provide the reason for the question. For example, "Data supports the primary endpoint of the study." 
+- Considerations – Enter up to 1000 characters of additional information you want the team members to be aware of when discussing ris k. 
+- Repeat step 4 for each risk category question you want to edit. 
+## Delete Questions
+ You can delete questions from risk categories; for example, duplicate questions or other questions added to the risk categories in error.
+- Access RBQM , and then click Risk Assessment > Categorization  in the left-hand menu.
+ The Categorization page appears. 
+- Optional . To filter the Categorization table to show only risk categories assigned to a specific category, click the View by menu, and then select a category. 
+- In the #Question column, click the numeric value in the corresponding row of the risk category that you want to add a new question to.
+A Risk Category Questions section appears below the table of risk categories.
+- On the far right side of the Risk Category Questions  table, click the Delete icon, , in the corresponding row of the question you want to delete.
+## Score a Risk Category's Level of Risk to the Study
+ You can score a risk category's level of risk to the study. RBQM calculates the risk score for each risk category based on the following risk factors: Impact, Detectability , Probability. To learn more, see Risk Scores . 
+ RBQM tallies the collective sum of each risk category's risk score to determine the Total Risk Categorization Score. To learn more, see View the Total Risk Categorization Score . 
+- Access RBQM , and then click Risk Assessment > Categorization  in the left-hand menu.
+ The Categorization page appears. 
+- Optional . To filter the Categorization table to show only risk categories assigned to a specific category, click the View by menu, and then select a category. 
+- In the row of the risk category you want to update, click a number in one or more of the following columns:
+- Probability – Select a value on a 3-point risk score scale: 
+- On a 3-point risk score scale:  High probability = 3, Medium probability = 2, Low probability = 1. 
+- On a 5-point risk score scale:  High probability = 5, Medium probability = 3, Low probability = 1. 
+- Impact – Select a value on a 3-point risk score scale:  
+- On a 3-point risk score scale:  High impact = 3, Medium impact = 2, Low impact = 1. 
+- On a 5-point risk score scale:  High impact = 5, Medium impact = 3, Low impact = 1. 
+- Detectability – Select a value on a 3-point risk score scale: 
+- On a 3-point risk score scale:  Difficult to Detect = 3, Medium to Detect = 2, Easy to Detect = 1.
+- On a 5-point risk score scale:  Difficult to Detect = 5, Medium to Detect = 3, Easy to Detect = 1.
+- If necessary, assign a risk score weight to a risk category . 
+ The Risk Category Score column updates to reflect the risk category's risk score. RBQM calculates the Risk Category Score by multiplying the Category Probability, Category Impact, Category Detectability, and Risk Category Weight. 
+ Risk Category Score = (Probability x Impact x Detectability) x Risk Category Weight 
+ The maximum risk category score is 27. Color coding indicates the severity of the risk where values 0.1-3.0 appear in green (minimal risk), 3.1-9.0 appear in yellow (moderate risk), and 9.1-27.0 appear in red (high risk). To learn more, see Risk Scores . 
+## Assign a Risk Score Weight to a Risk Category
+ You can assign a risk weight to risk categories to rank the importance of the risk category. 1.0 is the default weight. Values range from 0.1 (lowest) to 1.0 (highest). Do not enter 0. 
+- Access RBQM , and then click Risk Assessment > Categorization  in the left-hand menu.
+ The Categorization page appears. 
+- Optional . To filter the Categorization table to show only risk categories assigned to a specific category, click the View by menu, and then select a category. 
+- In the Risk Category Weight column, click the number in the row corresponding to the risk category you want to update. 
+- Click the Up or Down arrow to adjust the risk category weight.
+ Note : 1.0 is the default weight. Values range from 0.1 (lowest) to 1.0 (highest). Do not enter 0. 
+- Click anywhere outside of the Risk Category Weight cell.
+The risk category's Risk Category Weight value and Risk Category Score update. 
+## Add and Manage Risks Associated to Risk Categories
+ In addition to including risk categories in your risk assessment, you can also associate specific risks to the risk categories that you want to monitor as part of your risk assessment. You can: 
+- Add and associate risks to risk categories. 
+- View and edit risks. 
+- Link and unlink QTLs to risks. 
+- View and edit the details of QTLs associated with risks. 
+- Evaluate the performance of QTLs associated with risks. 
+- Link and unlink Key Risk Indicators (KRIs) to risks. 
+- View and edit the details of KRIs associated with risks. 
+- Add, view, edit, and delete risk mitigations. 
+- Mark risks as reviewed. 
+- Close risks. 
+- Delete risks. 
+ To learn more, see: 
+- Add and Manage Risks 
+- View and Monitor the Risk Inventory 
+- Add and Manage QTLs Associated with Risks 
+- Add and Manage KRIs Associated with Risks 
+- Add and Manage Risk Mitigations 
+## View the Total Risk Categorization Score
+ The Total Risk Categorization Score shows at the top of the Risk Assessment > Risk Categorization page.  
+ Total Risk Categorization Score = The combined total risk category score of all risk categories included in the Risk Assessment 
+ For example: 
+- 10 risk categories with the following risk category scores: 10 + 12 + 8 + 10 + 6 + 4 + 15 + 15 +10 + 10. 
+- The sum of the risk scores for all categories equals 100. 
+ The Total Risk Categorization Score uses a color-coded meter to indicate the study's level of risk based on the risk categories. Green indicates minimal risk; yellow indicates moderate risk; red indicates high risk. The color associated with the score is calculated by dividing the Total Risk Categorization Score by the number of risk categories x 27. RBQM then converts the result to a percentage. In the example above, the percentage that determines color calculates as 100/(10 x 27) = 0.37 or 37%.  
+ RBQM shows the color of the Total Risk Categorization Score as Yellow based on the percentage: 
+- 0-32% (Green)  
+- 33%-66% (Yellow) 
+- 67%-100% (Red) 
+ For example: 
+ The Total Risk Categorization Score can give you an overall sense of the study's level of risk. 
+- Access RBQM , and then click Risk Assessment > Categorization  in the left-hand menu.
+ The Categorization page appears. The Total Risk Categorization score shows at the top right-hand corner of the page. 
+## View the Risk Categories Included in the Risk Assessment
+ You can view the list of risk categories and their associated high-level details included in your risk assessment. For example, you can view the risk categories:
+- For oversight to ensure the study team is following the risk plan, 
+- To view an individual risk category's level of risk, or 
+- As a reference for another study's risk assessment. 
+- Access RBQM , and then click Risk Assessment > Categorization  in the left-hand menu.
+ The Categorization table shows the following details for all risk categories included in the active risk assessment:
+ Column Descriptions 
+ Field Name 
+ Description 
+ | No.
+ | A system-assigned unique ID for a risk, for example, RC1. 
+ | Category 
+ | 
+ Unable to render {include} The included page could not be found.
+ or if using a TransCelerate template,  
+ Unable to render {include} The included page could not be found.
+ | 
+ Category Probability
+ | 
+ A numeric value used to calculate the risk score: 
+- 
+- On a 3-point risk score scale:  High = 3, Medium= 2, Low = 1. 
+- On a 5-point risk score scale:  High = 5, Medium = 3, Low = 1. 
+ | 
+ Category Impact
+ | A numeric value used to calculate the risk score: 
+- On a 3-point risk score scale:  High = 3, Medium = 2, Low = 1. 
+- On a 5-point risk score scale:  High = 5, Medium = 3, Low = 1. 
+ | 
+ Category Detectability
+ | A numeric value used to calculate the risk score: 
+- On a 3-point risk score scale:  Difficult to Detect = 3, Medium to Detect = 2, Easy to Detect = 1.
+- On a 5-point risk score scale:  Difficult to Detect = 5, Medium to Detect = 3, Easy to Detect = 1.
+ | Risk Category Score 
+ | A calculated number (score) that reflects the severity of the risk category. The risk category score is calculated by multiplying the risk factors by the risk category weight: (Probability x Impact x Detectability) x Risk Category Weight. This is a numeric score with color coding where values 0. 1-3.0 appear in green (low risk), 3.1-9.0 appear in yellow (medium risk), and 9.1-27.0 appear in red (high risk) . 
+ | Risk Category Weight 
+ | A value used to rank the importance of the risk category. 1.0 is the default. Values range from 0.1 (lowest) to 1.0 (highest). 
+ | No. Question(s) 
+ | The number of questions associated with this category.  
+ | No. Risk(s) 
+ | The number of risks associated with this category.  
+ | Add Risk 
+ | This link, when clicked, opens the Add Risk page where you can add risks to the category. 
+ Tip : To filter the Risk Categorization table to show only risk categories assigned to a specific category, click the   View by   menu, and then select a category. 
+## View the Risks Associated with Risk Categories
+ You can view the list of risks associated with risk categories in your risk assessment. For example, you can view the risks:
+- For oversight to ensure the study team is following the risk plan, or 
+- As a reference for another study's risk assessment. 
+- Access RBQM , and then click Risk Assessment > Categorization  in the left-hand menu.
+ The Categorization page appears. 
+- Optional . To filter the Categorization table to show only risk categories assigned to a specific category, click the View by menu, and then select a category. 
+- On the Risk Categorization table, click the Down Arrow , , to the left of the risk category name whose risks you want to view.
+A table shows the list of risks associated with the risk category and the following risk details:
+ Column Descriptions 
+- Risk ID – The risk's system-assigned unique ID. You can click a risk ID to view and edit the risk review details . 
+- Risk Name – The name of the risk. 
+- Review Status – A color-coded pill icon shows the review status for each risk associated with the critical data:
+- Red – Overdue. The Current Date > Target Review Date, indicating the Risk Review is overdue. 
+- Yellow – Due Soon. The Current Date is between Last Review Date and Target Review Date, indicating the Risk Review is due soon. 
+- Green – Reviewed. The Last Review Date = Current Date, indicating the Risk is reviewed. 
+- Gray – Closed. The Risk Status is closed. 
+- Risk Score – A calculated number (score) that reflects the risk's severity. When adding a risk or updating a risk's review details, you can score each of the following risk factors, Probability, Impact, and Detectability, on a scale of 1 to 3. The risk score is calculated by multiplying each risk factor's score together (Probability x Impact x Detectability). The maximum risk score is 27. 
+- A risk score of 1-3 appears with green color-coded block and indicates a minimal risk. 
+- A risk score of 4-9 appears with a yellow color-coded block and indicates. 
+- A risk score of 10-27 appears with a red color-coded black and indicates a high risk. 
+## View and Export Categorization Audit Reports
+ Audit Reports allow you to  track actions made on the risk categorization of your study . This provides a single, traceable record of updates for audit readiness. For example, you can 
+- Identify specific changes that were made (like adding risks to a risk category, deleting risk categories from the risk assessment). 
+- Track the study personnel who made updates. 
+- Identify when the updates were made. 
+ Note :   You require permissions to view the audit trail. To learn more, see   RBQM Building Blocks and Permissions . 
+- Access RBQM , and then click   Risk Assessment > Categorization   in the left-hand menu. The Categorization page shows. 
+- Click the Clock     icon next to the page header. A new browser tab opens to the Audit Viewer > Categorization Audit Report page. 
+- Optional: You can click Show Filters  above the upper-right corner of the table to filter the reports by  Start Date  and  End Date . 
+ Tip :   In Audit Viewer, you can click   Export   and then  Excel ,   CSV , or   PDF   to download the report locally and view offline or sort data by column headings.   Report exports include the entire history, regardless of the filters applied in the Audit Viewer window. 
+ Important:  Categorization Audit Report records actions made on the risk categorization of your study after 30-July-2026. Any actions  made on the risk categorization prior  to this date is excluded from the audit report.
+ Note:   Any changes to risks on Categorization page will be recorded in Risk Inventory Audit Report. To learn more, see Generate Risk Inventory Audit Report . 
+## Delete Risk Categories
+ You can delete risk categories from the risk assessment. For example, if you must update a risk category based on a protocol amendment or a risk category was added to the risk assessment in error.
+- Access RBQM , and then click Risk Assessment > Categorization  in the left-hand menu.
+ The Categorization page appears. 
+- Click the Action menu, , in the row of the corresponding risk category you want to delete. 
+- Click Delete Risk Category . 
+- Click Delete .

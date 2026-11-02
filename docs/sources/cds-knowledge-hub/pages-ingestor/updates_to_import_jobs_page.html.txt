@@ -1,0 +1,21 @@
+# Updates to Import Jobs Page
+
+## Updates to Import Jobs Page
+## Description
+ MEDS Ingestor updates the Import Jobs page with the following columns:
+- Created by – Shows the full name of the user that created the job. 
+- Last Run Status – Shows the date and status of the last file that MEDS Ingestor uploaded or transferred. 
+- Import Level – Denotes if the job is at the client division level or the study level. Formerly was the Study column. 
+ In addition, the Import Jobs page now lists common column headers before listing column headers specific to data types, such as Data Integration|Version. The page includes an Additional Job Details panel containing specific information. The page also has a new default sorting order: your jobs with error alerts > your jobs without error alerts > other jobs in descending order by Last Run Status > other jobs with no uploaded files.
+ Feature/enhancement stories referenced in this article:
+ MCC-794828, MCC-795110, MCC-796570, MCC-808237, MCC-825199, MCC-827458 
+## Affected Roles
+ All.
+## Advantages
+ With the updated Import Jobs page, you can review your jobs faster with its more intuitive grouping and address issues as necessary. 
+## User Impact
+ See Description.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

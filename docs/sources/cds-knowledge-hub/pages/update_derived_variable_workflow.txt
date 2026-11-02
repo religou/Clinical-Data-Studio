@@ -1,0 +1,13 @@
+# Update Derived Variable Workflow
+
+## Update Derived Variable Workflow
+## Description
+ You can update your derived variables' name and label with the derived variables update workflow.
+## Affected Roles
+ All roles with the Manage Derived Variables permission.
+## Advantages
+ If you created a derived variable with an incorrect name or label, you can update the variable instead of creating another variable.
+## User Impact
+ You can rename derived variables by selecting   Derived Variable in the application's left menu, then  n avigating to a data set > derived  variable  within Data Sets list and clicking derived . 
+## Special Considerations
+ You cannot update derived variables that are in use by other applications.

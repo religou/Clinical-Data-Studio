@@ -1,0 +1,16 @@
+# Filter Review Reports By Countries, Sites, And Patients
+
+## Filter Review Reports By Countries, Sites, And Patients
+## Description
+ You can now filter review reports by countries, and further by sites and patients.
+## Affected Roles
+ All.
+## Advantages
+ Filtering review reports enables data managers and site managers to view reports of interest specifically by countries, sites, or patients while running studies.
+## User Impact
+ On the Medidata Detect > Utilities > Review Reports page: for a review report if you click Column Filter and then select one or more countries from the list, the sites and patients lists update as per the countries and sites you select, respectively.
+## Knowledge Space Updates
+ The Detect Knowledge Space provides new and updated content to support the enhancement: 
+- Detect Review Reports 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

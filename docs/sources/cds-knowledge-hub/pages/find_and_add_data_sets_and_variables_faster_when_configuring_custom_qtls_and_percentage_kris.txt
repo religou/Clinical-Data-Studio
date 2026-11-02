@@ -1,0 +1,26 @@
+# Find and Add Data Sets and Variables Faster When Configuring Custom QTLs and Percentage KRIs
+
+## Find and Add Data Sets and Variables Faster When Configuring Custom QTLs and Percentage KRIs
+## Description
+ When you:
+- Add or edit custom percentage KRIs on the Custom Percentage KRI dialog box, or 
+- Add or edit custom QTLs on the Quality Tolerance Limit dialog box 
+ you can now p erform a keyword search in the: 
+- Data Set list to filter for the list to show a specific data set. 
+- Numerator Query and Denominator Query sections' Variable field to add a variable when building an expression. 
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ Performing a keyword search and filtering the Data Set list and Variable field helps you build custom QTLs and percentage KRIs faster and easier.
+## User Impact
+ On the Custom Percentage KRI dialog box and Quality Tolerance Limit dialog box:
+- The Data Sets list now contains a search field at the top of the list. 
+- The Variable field in the Numerator Query section and Denominator Query section now provides the keyword search capability. 
+- Each search field auto-populates with selectable, predictive search terms in real time as you enter your search text. Selecting a data set name in the Data Set list search field filters the list to show the selected data set. Selecting a data set name in the Numerator or Denominator Query sections' search field filters the search results to show variables existing in that data set. Selecting a variable in the Numerator or Denominator Query section's search field populates the Variable field with the selected variable name. You can also append a period to a data set name in your search text to trigger the search results to search for variables within that data set. 
+## Knowledge Space Updates
+ The Detect Configuration Manager Knowledge Space provides new and updated content to support this feature/enhancement: 
+- Add and Edit Custom QTLs 
+- Add and Edit Custom Numeric and Percentage KRIs 
+## Special Considerations
+ You can still locate a variable from the Data Sets list, and then click, drag, and drop to add that variable to the expression builder. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

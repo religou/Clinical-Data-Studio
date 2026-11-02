@@ -1,0 +1,27 @@
+# Multiple Quality Tolerance Limits for a Risk
+
+## Multiple Quality Tolerance Limits for a Risk
+## Description
+ You can now associate Quality Tolerance Limits (QTLs) to a risk on a new QTLs tab in the risk form. 
+ A QTL is a study-level metric that indicates if a study parameter's reported data has breached a preidentified data quality threshold. QTLs target and monitor the greatest risks to study safety, conduct, performance, compliance, and data quality. QTLs that reach or exceed a threshold indicate that the QTL's target study parameter may warrant investigation and mitigation. 
+## Affected Roles
+ Study User.
+## Advantages
+ You can track one or multiple QTLs when:
+- Using Risk Management by itself. 
+- Your deployment includes Risk-Based Quality Management (RBQM) Platform applications such as Detect Configuration Manager and Medidata Detect. Configuration occurs in Detect Configuration Manager. Metrics analysis occurs in Medidata Detect. 
+ When using RBQM Platform applications, you can associate QTLs that were configured using Detect Configuration Manager with a risk in Risk Management. Data analysis from Medidata Detect is then pulled into Risk Management for those QTLs.
+## User Impact
+ A QTLs tab appears on the risk form.  You can associate one or more QTLs with the risk. 
+ For integrated deployments: 
+- Create a QTL either in Risk Management or in Detect Configuration Manager. 
+- Share a QTL created in Risk Management with Detect Configuration Manager.  
+- Share a QTL created in Detect Configuration Manager with Risk Management. 
+- Associate any of these QTLs with a risk on the risk form in Risk Management. 
+ When the data administrator activates a QTL in the Detect Configuration Manager, Medidata Detect can perform calculations for the QTL. 
+ The Actual Occurrence graphic shows the Observed value as an animated calculation for the QTL.  
+## Special Considerations
+- The Share QTL toggle is Off  by default when you create a new QTL in Risk Management.  Ensure that the Share QTL toggle is  On  if you want to share the QTL with Detect Configuration Manager. You can click the information icon  to confirm whether integration for a QTL is turned on. 
+- When the Share QTL toggle is  On , it is on for every risk using that QTL. Switching the toggle to  Off  turns sharing off for every risk using that QTL.  
+- A QTL created in Detect Configuration Manager must be activated in Detect Configuration Manager before it can appear in the dropdown menu in the Risk Management QTL tab. When activated, you can select the QTL to associate with a risk in Risk Management. After the QTL is activated, you can no longer edit certain fields in the Risk Management QTL tab. These fields are grayed out because data is pulled in from Detect Configuration Manager and Medidata Detect: Unit , Expectation , Actual Occurrence , Sides , Lower Tolerance Limit , Upper Tolerance Limit . 
+- Medidata Detect provides analysis data to Risk Management after a QTL is activated in the Detect Configuration Manager. Check with your Medidata Detect data administrator to determine the frequency of the refresh cycle for analysis data sent to Risk Management. The refresh of QTL analysis data in Risk Management occurs simultaneously with the refresh of Medidata Detect data .

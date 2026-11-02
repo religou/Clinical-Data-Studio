@@ -1,0 +1,12 @@
+# Add or Remove KRIs from RBQM's Site Risk Calculation
+
+## Add or Remove KRIs from RBQM's Site Risk Calculation
+ The KRI Dashboard visually signifies sites that RBQM assesses as being medium or high risk. KRI Configuration enables you to configure the specific KRIs you want RBQM to factor in when calculating each site's performance risk level. C ustomizing the KRIs that RBQM uses when calculating site risk level helps you more precisely determine at-risk sites based on your study goals and protocol.   
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu.
+The Key Risk Indicators page appears. 
+- On the KRI Configurations tab > Key Risk Indicators list > Add to SRI column, do either of the following:
+- To add the KRI to RBQM's site risk calculation, click in the corresponding row of the KRI you want to include in RBQM's site risk calculation.
+The Add to SRI column now shows for that KRI, indicating that the KRI is included in RBQM's site risk calculation in upcoming data refreshes. 
+- To remove the KRI from RBQM's site risk calculation, click in the corresponding row of the KRI you want to remove from RBQM's site risk calculation.
+The Add to SRI column now shows for that KRI, indicating that the KRI will not be included in RBQM's site risk calculation in upcoming data refreshes.
+ Note : You cannot remove system KRIs from RBQM's site risk calculation.

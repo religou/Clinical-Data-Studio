@@ -1,0 +1,24 @@
+# KRI and QTL Configuration Updates
+
+## KRI and QTL Configuration Updates
+## What Is New?
+- The  "Updated by" field now includes ellipses for lengthier user names in the KRI and QTL Configuration modules. 
+- You can sort the the Add to SRI column on the KRI Configuration page. 
+## What Is the Impact?
+ None.
+## Users/Roles
+ All the KRI and QTL Configuration users.
+## Workflow Process
+ None.
+## Other Applications
+ None
+## How Do I Benefit?
+ Better user name visibility.
+## Where Do I See the Change?
+ Home page of KRI and QTL Configuration modules.
+## Where Do I Learn More?
+ The Detect Knowledge Space provides new and updated content to support this feature/enhancement: 
+- View, Filter, and Sort the KRI Configurations List 
+- View and Sort the Quality Tolerance Limits List 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

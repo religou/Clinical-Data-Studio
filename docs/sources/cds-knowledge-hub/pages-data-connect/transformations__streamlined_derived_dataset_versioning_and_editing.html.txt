@@ -1,0 +1,23 @@
+# Transformations: Streamlined Derived Dataset Versioning and Editing
+
+## Transformations: Streamlined Derived Dataset Versioning and Editing
+## What Is New?
+ While configuring and using derived datasets:
+- Data Connect now automatically flags datasets with updated dataset versions from the data lineage page. You can upgrade the dataset from that page instead creating another project.  
+- You can now also edit field mapping for derived dataset projects and templates. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ You can now upgrade dataset versions within the affected project instead of creating another project.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ You can upgrade outdated datasets instead creating multiple projects to accommodate version changes. With the new remapping functionality, you can adjust any dataset mapping that require updates after the upgrading process occurs.
+## Where Do I See the Change?
+ You can now upgrade from a derived datasets project's data lineage page. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Upgrade Datasets to Latest Version (new) 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

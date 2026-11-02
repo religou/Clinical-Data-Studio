@@ -1,0 +1,24 @@
+# RBQM Configuration: Patient Profile Designs With No Flags Unavailable For Signal Configuration
+
+## RBQM Configuration: Patient Profile Designs With No Flags Unavailable For Signal Configuration
+## What Is New?
+ When setting up thresholds and enabling modules, if you select a patient profile design with no flags set, or if all flags have been configured, then you cannot map signals for the patient profile design.
+## What Is the Impact?
+## Users/Roles
+- Central Monitors, Clinical Research Associates (CRAs) 
+- Users with View Detect CSM Configuration and Manage Detect CSM Configuration building blocks added to their Cloud Administration profile. 
+## Workflow Process
+ No change to the workflow process.
+## Other Applications
+ Patient Profiles
+## How Do I Benefit?
+ Central monitors can ensure that only patient profile designs with relevant flags associated appear in the list of modules to configure, and can easily select profile designs for which they want to configure signals.
+## Where Do I See the Change?
+ In RBQM > RBQM Configuration > Signal Configuration > Patient Profiles module, if you select a profile design with no flags associated or if all flags are already configured, a message indicates that no flags are available.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Signal Configuration 
+ What Else Should I Know? 
+- Only users with View Detect CSM Configuration building blocks added to their Cloud Administration profiles can view and download custom configurations. Users with Manage CSM Detect Configuration can add, edit, or delete custom configurations. 
+- Custom configuration changes made after 6:00 AM EST do not show in the automated signals report until the next day.  
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

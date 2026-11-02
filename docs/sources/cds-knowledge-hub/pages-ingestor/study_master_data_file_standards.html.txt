@@ -1,0 +1,1129 @@
+# Study Master Data File Standards
+
+## Study Master Data File Standards
+ To ensure the successful import of Study Level Master Data files to Ingestor, the files must follow specific file name and format conventions. The imported data corresponds to various Cloud Administration fields, and you can confirm the data changes in Cloud Administration.
+## General File Considerations
+- Uploaded files must be in the comma-separated value (CSV) file format.
+- Files containing empty data cause the import process to fail. 
+- Any OID identifier referenced in these files must comply with the following rules: 
+- Uppercase alphanumeric text only. 
+- No spaces. 
+- The OID must begin with an alphabetical character. 
+- Underscores can appear in an OID, but not as the first character. 
+## File Name Standards
+ The file names for your imported files must contain a Char denoting which data set  the imported file corresponds to.
+ Tip : For files you can use as a model and starting point, see  Starter Import Files . 
+ Data Set Type 
+ Usage 
+ Required Char in File Name 
+ | Client Division Organization with Addresses 
+ | 
+ Create and add multiple client division organizations (CDO) to your client division.
+ | CDOwithAddresses 
+ | Client Division People with Addresses 
+ | 
+ Create and add multiple people to your client division.
+ | CDPWithAddresses 
+ | Study Environment Sites with Addresses 
+ | 
+ Create and add multiple study environment sites to your client division.
+ | StudyEnvironmentSiteWithAddresses 
+ | Team Membership Details 
+ | 
+ Create or update team membership for  client division people at the study environment level.
+ | TeamMembershipDetails 
+ | Team Member Contact Details 
+ | 
+ Create or update team member contact information for your client division.
+ | TeamMemberContactDetails 
+ Note : The required Char is case-insensitive, and you can prefix or append alphanumeric characters to the Char by separating the added text with underscores. For example, when uploading a file corresponding to the Client Division Organization with Addresses data set type, the file name must contain "CDOwithAddresses". Therefore, Ingestor accepts or rejects the following example file names:
+- Valid File Names
+- CDOwithAddresses_20210604.csv 
+- Cdowithadddresses.csv 
+- SponsorA_cdoWithAddresses.csv 
+- Invalid File Names 
+- CODwidthaddreses.csv
+- CDwithaddresses.csv
+## File Structure Standards
+ Uploaded files must follow a specific file structure:
+- Your files must include all listed column headers, but optional columns can include empty data. 
+- Header records must be on the first row of each metadata file, and must the values specified in the below table's Column Header. 
+- Headers with noted acceptance values must contain one or more of the listed values.   
+- If a Char-based value contains a comma in the Char, you must enclose the entire value in quotations. For example: “Congo, Democratic Republic of“. 
+ Tip : Click image to expand.
+## Client Division Organizations with Addresses
+ Note :  When importing files containing Client Division Organization with Addresses data, you can only create a client division organization with one Main address. 
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Description 
+ Attribute Type 
+ Data Type 
+ Length 
+ Content Expectations / Validations 
+ | Organization Name 
+ | The organization’s official name.
+ | Required 
+ | String 
+ | 255 
+ | None. 
+ | Organization Common Name (optional) 
+ | The organization’s common name.
+ | Optional 
+ | String 
+ | 255 
+ | None. 
+ | Organization Types 
+ | The organization's type.
+ | Required 
+ | String 
+ | N/A 
+ | You can provide multiple values by separating each value with a pipe delimiter in the CSV, for example: Academic Institution|Healthcare Facility.
+ Acceptable Values :
+- Financial Institution 
+- IRB IEC 
+- Health Care Facility 
+- Regulatory Authority 
+- CRO 
+- Pharmaceutical Company 
+- Medical Devices Company 
+- Diagnostics Company 
+- Biotech 
+- Academic Institution 
+- Medical Laboratory 
+- Other 
+ | Client Division Organization ID 
+ | The organization’s unique identification number.
+ | Optional 
+ | String 
+ | 255 
+ | None. 
+ | Parent Organization (optional) 
+ | The organization’s parent organization.
+ | Optional 
+ | String 
+ | 255 
+ | Must contain the parent organization's Client Division Organization ID.
+ | Is Phone Primary 
+ | Denotes if the organization’s phone number is its primary phone number.
+ | Conditional 
+ | String
+ | N/A 
+ | 
+ Must be one of the following:
+- True 
+- False 
+ Each organization must have at least one primary phone number.
+ | Phone (optional) 
+ | The organization's phone number. 
+ | Optional 
+ | String 
+ | N/A 
+ | If you enter a value in this field, then you must also enter a corresponding value to the "In Phone Primary" field.
+ | Phone Type 
+ | The phone number's type.
+ | Optional 
+ | String 
+ | N/A 
+ | Must be one of the following:
+- Business 
+- Fax 
+- Other 
+ If you leave this field empty, Ingestor sets this field to Business.
+ | Is Email Primary 
+ | Denotes if the organization’s email address is its primary email address. 
+ | Conditional 
+ | String
+ | N/A 
+ | Must be one of the following:
+- True 
+- False 
+ Each organization must have at least one primary email address.
+ | Email (optional) 
+ | The organization's email address. 
+ | Optional 
+ | String
+ | N/A 
+ | Must be a valid email address, for example:  characters@website.com 
+ | Email Type 
+ | The email address's type.
+ | Optional 
+ | String 
+ | N/A 
+ | Must be one of the following:
+- Business 
+- Other 
+ If you leave this field empty, Ingestor sets this field to Business.
+ | Address Types 
+ | The organization's address category.
+ | Required 
+ | String 
+ | N/A 
+ | Acceptable Values :
+- Main 
+- Other 
+- Finance Billing 
+- Laboratory 
+- Pharmacy 
+- Drug/Device Shipping 
+- Satellite Site 
+ You can specify multiple types for a given organization by separating the values with a pipe delimiter. For example: Main|Finance Billing.
+ If you leave this field empty, then Ingestor sets this field to Main.
+ | Country 
+ | The organization's country.
+ | Required 
+ | String 
+ | N/A 
+ | Must be an exact match to the country value in Cloud Administration.
+ For acceptable values, see the Internal Organization for Standardization's (ISO) Country Codes Collection .
+ | Address 1 
+ | The first field of the organization’s physical address.
+ | Required 
+ | String 
+ | 255 
+ | None. 
+ | Address 2 (optional) 
+ | The second field of the organization’s physical address.
+ | Optional 
+ | String 
+ | 255 
+ | None. 
+ | City 
+ | The organization’s city.
+ | Required 
+ | String 
+ | 255 
+ | None. 
+ | State/Region 
+ | A conditional field denoting the organization's state or region.
+ | Conditional 
+ | String 
+ | N/A 
+ | You must enter a state or region if the organization's Country is one of the following:
+- Australia 
+- Canada 
+- China 
+- Japan 
+- Russian Federation 
+- South Korea 
+- United States 
+ Must be an exact match to one of the State/Region values available in Cloud Administration for that country. For acceptable values, see the corresponding country's ISO State or Region codes . 
+ | Postal Code 
+ | The organization’s postal code.
+ | Required 
+ | String 
+ | 20 
+ | None. 
+## Client Division People with Addresses
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Description 
+ Attribute Type 
+ Data Type 
+ Length 
+ Content Expectations / Validations 
+ | Email 
+ | The person's email address. 
+ | Required 
+ | String
+ | N/A 
+ | 
+ Must be an alphanumeric email address. If not, Ingestor shows the following error message: "Email is in invalid format."
+ Note : When creating a client division person, Ingestor sets the person's Email Type to "Work", and sets the email as the person's primary email.
+ | Title (optional) 
+ | The person's title. 
+ | Optional 
+ | String 
+ | N/A 
+ | Must be one of the following:
+- Mr. 
+- Mrs. 
+- Ms. 
+- Dr. 
+- Prof. 
+ | First Name 
+ | The person's first name. 
+ | Required 
+ | String 
+ | 255 
+ | None. 
+ | Middle Name (optional) 
+ | The person's middle name. 
+ | Optional 
+ | String 
+ | 255 
+ | None. 
+ | Last Name 
+ | The person's surname. 
+ | Required 
+ | String 
+ | N/A 
+ | None. 
+ | Type 
+ | The person's type. 
+ | Required 
+ | String 
+ | N/A 
+ | Must be one of the following:
+- Internal 
+- External 
+ | Person ID (optional) 
+ | The person's user-entered unique identifier. 
+ | Optional 
+ | String 
+ | 36 
+ | Must be unique within the client division.
+ | Job Title (optional) 
+ | The person's job title. 
+ | Optional 
+ | String 
+ | 100 
+ | None. 
+ | Organizations (optional) 
+ | A list of the person's client division organizations. 
+ | Optional 
+ | String 
+ | N/A 
+ | You can provide multiple values by separating each value with a pipe delimiter in the CSV, for example: Medi University|Southeast Medical Facility. 
+ | Is Phone Primary 
+ | Denotes if the value in the Phone field is the person's primary phone number. 
+ | Conditional 
+ | True/False String 
+ | N/A 
+ | 
+ Must be one of the following:
+- True 
+- False 
+ Required if you entered a value in the Phone field.
+ If this field corresponds to a new person record, then both the Is Phone Primary field must be "True" and the Phone field must have data.
+ | Phone (optional) 
+ | The persona's phone number. You can add phone numbers or update existing phone numbers. 
+ | Optional 
+ | String 
+ | N/A 
+ | 
+ There are no expected values for this field. 
+ Required when at least one of the following conditions is true:
+- You entered a value in the Phone Type field. 
+- You entered "True" in the Is Phone Primary field. 
+ If this field corresponds to a new person record, then both the Is Phone Primary field must be "True" and the Phone field must have data.
+ | Phone Type 
+ | The person's phone number type. 
+ | Conditional 
+ | String 
+ | N/A 
+ | Must be one of the following:
+- Work 
+- Home 
+- Mobile 
+- Fax 
+- Other 
+ Required if you entered a value in the Phone field.
+ | Is Email Primary 
+ | Denotes if the value in the Email field is the person's primary phone number. 
+ | Conditional 
+ | String
+ | N/A 
+ | Must be one of the following:
+- True 
+- False 
+ Required if you entered a value in the Email field.
+ | Email (optional) 
+ | The person's phone number. You can add email addresses or update existing email address. 
+ | Optional 
+ | String 
+ | N/A 
+ | 
+ Must be a valid alphanumeric email address.
+ Required when at least one of the following conditions is true:
+- You entered a value in the Email Type field. 
+- You entered "True" in the Is Email Primary field. 
+ | Email Type 
+ | The person's email address type. 
+ | Conditional 
+ | String 
+ | N/A 
+ | Must be one of the following:
+- Work 
+- Personal 
+- Other 
+ Required if you entered a value in the Email field.
+ | Address Types 
+ | The person's physical address type.
+ | Required 
+ | String 
+ | N/A 
+ | 
+ Must be one of the following:
+- Main 
+- Office 
+- Personal/Home 
+ You can provide multiple values by separating each value with a pipe delimiter in the CSV, for example: address1@domain.com|address2@domain.com 
+ If this field corresponds to the first row of a new person record, then you must enter "Main".
+ | Country 
+ | The country of the person's physical address. 
+ | Required 
+ | String 
+ | N/A 
+ | None. This is a free text field.  
+ | Address 1 
+ | The first field of the person's physical address. 
+ | Required 
+ | String 
+ | N/A 
+ | None. This is a free text field.  
+ | Address 2 (optional) 
+ | The second field of the person's physical address. 
+ | Optional 
+ | String 
+ | N/A 
+ | None. This is a free text field.  
+ | City 
+ | The city of the person's physical address. 
+ | Required 
+ | String 
+ | N/A 
+ | None. This is a free text field.  
+ | State/Region 
+ | The country's subregion of the person's physical address.  
+ | Conditional 
+ | String 
+ | N/A 
+ | Must be a valid subregion for the country. 
+ Required if the Country is one of the following:
+- Australia 
+- Canada 
+- China 
+- Japan 
+- Russian Federation 
+- South Korea 
+- United States 
+ | Postal Code 
+ | The postal code of the person's physical address. 
+ | Required 
+ | String 
+ | N/A 
+ | None. This is a free text field. 
+## Study Environment Sites with Addresses
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Description 
+ Attribute Type 
+ Data Type 
+ Length 
+ Content Expectations / Validations 
+ | Study Name 
+ | The associated study name as it appears in Cloud Administration. 
+ | Required 
+ | String 
+ | N/A 
+ | When creating a site record, this field must match an existing study within the client division.
+ When updating a site record, you cannot use this field to edit the study name.
+ | Site Name 
+ | The associated site name as it appears in Cloud Administration. 
+ | Conditional 
+ | String 
+ | 255 
+ | Only required when there is no existing client division organization(CDO) record associated with the site. Ingestor ignores this field for sites with existing CDO records. When Ingestor processes the CDO, the site name serves as both the site name and legal name for the created CDO.
+ When creating a CDO record, this field must match an existing study within the client division.
+ When updating a CDO record, you cannot use this field to edit the site name.
+ | Client Division Organization ID 
+ | The client division organization’s unique identification number (CDO ID). 
+ | Required 
+ | String 
+ | 255 
+ | Only required when there is no existing client division organization (CDO) record associated with the site. Ingestor ignores this field for existing CDOs. When Ingestor processes the CDO, the site name serves as both the site name and legal name for the created CDO.
+ When creating a CDO record:
+- If this entry matches an existing CDO ID, then Ingestor:
+- Applies the CDO's Legal Name to the Site Name. 
+- Uses the CDO's Main Address as the site's Mail Address. 
+- If this entry does not match an existing CDO ID record, then Ingestor creates a CDO with a new Site while using the COD's Legal Name as the Site Name and links the CDO ID to the new site. 
+ When updating a CDO record, you cannot use this field to edit the COD ID.
+ | Study Site Number
+ | The unique number of the study environment site. 
+ | Required 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for existing site records. 
+ | Study Environment Name
+ | 
+ The associated study environment name as it appears in Cloud Administration. 
+ | Required 
+ | String 
+ | N/A 
+ | 
+ Must be one of the following:
+- Production 
+- Development 
+- Functional Testing 
+- Interactive Verification 
+- User Acceptance Testing 
+- Training 
+ Note : Currently, Ingestor only supports standard, non-custom study environments.  
+ | Country 
+ | The country of the study site's address.
+ | Conditional
+ | String 
+ | N/A 
+ | Only required under at least one of the following conditions:
+- There is no existing client division organization (CDO) associated with the site. 
+- You entered data in one of the other address fields. 
+ Ingestor ignores this field for existing CDOs.
+ When creating a CDO record:
+- Ingestor s ets the CDO's Main address as the associated Site's Main address. 
+- If the address in this field does not correspond to a Main address, then Ingestor considers the address as an alternative address. Alternative addresses must have an Address Type other than Main, and must be unique compared to the Main address. 
+- If this address corresponds to Main address, then the address must exactly match an existing Main address as it appears in the Medidata platform. Failure to do so results in the error: "Main address does not match CDO Main address. 
+- If the Site address exactly matches any of the parent CDO's alternative addresses, then Ingestor links the address between the CDO and the site, and adds the address to the CDO. 
+ When updating a CDO record: 
+- You can add addresses. 
+- You can also add or remove addresses' address types. Address edits are unique to the site – the CDO does not change. You cannot change the Main address from Ingestor. 
+ | Address 1 
+ | The first field of the study site's address.
+ | Conditional
+ | String 
+ | N/A 
+ | Only required under at least one of the following conditions:
+- There is no existing client division organization (CDO) associated with the site. 
+- You entered data in one of the other address fields. 
+ Ingestor ignores this field for existing CDOs.
+ When creating a CDO record:
+- Ingestor s ets the CDO's Main address as the associated Site's Main address. 
+- If the address in this field does not correspond to a Main address, then Ingestor considers the address as an alternative address. Alternative addresses must have an Address Type other than Main, and must be unique compared to the Main address. 
+- If this address corresponds to Main address, then the address must exactly match an existing Main address as it appears in the Medidata platform. Failure to do so results in the error: "Main address does not match CDO Main address. 
+- If the Site address exactly matches any of the parent CDO's alternative addresses, then Ingestor links the address between the CDO and the site, and adds the address to the CDO. 
+ When updating a CDO record: 
+- You can add addresses. 
+- You can also add or remove addresses' address types. Address edits are unique to the site – the CDO does not change. You cannot change the Main address from Ingestor. 
+ | Address 2 (optional) 
+ | The second field of the study site's address.
+ | Optional 
+ | String 
+ | N/A 
+ | Only required under at least one of the following conditions:
+- There is no existing client division organization (CDO) associated with the site. 
+- You entered data in one of the other address fields. 
+ Ingestor ignores this field for existing CDOs.
+ When creating a CDO record:
+- Ingestor s ets the CDO's Main address as the associated Site's Main address. 
+- If the address in this field does not correspond to a Main address, then Ingestor considers the address as an alternative address. Alternative addresses must have an Address Type other than Main, and must be unique compared to the Main address. 
+- If this address corresponds to Main address, then the address must exactly match an existing Main address as it appears in the Medidata platform. Failure to do so results in the error: "Main address does not match CDO Main address. 
+- If the Site address exactly matches any of the parent CDO's alternative addresses, then Ingestor links the address between the CDO and the site, and adds the address to the CDO. 
+ When updating a CDO record: 
+- You can add addresses. 
+- You can also add or remove addresses' address types. Address edits are unique to the site – the CDO does not change. You cannot change the Main address from Ingestor. 
+ | City 
+ | The city of the study site's address. 
+ | Conditional
+ | String 
+ | N/A 
+ | Only required under at least one of the following conditions:
+- There is no existing client division organization (CDO) associated with the site. 
+- You entered data in one of the other address fields. 
+ Ingestor ignores this field for existing CDOs.
+ When creating a CDO record:
+- Ingestor s ets the CDO's Main address as the associated Site's Main address. 
+- If the address in this field does not correspond to a Main address, then Ingestor considers the address as an alternative address. Alternative addresses must have an Address Type other than Main, and must be unique compared to the Main address. 
+- If this address corresponds to Main address, then the address must exactly match an existing Main address as it appears in the Medidata platform. Failure to do so results in the error: "Main address does not match CDO Main address. 
+- If the Site address exactly matches any of the parent CDO's alternative addresses, then Ingestor links the address between the CDO and the site, and adds the address to the CDO. 
+ When updating a CDO record: 
+- You can add addresses. 
+- You can also add or remove addresses' address types. Address edits are unique to the site – the CDO does not change. You cannot change the Main address from Ingestor. 
+ | State/Region 
+ | The state or region of the study site's address.
+ | Conditional
+ | String 
+ | N/A 
+ | Only required under at least one of the following conditions:
+- There is no existing client division organization (CDO) associated with the site. 
+- You entered data in one of the other address fields. 
+ Ingestor ignores this field for existing CDOs.
+ When creating a CDO record:
+- Ingestor s ets the CDO's Main address as the associated Site's Main address. 
+- If the address in this field does not correspond to a Main address, then Ingestor considers the address as an alternative address. Alternative addresses must have an Address Type other than Main, and must be unique compared to the Main address. 
+- If this address corresponds to Main address, then the address must exactly match an existing Main address as it appears in the Medidata platform. Failure to do so results in the error: "Main address does not match CDO Main address. 
+- If the Site address exactly matches any of the parent CDO's alternative addresses, then Ingestor links the address between the CDO and the site, and adds the address to the CDO. 
+ When updating a CDO record: 
+- You can add addresses. 
+- You can also add or remove addresses' address types. Address edits are unique to the site – the CDO does not change. You cannot change the Main address from Ingestor. 
+ | Postal Code 
+ | The postal code of the study site's address.
+ | Conditional
+ | String 
+ | N/A 
+ | Only required under at least one of the following conditions:
+- There is no existing client division organization (CDO) associated with the site. 
+- You entered data in one of the other address fields. 
+ Ingestor ignores this field for existing CDOs.
+ When creating a CDO record:
+- Ingestor s ets the CDO's Main address as the associated Site's Main address. 
+- If the address in this field does not correspond to a Main address, then Ingestor considers the address as an alternative address. Alternative addresses must have an Address Type other than Main, and must be unique compared to the Main address. 
+- If this address corresponds to Main address, then the address must exactly match an existing Main address as it appears in the Medidata platform. Failure to do so results in the error: "Main address does not match CDO Main address. 
+- If the Site address exactly matches any of the parent CDO's alternative addresses, then Ingestor links the address between the CDO and the site, and adds the address to the CDO. 
+ When updating a CDO record: 
+- You can add addresses. 
+- You can also add or remove addresses' address types. Address edits are unique to the site – the CDO does not change. You cannot change the Main address from Ingestor. 
+ | Address Types 
+ | The study site address's type.
+ | Conditional
+ | String 
+ | N/A 
+ | Only required under at least one of the following conditions:
+- There is no existing client division organization (CDO) associated with the site. 
+- You entered data in one of the other address fields. 
+ Ingestor ignores this field for existing CDOs.
+ Must be one of the following:
+- Main 
+- Drug/Device Shipping 
+- Finance Billing 
+- General Shipping Location 
+- Laboratory 
+- Laboratory Supply Location 
+- Other 
+- PI Location 
+- Pharmacy 
+- Satellite Site 
+- Study Coordinator Location 
+- Sub Investigator Location 
+ When creating a site record:
+- If the site's address exactly matches the parent CDO's Main address, then the site address's type must be Main. 
+-  If the site's address does not exactly match the parent CDO's Main address, then the site address's type must be a type other than Main. 
+- If the site address's type does not exist in the parent CDO's records, then Ingestor sets the corresponding parent CDO's site address type to "Other".  
+ When updating a site record, you can add or remove one or more non-Main  addresses. However, the changes to the site record do not sync with the CDO record.
+ | PI Email Address (optional) 
+ | 
+ The email address of the  Prinicipal Investigator (PI) associated with the study site.
+ | Optional 
+ | String 
+ | N/A 
+ | Must be a valid alphanumeric email address linked to an existing Cloud Administration user. 
+## Team Membership Details
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Description 
+ Attribute Type 
+ Data Type 
+ Length 
+ Content Expectations / Validation 
+ | Study Name 
+ | The associated study name as it appears in Cloud Administration. 
+ | Required 
+ | String 
+ | 100 
+ | None. 
+ | Study Environment Name
+ | The associated study environment name as it appears in Cloud Administration. 
+ | Required 
+ | String 
+ | N/A 
+ | 
+ Must exactly match the parent study environment's name for the given study name.
+ | Team 
+ | The team membership's context level. 
+ | Required 
+ | String 
+ | N/A 
+ | Must exactly match one of the following:
+- Study 
+- Country 
+- Site 
+ | Team Name 
+ | The team's name. 
+ | Required 
+ | String 
+ | N/A 
+ | Must exactly match the team's name as it appears in Cloud Administration, for example:
+- Study level – "[Study Name]" 
+- Country level – "United Kingdom" 
+- Site level – "[Site Name]" 
+ | Team Type 
+ | The team's type. 
+ | Required 
+ | String 
+ | N/A 
+ | Must exactly match one of the following:
+- Internal 
+- External 
+ For site level teams, must be External.
+ | Role in Study 
+ | The team member's role within the study. 
+ | Required 
+ | String 
+ | N/A 
+ | Must be one of the following:
+- Auditor (External) 
+- Auditor (Internal) 
+- Biostatistician 
+- Biostatistics Programmer 
+- Central Monitor 
+- Clinical Pharmacologist 
+- Clinical Program Director 
+- Clinical Quality Manager 
+- Clinical Research Associate 
+- Clinical Research Coordinator 
+- Clinical Research Scientist 
+- Clinical Study Manager 
+- Clinical Supply Coordinator 
+- Clinical Trial Associate 
+- Contract Manager 
+- Country Manager 
+- Data Manager 
+- eCRF Builder 
+- EDC Study Builder 
+- Lead CRA 
+- Lead Product Safety Physician 
+- Legal Contact 
+- Medical Coder 
+- Medical Monitor 
+- Medical Writer 
+- Nurse 
+- Operational Excellence (OE)/Process Improvement/Benchmarking, 
+- Participant 
+- Pharmacist 
+- Pharmacy Technician 
+- Principal Investigator 
+- Project Manager 
+- R&D Senior Management 
+- Regulatory Coordinator 
+- Safety-Country Level 
+- Safety Specialist 
+- Shipper 
+- Site Lab Personnel 
+- Site Research Staff 
+- Site Safety Coordinator 
+- Study Finance Specialist 
+- Study Manager 
+- Study Trainer 
+- Sub Investigator 
+- Technology Administrator 
+- Technology Developer 
+ | Primary in Role 
+ | Denotes if the role is the team member's primary role. 
+ | Required 
+ | String
+ | N/A 
+ | Must be one of the following:
+- True 
+- False 
+ | Start Date 
+ | The team member's membership start date. 
+ | Required 
+ | String 
+ | N/A 
+ | Ingestor accepts any of the following formats:
+- yyyy-mm-dd 
+- dd-MMM-yyyy 
+ | End Date 
+ | The team member's membership end date.  
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor accepts any of the following formats:
+- yyyy-mm-dd 
+- dd-MMM-yyyy 
+ You can also enter "Present" for memberships without an end date.
+ | Primary Email 
+ | The team member's primary email address. 
+ | Required 
+ | String 
+ | N/A 
+ | Must be a valid email address.
+ Cloud Administration uses the value of this field for Person lookup operations.  
+ | Title 
+ | The team member's title. 
+ | Optional 
+ | String 
+ | N/A 
+ | Can be one of the following:
+- Mr. 
+- Ms. 
+- Mrs. 
+- Dr. 
+- Prof. 
+ Ingestor ignores this field for existing client division people. Cloud Administration uses the value of this field for Person lookup operations.  
+ | First Name 
+ | The team member's first name. 
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for existing client division people. Cloud Administration uses the value of this field for Person lookup operations. 
+ | Middle Name 
+ | The team member's middle name. 
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for existing client division people. Cloud Administration uses the value of this field for Person lookup operations. 
+ | Last Name 
+ | The team member's surname. 
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for existing client division people. Cloud Administration uses the value of this field for Person lookup operations. 
+ | Person Type 
+ | The team member's Cloud Administration Person type. 
+ | Optional 
+ | String 
+ | N/A 
+ | Can be one of the following:
+- Internal 
+- External 
+ Ingestor ignores this field for existing client division people. Cloud Administration uses the value of this field for Person lookup operations.
+ | Client Division Person ID
+ | The team member's Client Division Person identification number. 
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for existing client division people. Cloud Administration uses the value of this field for Person lookup operations. 
+ | Address 1 
+ | The first field of the team member's physical address. 
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for existing client division people. Cloud Administration uses the value of this field for Person lookup operations.
+ You cannot add addresses with the Team Membership Details data file.
+ | Address 2 
+ | The second field of the team member's physical address. 
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for existing client division people. Cloud Administration uses the value of this field for Person lookup operations.
+ You cannot add addresses with the Team Membership Details data file.
+ | City 
+ | The city of the team member's physical address. 
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for existing client division people. Cloud Administration uses the value of this field for Person lookup operations.
+ You cannot add addresses with the Team Membership Details data file.
+ | Country 
+ | The country of the team member's physical address. 
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for existing client division people. Cloud Administration uses the value of this field for Person lookup operations.
+ You cannot add addresses with the Team Membership Details data file.
+ | State/Province 
+ | The state or province of the team member's physical address. 
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for existing client division people. Cloud Administration uses the value of this field for Person lookup operations.
+ You cannot add addresses with the Team Membership Details data file.
+ | Postal Code 
+ | The postal code of the team member's physical address. 
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for existing client division people. Cloud Administration uses the value of this field for Person lookup operations.
+ You cannot add addresses with the Team Membership Details data file.
+ | Address Types 
+ | The address type of the team member's physical address. 
+ | Optional 
+ | String 
+ | N/A 
+ | Can be one of the following:
+- Main 
+- Office 
+- Personal/Home 
+- Safety Notifications 
+ Ingestor ignores this field for existing client division people. Cloud Administration uses the value of this field for Person lookup operations.
+ You cannot add addresses with the Team Membership Details data file.
+ | Primary Phone 
+ | The team member's primary phone number. 
+ | Optional 
+ | String 
+ | N/A 
+ | The Medidata platform considers the value entered here as the team member's primary phone contact. 
+## Team Member Contact Details
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Description 
+ Attribute Type 
+ Data Type 
+ Length 
+ Content Expectations / Validations 
+ | Study Name 
+ | The associated study name as it appears in Cloud Administration. 
+ | Required 
+ | String 
+ | N/A 
+ | Must match an existing study name. 
+ | Study Environment Name
+ | The associated study environment name as it appears in Cloud Administration. 
+ | Required 
+ | String 
+ | N/A 
+ | Must be one of the following:
+- Production 
+- Development 
+- User Acceptance Testing 
+- Training 
+- Functional Testing 
+- Interactive Verification 
+ | Primary Email 
+ | The team member's primary email address. 
+ | Required 
+ | String 
+ | N/A 
+ | Must be a valid email address.
+ When processed, this email uses the client division person's (CDP) Primary email type at the CDP level.
+ | Title 
+ | The team member's title. 
+ | Optional 
+ | String 
+ | N/A 
+ | Can be one of the following:
+- Mr. 
+- Ms. 
+- Mrs. 
+- Dr. 
+- Prof. 
+ Ingestor ignores this field for sites with existing CDP records.
+ | First Name 
+ | The team member's first name. 
+ | Conditional 
+ | String 
+ | 255 max 
+ | Only required when There is no existing client division person (CDP) record associated with the team member. Ingestor ignores this field for sites with existing CDP records.
+ Ingestor ignores this field for existing CDP records.
+ | Middle Name 
+ | The team member's middle name. 
+ | Optional 
+ | String 
+ | 255 max 
+ | Ingestor ignores this field for sites with existing CDP records. 
+ | Last Name 
+ | The team member's surname. 
+ | Conditional 
+ | String 
+ | 255 max 
+ | Only required when There is no existing client division person (CDP) record associated with the team member. Ingestor ignores this field for sites with existing CDP records.
+ Ingestor ignores this field for existing CDP records.
+ | Person Type 
+ | The team member's Cloud Administration Person type. 
+ | Required 
+ | String, only 'Internal' or 'External'
+ | N/A 
+ | 
+ Must be one of the following:
+- Internal 
+- External 
+ Ingestor ignores this field for sites with existing client division person (CDP) records.
+ Note : Once created, you cannot change a CDP's Person Type. In addition, an internal CDP cannot also be an external study environment person (SEP).
+ | Client Division Person ID
+ | The team member's Client Division Person identification number. 
+ | Optional 
+ | String 
+ | 36 
+ | Ingestor ignores this field for sites with existing client division person (CDP) records. 
+ | Address 1 
+ | The first field of the team member's physical address. 
+ | Required 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for sites with existing client division person (CDP) records. 
+ | Address 2 
+ | The second field of the team member's physical address. 
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for sites with existing client division person (CDP) records. 
+ | City 
+ | The city of the team member's physical address. 
+ | Required 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for sites with existing client division person (CDP) records. 
+ | State/Province 
+ | The state or province of the team member's physical address. 
+ | Conditional 
+ | String 
+ | N/A 
+ | Only required if you entered one of the following in the Country field:
+- Australia 
+- Canada 
+- China 
+- Japan 
+- Russian Federation 
+- South Korea 
+- United States 
+ Ingestor ignores this field for existing CDP records.
+ | Country 
+ | The country of the team member's physical address. 
+ | Required 
+ | String 
+ | N/A 
+ | You can enter either:
+- The country's 3-character ISO country code. 
+- The country's full name as it appears in Cloud Administration. 
+ Ingestor ignores this field for sites with existing client division person (CDP) records.
+ | Postal Code 
+ | The postal code of the team member's physical address. 
+ | Required 
+ | String 
+ | N/A 
+ | Ingestor ignores this field for sites with existing client division person (CDP) records. 
+ | Address Types 
+ | The address type of the team member's physical address. 
+ | Required 
+ | String 
+ | N/A 
+ | Must be one of the following:
+- Main 
+- Other 
+- Personal/Home 
+- Office 
+- Safety Notifications 
+ You can enter multiple addresses by separating each address with a pipe delimiter '|', for example: Personal/Home|Office 
+ Ingestor ignores this field for sites with existing client division person (CDP) records.
+ While creating CDP records, the Medidata platform considers all entered addresses as Main addresses.
+ When updating CDP records, you can add or remove non-Main addresses.
+ | Primary Phone 
+ | The team member's primary phone number. 
+ | Required 
+ | String 
+ | N/A 
+ | 
+ The Medidata platform marks the value entered here as the primary phone number and retains whatever uses type that appears at the client division person (CDP) level.
+ Note : A CDP's primary phone can differ between the CDP and study environment person (SEP) levels, but the phone number must exist at the CDP level.
+ | Other Phones 
+ | The team member's alternative phone numbers. 
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor processes all phone numbers entered into this field as non-primary. 
+ You can enter phone numbers in one of the following formats:
+- Phone Number only – The phone number only, such as 07956463607 . 
+- Phone Number with Usage Type – The phone number with the user usage type, such as Home::23459875023. While optional, you can enter the phone numbers' usage type by adding two colons '::' before the phone number. 
+ You can enter multiple phone numbers by separating each number with a pipe delimiter '|', for example:
+- Phone Number only – 07956463607|23459875023 
+- Phone Number with Usage Type – Fax::+44 (097) 40393-82|Mobile::07956463607|Home::23459875023 
+ If you do not specify usage types the Medidata platform attempts to link the phone number with a type based on what appears in the CDP record.
+ You cannot set a phone number as both a primary phone number and an alternative phone number at the same time.
+ | Other Emails 
+ | The team member's alternative email addresses. 
+ | Optional 
+ | String 
+ | N/A 
+ | Ingestor processes all email addresses entered into this field as non-primary.
+ You can enter email addresses in one of the following formats:
+- Email Address only – The email address only, such as emails@internet.com . 
+- Email Address with Usage Type – The email address with the user usage type, such as Personal::anemail@website.net . While optional, you can enter the phone numbers' usage type by adding two colons '::' before the phone number. 
+ You can enter multiple phone numbers by separating each number with a pipe delimiter '|', for example:
+- Email Address only – anemail@website.net|emails@internet.com 
+- Email Address with Usage Type – Personal::anemail@website.net|Other::emails@internet.com 
+ If you do not specify usage types the Medidata platform attempts to link the email address with a type based on what appears in the CDP record.
+ You cannot set a phone number as both an email address and an alternative email address at the same time.

@@ -1,0 +1,20 @@
+# Derived Variables - Check All That Apply
+
+## Derived Variables - Check All That Apply
+## Description
+ You can now create the Check all that Apply data set variable. With the Check all that Apply derived variable, you can concatenate multiple Boolean data set variables.  For example, you can concatenate "race and ethnicity" variables to create a single text variable that is a combination of race and ethnicity. 
+## Affected Roles
+ All roles with the Manage Derived Variables building block. 
+## Advantages
+ With the Check all that Apply option, you can configure derived variables to see the data you need and take appropriate action. For more details, see Description. 
+## User Impact
+ You can find the Check all that Apply option in the Derived Variable > Create Derived Variable > Derived Variable Type menu. To build a single concatenated text variable, you must select a combination of Boolean variables from Derived Variable > Data Sets tab and operators from the Derived Variables > Operators tab.  
+ While using the  Check all that Apply  workflow:  
+- You can select a concatenation separator. The default separator is a comma (,). The text entered in the Prefix field only appears once at the beginning of the derived variable. Likewise, the text entered in the Suffix field only appears once at the end of the derived variable.  
+- You can drag only Boolean data set variables from the data set. 
+ The concatenated string appears with labels separated by the specified separator. Labels appear only if Boolean values for a variable are non-null. 
+## Knowledge Space Updates
+ The following article has been created in the MEDS Data Viewer Knowledge Space to support this feature: 
+- Create Derived Variable with Check All That Apply 
+## Special Considerations
+ None.

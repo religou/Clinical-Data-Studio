@@ -1,0 +1,20 @@
+# Improved Sort Order for Environments
+
+## Improved Sort Order for Environments
+## Description
+ MEDS Extractor now sorts and filters study environment names by importance. Standard study environments appear in a set order, then user-defined study environments in alphabetical order. Previously, MEDS Extractor sorted all study environments alphabetically. 
+## Affected Roles
+ All.
+## Advantages
+ The updated study environment listings streamlines your ability to find your most frequently used study environments. 
+## User Impact
+ In MEDS Extractor, standard study environments   appear   in the following order: 
+- Production 
+- Development 
+- Functional Testing 
+- Interactive Verification 
+- User Acceptance Testing (UAT) 
+- Training 
+ User-defined study environments follow in alphabetical order and are case-insensitive.
+## Special Considerations
+ None.

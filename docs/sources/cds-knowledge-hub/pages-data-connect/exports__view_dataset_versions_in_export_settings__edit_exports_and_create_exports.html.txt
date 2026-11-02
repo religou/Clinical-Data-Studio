@@ -1,0 +1,25 @@
+# Exports: View Dataset Versions in Export Settings, Edit Exports and Create Exports
+
+## Exports: View Dataset Versions in Export Settings, Edit Exports and Create Exports
+## What Is New?
+ Users can now view and select different dataset versions on the following screens and workflows: 
+- Exports settings screen  
+- Edit export workflow  
+- Create export workflow  
+## What Is the Impact?
+## Users/Roles
+ All. 
+## Workflow Process
+ There is no change in the existing process. Users can now, however export different versions of the datasets. 
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ You can now configure and export different versions of the dataset from previously configured exports. 
+## Where Do I See the Change?
+- Exports Wizard   – While creating or editing an export, you can select dataset versions from the Dataset step. 
+- Export Settings   – While reviewing an export's settings, you can view dataset versions. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Enhancement:  
+- Create Export 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

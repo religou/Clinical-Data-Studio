@@ -1,0 +1,711 @@
+# CTMS Monitoring Visits, Letters, and Reports Data Objects
+
+## CTMS Monitoring Visits, Letters, and Reports Data Objects
+ CTMS Monitoring Visits, Letters, and Reports data objects contain visits, letters, and report data related to site monitors' activities. The data include visit report submissions and comments, and contact details made with the sites across studies. 
+ Note : All data are for cumulative and incremental extracts.
+ Important : Your Rave URL configuration can affect your ability to access exported data. For details, please contact your Medidata representative or Medidata Support.
+## Visits Overview
+ The Visits Overview data file provides an overview of all visits for the selected study environment level. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The client division's unique identifier.
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment's name. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | iMedidata Study Environment Site Name 
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment site's unique identifier. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | 
+ The study environment site number.
+ | Principal Investigator Name 
+ | Text 
+ | 150 
+ | 
+ The Principal Investigator associated with the site.
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment country's unique identifier. 
+ | Country Name 
+ | Text 
+ | 2048 
+ | The country' name. 
+ | Visit UUID 
+ | Unique Identifier 
+ | 16 
+ | An internally generated unique identifier for this visit. 
+ | Visit Name 
+ | Alphanumeric 
+ | 10000 
+ | Visit identifier number. The visit ID includes the visit type acronym (such as, SQV, SIV, IMV, COV), a hyphen, and an incrementing number that is unique within each study-environment site (such as, IMV-1, IMV-2). 
+ | Original Scheduled Date 
+ | Timestamp 
+ | 23 
+ | Available only for Scheduled Visits, and is the originally scheduled date for the visit. 
+ | Visit Type 
+ | Text 
+ | 256 
+ | The visit category specified in Site Monitoring.
+ | Visit Conduct Method 
+ | Text 
+ | 22 
+ | Conduct method category as specified in Site Monitoring. 
+ | Visit Contact Reasons 
+ | Text 
+ | 1024 
+ | Indicates the reason why a site monitor visited the site as specified in Site Monitoring.
+ | Unblinded Visit 
+ | Text 
+ | 22 
+ | Denotes the visit's blinded status. Possible values:
+- True 
+- False 
+ | Visit Status 
+ | Text 
+ | 30 
+ | Denotes the visit's status. Possible values:
+- Canceled 
+- Completed 
+- Conducted 
+- Confirmed 
+- Planned 
+- Post Conduct Review 
+- Site Communication 
+- Waived 
+ | Min Visit Window from Scheduler configuration 
+ | Timestamp 
+ | 23 
+ | Available only for Scheduled Visits. Calculated based on days after the target visit date. 
+ | Max Visit Window from Scheduler configuration 
+ | Timestamp 
+ | 23 
+ | Available only for Scheduled Visits. Calculated based on days after the target visit date. 
+ | Visit Start Date 
+ | Timestamp 
+ | 23 
+ | The visit's start date. 
+ | Visit End Date 
+ | Timestamp 
+ | 23 
+ | The visit's  end date. 
+ | Out of Window Reasons 
+ | Text 
+ | 256 
+ | Available only for Scheduled Visits. Indicates the reason why a scheduled visit is outside its expected dates.
+ | Primary Assignee 
+ | 
+ | 
+ | The CRA leading the visit. 
+ | Co-assignee 
+ | 
+ | 
+ | Team Members attending the visit on a given day with the primary assignee. 
+ | Visit Report Status 
+ | 
+ | 
+ | Identifies the current status of the visit report in the visit. Possible values include: 
+- Initialized 
+- In progress 
+- Submitted 
+- Recalled 
+- Review in progress 
+- Reviewed 
+- Returned for correction 
+- Under revision 
+- Re-submitted 
+- Approval in progress 
+- Approved 
+- Completed 
+- Withdrawn 
+- Addendum initialized 
+- Addendum in progress 
+- Addendum submitted 
+- Addendum recalled 
+- Addendum review in progress 
+- Reviewed with addendum 
+- Addendum returned for correction 
+- Addendum under revision 
+- Addendum re-submitted 
+- Addendum approval in progress 
+- Approved with addendum 
+- Completed with addendum 
+- Addendum withdrawn 
+ | Confirmation Letter Status 
+ | 
+ | 
+ | Identifies the current status of the confirmation letter in the visit. Possible values are: 
+- Initialized 
+- Finalized 
+- Pending 
+- Not Finalized 
+- Sent to site 
+- Not done 
+- Not required 
+- Not applicable 
+ | Follow-up Letter Status 
+ | 
+ | 
+ | Identifies current status of the follow-up letter in the visit. Possible values are: 
+- Initialized 
+- Finalized 
+- Pending 
+- Not Finalized 
+- Sent to site 
+- Not done 
+- Not required" 
+## Visit Details
+ The Visit Details data file provides assignee details for visit sessions across all visits in a study environment. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The client division's unique identifier.
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment's name. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Country Name 
+ | Text 
+ | 2048 
+ | The country's name as it appears in iMedidata. 
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment country's unique identifier. 
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | iMedidata study environment site name. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The study environment site number. 
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment site's unique identifier. 
+ | Principal Investigator Name 
+ | Text 
+ | 150 
+ | Principal Investigator associated with the site. 
+ | Principal Investigator UUID 
+ | Unique Identifier 
+ | 16 
+ | The principal investigator's unique identifier. 
+ | Visit UUID 
+ | Alphanumeric 
+ | 16 
+ | An internally generated unique identifier for this visit. 
+ | Visit Name 
+ | Alphanumeric 
+ | 10000 
+ | Visit identifier number. The visit ID includes the visit type acronym (such as, SQV, SIV, IMV, COV), a hyphen, and an incrementing number that is unique only within each study-environment site (such as, IMV-1, IMV-2). 
+ | Primary Assignee UUID 
+ | Unique Identifier 
+ | 16 
+ | The primary assignee's unique identifier. 
+ | Primary Assignee Full Name 
+ | Alphanumeric 
+ | 150 
+ | Name of the primary assignee for the visit. 
+ | Primary Assignee Role 
+ | Alphanumeric 
+ | 256 
+ | Role of the primary assignee for the visit. 
+ | Visit Session Start Time 
+ | Timestamp 
+ | 23 
+ | Start time of a visit session within a visit. 
+ | Visit Session End Time 
+ | Timestamp 
+ | 23 
+ | End time of a visit session within a visit. 
+ | Visit Session Assignee Full Name 
+ | Text 
+ | 150 
+ | Name of the person who conducted the visit. 
+ | Visit Session Assignee Role 
+ | Text 
+ | 256 
+ | Role of the person who conducted the visit. 
+ | Visit Session Assignee UUID 
+ | Unique Identifier 
+ | 16 
+ | The visit session assignee's unique identifier. 
+## Letters and Reports History
+ The Letters and Reports History data file provides an overview of all letters and reports associated with a visit. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The client division's unique identifier.
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment's name. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Country Name 
+ | Text 
+ | 2048 
+ | The country's name as it appears in iMedidata. 
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment country's unique identifier. 
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment site's name. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The study environment site number. 
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment site's unique identifier.
+ | User UUID 
+ | Alphanumeric 
+ | 16 
+ | The unique identifier of the user who updated the document. 
+ | Visit UUID 
+ | Alphanumeric 
+ | 16 
+ | The visit's unique identifier. 
+ | Visit Name 
+ | Alphanumeric 
+ | 10000 
+ | Visit identifier number. The visit ID includes the visit type acronym (such as, SQV, SIV, IMV, COV), a hyphen, and an incrementing number that is unique only within each study-environment site (such as, IMV-1, IMV-2). 
+ | Document UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The document's unique identifier.
+ Important : Only available for classic monitoring visits. 
+ | Workspace UUID 
+ | Unique Identifier 
+ | 
+ | 
+ The workspace unique identifier. 
+ Important : Only available for new monitoring visits. 
+ | Workspace Name 
+ | Text 
+ | 
+ | The name of the workspace used for the report and letters in the visit. 
+ | Document Type 
+ | Text 
+ | 256 
+ | The document's type. Possible values are: 
+- Letter 
+- Report 
+ | Document Name 
+ | Text 
+ | 100 
+ | A concatenation of Visit Name and Document Type. 
+ | Letter Type 
+ | Text 
+ | 256 
+ | The letter's type. 
+ | Document Status 
+ | Text 
+ | 30 
+ | The document's status. Can show current and historical statuses. 
+ | Document Status Event Date 
+ | Timestamp 
+ | 23 
+ | Date when document went into specified state. 
+ | Document Status Updated By 
+ | Text 
+ | 150 
+ | Name of the person who updated the document. 
+ | Reason 
+ | Text 
+ | 256 
+ | The reason for the document's status update. 
+ | Review Deadline 
+ | Numeric 
+ | 22 
+ | The study document's review deadline in number of days, as set in Site Monitoring. 
+ | Submission Deadline 
+ | Numeric 
+ | 22 
+ | The study document's submission deadline in number of days, as set in Site Monitoring. 
+ | Approval Deadline 
+ | Numeric 
+ | 22 
+ | The study document's approval deadline in number of days, as set in Site Monitoring. 
+ | eTMF FSID 
+ | 
+ | 
+ | 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+## Letters and Reports Comments Contents
+ The  Letters and Reports Comments Contents data file Provides an overview of all reviewer comments associated to visit reports. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The client division's unique identifier.
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment's name. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | The study site's name. 
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment site's unique identifier.
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The study environment site number. 
+ | Country Name 
+ | Text 
+ | 2048 
+ | The country's name as it appears in iMedidata. 
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment country's unique identifier. 
+ | Visit UUID 
+ | Unique Identifier 
+ | 16 
+ | The visit's unique identifier. 
+ | Visit Name 
+ | Alphanumeric 
+ | 10000 
+ | Visit identifier number. The visit ID includes the visit type acronym (such as, SQV, SIV, IMV, COV), a hyphen, and an incrementing number that is unique only within each study-environment site (such as, IMV-1, IMV-2). 
+ | User UUID 
+ | Alphanumeric 
+ | 16 
+ | The unique identifier of the user who updated the document.
+ | Visit Name 
+ | Alphanumeric 
+ | 10000 
+ | Visit identifier number. The visit ID includes the visit type acronym (such as, SQV, SIV, IMV, COV), a hyphen, and an incrementing number that is unique only within each study-environment site (such as, IMV-1, IMV-2). 
+ | Document Name 
+ | Text 
+ | 100 
+ | Concatenation of Visit Name and Document Type. 
+ | Visit Date 
+ | Timestamp 
+ | 23 
+ | 
+ The visit's date.
+ Note : System exports all the days of the visit with start time and end time. For Classic Monitoring visits, system exports only the first visit date.
+ | Document Name 
+ | Text 
+ | 100 
+ | Concatenation of Visit Name and Document Type. 
+ | Comment Linked To Type 
+ | 
+ | 
+ | The field against which the comment is created. Posible Values are: 
+- Placeholder 
+- Placeholder Field 
+- Question 
+- Question free text 
+- Response 
+- Response free text 
+- Text areas 
+ | Comment Linked To Value 
+ | 
+ | 
+ | The name of the field against which the comment is created. 
+- If type = placeholder, then denotes the name of placeholder 
+- If type = placeholder field, then denotes the placeholder value 
+- If type = question, then denotes the name of the question 
+- If type = question free text, then denotes the free text value 
+- If type = response text, then denotes the response value 
+ | Placeholder ID 
+ | 
+ | 
+ | Placeholder data attached to a comment. 
+ | Thread UUID 
+ | Unique Identifier 
+ | 16 
+ | The thread identifier that a comment is attached to. 
+ | Comment 
+ | Alphanumeric 
+ | 2048 
+ | Reviewer comments on a report. For details, see  Review Visit Report s. 
+ | Comment Date 
+ | Timestamp 
+ | 23 
+ | The comment's creation date. 
+ | Comment Created By 
+ | Text 
+ | 16 
+ | Person who made the comment. 
+ | Resolved Comment 
+ | Comment 
+ | 30 
+ | The comment's resolution status. 
+ | Linked Activity 
+ | Unique Identifier 
+ | 16 
+ | Internal identifier linking this extract to its question response field on the Activity Details Extract. 
+ | Activity Name 
+ | Text 
+ | 100 
+ | Name of the activity in visit reports. 
+ | Visit Activity Question Description 
+ | Text 
+ | 1000 
+ | Description of the visit activity question in the visit reports. 
+ | User UUID 
+ | Unique identifier 
+ | 16 
+ | The unique identifier of the user who created the comment. 
+ | Visit Date  
+ | Timestamp 
+ | 23 
+ | The visit's date. 
+## Visit Activity Details
+ The Visit Activity Details data file provides an overview of all questions and responses recorded on visit reports. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The client division's unique identifier.
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment's name. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | The study site's name. 
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment site's unique identifier.
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | The study site's name. 
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment site's unique identifier. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The study environment site number. 
+ | Country Name 
+ | Text 
+ | 2048 
+ | iMedidata Country Name 
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment country's unique identifier. 
+ | Visit Name 
+ | Alphanumeric 
+ | 10000 
+ | Visit identifier number. The visit ID includes the visit type acronym (such as, SQV, SIV, IMV, COV), a hyphen, and an incrementing number that is unique only within each study-environment site (such as, IMV-1, IMV-2). 
+ | Visit UUID 
+ | Unique Identifier 
+ | 16 
+ | The visit's unique identifier. 
+ | Visit Type 
+ | Text 
+ | 256 
+ | The visit category specified in Site Monitoring. For details, see Manage Monitoring Types .
+ | Visit Conduct Method 
+ | Text 
+ | 22 
+ | Conduct method category as specified in Site Monitoring. For details, see Manage Conduct Methods . 
+ | Activity Name 
+ | Text 
+ | 100 
+ | Name of the activity as in Visit Reports. 
+ | Mandatory Activity 
+ | Text 
+ | 22 
+ | Denotes if an activity on the report is mandatory. Possible values:
+- True 
+- False 
+ | Issue Linked to Activity 
+ | Unique Identifier 
+ | 16 
+ | Business identifier of the Issue linked to the activity. 
+ | Activity Completed 
+ | Text 
+ | 22 
+ | The activity's status. Possible values:
+- True 
+- False 
+ | Active Prep 
+ | Text
+ | 16 
+ | The active prep status. Possible values:
+- True 
+- False 
+ | Active Conduct 
+ | Text 
+ | 22 
+ | The active conduct status. Possible values:
+- True 
+- False 
+ | Visit Activity Question Description 
+ | Text 
+ | 1000 
+ | Description of the visit activity question in the visit reports. 
+ | Mandatory Question 
+ | Text 
+ | 22 
+ | Denotes if the question is mandatory. Possible values:
+- True 
+- False 
+ | Allowable Responses 
+ | Text 
+ | 256 
+ | The anticipated values for a question. 
+ | Visit Activity Question Response 
+ | Alphanumeric 
+ | 1000 
+ | Response for the question in the report. 
+ | Visit Activity Question Response Comment 
+ | Alphanumeric 
+ | 1000 
+ | Comments added to the answer 
+ | Visit Activity Questions Responses UUID 
+ | Unique Identifier 
+ | 16 
+ | Internal identifier linking this field to the linked activity field on the Letters and Reports Comment Content extract. 
+ | Linked Activity 
+ | Text 
+ | 256 
+ | 
+ | Parent Question Description 
+ | 
+ | 
+ | The name of the main question if there are follow-up questions available.
+If there are no follow-up questions, then this will be empty. 
+ | Question Comment 
+ | 
+ | 
+ | Comments added to the question.

@@ -1,0 +1,44 @@
+# CSM: Filter Patient Lists to Show Patients With or Without Rounding Events
+
+## CSM: Filter Patient Lists to Show Patients With or Without Rounding Events
+## What Is New?
+ In Centralized Statistical Monitoring (CSM)'s Rounding & Propagation capability, when viewing the list of patients at a site with recorded events, you can filter the list to show:
+- All patients at the site with recorded events. 
+- Only patients at the site with rounded events. 
+- Only patients at the site that do not have rounded events. 
+- Only patients at the site with propagated events. 
+- Only patients at the site that do not have propagated events. 
+## What Is the Impact?
+## Users/Roles
+ Central monitors
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Filtering patient lists to show patients with or without rounded or propagated records increases data transparency and improves your ability to understand and analyze your data.
+## Where Do I See the Change?
+ The Centralized Statistical Monitoring (CSM) > Data Veracity > Rounding & Propagation page includes the following updates:
+- On the Rounding Events tab:
+- When you click a Sites with Rounding heatmap cell, the Patients with Recorded Events dialog now includes a View menu, which enables you to filter the dialog to show:
+- All Patient Records (default view) 
+- Records Included in Count 
+- Records Not Included in Count 
+- When you click a link in the Rounding Events Summary table > # Affected Patients column, the Patients with Recorded Events dialog now includes a View menu, which enables you to filter the dialog to show:
+- All Patients 
+- Patient with Rounding Events (default view) 
+- Patients without Rounding Events 
+- On the Propagation Events tab:
+- When you click a Sites with Propagation heatmap cell, the Patients with Record Event dialog now includes a View menu, which enables you to filter the dialog to show:
+- All Patient Records (default view) 
+- Records Included in Count 
+- Records Not Included in Count 
+- When you click a link in the Propagation Events Summary table > # Affected Patients column, the Patients with Recorded Events dialog now includes a View menu, which enables you to filter the dialog to show:
+- All Patients 
+- Patient with Propagation Events (default view) 
+- Patients without Propagation Events 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Identify and Investigate Sites That Potentially Round or Propagate Vital Sign Records 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,17 @@
+# Chinese Characters Display In Patient Profile Reports and PDFs
+
+## Chinese Characters Display In Patient Profile Reports and PDFs
+## Description
+ Chinese characters appear in profiles reports and PDFs you generate for profile designs with elements or variables created using Chinese fonts.
+## Affected Roles
+ All.
+## Advantages
+ Chinese characters that you enter in Patient Profiles display throughout the user interface and in the profile exports. 
+## User Impact
+ On the Medidata Detect > Patient Data Surveillance (PDS) > Patient Profiles > Patient Profile Designs > Elements tab, if you use Chinese characters while working with elements or variables, Chinese characters appear in the profile reports and the PDF exports you generate on the Profiles tab. 
+## Knowledge Space Updates
+ The Detect Knowledge Space provides updated content to support the enhancement: 
+- Review and Export Patient Profiles 
+- Add and Manage Elements 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

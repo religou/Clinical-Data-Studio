@@ -1,0 +1,22 @@
+# New Progressive User Assistance Access Points on the History Page and Error Plots Page
+
+## New Progressive User Assistance Access Points on the History Page and Error Plots Page
+## Description
+ The user interface provides seven new progressive user assistance (PUA) access points indicated by a clickable icon. 
+ PUA may include hyperlinks that open a new browser tab to related product knowledge space content. PUA implementation is ongoing and does not affect product functionality. You can expect new PUA to coincide with or follow product releases.         
+## Affected Roles
+ All.
+## Advantages
+ Providing progressive user assistance directly on a page or field ensures that you find the help information you need faster and easier than searching through online help.
+## User Impact
+ Detect now provides  a Help icon  at the following new locations: 
+- Error Plots page > Trends List tab > Trends List section header 
+- Error Plots page > Trends List tab > Strength of Association column header 
+- Error Plots page > Trends Plot tab 
+- History page header 
+- History page > Snapshot Schedule field 
+- History page > Previous Snapshots Loaded column header 
+- History page > Refresh button 
+ When you click a Help icon, user assistance pertaining to the directly associated page or field automatically appears in a popover. 
+## Special Considerations
+ If you are unable to see the popovers, you may need to adjust your browser's pop-up blocker settings.

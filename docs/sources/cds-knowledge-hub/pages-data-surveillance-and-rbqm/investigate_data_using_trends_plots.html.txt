@@ -1,0 +1,152 @@
+# Investigate Data Using Trends Plots
+
+## Investigate Data Using Trends Plots
+ Trend plots graphically show a single variable's data at each site side by side using a box-and-whisker plots or stacked bar chart. You can use trend plots to pinpoint sites with abnormal or incorrect data that may warrant investigation. 
+## Sort, Filter, Highlight, and Zoom In on Trends Plot Data
+ The trends plot visualization provides a unique set of plot sorting, filtering, highlighting, and zoom options based on which whether you are viewing data analysis for a text or numeric variable. You can use the sorting, filtering, highlight, and zoom options to:
+- View and interpret your study data from multiple view points, and 
+- Find and drill down on specific data. 
+ Click a data analysis type below to learn to sort, filter, highlight, and zoom in on trends plot data based on the data analysis RBQM renders in the trends plot visualization.
+ Text Variable Analysis 
+ Sort the Plot Data 
+ You can sort the data in the Text Analysis plot visualization using the following options:
+- Alphabetical Text  – Displays site IDs on the x-axis from left to right in alphanumeric ascending order; for example, from 1 on the left to 100 on the right. This is the default plot setting. 
+- High - Low – Sorts the x-axis based on site IDs with the most number of text variable occurrences on the left to least number of occurrences on the right. 
+- Low - High – Sorts the x-axis based on site IDs with the least number of text variable occurrences on the left to most number of occurrences on the right. 
+ Tip : Click Reset Plot to reset to the default Alphabetical filter view.
+ Filter the Plot to Display Specific Country- or Site-related Data Points 
+ You can filter the plot to show only data points that correspond with a specific country or site. 
+- Navigate to the Summary section below the plot visualization.
+ Note : By default, the plot shows all data points associated with the selected variable
+- Do any of the following:
+ Filter the trends plot to display specific country-related data points 
+- Click the View By filter, select Country , and then either select a country from the Country  filter or click a specific country's row in the table. 
+ Filter the trends plot to display specific site-related data points 
+- Click the View By filter, select Site , and then either select a site from the Site filter or click a specific site's row in the table. 
+ Based on your filter selection, the trends plot visualization highlights the specified country- or site-related data points and dims all other data points. 
+ Highlight Specific Text Entries in the Plot 
+ You can configure the plot to highlight specific text entries that occurred at each site. 
+- Click Highlight. 
+- Do either of the following:
+- Click All to highlight all data points. All is the default selection. 
+- Click a specific text entry to highlight on that entry at each site in the bar chart. 
+ Tip : Click Reset Plot to reset to the default All highlight.
+ Numeric Variable Analysis 
+ Filter the Plot to Display Data Based on Range and Outliers 
+ You can filter the Numeric Analysis plot visualization using the following options:
+- Outer Values – Filters the plot so that only data points that are outside of the interquartile range show. For example, if a plot contains a high volume of data points, then you can use the Outer Values filter to show only data that is outside of the interquartile range to help you focus more on the data you need. 
+- Outliers – Filters the plot to show only outlier data points. Selecting this option helps you better identify anomalies in your study data that may require further investigating or reporting. 
+- Box Plot – Filters the plot to show the plot's lower whisker value, 25th percentile value, median value, 75th percentile value, and upper whisker value. Using the Box Plot filter helps you better see the variables' distribution of data. 
+ Tip : Click Reset to reset to the default filter view. The default visualization shows all data points as well as the box plot and whiskers.
+ Sort the Plot Data 
+ You can sort the data in the Numeric Analysis plot visualization by Alphabetical order, Mean, Median, or spread (Q3-Q1).
+- From the Sort by filter, select one of the following options:
+- Alphabetical  – Sorts site IDs on the X-axis in ascending alphanumeric order (A on the left; Z on the right). 
+- Mean  – Sorts the X-axis based on box plot from lowest mean on the left to highest mean on the right. 
+- Median  – Sorts the X-axis based on box plot from lowest median on the left to highest median on the right. 
+- Spread (Q3-Q1)  – Sorts the X-axis based on box plot from smallest middle 50th percentile on the left to largest middle 50th percentile on the right. 
+ Tip : Click Reset Plot  to reset to the default filter view. The default visualization shows all data points as well as the box plot and whiskers.
+ Filter the Plot to Display Specific Country-, Site-, or Patient-related Data Points 
+ By default, the trends plot shows all data points associated with the selected variable. But you can also drill down further and filter the plot to show only data points that correspond to a specific country or site. 
+- Navigate to the Summary section below the plot visualization.
+ Note : By default, the plot shows all data points associated with the selected variable.
+- Do any of the following:
+ Filter the trends plot to display specific country-related data points 
+- Click the View By filter, select Country , and then either select a country from the Country  filter or click a specific country's row in the table. 
+ Filter the trends plot to display specific site-related data points 
+- Click the View By filter, select Site , and then either select a site from the Site filter or click a specific site's row in the table. 
+ Based on your filter selection, the trends plot visualization highlights the specified country- or site-related data points and dims all other data points. 
+ Zoom In on Data Points on a Specific Section of the Plot 
+ You can zoom in on a specific section of the Numeric Analysis Plot. For plots that have a high volume of data points, zooming in helps you get a closer, more granular view of specific data points on the plot. 
+- Click, hold, and drag your cursor to draw a box on a specific section of the plot that you want to zoom in on. 
+- If necessary, click Reset Zoom at the upper right of the visualization to return to the default zoom level. 
+## Interpret Trends Plots
+ Your proficiency in reading and understanding trends plots greatly affects your ability to determine trends in your study data. This determination helps ensure you take efficient, well-informed follow-up actions in how you further investigate or report your study data findings.
+ Click a data analysis type  below to learn how to interpret the trends plot based on whether you are viewing the data analysis for a text or numeric variable.
+ Text Variable Analysis 
+ Tip : Click image to enlarge.
+- Text variable analysis renders using a stacked bar chart. 
+- The Y-axis shows the variable's total number of text value occurrences recorded at each site. 
+- The X-axis shows the site IDs where the text value entries occurred. By default, the site ID numbers list from left to right in ascending alphanumeric order. For example, 1 on the left; 100 on the right. 
+- Reported text values at each site are represented by a color-coded stacked bar. Each specific text value is segmented and denoted in a unique color in the stacked bar. 
+- You can hover your cursor on each individual site's bar to view:
+- Each unique text value reported at the site. 
+- The number of times each unique text value was reported at the site. 
+- How each unique text value is color-coded and represented on the stacked bar.
+ Numeric Variable Analysis 
+ Tip : Click image to enlarge.
+- Numeric variable analysis renders using a box-and-whisker plot. 
+- Each patient data point on the box plots is represented by a blue square, orange circle, or red diamond:
+- Blue Square  – The patient data point's  discrepancy score is less than 2.95. This means that the patient data point has a statistically normal numeric value within the variable. 
+- Orange Circle    – The patient data point's discrepancy score is between 2.95 and 4.95. This means that the patient data point has a higher- or lower-than-normal numeric value within the variable. Thus, RBQM considers the numeric value an outlier. 
+- Red Diamond   – The patient data point's discrepancy score exceeds 4.95. This means that the patient data point has a significantly higher- or lower-than-normal numeric value within the variable. Thus, RBQM considers the numeric value an extreme outlier. 
+- You can hover your cursor on any blue square, orange circle, or red diamond to view the following data point-specific information:
+- Patient  – The patient ID for the patient represented in the data point.  
+- Value  – The raw value entered in the eCRF for the patient with regards to the variable. 
+- Site  – The site the patient belongs to. 
+- Country  – The country in which the site is located. 
+- Disc Score  –  A numeric score generated by Statistical Monitoring's high-dimensional data anomaly detection algorithms , which measures the discrepancy of an individual data point relative to the overall study data. Discrepancy scores help you uncover outliers, anomalies, risks, and trends in your study data, which may require follow-up action. An error score of less than 2.95 indicates statistically normal data; between 2.95 and 4.95 indicates outlier data; exceeding 4.95 indicates extreme outlier data. 
+- By default, the variable's data points show on an overlay of a box-and-whisker plot. All data points that lie within the green box, , are within the interquartile range range for all data points within the variable. 
+- If you choose the Box Plot filter option, the visualization removes all data points from the box-and-whisker plot. Doing so helps you better view the variable's distribution of data in terms of (from top to bottom) the variable's upper whisker value , 75th percentile value, median, 25th percentile value, and lower whisker value . T he green box,  , also shows the interquartile range . For example:
+- Box Plot Threshold   – Provides a clear visual indicator for where the upper whisker value, 75th percentile value, median, 25th percentile value, and lower whisker value lie within the box plot. 
+## Use and Interpret the Trends Plot Summary Table
+ The Summary table lists a summary of all data points in the trends plot visualization. From the Summary table, you can:
+- View all of the selected variable's  data points by:
+- Country 
+- Site 
+- Sort by column to view and find data. 
+- Filter the trends plot to highlight specific country- and site-related data points to help you better find specific data on the plot.
+ View Summary Table Data By Country or Site 
+- Navigate to the Summary section below the data anomaly detection plot visualization. 
+- From the View By filter, select any of the following:
+ Country 
+ The Summary table lists all countries in the study by default. To filter the Summary table to show a specific country's data, select a country from the Country filter.
+ Columns When Viewing By Country 
+- Country  –  The country in which the patient's site is located. 
+- Mean Outlier Score  – The mean  discrepancy score of all the country's data points that are considered outliers ; that is, the mean score of all data points with a discrepancy score above 2.95. 
+- # of Sites   – The number of sites located within the country. 
+- # of Patients   – The number of patients located within the country. 
+- # of Datapoints   – The number of data points associated with the country. 
+- # Outlier   – The number of data points associated with the country that are considered outliers . 
+- % Outlier   – The percentage of data points associated with the country that are considered outliers. 
+- # Outlier Patients   – The number of patients associated with the country that reported outlying data. 
+- % Outlier Patients   – The percentage of patients associated with the country that reported outlying data. 
+- Status  – Indicates the status of any issues logged against the site. You can click a status icon to view more details about the issues reported at the site. The Status column only shows if you have privileges to access Issue Management . 
+- <Blank> – A blank cell indicates that an issue has never been logged at the site.  
+-  – Indicates that at least one issue at the site or country remains unresolved. 
+-  – Indicates all reported issues at the site or country are resolved. 
+- The number next to the flag; for example, , represents the number of issues reported at the site or country. 
+- Actions  – Click  in the row that corresponds with the site you want to create an issue for. You can create a Non-protocol Deviation. 
+ Site 
+ The Summary table lists all sites in the variable by default. To filter the Summary table to show only data from a specific site, click the Site filter, and select a site.
+ Columns When Viewing By Site 
+- Site  –  The site the patient belongs to. 
+- Mean Outlier Score  –  The mean discrepancy score of all the site's data points that are considered outliers ; that is, the mean score of all data points with a discrepancy score above 2.95. 
+- Country   – The country in which the site is located. 
+- # of Patients   – The number of patients belonging to the site. 
+- # of Datapoints   – The number of data points associated with the site. 
+- # Outlier   – The number of data points associated with the site that are considered outliers . 
+- % Outlier   – The percentage of data points associated with the site that are considered outliers. 
+- # Outlier Patients   – The number of patients associated with the site that reported outlying data. 
+- % Outlier Patients   – The percentage of patients associated with the site that reported outlying data. 
+- Status  – Indicates the status of any issues logged against the site. You can click a status icon to view more details about the issues reported at the site. 
+- <Blank> – A blank cell indicates that an issue has never been logged at the site.  
+-  – Indicates that at least one issue at the site or country remains unresolved. 
+-  – Indicates all reported issues at the site or country are resolved. 
+- The number next to the flag; for example, , represents the number of issues reported at the site or country. 
+- Actions  – Click  in the row that corresponds with the site you want to create an issue for. You can create a Protocol Deviation or Non-protocol Deviation. 
+ Sort the Summary Table 
+- Navigate to the Summary section below the plot visualization.
+By default, the Summary table is sorted by Mean Outlier Score in descending order (highest score at the top; lowest at the bottom). 
+- Click any column header to sort by the column. The sorted header shows in blue font.  indicates that the column is sorted in ascending alphabetical (A at the top; Z at the bottom) or descending numeric order (highest value at the top, lowest at the bottom). 
+- Click a column header twice   to sort in descending alphabetical (Z at the top; A at the bottom) or ascending numeric order (lowest value at the top, highest at the bottom). 
+ Highlight Specific Country- or Site-related Data Points 
+ By default, the trends plot shows all data points associated with the selected variable. But you can also drill down further and highlight  only data points that correspond with a specific country, site, or patient.
+- Navigate to the Summary section below the plot visualization.
+ Note : By default, the plot shows all data points associated with the selected variable.
+- Do any of the following:
+ Highlight specific country-related data points 
+- Click the View By filter, select Country , and then either select a country from the Country  filter or click a specific country's row in the table. 
+ Highlight specific site-related data points 
+- Click the View By filter, select Site , and then either select a site from the Site filter or click a specific site's row in the table. 
+ Based on your highlight selection, the trends plot visualization highlights the specified country- or site-related data points and dims all other data points.

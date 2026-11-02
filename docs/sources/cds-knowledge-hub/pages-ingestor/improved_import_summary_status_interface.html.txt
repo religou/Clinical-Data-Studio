@@ -1,0 +1,17 @@
+# Improved Import Summary Status Interface
+
+## Improved Import Summary Status Interface
+## Description
+- The data row count found on the import job's import summary now accumulates across retries. Previously, the displayed row counts only showed the rows uploaded for the last retry attempt. 
+- MEDS Ingestor 2020.2.1 removes the Laboratory data type for import job creation. The External EDC data type  now allows import jobs to import laboratory data.   
+ Feature/enhancement stories referenced in this article:
+ MCC-678535, MCC-689968 
+## Affected Roles
+ All roles with the Data Import permission.
+## Advantages
+ The simplified user interface provides accurate status information when displaying upload jobs' status information.
+## User Impact
+- The Laboratory data type no longer appears in the data type menu. 
+- The import summary information now includes the results from automatic retries. 
+## Special Considerations
+ None.

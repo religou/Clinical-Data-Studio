@@ -1,0 +1,40 @@
+# RECIST 1.1
+
+## RECIST 1.1
+ Malignant tumors in patients participating in oncology studies are measured at baseline or screening, and at protocol defined intervals throughout the study. Tumor burden is the total amount of cancer in the body. Using imaging scanning methods such as Computed Tomography (CT) or Magnetic Resonance Imaging (MRI), medical monitors and principal investigators monitor the growth, shrinkage, disappearance, or appearance of new tumors closely. Clinicians are then able to assess how patients respond to the treatment in the study based on the change in tumor burden (decreases versus increases). 
+ Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 is a widely used set of criteria used in oncology studies to measure the response to treatment. By defining all malignant tumors as Target and Non-Target lesions as per the defined criteria, RECIST 1.1 tracks changes in tumor burden, and determines the disease response throughout the study using imaging scans. The overall response criteria are classified as: 
+- Complete Response (CR) 
+- Partial Response (PR) 
+- Stable Disease (SD) 
+- Progressive Disease (PD) 
+- Not Assessable (NA) 
+- Not Evaluable (NE) 
+ The assessments are critical in determining the success of any cancer treatment. 
+ The RECIST 1.1 dashboard is a visualization and reporting tool in Data Surveillance that captures the treatment response and disease progression metrics for patients based on the RECIST 1.1 methodology. 
+ Note : Clinical Data Studio only uses RECIST v1.1 . The RECIST 1.1 Dashboard does not use or support any other versions such as mRECIST and iRECIST.
+## What Is the RECIST 1.1 Dashboard?
+ The RECIST 1.1 dashboard is a Data Surveillance capability that shows the treatment response for patients in oncology studies. S tudy teams can view key RECIST 1.1 data in a visually appealing format. Study personnel such as medical monitors can monitor disease response (tumor burden) to study drugs using the waterfall plot or spaghetti plot. 
+## What Is the Purpose of RECIST 1.1 Dashboard?
+ You can use the RECIST 1.1 dashboard to track the tumor burden change, compare tumor responses, and identify discrepancies in overall tumor response that sites enter and that the RECIST 1.1 algorithm calculates. 
+## Who Uses the RECIST 1.1 Dashboard?
+ Study Managers, Medical Monitors, and Data Managers.
+ All Data Surveillance users with View Oncology Analytics and Detect Oncology Reviewer access.
+## What are the Benefits of Using the RECIST 1.1 Dashboard?
+ The RECIST 1.1 dashboard enables you to visualize disease progression response for oncology trial patients. For example,  
+- Study Managers can monitor the growth, shrinkage, disappearance, or appearance of new tumors and the set of target tumors. 
+- Medical Monitors can assess how patients respond to a particular treatment based on the tumor change. 
+- Data Managers can identify discrepancies between site entered and algorithm-calculated overall tumor response. 
+ You can also view the tumor burden change in graphical formats, namely, in a waterfall plot or a spaghetti plot. In addition, Medidata Rave data from the tumor assessment and disease response eCRFs are available in the patient records table along with calculated values using the RECIST 1.1 algorithms . Viewing data graphically and in tabular forms, enables you to more efficiently:  
+- Quantify tumor burden and outcome calculations for patients. 
+- Summarize the total count of patients, and those in various stages of treatment response at the selected scan visit type and site. 
+- Track tumor burden over a period, and identify discrepant records. 
+- Assess the accuracy of RECIST 1.1 calculations and safety monitoring. 
+## How Does the RECIST 1.1 dashboard Work?
+ The RECIST 1.1 dashboard surfaces data from Rave, and produces a waterfall plot, which shows the tumor burden change for all patients at specific scan visits. You can also view an individual patient's tumor progression throughout the study in a spaghetti plot.
+ The tumor burden response by patient table lists site entered tumor measurements alongside tumor calculations from the RECIST 1.1 algorithm. You can use the tumor burden response by patient table to compare the overall tumor response discrepancies in site-entered and algorithm-calculated values. You can also mark patient records as reviewed or unreviewed.
+ Note : In Data Surveillance and RBQM, s tudy data automatically refreshes four times daily at approximately 9:00am (EST), 3:00pm (EST), 9:00pm (EST) and 3:00am (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, 5:00 am (EST) the same day, 11:00 am (EST) the same day, 5:00 pm (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Rave, and   activated datasets from Data Connect   are available in 6 to 12 hours within Data Surveillance and RBQM. 
+ You can refresh data in RECIST 1.1 up to two times a day based on Rave refresh schedules. For more information, see Clinical Data Studio Data Pipeline . 
+## How Does the RECIST 1.1 Algorithm Calculate Tumor Measurements?
+ RECIST 1.1 Dashboard Tumor Burden and Response Calculation Methodology .
+## How Do I Access the RECIST 1.1 Dashboard?
+ View and Access The RECIST 1.1 dashboard

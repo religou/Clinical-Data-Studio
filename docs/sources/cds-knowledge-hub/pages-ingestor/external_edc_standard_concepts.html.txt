@@ -1,0 +1,1274 @@
+# External EDC Standard Concepts
+
+## External EDC Standard Concepts
+ Data integrations used in Ingestor use   Medidata Standard Concepts to tie together descriptive and process metadata. This metadata provides semantic meaning to inform external EDC data processing in the Medidata platform. 
+## Medidata Standard Data Set Concepts
+ Medidata defines the following standard data set concepts. Each of these Medidata-defined data set concepts has a fixed collection of fields. The required fields for each data set concept appear in the Complete OIDs List with their OIDs.
+ Data Set Name  
+ Data Set CONCEPT OID 
+ Definition 
+ | Laboratory 
+ | LB 
+ | Supports the transfer of third-party Lab data. 
+ | Adverse Events 
+ | AE 
+ | Supports the transfer of Adverse Events from third-party EDC systems. 
+ | Disposition 
+ | DS 
+ | Supports the transfer of Subject Status/Milestones from third-party EDC systems. 
+ | Subject Visits 
+ | SV 
+ | Supports the transfer of Subject Visits from third-party EDC systems. 
+ | Electrocardiogram 
+ | EG 
+ | Supports the transfer of third-party electrocardiogram (ECG) data. 
+ | Questionnaires 
+ | QS 
+ | Supports the transfer of questionnaires (QS) data from third-party sources. 
+ | Protocol Deviations 
+ | DV 
+ | Supports the transfer of protocol deviations from third-party sources. 
+ | Source Data Verification 
+ | SDV 
+ | Supports the transfer of Form level source data verification (SDV) data from third-party EDC sources. 
+ | Queries 
+ | QUERIES 
+ | Supports the transfer of atomic Queries from third-party EDC sources. 
+## Customer-Defined Data Sets
+ You can define your own data sets for upload into Ingestor. Customer-defined data sets must include all the  Medidata Master Data Fields in addition to the data fields you want to import.
+## Allowed Data Types
+ You can use any of the following field data types in any data set.
+ Text or Char 
+ These are plain text fields of a defined maximum size.
+ Float 
+ Float fields are numeric fields that can include any real number. Fields of type float may have a maximal precision specified.
+ Integer 
+ Integer fields are numeric fields that can contain whole numbers. Depending on the field, there may be a range limit applied to the value.
+ Date or Datetime 
+ These fields contain date and datetime data. There are a limited range of allowed formats for dates and datetimes understood by Ingestor.
+ Date Formats 
+ Sample 
+ | ddMMMyyyy 
+ | 04FEB2020 
+ | yyyy/MM/dd 
+ | 2004/02/04 
+ | yyyy/MM/dd HH:nn:ss 
+ | 2004/02/04 10:23:30 
+ | yyyyMMdd HH:nn:ss 
+ | 20030204 10:23:50 
+ | yyyyMMdd 
+ | 20030204 
+ | yyyymmdd 
+ | 20030204 
+ | MM/dd/yy 
+ | 02/04/03 
+ | MM/dd/yyyy 
+ | 02/04/2003 
+ | dd/MM/yy 
+ | 04/02/03 
+ | dd/MM/yyyy 
+ | 04/02/2003 
+ | MM/dd/yy HH:nn:ss 
+ | 02/04/03 10:23:30 
+ | dd/MM/yy HH:nn:ss 
+ | 04/02/03 10:23:30 
+ | yy/MM/dd 
+ | 03/02/04, 3/2/4 
+ | yy/MM/dd HH:nn:ss 
+ | 03/02/04 10:23:30 
+ | MM/dd/yyyy HH:nn:ss 
+ | 02/04/2003 10:23:30 
+ | dd/MM/yyyy HH:nn:ss 
+ | 04/02/2003 10:23:30 
+ | ddMMMyy 
+ | 04Feb03 
+ | ddMMyyyy 
+ | 04022003 
+ | MMddyyyy 
+ | 02042003 
+## Study Master Data Fields
+ These fields provide the minimal essential context for a successful data upload. The STUDYID, SITEID, and SUBJID fields are mandatory for all data sets, and the VISIT ID is mandatory for data sets  except EDC - Patients.
+ Concept Type 
+ Mandatory Data Set Concept OID 
+ Concept OID 
+ Variable Label/Name 
+ Mandatory for Ad Hoc Datasets 
+ Data Type 
+ Max Length 
+ | Study Master Data 
+ | All 
+ | STUDYID 
+ | Study Identifier 
+ | Yes 
+ | Char 
+ | 20 
+ | Study Master Data 
+ | All 
+ | SITEID 
+ | Study Site Identifier 
+ | Yes 
+ | Char 
+ | 50 
+ | Study Master Data 
+ | All 
+ | SUBJID 
+ | Subject Identifier 
+ | Yes 
+ | Char 
+ | 50 
+ | Study Master Data 
+ | All, except EDC - Patients 
+ | VISIT 
+ | This can be one of:
+- Visit Name 
+- Visit OID 
+ | Yes 
+ | Char 
+ | 50 for Visit Name
+ 25 for Visit OID
+## Complete List of Concept OIDs
+ Below lists the current Concept OIDs compatible with Ingestor.
+ Note :  Data Set Specific Mandatory Fields 
+ When uploading a Medidata defined Concept, additional fields are also mandatory. To list the mandatory field OID for a specific Medidata defined Concept OID, specify the Concept OID in the first filter. Items show "None" for the Mandatory for Designed Data Set Concept OID field are optional when using Medidata Standard Concepts. 
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Concept Type 
+ Mandatory for Designated Data Set Concept OID 
+ Concept OID 
+ Variable Label/Name 
+ Mandatory for Ad hoc Datasets 
+ Data Type 
+ Max length 
+ Content Expectations 
+ | Clinical 
+ | LB 
+ | LBDTC 
+ | Date/Time of Specimen Collection 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical 
+ | LB 
+ | LBSEQ 
+ | Sequence Number 
+ | No 
+ | Integer 
+ | 3 
+ | None 
+ | Clinical 
+ | LB 
+ | LBGRPID 
+ | Group ID 
+ | No 
+ | Char 
+ | 5 
+ | None 
+ | Clinical 
+ | LB 
+ | LBREFID 
+ | Specimen ID 
+ | No 
+ | Char 
+ | 20 
+ | None 
+ | Clinical 
+ | LB 
+ | LBTESTCD 
+ | Lab Test (or Examination Short Name) 
+ | No 
+ | Char 
+ | 8 
+ | None 
+ | Clinical 
+ | LB 
+ | LBTEST 
+ | Lab Test (or Examination Name) 
+ | No 
+ | Char 
+ | 40 
+ | None 
+ | Clinical 
+ | LB 
+ | LBCAT 
+ | Category Name 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | LB 
+ | LBSCAT 
+ | Subcategory Name 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | LB 
+ | LBORRES 
+ | Result or Finding in Original Units 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | LB 
+ | LBORRESU 
+ | Original Units 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | LB 
+ | LBORNRLO 
+ | Reference Range Lower Limit in original units 
+ | No 
+ | Char 
+ | 20 
+ | None 
+ | Clinical 
+ | LB 
+ | LBORNRHI 
+ | Reference Range Upper Limit in original units 
+ | No 
+ | Char 
+ | 20 
+ | None 
+ | Clinical 
+ | LB 
+ | LBSTRESC 
+ | Character Result/Findings in Std Format 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | LB 
+ | LBSTRESN 
+ | Numerics Result/Finding in Standard Units 
+ | No 
+ | Float 
+ | 8 
+ | None 
+ | Clinical 
+ | LB 
+ | LBSTRESU 
+ | Standard Units 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | LB 
+ | LBSTRNRLO 
+ | Reference Range Lower Limit-Std Units 
+ | No 
+ | Float 
+ | 8 
+ | None 
+ | Clinical 
+ | LB 
+ | LBSTRNRHI 
+ | Reference Range Upper Limit-Std Units 
+ | No 
+ | Float 
+ | 8 
+ | None 
+ | Clinical 
+ | LB 
+ | LBSTNRC 
+ | Reference Range for Char Rslt-Std Units 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | LB 
+ | LBNRIND 
+ | Reference Range Indicator 
+ | No 
+ | Char 
+ | 20 
+ | None 
+ | Clinical 
+ | LB 
+ | LBSTAT 
+ | Completion Status 
+ | No 
+ | Char 
+ | 8 
+ | None 
+ | Clinical 
+ | LB 
+ | LBREASND 
+ | Reason Test Not Done 
+ | No 
+ | Char 
+ | 200 
+ | None 
+ | Clinical 
+ | LB 
+ | LBNAM 
+ | Vendor Name 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | LB 
+ | LBLOINC 
+ | LOINC Code 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | LB 
+ | LBSPEC 
+ | Specimen Type 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | LB 
+ | LBSPCCND 
+ | Specimen Condition 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | LB 
+ | LBMETHOD 
+ | Method of Test or Examination 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | LB 
+ | LBBLFL 
+ | Baseline Flag 
+ | No 
+ | Char 
+ | 1 
+ | None 
+ | Clinical 
+ | LB 
+ | LBFAST 
+ | Fasting Status 
+ | No 
+ | Char 
+ | 1 
+ | None 
+ | Clinical 
+ | LB 
+ | LBDRVFL 
+ | Derived Flag 
+ | No 
+ | Char 
+ | 1 
+ | None 
+ | Clinical 
+ | LB 
+ | LBTOX 
+ | Toxicity 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | LB 
+ | LBTOXGR 
+ | Standard Toxicity Grade 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | DS 
+ | INFORMED_CONSENT_DATE 
+ | Informed Consent Date 
+ | No 
+ | Date 
+ | None 
+ | The date when the subject was given informed consent to participate in the study.
+ | Clinical 
+ | DS 
+ | SCREENING_DATE 
+ | Screening Date 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical 
+ | DS 
+ | SCREEN_FAILED_DATE 
+ | Screen Failed Date 
+ | No 
+ | Date 
+ | None 
+ | The date when the subject failed screening.
+ | Clinical 
+ | DS 
+ | ENROLLED_DATE 
+ | Enrolled Date 
+ | No 
+ | Date 
+ | None 
+ | The date of the subject's enrollment in the study. 
+ | Clinical 
+ | DS 
+ | EARLY_TERMINATED_DATE 
+ | Early Terminated Date 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical 
+ | DS 
+ | COMPLETED_DATE 
+ | Follow-Up Completed Date 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical 
+ | DS 
+ | RANDOMIZED_DATE 
+ | Randomization Date 
+ | No 
+ | Date 
+ | None 
+ | The date of the subject's randomization in the study. 
+ | Clinical 
+ | EG 
+ | EGSEQ 
+ | Sequence Number 
+ | No 
+ | Integer 
+ | 8 
+ | None 
+ | Clinical 
+ | EG 
+ | EGGRPID 
+ | Group ID 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | EG 
+ | EGREFID 
+ | ECG Reference ID 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | EG 
+ | EGSPID 
+ | Sponsor-Defined Identifier 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | EG 
+ | EGTESTCD 
+ | ECG Test Code 
+ | No 
+ | Char 
+ | 100 
+ | None 
+ | Clinical 
+ | EG 
+ | EGTEST 
+ | ECG Test 
+ | No 
+ | Char 
+ | 100 
+ | None 
+ | Clinical 
+ | EG 
+ | EGCAT 
+ | Category for ECG 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | EG 
+ | EGSCAT 
+ | Subcategory for ECG 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | EG 
+ | EGPOS 
+ | ECG Position of Subject 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | EG 
+ | EGBEATNO 
+ | ECG Beat Number 
+ | No 
+ | Integer 
+ | 8 
+ | None 
+ | Clinical 
+ | EG 
+ | EGORRES 
+ | Result or Finding in Original Units 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | EG 
+ | EGORRESU 
+ | Original Units 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | EG 
+ | EGSTRESC 
+ | Character Result/Finding in Std Format 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | EG 
+ | EGSTRESN 
+ | Numeric Result/Finding in Standard Units 
+ | No 
+ | Float 
+ | 8 
+ | None 
+ | Clinical 
+ | EG 
+ | EGSTRESU 
+ | Standard Units 
+ | No 
+ | Char 
+ | 12 
+ | None 
+ | Clinical 
+ | EG 
+ | EGSTAT 
+ | Completion Status 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | EG 
+ | EGREASND 
+ | Reason ECG Not Done 
+ | No 
+ | Char 
+ | 200 
+ | None 
+ | Clinical 
+ | EG 
+ | EGNAM 
+ | Vendor Name 
+ | No 
+ | Char 
+ | 100 
+ | None 
+ | Clinical 
+ | EG 
+ | EGMETHOD 
+ | Method of Test or Examination 
+ | No 
+ | Char 
+ | 100 
+ | None 
+ | Clinical 
+ | EG 
+ | EGLEAD 
+ | Lead Location Used for Measurement 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | EG 
+ | EGEVAL 
+ | Evaluator 
+ | No 
+ | Char 
+ | 100 
+ | None 
+ | Clinical 
+ | EG 
+ | EGEVALID 
+ | Evaluator Identifier 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | EG 
+ | EGREPNUM 
+ | Repetition Number 
+ | No 
+ | Integer 
+ | 8 
+ | None 
+ | Clinical 
+ | EG 
+ | EGTPT 
+ | Planned Time Point Name 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | EG 
+ | EGTPTNUM 
+ | Planned Time Point Number 
+ | No 
+ | Integer 
+ | 8 
+ | None 
+ | Clinical 
+ | EG 
+ | EGDAT 
+ | Date of ECG 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical 
+ | EG 
+ | EGTIM 
+ | Time of ECG 
+ | No 
+ | Char 
+ | 10 
+ | None 
+ | Clinical 
+ | QS 
+ | QSSEQ 
+ | Sequence 
+ | No 
+ | Integer 
+ | 8 
+ | None 
+ | Clinical 
+ | QS 
+ | QSGRPID 
+ | Group ID 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | QS 
+ | QSSPID 
+ | Sponsor-Defined Identifier 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | QS 
+ | QSTESTCD 
+ | Question Short Name 
+ | No 
+ | Char 
+ | 200 
+ | None 
+ | Clinical 
+ | QS 
+ | QSTEST 
+ | Question Name 
+ | No 
+ | Char 
+ | 200 
+ | None 
+ | Clinical 
+ | QS 
+ | QSCAT 
+ | Category of Question 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | QS 
+ | QSSCAT 
+ | Subcategory for Question 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | QS 
+ | QSORRES 
+ | Finding in Original Units 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | QS 
+ | QSORRESU 
+ | Original Units 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | QS 
+ | QSSTRESC 
+ | Character Result/Finding in Std Format 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | QS 
+ | QSSTRESN 
+ | Numeric Finding in Standard Units 
+ | No 
+ | Float 
+ | 8 
+ | None 
+ | Clinical 
+ | QS 
+ | QSSTRESU 
+ | Standard Units 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | QS 
+ | QSSTAT 
+ | Completion Status 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | QS 
+ | QSREASND 
+ | Reason Not Performed 
+ | No 
+ | Char 
+ | 200 
+ | None 
+ | Clinical 
+ | QS 
+ | QSEVAL 
+ | Evaluator 
+ | No 
+ | Char 
+ | 100 
+ | None 
+ | Clinical 
+ | QS 
+ | QSTPT 
+ | Planned Time Point Name 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | QS 
+ | QSTPTNUM 
+ | Planned Time Point Number 
+ | No 
+ | Integer 
+ | 8 
+ | None 
+ | Clinical 
+ | QS 
+ | QSDTC 
+ | Date of Finding 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical 
+ | DV 
+ | DVSEQ 
+ | Sequence Number 
+ | No 
+ | Integer 
+ | 8 
+ | None 
+ | Clinical 
+ | DV 
+ | DVREFID 
+ | Reference ID 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | DV 
+ | DVSPID 
+ | Sponsor-Defined Identifier 
+ | No 
+ | Char 
+ | 100 
+ | None 
+ | Clinical 
+ | DV 
+ | DVTERM 
+ | Protocol Deviation Term 
+ | No 
+ | Char 
+ | 200 
+ | None 
+ | Clinical 
+ | DV 
+ | DVDECOD 
+ | Protocol Deviation Coded Term 
+ | No 
+ | Char 
+ | 100 
+ | None 
+ | Clinical 
+ | DV 
+ | DVCAT 
+ | Category for Protocol Deviation 
+ | No 
+ | Char 
+ | 100 
+ | None 
+ | Clinical 
+ | DV 
+ | DVSCAT 
+ | Subcategory for Protocol Deviation 
+ | No 
+ | Char 
+ | 100 
+ | None 
+ | Clinical 
+ | DV 
+ | DVSTDTC 
+ | Start Date/Time of Deviation 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical 
+ | DV 
+ | DVENDTC 
+ | End Date/Time of Deviation 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical 
+ | AE 
+ | AETERM 
+ | Reported Term for the Adverse Event 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | AE 
+ | AESTDTC 
+ | Start Date/Time of Adverse Event 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical 
+ | AE 
+ | AEENDTC 
+ | End Date/Time of Adverse Event 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical 
+ | AE 
+ | AESER 
+ | Serious Event 
+ | No 
+ | Char 
+ | 2 
+ | Expected Values:
+- Y 
+- N 
+ | Clinical 
+ | SV,EG,QS,DV,SDV,QUERIES 
+ | SVSTDTC 
+ | Start Date/Time of Visit 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical 
+ | None 
+ | ACTARMCD 
+ | The Assigned Arm Code Field. 
+ | No 
+ | Char 
+ | 100 
+ | None 
+ | Clinical 
+ | None 
+ | AEACNOTH 
+ | Other Action Taken 
+ | No 
+ | Char 
+ | 2 
+ | None 
+ | Clinical 
+ | None 
+ | AECONTRT 
+ | Concomitant or Additional Treatment Given 
+ | No 
+ | Char 
+ | 100 
+ | None 
+ | Clinical 
+ | None 
+ | AERELNST 
+ | Relationship to Non-Study Treatment 
+ | No 
+ | Char 
+ | 2 
+ | None 
+ | Clinical 
+ | None 
+ | AESDISAB 
+ | Persistent or Significant Disability/Incapacity 
+ | No 
+ | Char 
+ | 2 
+ | None 
+ | Clinical 
+ | None 
+ | AESCONG 
+ | Congenital Anomaly or Birth Defect 
+ | No 
+ | Char 
+ | 2 
+ | None 
+ | Clinical 
+ | None 
+ | AESHOSP 
+ | Requires or Prolongs Hospitalization 
+ | No 
+ | Char 
+ | 2 
+ | None 
+ | Clinical 
+ | None 
+ | AESLIFE 
+ | Was the Adverse Event life threatening? 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | None 
+ | AETOXGR 
+ | Standard Toxicity Grade 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | None 
+ | BRTHDTC 
+ | The Subject's birth date. 
+ | No 
+ | Char 
+ | 2 
+ | None 
+ | Clinical 
+ | None 
+ | AEOUT 
+ | Outcome of Adverse Event 
+ | No 
+ | Char 
+ | 2 
+ | None 
+ | Clinical 
+ | None 
+ | AESDTH 
+ | Did the Adverse Event result in death? 
+ | No 
+ | Char 
+ | 2 
+ | None 
+ | Clinical 
+ | None 
+ | AESMIE 
+ | Do additional categories for seriousness apply? 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | None 
+ | ETHNIC 
+ | Subject Ethnicity 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | None 
+ | AEONGO 
+ | Adverse Event Ongoing? 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | None 
+ | AEACN 
+ | Action taken with Study Treatment 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | None 
+ | AELOC 
+ | Adverse Event Location 
+ | No 
+ | Char 
+ | 2 
+ | None 
+ | Clinical 
+ | None 
+ | AEREL 
+ | Causality 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | None 
+ | AESEV 
+ | Adverse Event Severity 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | None 
+ | AESOD 
+ | Did the Adverse Event occur with an overdose? 
+ | No 
+ | Char 
+ | 2 
+ | None 
+ | Clinical 
+ | None 
+ | DTHFL 
+ | Subject Death Flag 
+ | No 
+ | Char 
+ | 2 
+ | None 
+ | Clinical 
+ | None 
+ | RACE 
+ | Subject Race 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical 
+ | None 
+ | SEX 
+ | Subject's gender 
+ | No 
+ | Char 
+ | 2 
+ | None 
+ | Clinical Operational 
+ | SDV 
+ | DATA_ENTRY_COMPLETE_DATE 
+ | Data Entry Complete Date 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical Operational 
+ | SDV 
+ | DATA_ENTRY_START_DATE 
+ | Data Entry Start Date 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical Operational 
+ | SDV 
+ | FIELD_NAME 
+ | Field Name 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical Operational 
+ | QUERIES, SDV 
+ | FRM_NAME 
+ | Form Name 
+ | No 
+ | Char 
+ | 50 
+ | Specify the dataset's name. 
+ | Clinical Operational 
+ | QUERIES, SDV 
+ | FRM_RPT_KEY 
+ | Form Repeat Key 
+ | No 
+ | Integer 
+ | 8 
+ | None 
+ | Clinical Operational 
+ | QUERIES 
+ | QUERY 
+ | Query Text 
+ | No 
+ | Integer 
+ | 8 
+ | None 
+ | Clinical Operational 
+ | QUERIES 
+ | QUERY_ACTION 
+ | Query Action 
+ | No 
+ | Char 
+ | 50 
+ | Acceptable Values:
+- Open 
+- Answered 
+- Closed 
+- Forwarded 
+- Cancelled 
+ | Clinical Operational 
+ | QUERIES 
+ | QUERY_ACTION_DATETIME 
+ | Query Action Timestamp 
+ | No 
+ | Date 
+ | None 
+ | Date format must be:
+- yyyymmdd hh:mm:s 
+ | Clinical Operational 
+ | QUERIES 
+ | QUERY_ACTION_TEXT 
+ | Query Action Text 
+ | No 
+ | Char 
+ | 50 
+ | None 
+ | Clinical Operational 
+ | QUERIES 
+ | QUERY_CREATED_DATETIME 
+ | Query Creation Timestamp 
+ | No 
+ | Date 
+ | None 
+ | Date format must be:
+- yyyymmdd hh:mm:s 
+ | Clinical Operational 
+ | QUERIES 
+ | QUERY_OPEN_METHOD 
+ | Query Open Method 
+ | No 
+ | Char 
+ | 50 
+ | Expected values:
+- Manual 
+- Auto 
+ | Clinical Operational 
+ | QUERIES 
+ | QUERY_TYPE 
+ | Query Type 
+ | No 
+ | Char 
+ | 50 
+ | If Query_Open_Method is "'Manual', then the query type must be one of:
+- DataManagementToSite 
+- SiteMonitorToSite 
+- SafetyReviewerToSite 
+- DictionaryCodingToSite 
+- OtherToSite 
+- NonSiteQuery 
+ If Query_Open Method is 'Auto', then the query type must be:
+- QueryToSite 
+ | Clinical Operational 
+ | QUERIES 
+ | QUERYID 
+ | Query Identifier 
+ | No 
+ | Integer 
+ | 8 
+ | Query Identifier; the query's unique identifier, such as a system sequence number. 
+ | Clinical Operational 
+ | SDV 
+ | SDV_COMPLETE_DATE 
+ | SDV Complete Date 
+ | No 
+ | Date 
+ | None 
+ | None 
+ | Clinical Operational 
+ | SDV 
+ | SDV_COMPLETE_STATUS 
+ | SDV Completed Status 
+ | No 
+ | Char 
+ | 1 
+ | Acceptable Values:
+- Y or y – SDV is required and completed. 
+- N or n – SDV is required, but is not yet complete. 
+ You can also leave this field empty to denote that SDV is not required or completed.
+ | Study Master Data 
+ | LB 
+ | VISITNUM 
+ | Visit Number 
+ | No 
+ | Char 
+ | 50 
+ |

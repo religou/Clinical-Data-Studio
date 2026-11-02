@@ -1,0 +1,56 @@
+# Review Reports: Template Group's KRIs Template List Includes Numeric KRI Filter Criteria
+
+## Review Reports: Template Group's KRIs Template List Includes Numeric KRI Filter Criteria
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the releases history . 
+- For a summary of all features released, the released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Detect Landing Page > Library > Templates
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter :
+ When configuring custom numeric KRIs, you can build an expression to filter for the specific subset of data that you want the KRI to perform statistical analysis on. To learn more, see  RBQM Configuration: Configure Custom Numeric KRIs That Run Statistical Analysis on Specific Data Subsets .
+ In accordance with this functionality, when working in the Template Library, when you view a Template Group, the list of KRIs templates now includes a  Filter Criteria column. If there is an expression built for a custom numeric KRI, then the Filter Criteria column presents the expression in the list of KRI templates.
+ Benefit to Users 
+ | Adding the Filter Criteria column:
+- Supports and aligns the Template Library with the current custom numeric KRI configuration functionality. 
+- Provides comprehensive KRI details across studies. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Members of your organization who build studies or review data.
+ Impact to Workflow Processes 
+ No impact to the workflow process. 
+ Impact to Applications 
+ No impact to other applications. 
+ Impact on Interface 
+ In RBQM > Library > Templates: when you click a group name from the Template Library, and then click the Template Group window > KRIs tab, the KRIs table includes a new Filter Criteria column.
+ Tip : Click image to enlarge.
+ tip
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | 
+ Low
+ Learning Resource Updates 
+ | 
+ The following lists any new or added resources that support this change:
+- Updated Article: View, Add, and Manage Listing, Custom KRI, and QTL Template Groups 
+ Special Considerations 
+ |   To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

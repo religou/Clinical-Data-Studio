@@ -1,0 +1,28 @@
+# Configuration and Reporting: Derived Variables Enhancement Allows Selecting Type of Merge
+
+## Configuration and Reporting: Derived Variables Enhancement Allows Selecting Type of Merge
+## What Is New?
+Derived Variables now allows you to select the type of merge in the expression builder while creating Merge type derived variables.
+## What Is the Impact?
+## Users/Roles
+ All Detect users.
+## Workflow Process
+ Detect users with proper access can now preselect the type of merge intended to use instead of letting Detect assign the type of merge for newly created derived variables.
+## Other Applications
+ None.
+## How Do I Benefit?
+- Preselecting the type of merge while creating new derived variables, ensures that the Detect can perform its statistical analysis on study data. 
+- You can select the exact merge type and thus easily build data sets to use in Detect. 
+## Where Do I See the Change?
+ In Medidata Detect > Configuration and Reporting > Derived Variables > Create Derived Variable, when you select Merge as the derived variable type, a new Type of Merge list shows the following options:
+- SRPP to SRPP 
+- SRPP to MRPP 
+- MRPP to SRPP 
+- MRPP to MRPP 
+ If you view or copy an existing merge type derived variable, the Type of Merge field appears disabled. You can edit only the derived variable label.
+ Note : Detect does not validate the type of  merge you select. You must review and confirm the merge type carefully before you save. An incorrect derived variable configuration can cause the Detect workflow to fail. That is, Detect may not perform its statistical analysis on study data.
+ Where Do I Learn More? 
+ Use the following links to find new and updated content in support of the Enhancement:
+- Merge Variables to Data Sets 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,20 @@
+# Add Patient Information Tables to Designs Patient Profiles
+
+## Add Patient Information Tables to Designs Patient Profiles
+## Description
+ You can configure patient information tables to present data in one, two, or three columns and multiple rows. Patient information tables can include age, condition type, site, investigator name, or any other data point that is useful to identify the patient.
+## Affected Roles
+ All.
+## Advantages
+ See the Description section.
+## User Impact
+ On the Design page > Elements tab, you can:
+- Add patient information tables to designs; 
+- Configure element display conditions; 
+- Edit patient information table details:
+- Rename patient information tables, 
+- Rename variables, 
+- Change a variable's placement in the table, and 
+- Remove variables from tables. 
+## Special Considerations
+ None.

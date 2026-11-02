@@ -1,0 +1,123 @@
+# Refresh AI Reconciliation Report Data
+
+## Refresh AI Reconciliation Report Data
+ With proper  permissions , y ou can manually start an on-demand refresh,  or set up a scheduled refresh to reflect the latest study data in AI Reconciliation reports . Manual refreshes work independently of predefined automated schedules. 
+ Items already scheduled or queued for data refresh today disable automatically and are unavailable for selection for on-demand refreshes. 
+ Total daily refreshes combine both scheduled and on-demand refreshes. You can refresh each AI Reconciliation report up to two times each day manually. However, you can have only one scheduled refresh combining all the AI Reconciliation reports in a study. 
+ For more information, see scheduled refreshes .
+ Tip : We recommend refreshing AI Reconciliation before data cleaning to ensure the records captured in each AI Reconciliation report's findings are based on the most recent study data. 
+ Note : In Data Surveillance and RBQM, s tudy data automatically refreshes four times daily at approximately 9:00am (EST), 3:00pm (EST), 9:00pm (EST) and 3:00am (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, 5:00 am (EST) the same day, 11:00 am (EST) the same day, 5:00 pm (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Medidata Rave and activated datasets from Data Connect are available in 6 to 12 hours within Data Surveillance and RBQM. 
+## Refresh AI Reconciliation Data On-demand
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Reconciliation page shows. 
+- Click Refresh  from the top right corner of the page.
+A "Refresh is currently in progress" message appears. The AI Reconciliation reports show the most recent data from the study once the refresh is complete. The Current Refresh Date and Time show the latest refresh details.
+ Note : The Current Refresh Date and Time appear next to the Refresh Data button.
+ The individual refresh status appears next to the report name in the Conditions and Treatments tabs. The report refresh status also shows on the individual report. For example, if a report refresh failed, you must contact the administrator for further action. A single report can have any of the following four statuses.
+- –   In dicates the report failed to refresh. If you open the report, a Report Refresh Failed label shows next to the report name.  
+- – I ndicates the report was skipped during the data refresh process. This status may appear when required configurations for the report are missing. To learn more, see Required Configurations for AI Reconciliation Reports. You must contact your system administrator to update report configurations. 
+- – I ndicates the report refreshed successfully. If you open the report, it shows the timestamp when the data was last refreshed along with a Success label next to the report name.  
+- – Indicates the report is still refreshing. 
+## Refresh Data On A Fixed Schedule
+ You can set all AI Reconciliation reports to refresh data at a specified cadence by configuring a refresh schedule. For more information, see Configure Data Refresh .
+## View Refresh Schedule
+ You can view the details of the single scheduled refresh configured for AI Reconciliation reports.
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Reconciliation page shows. 
+- Click , the More icon at the top right corner of the page. 
+- Click View Schedule .
+The scheduled refresh appears. 
+## Create Refresh Schedule
+ You can only create one scheduled refresh per study. To create a new schedule you must delete an existing refresh schedule first. 
+- Click   View Schedule .
+The Refresh schedule page shows all the scheduled refreshes. For each schedule, the following appears:
+ Schedule Refresh Details 
+- Name – Title of the refresh. 
+- Frequency – Frequency at which refresh occurs. of the refresh. 
+- Last Edited B y – The user who last edited the refresh schedule. 
+- Access Data Surveillance , and then click   AI Reconciliation   in the left-hand menu.
+The AI Reconciliation page shows. 
+- Click Approved AI Reconciliation. 
+- Click   , the   More   icon at the top right corner of the page. 
+- Click Create Schedule from the top right corner of the page. 
+- Complete the following fields as needed.
+ Table Column Descriptions 
+- Title – Read-only; non-editable.  T itle for the scheduled refresh. 
+- Frequency – Select the cadence at which the scheduled refresh. 
+- None – Saves the items in the scheduled refresh as a group. You can add frequency later as needed. 
+- Daily – Runs the scheduled refresh daily. 
+- Weekly – Runs the scheduled refresh weekly. You must further select the day. 
+- Biweekly – Runs the scheduled refresh every other week. You must further select the day.  
+- Monthly – Runs the scheduled refresh once a month. You must further select the day: 
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Bimonthly – Runs the scheduled refresh once every two months. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Quarterly – Runs the scheduled refresh once every quarter. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month .  
+- Click Save Schedule .
+ Note: All eight reports are selected in the scheduled refresh by default. 
+## Edit Refresh Schedule
+ For AI Reconciliation, you can only edit the frequency that the scheduled refresh occurs in.
+ Note : Both the name and the reports included are non-editable as all eight AI Reconciliation reports in the study refresh in a single schedule. 
+- Access Data Surveillance , and then click   AI Reconciliation   in the left-hand menu.
+The AI Reconciliation page shows. 
+- Click   View Schedule .
+The Refresh schedule page shows the scheduled refresh. 
+- Click   , the   More   icon from the top right corner of the schedule. 
+- Click Edit .  
+- Update the following fields as needed.
+ Table Column Descriptions 
+- Title – Read-only; non-editable.  T itle for the scheduled refresh. 
+- Frequency – Select the cadence at which the scheduled refresh. 
+- None – Saves the items in the scheduled refresh as a group. You can add frequency later as needed. 
+- Daily – Runs the scheduled refresh daily. 
+- Weekly – Runs the scheduled refresh weekly. You must further select the day. 
+- Biweekly – Runs the scheduled refresh every other week. You must further select the day.  
+- Monthly – Runs the scheduled refresh once a month. You must further select the day: 
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Bimonthly – Runs the scheduled refresh once every two months. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Quarterly – Runs the scheduled refresh once every quarter. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month.   
+- Click Save Schedule . 
+## Delete Schedule
+ If a refresh schedule is no longer required, you can delete it.
+- Access Data Surveillance , and then click   AI Reconciliation   in the left-hand menu.
+The AI Reconciliation page shows.  
+- Click  , the More icon next to the Refresh button. 
+- Click   View Schedule . 
+- Click   , the   More   icon from the top right corner of the schedule. 
+- Click Delete . 
+- A Delete Schedule message appears.
+ Note : You cannot undo deletion. We recommend deleting schedules only if needed.
+- Click Delete.
+ The refresh schedule is deleted. 
+## View Refresh History
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Reconciliation page shows. 
+- Click , the More icon at the top right corner of the page. 
+- Click Refresh History .
+The page shows both on demand and scheduled refreshes for all AI reconciliation reports.
+ Field Details 
+- Refresh Date – Date and time when refresh started. 
+- Refresh Type – Scheduled or On-demand. For scheduled refreshes, the refresh cadence also appears. 
+- Snapshot Date – Date and time for the data snapshot.  
+- Refreshed By – Person who started the refresh.

@@ -1,0 +1,24 @@
+# Detect Landing Page: PDS Module Card Provides Access to Stacked Datasets and Vendor Configuration
+
+## Detect Landing Page: PDS Module Card Provides Access to Stacked Datasets and Vendor Configuration
+## What Is New?
+ The Medidata Detect Landing Page > Configuration and Reporting card now includes hyperlinks enabling you to access Stacked Datasets configuration and Vendor Configuration.
+## What Is the Impact?
+## Users/Roles
+ All D etect users with Detect Configuration Manager access.
+## Workflow Process
+ No changes to the workflow process. 
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ You can quickly access Stacked Datasets configuration and Vendor Configuration directly from the Detect Landing Page. 
+## Where Do I See the Change?
+ The Detect Landing Page > Configuration and Reporting card.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Stacked Datasets 
+- Vendor Configuration 
+- Vendor Issues 
+## What Else Should I Know?
+ To view the Stacked Datasets hyperlink and Vendor Configuration hyperlink, you require the View Stacked Datasets building block and Manage Vendor Configuration building block assigned to your role in Detect, respectively. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

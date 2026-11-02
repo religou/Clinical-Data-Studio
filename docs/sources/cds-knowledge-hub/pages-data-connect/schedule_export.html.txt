@@ -1,0 +1,29 @@
+# Schedule Export
+
+## Schedule Export
+ After selecting or reviewing datasets extract , you land on the export's Schedule screen. You can set exports to run immediately, schedule exports to run at a future date, or schedule exports to repeat at a regular frequency.  
+ Repeating options differ by data type. For a table comparing the data types, see  Export Configuration Compatibility by Data Type . 
+## Configure Export Run Schedule
+- From the Schedule screen, select a schedule for export execution: 
+- 
+ Run Immediately 
+ The export only runs once, and executes now. Exports run immediately by default. 
+- 
+ Run Once (Scheduled) 
+ The export runs once at the selected time. Exports stores the date and time as UTC, and shows the date and time in your local time.
+- Select a date and time in to run the export. 
+- 
+ Repeats 
+ The export repeats that the defined interval:
+- Minutely – The export runs each minute, starting from the start date and time.
+ Note : The Hourly frequency is only available for the Data Connect data type.
+- Hourly – The export runs each hour, starting from the start date and time.  The hour menu starts at the upcoming hour.
+ Note : The Hourly frequency is only available for the Audit or CTMS data types.
+- Daily – The export runs at the selected hour each day, starting from the start date.  The hour menu starts at the upcoming hour. 
+- Weekly  – The export runs on the selected hour on the selected days of every week.  The export first executes on the next selected day and hour on or after the scheduled start date. 
+- Monthly  –   The export runs at the selected date and hour each month. exports only run  on the months containing that date. 
+- Last day of month  –   The export runs at the selected hour on the last day of each month. This option ensures that exports run on the last day of every month, irrespective of the number of days in the month.
+ Important : There are no options to delete exports. Therefore, select an end date for any repeating export.
+- Click Continue to go to the Data Export Type screen. 
+## Next Step
+ Set Data Export Type

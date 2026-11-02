@@ -1,0 +1,36 @@
+# Review Reports User Interface Enhancements
+
+## Review Reports User Interface Enhancements
+## What Is New?
+ Review Reports includes the following user interface enhancements:
+- On the Review Reports page > Reports list:
+- The table's scrollbars are adjusted to fit the tables correctly. 
+- The page background color is now a soft gray. 
+- The Items field, which shows the count of reports in the Reports list, is relabeled to Reports. 
+- Reports names in the Name column are clickable links, which, when clicked, direct you to the Report Details subpage for that report. 
+- The text size of report entries in the list is reduced. 
+- On the Review Reports page > Report Details subpage:
+- When resizing columns, you can click-and-drag the column header border in line with the column header text. 
+- When adding new entries, the menus in each column are no longer truncated. 
+- Column widths have a fixed minimum width when reducing the size of column widths.  
+- The text size of entry details in the entry list is reduced. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Review Reports user interface enhancements:
+- Aligns the Review Reports design to be stylistically consistent with all other Detect modules and tools. 
+- Provides quality of life improvements when interacting with the report and report entry tables. 
+## Where Do I See the Change?
+ You can see the user interface updates on:
+- The Review Reports page > Reports list 
+- The Review Reports page > Report Details subpage. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+ Review Reports 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

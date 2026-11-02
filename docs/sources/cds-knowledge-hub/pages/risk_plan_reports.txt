@@ -1,0 +1,7 @@
+# Risk Plan Reports
+
+## Risk Plan Reports
+ Risk Management includes the following risk plan report-related capabilities:
+- Quality Tolerance Limit Summary Report 
+- Risk Plan Reporting 
+- User Interface Changes to the Risk Plan Report

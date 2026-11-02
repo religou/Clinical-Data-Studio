@@ -1,0 +1,9 @@
+# Edit Export
+
+## Edit Export
+ You can update export configurations. Updating an export creates another export version a fter updating an export. Future export executions reflect the most recent export version. You can update parameters such as: data type, scheduling frequency, and file type. 
+- Access Data Connect , and click   Exports   in the left-hand menu to land on the Exports screen.
+ Note : You can only see the exports you created unless you have Super User permission that allows you to see all exports in the study group. For details, see Data Connect Roles and Capabilities . 
+- Identify an export to update, and click the Options icon >  Edit . 
+- The edit export wizard appears with prefilled fields based on the current configuration. The edit wizard follows the same workflow as the export creation wizard on which you can update fields as necessary.
+ Tip : You can also edit an export by clicking Edit from its Configuration screen.

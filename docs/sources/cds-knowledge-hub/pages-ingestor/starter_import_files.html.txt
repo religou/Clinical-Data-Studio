@@ -1,0 +1,148 @@
+# Starter Import Files
+
+## Starter Import Files
+ The following table contains starter files that you can download and edit for importing data. They also serve as examples of properly configured files. For details about importing files for a given data type, see Import Data . For details on data file standards for a given data type, see  Import File Standards .
+ Note : When applicable, the External EDC Clinical Data sample files follow the field names as defined in the Fields sample file.
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Import Type 
+ Application Use Case 
+ Data Set 
+ Download Link 
+ | Study Design Metadata 
+ | Medidata CTMS / Detect 
+ | Fields 
+ | 
+ MY_STUDY_sdm_fields.csv 
+ | Study Design Metadata 
+ | Medidata CTMS / Detect 
+ | SOA 
+ | 
+ MY_STUDY_sdm_soa.csv 
+ | Study Design Metadata 
+ | Medidata CTMS / Detect 
+ | Datasets 
+ | 
+ MY_STUDY_sdm_datasets.csv 
+ | Study Design Metadata 
+ | Medidata CTMS / Detect 
+ | Visits 
+ | 
+ MY_STUDY_sdm_visits.csv 
+ | External EDC Clinical Data 
+ | Medidata CTMS 
+ | Queries 
+ | 
+ QUERIES-MY_STUDY.csv 
+ | External EDC Clinical Data 
+ | Medidata CTMS 
+ | Combined File Containing:
+- Subject Visits (SV) 
+- Source Data Verification (SDV) 
+ | 
+ SV-MY_STUDY.csv 
+ | External EDC Clinical Data 
+ | Medidata CTMS 
+ | Subject Disposition (DS) 
+ | 
+ DS-MY_STUDY.csv 
+ | External EDC Clinical Data 
+ | Medidata CTMS 
+ | Adverse Events (AE) 
+ | 
+ AE-MY_STUDY.csv 
+ | External EDC Clinical Data 
+ | Detect 
+ | Queries 
+ | QUERIES-DetectKRIs_Sample.csv 
+ | External EDC Clinical Data 
+ | Detect 
+ | SV 
+ | SV-DetectKRIs_Sample.csv 
+ | External EDC Clinical Data 
+ | Detect 
+ | DS 
+ | DS-DetectKRIs_Sample.csv 
+ | External EDC Clinical Data 
+ | Detect 
+ | AE 
+ | AE-DetectKRIs_Sample.csv 
+ | CTMS Data 
+ | Medidata CTMS 
+ | Enrollment Planning Country 
+ | EnrollmentPlanningCountry_Sample.csv 
+ | CTMS Data 
+ | Medidata CTMS 
+ | Enrollment Metrics 
+ | EnrollmentMetrics_sample.csv 
+ | CTMS Data 
+ | Medidata CTMS 
+ | Service Providers 
+ | 
+ ServiceProviders_sample.csv 
+ | CTMS Data 
+ | Medidata CTMS 
+ | Tasks 
+ | 
+ Tasks_sample.csv 
+ | CTMS Data 
+ | Medidata CTMS 
+ | Issues 
+ | 
+ Issues_sample.csv 
+ | CTMS Data 
+ | Medidata CTMS 
+ | Actions 
+ | 
+ Actions_sample.csv 
+ | Study Master Data 
+ | Platform 
+ | Client Division Organizations with Addresses 
+ | CDOwithAddresses_Sample.csv 
+ | Study Master Data 
+ | Platform 
+ | Client Division People with Addresses 
+ | CDPWithAddresses_sample.csv 
+ | Study Master Data 
+ | Platform 
+ | Study Environment Sites with Addresses 
+ | StudyEnvironmentSiteWithAddresses_sample.csv 
+ | Study Master Data 
+ | Platform 
+ | Team Membership Details 
+ | TeamMembershipDetails_sample.csv 
+ | Study Master Data 
+ | Platform 
+ | Team Member Contact Details 
+ | TeamMemberContactDetails_sample.csv 
+ | External EDC Patients Data 
+ | Platform 
+ | 
+ None; inactivates the patient from the site. This does not delete the Patient ID, and you can reactivate the patient as necessary using the Create Patients CSV file
+ | patients_delete.csv 
+ | External EDC Patients Data 
+ | Platform 
+ | None; this creates a patient on the Medidata platform and activates it for the site 
+ | patients_create.csv

@@ -1,0 +1,19 @@
+# Percentage KRI Configuration Risk Threshold Edit Checks
+
+## Percentage KRI Configuration Risk Threshold Edit Checks
+## Description
+ When creating or modifying a percentage KRI, KRI Configuration prompts an error message if you try to enter an integer between 1-100 or a noninteger for Moderate Risk Threshold and High Risk Threshold.
+## Affected Roles
+ Users with Manage KRI Configuration permissions. 
+## Advantages
+ Entering only integers between 1-100 for Moderate Risk Threshold and High Risk Threshold maintains consistency between the functionality for QTL Configuration and improves system stability.
+## User Impact
+ In the Detect Configuration Manager > KRI Configuration > Custom Percentage KRI dialog, if you select User Defined from the Threshold Type field, then the Moderate Risk Threshold and High Risk Threshold fields appear. The Moderate Risk Threshold and High Risk Threshold fields include two enhancements:
+- Each field contains the following instructional text: "Enter integer value from 1-100" 
+- If you enter a value outside of the range of 1-100 or if you enter a noninteger value, then Detect prompts an error message.  
+## Knowledge Hub Updates
+ The Medidata Detect Knowledge Hub provides new and updated content to support this enhancement: 
+- Add and Edit Custom Numeric and Percentage KRIs 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

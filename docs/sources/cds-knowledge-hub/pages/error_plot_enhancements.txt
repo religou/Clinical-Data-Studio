@@ -1,0 +1,20 @@
+# Error Plot Enhancements
+
+## Error Plot Enhancements
+## Description
+ The Error Plots page now includes the following  high-level performance-related metrics pertaining to the selected variable: 
+- Total # of Outliers  – The total number of distinct data points that are considered outliers for the selected variable. 
+- % of Outliers  – The percentage of all the domain set's outliers that are associated with the selected variable. 
+- Mean Score Overall  – The selected variable's overall mean discrepancy score for all data points. 
+- More Score Outliers  –  The mean discrepancy score for data points that are outliers in the selected variable. 
+ In addition, when viewing error plots that apply Text Analysis or Text Versus Text Analysis, the y-axis label now displays as Discrepancy Score.
+## Affected Roles
+ All.
+## Advantages
+ The high-level performance-related metrics summarize the variable's performance across all the error plot analyses for that variable. These metrics allow you to view and understand the overall variable's performance prior to drilling into the specific error plots. 
+ Updating the y-axis label on text analysis plots  ensures a consistent look and feel across text analysis plots. 
+## User Impact
+ The high-level performance-related metrics on the  Error Plots page display  next to the plot list. 
+ Text analysis plots and text versus text analysis plots display a y-axis labeled as Discrepancy Score.
+## Special Considerations
+ None.

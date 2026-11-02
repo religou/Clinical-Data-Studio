@@ -1,0 +1,14 @@
+# System Error for Active Studies with Name Edits
+
+## System Error for Active Studies with Name Edits
+ Editing a study name in Cloud Administration after the study becomes active causes system errors in Data Connect . 
+## Symptoms
+ Downstream services in Data Surveillance and other Clinical Data Studio capabilities experience errors or fail to process data . 
+## Causes
+ You edited the study name after the study reached an active state . 
+ Important : Medidata does not support editing study names after you create study artifacts in Data Connect, such as projects, templates, imports, exports, custom code, or datasets. 
+## Diagnostic
+ Review the study status to verify if it is active. Review the study history to verify if you edited the study name after creating study artifacts. 
+## Resolution
+- Please contact Medidata Support.
+ Important : Do not edit study names after a study becomes active.

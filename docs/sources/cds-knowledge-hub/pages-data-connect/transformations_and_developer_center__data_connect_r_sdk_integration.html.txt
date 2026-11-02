@@ -1,0 +1,29 @@
+# Transformations and Developer Center: Data Connect R SDK Integration
+
+## Transformations and Developer Center: Data Connect R SDK Integration
+ Important : This feature is available as a limited release for selected users.
+## What Is New?
+ The Data Connect R SDK (Software Development Kit) is now available as a limited release to enable integration with R. With this capability, statisticians and programmers can access and manipulate datasets through  RStudio to publish back into Data Connect. 
+ To support this, Transformations includes the new Custom Code project type to host datasets published from R. In addition, Data Connect now includes Developer Center, from which you can generate authentication tokens.  
+ The new Manage Custom Code Projects building block grants access to Developer Center and the ability to create Custom Code projects in Transformations.
+## What Is the Impact?
+## Users/Roles
+ Statisticians and Programmers who use R.
+## Workflow Process
+ No impact to the workflow process. This is a new capability.  However, if you intend to publish datasets transformed in RStudio into Data Connect, you must create a Custom Code project in Transformations to host the change and generate a project token.   
+## Other Applications
+ RBQM and Data Surveillance has the following restrictions for custom code datasets:
+- You cannot submit queries on datasets transformed by custom code. 
+- You cannot use these datasets for derived variables, stake datasets, and event analysis mapping. However, you can use these datasets for listings, KRIs, QTLs, critical data, and self-service visualization. 
+## How Do I Benefit?
+ The R SDK enables R integration with Data Connect, saving you time and effort integrating with new data sources. With this, you can use your existing R infrastructure and tools for advanced manipulation.
+## Where Do I See the Change?
+- Data Connect > Transformations – You can create the Custom Code project type. 
+- Data Connect – You can select the Developer Center tab. 
+- Data Surveillance – You can find custom code datasets in the Custom Code category. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Developer Center (new) 
+- Generate Custom Code Projects 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

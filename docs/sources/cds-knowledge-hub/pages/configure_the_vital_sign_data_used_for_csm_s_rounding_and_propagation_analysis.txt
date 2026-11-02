@@ -1,0 +1,27 @@
+# Configure the Vital Sign Data Used for CSM's Rounding and Propagation Analysis
+
+## Configure the Vital Sign Data Used for CSM's Rounding and Propagation Analysis
+## Description
+ You can configure the vital sign data sets and collection date variables that Detect consumes to analyze and visually output the sites that may be rounding and propagating vital sign records. To learn more about rounding and propagation, see Rounding and Propagation Analysis .
+ You can also optionally further specify and configure the procedure name, procedure value, and category that Detect analyzes.
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ Rounding and Propagation Configuration provides a simple, centralized workspace where you can quickly configure the specific vital sign data that you want Detect to analyze.
+## User Impact
+ Detect Configuration Manager > CSM Configuration now includes the Rounding and Propagation tab. You can click this tab to view the Rounding and Propagation Configuration table. You can use this table to select enter or select the following information, which Detect uses to run its vital sign rounding and propagation analysis on:
+- Reference Name – A custom name to help you easily identify the data set configured for analysis. Detect does not include the Reference Name in its analysis. 
+- Data Set – The vital sign data set that you want Detect to use to run its rounding and propagation analysis on. 
+- Collection Date – The date variable for the date in which the vital sign collection took place that you want Detect to run its rounding and propagation analysis on. 
+- Procedure Name – Optional . The name of the test done that collected the vital sign records. Procedure Name is only selectable when you toggle the Pivot button on. 
+- Procedure Value – Optional . The values collected in the procedure name's fields. Procedure Value is only selectable when you toggle the Pivot button on. 
+- Category – Optional . A subset of the vital sign being collected, such as respiratory vital signs, body vital signs, and so on. Category  is only selectable when you toggle the Pivot button on. 
+ You can also choose to pivot the data that Detect analyzes. Toggling the Pivot button on enables Detect to consume and analyze and Procedure Name, Procedure Value, or Category selections you optionally choose.
+ You can click Add Vital to configuration additional vital sign data that you want Detect to analyze.
+## Knowledge Space Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support this feature: 
+- Map Vital Sign Data for Rounding and Propagation Analysis 
+## Special Considerations
+ If you do not set up the rounding and propagation configuration, you cannot view the rounding and propagation heatmaps in CSM.
+ You most likely do not need to pivot data ingested from Rave EDC.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

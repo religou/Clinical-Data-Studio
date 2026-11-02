@@ -1,0 +1,10 @@
+# Import File Standards
+
+## Import File Standards
+ To ensure successful file importing into Ingestor, the imported files must adhere to file name and type standards. The following pages list the file standards and considerations for each data type available for upload with Ingestor: 
+- Medidata CTMS Data File Standards 
+- External EDC Standard Concepts 
+- Study Design Metadata File Standards 
+- Study Master Data File Standards 
+ For a list of starter files that you can download and edit, see  Starter Import Files .
+ Once you prepared the files of a given import job type, you can upload them to the Medidata Data Fabric with the corresponding import job. For details on creating import jobs and the available job types, see Data Loading with Import Jobs .

@@ -1,0 +1,24 @@
+# Datasets and Transformations: Ability to Reuse SDTM Configurations
+
+## Datasets and Transformations: Ability to Reuse SDTM Configurations
+## What Is New?
+ Users can now  copy the STDM mapping configuration from another study within in the same study group. 
+## What Is the Impact?
+## Users/Roles
+ All
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other Applications.
+## How Do I Benefit?
+ The new feature significantly reduces the time and effort put to configure a study by importing a mapping from a similar one. 
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Transformation tab. 
+- Select an SDTM transformation project > + Domain button. Select a domain from the list. 
+- Click the More icon > Import Mapping from Another Project.  
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:  
+- Generate SDTM-like Datasets 
+## What Else Should I Know?
+ When reusing configurations, the copy only carries over mapping configurations. It does not copy manually-entered values, controlled terms, or transformation instructions. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

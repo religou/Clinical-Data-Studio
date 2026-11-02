@@ -1,0 +1,29 @@
+# Data Import from SFTP Locations
+
+## Data Import from SFTP Locations
+## Description
+ You can now configure import jobs to retrieve data files from SFTP locations. You must define an input folder path to receive files from and an output folder path to place Ingestor's post-processing files. Every 30 minutes, MEDS Ingestor imports the files from the Input File Path and exports various status files to the output folder path. When applicable, the exported files include processing files such as error lists, reconciliation reports, and success logs.
+ In addition, SFTP details appear on each page containing import job details, including the Jobs List page and the Job Configuration page.
+ Feature/enhancement stories referenced in this article:
+ MCC-742594, MCC-789541, MCC-791549, MCC-739607, MCC-742610, MCC-739611, MCC-645295, MCC-785967, MCC-739610, MCC-739608, MCC-748772, MCC-766160, MCC-788242, MCC-803365 
+## Affected Roles
+ All.
+## Advantages
+ With SFTP import, you have more flexibility in how to import data files onto the Medidata platform. Once you configure an import job to use an SFTP location, you only need to manage the connection, and do not need to search for files or manage file output. Moreover, you can retrieve and place files in a secure location that automatically updates without manual intervention. In addition, you can import large data files more consistently over SFTP instead of a browser since there is no concern from time-out errors or other issues.
+## User Impact
+ While creating import jobs, you can configure the job's SFTP settings at the SFTP Settings step. After clicking the SFTP toggle, you can set the import job's  SFTP Location, input folder path, and output folder path. After creating the import job, MEDS Ingestor imports the files from the input folder path every 30 minutes. The  various status files appear in the output folder path as they become available.
+ You can also edit a job's SFTP settings from the job's Job Configuration page. 
+## Knowledge Space Updates
+ The MEDS Ingestor Knowledge Space provides new and updated content to support this feature/enhancement: 
+- Create Import Job for CTMS Data  (updated) 
+- Create Import Job for Clinical Data from External EDC Sources  (updated) 
+- Create Import Job for Study Design Metadata Files  (updated) 
+- Create Import Job for Study Master Data  (updated) 
+- Review Job Configuration Details (updated) 
+- Update Job Configuration Details (updated) 
+- Configure External File Locations for Imports (new) 
+- Add SFTP Locations (new) 
+- Edit SFTP Locations  (new) 
+- Test SFTP Locations (new) 
+## Special Considerations
+ To configure the list of SFTP locations, you must use MEDS Extractor. To access MEDS Extractor and use its SFTP configuration capability, your platform role must include the Extractor Admin building block. For details, see  Grant Access to Extractor  and Extractor Roles and Permissions .

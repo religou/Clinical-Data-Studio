@@ -1,0 +1,21 @@
+# PDS: No Default Marking Group Selected When Submitting Rave Queries on Data Listing Records
+
+## PDS: No Default Marking Group Selected When Submitting Rave Queries on Data Listing Records
+## What Is New?
+When submitting queries on data listing records, the Submit Queries window no longer has Site to DM as the default marking group selection.
+## What Is the Impact?
+## Users/Roles
+ Data managers
+## Workflow Process
+ When submitting queries on data listing records, you must select the marking group that you want to send the queries to. There is no longer a default marking group selection.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Removing the default marking group selection ensures that you select the correct marking group when submitting queries.
+## Where Do I See the Change?
+ On the Data Reviewer > Data Listings page > Approved Listings tab: When you select a Rave-enabled approved listing, select one or more records from the listing's results table, and then click Submit Queries, then the Submit Queries window > Marking Group menu has no default selection. You can click the Marking Group menu, and then select the marking group that you want to send your queries to. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Review an Approved Listing's Results 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

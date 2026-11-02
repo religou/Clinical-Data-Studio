@@ -1,0 +1,22 @@
+# Data Surveillance: Access Patient Profiles Directly From RECIST 1.1 Dashboard
+
+## Data Surveillance: Access Patient Profiles Directly From RECIST 1.1 Dashboard
+## What Is New?
+You can access patient profile designs directly from the Tumor Burden Response by Patient table on the RECIST 1.1 dashboard.
+## What Is the Impact?
+## Users/Roles
+ Study Managers, Medical Monitors, and Data Managers.
+ All users with access to the Data Surveillance module.
+## Workflow Process
+ You can access Patient Profiles directly from the RECIST 1.1 dashboard.
+## Other Applications
+ The RECIST 1.1 dashboard works only if you configure data sets and variables in Data surveillance or RBQM > Configuration > Data Mapping > Oncology > Oncology Mapping. Source and target variables you configure in Oncology Mapping populate the RECIST 1.1 dashboard and the tumor burden response by patient table. For more information, see Configuration and Reporting: Map Data Sets and Variables for the RECIST 1.1 Dashboard .
+## How Do I Benefit?
+ You can cross-check the profile design associated with a patient ID for specific patient-related details in Patient Profiles from within the RECIST 1.1 dashboard.
+## Where Do I See the Change?
+ On the Data Surveillance > Oncology > RECIST 1.1 page, if you click the patient ID hyperlink in the Patient ID column in the Tumor Burden Response by Patient table, a browser tab shows the corresponding patient''s profile design in Patient Profiles.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Review RECIST 1.1 Dashboard Findings . 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

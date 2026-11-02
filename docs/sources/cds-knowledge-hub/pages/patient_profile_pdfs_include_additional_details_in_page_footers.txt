@@ -1,0 +1,16 @@
+# Patient Profile PDFs Include Additional Details in Page Footers
+
+## Patient Profile PDFs Include Additional Details in Page Footers
+## Description
+ From the Reports page, when you export a patient profile , every page in the PDF now includes  a footer that displays: 
+- when the PDF was printed (generated), 
+- when the design was last updated, and 
+- who last updated the design. 
+## Affected Roles
+ All.
+## Advantages
+ Showing the PDF print date and last updated timestamp helps you track whether the PDF's contents include the most recent study data. Showing who last updated the design lets readers know who to contact with any questions. Including these additional details also helps with auditing purposes.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

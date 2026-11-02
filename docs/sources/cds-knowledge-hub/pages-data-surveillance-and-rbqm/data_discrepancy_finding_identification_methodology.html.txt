@@ -1,0 +1,15 @@
+# AI Reconciliation Report Data Discrepancy Identification Methodology
+
+## AI Reconciliation Report Data Discrepancy Identification Methodology
+ In AI Reconciliation, a condition is an adverse event that occurs after patients enroll in a study. A treatment is the medication or procedure patients take in response to a condition in the same study. This article focuses on how the AI Reconciliation algorithm works for the Treatment Without Conditions and the Conditions without Treatments and Ongoing MH reports. 
+ Patients take treatments in response to a condition when a condition  expects a treatment. The AI Reconciliation algorithm identifies conditions that expect treatments, and do not have corresponding treatments. A condition and treatment are a pair if the treatment treats the condition, and the start date of the treatment lies within the timeframe of the condition starting and ending. A treatment treats a condition if the indication for the treatment matches the condition, or if the algorithm can deduce that the treatment treats the condition using the medication-indication table.
+ Components used to calculate Confidence in the Conditions Without Treatments and Treatments without Conditions or Ongoing MH reports are as follows:
+ Conditions Without Treatments 
+- 
+ Condition Without Treatments Algorithm Methodology 
+ Treatments Without Conditions and Ongoing MH 
+- 
+ Treatments Without Conditions and Ongoing MH Algorithm Methodology 
+ Knowledge Graph 
+- 
+ AI Reconciliation Knowledge Graph

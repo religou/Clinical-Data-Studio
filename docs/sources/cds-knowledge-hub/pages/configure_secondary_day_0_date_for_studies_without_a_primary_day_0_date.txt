@@ -1,0 +1,18 @@
+# Configure Secondary Day 0 Date For Studies Without a Primary Day 0 Date
+
+## Configure Secondary Day 0 Date For Studies Without a Primary Day 0 Date
+## Description
+ Patient profile designers can now define a primary day zero date and a secondary day zero date. Therefore, if a patient does not reach the primary day zero date, then CSA's analytics references the secondary day zero date, if configured. All date-related analyses are then accounted for based on the patient's secondary day zero date.
+## Affected Roles
+- Patient profile designers 
+## Advantages
+ In previous Patient Profiles Cloud releases, patient profile designers could only configure a single day zero date when defining a design's date settings. Consequently, if a patient did not reach the day zero date, then CSA's analytics would not account for and analyze date-related data from that patient's profile. Such data may include visit dates, min AE start, max CM end, slope, intercept, and so on.
+ Now you can configure a primary day zero date and a secondary day zero date. So even if a patient does not reach the primary day zero date, CSA's analytics still accounts for and analyzes date-related patient profile data for patients based on the secondary day zero date, if configured.
+ For example, in previous releases, you may have designed a study so that Visit 1 was set as your study's day zero date. Your study may also have had a Screening Visit that occurred before Visit 1. Therefore, a patient may have attended the Screening Visit and not Visit 1. In which case, CSA's analytics would not have accounted for and analyzed date-related data in that patient's profile because the patient did not reach the day zero date (Visit 1).
+ Now you can configure Visit 1 as your primary day zero date and the Screening Visit as the secondary day zero date. So if a patient does not reach Visit 1 but participated in the Screening Visit, that patient's date-related profile data still gets accounted for and analyzed by CSA's analytics.
+## User Impact
+- The Settings page > Design Options tab now includes a Primary Day Zero Date section and a Secondary Day Zero Date section. 
+- If you configure a secondary day zero date, the secondary day zero date and its corresponding visit name display on the design report on the Reports page. 
+## Special Considerations
+- You still must configure a primary day zero date for your study design. However, configuring a secondary day zero date is not required. 
+- You cannot configure a secondary date zero date without first configuring a primary day zero date.

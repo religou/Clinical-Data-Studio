@@ -1,0 +1,30 @@
+# Detect Landing Page Includes the Insights Module Card
+
+## Detect Landing Page Includes the Insights Module Card
+## What Is New?
+ The Medidata Detect Landing page now includes the Insights card. The Insights card enables you to access the Insights module and its functionalities. The Insights card also provides a visualization with high-level metrics depicting the proportion of clean and unclean patients currently in your study.
+## What Is the Impact?
+## Users/Roles
+ All. 
+## Workflow Process
+ No changes to the workflow process.
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ The Insights card provides the following benefits: 
+- You can quickly access the Insights module and its functionalities— Clean Patient Tracker and Open Queries —directly from the Detect Landing Page. 
+- You can get a quick look into the current high-level metrics regarding the cleanliness of the patient data in your study. 
+## Where Do I See the Change?
+ The Detect Landing Page.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- About Insights 
+- Clean Patient Tracker 
+- Access and View Clean Patient Tracker 
+- View Open and Answered Query Records 
+## What Else Should I Know?
+ An admin must associate the View Clean Patient Tracker building block to a role in your Cloud Administration study group so that you can: 
+- Access and View Clean Patient Tracker 
+- View Open and Answered Query Records 
+ Otherwise, the links on the Detect Landing Page > Insights card show as inactive.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,20 @@
+# Editable Import Job Configurations
+
+## Editable Import Job Configurations
+## Description
+ Y ou can use MEDS Ingestor to update job details on each job's Job Configuration page. Editable job details include the job name and completion status of the job. For some job types, such as external EDC jobs, you can edit additional details. 
+ Tip : Click image to enlarge.
+ Feature/enhancement stories referenced in this article:
+ MCC-756835, MCC-754107 
+## Affected Roles
+ All.
+## Advantages
+ With editable job configurations, you can reconfigure your import jobs, allowing you to correct errors or manage completed import jobs.
+## User Impact
+ On MEDS Ingestor's Files page, you can click the  Job Configruation   tab to open the Job Configuration page. 
+ Tip : Click image to enlarge.
+ You can also access the Job Configuration page by clicking the gear icon from the Jobs List page. 
+ Tip : Click image to enlarge.
+ This update does not affect your import configuration visibility or access. If you cannot see or access your previously created import jobs, review  Updated Building Blocks for MEDS Ingestor and ensure that your role has the appropriate building blocks.
+## Special Considerations
+ None.

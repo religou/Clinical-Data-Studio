@@ -1,0 +1,6 @@
+# Design Layout
+
+## Design Layout
+ Medidata Patient Profiles includes the following capabilities related to arranging the design layout:
+- Arrange the Design Layout Patient Profiles 
+- Data Surveillance: Patient Profiles Design Page and Profiles Tab Redesigned for Better Usability

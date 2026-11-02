@@ -1,0 +1,13 @@
+# RBQM Template Library
+
+## RBQM Template Library
+ The RBQM Template Library is an RBQM capability that enables RBQM administrations to:
+- Create study level   critical data, critical processes, and risk categorization   templates for critical data, critical process, and risk category elements that the study team plans to include in the risk assessment for multiple studies.
+- Update critical data, critical processes, and risk categorization template details 
+- Activate and deactivate critical data, critical processes, and risk categorization templates for use across the study . 
+ To learn more, see: 
+- Manage Critical Data Templates 
+- Manage Critical Processes Templates 
+- Manage Risk Categorization Templates 
+ The RBQM Template Library also enables RBQM administrations to: 
+- Store and reuse common data listing, QTL, and KRI configurations that your organization is likely to include in multiple study configurations. To learn more, see  Listing, KRI, and QTL Template Library .

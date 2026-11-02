@@ -1,0 +1,18 @@
+# Review Data Extracts in MEDS Extractor
+
+## Review Data Extracts in MEDS Extractor
+ Note : This feature appeared as part of MEDS Extractor 2019.1.0.
+## Description
+ MEDS Extractor allows you to review the progress of extracts, and to download completed extracts to a local device.  You can review the current status of all data extracts  for all studies across environments.
+## Affected Roles
+ All.
+## Advantages
+ Reviewing data extracts allows you to:
+- Review the success of exported data so you can take further action. 
+- Download the exported data to your local drives for further processing. 
+## User Impact
+ In MEDS Extractor, you can select an existing extract to review its progress. While reviewing the progress of an existing extract, you can:
+- Review extracts across other studies and environments. 
+- Download exported data to your local drives whilst it is available for download. 
+## Special Considerations
+- Extracts are available for download to your local device up to 24 hours after completion.

@@ -1,0 +1,52 @@
+# Insights Released Features
+
+## Insights Released Features
+ Insights includes the following features, enhancements, and resolved issues that have been documented over the history of the releases:  
+ Clean Patient Tracker 
+- 
+ Data Surveillance: Verify Rave Target Source Data Count In Clean Patient Tracker 
+- 
+ Clean Patient Tracker: Aggregated Count of Outstanding Tasks by Patient Chart Replaces Patients in Progress By Site and Outstanding Tasks Charts 
+- 
+ Configuration: Configure Missing Pages Source And Form Status Data 
+- 
+ Data Surveillance: TSDV and Form Counts Show Information at Patient Level In Clean Patient Tracker 
+- 
+ Clean Patient Tracker: Track Up To Twenty-Five Listings In Clean Patient Tracker 
+- 
+ Data Surveillance: Configure Clean Patient Tracker to Autopopulate Missing Page Counts 
+- 
+ Insights: Download the Clean Patient Tracker Patients List and Open Queries List 
+- 
+ Track and Clean Unclean Patient Data with Clean Patient Tracker 
+- 
+ View All Patient Queries in One Location 
+- 
+ Data Surveillance: Clean Patient Tracker Missing Pages Count Column Uneditable When Sourced from Rave 
+- 
+ Data Surveillance: Autopopulate Missing Page Counts Sourced Directly from Rave 
+- 
+ Data Surveillance: Updated Clean Patient Tracker Page Shows Better Usability 
+- 
+ Data Surveillance: Clean Patient Tracker Metrics and Table Improvements 
+- 
+ Insights: Clean Patient Tracker Terminology Updates 
+- 
+ Insights: Downloaded Open Query Records Report Includes Data Snapshot Timestamp 
+- 
+ Insights: Outstanding Tasks Bar Graph No Longer Charts Open Queries 
+- 
+ Insights: Unclean Patients Relabeled to In Progress Patients 
+- 
+ Insights: Open Queries Table Now Includes Query Response Text 
+ Open Queries 
+- 
+ Insights: Download the Clean Patient Tracker Patients List and Open Queries List 
+- 
+ Insights: Open Queries List Includes Open By and Query Data Columns 
+- 
+ Insights: Downloaded Open Query Records Report Includes Data Snapshot Timestamp 
+- 
+ Insights: Unclean Patients Relabeled to In Progress Patients 
+- 
+ Insights: Open Queries Table Now Includes Query Response Text

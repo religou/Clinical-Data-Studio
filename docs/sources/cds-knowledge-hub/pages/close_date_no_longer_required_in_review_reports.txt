@@ -1,0 +1,16 @@
+# Close Date No Longer Required In Review Reports
+
+## Close Date No Longer Required In Review Reports
+## Description
+ The Close Date field in Review Reports on the Detect Landing Page is no longer mandatory.   
+## Affected Roles
+ All.
+## Advantages
+ You can still create a review report even if you are not sure about the end date for the review cycle.
+## User Impact
+ You can save a new on the Medidata Detect > Configuration and Reporting > Review Reports page, even if you leave the Close Date field empty.
+## Knowledge Hub Updates
+ The Detect Knowledge Hub provides new and updated content to support this enhancement: 
+- Review Reports 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

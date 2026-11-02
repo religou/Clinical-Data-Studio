@@ -1,0 +1,15 @@
+# Corrected Text Field Rendering in Expression Builder
+
+## Corrected Text Field Rendering in Expression Builder
+## Description
+ While building conditional expressions for derived variables using the IF-THEN-ELSE block, if you compare a text field in the IF block, and if the text field has the same name as the source data set variable, then the THEN and ELSE blocks use the value of the entered text from the text field instead of the source variable. For example, you select source variable "ASIAN" in the IF block and enter uppercase “ASIAN” in the THEN and ELSE blocks, then the entered text – "ASIAN" – appears instead of the values of the "ASIAN" data set variable.  
+## Affected Roles
+ All roles with Manage Derived Variables permission. 
+## Advantages
+ With the correct text field names rendered for conditional expressions, you can have more precision over the derived variables you create in MEDS Data Viewer.  
+## User Impact
+ See Description. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ None.

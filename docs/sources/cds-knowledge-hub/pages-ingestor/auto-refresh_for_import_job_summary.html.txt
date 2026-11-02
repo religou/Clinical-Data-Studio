@@ -1,0 +1,17 @@
+# Auto-Refresh for Import Job Summary
+
+## Auto-Refresh for Import Job Summary
+## Description
+ When reviewing the import job summary for any import job, the Import Summary panel now automatically refreshes every 30 seconds.   
+ Feature/enhancement stories referenced in this article:
+ MCC-678686 
+## Affected Roles
+ All.
+## Advantages
+ With the Job Files page's auto-refresh capability, you can see up-to-date information about your processing files without needing to manually refresh the list. 
+## User Impact
+ While viewing an import job's Import Summary panel, the reported data refreshes every 30 seconds. You can still manually refresh the data by clicking the Refresh Data button on the Job Files page. 
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ None.

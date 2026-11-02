@@ -1,0 +1,13 @@
+# Rerun Data Extracts
+
+## Rerun Data Extracts
+## Description
+ MEDS Extractor allows you to rerun previously created export jobs. 
+## Affected Roles
+ All roles with Data Export permissions.
+## Advantages
+ Existing export jobs can be re-executed on demand, so y ou do not need to create another export job to repeat a given data export. 
+## User Impact
+ From the list of existing data export jobs, you can select  Run Now  from  for a given data export.  This re-executes the job immediately. 
+## Special Considerations
+ You can re-run an export job if you created the job and  the job is not currently running.

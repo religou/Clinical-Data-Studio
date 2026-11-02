@@ -1,0 +1,22 @@
+# Activate and Deactivate KRIs
+
+## Activate and Deactivate KRIs
+ You can activate key risk indicators (KRIs)  so that their data gets filtered, analyzed, calculated, and shown in: 
+- KRI Dashboard 
+- Risk Assessment 
+- Risk Inventory 
+ You can deactivate KRIs that no longer require analysis so that RBQM no longer consumes the KRI data for analysis and visualization in the KRI Dashboard, Risk Assessment, and Risk Inventory. 
+## Activate KRIs
+ You can activate KRIs that are ready for consumption in RBQM. Activating a KRI triggers a KRI's data to get filtered, analyzed, calculated, shown in KRI Dashboard , Risk Assessment, and Risk Inventory after the next data refresh. 
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu.
+The Key Risk Indicators page appears. 
+- On the Key Risk Indicators page > KRI Configurations list > Activate column, click  in the corresponding row of the KRI you want to activate.
+ The Activate column now shows   for that KRI, indicating the KRI is active. 
+## Deactivate KRIs
+ You can deactivate KRIs that no longer require analysis. Deactivated KRIs do not get calculated or shown in the KRI Dashboard, Risk Assessment, and Risk Inventory following the next data refresh. 
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu.
+The Key Risk Indicators page appears. 
+- On the KRIs page > Key Risk Indicators list > Activate column, click   in the corresponding row of the KRI you want to deactivate. 
+- Enter a reason for deactivating the KRI in the Deactivation Note dialog box and then click  .
+ Tip : Notes provide the reasoning for why the KRI analysis is no longer required. For example, deactivated the KRI due to resolved values no longer posing a risk.
+ The Activate column now shows   for that KRI, indicating the KRI is inactive.

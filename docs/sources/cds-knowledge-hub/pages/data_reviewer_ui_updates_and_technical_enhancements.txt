@@ -1,0 +1,11 @@
+# Data Reviewer UI Updates and Technical Enhancements
+
+## Data Reviewer UI Updates and Technical Enhancements
+ Data Reviewer includes the following user interface (UI) updates and technical enhancements:
+- PDS: Minor Data Reviewer Enhancements for November 2023 
+- Easily Find the Precise, Comprehensive Data Reviewer User Assistance You Need 
+- Data Reviewer Data Sets Page Redesigned For Better Usability 
+- Product Rebranded as Data Reviewer 
+- Improved Navigation In Data Reviewer 2022.1.0 
+- Technical Changes In MEDS Data Viewer 2021.2.0 
+- Technical Changes In MEDS Data Viewer 2021.2.3

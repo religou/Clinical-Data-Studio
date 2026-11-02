@@ -1,0 +1,56 @@
+# Configure Medidata Rave Form Statuses
+
+## Configure Medidata Rave Form Statuses
+ To track the Medidata Rave form statuses for each patient in the  Clean Patient Tracker > Patients table, you can also configure whether you want to show forms that are: 
+- Incomplete, or 
+A page is Incomplete if at least one visible field:
+- Has no changes, or 
+- Is a lab field is with a missing a required analyte range,  or is missing a required clinical significance, or has a clinical significance but is either out of the alert range, missing a clinical significance comment, or missing required lab units. 
+- RequiresReview, or
+ A page is in RequiresReview status if it has at least one visible field:
+- and i s touched or has change count > 0 
+- and   has at least one unreviewed review group 
+- and i s active, or “Allow Review/Verify on Inactive Data” is enabled 
+- RequiresFreeze, or
+ A page is in RequiresFreeze status is active: 
+- 
+- And has at least one visible and active field 
+- And the field is not frozen not entry locked. 
+- RequiresLock, or
+ A page is in RequiresLock status if  i t is active: 
+- 
+- And has at least one visible and active field 
+- And the field is not data locked 
+- RequiresSignature, or
+ A page is in RequiresSignature status if it is active: 
+- 
+- Has at least one visible and active field 
+- The page/form requires a signature 
+- The signature is missing or outdated 
+- No field on the page breaks the signature 
+- NonConformant, or
+ A page is NonConformant if: 
+- 
+- It is active 
+- Has at least one visible and active field 
+- The field has non-conformant data 
+- Access Data Surveillance , and then click Configuration > Clean Patient Tracker in the left-hand menu.
+ The Clean Patient Tracker Configuration page appears. 
+- In the Form Status section, select from the following:
+- To configure incomplete forms: click Incomplete .
+The Clean Patient Tracker > Patients table > Incomplete column is set to obtain data from Rave.  
+- To configure incomplete forms: click Requires Review .
+The Clean Patient Tracker > Patients table > Requires Review column is set to obtain data from Rave.  
+- To configure incomplete forms: click Requires Lock .
+The Clean Patient Tracker > Patients table > Requires Lock column is set to obtain data from Rave.  
+- To configure incomplete forms: click  Requires Freeze .
+The Clean Patient Tracker > Patients table > Requires Freeze column is set to obtain data from Rave.  
+- To configure incomplete forms: click Requires Signature .
+The Clean Patient Tracker > Patients table > Requires Signature column is set to obtain data from Rave. 
+- To configure incomplete forms: click Non conformant .
+The Clean Patient Tracker > Patients table > Non conformant column is now set to be sourced from Rave.  
+- Click Apply. 
+- Click  Save .
+The selected columns appear in Clean Patient Tracker > Patients table.
+ Tip : After mapping missing page count report datasets, we recommend triggering Clean Patient Tracker to recount the number of outstanding patient data cleaning tasks to ensure Clean Patient Tracker reports the correct metrics.  
+ Important : If the missing pages mapping changes from manual to external, or external to manual, then the data in the Clean Patient Tracker > Patients table > Missing Pages column is overwritten to match the newly selected source. The missing page count in Clean Patient Tracker is extracted from the missing pages report available in Rave.

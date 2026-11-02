@@ -1,0 +1,34 @@
+# Configure the Data Sets and Variables Used for CSM's Event Analysis
+
+## Configure the Data Sets and Variables Used for CSM's Event Analysis
+## Description
+ You can now configure within Detect Configuration Manager the data sets and variables that Detect uses to consume and produce the statistical analysis and visual output for event incidence and under-over reporting events.
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ Event analysis configuration:
+- Simplifies CSM configuration by requiring only the key variables for Detect to perform its study data analysis.  
+- Optimizes CSM configuration by consolidating the configuration and mapping tasks in one centralized location. 
+ This helps ensure Detect analyzes the correct terms and saves hours of configuration time.
+## User Impact
+ CSM Configuration now includes the Event Configuration Analysis tab. You can click the tab to go to the Event Configuration Analysis page. You can use this page to map the data sets and variables Detect uses to run its event analysis on:
+- Adverse Event Terms 
+- Concomitant Medication Terms 
+- Medical History Terms 
+- Medical History Ongoing 
+ You can view the event incidence analysis and under-over reporting events analysis on the Centralized Statistical Monitoring (CSM) Event Incidence Plot and Under-Over Reporting Events plot, respectively.
+## Knowledge Space Updates
+ The Detect Configuration Manager Knowledge Space provides new and updated content to support this feature/enhancement: 
+- Map Event Analysis Data 
+## Special Considerations
+ Within the event analysis configuration, we strongly recommend that you pick your preferred terms for adverse event, concomitant medications, and medical history terms. This enables Detect to provide the most accurate event incidence and under-over reporting events analysis. 
+ Also, the data variable values captured for the Medical History Ongoing variable must conform to one of the following data formats: 
+- Y/N 
+- Yes/No 
+- T/F 
+- True/False 
+- on/not(etc) 
+- 1/0 
+- Ongoing/Not Ongoing 
+ Otherwise, Detect cannot render data visualizations for concomitant medications or medical history terms in Central Statistical Monitoring's (CSM) Under-Over Reporting Events plot. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,20 @@
+# Generate Signal Configuration Audit Reports
+
+## Generate Signal Configuration Audit Reports
+ You can view audit reports for every user action performed in Signal Configuration:
+ Audit reports:
+- Enable sponsors to quickly and easily show compliance with clear, comprehensive audit details of actions performed. 
+- Provide sponsors with greater oversight to ensure study data is being monitored correctly. 
+- Allows for a quick view of the review status of signals data in bulk in tabular format. 
+ Note : You   can only view actions created against sites that you have access to. 
+## Generate Signals Audit Report
+ You can generate audit reports to view the history of: 
+- Issues created on the study' sites. 
+- Track review actions made on specific patient data. 
+- Track issues generated per site. 
+- Access RBQM , and then click Configuration i n the left-hand menu.
+- Click Signals . 
+- The Signal Configuration page appears. 
+- Click next to the top right corner of the page.
+A new browser tab opens to the Audit Viewer > Signal Configuration Audit Report page.
+ Tip : In Audit Viewer, you can click Export and then  Excel , CSV , or PDF to view the report offline or sort data by column headings

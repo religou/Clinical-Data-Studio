@@ -1,0 +1,58 @@
+# Map RECIST 1.1 Data
+
+## Map RECIST 1.1 Data
+ The RECIST 1.1 Dashboard is a visualization and reporting tool that captures treatment response and disease progression metrics for patients in oncology studies based on the Response Evaluation Criteria in Solid Tumors ( 
+ RECIST 1.1 
+ ) methodology.  With t 
+ he RECIST 1.1 Dashboard you can: 
+- Quantify tumor burden and outcome calculations for patients. 
+- Summarize the total count of patients, and those in various stages of treatment response at the selected scan visit type and site. 
+- Track tumor burden over a period, and identify discrepant records. 
+- Assess the accuracy of RECIST 1.1 calculations and safety monitoring. 
+ With Oncology Mapping, you can configure the variables from data sets in your study environment which Data Surveillance's microservice algorithms consume. Based on the analytics and configuration, the RECIST 1.1 Dashboard generates configuration data analysis and produces visualization output as waterfall and spaghetti plots. 
+ Note : We recommend you map data on the RECIST tab only if you have access to the RECIST 1.1 Dashboard in Data Surveillance.
+- Access Data Surveillance or RBQM , and then click Configuration > Data Mapping in the left-hand menu.
+ The Data Mapping page appears. 
+- Click the   Oncology tab.
+The Oncology Mapping page appears. 
+- For each of the following reference Target fields, select a variable in the Source Field to map from any data set in your study. For example, you can map the Target lesion response to Target Lesions Response (RSTARGET) from the Disease Response (RS) data set. 
+- Response
+- Target lesion response 
+- Non-target lesion response 
+- New lesion response 
+- Overall response 
+- Visit Name (optional) 
+- Visit Date (optional) 
+- Screening target lesion
+- Tumor location 
+- Longest diameter 
+- Longest diameter unit (optional) 
+- Short axis diameter 
+- Short axis diameter unit (optional) 
+- Visit Name (optional) 
+- Visit Date (optional) 
+- On-study target lesion
+- Tumor location 
+- Longest diameter 
+- Longest diameter unit (optional) 
+- Visit Name (optional) 
+- Visit Date (optional) 
+- Short axis diameter 
+- Short axis diameter unit (optional)
+- 
+ Note :
+- You can select mapped variables, including derived variables, from different data sets to map to the reference source fields.  However, derived variables created within Data Surveillance for the Visit Date field, do not work as they are not enriched fields. For  derived variables created in Data Connect, you must activate the dataset using the same variable as the Visit Date. This enables the Visit Date to appear as the Performed Event Date in Data Surveillance.
+- If the Longest Diameter Unit or Short Axis Diameter Unit fields are empty, Data Surveillance uses  millimeter (mm)  as the unit of measurement.
+- If diameter field has a "not recorded" value in Medidata Rave, it stores as a ND/ NA/ UK value. You must configure derived variables to store ND/NA/UK values as null values in the diameter fields to produce the RECIST 1.1 Dashboard. 
+- Non-target lesion 
+- Tumor status 
+- Tumor location 
+- Visit Name (optional) 
+- Visit Date (optional) 
+- New lesions
+- Tumor status
+- Visit Name (optional) 
+- Visit Date (optional) 
+- Click   Save . 
+ The OID and name appear for all saved fields for both data sets (target field) and corresponding fields (source field). 
+ Note : If eCRF form names are different, ensure that you enter the correct field OIDs in the mapping. Confirm that you select the correct data sets from your study for the target and source fields. Otherwise, Data Surveillance fails to refresh and show its statistical analysis on the RECIST 1.1 Dashboard.

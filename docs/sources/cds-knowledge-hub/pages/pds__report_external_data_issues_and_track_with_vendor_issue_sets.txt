@@ -1,0 +1,34 @@
+# PDS: Report External Data Issues and Track with Vendor Issue Sets
+
+## PDS: Report External Data Issues and Track with Vendor Issue Sets
+## What Is New?
+ Patient Data Surveillance includes a new Vendor Issues capability that tracks, flags, and monitors external vendor data issues from within Detect. You can use Vendor Issues to:
+- Communicate discrepancies identified during data reconciliation with third-party vendors. 
+- Build vendor issue sets to relay queries and issues. 
+## What Is the Impact?
+## Users/Roles
+ Study Managers and Data Managers.
+ All Detect users with Submit Vendor Issues and Manage Issue Sets access. 
+## Workflow Process
+ On the Data Listings page, when reviewing the list of records identified in a data listing, you can report issues with specific records directly to vendors. Vendor issues created in the Data Listings page then populate in the Vendor Issues page. You can then submit, track and manage vendor issues on the Vendor Issues page. Once the vendor addresses the issue, you can mark the record as reviewed on the Data Listings page. 
+## Other Applications
+ Detect users with proper access can add vendors in Medidata Detect > Configuration and Reporting > Vendor Configuration. Then, while reviewing data for reconciliation, create vendor issue sets for approved vendors in Medidata Detect > Patient Data Surveillance (PDS) > Data Reviewer > Data Listings, which you can download and submit. Vendor names added in Vendor Configuration appear while adding issues to a new vendor issue set in Data Reviewer.
+## How Do I Benefit?
+ Vendor Issues:
+- Acts as a bridge to relay queries and issues between vendors and Detect users. 
+- Provides seamless communication of discrepancies and inconsistencies with vendors. 
+- Builds an easily downloadable and shareable vendor issue set, ready for vendor consumption and action. 
+- Facilitates faster reconciliation of RAVE EDC and external vendor data. 
+- Saves time and effort by integrating into your data review process within Detect. 
+## Where Do I See the Change?
+ When reviewing an approved listing in the   Medidata Detect > Patient Data Surveillance > Data Reviewer > Data Listings page > Approved Listings tab, the listing results section includes the following changes: 
+- You can select one or more records, and then click Add Vendor Issues button. 
+- When you click the Add Vendor Issues button, the Create Vendor Issue window appears, enabling you to create and save vendor issues. 
+- You can mark records as reviewed or unreviewed, based on vendor responses received. 
+ On the Medidata Detect > Patient Data Surveillance (PDS) > Data Reviewer > Vendor Issue Sets page, you can view, edit, and submit the vendor issues you raised for data listings. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the Feature:
+- Configuration and Reporting: Map Data Set and Variables for Vendor Issues 
+## What Else Should I Know?
+ To access View Issue Sets, you must have the Submit Vendor Issues and Manage Issue Sets building blocks associated with your role in the Cloud Administration study group. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

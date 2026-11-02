@@ -1,0 +1,17 @@
+# Merge Single-Record Variable to Multiple-Record Data Set
+
+## Merge Single-Record Variable to Multiple-Record Data Set
+ You can merge a data set variable containing singular records over multiple visits with another data set containing multiple records over multiple visits. For example, merging a Demographics data set variable to the Adverse Events data set. 
+- Access Data Surveillance or RBQM , and then click Configuration > Derived Variables in the left-hand menu. 
+- Click   Create Derived Variable . 
+- Identify and drag a  data set  from the Data Sets list into the Configure Variable section. For example, Adverse Events.
+ Note: Note:   If data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or_ DTC . For example, if the source date is missing the day, the enriched _INT field interpolates the 1st day of the month, and _DTC fields drop the unknown value. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms. 
+- Enter the derived variable’s identification information: 
+- Name  – Object identifier (OID) of derived variable. For example, AE DMRace. Must be unique. 
+- Label  – Name for derived variable to appear in other applications. This can be the same as the Name field, or a more specific descriptor. For example, Adverse Event Demographics – Ethnicity. 
+- Select Merge   from the Derived Variable Type menu. 
+- Select SRPP to MRPP from the Type of Merge list.
+ Note : Always confirm that you have selected the correct merge type for the dataset. Otherwise, Data Surveillance and RBQM will fail to refresh and output its statistical analysis on future data snapshots.
+- Navigate to a different data set and drag your required variable to merge into the Source Variable field. 
+- Click  Save .
+ In Data Surveillance and RBQM, the list of available datasets and variables that you can view and select from include derived variables at the bottom of the list. In Data Surveillance, the list of available datasets and variables appends derived variable names with the blue DERIVED icon.

@@ -1,0 +1,36 @@
+# Map Data Set Analysis Data
+
+## Map Data Set Analysis Data
+ You can configure within Data Surveillance Configuration the data sets and variables that RBQM uses to consume and produce the statistical analysis and visual output for data anomaly detection plots. 
+ Tips :   
+-   You do not need to build a patient profile to view the data anomaly detection analysis on your study data in Statistical Monitoring. You can quickly configure in a simple, centralized workspace in Data Mapping the specific study data that you want RBQM to analyze. 
+-  You can also create derived variables using Data Connect for cross domain analysis.  
+- Access Data Surveillance or RBQM , and then click Configuration > Data Mapping in the left-hand menu.
+The Data Mapping page appears with the Dataset Configuration tab selected by default. 
+- Locate the visit data set in the Data Sets list, and then click and drop the visit data set in Visit Dataset Selection .
+ Important : You must include your visit data set in the data set configuration to ensure RBQM thoroughly and accurately reports against the timeline of events.
+- After configuring your visit data set, scroll back to the Data Sets list, and find and click a data set containing variables that you want to configure RBQM to consume and analyze.
+ Tip : The selected data set name shows above the Record Per Patient field. Click the image below to enlarge.
+- In Record Per Patient , select Single Record (SRPP) or Multiple Record (MRPP) .
+The currently selected data set expands in the Data Sets list and shows the selectable list of variables contained within the data set.
+ Note :  You must select the record per patient first before you can select the variables you want to configure for analysis.
+- In Record Per Patient , select one of the following:
+- Single Record (SRPP) – A patient record that is only collected once per patient within the data set; for example, demographics, randomization, or end of study. 
+- Multiple Record (MRPP) – A patient record that is collected multiple times per patient within the data set; for example, weight, blood pressure, or pulse. 
+- Select the variables within the data set that you want to configure RBQM to consume and analyze.  indicates that the variable is selected for consumption and analysis in RBQM data anomaly detection plot analysis.
+ Tip : Select only critical data that you want RBQM to consume and analyze. This ensures that RBQM produces the cleanest, most effective statistical analysis and visual output on the data most pertinent to your study.
+ Important : If you want to identify anomalies in other fields, you cannot configure more than: 
+- 200 fields across all forms for large studies 
+- 1200 fields across all forms for small studies 
+- Optional . Select Pivot Data to pivot a transposed study data set that you want RBQM to analyze.
+Selecting Pivot Data reveals three more optional fields: Procedure Name, Procedure Value, and Category.
+ Note : You most likely should not need to pivot data ingested from Medidata Rave.
+- As necessary, click and drop the data sets you want to use for:
+- Procedure Name   –   Optional .   The name of the test done that collected the records in the data set.   Procedure Name only appears when you turn on the Pivot Data button. 
+- Procedure Value   –   Optional . The values collected in the procedure name's fields. Procedure Value only appears when you turn on the Pivot Data button. 
+- Category   –   Optional .   A subset of the records collected in the data set. Category only appears when you turn on the Pivot button. 
+- Repeat steps 5-9 for each data set containing variables that you want to configure RBQM to consume and analyze.
+ Tip : Data Surveillance signifies data sets that have at least one variable included in the data set configuration with a green marker next to the data set name in the Data Sets list. For example: . Data sets that have no variables included in the error plot configuration have a blue marker: 
+ Important : Do not map more than 3000 variables cumulatively across all datasets; otherwise, Data Anomaly Detection cannot visualize the analysis.
+- Click Save .
+The next data refresh in Statistical Monitoring will run the data anomaly detection plot analysis on the data sets and variables currently saved and configured in the data set configuration.

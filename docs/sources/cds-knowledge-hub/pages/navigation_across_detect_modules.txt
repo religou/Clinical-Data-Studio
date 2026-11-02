@@ -1,0 +1,133 @@
+# Navigation Across Detect Modules
+
+## Navigation Across Detect Modules
+## Description
+ The new Detect Landing Page provides a unified navigation experience, where you can access all the Detect family products from a single page: Centralized Statistical Monitoring (CSM) (formerly Medidata Detect) , Patient Profiles, Data Reviewer, Detect Configuration Manager. When you log into iMedidata, you no longer see an Apps section for individual products. Likewise, the products no longer appear as an option for Actions in Cloud Administration. 
+ Detect introduces the following four modules: 
+- Patient Data Surveillance (PDS) 
+- Data Reviewer 
+- Patient Profiles 
+- Derived Variables 
+- Quality Tolerance Limits (QTLs) 
+- QTL Dashboard 
+- QTL Configuration 
+- Centralized Statistical Monitoring (CSM) 
+- Data Veracity 
+- Reporting Patterns 
+- Exploratory Analysis 
+- CSM Configuration 
+- History 
+- Key Risk Indicators (KRIs ) 
+- KRI Dashboard 
+- KRI Configuration 
+ For more details on individual modules, see User Impact . 
+ Rebranded Detect family products and features are as follows: 
+ Formerly Known As 
+ Rebranded As 
+ | MEDS Data Viewer 
+ | Data Reviewer 
+ | RBQM Configuration Manager 
+ | Detect Configuration Manager 
+ Note : All your existing permissions in iMedidata and Detect products remain the same. 
+## Affected Roles
+ All.
+## Advantages
+- Access all Detect family products from a single page. 
+- The modular layout helps identify applications based on the task you want to perform: review data (PDS), analyze data (CSM), monitor sites (KRIs), monitor risks (QTLs). 
+## User Impact
+ Access Detect 
+ When you log into iMedidata, you can access the Detect Landing Page: 
+- as a separate link for studies or study groups you have access to 
+- as a client division scheme link under the Apps section to the left of the page. 
+ Tip: Click image to enlarge. 
+ Number 
+ Description 
+ | 1 
+ | You can access the Detect Landing Page as an option in the Actions dropdown in the navigation bar in Cloud Administration. 
+ | 2 
+ | The Detect Landing Page includes a personalised greeting localized to your time zone. 
+ | 3 
+ | Four individual modules, namely: Patient Data Surveillance (PDS), Quality Tolerance Limits (QTLs), Centralized Statistical Monitoring (CSM), Key Risk Indicators (KRIs), which contain links to applications you can access. The application links appear disabled if you do not have access. For further information see, Navigate to Individual Modules . 
+ | 4 
+ | 
+ A Detect module you have access to appears enabled with the word . If you do not have access to a module, it appears disabled with the word . The module appears as shown: 
+ | 5 
+ | Click a link in the Detect module to access any Detect application available to you.  
+ Navigate to Individual Modules 
+ Click a link in the Detect module to access any Detect application available to you. The application's home page shows the menu and submenus in the left menu. Click Overview to return to the Detect Landing page.  
+- Patient Data Surveillance (PDS) - a module where you can review your study data at the patient and data point level. 
+ Click application name in the PDS module
+ Menu available 
+ Action in the application  
+ | Patient Profiles 
+ | 
+ | The Patient Profile Designs page appears. 
+ | Data Reviewer 
+ | The left menu shows two subtabs: 
+- Data Viewer  
+- Listings. 
+ The Data Viewer page appears to the right as default. 
+ | Derived Variables 
+ | 
+ The Derived Variable page appears. 
+- Centralized Statistical Monitoring (CSM) - a module where you can analyze your study data. 
+ Click application name in the CSM module 
+ Menu available 
+ Action in the application  
+ | Data Veracity  
+ | 
+ | The left menu shows two new subtabs: 
+- Weekend And Holiday Visits 
+-  Potential Duplicate Patients 
+ The Weekend And Holiday Visits page appears. 
+ | Reporting Patterns  
+ | The Event Incidence page appears. 
+ | Exploratory Analysis 
+ | The Error Plots page appears. 
+ | History 
+ | The History page appears a list of saved snapshots. 
+ You can schedule capturing snapshots of Data Veracity, Reporting Patterns and Exploratory Analysis applications on the History page, and also access saved snapshots on the page. 
+ | CSM Configuration 
+ | 
+ | 
+ The Duplicate Patient Configuration page appears to the right. The left menu shows three new sub tabs: 
+- Duplicate Patient Configuration 
+- QTL Configuration  
+- KRI Configuration 
+ You can access the Duplicate Patient Configuration page from the left menu, where you can set up references and variables from data sets to identify potential duplicate patients. 
+ Previously you could configure KRIs and QTLs in RBQM Configuration Manager. You can now configure and activate KRIs and QTLs in CSM Configuration. 
+ Note: You can only view applications for which you have permission. 
+- Quality Tolerance Limits (QTLs) - a module where you can monitor systemic and protocol level risks in your study. 
+ Click  application name in the CSM module 
+ Left available 
+ Action in the application  
+ | QTL Dashboard 
+ | 
+ | The Quality Tolerance Limit page appears. If no QTLs are configured for the study environment, the page appears blank. 
+ | QTL Configuration 
+ | 
+ | 
+ The Quality Tolerance Limits page appears. Previously you could configure QTLs in RBQM Configuration Manager. You can now configure and activate QTLs on the Quality Tolerance Limits page. 
+ In addition to QTLs, you can also access the KRI Configuration page from the left menu, where you can configure and activate KRIs. 
+ You can also access the Duplicate Patient Configuration page from the left menu, where you can set up references and variables from data sets to identify potential duplicate patients. 
+ Note : You can only view applications for which you have permission. 
+- Key Risk Indicators (KRIs) - a module where you can monitor the performance for study sites. 
+ Click  application name in the CSM module 
+ Menu available 
+ Action in the application  
+ | KRI Dashboard 
+ | 
+ | The Key Risk Indicators page appears which shows all the KRIs configured and active in the study environment. 
+ | KRI Configuration 
+ | 
+ | 
+ The Key Risk Indicators page appears. Previously you could configure KRIs in RBQM Configuration Manager. You can now configure and activate KRIs on the Key Risk Indicators page.   
+ In addition to KRIs, you can also access the Quality Tolerance Limits page appears where you can configure and activate QTLs. 
+ You can also access the Duplicate Patient Configuration page from the left menu, where you can set up references and variables from Data Sets to identify potential duplicate patients. 
+ Note : You can only view applications for which you have permission. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+- You need the appropriate permission set up in iMedidata to access products within a module and between modules. For example, if you have access to Patient Profiles in PDS, but no access to Data Reviewer and Derived Variables, you will only see tabs relevant to Patient Profiles in PDS.  
+- The Overview page is no longer available in Centralized Statistical Monitoring (CSM) (formerly Medidata Detect) . You can use the History application in the CSM module to capture snapshots of pages in Data Veracity, Reporting Analysis and Exploratory Analysis. 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

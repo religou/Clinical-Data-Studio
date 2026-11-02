@@ -1,0 +1,53 @@
+# Clean Patient Tracker: Monitor Vendor Queries Data In Clean Patient Tracker
+
+## Clean Patient Tracker: Monitor Vendor Queries Data In Clean Patient Tracker
+ Important: 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the  released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Clean Patient Tracker 
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ Data Surveillance > Clean Patient Tracker now includes vendor queries. You can view vendor query sets with status as Submitted, In Progress or Completed by patient or by site directly from the Clean Patient Tracker page.
+ Benefit to Users 
+ |      Data managers gain better oversight within the CPT dashboard, allowing them to: 
+- Track Progress: Instantly identify pending or unaddressed vendor queries per patient. 
+- Validate Resolutions: Spot false positives where vendors claim a resolution, but the listing discrepancies remain. 
+- Refine Reporting: Ensure readiness metrics only show accurate data by removing records already reviewed in listings. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data managers.
+ Impact to Workflow Processes 
+ The count hyperlink for any vendor query set column in Clean Patient Tracker shows the corresponding vendor query set page filtered by site or patient. Similarly, the count hyperlink under any AI Reconciliation report column opens the corresponding report page filtered by Patient ID.
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+- On the Data Surveillance > Clean Patient Tracker page, if you click any hyperlinked number in a vendor query set column, the corresponding vendor query page opens in a new browser tab. It shows the vendor query filtered by Patient ID. If you click the vendor query count in the in Progress Patients By Site chart, the vendor query page opens in a new browser tab, showing all open vendor query sets for patients at the site. The Patient table in Clean Patient Tracker also includes a hide empty columns button that you can toggle on to hide columns with zero counts. .csv files you download from the Clean Patient Tracker page also include vendor queries. 
+- On the Data Surveillance > Listings page, for any approved listing, if you select records and click Submit Vendor Queries , the EDC fields to include and Vendor fields to include lists show fields from your selected EDC source, and field names from the external data source, for example lab data, respectively.  
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Track and Clean Patient Data. 
+ Special Considerations 
+ |   To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

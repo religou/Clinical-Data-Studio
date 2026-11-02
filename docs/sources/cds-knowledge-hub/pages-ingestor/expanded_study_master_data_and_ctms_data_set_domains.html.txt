@@ -1,0 +1,35 @@
+# Expanded Study Master Data and CTMS Data Set Domains
+
+## Expanded Study Master Data and CTMS Data Set Domains
+## Description
+ You can now import more data set types when importing Study Master Data or Clinical Trial Management System (CTMS) data files.
+ When importing Study Master Data files, you can import the following data sets:
+- Client Division People with Addresses 
+- Study Environment Sites with Addresses 
+- Team Members Contact Details 
+- Team Membership Details 
+ When importing CTMS data files, you can import the following data sets: 
+- Issues 
+- Tasks 
+- Actions 
+ Feature/enhancement stories referenced in this article:
+ MCC-799214 
+## Affected Roles
+ Platform roles with one or more of the following building blocks:
+- View Study Master Data
+- Import Study Master Data 
+- Manage Study Master Data 
+- View CTMS Data 
+- Import CTMS Data 
+- Manage CTMS Data 
+## Advantages
+ The expanded data types expands your ability to import your data into MEDS® and use the data in other applications, such as  Cloud Administration and Issue Management.
+## User Impact
+ Imported Study Master Data corresponds to various Cloud Administration fields, and you can confirm the data changes in Cloud Administration.
+ Imported CTMS data corresponds to the appropriate fields in Issue Management. You can confirm the data changes in Issue Management.
+## Knowledge Space Updates
+ The MEDS Ingestor Knowledge Space provides updated content to support this enhancement: 
+- Study Master Data File Standards (updated) 
+- Medidata CTMS Data File Standards (updated) 
+## Special Considerations
+ None.

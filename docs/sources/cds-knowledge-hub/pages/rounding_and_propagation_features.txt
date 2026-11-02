@@ -1,0 +1,12 @@
+# Rounding and Propagation Features
+
+## Rounding and Propagation Features
+ Medidata Detect includes the following error plots-related capabilities:
+- CSM: Filter Patient Lists to Show Patients With or Without Rounding Events 
+- CSM: Rounding and Propagation Heatmap and Summary Table Synchronously Highlight Same Site Selection 
+- CSM: Rounding Events and Propagation Events Summary Table Improvements 
+- CSM: Download Rounding Events and Propagation Events Summary Lists 
+- CSM: Rounding and Propagation Heatmap Improvements 
+- CSM Rounding and Propagation UI Enhancements 
+- Exit Rounding and Propagation History View 
+- Identify Sites That Potentially Round or Propagate Vital Sign Records

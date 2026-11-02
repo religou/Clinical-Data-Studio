@@ -1,0 +1,840 @@
+# CTMS Documents, Submissions, Enrollment, Milestones, and Service Providers
+
+## CTMS Documents, Submissions, Enrollment, Milestones, and Service Providers
+ You can export study management data objects detailing study enrollment metrics and study milestone  dates.  
+ Note : Milestones and Study Enrollment Status data are for cumulative and incremental extracts. Study Enrollment Metrics data are only available for cumulative extracts.
+ Important : Your Rave URL configuration can affect your ability to access exported data. For details, please contact your Medidata representative or Medidata Support.
+## Document Submission Records
+ The Document Submissions Records data file provides an overview of document submission records at the site level. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Document submission record UUID 
+ | Unique Identifier 
+ | 50 
+ | The document submission UUID 
+ | Document UUID 
+ | Unique Identifier 
+ | 50 
+ | The Document's UUID 
+ | Document Business ID 
+ | Unique Identifier 
+ | 200 
+ | The document's business ID. The business ID is an auto-generated value and begins with the "DOC" prefix. The ID starts at 1 in each study environment. 
+ | Document name 
+ | Text 
+ | 200 
+ | The tracked document's name. 
+ | Submission UUID 
+ | Unique Identifier 
+ | 50 
+ | The submission's UUID 
+ | Submission ID 
+ | Text 
+ | 200 
+ | The submission's system-generated business identification number. 
+ | Submission Name 
+ | Text 
+ | 200 
+ | The submission's name. 
+ | Submission Type 
+ | Text 
+ | 256 
+ | The submission's type. 
+ | Approving entity Name 
+ | Text 
+ | 200 
+ | The name of the approving entity 
+ | Approving entity UUID 
+ | Unique Identifier 
+ | 50 
+ | The approving entity's UUID 
+ | Approving entity type 
+ | Text 
+ | 200 
+ | The type of approving entity 
+ | Approving entity type UUID 
+ | Unique Identifier 
+ | 50 
+ | The UUID of the approving entity type 
+ | Planned Document submission date 
+ | Date 
+ | 200 
+ | The planned submission date. Study and country level submissions define today based on the UTC timezone. Site level submissions define today based on the site's local timezone. 
+ | Actual Document submission date 
+ | Date 
+ | 200 
+ | The actual submission date. This value cannot be in the future or after the Actual Submission Approval value. Study and country level submissions define today based on the UTC timezone. Site level submissions define today based on the site's local timezone. 
+ | Planned Document submission approval date 
+ | Date 
+ | 200 
+ | The submission's planned approval date. Study and country level submissions define today based on the UTC timezone. Site level submissions define today based on the site's local timezone. 
+ | Actual Document submission approval date 
+ | Date 
+ | 200 
+ | The submission's actual approval date. This value cannot be in the future or before the Actual Submission Date value. Study and country level submissions define today based on the UTC timezone. Site level submissions define today based on the site's local timezone. 
+ | Document submission approval status 
+ | Text 
+ | 50 
+ | The submission's status. 
+ | Document linked to submission at 
+ | Date 
+ | 200 
+ | User who linked document to submission 
+ | Document linked to submission by 
+ | Text 
+ | 50 
+ | Date that document was linked to submission 
+ | Created by 
+ | Text 
+ | 200 
+ | The user name who entered details about the submission. 
+ | Created at 
+ | Date 
+ | 200 
+ | The date and time when someone entered details about the submission. 
+ | Modified at 
+ | Date 
+ | 200 
+ | The date and time when someone updated details about the submission. 
+ | Modified by 
+ | Text 
+ | 200 
+ | The user name who updated details about the submission. 
+ | Deleted 
+ | Text 
+ | 50 
+ | Denotes if the submission is deleted. 
+## Documents
+ The Documents data file provides an overview of documents data at the site level. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division's name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The iMedidata client division's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment's name. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment's unique identifier. 
+ | Country Name 
+ | Text 
+ | 2048 
+ | The site's country. 
+ | Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The country's UUID 
+ | Site Name 
+ | Text 
+ | 256 
+ | The study site's name. Shows "N/A" when unavailable. 
+ | Site Number 
+ | Numeric 
+ | 1024 
+ | The study site's number. Shows "N/A" when unavailable. 
+ | Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The study site's unique identifier. Shows "N/A" when unavailable. 
+ | Document Name 
+ | Text 
+ | 200 
+ | The tracked document's name. 
+ | Document Type 
+ | Text 
+ | 256 
+ | The tracked document's type. 
+ | Document Type UUID 
+ | Unique Identifier 
+ | 50 
+ | The document type UUID 
+ | Doc Business ID 
+ | Unique Identifier 
+ | 200 
+ | The document's business ID. It is identical to the Document ID. 
+ | Document UUID 
+ | Unique Identifier 
+ | 50 
+ | The Document's UUID 
+ | Doc Version 
+ | Integer 
+ | 3 
+ | The document's version of the document as tracked in CTMS. 
+ | Version Date 
+ | Date 
+ | 200 
+ | The date on which the current version of the document comes into effect. This can be a past date, a current date, or a future date. 
+ | Package Name 
+ | Text 
+ | 200 
+ | The package's name. 
+ | Package UUID 
+ | Unique Identifier 
+ | 50 
+ | The package's UUID. 
+ | Number of submissions 
+ | Integer 
+ | 3 
+ | The number of times that the document has been submitted. 
+ | Document Status 
+ | Text 
+ | 3 
+ | The document's status. 
+ | Document Status change date 
+ | Date 
+ | 3 
+ | The date of the document's status. 
+ | Signature Date 
+ | Date 
+ | 3 
+ | The date the document was signed. 
+ | Expiration Date 
+ | Date 
+ | 3 
+ | The document's expiration date. If the document has an expiration date of "yesterday", it is considered expired as of today.
+Study and country level documents base today on the UTC timezone. Site level documents base today on the site's local timezone. 
+ | Superseded 
+ | Text 
+ | 3 
+ | Indicates that indicate a newer version of the document that supersedes an earlier version 
+ | Document URL 
+ | Text 
+ | 256 
+ | File path for the document 
+ | Active 
+ | Text 
+ | 256 
+ | Denotes if the document is active. 
+ | Issue_uuid 
+ | Unique Identifier 
+ | 50 
+ | Issue UUID of the issue related to this document 
+ | Task_uuid 
+ | Unique Identifier 
+ | 50 
+ | Task UUID of the task related to this document 
+ | No. of cycles 
+ | Integer 
+ | 3 
+ | The number of times that document moves to the Received from Site status. This value increments by 1 each time for each cycle. 
+ | Days From Sent to Site to Approved
+ | Integer 
+ | 3 
+ | The number of days between the document's submission and its approval. 
+ | External ID 
+ | Unique Identifier 
+ | 50 
+ | Not currently used 
+ | Created by 
+ | Text 
+ | 200 
+ | The user name who entered details about the document. 
+ | Created at 
+ | Date 
+ | 200 
+ | The date and time when someone entered details about the document. 
+ | Modified at 
+ | Date 
+ | 200 
+ | The date and time when someone updated details about the document. 
+ | Modified by 
+ | Text 
+ | 200 
+ | The user name who updated details about the document. 
+ | Deleted 
+ | Text 
+ | 50 
+ | Denotes if the document is deleted. 
+## Enrollment Metrics
+ The Enrollment Metrics data file provides an overview of study level, country level, and site level enrollment metrics. 
+ Note:  Extracted study enrollment metrics data is always cumulative.
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division's name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The iMedidata client division's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study environment's name.
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Site Name 
+ | Text 
+ | 256 
+ | 
+ The study site's name. Shows "N/A" when unavailable.
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The study site's unique identifier. Shows "N/A" when unavailable. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The study site's number. Shows "N/A" when unavailable. 
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment country's
+ | Country Name 
+ | Text 
+ | 2048 
+ | The site's country. 
+ | Metrics Level 
+ | Text 
+ | 10 
+ | Specifies the metrics level. Options are: 
+- Study 
+- Country 
+- Site 
+ | Revision Type 
+ | Text 
+ | 255 
+ | Specifies the type of revision. One of:
+- Calculated Actual 
+- (Manual) Actual 
+- Revised 
+- Planned 
+ | Screened Count 
+ | Integer 
+ | 16 
+ | Number of patients completed screening. 
+ | Screen Failed Count 
+ | Integer 
+ | 16 
+ | Number of patients that failed screening. 
+ | In Screening Count 
+ | Integer 
+ | 16 
+ | Number of patients undergoing screenings. 
+ | Enrolled Count 
+ | Integer 
+ | 16 
+ | Number of patients enrolled. 
+ | Completed Count 
+ | Integer 
+ | 16 
+ | Number of patients who completed the study. 
+ | Early Terminated Count 
+ | Integer 
+ | 16 
+ | Number of patients who dropped out of the study. 
+## Enrollment Status
+ The Enrollment Status data file provides an overview of enrollment status. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division's name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The iMedidata client division's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study environment's name.
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Site Name 
+ | Text 
+ | 256 
+ | 
+ The study site's name. Shows "N/A" when unavailable.
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The study site's unique identifier. Shows "N/A" when unavailable. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The study site's number. Shows "N/A" when unavailable. 
+ | Country Name 
+ | Text 
+ | 2048 
+ | 
+ The study environment country name.
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The country's unique identifier. 
+ | Status Level 
+ | Text 
+ | 10 
+ | Specifies i f the milestones status level. Options are: 
+- Study 
+- Country 
+- Site 
+ | Status Type 
+ | Text 
+ | 36 
+ | Currently fixed as Progress Marker. 
+ | Status Type Value 
+ | Text 
+ | 256 
+ | Defines the Study Enrollment status type:
+- Close Date 
+- First Site Opened Date 
+- Open Date 
+- Selection Date 
+- Study Projected End Date 
+- Study Start Date 
+- Subject Enrollment Closed Date 
+ | Status Type Date 
+ | Date 
+ | 23 
+ | Date and time of the status event 
+## Milestones
+ The Milestones data file provides an overview of study level, country level, and site level milestones. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division's name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The iMedidata client division's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study environment's name.
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Site Name 
+ | Text 
+ | 256 
+ | 
+ The study site's name. Shows "N/A" when unavailable.
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The study site's unique identifier. Shows "N/A" when unavailable. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The study site's number. Shows "N/A" when unavailable. 
+ | Country Name 
+ | Text 
+ | 2048 
+ | 
+ The study environment country's name.
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The country's unique identifier. 
+ | Milestone Name 
+ | Text 
+ | 256 
+ | 
+ Name of the milestone. You can define and configure the names  in Study Management. 
+ | Milestone Level 
+ | Text 
+ | 10 
+ | Specifies the milestones level. Options are: 
+- Study 
+- Country 
+- Site 
+ | Scheduled Date 
+ | Date 
+ | 23 
+ | Planned milestone date. 
+ | Revised Scheduled Date 
+ | Date 
+ | 23 
+ | Current scheduled date for the milestone. 
+ | Performed Date 
+ | Date 
+ | 23 
+ | Actual date the milestone was achieved.
+ | Notes 
+ | Alphanumeric 
+ | 1024 
+ | Notes related to this milestone as entered in Study Management. 
+## Packages
+ The Packages data file provides an overview of packages data at the site level. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division's name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The iMedidata client division's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment's name. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment's unique identifier. 
+ | Country Name 
+ | Text 
+ | 2048 
+ | The site's country. 
+ | Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The country's UUID 
+ | Site Name 
+ | Text 
+ | 256 
+ | The study site's name. Shows "N/A" when unavailable. 
+ | Site Number 
+ | Numeric 
+ | 1024 
+ | The study site's number. Shows "N/A" when unavailable. 
+ | Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The study site's unique identifier. Shows "N/A" when unavailable. 
+ | Package UUID 
+ | Unique Identifier 
+ | 50 
+ | The package's UUID. 
+ | Package ID 
+ | Unique Identifier 
+ | 50 
+ | The package's system-generated business identification number. 
+ | Package Name 
+ | Text 
+ | 256 
+ | The package's name. 
+ | Status 
+ | Text 
+ | 256 
+ | The package's status as based on a list of predefined statuses. 
+ | Status Date 
+ | Date 
+ | 200 
+ | The date when the package received its status. Study and country level documents defines today based on UTC time. Site level documents define today based on the site's local timezone. 
+ | Template UUID 
+ | Unique Identifier 
+ | 50 
+ | The template's UUID 
+ | Template Name 
+ | Text 
+ | 256 
+ | The name of the template used to create the package. 
+ | Template Version Date 
+ | Date 
+ | 200 
+ | The date the template was updated 
+ | External ID 
+ | Text 
+ | 50 
+ | Not currently used 
+ | Created by 
+ | Text 
+ | 200 
+ | The user name who entered details about the package. 
+ | Created at 
+ | Date 
+ | 200 
+ | The date and time when someone entered details about the package. 
+ | Modified at 
+ | Date 
+ | 200 
+ | The date and time when someone updated details about the package. 
+ | Modified by 
+ | Text 
+ | 200 
+ | The user name who updated details about the package. 
+ | Deleted 
+ | Text 
+ | 50 
+ | Denotes if the package is deleted. 
+ | Active 
+ | Text 
+ | 50 
+ | Denotes if the package is active. 
+## Service Provider
+ The Service Provider data file provides an overview of service providers details. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division's name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The iMedidata client division's unique identifier. 
+ | Protocol ID 
+ | Numeric 
+ | 16 
+ | The identification number of the protocol associated with the service provider. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study environment's name.
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Site Name 
+ | Text 
+ | 256 
+ | 
+ The study site's name. Shows "N/A" when unavailable.
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The study site's unique identifier. Shows "N/A" when unavailable. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The study site's number. Shows "N/A" when unavailable. 
+ | Study Environment Country Name 
+ | Text 
+ | 2048 
+ | 
+ The study environment country's name as it appears in iMedidata.
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment country's unique identifier.. 
+ | Organization Name 
+ | Text 
+ | 256 
+ | The organization's name, for example: Northside Medical Institute. 
+ | Organization ID 
+ | Alphanumeric 
+ | 255 
+ | The organization's identification number. 
+ | Organization Type 
+ | Text 
+ | 128 
+ | The organization's type. For example:
+- Academic Institution 
+- Biotech 
+- CRO 
+- Diagnostics Company 
+- Financial Institution 
+- Health Care Facility 
+- IRB IEC 
+- Medical Devices Company 
+- Medical Laboratory 
+- Other 
+- Pharmaceutical Company 
+- Regulatory Authority 
+ | Services Provided 
+ | Text 
+ | 2000 
+ | Services provided  by the organization, for example:
+- Imaging Lab, Biomarkers Lab, MRI Analysis 
+- Manufacturer, IVRS, Deports, Supplier 
+- Investigator Brochure Writing, Model ICFs Writing, Clinical Study Report 
+ | Start Date 
+ | Date 
+ | 23 
+ | The start date for the provided services. 
+ | End Date 
+ | Date 
+ | 23 
+ | The end date for the provided services. 
+## Submissions
+ The Submissions data file provides an overview of submissions data at the site level. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division's name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The iMedidata client division's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Country Name 
+ | Text 
+ | 2048 
+ | The site's country. 
+ | Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The country's UUID 
+ | Study Environment UUID 
+ | Alphanumeric 
+ | 256 
+ | The study environment's unique identifier. 
+ | Submission Name 
+ | Text 
+ | 200 
+ | The submission's name. 
+ | Submission Type 
+ | Text 
+ | 200 
+ | The submission's type. 
+ | Submission ID 
+ | Unique Identifier 
+ | 200 
+ | The submission's system-generated business identification number. 
+ | Submission UUID 
+ | Unique Identifier 
+ | 50 
+ | The submission's UUID 
+ | Approving entity 
+ | Text 
+ | 200 
+ | The name of the approving entity 
+ | Approving entity UUID 
+ | Unique Identifier 
+ | 50 
+ | The approving entity's UUID 
+ | Approving entity type 
+ | Text 
+ | 200 
+ | The type of approving entity 
+ | Approving entity type UUID 
+ | Unique Identifier 
+ | 50 
+ | The UUID of the approving entity type 
+ | Submission status 
+ | Text 
+ | 200 
+ | The submission's status. 
+ | Planned submission date 
+ | Date 
+ | 200 
+ | The planned submission date. Study and country level submissions define today based on the UTC timezone. Site level submissions define today based on the site's local timezone. 
+ | Actual Submission date 
+ | Date 
+ | 200 
+ | The actual submission date. This value cannot be in the future or after the Actual Submission Approval value. Study and country level submissions define today based on the UTC timezone. Site level submissions define today based on the site's local timezone. 
+ | Planned submission Approval Date 
+ | Date 
+ | 200 
+ | The submission's planned approval date. Study and country level submissions define today based on the UTC timezone. Site level submissions define today based on the site's local timezone. 
+ | Actual Approved Date 
+ | Date 
+ | 200 
+ | The submission's actual approval date. This value cannot be in the future or before the Actual Submission Date value. Study and country level submissions define today based on the UTC timezone. Site level submissions define today based on the site's local timezone. 
+ | External ID 
+ | Text 
+ | 50 
+ | Not currently used 
+ | Created by 
+ | Text 
+ | 200 
+ | The user name who entered details about the submission. 
+ | Created at 
+ | Date 
+ | 200 
+ | The date and time when someone entered details about the submission. 
+ | Modified at 
+ | Date 
+ | 200 
+ | The date and time when someone updated details about the submission. 
+ | Modified by 
+ | Text 
+ | 200 
+ | The user name who updated details about the submission. 
+ | Deleted 
+ | Text 
+ | 50 
+ | Denotes if the submission is deleted.

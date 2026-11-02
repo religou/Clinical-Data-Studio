@@ -1,0 +1,8 @@
+# Review Exports
+
+## Review Exports
+ After creating one or more exports , you can review the exports and perform one of the following actions on those exports:
+- Review Exports List 
+- Review Export Configuration 
+- Review Export Run History 
+- Troubleshoot Common Errors for Failed Exports

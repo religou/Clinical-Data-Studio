@@ -1,0 +1,22 @@
+# Error Plots Streamline Navigation to View a Specific Patient's Profile
+
+## Error Plots Streamline Navigation to View a Specific Patient's Profile
+## Description
+ The Error Plots page now provides Centralized Statistical Monitoring (CSM) users with authorized Medidata Patient Profiles permission quicker, easier access to view individual patient profiles. 
+## Affected Roles
+ Central monitor. 
+## Advantages
+ You can seamlessly access and investigate patient profiles for the patients IDs associated with data points of interest when analyzing error plots.
+## User Impact
+ On the Detect Landing Page > Centralized Statistical Monitoring (CSM) module > Exploratory Analysis > Error Plots page, when you view an error plot that uses Numeric Analysis, Numeric Versus Numeric Analysis, or Numeric Versus Text Analysis, you can click an individual plot data point and: 
+- the error plot visualization filters to highlight only the specific data point you select. 
+- the Summary table updates to display information only for the patient associated with the selected data point. The View By field reads Plot Point . 
+ You can click the patient ID link in the Summary table to directly access the patient's profile in Medidata Patient Profiles. 
+ Tip : You can click any white space within the plot to return to the unfiltered error plot view. For example, in the Summary table you select View By - Country , and Country - Japan , then click a data point and the patient ID link to view the patient data. Now when you click any white space within the error plot, all data points indicating patients in Japan appear highlighted, other data points remain disabled. 
+ Click the following image to enlarge. 
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ You can only view patient profiles for patients that have a master patient profile design configured in Patient Profiles. 
+ Only users with 'View Profile'Cloud Administration permission can view patient IDs as hyperlinks and access individual patient profiles from Centralized Statistical Monitoring. 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

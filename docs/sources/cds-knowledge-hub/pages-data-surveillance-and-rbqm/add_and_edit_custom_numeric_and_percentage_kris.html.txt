@@ -1,0 +1,262 @@
+# Add and Edit Custom Numeric and Percentage KRIs
+
+## Add and Edit Custom Numeric and Percentage KRIs
+ Within a given study environment , you can define and add custom  numeric KRIs and percentage KRIs that target specific facets of your study data that you want to monitor for risk. If necessary, you can also edit the details of the custom KRIs that you create. 
+## Add Custom Numeric KRIs
+ A c ustom numeric KRI is a key risk indicator that analyzes a single user-specified variable or data set and produces a numeric output for the results or observances.  You can define and add custom numeric KRIs that target specific facets of your study data that you want to monitor for risk. For example, if you are running a blood pressure trial, you can define custom numeric KRIs to calculate the mean of blood pressure values in your study. You can then use the study findings to determine if any sites or countries show signs of risk related to blood pressure data. D ata sets and variables appear with a Rave, external or derived label next to the name. 
+ After adding a custom numeric KRI, you can activate the KRI so that the KRI data gets filtered, calculated, analyzed, and shown in:   
+- KRI Dashboard 
+- Risk Assessment 
+- Risk Inventory 
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu.
+The Key Risk Indicators page appears. 
+- Do one of the following:
+- To add a new custom numeric KRI from scratch: click Add Custom KRI > Numeric . 
+- To add a new custom numeric KRI based on an existing custom numeric KRI template: click Import Template , select the Template Group , select the template you need from the Templates list, and then click Import . To learn more about templates, see  Data Surveillance Template Library . 
+- In the Custom Numeric KRI dialog box, select or enter the following:
+- Name  – Enter a succinct label that identifies the custom numeric KRI. The custom numeric KRI name must be unique and no more than 255 characters. The name entered for the KRI in KRI Configuration is how the name appears in the KRI Dashboard. 
+- Description  – Enter more details about what the KRI is, what it is meant to calculate and track, or any other helpful information. The description has a 2000 character maximum. 
+- Data Set – Select the  data set  that you want the custom KRI to perform the KRI calculation on.
+ Note : You can use published audit data sets to build KRIs, however you cannot use data sets for cross data comparison.   This means while building a KRI, you cannot use an audit data set along with a Rave data set. You can use a single published audit data set.  
+- Variable  – Select the variable  that you want the custom KRI to perform the KRI calculation on.
+ Note : The Variable field does not appear if you select Count or Rate in the Calculation Type field.
+ Note : If data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or_ DTC . For example, if the source date is missing the day, the enriched _INT field interpolates the 1st day of the month, and _DTC fields drop the unknown value. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms. 
+- Threshold Type – Select User Defined or System Defined. For the user-defined threshold type, you can further define:  
+- Moderate Risk Threshold – Enter the value that represents the lowest risk limit for the KRI. 
+The Custom Numeric KRI value must be a positive number less than the High Risk Threshold value.
+- (Optional) High Risk Threshold –  Enter a value that represents the highest risk limit for the KRI. 
+The  Custom Numeric KRI value must be a nonzero positive number higher than the Moderate Risk Threshold value.
+- Calculation Type  – Select the type of calculation that you want the custom numeric KRI to perform on the selected variable. You can select one of the following standard calculation types:
+ Notes
+- If you select a Calculation Type that does not correlate with the selected Variable, then the Variable field clears. 
+- Also, the Data Set, Variable, and Calculation Type selection combination for a new custom KRI must be unique for your study environment. 
+- Count  –  Calculates the average record count in the selected data set. The Count calculation is only available at the data set level. This calculates count at the patient level for each site and country and then takes average of patient-level counts to arrive at site-, country-, and study-level values. 
+- Count Values – Calculates the average count of records in the study that meet a specified criteria based on the selected field. Valid only for fields with a value of 1 or 0. This calculates count at patient-, site-, country-, and study-level values. 
+- Mean  – Calculates the mean value of a numeric data field based on the selected variable at the site. This calculates the mean of a variable at the patient/site/country/study level depending on the values users are seeing. 
+- Rate  – Calculates the total average record count divided by patient time on study in months in the selected data set over time. The Rate calculation is only available at the data set level. This calculates rate for a dataset at the patient/site/country/study level depending on the values users are seeing. 
+- Rate Values – Calculates the average percentage in a site of non-missing, non-zero values for a given variable. Use cases include the fraction of Adverse Events which are Serious, where Serious was 1 for an SAE, and 0 for a non-SAE event, or the fraction of a lab parameter out of normal range. Valid only for fields with a value of a 1 or 0. This calculates count at patient-, site-, country-, and study-level values and multiply by 100.
+- Standard Deviation – Calculates variance in a set of observed values based on the selected field. This calculates value for a field at the patient/site/country/study level depending on the values users are seeing. 
+- Risk Category  –  The specific, standard risk area that you want the KRI to target its analysis on.
+ Note : The KRI Dashboard groups KRIs by risk category.
+- Optional . To build an expression to filter for the specific subset of data that you want the custom numeric KRI to perform statistical analysis on, click the Add Filter Criteria check box, and then do the following:
+- Select a variable within the Filter Criteria Query .
+ Special Notes
+- You can only filter the data population subset within one data set. 
+- When you define an individual condition, the condition is evaluated for whether there is at least one instance where the condition is true across all data in that domain for a given patient. If you build a grouped conditional set, the individual conditions in the set are independently evaluated for truth but not contextually evaluated within the same folder. 
+- Select a comparator, such as = or !=, and then select or enter a comparator value.
+The list of selectable comparators differ whether you select a date, number, or text variable.  The comparator value serves as the conditional threshold, which measures and flags whether specified conditions are met in reference to the selected comparator. 
+ Comparators and Comparator Value Descriptions 
+ Selected Variable Type 
+ Comparator 
+ Description 
+ Comparator Value Entry 
+ | Text, Numeric, Date 
+ | = 
+ | Filters for patients at the site or country level whose reported value within the selected variable is equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets. 
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text, Numeric, Date 
+ | != 
+ | Filters for patients at the site or country level whose reported value within the selected variable is not equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | > 
+ | Filters for patients at the site or country level whose reported value within the selected variable is greater than or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click, and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | < 
+ | Filters for patients at the site or country level whose reported value within the selected variable is less than or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | >= 
+ | Filters for patients at the site or country level whose reported value within the selected variable is equal to, greater than, or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | >= 
+ | Filters for patients at the site or country level whose reported value within the selected variable is equal to, less than, or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text 
+ | One Of 
+ | Filters for patients at the site or country level who contain at least one of the reported terms within the select variable. 
+ | Select one or more patient-reported strings or terms. 
+ | Text, Numeric, Data 
+ | Missing 
+ | Filters for patients at the site or country level who do not contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text, Numeric, Data 
+ | Not Missing 
+ | Filters for patients at the site or country level who contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text 
+ | Contains 
+ | Filters for patients at the site or country level who contain a specific, user-entered value reported data within the selected variable. 
+ | Enter a text value. 
+- Optional . To add conditions to the expression, click and drop or to the block within the Filter Criteria Query that contains Add Condition . You can add as many conditions as you need.
+- AND  – Specifies that all individual conditions and conditions within a grouped conditional set must be met for the expression to be considered true. 
+- OR – Specifies that at least one individual condition or grouped conditional set must be met for the expression to be considered true. 
+- If necessary, close any grouped conditional sets using   and  .
+ Note: How to Remove Parentheses or Entire Grouped Conditional Sets from Filter Criteria Queries
+- To remove a left or right paren from the Filter Criteria Query, hover your cursor in the upper-right corner of the block containing the paren, and then click  X .
+ Tip : Click image to enlarge.
+- To remove a grouped conditional set from the Filter Criteria Query, hover your cursor in the upper-right corner of the block that says  AND , OR , or ADD CONDITION which appears immediately to the right of the set you want to remove, and then click  X .
+The grouped conditional set to the left of the AND , OR , or ADD CONDITION block is removed. 
+ Tip : The Filter Criteria Expression section details the full condition set as you build to help you determine if the logic you are configuring is correct. You can build a complex expression using a single condition and the operator and parenthesis to compare KRIs for patients within a form, between forms, and across multiple folders and forms. You can click Hide Preview to hide the Expression section. 
+- Click  Save .
+The new custom numeric KRI appears in the Key Risk Indicators list as inactive by default. To learn how to activate KRIs, see  Activate and Deactivate KRIs .
+## Add Custom Percentage KRIs
+ A custom percentage KRI is a key risk indicator based on a user-defined binary expression that assesses if patients meet specified conditions or criteria within a targeted risk area. 
+ Within a given study environment, you can define and add custom percentage KRIs to target and monitor specific study data for risk. With custom percentage KRIs, you can build functional expressions to query your study database to assess if patients meet certain conditions or criteria. The expressions contain one or more conditions. You build conditions by applying mathematical and logical operations on date, numeric, or text data set variables from the list of data sets available within a study environment. 
+ For example, you can build a percentage KRI that reports the percentage of all study patients who experienced a systolic blood pressure over 140. Or you can build a percentage KRI that calculates the percentage of all study patients with a history of hypertension who had thrombocytopenia between study days 5 and 10. 
+ After adding a custom percentage KRI, you can activate the KRI so that the KRI data gets filtered, calculated, and shown in: 
+- KRI Dashboard 
+- Risk Assessment 
+- Risk Inventory 
+ Percentage KRI value calculations appear as percentages. 
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu.
+The Key Risk Indicators page appears. 
+- Do one of the following:
+- To add a new custom percentage KRI from scratch: click Add Custom KRI > Percentage . 
+- To add a new custom percentage KRI based on an existing custom percentage KRI template: click Import Template , select the Template Group , select the template you need from the Templates list, and then click Import . To learn more about templates, see Data Surveillance Template Library . 
+- In the Custom Percentage KRI dialog box, select or enter the following:
+- Name  – Enter a succinct label that identifies the custom percentage KRI. The custom numeric KRI name must be unique and no more than 255 characters. The name entered for the KRI in KRI Configuration is how the name appears in the KRI Dashboard, Risk Assessment, and Risk Inventory. 
+- Risk Category  –  The specific, standard risk area that you want the KRI to target its analysis on.
+ Note : The KRI Dashboard groups KRIs by risk category. 
+- Description  – Enter more details about what the KRI is, what it is meant to calculate and track, or any other helpful information. The description has a 2000 character maximum.
+- Threshold Type – Select User Defined or System Defined. For the user-defined threshold type, you can further define:  
+- Moderate Risk Threshold – Enter the value that represents the lowest risk limit for the KRI.
+The Custom Percentage KRI value must be between 1 and 100. 
+- (Optional) High Risk Threshold –  Enter a value that represents the highest risk limit for the KRI.
+The Custom Percentage KRI value must be between 1 and 100. 
+- To begin building a single expression: From the list of Data Sets , click and drop a variable within the Numerator Query .
+ Special Notes
+- You can use published audit data sets to build KRIs; however, you cannot use data sets for cross data comparison.   This means while building a Numeric KRI, you cannot use an audit data set along with a Rave data set within the Numerator Query. You can use a single published audit data set. 
+- RBQM currently does not support building percentage KRIs with data sets using datetime operations. 
+- When you define an individual condition, the condition is evaluated for whether there is at least one instance where the condition is true across all data in that domain for a given patient. If you build a grouped conditional set, the individual conditions in the set are independently evaluated for truth but not contextually evaluated within the same folder. 
+- Select a comparator, such as = or !=, and then select or enter a comparator value.
+The list of selectable comparators differ whether you select a date, number, or text variable.  The comparator value serves as the conditional threshold, which measures and flags whether specified conditions are met in reference to the selected comparator.
+ Note : For multiple-record data, similar KRIs with inverse queries may not produce inverse percentage values.
+ Comparators and Comparator Value Descriptions 
+ Selected Variable Type 
+ Comparator 
+ Description 
+ Comparator Value Entry 
+ | Text, Numeric, Date 
+ | = 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets. 
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text, Numeric, Date 
+ | != 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is not equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | > 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is greater than or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click, and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | < 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is less than or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | >= 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is equal to, greater than, or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | >= 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is equal to, less than, or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text 
+ | One Of 
+ | Calculates the percentage of patients at the site or country level who contain at least one of the reported terms within the select variable. 
+ | Select one or more patient-reported strings or terms. 
+ | Text, Numeric, Data 
+ | Missing 
+ | Calculates the percentage of patients at the site or country level who do not contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text, Numeric, Data 
+ | Not Missing 
+ | Calculates the percentage of patients at the site or country level who contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text 
+ | Contains 
+ | Calculates the percentage of patients at the site or country level who contain a specific, user-entered value reported data within the selected variable. 
+ | Enter a text value. 
+- Optional . To add conditions to the expression, click and drop or to the block within the Numerator Query that contains Add Condition . You can add as many conditions as you need.
+- AND  – Specifies that all individual conditions and conditions within a grouped conditional set must be met for the expression to be considered true. 
+- OR – Specifies that at least one individual condition or grouped conditional set must be met for the expression to be considered true. 
+- If necessary, close any grouped conditional sets using   and  .
+ Note: How to Remove Parentheses or Entire Grouped Conditional Sets from Numerators Queries
+- To remove a left or right paren from the Numerator Query, hover your cursor in the upper-right corner of the block containing the paren, and then click X .
+ Tip : Click image to enlarge.
+- To remove a grouped conditional set from the Numerator Query, hover your cursor in the upper-right corner of the block that says  AND , OR , or ADD CONDITION which appears immediately to the right of the set you want to remove, and then click  X .
+The grouped conditional set to the left of the AND , OR , or ADD CONDITION block is removed. 
+ Tip : The Numerator Expression section details the full condition set as you build to help you determine if the logic you are configuring is correct. You can build a complex expression using a single condition and the operator and parenthesis to compare KRIs for patients within a form, between forms, and across multiple folders and forms. You can click Hide Preview to hide the Expression section. 
+- Follow steps 5-9 but perform the steps in the Denominator Query to configure the KRI to target a specific data population subset.
+ Tip : For most KRIs, the denominator is based on the number of randomized patients. In which case, typically the denominator logic you would use would be “Randomization Date is not missing”.
+- When finished building the expressions, click Save .
+The new custom percentage KRI shows in the KRI Configurations list as inactive by default. To learn how to activate KRIs, see Activate and Deactivate KRIs . 
+## Edit Custom KRIs
+ After creating and saving a new custom KRI, you can edit the custom KRI. For example, if the KRI was originally set at a different threshold or if you want to change the KRI description to provide more detail, you can edit as needed.
+ Note : If you update an existing user-defined KRI, the new changes affect all calculations and analytics that consume that user-defined KRI. All system KRI details are always read-only.
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu.
+The Key Risk Indicators page appears. 
+- Click any custom KRI name in Name column.
+ Tip : Custom KRIs show in blue, hyperlinked text.
+- In the Custom KRI dialog box, change or edit any of the following information:
+- Name  – Enter a succinct label that identifies the custom KRI. The custom KRI name must be unique and no more than 255 characters. The name entered for the KRI in KRI Configuration is how the name appears the KRI Dashboard. 
+- Description  – Enter more details about what the KRI is, what it is meant to calculate, or any other helpful information. The description has a 2000 character maximum. 
+- Reason for change – Enter details about why you are editing the KRI.
+ Note - Reason for change is a mandatory field. You cannot save a KRI you edit without entering the reason for change.
+- Data Set – Select the data set  that you want the custom KRI to perform the KRI calculation on. 
+- Threshold Type – Select User Defined or System Defined. For the user-defined threshold type, you can further define:  
+- Moderate Risk Threshold – Enter the value that represents the lowest risk limit for the KRI. 
+The Custom Numeric KRI value must be a positive number less than the High Risk Threshold value.
+The Custom Percentage KRI value must be between 1 and 100. 
+- (Optional) High Risk Threshold –  Enter a value that represents the highest risk limit for the KRI. 
+The  Custom Numeric KRI value must be a nonzero positive number higher than the Moderate Risk Threshold value.
+The Custom Percentage KRI value must be between 1 and 100.
+ Note - If you only specify the Moderate Risk threshold, KRIs appear green if values are below moderate risk, and red if the values are above the moderate risk threshold.
+- Calculation Type – The type of calculation you want to the KRI to be based on. For example, Count, Count Values, Mean, or Rate. 
+- Risk Category –  The specific, standard risk area that you want the KRI to target its analysis on.
+ Note : The KRI Dashboard groups KRIs by risk category. 
+- For Percentage Numeric KRIs, the condition or conditions that define the expression. To know more about expressions, see  Percentage KRI Expression . 
+- Click Save .
+ Note : You can edit on inactive KRIs. If activated, the updated custom KRI details appear in KRI Dashboard after the next data refresh.

@@ -1,0 +1,17 @@
+# Ability to Pause and Resume Schedule Jobs
+
+## Ability to Pause and Resume Schedule Jobs
+## Description
+ You can now pause scheduled and repeating jobs. You can also resume paused jobs. You can pause jobs from the Export Jobs screen or from a specific job's Job Configuration Screen.
+## Affected Roles
+ All roles with the ability to manage export jobs. For details, see Exports Roles and Capabilities.
+## Advantages
+ You can pause jobs that you no longer need, and restart jobs when you need them again. These additional options give you more control regarding when the Medidata platform extracts your data and do not require intervention by Medidata Support.
+## User Impact
+ Existing scheduled jobs are unchanged. You can pause and resume jobs from the Export Jobs screen or a specific job's Job Configuration screen. Otherwise your ability to create or manage export jobs remains the same.  
+## Knowledge Space Updates
+ The Extractor Knowledge Space provides updated content to describe how to pause and resume jobs: 
+- Review Exports List 
+- Review Export Configuration 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

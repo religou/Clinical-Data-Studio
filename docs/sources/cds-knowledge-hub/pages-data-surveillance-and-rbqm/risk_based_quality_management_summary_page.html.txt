@@ -1,0 +1,92 @@
+# Data Quality Hub
+
+## Data Quality Hub
+ The Data Quality Hub is a capability of the RBQM capability suite that provides a dashboard view of RBQM-related key performance metrics. The summary enables you to: 
+- Quickly identify areas of study risk that require investigation or mitigation. 
+- Directly access the RBQM capabilities you need to address the identified risks. 
+ Note : In Data Surveillance and RBQM, s tudy data automatically refreshes four times daily at approximately 9:00am (EST), 3:00pm (EST), 9:00pm (EST) and 3:00am (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, 5:00 am (EST) the same day, 11:00 am (EST) the same day, 5:00 pm (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Rave EDC, and activated datasets from Data Connect are available in 6 to 12 hours within Data Surveillance and RBQM.  For more information, see  Clinical Data Studio Data Pipeline .
+## What Is the Data Quality Hub?
+ The Data Quality Hub is a dashboard that shows you the following high-level key performance indicator cards reflected as of the most recent data refresh: 
+ Card Name 
+ Description 
+ Image 
+ | Priority Focus 
+ | The Priority Focus card lists sites in the top 25th percentile of Site Impact Scores.
+- Site Score – Sum of impact score associated to a signal. 
+- Site Impact Score – (Site Score/ Total Study Impact Score)
+- Where Total Study Impact Score = Sum of all site impact score in a given study 
+ The Priority Focus card prioritizes and sorts sites by Site Impact Score.
+ You can click See More for a particular site to navigate to the All Signals By Site section below on the Data Quality Hub. The All Signals By Site will be filtered to show information only for the corresponding site selected from the Priority Focus section.
+ | 
+ | Key Risk Indicators (KRI) 
+ | The Key Risk Indicators (KRI) card shows: 
+- Site-level key risk indicator (KRI) performance metrics, including: 
+- Number of sites being tracked for KRIs that are added to the SRI. 
+- Number and visual spread of low-, medium-, and high-risk sites. 
+ You can hover your cursor on a segment in the Key Risk Indicators (KRIs) card donut chart to: 
+- View the number of low-, medium-, or high-risk sites. 
+- Click a low-, medium-, or high-risk segment to directly access the prefiltered KRI Dashboard listing all sites, medium-risk sites, or high-risk sites, respective. 
+ | 
+ | Quality Tolerance Limits (QTL) 
+ | 
+ The Quality Tolerance Limits (QTL) card shows: 
+- Study-level quality tolerance limits (QTL) performance metrics, including: 
+- Number of QTLs begins tracked in the study. 
+- Number and visual spread of QTLs that are considered: 
+- In Range – The percentage of patients that do not meet the study parameter's specified criteria is considered within a healthy range of the expectation . Generally, in range QTLs require no action. 
+- Out of Range – The percentage of patients that do not meet the study parameter's specified criteria have exceeded the tolerance threshold . RBQM considers parameters whose QTL values exceed the threshold as at risk. 
+- Above Upper Limit – The percentage of patients that do not meet the study parameter's specified criteria has exceeded the tolerance upper limit . RBQM considers parameters whose QTL values exceed the upper limit as high risk. 
+ You can hover your cursor on the Quality Tolerance Limits (QTLs) card donut chart to:
+- View the number of study QTLs that are considered in range, out of range, or above the QTL's upper limit. 
+- Click the donut chart to directly access the QTL Dashboard. 
+ | 
+ | Risk Management 
+ | The Risk Management card shows t he total count of identified risks as well as the count of overdue and due soon risks where: 
+- Overdue   -- The Current Date is after the Target Review Date, indicating that the risk review is overdue. 
+- Due Soon – The Target Review Date for the risk review is within one week of the Current Date. 
+ You can click a segment in the Risk Management card to directly access the prefiltered Risk Inventory listing all overdue risk reviews. 
+ | 
+ | Open Signals 
+ | Shows the total number of open signals as well as the number of signals that are:
+- In Progress 
+- Overdue 
+- lingering – Open for over 30 days. 
+ | 
+ | Risk Inventory 
+ | Shows the count of risks per status based on severity.
+ You can:
+- Hover your cursor on the bar for any risk status to show the total number of risks by status and the total number of risks based on risk severity for that status. 
+- Hover your cursor on a segment representing a risk severity to highlight all segments in the bar chart of the same severity. 
+ | 
+ | Patients Cleaned By Site 
+ | The Patients Cleaned By Site card contains   a bar graph that shows the total number of patients at each site broken down by the number of cleaned patients and in progress patients by site. 
+ You can: 
+- Hover your cursor on the bar for any site to show the raw metrics for that site. 
+- Hover your cursor on a segment representing Clean Patients or In Progress Patients to highlight all segments in the bar chart of the same status. 
+ In the graph's upper-right corner, you can click the double-sided arrow to open a separate window to:
+- View and compare the top ten sites in your study with the highest in progress patient counts. 
+- View the Sites list which provides more detailed information concerning outstanding tasks for all sites in your study and enables you to:
+- Directly open and review data listings, vendor queries, and AI Reconciliation reports with unreviewed records. 
+- Access the full, detailed list of open EDC queries for a specific site. 
+ | 
+ | All Signals By Site 
+ | The All Signals By Site card shows the list of all sites and associated signals. The card shows raw metrics per site such as:
+- Site Number 
+- Site Country 
+- Site Score 
+- Total number of signals associated with the site 
+- Number of signals created directly from a specific CDS module (such as KRIs, Patient Profiles, Propagation) or number of user-defined signals in the Signals module. 
+- Cleaning progress at the site. 
+ You can click to directly access the list of Signals for each module from the All Signals By Site card.
+ You can also expand a site to show additional details of the breakdown of the analyses of each signal.
+ | 
+## What Is the Purpose of the Data Quality Hub?
+ The Risk Based Quality Management Summary allows you to: 
+- Track in one centralized location the health of RBQM tasks and metrics using high-level key performance indicators. 
+- Navigate directly to the RBQM capabilities you need to address risks identified in the hub. 
+## Who Uses the Data Quality Hub?
+ Central monitors, clinical operations, and data managers.
+## What Are the Benefits of the Data Quality Hub?
+ The Data Quality Hub enables you to: 
+- Quickly identify areas of risk that require investigation or mitigation. 
+- Seamlessly access with one click the RBQM capabilities you need to address the identified risks.

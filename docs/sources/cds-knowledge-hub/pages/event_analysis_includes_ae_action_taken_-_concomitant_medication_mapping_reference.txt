@@ -1,0 +1,23 @@
+# Event Analysis Includes AE Action Taken - Concomitant Medication Mapping Reference
+
+## Event Analysis Includes AE Action Taken - Concomitant Medication Mapping Reference
+## What Is New?
+ Detect Mapping's Event Analysis Mapping includes a new AE Action Taken - Concomitant Medication reference. This reference enables you to configure the data sets and variables that Detect consumes to exclude adverse events that have been treated with concomitant medications in AI Data Reconciliation's analysis. 
+## What Is the Impact?
+## Users/Roles
+ Detect Configuration Manager Admin 
+## Workflow Process
+ You must configure the AE Action Taken - Concomitant Medication reference's data set and mapped variable for AI Data Reconciliation's analysis to exclude adverse events with concomitant medications. 
+## Other Applications
+ Configuring the AE Action Taken - Concomitant Medication reference impacts the results produced in AI Data Reconciliation's analysis and reports.
+## How Do I Benefit?
+ Configuring AI Data Reconciliation to exclude adverse events that have been treated with concomitant medications produces better targeted report results that show only adverse events that were untreated with concomitant medications. Therefore, you can use AI Data Reconciliation's reports to better identify potential medical issues, malpractice, or instances of improper data collection in the study. 
+## Where Do I See the Change?
+ In Detect Configuration Manager > Detect Mapping > Event Analysis tab > Event Analysis Mapping section, the Reference column now includes the AE Action Taken - Concomitant Medication reference.
+ You can select the data set and mapping variable that you want to configure for the AE Action Taken - Concomitant Medication reference.
+## Where Do I Learn More?
+ Use the following link to find new and updated content in support of this enhancement:
+ Map Event Analysis Data 
+## What Else Should I Know?
+ The AE Action Taken - Concomitant Medication reference's Mapping Variable selection must be a binary variable. Otherwise, you must create and use a derived variable for the Mapped Variable selection.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

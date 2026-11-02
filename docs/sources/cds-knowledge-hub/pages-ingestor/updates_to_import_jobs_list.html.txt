@@ -1,0 +1,24 @@
+# Updates to Import Jobs List
+
+## Updates to Import Jobs List
+## Description
+ The Import Jobs list screen includes the Status column that shows the status of a given import job. Statuses include:
+- Active – The job is active, and you can upload files with the job. 
+- Inactive – The study associated with the job is inactive, and you cannot upload files with the job. 
+- Completed – The job is Completed, and you cannot upload files with the job. 
+ In addition, the Import Level column now shows:
+- The name of import job's target client division or study. 
+- If the import job is at the CDS Level or at the Study Level. 
+ You can filter import jobs by the Status or by the Import Level.
+ Feature/enhancement stories referenced in this article:
+ MCC-836591, MCC-867036 
+## Affected Roles
+ All.
+## Advantages
+ With the updated Job List screen, you can see more comprehensive data about your import jobs and identify the jobs you are interested in.
+## User Impact
+ See Description.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

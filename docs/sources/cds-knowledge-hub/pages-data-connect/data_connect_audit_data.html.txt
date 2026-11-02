@@ -1,0 +1,129 @@
+# Data Connect Audit Data
+
+## Data Connect Audit Data
+ You can export data objects containing data pertaining to Data Connect activity and metadata. You can export data about: 
+- Exports (study level and client level) 
+- Transformations (study level only) 
+## Exports
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Type 
+ | Text 
+ | 256 
+ | The value is always "Export" 
+ | Activity 
+ | Text 
+ | 256 
+ | Describes the general action that was performed. Values include:
+- Export Created 
+- Export Executed 
+- Export Paused 
+- Export Downloaded 
+- Export Edited 
+- Export Resumed 
+- Export Archived 
+- Connection Created 
+- Connection Tested 
+- Connection Updated 
+- Connection Deleted 
+- Connection Deactivated 
+ | Activity Detail 
+ | Text 
+ | 256 
+ | Describes the specific change that was performed to an export configuration 
+ | Where 
+ | Text 
+ | 256 
+ | The value is always "Data Connect" 
+ | Object 
+ | Text 
+ | 256 
+ | The name of the record that was changed 
+ | Maudit Type 
+ | Text 
+ | 6 
+ | The data's audit type:
+- Create 
+- Update 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The user name of the user who updated the record 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the user who updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the user who updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the application that performed the update. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+ The system stores the date and time in UTC, and shows both in your local device's timezone.
+## Transformations
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Type 
+ | Text 
+ | 256 
+ | The value is always "Transformations" 
+ | Activity 
+ | Text 
+ | 256 
+ | Describes the general action that was performed. Values include:
+- Project Updated 
+- Dataset Published 
+- Project Published 
+- Project Created 
+- Dataset Activated 
+- Dataset Deactivated 
+- Project Deleted 
+ | Activity Detail 
+ | Text 
+ | 256 
+ | Describes the specific change that was performed to a transformation 
+ | Where 
+ | Text 
+ | 256 
+ | The value is always "Data Connect" 
+ | Object 
+ | Text 
+ | 256 
+ | The name of the record that was changed 
+ | Maudit Type 
+ | Text 
+ | 6 
+ | The data's audit type:
+- Create 
+- Update 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The user name of the user who updated the record 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the user who updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last  name of the user who updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the app that performed the update 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+ The system stores the date and time in UTC, and shows both in your local device's timezone.

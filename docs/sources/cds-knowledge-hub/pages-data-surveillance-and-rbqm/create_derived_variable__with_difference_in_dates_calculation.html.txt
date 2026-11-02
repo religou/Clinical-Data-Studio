@@ -1,0 +1,16 @@
+# Create Derived Variable with Difference in Dates Calculation
+
+## Create Derived Variable with Difference in Dates Calculation
+ You can calculate the number of days between two date-based data set variables into a single derived variable . For example, AE Start Date - Randomization Date display the number of days between when the AE started and when the subject was randomized. 
+- Access Data Surveillance or RBQM , and then click Configuration > Derived Variables in the left-hand menu. 
+- Click  Create Derived Variable . 
+- Identify and drag a data set  from the Data Sets list into the Configure Variable section. For example, Adverse Events. 
+- Enter the derived variable’s identification information. 
+- Name – Object identifier (OID) of derived variable. For example, AE Start Date/End Date. Must be unique. 
+- Label  – Name for derived variable to appear in other applications. This can be the same as the Name field, or a more specific descriptor. For example, Adverse Event Duration. 
+- Select Difference In Dates   from the  Derived Variable Type   menu. 
+- Drag date variables into the respective Variable 1 and Variable 2 fields.
+- Optional . Click Preview to display the preview panel.
+With the preview panel, you can review the derived variable and adjust the variable's parameters before saving.
+- Click  Save .
+ In Data Surveillance and RBQM, the list of available datasets and variables that you can view and select from include derived variables at the bottom of the list. In Data Surveillance, the list of available datasets and variables appends derived variable names with the blue DERIVED icon.

@@ -1,0 +1,6 @@
+# Critical Processes Features
+
+## Critical Processes Features
+ Risk Management includes the following critical processes-related capabilities:
+- Critical Processes Identification 
+- Critical Processes Support in Risk Management 2020.1.0

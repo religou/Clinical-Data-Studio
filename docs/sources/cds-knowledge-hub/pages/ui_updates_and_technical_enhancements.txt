@@ -1,0 +1,24 @@
+# UI Updates and Technical Enhancements
+
+## UI Updates and Technical Enhancements
+ Medidata Patient Profiles includes the following user interface (UI) updates and technical enhancements:
+- Patient Profiles: Technical Enhancement in Patient Profiles 
+- Patient Profiles: Quality of Life Improvements 
+- Clinical Data Studio 2025.1.0 Minor and Technical Enhancements 
+- Patient Profiles: Quality of Life Enhancements 
+- Technical Changes In The September 2024 Release 
+- PDS: Patient Profiles Quality of Life Improvements for April 2024 
+- Patient Profiles Interface Updates 
+- Performance Improvements in Patient Profiles 2022.2.0 
+- Patient Profiles-Medidata Detect Integration Enables Detect Users to View Profiles 
+- Additional Validation Checks Ensure You Configure Designs Properly in Patient Profiles 
+- Updates to Date Format Display and Behavior in Patient Profiles 
+- Issues Resolved Outside Patient Profiles CLoud List Available On Knowledge Space 
+- Patient Profiles Cloud Introduces Unblinded and Blinded User Role Permissions 
+- Patient Profiles Cloud Can Ingest New External Date Formats 
+- Patient Profiles Clouds Adds a Leading Zero to Single-Digit Dates 
+- Patient Profiles Now Have Clearer Section Labeling 
+- Technical Changes in Medidata Patient Profiles 2020.1.0 
+- Technical Changes in Medidata Patient Profiles 2020.2.1 
+- Technical Changes in Medidata Patient Profiles 2020.2.2 
+- Technical Changes in Medidata Patient Profiles 2022.1.0

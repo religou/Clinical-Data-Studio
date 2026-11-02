@@ -1,0 +1,26 @@
+# QTL Configuration Report PDF Column Updates
+
+## QTL Configuration Report PDF Column Updates
+## Description
+ When you download QTL configuration report PDFs , the PDF now includes the following column headers:
+- Final Population – Total number of patients expected to enroll in the study. 
+- Trigger Point – The minimum required number of patients that meet the QTL's conditions for Detect to analyze and output the QTL's results in Centralized Statistical Monitoring (CSM). 
+- Numerator Expression – D etails the numerator query's full condition set configured for the QTL. 
+- Denominator Expression – D etails the denominator query's full condition set configured for the QTL. 
+ The report PDF no longer includes the following columns:
+- Analysis Type 
+- Sides 
+- Upper limit 
+- Lower Limit 
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ The QTL details provided in the QTL configuration report PDF correlate with the QTL details listed on the Quality Tolerance Limits table.
+## User Impact
+ See the Description section.
+## Knowledge Space Updates
+ The Detect Configuration Manager Knowledge Space provides new and updated content to support this feature/enhancement: 
+- Download QTL Configuration Reports 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

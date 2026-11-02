@@ -1,0 +1,32 @@
+# Potential Duplicate Patients
+
+## Potential Duplicate Patients
+ You can view on an interactive heatmap the site locations in your study that RBQM identifies as having potential duplicate patients. Identifying and investigating sites with potential duplicate patients helps e nsure data integrity and i mproves the chance of study success. 
+## What Are Potential Duplicate Patients?
+ Duplicate patients are   patients who enroll in clinical trials for financial gain or for extra dosages of medication. Duplicate patients most often affect types of studies such as pain, dependencies, or studies where monetary compensation and low impact of multiple dosings prompts some patients to enroll multiple times. 
+## Why Should I Care About Potential Duplicate Patients?
+ Duplicate patients threaten   both participant safety and the integrity of research findings. 
+## How Does RBQM Identify Potential Duplicate Patients?
+ RBQM uncovers potential duplicate patients in your study data by analyzing six demographics: date of birth, gender, height, weight, race, and ethnicity. In addition, RBQM also analyzes the physical distance within 100 miles of the site location of each patient to find patients that look very similar. Patients with too many similarities can indicate that those patients are indeed the same person. 
+ To learn more, see  Potential Duplicate Patient Detection Methodology . 
+## What Is the Potential Duplicate Patients Heatmap?
+ Statistical Monitoring visually outputs all site locations in your study on an interactive heatmap. But in particular, the heatmap signifies the site locations where RBQM identifies potential duplicate patients. The heatmap has two view types: 
+- Global-level View – A full global view of all worldwide site locations in the study. In global view, r ed circles indicate sites with potential duplicate patients. Blue circles indicate sites with no potential duplicate patients. You can m anually zoom in, zoom out, and scroll the map to focus on geographic areas of interest. 
+- Site-level View – A zoomed-in view depicting a selected site with duplicate patients and other sites with potential duplicate patients located within a 100 mile radius. In site-level view, other sites with potential duplicate patients are indicated with purple pins.  
+## What Is the Purpose of the Potential Duplicate Patients Heatmap?
+ The Potential Duplicate Patients heatmap helps you quickly identify and investigate:
+- Sites with potential duplicate patients across all site locations in your study. 
+- Individual patients who may be duplicate patients. 
+## What Are the Benefits of the Potential Duplicate Patients Heatmap?
+ Identifying potential duplicate patients in a study puts you and your life sciences team in an optimal position to: 
+- Prevent financial loss. 
+- Ensure data integrity.  
+- Improve the chance of study success. 
+- Avoid delayed time to market. 
+- Prevent failed clinical trials. 
+## Who Uses the Potential Duplicate Patients Heatmap?
+ Anyone assigned with ensuring study data integrity; for example, central monitors or site monitors.
+## How Do I Uncover Potential Duplicate Patients?
+ See Identify Potential Duplicate Patients In Your Study .
+## How Do I Refresh Potential Duplicate Patients to Output the Latest Study Data Analysis?
+ See  Schedule or Trigger When Statistical Monitoring Refreshes and Outputs the Latest Study Data Analysis .

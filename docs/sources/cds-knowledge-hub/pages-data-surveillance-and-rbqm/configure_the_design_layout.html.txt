@@ -1,0 +1,133 @@
+# Configure the Design Layout
+
+## Configure the Design Layout
+ The workflow progress bar below depicts where configuring the design layout occurs within the recommended patient profile design workflow.
+ After designing elements, you can:
+- arrange the positioning of elements in the design layout; 
+- color-code sections to enhance the report's readability; and 
+- append notes to layout sections. 
+ You generally do not begin configuring the design layout until you finish adding elements to the design.
+ Note : Elements do not display in reports until you add them to the layout.
+ Tip : Play the video below to learn how to how to configure the patient profile design layout.
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+## Add Elements to the Design Layout
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Layout tab. 
+- Locate the element in the list of elements on the right side of the page. 
+- Click-and-drag the element and drop the element in an empty section. 
+- Click   next to the section title, enter the section name, and click  . 
+- Optional.  To apply a color to the section, click the square next to Section Color , and then select a color.
+ Tip : Color-coding sections makes profiles easier to scan and locate specific data. As a best practice, your organization should consistently apply the same color based on category or section type across your designs.
+- Optional : To prevent the section from displaying in the profile, select the Disable check box.
+ Tip : You might want to disable sections that serve as placeholders to contain data that has not yet been gathered in the study. For example, your design may have an End of Treatment section, but your study is only one patient in. In such a case, you do not want that section to display in your profile since there is no data in the section yet.
+ Note : The design layout saves in real time as you work. 
+## Change the Placement of Sections Within the Design Layout
+ You can alter the position of the sections within the design layout.
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Layout tab. 
+- Click   within the section you want to move, and then drag-and-drop the section elsewhere within the layout. 
+## Remove Sections from the Design Layout
+ You cannot remove the default header section. The header section always displays at the top of the layout. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Layout tab. 
+- Click   within the section you want to remove from the layout. 
+## Append Notes to Layout Sections
+ You can add a single note to display at the bottom of layout sections in the patient profile. Adding a note to display at the end of an layout sections gives patient profile reviewers added insight into the profile's study data. 
+ Notes are especially useful with regards to the Highlight Condition functionality for explaining the conditions that result in data displaying in a particular color.
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Layout tab. 
+- Click  Note  in the upper-right corner of a layout section.
+ Note : You cannot add notes to header sections.
+- Enter the note text in the  Note  field. 
+- Click  .
+The note displays in the patient profile as shown below.
+## Next Step
+ View Patient Profiles

@@ -1,0 +1,23 @@
+# EDC Queries: Track Queries Created From The Queries Dataset Using Open EDC Queries
+
+## EDC Queries: Track Queries Created From The Queries Dataset Using Open EDC Queries
+## What Is New?
+ You can now track any queries created using the queries dataset in Listings for any EDC source in EDC Queries.
+## What Is the Impact?
+## Users/Roles
+ Data Managers. 
+## Workflow Process
+ No change to the workflow process. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ Using the queries dataset you can track any queries submitted to Rave or non-Rave EDC within your study. This speeds up the data reconciliation process and enables data managers to improve efficiency while maintaining data integrity and accuracy. 
+## Where Do I See the Change?
+ On the Data Surveillance tab > EDC Queries page, you can see all the queries raised to your EDC source.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Data Sets 
+- View, Create, and Edit Draft Listings. 
+- Open EDC Queries 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

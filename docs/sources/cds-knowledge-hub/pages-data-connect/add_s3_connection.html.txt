@@ -1,0 +1,22 @@
+# Add S3 Connection
+
+## Add S3 Connection
+ With the S3 connection configured for use on the Medidata system, you can add the connection to the external file connection list.
+## Add Connection
+- Access Data Connect , and click   Exports   in the left-hand menu. 
+- Click Connections to enter the Connections screen. 
+- Click Add Connection , and enter the following settings: 
+- Connection Name  – Enter a name to appear on the Connections screen. 
+- Data Transfer Direction – Select Export Data . 
+- Connection Type – Select S3 (Export Data only). 
+- AWS Account # – Enter your AWS account number. 
+- Bucket Name – Enter the S3 bucket name. 
+- Folder Path – Enter the path within the S3 bucket to deliver data to.
+ Note : Enter the Bucket Name and Folder Path as configured in your AWS console as they are  case-sensitive for S3 connections. 
+- Click Add Connection .  
+ Tip : Additional Actions for Connections 
+ After creating a connection, you can perform the following actions:
+- Delete Connection  –  You delete a connection on the Connections screen: 
+- Find the connection you created, and click Options > Delete Connection . 
+## Next Step
+ Configure Export to Use S3 Connection

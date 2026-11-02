@@ -1,0 +1,13 @@
+# Case Insensitive Expression Builder Text Calculations
+
+## Case Insensitive Expression Builder Text Calculations
+## Description
+ While using the expression builder to build derived variables, calculations that compare data set text variables or text fields are now case insensitive. For example,  If (Analyte = ‘Chloride’) can match with "Chloride", "CHLORIDE", and "chloride". 
+## Affected Roles
+ Any role with the Manage Derived Variables building block.
+## Advantages
+ The case insensitivity gives you more flexibility in building expressions, allowing to focus on the general logic of your expressions rather than trying to catch every spelling case with OR operators.
+## User Impact
+ When using the expression builder in the Derived Variables tab, logic that compares text is case insensitive.
+## Special Considerations
+ None.

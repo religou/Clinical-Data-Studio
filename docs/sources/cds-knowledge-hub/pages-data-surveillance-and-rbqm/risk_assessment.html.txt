@@ -1,0 +1,54 @@
+# Risk Assessment
+
+## Risk Assessment
+ The risk assessment documents areas of risk identified by cross-team study members and enables teams to:
+- Identify and address high priority risks that most require attention and mitigation. 
+- Evaluate risk performance. 
+- Review and approve risk plan reports. 
+## What Is the Risk Assessment?
+ The risk assessment is a continually iterated document that collects and communicates valuable information about how study teams execute their risk management plan. 
+## What Is the Purpose of the Risk Assessment?
+ The risk assessment enables study teams to proactively, collaboratively, and centrally: 
+- Document and manage the data, processes, and risk categories identified as critical to the study outcome. 
+- Document and manage risks associated with each critical data, critical process, and risk category.
+- Score risks to measure and determine which risks most require focus and mitigation. 
+- Add risk mitigation strategies to decrease or eliminate risks. 
+- Associate QTLs and KRIs to risks to measure risk performance. 
+ The risk assessment also enables appointed study team members to review and approve risk plan reports.
+## Who Uses the Risk Assessment?
+ Risk Assessment administrators create and activate critical data, critical processes, and risk categorization templates for study teams to use when creating risk assessments. 
+ Risk managers: 
+- Create, build, and finalize the study team's risk assessment drafts. 
+- Manage risks by: 
+- Updating risk status. 
+- Documenting actions taken to address or manage risks. 
+- Updating risk review frequency. 
+- Adjusting risk scores. 
+- Marking risks as reviewed. 
+- Closing risks. 
+- Adding and managing QTLs, KRIs, and risk mitigations associated with risks. 
+ Other study team members who help devise the risk assessment can be assigned to acknowledge risk plan reports review and approve risk plan PDFs. 
+## How Does the Risk Assessment Work?
+ As part of the risk assessment, a cross-functional group of study team members—such as site members, data managers, medical monitors, pharmacists, coordinators, and so on—review the draft study protocol. Each team member identifies based on their expertise the protocol design areas that can prove difficult, burdensome, dangerous, unreliable, and present a risk to the study's success, approval, or validity. 
+ Risk Assessment enables risk managers to create and build the risk assessment by: 
+- Identifying and documenting the following risk assessment components: critical data , critical processes , risk categories . 
+- Identifying and documenting the risks associated with each critical data, critical process, or risk category. 
+- Scoring risks based on the following risk factors: Probability, Impact , Detectability . 
+- Assigning a risk weight to risk categories to rank the category by importance. 
+- Associating risks with QTLs and KRIs to track risk performance. 
+- Documenting risk mitigation strategies for specific risks. 
+ Study team members who help devise the risk assessment and are assigned to acknowledge risk plan reports can sign their acknowledgement on the active risk assessment's risk plan report PDF. 
+ Risk Inventory gathers all study risks documented as part of the ongoing risk assessment version history in one consolidated list. Risk managers and other study team members can collaboratively use the Risk Inventory to:
+- Assess the study's identified risks and associated details with each risk . 
+- Prioritize the evaluation and review of risks based on risk score, rank, review status, and review due date. 
+- Evaluate risk QTL and KRI performance. 
+- Determine risk mitigating actions. 
+- Update risk details and statuses as necessary. 
+ Note : The study's risk assessment is a continually edited, updated, and versioned document. Each time you create a risk assessment, you create a new draft version of the risk assessment for that study. A study only has one active, editable risk assessment draft version at a time. Finalized risk assessment drafts get added to the risk assessment snapshot history as an archived, noneditable draft.
+## What Are the Benefits of the Risk Assessment?
+ The risk assessment helps you document, monitor, and address study risks ensuring:
+- Protocol compliance, patient safety, data quality, and data integrity. 
+- Product or treatment efficacy. 
+- Faster, more efficient studies with greater chances of study success, approval, and validity. 
+## How Do I Create Risk Assessment Drafts?
+ See  Create Risk Assessment Drafts .

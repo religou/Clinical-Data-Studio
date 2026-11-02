@@ -1,0 +1,25 @@
+# Configure Potential Duplicate Patient Data Mappings
+
+## Configure Potential Duplicate Patient Data Mappings
+## Description
+ Duplicate patients are patients who enroll in clinical trials for financial gain or for extra dosages of medication. Duplicate patients threaten both participant safety and the integrity of research findings. Centralized Statistical Monitoring (CSM) (formerly Medidata Detect) uncovers potential duplicate patients by analyzing six demographics: date of birth, gender, height, weight, race, ethnicity. Additionally, CSM analyzes the physical distance within 100 miles of site location of each patient to find patients that look very similar. 
+ CSM Configuration Manager allows you to map the six demographic parameters: date of birth, gender, height, weight, race, and ethnicity to the corresponding reference variables from data sets in your study environment and save the configuration, which CSM's data science microservice algorithms consume. Based on the analytics, CSM automatically generates the configuration data analysis and renders the visualization output as a global heat and site level map. 
+## Affected Roles
+- CSM Configuration Manager Admin. 
+- CSM users. 
+## Advantages
+ Identifying and removing potential duplicate patients from the study. 
+## User Impact
+ Tip: Click image to enlarge. 
+ | 1 
+ | The Medidata Detect > Centralized Statistical Monitoring (CSM) > CSM Configuration application has a new CSM Configuration tab. 
+ | 2 
+ | Duplicate Patient Configuration subtab under the CSM Configuration tab.  
+ | 3 
+ | Duplicate Patient Configuration page, where you can first select data sets from the Data Set column, then variables from the Mapped Variable column to map to each Reference demographic: Date of Birth, Weight, Height, Gender, Race, and Ethnicity. You can save or update the configuration only after mapping each reference variable.  
+- The Mapped Variable column remains disabled until you select a data set in the Data Set column. You can select variables, including derived variables, from any data set to map to reference variables. 
+- The Mapped Variable for weight and height references become enabled after you select a data set and the corresponding weight and height units. 
+ Knowledge Space Updates 
+ None. 
+ Special Considerations 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

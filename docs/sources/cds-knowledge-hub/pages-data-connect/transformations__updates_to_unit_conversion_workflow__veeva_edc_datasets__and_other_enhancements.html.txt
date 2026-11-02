@@ -1,0 +1,64 @@
+# Transformations: Updates to Unit Conversion Workflow, Veeva EDC Datasets, and Other Enhancements
+
+## Transformations: Updates to Unit Conversion Workflow, Veeva EDC Datasets, and Other Enhancements
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the releases history . 
+- For a summary of all features released, the   released features index . 
+## Change Details
+ Product 
+ | Data Connect
+ Version 
+ | 2026.3.0
+ Change Type 
+ | Enhancement (Update Functionality) 
+ Functionality or Module 
+ | Transformations 
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ | Unit Conversions 
+ | You can create, edit, delete, and publish unit conversions within derived dataset projects using a redesigned interface. 
+ | Veeva EDC datasets 
+ | 
+- Support now shows Form OID in data preview screen for Veeva datasets. 
+- Updated data source panel now shows Form OID instead of form name for Veeva datasets. 
+ | General 
+ | 
+- The Data preview screen now shows a  last updated timestamp indicator. 
+- Improved performance for derived dataset projects through backend optimizations. 
+ Benefit to Users 
+ | 
+- The redesigned unit conversion workflow simplifies management within derived dataset projects .  
+- Viewing the Form OID in the data source panel and data preview screen ensures consistency for Veeva Connect datasets across all modules. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ All Transformation users.
+ Impact to Workflow Processes 
+- Unit   conversions   – You configure and manage unit conversions directly within derived dataset projects using the updated interface. 
+- Veeva dataset review   – You identify Veeva EDC datasets using the Form OID instead of form names. 
+ Impact to Applications 
+ No impact to other applications. 
+ Impact on Interface 
+- Derived dataset canvas – Shows the updated unit conversion interface 
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | Low 
+ Learning Resource Updates 
+ | 
+- New Article: Standardize Analyte Units with Unit Conversions 
+- New Video:  Show Me - Create Unit Conversions Using Derived Datasets 
+ For more articles and videos, see   Imports   and the  Data Connect Video Library .
+ Special Considerations 
+ | None.
+ To view Medidata testing documentation for this release, see the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

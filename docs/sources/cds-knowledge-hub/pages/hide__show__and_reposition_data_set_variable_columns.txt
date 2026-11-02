@@ -1,0 +1,23 @@
+# Hide, Show, And Reposition Data Set Variable Columns
+
+## Hide, Show, And Reposition Data Set Variable Columns
+## Description
+ You can now hide, show, and reposition data set variable columns in the data set table for any data set you select on the Data Viewer page. 
+## Affected Roles
+ All roles with the View Data building block. 
+## Advantages
+ You can enhance productivity by only showing or grouping data set variables of interest from a study. 
+## User Impact
+ On the Medidata Detect > Patient Data Surveillance (PDS) > Data Reviewer > Data Viewer page, after you select a data set: 
+- While the data set is loading, you can switch to another data set by selecting it from the Data Set tab. 
+- Dragging and dropping data set variable columns repositions the variables in the data set table. The column repositioning stays until you select another data set or log out of Data Viewer. 
+- When you select variables from the list above the data set table and then click Apply, then the corresponding variable columns appear in the table. When you clear the selection for variables, then the variable columns do not appear. All is the default option, and all variable columns appear in the data set table.
+ Tip : Click image to enlarge. 
+- When you enter three characters or digits in the Show field, then the list shows variables that include the filter parameter. For example, when you enter per , then the list shows variables like Performed Event Date , Autopsy Performed , Performed Event Name etc. When you then click Apply , then the corresponding variable columns appear in the data set table.  
+- When you click , then column filters apply to the displayed columns in the data set table. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+- For any data set you select, the Subject ID and Site Number variable columns always appear in the data set table and do not appear in the field. 
+- While viewing data sets in the Data Reviewer or Derived Variables tab, the information that appears when you click the  Info button for a data set no longer includes form type: MRPP/SRPP. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

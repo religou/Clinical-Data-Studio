@@ -1,0 +1,579 @@
+# View, Create, and Edit Draft Listings
+
+## View, Create, and Edit Draft Listings
+ At study startup, study teams perform a risk assessment and define the high-risk, critical, or complex study data to monitor for data quality and integrity. To aid in data monitoring, you can use Data Surveillance to create data listings , which identify and report patient data records that may indicate a study risk.   Listings are built using manually configured conditional expressions that parse your study data to capture patient records within a specified variable that match the expression's defined conditions . For example, you can configure an expression to capture patient data records for female patients below age 50 who have had a serious adverse event . The records captured by the listing are data points your study team would want to review and investigate. 
+ By creating and using listings, you can: 
+- Increase the amount of data you can review while saving time and effort. 
+- Ensure protocol compliance, patient safety, data quality, and data integrity. 
+- Direct more effective study-mitigating actions. 
+ Note : You must have the Manage Data Reviewer building block to create or edit listings. All newly created listings initially save as draft listings. However, you can approve listings when ready. 
+ You can also:
+- View your study's current set of draft listings and associated high-level details. 
+- Edit draft listing configurations. 
+## Access and View Draft Listings
+ You can view your study's current set of draft listings as well high-level details associated with each draft listing . 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the Draft Listings tab.
+The Draft Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's object identifier (OID). 
+- Expression – The listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- Rave Enabled – A check mark indicates that you can directly within Data Surveillance view and submit Rave queries on the patient records captured by the listing . 
+- Created By – The user who created the listing. 
+- Last Updated – The listing's creation date or when the last saved edit occurred. 
+- Updated By – The user who most recently updated the listing. 
+- If necessary, filter or sort the Draft Listings table. 
+## Filter the Draft Listings Table
+ To help find the draft listings you need, you can filter the Draft Listings table to show:
+- Specific draft listings by name. 
+- Only Medidata Rave-enabled draft listings or only listings that are not Rave enabled. 
+- Only draft listings created by specific users. 
+- Only draft listings that were last updated by specific users. 
+- If necessary, access the Draft Listings table . 
+- Click the Filter button, at the top-right corner of the Draft Listings table. 
+- Click one or more of the following filters:
+- Name – Filter to show specific draft listings. 
+- Rave Enabled – Filter to show only Rave-enabled draft listings or only listings that are not Rave enabled. 
+- Created By – Filter to show only draft listings created by specific users. 
+- Updated By – Filter to show only draft listings that were last updated by specific users. 
+- Select one or more filter items. 
+- Click Apply . If filtering by Rave-enabled listings, click Yes or No . 
+- If necessary, click Clear Filters to revert to the Draft Listing table's default view. 
+## Sort the Draft Listings Table
+ To help find the draft listings you need, you can sort the Draft Listing table's columns vertically in ascending or descending alphanumeric order. For example, you can sort to more quickly find a specific listing name. Or you can sort the Last Updated column to find the most recently updated or longest unupdated draft listings.  
+- If necessary, access the Draft Listings table . 
+- In the Draft Listings table, click any column header to sort the table by column in ascending alphanumeric order.
+An up arrow, , appears next to the column name. 
+- Click a column header twice to sort the table by column in descending alphanumeric order.
+A down arrow, , appears next to the column name. 
+## Create Draft Listings
+ You can create data listings to identify and report patient data records that may indicate a study risk. Data listings are built using manually configured conditional expressions that run against your study data to capture the patient records within a specified variable that match the expression's defined conditions . For example, you can configure an expression to capture patient data records for female patients below age 50 who have had a serious adverse event . The data records captured by the data listing's expression, in general, are the high-risk data points that your study team would want to review and investigate. 
+D ata sets and variables with critical data points to the study appear with a blue flag . 
+ Data listings: 
+- Increase the amount of data you can review while saving time and effort. 
+- Ensure protocol compliance, subject safety, data quality, and data integrity. 
+- Promote more effective study-mitigating actions. 
+- Do not require technical expertise or specialized personnel to create and build. 
+ Note : All new listings initially save as draft listings. However, you can approve listings when ready.
+ Tip : Play the video below to learn how to create draft listings.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;  
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Data Listings page shows. 
+- On the Data Listings page, do one of the following: 
+- To create a listing from scratch, click New Listing . 
+- To create a listing from an existing listing configuration template: click the Draft Listings tab > click Import Template > select the Template group > select the template from the Templates list > click Import . To learn more about templates, see Data Surveillance Template Library . 
+- In Name , enter a unique name for the listing.
+The name serves as the listing's Object identifier (OID). For example, "AESER+AESER_TXT". Names cannot include special characters.    
+- In the Define Listing section, do the following: 
+- Enter or select a data set. 
+- Enter or select a variable.
+ Note: The left-hand side Datasets pane does not show interpolated values such as _INT or _DTC, as these are presented as the EDC source variable. So   _INT variables you see in Data Connect, do not appear for selection in listing datasets as they are consumed implicitly within the date field. 
+- Select a comparator, such as= or !=, and then select or enter a comparator value.
+The list of selectable comparators differ whether you select a date, number, text, or time variable. The comparator value serves as the conditional threshold, which measures and flags whether specified conditions are met regarding the selected comparator.
+ Comparators and Comparator Value Descriptions 
+ Selected Variable Type 
+ Comparator 
+ Description 
+ Comparator Value Entry 
+ | Text, Numeric, Date, Time 
+ | = 
+ | Flags patients whose reported value within the selected variable is equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets. 
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note : 
+Cross dataset comparisons – When using a variable as the comparator value, the originally selected variable and the comparator can be from two different datasets, except for audit datasets. Cross dataset comparisons are not outer joins. The listing includes only records that exist on both sides of the comparison expression, returning patients and values that match. 
+For example, on comparing an SRPP and MRPP record like DEM.Age and VS.BPS, the SRPP data repeats for each MRPP record. That is, for every BPS record, the patients' age is shown.
+ | Text, Numeric, Date, Time 
+ | != 
+ | Flags patients whose reported value within the selected variable is not equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ Important: Compare Variables with Empty(Null) Values 
+ When you compare variables using != comparator, any records where either variable is null or empty are automatically excluded from the listing's output due to a system limitation. 
+ | Numeric, Date, Time 
+ | > 
+ | Flags patients whose reported value within the selected variable is greater than or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | < 
+ | Flags patients whose reported value within the selected variable is less than or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | >= 
+ | Flags patients whose reported value within the selected variable is equal to, greater than, or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | <= 
+ | Flags patients whose reported value within the selected variable is equal to, less than, or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text 
+ | One Of 
+ | Flags patients who contain at least one of the reported terms within the select variable. 
+ | Select one or more patient-reported strings or terms. 
+ | Text, Numeric, Data, Time 
+ | Is Missing 
+ | Flags patients who do not contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text, Numeric, Data, Time 
+ | Is Not Missing 
+ | Flags patients who contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text 
+ | Contains 
+ | Flags patients who contain a specific, user-entered value reported data within the selected variable. 
+ | Enter a text value. 
+- Optional : To add multiple conditions to the expression, click the Plus icon, , to the right of the data set, and then select And or OR to the left of the data set name. 
+- AND  – Specifies that all individual conditions and conditions within a grouped conditional set must be met for the expression to be considered true. 
+- OR – Specifies that at least one individual condition or grouped conditional set must be met for the expression to be considered true. 
+- Repeat step 4 for each individual condition.
+ Note : For complex expressions with OR and AND, you must use parentheses (()) to combine and separate the conditions. For example, the expression   AE.AEPT equals COUGH AND DEM.AGEIC greater_than 50 OR AE.AEPT contains RES  returns different results as compared to  ( AE.AEPT equals COUGH AND DEM.AGEIC greater_than 50 ) OR AE.AEPT contains RES . 
+ Ensure forms or data sets you use to build a listing for all patients, hold true for the question you are asking. That is, you cannot build a listing to evaluate a data set that only a screen fail patient has, and/or a data set that only an enrolled patient has, because there is no instance where both these data sets exist for a single patient. Therefore, the combined listing configuration statement always results in zero patients. 
+- Optional . To configure a listing to submit protocol deviations (PD), do the following: 
+- Click the  Listing creates protocol deviations button. 
+- Enter a Description, Visit, and PDAP Description (Protocol Deviation Assessment Plan) .
+ Note : You can only map visits to datasets that the Expression Builder uses.
+The Protocol Integrity Report (PIR) tracks submitted records. Submitted records automatically receive the Reviewed status in Listings.
+- Optional. T o add data columns directly to the data listing results without having to build the columns in through the conditional expression, do the following: 
+- Click the Add Column button.
+ indicates that the Add Column expression builder is in an active state. 
+- In the Add Columns section, enter or select a data set.
+ Note: 
+- To ensure the data listings do not capture an overly large number of records, we recommend when adding columns that you use:
+- Data sets that are already defined in the core data listing expression. 
+- Single record per patient data sets, such as demographics. 
+- You can use a maximum of ten different data sets in the Add Column section. 
+- You can use published audit data sets in the expression builder, however you cannot data sets for cross data comparison. This means while building a data set in the expression builder in listings or KRIs, you cannot use an audit data set along with a Rave data set. You can use a single audit data set in the expression builder.
+- Enter or select a variable.
+ Note : Data Surveillance currently does not support data sets with datetime operations.  
+- To add multiple columns to the listing, click the Plus icon, , to the right of the data set, and then select another dataset and variable.
+ Note : The data listing results show the added variable columns to the right of the variable columns included as part of data listing's conditional expression. 
+- Optional. To configure the expression to  identify and report patient records that exist in Rave but are missing from external lab data, do the following: 
+- Click the Missing Records button.
+ indicates that the Missing Records expression builder is in an active state.
+- In the Missing Records section, enter or select a data set.
+ Note: 
+- The data set on the left side of the conditional expression must be the source data set; typically the data from Rave. 
+- The list of available source datasets that you can select only include data sets currently used in the core data listing expression. 
+- Enter or select a variable. 
+- Select a comparator, such as= or !=, and then select or enter a comparator value.
+ Note: 
+- You can only select "=" as the comparator. 
+- The data set on the right side of the expression must be the target data set; typically external data from the lab. 
+- The source data set and the target data set must be the same data type. 
+- To add multiple missing records conditions to the expression, click the Plus icon, , to the right of the data set, and then select AND or OR   to the left of the data set name. 
+- AND  – Specifies that all individual conditions and conditions within a grouped conditional set must be met for the expression to be considered true. 
+- OR   – Specifies that at least one individual condition or grouped conditional set must be met for the expression to be considered true. 
+ Note: When building multiconditional missing records expressions, the list of target data sets that you can select only includes the data set currently used in the original missing records expression.
+- Repeat steps b-f for each individual missing records condition. 
+- Optional . To configure the expression to exclude certain patient subsets, do the following: 
+- Click the Exclude Patients with.... button.
+ indicates that the Exclude Patients with ... expression builder is in an active state.
+- In the Exclude Patients with... section, Enter or select a data set. 
+- Enter or select a variable. 
+- Select a comparator, such as= or !=, and then select or enter a comparator value.
+- To add multiple conditions to the expression, click the Plus icon, , to the right of the data set, and then select And or OR to the left of the data set name. 
+- AND  – Specifies that all individual conditions and conditions within a grouped conditional set must be met for the expression to be considered true. 
+- OR – Specifies that at least one individual condition or grouped conditional set must be met for the expression to be considered true. 
+- Repeat steps b-f for each individual condition.
+ Note: When comparing fields in a listing's expression, query submission is supported only for the variables on left-hand side (LHS) of the equation.   To ensure a variable appears in the   Field   dropdown , it   must   be positioned on the   LHS   of the comparison expression in the   Define Listing   section.   The right-hand side (RHS) of the expression is not restricted to Field selection, as you can enter free text, select values from a dropdown, or drag and drop fields for comparison. 
+- Optional . To configure the data listing to allow you to view and submit standardized, predefined Rave queries on records captured in the listing's results , select Enabled Rave Query , and then do the following in the Rave Query Details section: 
+- Select a data set and variable that is used in the data listing configuration.
+The Form and Field fields populate by default based on the variable you select. For example, if you select Ethnicity from the Demographics data set, the Form reads: Demographics (DEM) and Field reads: Ethnicity (ETHNIC).
+- Select a marking group from the Folder menu. 
+- Enter the Rave query text into Default Query Text . 
+- Click Preview Listing .
+ Up to 100 of the total data records that match the conditionals specified in the data listing's expression appear at the bottom of the page.
+ Table Column Descriptions 
+- PatientID – The ID of the patient whose data matched the criteria specified in the listings conditional expression. 
+- Site – The site that the patient belongs to. 
+- Country – The country in which the site resides. 
+- Variable – Each column header to the right of the Country column header represents a variable that the data listing's expression is configured to run against. The variable column header shows the human-readable variable name at the top and the variable Object identifier (OID) at the bottom. And then the column lists the variable's data point entries captured by the data listing's conditional expression. 
+ Note : If you leave the expression incomplete or leave the Name field empty, the Preview Listing button remains disabled. If the listing shows more records than the preconfigured threshold, a warning appears. You must edit the listing so that search records are less than the preconfigured threshold.
+- Optional. Click , the More icon, above the columns, and then click Columns configuration . 
+A slide out panel appears. Drag and drop columns as required to reorder the columns. 
+- Click Save Draft .
+ Note : The 
+ Save Draft button remains disabled until you click
+ Preview Listing .
+ The listing saves with Draft status and appears in the Draft Listings tab.
+## Edit Draft Listings
+ You can edit a draft listing's configuration. For example, if there is an error in the listing configuration or if the configuration requires updates due to a protocol amendment. 
+ D ata sets and variables with critical data points to the study appear with a blue flag . 
+- If necessary, access and view your study's draft listings .
+- On the Data Listings page > Draft Listings table, select a draft listing, and then click Edit .
+ Tip : If necessary, filter or sort the Draft Listings table to find the listing you need. 
+- In Name , enter a unique name for the listing.
+The name serves as the listing's Object identifier (OID). For example, "AESER+AESER_TXT". Names cannot include special characters. 
+- In the Define Listing section, do the following: 
+- Enter or select a data set. 
+- Enter or select a variable. 
+- Select a comparator, such as= or !=, and then select or enter a comparator value.
+The list of selectable comparators differ whether you select a date, number, or text variable.  The comparator value serves as the conditional threshold, which measures and flags whether specified conditions are met regarding the selected comparator. 
+ Comparators and Comparator Value Descriptions 
+ Selected Variable Type 
+ Comparator 
+ Description 
+ Comparator Value Entry 
+ | Text, Numeric, Date, Time 
+ | = 
+ | Flags patients whose reported value within the selected variable is equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets. 
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note : 
+Cross dataset comparisons – When using a variable as the comparator value, the originally selected variable and the comparator can be from two different datasets, except for audit datasets. Cross dataset comparisons are not outer joins. The listing includes only records that exist on both sides of the comparison expression, returning patients and values that match. 
+For example, on comparing an SRPP and MRPP record like DEM.Age and VS.BPS, the SRPP data repeats for each MRPP record. That is, for every BPS record, the patients' age is shown.
+ | Text, Numeric, Date, Time 
+ | != 
+ | Flags patients whose reported value within the selected variable is not equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ Important: Compare Variables with Empty(Null) Values 
+ When you compare variables using != comparator, any records where either variable is null or empty are automatically excluded from the listing's output due to a system limitation. 
+ | Numeric, Date, Time 
+ | > 
+ | Flags patients whose reported value within the selected variable is greater than or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | < 
+ | Flags patients whose reported value within the selected variable is less than or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | >= 
+ | Flags patients whose reported value within the selected variable is equal to, greater than, or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | <= 
+ | Flags patients whose reported value within the selected variable is equal to, less than, or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text 
+ | One Of 
+ | Flags patients who contain at least one of the reported terms within the select variable. 
+ | Select one or more patient-reported strings or terms. 
+ | Text, Numeric, Data, Time 
+ | Is Missing 
+ | Flags patients who do not contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text, Numeric, Data, Time 
+ | Is Not Missing 
+ | Flags patients who contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text 
+ | Contains 
+ | Flags patients who contain a specific, user-entered value reported data within the selected variable. 
+ | Enter a text value. 
+- Optional : To add multiple conditions to the expression, click the Plus icon, , to the right of the data set, and then select And or OR to the left of the data set name. 
+- AND  – Specifies that all individual conditions and conditions within a grouped conditional set must be met for the expression to be considered true. 
+- OR – Specifies that at least one individual condition or grouped conditional set must be met for the expression to be considered true. 
+- Repeat step 4 for each individual condition.
+ Note : For complex expressions with OR and AND, you must use parenthesis (()) to combine and separate the conditions. For example, the expression   AE.AEPT equals COUGH AND DEM.AGEIC greater_than 50 OR AE.AEPT contains RES  returns different results as compared to  ( AE.AEPT equals COUGH AND DEM.AGEIC greater_than 50 ) OR AE.AEPT contains RES . 
+- Optional. T o add data columns directly to the data listing results without having to build the columns in through the conditional expression, do the following: 
+- Click the Add Column button.
+ indicates that the Add Column expression builder is in an active state. 
+- In the Add Columns section, enter or select a data set.
+ Note: 
+- To ensure the data listings do not capture an overly large number of records, we recommend when adding columns that you use:
+- Data sets that are already defined in the core data listing expression. 
+- Single record per patient data sets, such as demographics. 
+- You can use a maximum of ten different data sets in the Add Column section. 
+- Enter or select a variable. 
+- To add multiple columns to the listing, click the Plus icon, , to the right of the data set, and then select another dataset and variable.
+ Note : The data listing results show the added variable columns to the right of the variable columns included as part of data listing's conditional expression. 
+- Optional. To configure the expression to  identify and report patient records that exist in Rave but are missing from external lab data, do the following: 
+- Click the Missing Records button.
+ indicates that the Missing Records expression builder is in an active state.
+- In the Missing Records section, enter or select a data set.
+ Note: 
+- The data set on the left side of the conditional expression must be the source data set; typically the data from Rave. 
+- The list of available source datasets that you can select only include data sets currently used in the core data listing expression. 
+- Enter or select a variable. 
+- Select a comparator, such as= or !=, and then select or enter a comparator value.
+ Note: 
+- You can only select "=" as the comparator. 
+- The data set on the right side of the expression must be the target data set; typically external data from the lab. 
+- The source data set and the target data set must be the same data type. 
+- To add multiple missing records conditions to the expression, click the Plus icon, , to the right of the data set, and then select And   to the left of the data set name. 
+- AND  – Specifies that all individual conditions and conditions within a grouped conditional set must be met for the expression to be considered true.
+ Note: 
+- You can only select AND when building multiconditional missing records expressions. 
+- When building multiconditional missing records expressions, the list of target data sets that you can select only includes the data set currently used in the original missing records expression. 
+- Repeat steps b-e for each individual missing records condition. 
+- Optional . To configure the expression to exclude certain patient subsets, do the following: 
+- Click the Exclude Patients with.... button.
+ indicates that the Exclude Patients with ... expression builder is in an active state.
+- Enter or select a data set. 
+- Enter or select a variable. 
+- Select a comparator, such as= or !=, and then select or enter a comparator value.
+- To add multiple conditions to the expression, click the Plus icon, , to the right of the data set, and then select And or OR to the left of the data set name. 
+- AND  – Specifies that all individual conditions and conditions within a grouped conditional set must be met for the expression to be considered true. 
+- OR – Specifies that at least one individual condition or grouped conditional set must be met for the expression to be considered true. 
+- Repeat steps b-f for each individual condition. 
+- Optional . To configure the data listing to allow you to view and submit standardized, predefined Rave queries on records captured in the listing's results , select Enabled Rave Query , and then do the following in the Rave Query Details section: 
+- Select a data set and variable combination.
+The Form and Field fields populate by default based on the variable you select. For example, if you select Ethnicity from the Demographics data set, the Form reads: Demographics (DEM) and Field reads: Ethnicity (ETHNIC).
+- Select a marking group from the Folder menu. 
+- Enter the Rave query text into Default Query Text . 
+ Note: When comparing fields in a listing's expression, query submission is supported only for the variables on left-hand side (LHS) of the expression. To ensure a variable appears in the Field dropdown, it must be positioned on the LHS of the comparison expression in the Define Listing section.  The right-hand side (RHS) of the expression is not restricted to Field selection, as you can enter free text, select values from a dropdown, or drag and drop fields for comparison. 
+- Optional . Enter the reason for updating the listing in Reason for change (optional) . 
+- Click Preview Listing .
+ Up to 100 of the total data records that match the conditionals specified in the data listing's expression appear at the bottom of the page.
+ Table Column Descriptions 
+- PatientID – The ID of the patient whose data matched the criteria specified in the listings conditional expression. 
+- Site – The site that the patient belongs to. 
+- Country – The country in which the site resides. 
+- Variable – Each column header to the right of the Country column header represents a variable that the data listing's expression is configured to run against. The variable column header shows the human-readable variable name at the top and the variable object identifier (OID) at the bottom. And then the column lists the variable's data point entries captured by the data listing's conditional expression. 
+ Note : If you leave the expression incomplete or leave the Name field empty, the Preview Listing button remains disabled. If the listing shows more records than the preconfigured threshold, a warning appears. You must edit the listing so that search records are less than the preconfigured threshold.
+- Click Save Draft .
+ Note : The 
+ Save Draft button remains disabled until you click
+ Preview Listing .
+ The listing saves with Draft status and appears in the Draft Listings tab.
+## Add Columns to Listings Without Defining the Column in the Listing Expression
+ When creating data listings, you configure conditional expressions to capture patient records within a specified variable or variable grouping that match a set of criteria. Listings then produce a list of patients that have data records that meet the criteria set in the listing's conditional expression. The list of patients contains a data column for each variable defined in the expression and the corresponding data recorded for each patient in that variable. 
+ Sometimes you may want a data listing's results to include a data column showing patient records for simple variables such as age or demographics. Therefore, you can configure listings to add data columns directly to the listing results without having to build the columns in through the conditional expression. You can add multiple columns and delete columns as well. 
+ Adding data columns directly into listings:
+- Helps keep data listing conditional expressions simpler and cleaner. 
+- Enables you to more easily add simple data columns—for example, age or demographics—to data listing results without building tedious arguments in the listing's conditional expression. 
+- Do any of the following: 
+- Create a draft listing 
+- Edit a draft listing . 
+- Edit an approved listing . 
+- In the New Listing or Edit Listing window, c lick the Add Column button.
+ indicates that the Add Column expression builder is in an active state. 
+- In the Add Columns section, enter or select a data set.
+ Notes
+- To ensure the data listings do not capture an overly large number of records, we recommend when adding columns that you use:
+- Data sets that are already defined in the core data listing expression. 
+- Single record per patient data sets, such as demographics. 
+- You can use a maximum of ten different data sets in the Add Column section. 
+- Data Columns do not act as an outer join, and only patients that exist in both data sets appear. 
+ Important : Do not give a derived variable the same name as an existing metadata column (for example, "region name"). If you configure a listing using a derived variable that shares a name with a metadata column, the column returns a null value in the listing results. 
+- Enter or select a variable. 
+- To add multiple columns to the listing, click the Plus icon, , to the right of the data set, and then select another dataset and variable. 
+ Note : The data listing results show the added variable columns to the right of the variable columns included as part of data listing's conditional expression. 
+## Build Listings to Report Missing Records
+ You can build data listings to identify and report patient records that exist in Rave but are missing from external lab data. To do so, you must map a relationship between the source and target datasets so that the listing can recognize what you consider to be a record. The listing then returns items that are present in the source dataset but missing in the target. 
+ Buliding listings to report missing records helps you quickly and easily reconcile Rave data and external lab data to accurately identify missing lab data. You can then create vendor issues directly from the data listing results to communicate data issues and queries with vendors. This helps ensure that you account for and acquire the lab data you need for your study. 
+- Do any of the following: 
+- Create a draft listing 
+- Edit a draft listing . 
+- Edit an approved listing . 
+- In the New Listing or Edit Listing window, click the  Missing Records button.
+ indicates that the Missing Records expression builder is in an active state.
+- In the Missing Records section, enter or select a data set.
+ Notes
+- The data set on the left side of the conditional expression must be the source data set; typically the data from Rave. 
+- The list of available source datasets that you can select only include data sets currently used in the core data listing expression. 
+- Enter or select a variable. 
+- Select a comparator, such as= or !=, and then select or enter a comparator value.
+ Notes
+- You can only select "=" as the comparator. 
+- The data set on the right side of the expression must be the target data set; typically external data from the lab. 
+- The source data set and the target data set must be the same data type. 
+- To add multiple missing records conditions to the expression, click the Plus icon, , to the right of the data set, and then select And   to the left of the data set name. 
+- AND  – Specifies that all individual conditions and conditions within a grouped conditional set must be met for the expression to be considered true.
+ Notes
+- You can only select AND when building multiconditional missing records expressions. 
+- When building multiconditional missing records expressions, the list of target data sets that you can select only includes the data set currently used in the original missing records expression. 
+- Repeat steps 3-6 for each individual missing records condition. 
+## Exclude Patient Subsets from Listings
+ You can configure listings to exclude certain patient subsets. 
+- Do any of the following: 
+- Create a draft listing 
+- Edit a draft listing . 
+- Edit an approved listing . 
+- In the New Listing or Edit Listing window, click the Exclude Patients with.... button.
+ indicates that the Exclude Patients with ... expression builder is in an active state.
+- Enter or select a data set. 
+- Enter or select a variable. 
+- Select a comparator, such as= or !=, and then select or enter a comparator value.
+- To add multiple conditions to the expression, click the Plus icon, , to the right of the data set, and then select And or OR to the left of the data set name. 
+- AND  – Specifies that all individual conditions and conditions within a grouped conditional set must be met for the expression to be considered true. 
+- OR – Specifies that at least one individual condition or grouped conditional set must be met for the expression to be considered true. 
+- Repeat steps 3-6 for each individual condition. 
+## Enable Viewing and Submitting Rave Queries on Listing Records
+ You can configure data listings to allow you to view and submit standardized, predefined Rave queries o n records captured in the listing's results. 
+ Note : To enable Rave Queries on data listing records, you require the following permissions:
+- Submit Queries via Data Surveillance 
+- Manage Data Reviewer or View Data Reviewer 
+- Do any of the following: 
+- Create a draft listing 
+- Edit a draft listing . 
+- Edit an approved listing . 
+- In the New Listing or Edit Listing window, c lick Enabled Rave Query .
+ indicates that the Rave Query Details builder is in an active state. 
+- In the Rave Query Details section: 
+- Select a data set and variable combination.
+The Form and Field fields populate by default based on the variable you select. For example, if you select Ethnicity from the Demographics data set, the Form reads: Demographics (DEM) and Field reads: Ethnicity (ETHNIC).
+- Select a marking group from the Folder menu. 
+- Enter the Rave query text into Default Query Text . 
+ Note: When comparing fields in a listing's expression, query submission is supported only for the variables on left-hand side (LHS) of the expression. To ensure a variable appears in the Field dropdown, it must be positioned on the LHS of the comparison expression in the Define Listing section.  The right-hand side (RHS) of the expression is not restricted to Field selection, as you can enter free text, select values from a dropdown, or drag and drop fields for comparison. 
+## Build Listings That Compare Dates
+ You can create listings that compare two dates. For example, you can create a listing that  shows the dates of all vital signs assessments done before the informed consent date to help identify protocol deviations. 
+- Do any of the following: 
+- Create a draft listing . 
+- Edit a draft listing . 
+- Edit an approved listing . 
+- In the New Listing or Edit Listing window > Define Listing section, do the following: 
+- Enter or select the first date (OID) data set and variable. For example AE.AESTDAT.
+- Select a comparator, such as= or !=, and then select or enter a comparator value.
+The list of selectable comparators differ whether you select a date, number, text, or time variable. The comparator value serves as the conditional threshold, which measures and flags whether specified conditions are met regarding the selected comparator.
+ Comparators and Comparator Value Descriptions 
+ Selected Variable Type 
+ Comparator 
+ Description 
+ Comparator Value Entry 
+ | Text, Numeric, Date, Time 
+ | = 
+ | Flags patients whose reported value within the selected variable is equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets. 
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note : 
+Cross dataset comparisons – When using a variable as the comparator value, the originally selected variable and the comparator can be from two different datasets, except for audit datasets. Cross dataset comparisons are not outer joins. The listing includes only records that exist on both sides of the comparison expression, returning patients and values that match. 
+For example, on comparing an SRPP and MRPP record like DEM.Age and VS.BPS, the SRPP data repeats for each MRPP record. That is, for every BPS record, the patients' age is shown.
+ | Text, Numeric, Date, Time 
+ | != 
+ | Flags patients whose reported value within the selected variable is not equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ Important: Compare Variables with Empty(Null) Values 
+ When you compare variables using != comparator, any records where either variable is null or empty are automatically excluded from the listing's output due to a system limitation. 
+ | Numeric, Date, Time 
+ | > 
+ | Flags patients whose reported value within the selected variable is greater than or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | < 
+ | Flags patients whose reported value within the selected variable is less than or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | >= 
+ | Flags patients whose reported value within the selected variable is equal to, greater than, or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | <= 
+ | Flags patients whose reported value within the selected variable is equal to, less than, or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text 
+ | One Of 
+ | Flags patients who contain at least one of the reported terms within the select variable. 
+ | Select one or more patient-reported strings or terms. 
+ | Text, Numeric, Data, Time 
+ | Is Missing 
+ | Flags patients who do not contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text, Numeric, Data, Time 
+ | Is Not Missing 
+ | Flags patients who contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text 
+ | Contains 
+ | Flags patients who contain a specific, user-entered value reported data within the selected variable. 
+ | Enter a text value. 
+ Note : The default calendar date selector appears.
+- From the Data Sets menu, drag-and-drop the date field that you want to compare in the place of dd MMM yyyy in the calendar date selector. For example:

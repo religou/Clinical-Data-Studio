@@ -1,0 +1,19 @@
+# Map Potential Duplicate Patient Data
+
+## Map Potential Duplicate Patient Data
+ Duplicate patients are patients who enroll in clinical trials for financial gain or for extra dosages of medication. Duplicate patients threaten both participant safety and the integrity of research findings. Statistical Monitoring uncovers potential duplicate patients by analyzing six demographics: date of birth, gender, height, weight, race, ethnicity. In addition, Statistical Monitoring analyzes the physical distance within 100 miles of site location of each patient to find patients that look very similar. 
+ With Data Mapping, you can map the six demographic parameters: date of birth, gender, height, weight, race, and ethnicity to the corresponding reference variables from data sets in your study environment and save the configuration, which Medidata's data science microservice algorithms consume. Based on the analytics, Statistical Monitoring automatically generates the configuration data analysis and renders the visualization output as a global heat and site level map. 
+- Access Data Surveillance or RBQM , and then click Configuration > Data Mapping in the left-hand menu.
+ The Data Mapping page appears. 
+- Click the Potential Duplicate Patients tab. 
+- For each of the following reference demographic, select a variable to map from any data set in your study. For example, you can map the Date of Birth demographic to DOB from the Chemistry (CHEM) data set.
+- Date Of Birth   
+- Weight  
+- Height  
+- Gender 
+- Race
+ Note : If Race data values are collected by selecting a check box for each race in Medidata Rave, then we suggest creating a Check All That Apply derivation using the Derived Variables capability. Doing so ensures that RBQM pulls in all possible race values as mappable variables as part of the Duplicate Patient Configuration. To learn more, see Create Derived Variable with Check All That Apply .
+- Ethnicity
+ Note : You can select mapped variables, including derived variables, from different data sets to map to the reference demographic.
+ Tip : The Data Set and Mapped Variable menus include duplicate field options. Be sure to select the exact field from Rave and ensure the field mapping does not include a suffix (_TXT, _DTC, for example). If one of the six fields required to be mapped do not exist in Rave, you can use a proxy and the algorithm will still work; however, it will be less accurate.
+- Click Update .

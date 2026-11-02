@@ -1,0 +1,51 @@
+# Imports: Support for Versionless Veeva EDC Datasets
+
+## Imports: Support for Versionless Veeva EDC Datasets
+ Important: 
+- For a summary of changes done to these release notes, if any, see the revision history .. 
+- For features and enhancements covered in previous releases, see the releases history . 
+- For a summary of all features released, the released features index . 
+## Change Details
+ Product 
+ | Data Connect
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Imports > Veeva EDC Direct Connect
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ Data Connect now uses a version-independent approach to import Veeva EDC data collected across multiple versions at a given time . Imported datasets now appear in a single table featuring a "superset" schema that contains all unique columns from every version of that form . 
+ In addition, the system now creates consolidated visits that represent unique visits across all CRF versions found in the event_definitions file
+ Benefit to Users 
+ | This enhancement simplifies data visibility by consolidating multiple dataset versions into a single, comprehensive view. You can access a superset of data—including all unique columns and consolidated visits—without navigating between different versions or managing upgrades for individual datasets
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ All Data Connect users that use Veeva data sources.
+ Impact to Workflow Processes 
+ For existing studies, you can now view the latest dataset version for migrated data and future imports. The workflow no longer requires managing multiple versions.
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+- Data Source View: The Data Source view no longer includes version information to reflect the versionless structure.
+ Impact to Existing Data or Settings 
+ The system migrated any existing Veeva datasets into new merged versions and deprecated all previous versions. You can no longer use the deprecated projects. 
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | 
+ There are no additional relevant resources.
+ For more articles and videos, see  Import with Veeva EDC Direct Connect and the Data Connect Video Library . 
+ Special Considerations 
+ | To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

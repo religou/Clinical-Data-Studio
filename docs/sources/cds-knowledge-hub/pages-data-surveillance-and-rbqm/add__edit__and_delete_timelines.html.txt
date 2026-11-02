@@ -1,0 +1,125 @@
+# Add, Edit, and Delete Timelines
+
+## Add, Edit, and Delete Timelines
+ Timelines allow you to visually compare specific data points over the duration of a study in a single output. Typically, the timeline plots all of the visits for a particular patient and any events (created within the wide table noted as an event table) given a start date and end date are provided for the defined event. For example, you can view visit dates, study days, adverse events (AE), con meds, dosing, and so on in a single visual element.  
+ Timelines allow you to: 
+- Effectively compare data against each other, and  
+- View correlations in one output rather than having to cross-reference multiple data sets. 
+ Timelines can include randomization, visit data, and event tables or individual date variables.
+ With timelines, you can:
+- Add timelines to designs. 
+- Copy timelines between studies. 
+- Add variables and event tables to timelines. 
+- Assign colors to variables display in the timeline. 
+- View variables' value labels and new labels. 
+- Edit timeline details. 
+- Remove variables and events. 
+- Append a single note to display at the bottom of the timelines in the patient profile view. 
+## Add Timelines
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Save Elements table, click Timeline . 
+- Enter a unique  Name  for the table. 
+- On the right side of the page: click  Data , click-and-drag a visit date variable in the data sets, and then drop the variable in the Visit Variable column.
+ Notes:
+- Data sets with a green left border contain at least one variable currently applied to the study. 
+- Data sets with a blue left border contain no variables currently applied to the study. 
+- Variables currently applied to the design appear with a green border on all sides. 
+- Data set and variable names appended with a blue flag indicate that they are identified in Risk Assessment as   critical data for the study. 
+- If you use a dataset with datetime operations, then you should use the date field and its enrichments—for example: _INT,   DT , _DTC—from the source Medidata Rave dataset to ensure data accuracy in the patient profiles. 
+- To add variables to the timeline: click-and-drag variables from the data sets, and then drop the variables in the appropriate column in the Timeline table.
+- Visit date variable > Visit Variable column. 
+- Visit name variable > Visit Variable column. 
+- Event table or event variable > Events column.
+ Note : You must specify wide tables to display as events in order those events to populate as selectable options to add to timelines.
+- Optional . To change the color in which you want a variable to display in the timeline: in the Display column, click the colored block, and then click a color from the palette.
+ Tip : You can add colors to variables to bring attention to various points in the timeline and provide a visual cue for data points on a categorical basis.
+- Optional : Click  Note to append a single note to display at the bottom of the timeline in the patient profile. To learn more, see Append Notes to Elements .
+ Tip : Adding a note to display at the end of a table gives patient profile reviewers added insight into the profile's study data.
+- Click  Save . 
+## Copy Timelines
+ You can copy timelines within the same study or to studies on different environments and designs. To copy timelines to another study, see Copy Elements between Studies .   Rows containing missing visit variables display in yellow and with a yellow marker   . On hovering over the yellow marker, a message " This data variable does not exist in this study and needs to be replaced or removed." appears. 
+## Edit Timeline Details
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved elements table, click the name of the timeline you want to update. 
+- To add variables to the Timeline: click-and-drag variables from the data sets, and then drop the variables in the appropriate column in the Timeline table.
+- Visit date variable > Visit Variable column. 
+- Visit name variable > Visit Variable column. 
+- Event table or event variable> Events column. 
+- Optional . To change the color in which you want a variable to display in the timeline: in the Display column, click the colored block, and then click a color from the palette. 
+- To append a single note to display at the bottom of the table in the patient profile, click  Note . To learn more, see Append Notes to Elements . 
+- Click Save . 
+## Remove Variables from Timelines
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved elements table, click the name of the timeline you want to update. 
+- In the Timeline section, click   in the corresponding row of the variable you want to remove. 
+- Click Save .

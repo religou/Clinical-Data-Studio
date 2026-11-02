@@ -1,0 +1,166 @@
+# Study Level Rave Audit Data Objects
+
+## Study Level Rave Audit Data Objects
+ You can export data objects based on Rave Audit data. Currently only Rave patient audit data is available. 
+ Important : Your Rave URL configuration can affect your ability to access exported data. For details, please contact your Medidata representative or Medidata Support.
+ Rave Subjects 
+ Rave Subjects
+ The Rave Subjects data file contains audit trail of all patients in a Rave study.  
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Audit UUID 
+ | Unique Identifier 
+ | 16 
+ | The unique identifier of the audit entry. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment site's unique identifier. 
+ | Site Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment site's name. 
+ | Site Number 
+ | Numeric 
+ | 1024 
+ | The study environment site's number. 
+ | Subject UUID 
+ | Unique Identifier 
+ | 16 
+ | The patient's unique identifier. 
+ | Subject Name 
+ | Text 
+ | 256 
+ | Given name of the patient 
+ | Folder ID 
+ | Unique Identifier 
+ | 0 
+ | This column is intentionally null. 
+ | Folder Name 
+ | Text 
+ | 0 
+ | This column is intentionally null. 
+ | Form ID 
+ | Text 
+ | 0 
+ | This column is intentionally null. 
+ | Form Name 
+ | Text 
+ | 0 
+ | This column is intentionally null. 
+ | Field ID 
+ | Unique Identifier 
+ | 0 
+ | This column is intentionally null. 
+ | Field Name 
+ | Text 
+ | 0 
+ | This column is intentionally null. 
+ | Log 
+ | Text 
+ | 0 
+ | This column is intentionally null. 
+ | Record ID 
+ | Unique Identifier 
+ | 0 
+ | This column is intentionally null. 
+ | Audit Action 
+ | Text 
+ | 10000 
+ | Description of the change to the record. 
+ | User ID 
+ | Unique Identifier 
+ | 0 
+ | This column is intentionally null. 
+ | Audit User 
+ | Text 
+ | 0 
+ | This column is intentionally null. 
+ | Role ID 
+ | Unique Identifier 
+ | 0 
+ | This column is intentionally null. 
+ | Role Name 
+ | Text 
+ | 0 
+ | This column is intentionally null. 
+ | Audit Action Type 
+ | Text 
+ | 6 
+ | The data's action type:
+- Create 
+- Update 
+ | Audit Time 
+ | Timestamp 
+ | 0 
+ | This column is intentionally null. 
+ | Audit Time Localized 
+ | Timestamp 
+ | 0 
+ | This column is intentionally null. 
+ | Site Group ID 
+ | Text 
+ | 0 
+ | This column is intentionally null. 
+ | Site Group Name 
+ | Text 
+ | 0 
+ | This column is intentionally null. 
+ | Page Repeat Number 
+ | Numeric 
+ | 0 
+ | This column is intentionally null. 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that updated the record. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the action. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the action information was updated.

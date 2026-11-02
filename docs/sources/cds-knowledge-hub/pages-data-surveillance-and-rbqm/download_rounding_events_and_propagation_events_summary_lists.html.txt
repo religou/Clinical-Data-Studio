@@ -1,0 +1,39 @@
+# Download Rounding Events and Propagation Events Summary Lists
+
+## Download Rounding Events and Propagation Events Summary Lists
+ You can download to a CSV file the: 
+- Rounding Events Summary list, 
+- Rounding Events Summary > Patients with Record Events list, 
+- Propagation Events Summary list, and 
+- Propagation Events Summary > Patients with Record Events list 
+ Downloading the   Rounding Events Summary lists and the Propagation Events Summary lists   enables you to:
+- Easily exchange the lists externally with stakeholders to facilitate communication. 
+- Locally save and archive the lists. 
+## Download the Rounding Events Summary List
+- Access RBQM , and then click Statistical Monitoring > Rounding & Propagation in the left-hand menu. 
+- On the Rounding & Propagation page, click Rounding Events to view the analysis and summary data for sites with roundings events. 
+- Scroll down the page to the Rounding Events Summary (Records rounded/Total records) table. 
+- Click Download .
+The Sites with Rounding Events list downloads to your machine as CSV file. 
+## Download the Rounding Events Summary > Patients with Record Events List
+- Access RBQM , and then click Statistical Monitoring > Rounding & Propagation in the left-hand menu. 
+- On the Rounding & Propagation page, click Rounding Events to view the analysis and summary data for sites with roundings events. 
+- Scroll down the page to the Rounding Events Summary (Records rounded/Total records) table. 
+- In the # Affected Patients column, click the link associated with the site whose patients with record events you want view.
+The Patients with Record Events dialog appears. 
+- Click Download .
+The Patients with Rounding Events list downloads to your machine as CSV file. 
+## Download the Propagation Events Summary List
+- Access RBQM , and then click Statistical Monitoring > Rounding & Propagation in the left-hand menu. 
+- On the Rounding & Propagation page, click Propagation Events to view the analysis and summary data for sites with propagation events. 
+- Scroll down the page to the Propagation Events Summary (Records propagated/Total records) table. 
+- Click Download .
+The Sites with Propagation Events list downloads to your machine as CSV file. 
+## Download the Propagation Events Summary > Patients with Record Events List
+- Access RBQM , and then click Statistical Monitoring > Rounding & Propagation in the left-hand menu. 
+- On the Rounding & Propagation page, click Propagation Events to view the analysis and summary data for sites with propagation events. 
+- Scroll down the page to the Propagation Events Summary (Records propagated/Total records) table. 
+- In the # Affected Patients column, click the link associated with the site whose patients with record events you want view.
+The Patients with Record Events dialog appears. 
+- Click Download .
+The Patients with Rounding Events list downloads to your machine as CSV file.

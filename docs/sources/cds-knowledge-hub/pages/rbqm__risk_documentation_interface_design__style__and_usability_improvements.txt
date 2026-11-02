@@ -1,0 +1,100 @@
+# RBQM: Redesigned Risk Documentation Interface Mirrors and Streamlines Risk Examination Workflow
+
+## RBQM: Redesigned Risk Documentation Interface Mirrors and Streamlines Risk Examination Workflow
+## What Is New?
+ When you: 
+- Create a new risk in the Risk Assessment > Add Risk window,  
+- View or edit a risk in the Risk Assessment > Risk Review window, or 
+- View or edit a risk in the Risk Inventory > Risk Review window 
+ the Add Risk window and Risk window now function as subpages. The subpages show:
+- A restyled, modernized user interface. 
+- A new header section that includes: 
+- The Add Risk or Risk Review subpage name. 
+- The risk documentation completion status; that is, whether all required risk documentation fields are properly addressed. 
+- The Save button. 
+- The risk review status.
+ Note : The risk review status only shows in the Risk Review subpage header section, and not in the Add Risk subpage.
+- The Mark Reviewed button
+ Note : The Mark Reviewed button only shows in the Risk Review subpage header section, and not in the Add Risk subpage.
+- The Back ( < ) button . 
+- On the Add Risk subpage, depending on the page you arrived from, you can click the Back ( < ) button return to the: 
+- Critical Data page, 
+- Critical Processes page, or 
+- Categorization page. 
+- On the Risk Review subpage, depending on the page you arrived from, you can click the Back ( < ) button return to the: 
+- Critical Data page, 
+- Critical Processes page, 
+- Categorization page, or 
+- Risk Inventory page. 
+- Three tabs: Details, QTLs, KRIs. 
+- The Risk Details tab is relabeled to Details. 
+- The Add Risk subpage and Risk Review subpage no longer include the Risk Mitigations tab.
+ Note : The functionality that enables you to add and manage risk mitigations now exists in the Details tab > Mitigations and Actions section. 
+ On the Add Risk and Risk Review subpage, the Details tab layout is redesigned to include three modular sections: 
+- Details – Includes the following fields: 
+ Field Label 
+ Field Label in Old Design 
+ | Label 
+ | Risk Name 
+ | Status 
+ | Risk Status 
+ | Response 
+ | Risk Response 
+ | Description 
+ | Risk Description 
+ | Owner 
+ | Risk Owner 
+ | Source 
+ | Risk Source 
+ | Include in Report 
+ | Include in Risk Plan Report? 
+ | Category 
+ | Category 
+ | Date Entered 
+ | Entered 
+ | Date Closed 
+ | Closed 
+- Score – Includes the following fields:
+- Probability 
+- Impact 
+- Detectability 
+- Score 
+- Mitigations and Actions – Includes the following fields: 
+- Mitigation – Includes the Add Mitigation button, which when clicked, enables you to: 
+- Add risk mitigations. 
+- Associate mitigations with functional plans. 
+- Action Required 
+- Review Frequency 
+ Also: 
+- On the Add Risk and Risk Review subpage > Details tab, t he Save Risk button is renamed to Save and has been moved to the Add Risk section header and Add Review section header. 
+- On the Risk Review subpage > Details tab, t he Mark Reviewed button has been moved to the Risk Review section header. 
+ The QTLs tab and KRIs tab both maintain the same layout and include all the same functionalities; however, the tabs are restyled for a cleaner, modernized look and feel. 
+ Tip : Click images to enlarge.
+ New Design 
+ Old Design 
+ | Add Risk Subpage 
+ | 
+ | 
+ | Risk Review Subpage 
+ | 
+ | 
+## What Is the Impact?
+## Users/Roles
+ Risk managers
+## Workflow Process
+ The Add Risk subpage and Risk Review subpage no longer include the Risk Mitigations tab. The functionality that enables you to add and manage risk mitigations now exists in the Details tab > Mitigations and Actions section. 
+## Other Applications
+ When adding and managing mitigations, you can associate mitigations with functional plans. When writing integrated data quality plans in the RBQM > Plan Documents capability, if you add a risk assessment table to a plan document, the risks table includes the Functional Plans Affected column, which autopopulates based on the entries made in the Mitigations and Plans > Functional Plans Affected field for each mitigation added to risks in the Add Risk and Risk Review subpages.
+## How Do I Benefit?
+ The Add Risk subpage and Risk Review subpage enhancements:
+- Improve usability by intuitively mirroring RBQM's risk documentation interface design with the real world risk examination workflow. 
+- Improve and modernize the general look and feel of the user interface. 
+- Align the design style with the most current Medidata platform style. 
+- Facilitate easier identification of functional plans impacted by risks, providing clearer links between risks and mitigation efforts for more effective responses. 
+## Where Do I See the Change?
+ See the What Is New? section.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement
+- Add and Manage Risks 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

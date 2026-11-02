@@ -1,0 +1,30 @@
+# Configure AI Reconciliation Reports
+
+## Configure AI Reconciliation Reports
+ Configuring Data Surveillance to auto-populate the essential AI Reconciliation reports in Clean Patient Tracker: 
+- Enables your organization to incorporate AI Reconciliation reports data into Data Surveillance for tracking and analysis. 
+- Ensures Clean Patient Tracker analyses the most recently available AI Reconciliation reports to produce the most accurate data analysis. 
+- Ensures data analysis quality by reducing data entry error. 
+- Access Data Surveillance , and then click Configuration > Clean Patient Tracker in the left-hand menu.
+ The Clean Patient Tracker Configuration page appears. 
+- In the AI Reconciliation section, select from the following:
+- To configure Conditions without Treatments: click Conditions without Treatments .
+The Clean Patient Tracker > Patients table > Conditions without Treatments column is set to obtain data from your data source.  
+- To configure Invalid CTCAE Grade: click Invalid CTCAE Grade .
+The Clean Patient Tracker > Patients table > Invalid CTCAE Grade column is set to obtain data from your data source.   
+- To configure Missing Lab for CTCAE Grade: click Missing Lab for CTCAE Grade .
+The Clean Patient Tracker > Patients table > Missing Lab for CTCAE Grade column is set to obtain data from your data source.  
+- To configure Overlapping Conditions: click  Overlapping Conditions .
+The Clean Patient Tracker > Patients table > Overlapping Conditions column is set to obtain data from your data source.  
+- To configure Overlapping non-worsening Conditions and ongoing MH: click Overlapping non-worsening Conditions and ongoing MH .
+The Clean Patient Tracker > Patients table > Overlapping non-worsening Conditions and ongoing MH column is set to obtain data from your data source. 
+- To configure Overlapping Treatments: click Overlapping Treatments .
+The Clean Patient Tracker > Patients table > Overlapping Treatments column is set to be sourced from your data source.  
+- To configure Treatments without Conditions or ongoing MH: click Treatments without Conditions or ongoing MH .
+The Clean Patient Tracker > Patients table > Treatments without Conditions or ongoing MH column is now set to obtain data from your data source.  
+- To configure Worsening Conditions: click Worsening Conditions .
+The Clean Patient Tracker > Patients table > Worsening Conditions column is set to obtain data from your data source.  
+- Click Apply. 
+- Click  Save .
+The selected columns appear in Clean Patient Tracker > Patients table.
+ Tip : After mapping AI Reconciliation reports we recommend triggering Clean Patient Tracker to recount the number of outstanding patient data cleaning tasks to ensure Clean Patient Tracker reports the correct metrics.

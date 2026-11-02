@@ -1,0 +1,84 @@
+# User Data Listings - Export Types and Methods
+
+## User Data Listings - Export Types and Methods
+ Use Cloud Administration or Visual Analytics to export your data. Each method uses different solutions, data sources, nomenclature, and terminology. The following table highlights each method with its corresponding solution, data source, nomenclature, and terminology so you can identify which method best fits your needs. 
+## Export Data with Cloud Administration
+ Data Set Name
+ Nomenclature
+ Export Job Type 
+ Description 
+ Reference Article 
+ | Team Membership
+ | Export
+ | Study Level Master Data 
+ | A CSV export that provides an overview of team membership details as entered in Cloud Administration for the study environment, including:
+- Team Member UUID 
+- Team 
+ | Study Level Master Data Objects 
+ | Team Membership (Audit)
+ | Export
+ | Study Level Audit Master Data 
+ | A CSV export that provides an audit trail of team membership data as entered in Cloud Administration for the  study environment, including 
+- Team Member UUID 
+- Team Membership 
+- Audit Type 
+- Change 
+ | Study Level Audit Master Data Objects 
+ | People
+ | Export
+ | Client Level Master Data 
+ | A CSV export that provides a People data file containing details on  Client persons (people) and addresses from Cloud Administration, including:
+- Primary Email 
+- Person Status 
+- User UUID 
+ | Client Level Master Data Objects 
+ | User Access
+ | Export
+ | Study Group Level Data 
+ | 
+ A CSV export that provides a Users data file containing details on user assignments at the study group level only from Cloud Administration.
+- User UUID 
+- Client Role 
+ | Study Group Level Master Data Objects 
+ | User Login History
+ | Export
+ | Client Level Master Data 
+ | A CSV export that provides an audit trail of all study assignments in Cloud Administration for a user.
+- User UUID 
+- Session UUID 
+- Action 
+ | Client Level Audit Master Data Objects 
+ | Study Assignment
+ | Export
+ | Study Level Master Data 
+ | A CSV export that provides an overview of all study assignments in Cloud Administration for a user.
+- Study Environment Name 
+- Study Environment UUID 
+- Study Environment Site UUID 
+ | Study Level Master Data Objects 
+ | Access
+ | Export
+ | Study Level Master Data 
+ | An comma-separated value (CSV) file containing user study assignment data for Cloud Administration studies. The file contains one row for each user in each site in the specified environments.
+ | Manage Access 
+## Generate Reports with Visual Analytics
+ You can use Visual Analytics to generate or schedule reports .  
+ Report Name
+ Nomenclature
+ Description 
+ Reference Article 
+ | User History Report 
+ | Report 
+ | 
+ Use the User History dashboard to view user assignments, role provisioning, and study invitation statuses . This dashboard shows administrators who make specific role changes and when the changes occur . 
+ | User History Report 
+ | eLearning Compliance Dashboard 
+ | Report 
+ | 
+ The eLearning Compliance dashboard shows user training progress, course completion statuses, and overall compliance . Administrators use this dashboard to track training data at the study group level and across studies for all users, including removed users . 
+ | eLearning Compliance Dashboard 
+ | User Login and Navigation Dashboard 
+ | Report 
+ | 
+ The User Login and Navigation dashboard shows user interactions with applications, studies, and sites for active and inactive users . Administrators can use this dashboard to track user engagement, last login times, and navigation volumes . 
+ | User Login and Navigation Dashboard

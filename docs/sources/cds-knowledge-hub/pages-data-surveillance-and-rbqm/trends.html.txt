@@ -1,0 +1,21 @@
+# Trends
+
+## Trends
+ Trend plots graphically show a single variable's data at each site side by side using a box-and-whisker plot or stacked bar chart. You can use trend plots to pinpoint sites with abnormal or incorrect data that may warrant investigation. 
+## What Are Trends Plots?
+ Trends plots graphically show side by side a single variable's data across all study sites .
+ Trend analyses for numeric variables render as box-and-whisker plots .  Trend analyses for text variable render as stacked bar charts. 
+## What Is the Purpose of Trends Plots?
+ Trends plots allow you to clearly view and compare a variable's patient-reported data across sites to help you pinpoint sites with abnormal or incorrect data.
+ Statistical Monitoring also computes a strength of association for each variable. To learn more, see  Strength of Association Description and Calculation Methodology . 
+## Who Uses Trends Plots?
+ Site monitors, data managers, central monitors, medical monitors, and more use trends plots.
+## What Are the Benefits of Trends Plots?
+ Trends plots greatly improve your ability to focus on and monitor variables that are important to your study. The ease with which you can visually compare data across sites helps you pinpoint sites with abnormal or incorrect data that may warrant investigation.
+ By knowing a variable's strength of association, you gain clearer expectations for how each individual site should report patient data. For example, if at a particular site a variable with a high strength of association contains data points with a high degree of variance, you may want to investigate that site.
+## How Do I Access and View Trends Plots?
+ See  Access and View Trends Plots .
+## How Do I Refresh Trends Plots to Output the Latest Study Data Analysis?
+ See  Schedule or Trigger When Statistical Monitoring Refreshes and Outputs the Latest Study Data Analysis .
+## How Do I Use and Interpret Trends Plots?
+ See  Investigate Data Using Trends Plots .

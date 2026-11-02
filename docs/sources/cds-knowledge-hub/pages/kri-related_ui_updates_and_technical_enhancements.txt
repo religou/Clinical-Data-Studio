@@ -1,0 +1,19 @@
+# KRI-related UI Updates and Technical Enhancements
+
+## KRI-related UI Updates and Technical Enhancements
+## Description
+ The Key Risk Indicators page header is now renamed to the KRI Dashboard page header.
+ On the KRIs dashboard, you can now see how system KRIs are calculated.
+## Affected Roles
+- Risk managers 
+- Data managers 
+- Medical monitors 
+## Advantages
+ None.
+## User Impact
+ None.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

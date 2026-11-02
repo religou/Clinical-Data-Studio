@@ -1,0 +1,12 @@
+# Missing VISIT_DATE Values
+
+## Missing VISIT_DATE Values
+ Dataset activation requires you to correctly map variables to carry data over to Data Surveillance. This article explains how to resolve missing VISIT_DATE values in the Target Data Preview. To learn more about mapping variables and target data, see Activate Datasets . 
+## Symptoms
+ The Target Data Preview does not show the VISIT_DATE variable value. The Source Data Preview shows the value instead. 
+## Causes
+ You did not map the source VISIT_DATE variable in the top panel of the dataset activation screen. 
+## Diagnostic
+ Review the top panel of the dataset activation screen to verify if you mapped the source VISIT_DATE variable. 
+## Resolution
+- Map the source VISIT_DATE variable in the top panel of the dataset activation screen.

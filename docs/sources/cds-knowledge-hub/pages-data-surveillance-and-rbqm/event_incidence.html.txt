@@ -1,0 +1,39 @@
+# Event Incidence
+
+## Event Incidence
+ The Event Incidence Plot shows the reported events and the incidence rate in which those events occurred within a domain at the site and study level. You can use the Event Incidence Plot to determine sites whose reporting of events may require further investigation or corrective action as well as whether a drug should be discontinued. 
+## What Is the Event Incidence Plot?
+ The Event Incidence Plot is a scatter plot that shows the reporting incidence of reported concomitant medications and adverse events at the site and study level.
+## What Is the Purpose of the Event Incidence Plot?
+ You can use the Event Incidence Plot to:
+- Analyze which sites have incidence rates for a given event that are considered statistically different. RBQM considers these sites as outliers  or extreme outliers when compared to overall incidence rates across all sites.
+ Note : RBQM identifies o utliers as sites that have higher or lower incidence rates than the study level or sites with no events. RBQM's algorithms account for the number of patients at a site when determining if the site is an outlier. 
+- Confirm that reported adverse events are in line with protocol expectations (that is, identify prevalence of unexpected events for sites, countries, or overall). 
+- Identify potential correlation between events (such as, if many patients at a site experience upper respiratory tract infections (URTIs) and increased heart rates). 
+- Identify patients at outlier sites that have unusual reporting patterns and review data using direct link to patient profiles (such as, identify events with overlapping start/stop dates, report symptoms rather than diagnosis).  
+- Quickly identify "unable to code" terms or sites with high incidences of "unable to code" terms.  
+## Who Uses the Event Incidence Plot?
+ The following types of users, among many others, use the Event Incidence Plot:
+- Central Monitors – Determine if sites are correctly tracking events. For example, if sites are over or underreporting events. 
+- Data Managers – Ensure sites are tracking the right information or entering information correctly. 
+- Medical Monitors – Evaluate how often events occur at sites to determine drug safety and efficacy. 
+## What Are the Benefits of Using the Event Incidence Plot?
+ By analyzing event terms in your study, you can:
+- Identify whether sites are tracking events correctly. For example, whether a site is overreporting or underreporting adverse events . 
+- Confirm that adverse events are in line with expectations according to the study’s safety plan. 
+- View event trending patterns. For example, if many patients at a site experience headache. 
+- Centralized Statistical Monitoring (CSM) correlation between events. For example, if many patients at a site experience URTI and increased heart rate. 
+- Identify sites that have significantly higher or lower incidence rates for individual events compared to overall study event incidence rates. 
+ Based on your findings, you can determine appropriate corresponding actions such as:
+- Investigating sites to ensure sites properly follow protocols and procedures. 
+- Discontinuing the drug. 
+## How Do I Use and Interpret the Event Incidence Plot?
+ See  Investigate Data Using the Event Incidence Plot .
+## How Do I Refresh Event Incidence to Output the Latest Study Data Analysis?
+ See  Schedule or Trigger When Statistical Monitoring Refreshes and Outputs the Latest Study Data Analysis .
+## How Do I Review Individual Patient Profiles?
+ See  View Individual Patient Profiles from the Event Incidence Plot Page .
+## How Do I Log and Track Issues?
+ You can manually raise signals for Event Incidence Plots, and raise issues for the signals. See log issues that require further investigation or mitigation on the   Signals page .  
+## How Do I View the Event Incidence Plot Audit Report?
+ The Event Incidence Plot Audit Report no longer exists as there are no auditable actions in Event Incidence .

@@ -1,0 +1,53 @@
+# Detect Configuration Manager Releases History
+
+## Detect Configuration Manager Releases History
+ The following lists all Detect Configuration Manager releases (starting with the initial release to up to the 2022.2.0 feature release) and the features and enhancements introduced in each. All Detect Configuration Manager features and enhancements released after Detect Configuration Manager 2022.2.0 are listed in the Clinical Data Studio Releases History .
+ Code Continuity Across Releases
+ Note : All Detect Configuration Manager releases are cumulative. That is, each release or software update is built on the prior releases as noted in the release notes. For example,  Software Update 2016.2.1  includes all of the release  2016.2.0  code, which in turn is based on the  release  2016.1.0  code and so on. Any updates between releases or s oftware updates (urgent or otherwise)  are described in the release notes. 
+## Detect Configuration Manager 2022.2.0 (Jul 2022)
+ This release provided the following new features: 
+- Configure the Data Sets and Variables Used for CSM's Event Analysis 
+- Define Custom QTLs and Percentage KRIs to Target Specific Data Population Subsets 
+ This release also provided the following new enhancements: 
+- Find and Add Data Sets and Variables Faster When Configuring Custom QTLs and Percentage KRIs 
+- Updates to QTL Details When Defining Custom QTLs 
+- Quality Tolerance Limits Table Column Header Updates 
+- QTL Configuration Report PDF Column Updates 
+- New QTL Configuration Requirements and Validation Checks 
+## Detect Configuration Manager 2022.1.0 (Apr 2022)
+ This release provided the following new features: 
+- Product Rebranded as Detect Configuration Manager 
+- Improved Navigation in Detect Configuration Manager 2022.1.0 
+- Configure Potential Duplicate Patient Data Mappings 
+ This release also provided the following new enhancements: 
+- Edit KRI Details and Configurations 
+- Configure Custom KRI Thresholds 
+- Preview the Number of Patients That Exceed a Percentage KRI's Risk Threshold 
+- Improved Percentage KRI Configuration Logic 
+## RBQM Configuration Manager 2021.2.0 (Aug 2021)
+ This release provided the following new features: 
+- Download QTL and KRI Configuration Report PDFs 
+- Feature Release Announcement Informs You of the Latest Release Details 
+ This release also provided the following new enhancements: 
+- Preperatory Work for Future Features and Enhancements 
+## RBQM Configuration Manager 2021.1.0 (Apr 2021)
+ This release provided the following new features: 
+- Add and Edit Custom QTLs in RBQM Configuration Manager 
+- Activate and Deactivate QTLs in RBQM Configuration Manager 
+- View and Sort the Quality Tolerance Limits List in RBQM Configuration Manager 
+ This release also provided the following new enhancements: 
+- Enhancements in RBQM Configuration Manager 2021.1.0 
+- Preperatotry Work for Future Features or Enhancements 
+## RBQM Configuration Manager 2020.2.1 (Dec 2020)
+ This release provided the following resolved issues: 
+- RBQM Configuration Manager 2020.2.1 Resolved Issues List 
+## RBQM Configuration Manager 2020.2.0 (Nov 2020)
+ This release provided the following new features: 
+- Add and Edit Custom Percentage KRIs 
+- Deactivate System KRIs from Displaying in Medidata Detect 
+## RBQM Configuration Manager 2020.1.0 (Jul 2020)
+ The initial RBQM Configuration Manager release provides the following new features: 
+- RBQM Configuration Manager Integrates with Medidata Detect 
+- Add and Edit Custom KRIs in RBQM Configuration Manager 
+- Activate and Deactivate KRIs in RBQM Configuration Manager 
+- View, Filter, and Sort the Key Risk Indicators Table in RBQM Configuration Manager

@@ -1,0 +1,9 @@
+# Delete Designs
+
+## Delete Designs
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+The Patient Profile Designs page shows. 
+- Click the Published Designs tab or the Draft Designs tab, and then find the design you want to delete. 
+- Click   within the row of corresponding design. 
+- Click  Delete . 
+- Click Delete again.

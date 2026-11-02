@@ -1,0 +1,36 @@
+# Signals
+
+## Signals
+ In central monitoring, a signal is an alert or indication of a potential problem, risk, or deviation in a clinical study.   Signals get  detected remotely by analyzing study data centrally, which monitors to proactively identify potential risks in the study data.  Signals help sponsors  focus resources  on sites or issues needing immediate attention, improving data integrity and patient safety. 
+ A signal is an alert or indication of a potential study data issue that is identified through Clinical Data Studio's data analysis. RBQM's Signals capability enables central monitors to auto-generate or manually generate signals reports, which centrally identify, track, and enable actioning on signals that RBQM observes in your study data. Central monitors can use Signals to make clear, efficient, actionable insights on study data, ensuring that critical data quality issues are identified and addressed promptly. 
+## What Is Signals?
+ Signals is an RBQM capability that supports the creation of automated and manual signals. Each signal is an observation that meets a set threshold and derives data from a module configured for signal generation. 
+ What Is the Purpose of Signals? 
+ Signals provides central monitors a  threshold-based tool to centrally identify, track, and take action on potential study data issues .  With Signals, you can: 
+- Consolidate indicators or observations on study data into a single, centralized report. 
+- Track the health of study data using observations. 
+- Manage data quality issues. 
+- Assign tasks to study team members to investigate further. 
+- Perform robust data interrogation, data review, and reconciliation at the individual patient level and at the aggregate level. 
+- Identify data quality and patient safety issues sooner. 
+## Who Uses Signals?
+ Clinical study managers, clinical research associates, site monitors, central monitors, safety monitors, medical monitors, data managers, biostatisticians, programmers, and clinical reviewers use Signals. 
+## How Does Signals Work?
+ Signals   ingests study data from:  
+- Patient Profiles 
+- KRIs 
+- QTLs 
+- Potential Duplicate Patients 
+- Rounding and Propagation 
+- Under/over Reporting 
+ When you refresh data on the Signals page, signals generate for configured modules, based on the source module's last successful data update, and the set threshold for each module. On the Signals page, each configured module shows the last snapshot date and time from its source module.  This means you can determine the exact version of the signals data in each module based on its snapshot date. 
+ While configuring signals for individual modules, you can set up thresholds based on which automated signals get created. You must also choose the modules you want the signals to report on. For example, if you do not enable KRIs in the Signals Configuration and add custom configurations, no signals get created for any KRI in your study when the Signals data refreshes.   Once you configure a signal, observations appear as signals based on custom configurations and the latest data snapshot for individual modules when you next refresh data.   
+ To get the most updated signals, you must refresh the Signals data daily. Auto-generated signals appear based on the latest data snapshot for each configured module available at 7:30 am (EST). If you make any   custom signal configurations   after 7:30 am (EST), the changes are not visible on the Signals page until the next day.
+## What Are the Benefits of Signals?
+ Signals enables central monitors to: 
+- Streamline the identification, tracking, and management of data quality issues across study data. 
+- Continuously monitor and ensure potential risks get mitigated before they escalate as issues. 
+- Enhance efficiency, reduce manual effort, and improve decision-making for users involved in central monitoring and central statistical monitoring. 
+- Provide clear, actionable insights, ensuring that critical data quality issues are identified and addressed promptly. 
+## How Do I Access Signals?
+ See View and Access Signals.

@@ -1,0 +1,21 @@
+# Map Vital Sign Data for Rounding and Propagation Analysis
+
+## Map Vital Sign Data for Rounding and Propagation Analysis
+ You can configure the vital sign data sets and collection date variables that RBQM consumes to analyze and visually render the sites that may be rounding and propagating vital sign records.
+ You can also optionally further specify and configure the procedure name, procedure value, and category that RBQM analyzes.
+ Notes
+- If you do not set up the rounding and propagation configuration, you cannot view the  rounding and propagation analysis in Statistical Monitoring. 
+- Do not map vital sign data for rounding and propagation analysis if your study does not plan to collect vital signs at least three times per patient across all vital signs datas sets. 
+- Access Data Surveillance or RBQM , and then click Configuration > Data Mapping in the left-hand menu.
+ The Data Mapping page appears. 
+- Click the Rounding and Propagation tab. 
+- Select or enter the following:
+- Reference Name   – A custom name to help you identify the data set configured for analysis. RBQM does not include the Reference Name in its analysis. 
+- Data Set   – The vital sign data set that you want RBQM to use to run its rounding and propagation analysis on. 
+- Collection Date   – The date variable for the date in which the vital sign collection took place that you want RBQM to run its rounding and propagation analysis on. 
+- Procedure Name   –   Optional .   The name of the test done that collected the vital sign records.   Procedure Name is only selectable when you turn on the Pivot button. 
+- Procedure Value   –   Optional . The values collected in the procedure name's fields. Procedure Value is only selectable when you turn on the Pivot button. 
+- Category   –   Optional .   A subset of the vital sign collected, such as respiratory vital signs or body vital signs. Category is only selectable when you turn on the Pivot button. 
+- Pivot – Toggle the Pivot button on, , to pivot a transposed study data set that you want RBQM to analyze. Selecting to pivot the data enables RBQM to consume and analyze the Procedure Name, Procedure Value, or Category selections you optionally choose. indicates that the data set is pivoted.
+ Note : You most likely should not need to pivot data ingested from Medidata Rave.
+- Click Save .

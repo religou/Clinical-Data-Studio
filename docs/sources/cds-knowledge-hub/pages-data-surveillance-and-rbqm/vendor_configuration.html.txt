@@ -1,0 +1,40 @@
+# Vendor Configuration
+
+## Vendor Configuration
+ You can use Data Surveillance's Vendor Configuration to:
+- View the list of vendor groups available in your study. 
+- Add vendors to vendor groups. 
+- Ensure Data Surveillance includes a list of active vendors groups to assign vendor issue sets. 
+## View the Vendor Group List
+ The Vendor Group list provides an easy-to-read view of all active and inactive vendor groups or vendor organizations in Data Surveillance. You can sort and filter the vendor group list to help find the vendors you want to view. 
+- Access Data Surveillance , and then click Configuration > Vendors in the left-hand menu.
+The Vendors page appears.
+ Column Descriptions 
+- Name – The unique label that identifies the vendor group. 
+- Updated By – The name of the person who last updated the vendor group record. 
+- Updated On – The date the vendor record group was last updated. 
+- Activate – indicates that the vendor group is active. Active vendor groups get assigned vendor issue sets in Data Surveillance. Inactive vendor groups cannot get assigned vendor query sets. 
+## Activate Vendor Groups/Vendor
+ You must activate vendors groups so that you can add vendors, and assign vendor query sets. 
+- Access Data Surveillance , and then click Configuration > Vendors in the left-hand menu.
+- On the Vendors page  > Activate column, click  in the corresponding row of the vendor group you want to activate.
+ The Activate column now shows  for that vendor record, indicating the vendor group is active. 
+- For Vendor users in a vendor group, follow the same process as step 2 to activate. 
+ Note: A vendor group must have at least one active vendor.
+## Add Vendors To Vendor Groups
+ Using Vendor Query Sets, you can communicate queries and issues with vendor groups where action is required by the vendor and not a site. 
+ Data Managers can assign vendor queries to vendors from an active vendor group. Vendors in a vendor group are users with limited or full access in  Cloud Administration .
+ Note : You can only add vendor users already in a specific study to a vendor group. Vendor users need the Submit Vendor Feedback building block to respond to vendor queries. Contact study administrators to add vendors in Cloud Administration. 
+- Access Data Surveillance , and then click Configuration > Vendors in the left-hand menu.
+The Vendors page appears. 
+- If the vendor group is not active, toggle , the Slider button, to activate the vendor group. 
+- For active vendor group, click , the More icon. 
+- Click Edit Vendors in Group option. 
+- Select vendors from the Add Vendor list. 
+- Click Add user .
+The Current vendors list shows the users. 
+## Deactivate Vendors
+ You cannot edit or delete existing vendor groups or vendor users. However, you can deactivate vendor groups or vendors so that they are not available to assign vendor query sets in Data Surveillance.
+- Access Data Surveillance , and then click Configuration > Vendors in the left-hand menu.
+- On the Vendors page > Activate column, click  in the corresponding row of the vendor group record you want to deactivate.
+- For Vendor users in a vendor group, follow the same process as step 2 to deactivate.

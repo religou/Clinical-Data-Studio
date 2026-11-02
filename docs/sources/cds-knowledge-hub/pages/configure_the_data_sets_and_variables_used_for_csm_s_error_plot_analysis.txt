@@ -1,0 +1,23 @@
+# Configure the Data Sets and Variables Used for CSM's Error Plot Analysis
+
+## Configure the Data Sets and Variables Used for CSM's Error Plot Analysis
+## Description
+ You can now configure within Detect Configuration Manager the data sets and variables that Detect uses to consume and produce the statistical analysis and visual output for error plots.
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ You no longer must build a patient profile to view the error plot analysis on your study data in CSM. You can quickly configure in a simple, centralized workspace the specific study data that you want Detect to analyze.
+## User Impact
+ Detect Configuration Manager > CSM Configuration now includes the Error Plots tab. You can click this tab to access the Error Plot Configuration workspace, where you can:
+- Select the data sets and variables you want to enable Detect to consume and analyze in error plots. 
+- Configure for each data set whether you want to:
+- Analyze the data set as a single record per patient or multiple record per patient 
+- Pivot the data or not. 
+ Important : You must include your visit data set in the error plot configuration to ensure CSM thoroughly and accurately reports against the timeline of events.
+ To learn more about how to configure the data sets and variables used for CSM's error plot analysis, see Map Data Set Analysis Data . 
+## Knowledge Space Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support this feature: 
+- Map Data Set Analysis Data 
+## Special Considerations
+ You must choose Single Record (SRPP) or Multiple Record (MRPP) before you can select variables within a data set.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,21 @@
+# Search Query Data By Column Filters
+
+## Search Query Data By Column Filters
+## Description
+ On the Design page > Profiles tab > for a patient you select in the Patient Selector, you can search query data by applying filters to columns in the Patient Query table. 
+## Affected Roles
+ All. 
+## Advantages
+ With updated filtering options, profile reviewers can efficiently locate query data of interest for patients from a study. 
+## User Impact
+ On the Design page > Profiles tab > for a patient you select in the Patient Selector > Patient Query tab, you can apply filters to the columns in the Patient Query table. 
+ On the Patient Query tab: 
+- If you click  from the top of the Profiles page, filter fields add to all columns under the column header.  
+- For any column, if you enter the first three characters or digits in the   field, the list shows queries that include the filter parameter. The filter response differs slightly depending on the selected parameter. For example, for the Created User column if you enter DON and click Enter, the Patient Query table shows query data with  Created User names like DONALD, BRANDON, MARDONE in an ascending order. The first query that matches the filter parameter shows at the top of the Patient Query table. 
+- If you click   from the top of the Profiles page, filter fields remove from all columns. 
+ For more details on applying column filters, see Knowledge Space Updates. 
+## Knowledge Space Updates
+ The following article has been created in the Medidata Patient Profiles Knowledge Space to support this feature: 
+- View Patient Query Data 
+## Special Considerations
+ None.

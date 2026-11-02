@@ -1,0 +1,14 @@
+# Enhanced Navigation When Saving an Element from Unsaved Changes Dialog Box in Patient Profiles
+
+## Enhanced Navigation When Saving an Element from Unsaved Changes Dialog Box in Patient Profiles
+## Description
+ If you edit an element on the Design page > Elements tab and then attempt to leave the Elements tab without saving, then the unsaved changes dialog box displays as expected.
+ In previous releases, when you clicked the Save button from the dialog box, you remained on the Elements tab. Now clicking Save directs you to the page or tab you want to navigate to.
+## Affected Roles
+ All.
+## Advantages
+ Clicking Save in the unsaved changes dialog box directs you to the page or tab that you want to navigate to.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

@@ -1,0 +1,29 @@
+# View Rave Queries in Data Anomaly Detection Plots
+
+## View Rave Queries in Data Anomaly Detection Plots
+ In Statistical Monitoring, you can view historical information for Rave queries made against a Data Anomaly Detection plot's top 100 outlier data points. Therefore, reviewers can view queried data points and query information directly in RBQM without logging into Medidata Rave.
+ Note : You cannot create queries in Statistical Monitoring. You can only see queries and associated information that come from Rave.
+- If necessary,  access the Data Anomaly Detection page . 
+- Select a Domain Set. 
+- Select a Variable.
+The list of plots associated with the selected variable shows in the Plot table below. Only plots with outlier data show.
+- Plot Name – The variable or variables that RBQM analyzes. 
+- # Outliers – The total number of the variable's data point that are considered outliers. 
+- Click a plot name.
+ The selected plot shows in the plot visualization along with summary information. 
+- Navigate to the Summary section below the Data Anomaly Detection visualization. 
+- From the View By filter, select Data: Top 100 Outliers .
+- In the Status column, click   in the corresponding row of the patient whose Rave query information you want to view.
+The Query History pane appears on the right side of the page.
+ Tip : You can click to sort by column.
+- Patient  – The patient ID of the queried patient. 
+- Variable  – The currently selected variable in view of the Data Anomaly Detection plot visualization. 
+- Value  – The queried data point value. 
+- Query Type  – Specifies the marking group defined in Rave.
+ Tip : Query types that contain AutoQuery in the name are system queries; otherwise, they are manual queries.
+ Action  – Specifies the action made on the query. 
+- Query Data  – The data point's value when the query was originally opened.
+ Note :  The data point value reads as the coded term rather than the manually entered term. 
+- Text  – Information entered by the user when the query was created. 
+- Action By  – User who performed the query action. 
+- Action Date  – Date in which the query action occurred.

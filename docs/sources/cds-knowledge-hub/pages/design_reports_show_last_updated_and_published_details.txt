@@ -1,0 +1,16 @@
+# Design Reports Show Last Updated And Published Details
+
+## Design Reports Show Last Updated And Published Details
+## Description
+ Patient Profile Design Reports now include last updated and published dates along with the name of the user who published or made the last update to the design.
+## Affected Roles
+ All.
+## Advantages
+ Profile reviewers can identify whether the profile design contains the most updated data based on the published or last updated date.
+## User Impact
+ The Medidata Detect > Patient Data Surveillance (PDS) > Patient Profiles > Reports > Patient Profiles Design Report displays the Published Date if a design was published along with the Published By and the Last Updated Date.
+## Knowledge Space Updates
+ The Patient Profiles Knowledge Space provides updated content to support the enhancement: 
+- View Design Reports 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

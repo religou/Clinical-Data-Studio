@@ -1,0 +1,34 @@
+# Transformations: Interface Updates to Transformations for June 2024
+
+## Transformations: Interface Updates to Transformations for June 2024
+## What Is New?
+ The June 2024 release for Data Connect's Transformations module includes several minor interface and user experience, including:
+- The ability to:
+- Hide target variables when mapping 
+- Delete custom target variables 
+- Copy projects 
+- Deactivate projects 
+- A history of SI units used during unit conversions based on the selected analyte 
+- Improved transformation compatibility 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ The various interface updates augment existing functionalities and do not change workflows.
+## Other Applications
+ Deactivated projects no longer stream transformed data to downstream capabilities such as Data Surveillance.
+## How Do I Benefit?
+ The updates provide a streamed data transformation experience based on user feedback.
+## Where Do I See the Change?
+ While reviewing the Transformation projects list screen:
+- Users can copy or deactivate projects. 
+ While configuring SDTM-like data projects, custom data model projects, and exploratory view projects:
+- Users can delete or hide custom variables. 
+ While configuring transformations:
+- Users can see various minor improvements to the look, feel, and stability of the transformation tools 
+ When selecting SI units while configuring unit conversions:
+- Users can see a history of previously selected SI units. 
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

@@ -1,0 +1,11 @@
+# Content Flow for EDC Data
+
+## Content Flow for EDC Data
+ When you use Ingestor to import external EDC data , the Medidata platform processes that data for use in other  applications such as CTMS and Medidata Detect. The flowchart below shows the content lifecycle. 
+ MEDSINGEST_FlowChart_Master_EDC-Content-Flow_ENG
+- As you enter data into Cloud Administration and Rave , the Medidata platform loads that data. 
+- You use Ingestor to create a Study Design Metadata (SDM) import job and import SDM data files. The SDM data files include concept tags standard to SDM , and may include External EDC Standard Concepts . 
+- Medidata Designer processes the SDM files, creates or updates a protocol, and loads that data onto the Medidata platform. 
+- You use Ingestor to create an external EDC import job and import clinical data and clinical operational data. Ingestor processes the data through the Medidata Data Fabric. 
+- The Medidata Data Fabric processes the data into various systems and applications that consume platform data, such as CTMS , Medidata Detect , and Platform Site Payments . 
+- You can use imported data in the consuming applications after the applications' next refresh.

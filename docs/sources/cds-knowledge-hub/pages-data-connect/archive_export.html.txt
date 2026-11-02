@@ -1,0 +1,10 @@
+# Archive Export
+
+## Archive Export
+ You can deactivate exports you no longer need.  Archived scheduled exports no longer run. You cannot manually run an archived export.   
+ Important : You cannot reactivate archived exports.
+- Access Data Connect , and click   Exports   in the left-hand menu to land on the Exports screen.
+ Note : You can only see the exports you created unless you have Super User permission that allows you to see all exports in the study group. For details, see Data Connect Roles and Capabilities . 
+- Identify an export to deactivate, and click the Options icon >  Archive export . 
+- The export no longer runs, and appears on the Export screen's Archived tab.
+ Tip : You can also archive an export from its Configuration screen.

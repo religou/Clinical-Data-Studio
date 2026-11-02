@@ -1,0 +1,49 @@
+# Configuration and Reporting: Merge Multiple Datasets with Common Variables into One Dataset
+
+## Configuration and Reporting: Merge Multiple Datasets with Common Variables into One Dataset
+## What Is New?
+ Study data can sometimes contain datasets that share numerous common variables. For example: 
+- Rave EDC may include variations of the same type of eCRF, or 
+- Study data may come from multiple sources such as a Rave EDC vitals dataset and an external vitals dataset, or 
+- Screening data and study collection data may have similar data points. 
+ You can now merge datasets with common variables into one dataset called a stacked dataset. Stacked datasets include all variables from all the source datasets, even variables without any common matches across the source datasets. 
+## What Is the Impact?
+## Users/Roles
+ Data managers
+## Workflow Process
+ On the Configuration and Reporting > Stacked Datasets page, you can select the datasets you want to use to create stacked datasets. You can use s tacked datasets in: 
+- Data Reviewer > Data Sets page 
+- Data Reviewer > Data Listings page 
+- Data Reviewer > Visualizations page 
+- Patient Profiles > Design page 
+- Configuration and Reporting > Detect Mapping 
+- Configuration and Reporting > QTL Configuration 
+- Configuration and Reporting > KRI Configuration 
+- Configuration and Reporting > Derived Variables 
+- Configuration and Reporting > Oncology Mapping 
+## Other Applications
+ See the Workflow Process section.
+## How Do I Benefit?
+ In instances where multiple datasets have numerous shared variables, merging the datasets into one stacked dataset: 
+- Simplifies the organization of your study data. 
+- Enables you to review your study data, create data listings, build patient profiles, and create derived variables faster and easier by streamlining the datasets you must access, review, and work with. 
+- Simplifies the configuration process when mapping the data sets and variables that Detect uses to consume and produce the statistical analysis and visual output for:
+- Data anomaly detection  and  trends . 
+- Event incidence and under-over reporting events . 
+- Potential duplication patients . 
+- Rounding and propagating vital sign records . 
+- AI Data Reconciliation reports . 
+- Data visualizations . 
+- RECIST 1.1 analytics . 
+- Optimizes the statistical analysis and visual outputs that Detect produces on your study data to be as clean and accurate as possible. 
+## Where Do I See the Change?
+ The Configuration and Reporting module now includes the Stacked Datasets tab in the left-hand navigation, which you can click to access the Stacked Datasets page. The Stacked Datasets page includes the functionality to allow you to create, view, and manage the stacked datasets in your study. 
+ On the Data Reviewer > Data Sets page, Data Listings page, and Visualizations page, the list of available datasets appends stacked data set names with the green DERIVED icon. Note that Data Reviewer appends derived variable names with a blue DERIVED icon.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Stacked Datasets 
+## What Else Should I Know?
+ When creating stacked datasets, there must be at least one common variable OID that exists across all source datasets that you want to create a stacked dataset from.
+ You can use up to 10 datasets to create a merged dataset.
+ You require the View Detect CSM Configuration building block to access the Stacked Datasets page. You require the Manage Detect CSM Configuration building block to create stacked datasets. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

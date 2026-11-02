@@ -1,0 +1,23 @@
+# Create and View Derived Variables
+
+## Create and View Derived Variables
+## Description
+ You can create derived variables in MEDS Data Viewer. With derived variables, you can build custom data set fields for future inclusion in Patient Profiles and Medidata Detect analysis. 
+ With derived variables, you can  perform the following actions: 
+- Concatenate Text  – Linked text variables. 
+- Create Text Substring   – A subset of text. 
+ You can also   update   derived variables' names and labels. 
+## Affected Roles
+ All roles with access to MEDS Data Viewer.
+## Advantages
+ With derived variables, you can create simple views for complex data such as:
+- Combining the visit names with additional labels. 
+- Extracting the time component of a date and time field. 
+ The simple views save you the additional effort of combining data in an external tool to see your data in a custom format.
+## User Impact
+ In Cloud Administration, you can add one of the following permissions to your customer-defined platform role : 
+- View Derived Variables – You can view the list of derived variables in MEDS Data Viewer. You can also access the Derived Variables module from the left module menu. 
+- Manage Derived Variables – You can create and update derived variables in MEDS Data Viewer. 
+ In MEDS Data Viewer, you can select Derived Variables from the application's left menu. Existing derived variables display in the Data Viewer tab, below the standard data set fields. 
+## Special Considerations
+ None.

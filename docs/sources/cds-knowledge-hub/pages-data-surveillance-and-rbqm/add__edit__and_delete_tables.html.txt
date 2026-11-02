@@ -1,0 +1,772 @@
+# Add, Edit, and Delete Tables
+
+## Add, Edit, and Delete Tables
+ Tables are containers of study information that allow you to display subject data of up to 12 variables. You can add the following types of tables to your profile designs:
+- Wide table 
+- Patient information table 
+- Transposed table 
+## Wide Tables
+ A wide table allows for up to 12 columns of data. You create wide tables for multiple record datasets that you do not need to display in a timeline, such as medical history. All data in a wide table must come from the same data set.
+ You can: 
+- Add wide tables to your design. 
+- Copy wide tables between studies. 
+- Select to display wide tables in a timeline and configure the timeline display  options. 
+- Select to display numeric data in your timeline as a graph and configure the graph display  options. 
+- Configure wide table display and highlight conditions. 
+- Remove display and highlight conditions. 
+- Append a single note to display at the bottom of the table in the patient profile view. 
+- Resize the column width. 
+- Edit wide table details, such as:
+- Rename wide tables, 
+- Rename variables, 
+- Change a variable's placement within the table, and 
+- Remove variables from tables. 
+## Add Wide Tables
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- Click , and then click  Wide Table . 
+- Enter a unique  Name  for the table.
+ Note : If you plan on configuring the wide table to be an event table that shows in a timeline, then the wide table element name cannot include a left parenthesis "(" or right parenthesis ")".
+- On the right side of the page: click  Data , click-and-drag a variable in the data sets, and then drop the variable in a column to the left. Repeat as many times as necessary for each variable you want to add to your table.
+ Notes:
+- A blue "Rave" () or "External" ( ) label appears next to the data set to identify the origin of the data set. 
+- Data sets with a green left border contain at least one variable that is currently applied to the study. 
+- Data sets with a blue left border contain no variables that are currently applied to the study. 
+- Variables with a green border on all sides are currently applied to the design. 
+- If the table already contains a selected variable, then you cannot click and drag any other variables from the Data tab. 
+- A blue "Derived" icon ( ) shows next to derived variables . 
+- Variables with the suffix _OID indicate object identifier (OID)s. 
+- Variables with the suffix_TXT, _INT, _DTC indicate enriched fields. Source fields refer to the original source of a data point, while enriched fields add extra information or context to the source data. Enriched fields are used to provide more detail about the about source fields, or to add derived information that is not directly present in the original source. If the data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or_ DTC . For example, if the source date is missing the day, the enriched _INT field (integer) interpolates the 1st day of the month, and the _DTC field (datetime) drops the unknown value. The values in the enriched fields differ when dates have unknown (UN   or   UNK ) values. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms. For example, AESer and AESer_TXT. If you use _TXT values, you see end user strings rather dictionary coded values, that is, No/Yes rather than 0/1 in your profile design. 
+- Data set and variable names appended with a blue flag indicate that they are identified in Risk Assessment  as   critical data for the study. 
+- If you use a dataset with datetime operations, then you should use the date field and its enrichments, for example: _INT,   DT , _DTC—from the source Medidata Rave dataset to ensure data accuracy in the patient profiles. 
+ Important : Do not include blank spaces between columns to avoid patient profile column sorting issues.
+- On the right side of the page, click Table Options , and then select or enter following information in the General Options section:
+ Field Descriptions 
+- First Sort Column – Define which column you want to  display  in your table as the first sortable column. 
+- Second Sort Column – Define which column you want to  display in your table as the second sortable column. 
+- Third Sort Column – Define which column you want to  display in your table as the third sortable column. 
+- Missing Data Text – Enter the text that you want to  display in the table to indicate a missing data point. 
+- Legend Note – Text you enter here appears as a legend at the bottom of the table on the profile design. 
+- Optional . If you want the wide table to display in a timeline, select or enter the following in the Timeline Options section:
+ Field Descriptions 
+- Event Table – Select to specify that you want the data from the wide table to  display within a timeline. You must first select the Event Table check box to activate all other timeline options. 
+- Event Name Column  – Enter the column number you want the event name to reside within the wide table. 
+- Event Start Date Column  – Enter the column number you want the start date to reside within the wide table. 
+- Event Stop Date Column  – Enter the column number you want the stop date to reside within the wide table. 
+- Extend Line if Stop Date Missing  – Select to configure the table so that if the event has no end date defined, then the line will continue across the timeline. 
+- Always Label Duplicate Events – Select to configure the table to automatically label recurring event names. 
+- Point Color – You can configure a default color in which you want variable data points to display  on the timeline. Click the corresponding color block, and select the default color. 
+- Color options for – You can configure variable data points to display in the timeline in the color of your choosing. Click > select a variable name > click > for each variable you want colored, click the corresponding colored square and select a color > click OK . 
+ Tip : To learn more, see Display Wide Tables in Timelines .
+- Optional . If you have numeric data in your wide table that you want plotted within a graph, select or enter the following in the Graph Options section:
+ Field Descriptions 
+- Table and Graph  - Select to display wide table data as graphs, tables, or both.
+- Table Only - Select to display in tables. Selecting this default option disables all graph options. 
+- Graph Only - Select to display in graphs. 
+- Show Both - Select to display in tables and graphs.  
+- If you select Show Both , click  in the variable's name, then
+ displays. If you select the following,
+ Select 
+ Displays 
+ Result 
+ | Show only in Table 
+ | 
+ | 
+ the variable does not display in graphs
+ | Show only in Graph 
+ | 
+ | 
+ the variable does not display in tables
+ | Neither Show only in Table nor Show only in Graph 
+ | no icon 
+ | 
+ the variable displays in graphs and tables
+- Table Position - Select to display the table above or below the graph. This option appears only if you select 'Show Both' in Table and Graph . 
+- Graph Name  – Enter a unique name for the graph. 
+- Graph Height  – Select the height in which you want 
+- Graph Width – Select the number of graphs that you want to  display within the same row on the graph. 
+- Point Color – Click the corresponding color block, and select the color in which you want the data points to  display on the graph. 
+- Point Size – Enter or select the size in which you want the data points to  display on the graph. 
+- Line Width – Enter or select the point size in which you want the lines connecting data points to display. 
+- Date Axis at Top of Graph – Select to have the data's corresponding data point display at the top of the graph. 
+- Break Line Missing Data – Select to display a break in the line where a data point is missing. 
+- Red Border if Value Outside Limits – Select to display a red border to highlight a graph that contains a value that is outside of the defined X-axis or Y-axis for the graph; in other words, if the data is outside of the plotted range. 
+- Visit Date Column – Select the column containing the date variable. This defines how the graphs present data points along the date axis and timeline. 
+ Tip : To learn more, see Display Wide Table Data in Graphs .
+- Optional . To add element or row display conditions: in the Conditional Options section, click  next to  Element or Row , respectively. To learn more, see  Configure Wide Table Element Display Conditions or  Configure Wide Table Row Display Conditions . 
+- Optional . To add highlight conditions: in the Highlight Conditions section, click   next to Highlight 1  or  Highlight 2 . To learn more, see  Configure Wide Table Highlight Conditions . 
+- Optional : Click  Note to append a single note to display at the bottom of the table in the patient profile. To learn more, see  Append Notes to Elements .
+ Tip : Adding a note to display at the end of a table gives patient profile reviewers added insight into the profile's study data.
+- Click  Save . 
+## Copy Wide Tables Between Studies
+ You can copy wide tables within the same study or to studies on different environments and designs. To copy wide tables to another study, see Copy Elements between Studies . Rows containing missing visit variables show in yellow and with a yellow marker   . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. 
+## Display Wide Tables in Timelines
+ You can select to display the data in your wide table in a timeline. Timelines allow you to visually compare specific data points over the duration of a study in a single output. For example, you can view visit dates, study days, adverse events, con meds, dosing, and so on in a single visual element. 
+ Furthermore, timelines allow you to:
+- effectively compare data against each other, and  
+- view correlations in one output rather than having to cross-reference multiple data sets. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved elements table, click the name of the wide table you want to update. 
+- In the Wide Table section, click  Table Options .
+- In the Timeline Options section, select Event Table , and then select or enter the following information:
+ Field Descriptions 
+- Event Table – Select to specify that you want the data from the wide table to  display  within a timeline. You must first select the Event Table check box to activate all other timeline options. 
+- Event Name Column  – Enter the column number you want the event name to reside within the wide table. 
+- Event Start Date Column  – Enter the column number you want the start date to reside within the wide table. 
+- Event Stop Date Column  – Enter the column number you want the stop date to reside within the wide table. 
+- Extend Line if Stop Date Missing  – Select to configure the table so that if the event has no end date defined, then the line will continue across the timeline. 
+- Always Label Duplicate Events – Select to configure the table to automatically label recurring event names. 
+- Point Color – You can configure a default color in which you want variable data points to display  on the timeline. Click the corresponding color block, and select the default color. 
+- Color options for – You can configure variable data points to display  in the timeline in the color of your choosing. Click > select a variable name > click > for each variable you want colored, click the corresponding colored square and select a color > click OK . 
+- Click Save in the Wide Table section.
+## Display Wide Table Data in Graphs
+ Graphs allow you to plot data points, such as lab values, in a line or scatter plot graph. You can use multiple graphs in a profile to highlight key data or safety values.
+ When adding or editing a wide table, do the following:
+- In the Wide Table section, click  Table Options .
+- In the Graph Options section, select or enter the following information:
+ Field Descriptions 
+- Table and Graph  - Select to display  wide tables data as graphs, tables, or both.
+- Table Only - Select to display in tables. Select this default option disables all graph options. 
+- Graph Only - Select to display in graphs. 
+- Show Both - Select to display in tables and graphs.  
+- Table Position - Select to display the table above or below the graph. This option shows only if you select 'Show Both' in Table and Graph . 
+- Graph Name  – Enter a unique name for the graph. 
+- Graph Height  – Select the height in which you want 
+- Graph Width – Select the number of graphs that you want to  display within the same row on the graph. 
+- Point Color – Click the corresponding color block, and select the color in which you want the data points to  display on the graph. 
+- Point Size – Enter or select the size in which you want the data points to  display on the graph. 
+- Line Width – Enter or select the point size in which you want the lines connecting data points to display. 
+- Date Axis at Top of Graph – Select to have the data's corresponding data point display at the top of the graph. 
+- Break Line Missing Data – Select to display a break in the line where a data point is missing. 
+- Red Border if Value Outside Limits – Select to display a red border to highlight a graph that contains a value that is outside of the defined X-axis or Y-axis for the graph; in other words, if the data is outside of the plotted range. 
+- Visit Date Column – Select the column containing the date variable. This defines how the graphs present data points along the date axis and timeline. 
+- Click  Save  in the Wide Table section. 
+## Configure Wide Table Element Display Conditions
+ You can configure tables and timelines to display  on a conditional basis. We provide this functionality because sometimes there are situations where an element is created to display data that may not apply to all subjects. For example, if an element is created to display pregnancy status data points, then you would want the element to only display  data that applies to female subjects.
+ Therefore, you can create conditions—such as “dem.gender=Female”—so that Medidata Patient Profiles knows to hide this particular element in reports for male subjects. As a result, taking the previously mentioned example, the report will not display  an empty timeline for male subjects. This yields a cleaner, more aesthetic looking report.
+ When adding or editing a wide table, do the following:
+- To the right of the Wide Table section, click  Table Options .
+- In the Conditional Options section, click   next to Element .
+ Note : If display  condition variables are missing, a yellow marker appears next to Element . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. 
+- Click-and-drag a variable from the data sets, and then drop the variable in the Variable column. To use variables used in configuring wide tables to build display  conditions, see  Conditional Options In Tables Restored .
+- Select an  Operator . 
+- Select a  Value . 
+- Click  , and select an expression. 
+- Click  OK . 
+- Click  Save  in the Wide Table section. 
+ Note :  You can use conditional display  options with Hide "No Data" Elements to hide wide tables with no data. For more information, see  Hide Elements with No Data . 
+## Configure Wide Table Row Display Conditions
+ When designing profiles, there may be times when you must display the same data in two tables, but you must apply opposing conditions to the rows containing that data. For example, if you want to show significant adverse events (AE) in one table and nonsignificant adverse events in another table. In such case, you can build two tables with the same AE data set variables. On the first table, you can build a condition with ae.SAE=Yes. On the second table, you can have the condition of ae.SAE=No.
+ Another example of applying row display conditions is if you know an adverse event table will have empty records, but it is unnecessary to display "No Data." You can create a condition where:
+ "ae.AE Term = is not missing AND ad.AE Start Date = is not missing". 
+ As a result, empty rows do not display  in the report.
+ When adding or editing a wide table, do the following:
+- To the right of the Wide Table section, click  Table Options .
+- In the Conditional Options section, click   next to  Row .
+ Note : If display  condition variables are missing, a yellow marker appears next to Row . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. 
+- Click-and-drag a variable from the data sets, and then drop the variable in the Variable column. 
+- Select an  Operator . 
+- Select a  Value . 
+- Click  , and select an expression. 
+- Click  OK . 
+- Click  Save  in the Wide Table section. 
+## Remove Wide Table Display Conditions
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved elements table, click the name of the wide table you want to update. 
+- In the Wide Table section, click  Table Options .
+- In the Conditional Options section, click   next to Element or Row , depending on which condition you want to remove.
+ Note : If display  condition variables are missing, a yellow marker appears next to Element or Row . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. A condition row with missing variables appears in yellow. 
+- Click  . 
+- Click  Save  in the Wide Table section. 
+## Configure Wide Table Highlight Conditions
+ Using highlight conditions, you can design your wide tables with colored highlighting to bring attention to certain rows in your table. For example, you could design an adverse event table with highlights. The table could highlight a grade 4 adverse event row in yellow and a grade 5 in red.
+ When adding or editing a wide table, do the following:
+- To the right of the Wide Table section, click  Table Options .
+- In the Conditional Options section, click   next to Highlight 1 or Highlight 2 .
+ Note : If highlight condition variables are missing, a yellow marker appears next to Highlight 1 or Highlight 2 . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. 
+- Click-and-drag a variable from the data sets, and then drop the variable in the Variable column. 
+- Select an  Operator . 
+- Select a  Value . 
+- Click  , and select an expression. 
+- Click the colored block next to Text Color and select a color. 
+- Click the colored block next to Background Color and select a color. 
+- Click  OK . 
+- Click  Save  in the Wide Table section. 
+## Remove Wide Table Highlight Conditions from Wide Tables
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page > Elements tab, go to the Saved elements  table, and click the name of the wide table you want to update. 
+- In the Wide Table section, click  Table Options .
+- In the Conditional Options section, click   next to  Highlight 1  or  Highlight 2 , depending on which condition you want to remove.
+ Note : If display  condition variables are missing, a yellow marker appears next to Highlight 1 or Highlight 2 . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. A condition row with missing variables appears in yellow. 
+- Click  . 
+- Click  Save  in the Wide Table section. 
+## Edit Wide Table Details
+ You can do the following to edit wide table details:
+- Rename wide tables. 
+- Rename variables. 
+- Add or remove variables. 
+- Move variable placement within wide tables. 
+- Change general option details. 
+- Select to allow or disallow wide tables from appearing in timelines. 
+- Select to allow or disallow wide tables with numeric data from appearing in graphs. 
+- Add or remove display  conditions. 
+- Add or remove highlight conditions. 
+- Append a single note to display  at the bottom of the table in the patient profile view. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab 
+- In the Saved elements table, click the name of the wide table you want to update. 
+- Do any of the following as necessary:
+- To edit the wide table name, enter a new name in the  Name field.
+ Note : If you plan on configuring the wide table to be an event table that shows in a timeline, then the wide table element name cannot include a left parenthesis "(" or right parenthesis ")".
+- To edit variable names: click a variable in the table, click  , enter the new name, and then click  . 
+- To add variables to the wide table: click  Data on the right side of the page, click-and-drag a variable in the data sets, and then drop the variable in a column to the left. Repeat as many times as necessary for each variable you want to add to your table. 
+- To remove variables from the wide table, click a variable, and then click  . 
+- To change the placement of a variable within the table: click the variable you want to move, click and hold  , and then drag the variable within the table as needed. 
+- On the right side of the page, click  Table Options , and then select, enter, or edit the following information in the General Options section as necessary:
+ Field Descriptions 
+- First Sort Column – Define which column you want to  display  in your table as the first sortable column. 
+- Second Sort Column – Define which column you want to  display in your table as the second sortable column. 
+- Third Sort Column – Define which column you want to  display in your table as the third sortable column. 
+- Missing Data Text – Enter the text that you want to  display in the table to indicate a missing data point. 
+- Visit Date Column – Select the column containing the date variable. This defines how the graphs present data points along the date axis and timeline. 
+- Legend Note - Text you enter here appears as a legend at the bottom of the table on the profile design. 
+- To display the wide table in timelines, see Displays Wide Tables in Timelines .
+- To prevent the wide table from appearing in timelines, click  Table Options on the right side of the page, and then clear Show in Timeline in the Timeline Options section. 
+- To plot numeric wide table data in graphs, see  Display Wide Table Data in Graphs . 
+- To prevent the wide table from appearing in graphs, click  Table Options  on the right side of the page, and then clear  Show Graph  in the Graph Options section. 
+- To add or remove display  conditions, see  Configure Wide Table Element Display Conditions or  Configure Wide Table Row Display Conditions .
+- To add or remove highlight conditions, see  Configure Wide Table Highlight Conditions . 
+- To append a single note to display  at the bottom of the table in the patient profile, click  Note . To learn more, see Append Notes to Elements . 
+- Click  Save  in the Wide Table section. 
+## Patient Information Tables
+ You can configure patient information tables to present data from a single record per patient dataset in one, two, or three columns and multiple rows. Patient information tables can include age, condition type, site, investigator name, or any other data point that is useful to identify the patient. A patient information table is part of the default profile layout. 
+ You can:
+- Add patient information tables to designs. 
+- Append a single note to display  at the bottom of the table in the patient profile view. 
+- Edit patient information table details, such as
+- Rename patient information tables; 
+- Rename variables; 
+- Change a variable's placement within the table; and 
+- Remove variables from tables. 
+## Add Patient Information Tables
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved Elements table, click , and then click  Patient Information Table . 
+- Enter a unique  Name  for the table. 
+- On the right side of the page: click  Data , click-and-drag a variable in the data sets, and then drop the variable in a column to the left.
+ Notes:
+- A blue "Rave" ( ) or "External" ( ) label appears next to the data set to identify the origin of the data set. 
+- Data sets with a green left border contain at least one variable that is currently applied to the study. 
+- Data sets with a blue left border contain no variables that are currently applied to the study. 
+- Variables with a green border on all sides are currently applied to the design. 
+- A blue "Derived" icon ( ) shows next to derived variables . 
+- Variables with the suffix_TXT, _INT, _DTC indicate enriched fields. Source fields refer to the original source of a data point, while enriched fields add extra information or context to the source data. Enriched fields are used to provide more detail about the about source fields, or to add derived information that is not directly present in the original source. If the data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or_ DTC . For example, if the source date is missing the day, the enriched _INT field (integer) interpolates the 1st day of the month, and the _DTC field (datetime) drops the unknown value. The values in the enriched fields differ when dates have unknown (UN   or   UNK ) values. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms. For example, AESer and AESer_TXT. If you use _TXT values, you see end user strings rather dictionary coded values, that is, No/Yes rather than 0/1 in your profile design. 
+- Data set and variable names appended with a blue flag indicate that they are identified in Risk Assessment as   critical data for the study. 
+- If you use a dataset with datetime operations, then you should use the date field and its enrichments—for example: _INT,   DT , _DTC—from the source Rave dataset to ensure data accuracy in the patient profiles. 
+ Important : Use SRPP datasets only and not MRPP datasets.
+- Optional : To add more columns to the table, click  , and repeat Step 5 above. 
+- Optional : Click  Note to append a single note to display  at the bottom of the table in the patient profile. To learn more, see Append Notes to Elements .
+ Tip : Adding a note to display  at the end of a table gives patient profile reviewers added insight into the profile's study data.
+- Click  Save . 
+## Copy Patient Information Tables Between Studies
+ You can copy patient information tables within the same study or to studies on different environments and designs. To copy patient information study to another study, see Copy Elements between Studies . Rows containing missing visit variables display  in yellow and with a yellow marker   . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. For more information, see Missing Items in Elements Indicated with Yellow Markers . 
+## Edit Patient Information Table Details
+ You can do the following to edit patient information table details:
+- Rename patient information tables. 
+- Add or remove variables from tables. 
+- Rename variables. 
+- Moves variable placement within tables. 
+- Remove variables from tables. 
+- Append a single note to display  at the bottom of the table in the patient profile view. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved elements table, click the name of the wide table you want to update. 
+- Do any of the following as necessary:
+- To edit the patient information table name, enter a new name in the  Name  field. 
+- To edit variable names: click a variable in the table, click  , enter the new name, and then click  . 
+- To add variables to the wide table: click  Data  on the right side of the page, click-and-drag a variable in the data sets, and then drop the variable in a column to the left. Repeat as many times as necessary for each variable you want to add to your table. 
+- To remove variables from the patient information table, click a variable, and then click  . 
+- To change the placement of a variable within the table: click the variable you want to move, click and hold  , and then drop the variable within the table as needed. 
+- To append a single note to display  at the bottom of the table in the patient profile, click  Note . To learn more, see Append Notes to Elements . 
+- Click  Save  in the Patient Information Table section. 
+## Transposed Tables
+ Transposed tables allow for multiple values that are separate lines of data to display in a single table row. You can create transposed tables for data that is structured in a long, skinny format to display in a wide table format. This data also typically includes a field for “Test” in which all of the available tests fall under that field, and a field for “Result” which displays the result of the test name that resides on the same record. Generally, that is external lab data, physical exam data, questionnaires, and so on. Transposed tables also  display  the same test name in a single column to allow you to easily view the data over time.
+ You can:
+- Add transposed tables to designs. 
+- Select to display numeric data in your transposed table as a graph and configure the graph display  options. 
+- Configure wide table display  and highlight conditions. 
+- Append a single note to display  at the bottom of the table in the patient profile view. 
+- Edit transposed table details, such as:
+- Rename transposed tables. 
+- Add variables to tables. 
+- Rename variables. 
+- Remove variables from tables. 
+- Select, view, and remove test values. 
+## Add Transposed Tables
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab 
+- In the Saved Elements table, click , and then click  Transposed Table . 
+- Enter a unique  Name  for the table. 
+- On the right side of the page: click  Data , click-and-drag a visit date variable in the data sets, and then drop the variable in the Visit Variable column.
+ Notes:
+- A blue "Rave" ( ) or "External" ( ) label appears next to the data set to identify the origin of the data set. 
+- Data sets with a green left border contain at least one variable that is currently applied to the study. 
+- Data sets with a blue left border contain no variables that are currently applied to the study. 
+- Variables with a green border on all sides are currently applied to the design. 
+- If the table already contains a selected variable, then you cannot click and drag any other variables from the Data tab. 
+- If data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or_ DTC . For example, if the source date is missing the day, the enriched _INT field interpolates the 1st day of the month, and _DTC fields drop the unknown value. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms. 
+- A blue "Derived" icon ( ) shows next to derived variables . 
+- Data set and variable names appended with a blue flag indicate that they are identified in Risk Assessment as critical data for the study. 
+- If you use a dataset with datetime operations, then you should use the date field and its enrichments—for example: _INT,   DT , _DTC—from the source Rave dataset to ensure data accuracy in the patient profiles. 
+- Optional : To add a visit name column to your table, click-and-drag a visit name variable in the data sets, and then drop the variable in the Visit Variable column. 
+- To add a test value column to your table, click-and-drag a test value variable in the data sets, and then drop the variable in the Tests column. 
+- To add a test name column to your table, click-and-drag a test name variable in the data sets, and then drop the variable in the Tests column. 
+- Optional : You can select the variables you want to use, to define the high and low ranges for the selected test:
+- To add a column for the upper range of the test, click-and-drag a variable in the data sets, and then drop the variable in the Normal Range> Variable section. The upper range variable value shows in red. 
+- To add a column for the lower range of the test, click-and-drag a variable in the data sets, and then drop the variable in the Normal Range>Variable section. The lower range variable value shows in blue. 
+ Note:  The  Normal Range section always displays. The upper and lower range colors are set by default and uneditable.
+- Optional : On the right side of the page, click Table Options , and then select or enter following in the General Options section:
+- Missing Data Text - To configure the table to display a custom label for cells containing no data, enter the label text to display, for example, "No Data". 
+- Hide "No Data" Elements - Select to hide transposed tables with no data. For more information, see Hide Elements with No Data .
+- Legend Note - Text you enter here appears as a legend at the bottom of the table on the profile design. 
+- Optional . To display  the transposed table in a graph, click Table Options , and then select or enter the following in the Graph Options section: 
+ Field Descriptions 
+- Table and Graph  - Select to display  transposed tables data in graphs, tables, or both.
+- Table Only - Select to display in tables. Select this default option disables all graph options. 
+- Graph Only - Select to display in graphs.  
+- Show Both - Select to display in tables and graphs.  
+- If you select Show Both , click  in the variable's name in the Tests column,
+ displays. If you select the following,
+ Select 
+ Displays 
+ Result 
+ | Show only in Table 
+ | 
+ | 
+ the variable does not display in graphs
+ | Show only in Graph 
+ | 
+ | 
+ the variable does not display in tables
+ | Neither Show only in Table nor Show only in Graph 
+ | no icon 
+ | 
+ the variable displays in graphs and table
+- Table Position - Select to display the table above or below the graph. This option displays  only if you select 'Show Both' in Table and Graph . 
+- Graph Name  – Enter a unique name for the graph. 
+- Graph Height – Select the height in which you want your graph to  display. 
+- Graph Width – Select the number of graphs that you want to  display within the same row on the graph. 
+- Point Color – Click the corresponding color block, and select the color in which you want the data points to  display on the graph. 
+- Point Size – Enter or select the size in which you want the data points to  display on the graph. 
+- Line Width – Enter or select the point size in which you want the lines connecting data points to display. 
+- Date Axis at Top of Graph – Select to have the data's corresponding data point display at the top of the graph. 
+- Break Line Missing Data – Select to display a break in the line where a data point is missing. 
+- Red Border if Value Outside Shaded Range – Select to display a red border to highlight a graph if one of the values it outside of the shaded range for that specific graph. 
+- Red Border if Value Outside Limits – Select to display a red border to highlight a graph that contains a value that is outside of the defined X-axis or Y-axis for the graph; in other words, if the data is outside of the plotted range. 
+- Visit Date Column – Select the column containing the date variable. This defines how the graphs present data points along the date axis and timeline. 
+ Tip : To learn more, see Displayed Transposed Table Data in Graphs. 
+- Optional . To add element or row display conditions: in the Conditional Options section, click  next to  Element  or  Row , respectively. To learn more, see  Configure Transposed Table Element Display Conditions  or  Configure Transposed Table Row Display Conditions . 
+- Optional . To add highlight conditions: in the Highlight Conditions section, click   next to  Highlight 1  or  Highlight 2 . To learn more, see Configure Transposed Table Highlight Conditions . 
+- Optional : Click  Note to append a single note to display  at the bottom of the table in the patient profile. To learn more, see Append Notes to Elements .
+ Tip : Adding a note to display  at the end of a table gives patient profile reviewers added insight into the profile's study data.
+- Click  Save . 
+## Copy Transposed Tables between Studies
+ You can copy transposed tables within the same study or to studies on different environments and designs. To copy transposed tables to another study, see Copy Elements between Studies . Rows containing missing visit variables display  in yellow and with a yellow marker   . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. For more information, see Missing Items in Elements Indicated with Yellow Markers . 
+## Manage Test Values
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved elements table, click the name of the transposed table you want to update. 
+- In the Transposed Table section > Tests section, click  , and click  Select Values .
+- Do any of the following:
+- To add values: click and hold value in the All Values section, and then drag the value in the Selected Values section. 
+- To remove values: click   in the row corresponding with the value you want to remove. 
+- To reorder values: click and hold  in the row corresponding with the value you want to move, and the drag the value where necessary. 
+- Click Save . 
+- Click Save in the Transposed Table section. 
+## Display Transposed Table Data Graphs
+ Graphs allow you to plot data points, such as lab values, in a line or scatter plot graph. You can use multiple graphs in a profile to highlight key data or safety values.
+ When adding or editing a transposed table, do the following:
+- In the Transposed Table section, click  Table Options .
+- In the Graph Options section, select or enter the following information:
+ Field Descriptions 
+- Table and Graph  - Select to display  transposed tables in graphs, tables, or both.
+- Table Only - Select to display in tables. This is the default option. Selecting this option disables all graph options. 
+- Graph Only - Select to display in graphs.  
+- Show Both - Select to display in tables and graphs.  
+- Table Position - Select to display table the above or below the graph. This option appears only if you select 'Show Both' in Table and Graph . 
+- Graph Name  – Enter a unique name for the graph. 
+- Graph Height – Select the height in which you want your graph to  display. 
+- Graph Width – Select the number of graphs that you want to  display within the same row on the graph. 
+- Point Color – Click the corresponding color block, and select the color in which you want the data points to  display on the graph. 
+- Point Size – Enter or select the size in which you want the data points to  display on the graph. 
+- Line Width – Enter or select the point size in which you want the lines connecting data points to display. 
+- Date Axis at Top of Graph – Select to have the data's corresponding data point display at the top of the graph. 
+- Break Line Missing Data – Select to display a break in the line where a data point is missing. 
+- Red Border if Value Outside Shaded Range – Select to display a red border to highlight a graph if one of the values it outside of the shaded range for that specific graph. 
+- Red Border if Value Outside Limits – Select to display a red border to highlight a graph that contains a value that is outside of the defined X-axis or Y-axis for the graph; in other words, if the data is outside of the plotted range. 
+- Visit Date Column – Select the column containing the date variable. This defines how the graphs present data points along the date axis and timeline. 
+- Click  Save  in the Transposed Table section. 
+## Configure Transposed Table Element Display Conditions
+ You can configure tables and timelines to display on a conditional basis. We provide this functionality because sometimes there are situations where an element is created to display data that may not apply to all subjects. For example, if an element is created to display pregnancy status data points, then you would want the element to only display  data that applies to female subjects. 
+ Therefore, you can create conditions—such as “dem.gender=Female”—so that Medidata Patient Profiles knows to hide this particular element in reports for male subjects. As a result, taking the previously mentioned example, the report will not display  an empty timeline for male subjects. This yields a cleaner, more aesthetic looking report.
+ When adding or editing a transposed table, do the following:
+- To the right of the Transposed Table section, click Table Options .
+- In the Conditional Options section, click   next to  Element .
+ Note : If display  condition variables are missing, a yellow marker appears next to Element . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. 
+- Click-and-drag a variable from the data sets, and then drop the variable in the Variable column. To use variables used in configuring transposed tables to build display  conditions, see  Conditional Options In Tables Restored .
+- Select an  Operator . 
+- Select a  Value . 
+- Click  , and select an expression. 
+- Click  OK . 
+- Click  Save  in the Transposed Table section. 
+ Note : You can use conditional display  options with  Hide "No Data" Elements to hide transposed tables with no data. For more information, see Hide Elements with No Data .
+## Configure Transposed Table Row Display Conditions
+ When designing profiles, there may be times when you need to display the same data in two tables, but you must apply opposing conditions to the rows containing that data. For example, if you want to show significant adverse events (AE) in one table and nonsignificant adverse events in another table. In such case, you can build two tables with the same AE data set variables. On the first table, you can build a condition with ae.SAE=Yes. On the second table, you can have the condition of ae.SAE=No.
+ Another example of applying row display conditions is if you know an adverse event table will have empty records, but it is unnecessary to display "No Data." You can create a condition where:
+ "ae.AE Term = is not missing AND ad.AE Start Date = is not missing". 
+ As a result, empty rows do not display  in the report.
+ When adding or editing a transposed table, do the following:
+- To the right of the Transposed Table section, click  Table Options .
+- In the Conditional Options section, click   next to  Row .
+ Note : If display  condition variables are missing, a yellow marker appears next to Row . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. 
+- Click-and-drag a variable from the data sets, and then drop the variable in the Variable column. 
+- Select an  Operator . 
+- Select a  Value . 
+- Click  , and select an expression. 
+- Click  OK . 
+- Click  Save  in the Transposed Table section. 
+## Remove Transposed Table Display Conditions
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved elements table, click the name of the transposed table you want to update. 
+- In the Transposed Table section, click  Table Options .
+- In the Conditional Options section, click   next to  Element  or  Row , depending on which condition you want to remove.
+ Note : If display  condition variables are missing, a yellow marker appears next to Element or Row . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. A condition row with missing variables appears in yellow. 
+- Click  . 
+- Click  Save  in the Transposed Table section. 
+## Configure Transposed Table Highlight Conditions
+ Using highlight conditions, you can design your transposed tables with colored highlighting to bring attention to certain rows or cells in your table. Some examples would be:
+- In a Lab Transposed Table, your audience would like to see all lab results that are higher than the normal limit range to be red text, or those below the normal limit range to be in yellow background. 
+ Note : You can configure highlight conditions along with setting up upper and lower limits in the Normal Range section. Setting up highlight conditions first does not disable the Normal Range. Similarly, setting up the upper and lower limits in the Normal Range first, does not disable Conditional Highlight options. To learn more, see  Transposed Tables Highlight Values With Conditional Highlighting . 
+ When adding or editing a transposed table, do the following:
+- To the right of the Transposed Table section, click  Table Options .
+- In the Conditional Options section, click   next to  Highlight 1  or  Highlight 2 .
+ Note : If highlight condition variables are missing, a yellow marker appears next to Highlight 1 or Highlight 2 . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. 
+- Click-and-drag a variable from the data sets, and then drop the variable in the Variable column. 
+- Select an  Operator . 
+- Select a  Value . 
+- Click  , and select an expression. 
+- Click the colored block next to  Text Color  and select a color. 
+- Click the colored block next to  Background Color  and select a color. 
+- Click  OK . 
+- Click  Save  in the Transposed Table section. 
+## Remove Transposed Table Highlight Conditions
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved elements table, click the name of the transposed table you want to update. 
+- In the Transposed Table section, click  Table Options .
+- In the Conditional Options section, click   next to  Highlight 1  or  Highlight 2 , depending on which condition you want to remove.
+ Note : If display  condition variables are missing, a yellow marker appears next to Highlight 1 or Highlight 2 . On hovering over the yellow marker, a message "This data variable does not exist in this study and needs to be replaced or removed." appears. A condition row with missing variables appears in yellow. 
+- Click  . 
+- Click  Save  in the Transposed Table section. 
+## Edit Transposed Table Details
+- Rename transposed tables 
+- Rename variables 
+- Add or remove variables 
+- Add, remove, or reorder test variable values 
+- Select to allow or disallow transposed tables with numeric data from displaying  in graphs. 
+- Add or remove display conditions. 
+- Add or remove highlight conditions. 
+- Append a single note to display at the bottom of the table in the patient profile view. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- In the Saved elements table, click the name of the transposed table you want to update. 
+- Do any of the following as necessary:
+- To edit the transposed table name, enter a new name in the  Name  field. 
+- To edit variable names: hover your cursor on a variable label in the table, click  , enter the new name, and then click  . 
+- To add variables to the transposed table: click  Data  on the right side of the page, click-and-drag a variable in the data sets, and then drop the variable in a column to the left. Repeat as many times as necessary for each variable you want to add to your table. 
+- To remove variables from the transposed table, click   in the corresponding row of the variable you want to remove. 
+- To change the placement of a variable within the table: click the variable you want to move, click and hold  , and then drag the variable within the table as needed. 
+- To view a test's selected values, click   next to a test name. For example:  . 
+- To add, remove, or reorder a test's values: go to the Transposed Table > Tests section, click  , and click Select Values . To learn more, see Manage Test Values . 
+- To remove tests from a transposed table: go to the Transposed Table > Tests section, click  , and click Remove . Or click   in the corresponding row of the test you want to remove.  
+- On the right side of the page, click  Table Options , and then select, enter, or edit the following information in the General Options section as necessary:
+ Field Descriptions 
+- Missing Data Text - To configure the table to display a custom label for cells containing no data, enter the label text to display, for example, "No Data". 
+- Hide "No Data" Elements - Select to hide transposed tables with no data. For more information, see Hide Elements with No Data .
+- Legend Note - Text you enter here appears as a legend at the bottom of the table on the profile design. 
+- To plot numeric transposed table data in graphs, see  Display Transposed Table Data in Graphs . 
+- To prevent the wide table from displaying  in graphs, click  Table Options  on the right side of the page, and then clear  Show Graph  in the Graph Options section. 
+- To add or remove display  conditions, see  Configure Transposed Table Element Display Conditions  or  Configure Transposed Table Row Display Conditions .
+- To add or remove highlight conditions, see  Configure Transposed Table Highlight Conditions . 
+- To append a single note to display  at the bottom of the table in the patient profile, click Note . To learn more, see Append Notes to Elements . 
+- Click  Save in the Transposed Table section.

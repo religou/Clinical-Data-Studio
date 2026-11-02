@@ -1,0 +1,20 @@
+# Show Me - Configure SFTP Connections
+
+## Show Me - Configure SFTP Connections
+ Summary 
+ | An overview on configuring secure File Transfer Protocol (SFTP) connections. 
+ Duration 
+ | 2 min 16 sec 
+ Product 
+ | Data Connect - Exports 
+ Release 
+ | January 2025 
+ Video Category 
+ | Export Administration 
+ Related Topics 
+ | 
+- Configuring Exports to Deliver to SFTP 
+- Add SFTP Connection 
+- Configuring Exports to Deliver to SFTP 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

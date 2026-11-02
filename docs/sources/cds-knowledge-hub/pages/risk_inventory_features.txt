@@ -1,0 +1,12 @@
+# Risk Inventory Features
+
+## Risk Inventory Features
+ Risk Management includes the following risk inventory-related capabilities:
+- Last Action Taken Date Excludes Future Dates 
+- RBQM: Risk Inventory Filter Selections Persist When Changing Tabs 
+- Action Taken Enhancements for Risks 
+- Improved Support for Risk Reviews 
+- Quality Tolerance Limit (QTL) Changes in Risk Management 2023.1.0 
+- Risk Inventory 
+- Risk Inventory Includes Study Risk Score 
+- User Interface Changes to Risk Table Column Headers

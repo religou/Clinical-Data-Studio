@@ -1,0 +1,28 @@
+# Data Surveillance and RBQM: Help Menu Launches Contextually Relevant Knowledge Hub User Assistance Directly in App
+
+## Data Surveillance and RBQM: Help Menu Launches Contextually Relevant Knowledge Hub User Assistance Directly in App
+## What Is New?
+ On all Clinical Data Studio pages, The Help menu > Help On This Page option launches directly within the Clinical Data Studio user interface the contextually relevant Knowledge Hub user assistance related to the page that you are currently working in.
+## What Is the Impact?
+## Users/Roles
+ All Clinical Data Studio users.
+## Workflow Process
+ On any Clinical Data Studio page, when you click Help > Help On This Page, the How Can We Help You? pane appears in the bottom-right corner of the page. The pane directly opens the contextually relevant Knowledge Hub page or provides a list of two or more relevant pages that you can choose to view and interact with. You can:
+- Click the Expand icon  to expand the user assistance page view to full screen.
+- When viewing in full screen, you can click the Expand icon to condense the Knowledge Hub content back to the pane view. 
+- Click the PDF icon to download the Knowledge Hub content shown in the How Can We Help You Pane? as a PDF. 
+- Perform a keyword search to find the content you need in the Knowledge Hub. 
+- Click the New Tab icon to open the Knowledge Hub content in a separate browser tab. 
+## Other Applications
+ No other applications are impacted.
+## How Do I Benefit?
+ The Help On This Page option launches contextually relevant Knowledge Hub user assistance directly within the Clinical Data Studio user interface so that you:
+- Never have to leave the Clinical Data Studio user interface to find the user assistance you need. 
+- Quickly and efficiently self-serve and find the product knowledge you need to optimally perform your work. 
+## Where Do I See the Change?
+ On any Clinical Data Studio page, when you click Help > Help On This Page, the How Can We Help You? pane appears in the bottom-right corner of the page. The pane directly opens the contextually relevant Knowledge Hub page or provides a list of two or more relevant pages that you can choose to view and interact with.
+ Tip : Click image to expand.
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

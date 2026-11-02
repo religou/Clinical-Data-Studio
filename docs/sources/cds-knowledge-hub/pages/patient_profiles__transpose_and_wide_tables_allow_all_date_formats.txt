@@ -1,0 +1,50 @@
+# Patient Profiles: Transpose And Wide Tables Allow All Date Formats
+
+## Patient Profiles: Transpose And Wide Tables Allow All Date Formats
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the  released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Patient Profiles 
+ Summary of Changes 
+ | 
+ Transpose and wide table elements in any patient profile design now include all date formats.
+ Benefit to Users 
+ | 
+ Data managers can build profile designs with transpose and wide tables using any date format. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data manager. 
+ Impact to Workflow Processes 
+ No impact to workflow processes.
+ Impact to Applications 
+ No impact to other applications. 
+ Impact on Interface 
+ On the Data Surveillance > Patient Profiles > Draft Designs page, if you click Create Design , and then click Add Elements , you can add any date format while adding wide or transpose tables. 
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | Low 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Add, Edit, and Delete Tables 
+ Special Considerations 
+ | 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

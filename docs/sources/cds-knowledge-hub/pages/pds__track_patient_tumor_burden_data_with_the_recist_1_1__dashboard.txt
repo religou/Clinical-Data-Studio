@@ -1,0 +1,139 @@
+# PDS: Track Patient Tumor Burden Data with The RECIST 1.1 Dashboard
+
+## PDS: Track Patient Tumor Burden Data with The RECIST 1.1 Dashboard
+## What Is New?
+ Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 is the standard criteria used to evaluate treatment outcomes of solid tumors in oncology studies. For more details on RECIST 1.1, see  RECIST 1.1 . Patient Data Surveillance (PDS) includes an interactive   RECIST 1.1 dashboard that visualizes, classifies, and lists the tumor burden change for patients in Oncology studies. You can use the RECIST 1.1 dashboard to: 
+- Track tumor burden change for all patients for a specific scan visit.
+- Track tumor burden for individual patients in a study. 
+- Compare tumor response measurements with site entered response details. 
+- View visualizations of tumor burden, tumor burden response, and scan visit information. 
+- Identify discrepancies in tumor measurements.  
+## What Is the Impact?
+## Users/Roles
+ Study Managers, Medical Monitors, and Data Managers.
+ All Detect users with View Oncology Analytics and Detect Oncology Reviewer access.
+## Workflow Process
+ RECIST 1.1 consumes study data from Rave EDC, visualizes and lists: 
+- Tumor burden percentage change at specific visits, and over time. 
+- A summary count of total patients, and patients in Complete Response (CR), Stable Disease (SD), Partial Response (PR), Progressive Disease (PD), and Not Evaluable /Not Applicable (NE/NA|) stages in a study. 
+- Tumor burden response by patient per scan visit type. 
+## Other Applications
+ The RECIST 1.1 dashboard works only if you configure data sets and variables in Medidata Detect > Configuration and Reporting > Detect Mapping > Oncology Mapping > RECIST. Source and target variables you configure in Oncology Mapping populate the RECIST 1.1 dashboard and the tumor burden response by patient table. For more information, see  Configuration and Reporting: Map Data Set and Variables for the RECIST 1.1 Dashboard .
+## How Do I Benefit?
+ RECIST 1.1:
+- Quantifies tumor burden and outcome calculations for patients. 
+- Summarizes the total count of patients, and those in various stages of treatment response at the selected scan visit type and site. 
+- Tracks tumor burden over a period of time and identifies discrepant records. 
+- Assists data managers in assessing the accuracy of RECIST 1.1 calculations and safety monitoring. 
+## Where Do I See the Change?
+ Patient Data Surveillance (PDS) in Medidata Detect includes a new Oncology Analytics tab in the left-hand navigation, which you can click to view the RECIST 1.1 Dashboard.
+ Tip: Click the image to enlarge.
+ Image A 
+ Image B 
+ | 
+ | 
+ Number 
+ Description 
+ | 1 
+ | Oncology Analytics tab – The Oncology Analytics tab includes a RECIST 1.1 subtab. 
+ | 2 
+ | RECIST 1.1 page – You can click the RECIST 1.1 subtab under Oncology Analytics to access the RECIST 1.1 page, which contains: 
+- Cards that show the count of patients in the study, and patients within each tumor response stage. 
+- A visual representation of the tumor burden change for the study patients. 
+- A table with details of algorithm calculated and site entered tumor burden response by patient. 
+ | 3 
+ | 
+- Scan visit – You can filter study data by all visits or specific scan visit types. For example, the scheduled visit at which the patient underwent scans to measure the tumor - Cycle 2 Day 1 . The default view is Last Scan Visit, which shows all scheduled visits and excludes unscheduled visits. 
+- Site – You can select one, multiple, or all sites to show the corresponding patient tumor burden change. The sites list corresponds to the value you select in the Scan Visit field. For example, if you select Last scan visit or All Visit as the scan visit, all sites that had a scan visit appear. 
+ The Tumor Burden Change (%) waterfall chart and the tumor burden response by patient table update as per the scan visit type and site selected.
+ | 4 
+ | Refresh – With the proper permissions in Detect, you can manually trigger RECIST 1.1 to render and reflect the study's latest available study data by clicking Refresh Data. Detect shows the date and time of the latest refresh. Or should I say reflect the latest study data from RAVE EDC?? 
+ | 5 
+ | Summarization counts from the study data as per the scan visit type and site you select:
+- Total Patients  
+- Patients in PD  
+- Patients in SD 
+- Patients in PR 
+- Patients in CR  
+- Patients in NE/NA  
+ | 6 
+ | Tumor Burden Change (%) – An interactive waterfall chart that shows the percentage change relative to the baseline tumor burden for each patient at a specific time, for example, at Last Scan Visit or Cycle 3 Day 1.  Each bar represents a patient. You can hover over the bar to view a patient's details. The horizontal axis (x) indicates the baseline measure per patient and the vertical bars may go either above or below the baseline. The vertical axis (y) quantifies the response to treatment, for example, percentage of growth or reduction in tumor measurements. The y axis values range between a minimum and maximum of +20 and -30 as per RECIST v1.1 guidelines. Bars above the x axis indicate a reduction in tumor burden. Bars below the x axis indicate nonresponders or progression. The various outcomes listed are:
+- Partial Response (PR)  
+- Complete Response (CR)  
+- Progressive Disease (PD)  
+- Stable Disease (SD)  
+- Non-CR/Non-PD (NN)  
+- Not Evaluable/Not Applicable (NE/NA)  
+ Overall response is classified as per the following table:
+ Target lesions 
+ Nontarget lesions 
+ New lesions 
+ Overall response 
+ | CR 
+ | CR 
+ | No 
+ | Complete Response 
+ | CR 
+ | Non-CR/non-PD 
+ | No 
+ | Partial Response 
+ | PR 
+ | Non-CR/non-PD 
+ | No 
+ | Partial Response 
+ | SD 
+ | Non-CR/non-PD 
+ | No 
+ | Stable Disease 
+ | PD 
+ | Any 
+ | Yes/no 
+ | Progressive Disease 
+ | Any  
+ | PD 
+ | Yes/no 
+ | Progressive Disease 
+ | Any 
+ | Any 
+ | Yes 
+ | Progressive Disease 
+ The bars appear ordered from the worst (PD) response on the left to the best (CR) value on the right of the waterfall plot. The plot updates as per the scan visit type and site selected. If a study has no data, a "No RECIST data available" message appears. 
+ | 7 
+ | 
+ Individual Patient Tumor Response  
+ If you hover over a bar in the waterfall plot, a card shows:
+- Patient ID 
+- Visit 
+- Overall Response 
+- Tumor % change 
+- A hyperlink to view the t umor burden chart over time . If you click the See Burden Over Time link in the card, a spaghetti plot shows the tumor burden chart over time for the patient (image B). 
+ | 8 
+ | 
+ Tumor Burden Response By Patient  
+ The tumor burden response table includes study data that RECIST 1.1 ingests from Rave EDC and tumor burden responses calculated by the built-in algorithm. Each record represents a patient at a scan visit. The tumor burden response by patient table updates data as per the scan visit type and site selected. 
+ The tumor burden response table includes the following fields. 
+- Patient ID  
+- Site  
+- Country  
+- Status  
+- Visit Name  
+- Visit Date 
+- Overall Response  
+- Smallest Sum of Diameter   
+- Sum of Diameters (SLD) 
+- Tumor % Change  
+- TL Response  
+- NTL Response   
+- NL Response  
+- Calculated Overall Response   
+- Calculated TL Response  
+- Calculated NTL Response  
+- Calculated NL Response  
+ Records with potential discrepancies between site entered and algorithm calculated overall tumor response, show , a warning icon in the Status column. You can mark a record as reviewed or unreviewed. Once you mark a record as reviewed, the Status column shows a icon. The algorithm calculated tumor response values appear in millimeters (mm). Along with Patient ID, Site, and Country, you can also filter records by Status.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the feature:
+- RECIST 1.1 
+## What Else Should I Know?
+- Users with the View Oncology Analytics building block added to their Detect role can view and edit the RECIST 1.1 dashboard. 
+- You can access the RECIST 1.1 dashboard in the Patient Data Surveillance (PDS) card only if you have the Detect Oncology Reviewer role in Detect. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

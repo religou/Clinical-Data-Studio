@@ -1,0 +1,17 @@
+# Include Multiple Studies in an Export Job
+
+## Include Multiple Studies in an Export Job
+## Description
+ A single extract job can now extract data from multiple studies of a client division, sharing a single environment. The output varies depending on the extracted data types. 
+- For RAW EDC extracts, the number of output files depends on the number of studies, and datasets chosen in each of the studies. 
+- With CTMS extracts, the number of output files depends on the number of datasets selected for an extraction, with each dataset containing data from all the selected studies. 
+ To simplify the visualization of multiple study export jobs, you can filter the export job list to only show multiple study extract jobs. 
+## Affected Roles
+ Any user with the Data Extract permission.
+## Advantages
+ Allows users to extract similar data from all the studies they have access to in a single job.
+## User Impact
+- Reduces the number of extract jobs a user needs to setup if need to pull the same data from multiple different studies.  
+- Data Type is no longer available as an option in the naming of the output zip file. 
+## Special Considerations
+ None.

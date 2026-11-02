@@ -1,0 +1,14 @@
+# Expand or Collapse All Elements When Viewing a Patient Profile
+
+## Expand or Collapse All Elements When Viewing a Patient Profile
+## Description
+ In previous Patient Profiles Cloud releases, you could expand and collapse individual elements in a patient profile on the Design page > Profiles tab. Now you can expand or collapse all elements simultaneously.
+## Affected Roles
+ All.
+## Advantages
+ Expanding or collapsing all elements in the profile viewer enhances your ability to scan data profile data. For example, some profiles may have many elements. Having all or many elements expanded requires more effort and potentially more page scrolling to find a particular element in the profile. Collapsing all elements improves your ability to find the element you need.
+## User Impact
+ The Design page > Profiles tab displays the Expand All button and Collapse All button below the section header and above the first element.
+## Special Considerations
+ Exported PDFs do not contain the Expand All and Collapse All functionality.
+ In addition, when you export a patient profile to PDF, all elements always display as expanded.

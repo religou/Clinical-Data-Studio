@@ -1,0 +1,24 @@
+# Detect Configuration Manager Enhancements
+
+## Detect Configuration Manager Enhancements
+## What Is New?
+- Seriousness Criteria added to the Event Analysis Mapping to support KRI handling in Detect. 
+- Deleted variable dropdowns for Height and Weight in the reference column on the Duplicate Potential Patients page. 
+## What Is the Impact?
+## Users/Roles
+ All Configuration Management users.
+## Workflow Process
+- The unit no longer needs to be defined for Weight or Height. 
+- Detect now assigns units based on the value selected for a variable. 
+## Other Applications
+- KRIs now use the Seriousness criteria for the calculations of Adverse Events and Serious Adverse Events. 
+- Potential Duplicate Patients now uses Detect defined labels. 
+## How Do I Benefit?
+ Reduced confusion when assigning variables and mismatching labels.
+## Where Do I See the Change?
+- Configuration Manager > Detect Mapping > Event Analysis 
+- Configuration Manager > Detect Mapping > Duplicate Patient Mapping 
+## Where Do I Learn More?
+ None.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

@@ -1,0 +1,22 @@
+# Create Derived Variable with Concatenated Text
+
+## Create Derived Variable with Concatenated Text
+ You can combine multiple text-based data set variables into a single derived variable. For example, if a field in Medidata Rave exists for “Visit” and another field for “Timepoint”, you can link the values in these two text fields together to create a new derived field.   
+- Access Data Surveillance or RBQM , and then click Configuration > Derived Variables in the left-hand menu. 
+- Click  Create Derived Variable . 
+- Identify and drag a data set  from the Data Sets list into the Configure Variable section. For example, Adverse Events.
+ Note : If data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or _DTC. For example, the source date is missing the day, the enriched _INT field interpolates the 1st day of the month, and _DTC fields drop the unknown value. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms.
+- Enter the derived variable’s identification information. 
+- Name – Object identifier (OID) of derived variable. For example, "AESER+AESER_TXT". Must be unique. 
+- Label  – Name for derived variable to appear in other applications. This can be the same as the Name field, or a more specific descriptor. For example, "AE Serious, Full". 
+- Select Concatenate from the Derived Variable Type menu. 
+- Drag text variables into the respective Variable  fields.
+ Note : There are initially four Variable fields.  When you add variables into the available fields, another row of fields appears. 
+- Complete the Concatenate wizard: 
+- Prefix  – Optional . Enter the text to appear before the derived variable. 
+- Separator  – Optional . Enter the text to appear between the derived variables. Defaults to an extra blank space that you can delete. 
+- Suffix – Optional . Enter the text to after the derived variable. 
+- Optional . Click  Preview  to display the preview panel.
+With the preview panel, you can review the derived variable and adjust the variable's parameters before saving.
+- Click  Save .
+ In Data Surveillance and RBQM, the list of available datasets and variables that you can view and select from include derived variables at the bottom of the list. In Data Surveillance, the list of available datasets and variables appends derived variable names with the blue DERIVED icon.

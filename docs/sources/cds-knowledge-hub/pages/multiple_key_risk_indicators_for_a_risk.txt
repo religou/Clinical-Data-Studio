@@ -1,0 +1,39 @@
+# Multiple Key Risk Indicators for a Risk
+
+## Multiple Key Risk Indicators for a Risk
+## Description
+ You can now associate Key Risk Indicators (KRIs) to a risk on a new KRIs tab   in the risk form. 
+ A KRI is a  qualitative or quantitative metric that is used to monitor identified risk exposures over time.  KRIs are often associated with the operation and control of the clinical trial.  You can use KRIs to: 
+- Identify and track known or anticipated risks to data quality. 
+- Evaluate country and site performance in a study. 
+- Ensure that study conduct operates as planned. 
+## Affected Roles
+ Study User.
+## Advantages
+ You can track one or multiple   KRIs when:
+- Using Risk Management by itself. 
+- Your deployment includes Risk-Based Quality Management (RBQM) Platform applications such as RBQM Configuration Manager and Medidata Detect. Configuration occurs in RBQM Configuration Manager. Metrics analysis occurs in Medidata Detect. 
+## User Impact
+ A KRIs tab appears on the risk form in Risk Management. Use this tab to add or edit KRIs associated to a risk.  You can track a KRI by creating a new KRI and manually entering a KRI Value from a third-party tool or vendor.  
+ When configuring risks for a study, a list of system KRIs appears in the dropdown menu. 
+ Note : System KRIs appear in the KRI dropdown menu whether Risk Management is deployed by itself or integrated with Medidata Detect. You cannot edit any system KRI fields in Risk Management. When Medidata Detect is integrated with Risk Management, Detect analyzes the data and populates the KRI Value field. Otherwise, the KRI Value field is blank
+ The system KRIs include:   
+- AE Entry Delay 
+- Non-System Query Delay 
+- Number of AEs per Subject-Year 
+- Number of SAEs per Subject-Year 
+- Percent Missing Visit 
+- Percent Non-System Query 
+- Percent Out of Window Visit 
+- Percent System Query 
+- Screen Failure Percentage 
+- System Query Delay 
+- Visit Entry Delay 
+ For integrated deployments, both system and custom KRIs from Medidata Detect are available for selection in a dropdown menu on the KRIs tab of the risk form. The data analysis for the KRI occurs in Medidata Detect, so you cannot edit KRI Values directly in Risk Management . 
+## Special Considerations
+- Manual entry of data in the KRIs tab is available only when a user creates a new KRI in Risk Management. 
+- The Medidata RBQM Metric Status shows either   Integrated or Not Available .  Integrated   appears when the KRI Value is populated by Medidata Detect.   Not Available   can appear when: 
+- Your deployment does not include Medidata Detect. 
+- The KRI Value analysis from Medidata Detect is unavailable. 
+- For deployments that use RBQM Platform applications, check with your Medidata Detect data administrator to determine why KRI analysis data is not being pulled into Risk Management. The refresh of KRI analysis data in Risk Management occurs simultaneously with the refresh of Medidata Detect data. 
+ Note : KRIs created within Risk Management are available for tracking only . KRIs created within Risk Management are not available for integration with RBQM Configuration Manager .

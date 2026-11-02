@@ -1,0 +1,16 @@
+# Incremental Master Data Extraction Now Available
+
+## Incremental Master Data Extraction Now Available
+## Description
+ While creating recurring export jobs to extract Master Data, you can set the job to extract incrementally. Incremental extracts only contain the added or updated data since the previous run. Incremental extracts do not contain updates about deleted data. The first run of an incremental job is always cumulative. 
+## Affected Roles
+ All roles that can create Master Data export jobs. To create Master Data export jobs, your platform role must include the Master Data or Extract Cloud Admin Data building blocks. 
+## Advantages
+ With incremental data extractions, you can select to see only the changes since the last job execution. This saves you time from comparing the previous extract to the current extract to check for data changes. 
+## User Impact
+ While configuring export jobs that include the Master Data or Audit Master data, you can select the Incremental export type during the Data Export Type step.
+## Knowledge Space Updates
+ The following articles have been updated in the MEDS Extractor Knowledge Space to support this feature:
+- Set Export Type for Study Level Job (Updated) 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

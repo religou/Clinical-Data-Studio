@@ -1,0 +1,4 @@
+# Signals Released Features
+
+## Signals Released Features
+ Signals include the following features, enhancements, and resolved issues that have been documented over the history of the releases:

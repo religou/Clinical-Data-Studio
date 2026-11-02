@@ -1,0 +1,35 @@
+# Generate Audit Reports
+
+## Generate Audit Reports
+ You can view audit reports of the following user actions performed in Statistical Monitoring:
+- Issues created on data anomaly detection plots, trends plots, and event incidences. 
+- Track review updates on data anomaly detection plots. 
+- Snapshot schedules created on the History page. 
+ Audit reports:
+- Enable sponsors to quickly and easily show compliance with clear, comprehensive audit details of actions performed in Statistical Monitoring. 
+- Provide sponsors with greater oversight to ensure study data is being monitored correctly. 
+- Allows for a quick view of the review status of data anomaly detection plot data points in bulk in tabular format. 
+ Note : You   can only view actions created against sites that you have access to. 
+## Generate Data Anomaly Detection Audit Report
+ You can generate audit reports to view the history of: 
+- Issues created on the study's top 100 outlier data points. 
+- Track review actions made on the study's top 100 outlier data points. 
+- Access RBQM , and then click Statistical Monitoring > Anomalies in the left-hand menu.
+The Data Anomaly Detection page shows. 
+- Click  next to the Data Anomaly Detection page header.
+A new browser tab opens to the Audit Viewer > Medidata Detect Plots Audit Report page.
+ Tip : In Audit Viewer, you can click Export and then  Excel , CSV , or PDF to view the report offline or sort data by column headings.
+## Generate Event Incidence Audit Report
+ You can generate audit reports to view the historical details of issues  created on the Event Incidence Plot in your study environment. 
+- Access RBQM , and then click Statistical Monitoring > Event Incidence in the left-hand menu.
+The Event Incidence page shows. 
+- Click  next to the Event Incidence page header.
+A new browser tab opens to the Audit Viewer > Medidata Detect Event Incidence Audit Report page.
+ Tip : In Audit Viewer, you can click Export and then  Excel , CSV , or PDF to view the report offline or sort data by column headings.
+## Generate Snapshot Schedule Audit Report
+ You can generate audit reports to view the  history of snapshot schedules created in your study environment. 
+- Access RBQM , and then click Statistical Monitoring > History in the left-hand menu.
+The History page shows. 
+- Click   next to the Snapshot Schedule field.
+A new browser tab opens to the Audit Viewer > Medidata Detect Schedule Audit Report page.
+ Tip : In Audit Viewer, you can click Export and then  Excel , CSV , or PDF to view the report offline or sort data by column headings.

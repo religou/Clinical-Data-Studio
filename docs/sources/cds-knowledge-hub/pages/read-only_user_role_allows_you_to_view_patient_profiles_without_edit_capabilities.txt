@@ -1,0 +1,17 @@
+# Read-only User Role Allows You to View Patient Profiles Without Edit Capabilities
+
+## Read-only User Role Allows You to View Patient Profiles Without Edit Capabilities
+## Description
+ Patient Profiles Cloud introduces a Patient Profile Viewer role, which, when assigned to you, allows you only the capabilities to view and export patient profiles . Patient Profile Viewer users cannot create designs, edit designs, view design reports, or view design settings, among other Patient Profile Designer role-specific privileges.
+## Affected Roles
+- Patient Profile Viewer role users 
+## Advantages
+ The Patient Profile Viewer role:
+- simplifies the user interface and 
+- streamlines the workflow 
+ for users who only access to Patient Profiles to view and review patient profile data.
+ The Patient Profile Viewer role also helps prevent non-Patient Profile designers from accidentally making unwanted changes to designs.
+## User Impact
+ Patient Profile Viewer role users can only access the Design page > Profiles tab. To learn more about the actions you can perform on the Profiles tab, see  Review and Export Patient Profiles .
+## Special Considerations
+ None.

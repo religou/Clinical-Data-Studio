@@ -1,0 +1,21 @@
+# Detect-Risk Management QTL Integration Enhancement
+
+## Detect-Risk Management QTL Integration Enhancement
+## Description
+ Medidata Detect-Risk Management integration is improved so that when adding a custom QTL in QTL Configuration, if you select a pre-populated, Risk Management-derived QTL from the Quality Tolerance Limit dialog box > Parameter field, then:
+- The Parameter field and Description field automatically populate with the text entered in the corresponding fields in Risk Management. 
+- All fields including the Parameter field and Description field in the Quality Tolerance Limits dialog box are editable. 
+- The Save button is enabled. 
+ Any QTL updates saved in QTL Configuration propagate to the QTL details in Risk Management as well.
+## Affected Roles
+ Detect Configuration Manager Admins
+## Advantages
+ When adding a custom QTL in previous releases, if you selected a Risk Management-derived QTL from the Parameter field, you could only edit the Parameter field and Description field in the Quality Tolerance Limits dialog box. Now when adding a custom QTL, if you select a Risk Management-derived QTL from the Parameter field, then you can edit all fields in the Quality Tolerance Limits dialog box. This ensures that you can configure all the appropriate QTL details.
+## User Impact
+ When adding a custom QTL, if you select a Risk Management-derived QTL from the Parameter field, then you can edit and save all fields in the Quality Tolerance Limits dialog box.
+## Knowledge Space Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support this enhancement: 
+- Add and Edit Custom QTLs 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

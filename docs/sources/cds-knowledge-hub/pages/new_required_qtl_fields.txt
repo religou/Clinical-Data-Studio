@@ -1,0 +1,20 @@
+# New Required QTL Fields
+
+## New Required QTL Fields
+## Description
+ When you add a new QTL, you must enter the Final Population (number of subjects) and Trigger Point. Also, a Modification Note is required when you edit an existing QTL. 
+## Affected Roles
+ Study Manager.
+## Advantages
+ The addition of these new required QTL fields allows Risk Management to maintain its integration with the Detect Configuration Manager.
+## User Impact
+ Three new required fields appear when you add or edit a QTL on the QTLs tab of the Risk Details page: 
+- Final Population (#No. of Subjects) (Required) -Total number of participants enrolled in the study. 
+- Trigger Point (Required) - A value that triggers a review of the QTL. 
+- Modification Note (Required) - A note is required whenever you edit an existing QTL. 
+## Knowledge Space Updates
+ The Risk Management Knowledge Space provides new and updated content to support this feature/enhancement: 
+-   Add QTLs   
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

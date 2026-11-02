@@ -1,0 +1,43 @@
+# Data Surveillance: Updated Visualizations Include Additional Sort Options And Better Usability
+
+## Data Surveillance: Updated Visualizations Include Additional Sort Options And Better Usability
+## What Is New?
+ On the Data Surveillance > Visualizations page:
+- Shows the count of visualizations and the latest study snapshot date at the top of the page. 
+- If you create a bar chart, or open one with color series, and then sort, the visualization shows the visit schedule dates sorted in alphabetical order on the X-axis. 
+- If you create a bar chart, or open one with color series, and then sort by the following options, the visualization shows data accordingly.
+- Alphabetical 
+- Date 
+- Low to high 
+- High to low 
+- For bar and line charts,text appears paginated if legends for the visualizations show over two rows. 
+- For a study with no visualization, a New Visualization button replaces the Add Visualization button. 
+## What Is the Impact?
+## Users/Roles
+ All study team members. 
+## Workflow Process
+ No impact to workflow.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Graphically visualize study data relationships in line chart enables you to accurately: 
+- Gain a clearer understanding or perspective of the study data. 
+- Identify study trends and patterns. 
+- Track study performance. 
+- Build and share reports or present on study data metrics using clear, visually appealing graphical renderings.  
+## Where Do I See the Change?
+ See What Is New?
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Visualizations 
+## What Else Should I Know?
+- For visualizations with a large amount of data, we recommend that you add chart filters to narrow your results. If the visualization you want to build experiences slow performance, we recommend that you refresh the page, use additional filters, and then regenerate the preview.
+ Tip : For visualizations with many data points on the x-axis, we recommend using a bar graph.
+- When selecting a date or text variable for a line chart's x- or y-axis, we highly recommend selecting an aggregation.
+- If you do not select an aggregation for a text variable on the y-axis, then the line chart does not render. 
+- If you do not select an aggregation for a date variable on the x-axis, then the line chart plots the data for every single day in the database.
+ Note : Ideally, we recommend that you use date variables on the x-axis to create a timeline or visualize trends.
+- When selecting any variable other than a date variable for the x-axis, if you select an aggregation, then you must select a color series. Otherwise, the chart does not render. 
+- Saved visualizations update daily based on the latest study data snapshot. 
+- The color palette in the Color Series is read-only. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

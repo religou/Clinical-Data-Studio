@@ -1,0 +1,91 @@
+# Exports Releases History
+
+## Exports Releases History
+ The following lists all releases for Data Connect's Exports capability before the June 2024 release, and the features or enhancements introduced in each.
+ Important : As of the 2024.2.0 release, Extractor is a part of the Data Connect solution as its Exports capability. It is now "Data Connect - Exports" or "Exports". For details what the 2024.2.0 release entails, and following releases, see   Data Connect Releases History , 
+ Code Continuity Across Releases
+ All Extractor releases are cumulative. That is, each release or software update builds on the prior releases as noted in the release notes. For example,  Software Update 2023.2.1 includes all the release 2023.2.0  code, which in turn is based on the  release  2023.1.0 code, and so on. Any updates between releases or s oftware updates (urgent or otherwise) appear in the release notes. 
+## Extractor 2024.1.0 (Jun 2024)
+- Extractor Now Compatible with Platform Workbench 
+- Internal and Technical Changes in Extractor for 2024.1.0 
+## Extractor 2023.3.0 (Sep 2023)
+- FTPS Location Support for Export Jobs 
+- Internal and Technical Changes in Extractor for 2023.3.0 
+- Resolved Issues 
+## Extractor 2023.2.0 (May 2023)
+- Export Job Editing Now Available 
+- Internal Technical Changes 
+- Interface Updates 
+- Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+- Resolved Issues 
+## Extractor 2023.1.0 (Feb 2023)
+- Job Archival Now Available 
+- Internal Technical Changes 
+## Extractor 2022.4.0 (Nov 2022)
+- Ability to Pause and Resume Schedule Jobs 
+- Job Run Notifications 
+- Ability to Delete Output File Location Now Available 
+- Rave Audit Data Export Now Available for Selected Users 
+- Internal and Technical Changes 
+## Extractor 2022.3.0 (Sep 2022)
+ Important : As of the 2022.3.0 release, MEDS Extractor has a new name: 'Extractor'.
+- Product Name Changed to Extractor 
+- Amazon S3 Extraction Location Option Now Available 
+- SAS Export File Support for Data Extracts 
+- SQL-based Post Processing for Exports 
+- Create Export Jobs with Externalized API Endpoints 
+- Internal Technical Updates 
+## MEDS Extractor 2022.2.0 (Jun 2022)
+- File Export Type Selection Update 
+- Download Period for Successful Exports Extended to 60 Days 
+- Externalized API Endpoints for MEDS Extractor 
+- Internal Technical Updates 
+## MEDS Extractor 2022.1.0 (Mar 2022)
+- Extract User Login History Data 
+- Internal Technical Updates 
+## MEDS Extractor 2021.3.1 (Dec 2021)
+- Selectable Data Sets During Export Job Creation 
+- Updated Instructional Text for CTMS and Master Data Export Jobs 
+- Resolved Issues 
+## MEDS Extractor 2021.3.0 (Oct 2021)
+- Client Division Level Extraction Now Available 
+- Super User Role Now Available 
+- Task Management Data Extraction Now Available 
+- Incremental Master Data Extraction Now Available 
+- Date Validation While Creating Export Jobs 
+- Updates to Export Job List Screen 
+- Internal Technical Updates 
+- Resolved Issues List 
+## MEDS Extractor 2021.2.0 (Jul 2021)
+- Study Level Master Data Extraction Now Available 
+- Audit Data Extraction Now Available 
+- Incremental Data Extraction Now Available 
+- Updated SFTP Support 
+- Hourly Extractions Now Available 
+- Internal Technical Updates 
+- Resolved Issues List 
+## MEDS Extractor 2021.1.0 (Mar 2021)
+- Include Multiple Studies in an Export Job 
+- Store Extracts on Secure FTP Sites 
+- New Home Page for MEDS Extractor 
+- Updated Job Configuration and Job History Details 
+## MEDS Extractor 2020.3.0 (Nov 2020)
+- New Job History Page 
+- New Job Configuration Details Page 
+- Job List Usability Enhancements 
+- Create Job UI Enhancements 
+## MEDS Extractor 2020.2.0 (Sep 2020)
+- Extract Data from CTMS 
+- Search Studies 
+- Workflow for New Export Job 
+- Revised Permissions for Export Job 
+## MEDS Extractor 2020.1.1 (Aug 2020)
+- Improved Job List 
+- Improved Sort Order for Environments 
+## MEDS Extractor 2020.1.0 (Apr 2020)
+- Rerun Export Job 
+- Schedule Data Exports 
+- Navigation and Create Export Job Interface Enhancements 
+## MEDS Extractor 2019.1.0 (Jul 2019) 
+- Create Data Extracts in MEDS Extractor 
+- Review Data Extracts in MEDS Extractor

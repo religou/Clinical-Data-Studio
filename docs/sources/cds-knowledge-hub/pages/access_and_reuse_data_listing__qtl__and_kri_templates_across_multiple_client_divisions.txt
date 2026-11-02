@@ -1,0 +1,36 @@
+# Access and Reuse Data Listing, QTL, and KRI Templates Across Multiple Client Divisions
+
+## Access and Reuse Data Listing, QTL, and KRI Templates Across Multiple Client Divisions
+## What Is New?
+ In previous releases, you could only build, access, and reuse data listing, QTL, and custom KRI templates within a single client division (CD) . Now can you build, access, and reuse templates across multiple client divisions.
+## What Is the Impact?
+## Users/Roles
+ Members of your organization who build studies can save and store data listing, QTL, and custom KRI configurations as templates in your organization's template library. 
+## Workflow Process
+ No impact to the workflow process. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ In previous releases, some customers—like CROs who may have multiple clients, for example—were unable to build, access, and reuse templates across multiple clients. The ability to reuse templates across multiple client divisions enables you to: 
+- Share templates more widely study collections for broader study teams. 
+- Standardize your templates across clients. 
+- Reduce the amount of templates you may need to build. 
+## Where Do I See the Change?
+ In:
+- Data Surveillance > Listings page > Draft Listings tab > Import Template dialog > Template Group menu 
+- Data Surveillance > Listings page > Manage Listings page > Export as Template dialog > Template Group menu 
+- RBQM > Configuration > Key Risk Indicators page > KRI Configurations tab > Import Template dialog > Template Group menu 
+- RBQM > Configuration > Key Risk Indicators page > KRI Configurations tab > Customer Number KRI window or Customer Percentage KRI window > Export as Template dialog > Template Group menu 
+- RBQM > Configuration > Quality Tolerance Limits page > Import Templates dialog > Template Group menu 
+- RBQM > Configuration > Quality Tolerance Limits page > Quality Tolerance Limit window > Export as Template dialog > Template Group window 
+ the list of template group names shows in parentheses the client division name that the template group belongs to. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature
+- Add Listings as Templates to Template Groups 
+- Add and Store Custom KRI Configurations as Reusable Templates 
+- Add and Store Custom QTL Configurations as Reusable Templates 
+- View, Create, and Edit Draft Listings 
+- Add and Edit Custom Numeric and Percentage KRIs 
+- Add and Edit Custom QTLs 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

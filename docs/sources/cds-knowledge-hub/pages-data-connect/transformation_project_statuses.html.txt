@@ -1,0 +1,33 @@
+# Transformation Project Statuses
+
+## Transformation Project Statuses
+ Transformations projects have the following statuses.
+ Status 
+ Description 
+ | Not Started 
+ | This is the default state of a new project when no user has applied a data source or configuration to it. 
+ | In Progress 
+ | 
+ A user is still configuring the project. The project is unavailable for data consumption by other applications.
+ Tip : Most datasets publish within 5-10 minutes, but can take longer depending on the complexity of the transformation. If the dataset gets stuck on the In-Progress step, try waiting 5 minutes and then republish the dataset. 
+ | Publishing 
+ | 
+ A user  published the project , and the system is processing it.
+ The system validates the dataset and applies the required infrastructure automatically. Users cannot view or modify the project while it is in this state.
+ Tip : Most datasets publish within 5-10 minutes, but can take longer depending on the complexity of the transformation. There is also an approximately 10-minute time period between when the publication is complete and when the published records appear .  If a dataset takes longer than a total of 2 hours to publish and populate records  please contact Medidata Support. 
+ | Published 
+ | The system is now applying the project's transformations to new data records in your data stream.
+ Users can still view and modify the project. If a user makes changes, the project reverts to the Publishing state. After republishing the changes, the project's version increments. The system only applies the latest project version, although users can view snapshots of previous versions.
+ | Deactivating 
+ | A user deactivated the project, and the system is processing it.
+ The system takes a snapshot of the last available state, and continues to provide that snapshot to downstream applications that depend on the related datasets. This is to mitigate unintentional breaking impacts to downstream applications.
+ | Inactive 
+ | The project is no longer published.
+ Users can deactivate a project as necessary, and can republish deactivated projects. When a user republishes a deactivated project, it reverts to the Publishing state. During the publishing process, the system reconciles the gap between the last snapshot and the latest data.
+ | Error 
+ | When errors occur, try republishing the project. If the error persists, please contact Medidata Support. 
+ | Archiving 
+ | A user archived the project, and the system is processing it.  
+ | Archived 
+ | The project is archived and no longer appears in the Transformations project list.
+ If you archive a project with activated datasets , then any data already delivered downstream to Data Surveillance and RBQM remains there as stale data. Downstream users do not receive notifications if an activated dataset has been archived in Data Connect.

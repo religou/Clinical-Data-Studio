@@ -1,0 +1,15 @@
+# Patient Profiles Clouds Adds a Leading Zero to Single-Digit Dates
+
+## Patient Profiles Clouds Adds a Leading Zero to Single-Digit Dates
+## Description
+ If someone enters the day or month portion of a date into Rave X with a single digit rather than two digits (for example, 2 May 2018 instead of 02 May 2018), then when Patient Profiles Cloud consumes that data, it automatically inserts a leading zero to begin the number. For example, Patient Profiles Cloud automatically turns 2 May 2018 into 02 May 2018.
+## Affected Roles
+ All.
+## Advantages
+ Before Patient Profiles 2018.3.0, if someone entered the day or month portion of a date into Rave X with a single digit rather than two digits (for example, 2 May 2018 instead of 02 May 2018), then Patient Profiles Cloud did not recognize the patient's Day 0 Date. Therefore, that patient's profile would display empty graphs and timelines even though data was present for that patient in Patient Profiles Cloud.
+ Now if someone enters the day or month portion of a date into Rave X with a single digit rather than two digits, Patient Profiles Cloud automatically inserts a leading zero in the digit. As a result, Patient Profiles can better handle data from Rave X to render graphs and timelines in profiles.
+ In addition, the Design Page > Profiles tab > Patient Selector table always displays the day and month portion of a date with two digits.
+## User Impact
+ None.
+## Special Considerations
+ None.

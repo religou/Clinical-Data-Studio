@@ -1,0 +1,36 @@
+# Updates to Hide Event Tables With No Data
+
+## Updates to Hide Event Tables With No Data
+ Description 
+ Event tables with the Hide "No Data" Elements option selected display only if the event tables have data present in a profile design. Also, conditional formatting works as expected in event tables and timelines. 
+## Affected Roles
+ All. 
+## Advantages
+ Patient Profiles design reviewers can arrange a patient's profile to hide unneeded data, which reinforces a more targeted data analysis. 
+## User Impact
+ On the Design page > Elements tab > working in an Event Table > Table Options > General Options: 
+ Action 
+ Event Table appears 
+ Event Table appears in the timeline 
+ Event table appears in the legend on a patient's profile on the Profiles page 
+ | If you select  Hide "No Data" Elements and data in the data set does not meet the display criteria 
+ | No 
+ | No 
+ | No 
+ | If you select  Hide "No Data" Elements and data in the data set meets the display criteria 
+ | Yes 
+ | Yes 
+ | Yes 
+ | If you do not select Hide "No Data" Elements and data in the data set does not meet the display criteria 
+ | Yes 
+ | Yes 
+ | Yes 
+ | If you do not select Hide "No Data" Elements and data in the data set meets the display criteria 
+ | Yes 
+ | Yes 
+ | Yes 
+ Knowledge Space Updates 
+ The Medidata Patient Profiles Knowledge Space provides the following updated content to support this enhancement: 
+- Add and Manage Elements 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

@@ -1,0 +1,29 @@
+# Transformations: Ability to Add Custom Analytes
+
+## Transformations: Ability to Add Custom Analytes
+## What Is New?
+ The December 2024 release for Data Connect's Transformations module includes several minor interface and user experience updates, including: 
+- Users can add custom analytes. Interface updates to provide suggestions based on the last used analytes and Medidata suggested analytes. 
+- Users can chose SI units from the suggestions based on last used and Medidata suggested units.  
+- Interface updates to the Source Unit Standard/Original fields to provide more information on failed mapping. 
+- Interface updated to the fields to provide information on the source for column name and the dataset name. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to workflow process. However, users can create custom analytes for their transformation projects in the Apply Unit Conversion screen. 
+## Other Applications
+ No Impact to other applications.
+## How Do I Benefit?
+- Users can add custom analytes that are not standardized but are specific to their organization. 
+- Differentiating icons and messages provides clear instruction to the user. 
+- Simplified unit and analyte suggestions to standardize term mapping. 
+## Where Do I See the Change?
+ When selecting  SI   units while configuring unit conversions:
+- Users can see a history of previously selected SI units. 
+- To add a custom analyte, click the pen icon > + Custom Analyte button . 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Feature: 
+- Generate Enriched Datasets with Unit Conversions 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

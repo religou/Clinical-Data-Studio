@@ -1,0 +1,14 @@
+# View, Filter, and Sort the Key Risk Indicators Table in RBQM Configuration Manager
+
+## View, Filter, and Sort the Key Risk Indicators Table in RBQM Configuration Manager
+## Description
+ The Key Risk Indicators list allows you to view, filter, and sort all standard KRIs and custom KRIs available in your current study environment . 
+## Affected Roles
+- RBQM Configuration Manager Admin 
+- RBQM Configuration Manager Viewer 
+## Advantages
+ The Key Risk Indicators list provides an easy-to-read, holistic view of all standard KRIs and custom KRIs available in your current study environment. You can sort and filter the Key Risk Indicators list to help find the KRIs you want to view or take action on.
+## User Impact
+ The KRIs page displays the Key Risk Indicators list, which you can sort and filter to find the KRIs you need.
+## Special Considerations
+ Refreshing your browser reverts the Key Risk Indicators list to the default filter and sort.

@@ -1,0 +1,53 @@
+# Audit Trail Review: Data Preview Shows Audit Site's Local Time
+
+## Audit Trail Review: Data Preview Shows Audit Site's Local Time
+ Important :
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history. 
+- For a summary of all features released, the   released features index .
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.3.0
+ Change Type 
+ | Enhancement (Updated Functionality) 
+ Functionality or Module 
+ | Audit Trail Review
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ When you submit a prompt in the Audit Trail Review chat, the Data Preview section now includes an Audit Site's Local Time column.
+ Benefit to Users 
+ | Including the Audit Site's Local Time column in the Data Preview section:
+- Allows you to track data modifications and filter dates/times based on the site’s local time zone, rather than being restricted to standard UTC.
+- Enhances data monitoring and anomaly detection by enabling precise filtering for actions occurring outside standard operating hours.
+- Supports highly specific localized use cases, such as identifying data modified or inactivated outside of business hours (for example, 8:00 PM to 7:00 AM, or 12:00 AM to 6:00 AM local time).
+- Tracks data entered or queries opened over the weekend (for example, Friday 9:00 PM to Sunday 9:00 PM), automatically accommodating country-specific weekend definitions.
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data managers
+ Impact to Workflow Processes 
+ No impact to the workflow process. 
+ Impact to Applications 
+ No impact to other applications. 
+ Impact on Interface 
+ The Audit Trail Review > Data Preview section now includes an Audit Site's Local Time column
+ Impact to Existing Data or Settings 
+ No impact to existing data or settings.
+ User Impact Assessment 
+ | Medium 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Preview Audit Data Sets 
+ Special Considerations 
+ | To view Medidata testing documentation for this release, see the   Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

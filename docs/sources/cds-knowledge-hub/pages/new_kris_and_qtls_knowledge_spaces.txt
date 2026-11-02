@@ -1,0 +1,17 @@
+# New KRIs and QTLs Knowledge Spaces
+
+## New KRIs and QTLs Knowledge Spaces
+## Description
+ In Centralized Statistical Monitoring 2022.1.1, the Key Risk Indicators (KRIs) and Quality Tolerance Limits (QTLs) help sections have been removed from the Centralized Statistical Monitoring (formerly Detect) Knowledge Space .
+- For KRIs related content see Key Risk Indicators Knowledge Space . 
+- For QTLs related content see Quality Tolerance Limits Knowledge Space . 
+## Affected Roles
+ All.
+## Advantages
+ Dedicated KRIs and QTLs knowledge spaces allow you to access relevant help content from a single location. 
+## User Impact
+ Clicking the Help menu in any application in the Medidata Detect > Centralized Statistical Monitoring module launches the Centralized Statistical Monitoring (formerly Detect) Knowledge Space . You can type Key Risk Indicators (KRIs) or Quality Tolerance Limits (QTLs) in the Search field in the Centralized Statistical Monitoring (formerly Detect) Knowledge Space, and navigate to the relevant help documentation in the Key Risk Indicators Knowledge Space and   Quality Tolerance Limits Knowledge Space .
+## Knowledge Space Updates
+ KRIs and QTLs help documentation is no longer available in the Centralized Statistical Monitoring Knowledge Space.
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

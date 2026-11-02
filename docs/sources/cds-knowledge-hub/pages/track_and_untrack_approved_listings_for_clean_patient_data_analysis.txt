@@ -1,0 +1,35 @@
+# Track and Untrack Approved Listings for Clean Patient Data Analysis
+
+## Track and Untrack Approved Listings for Clean Patient Data Analysis
+## What Is New?
+ You can activate up to ten data listings to track for analysis in Clean Patient Tracker . Clean Patient Tracker then consumes for each activated listing t he number of unreviewed individual data listing records  to visualize, list, and prioritize: 
+- Outstanding study-level data cleaning task metrics 
+- The sites in your study with the highest unclean patient counts 
+- The specific data cleaning tasks with the highest count of unclean or unreviewed records 
+- The most unclean patients in your study. 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ You can use Clean Patient Tracker to track unvetted and unreviewed records associated with the data listings , and further drill down directly to clean those listings' records. 
+## Other Applications
+ Clean Patient Tracker .
+## How Do I Benefit?
+ Tracking listings in Clean Patient Tracker:
+- Visualizes, lists, and prioritizes outstanding data cleaning tasks so you can focus on the most unclean data or areas of most importance in your study. 
+- Facilitates faster cleaning of data. 
+- Refreshes for an up-to-date view of data cleanliness. 
+- Increases study team-level coordination and visibility of data cleanliness and outstanding data cleaning tasks. 
+- Promotes cleaner, more fully vetted study data. 
+## Where Do I See the Change?
+ On the Data Listings page > Approved Listings table, the far right side of the table now includes the Track column. You click the deactivated Activation button, , for the corresponding listing you want Clean Patient Tracker to track. Similarly, t o deactivate listings from being tracked in Clean Patient Tracker, you can click the activated Activation button, . 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Activate Individual Approved Listings for Clean Patient Tracker Analysis 
+- Clean Patient Tracker 
+- Track and Clean Patient Data 
+## What Else Should I Know?
+ After activating or deactivating approved listings for Clean Patient Tracker analysis, you can trigger Clean Patient Tracker to recalculate outstanding records based on the latest study data .
+ An admin must associate the View Clean Patient Tracker building block to a role in your Cloud Administration study group so that you can access Clean Patient Tracker .
+ Otherwise, the links on the Detect Landing Page > Insights card show as inactive.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

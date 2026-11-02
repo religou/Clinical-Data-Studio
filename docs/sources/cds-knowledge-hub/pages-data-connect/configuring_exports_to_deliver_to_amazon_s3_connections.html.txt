@@ -1,0 +1,4 @@
+# Configuring Exports to Deliver to Amazon S3 Connections
+
+## Configuring Exports to Deliver to Amazon S3 Connections
+ When configuring exports, you can choose to deliver files to an Amazon Simple Storage Service (Amazon S3) connection that you own. To successfully add an S3 connection, you must prepare the S3 connection on your AWS instance, and work with Medidata to connect it to the Medidata platform. From there, you can add the connection to the external file connection list.

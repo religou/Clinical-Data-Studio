@@ -1,0 +1,96 @@
+# AI Reconciliation
+
+## AI Reconciliation
+ While conducting a study, study managers must ensure the accuracy of data that sites enter. Bad or missed data reconciliation could mean a delay in submission or even impact study approval. Manually reconciling data is: 
+- Time-consuming and tedious due to manual data review. 
+- Prone to errors as individuals without clinical experience usually do the reconciliation.   
+ AI Reconciliation is a Data Surveillance capability that runs AI-based algorithms on study data to automatically reconcile data and report missing and duplicate information in place of manual data reconciliation. 
+## What Is AI Reconciliation?
+ AI Reconciliation is a Data Surveillance  capability that runs proprietary AI-based algorithms on study data to: 
+- Identify patient records with anomalies, duplicate, or missing information. 
+- Find relations between conditions, treatments, or ongoing medical history using medical databases. 
+- Output the identified records in a readable and shareable report format. 
+ AI Reconciliation lists the identified records in the following reports:
+- Conditions Without Treatments 
+- Worsening Conditions 
+- Overlapping Conditions 
+- Overlapping non-Worsening Conditions and Ongoing Medical History 
+- Invalid CTCAE Grade 
+- Missing Lab for CTCAE Grade 
+- Overlapping Treatments 
+- Treatments Without Conditions or Ongoing Medical History 
+ AI Reconciliation Report Type 
+ AI Reconciliation Report 
+ Description 
+ | Conditions 
+ | Conditions without Treatments  
+ | Shows a list of patients with adverse events (Conditions) that do not have any associated concomitant medications (Treatments) recorded on the day or after the condition started, and before the condition ended. 
+ | Worsening Conditions 
+ | Shows a list of patients with conditions that appear worsening, but 
+- do not have any associated ongoing medical history (MH) or non-worsening related condition record.
+OR 
+- have a non-worsening related condition record report after the worsening condition start date 
+ | Overlapping Conditions 
+ | Shows a list of patients with two or more of the same conditions whose start and end data overlap. 
+ | Overlapping non-worsening Conditions and ongoing MH 
+ | Shows a list of patients with non-worsening conditions whose start and end date overlap with ongoing medical history (MH) start date. 
+ | 
+ | Invalid CTCAE Grade 
+ | Shows a list of patients whose adverse events grades are not allowable as per CTCAE criteria v 5.0 , or have grades present, but not required, or with required grades not present. 
+ | 
+ | Missing Lab for CTCAE Grade 
+ | Shows a list of patients whose adverse events (AE) grades depend on laboratory values, but with no appropriate laboratory date collected between the AE Start Date and AE End Date. 
+ | Treatments 
+ | Treatments without Conditions or ongoing MH 
+ | Shows a list of patients with treatments (concomitant medications or concomitant procedures) that do not have any associated
+- Conditions recorded that started before, or on the day the treatment started.
+OR 
+- Ongoing medical history (MH). 
+ | Overlapping Treatments 
+ | Shows a list of patients with two or more of the same treatments whose start and end data overlap.
+## What Is the Purpose of AI Reconciliation?
+ The purpose of AI Reconciliation is to apply AI-based algorithms to your study data to automatically reconcile data and report missing and duplicate information instead of manual reconciliation. 
+## What are the Benefits of AI Reconciliation?
+ AI Reconciliation:
+- Ensures accurate data reconciliation. 
+- Saves time compared to manual reconciliation. 
+- Produces easily readable and shareable reports and report findings. 
+- Helps study teams overcome resource deficiencies. 
+## Who Uses AI Reconciliation?
+ The most common AI Reconciliation users are:
+- Data Managers 
+- Clinical Operations users 
+## How Does AI Reconciliation Work?
+ AI Reconciliation aims to reconcile AEs, reactogenicity, concomitant medication, concomitant procedure, and medical history data coming from Medidata Rave. Once your study is in Data Surveillance, you can map the data sets and variables that Data Surveillance consumes for AI Reconciliation to run its analysis on to generate reports and identify discrepant data findings . 
+ Then, AI Reconciliation runs its proprietary AI-based algorithms on the mapped study data and identifies and displays records that require reconciliation in the following reports: 
+- Conditions Without Treatments 
+- Worsening Conditions 
+- Overlapping Conditions 
+- Overlapping non-Worsening Conditions and Ongoing Medical History 
+- Invalid CTCAE Grade 
+- Missing Lab for CTCAE Grade 
+- Overlapping Treatments 
+- Treatments Without Conditions or Ongoing Medical History 
+ To learn more, see  About AI Reconciliation Reports .
+ In AI Reconciliation, you can:
+- View the list of report findings and associated finding details. 
+- Investigate the patient profile of the patient associated with the record. 
+- View or link other treatments, conditions, or ongoing medical history as being related to a finding. 
+ Note : You can link treatments, conditions, or ongoing medical history only for the following reports:
+- Conditions without Treatments 
+- Worsening Conditions 
+- Treatments without Conditions or ongoing MH 
+- View and submit Rave queries on report findings. 
+- Manually agree or disagree with findings . 
+- Manually mark findings as reviewed or unreviewed 
+ Note : You can refresh data in AI Reconciliation up to two times a day based on Rave refresh schedules. For more information, see   Clinical Data Studio Data Pipeline .
+## How Does AI Reconciliation's Algorithm Recognize Data That Requires Reconciliation?
+The AI Reconciliation algorithm uses business rules to surface potential discrepancies in patient data. In the Conditions without Treatments and Treatments without Conditions reports, the algorithm leverages a Knowledge Graph (KG) that contains information such as condition- treatment relationships, which enables Data Managers and Clinical Operations users to identify and decide if data discrepancy exists in reconciled data. In the Knowledge Graph, relationships are built based on biomedical drug databases and enriched with WHODrug/MedDRA to enable integration with clinical data.
+ Note : AI Reconciliation Reports rely on preferred terms to identify discrepancies. Preferred terms come from Medidata Coder which uses coding dictionaries to code verbatim terms, or an external coder which uses MEDRA or WHODrug data dictionaries. For more information on selecting study data source, see  Map Event Analysis Data . 
+## How does the AI Reconciliation's Algorithm Assign Confidence Scores to Findings?
+ Confidence refers to the AI Reconciliation algorithm calculated degree of certainty that a record is indeed a finding. In other words, that a data anomaly such as the absence of a necessary treatment for a given condition, exists in the listing. 
+ For all listings, confidence level is based on predefined rules detailed in Review AI Reconciliation Reports Findings .
+## The AI Reconciliation Workflow
+ The following image shows the AI Reconciliation process works in Data Surveillance, along with integrations with Patient Profiles and Rave.
+## How Do I Review AI Reconciliation Report Findings?
+ See  Review AI Reconciliation Report Findings .

@@ -1,0 +1,26 @@
+# Flag Patient Profiles as Reviewed
+
+## Flag Patient Profiles as Reviewed
+## Description
+ In Medidata Detect > Patient Data Surveillance > Patient Profiles, you can mark one or more patient profiles as reviewed or unreviewed.
+## Affected Roles
+ All.
+## Advantages
+ Flagging patient profiles as reviewed helps you and other team members identify which profiles have or have not been reviewed. 
+ Knowing the review status of profiles prevents inadvertent, repeat review work and helps your team recognize and focus on profiles that still require review. You can also see when profiles were most recently reviewed. 
+## User Impact
+ In the Patient Data Surveillance (PDS) > Patient Profiles > Patient Profile Designs > Profiles tab, you can select one or more patient profiles, and then click Mark Reviewed or Clear Reviewed . 
+ The Patient Selector also includes the following new columns: 
+- Last Reviewed Date – The date the patient profile was last marked as reviewed. 
+- Status – A check mark indicates profiles that have been reviewed since the last profile update. 
+- Unreviewed Patient Status – Indicates the following patient profile review statuses: 
+- Reviewed – Profiles that have been reviewed since the last profile update. 
+- Requiring Review – Profiles that have been reviewed at least once before, but not since the last profile update. 
+- <blank> – Profiles that have never been reviewed. 
+ In addition, you can now see the total number of patient profiles in your study denoted below the Patient Selector table. 
+## Knowledge Hub Updates
+ The Medidata Detect Knowledge Hub provides new and updated content to support the enhancement: 
+- Review and Export Patient Profiles 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

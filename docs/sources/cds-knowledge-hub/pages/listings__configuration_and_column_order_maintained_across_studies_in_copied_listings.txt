@@ -1,0 +1,48 @@
+# Listings: Configuration And Column Order Maintained Across Studies In Copied Listings
+
+## Listings: Configuration And Column Order Maintained Across Studies In Copied Listings
+ Important :
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the   released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.2.0
+ Change Type 
+ | Enhancement (Updated Functionality) 
+ Functionality or Module 
+ | Listings 
+ Summary of Changes 
+ | 
+ The listing configuration, including any specific sequence, and column ordering defined in the source study or template, remains intact when you copy a listing to a new study group. The Add Column toggle prioritizes the listing's expression sequence over source configurations; columns appear in the order they you define while copying listings across study groups. 
+ Benefit to Users 
+ | Data managers can save time and ensure study data accuracy by copying listings across study environments, without the need to modify column ordering.  
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data managers.
+ Impact to Workflow Processes 
+ No impact to the workflow process.
+ Impact to Applications 
+ No impact to applications.
+ Impact on Interface 
+ On the Data Surveillance > Listings page, if you select an approved listing, and click Copy , you can copy the listing across study environments. The listing configuration, column ordering etc is carried forth into the copied listing. 
+ Impact to Existing Data or Settings 
+ None.
+ User Impact Assessment 
+ | Low 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Copy Listings 
+ Special Considerations 
+ | To view Medidata testing documentation for this release, see the   Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

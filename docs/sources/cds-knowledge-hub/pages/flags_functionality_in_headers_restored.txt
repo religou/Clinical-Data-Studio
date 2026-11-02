@@ -1,0 +1,23 @@
+# Flags Functionality In Headers Restored
+
+## Flags Functionality In Headers Restored
+## Description
+ In Medidata Patient Profiles 2021.1.0, the flags functionality is reinstated for headers. You can now add available%KRIs as flags to headers in your profile design.  For example, when reviewing a patient's report, you can quickly see whether a patient died, had a serious adverse event (SAE) , and so on.  You build flag conditions using variables from any data set to create expressions.  Designs require at least one flag. 
+## Affected Roles
+- Unblinded Patient Profiles Designer 
+- Blinded Patient Profiles Designer 
+## Advantages
+ Adding %KRIs as flags allow report reviewers to quickly gauge a patient's status and the study's progress. 
+## User Impact
+ When configuring headers for a profile design, on the Design page > Elements tab > Data: 
+- Available %KRIs display as flags. 
+- You can add and save available %KRIs as flags to headers. 
+- You can remove flags from headers. 
+- If KRIs do not exist as flags, a Please configure one or more Flags to use in your Header message displays under Flags. 
+ On the Patient Profiles page: 
+- If you select to display available %KRIs in the header, the %KRI displays in the header for a patient profile. 
+- If you do not select available %KRIs to display in the header, the %KRIs do not display in the header for a patient profile. 
+- If you select to display available %KRIs in the Patient Selector, the %KRI displays after the header variables in the Patient Selector for a patient profile. The %KRIs appear with a check mark and in red (default). 
+- If you do not select available %KRIs to display in the Patient Selector, %KRIs do not display in the Patient Selector for a patient profile. 
+## Special Considerations
+ Headers are heavily weighted during the CSA analytics process. Therefore, we encourage you to use headers for information that CSA can analyze. For example, you do not want to add a Study Name variable to a header since the same variable applies across all subjects .

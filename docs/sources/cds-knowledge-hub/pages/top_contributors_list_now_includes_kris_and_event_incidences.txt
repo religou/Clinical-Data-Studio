@@ -1,0 +1,17 @@
+# Top Contributors List Now Includes KRIs and Event Incidences
+
+## Top Contributors List Now Includes KRIs and Event Incidences
+## Description
+ In previous Medidata Detect releases, the Contributors lists contained only items that Detect had analysed using Error Plot analysis. The Contributors list now also includes items that Detect has analysed using Event Incidence Plot and Key Risk Indicator Table analysis. 
+## Affected Roles
+ All.
+## Advantages
+ Medidata Detect's guided navigation is augmented by allowing you to access the Event Incidence plot and Key Risk Indicator analysis for the top contributing items most affecting the study data quality.
+## User Impact
+ On the Overview page > Top Contributors sub-page > Contributors list, the Chart Type column now displays: 
+- Event Incidence 
+- KRI 
+ Tip : Click to enlarge.
+ Clicking a contributor name whose chart type is Event Incidence or KRI navigates you to the respective Event Incidence plot or Key Risk Indicators table analysis containing the analysis for the selected contributor . 
+## Special Considerations
+ None.

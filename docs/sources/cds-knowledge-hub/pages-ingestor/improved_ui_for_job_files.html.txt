@@ -1,0 +1,18 @@
+# Improved UI for Job Files
+
+## Improved UI for Job Files
+## Description
+ This release includes various enhancements to the user interface, which include:
+- You can review a job's files in the new Job Files tab. 
+- You can filter the Jobs File list by Status. 
+- You can only see the Import Summary panel's Download Details link if there is something to download. 
+ Feature/enhancement stories referenced in this article:
+ MCC-718669, MCC-716519, MCC-709892 
+## Affected Roles
+ All roles with the Data Import permission. 
+## Advantages
+ With the new Job Files tab, you can filter by file import status, simplifying the identification of failed file imports.
+## User Impact
+ You can find the Job Files tab by clicking a job's name while reviewing the jobs list. You can filter the files list to aid in identifying failed imports.
+## Special Considerations
+ None.

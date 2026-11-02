@@ -1,0 +1,26 @@
+# Design Patient Profiles
+
+## Design Patient Profiles
+ The workflow progress bar below illustrates the recommended patient profile design workflow from creation to completion.
+ The goal of Patient Profiles is to build patient profile designs. You build the patient profile design infrastructure using containers of information known as elements. Elements consist of headers , flags ,  tables , and timelines . And then you populate your elements with data in the form of variables, which derive from multiple preloaded study environment-specific data sets.
+ At this point, you can create your design  and begin adding elements .
+ When adding elements, and based on the element type you are working with, you can:
+- define element details; 
+- adjust the placement of variables, rows, and columns within elements; 
+- configure variable data points to show in the color of your choosing; 
+- and much more. 
+ After adding elements to your profile design, you can:
+- arrange where the elements appear in the design layout ; and 
+- apply color-coding to entire element sections. 
+ Meanwhile, throughout the course of the patient profile design process, you can:
+- view patient profiles   with study data to help you evaluate how the profile design is taking shape in real time. 
+ When satisfied with your design and layout, you can:
+- review and generate reports based on the profile design. 
+ You can also perform various design management tasks such as:
+- Reassign Master Designs 
+- Duplicate Designs Within Studies 
+- Delete Designs 
+- Rename Designs 
+ Note : In Data Surveillance, s tudy data automatically refreshes twice daily at approximately 9:00am (EST) and 9:00pm (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, and 11:00 am (EST) the same day, respectively. You can refresh Patient Profiles twice daily based on these refresh schedules. For more information, see Clinical Data Studio Data Pipeline.   
+ Tip : Click the image below to watch a video detailing how to build a patient profile in a separate browser tab. 
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;

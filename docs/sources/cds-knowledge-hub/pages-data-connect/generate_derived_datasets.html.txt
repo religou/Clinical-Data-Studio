@@ -1,0 +1,53 @@
+# Generate Derived Datasets
+
+## Generate Derived Datasets
+ You can create derived datasets based on a combination of various parameters and using capabilities including: 
+- No-code dataset operations, configurations, and transformations 
+- The ability to add more variables to the derived dataset 
+ With derived datasets, you can combine and transform datasets to support downstream use cases and analytics.
+ Tip : Click image to enlarge.
+ Important : 
+- Creating a derived dataset does not affect the source datasets. You cannot directly change the source dataset with Data Connect. This is to maintain the datasets' data lineage and to uphold the principle of traceability. 
+- Data Connect does not support the Time datatype. Data Connect converts any Rave datasets with Time datatype to String datatype. 
+## Transform Datasets 
+- Expand a Derived Dataset project, and click View / Modify . 
+- From the Data Source panel, search or use the folders to find forms to add to the Target panel.  
+- Use the Drag icon to drag datasets onto the Target panel.
+ Tip : Clicking the View icon shows the form’s data source details. 
+- Click the More icon for one of the forms in the Target panel, and select an action: 
+- Join 
+- Union 
+- Group - Min, Max, Avg, Sum 
+- Group - First/Last 
+- Replicate or Filter 
+- Pivot 
+- Unpivot 
+- Use the action wizard to perform operations on the selected form.
+ Note : 
+ Considerations 
+- Operations such as Union require that you include more than one dataset on the Target panel. 
+- The Union and Unpivot operations support a maximum of five datasets per operation. 
+- When performing the Unpivot operation, Medidata recommends against unpivoting many columns in a single project. If you must unpivot multiple columns, nest unpivots by:
+- Creating a project to unpivot a subset of columns; 
+- Creating another project unpivoting other columns against the result of the original unpivot operation. 
+- Repeat as necessary. 
+- When performing the Pivot operation, Medidata recommends that the pivot variable contains no duplicates, including values that differ only by letter case. To prevent this, apply a field transformation to convert all values to either lowercase or uppercase before pivoting. 
+ Limitations 
+- You cannot perform Join or Union operations on two identical forms. You can, however, perform Join or Union using two identical forms after applying any of the following operations to one of the forms: Replicate, Filter, or Pivot. 
+- If you have a dataset with multiple rows per patient, such as Adverse Events, you cannot turn the dataset into a single row per patient with concatenation. 
+- Close the action wizard. 
+- Repeat steps 2 to 6 for more operations as necessary. 
+## Add and Map Variables
+- Click a target view, and click List View .
+ Important : You can only click List View on datasets that have no children: that is, datasets that are results from previous operations. For example, if you perform a Union between Dataset 1 and Dataset 2 to create Dataset 3, you can only see the List View for Dataset 3. 
+ In addition, if you performed further transformations on Dataset 3 to result in Dataset 4, then you can only see the List View for Dataset 4 Dataset 3 is now a parent.
+- As necessary, click the More icon > Add Variable , and add custom variables to the dataset: 
+- From the target variable list screen, click the More i con, and select Add Variable . 
+- Enter the custom variable details . 
+- Click Add Variable . 
+- Add more variables as necessary. 
+- Map one or more values to each variable in the Mapped Fields and Values column. 
+- As necessary, transform the custom variable , and resolve any quality issues. 
+- Click Update target view mapping to save your settings. 
+## Next Step
+ Publish Project

@@ -1,0 +1,29 @@
+# KRI Configuration
+
+## KRI Configuration
+ You can use RBQM Configuration's KRI Configuration capability to: 
+- View the list of system KRIs and custom KRIs available in your study environment .
+ Tip : To learn more about KRIs, see What Are Key Risk Indicators (KRIs) ? 
+- Define and add custom KRIs that target specific facets of your study data that you want to monitor for risk. 
+- Configure the level of weight in which a KRI impacts a site's level of analysis. 
+- View patients that meet or do not meet a KRI configuration's query conditions . 
+- Activate KRIs to get consumed, calculated, analyzed, and rendered in the KRI Dashboard , Risk Inventory , as well as the Add Risk modal and Risk Review modal in Risk Assessment and in Risk Inventory. 
+- Configure the specific KRIs you want RBQM to factor in when calculating each site's performance risk level . 
+- View patients that meet KRI configuration query conditions . 
+ The KRI Dashboard allows you to: 
+- Track the KRIs in your study and their respective KRI Values at each site. 
+- Determine which KRI values are outliers and non-outliers at specific sites or countries. 
+- Determine which KRIs have surpassed the risk threshold at specific sites or countries.
+ Based on your observations made from the KRI Dashboard, you can determine: 
+- The issues or risks that require further investigate or mitigation.  
+- The best approach or mitigating actions to take on the issues or risks. For example, writing an issue against the custom KRI and capturing the custom KRI on a risk inventory.
+- The effect the mitigating actions have made on the issues or risks over time. 
+ KRI  data also gets filtered, calculated, and rendered in Risk Assessment and Risk Inventory. Data sets and variables you use to build KRI configurations appear with a Medidata Rave, external or derived label next to the name.  Similarly, data sets and variables with critical data points to the study appear with a blue flag 
+ You can also use RBQM's KRI Configuration capability to: 
+- Deactivate KRIs from getting consumed, analyzed, calculated, and shown in RBQM when that KRI no longer requires analysis. 
+- Remove KRIs from RBQM's Site Risk Calculation . 
+- Add and Store Custom KRI Configurations as Reusable Templates . 
+- View Audit Details for Deactivated KRIs . 
+- Download KRI Configuration Reports . 
+- Generate KRI Configuration Audit Reports . 
+ Important : KRIs do not support datetime operations.

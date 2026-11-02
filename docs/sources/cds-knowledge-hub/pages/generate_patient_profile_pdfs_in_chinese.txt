@@ -1,0 +1,16 @@
+# Generate Patient Profile PDFs in Chinese
+
+## Generate Patient Profile PDFs in Chinese
+## Description
+ You can now export patient profiles to PDF format in Chinese. 
+## Affected Roles
+ All.
+## Advantages
+ If you use Chinese characters in your text editor, you can view profile exports in Chinese.
+## User Impact
+ On the Medidata Detect > Patient Data Surveillance (PDS) > Patient Profiles > Patient Profile Designs > Profiles tab, if you click PDF  and select Single Patient or Multiple Patients, you can download patient profile PDFs for individual or multiple patients. The PDF export includes Chinese characters or letters included in the patient profile.
+## Knowledge Space Updates
+ The Detect Knowledge Space provides new and updated content to support the enhancement: 
+- Review and Export Patient Profiles 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

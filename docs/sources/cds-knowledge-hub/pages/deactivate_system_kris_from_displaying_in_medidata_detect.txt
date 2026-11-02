@@ -1,0 +1,18 @@
+# Deactivate System KRIs from Displaying in Medidata Detect
+
+## Deactivate System KRIs from Displaying in Medidata Detect
+## Description
+ You can now deactivate system KRIs so that the system KRIs' data do not get filtered, analyzed, calculated, or displayed in Medidata Detect .
+## Affected Roles
+- RBQM Configuration Manager users 
+- Detect users 
+## Advantages
+ Deactivating system KRIs:
+- Removes from Medidata Detect's Key Risk Indicators table  the key risk indicator (KRI) data that you have no need to track or analyze. 
+- Yields a cleaner KRI table view by displaying only data that is relevant to your study. 
+- Optimizes your KRI data analysis speed and efficiency. 
+## User Impact
+ On the KRIs page > Key Risk Indicators list > Activate column, you can click   in the corresponding row of the system KRI you want to deactivate. To learn more, see  Activate and Deactivate KRIs .
+## Special Considerations
+ You cannot edit a system KRI's configuration.
+ You can reactivate previously deactivated system KRIs using the same process you would to activate. To learn more, see  Activate and Deactivate KRIs .

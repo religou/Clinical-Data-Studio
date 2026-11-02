@@ -1,0 +1,22 @@
+# Datasets - Ability to Enable Rave Query Data for Existing Derived Datasets
+
+## Datasets - Ability to Enable Rave Query Data for Existing Derived Datasets
+## What Is New?
+ You can now enable Rave queries for derived datasets in Data surveillance. 
+## What Is the Impact?
+## Users/Roles
+ All. 
+## Workflow Process
+ No impact to the workflow process, however you must upgrade to enable queries for existing derived datasets in Data Surveillance.
+## Other Applications
+- Data Surveillance   – For the derived datasets containing Rave forms in DQM, users can now submit Rave queries. 
+## How Do I Benefit?
+ Users can now use Rave direct query functionality in DQM for derived datasets. 
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Dataset tab on the Datasets landing screen. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Feature: 
+- Upgrade Derived Datasets to Enable Rave Query 
+## What Else Should I Know?
+ This functionality is not available for previously activated derived datasets unless you upgrade them first. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

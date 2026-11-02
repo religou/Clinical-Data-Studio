@@ -1,0 +1,13 @@
+# Patient Selector Table Includes More Data Points to Investigate in Patient Profiles
+
+## Patient Selector Table Includes More Data Points to Investigate in Patient Profiles
+## Description
+ In previous releases, the Patient Selector table on the Profiles tab only included the Patient ID column and Site ID column. Now the Patient Selector table includes individual sortable columns for each flag, header variable, and data set included in your profile design layout.
+## Affected Roles
+ All.
+## Advantages
+ You can search the Patient Selector table for specific flags, header variables, or data sets to identify patient profiles with specific data elements. Doing so allows you to quickly and easily validate if the design for those data elements is correct and displaying the desired results. You can then, if necessary, iteratively go back into the design to make adjustments and then view the profile again with the modified design against the subject data.
+## User Impact
+ See the Description section above.
+## Special Considerations
+ None.

@@ -1,0 +1,9 @@
+# AI Reconciliation Knowledge Graph
+
+## AI Reconciliation Knowledge Graph
+ The AI Reconciliation algorithm works on a proprietary knowledge graph. The knowledge graph contains information about conditions, treatments (medications and procedures), and the relationships between them. The condition-treatment relationships are built based on best-in-industry biomedical drug databases, for example,  ChEMBL , drug-indication database ,  and condition-treatment relationships specified by medical experts in clinical trial data. The algorithm identifies data discrepancy findings and calculates a confidence score that reflects the degree of certainty in the identified discrepancies. See image 1 for details on the algorithm, and image 2 for details on the confidence score calculation. 
+ The Knowledge Graph uses the following coding dictionary versions to provide results: 
+- MEDRA: 28.0-English 
+- WHODrug: Global-B3-202503-English-Drugs  (March 2025), Global-B3-English-Atcs. 
+ Image 1 
+ Image 2

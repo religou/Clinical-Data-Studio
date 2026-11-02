@@ -1,0 +1,9 @@
+# Event Outlier Detection Methodology
+
+## Event Outlier Detection Methodology
+ Statistical Monitoring identifies sites with outlying reported event data by calculating the p -value for each event term reported at the site level. Statistical Monitoring also calculates the p -value for sites where the event was not reported. 
+- p -value – A Statistical Monitoring calculation that measures the probability of a site experiencing a given event's incidence rate compared to that event's overall incidence rate across all other sites in the study. 
+- Extreme Outlier Site – Sites with a p -value  less than 0.01 for a given event's incidence rate. The probability of the site having its current incidence rate for an event is extremely low considering the event's incidence rate across all other sites. This indicates that there may be issues with how this event has been reported at the site, which may require further investigation. 
+- Outlier Site – Sites with a p -value  between 0.01 and 0.05 for a given event's incidence rate. The probability of the site having its current incidence rate for an event is very low considering the event's incidence rate across all other sites. This indicates that there may be issues with how this event has been reported at the site, which may require further investigation. 
+- Normal Site – Sites with a p -value  greater than 0.05 for a given event's incidence rate. The probability of the site having its current incidence rate for an event is statistically normal considering the event's incidence rate across all other sites. 
+ Important :  RBQM does not factor events that occur only once in the study into the event incidence analysis.

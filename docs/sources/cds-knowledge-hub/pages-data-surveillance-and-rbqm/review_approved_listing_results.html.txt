@@ -1,0 +1,512 @@
+# Review Approved Listing Results
+
+## Review Approved Listing Results
+ You can use Data Surveillance to investigate and review an approved listing's results. As part of the review process, you can:
+- View, sort, and filter an approved listing's results. 
+- Add, view, edit, or delete internal review comments on individual records captured in listings. 
+- View and submit Medidata Rave queries on patient records. 
+- Mark individual records as reviewed or unreviewed. 
+- View and export the audit trail of actions made on the listings' records 
+## View an Approved Listing's Results
+ You can view all data records captured by an approved listing's conditional expression. You can then perform any necessary investigative or review actions on those data records.
+- 
+ If necessary, access and view your study's approved listings 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the  Approved Listings tab.
+The Approved Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's object identifier (OID). 
+- Expression – The listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- Rave Enabled – A check mark indicates that you can submit Rave queries on the patient records captured by the listing. 
+- Refreshed By – The last user who refreshed the approved listing to show the latest results. 
+- Track – Enables you to activate or inactivate the approved listing for Clean Patient Tracker analysis. To learn more, see  Track and Untrack Individual Approved Listings for Clean Patient Data Analysis . 
+- If necessary, filter or sort the Approved Listings table. 
+- In the Approved Listings table, select an approved listing.
+ All data records that match the conditions specified in the listing's expression as of the listing's latest data snapshot appear in the table at the bottom of the page. 
+ Table Column Descriptions 
+- PatientID – The ID of the patient whose data matched the criteria specified in the listings conditional expression. 
+- Site – The site that the patient belongs to. 
+- Country – The country in which the site resides. 
+- Status – Indicates whether the listing record is reviewed, queried, or commented on. 
+- – Indicates that the listing record is marked as reviewed. The absence of the icon means the listing record is unreviewed. To learn more, see Mark Individual Listing Results as Reviewed or Unreviewed . 
+- – Indicates that the listing record has been queried. The absence of the icon means the listing record has no queries. To learn more, see View and Submit Rave Queries on Patient Records . 
+- – Indicates that the listing record contains internal review comments. The absence of the icon means the listing record has no comments. To learn more, see Add, View, Edit, or Delete Comments on Individual Listing Results . 
+- – Indicates that the listing record has vendor queries.The absence of the icon means the listing record has no vendor queries. If you click the icon, a slide out panel appears with the query set hyperlink. Clicking the hyperlink shows the Vendor Queries page  with the specific vendor query highlighted. To learn more, see Create, View, Delete, and Submit Vendor Query Sets . 
+- – Indicates the changed data against any data point values that changed. You can hover over the symbol to view the previous value. 
+- – Indicates that the listing record is marked as in progress. The absence of the icon means that the listing is not marked as in progress. 
+- Disabled record – Indicates that the listing record has been dropped after a data refresh as it no longer meets the criteria defined in the listing configuration.  
+- Variable – Each column header to the right of the Status column header represents a variable that the listing's expression is configured to run against. The variable column header shows the human-readable variable name at the top and the variable object identifier (OID) at the bottom. And then the column lists the variable's data point entries captured by the listing's conditional expression. 
+ Tip : If necessary filter or sort the approved listing's results table to find the listing you need. 
+## Filter an Approved Listing's Results Table
+ To help scan an approved listing's results or find specific records , you can filter an approved listing's results table to show:
+- All listing results. 
+- Only data records for specific tables columns 
+- Only unreviewed listing results. 
+- Only reviewed listing results. 
+- Only listing results for specific patient IDs, sites, countries, or variables. 
+- Only listing results for specific variables whose data records contain specific values or values within a specific numeric range. 
+- If necessary, view an approved listing's results . 
+- Do any of the following:
+- To show only data records for specific table columns:   click the   Show Columns   filter at the top-right corner of the listing records table (for example, ), select or clear the columns you want to show or hide, respectively, and then click   Apply . 
+- To show all listing results, only unreviewed listing results, or only reviewed listing results : click the filter next to the table header, , , , , , and then select  All ,  Unreviewed , Reviewed,  In Progress, or Dropped. 
+All is the filter's default selection. 
+- To show only listing results recorded for specific patient IDs : click the Filter button, , at the top-right corner of the listing result's table, click the PatientId filter, , select one or more patient IDs, and then click Apply . 
+- To show only listing results recorded for specific sites or countries : click the Filter button, , at the top-right corner of the listing result's table, click + Add Filter , select Site or Country , click the Site or Country filter (for example, , select one or more sites or countries, and then click Apply . 
+- To show only listing results recorded for specific variables : click the Show Columns filter at the top-right corner of the listing result's table (for example, ), select or clear the variables you want to show or hide, respectively, and then click Apply . 
+- To show only listing results for specific variables whose data records contain specific values or values within a specific numeric range : click the Filter button, , at the top-right corner of the listing result's table, click + Add Filter , select a variable name, click the variable filter (for example, ), select all data values or enter the range of values you want to view in the table, and then click Apply . 
+## Sort an Approved Listing's Results Table
+ To help scan an approved listing's results or find specific records, you can sort an approved listing's table columns vertically in ascending or descending alphanumeric order. For example, you can sort to more quickly find a patient ID or site. Or you could sort a variable column to show the highest data record values at the top. 
+- If necessary, view an approved listing's results . 
+- In the Draft Listings table, click any column header to sort the table by column in ascending alphanumeric order.
+An up arrow, , appears next to the column name. 
+- Click a column header twice to sort the table by column in descending alphanumeric order.
+A down arrow, , appears next to the column name. 
+## Customize Column Configurations
+ You can customize column configurations directly using the   More icon, above the Listing table when previewing a draft or approved listing. 
+ Note: 
+- If you specify column configuration while creating a draft listing, the listing retains the configuration when it is approved. 
+- You can reconfigure columns of an approved listing, but these changes are temporary and only visible to you. If you refresh or reload the page, the columns revert back to the original configuration. 
+- If you move an approved listing back to draft listing without modifying the expression, the column configuration remains unchanged. 
+- If you edit the expression in an approved listing, newly added columns are automatically enabled for column configuration, and the existing columns retain their original configuration. 
+- If you use the Copy Listings or Import Listing feature, you lose column configuration of the original listing. 
+ Fix Column Configurations 
+ To better customise the results, you can hide, unhide, fix a table's columns to appear to the left or right. For example, you can hide columns of no interest.
+- If necessary, view an approved listing's results . 
+- Click ,  More icon, above the Listing table. 
+- Click Columns Configuration .
+A slide out panel appears. 
+- Drag and drop fields under Columns to either Left Fixed Columns or Right Fixed Columns . The fields you place under each appear as such in the listings table. For example, you fix Patient, Site or Country to the left.
+ Note : We recommend:
+- Fixing only Patient, Site and Country columns as left columns. 
+- Only fixing columns that you can see on your screen as per your screen resolution. 
+- Including some columns that are neither fixed as left or right fixed columns, so that horizontal scrolling remains. 
+ Do not fix all columns in the listings table. That is, fix some columns to the left, and the remaining to the right. This may cause the screen to freeze (UI Gridlock), where the fixed elements from the left and right sides have essentially met in the middle, leaving no room for the scrollable data to actually render.   
+## Add, View, Edit, or Delete Internal Review Comments on Individual Records 
+ You can add comments directly on individual records that appear in a listing's results. Comments enable you to share review notations with your study team. For example, you could comment on your rationale for marking a record as reviewed. Or you might communicate with others your intention to review a record once its query is closed.
+ You can also:
+- View a record's comment history. 
+- Edit and delete your own comments. 
+## Add Comments
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the Approved Listings tab.
+The Approved Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's Object identifier (OID) 
+- Expression – The listing's conditional expression used to identify and flag patient data that meet the specified conditions. 
+- EDC Enabled – A check mark indicates that the listing is Rave enabled, meaning that you can view the listing's Rave query status in Data Surveillance. No check mark indicates that the listing is not Rave enabled. 
+- Refreshed By – The last user who refreshed the approved listing to show the latest results. 
+- Track – Enables you to activate or inactivate the approved listing for Clean Patient Tracker analysis. 
+- If necessary, filter or sort  the Approved Listings table to help find the listing you need. 
+- On the Listings page > Approved Listings table, select an approved listing.
+All patients with data that match the criteria specified in the listing's conditional expression show in a table at the bottom of the page.
+ Table Column Descriptions 
+- PatientID – The ID of the patient whose data matched the criteria specified in the listings conditional expression. 
+- Site – The site that the patient belongs to. 
+- Country – The country in which the site resides. 
+- Status – Indicates whether the listing record is reviewed, queried, or commented on. 
+- – Indicates that the listing record is marked as reviewed. The absence of the icon means the listing record is unreviewed. To learn more, see Mark Individual Listing Results as Reviewed or Unreviewed . 
+- – Indicates that the listing record has been queried. The absence of the icon means the listing record has no queries. To learn more, see View and Submit Rave Queries on Patient Records . 
+- – Indicates that the listing record contains internal review comments. The absence of the icon means the listing record has no comments. To learn more, see Add, View, Edit, or Delete Comments on Individual Listing Results . 
+- – Indicates that the listing record has vendor querys.The absence of the icon means the listing record has no vendor queries. If you the icon, a slide out panel appears with the query set hyperlink. If you click the query set hyperlink, the Vendor Queries page appears with the specific vendor query highlighted. To learn more, see Create, View, Delete, and Submit Vendor Query Sets . 
+- – Indicates the changed data against any data point values that changed. You can hover over the  symbol to view the previous value. 
+- – Indicates that the listing record is marked as in progress. The absence of the icon means that the listing is not marked as in progress. 
+- Disabled record – Indicates that the listing record has been dropped after a data refresh as it no longer meets the criteria defined in the listing configuration.  
+- Variable – Each column header to the right of the Status column header represents a variable that the listing's expression is configured to run against. The variable column header shows the human-readable variable name at the top and the variable Object identifier (OID) at the bottom. And then the column lists the variable's data point entries captured by the listing's conditional expression. 
+- Click the More menu, , in the row corresponding to a listing result you want to comment on, and then click Comment . 
+- Enter your comment text, and then click the blue check mark.
+In the row containing the listing result, the Status column shows a Comment icon, . You can click the Comment icon to view the comment history and associated metadata. 
+## View Comments
+ You can view comments that you and others on your study team have submitted on individual listing records. Comments:
+- Enable study team members to communicate review notes and decisions. 
+- Promote transparency and traceability. 
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the Approved Listings tab.
+The Approved Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's Object identifier (OID) 
+- Expression – The listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- EDC Enabled – A check mark indicates that you can submit Rave queries on the patient records captured by the listing. 
+- Vendor Queries   – A check mark indicates that the listing is part of a vendor query set. 
+- Refreshed By – The last user who refreshed the approved listing to show the latest results. 
+- Track – Enables you to activate or inactivate the approved listing for Clean Patient Tracker analysis. 
+- If necessary, filter or sort  the Approved Listings table to help find the listing you need. 
+- On the Listings page > Approved Listings table, select an approved listing.
+All patients with data that match the criteria specified in the listing's conditional expression show in a table at the bottom of the page. 
+- In the table > Status column, click the Comment icon, , in the row corresponding to the listing result whose comments you want to view.
+The Comments pane shows the comment history and associated metadata. 
+## Edit or Delete Comments
+ You can edit your submitted comments; for example, to fix a typo, update for clarity, or add more details. You can also delete your comments; for example, if a comment was made in error or is no longer relevant.
+ Note : The Listing Audit Trail captures the history of all comment actions made on all listing records.
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the Approved Listings tab.
+The Approved Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's Object identifier (OID) 
+- Expression – The listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- EDC Enabled – A check mark indicates that you can submit Rave queries on the patient records captured by the listing. 
+- Vendor Queries – A check mark indicates that the listing is part of a vendor query set. 
+- Refreshed By – The last user who refreshed the approved listing to show the latest results. 
+- Track – Enables you to activate or inactivate the approved listing for Clean Patient Tracker analysis. 
+- If necessary, filter or sort  the Approved Listings table to help find the listing you need. 
+- On the Listings page > Approved Listings table, select an approved listing.
+All patients with data that match the criteria specified in the listing's conditional expression show in a table at the bottom of the page. 
+- In the table > Status column, click the Comment icon, , in the row corresponding to the listing result whose comments you want to view.
+The Comments pane shows the comment history and associated metadata. 
+- Click the Action menu, . 
+- Do one of the following:
+- Click Edit , update the comment text, and then click the check mark. 
+- Click Delete . 
+## View and Submit Queries on Patient Records
+ You can view and submit queries on EDC-enabled listings directly in Data Surveillance for studies using Medidata Coder or an external coder, or even an external EDC like Veeva. EDC-enabled listings allow you to directly within Data Surveillance view and submit standardized, predefined queries simultaneously on multiple patient records captured in the listing's results. EDC-enabled listings: 
+- Save time and effort required to investigate and query patient records by allowing you to simultaneously query multiple patients records. 
+- Ensure uniform, consistent query text on the same variable across multiple records. 
+ Within Data Surveillance, you can only submit queries on patient records captured by EDC-enabled listings. 
+ Note: You can submit EDC queries only if you have the Submit Queries building block access. To submit queries in Data Surveillance, you must have the required permissions to submit queries in Rave. Data Surveillance does not verify your query permissions in Rave. You cannot create EDC-enabled listings using the queries data set. 
+We recommend you do not submit queries for system fields as Rave does not support query submission for the following fields:
+ System fields 
+- PATIENT ID 
+- SITE 
+- SITE COUNTRY 
+- STUDY 
+- ENVIRONMENT 
+- PLANNED EVENT 
+- PLANNED EVENT NAME 
+- PERFORMED EVENT DATE 
+- PERFORMED EVENT NAME 
+- ITEM GROUP REPEAT KEY 
+ Important: 
+- Data Surveillance does not support bulk query submission for Rave queries on nested forms. 
+- If your study uses Rave, you can submit queries for EDC enabled listings. If your study uses an external EDC like Veeva, you can submit multiple queries into Veeva for non-system fields in your study data. The query you submit appears approximately five minutes after submission in Veeva. The status icon appears updated on the Listings page for queries submitted into Veeva in approximately three hours. 
+ Non-system fields 
+- STUDYID 
+- COUNTRY 
+- SITENUM 
+- SUBJID 
+- EGROUP 
+- EGROUPDEF 
+- EGROUPEID 
+- EVENT 
+- EVENTDEF 
+- EVENTEID 
+- EVENTDT 
+- ESEQ 
+- FORM 
+- FORMDEF 
+- FORMEID 
+- FSEQ 
+- FORMSTATUS 
+- CREATEDT 
+- FIRSTSUBMITDT 
+- LASTSUBMITDT 
+- IGSEQ 
+- DLASTMOD 
+- FGUID 
+- IGGUID 
+- LASTRUN 
+## View a Patient Record's Rave Query History and Details
+ You can view EDC queries submitted on EDC-enabled listings' records to:
+- Confirm that a record was queried. 
+- View the query response status and follow-up as necessary. For example, if the query is unaddressed, you can follow up with the site inquiring about their response. Or you can c onfirm that the query was addressed and mark the record as closed or address as necessary. 
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the  Approved Listings tab.
+The Approved Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's Object identifier (OID) 
+- Expression – The listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- EDC Enabled – A check mark indicates that you can submit Rave queries on the patient records captured by the listing. 
+- Vendor Queries   – A check mark indicates that the listing is part of a vendor query set. 
+- Refreshed By – The last user who refreshed the approved listing to show the latest results. 
+- Track – Enables you to activate or inactivate the approved listing for Clean Patient Tracker analysis. 
+- If necessary, filter or sort  the Approved Listings table to help find the listing you need. 
+- On the Listings page > Approved Listings table, select an approved listing.
+ All patients with data that match the criteria specified in the listing's conditional expression show in a table at the bottom of the page. 
+- If necessary, filter or sort the listing's results table to show the listing results you want to view. 
+- In the Status column, click the Query button, , for any result whose Rave query history and details you want to view.
+The Query History pane appears.
+ Field and Table Column Descriptions 
+- Patient – The patient ID. 
+- Folder   –   The folder containing query for a patient data point. 
+- Form   – The name of the form that contains the query for a patient data point. 
+- Field   –   The field name of the patient data point that is queried. 
+- Query Type – A system-generated query tag that indicates the marking group and distinguishes the query between manual or automated queries. 
+- Query Text – The user-entered query text opened on a data point.   
+- Query Data – The data value that is queried. 
+- Action – Specifies whether the query is currently open or closed. 
+- Action By – The last user to submit or take follow-up action on the query. 
+- Action Date – The query submission date or when the last action was made on the query. 
+## Submit Queries on Patient Records
+ You can submit standardized, predefined queries simultaneously on one or more patient records captured in a EDC-enabled listing's results. Querying a EDC-enabled listings' records: 
+- Saves time and effort required to investigate and query patient records by allowing you to simultaneously query multiple patients records. 
+- Ensures uniform, consistent query text on the same variable across multiple records. 
+ Within Data Surveillance, you can only submit queries on patient records captured by EDC-enabled listings. 
+ Tip : Play the video below to watch how submit Rave queries on patient records.
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the  Approved Listings tab.
+The Approved Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's Object identifier (OID) 
+- Expression – The listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- EDC Enabled – A check mark indicates that you can submit queries on the patient records captured by the listing. 
+- Vendor Queries   – A check mark indicates that the listing is part of a vendor query set. 
+- Refreshed By – The last user who refreshed the approved listing to show the latest results. 
+- Track – Enables you to activate or inactivate the approved listing for Clean Patient Tracker analysis. 
+- If necessary, filter or sort  the Approved Listings table to help find the listing you need. 
+- On the Listings page > Approved Listings table, select an approved listing.
+All patients with data that match the criteria specified in the listing's conditional expression show in a table at the bottom of the page. 
+- In the table, select one or more records.
+- Click Submit Queries above the table.
+The Submit Queries window lists each record and associated information:
+ Column Descriptions 
+- Check Box – Select the check box to select the record. All check boxes are selected by default.
+- Patient ID – Patient ID for the record.
+- Site – Site number associated with the record.
+- Country – Country in which the site resides.
+- Query Text – Query text submitted on the patient record. 
+- Form, Field, and Folder – Form, Field, and Folder associated with the record, depending on the variable you select to build the Rave query. 
+ Note : You can submit queries against the field configured in your listing. 
+- Rave studies – The Submit Query button is enabled when you select a valid Rave form field with querying enabled, or a derived dataset field that originates from a valid Rave form field in a Rave dataset. 
+- Veeva studies – The Submit Query button is enabled when the study uses direct Veeva EDC integration. Query submission is not supported for file-based Veeva studies. 
+ Query submission is not supported for all other cases, including system fields that cannot be mapped to a valid Rave or Veeva form fields, derived datasets without Rave source fields, or file based Veeva studies. 
+- Select the check box for the records for which you want to submit queries. All records are selected by default. 
+- In the upper-right corner of the Submit Queries window, click the Marking Group menu, and select the marking group that you want to send the queries to.
+ Important : You should select the same marking group that you use when submitting queries in Rave.
+ Note, however, that  Data Surveillance allows you to submit queries from all marking groups within Rave and does not confirm individual marking group access. Therefore, you can submit queries to marking groups that you are not assigned to. 
+- Optional : To edit a record's query text, click the Actions menu, , in the row corresponding to the record you want to edit, click Edit Query , and then select or enter any of the following:
+- Query Text – Required.  
+- Form – Optional.  
+- Field – Default, uneditable selection. 
+- Folder – Optional.
+ Note : You can update the query to another form, field, or folder that is not part of the listing expression. However, if you change the query to a log line, Data Surveillance submits the query to the first record in that log line (log form) because it cannot determine which specific record the query should be associated with.
+ This is true even when the log line (log form) is part in the listing expression, because during data refreshes, Data Surveillance only retrieves the log line associated with the default query field.
+- Click Apply . 
+- Click Submit .
+12 hours after submitting queries, the Status column in the approved listing's table of results will show a Query icon, , in the corresponding row of the queried patient records. The Query icon indicates that the patient record has been queried. The query also shows on the data point in your EDC. For more information, see   Clinical Data Studio Data Pipeline . 
+ Note : For Rave-enabled listings containing derived datasets built in Data Connect , you can submit queries only for derived datasets where source variables originate from a Rave dataset. That is, the Submit Query button remains disabled if  the listings contain derived datasets where the source variable does not come from a Rave dataset. 
+ Important : You must upgrade all previously created derived datasets in Data Connect to submit queries in Data Surveillance. 
+## View and Create Vendor Queries for Patient Records
+ You can create vendor queries for approved listing records directly in Data Surveillance. You can group multiple patient records into vendor query sets and assign them to approved vendors within vendor groups for action. For example, the vendor can supply the missing records, or provide further clarification. Vendor Queries:
+- Enable you to report and track issues with external data. 
+- Act as a bridge  to relay queries and issues between vendors and Data Surveillance users. 
+- Manages discrepancies and inconsistencies with vendors. 
+- Facilitate faster reconciliation of Rave and external vendor data. 
+ You can also build easily downloadable and shareable vendor query sets for vendor consumption and action. Alternatively, you can submit vendor query sets directly to vendors, receive responses and track the progress of submitted vendor queries. Vendor queries s ave time and effort by integrating vendor communication into your data review process and ensure study data integrity. 
+ Note : You can create Vendor Queries only if you have the Submit Vendor Issues and Manage Issue Sets building blocks associated with your role in the Cloud Administration study group. 
+## View Vendor Queries for Patient Records
+ You can view vendor queries associated with listings' records to:
+- Confirm that a record was assigned to a vendor queries set for a vendor. 
+- View the vendor queries set status and follow-up as necessary. For example, if vendor queries are submitted, you can follow up with the vendor inquiring about their response. Or you can c onfirm that the vendor responded to your query, and mark the record as reviewed or address as necessary. 
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the Approved Listings tab.
+- If necessary, filter or sort  the Approved Listings table to help find the listing you need. 
+- On the Listings page > Approved Listings table, select an  approved listing.
+All patients with data that match the criteria specified in the listing's conditional expression show in a table at the bottom of the page. 
+- In the table > Status column, click the Vendor Queries icon, , in the row corresponding to the listing result whose vendor queries you want to view.  The Vendor Queries pane shows the follo wing: 
+- Vendor query type – The type of vendor query. For example,  missing indicates data is missing. 
+- Query Set Details – Vendor name, vendor query set name, sent by, and due dates. 
+- EDC Data – Data ingested from Rave. 
+- Vendor Data – Data ingested from vendor data sets. 
+- Query Description – User-entered or default description as per the query type. 
+- Status – Any one of the following status associated with the query set.
+- Submitted  
+- Draft 
+- In Progress 
+- Completed 
+## Create Vendor Queries for Patient Records
+ You can report external data issues and track communication with vendors. 
+ You can create vendor queries to group multiple patient records into a single vendor query set. On the Vendor Queries page, you can then submit the vendor query sets you raised for patient records to approved vendors. Grouping vendor issues ensures vendors receive a set of issues for action at one time. 
+ Note : Data Surveillance permits only one unsubmitted vendor query set per vendor to ensure vendors receive only one notification about outstanding action on queries at a time. 
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the Approved Listings tab.
+- If necessary, filter or sort the Approved Listings table to help find the listing you need. 
+- On the Listings page > Approved Listings table, select an approved listing.
+ All patients with data that match the criteria specified in the listing's conditional expression show in a table at the bottom of the page. 
+- In the table, select the patient records you want to add to the vendor query. 
+- Click Submit Vendor Queries  above the table.
+- Enter the field details.
+The Add Vendor Queries page includes the following fields:
+ Column Descriptions 
+- Add to Query Set  – Select from an existing query set or create a new one by clicking  Add to new query set, typing into the fields and then clicking Apply.  The Add to new query set window includes the following fields:
+- Query set name  – The query set name. 
+- Vendor – The list of approved vendor groups. 
+ Data Surveillance permits only one unsubmitted query set per vendor to ensure vendors receive only one notification at a time about outstanding action on data issues. If the vendor has an unsubmitted query set, you must first submit the query set before assigning another vendor query set. 
+ Note : Approved vendor groups appear in the Vendor list only if you configure vendor names on the Data Surveillance > Configuration > Vendors page. For more information, see  Vendor Configuration . 
+- Vendor Query – Type of vendor issue you want to query about. The types include:
+ Vendor Issue Types 
+- Missing – Data set has missing records. 
+- Mismatch – Data set records do not match. 
+- Extra Vendor Record – Data set contains extra vendor records. 
+- EDC fields to include – Data set variables from Rave auto-populate this field. You can deselect variables you do not want to include.The field shows EDC field names instead of OIDs. 
+- Vendor fields to include – Data set variables from the vendor auto-populate the field. You can deselect variables you do not want to include. The field shows EDC field names instead of OIDs. 
+- Query description – A system provided default text description appears in the field based on the Vendor Query type you select. For example, for the mismatch record issue type,  the issue description reads " <user input (e.g. DOB, sex) > Data reported in the EDC on <user update (e.g Demog) > page does not match data reported on the lab acquisition slip. PI confirmed that the information entered in the EDC is correct."  You can use the description or edit or delete as needed. 
+- Optional. To edit the query description or vendor query type for individual records, select the record, then click the More icon,   and click Edit Issue . 
+- The patient records you selected in step 3 appear pre-selected in the Vendor Queries table. Click Apply to all queries above the table.
+All the records are added to the query set. 
+- Click Save . 
+- Optional. Uncheck the record you want to exclude from the query set. Then, click Apply to all issues , and then  Save . This deletes the patient record from the vendor query.
+ The Status column for the records included in the vendor query show a microscope icon, . Once you create a vendor query, the vendor query appears on the Vendor Queries page, where you can submit the query to the vendor. For more information, see Create, View, Delete, and Submit Vendor Query Sets . 
+## Edit Vendor Queries in a Vendor Query Set
+ You can edit the query type and query description, while adding vendor queries to a vendor query set. For example, if you want to add specific details into the issue description different from the default one. 
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the Approved Listings tab.
+- If necessary, filter or sort  the Approved Listings table to help find the listing you need. 
+- On the Listings page > Approved Listings table, select an approved listing.
+ All patients with data that match the criteria specified in the listing's conditional expression show in a table at the bottom of the page. 
+- In the table, select the patient records you want to add to the vendor query. 
+- Click Submit Vendor Queries above the table.
+- Enter the field details.
+The Add Vendor Queries page includes the following fields:
+ Column Descriptions 
+- Add to query set – Select from an existing query set or create a new one by clicking Add to new query set , typing into the fields and then clicking Apply . The Add to new query set window includes the following fields:
+- Query set name  – The query set name. 
+- Vendor – The list of approved vendors.
+- 
+ Note : Approved vendor groups appear in the Vendor list only if you configure vendor names on the Data Surveillance > Configuration > Vendors page. For more information, see  Vendor Configuration . 
+- Vendor query – Type of vendor query you want to query about. The types include:
+ Vendor Issue Types 
+- Missing – Data set has missing records. 
+- Mismatch – Data set records do not match. 
+- Extra Vendor Record – Data set contains extra vendor records. 
+- EDC fields to include – Data set variables from Rave auto-populate this field. You can deselect variables you do not want to include. 
+- Vendor fields to include – Data set variables from the vendor auto-populate the field. You can deselect variables you do not want to include. 
+- Query description – A default text description appears in the field based on the vendor query type you select. You can use the description or edit or delete as needed. 
+- Click the More icon , in the row of the record you want to edit. 
+- Click Edit Issue .
+The Edit Issue panel includes the following fields:
+ Field Descriptions 
+- Patient ID – Patient ID for the record.  
+- Listing – Listing number associated with the record. 
+- EDC Data – Vendor Data set variables. 
+- Vendor Data – External data set variables. 
+- Editable . Vendor query – Select the type of vendor query you want to query about.  Options include:
+- Missing – Data set has missing records. 
+- Mismatch – Data set records do not match. 
+- Extra Vendor Record – Data set contains extra vendor records. 
+- Editable . Query Description – A default text description appears in the field based on the vendor query type you select. You can use the description or edit or delete as needed . 
+- Click Apply .
+- Click Save . 
+## Mark Individual Records as Reviewed or Unreviewed or In Progress
+ You can investigate and review all data records captured by an approved listing's conditional expression. You can then mark records as reviewed; for example, if the record:
+- Is acceptable or not considered a finding. 
+- Was queried and received a sufficient response. 
+ You can also mark records as unreviewed. For example, if during post-analysis, your study team determines that a record previously marked as reviewed is an actual finding that should have been queried. In which case, you can mark that record as unreviewed to ensure your team does, indeed, track and review the finding. Or perhaps a record was marked as reviewed in error and should revert to unreviewed. 
+ You can also mark records as in progress; for example if the record: 
+- Was queried, and no response received. 
+- Is not yet acceptable as insufficient response received. 
+ Marking records as in progress indicates that the reconciliation cycle is in progress, and not complete, hence the record cannot be marked as reviewed, but is not either completely unreviewed.
+ Note : For records captured by listings that are currently being tracked for Clean Patient Tracker analysis , Clean Patient Tracker marks reviewed records as clean. All unreviewed records get counted in Clean Patient Tracker as unclean records and outstanding tasks.
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the Approved Listings tab.
+The Approved Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's object identifier (OID). 
+- Expression – The listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- Rave Enabled – A check mark indicates that you can submit Rave queries on the patient records captured by the listing. 
+- vendor queries   – A check mark indicates that the listing is part of a vendor query set. 
+- Refreshed By – The last user who refreshed the approved listing to show the latest results. 
+- Track – Enables you to activate or inactivate the approved listing for Clean Patient Tracker analysis. 
+- If necessary, filter or sort  the Approved Listings table to help find the listing you need. 
+- On the Listings page > Approved Listings table, select an approved listing.
+All patients with data that match the criteria specified in the listing's conditional expression show in a table at the bottom of the page. 
+- Optional : To filter the listing result's table to show only unreviewed, only reviewed, or all listing results, click the filter next to the table header, and select one of the following:
+- Unreviewed – The default section. Select to show only unreviewed listing results. 
+- Reviewed – Select to show only reviewed listing results. 
+- In Progress – Select to show only in progress listing results. 
+- Dropped – Select to show only dropped listing records. 
+- All – Select to show all listing results. 
+- Select one or more listing results.
+- Do one of the following:
+- To mark listing results as reviewed, click Mark Reviewed  above the table.
+In the listing results table, the Status column shows a Reviewed icon, , in the row corresponding to the reviewed listing result. The listing now shows in the listing results when filtered to show all or only reviewed records. 
+- To mark a listing result as unreviewed, click the More menu,  , in the row corresponding to the listing result you want to update, and then click Mark Unreviewed .
+In the listing results table, the Status column no longer shows a Reviewed icon, , in the row corresponding to the unreviewed listing result. The listing now shows in the listing results when filtered to show all or only unreviewed records. 
+- To mark a listing result as in progress, click the More menu,  , in the row corresponding to the listing result you want to update, and then click Mark In Progress. 
+In the listing results table, the Status column no longer shows an In Progress icon, , in the row corresponding to the listing result. The listing now shows in the listing results when filtered to show all or only in progress records. 
+## View Dropped Listing Records
+ A dropped status for records indicates records dropped after a data refresh as they no longer meet the criteria configured in the listing's conditional expression. 
+ When a listing is refreshed, records that no longer meet the filter criteria (due to data updates) are automatically removed from the view. This results in the loss of visibility for records that may have already been reviewed or contain comments. To ensure data continuity by retaining "dropped" records in the listing if they possess historical review data or user comments, regardless of whether they still satisfy the primary filter expression. 
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the Approved Listings tab.
+The Approved Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's object identifier (OID). 
+- Expression – The listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- Rave Enabled – A check mark indicates that you can submit Rave queries on the patient records captured by the listing. 
+- vendor queries   – A check mark indicates that the listing is part of a vendor query set. 
+- Refreshed By – The last user who refreshed the approved listing to show the latest results. 
+- Track – Enables you to activate or inactivate the approved listing for Clean Patient Tracker analysis. 
+- If necessary, filter or sort the Approved Listings table to help find the listing you need. 
+- On the Listings page > Approved Listings table, select an approved listing.
+All patients with data that match the criteria specified in the listing's conditional expression show in a table at the bottom of the page. 
+-  To filter the listing result's table to show only dropped records, click the filter next to the table header, and select .
+- Dropped –  to show only dropped listing records.
+ Note: Dropped records remain disabled, but continue to appear in the listing after a data refresh.
+## View and Export the Audit Trail of Actions Made on Listing Records
+ You can view the historical audit trail of all actions made on listing records in your study. Actions include:
+- Review status changes; that is, when records are marked as reviewed or unreviewed 
+- Comment actions 
+- Rave query actions 
+ Viewing the audit trail of actions made on listing records ensures traceability using a reportable single source of truth.
+ You can also export the audit trail for:
+- Additional data manipulation in Excel or CSV format 
+- Offline stakeholder communication 
+- Local record retention 
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the  Approved Listings tab.
+The Approved Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's Object identifier (OID) 
+- Expression – The listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- EDC Enabled – A check mark indicates that you can submit Rave queries on the patient records captured by the listing. 
+- Vendor Queries  – A check mark indicates that the listing is part of a vendor query set. 
+- Refreshed By – The last user who refreshed the approved listing to show the latest results. 
+- Track – Enables you to activate or inactivate the approved listing for Clean Patient Tracker analysis. 
+- If necessary, filter or sort  the Approved Listings table to help find the listing you need. 
+- On the Listings page > Approved Listings table, select an approved listing.
+All patients with data that match the criteria specified in the listing's conditional expression show in a table at the bottom of the page. 
+- Optional : To filter the listing result's table to show only unreviewed, only reviewed, or all listing results, click the filter next to the table header, and select one of the following:
+- Unreviewed – The default section. Select to show only unreviewed listing results. 
+- Reviewed – Select to show only reviewed listing results. 
+- In Progress – Select to show only in progress listing results. 
+- All – Select to show all listing results. 
+- Click the More menu, , in the row corresponding to a listing result whose audit trail you want to view. 
+- Click Audit Trail .
+The Listing Audit Trail page opens in a separate browser tab. 
+- Optional . To export the listing result's audit trail, click Export in the upper-right corner of the page, and then click one of the following:
+- To Excel 
+- To CSV 
+- To PDF

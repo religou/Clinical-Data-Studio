@@ -1,0 +1,67 @@
+# Unified Scheduler
+
+## Unified Scheduler
+ In clinical studies, data managers require the latest study data to start data review and reconciliation. Unified Scheduler is a capability that  automates data refreshes across Data Surveillance modules . It complements existing on-demand manual refreshes by ensuring data is ready for governance checkpoints and review windows automatically .  
+## What Is Unified Scheduler?
+ The Unified Scheduler is a centralized solution that automates data refreshes across Data Surveillance capabilities like Listings, AI Reconciliation, Patient Profiles, and Custom Graphs . Unified Scheduler complements existing on-demand refresh capabilities by supporting scheduled refreshes . 
+## What Is the Purpose of Unified Scheduler?  
+ Unified Scheduler provides a single location to manage scheduling and refresh activities for Data Surveillance capabilities . Rather than navigating to multiple modules, schedule and automate refreshes from one centralized hub . Scheduled refreshed data becomes available by 8:00 AM (EST) on the scheduled day . 
+## On Demand Versus Scheduled Refreshes  
+ Unified Scheduler does not replace on-demand refresh capabilities . You can start on-demand refreshes from within Listings , AI Reconciliation , Patient Profiles , and Custom Graphs to manually update data independently of predefined automated scheduled refreshes .  
+ In Listings and Custom graphs, you can perform an on-demand or scheduled refresh for up to 15 selected items in a single request . Items already scheduled or queued for data refresh today disable automatically and are unavailable for selection . 
+ Total daily refreshes combine both scheduled and on-demand refreshes : 
+- Listings and Custom Graphs:   Allow up to four refreshes per day for a listing or custom graph. 
+- Patient Profiles and AI Recon: Allow up to two refreshes per day per patient profile design or AI Reconciliation report . 
+## Who Uses Unified Scheduler? 
+ Data managers and study team members need specific permissions to schedule refreshes. 
+ Data Surveillance Capability 
+ Building Block Required 
+ User Action pertaining to refresh schedules 
+ | Unified Scheduler 
+ | View Data Refresh Scheduler 
+ | View  
+ | Manage Data Refresh Scheduler 
+ | Create or Edit 
+ | Listings 
+ | View Data Refresh Scheduler AND
+View or Manage Data Reviewer 
+ | View 
+ | Manage Data Refresh Scheduler AND 
+ Refresh Listings AND
+View or Manage Data Reviewer
+ | Create or Edit 
+ | AI Reconciliation 
+ | View Data Refresh Scheduler AND
+View or Manage Data Reviewer 
+ | View 
+ | Manage Data Refresh Scheduler AND 
+ Refresh AI Reconciliation AND
+View or Manage Data Reviewer
+ | Create or Edit 
+ | Patient Profiles 
+ | View Data Refresh Scheduler AND
+View Patient Profiles 
+ | View 
+ | Manage Data Refresh Scheduler AND  
+ Patient Profile Refresh AND All site access 
+ | Create or Edit 
+ | Custom Graphs (previously known as Visualizations) 
+ | View Data Refresh Scheduler AND
+View or Manage Data Reviewer 
+ | View 
+ | Manage Data Refresh Scheduler AND 
+ Refresh Custom Graphs AND
+View or Manage Data Reviewer
+ | Create or Edit 
+  For more information, see Data Surveillance Building Blocks and Permissions . 
+## What Are the Benefits of Unified Scheduler? 
+ Unified Scheduler enables you to: 
+- Ensure data is refreshed and available when needed for governance and review activities . 
+- Reduce manual effort and operational overhead . 
+- Support predictable workflows for data managers . 
+- Maintain a scalable and auditable framework for managing data refreshes . 
+- Manage data flexibility through scheduled and on-demand refresh options . 
+## How Does Unified Scheduler Work?
+ Unified Scheduler allows you to create scheduled data refreshes for modules based on permissions. Scheduled refreshes follow logic and rules for each module.  For Listings , you can create multiple batches with a maximum of 15 listings per batch. Each listing belongs to only one schedule, and the total daily refreshes, combining scheduled and on-demand, is limited to 20 listings. For AI Reconciliation, a single global schedule updates all eight reports simultaneously in the study.  Patient Profiles allows for multiple schedule batches, but each individual batch contains only one published design. You can create multiple batches for Custom Graphs , but each custom graph belongs to a single schedule, and each schedule includes a maximum of 15 graphs per batch. 
+## How Do I Access Unified Scheduler?
+ Create, Edit, and Delete Data Refresh Schedules .

@@ -1,0 +1,15 @@
+# Downloadable Import Summary
+
+## Downloadable Import Summary
+## Description
+ You can download detailed import summaries for import jobs with errors or warnings. 
+ Feature/enhancement stories referenced in this article:
+ MCC-560668 
+## Affected Roles
+ All.
+## Advantages
+ You can review the import summary to identify issues that cause the import to fail otherwise flag warnings. 
+## User Impact
+ The download option appears in the Import Summary panel for import jobs with errors or warnings .  
+## Special Considerations
+ None.

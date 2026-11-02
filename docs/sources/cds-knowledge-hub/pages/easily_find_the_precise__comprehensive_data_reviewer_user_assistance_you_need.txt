@@ -1,0 +1,46 @@
+# Easily Find the Precise, Comprehensive Data Reviewer User Assistance You Need
+
+## Easily Find the Precise, Comprehensive Data Reviewer User Assistance You Need
+## What Is New?
+ The Medidata Detect Knowledge Hub includes fully revamped, reorganized, and rewritten Data Reviewer user assistance  including: 
+- High-level, comprehensive information about Data Reviewer's purpose, benefits, data workflow, user workflow, and targeted user base. 
+- The full scope of tasks and actions you can perform in Data Reviewer including: 
+- Conceptual information explaining each task, when and why you would perform each task, and special considerations to help you optimally perform each task. 
+- More detailed and accurate step-by-step instructions. 
+- A redesigned table of contents with several new articles with titles that clearly and accurately depict the articles' contents. 
+ Numerous locations within the Data Reviewer user interface also now include progressive user assistance (PUA) indicated by a clickable icon. 
+## What Is the Impact?
+## Users/Roles
+ All Medidata Detect users.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The revamped Data Reviewer user assistance allows  you to q uickly, easily, and self-sufficiently : 
+- Find the precise Data Reviewer user assistance you need. 
+- Understand the purpose and benefits of Data Reviewer, the features it provides, and the full scope of actions you can perform. 
+- Use Data Reviewer to its optimal potential. 
+## Where Do I See the Change?
+ You can find the improved Data Reviewer user assistance in the Medidata Detect Knowledge Hub > Data Reviewer section and in the Data Reviewer user interface.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Data Reviewer 
+- View and Investigate Your Study's Data Sets 
+- Data Listings 
+- View, Create, and Edit Draft Listings 
+- Preview a Draft Listing's Results 
+- Approve Draft Listings 
+- View and Edit Approved Listings 
+- Review an Approved Listing's Results 
+- Track and Untrack Individual Approved Listings for Clean Patient Data Analysis 
+- Refresh an Approved Listing to View the Listing's Latest Results 
+- Export an Approved Listing's Results 
+- View and Export a Listing's Historical Data Snapshots 
+- Listings Manager 
+- View Your Study's Listings in Listings Manager 
+- Activate and Deactivate Listings 
+- Add and Store Listing Configurations as Reusable Templates 
+- View and Export Listing Configurations Audit Reports 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

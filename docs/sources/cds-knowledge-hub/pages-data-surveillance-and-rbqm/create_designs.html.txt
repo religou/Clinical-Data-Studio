@@ -1,0 +1,18 @@
+# Create Designs
+
+## Create Designs
+ The workflow progress bar below depicts where create designs occurs within the recommended patient profile design workflow.
+ You must initially create a design to start the Design page, which serves as your profile design work space.  
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+The Patient Profile Designs page shows. 
+- On the Patient Profile Designs page, click Draft Designs . 
+- Click Create New Design . 
+- Type a design name.
+ Note : The design name must be distinct from any existing design's name in the study. If you use an existing design name the " The design name exists in Patient Profiles. Rename design". message appears.
+ The Design page > Elements tab appears.
+ Note : If a master design has not been set yet, the Published Designs list displays "A master design has not yet been setup" message. 
+ The first design you create and save does not automatically become the master design. It is a draft design and becomes a master only after you publish the design. You can reassign the master design as necessary. 
+ Tip : You can also create a design by duplicating an existing design .
+## Next Step
+ Set Upper/Lower Time Limits

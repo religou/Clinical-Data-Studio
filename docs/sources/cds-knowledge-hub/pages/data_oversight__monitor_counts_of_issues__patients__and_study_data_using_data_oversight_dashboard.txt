@@ -1,0 +1,142 @@
+# Data Oversight: Monitor Counts of Issues, Patients, and Study Data Using Data Oversight
+
+## Data Oversight: Monitor Counts of Issues, Patients, and Study Data Using Data Oversight
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the  released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Feature (New Functionality)
+ Functionality or Module 
+ | Data Oversight
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ While conducting studies, Lead Clinical Data Managers (LCDMs) and Clinical Data Team Leads (CDTLs) may need to navigate through multiple systems to gather critical operational data needed to manage their studies effectively. This leads to: 
+- Lack of complete visibility – It is time-consuming to get a complete view of Clinical Data Studio (CDS) operational activities, and user work compliance without manually consolidating data from various sources. 
+- Increased risk and inefficiency –The necessity to switch between capabilities to check on statuses and risk, introduces unnecessary friction, increasing the time spent on oversight, and potentially delays identifying critical issues. 
+- Delayed decision-making – Without centralized metrics, lead data managers struggle to quickly answer fundamental questions about work progress, delaying timely interventions and increasing operational risk for the sponsor. 
+ To overcome this, Clinical Data Studio now includes a Data Oversight dashboard.
+ The Data Oversight dashboard serves as a singular place to understand key operational activities like set up, data import, refresh, and data review as documented in Data Connect and Data Surveillance.  
+ Benefit to Users 
+ | Data Oversight provides:
+- Complete operational transparency – Lead Clinical Data Managers (LCDMs) and Clinical Data Team Leads (CDTLs) can access critical operational metrics and user work compliance from a single page. 
+- Flexibility to select key operational metrics – You can select metrics of interest to display on the Data Oversight dashboard, such as:
+- Metrics covering reviewed patient profiles, and last refresh date. 
+- Visibility into listings created, last refresh date, and records reviewed/not reviewed per listing. 
+- Tracking unreviewed AI Reconciliation data per report. 
+- Tracking reviewed vendor queries per query set. 
+- Reduced friction and risk – By centralizing information, Data Oversight avoids the need to switch between multiple applications, bringing critical information directly into one page.  
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+- Lead Clinical Data Managers (LCDMs) and Clinical Data Team Leads (CDTLs). 
+- All users with the View CDS Data Oversight building block. 
+ Impact to Workflow Processes 
+ Data Oversight reads data from the following modules based on their latest refresh data snapshot.
+- Patient Profiles. 
+- AI Reconciliation. 
+- Listings. 
+- Vendor Queries, and 
+- Data Connect. 
+ Updates made to records, such as marking listings as reviewed or unreviewed, or similar actions in any of the  modules, reflects in the metrics shown on the Data Oversight dashboard instantly. 
+ Impact to Applications 
+ Data Oversight reads data from the following capabilities:
+- Patient Profiles. 
+- AI Reconciliation. 
+- Listings. 
+- Vendor Queries, and 
+- Data Connect. 
+ Impact on Interface 
+ Clinical Data Studio includes a new Data Oversight tab with the following details:
+ Tip : Click the image to enlarge.
+ Number 
+ Description 
+ | 1 
+ | Clinical Data Studio now includes a new tab, Data Oversight . 
+ | 2 
+ | Data Oversight page – If you click the Data Oversight tab, a page with the title Data oversight appears, and displays all the configured modules and their associated metrics. Within the same study, two different users can have completely different looking Data Oversight dashboards, even if they have the same access. This is because you can configure the modules you want on the dashboard. 
+ | 3 
+ | Modules Showing Metrics – Each configured module shows metrics relevant to actionable insights. 
+ Module 
+ Metrics 
+ | Data Connect 
+ | Number of total datasets, by type 
+- Imported 
+- Derived  
+- RAVE EDC   
+ Number of data issues by status:  
+- Data warning 
+- Data error 
+- Activation error  
+- Activation upgrade available  
+ Data Warning and Data Error show components contributing to the issue:  
+- Imports  
+- Exports 
+- Transformation 
+ | Patient Profiles 
+ | Count of all Patient Profile master designs only, categorized by status; draft or approved. You can select the design you want to monitor. For any design you select, the dashboard shows: 
+- Refresh date 
+- Patient count  
+- Reviewed 
+- Needs Review 
+- Unreviewed 
+- Total   
+ | Listings 
+ | Count of all Listings as tracked in Clean Patient Tracker, categorized by status; draft or approved.  You can filter or sort listings. You can select the listing you want to monitor. For any listing you select, the dashboard shows: 
+- Refresh rate 
+- Created Date 
+- Refresh date  
+- Refreshed by  
+- Record count 
+- Reviewed 
+- UnReviewed 
+- In Progress 
+- Total 
+ | AI Reconciliation 
+ | It shows the last r efresh date. It shows the count of total events not reviewed. For each of the individual reports, shows:  
+- Skipped 
+- Success 
+- Failed 
+ For every   report that successfully refreshes it   counts:  
+- Reviewed  
+ | Vendor Queries 
+ | Count of all vendor query sets by status; submitted, completed, or in progress. For each vendor query set, you can see the following: 
+- Vendor group name 
+- Sent date  
+- Due date  
+- Completed  
+- Record status  
+- Reviewed 
+UnReviewed
+- In Progress 
+- Total  
+ | 4 
+ | 
+ Configure Widgets – If you click the Configure Widgets button, a slide-out panel displays all the modules you can configure metrics for on the Data Oversight dashboard. Modules configured appear selected. If you make any new selections and click Apply, the dashboard updates to show the new module's metrics.
+ Note : You can select the widgets you want to show on the Data Oversight dashboard. as per your preference.This means two study team members can have different widgets set up, and a Data Oversight dashboard that shows metrics accordingly. 
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | 
+ High
+ Learning Resource Updates 
+ | 
+ The following lists any new or added resources that support this change:
+- New Article: Data Oversight  
+- New eLearning: eLearning Name 
+ Special Considerations 
+ |   To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

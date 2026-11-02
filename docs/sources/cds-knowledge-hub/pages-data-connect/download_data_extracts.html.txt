@@ -1,0 +1,12 @@
+# Download Data Extracts
+
+## Download Data Extracts
+ After creating an export , you can download a zipped file containing the extracted data. The name of the zipped file and its contents follow the name and output configurations set while creating the export. You can download an export's data extracts from a given export's Run History screen.
+ For details about specific data sets from extracted files, see  Available Exportable Data Objects .
+ Tip : You can receive notifications about completed exports through email and the Medidata Message Center . See  View Exports Ready To Download Notifications for more information.
+- Access Data Connect , and click   Exports   in the left-hand menu. 
+- From the Exports screen, select an export. 
+- Click the Export Run History tab. 
+- Click >  Download, to download any available extracted data for the selected run. 
+ Tip : You can download the extract for the latest run from the Exports screen by clicking an export's Options icon   >  Download Latest Run .
+ Important :  The data extract file is only available through the interface for 60 days after a successful export run. However, you can send  a copy of the   extracted data to an external file location. Extract copies saved to external locations are   not subject to this download time limit. Client-side file location administrators specify the file retention periods and access permissions for these locations. The setup of, and access to, external repositories is not under Medidata control. For details on setting up external file locations, see  Configuring External File Connections .

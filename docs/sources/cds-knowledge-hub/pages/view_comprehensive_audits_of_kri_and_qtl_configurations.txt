@@ -1,0 +1,23 @@
+# View Comprehensive Audits of KRI and QTL Configurations
+
+## View Comprehensive Audits of KRI and QTL Configurations
+## Description
+ Detect Configuration Manager's KRI Configurations module and QTL Configuration module now integrate with Audit Viewer so that you can view audit reports of KRI and QTL configurations . 
+## Affected Roles
+ Detect users assigned the Manage KRI Configuration and Manage QTL Configuration permissions.
+## Advantages
+ Audit reports:
+- Provides Detect Configuration Admins with a clear history and coordination of KRI and QTL configuration changes made. 
+- Enable sponsors to quickly and effectively show compliance with clear, comprehensive audit details of actions performed in KRI Configuration and QTL Configuration. 
+- Provide sponsors with more oversight to ensure study data is monitored correctly. 
+## User Impact
+ You can click  next to the Detect Configuration Manager's Key Risk Indicators page header or Quality Tolerance Limits page header. When  you click , the KRIs Audit Report or QTLs Audit Report appears, respectively, in Audit Viewer on a separate tab. In Audit Viewer, you can see the audit history of the KRI or QTL configurations and modifications in your study environment. 
+## Knowledge Hub Updates
+ The Medidata Detect Knowledge Hub provides new and updated content to support this feature: 
+- Generate KRI Configuration Audit Reports 
+- Generate QTL Configuration Audit Reports 
+## Special Considerations
+ You can only view actions created against sites that you have access to.
+ Audits only report actions performed as of the Detect Configuration Manager 2023.1.0 release. Actions performed before the 2023.1.0 release are not audited.
+ The Audit Viewer report may show a configured KRI or QTL's details separated across several records in the list.
+ You may see multiple records for a KRI or QTL creation, because the metadata and configuration are coming from different tables.

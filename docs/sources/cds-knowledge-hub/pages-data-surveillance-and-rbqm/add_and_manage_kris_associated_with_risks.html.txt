@@ -1,0 +1,153 @@
+# Add and Manage KRIs Associated with Risks
+
+## Add and Manage KRIs Associated with Risks
+ Key Risk Indicators (KRIs) are predefined study metrics that enable you for the duration of the study to systematically:  
+- Identify and track known or anticipated risks to data quality. 
+- Evaluate country and site performance in a study. 
+- Ensure study conduct operates as planned. 
+ Examples of KRIs include patient accrual rates and data query rates.
+ You can track KRI performance using KRI values . KRI value calculations reflect as a percentage, count, mean, rate, or standard deviation. 
+ You can:
+- Link KRIs to risks to evaluate and monitor whether the risk level is improving based on how you are managing or mitigating the risks. 
+- View and edit the details of KRIs associated with risks 
+- Unlink KRIs from risks. 
+ To learn more about KRIs, see About Key Risk Indicators .
+## Link and Unlink KRIs to Risks
+ Key Risk Indicators (KRIs) are predefined study metrics that enable you for the duration of the study to systematically:  
+- Identify and track known or anticipated risks to data quality. 
+- Evaluate country and site performance in a study. 
+- Ensure study conduct operates as planned. 
+ Examples of KRIs include patient accrual rates and data query rates.
+ You can track KRI performance using KRI values . KRI value calculations reflect as a percentage, count, mean, rate, or standard deviation. 
+ You can link KRIs to risks. If necessary, you can also unlink KRIs from risks. To learn more about KRIs, see About Key Risk Indicators .
+## Link KRIs to Risks
+ You can link KRIs to risks in two ways: 
+- You can create a KRI directly in Risk Management. However, this type of KRI's details always require manual entry and updates, even if your instance of Risk Management is integrated with Data Surveillance and RBQM . 
+ Note : You can use a KRI created in Risk Management only for tracking purposes. You cannot share a KRI created in Risk Management with Detect currently.
+- If your instance of Risk Management is integrated with Medidata Detect, then you can link preconfigured system KRI or custom KRIs derived from KRI Configuration . For such KRIs, the KRI value automatically populates and derives from Medidata Detect's statistical analysis and aligns with KRI Dashboard data refreshes.
+ You can access the risks to which you want to associate KRIs in two ways:
+- When viewing a holistic view of the risks in your study's risk inventory. 
+- When viewing the risks associated with specific critical data, critical processes, or risk categories in the risk assessment. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page : In the Risks tab > Risks table > Risk ID column, click the Risk ID for the risk to which you want to associate a new KRI. 
+- If on the Critical Data page, Critical Processes page, or Categorization page, do one of the following :
+- To link KRIs to a new risk : In the Add Risk column, click the blue Plus icon, , in the row of the corresponding critical data, critical process, or risk category to which you want to associate a new risk.
+ Note : Before you can add a KRI to a new risk, you must first enter a Risk Name and Review Frequency on the Risk Details tab. To learn more, see Add Risks to the Risk Assessment .
+- To link KRIs to an existing risk :  In the Name column, click the Down Arrow , , to the left of the critical data, critical process, or risk category whose risks you want to view, and then in the Risk ID column, click the risk ID to which you want to associate a new KRI. 
+- In the Risk Review or Add Risk subpage, click the  KRIs tab. 
+- Click the Key Risk Indicator menu, and then do either of the following:
+- To create a new, unique KRI, click >> Create New KRI . 
+- To link a preconfigured system KRI or custom KRI that already exists in your study's Detect Configuration Manager > KRI Configuration > Key Risk Indicators list, click the name of the KRI you want to use.
+ Note : If your instance of Risk Management is integrated with Medidata Detect, then you can select system KRIs and custom KRIs from the Key Risk Indicator menu. If your instance is not integrated with Detect, then you can only select the following system KRIs:
+- AE Entry Delay
+- Non-System Query Delay
+- Number of AEs per Subject-Year
+- Number of SAEs per Subject-Year
+- Percent Missing Visit
+- Percent Non-System Query
+- Percent Out of Window Visit
+- Percent System Query
+- Screen Failure Percentage
+- System Query Delay
+- Visit Entry Delay
+ You cannot edit any system KRI fields in Risk Management. When Detect is integrated with Risk Management, Detect analyzes the data and populates the KRI Value field. Otherwise, the KRI Value field is blank. 
+- Select or enter the following: 
+ Field Descriptions 
+- Name – This field only appears when creating a new, unique KRI. Enter up to 64 characters for the KRI name. 
+- Description – Enter up to 255 characters to describe the KRI. Examples include: P atient accrual rates or data query rates. If your instance of Risk Management is integrated with Medidata Detect and the KRI is a system KRI or a custom KRI derived from KRI Configuration, then you cannot edit the Description. The Description entry automatically derives from and gets populated by Detect. 
+- Value – Enter a numeric KRI Value from a third-party tool or vendor to track the KRI. This number can come from a third-party system or from a statistical tool you use to calculate KRI values.
+ Note : If your instance of Risk Management is integrated with Medidata Detect and the KRI is a system KRI or a custom KRI derived from KRI Configuration, then you cannot edit the value. The KRI value automatically populates and derives from  Medidata Detect's statistical analysis of your study data. 
+ Tip : For system KRIs or custom KRIs that derive from KRI Configuration, the Medidata RBQM Metric Status shows one of the following statuses: 
+- Integrated – The KRI Value is populated by Detect. 
+- Not Available – Appears when: 
+- Your instance of Risk Management is not integrated with Medidata Detect, or
+- The KRI Value analysis from Medidata Detect is unavailable.
+ Note : If your instance of Risk Management is integrated with Medidata Detect, check with your Detect data administrator to determine why the KRI analysis data is not being pulled into Risk Management. The refresh of KRI analysis data in Risk Management occurs simultaneously with the refresh of KRI Dashboard data.
+ The Medidata RBQM Metric Status does not appear for KRIs that were originally created in Risk Management .
+- Click Save . 
+## Unlink KRIs to Risks
+ You can unlink KRIs to risks; for example, if you no longer deem the KRI as a good measurement of risk performance.
+ Note : If your instance of Risk Management is integrated with Medidata Detect, and the KRI you want to unlink is integrated with KRI Configuration, then unlinking the KRI only removes its association from the risk in Risk Management. The KRI remains stored in KRI Configuration and is available to link to risks again in Risk Management.
+ You can access the risks to which you want to unlink KRIs in three ways:
+- When viewing a holistic view of the risks in your study's risk inventory. 
+- When viewing a holistic view of the KRIs associated with risks in your study. 
+- When viewing the risks associated with specific critical data, critical processes, or risk categories in the risk assessment. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page, do either of the following :
+- In the Risks tab > Risks table > Risk ID column, click the Risk ID containing the KRI you want to unlink. 
+- Click the KRIs tab, and then in the Attached to Risk ID column, click the risk ID containing the KRI you want to unlink. 
+- If on the Critical Data page, Critical Processes page, or Categorization page, do one of the following : In the Name column, click the Down Arrow , , to the left of the critical data, critical process, or risk category whose risks you want to view, and then in the Risk ID column, click the risk ID containing the KRI you want to unlink. 
+- In the Risk Review subpage, click the  KRIs tab. 
+- If necessary, if there are multiple KRIs associated with the risk, click the down arrow next to the KRIs tab, and select the KRI you want to unlink from the risk.
+- To the right of the Key Risk Indicator field, click Remove KRI .
+The KRI is no longer listed in the Risk Review window > KRIs tab, and the KRI is no longer linked to the risk. 
+## View and Edit the Details of KRIs Associated with Risks
+ You can view a KRI's details:
+- For oversight to ensure the study team is following the risk plan. 
+- As a reference for another study's risk assessment. 
+- To view the KRI's latest recorded KRI Value. 
+ You can also edit a KRI's details. For example, you can:
+- Update the KRI name or description to correct an entry error, typo, or for more clarity. 
+- Update the KRI's value. 
+ Note : You can only edit KRIs that were originally created in Risk Management. If your instance of Risk Management is integrated with Medidata Detect, then you cannot edit system KRIs or custom KRIs that derive from KRI Configuration. 
+ You can access the KRIs whose details you want to view or edit in three ways:
+- When viewing a holistic view of the risks in your study's risk inventory. 
+- When viewing a holistic view of the KRIs associated with risks in your study. 
+- When viewing the risks associated with specific critical data, critical processes, or risk categories in the risk assessment. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page, do either of the following :
+- In the Risks tab > Risks table > Risk ID column, click the Risk ID containing the KRI whose details you want to view or edit. 
+- Click the KRIs tab, and then in the Attached to Risk ID column, click risk ID containing the KRI whose details you want to view or edit. 
+- If on the Critical Data page, Critical Processes page, or Categorization page : In the Name column, click the Down Arrow , , to the left of the critical data, critical process, or risk category whose risks you want to view, and then in the Risk ID column, click the risk ID containing the KRI whose details you want to view or edit. 
+- In the Risk Review subpage, click the  KRIs tab. 
+- If necessary, if there are multiple KRIs associated with the risk, click the down arrow next to the KRIs tab, and select the KRI whose details you want to view or edit .
+- View, select, or enter the following: 
+ Field Descriptions 
+- Key Risk Indicator – Enter a unique KRI name up to 64 characters in length. If your instance of Risk Management is integrated with Medidata Detect and the KRI is a system KRI or a custom KRI derived from KRI Configuration, then you cannot edit the name. The KRI name automatically derives from and gets populated by Detect. 
+- Description – Enter up to 255 characters to describe the KRI. Examples include: P atient accrual rates or data query rates. If your instance of Risk Management is integrated with Medidata Detect and the KRI is a system KRI or a custom KRI derived from KRI Configuration, then you cannot edit the Description. The Description entry automatically derives from and gets populated by Detect. 
+- Value – Enter a numeric KRI Value from a third-party tool or vendor to track the KRI. This number can come from a third-party system or from a statistical tool you use to calculate KRI values.
+ Note : If your instance of Risk Management is integrated with Medidata Detect and the KRI is a system KRI or a custom KRI derived from KRI Configuration, then you cannot edit the value. The KRI value automatically populates and derives from  Medidata Detect's statistical analysis of your study data. 
+ Tip : For system KRIs or custom KRIs that derive from KRI Configuration, the Medidata RBQM Metric Status shows one of the following statuses: 
+- Integrated – The KRI Value is populated by Detect. 
+- Not Available – Appears when: 
+- Your instance of Risk Management is not integrated with Medidata Detect, or
+- The KRI Value analysis from Medidata Detect is unavailable.
+ Note : If your instance of Risk Management is integrated with Medidata Detect, check with your Detect data administrator to determine why the KRI analysis data is not being pulled into Risk Management. The refresh of KRI analysis data in Risk Management occurs simultaneously with the refresh of KRI Dashboard data.
+ The Medidata RBQM Metric Status does not appear for KRIs that were originally created in Risk Management .
+- Click Save .

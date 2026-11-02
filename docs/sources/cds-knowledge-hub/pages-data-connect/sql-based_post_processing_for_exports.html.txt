@@ -1,0 +1,15 @@
+# SQL-based Post Processing for Exports
+
+## SQL-based Post Processing for Exports
+## Description
+ For select users, you can configure export jobs to perform post processing by entering SQL code.
+## Affected Roles
+ Select Internal users with the Extractor Admin building block on their platform role and other clearance.
+## Advantages
+ You can perform post processing on extracted files so that the downloaded files appear in a format that fits your specific requirements.  
+## User Impact
+ For users with the correct permissions, the Select Source step of the New Export Job workflow includes the Enable Post Processing option. Enabling the option adds the Post Processing step between the Select Data and Schedule Job Runs steps. The Post Processing step includes a form where you can configure post processing by entering SQL code and other settings.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,17 @@
+# New Warning Message for Incomplete Derived Variable Expressions
+
+## New Warning Message for Incomplete Derived Variable Expressions
+## Description
+ While building derived variables with the Expression Builder workflow, a warning message appears if you leave an incomplete expression.  
+## Affected Roles
+ All roles with the Manage Derived Variables building block. 
+## Advantages
+ The warning message helps ensure that you do not accidentally create a derived variable with incomplete expressions that produce incorrect results. 
+## User Impact
+ You can find the Expression Builder option in the Derived Variable Type menu. To build an expression, you must select a combination of data set variables from the Derived Variables > Data Sets tab and operators from the Derived Variables > Operators tab. If you leave an incomplete expression, the following message appears:  "Complete the expression by specifying at least one variable, one operator, and one variable or value to compare". For details on building expressions, see  Create Derived Variable from Expression . 
+ Existing derived variables are unaffected by this update. 
+## Knowledge Space Updates
+ The following article has been updated in the MEDS Data Viewer Knowledge Space to support this enhancement: 
+- Create Derived Variable from Expression 
+## Special Considerations
+ None.

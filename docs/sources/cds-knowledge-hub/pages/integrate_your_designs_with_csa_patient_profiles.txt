@@ -1,0 +1,29 @@
+# Integrate Your Designs With CSA Patient Profiles
+
+## Integrate Your Designs With CSA Patient Profiles
+## Description
+ Patient Profiles integrates with CSA so that you can run CSA's data analytics on the data defined within the profile design to:
+- identify issues, trends, and anomalies in your study data; and 
+- view advanced report visualizations on your study data. 
+ CSA is where the patient profiles with individual subject data is viewed.
+ It is important to note that CSA uses your study environment's master design for analytics and to generate profiles. The first design created in your study is the master design by default. However, you can reassign master designs.
+ After adding elements to your study design, you can adjust how CSA to analyzes data within specific elements when you run your profile design through CSA's analytics. For example, you can change element settings regarding categories, weights, tags, and so on.  When you add elements to your design, Patient Profiles automatically assigns default CSA settings.  After completing your profile design layout and before viewing the design report, we recommend that you review the CSA settings for your elements and update settings if necessary. 
+## Affected Roles
+ All.
+## Advantages
+ See the Description section.
+## User Impact
+ On the Setting page > CSA tab, you can specify the following CSA settings based on element type:
+ Flag 
+- Category  –  Defines how CSA will apply weight to the flag during the analytics process. 
+ Table 
+- Short Name  –  You can apply short names to tables to make CSA reports less text-heavy and easier to read. The short name must be unique and can only be used for one element in your design. Entering a duplicate short name causes a system error. 
+- SDTM Type  – Determines which category the CSA findings are tagged with in the CSA OneView table. 
+- Stack Name  – Enter a name if you want to combine data from two tables to run through in CSA's analytics the data from two tables to be combined in the analytics, instead of being analyzed as 2 separate elements, the designer will add the same Merge Name to both elements. It does not affect the dislay of the 2 tables, only how it is analyzed. 
+- Weight  – Determines which CSA findings display in the CSA OneView table. Typical values are between 0 and 3.5. Give more important tables weights greater than 1. 
+- Merge Name  – Enter a name to combine data from two separate tables to run through CSA's analytics the data from two tables to be combined in the analytics. Merging data does not affect the display of the two tables, only CSA analyzes the data. 
+- Instrumental  – Defines the element as not important to analytics because it is not reliable data or not valuable to analytics. For example, data collected for patient questionnaires. 
+ Timeline 
+- Short Name  – You can apply short names to tables to make CSA reports less text-heavy and easier to read. The short name must be unique and can only be used for one element in your design. Entering a duplicate short name causes a system error. 
+## Special Considerations
+ None.

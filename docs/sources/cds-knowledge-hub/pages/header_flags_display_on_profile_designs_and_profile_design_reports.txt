@@ -1,0 +1,19 @@
+# Header Flags Display on Profile Designs and Profile Design Reports
+
+## Header Flags Display on Profile Designs and Profile Design Reports
+## Description
+ Flags are conditional expressions that highlight important, high-level study information about patients. Profile designs show flags as headers if the study contains patient data corresponding to set flags. If patient data does not meet the set conditions, no flag information appears in the header. Profile design reports show flags in the header section of the patient's report if you set flags for a patient's profile. 
+## Affected Roles
+ All. 
+## Advantages
+ Profile reviewers can use data matching set flags to quickly assess a patient's status  —  such as, whether a patient died or had a serious adverse event (SAE)  —  to determine the study's progress. 
+## User Impact
+- On the Design page > Profiles tab, when you select a patient in the Patient Selector, the Patient Profile tab shows flags in red in the header section if patient data matches set flags in the patient's profile design. 
+- On the Design page > Elements tab, if you add header flags, then on the Reports page > Profile Design tab, flag information appears under the headers section on the profiles design report. If you do not set flags for a patient's profile, no flag information appears on the corresponding profile design report.
+## Knowledge Space Updates
+ The Medidata Patient Profiles Knowledge Space provides updated content to support this enhancement: 
+- Add and Manage Flags 
+- Add and Manage Headers 
+ Special Considerations 
+ Flags are heavily weighted during the CSA analytics process. Therefore, we encourage you to use flags for information that CSA can analyze. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

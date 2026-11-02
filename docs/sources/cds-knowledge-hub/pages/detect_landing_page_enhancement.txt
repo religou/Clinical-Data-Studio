@@ -1,0 +1,17 @@
+# Detect Landing Page Enhancement
+
+## Detect Landing Page Enhancement
+## Description
+ The cards on the Detect landing page now load independently, as available, which enables faster page load time. 
+## Affected Roles
+ All.
+## Advantages
+ Faster Detect landing page load time.
+## User Impact
+ A spinner now shows on each card of the Detect landing page to indicate that data is being loaded, and once the data is available, the graphs will update. All links on the cards remain active and available while the graphics are loading.
+## Knowledge Updates
+ Here are links to new and updated content to support this feature/enhancement: 
+ None.
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

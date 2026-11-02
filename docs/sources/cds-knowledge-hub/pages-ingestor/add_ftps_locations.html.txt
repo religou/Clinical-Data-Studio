@@ -1,0 +1,48 @@
+# Add FTPS Locations
+
+## Add FTPS Locations
+ You can configure export jobs to send a copy of extracted files to a server using FTPS . To do so, you must first add one or more FTPS locations to your client division. After adding one or more FTPS locations, the list of locations is available to other users within your study group.  
+ Important : 
+- You are responsible for the access policies, file retention policies, and security of your external FTPS clients. Medidata does not manage your clients' configurations. 
+- To ensure proper connectivity and compatibility with Medidata's servers:
+- Update your FTPS clients' permit-list and deny-list to accept dynamic IP addresses to ensure proper connectivity and compatibility with Medidata's servers. 
+- The FTPS account must have full access to the parent directory specified in the FTPS settings folder path and all subfolders. This includes read, write, update, and delete privileges.
+- In Extractor, click Settings to enter the Output Settings screen. 
+- Click Add Locations , and enter the following settings:
+- 
+ Data Transfer Direction 
+ Configures the FTPS location to allow data export, data import, or both.
+- Export Data  –  Select to create a location for exporting data. Only applicable for Extractor export jobs. 
+- Import Data –  Select to create a location for importing data. Only applicable for Ingestor import jobs. 
+- 
+ Location Type 
+ Extractor only supports the FTP over SSH (FTPS) protocol supported by Extractor.
+- 
+ Host 
+ The destination FTPS server's full host name.
+- 
+ Port 
+ The standard FTPS port is 22. 
+- 
+ Path 
+ The relative path from the FTPS root to the destination folder for the connection.
+ Important : The path can be case-sensitive depending on your FTPS configuration.
+- 
+ User Name 
+ The username with write access to this target folder. Use connection-specific user names for these write-access connections to the FTPS server.
+- 
+ Password 
+ Specify either the location password. This is a plain text field, with no validation.
+- 
+ Encryption Mode 
+ Select the encryption mode as defined by your FTPS policy
+- 
+ Name 
+ This name appears to a Extractor user when creating an export job. Ensure that this name is meaningful to the other users.
+- Click Add Location . 
+ Tip : More Actions for Output Locations 
+ After creating output locations, you can perform the following actions:
+- Test Location – You can test output locations on the Output Locations screen:
+- Find the location you created, and click Options > Test Location . 
+- Delete   Location – You delete output locations on the Output Locations screen:
+- Find the location you created, and click Options > Delete Location .

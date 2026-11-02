@@ -1,0 +1,15 @@
+# Text Versus Text Analysis Plot X- and Y-Axes Display Text in Alphanumeric Order
+
+## Text Versus Text Analysis Plot X- and Y-Axes Display Text in Alphanumeric Order
+## Description
+ When you view a Text Versus Text Analysis plot on the Error Plots page, the x- and y-axis labels display in alphanumeric order.
+## Affected Roles
+- Data managers 
+- Central monitors 
+- Medical monitors 
+## Advantages
+ In previous Detect releases, the x- and y-axis labels inconsistently displayed in a different order when viewing frequency distribution plots visualizing text versus text analysis. Displaying the labels consistently in alphanumeric order ensures that all users see the same labels in the same order when viewing plots.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

@@ -1,0 +1,42 @@
+# Imports: Import External Data with Data Connect
+
+## Imports: Import External Data with Data Connect
+## What Is New?
+ Data Connect’s Imports capability provides new functionality that manages and imports data from external sources. Users can: 
+- Add External Data Sources – Users can set up a data source connection for a study environment using external SFTP and S3 source connections. 
+- Add Datasets –
+- Users can define a dataset according to the Data Transfer Agreement (DTA) expected from their source systems. 
+- The configuration wizard guides users through this process by prefilling the list of expected columns based on a sample file selected by the user. Users can then determine the expected data type and key fields for each column. 
+- Users can see a preview of the chosen file to assist with configuration. They can run validation on the column's data type and key fields against the previewed sample data, ensuring accuracy. 
+- Users can set import criteria to define the rules for selecting a file to transfer. They can adjust the dataset status to either actively import or pause ongoing imports.  
+- This release supports CSV data files. 
+- Monitor Processing Status – 
+- Users can track an import's progress and the status of imported files. An automated schedule runs every 2 minutes to check for new files in the source folders of all active datasets. The imported file also appears.  
+- Users can view the imported records, records with errors, and the reason for any errors when applicable. 
+- Edit Datasets with Versioning – 
+- After saving a dataset, users can edit its specifications to correct misconfigurations or update definitions in response to source system specification changes. 
+- Users can save a dataset as a draft and publish it to create a new version. 
+- Edit Import Criteria –
+- Users can edit the criteria for selecting a file from source folders even after saving a dataset.  
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ There is no change to the existing data transfer configuration process. These updates augment existing functionalities. Users can now, however, import data from S3 locations.
+## Other Applications
+- Data Connect > Datasets and Transformations – Users can see the datasets imported with Imports when using Data Connect's Datasets module or the Transformations module. 
+- Data Surveillance and RBQM – Users can use transform imported data for use by downstream capabilities such as Data Surveillance and RBQM. 
+- Data Connect > Exports – Users can export transformed data using imported external data from Data Connect's Exports module. 
+## How Do I Benefit?
+ With the ability to:
+- Import datasets from external sources, users can use Medidata's risk-based monitoring capabilities such as Data Surveillance with data from their own data sources. 
+- Edit import configurations, users can correct misconfigurations or update criteria when file naming conventions are changed in external source systems. 
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Imports tab.
+## Where Do I Learn More?
+ There are several knowledge articles that cover how to use Data Connect's Imports module, including: 
+- Imports 
+- Import External Data with Imports 
+## What Else Should I Know?
+ When managing import configuration versions o nly one draft can be active at a time, and only one published dataset version can be importing data simultaneously. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

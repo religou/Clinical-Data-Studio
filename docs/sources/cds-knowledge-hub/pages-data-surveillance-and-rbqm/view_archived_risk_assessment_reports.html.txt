@@ -1,0 +1,7 @@
+# View Archived Risk Assessment Reports
+
+## View Archived Risk Assessment Reports
+ You can view archived risk assessment reports for auditing purposes or for viewing snapshots in time to see how the risk assessment has progressed over the course of the study.
+- Access RBQM , and then click Risk Assessment > Details in the left-hand menu.
+- In the Version History page > Version History table, click the Report icon, , in the row associated with the archived risk assessment report you want to view. 
+The Risk Assessment Report opens in a separate browser tab. You can download or print the report, but you cannot edit archived reports.

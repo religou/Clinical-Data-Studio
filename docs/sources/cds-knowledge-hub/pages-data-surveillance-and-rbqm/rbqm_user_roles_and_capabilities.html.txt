@@ -1,0 +1,224 @@
+# RBQM Building Blocks and Permissions
+
+## RBQM Building Blocks and Permissions
+ You can use Medidata Cloud Administration® to: 
+- Manage access . 
+- Configure roles and provide levels of access to RBQM . 
+- Assign roles to individuals, and remove roles with permissions needed to manage study groups. Study groups hold sets of studies belonging to the client division. 
+- Manage team membership .
+ Client division administrators must have the necessary building block assigned to allow them to configure roles. Every building block includes one or more permissions to define the Clinical Data Studio capabilities listed in this article. 
+## RBQM Building Blocks and Permissions
+ The building blocks granted by client administrators to roles in Cloud Administration help influence the content available on a Clinical Data Studio page.
+ Important : Assigning these building blocks to roles in Cloud Administration is at the discretion of every customer.
+ A role is assigned building blocks and all the permissions within those blocks. However, access to the permissions and the Clinical Data Studio pages associated with them is controlled by each user's context level assignment in Cloud Administration.
+ The following table lists the building blocks and corresponding permissions for various operations within Clinical Data Studio.
+ Strategic Monitoring 
+ RBQM Building Blocks 
+ Permissions 
+ | View Detect Landing 
+ | 
+ Risk Based Quality Management Summary Page 
+- View and Navigate Risk Based Quality Management Summary page
+ Note : All RBQM users require the View Detect Landing building block.
+ | Manage Detect CSM 
+ | Statistical Monitoring 
+- Access and View:
+- Data Anomaly Detection 
+- Trends 
+- Weekend and Holiday Visits 
+- Potential Duplicate Patients 
+- Rounding and Propagation 
+- Event Incidence 
+- Under-Over Reporting Events 
+- Schedule or Trigger When Statistical Monitoring Refreshes and Outputs the Latest Study Data Analysis 
+ | View Detect CSM 
+ | Statistical Monitoring 
+- Access and View:
+- History 
+- Data Anomaly Detection 
+- Trends 
+- Weekend and Holiday Visits 
+- Potential Duplicate Patients 
+- Rounding and Propagation 
+- Event Incidence 
+- Under-Over Reporting Events 
+ | Review Detect CSM 
+ | Statistical Monitoring 
+- Access and View:
+- History 
+- Data Anomaly Detection 
+- Trends 
+- Weekend and Holiday Visits 
+- Potential Duplicate Patients 
+- Rounding and Propagation 
+- Event Incidence 
+- Under-Over Reporting Events 
+- Mark data as reviewed in:
+- Data Anomaly Detection 
+ | Manage Detect CSM Configuration 
+ | Configuration > Data Mapping 
+- Map Data Set Analysis Data 
+- Map Event Analysis Data 
+- Map Potential Duplicate Patient Data 
+- Map Vital Sign Data for Rounding and Propagation Analysis 
+- Map Lab Measurements Data 
+- Map RECIST 1.1 Data 
+- Configure Manual or Automatic Missing Page Count Entry 
+- Map Patient Milestone Data for Third-party, Fully Ingested Studies 
+ Configuration > Derived Variables 
+- View and Create Derived Variables 
+ Configuration > Stacked Datasets 
+- Create and View Stacked Datasets 
+ Configuration > Signals 
+- View Signals Configuration 
+- View Audit Signals Configuration 
+- Download Signals Configuration 
+- Add, update, remove Signals Configuration 
+ | View Detect CSM Configuration 
+ | 
+- View Error Plot, Events, Potential Duplicate and R&P configuration screens  
+- View Signals Configuration 
+- View Audit Signals Configuration 
+- Download Signals Configuration 
+ | Manage QTL Configuration 
+ | 
+- View and Sort the Quality Tolerance Limits List 
+- Add and Edit Custom QTLs 
+- Activate and Deactivate QTLs 
+- View Audit Details for Deactivated QTLs 
+ | View QTL Configuration 
+ | 
+- View and Sort the Quality Tolerance Limits List 
+- View Audit Details for Deactivated QTLs 
+ | View QTL Dashboard 
+ | 
+- View QTL Dashboard 
+ | Manage QTL Scheduler 
+ | 
+- Ability to schedule and refresh QTL dashboard 
+ | Manage KRI Configuration 
+ | 
+- View, Filter, and Sort the Key Risk Indicators List 
+- Add and Edit Custom Numeric and Percentage KRIs 
+- Activate and Deactivate KRIs 
+- View Audit Details for Deactivated KRIs 
+- Perform/Schedule KRI Data Refresh 
+ | View KRI Configuration 
+ | 
+- View, Filter, and Sort the Key Risk Indicators List 
+- View Audit Details for Deactivated KRIs 
+ | View KRI Dashboard 
+ | 
+- View KRI Dashboard 
+ | Manage KRI Scheduler 
+ | 
+- Ability to schedule and refresh KRI dashboard 
+ | Manage Risk Mappings 
+ | 
+- Ability to map risk categories for KRIs 
+ | View Detect Templates 
+ | Global Library 
+ The View Detect Templates building block enables you to:
+- View and export Listing, KRI, and QTL templates from your organization's Global Library. 
+ | Manage Detect Templates 
+ | Global Library 
+ The View Detect Templates building block enables you to:
+- View and export Listing, KRI, and QTL templates from your organization's Global Library. 
+- Add and store listing configurations as templates to study-level template groups. 
+ | View Audit Trail Review 
+ | 
+- Allows users to ask questions and save prompts in an audit trail review session. 
+ | Manage Audit Trail Review 
+ | 
+- Allows users to publish audit trail data sets. 
+ | View Data Quality Plans 
+ | 
+- Allows users to v iew and download Protocol Deviation Assessment Plan (PDAP) documents . 
+ | Manage Data Quality Plans 
+ | 
+- Allows users to publish quality plan documents. 
+- Create and edit plan documents 
+- Configure PDAP 
+- Preview plan documents 
+- Download plan documents 
+ | View Signals 
+ | 
+- View the Signals Report. 
+- Add, Update, Assign Actions.  
+- Resolve Signals. 
+- View Signals Audit Report. 
+ | Manage Signals 
+ | 
+- View the Signals Report. 
+- Add, Update, Assign Actions.  
+- Resolve Signals. 
+- View Signals Audit Report. 
+- Raise Issues 
+- Create, Assign, Dismiss, Watch, and Close Signals. 
+- Refresh Signals. 
+ | View Protocol Deviation 
+ | 
+- View the Protocol Integrity Report (approved Protocol Deviations page only) 
+- View audit trial of Protocol Integrity Report 
+ | Manage Protocol Deviation 
+ | 
+- Add proposed protocol deviations 
+- Assign Protocol Deviation Assessment Plans (PDAP) to proposed protocol deviations 
+- Edit and Review protocol deviations 
+- Assign protocol deviations to a reviewer 
+- Confirm a protocol deviations 
+- Approve protocol deviations 
+- Dismiss protocol deviations 
+- Acknowledge PDAP changes 
+ | Submit Listing Protocol Deviations 
+ | 
+- Submit protocol deivations 
+ Risk Management 
+ RBQM Building Blocks 
+ Permissions 
+ | Manage Templates 
+ | 
+- Manage Risk Categorization Templates 
+- Manage Critical Data Templates 
+- Manage Critical Processes Templates 
+ | Customize Study Components 
+ | 
+- Critical Data (Select, Add, Edit, Delete) 
+- Critical Processes (Select, Add, Edit, Delete) 
+- Risk Categorization (Select, Add, Edit, Delete) 
+- Risk Inventory 
+- Participants and Versioning 
+- Acknowledge a Risk Plan Report 
+ | Generate Risk Plan Reports 
+ | 
+- Generate Risk Plan Report 
+- Acknowledge a Risk Plan Report 
+ | View Templates 
+ | 
+- View Risk Categorization Templates 
+- View Critical Data Templates 
+- View Critical Processes Templates 
+ | Study Overview 
+ | 
+- View only Critical Data, Critical Processes, Risk Categorization, Risk Inventory, Participants and Versioning, and Risk Plan Reports 
+ Note: For Risk Management, Manage Templates and View Templates permissions need to be assigned at the study group level.
+ For studies integrated with Medidata CTMS for Signals, you need the following building blocks in addition to Manage Signals to raise issues:
+ Medidata CTMS Building Blocks 
+ Permissions 
+ | View  Issues  and  Actions 
+ | 
+- View issues for assigned studies. 
+- View actions for assigned studies. 
+- View issue comments for assigned studies. 
+- View participants. 
+ Also requires   View Issues and Actions Settings - Client Division and Study building block . 
+ | Create Issues 
+ | 
+- View issues for assigned studies. 
+- View actions for assigned studies. 
+- View comments for assigned studies. 
+- View participants. 
+- Create issues for assigned studies. 
+- Create issue comments for assigned studies. 
+ Also requires   View Issues and Actions Settings - Client Division and Study building block . 
+ Roles with the Create Issues building block, but not the Edit Issues building block, can only view the "Participants and visits" section in the Issue Slider. They cannot add, manage, or delete participants and visits in the Issue Slider.

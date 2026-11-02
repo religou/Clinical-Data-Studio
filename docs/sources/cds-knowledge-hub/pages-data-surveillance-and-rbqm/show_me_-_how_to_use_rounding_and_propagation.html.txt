@@ -1,0 +1,19 @@
+# Show Me - How to Use Rounding and Propagation
+
+## Show Me - How to Use Rounding and Propagation
+ Summary 
+ | This video shows how to use Statistical Monitoring's Rounding and Propagation analysis capability 
+ Duration 
+ | 3 minutes 47 seconds plus user interaction time 
+ Product 
+ | RBQM 
+ Release 
+ | All releases 
+ Video Category 
+ | Rounding and Propagation 
+ Related Topics 
+ | 
+- Rounding and Propagation 
+- Identify and Investigate Sites That Potentially Round or Propagate Vital Sign Records 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

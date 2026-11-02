@@ -1,0 +1,24 @@
+# View Individual Patient Profiles from the Event Incidence Plot
+
+## View Individual Patient Profiles from the Event Incidence Plot
+ Statistical Monitoring users with authorized Patient Profiles   access can launch and view individual patient profiles from Statistical Monitoring's Data Anomaly Detection page and Event Incidence page. This enables you to: 
+- Quickly drill into Patient Profiles directly from Statistical Monitoring's event incidence plot to help you better understand the patient's data in context. 
+- Seamlessly perform data point analysis on specific patients to determine why the patient is an outlier . 
+- Conveniently view data in a per-patient format to understand the patients’ journey throughout the trial. 
+ You can also save and print the patient profiles as a PDF. 
+## View Individual Patient Profiles from the Event Incidence Plot Page
+- Access RBQM , and then click Statistical Monitoring > Event Incidence in the left-hand menu.
+The Event Incidence page shows. 
+- Select the Domain .
+The data pertaining to the selected domain displays in the Event Incidence Plot and Summary table.  
+- Click an individual data point to view more details.
+ A pane on the right side of the page appears. 
+- In the Patient column, click the blue, hyperlinked patient ID for the patient you need.
+The individual patient's profile opens in a new browser tab. 
+## Export a Patient Profile to PDF
+ You can view, save, and print patient profiles in PDF format. Doing so allows you to:
+- View patient profiles while offline. 
+- Send the patient profile to others who do not have access to Statistical Monitoring or Patient Profiles. 
+- View an individual patient profiles from the Event Incidence Plot page . 
+- Click View PDF in the upper right-hand corner of the profile.
+The PDF file downloads to your browser. Follow your browser's instructions for opening file and downloading to your local machine.

@@ -1,0 +1,40 @@
+# Rounding and Propagation
+
+## Rounding and Propagation
+ The Rounding and Propagation analysis heatmaps show:
+- Potentially rounded or propagated vital measurements at each site. 
+- The severity in which the rounding or propagation occurs for each vital measurement at each site. 
+ You can use the Rounding and Propagation heatmaps to identify potentially unreliable data or noncompliant sites, and then further investigate or report your data findings as necessary. 
+## What Is Rounding and Propagation?
+ Statistical Monitoring analyzes a study's vital sign measurements recorded at each site for: 
+- Rounding – A patient record that is captured as a: 
+- Value requiring no decimal precision ending in 0 or 5, or 
+- Value requiring decimal precision which has been rounded off to the nearest integer and ending in 0 or 5. 
+ A patient must have at  least 3 records rounded—whether consecutive or non-consecutive—for RBQM to consider the patient as a risk. For example: 
+- 
+- For vital sign measurements requiring no decimal precision such as systolic blood pressure, if the values recorded are  122, 120, and 124, then RBQM assesses that patient as having 1 out of 3 (33%) rounded values. 
+- Or for vital sign measurements requiring decimal value precision such as temperature, if the values recorded are 100.24, 100.00, 95, 99 then RBQM assesses the patient as having 2 out of 4 (50%) rounded values. 
+- Propagation – A patient record that is recorded from a previous visit due to lack of collection or intention to propagate. Records must be propagated at least three times consecutively to be considered as at risk in RBQM's algorithm. For example, if a patient had a recorded blood pressure of 126/83 in three consecutive site visits. 
+ Note : If a patient has a vital sign measurement with less than three records, then that patient's records for that vital sign are not included in RBQM's rounding or propagation analysis.
+## What Is the Purpose of Rounding and Propagation Analysis?
+ Since sites manually enter and collect vital signs, it is critical that sites follow protocol and record data accurately. Poor data could lead to major systemic issues in study conduct and could even compromise patient safety. 
+ Rounding and propagation analysis helps you:
+- Distinguish between reliable and potentially unreliable data in the vital signs collection case. 
+- Identify and investigate sites that:
+- May not be following the study protocol correctly. 
+- May be falsifying or fabricating data. 
+- May be performing misconduct in aspects of the trial outside of data collection. 
+## Who Uses the Rounding and Propagation Analysis Heatmaps?
+ Central monitors.
+## What Are the Benefits of Using the Rounding and Propagation Analysis Heatmaps?
+ Leveraging RBQM's analysis of your study data enables you to more efficiently identify potentially unreliable data or noncompliant sites than manual analysis could otherwise allow. RBQM's clear, easy-to-interpret heatmap analyses and summary tables enable fast and accurate interpretation and confident investigatory or mitigating actions made.
+## Rounding and Propagation Analysis Heatmap Samples
+ Tip : Click images to enlarge.
+ Sites with Rounding Events Table 
+ Sites with Propagation Events Table 
+ | 
+ | 
+## How Do I Use and Interpret the Rounding and Propagation Analysis Heatmaps?
+ See Identify and Investigate Sites That Potentially Round or Propagate Vital Sign Records .
+## How Do I Refresh Rounding and Propagation to Output the Latest Study Data Analysis?
+ See  Schedule or Trigger When Statistical Monitoring Refreshes and Outputs the Latest Study Data Analysis .

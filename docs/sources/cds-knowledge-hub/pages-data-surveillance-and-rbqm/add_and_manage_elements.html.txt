@@ -1,0 +1,219 @@
+# Add and Manage Elements
+
+## Add and Manage Elements
+ The workflow progress bar below depicts where adding elements occurs within the recommended patient profile design workflow. 
+ Elements are containers of study information that serve as the building blocks for your profile designs. 
+## About Elements
+ Elements are containers of information that comprise a set of related patient data. You configure the structure, display, and types of information to include in your profiles by adding elements to your profile design. You then populate your elements with variables. For example, you can add a Vital Signs table to your design. You would then add individual variables such as 'patient start date,' 'event name,' or 'blood pressure' to each column within the table. The Patient Profiles design work space allows you to quickly access the variables in your data sets from which you can click-and-drag to populate the elements in your design. 
+ Patient Profiles provides the following element types: 
+- Add and Manage Headers 
+- Add, Edit, and Delete Tables 
+- Add, Edit, and Delete Timelines 
+ You can: 
+- add elements , 
+- duplicate elements , 
+- delete elements ,  
+- append notes to elements , 
+- hide elements with no data , 
+- copy elements between studies . 
+## Add Elements
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page > Elements tab, click an element type in the  Add element  section. 
+ To learn more about adding specific element types, see: 
+- Add and Manage Headers 
+- Add, Edit, and Delete Tables OR 
+- Add, Edit, and Delete Timelines 
+## Duplicate Elements
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page > Elements tab, go to the  Saved elements  table, and click   in row containing the element you want to duplicate. 
+ Tip : You can sort the Saved elements table by column header to help you find the elements you need. Click a column header once to sort the table in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0). 
+- Click Duplicate within design . 
+## Delete Elements
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page > Elements tab, go to the Saved elements table, and click   in row containing the element you want to delete. 
+ Tip : You can sort the Saved elements table by column header to help you find the elements you need. Click a column header once to sort the table in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0). 
+- Click Delete .
+A delete confirmation window appears. 
+- Click Delete . 
+## Append Notes to Elements
+ You can add a single note to appear at the bottom of headers in the patient profile. Adding a note to appear at the end of an element gives patient profile reviewers added insight into the profile's study data.  
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- Do one of the following:  
+- If you are working in a new, unsaved element, continue to Step 4 below. 
+- If you want to add a note to an existing element: On the Design page > Elements tab, go to the  Saved elements  table, and click the name of the element you want to update. 
+- Click  Note  in the upper-right corner of the element section. 
+- Enter the note text in the  Note  field. 
+- Click  . 
+ The note appears in the patient profile as shown. 
+## Hide Elements with No Data
+ You can configure tables and graphs to show only elements that have data present in a profile design. Hiding elements without data enables you to better focus on pertinent information to create a more targeted patient profile analysis. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page > Elements tab, click an element type in the  Add element  section. 
+- Under Table Options, select Hide "No Data" Elements . The Elements appear as per the following options:
+ Elements Display 
+- If you select  Hide "No Data" Elements , and there is no data for the patient in the data set: 
+- The element does not appear. 
+- If under Graph Options, you select Table and Graph: Show Both , when applicable, the element and graph do not appear. 
+- If under Graph Options, you select Table and Graph: Graph Only , the graph does not appear. 
+- If you set up an expression under Table Options > Conditional Options > Display Conditions > Row to show data with specific values, for example, where AE Serious = Y: 
+- the element does not appear if no data in the data set meets the conditional criteria, for example, the patient has had adverse events, but not serious AEs. 
+- and also set up the element to show the graph, when applicable, the element and the graph do not appear if no data in the data set meets the conditional criteria. 
+- and under Graph Options, you select Table and Graph: Graph Only , the graph does not show if no data in the data set meets the conditional criteria.
+- If there is data for the patient in the data set, then irrespective of whether you select  Hide "No Data" Elements: 
+- The element appears. 
+- If under Graph Options, you select Table and Graph: Show Both , when applicable, the element and graph appear. 
+- If under Graph Options, you select Table and Graph: Graph Only , the graph appears. 
+- If you set up an expression under Table Options > Conditional Options > Display Conditions > Row to show data with specific values, for example, where AE Serious = Y: 
+- the element appears if data in the data set meets the conditional criteria, for example, the patient has had adverse events, but not serious AEs. If the element is an event table, the event table appears in the timeline and in the legend. 
+- and also set up the element to show both the graph, when applicable, the element and the graph appear if data in the data set meets the conditional criteria. 
+- and under Graph Options, you select Table and Graph: Graph Only , the graph appears if data in the data set meets the conditional criteria, for example, the patient has had adverse events, but not serious AEs. 
+ If you do not select  Hide "No Data" Elements, and there is no data for the patient in the data set:
+- The element shows a No Data message. 
+- If under Graph Options, you select Table and Graph: Show Both , the element shows a No Data message and the graph appears empty. 
+- If under Graph Options, you select Table and Graph: Graph Only , the graph appears empty. 
+- If you set up an expression under Table Options > Conditional Options > Display Conditions > Row to show data with specific values, for example, where AE Serious = Y: 
+- the element shows a No Data message, if there is no data in the data set that meets the conditional criteria, for example, the patient has had adverse events, but not serious AEs. If the element is an event table, the event table appears in the timeline and in the legend. 
+- and also set up the element to show the graph, when applicable, the element shows a No Data message and the graph appears empty, if there is no data in the data set that meets the conditional criteria. 
+- and under Graph Options, you select Table and Graph: Graph Only , the graph appears empty, if there is no data in the data set that meets the conditional criteria.  
+## Copy Elements between Studies 
+ You can copy a single element at a time between two different studies. You can repeat the process for any element. If you copy designs or elements between studies, the original study or element may have patient data that does not match exactly with the destination study. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page > Elements tab, go to the  Saved elements  table, and click  in row containing the element you want to copy. 
+- Select Copy to another study . 
+- In Copy Single Element, complete the Study, Environment, and Design fields.
+- Click Copy to Another Study .
+ Note : A yellow marker appears next to a copied element with missing data. On hovering over the yellow marker, a message "Missing data variable(s) make sure column have data." appears. You cannot copy an element with missing data to another study.
+ Next Step 
+ Configure Design Layout

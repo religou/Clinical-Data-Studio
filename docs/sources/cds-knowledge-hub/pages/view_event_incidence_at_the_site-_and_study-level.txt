@@ -1,0 +1,27 @@
+# View Event Incidence at the Site- and Study-level
+
+## View Event Incidence at the Site- and Study-level
+## Description
+ The Event Incidence Plot is a scatter plot that displays your study's patient-reported events and the rate the events occurred at the site- and study-level. 
+ You can use the Event Incidence Plot to analyze:
+- Which specific event terms were reported as experienced by patients within a domain at the site level. 
+- How many patients at a specific site reported an event term compared to all patients at the site. This is also known as the incidence rate. 
+- The incidence rate for reported event terms at each individual site compared to the overall study event incidence rates. 
+- Which sites are considered  statistically  normal, outliers, or extreme outliers in terms of probability of having the event occur. 
+## Affected Roles
+- Central monitors 
+- Data managers 
+- Medical monitors 
+## Advantages
+ By analyzing event terms in your study, you can:
+- Identify whether sites are tracking events correctly. For example, whether a site is over or underreporting adverse events. 
+- View event trending patterns. For example, if a large number of patients at a site experience headaches. 
+- Detect correlation between events. For example, if a large number of patients at a site experience URTI and increased heart rate. 
+- Identify sites that have significantly higher or lower incidence rates for individual events compared to overall study event incidence rates. 
+ Based on your findings, you can determine appropriate corresponding actions such as to:
+- Investigate sites to ensure proper protocols and procedures are being followed. 
+- Discontinue the drug. 
+## User Impact
+ You can access the Event Incidence Plot on the Event Incidence Plot page. To learn more, see  Event Incidence Plot . 
+## Special Considerations
+ None.

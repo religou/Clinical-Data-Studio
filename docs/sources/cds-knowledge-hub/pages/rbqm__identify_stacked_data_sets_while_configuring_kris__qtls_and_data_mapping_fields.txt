@@ -1,0 +1,29 @@
+# RBQM: Identify Stacked Data Sets While Configuring KRIs, QTLs and Data Mapping Fields
+
+## RBQM: Identify Stacked Data Sets While Configuring KRIs, QTLs and Data Mapping Fields
+## What Is New?
+ While configuring data sets and variables in KRIs, QTLs and Data Mapping, data sets appear with a flag that identifies them as: 
+- Rave 
+- External 
+- Derived 
+## What Is the Impact?
+## Users/Roles
+ Risk managers, study managers, data managers.
+## Workflow Process
+ No change to workflow process.
+## Other Applications
+ None.
+## How Do I Benefit?
+ You can use the most appropriate data set and variables to build your study data.
+## Where Do I See the Change?
+ For any of the following pages in RBQM > Configuration or Data Surveillance > Configuration, if you create or edit any configuration, data sets and variables appear with a Rave, external or derived label next to the name, respectively. 
+- KRIs 
+- QTLs 
+- Data Mapping  
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- KRI Configuration 
+- QTL Configuration 
+- Data Mapping 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,68 @@
+# History
+
+## History
+ On the History page, you can:
+- Schedule when and how often Statistical Monitoring renders and reflects a specific study's latest study data analysis. 
+- Manually trigger Statistical Monitoring to render and reflect a specific study's latest study data analysis. 
+- Stop or suspend scheduled data refreshes. 
+- View a list of previous data snapshots and the time stamp for when Statistical Monitoring generated each snapshot. 
+- Select a previous data snapshot to enter History View mode to see how the data looked throughout Statistical Monitoring when that snapshot occurred. 
+## Set Data Refresh Schedule
+ Users with the proper permissions can schedule when and how often Statistical Monitoring renders and reflects a specific study's latest study data analysis. Therefore, you can control when Statistical Monitoring renders your latest batch of study data to accommodate  your organization's data review schedule and pace. 
+ Important : Only authorized users can view the Schedule page and set the data refresh schedule. Also, Statistical Monitoring data refreshes occur independently and separately from data refreshes that occur in other RBQM capabilities such as QTL Dashboard and KRI Dashboard. 
+- Access RBQM , and then click Statistical Monitoring > History in the left-hand menu.
+The History page shows. 
+- Select the following:
+- Snapshot Schedule  – Select the frequency in which you want Statistical Monitoring to trigger the data refresh. 
+- Start  – Select the time of the month that you want the data refresh to trigger. The Start menu only appears if you select a Monthly , Bi-Monthly , or  Quarterly frequency. 
+- Day  – Select the weekday within the specified weekly, monthly, or quarterly cadence that you want the data refresh to trigger. The Day menu does not appear if you select First Day of the Month or Last Day of the Month from the Start menu.
+ Tip: Display This Week's Latest Study Data
+ To show the current week's latest data, select the Weekly frequency, and then select the weekday that is two days ahead of the current day. For example, if today is Tuesday and you want to view the latest data for this week, select the Weekly frequency, and then select Thursday .
+- Click Save .
+ Statistical Monitoring will automatically  refresh to show visual renderings of the latest study data analysis as scheduled.
+ Tip: Last Updated Timestamp
+ The upper- right corner of all Statistical Monitoring pages shows the date and time when the most recent data snapshot generation process started . t does not represent the date and time when the data in Statistical Monitoring was last refreshed. For example, . 
+ Therefore, the Last Updated timestamp may be earlier than the time at which the refreshed data becomes available in Statistical Monitoring.
+## Refresh Data Now
+ Important : Only users with the proper permissions can:
+- View the Refresh Analytics Now button on the Schedule page. 
+- Trigger Statistical Monitoring to render visualizations from the most recent study data analysis. 
+ Users with the proper permissions can manually trigger Statistical Monitoring to render and reflect a specific study's latest study data analysis. Therefore, you can control when Statistical Monitoring renders your latest batch of study data to accommodate  your organization's data review schedule and pace.
+ The upper- right corner of the Schedule page shows the timestamp of the currently rendered study data's most recent completed run through Statistical Monitoring's analytics.  For example,  . 
+ Important : C SM data refreshes occur independently and separately from data refreshes that occur in other RBQM capabilities such as QTL Dashboard and KRI Dashboard. 
+- Access RBQM , and then click Statistical Monitoring > History in the left-hand menu.
+The History page shows. 
+- Click Refresh on the upper-right hand corner of the page.
+Statistical Monitoring refreshes to show visual renderings of the most recent study data analysis. The Last Updated field updates to show the time stamp of the currently rendered study data's most recent completed run through Statistical Monitoring's analytics. 
+## Stop or Suspend Scheduled Data Refreshes
+ You can discontinue or suspend scheduled data refreshes from occurring for closed studies or studies undergoing database lock or data clean up. 
+- Access RBQM , and then click Statistical Monitoring > History in the left-hand menu.
+The History page shows. 
+- In Snapshot Schedule , select  None . 
+- Click Save . 
+## View Historical Data Snapshots
+ Statistical Monitoring provides a list of historical data snapshots . You can select a data snapshot to enter History View mode to see how the data looked throughout Statistical Monitoring at the time when the snapshot occurred. By viewing historical data snapshots, you can efficiently audit studies and reconcile the data and actions made between snapshots.
+- Access RBQM , and then click Statistical Monitoring > History in the left-hand menu.
+ The History page lists all prior data snapshots from most recent at the top to oldest at the bottom. 
+- Click the row of the snapshot you want to view.
+Statistical Monitoring automatically navigates you to the Overview page in History View. While in History View, a blue banner shows at the top of all Statistical Monitoring pages. The banner indicates the date when the historical snapshot's data refresh occurred. For example:
+ In addition, the upper- right corner of all Statistical Monitoring pages shows the time stamp of when the historical snapshot in view occurred.  For example,  
+- Click Exit History View in the blue banner to revert to the latest data snapshot. 
+ Notes About History View
+- History View mode shows the actions that occurred in the immediate data snapshot following the snapshot date you selected to view. For example, say you selected to view a data snapshot with a date of 17 Oct 2020 and the following data snapshot took place on 22 Oct 2020. In such case, History View mode shows the data in Statistical Monitoring as of 17 Oct 2020, but shows the actions made in Statistical Monitoring up until 22 Oct 2020. 
+- While in History View mode:
+- Data is read-only. 
+- The Error Plots page > Summary section > Actions column does not appear. 
+- The Event Incidence Plot page > Summary section > Actions column does not appear. 
+- You cannot deep link into Issue Management. 
+- You cannot update track review data. 
+- Track reviews and issues created are those that occurred against the selected historical snapshot or previous snapshots. That is, the created dates may be after the snapshot date, but before the following snapshot. 
+- On the Issues slide-out panel, the Assignee column and Status column do not appear. 
+- On the Issues slide-out panel, the Is Closed column appears.
+ Note : If the issue was resolved after the date of the snapshot in view, then Is Close has a value of No. If the resolved date occurred before the date of the snapshot in view, then Is Close has a value of Yes.
+## View Snapshot Schedule Audit Reports
+ You can generate audit reports to view the  history of snapshot schedules created in your study environment. 
+- Access RBQM , and then click Statistical Monitoring > History in the left-hand menu.
+The History page shows. 
+- Click   next to the Snapshot Schedule field.
+A new browser tab opens to the Audit Viewer > Medidata Detect Schedule Audit Report page.

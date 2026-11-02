@@ -1,0 +1,25 @@
+# Import Job Notifications
+
+## Import Job Notifications
+## Description
+ You can view notifications about any import jobs that use SFTP locations from a job's Job Notifications page. The Job Notifications page shows any errors and warnings that occurred while the import job tried accessing the SFTP location or file path. A notification icon appears when there are new notifications available. From the Job Notification tab, you can also see the following notification details: 
+- Type – The notification's type: Error or Warning 
+- Message – The notification's message, including the subject line and details 
+- Category – The category that notification pertains to: STFP 
+- Last Occurrence Date – The date and time the error or warning last occurred 
+- Number of Occurrences – The number of times that the error or warning occurred 
+ You can also dismiss notifications from the Job Notifications tab. Notifications refresh every 30 minutes.
+ Feature/enhancement stories referenced in this article:
+ MCC-766674, MCC-786581 
+## Affected Roles
+ All.
+## Advantages
+ With the Job Notifications page, you can keep track how the import job uses its SFTP location and take action as necessary.
+## User Impact
+ On MEDS Ingestor's Import Jobs page, you can find a new Alerts column. The Alerts column denotes if an import job has notifications that require review. Clicking an Alert icon takes you to the job's Job Notifications page. 
+ On the Files page, you can click the  Job Notifications   tab to open the Job Notifications page. 
+## Knowledge Space Updates
+ The MEDS Ingestor Knowledge Space provides new content to support this feature: 
+- Review Job Notifications (new) 
+## Special Considerations
+ To configure the list of SFTP locations, you must use MEDS Extractor. To access MEDS Extractor and use its SFTP configuration capability, your platform role must include the Extractor Admin building block. For details, see  Grant Access to Extractor  and Extractor Roles and Permissions .

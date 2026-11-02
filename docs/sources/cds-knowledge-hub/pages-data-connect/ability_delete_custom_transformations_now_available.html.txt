@@ -1,0 +1,20 @@
+# Ability Delete Custom Transformations Now Available
+
+## Ability Delete Custom Transformations Now Available
+## What Is New?
+ You can delete custom transformations that you create. The transformation wizard also includes new validation that prevents you from saving a transformation when the transformation name is blank.
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No change to the workflow process. The new deletion ability extends existing functionality.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ You can remove transformations that you no longer need.
+## Where Do I See the Change?
+ The Create Transformation screen now includes a Trash button. Clicking the button deletes the transformation.
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

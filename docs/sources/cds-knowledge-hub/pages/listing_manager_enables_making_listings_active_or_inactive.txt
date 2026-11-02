@@ -1,0 +1,41 @@
+# Listing Manager Enables Making Listings Active Or Inactive
+
+## Listing Manager Enables Making Listings Active Or Inactive
+## Description
+ You cannot delete listings created in Data Reviewer. However, Data Managers and Central Monitors may only need to view relevant listings by current employees. Medidata Detect 2023.1.0 includes a new Listing Manager page where you can make existing listings active or inactive, and remove unwanted listings from appearing in the study.
+## Affected Roles
+ All users with Manage Data Reviewer building block .
+## Advantages
+ Viewing only active listings in a study enables you to remove unwanted listings and locate listings of interest.
+## User Impact
+ The Listing Manager is a new page in Data Reviewer. The screenshot below and table explain the user interface changes.
+ Tip : Click image to enlarge.
+ Number 
+ Description 
+ | 1 
+ | You can click Listing Manager in the left menu in Medidata Detect > Patient Data Surveillance > Data Reviewer to view the Listing Manager page.  
+ | 2  
+ | The Listing Manager page shows all approved and draft listings in your study. The total number of listings also appears at the top of the page. 
+ | 3 
+ | Each listing includes the following columns:
+- Name - The listing name. 
+- Expression - The conditional expression used to build the listing. 
+- Created By - Name of the person who created the listing. 
+- Created - Date when the listing was created. 
+- Updated By - Name of the person who last updated the listing. 
+- Last Updated - Date when the listing was last edited. 
+- Rave Enabled - A check mark appears if the listing is Rave-query enabled. 
+- Status - Reads as Draft or Approved depending on the status of the listing. 
+- Activate Option - An option to make the listing active or inactive. By default all new listings are marked as active. If you make a listing inactive, you must enter a reason for the change. Only active listings appear in Draft and Approved Listings.  
+ | 4 
+ | 
+ You can select to view Rave Enabled, Approved, and Draft listings in your study. By default, all listings appear on the Listings page.
+ | 5 
+ | 
+ You can click to filter listings by Name, Created By and Updated By columns. 
+## Knowledge Hub Updates
+ The Medidata Detect Knowledge Hub provides new and updated content to support the enhancement: 
+- Listings Manager 
+ Special Considerations 
+- You can view the Listing Manager page only if you have Edit Listing access. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

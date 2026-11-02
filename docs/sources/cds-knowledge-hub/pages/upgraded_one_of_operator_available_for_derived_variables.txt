@@ -1,0 +1,20 @@
+# Upgraded One Of Operator Available For Derived Variables
+
+## Upgraded One Of Operator Available For Derived Variables
+## Description
+ When using the Expression Builder or Conditional Concatenate workflow to build derived variables, when you add the  One of operator for a selected data set, the corresponding data variable values populate the expression's next field as a list. You can then select or remove values from the list, then click Apply to confirm selection, and then complete the expression. The  field indicates the number of selected values. When you hover your cursor over the field, then a tooltip shows the selected values. 
+ Tip : Click the image to enlarge. 
+## Affected Roles
+ All roles with the Manage Derived Variables building block. 
+## Advantages
+ With upgraded One of operators available, you can configure derived variables to see the data you need and take appropriate action. 
+## User Impact
+ To create derived variables, you must select a combination of data set variables from the Derived Variables > Data Sets tab and operators from the Derived Variables > Operators tab. For more information, see Description. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+- You can use the one of operators only for IF-THEN-ELSE blocks in the Expression Builder and Conditional Concatenate workflows. 
+- For simple expressions, the Conditional Concatenate workflow also includes the contains, is missing, isnot missing operators. 
+- The operators list for Derived Variables also includes the which you can use to obtain the absolute value of numeric variables. 
+- You cannot edit the configuration for an existing derived variable. 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

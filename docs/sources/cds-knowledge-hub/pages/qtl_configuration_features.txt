@@ -1,0 +1,17 @@
+# QTL Configuration Features
+
+## QTL Configuration Features
+ Detect Configuration Manager includes the following QTL-related capabilities :  
+- Save and Reuse Custom QTL Configurations as Templates 
+- Add and Edit Custom QTLs in RBQM Configuration Manager 
+- Activate and Deactivate QTLs in RBQM Configuration Manager 
+- Define Custom QTLs and Percentage KRIs to Target Specific Data Population Subsets 
+- QTL Configuration Report PDF Column Updates 
+- QTL Configuration November 2022 Minor Enhancements 
+- Find and Add Data Sets and Variables Faster When Configuring Custom QTLs and Percentage KRIs 
+- Quality Tolerance Limits Table Column Header Updates 
+- QTL Configuration Report Enhancements 
+- Updates to QTL Details When Defining Custom QTLs 
+- New QTL Configuration Requirements and Validation Checks 
+- View and Sort the Quality Tolerance Limits List in RBQM Configuration Manager 
+- Detect Configuration Manager 2023.1.0 Minor Enhancements

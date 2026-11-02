@@ -1,0 +1,28 @@
+# Sites That Under or Overreport Events Detection Methodology
+
+## Sites That Under or Overreport Events Detection Methodology
+ The Under-Over Reporting Events Plot visualizes event   reporting patterns across adverse events (AE), concomitant medication (CM), and medical history (MH) at the site and country level. 
+ To determine sites and countries that are over or underreporting events, RBQM first performs the following event rate calculations at the site and country level: 
+- Adverse Events (AE) Rate – The average number of adverse events reported per exposure time. Calculated as: N umber of AEs / Exposure Time in Months
+ Note : Exposure time is the number of study days across all patients.
+- Concomitant Medication (CM) Rate – The average number of reported concomitant medications per unit of reported adverse events and ongoing medical history events reported. Calculated as:  Number of CMs / (Number of AEs + Number of Ongoing MH) 
+- Medical History (MH) Rate – The average number of reported medical history events per enrolled patient at the site or country. Calculated as: N umber of MH / Total Patients
+ RBQM then identifies sites and countries with outliers in reported AE, CM, and MH rates. For this,   reported events are assumed to be events in a Poisson distribution. Hence, reported events are compared to the expected events under Poisson Continuous Distributed Functions (CDF) based on which p-value are computed. Then, RBQM calculates the  95% and 99% confidence interval limit  for each rate under the different aggregations. 
+ The Under-Over Reporting Events Plot then visualizes event   reporting patterns and identifies sites under or overreport events using three separate funnel plots :
+- Adverse Events (AE) – Graphs the reported rate of adverse events over time in months for each site and country in the study. 
+- Concomitant Medication (CM) – Graphs the reported rate of concomitant medications compared to the combined number of reported adverse events and ongoing medical history events for each site and country in the study. 
+- Medical History (MH) – Graphs the reported rate of medical history events compared to total number of enrolled patients at each site and country in the study. 
+ See the following examples:
+ Tip : Click images to enlarge.
+ Adverse Events 
+ Concomitant Medication 
+ Medical History 
+ | 
+ | 
+ | 
+ Each site and country's reported data is represented as a blue data point on each graph. RBQM normalizes the study-wide reported event data and visually outputs funnel lines representing the data's:
+- Upper 99% Limit – An AE rate that is at the 99% confidence interval above the study's average AE rate at a particular time in the study. RBQM considers sites or countries whose reported AE rate lies above the upper 99% limit to potentially be extreme outliers. Extreme outliers may warrant prompt investigation to  understand the type of events that are overreported; for example, signs and symptoms versus diagnosis . The Upper 99% Limit is represented by the uppermost solid, blue line in the funnel plot: 
+- Upper 95% Limit – An AE rate that is at the 95% confidence interval  above the study's average AE rate at a particular time in the study. RBQM considers sites or countries whose reported AE rate lies above the upper 95% limit to be potential outliers. Outliers may warrant investigation to understand the type of events that are overreported; for example, signs and symptoms versus diagnosis . The Upper 95% Limit is r epresented by the uppermost dotted, gray line in the funnel plot: 
+- Mean – The average reported AE rate across all sites or countries in the study. The mean is represented by the solid, yellow, middle line in the funnel plot: 
+- Lower 95% Limit – An AE rate that is at the 95% confidence interval  below the study's average AE rate at a particular time in the study. RBQM considers sites or countries whose reported AE rate lies below the lower 95% limit to be potential outliers. Outliers may warrant investigation to understand type of events that are underreported; for example, mild events . The Lower 95% Limit is r epresented by the lowermost dotted, gray line in the funnel plot: 
+- Lower 99% Limit – An AE rate that is at the 99% confidence interval below the study's average AE rate at a particular time in the study. RBQM considers sites or countries whose reported AE rate lies below the lower 99% limit to potentially be extreme outliers. Extreme outliers may warrant prompt investigation  to understand the type of events that are underreported; for example, mild events . The Lower 99% Limit is r epresented by the lowermost solid, blue line in the funnel plot:

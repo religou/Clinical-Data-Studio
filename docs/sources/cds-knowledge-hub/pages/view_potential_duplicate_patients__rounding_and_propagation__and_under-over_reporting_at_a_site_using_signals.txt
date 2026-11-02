@@ -1,0 +1,62 @@
+# Signals: View Potential Duplicate Patients, Rounding And Propagation, Or Under-Over Reporting At A Site Using Signals
+
+## Signals: View Potential Duplicate Patients, Rounding And Propagation, Or Under-Over Reporting At A Site Using Signals
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the release history.   
+- For a summary of all features released, the released  features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio 
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Signals
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter :  
+ Navigate instantly from a signal to the originating application for faster investigation and contextual access. 
+ You can now access potential duplicate  patients, rounding and propagation, or the under or over reporting data at a site using signal observations generated for the site. You can also directly access patient profiles and key risk indicators by clicking the respective signal observation link on the Signals page. 
+ Benefit to Users 
+ | Central monitors can identify sites where duplicate patients exist and the potential issues stemming from signal observations and take appropriate actions. You can also access patient profiles and key risk indicators at a site and take appropriate action.
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+- Central Monitors and Central Statistical Monitors, Clinical Research Associates 
+-  Users with View Signals, Manage Detect CSM, and Manage Signals building blocks. 
+ Impact to Workflow Processes 
+ No impact to workflow process. 
+ Impact to Applications 
+ Automated signal generate based on thresholds you set up in:
+- Duplicate Patients 
+- Rounding and Propagation 
+- Under/Over Reporting 
+- Key Risk Indicators 
+- Patient Profiles 
+ Impact on Interface 
+- If you click any of the following analyses for a signal, the corresponding capability page for the site, opens in a new browser window:
+- Duplicate Patients 
+- Rounding and Propagation 
+- Under/Over Reporting 
+- Key Risk Indicators 
+- Patient Profiles 
+- If a signal configuration for any module is no longer active, then the analysis hyperlink reads inactive configuration when you hover over it. 
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | Medium 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: View And Access Signals . 
+ Special Considerations 
+ | If a patient is no longer a potential duplicate patient at a site, then the Duplicate Patient analysis link remains disabled for the site in Signals. To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

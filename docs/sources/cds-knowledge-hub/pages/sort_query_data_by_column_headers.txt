@@ -1,0 +1,17 @@
+# Sort Query Data By Column Headers
+
+## Sort Query Data By Column Headers
+## Description
+ On the Design page > Profiles tab > for a patient you select in the Patient Selector section > Patient Query tab > you can sort queries  by clicking the column headers in the Patient Query table.  indicates the column sorting is in the ascending order (A to Z, 0 to 9); indicates descending order (Z to A, 9 to 0).  For example, the image shows queries sorted by the Form column in ascending order. 
+## Affected Roles
+ All.
+## Advantages
+ By sorting query data in ascending or descending order, profile reviewers can efficiently locate query data of interest for patients from a study. 
+## User Impact
+  See Description. 
+## Knowledge Space Updates
+ The following articles have been created or updated in the Medidata Patient Profiles Knowledge Space to support this feature: 
+- View Patient Query Data 
+- Review and Export Patient Profiles 
+## Special Considerations
+ None.

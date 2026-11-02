@@ -1,0 +1,19 @@
+# Redesigned Import Job Creation Workflow
+
+## Redesigned Import Job Creation Workflow
+## Description
+ MEDS Ingestor updates the New Import Job page. The page steps you through import job creation, and shows different fields depending on the import job type. Each step includes field validation as well.
+ Tip : Click image to enlarge.
+ Feature/enhancement stories referenced in this article:
+ MCC-765703, MCC-703764, MCC-757036, MCC-768039 
+## Affected Roles
+ All roles with access to MEDS Ingestor.
+## Advantages
+ With the updated New Import Job page, you can focus on one step of the job creation process at a time, minimizing information overload. When you choose a data type, the page updates and shows a process bar that helps you know what other information you need to provide. Each page has its own validation process, so that you can ensure each step has the correct information.
+ Tip : Click image to enlarge.
+## User Impact
+ On MEDS Ingestor's Import Jobs page, you can click the  Add Import Job button to open the New Import Job page. 
+ Tip : Click image to enlarge.
+ The updated job creation workflow does not impact previously created import jobs. For new import jobs, you can only create jobs for data types that you have permission to. For example, to create external EDC and CTMS jobs, have the relevant building blocks applied to your role. For details about MEDS Ingestor's updated permissions, see  Updated Building Blocks for MEDS Ingestor .
+## Special Considerations
+ None.

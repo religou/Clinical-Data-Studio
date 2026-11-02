@@ -1,0 +1,87 @@
+# About Data Surveillance
+
+## About Data Surveillance
+ Data Surveillance is a comprehensive suite of data surveillance software capabilities that encompasses a drag-and-drop listings builder, automated query generation for Medidata Rave sourced data, issue management for non-Medidata sourced data, AI-powered data reconciliation, patient profiles, and visualizations.  Data Surveillance leverages AI to streamline data aggregation, standardization, and management workflows so that multiple users can act on real-time data in ways that reduce burden, shorten review timelines, increase quality, reduce risk, and improve patient safety. 
+## What Is Data Surveillance?
+ Data Surveillance is a comprehensive suite of data surveillance software capabilities provided by the Clinical Data Studio solution. 
+ Data Surveillance encompasses a drag-and-drop listings builder, automated query generation for Rave sourced data, issue management for non-Medidata sourced data, AI-powered data reconciliation, patient profiles, and visualizations. 
+## What Is the Purpose of Data Surveillance?
+ Data Surveillance leverages AI to streamline data aggregation, standardization, and management workflows so that multiple users can act on real-time data in ways that reduce burden, shorten review timelines, increase quality, reduce risk, and improve patient safety. 
+ With Studio’s Data Surveillance capabilities, You can: 
+- Create data review listings without programming. 
+- Generate Rave queries automatically and in bulk. 
+- Reconcile data using automatically generated, AI-powered reports. 
+- Visualize real-time data on your own whenever you want. 
+- Visualize disease progression response for oncology trial patients 
+- Build complete patient profile designs., and  
+- Track data cleaning progress and quickly identify and address outstanding tasks. 
+## Who Uses Data Surveillance?
+ Clinical research associates, medical monitors, data managers, clinical scientists, safety physicians, and more use Data Surveillance.
+## How Does Data Surveillance Work?
+ Data Surveillance   ingests your team's study data from:  
+- Rave, or Veeva EDC. 
+- Third-party vendor data—for example, protocol deviations, lab data, or any data not uploaded through Rave—which gets uploaded through Ingestor . 
+ Important : Patient IDs in Rave must be unique, otherwise Data Surveillance's analysis produces multiple, duplicate records for the same patient ID.
+In Data Surveillance, s tudy data automatically refreshes four times daily at approximately 9:00am (EST), 3:00pm (EST), 9:00pm (EST) and 3:00am (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, 5:00 am (EST) the same day, 11:00 am (EST) the same day, 5:00 pm (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Rave and   activated datasets from Data Connect   are available in 6 to 12 hours within Data Surveillance and RBQM . For more information, see Clinical Data Studio's Data Pipeline . 
+ Once Data Surveillance pulls the study's data sets and variables into your study environment, you can use the following Data Surveillance capabilities: 
+- Data Surveillance Configuration 
+- Map the data that Data Surveillance and RBQM  consume to produce the statistical analysis and visual renderings for:
+- Statistical Monitoring analyses 
+- Data anomaly detection and trends 
+- Event incidence and under-over reporting events 
+- Potential duplicate patients 
+- Rounding and propagation of vital sign records 
+- AI Reconciliation reports 
+- RECIST 1.1 dashboard reports 
+- Clean Patient Tracker missing page counts . 
+- Third-party, fully ingested studies patient milestone data . 
+- Create, activate, and deactivate vendors to which you want to communicate vendor data issues. 
+- Create and update derived variables to include custom dataset fields in patient profiles designs as well as Data Surveillance and RBQM reports and analysis. 
+- Create stacked datasets and view the list of stacked datasets in your study. 
+- Data Sets 
+- View and investigate your study's data sets . 
+- Holistically explore and investigate your entire set of study data, and 
+- Investigate patients' case report forms in Rave. 
+- Data Listings 
+- Create draft listings by configuring conditional expressions that run against your study data to capture patient records within a specified variable that match the expression's defined conditions . For example, you can configure an expression to capture patient data records for  female patients below age 50 who have had a serious adverse event . 
+- Preview draft listings to ensure the listing passes preliminary validation. 
+- Approve listings for team-wide use in your study. 
+- Review and validate the data listing's full set of results . As part of the review process, you and your study team can: 
+- Add internal review comments directly on individual data records that appear in a data listing's results. 
+- View and submit Rave queries on Rave-enabled data listings' records directly in Data Surveillance. 
+- Mark individual data records as reviewed . 
+- Track data listings for unreviewed records in Clean Patient Tracker . 
+- Report and track external data issues in Vendor Queries . 
+- Clean Patient Tracker 
+- Track unvetted and unreviewed patient data , and further drill down directly to complete the outstanding data cleaning tasks in other Data Surveillance capabilities such as Data Listings and AI Data Reconciliation. 
+- Open EDC Queries 
+- View the detailed list of all open and answered queries raised against patient data in your study . 
+- AI Reconciliation 
+- Identify duplicate or missing patient record information using automated AI Reconciliation reports. 
+- Custom Graphs 
+- Create data visualizations to chart the relationship between any combination of datasets on a single visual using real-time study data on demand. 
+- Patient Profiles 
+- Design patient profiles , which can include headers , flags ,  tables , and timelines . 
+- Configure the patient profile design layout . 
+- View patient profiles with actual study data to: 
+- Evaluate how the profile design is taking shape in real time. 
+- Mark patient profiles as reviewed. 
+- View patient profile design reports to enable reviewers and stakeholders to efficiently view and sign off on the design. 
+- RECIST 1.1 Dashboard : 
+- Compare site entered overall tumor measurements with those that the RECIST 1.1 algorithm calculates. 
+- Data Surveillance Template Library :
+- Save and store commonly used listing, QTL, custom numeric KRI, or custom percentage KRI configurations and visualizations for reuse within a study. 
+ You can also:
+- Refresh listings to produce results based on the latest study data . 
+- Refresh AI Reconciliation to produce reports based on the latest study data. 
+- Trigger Clean Patient Tracker to recalculate outstanding records based on the latest study data . 
+ Note: The f ollowing Data Surveillance capabilities support screen-failed patient data: Data Sets , Vendor Queries , Listings , AI Reconciliation , Patient Profiles , Custom Graphs , and RECIST 1.1 Dashboard .   
+ What Are the Benefits of Data Surveillance? 
+ Data Surveillance:
+- Automates data review and query management. 
+- Simplifies data reconciliation with the help of AI. 
+- Enables study teams to explore data and rectify inconsistencies with advanced analytics and visualizations. 
+- Helps ensures data integrity. 
+## How Do I Access Data Surveillance?
+ Access to Data Surveillance requires that you are invited to a study that is integrated with and linked to the Data Surveillance app in Medidata. Once you receive an invitation and you activate your Medidata account, you can log in to Medidata and access your studies in Data Surveillance. To learn more, see Access Data Surveillance .
+ Note : You require permissions to access and perform specific actions in each Data Surveillance capability. To learn more, see Data Surveillance Building Blocks and Permissions .

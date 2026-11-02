@@ -1,0 +1,82 @@
+# Create Derived Variable from Expression
+
+## Create Derived Variable from Expression
+ You can build a derived variable by using the expression builder to apply mathematical and logical operations on data set variables.  For example, use derived variables to show particular values such as “If Visit Name = Day 1, then show “Randomization”, Else = "Null "" or"If SYSBP > 60, then show LOW, else HIGH”. These expressions can use multiple conditions and can be rather complex. You can also build a logical expression with conditional logic. 
+- Access Data Surveillance or RBQM , and then click Configuration > Derived Variables in the left-hand menu. 
+- Click  Create Derived Variable . 
+- Identify and drag a data set  from the Data Sets list into the Configure Variable section. For example, Adverse Events. 
+- Enter the derived variable’s identification information. 
+- Name – Object identifier (OID) of derived variable. For example, "AESER+AESER_TXT". Must be unique. 
+- Label  – Name for derived variable to appear in other applications. This can be the same as the Name field, or a more specific descriptor. For example, "AE Serious, Full". 
+- Select Expression Builder from the Derived Variable Type menu. 
+- (Optional) Form the conditional expression: 
+- Navigate to the Operator tab, and drag If Then Else into the expression builder. 
+- Drag data set variables into the respective If , Then , and Else fields. 
+- Complete the expression: 
+- Navigate to the  Data Set s  tab, and drag data set variables into the expression builder fields.
+ Note : If data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or _DTC. For example, the source date is missing the day, the enriched _INT field interpolates the 1st day of the month, and _DTC fields drop the unknown value. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms.
+- Navigate to the Operator  tab, and drag various operators and values i nto the expression builder fields.
+ Note : If you leave the expression incomplete, the following warning message appears: " Complete the expression by specifying at least one variable, one operator, and one variable or value to compare". 
+- Optional . Click  Preview  to display the preview panel.
+With the preview panel, you can review the derived variable and adjust the variable's parameters before saving.
+- Click  Save .
+ In Data Surveillance and RBQM, the list of available datasets and variables that you can view and select from include derived variables at the bottom of the list. In Data Surveillance, the list of available datasets and variables appends derived variable names with the blue DERIVED icon. 
+## Expression Builder Element Key
+ Type 
+ Name 
+ Description 
+ | Logical Operator 
+ | AND 
+ | Logical "And" operation. 
+ | Logical Operator 
+ | OR 
+ | Logical "Or" operation. 
+ | Logical Operator 
+ | (
+ )
+ | Parenthesis. 
+ | Logical Operator 
+ | = 
+ | Compared values are equal. 
+ | Logical Operator 
+ | != 
+ | Compared values are not equal. 
+ | Logical Operator 
+ | > 
+ | Left value greater than right value. 
+ | Logical Operator 
+ | < 
+ | Left value less than right value. 
+ | Logical Operator 
+ | Is missing 
+ | Compared value is missing. 
+ | Logical Operator 
+ | Is not missing 
+ | Compared value is not missing. 
+ | Number 
+ | Numeric Value 
+ | A customizable number field. Drag the value into the expression builder and enter a value.  
+ | Text 
+ | Text Field 
+ | A customizable text field. Drag the field into the expression builder and enter the text. 
+ | Date 
+ | MM DD YYYY 
+ | A customizable date field. Drag the field into the expression builder and enter the date in the MM DD YYYY format. 
+ | Mathematical Operator 
+ | + 
+ | Mathematical plus operation. 
+ | Mathematical Operator 
+ | - 
+ | Mathematical minus operation. 
+ | Mathematical Operator 
+ | * 
+ | Mathematical multiplication operation. 
+ | Mathematical Operator 
+ | / 
+ | Mathematical division operation.
+ | Text 
+ | contains 
+ | Checks if the compared value contains a substring from a selected data set variable values. 
+ | Logical Operator 
+ | one of 
+ | Checks if the compared value matches with any one of the values of the selected data set variable.

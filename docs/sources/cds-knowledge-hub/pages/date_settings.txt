@@ -1,0 +1,6 @@
+# Date Settings
+
+## Date Settings
+ Medidata Patient Profiles includes the following capabilities relating to managing date settings:
+- Manage Date Settings Patient Profiles 
+- Distinct Element Types Cannot Have the Same Merge Name

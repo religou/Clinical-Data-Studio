@@ -1,0 +1,15 @@
+# Expression Builder Workflow Allows Six Rows of Derived Variables
+
+## Expression Builder Workflow Allows Six Rows of Derived Variables
+## Description
+ While building conditional expressions for derived variables using the IF-THEN-ELSE block or mathematical operators, you can now add up to six rows of data set variables and operators. 
+## Affected Roles
+ All roles with the Manage Derived Variables building block. 
+## Advantages
+ With the enhanced IF-THEN-ELSE options in the Expression Builder workflow, you can configure derived variables to see the data you need and take appropriate action.  
+## User Impact
+ See Description. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

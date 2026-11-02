@@ -1,0 +1,21 @@
+# Extractor Now Compatiable with Platform Workbench
+
+## Extractor Now Compatiable with Platform Workbench
+## What Is New?
+ Extractor now includes the Transformed Data export type that exports data set projects from Platform Workbench. Moreover, you can use Extractor functionality from Platform Workbench interface, including job administration, scheduling, and delivery configuration. 
+## What Is the Impact?
+## Users/Roles
+ All users with access to Platform Workbench. 
+## Workflow Process
+ There is no impact on the workflow process. The existing workflow to create and manage export jobs is unchanged. 
+## Other Applications
+ Platform Workbench now includes the Exports tab. Clicking Exports opens Extractor's interface where you can create Transformed Data export jobs and perform other actions with Extractor. 
+## How Do I Benefit?
+ You can export published data pertaining to data sets and transformations you create in Platform Workbench in the same way as you export other data from Extractor. Moreover, the integration with Platform Workbench enables an integrated export experience for Platform Workbench users. 
+## Where Do I See the Change?
+ There is no change on the Extractor interface. However, Platform Workbench now includes the Exports tab where you can create export jobs, including the new Transformed Data export job. 
+## Where Do I Learn More?
+ No additional information is available for this update.
+## What Else Should I Know?
+ You can still use the Extractor interface to create export jobs. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

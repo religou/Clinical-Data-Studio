@@ -1,0 +1,60 @@
+# Ingestor Released Features Index
+
+## Ingestor Released Features Index
+ This article lists the features and enhancements of Ingestor    as an exportable table with the following highlights: 
+- Feature Article – The article link. Click to go to the article's details. 
+- Product – The product's name. 
+- Version – The product version the update pertains to. 
+- Change Type – Feature, enhancement, or technical change. 
+- Functionality or Module – The specific functionality area or category the update pertains to. 
+- Summary of Changes – A summary of what changes the feature, enhancement, or technical changes introduced. 
+ Tip : To learn more about when a capability became available, see the releases history .
+ Important :
+- The table details appear only in English. Click an article link and change the locale to view translated versions. 
+- Features and enhancements introduced before Ingestor 2023.2.5 do not use the current tabular format and therefore do not appear on this table. To learn more about all features and enhancements, see the releases history . 
+ Feature Article 
+ Product 
+ Version 
+ Change Type 
+ Functionality or Module 
+ Summary of Changes 
+ | Internal and Technical Changes in Ingestor 2023.2.5 
+ | Ingestor
+ | 2023.2.5
+ | Technical Change
+ | None.
+ | 
+ Ingestor routinely includes internal and technical changes to improve performance and optimize back-end processes. Ingestor 2023.2.5 introduces the following internal code changes:
+- Deployment infrastructure updates 
+ Feature/enhancement stories referenced in this article:
+ MCC-1529997 
+ | Enhanced Release Notes Experience 
+ | Ingestor
+ | 2024.2.4
+ | N/A (Education Content)
+ | None (Education Content)
+ | 
+ The release notes include several formatting updates to address reported challenges and issues with the Medidata Release Notes experience. The changes appear across multiple pages for the release notes.
+- Tabular Structure – Pages that describe changes, such as this article, now appear in a tabular structure with renamed or added sections.  
+- New sections 
+- Product – The product the change applies to. 
+- Version – The product version that the change applies to. 
+- Change Type – The type of change: 
+- Feature 
+- Enhancement 
+- Technical change 
+- Functionality or Module – The area of the product that this section affects, such as a particular module within the product or a subsection within the module. 
+- Impact to Existing Data or Settings – Any changes that an update introduces to existing data, such as reports or listings; or updates to user settings that need review. 
+- User Impact Assessment – A high-level summary of the change's impact. 
+- Changed sections 
+- "What's New?" is now "Summary of Changes" 
+- "How Do I Benefit?" is now "Benefit to Users" 
+- "What's the Impact?" is now "Summary of User Impact" 
+- "Users/Roles" is now "Impact to Users and Roles" 
+- "Workflow Process" is now "Impact to Workflow Processes" 
+- "Other Applications" is now "Impact to Other Applications" 
+- Where Do I See This Change? is now "Impact on Interface" and appears in the Summary of User Impact section 
+- New Released Features Indices – Release notes now include new Released Features Index articles — one for a specific release, and another for the entire product across releases. These articles list all changes relative to the page's scope as a downloadable table. 
+- Feature Release Notes Parent Page – For Feature Release Notes, the home page includes new links to other reference articles such as the released features indices and webinar details, where applicable. 
+ Feature/enhancement stories referenced in this article:
+ None.

@@ -1,0 +1,22 @@
+# Task Management Data Extraction Now Availbale
+
+## Task Management Data Extraction Now Availbale
+## Description
+ You can now extract Task Management data objects with MEDS Extractor. When an export job includes the CTMS - Task Management data type, the extracted data includes Tasks data files. Task Management extracts are available for both cumulative and incremental extracts.
+## Affected Roles
+ All platform roles with the Extract CTMS Data building block.
+## Advantages
+ With the ability to extract Task Management data objects, you  can  track open and closed tasks throughout the clinical trial lifecycle from study startup to study closeout   across studies, countries, and sites. 
+## User Impact
+ While creating export jobs, you can select the CTMS - Task Management data type during the job creation workflow's Select Source step. Jobs using this data type produce a file called "Tasks" that includes Task Management data. 
+## Knowledge Space Updates
+ The MEDS Extractor Knowledge Space provides new and updated content to support this feature: 
+- Extract Task Management Data - Quick Start (new) 
+- Exports Roles and Capabilities (updated) 
+- Create Export (updated) 
+- Select Datasets (updated) 
+- Extractor Data Source Flow (updated) 
+- Review Export Configuration (updated) 
+- CTMS Tasks (new) 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

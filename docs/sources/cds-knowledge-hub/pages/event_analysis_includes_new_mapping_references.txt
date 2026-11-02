@@ -1,0 +1,28 @@
+# Event Analysis Includes New Mapping References
+
+## Event Analysis Includes New Mapping References
+## Description
+ Detect Mapping's Event Analysis Mapping includes five new mapping references:
+- Adverse Event Start Date
+- Adverse Event End Date 
+- Concomitant Medication Indication 
+- Concomitant Medication Start Date 
+- Concomitant Medication End Date 
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ The new references enable you to configure within the data sets and variables that Detect consumes to produce the statistical analysis and visual output for AI Data Reconciliation . 
+## User Impact
+ In Detect Configuration Manager > Detect Mapping > Event Analysis tab > Event Analysis Mapping section, the Reference column now includes the following:
+- Adverse Event Start Date
+- Adverse Event End Date 
+- Concomitant Medication Indication 
+- Concomitant Medication Start Date 
+- Concomitant Medication End Date 
+ You can select the data set and mapping variable that you want to configure for each reference.
+## Knowledge Hub Updates
+ The Medidata Detect Knowledge Hub provides updated content to support this enhancement: 
+- Map Event Analysis Data 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

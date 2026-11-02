@@ -1,0 +1,12 @@
+# Generate QTL Configuration Audit Reports
+
+## Generate QTL Configuration Audit Reports
+ You can generate audit reports to view the historical details of QTL configurations and modifications  in your study environment. Audit reports: 
+- Enable sponsors to quickly and effectively show compliance with clear, comprehensive audit details of actions performed in QTL Configuration. 
+- Provide sponsors with more oversight to ensure study data monitored correctly. 
+ Note : You   can only view actions created against sites that you have access to. 
+- Access RBQM , and then click Configuration > QTLs in the left-hand menu.
+The Quality Tolerance Limit page shows. 
+- Click  next to the Quality Tolerance Limits page header.
+A new browser tab opens to the Audit Viewer > QTLs Audit Report page.
+ Tip : In Audit Viewer, you can click Export and then  Excel , CSV , or PDF to view the report offline or sort data by column headings.

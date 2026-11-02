@@ -1,0 +1,17 @@
+# Manage Datasets
+
+## Manage Datasets
+ While in the Datasets capability, you can see a list of accessible datasets within your study and their details. 
+## Supported Dataset Types
+- Raw Rave datasets 
+- Raw external datasets 
+- Derived datasets 
+- Unit converted datasets 
+- SDTM-like datasets* 
+- Custom data models* 
+ Important : Projects denoted with an asterisk are in limited preview for select customers. 
+## Access Datasets
+ The datasets list is accessible from the landing screen: 
+- Access Data Connect , and click  Datasets in the left-hand menu . 
+## Available Actions
+ From there you can perform the following actions:

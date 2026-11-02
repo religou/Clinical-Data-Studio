@@ -1,0 +1,32 @@
+# Generate and Acknowledge Active Risk Assessment Reports
+
+## Generate and Acknowledge Active Risk Assessment Reports
+ You can generate a PDF report of the active risk assessment to enable risk assessment participants to : 
+- View or share the report in PDF format. 
+- Evaluate the risk plan's current status. 
+- Ensure the risk plan includes the correct information as specified in the risk assessment. 
+ In addition, risk assessment participants who are assigned to acknowledge risk plan reports can sign and date their acknowledgement on the active risk assessment's risk plan report PDF.
+- Access RBQM , and then click Risk Assessment > Details in the left-hand menu.
+- Click Download . 
+- Select one or more of the following the risk assessment components to include in the report: 
+- Risk Inventory – Include all identified risks for a specific study. 
+- Critical Data – Include all identified critical data points for the specific study. 
+- Critical Processes – Include all identified critical processes for the specific study. 
+- Risk Categorization – Include all identified Risk Categories for the specific study. These attributes appear for each Risk Category:
+- Risk Category Number 
+- Category of the Risk Category 
+- Risk Category Template Name 
+- Risk Category Objective 
+- Risk Category Factors (Impact, Probability, Detectability) 
+- Risk Category Weight 
+- Risk Category Score 
+- Questions for Discussion – Include all risk category questions for the specific study. 
+- Click .pdf or. xlsx .
+- Click  Generate Report .
+The report downloads locally to your web browser as a PDF or an Excel file.
+- Open a report, and acknowledge the report by printing it and manually signing and dating the Signature and Date Acknowledged , respectively, at the top of a printed copy or using a signature feature if included in your PDF viewer software.
+ Notes :
+- You must enter data in any field not marked optional before generating the report. 
+- You do not need to add a participant before generating a report. 
+- After you click Generate Report, the report for the DRAFT risk assessment shows on the screen. You can then print, save, or download the report. 
+- The protocol version you add on the Risk Assessment Details page appears on the downloaded risk assessment report.

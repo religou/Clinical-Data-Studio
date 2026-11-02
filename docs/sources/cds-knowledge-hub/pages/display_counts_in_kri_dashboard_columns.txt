@@ -1,0 +1,31 @@
+# Display Counts in KRI Dashboard Columns
+
+## Display Counts in KRI Dashboard Columns
+## What Is New?
+ On the KRI Dashboard, you can now see:
+- The count of number of records returned next to the Sites/Countries header on the second header. 
+- The following counts for the 'View By' filter:
+- Number of Sites 
+- Number of Sites -  High Risk 
+- Number of Sites - Medium Risk 
+- Number of Countries 
+## What Is the Impact?
+## Users/Roles
+- Site Monitor 
+- Study Manager 
+## Workflow Process
+ No impact to the workflow process. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ You can now see the total count for the following filters by default, instead of 'All':
+- Sites 
+- Categories 
+- KRIs 
+## Where Do I See the Change?
+ KRI Dashboard > View By filter.
+## Where Do I Learn More?
+ The Detect Knowledge Space provides new and updated content to support this feature/enhancement: 
+ Access and View the KRI Dashboard  
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

@@ -1,0 +1,60 @@
+# Review Export Configuration
+
+## Review Export Configuration
+ After   creating an export , you can review the export's configuration details from the Export's Settings screen.
+## Open the Export Configuration Screen
+- Access Data Connect , and click   Exports   in the left-hand menu. 
+- On the Exports screen, select an export to open the Export.
+- Click the Settings tab to view export configurations. 
+ Note :  You can only see the exports you created. You cannot see exports created by other users unless you have the Super User permission. For details, see Data Connect Roles and Capabilities . 
+## Export Configuration Details
+## Datasets
+ Export Level 
+ Denotes if the export extracts at the study level or at the client level:
+- Study Level – The export extracts data across selected studies. For exports at this level, this field also shows the export's target study 
+- Client Level – The export extracts data across all studies within the client. For exports that this level, this field also shows the export's target client division 
+ Environment 
+ The export's target study environment. This field only appears for exports created at the study level.
+ Data Source 
+ The data source from which the datasets are extracted.
+## Schedule
+ Frequency 
+ The export's run frequency. For details on schedule configuration, see Schedule Export .
+ Run Start Date 
+ The export's execution start time and date. This field appears even if you chose the Run Immediately frequency. For details on schedule configuration, see Schedule Export .
+ The Medidata platform stores the date in UTC, and shows the date based on your device's local time. 
+ Run End Date 
+ If selected during configuration, the export's execution end time and date. This field only appears for exports with the Run Once (Scheduled) or Repeats frequencies. For details on schedule configuration, see Schedule Export .
+ The Medidata platform stores the date in UTC, and shows the date based on your device's local time.
+ Pause/Resume Export Schedule 
+ For recurring exports, you can pause or resume the export, clicking the Pause Export Schedule button pauses the export. For paused exports, the button turns into Resume Export Schedule. Clicking Resume Export Schedule resumes the recurring export. 
+## Data Source
+ Export Level 
+ Denotes if the export extracts at the study level or at the client level:
+- Study Level – The export extracts data across selected studies. For exports at this level, this field also shows the export's target study 
+- Client Level – The export extracts data across all studies within the client. For exports that this level, this field also shows the export's target client division. 
+ Environment 
+ The export's target study environment. This field only appears for exports created at the study level.
+ Created By 
+ The name of the user that created the export or version.
+ Date Created 
+ The export's creation date. The Medidata platform stores the date in UTC, and shows the date based on your device's local time.
+ Data Type 
+ The export's target data types. 
+ Export Type 
+ The export's export type:
+- Cumulative –  Each export instance exports all available data. 
+- Incremental – Each export instance only exports data changes since the previous run. The first incremental run is cumulative. 
+ File Type 
+ The file type of the export's constituent extracted files:
+- CSV – Comma-separated value 
+- XPT – SAS file format 
+ Version 
+ The export's version number. This field shows "1" for new exports. 
+ Modified by 
+ The name of the user that modified the export or version.
+ Modified Date 
+ The export version's modification date. This field reflects when the export changed from version x to version x+1 and shows "-" for new exports. 
+## Output Connection
+ Configuration Details 
+ If configured, this field describes the SFTP or FTPS or S3 location where the export copies the extracted files. Otherwise, the field shows "Not Configured".

@@ -1,0 +1,13 @@
+# Upgraded Data Set Variable Filtering
+
+## Upgraded Data Set Variable Filtering
+## Description
+ In the Data Viewer tab, when you filter data set variable table data, the table's row counter updates as well.
+## Affected Roles
+ All roles with the View Data building block.
+## Advantages
+ The update filtering functionality helps you know that filtering is working as expected and ensures a consistent experience when reviewing filtered data set variables.
+## User Impact
+ While filtering the data set variable the row counter updates accordingly.
+## Special Considerations
+ None.

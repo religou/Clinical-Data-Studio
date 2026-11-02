@@ -1,0 +1,87 @@
+# Listings: Get Newest Listings Data With On-Demand And Scheduled Refreshes
+
+## Listings: Get Newest Listings Data With On-Demand And Scheduled Refreshes
+ Important :
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history. 
+- For a summary of all features released, the   released features index .
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.3.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Listings 
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ The Data Surveillance > Listings includes a refresh option where you can trigger on-demand or scheduled data refreshes. You can further manage scheduled refreshes on the Unified Scheduler page.
+ Benefit to Users 
+ | On-demand and scheduled refreshes give data managers instant access to the latest study data, streamlining the entire data review and reconciliation process.
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ To view and manage data refresh schedules, data managers and study team members must have both capability-specific and Unified Scheduler permissions.
+ Data Surveillance Capability 
+ Building Block Required 
+ User Action pertaining to refresh schedules 
+ | Unified Scheduler 
+ | View Data Refresh Scheduler 
+ | View  
+ | Manage Data Refresh Scheduler 
+ | Create or Edit 
+ | Listings 
+ | View Data Refresh Scheduler AND
+View or Manage Data Reviewer 
+ | View 
+ | Manage Data Refresh Scheduler AND 
+ Refresh Listings AND
+View or Manage Data Reviewer
+ | Create or Edit 
+ | On Demand Refresh from Listings 
+ | Refresh Listings AND View or Manage Data Reviewer.  
+ | View or Start Refresh 
+ Impact to Workflow Processes 
+- Scheduled data refreshes operate on daily, weekly, biweekly, monthly, bimonthly, and quarterly cadences . 
+- Listings allow up to four successful refreshes per day per listing . 
+- Scheduled or on-demand refreshes limit to a maximum of 15 listings in a single batch. 
+- Conflict prevention rules block multiple on-demand refreshes for the same module on the same snapshot, and block on-demand refreshes while scheduled refreshes run .  
+- You can export current refresh configurations into a downloadable PDF report through the Notification Center . 
+ Impact to Applications 
+- Listings included in Unified Scheduler refresh data independently. However, a record is available for selection in either a scheduled or on-demand refresh, not both. 
+ Impact on Interface 
+ On the Data Surveillance > Listings > Approved Listings tab, you can find the following updates.
+ On-demand refreshes 
+ Refresh – If you click the Refresh button on the top right corner of the page, you can select a maximum of 15 approved listings for an on-demand refresh. You can refresh any listing up to a maximum of 4 times per day. The On-demand refresh page does not show listings that currently have a refresh in progress, or are part of a scheduled refresh, or have been recently refreshed and have the most updated data snapshot. The Refresh button remains disabled if the listing uses the latest data snapshot.
+ Note : Approved listings selected for a scheduled refresh are not available for on-demand refresh.
+ Scheduled Refreshes 
+ View Schedule – If you click  , More icon, next to the Refresh button on the top right corner of the Listings page > Approved Listings tab, and then click  View Schedule , the Unified Scheduler page shows all the approved listings refresh schedules. For more information, see  Data Surveillance Configuration: Schedule Data Refreshes Using Unified Scheduler . 
+ Note : On the Data Surveillance > Listings page, if you select any approved listing, and then click  History , the page shows both on-demand and scheduled refreshes. The refresh table shows the following fields:
+- Refresh Date 
+- Refresh Type 
+- Snapshot Date 
+- Record Count 
+- Refreshed By 
+ Included in Scheduled Refreshes  – The Listings page includes a new Included in Scheduled Refreshes column, which shows a tick mark if an approved listing is part of a scheduled refresh. The Details page displays the current refresh status of any listing. It shows  In Progress while the listing refreshes, Refresh Successful when the refresh completes, and Refresh Failed if the refresh fails. For any approved listing, the last refreshed date and time in the user's local timezone appear under the page title. 
+ Impact to Existing Data or Settings 
+- Neither scheduled nor on-demand data refreshes interfere or break existing schedules.  
+- For approved listings, records selected for a scheduled data refresh do not appear for selection in on-demand refreshes. The reverse is also true.  
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- New Article: Unified Scheduler . 
+- Updated Article: Refresh Listings . 
+ Special Considerations 
+ | 
+- To view Medidata testing documentation for this release, see the   Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

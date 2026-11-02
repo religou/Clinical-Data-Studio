@@ -1,0 +1,24 @@
+# Ability to Download Imported Files
+
+## Ability to Download Imported Files
+## Description
+ You now can download files imported with MEDS Ingestor.
+ Feature/enhancement stories referenced in this article:
+ MCC-787019 
+## Affected Roles
+ All roles with permission to manage import jobs or import data. To download files for a given data type, your platform must include the respective "Import..." or "Manage..." building block. For details, see  Ingestor Roles and Permissions List .
+## Advantages
+ With the ability to download imported files, you can review imported files and perform maintenance tasks such as troubleshooting files that fail to import. 
+## User Impact
+ From the Job Files screen > Job Configurations panel > Input Files section, you can download any files imported during a given job run. You can download both newly uploaded files and all historical files uploaded before this release.
+ Image of a job's Job Configuration screen with file download links. 
+ Tip : Click image to enlarge.
+## Knowledge Space Updates
+ The MEDS Ingestor Knowledge Space provides new and updated content to support this enhancement: 
+- Track Progress for Clinical Data Import Jobs 
+- Track Progress for CTMS Jobs 
+- Track Progress for Patients Data Import Jobs 
+- Track Progress for Study Design Metadata Jobs 
+- Track Progress for Study Master Data Jobs 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

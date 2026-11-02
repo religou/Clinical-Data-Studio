@@ -1,0 +1,33 @@
+# Exports - Interface Enhancements for January 2025
+
+## Exports - Interface Enhancements for January 2025
+## What Is New?
+ As a part of Data Connect - Exports 2024.3.2 release, the Exports experience features various enhancements including: 
+- Updates to Exports user interface to provide a   cohesive experience within Data Connect. 
+- Encryption modes Auto and None removed for FTPS connections. 
+- The implementation of feature flags to control the functionality in exports based on the permissions granted for a user. When users attempt to access export functionality when a feature flag is enabled, the following message appears "Exports is currently unavailable". 
+- Archived Date and Archived By columns added for Archived exports page. 
+- Updated FTPS connection form. 
+- Success toast notifications added. 
+- Update to the format of the Duration column from minutes:seconds to hours:minutes:seconds. 
+- Details section added for Crete export page. 
+- Client level button disabled for users with only study level permissions. 
+- Search field added to the exports screen. 
+- Updates to edit exports workflow. 
+- Scroll grid added for Export list, Archived list, Connection list, and Export run history screens. 
+   What Is the Impact? 
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to workflow processes. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ The interface updates improve the look, feel, and navigation of the respective experiences.   
+## Where Do I See the Change?
+ The interface updates apply to various screens across the Exports experience. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Enhancement:
+- Configuring Exports to Deliver to FTPS Connections 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

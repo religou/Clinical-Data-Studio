@@ -1,0 +1,33 @@
+# Dataset Latency
+
+## Dataset Latency
+ Because the data can come into Data Connect from different sources, they can have different refresh cycles. This time also considers how long it takes for the record count to stabilize, that is: for the number of records that appear in the dataset to be consistent with the expected number of records.
+ For example, a Rave dataset with 22M records can take up to 12 hours to appear and stabilize after loading them the first time.
+ The table below lists the supported datasets and their data loading times.
+ Dataset Type 
+ Data Latency  
+ Notes 
+ | Rave – First Time Load / Metadata Change 
+ | Up to 24 hours 
+ | N/A 
+ | Rave – Subsequent Updates 
+ | Up to 1 hour 
+ | N/A 
+ | Raw External Datasets 
+ | Up to 1 hour 
+ | N/A 
+ | Derived Datasets – First Activation 
+ | Up to 1 hour 
+ | N/A 
+ | Derived Datasets – After Dataset Upgrade 
+ | Up to 1 hour 
+ | This does not prevent you from using the full dataset with Transformations. 
+ | Unit-converted Datasets 
+ | Up to 1 hour 
+ | N/A 
+ | SDTM-like Datasets 
+ | Up to 1 hour 
+ | N/A 
+ | Custom Data Models 
+ | Up to 1 hour 
+ | N/A

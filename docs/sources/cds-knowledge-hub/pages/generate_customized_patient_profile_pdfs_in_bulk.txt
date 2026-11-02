@@ -1,0 +1,23 @@
+# Generate Customized Patient Profile PDFs in Bulk
+
+## Generate Customized Patient Profile PDFs in Bulk
+## Description
+ You can now select specific elements from profile designs in a study and bulk export the elements to PDF.
+## Affected Roles
+ All.
+## Advantages
+ Downloading specific elements from profile designs in bulk optimizes the PDF exchange and review process with design reviewers working outside the Patient Profiles app.
+## User Impact
+ When you click on the Medidata Detect > Patient Data Surveillance (PDS) > Patient Profiles > Patient Profile Designs > Profiles tab, the PDF Export window appears. You can select one of the following to export specific elements or the entire profile design to PDF.
+- Everything 
+- Graphs & Timelines
+ Note : Timelines in profile designs you export appear printed across the entire page. 
+- Tables Only 
+ You can also select All Patients or Site in the PDF Export window and then click Export . If you select Site, you can further select the site number from the list. When the requested PDFs are ready to download, you receive an email with a link to download a zip file with the study name and current date. The zip file contains separate PDF files for each patient profile in the study that was exported. The link expires after seven days. The email also includes patient IDs that fail to export to PDF.  
+ Tip : Click image to enlarge.
+## Knowledge Space Updates
+ The Knowledge Space provides updated content to support the feature: 
+- Review and Export Patient Profiles 
+## Special Considerations
+ Processing times may vary depending on the number of patient profiles in your study. The minimum time taken is one hour.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,28 @@
+# Wide Tables Display Conditions Restored
+
+## Wide Tables Display Conditions Restored
+## Description
+ In Patient Profiles 2020.2.0, the Conditional Options feature has been reinstated for transposed and wide tables. 
+## Affected Roles
+ All
+## Advantages
+ Restoring wide and transported table conditional options ensures you can identify patients who have specific conditions or fulfil a set criteria. 
+## User Impact
+ The Design page > Elements tab includes the following changes: 
+- The Add Element > Table button displays the Transposed Table option when clicked. 
+- When working in Wide Tables: 
+- The TABLE OPTIONS tab > Conditional Options section displays. 
+- When working in Transposed Tables: 
+- The TABLE OPTIONS tab > Graph Options > Red Border if Value Outside Shaded Range check box displays. 
+- When working in Wide and Transposed Tables: 
+- The TABLE OPTIONS tab > Conditional Options section displays.  
+- If you define upper and lower limit variables in the Normal Range section, and then if you set up a variable outside the defined range, a " Conditional highlighting is disabled when High and Low Indicators are turned on" message appears. 
+- If you define upper and lower limit variables in the Normal Range section, then TABLE OPTIONS tab > Conditional Options > Highlight Conditions are disabled. Otherwise, they are enabled. 
+- If you use TABLE OPTIONS tab > Conditional Options > Highlight Conditions section, the Normal Range section is disabled. Otherwise, it is enabled. 
+- If you use TABLE OPTIONS tab > Conditional Options > Highlight Conditions section, and then if you set up a variable outside the defined range, a " High and Low indicators are disabled when Conditional highlighting is turned on" message appears. 
+- If you use the TABLE OPTIONS tab > Conditional Options > Display Conditions, you can click Add to select variables to create an expression that determines if specific elements in a table are shown or hidden. You can add one or two display conditions. 
+- If you use the TABLE OPTIONS tab > Conditional Options > Highlight Conditions, you can click Add to select variables to create an expression that determines if specific elements in a table are shown or hidden. You can add one or two highlight conditions. 
+- If you use the TABLE OPTIONS tab > Conditional Options > Display Conditions, you can click Add to select variables to create an expression that determines if view specific rows in a table are shown or hidden. You can add one or two display conditions. 
+- If you use the TABLE OPTIONS tab > Conditional Options > Highlight Conditions, you can click Add to select variables to create an expression that determines if specific rows in a table are shown or hidden. You can add one or two highlight conditions. 
+## Special Considerations
+ None.

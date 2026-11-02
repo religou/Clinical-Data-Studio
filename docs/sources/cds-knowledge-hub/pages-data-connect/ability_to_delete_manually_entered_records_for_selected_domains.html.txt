@@ -1,0 +1,20 @@
+# Ability to Delete Manually Entered Records for Selected Domains
+
+## Ability to Delete Manually Entered Records for Selected Domains
+## What Is New?
+ For Trial Design domains such Trial Disease Assessments (TD) and Trial Arms (TA), and the Related Records (RELREC) domain, you can map data sets by manually mapping fields. This this update, you can delete these manually entered records individually or in bulk. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No change to the workflow process. The new deletion ability extends existing functionality.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ You can remove records that you no longer need.
+## Where Do I See the Change?
+ For the affected domains, when you click Map > Manually Enter Fields > Create and add records, each row now has a selection toggle. You can select one, multiple, or all records, and then click Delete Records(s) to delete the records from the data set.
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

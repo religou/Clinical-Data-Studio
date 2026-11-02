@@ -1,0 +1,14 @@
+# Access User Assistance Pertaining to a Specific Page or Field With One Click
+
+## Access User Assistance Pertaining to a Specific Page or Field With One Click
+## Description
+ The user interface provides progressive user assistance (PUA) in select locations indicated by a clickable icon. 
+ PUA may include hyperlinks that open a new browser tab to related product content on the Knowledge Hub. PUA implementation is ongoing and does not affect product functionality. You can expect new PUA to coincide with or follow product releases.         
+ Affected Roles 
+ All.
+## Advantages
+ Providing progressive user assistance directly on a page or field ensures that you find the help information you need faster and easier than searching through online help.
+## User Impact
+ You can access progressive user assistance by c licking a Help icon  on any Detect page. When you click a Help icon, user assistance pertaining to the directly associated page or field automatically displays in a popover. 
+## Special Considerations
+ None.

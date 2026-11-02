@@ -1,0 +1,15 @@
+# Help Links to the Knowledge Space
+
+## Help Links to the Knowledge Space
+## Description
+ The Help menu in MEDS Ingestor includes a link to the product knowledge space.
+ Feature/enhancement stories referenced in this article:
+ MCC-462544 
+## Affected Roles
+ All.
+## Advantages
+ You can directly access the MEDS Ingestor knowledge space from the MEDS Ingestor application. 
+## User Impact
+ To access the MEDS Ingestor Knowledge space from the MEDS Ingestor application, click  Help >  Knowledge Space Home . 
+## Special Considerations
+ None.

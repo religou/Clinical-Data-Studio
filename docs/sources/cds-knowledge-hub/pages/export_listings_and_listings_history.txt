@@ -1,0 +1,19 @@
+# Export Listings and Listings History
+
+## Export Listings and Listings History
+## Description
+ You can now export listings and listings history as CSV files in Data Reviewer.
+## Affected Roles
+ All roles with Data Reviewer access. Roles with View Data Reviewer building block can also export listings.
+## Advantages
+ You can review listing records and history in CSV format outside of the Data Reviewer application.
+## User Impact
+ On the Data Reviewer page > Listings tab, if you select an approved listing, and:
+- Click Export Listing , a CSV file with all the records in the listing downloads to your browser. The file also includes the Updated By and Updated Date information. 
+- Click the Show History link next to the listing name, the listing history tab opens to the side of the page and shows historical snapshots of the listing. You can then select any snapshot to view the listing at the time and click Export to export the snapshot as a .csv file. 
+## Knowledge Space Updates
+ The Detect Knowledge Space provides new and updated content to support the feature: 
+- View, Create, and Edit Draft Listings 
+- Refresh And Get Listings History 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

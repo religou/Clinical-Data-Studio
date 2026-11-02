@@ -1,0 +1,36 @@
+# Data Surveillance: Manually Refresh Data in Individual Patient Profile Designs
+
+## Data Surveillance: Manually Refresh Data in Individual Patient Profile Designs
+## What Is New?
+ Prior to the Clinical Data Studio September 2024 release, all published patient profile designs would automatically refresh daily to show and reflect data based on the latest study data ingested by Data Surveillance. Now you can manually refresh individual patient profile designs to show and reflect data based on the latest study data ingested by Data Surveillance. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ Important : Patient Profiles no longer performs automatic data refreshes. You must manually perform a data refresh on individual patient profile designs to show and reflect data based on the latest study data for that design. 
+ Data Surveillance will produce the first data snapshot for all published designs as of the September 2024 release. 
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ In previous Patient Profiles releases, automatic daily data refreshes made it difficult to track and ascertain which patient profile design data was: 
+- Never reviewed. 
+- Reviewed and up to date. 
+- Previously reviewed but now out of date due to post-review data changes. 
+ Therefore, your team ran the risk of potentially reviewing the same data multiple times or overlooking data that required review.  
+ Now, performing manual data refreshes on individual patient profile designs enables you to: 
+- Control the data that you want to show for your patient profile designs. 
+- Control the pace of your patient profile review cycles. 
+- Gain clearer visibility and understanding of the data that: 
+- Requires initial review. 
+- Is reviewed and up to date. 
+- Was previously reviewed but now requires rereview due to post-review data changes. 
+ Therefore, conducting patient profile design reviews is now clearer, simpler, and more efficient. 
+## Where Do I See the Change?
+ In Data Surveillance > Patient Profiles: when working on published designs, the Profiles tab now contains a  Refresh button above the Patient Selector section.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Refresh Designs to Reflect the Latest Available Study Data 
+## What Else Should I Know?
+ Patient profile designs may take several minutes or more to refresh depending on the design complexity and patient volume. 
+ Tip : We recommend refreshing data for patient profile designs only when you need to see new data. For example, you might want to refresh a patient profile design to review data after a specific study milestone date. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

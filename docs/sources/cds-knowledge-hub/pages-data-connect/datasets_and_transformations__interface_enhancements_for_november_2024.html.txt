@@ -1,0 +1,30 @@
+# Datasets and Transformations: Interface Enhancements for November 2024
+
+## Datasets and Transformations: Interface Enhancements for November 2024
+## What Is New?
+ As a part of November 2024 release, the Datasets and Transformations experiences feature various enhancements including:
+- An update to the Unregistered Items screen to data loading from selections. 
+- The deactivation of the save functionality  for transformations with custom code.  
+- Updates to show dataset names on the summary screen for the following projects: Enriched View, Derived Datasets, and Custom Dataset Model projects. 
+- The enablement of the View and Edit functionalities in the Datasets experience's Activation tab.
+- Improved search capability with selections in the data grid. 
+- An update to notifications such that they appear in the bottom-right corner.  
+- The blocking of Join and Unjoin operations for datasets with unresolved issues. 
+- Updates to Project List page to enhance performance. 
+- Updates to Select Standardized Analyte screen to show analyte suggestions. 
+- Updates to terminology related to Cloud Administration across the interface. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow processes.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The interface updates improve the look, feel, and navigation of the respective experiences.  
+## Where Do I See the Change?
+ The interface updates apply to various screens across the Datasets and Transformations experience. 
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

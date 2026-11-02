@@ -1,0 +1,4 @@
+# Current Known Issues for Clinical Data Studio
+
+## Current Known Issues for Clinical Data Studio
+ To view the list of current Known Issues for Clinical Data Studio, click   Current Known issues .

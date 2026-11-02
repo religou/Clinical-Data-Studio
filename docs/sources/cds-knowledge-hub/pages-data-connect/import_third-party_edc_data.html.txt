@@ -1,0 +1,151 @@
+# Import Third-Party EDC Data
+
+## Import Third-Party EDC Data
+ You can automatically ingest third-party EDC data for any Non-Medidata study with SFTP, FTPS and, S3 locations. You can configure visits, sites, and patients metadata with Data Connect's Imports experience.
+ Tip :  If you use Veeva EDC, you can use Data Connect’s Veeva Direct Connect capability. For details, see  Import with Veeva EDC Direct Connect . 
+## Before You Start
+## Unsupported Clinical Data Studio Capabilities
+ Unsupported Capability
+ Workaround
+ | Medidata does not support system KRIs ingested from third-party EDC systems:  
+- AE Entry Delay 
+- Visit Entry Delay 
+- Missing Visits 
+- Out-of-window Visits 
+- System and Non-System Query Rate 
+- Non-System Query Delay 
+- Number of SAEs per Month 
+- Number of AEs per Month 
+ | None 
+## General Limitations
+- While you can import multiple form types, Data Surveillance only supports forms with patients, sites, and visits. 
+ Important : Data Connect does not support multiple sites per patient. You must tag a single site as the primary site in the source system to ensure patients reflect the latest site. If you do not update the source system, then patients associated to the most current site appear as unregistered values in Datasets. 
+## Special Considerations
+- When you update the dataset in your third-party EDC system, you must reactivate the dataset in Data Connect to propagate the changes in your downstream applications. For details, see Activate Datasets . 
+- Data Connect automatically tags third-party EDC datasets as a Derived Dataset when it requires extensive transformations before being available for activation. 
+- Data Connect shows a banner when your Rave studies have not been onboarded for compatibility with third-party EDC datasets. 
+- All third-party EDC studies must be in their own client – that is, completely separate from the Medidata platform. This is because the system assumes the source of the metadata is Data Connect. For example, if you import sites from Data Connect and use Cloud Administration to update client division organizations (CDOs) and sites, then data inconsistencies can occur. 
+## Prepare Metadata Datasets
+ Before you can import third-party clinical data, you must import the following three metadata datasets:  
+- Visits – Adds all planned visits within the study. 
+- Sites – Adds all sites expected for the study. 
+- Patients – Adds all patients and their associated primary site. 
+ You can only configure each metadata dataset once. If necessary, you can edit the mapping after creation to resolve errors. After creating the data source, you can configure and import clinical datasets for an EDC source as necessary.  
+ You do not need to import metadata datasets and clinical datasets in a specific order. However, you cannot activate clinical datasets for Data Surveillance until you also successfully import the associated metadata.  
+## Mapping Requirements for Each Metadata Dataset
+ Visits 
+ The data source file from the third-party EDC must include a list of planned visits that can map to the below target fields. The Medidata system does not require each source column headers to be exact matches to the below target fields. 
+ Mapped Target Field 
+ Definition 
+ Data Type 
+ Core 
+ Comments 
+ | Visit Name 
+ | Planned visit name unique within the study 
+ | String 
+ | Required 
+ | 
+ | Visit Order 
+ | Visit Sequence Number 
+ | Integer 
+ | Optional 
+ | If not mapped, the system creates a sequence number based on the order of visits in the file 
+ | Visit Window Start Days 
+ | Number of days that data entry can be done before the target day 
+ | Integer 
+ | Optional 
+ | 
+ | Visit Window Target Days 
+ | Offset in days after visit is created for ideal data entry 
+ | Integer 
+ | Optional 
+ | 
+ | Visit Window End Days 
+ | Number of days data entry can continue after the target day 
+ | Integer 
+ | Optional 
+ | 
+ | Visit Type 
+ | Indicates if visit is planned or unscheduled 
+ | String 
+ | Optional 
+ | By default, all visits are planned. If mapped, the system expects the source record to be: “Unscheduled”, ‘1’, “Yes”, ‘Y’, or, “UNS” for unscheduled visits 
+## Sites
+ The data source file from the third-party EDC must include a list of sites that can map to the below target fields. The Medidata system does not require each source column headers to be exact matches to the below target fields. 
+ Mapped Target Field  
+ Definition 
+ Data Type 
+ Core 
+ Comments 
+ | Site Name 
+ | Site Name 
+ | String 
+ | Required 
+ | 
+ | Site Number 
+ | Unique Site Number 
+ | String 
+ | Required 
+ | 
+ | Country 
+ | Country 
+ | String 
+ | Required 
+ | 
+ | City 
+ | City 
+ | String 
+ | Optional 
+ | The system sets the City to “NA” if Country is not one of: United States, Russian Federation, Australia, Canada 
+ The System sets the City to the below values if Country is the following: 
+- If the Country is: United States, then City: New York 
+- If the Country is: Russian Federation (Code=RUS), then City: Moscow 
+- If the Country is: Australia (Code=AUS), then City: Sydney 
+- If the Country is: Canada (Code=CAN), then City: Toronto 
+ | Postal Code 
+ | Postal Code 
+ | String 
+ | Optional 
+ | The system sets to “NA” if source file does not have a mapped field 
+ | Address 
+ | Address 
+ | String 
+ | Optional 
+ | The system sets to “NA” if source file does not have a mapped field 
+## Patients
+ The data source file from the third-party EDC must include a list of patients and the primary site associated with each patient that can be map to the below target fields. The Medidata system does not require each source column header to be exact matches to the below target fields. 
+ Mapped Target Field  
+ Definition 
+ Data Type 
+ Core 
+ Comments 
+ | Primary Site Number 
+ | Primary site associated with the patient 
+ | String 
+ | Required 
+ | 
+ | Patient ID 
+ | Patient ID 
+ | String 
+ | Required 
+ | 
+ Note : You cannot create patients associated with more than one site. Clinical Data Studio supports only successfully screened patient data and requires unique patient IDs within the study. Importing duplicate patient IDs causes errors and prevents patient creation in the Medidata platform.
+## Connect EDC to Data Connect
+## Add Data Source
+- Access Data Connect , and click   Imports   in the left-hand menu. 
+- Click   Add data source . See  Add Data Source for details on how to configure a data source. Use this data source to import metadata. 
+## Add Metadata
+- On the Data source screen, click Add Metadata > Select the metadata from the list.
+- Visits  
+- Sites 
+- Patients
+ Note : These steps use Visit metadata type to define the workflow. The steps to create metadata datasets for the other two metadata type are the same.
+- On the Add Visit Dataset screen, click Select source file , and select a file to map the dataset specifications. See Add Dataset for more information. 
+- Click Select file.  You can preview the data for the selected file on the right side of the screen. 
+- Use the data preview and map the source field to target fields.
+ Tip : Data preview contains built-in validation to show errors.
+- Click Continue. 
+- Define Importing Criteria. For details, see  Add Dataset . 
+- Click Add Visits Dataset > Start Import recurrence. 
+ Tip : To import the dataset later, select Start Later .
+- Repeat for the Sites and Patients metadata.

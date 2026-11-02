@@ -1,0 +1,30 @@
+# Audit Trail Review: Publish Option Disabled For Unsaved Audit Trail Chats
+
+## Audit Trail Review: Publish Option Disabled For Unsaved Audit Trail Chats
+## What Is New?
+ You cannot publish an audit dataset without saving the audit trail chat first . The Publish as Dataset button remains disabled: 
+- For unsaved chats.  
+- A message appears if you hover over the button indicating that the study already has 10 published datasets. 
+ Similarly, you cannot delete chats associated with a published audit dataset. 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Data managers can improve audit practices by publishing only audit data of interest, and take appropriate action once the study has 10 published datasets.  
+## Where Do I See the Change?
+- On the RBQM tab > Audit Trail Review page, if you do not save a completed chat using the Save Prompt option, and then, if you click , the More icon in the top-right corner of the Data Preview section, the Publish as dataset button appears disabled. 
+- On the RBQM tab > Audit Trail Review page, if you hover over , the More icon in the top-right corner of the Data Preview section, the Publish as dataset button remains disabled once the study has a total of 10 published audit datasets. A message "Maximum of 10 datasets already published." also appears.  
+- On the RBQM tab > Audit Trail Review page, if you click the Saved Chats button, the Saved Chats slide-out panel lists all saved chats. If you click , the More icon for a saved chat linked to published audit dataset from the list, the Delete option appears disabled. In the example below,  Delete appears disabled for non-conformant data entries from Sites in Spain , as this chat is linked to an active, published audit dataset for the study. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement : 
+- Create Audit Trail Reviews 
+- Publish Data Sets 
+- Manage Saved Chats 
+## What Else Should I Know?
+ You must have the Manage Audit Trail Review building block added to your Cloud Administration role to publish audit datasets.
+ Once an active, published dataset is deleted from a study, you can delete the associated chat. Contact your Medidata representative to delete a published audit dataset for a study.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

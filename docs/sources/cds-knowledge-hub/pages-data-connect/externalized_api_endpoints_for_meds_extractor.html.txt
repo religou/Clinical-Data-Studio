@@ -1,0 +1,23 @@
+# Externalized API Endpoints for MEDS Extractor
+
+## Externalized API Endpoints for MEDS Extractor
+## Description
+ You can use Medidata's Clinical Cloud API endpoints to download data from export jobs using MEDS Extractor resources. The Medidata platform identifies your export jobs, job executions, and sends file download links through the endpoints. You can use the following endpoints:
+- Get File Download URL – Returns an AWS URL where you can download MEDS Extractor files based on the Job Execution UUID, in ZIP format. 
+- Get All Export Jobs – Returns a list of jobs for the current API user and the specified CDS UUID. 
+- Get Job Details – Returns job details for the specified Job UUID and CDS UUID. 
+- Get Latest Execution Details – Returns the latest job execution details. 
+- Get All Job Executions – Returns a list of job executions for the specified Job UUID. 
+- Get File Location Details – Returns the specified file location's details. 
+- Get All File Locations – Returns a list of file location details for the specified CDS UUID. 
+- Get Job Execution – Returns the details of the specified job execution. 
+## Affected Roles
+ All roles with permission to use Clinical Cloud RESTful API Resources. For details, see Get Started with Medidata Platform RESTful API Resources .
+## Advantages
+ You can programmatically download files using Medidata's API, giving you more options to download data from the Medidata platform.
+## User Impact
+ The addition of externalized MEDS Extractor resources does not affect your use of the MEDS Extractor user interface.
+## Knowledge Space Updates
+ None. You can find details on the Clinical Cloud API Changelog . 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

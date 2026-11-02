@@ -1,0 +1,22 @@
+# Determine Study Data Outliers, Risks, and Trends Using Error Plots
+
+## Determine Study Data Outliers, Risks, and Trends Using Error Plots
+## Description
+ Error plots are graphical representations of Rave CSA's data analysis on a variable or combination of variables in your study data. The data analysis displays in the form of frequency distribution plots, box-and-whisker plots, or scatter plots.
+## Affected Roles
+- Data managers 
+- Central monitors 
+- Medical monitors 
+## Advantages
+ You can use error plots to determine outliers, anomalies, risks, and trends in your study data. 
+ Determining the outliers, anomalies, risks, and trends in your study data puts you and your life sciences team in an optimal position to take actions on your study, such as:
+- cleaning data, 
+- opening issues, 
+- opening queries, 
+- issuing corrective actions, 
+- coordinating additional training, 
+- and much more. 
+## User Impact
+ You can access error plots on the Error Plots page. To learn more, see  Data Anomaly Detection Plots .
+## Special Considerations
+ None.

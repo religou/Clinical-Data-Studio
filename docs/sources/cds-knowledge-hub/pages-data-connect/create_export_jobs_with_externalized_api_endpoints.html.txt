@@ -1,0 +1,15 @@
+# Create Export Jobs with Externalized API Endpoints
+
+## Create Export Jobs with Externalized API Endpoints
+## Description
+ You can use more Medidata's Clinical Cloud API endpoints to create export jobs and extract data using Extractor resources. The Medidata platform processes and delivers files identified through the endpoint. You also create, update, and test SFTP locations. 
+## Affected Roles
+ All roles with permission to use Clinical Cloud RESTful API Resources. For details, see  Get Started with Clinical Cloud RESTful API Resources .
+## Advantages
+ You can programmatically export files using Medidata's API, giving you more options to download data from the Medidata platform.
+## User Impact
+ The addition of externalized Extractor resources does not affect your use of the Extractor user interface. 
+## Knowledge Space Updates
+ None. You can find details on the  Clinical Cloud API Changelog .
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

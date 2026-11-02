@@ -1,0 +1,58 @@
+# Add FTPS Connection
+
+## Add FTPS Connection
+ You can configure exports to send a copy of extracted files to a server using FTPS . To do so, you must first add one or more FTPS connections to your client division. After adding one or more FTPS connections, the list of the connections is available to other users within your study group.  
+## Add Connection
+ Important : 
+- You are responsible for the access policies, file retention policies, and security of your external connection clients. Medidata does not manage your clients' configurations. 
+- To ensure proper connectivity and compatibility with Medidata's servers:
+- Update your clients' permit-list and deny-list to accept dynamic IP addresses to ensure proper connectivity and compatibility with Medidata's servers. 
+- The external connection's account must have full access to the parent directory specified in the connection's settings folder path and all subfolders. This includes read, write, update, and delete privileges.
+- Access Data Connect , and click   Exports   in the left-hand menu. 
+- Click Connections to enter the Connections screen. 
+- Click Add Connection , and enter the following settings:
+- 
+- 
+ Connection Name 
+ This name appears to a user when creating an export. Ensure that this name is meaningful to the other users.
+- 
+- 
+ Data Transfer Direction 
+ Configures the connection to allow data export, data import, or both.
+- Export Data  –  Select to create a connection for exporting data. Only applicable for exports. 
+- Import Data –  Select to create a connection for importing data. Only applicable for Ingestor import. 
+- 
+ Connection Type 
+ Select   FTPS. 
+- 
+ Host 
+ The destination server's full host name.
+- 
+ Port 
+ The standard port is 22. 
+- 
+ Folder Path 
+ The relative path from the connection's root to the destination folder for the connection.
+ Important : The path can be case-sensitive depending on your configuration.
+- 
+ Encryption Mode 
+ Encrypts the connection for data import, export, or both.
+- Implicit – The information exchange between the user and the server is encrypted. 
+ Note : Use this encryption mode for Medidata hosted FTPS server.
+- Explicit  – The user must send a request to switch to a secure FTPS connection to share sensitive information. 
+- 
+- 
+ User Name 
+ The username with write access to this target folder. Use connection-specific user names for these write-access connections to the server.
+- 
+ Password or Private Key 
+ Depending on your external connection policy specify either the password or a private key for the connection's user. This is a plain text field, with no validation.
+- Click Add Connection . 
+ Tip : More Actions for Connections 
+ After creating a connection, you can perform the following actions:
+- Test Connection – You can test connections on the Connections screen:
+- Find the Connection you created, and click Options > Test Connection . 
+- Delete Connection – You delete connections on the Connections screen:
+- Find the connection you created, and click Options > Delete Connection . 
+## Next Step
+ Configure Export to Use SFTP Connection

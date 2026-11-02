@@ -1,0 +1,25 @@
+# Quality Tolerance Limits Table Column Header Updates
+
+## Quality Tolerance Limits Table Column Header Updates
+## Description
+ The Quality Tolerance Limit table now includes the following column headers: 
+- Date Added – The QTL's original creation date. 
+- Date Updated – The most recent date in which the QTL update occurred. Date Updated is blank for unmodified QTL configurations. 
+- Updated By – The user who most recently updated the QTL. Updated By is blank for unmodified QTL configurations. 
+ The Updated By column also shows a modification note icon, , for updated QTLs. You can click the icon to view a note explaining the QTL configuration changes made and the rationale.
+ The Quality Tolerance Limit Table no longer includes the following fields: 
+- Analysis Type 
+- Sides 
+## Affected Roles
+ Detect Configuration Manager Admin 
+## Advantages
+ The Date Added, Date Updated, and Updated By details provide helpful historical data about the QTL configuration. 
+ The Quality Tolerance Limit table no longer includes Analysis Type or Sides, since those corresponding fields no longer exist when configuring QTLs in the Quality Tolerance Limit dialog box. 
+## User Impact
+ See the Description section.
+## Knowledge Space Updates
+ The Detect Configuration Manager Knowledge Space provides new and updated content to support this feature/enhancement: 
+- View and Sort the Quality Tolerance Limits List 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

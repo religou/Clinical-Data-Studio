@@ -1,0 +1,471 @@
+# Review AI Reconciliation Reports Findings
+
+## Review AI Reconciliation Reports Findings
+ AI Reconciliation runs proprietary AI-based algorithms   on study data and identifies and lists discrepant records that require reconciliation in the following eight reports: 
+- Conditions Without Treatments 
+- Worsening Conditions 
+- Overlapping Conditions 
+- Overlapping non-Worsening Conditions and Ongoing Medical History 
+- Invalid CTCAE Grade 
+- Missing Lab for CTCAE Grade 
+- Overlapping Treatments 
+- Treatments Without Conditions or Ongoing Medical History 
+ Within the reports, you can:
+- View the list of report findings and associated finding details. 
+- Investigate the patient profile of the patient associated with a record. 
+- View and link other treatments, conditions, or ongoing medical history as being related to a finding.
+ Note : You can only do this for the Conditions without Treatments, Worsening Conditions, Treatments without Conditions or ongoing MH reports.
+- View and submit Medidata Rave queries on report findings. 
+- Manually agree or disagree with findings. 
+- Manually mark findings as reviewed or unreviewed. 
+## View Report Findings
+ Each AI Data Reconciliation report lists records that Data Surveillance considers as being findings. Findings may have additional, related, or unrelated findings associated with them. Data Managers can query finding details, review records, mark records as reviewed, or unreviewed and link findings during the data reconciliation process.
+- 
+ Access the AI Data Reconciliation report you want to view. 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Click the Conditions or Treatment tab. 
+- From the list, click a report name. 
+- If necessary, filter the report to help find the information you need. 
+- View the following findings for reports:
+ Column Descriptions 
+- Patient ID – The ID of the patient associated with the report record. 
+- Site – The site the patient belongs to. 
+- Country – The three-letter abbreviation for country in which the site resides. 
+- Status – Indicates the record has a Rave query; indicates the record is marked as reviewed. 
+- Data Set – For Conditions record data originates from the AE data set; for Treatments record data originates from the CP or CM data set. 
+- Reported Term – The condition or treatment the patient reported. 
+- Preferred Term – The coded term for the reported term in the record. 
+- Start Date – The date when the patient first experienced the condition or treatment. 
+- End Date – The last date when the patient experienced the condition or treatment. 
+- Confidence – The AI Data Reconciliation algorithm's level of confidence that the record is a finding or a discrepancy. Values are High, Medium, Low.
+- High confidence indicates that the algorithm considers with high confidence that the finding details are accurate. 
+- Medium confidence indicates that the algorithm has neither high or low confidence that the finding details are accurate. 
+- Low confidence indicates that the algorithm has low confidence that the finding is accurate, often due to missing or ambiguous information. 
+- Additional Fields - Conditions without Treatmen t
+- Action Taken CM – A indicates that a site took action, for example, provided medication for a reported condition. 
+- Action Taken CP – A indicates that a site took action, for example, performed a procedure for a reported condition. 
+- Same Time Frame Treatments – Treatments the patient undertook in the same time frame as the reported conditions. 
+- Outside Time Frame Treatments – Treatments the patient undertook outside the time frame of the conditions experienced. 
+- Additional Fields - Worsening Conditions 
+- Ongoing MH – Medical history for the patient experiencing worsening conditions. 
+- Conditions Reported Before – Additional, unrelated conditions the patient reported before experiencing worsening conditions. 
+- Conditions Reported After – Additional, unrelated conditions the patient reported after experiencing worsening conditions. 
+- Additional Fields - Overlapping Conditions 
+- Overlapping Data Set – The data set from where the patient's overlapping conditions originate. 
+- Overlapping Reported Term – The overlapping condition or reactogenicity the patient reported. 
+- Overlapping Start Date – The date the patient first experienced the conditions. 
+- Overlapping End Date – The last date the patient experienced the conditions. 
+- Same Time Frame Conditions – Conditions the patient experienced in exactly the same time period as the reported conditions. 
+- Additional Fields - Missing Lab for CTCAE Grade 
+- Same Time Frame Lab  – Additional, unrelated lab records taken in the same time frame as the patient's reported condition, where either the analyte name or sample type, or neither, matches. 
+- Outside Time Frame Lab  – Additional, related lab records taken outside the time frame of the patient's reported condition, where either the analyte name or sample type, or both match. 
+- Additional Fields - Overlapping Non-worsening Conditions and Ongoing MH 
+- Overlapping Data Set – The data set from where the patient's overlapping conditions originate. 
+- Overlapping Reported Term – The overlapping condition or reactogenicity the patient reported. 
+- Overlapping Preferred Term – The coded term for the condition the patient experienced. 
+- Additional Fields - Overlapping Treatments 
+- Overlapping Data Set – The data set from where the patient's overlapping treatments originate. 
+- Overlapping Reported Term – The overlapping treatment the patient undertook. 
+- Overlapping Start Date – The date the patient first undertook the treatments. 
+- Overlapping End Date – The last date the patient experienced the treatments. 
+- Same Time Frame Treatments –Treatments the patient undertook over exactly the same time period as the reported treatment. 
+- Additional Fields - Treatments without Conditions or Ongoing MH 
+- Indication – Indicates the conditions or ongoing medical history for which the patient took the treatments. 
+- Same Time Frame Conditions – Conditions the patient experienced in the same time as the treatments taken. 
+- Outside Time Frame Conditions – Conditions the patient experienced outside the time frame of the treatments taken. 
+- Ongoing MH – The ongoing medical history of the patient. 
+## Filter AI Reconciliation Reports
+ Filtering enables you to locate and view record details of interest in a report. For each report, you can filter to view:
+- All report records.  
+- Only specific columns. 
+- Only unreviewed listing results. 
+- Only reviewed listing results. 
+- Only records with specific values in specific columns. For example, you can filter to view records for a specific Patient ID. 
+- Do any of the following or a combination to filter reports to view specific records:
+- 
+ Filter by Record Review Status 
+ Click the any one of the cards once you open a report:
+- Unreviewed  – Shows all unreviewed in the report. This is the default view. 
+- Reviewed – Shows all records marked as reviewed in the report. 
+- 
+ Filter to Show Specific Columns 
+- Click the filter icon to further restrict the records shown by the report columns. For example, you can select the Preferred Term column, and select a few preferred term names from the list to filter further. 
+- Click the More icon , and then click Columns Configuration and select, or clear the columns you want to show or hide, respectively, and then click  Apply . 
+- 
+ Filter the Records Shown in Specific Columns 
+ For the Patient ID, Site, Country, Data Set, Reported Term, Preferred Term, and Confidence columns, you can filter to show records with specific values.
+ For example, from the Patient ID column list, select 10041004 and 10141006, then click Apply . The table shows records for the selected patient IDs. You can also filter the records further, for example, to show only records where Confidence is High.
+## View Additional Conditions, Treatments, Medical History (MH), or Lab Records for Findings
+ AI Reconciliation lists additional conditions, treatments, medical history, or lab records for findings in the following reports:  
+- Conditions without Treatments 
+- Worsening Conditions 
+- Overlapping Conditions 
+- Invalid CTCAE Grade 
+- Missing Lab for CTCAE Grade 
+- Overlapping Treatments 
+- Treatments without Conditions  
+ Data Managers can view additional findings to determine if all the events that occurred for a reported term are related and relevant to the patient while reconciling study data.
+- 
+ Access the AI Data Reconciliation report you want to view. 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Click the Conditions or Treatment tab. 
+- Click a report name. 
+- Do any of the following to view additional findings:
+- For Conditions Without Treatments, click the hyperlinked number in:
+ Conditions without Treatments 
+- Same Time Frame Treatments – Shows treatments the patient undertook in the same time frame as the reported conditions. 
+- Outside Time Frame Treatments –Shows treatments the patient undertook outside the time frame of the conditions experienced. 
+- For Worsening Conditions, click the hyperlinked number in:
+ Worsening Conditions 
+- Ongoing MH – Shows the medical history for the patient experiencing worsening conditions. 
+- Conditions Reported Before – Shows additional, unrelated conditions the patient reported before experiencing worsening conditions. 
+- Conditions Reported After – Shows additional, unrelated conditions the patient reported after experiencing worsening conditions. 
+- For Overlapping Conditions, click the hyperlinked number in:
+ Overlapping Conditions 
+- Same Time Frame Conditions – Shows conditions the patient experienced in the same time frame as the reported conditions. 
+- For Missing Lab for CTCAE Grade, click the hyperlinked number in:
+ Missing Lab for CTCAE Grade 
+- Same Time Frame Lab  – Shows unrelated lab records taken in the same time frame as the patient's reported condition, where either the analyte name or sample type, or neither, matches. 
+- Outside Time Frame Lab  – Shows related lab records taken outside the time frame of the patient's reported condition, where either the analyte name or sample type, or both match. 
+- For Overlapping Treatments, click the hyperlinked number in:
+ Overlapping Treatments 
+- Same Time Frame Treatments – Shows treatments the patient took over the same time period as the reported treatments. 
+- For Treatments Without Conditions or Ongoing MH, click the hyperlinked number in:
+ Treatments without Conditions or ongoing MH 
+- Same Time Frame Conditions – Shows conditions the patient experienced  in the same time as the treatments taken. 
+- Outside Time Frame Conditions – Shows conditions the patient experienced outside the time frame of the treatments taken. 
+- Ongoing MH – Shows the ongoing medical history of the patient. 
+## Link Treatments, Conditions, or Ongoing Medical History (MH) to Findings
+ You can link additional treatments, conditions, or medical history for the findings in the following reports:
+- Conditions without Treatments 
+- Worsening Conditions 
+- Treatments without Conditions or Ongoing Medical History (MH) 
+- Missing Lab for CTCAE  
+ Linking records indicates you identified missing data corresponding to the reported term in the finding, or you disagree with the report findings and the algorithm's high confidence level, and that the algorithm missed a possible connection between events. Linking reports outside the event time frame does not impact the confidence level as the algorithm is already aware that the finding and the outside time frame record are related.  
+ Note : Linking records does not automatically train the algorithm that two records are in the same time frame. 
+## Linking in Conditions without Treatments and Treatments without Conditions or Ongoing MH Reports
+ By linking records, you can train the AI Reconciliation algorithm to identify similar findings in future, and build a relation based on the WHODRUG and MEDRA databases.  When you link one or more conditions, treatments, medical history (MH), or lab records, the confidence level changes to low and Data Surveillance stores the information for future occurrences of similar conditions and treatments. For more information see, Condition Without Treatments Algorithm Methodology and  Treatments Without Conditions and Ongoing MH Algorithm Methodology . 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Do any of the following:
+- 
+ Link treatments or conditions to Treatments Without Conditions or Ongoing MH report findings. 
+- Click the Treatments tab. 
+- select Treatments without Conditions or ongoing MH .
+The Treatments without Conditions or ongoing MH report contains the Same Time Frame Conditions column, Outside Time Frame Conditions column, and Ongoing MH column. The numbers in each column indicate the number of respective conditions or treatments that AI Reconciliation identifies as possibly being related to a report finding. 
+- In the Same Time Frame Conditions column, Outside Time Frame Conditions column, or Ongoing MH column, click the hyperlinked number in the row corresponding to the finding whose associated conditions or ongoing MH you want to view.
+A Patient ID page appears listing all conditions or ongoing medical history that may possibly be related to the finding. 
+- Toggle the Link button On, , to link the ongoing MH or condition to the finding.
+ Notes
+ Toggling the Link button on:
+- Replaces in the Confidence column with a , indicating you disagree with the finding. 
+- Changes the finding's confidence assessment to Low.
+- The change in confidence indicates that the AI Reconciliation algorithm missed a possible relation between the finding and another event, and acts as feedback to update the algorithm when identifying findings in future analyses. 
+- Automatically marks unreviewed records as reviewed. 
+- Click Apply . 
+- 
+ Link treatments to Conditions Without Treatments report findings. 
+- Click the Conditions tab. 
+- Select Conditions without Treatments .
+The Conditions Without Treatments report contain the Same Time Frame Treatments column and Outside Time Frame Treatment column. The numbers in each column indicate the number of respective conditions or treatments that AI Data Reconciliation identifies as possibly being related to a report finding. 
+- In the Same Time Frame Treatments column or Outside Time Frame Treatments column, click the hyperlinked number in the corresponding row of the finding whose associated treatments you want to view.
+A Patient ID page appears listing all treatments that may possibly be related to the finding. 
+- Toggle the Link button On, , to link the treatment to the finding.
+ Notes
+ Toggling the Link button on:
+- Replaces in the Feedback column with a , indicating you disagree with the finding. 
+- Changes the finding's confidence assessment to Low in the Confidence column.
+- The change in confidence indicates that the AI Reconciliation algorithm missed a possible relation between the finding and another event and acts as feedback to update the algorithm when identifying findings in future analyses. 
+- Automatically marks unreviewed records as reviewed. 
+- Click Apply . 
+- 
+ Link ongoing MH and conditions to Worsening Conditions report findings. 
+- Click the Conditions tab. 
+- Select Worsening Conditions .
+The Worsening Conditions report contains the Ongoing MH column, Conditions Reported Before column, and Conditions Reported After column. The numbers in each column indicate the number of respective treatments or conditions that AI Data Reconciliation identifies as possibly being related to a report finding. 
+- In the Ongoing MH column, Conditions Reported Before column, or Conditions Reported After column, click the hyperlinked number in the corresponding row of the finding whose associated ongoing MH or conditions you want to view.
+A Patient ID page appears listing all ongoing MH or conditions that may possibly be related to the finding. 
+- Toggle the Link button On, , to link the ongoing MH or condition to the finding.
+ Notes
+ Toggling the Link button on:
+- Replaces in the Feedback column with a , indicating you disagree with the finding. 
+- Changes the finding's confidence assessment to Low in the Confidence column.
+- The change in confidence indicates that the AI Reconciliation algorithm missed a possible relation between the finding and another event and acts as feedback to update the algorithm when identifying findings in future analyses. 
+- Automatically marks unreviewed records as reviewed and moves the record under the Reviewed records list. 
+- Click Apply . 
+ Note : You can unlink treatments, conditions, or MH linked to records. For example, if you linked the findings by mistake initially, then you can unlink them by toggling the Link button off.
+## Missing Dates 
+ If you link treatments, conditions or ongoing medical history that occur within the same time frame as the event, then the confidence level lowers. If any part of the date that connects the findings is missing either due to incorrect information or human error, the AI Reconciliation algorithm sets this to the first day of the month or the first month of the year, depending on the piece of information missing from the date. For example, if the date is UN MAR 2019 , the algorithm assumes it as 1 MAR 2019. Similarly, if the date is 5 UNK 2019, the algorithm takes it as 5 Jan 2019. 
+ Note : This rule does not apply to non-conformant dates. 
+ If no date is given, then the AE, or CM, or CP start date is taken as the start of the clinical study, and there is no end date. That is, the record is assumed ongoing. 
+## View Patient Profile Design
+ When reviewing report findings in any AI Reconciliation report, you can directly access the patient profile design of the patient associated with each finding. Viewing profile designs allows you to get more insight about the accuracy of the data sets and elements associated with the patient ID. 
+- 
+ Access the AI Data Reconciliation report you want to view. 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Click the Conditions or Treatment tab. 
+- Click a report name. 
+- For a finding in the report, click the Patient ID .
+The patient profile opens in a new browser tab. 
+## View, Add, Edit, or Delete Internal Review Comments on Individual Findings 
+ You can add comments directly on individual findings in AI Data Reconciliation Reports. Comments enable you to share review notations with your study team. For example, you could comment on your rationale for marking a finding as reviewed. Or you might communicate with others your intention to review a finding once its query is closed.
+ You can also:
+- View a record's comment history. 
+- Edit and delete your own comments. 
+## Add Comments
+- 
+ Access the AI Data Reconciliation report you want to view. 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Click the Conditions or Treatment tab. 
+- Click a report name. 
+- Click the Action menu, , in the row corresponding to a finding you want to comment on, and then click Comment . 
+- Enter your comment text, and then click the blue check mark.
+In the row containing the finding, the Status column shows a Comment icon, . You can click the Comment icon to view the comment history and associated metadata. 
+## View Comments
+ You can view comments that you and others on your study team have submitted on individual findings. Comments:
+- Enable study team members to communicate review notes and decisions. 
+- Promote transparency and traceability. 
+- 
+ Access the AI Data Reconciliation report you want to view. 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Click the Conditions or Treatment tab. 
+- Click   a report name. 
+- In the report > Status column, click the Comment icon, , in the row corresponding to the finding whose comments you want to view.
+The Comments pane shows the comment history and associated metadata. 
+## Edit or Delete Comments
+ You can edit your submitted comments; for example, to fix a typo, update for clarity, or add more details. You can also delete your comments; for example, if a comment was made in error or is no longer relevant.
+- 
+ Access the AI Data Reconciliation report you want to view. 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Click the Conditions or Treatment tab. 
+- Click a report name. 
+- In the report > Status column, click the Comment icon, , in the row corresponding to the finding whose comments you want to view.
+The Comments pane shows the comment history and associated metadata. 
+- Click the Action menu, . 
+- Do one of the following:
+- Click Comment , update the comment text, and then click the check mark. 
+- Click Delete . 
+## View and Submit Queries on Findings
+ While reconciling study data, data managers may need additional information on findings. You view and submit standardized, predefined EDC queries simultaneously on multiple patient records to: 
+- Save the time and effort required to investigate and query patient records. 
+- Ensure uniform, consistent query text on the same variable across multiple records. 
+ Note: You can submit EDC queries only if you have the Submit Queries in Detect building block access . For a study that onboards with Veeve EDC, you can submit multiple queries into Veeva EDC for non-system fields. 
+## View Submitted Queries
+- 
+ Access the AI Data Reconciliation report you want to view. 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Click the Conditions or Treatment tab. 
+- Click   a report name. 
+- Click in the Status column. 
+ The list of queries and associated details for the record appears.
+ Query fields 
+- Query Type – A system-generated tag that indicates the marking group and distinguishes the query between manual or automated queries. 
+- Query Text – The user entered query text opened for a record. 
+- Action – Specifies whether the query is open or closed. 
+- Action By – The last user to submit or take follow up action on the query. 
+## Submit EDC Queries 
+ You can submit standardized, predefined EDC queries simultaneously on one or more patient records captured in an AI Reconciliation report.  Querying a report's records: 
+- 
+- Saves the time and effort required to investigate and query patient records by allowing you to simultaneously query multiple patients records. 
+- Ensures uniform, consistent query text on the same variable across multiple records. 
+- 
+ Access the AI Data Reconciliation report you want to view. 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Click the Conditions or Treatment tab. 
+- Click   a report name. 
+- Select one or more patient records. 
+ Important :
+- Data Surveillance does not support bulk query submission for Rave queries on nested forms. 
+- If your study uses an external EDC like Veeva, you can submit multiple queries into Veeva for non-system fields in your study data. The query you submit appears approximately five minutes after submission in Veeva. The status  icon appears updated on the AI Recon page for queries submitted into Veeva in approximately three hours . You cannot submit queries for the following system fields: 
+ System Fields 
+- STUDYID 
+- COUNTRY 
+- SITENUM 
+- SUBJID 
+- EGROUP 
+- EGROUPDEF 
+- EGROUPEID 
+- EVENT 
+- EVENTDEF 
+- EVENTEID 
+- EVENTDT 
+- ESEQ 
+- FORM 
+- FORMDEF 
+- FORMEID 
+- FSEQ 
+- FORMSTATUS 
+- CREATEDT 
+- FIRSTSUBMITDT 
+- LASTSUBMITDT 
+- IGSEQ 
+- DLASTMOD 
+- FGUID 
+- IGGUID 
+- LASTRUN 
+- Click  Submit Queries above the table.
+ Column Descriptions 
+- A check box – Select the check box to select the record.
+- Patient ID – Patient ID for the record.
+- Site – Site number associated with the record.
+- Country – Country where the site is located.
+- Query Text – Query text you enter into Rave.
+- Folder, Form, and Field – The Folder, Form, and Field associated with the record, depending on the variable you select to build the Rave query.
+ Note:  You can submit queries against the field  configured in Field Term mapping. 
+- Rave studies – The Submit Query  button is enabled if the mapped field is a valid Rave form field, or if it originates from a derived dataset that is built on a Rave dataset and maps back to a valid Rave form field. 
+- Veeva studies – The Submit Query  button is enabled if the study uses direct Veeva integration. Query submission is not supported for file-based Veeva studies. 
+ In all other cases, the Submit Query  button remains disabled. 
+- Select the check box for the records for which you want to submit queries. All records appear selected by default. 
+- In the upper-right corner of the Submit Queries page, click the Marking Group list, and select the marking group that you want to send the queries to. Site from DM is the default selection.
+ Important :
+- For Rave EDC 
+You should select the same marking group that you use when submitting queries in Rave. H owever, Data Surveillance allows you to submit queries from all marking groups within Rave and does not confirm individual marking group access. Therefore, you can submit queries to marking groups that you are not assigned to.
+- For Veeva EDC
+ For derived data sets or non-transformed data sets, no Form, Field, Folder, or Marking Group fields appear. 
+- Optional : To edit a record's query text, c lick Edit Query from the More ( ) in the row corresponding to the record you want to edit, and then select or enter any of the following: 
+- Query Text – Required.  
+- Form – Optional.  
+- Field – Default, uneditable selection. 
+- Folder – Optional.
+ Note : If you edit the form, field, or folder and the form is a log form, then the query shows in the log form as the first log line record.
+- Click Apply . 
+- Click Submit . 
+ The Status column in the row corresponding to the queried patient record shows a Query icon, . The query also shows on the data point in Rave EDC.
+ Note:  For Rave-enabled listings containing  derived datasets built in Data Connect , you can submit queries only for derived datasets where source variables originate from a Rave dataset. That is, the Submit Query button remains disabled if  the AI Reconciliation report has listings with derived datasets where the source variable does not come from a Rave dataset.  
+ Important : You must upgrade all previously created derived datasets in Data Connect to submit queries in Data Surveillance. 
+## Agree or Disagree with Findings 
+ AI Reconciliation assigns to each report finding the algorithm's level of confidence that a record is indeed a finding. A finding is a data anomaly. The confidence levels are: High, Medium, and Low. High confidence means that the algorithm has a high confidence that the finding is accurate. Low confidence means that the algorithm has a low level of confidence that the finding is accurate, often due to missing or ambiguous information. Note though, that depending on the report you are working in, the criteria for High, Medium, and Low confidence levels vary. To learn more, see Confidence Level for Individual Reports .
+ As a data manager, you can provide feedback on the finding by agreeing or disagreeing with the finding. The green thumbs up and the red thumbs down icons in  the Feedback column in the row corresponding to a finding indicate if you agree or disagree, respectively. A gray thumbs up and thumbs down icon together indicate that no feedback exists yet for the finding.
+## Automatically Disagree 
+ You disagree automatically with a finding when you link conditions, treatments, or medical history to findings . The record's confidence level also lowers, and t he thumbs down icon replaces the thumbs up or the gray thumbs up icon in the corresponding row. The in the Feedback column in a reviewed record indicates the built-in algorithm missed a possible relation between the finding and another event, and acts as feedback for marking similar records in future.  
+## Automatically Agree 
+ When you submit a query , AI Reconciliation adds a thumbs up icon in the Feedback column in the row corresponding to the finding. This indicates you agree that the finding is indeed a data anomaly. The confidence level for the finding remains high. 
+## Manually Disagree 
+ You can also manually indicate that you disagree with a finding. 
+- 
+ Access the AI Data Reconciliation report you want to view. 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Click the Conditions or Treatment tab. 
+- Click   a report name. 
+- In the row corresponding to the finding you disagree with, click the gray thumbs down icon, . A red thumbs down icon appears instead. Once the data refreshes, the confidence level for the finding lowers. 
+## Confidence Level for Individual Reports
+ Overlapping Conditions Report 
+ Confidence Level 
+ Explanation by Specific Report 
+ | High  
+ | The Confidence level is high if the reported term of overlapping records match.  
+ | Medium  
+ | The Confidence level is medium if the reported term of overlapping records do not match.
+ | Low 
+ | A finding has low confidence if the start date of one record matches the end date of another or vice versa. 
+ Conditions without Treatments Report 
+ Confidence Level 
+ Explanation by Specific Report 
+ | High  
+ | A finding has high confidence when low confidence criteria do not apply.  
+ | Medium  
+ | The Conditions without Treatments report do not assign a medium confidence level to any finding. 
+ | Low 
+ | A finding has low confidence when:
+- It includes conditions that cannot be treated. 
+- The patient with a condition undertakes a treatment for which another patient within the study has linked as treating the condition. 
+ Worsening Conditions Report 
+ Confidence Level 
+ Explanation by Specific Report 
+ | High  
+ | All findings are assigned a high confidence level.
+ | Medium  
+ | The Worsening Conditions report does not assign a medium confidence level to any finding. 
+ | Low 
+ | The Worsening Conditions report does not assign a low confidence level to any finding. 
+ Treatments Without Conditions Report 
+ Confidence Level 
+ Explanation by Specific Report 
+ | High  
+ | A finding has high confidence when low or medium confidence criterion does not apply.  
+ | Medium  
+ | The Treatments without Conditions report do not assign a medium confidence level to any finding. 
+ | Low 
+ | A finding is low confidence if either: 
+- The treatment is not known to treat any condition/history. 
+- The patient has a condition or history for which some user within the study has linked as being treated by the treatment. 
+ Missing Lab for CTCAE Grade Report 
+ Confidence Level 
+ Explanation by Specific Report 
+ | High  
+ | The confidence level is high if no lab record exists within the same time frame as the adverse event for the record.
+ | Medium  
+ | The confidence level is medium if the lab record exists within the same time frame as the adverse event, but neither the analyte name nor the sample type match the lab record. 
+ | Low 
+ | The confidence level is low if the lab record exists within the same time frame as the adverse event and matches either the sample type or analyte name, but not both. 
+ Invalid CTCAE Grade Report 
+ Confidence Level 
+ Explanation by Specific Report 
+ | High  
+ | The confidence level is high:
+- if the patient adverse event record has an assigned numeric CTCAE grade but the adverse event is not present in the CTCAE version 5.0 criteria. 
+- If the patient adverse event record does not have an assigned numeric CTCAE grade but the adverse is present in the CTCAE version 5.0 criteria. 
+- If the patient adverse event record has an assigned numeric CTCAE grade and that adverse event is present in the CTCAE version 5.0 criteria, but the grade is not a permissible one.  
+ | Medium  
+ | Not applicable 
+ | Low 
+ | Not applicable 
+ Overlapping Non-worsening Conditions and Ongoing History Report 
+ Confidence Level 
+ Explanation by Specific Report 
+ | High  
+ | The confidence level is high if the preferred term of the non-worsening condition and the ongoing medical history have the same reported term. 
+ | Medium  
+ | The confidence level is medium if the preferred term of the non-worsening condition and the ongoing medical history have different reported terms. 
+ | Low 
+ | The Overlapping non-worsening conditions and ongoing history report do not assign a low confidence level to any finding. 
+ Overlapping Treatments Report 
+ Confidence Level 
+ Explanation by Specific Report 
+ | High  
+ | The Confidence level is high if the reported term of overlapping records match. 
+ | Medium  
+ | The Confidence level is medium if the reported term of overlapping records do not match. 
+ | Low 
+ | A finding has low confidence if the start date of one record matches the end date of another or vice versa 
+## Mark Records as Reviewed or Unreviewed 
+ Data Managers can mark records as reviewed to focus on unreviewed findings that require further action. When you mark a record as reviewed, it hides from the unreviewed list of records, the default view. 
+## Automatically Mark as Reviewed
+ AI Data Reconciliation marks findings as reviewed, and hides them from the unreviewed records list, when you:
+- Link conditions, treatments, or medical history 
+- Submit queries  
+## Manually Mark as Reviewed
+- 
+ Access the AI Data Reconciliation report you want to view. 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Click the Conditions or Treatment tab. 
+- Click   a report name.
+The default view shows all unreviewed records.
+ Note : If you select both Reviewed or Unreviewed, or select neither, all records in the report appear. 
+- Optional : Inspect the records you want to review. 
+- Select the records. 
+- Click Mark Reviewed above the table.
+The records show in the Reviewed list.
+## Manually Mark Unreviewed
+- 
+ Access the AI Data Reconciliation report you want to view. 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Click the Conditions or Treatment tab. 
+- Click   a report name. 
+- Click  Reviewed below the report name. The report shows all reviewed records. 
+- Optional : Inspect the records you want to mark as unreviewed. For example, view the profile design for the patient ID. 
+- Select the records. 
+- Scroll to the right in the rows of the selected records, and click More ( ). 
+- Click Mark Unreviewed .
+ The records show in the Unreviewed list.

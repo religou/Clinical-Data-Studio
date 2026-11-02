@@ -1,0 +1,15 @@
+# One-click Access To Detect Landing Page User Assistance
+
+## One-click Access To Detect Landing Page User Assistance
+## Description
+ The Help menu in Detect Landing Page 2022.2.0 launches the Detect Central knowledge space. 
+## Affected Roles
+ All. 
+## Advantages
+ The Detect Central knowledge space allows you to access knowledge spaces for all Detect family products.
+## User Impact
+ When you are on the Medidata Detect Landing page, and click the Help menu > Knowledge Space Home option, you navigate to the Detect Central knowledge space. 
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

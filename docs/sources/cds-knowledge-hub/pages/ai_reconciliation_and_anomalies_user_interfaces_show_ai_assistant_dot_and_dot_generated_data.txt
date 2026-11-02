@@ -1,0 +1,49 @@
+# AI Reconciliation And Anomalies User Interfaces Show AI Assistant Dot And Dot Generated Data
+
+## AI Reconciliation And Anomalies User Interfaces Show AI Assistant Dot And Dot Generated Data
+ Important: 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the  released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Statistical Monitoring
+ Summary of Changes 
+ | 
+ AI Reconciliation and Anomalies pages now include AI assistant Dot label and marks AI-generated data with the label Dot Generated.
+ Benefit to Users 
+ | Data managers can differentiate between system-calculated and AI-generated data metrics in the study and act to maintain data integrity. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data managers.
+ Impact to Workflow Processes 
+ No impact to workflow processes.
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+ On the RBQM > Statistical Monitoring > Anomalies page, a blue dot indicates the Medidata AI Assistant Dot. The bottom of the page also shows the Dot generated label for AI generated data.
+ On the Data Surveillance > AI Reconciliation Reports page, the Dot label also appears for individual reports:
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Investigate Data Using Data Anomaly Detection Plots 
+ Special Considerations 
+ |   To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

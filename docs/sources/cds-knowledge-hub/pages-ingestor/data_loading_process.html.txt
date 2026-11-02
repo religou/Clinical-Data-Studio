@@ -1,0 +1,76 @@
+# Data Loading Process
+
+## Data Loading Process
+ Once the import process begins, an uploaded file goes through several stages of loading. Below is an illustration on all the possible statuses an imported file can be in. 
+ Tip : Click image to enlarge.
+ draw.io 
+ Source page access restriction: Click the link below to check if the page is accessible. 
+ /display/MEDSINGESTsrc/._draw.io_dataProcessDiagram+v2022.4.x 
+ Order
+ Status
+ Status Description
+ User Action
+ | 1 
+ | Transfer in Progress 
+ | 
+ The Medidata platform is transferring the file from an external SFTP folder to Medidata’s S3 bucket. 
+ Note : This is only applicable when uploading a file using an external SFTP location. 
+ | None. 
+ | 2 
+ | Transfer Failed 
+ | 
+ The file transfer from the external SFTP location to the Medidata S3 bucket failed. 
+ Note : This is only applicable when uploading a file using an external SFTP location. 
+ | Check Ingestor’s Job Notifications screen for failure details. 
+ | 3 
+ | Upload in Progress 
+ | The Medidata platform uploading the file to Medidata’s S3 bucket.  
+ | None. 
+ | 4 
+ | Upload Failed 
+ | The upload to Medidata’s S3 bucket failed. 
+ | Check the error message that appears in the View panel of the Job Details screen . 
+ | 5 
+ | Waiting to Process 
+ | The file is waiting for the processor that loads data onto the Medidata S3 bucket to pick it up. 
+ | None 
+ | 6 
+ | Import in Progress 
+ | The processor picked up the file from the queue and is loading it. 
+ | None 
+ | 7 
+ | Import Failed 
+ | The Medidata platform failed to start loading from the uploaded queue. 
+ | Please contact the Medidata Helpdesk. 
+ | 8 
+ | Data Validation In Progress 
+ | The file is loading, and the Medidata platform is running data validation.  
+ When loading external EDC data, the Medidata platform checks file specification against the Study Design Metadata (SDM) definition during this step. 
+ | None.
+ | 9 
+ | Data Validation Failed 
+ | The file has failed data validation checks, and the Medidata platform did not load any data.  
+ | Check the error file that appears in the View panel of the Job Details screen . 
+ | 10 
+ | Data Processing In Progress 
+ | The file passed data validation is, and the Medidata platform is processing the file’s data. The platform checks each record and attempts to load all possible records. 
+ | None 
+ | 11 
+ | Data Processing Retry in Progress 
+ | The Medidata platform retries to load unprocessed rows. For each row, the platform performs up to 14 attempts by default. After the 14 attempts, data processing for that row counts as a failure. 
+ | N/A 
+ | 12 
+ | Data Processing Failed 
+ | All records failed to load.  
+ | Check the error file that appears in the View panel of the Job Details screen . 
+ | 13 
+ | Completed Successfully 
+ | All records loaded successfully. 
+ | Check the Summary Counts that appear in the View panel of the Job Details screen . 
+ A Processing Detail file is also available to download in the panel’s Artifacts section that includes a record-level success log. 
+ | 14 
+ | Completed with Failed Rows 
+ | File loading is partially successful. The Medidata platform loaded one or more records successfully.  
+ | Check the Summary Counts that appear in the View panel of the Job Details screen for record-level loading number. 
+ A Processing Detail File is also available to download in the panel’s Artifacts section that includes a record-level success log. 
+ An Error file or Warning file is also available that includes details on records with errors and warnings, respectively.

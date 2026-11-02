@@ -1,0 +1,22 @@
+# Data Surveillance: Reorder Data Listing Columns For Better Accessibility
+
+## Data Surveillance: Reorder Data Listing Columns For Better Accessibility
+## What Is New?
+You can reorder columns or set columns to follow the order of occurrence as in the expression builder in Data Listings.
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ No change to workflow.
+## Other Applications
+ No impact on other applications.
+## How Do I Benefit?
+ You can identify data listing details of interest easily and reorder columns to comply with internal data protocols.
+## Where Do I See the Change?
+ In Data Surveillance > Listings > Expression builder, you can select data sets and variables in the expression builder that appear in the data listing. If you click Preview Listing, the data listing shows columns in the order you used in the listing. If you want to further reorder columns, You can further order columns, you can click , the More icon above the columns and then click Columns configuration . A slide out panel appears where you can reorder columns.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Data Listings 
+## What Else Should I Know?
+ You cannot move or reorder left fixed columns like Patient ID, Site, or Country on the Listings page.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

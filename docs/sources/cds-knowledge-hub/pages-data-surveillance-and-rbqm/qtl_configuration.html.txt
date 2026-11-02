@@ -1,0 +1,34 @@
+# QTL Configuration
+
+## QTL Configuration
+ Quality tolerance limits (QTLs) are study-level metrics that indicate if a study  parameter's reported data has breached a pre-identified data quality threshold . QTLs target and monitor the greatest risks to  a study's: 
+- Safety 
+- Conduct 
+- Performance 
+- Compliance 
+- Data quality 
+ QTLs that reach or exceed a threshold indicate that the QTL's target study parameter can warrant investigation and mitigation. Tracking QTLs helps: 
+- Ensure the study conduct operates as planned. 
+- Identify and prevent or mitigate systematic issues early on in the study that may: 
+- Threaten patient safety or study efficacy. 
+- Invalidate the reliability of the study findings. 
+ You can create and activate custom QTLs in QTL Configuration and track QTL performance in the QTL Dashboard, Risk Assessment, and Risk Inventory . D ata sets and variables you use to create QTL configurations appear with a Rave, external or derived label next to the name. Similarly,  Data sets and variables with critical data points to the study appear with a blue flag . 
+ Each QTL has a value that is computed based on RBQM's statistical analysis of your study data. QTLs are calculated at the study level. The QTL value calculations are reflected as a percentage. 
+ QTLs are a foundational aspect to risk-based quality management (RBQM) . 
+ You can use QTL Configuration to: 
+- View the list of custom QTLs available in your study environment . 
+- Define and add custom QTLs that target specific facets of your study data that you want to monitor for risk. 
+- View patients that meet or do not meet a QTL configuration's query conditions . 
+- Activate QTLs to get consumed, analyzed, and calculated by RBQM, and then rendered in the QTL Dashboard, Risk Assessment, and Risk Inventory. 
+- View patients that meet QTL configuration query conditions . 
+ The QTL Dashboard allows you to: 
+- Track the QTLs in your study and their respective values. 
+- Determine which QTLs exceed the upper or lower tolerance limit of what is considered acceptable for that study metric. 
+ Based on your observations made from the Quality Tolerance Limits page, you can determine: 
+- The issues or risks that require investigation or mitigation.  
+- The best approach or mitigating actions to take on the issues or risks. For example, writing an issue against the QTL and capturing the QTL on a risk inventory. 
+- The effect the mitigating actions have made on the issues or risks over time. 
+ You can use QTL Configuration to deactivate QTLs from getting consumed, analyzed, calculated, and shown in the QTL Dashboard, Risk Assessment, and Risk Inventory when that QTL no longer requires analysis. 
+ Tip: The Difference Between QTLs and KRIs
+ Quality tolerance limits (QTLs) only target the greatest study-level risks to quality and safety. Whereas  key risk indicators (KRIs) can target risks at the site, country, or study level and provide more focus on site monitoring. KRIs can target any specific area of interest within the study, no matter the priority or bearing on study conduct. In general, study parameters whose reported QTL values exceed an acceptable threshold pose a greater threat to the study and warrant more immediate mitigating actions than parameters with outlier KRI values.
+ To learn more about KRIs, see  KRI Configuration .

@@ -1,0 +1,15 @@
+# View and Export Clean Patient Tracker Audit Reports
+
+## View and Export Clean Patient Tracker Audit Reports
+ You can view audit reports of the historical details of actions taken on Clean Patient Tracker in your study environment, such as: 
+- Adding missing page values. 
+- Marking patients as clean. 
+ Audit reports:
+- Enable sponsors to quickly and easily show compliance with clear, comprehensive audit details of actions performed in Clean Patient Tracker. 
+- Provide sponsors with greater oversight to ensure study data is being monitored correctly. 
+- Allows for a quick view of the review status of patient data in bulk in tabular format. 
+- Access Data Surveillance , and then click Clean Patient Tracker in the left-hand menu.
+The Clean Patient Tracker page shows. 
+- Click  from the top right corner of the page.
+A new browser tab opens to the Clean Patient Tracker Audit Report page.
+ Tip : In Audit Viewer, you can click Export and then  Excel , CSV , or PDF to view the report offline or sort data by column headings.

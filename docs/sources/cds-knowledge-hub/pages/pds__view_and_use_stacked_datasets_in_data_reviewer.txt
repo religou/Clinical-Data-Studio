@@ -1,0 +1,40 @@
+# PDS: View and Use Stacked Datasets in Data Reviewer
+
+## PDS: View and Use Stacked Datasets in Data Reviewer
+## What Is New?
+ Your study team can now merge datasets with common variables into one dataset called a stacked dataset . You can view and use stacked datasets on the: 
+- Data Reviewer > Data Sets page 
+- Data Reviewer > Data Listings page 
+- Data Reviewer > Visualizations page 
+- Patient Profiles > Design page 
+- Configuration and Reporting > Detect Mapping 
+- Configuration and Reporting > QTL Configuration 
+- Configuration and Reporting > KRI Configuration 
+- Configuration and Reporting > Derived Variables 
+- Configuration and Reporting > Oncology Mapping 
+ Note, though, that on the: 
+- Data Reviewer > Data Sets page 
+- Data Reviewer > Data Listings page 
+- Data Reviewer > Visualizations page 
+- Configuration and Reporting > Derived Variables page 
+ the list of available data sets that you can sort through and select from append stacked data set names with the green DERIVED icon. No other pages use the green DERIVED icon. 
+## What Is the Impact?
+## Users/Roles
+ Data managers
+## Workflow Process
+ No impact to other applications.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Stacked datasets:
+- Simplifies the organization of your study data. 
+- Enables you to review your study data, create data listings, and create derived variables faster and easier by streamlining the datasets you must access, review, and work with. 
+- Optimizes the statistical analysis and visual outputs that  Visualizations and AI Data Reconciliation report produce on your study data to be as clean and accurate as possible. 
+ The green Derived icon helps you scan your study data and recognize which datasets are stacked to help you better determine which datasets you want to access, review, and work with. 
+## Where Do I See the Change?
+ See the Description section.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Stacked Datasets 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

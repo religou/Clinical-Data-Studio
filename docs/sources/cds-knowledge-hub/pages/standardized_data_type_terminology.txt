@@ -1,0 +1,15 @@
+# Standardized Data Type Terminology
+
+## Standardized Data Type Terminology
+## Description
+ Previously, when you added an event table to a timeline which included a text variable, then the text variable's data type displayed as "String" in the Reports page > Type column. 
+ However, if that same text variable was added to an event table, then the text variable's data type instead displayed as "Text"  in the Reports page > Type column. 
+ Patient Profiles Cloud now consistently displays "Text" as the data type in the Reports page > Type column for timelines and event tables. 
+## Affected Roles
+ All.
+## Advantages
+ Standardizing the terminology used for data types across element types promotes consistency across the app and improved usability.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

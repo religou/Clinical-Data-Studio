@@ -1,0 +1,20 @@
+# Enhanced Import Job UI
+
+## Enhanced Import Job UI
+## Description
+ As part of adding the ability to import Study Design Metadata (SDM) files to create Data Integrations,  import job creation includes the following user interface enhancements: 
+- The workflow preselects the current study when creating an import job. 
+- Input value validation has been streamlined and removes options when using SDM files. 
+- The Job Type label is now Data Type. 
+- You can select the Study Design Metadata data type when creating import jobs. 
+- You can specify import job names. 
+ Feature/enhancement stories referenced in this article:
+ MCC-621159, MCC-645855, MCC-651190, MCC-668726 
+## Affected Roles
+ All roles with the Data Import permission.
+## Advantages
+ A simplified UI for creating import jobs for Study Design Metadata.
+## User Impact
+ See the Description section. 
+## Special Considerations
+ None.

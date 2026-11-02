@@ -1,0 +1,16 @@
+# Upgrade Datasets to Latest Version
+
+## Upgrade Datasets to Latest Version
+ When you use Rave data or imported external data in your projects, the dataset versions can change when a user changes form components and other metadata. When this occurs, you must upgrade the dataset within Data Connect to ensure proper data flow with the latest dataset configurations.
+ Important : This capability is unavailable for Veeva EDC datasets.
+- Access Data Connect , and click  Transformations   in the left-hand menu. 
+- Open a derived dataset project. 
+- On the Dataset Lineage tab > dataset canvas, identify a node with the New Version Available icon . 
+- Click More  >  Map to latest version . 
+- Do one of the following:
+- Manually map the dataset. 
+- Click More > Run auto-mapping .
+ Important : When mapping, Medidata recommends that the source variable and target field must be of the same datatype. However, if the datatypes do not match, you can perform a datatype conversion using Transformation Instructions.
+- Click Validate to preview results and perform quality checking. 
+- Click  Apply . 
+- Repeat steps 3-7 as necessary.

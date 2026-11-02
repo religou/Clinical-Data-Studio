@@ -1,0 +1,20 @@
+# Profile Designs Marked As Master Become Read-only
+
+## Profile Designs Marked As Master Become Read-only
+## Description
+ The first design created in a study is no longer the master design by default. A study can have multiple master designs. The master design with the most recent time stamp is the current (active) master. The patient profiles data are based on the active master design. Patient profile designs marked as a master design for a specific date become read-only. 
+## Affected Roles
+ Patient Profile Designers. 
+## Advantages
+ Marking patient profiles designs as master for a specific date allows Medidata Detect users to keep a historic record of current and previous master designs with active dates. Therefore, Medidata Detect users can view data in a master profile design corresponding to a specific date. 
+## User Impact
+ On the Patient Profiles Designs page: 
+ A new patient profile design: 
+- Does not save as a master design by default. 
+- Appears in the  Draft Designs  table. 
+ An existing profile design displays the Published Date column header in replace of Last Updated. 
+ A new or existing patient profile design marked as master: 
+- Displays the date when the profile design was marked as master in the  Published Date  column. 
+- Becomes read-only. 
+## Special Considerations
+ None.

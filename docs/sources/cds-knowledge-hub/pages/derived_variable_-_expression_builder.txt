@@ -1,0 +1,15 @@
+# Derived Variable - Expression Builder
+
+## Derived Variable - Expression Builder
+## Description
+ You can build a derived variable by using the expression builder to apply mathematical and logical operations on data set variables. 
+## Affected Roles
+ All roles with the Manage Derived Variables permission.
+## Advantages
+ With the expression builder, you can perform robust operations to configure derived variables to see the data you need and take appropriate action. For example:
+- Calculate the upper limit of a lab range by scaling from a base normal value. The derived variable can help you detect at-risk patients outside of the clinical range. 
+- Conditionally replace literal data such as check box data to make the data human-readable. Check box data appears as binary ones and zeros, so you can use the expression builder to convert the data into meaningful text. 
+## User Impact
+ You can find the Expression Builder option in the Derived Variable Type dropdown. To build an expression, you must select a combination of data set variables from the Derived Variables > Data Sets tab and operators from the Derived Variables > Operators tab. For details on building expressions, see  Create Derived Variable from Expression .
+## Special Considerations
+ None.

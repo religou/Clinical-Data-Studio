@@ -1,0 +1,22 @@
+# Imports: Direct Querying Compatibility for Veeva EDC
+
+## Imports: Direct Querying Compatibility for Veeva EDC
+## What is New?
+ Data Connect includes internal and technical changes to enable direct querying of Veeva EDC data imported using Veeva Direct Connect. Once imported, you can use Clinical Data Studio you submit queries on a record. The ability to query Veeva EDC data will be available for Data Surveillance in a future release.
+ Important : This change only enables single query creation. That is, you can only create one query at a time.
+## What Is the Impact?
+## Users/Roles
+ All users.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ These updates result in improved product performance, reliability, accuracy, and stability. This update also prepares Data Surveillance and RBQM to use direct querying on connected third-party EDC datasets, including those connected with Veeva Direct Connect. 
+## Where Do I See the Change?
+ There are no changes to the user interface.
+## Where Do I Learn More?
+ No additional information is available for these internal and technical changes.
+## What Else Should I Know?
+ The ability to query Veeva EDC data will be available for Data Surveillance in a future release.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

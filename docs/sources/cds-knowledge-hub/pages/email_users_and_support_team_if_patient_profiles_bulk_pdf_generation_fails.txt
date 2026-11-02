@@ -1,0 +1,18 @@
+# Email Users And Support Team If Patient Profiles Bulk PDF Generation Fails
+
+## Email Users And Support Team If Patient Profiles Bulk PDF Generation Fails
+## Description
+ For failed bulk patient profile design PDF exports, you receive an email displaying: 
+- The number of patients who failed bulk PDF generation. 
+- An attachment listing the corresponding patient IDs. 
+ The Medidata Support Team also receives  this email for further action. 
+## Affected Roles
+ All. 
+## Advantages
+ With clear indication about patient IDs that failed bulk PDF generation, Patient Profile design reviewers can reach out to the Medidata Patient Profiles representative for further action. 
+## User Impact
+ Bulk patient profile PDF generation email now include patient IDs that fail to export. The email is in the following format:  
+ The Patient Profiles PDF you requested on <date/time> has encountered an error. A notification has been sent to the Medidata Patient Profiles support team.   For further information, contact your Medidata Patient Profiles representative. 
+ The list of patient IDs that failed to export to PDF is in the format :  List of PDF Failures <date & time> . 
+## Special Considerations
+ Processing times may vary depending on the number of patient profiles in your study. The minimum time taken is one hour.

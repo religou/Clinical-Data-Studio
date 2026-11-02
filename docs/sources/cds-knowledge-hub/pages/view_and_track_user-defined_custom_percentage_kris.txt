@@ -1,0 +1,20 @@
+# View and Track User-Defined Custom Percentage KRIs
+
+## View and Track User-Defined Custom Percentage KRIs
+## Description
+ You can now view and track user-defined custom percentage KRIs.
+ Users in your study environment can create and activate custom percentage KRIs using Medidata's RBQM Configuration Manager . With RBQM Configuration Manager, you create custom percentage KRIs by defining:
+- A unique name and description for the custom percentage KRI. 
+- The risk category  to target the KRI's risk analysis to a specific area of risk. 
+- The expression used to query your study database to assess  if subjects meet certain conditions or criteria. 
+ Medidata Detect produces an incidence analysis on the custom percentage KRI, which you can view  in Detect's Key Risk Indicators table  and Contributors list. 
+## Affected Roles
+- Risk managers 
+- Data managers 
+- Medical monitors 
+## Advantages
+ Custom percentage KRIs provide you greater control and flexibility of the specific data and metrics that you want Medidata Detect to analyze and report. Therefore, you can better target your study data analysis on areas that most require your attention to optimally monitor and investigate risk. 
+## User Impact
+ When the custom percentage KRI is activated in RBQM Configuration Manager, the KRI's data gets consumed, analyzed, calculated, and rendered in Medidata Detect's Key Risk Indicators table  and Contributors list. 
+## Special Considerations
+ The Key Risk Indicators table displays percentage KRIs with a KRI value of zero.

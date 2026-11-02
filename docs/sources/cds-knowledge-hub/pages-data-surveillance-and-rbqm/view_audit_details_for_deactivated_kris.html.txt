@@ -1,0 +1,12 @@
+# View Audit Details for Deactivated KRIs
+
+## View Audit Details for Deactivated KRIs
+ You can view audit details for deactivated key risk indicators (KRIs) that describe when the KRI was deactivated, who deactivated the KRI, and why the KRI was deactivated for analysis.
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu.
+- On the Key Risk Indicators page > KRI Configurations list > Status column, click   in the corresponding row of the deactivated KRI whose audit details you want to view. 
+- In the Deactivation Note, read the following details:
+- Deactivated Date  – The date and timestamp when the KRI was deactivated. 
+- Deactivated By  – The user in your organization who deactivated the KRI. 
+- Note – The reason or justification for deactivating the KRI. Deactivation notes are read-only. 
+- Click   to close the window and return to the KRIs page. 
+ Note : Formerly deactivated KRIs that have since been reactivated no longer show the   in the Status column or have an associated deactivation note.

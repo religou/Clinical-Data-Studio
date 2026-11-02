@@ -1,0 +1,18 @@
+# Exit Rounding and Propagation History View
+
+## Exit Rounding and Propagation History View
+## Description
+ When viewing a historical snapshot of CSM's Rounding and Propagation page in History View, you can click the Exit History View link to revert to the latest data snapshot.
+## Affected Roles
+ All.
+## Advantages
+ When viewing the Rounding and Propagation page in History View, the Exit History View link:
+- Aligns the Rounding and Propagation History View functionality with the History View of all other CSM capabilities, such as Error Plots and Event Incidence. 
+- Enables you to quickly return to the latest Rounding and Propagation data snapshot. 
+## User Impact
+ When you go to CSM's History page, and then select to view a historical data snapshot of the Rounding and Propagation page, then the blue Historical View banner at the top of the page contains the Exit History View link. Clicking the link take you out of History View and reverts to the latest data snapshot.
+## Knowledge Hub Updates
+ None.
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

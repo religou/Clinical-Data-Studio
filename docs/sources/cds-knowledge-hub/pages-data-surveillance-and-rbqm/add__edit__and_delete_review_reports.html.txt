@@ -1,0 +1,43 @@
+# Add, Edit, and Delete Review Reports
+
+## Add, Edit, and Delete Review Reports
+ Review Reports enables you to create review reports, which include data findings from Data Surveillance and RBQM collected during a review period. With Review Reports, study managers streamline data collection and reporting. For example, you can:
+- Analyze and review KRI outliers identified in the KRI Dashboard. 
+- Analyze and review outliers identified in RBQM's Data Anomaly Detection Plots. 
+- Monitor patients for data consistency in Data Surveillance. 
+## Access and View Review Reports
+- Access Data Surveillance or RBQM , and then click Configuration > Review Reports in the left-hand menu.
+The Review Reports page appears. It lists all existing review reports in your study and associated report details.
+## Add Review Reports
+ You can create custom reports based on study, solutions, indication, or any other category for Data Surveillance or RBQM to s treamline data collection and reporting during review cycles. 
+- Access Data Surveillance or RBQM , and then click Configuration > Review Reports in the left-hand menu. 
+- Click New Report.   
+- On the Report Details page, enter the following field details:
+- Report Name – Type the report name. 
+- Report Status – Select the report's current status. 
+- Description – Enter a brief description for the report. For example, you can include information about the study and the data variable used in the report.
+ Note : The Description field does not permit special characters like commas or periods.
+- Open Date – Select the start date for the report. 
+- Closed Date – Optional. Select the end date for the report. 
+- Click Save .
+The report appears on the Review Reports page.
+ Note : The Save button remains disabled if any of the fields, except Closed Date in step 3, remain empty. 
+## Edit Review Reports
+ You can edit a review report in case of a typo or general updates. 
+- Access Data Surveillance , and then click Configuration > Review Reports in the left-hand menu. 
+- On the Review Reports page, click an existing report.  
+- On the Report Details page, edit the fields as needed in the Report Details section:
+- Report Name – Type the report name. 
+- Report Status – Select the report's current status. 
+- Description – Enter a brief description for the report.
+ Note : The Description field does not permit special characters like commas or periods.
+- Open Date – Select the start date for the report. 
+- Closed Date – Optional. Select the end date for the report. 
+- Click Save .
+The report appears on the Review Reports page.
+ Note : The Save button remains disabled if any of the fields except Closed Date remain empty. 
+## Delete Review Reports
+ If a report is no longer required or if data collected for the review period is out of the review cycle, you can delete the review report. 
+- Access Data Surveillance , and then click Configuration > Review Reports in the left-hand menu. 
+- On the far right side of the Review Reports table, click in the row of the report you want to delete. 
+- Click Delete .

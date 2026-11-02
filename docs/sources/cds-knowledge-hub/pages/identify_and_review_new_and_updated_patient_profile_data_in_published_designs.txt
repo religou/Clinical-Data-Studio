@@ -1,0 +1,33 @@
+# Data Surveillance: Identify and Review New and Updated Patient Profile Data in Published Designs
+
+## Data Surveillance: Identify and Review New and Updated Patient Profile Data in Published Designs
+## What Is New?
+ In Data Surveillance > Patient Profiles, when viewing an individual patient profile within a published patient profile design, the Profiles tab > Patient Profiles tab now includes an Updates button . When the Updates button is tagged with a small, blue circle in the upper-right corner, you can click the Updates button to open a Profile Updates panel and view data within the selected patient profile that is new or updated as of the latest data refresh. 
+ Note : If the Updates button does not show a blue dot, then there are currently no new patient data updates available. 
+ Tip : Click image to enlarge.
+ Within the Profile Updates panel, you can also: 
+- Filter the list of data changes to show all data changes, only modified data, or only new data. 
+- A blue plus icon indicates new data in the patient profile. 
+- An orange triangle icon  indicates modified data. 
+- Click the Mark Reviewed button to mark the patient profile as reviewed. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The automatic listing and reporting of specific data changes in a patient profile that have occurred as of the latest data refresh:
+- Gives you clearer visibility and understanding of the data that w as previously reviewed but now requires rereview due to post-review data changes. 
+- Reduces the time and effort required to analyze patient profile data to determine which specific data requires review. 
+ Therefore, conducting patient profile design reviews is now clearer, simpler, and more efficient. 
+## Where Do I See the Change?
+ See the What Is New? section.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Review and Export Patient Profiles 
+## What Else Should I Know?
+ Patient Profiles only identifies and reports new and updated data for patient profiles that have been marked as reviewed prior to the most recent data refresh. It does not report new and updated data for patient profiles that have never been marked as reviewed.
+ Tip : Filter the Patient Selector > Review Status column by Requiring Review to quickly show and identify patient profiles that were previously reviewed and have since had data updates as of the latest data refresh. You can select each profile listed, and then click the Updates button within that corresponding profile to view the list of data updates within that patient profile.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

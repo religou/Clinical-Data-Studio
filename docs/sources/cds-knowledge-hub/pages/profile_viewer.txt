@@ -1,0 +1,29 @@
+# Profile Viewer
+
+## Profile Viewer
+ Medidata Patient Profiles includes the following capabilities relating to viewing and exporting patient profiles:
+- Data Surveillance: Manually Refresh Data in Individual Patient Profile Designs 
+- Data Surveillance: Filter the Patient Selector to Show Only Profiles That Are Reviewed or Requiring Review 
+- Generate Patient Profile PDFs Using A Single Button 
+- Resize Patient Selector Columns to Better View Variables 
+- Generate Customized Patient Profile PDFs in Bulk 
+- Profiles Tab No Longer Automatically Loads a Patient Profile By Default 
+- Header Flags Display on Profile Designs and Profile Design Reports 
+- Search Patient Data By Column Filter 
+- Filter By Patient ID In Patient Selector 
+- Progress Bar Displays While Data Loads In Patient Selector 
+- Email Users And Support Team If Patient Profiles Bulk PDF Generation Fails 
+- Data Surveillance: Patient Selector Table Improvements Enable Better Data Filtering 
+- View and Export a Patient Profile on the Profiles Tab 
+- Sort Element Tables by Column on the Profiles Tab 
+- Patient Selector Table Includes More Data Points to Investigate in Patient Profiles 
+- Read-only User Role Allows You to View Patient Profiles Without Edit Capabilities 
+- Expand or Collapse All Elements When Viewing a Patient Profile 
+- The Patient Selector Highlights the Selected Patient ID 
+- Generate Patient Profiles PDF in Bulk Based on Permissions 
+- Generate Patient Profiles PDF in Bulk 
+- Reference Date and Type appear on a Patient's Profile 
+- Patient Profile Enhancements 
+- Generate Patient Profile PDFs in Chinese 
+- Generate Patient Profiles PDFs in Bulk by Site 
+- Flag Patient Profiles as Reviewed

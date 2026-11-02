@@ -1,0 +1,171 @@
+# About AI Reconciliation Reports
+
+## About AI Reconciliation Reports
+ AI Reconciliation uses built-in algorithms to identify study records with anomalies, duplicate, or missing information. AI Reconciliation lists those findings in the following reports: 
+ Conditions Reports 
+- Conditions without Treatments 
+- Worsening Conditions 
+- Overlapping Conditions 
+- Overlapping non-worsening Conditions and ongoing MH 
+- Invalid CTCAE Grade 
+- Missing Lab for CTCAE Grade 
+ Treatments Reports 
+- Overlapping Treatments 
+- Treatments without Conditions and ongoing MH 
+  Study managers can use the reports to reduce data entry errors and accelerate study data reconciliation. 
+ Important: Required Configurations for AI Reconciliation Reports 
+ AI Reconciliation runs reports selectively based on the datasets you configure in Event Analysis tab within Data Surveillance Configuration . The table below lists the required and optional dataset configurations for each report : 
+ AI Reconciliation Report Type 
+ Required 
+ Optional 
+ | Overlapping Conditions 
+ | Condition (Adverse Events (AE)) 
+ | None 
+ | Overlapping treatments 
+ | Medication (Concomitant Medication   (CM)) 
+ | Procedure ( Concomitant Procedures ( CP)) 
+ | Worsening Conditions 
+ | Condition (AE), History (Medical History (MH)) 
+ | None 
+ | Overlapping non-worsening conditions and ongoing MH 
+ | Condition (AE), History (MH) 
+ | None 
+ | Conditions without treatment 
+ | Condition (AE), Medication (CM) 
+ | Procedure (CP) 
+ | Treatment without Conditions and ongoing MH 
+ | Condition (AE), Medication (CM), History (MH) 
+ | Procedure (CP) 
+ | Invalid CTCAE Grade 
+ | Condition (AE) (with CTCAE Grade mapped) 
+ | None 
+ | Missing Lab for CTCAE Grade 
+ | Condition (AE) (with CTCAE Grade mapped) , Lab measurement 
+ | None 
+## Data Updates in AI Reconciliation Reports 
+ Data gets updated in AI Reconcilication reports after each data refresh.  
+ Data in the Treatments without Conditions and Conditions without Treatments, or Ongoing MH reports updates in two ways: 
+- Instant Updates –   You can view the changes in the report data instantly based on an action. For example, if you link conditions and treatments in the Conditions without Treatments or Treatments without Conditions or ongoing MH reports, the confidence level lowers for the finding. This change is reflected instantly when you refresh AI Reconciliation. The new, lowered confidence level also applies to other findings with the same condition and treatment pair in the study, if the condition and treatment occur in the same time frame.
+- Periodic Updates – You can view changes in the report data over a period of time For example, changes in the the Conditions without Treatments and Treatments without Conditions or ongoing MH reports are due to a decision model that is updated at least once annually. The decision model determines if a record is indeed a finding, and the associated confidence level. The decision model leverages a Knowledge Graph (KG) t hat contains information such as the conditions and treatments and their relationships, which enables Data Managers and Clinical Operations users to identify and decide if data discrepancy exists in reconciled data. In the Knowledge Graph, relationships are built based on biomedical drug databases and enriched with WHODrug/MedDRA to enable integration with clinical data. The strength of the condition-treatment relationship is predicted using a machine learning model trained on features developed from historical studies. 
+## Impacts of MEDRA and WHODrug Dictionary Versions 
+ The Conditions Without Treatments and Treatment Without Conditions and Ongoing MH reports rely on the Medidata proprietary Knowledge Graph to match treatments and conditions. and thereby, to find records with missing entries. The Knowledge Graph uses the following coding dictionary versions to provide results: 
+- MEDRA: 28.0-English 
+- WHODrug: Global-B3-202503-English-Drugs (March 2025), Global-B3-English-Atcs. 
+ We recommend you code verbatim terms using the above dictionary versions and join files with conditions and treatment forms (external data) using the verbatim term as key in  Data Connect Transformations. If your study uses other data dictionary versions, Data Surveillance may fail to accurately establish the links between treatments and conditions, resulting in a higher number of findings. You can use AI Reconciliation to review and reconcile such findings by linking conditions and treatments that occur in the same time frame. 
+ Note : Results for no other AI Reconciliation reports are impacted by MEDRA and WHODrug versions listed here.
+## Process Workflow When Using MEDRA and WHODrug Coding for Externally Coded Studies
+ Tip : Click image to enlarge.
+## Overlapping Conditions Report
+ The Overlapping Conditions report lists patient data records for patients that AI Reconciliation determines to have specific conditions recorded multiple times, where the condition records have:
+- The same coded term. 
+- Overlapping start and end dates. 
+ Data managers can review the records listed in the Overlapping Conditions report to ensure that every condition for a patient gets reported only once. For each record, the report also provides a list of other conditions that occurred simultaneously as the condition of interest, but AI Reconciliation does not identify those conditions as being related. Therefore, those conditions are not considered as overlapping. 
+ From the Overlapping Conditions report, you can: 
+- View the list of report findings and associated finding details. 
+- View and submit Rave queries on the report findings. 
+- Mark findings as reviewed or unreviewed 
+- View the patient profile of the patient associated with the record. 
+- Agree or disagree with AI Reconciliation's confidence assessment of a finding .
+- Link other treatments, conditions, or ongoing medical history as being related to a finding. 
+- View a list of other conditions that occurred at the same time as the condition of interest, but not considered as overlapping. 
+## Conditions without Treatments Report
+ During a study, patients are administered treatments in response to their conditions when the condition is treatable. The Conditions Without Treatments report lists patient data records for patients that AI Reconciliation determines as having conditions without any associated treatment recorded within a stipulated number of days from the condition start date. 
+ Note : If ConMed and ConProc fields are not configured , AI Reconciliation algorithm attempts to find treatments for all conditions.
+ Data managers can review the records listed in the Conditions Without Treatments report to ensure that patients get treated as per the study protocol.  
+ For each individual record listed, the Conditions Without Treatments also provides: 
+- A list of other treatments that occurred within the same time frame as the condition of interest, but AI Reconciliation  does not designate the treatment as related   to the condition. 
+- A list of t reatments the patient took that are related to the condition, but the patient took them outside of the condition time frame. For example, if you have a headache today and take an aspirin three weeks later, it falls outside the time frame of when the headache occurred. 
+ From the Conditions Without Treatments report, you can: 
+- View the list of report findings and associated finding details. 
+- View and submit Rave queries on the report findings. 
+- Mark findings as reviewed or unreviewed 
+- View the patient profile of the patient associated with the record. 
+- Agree or disagree with AI Reconciliation's confidence assessment of a finding .
+- Link other treatments the patient took as being related to the condition. 
+## Worsening Conditions Report
+ During a study, patients can report existing conditions that worsen over the period of the study. The Worsening Conditions report shows a list of patients with conditions identified as worsening if they have: 
+- No associated ongoing medical history (MH) or non-worsening conditions recorded before the worsening condition start date. 
+ OR 
+- Non-worsening conditions reported after the worsening condition start date. 
+ The records in the report have  worsen or exacerbat or aggravat  as a prefix in the Reported Term column, indicating that the condition occurred previously and is now worsening. Study managers can review the records and take the appropriate action for patients with worsening conditions. 
+ The AI Reconciliation algorithm also identifies the following for each patient record in the Worsening Conditions report:
+- Unrelated records indicating the patient's on-going medical history (MH). 
+- Unrelated conditions reported before the worsening condition start date. 
+- Unrelated conditions reported after the start date of the worsening condition.
+ With the Worsening Conditions report, you can: 
+- View the list of report findings and associated finding details. 
+- View and submit Rave queries on the report findings. 
+- Mark findings as reviewed or unreviewed 
+- View the patient profile of the patient associated with the record. 
+- Agree or disagree with AI Reconciliation's confidence assessment of a finding .
+- Link other treatments, conditions, or ongoing medical history as being related to a finding. 
+## Overlapping non-worsening Conditions and Ongoing MH Report
+ A patient's conditions may remain stagnant throughout the period of the study. The Overlapping non-worsening Conditions and ongoing MH report shows a list of patients with non-worsening conditions that repeat within the patient's ongoing medical history. Data managers can check why a non-worsening condition for a patient in a study repeats within the patient's ongoing medical history, while reconciling data and take the appropriate action as per study protocol. 
+ Each individual record in the Overlapping Non-worsening Conditions and Ongoing Medical History report: 
+- Indicates that the AI Reconciliation algorithm found a condition with the same preferred term as in the patient's ongoing medical history.
+- Is a listing irrespective of the start or end dates for the ongoing medical history. 
+- Has no additional associated records.  
+ With the Overlapping non-worsening Conditions and ongoing MH report, you can: 
+- View the list of report findings and associated finding details. 
+- View and submit Rave queries on the report findings. 
+- Mark findings as reviewed or unreviewed 
+- View the patient profile of the patient associated with the record. 
+- Agree or disagree with AI Reconciliation's confidence assessment of a finding .
+## Invalid CTCAE Grade Report
+ The Invalid CTCAE Grade report identifies discrepancies in grades assigned to adverse events as per Common Terminology Criteria for Adverse Events (CTCAE) version 5.0 criteria (CTCAE v 5.0) . The CTCAE classification grades adverse events based on a scale from 1 to 5. 
+ These discrepancies are defined as:
+- Grade is present but not required : The adverse event record has an assigned numeric CTCAE grade but that adverse event is not present in the CTCAE version 5.0 criteria.
+- Grade is not present but is required : The adverse event record does not have an assigned numeric CTCAE grade but that adverse event is present in the CTCAE version 5.0 criteria.
+- Grade is invalid : The adverse event record has an assigned numeric CTCAE grade and that adverse event is present in the CTCAE version 5.0 criteria, but the grade present is not an "allowable" grade.
+ Data Managers can review the records listed in the Invalid CTCAE Grade report to reconcile the grading of adverse events with the actual data reported.
+ A patient record in the Invalid CTCAE Grade report:
+- Indicates that the AI Reconciliation algorithm found a condition had an invalid grade, a required grade was not present, or a present grade was not required. 
+- Displays confidence corresponding to the the AI Reconciliation algorithm assigned confidence. 
+ With Invalid CTCAE Grade report, you can:
+- View the list of report findings and associated finding details. 
+- View and submit Rave queries on the report findings. 
+- Mark findings as reviewed or unreviewed 
+- View the patient profile of the patient associated with the record. 
+- Agree or disagree with AI Reconciliation's confidence assessment of a finding .
+## Missing Lab for CTCAE Grade Report
+ The Missing Lab for CTCAE Grade report identifies discrepancies in the adverse events records which need additional lab records to calculate grade as per CTCAE v 5.0 .
+ The AI Reconciliation algorithm for the Missing Lab for CTCAE Grade report evaluates a subset of adverse events that:
+- Require CTCAE grading and exist within the CTCAE knowledge base. 
+- Do not meet the criteria for records (findings) included in the Invalid CTCAE Grade report. 
+- Require additional lab records for the CTCAE grade to be assigned. 
+ Each adverse event record in the Missing Lab for CTCAE Grade report is a finding or in other words, a data anomaly, if relevant lab records on which the CTCAE grade relies on, is not collected within the adverse event's start and end dates. Relevant lab records are those where both analyte name and sample type are recorded in the lab dataset. For more information, see Map Lab Measurements Data . 
+ Additional lab records are:
+- Unrelated Same Timeframe records , which are lab records taken within the same time frame as the patient's reported condition, but match neither or only one, of the sample type or analyte name as per the CTCAE knowledge base. 
+- Related Outside Timeframe records , which are lab records taken outside the patient's adverse event time frame, and match one or both, of the analyte name and the sample type as per the CTCAE knowledge base. 
+ With Missing Lab for CTCAE Grade report, you can:
+- View the list of report findings and associated finding details. 
+- View and submit Rave queries on the report findings. 
+- Mark findings as reviewed or unreviewed 
+- View the patient profile of the patient associated with the record. 
+- Agree or disagree with AI Reconciliation's confidence assessment of a finding .
+## Overlapping Treatments Report
+ The Overlapping Treatments report shows a list of patients with two or more of the same treatments whose start and end date overlap. 
+ Data managers can review the records listed in the Overlapping Treatments Report report to ensure that every treatment for a patient gets reported only once. For each record, the report also provides a list of other treatments that occurred simultaneously as the treatment of interest, but AI Reconciliation does not identify those treatments as being related. Therefore, those treatments are not considered as overlapping. 
+ With the Overlapping Treatments report, you can: 
+- View the list of report findings and associated finding details. 
+- View and submit Rave queries on the report findings. 
+- Mark findings as reviewed or unreviewed 
+- View the patient profile of the patient associated with the record. 
+- Agree or disagree with AI Reconciliation's confidence assessment of a finding .
+- Link other treatments as being related to a finding. 
+- View a list of other treatments that occurred at the same time as the condition of interest, but not considered as overlapping . 
+## Treatments Without Conditions or on-going MH Report
+ During a study, patients are administered treatments in response to their conditions when the condition is treatable. The Treatments without Conditions or on-going MH report lists records for patients that AI Reconciliation determines as having concomitant treatments without any associated ongoing medical history or conditions recorded before or on the treatment start or end date. 
+ Data managers can review the records listed in the Treatments without Conditions or on-going MH report to ensure that patients get treated as per the study protocol. 
+ For each individual record listed, the Treatments without Conditions or on-going MH also provides: 
+- A list of other conditions that occurred within the same time frame as the treatment of interest,   but AI Reconciliation does not designate the treatment as related   to the condition. 
+- A list of conditions the patient experiences that are related to the treatment, but the patient experiences them outside of the treatment time frame.  
+- A list of on-going medical history that the patient experiences. 
+ With the Treatments Without Conditions and ongoing MH report, you can: 
+- View the list of report findings and associated finding details. 
+- View and submit Rave queries on the report findings. 
+- Mark findings as reviewed or unreviewed 
+- View the patient profile of the patient associated with the record. 
+- Agree or disagree with AI Reconciliation's confidence assessment of a finding .
+- Link other treatments as being related to a finding. 
+- Link other treatments the patient took as being related to the condition.

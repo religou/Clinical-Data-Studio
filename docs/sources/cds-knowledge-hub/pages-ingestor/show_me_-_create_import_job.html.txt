@@ -1,0 +1,19 @@
+# Show Me - Create Import Job
+
+## Show Me - Create Import Job
+ Summary 
+ | How to create an import job. 
+ Duration 
+ | 2 min. 23 sec. 
+ Product 
+ | Ingestor 
+ Release 
+ | 2021.3.0 and up 
+ Video Category 
+ | Import Job Administration 
+ Related Topics 
+ | 
+- Create Import Jobs 
+- Configure External File Locations for Imports 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

@@ -1,0 +1,12 @@
+# Copy Derived Variables
+
+## Copy Derived Variables
+ Derived Variables allows you to copy and create derived variables based on existing ones without needing to reconfigure parameters you do not intend to change. 
+- Access Data Surveillance or RBQM , and then click Configuration > Derived Variables in the left-hand menu. 
+- Navigate to a data set > derived  variable  within Data Sets list and click  derived .
+The Derived Variable configuration grid appears. 
+- Click Copy.
+ A copy of the derived variable type appears. The data set variable fields in the Configure Variable grid become editable. 
+- As necessary, update the Name, Label, and configuration grid fields.
+- Click  Save . 
+ Note : If you leave any field empty or the derived variable configuration is incomplete, and click Save or Preview, empty fields display with a red outline and a warning message.

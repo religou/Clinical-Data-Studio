@@ -1,0 +1,22 @@
+# Add Transposed Tables to Designs Patient Profiles
+
+## Add Transposed Tables to Designs Patient Profiles
+## Description
+ Transposed tables allow for multiple values that may be separate lines of data to display in a single table row. You can create transposed tables for data that is structured in a long, skinny format to display in a wide table format. Generally, that is lab data, physical exam data, questionnaires, and so on. Transposed tables also display the same test name in a single column to allow you to easily view the data over time.  
+## Affected Roles
+ All.
+## Advantages
+ See the Description section.
+## User Impact
+ On the Design page > Elements tab, you can:
+- Add transposed tables to designs; 
+- Select to display numeric data in your transposed table as a graph and configure the graph display; 
+- Configure transposed table display and highlight conditions; 
+- Edit transposed table details:
+- Rename transposed tables, 
+- Add variables to tables, 
+- Rename variables, 
+- Remove variables from tables, and 
+- Select, view, and remove test values. 
+## Special Considerations
+ None.

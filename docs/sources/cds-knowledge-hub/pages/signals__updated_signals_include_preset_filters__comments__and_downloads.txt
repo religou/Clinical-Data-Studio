@@ -1,0 +1,39 @@
+# Signals: Updated Signals Include Preset Filters, Comments, And Downloads
+
+## Signals: Updated Signals Include Preset Filters, Comments, And Downloads
+## What Is New?
+ Signals now include preset filtering cards that show dismissed, watched, or signals with issues. You can also add comments, apply additional filters, and download signals as .xlsx files.
+## What Is the Impact?
+## Users/Roles
+- Central Monitors and Central Statistical Monitors, Clinical Research Associates 
+-  Users with the View Signals and Manage Signals building blocks associated with their roles in Cloud Administration. 
+## Workflow Process
+ No impact to the workflow.
+## Other Applications
+ To raise issues to an external issue management system, Rave CTMS, you must ensure that Signals is integrated with Rave CTMS.  
+ Signals read data from the following capabilities:
+- Patient Profiles. 
+- KRIs. 
+- QTLs. 
+- Rounding. 
+- Propagation. 
+- Potential Duplicate Patients. 
+- Under/over Reporting. 
+## How Do I Benefit?
+ Study team members can search and find signals of interest with the readily available preset filters at the top of the Signals page. With more filter options, you can locate high incidence sites based on signal observations, download signals for easy circulation and action. With comments, you can add more notes or make specific observations on signals, providing a fuller context to the indicative potential risks at a site or within study data. 
+## Where Do I See the Change?
+ On the RBQM > Signals page, the following preset filter cards appear at the top of the signals table:
+- Dismissed –   If you click Dismissed, the table filters to show dismissed signals. 
+- Watching – If you click Watching, the table shows signals with watched status. 
+- Issues – If you click Issues, the table shows signals with issues. 
+ If you click the , Filter option next to the Search field at the top right corner of the page, and then click More filters, additional filters appear which you can select. 
+ Signals Additional Filters 
+ On the RBQM > Signals page > Signals tab, if you click  , the More icon, in the row corresponding to a signal, and then click open signal details, a slide-out panel shows the Signal Details page. If you click the Comments tab on the Signal Details slide-out panel, and then click Add Comments, you can add notes or comments for the signal. 
+ On the RBQM > Signals page > Signals tab, if you click , the Download icon, from the top right corner of the page, you can download all the signals in the study in an .xlsx file. When you download, all the comments, actions, issues, and resolution associated with the signals download too. 
+ On the RBQM > Signals page > Signals tab, if you click , the Module icon, you can see the data refresh time for configured modules in your local time. If you hover over the icon, a tooltip that reads Module Status appears. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Raise And Resolve Signal Issues. 
+- Perform Signal Operations. 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

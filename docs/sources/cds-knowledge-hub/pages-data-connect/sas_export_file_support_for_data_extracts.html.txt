@@ -1,0 +1,17 @@
+# SAS Export File Support for Data Extracts
+
+## SAS Export File Support for Data Extracts
+## Description
+ You can choose to export data files in the SAS file format(*.xpt). Extractor exports to the   SAS V5 Transport file format. 
+## Affected Roles
+ All.
+## Advantages
+ You can have more options to download your clinical data, avoiding possible issues when converting from the comma-separated value (*.csv) format to the SAS format. In addition, sponsors can convert the exported(*.xpt) files into Simplified TS (ts.xpt) files to meet data submission requirements for regulatory authorities.
+## User Impact
+ When configuring export jobs, you can set the exported file type to.xpt. You can only export data of the EDC (RAW) type to SAS format.
+## Knowledge Space Updates
+ The Extractor Knowledge Space provides updated content to support the new file type: 
+- Extracting Data with Exports 
+- Select Datasets 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

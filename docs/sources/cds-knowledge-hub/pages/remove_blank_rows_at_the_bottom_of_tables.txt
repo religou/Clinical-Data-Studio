@@ -1,0 +1,14 @@
+# Remove Blank Rows at the Bottom of Tables
+
+## Remove Blank Rows at the Bottom of Tables
+## Description
+ Based on how forms are structured in Rave Architect, wide tables, event tables, and patient information tables may sometimes display an empty row at the bottom of a patient profile. Not only is the row distracting, but the empty row can also impact how CSA calculates analytics for a patient profile.
+ Therefore, Patient Profiles Cloud introduces the Item Group Repeat Key variable in the list of available data sets. You can eliminate the blank row in your tables by adding a row display condition so that rows only display if they have an Item Group Repeat Key variable with a value greater than 0.
+## Affected Roles
+- Patient Profile Designers 
+## Advantages
+ You can remove blank rows from displaying at the bottom of wide tables, event tables, and patient information tables in a patient profile. Doing so also yields more accurate CSA analytics results.
+## User Impact
+ Patient Profiles Cloud now includes the Item Group Repeat Key variable in its list of data sets. On the Design page > Elements tab, you can select to add or edit an element and go to the Table Options tab > Conditional Options section for that element. You can then click the Add button that corresponds with the Row label to display that Row Display Condition dialog. From there, you can click and drag the Item Group Repeat Key variable from the data set accordion to the table on the left, select the greater than symbol (>) in the Operator column, and then enter 0 in the Value column. Going forward, wide tables, event tables, and patient information tables no longer display blank rows at the bottom.
+## Special Considerations
+ None.

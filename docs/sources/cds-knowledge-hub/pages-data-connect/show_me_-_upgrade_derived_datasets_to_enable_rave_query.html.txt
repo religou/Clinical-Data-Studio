@@ -1,0 +1,19 @@
+# Show Me - Upgrade Derived Datasets to Enable Rave Query
+
+## Show Me - Upgrade Derived Datasets to Enable Rave Query
+ Summary 
+ | An overview on how to upgrade derived datasets to enable Rave direct querying in Data Surveillance. 
+ Duration 
+ | 2 min 26 sec 
+ Product 
+ | Data Connect - Datasets 
+ Release 
+ | 2025.2.0 
+ Video Category 
+ | Datasets 
+ Related Topics 
+ | 
+- Upgrade Derived Datasets to Enable Rave Query 
+- Publish Projects 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

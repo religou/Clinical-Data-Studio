@@ -1,0 +1,107 @@
+# Track Signal Action Progress
+
+## Track Signal Action Progress
+ Once central monitors identify signals that need investigation, they can create actions such as  request additional information, or implement preventive and corrective measures, and assign to clinical research associates for appropriate inquiry. For any signal you can create one or more actions and set status for individual actions to track progress. You can create actions only when the signal status is either Open or Reopened . For more information, see Signal Acted Upon. 
+## View All Actions
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- On the Signals page, click the Actions tab.
+- The Actions table shows following:
+ Column Descriptions 
+- Action ID – The Action ID for the action. 
+- Action Type – Corrective or Preventive. 
+- Action Description – Action description you type while creating the action. 
+- Assignee –The name of the person the action is assigned to. If no assignee is added, you can click , the Add assignee button, to add an assignee. The Add assignee button remains enabled only if the action status is In Progress . 
+- Open Date – The date you created the action. 
+- Action Due Date – The due date associated with the action. The action due date cannot be after the signal due date. 
+- Action Status – The current state of the action: Open, In Progress, Closed. 
+- Action Closed Date – The date the action was closed. 
+- Signal ID – Signal number associated with the auto-generated or user defined signal. Each signal can have multiple actions associated with it. 
+- Signal Due Date – Due date for the signal. The signal due date cannot be prior to the due dates for all actions associated with it. 
+- Signal Description – A description based on a combination of the observation and a system defined or custom description you entered while configuring the signal for a module. Sample Description text - The site is an outlier considering the time it takes to report AEs (considering AE Visit Date and First Entry Date). Please follow up with the site to ensure adequate processes and resources are in place. 
+- Site – The site associated with the signal.
+For QTLs, the site reads as "All Sites". 
+- If necessary, filter or sort the Actions table. 
+## View Actions For A Signal
+ You can view all actions created for a signal on the Actions tab. 
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click , the More icon, for the signal you want to view. 
+- From the list, click Open Signal Details . 
+ A slide-out panel shows four tabs: Details, Comments, Actions, Resolution. 
+- Click the Actions tab.
+All the actions for the signal appear on the page. 
+- Optional. Click Create Action to add new actions for the signal.
+ Note: Any actions added to a signal issue in Medidata CTMS also appear on the Actions tab. They appear as non-editable actions, and with a Managed by CTMS label.
+## Filter the Actions table
+- If necessary, access the Actions table . 
+- Click the Filter button, at the top-right corner of the Actions table. 
+- Click one or more of the following filters:
+- Action ID – Filter to show specific actions. 
+- Action Type – Corrective or Preventive. 
+- Assignee –The name of the person the action is assigned to. 
+- Action Status – The current state of the action: Open, In Progress, Closed. 
+- More filters – Select additional filters from the following: 
+- Action Due Date – The due date associated with the action. The action due date cannot be after the signal due date. 
+- Action Status – The current state of the action: Open, In Progress, Closed. 
+- Action Closed Date – The date the action was closed. 
+- Signal ID – Signal number associated with the auto-generated or user defined signal. Each signal can have multiple actions associated with it. 
+- Select one or more filter items. 
+- Click Apply changes. 
+- If necessary, click Clear Filters to revert to the Action table's default view. 
+## Sort the Actions table
+- If necessary, access the Actions table . 
+- In the Actions table, click any column header to sort the table by column in ascending alphanumeric order. 
+- An up arrow, , appears next to the column name. 
+- Click a column header twice to sort the table by column in descending alphanumeric order.
+A down arrow, , appears next to the column name. 
+## Create Actions
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- On the Signals page, click the Signals tab. 
+- In the Signals list table, click , the More icon, for the signal you want to view. 
+- From the list, click Create Action. 
+The Create Action page appears.
+- 
+ Complete the fields: 
+- Name – Type a name for the action. 
+- Action Type – Select action type: either Corrective or Preventive. 
+- Action Status – For a new action, the default status is Open. 
+- Assignee – Optional. Select from the list the person to whom you want to assign the action. 
+- Action Due Date –  Optional . Select the due date for the action. 
+- Description – Optional . Type a brief description for the action. 
+- Click  Create Action .
+ The new action is assigned to the assignee for the signal. The action also appears in the Actions tab. 
+- OR
+From the list, click  Open Signal Details . 
+- From the Signals slide out panel, click the  Actions tab. 
+- Click Create Action .
+The Create Action page appears.
+- 
+ Complete the fields: 
+- Name – Type a name for the action. 
+- Action Type – Select action type: either Corrective or Preventive. 
+- Action Status – For a new action, the default status is Open. 
+- Assignee – Optional. Select from the list the person to whom you want to assign the action. 
+- Action Due Date –  Optional . Select the due date for the action. 
+- Description – Optional . Type a brief description for the action. 
+- Click  Create Action .
+ The new action is assigned to the assignee for the signal. 
+- Repeat steps 2 to 3 or 4 to 6 for each action you want to create. 
+## Change Action Status
+ Any action you create for a signal can have one of the three statuses at a time:
+- Open 
+- In Progress 
+- Closed 
+ Once you start or complete an action, you can change its status.
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click , the More icon, for the signal you want to view. 
+- From the list, click  Open Signal Details . 
+- From the Signals slide out panel, click the  Actions tab. 
+- Click Create Action .
+The Create Action page appears. 
+- For an action you want to update, select one from: 
+- Open – The default status that appears when you create an action. 
+- In Progress – Select if an open action is in progress. 
+- Closed – Select if you want to close an action. If you close an action, you must type action comments in the Close Action window.

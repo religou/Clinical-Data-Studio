@@ -1,0 +1,33 @@
+# Visualizations: Updated Charts Provide Better Usability
+
+## Visualizations: Updated Charts Provide Better Usability
+## What Is New?
+ Data Surveillance > Visualizations includes to all charts that improve the general usability and appearance of the page.
+## What Is the Impact?
+## Users/Roles
+ Data Managers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ With downloads, data managers can streamline their filing and decision-making process by automating exports and visualizations. This, in turn, increases efficiency and saves time spent in manually exporting data and creating visualizations. With the summary table, you can recreate any visualization charts using the data from the associated summary table.
+## Where Do I See the Change?
+ Download charts as PDF 
+ You can now download visualizations as PDF files. A Download button appears for all visualization types on the top-right corner of the page. The downloaded file includes the following components:
+- Title 
+- Description 
+- Last refresh date 
+- Printed date 
+- Owner details 
+- Number of pages. 
+ Summary Table 
+ A Summary table appears below the chart for bar, line, and donut visualizations. Count values in the summary table appear truncated up to two decimals. Each row represents a chart segment, and the color filler with the count in the columns. Any aggregations or calculations applied to the data while configuring the visualization chart, appears in the summary table. The summary table also includes patient level information such as Patient ID, Country, Site Number etc. You can click the Patient ID hyperlink to view the related patient's profile design in Patient Profiles. You can also export a summary table. You can filter, sort, or search the summary table dynamically by applying these parameters to the chart, including filtering with _TXT variables.
+For example, if you apply a Country filter to a line chart, the summary table below the chart also updates to show the country you filter by, after you click Apply . To search, you must enter at least four characters into the Search field.
+ You can now view, edit, and work with _TXT, enriched text variables in all visualizations.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Access and View Visualizations 
+- Create, Edit, and Delete Visualizations. 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

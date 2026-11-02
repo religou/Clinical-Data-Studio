@@ -1,0 +1,33 @@
+# Task Oversight
+
+## Task Oversight
+ While conducting studies, Lead Clinical Data Managers (LCDMs) and Clinical Data Team Leads (CDTLs) may use multiple systems to gather critical operational data needed to manage their studies effectively. This leads to: 
+- Lack of complete visibility   – It is time-consuming to get a complete, a complete view of Clinical Data Studio (CDS) operational activities, and user work compliance without manually consolidating data from various sources. 
+- Increased risk and inefficiency   –The necessity to switch between capabilities to check on statuses and risk, introduces unnecessary friction, increasing the time spent on oversight, and potentially delays identifying critical issues. 
+- Delayed decision-making   –   Without centralized metrics, lead data managers struggle to quickly answer fundamental questions about work progress, delaying timely interventions and increasing operational risk for the sponsor. 
+ To overcome this Clinical Data Studio includes a Task Oversight dashboard.
+ The Task Oversight dashboard serves as a singular place to understand key operational activities like setup, data import, refresh, and data review as documented in Data Connect and Data Surveillance.  
+## What Is Task Oversight?
+ Task Oversight is a Data Surveillance capability that shows study metrics and key performance indicators (KPIs) from Patient Profiles, Vendor Queries, Listings, AI Reconciliation, and Data Connect.
+## What Is the Purpose of Task Oversight? 
+ Task Oversight allows you to track and monitor in one centralized dashboard the progress of patient data in your study that requires vetting and review. The key performance indicators for each module gives insight into the health of study data and allows you to plan interventions or follow up. 
+## How Does Task Oversight Work?
+ Task Oversight reads data from the following modules based on their latest refresh data snapshot.
+- Patient Profiles. 
+- AI Reconciliation. 
+- Listings. 
+- Custom Graphs. 
+- Vendor Queries, and 
+- Data Connect. 
+ Updates made to records, such as marking listings as reviewed or unreviewed, or similar actions in any of the modules, reflects in the metrics shown on the Task Oversight dashboard instantly. 
+## What Are the Benefits of Task Oversight?
+   Task Oversight provides: 
+- Complete operational transparency –   Lead Clinical Data Managers (LCDMs) and Clinical Data Team Leads (CDTLs) can access   critical operational metrics and user work compliance from a single page. 
+- Flexibility to select key operational metrics – You can select metrics of interest to display on the Task Oversight dashboard, such as:
+- Metrics covering  reviewed  patient profiles, and last refresh date. 
+- Visibility into listings created, last refresh date, and records reviewed/not reviewed per listing. 
+- Tracking unreviewed AI Reconciliation data per report. 
+- Tracking   reviewed  vendor queries per query set. 
+- Reduced friction and risk – By centralizing information, Task Oversight avoids the need to switch between multiple applications, bringing critical information directly into one page.  
+## How Do I Access Task Oversight?
+ Access Task Oversight .

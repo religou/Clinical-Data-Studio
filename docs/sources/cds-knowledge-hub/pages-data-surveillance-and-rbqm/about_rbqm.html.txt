@@ -1,0 +1,98 @@
+# About RBQM
+
+## About RBQM
+ RBQM is a comprehensive suite of risk surveillance software capabilities that support a holistic risk-based quality management (RBQM) approach to data quality. RBQM enables study teams to comprehensively manage site, study, and patient risk using collaborative risk management workspaces, dynamic dashboards, and auto-generated, AI-powered data visualizations.  
+## What Is RBQM?
+ RBQM is a comprehensive suite of risk surveillance software capabilities provided by the Clinical Data Studio solution. RBQM supports a holistic risk-based quality management (RBQM) approach to data quality. 
+## What Is the Purpose of RBQM?
+ RBQM brings your risk-based strategies to all your clinical data in one place. With RBQM's capabilities, you can: 
+- Track the health of RBQM tasks and risk metrics using key performance indicators. 
+- Create risk assessments to document, monitor, and address study risks in highly collaborative workspace. 
+- View, monitor, and address all study risks in one consolidated risk inventory. 
+- Quickly configure and monitor key risk indicators (KRIs) and quality tolerance limits (QTLs). 
+- Uncover site performance and compliance risks using AI-powered visualizations and reports to discover data anomalies and unusual trends. 
+- Perform targeted analyses to identify fraud and misconduct and data veracity issues. 
+- Perform robust data interrogation, data review, and reconciliation at the individual patient level and at the aggregate level. 
+- Identify data quality and patient safety issues sooner. 
+- Capture, review, and manage protocol deviations from clinical data sources to ensure data consistency and regulatory compliance 
+## Who Uses RBQM?
+ Clinical study managers, clinical research associates, site monitors, central monitors, safety monitors, medical monitors, data managers, biostatisticians, programmers, clinical reviewers, and more use RBQM. 
+## How Does RBQM Work?
+ RBQM   ingests your team's study data from:  
+- Rave EDC 
+- Third-party vendor data—for example, protocol deviations, lab data, or any data not uploaded through Medidata Rave —which gets uploaded through Ingestor . 
+ In Data Surveillance and RBQM, s tudy data automatically refreshes four times daily at approximately 9:00am (EST), 3:00pm (EST), 9:00pm (EST) and 3:00am (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, 5:00 am (EST) the same day, 11:00 am (EST) the same day, 5:00 pm (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Rave and activated datasets from Data Connect are available in 6 to 12 hours within Data Surveillance and RBQM. For more information, see Clinical Data Studio's Data Pipeline . 
+ RBQM enables you to refresh its capabilities to render analyses based on RBQM's most recently ingested study data. You can schedule data refreshes to occur and on a preset frequency or manually trigger data refreshes ad-hoc. See: 
+- Schedule or trigger KRI Dashboard to refresh and output the latest study data analysis . 
+- Schedule or trigger QTL Dashboard to refresh and output the latest study data analysis . 
+- Schedule or trigger Statistical Monitoring to refresh and output the latest study data analysis . 
+ Once RBQM pulls the study's data sets and variables into your study environment, you can use the following RBQM capabilities: 
+- RBQM Configuration 
+- Map the data that Data Surveillance and RBQM  consume to produce the statistical analysis and visual renderings for:
+- Statistical Monitoring analyses 
+- Data anomaly detection and trends 
+- Event incidence and under-over reporting events 
+- Potential duplicate patients 
+- Rounding and propagation of vital sign records 
+- AI Data Reconciliation reports 
+- RECIST 1.1 dashboard reports 
+- Clean Patient Tracker missing page counts . 
+- Third-party, fully ingested studies patient milestone data . 
+- Configure risk assessments. 
+- Create custom QTLs and   custom KRIs so that you can track your study's QTLs and KRIs on the QTL Dashboard and  KRI Dashboard . 
+- Create and update derived variables to include custom dataset fields in patient profiles designs as well as Data Surveillance and RBQM reports and analysis. 
+- Configure and enable modules to auto-generate signals on the Signals page. 
+- Create stacked datasets and view the list of stacked datasets in your study. 
+- Add, edit, and delete review reports to capture activity logs and study findings across data review and reconciliation cycles.  
+- Risk Based Quality Management Summary 
+- Track in one centralized location the health of RBQM tasks and metrics using high-level key performance indicators. 
+- Navigate directly to the RBQM capabilities you need to address risks identified in the summary. 
+- Risk Assessment 
+- Document and manage the data , processes , and risk categories identified as critical to the study outcome. 
+- Document and manage risks associated with each critical data, critical process, and risk category.
+- Score risks to measure and determine which risks most require focus and mitigation. 
+- Add risk mitigation strategies to decrease or eliminate risks. 
+- Associate QTLs and KRIs to risks to measure risk performance. 
+- Review and approve risk plan reports . 
+- Risk Inventory 
+- Track, monitor , and manage risks .
+- Plan Documents 
+- Build integrated data quality plans , add components to your plan , including functional plans, to review and monitor data throughout a study. 
+- Publish plan documents to finalize plans before circulation to study team members. 
+- KRI Dashboard 
+- View and assess insights into site and country performance and compliance using key risk indicators. 
+- QTL Dashboard 
+- Identify systemic- and protocol-level issues that affect trial outcome and patient safety. 
+- Statistical Monitoring 
+- Uncover unexpected data associations or trends using: 
+- Data Anomaly Detection – Determine your study data's outliers, anomalies, unusual data associations, risks, trends, and missing data  at the data point-, patient-, site-, and country-level. 
+- Weekend and Holiday Visits – Investigate potential falsified or erroneous patient records  in your study data. 
+- Potential Duplicate Patients – Identify and investigate:
+- Sites with potential duplicate patients across all site locations in your study. 
+- Individual patients who may be duplicate patients . 
+- Rounding & Propagation – Distinguish between reliable and potentially unreliable data in the vital signs collection case. 
+- Event Incidence – View the reported events and the incidence rate in which those events occurred within a  domain at the site and study level. 
+- Under-Over Reporting Events – Identify potentially noncompliant sites and countries whose AE, CM, and MH reporting patterns significantly differ from the study norm. 
+- Signal s 
+- View And Access Signals to view potential issues in your study data. 
+- Create and Edit Signals to auto-generate signals based on custom configurations.  
+- Raise And Resolve Signal Issues  to raise and issues internally or to Medidata CTMS. 
+- Audit Trail Review 
+- Create audit trail reviews  to extract insights from operational study data. 
+- Publish audit data sets and use to build KRIs and listings in a study. 
+- RBQM Template Library :
+- Create and manage critical data templates , critical process templates , and risk category templates to include and reuse critical in the risk assessment for multiple studies. 
+- Save and store commonly used data listing, QTL, custom numeric KRI , or custom percentage KRI configurations for reuse within a study. 
+- Protocol Integrity Report: Capture, track, and process and review protocol deviations from Rave queries, clinical data listings, and manual entries 
+ Note: The f ollowing RBQM capabilities support screen-failed patient data: Protocol Integrity Report , Weekend and Holiday Visits (Statistical Monitoring) , Signals , and Audit Trail Review .
+## What Are the Benefits of RBQM?
+ RBQM enables study teams to:
+- Comprehensively manage site and study risk throughout the study. 
+- Execute efficient RBQM processes with end-to-end workflows. 
+- Track and mitigate risks in real-time with dynamic dashboards. 
+- Resolve emerging problems faster with centralized issue management. 
+- Monitor and mitigate risks to patient safety. 
+- Uses AI-powered, machine-learning capabilities to identify anomalies and trends in patient data that would otherwise go undiscovered using manual data review. 
+## How Do I Access RBQM?
+ Access to RBQM requires that you are invited to a study that is integrated with and linked to the RBQM app in Medidata. Once you receive an invitation and you activate your Medidata account, you can log in to Medidata and access your studies in RBQM. To learn more, see Access RBQM .
+ Note : You require permissions to access and perform specific actions in each RBQM capability. To learn more, see Data Surveillance Building Blocks and Permissions .

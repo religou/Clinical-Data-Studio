@@ -1,0 +1,11 @@
+# Risk Assessment Features
+
+## Risk Assessment Features
+ Risk Management includes the following risk assessment-related capabilities:
+- Risks Assessment: Download Current Risk Assessment Details Versions In Excel Format 
+- RBQM: Associate Mitigations with Functional Plans 
+- RBQM: Risk Assessment Quality of Life Improvements for RBQM September 2024 
+- RBQM: Updated Risk Assessment Page Enables Better Study Risk Assessment 
+- Customize Study Specific Risk Assessment Using Risk Assessment Configurations 
+- RBQM: Risk Inventory, Add Risk And Risk Review Page Updates Enable Identification of Incomplete Risks 
+- Risk Assessment Added to Risk Management 2022.3.0

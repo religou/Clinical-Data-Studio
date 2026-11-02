@@ -1,0 +1,21 @@
+# New Operators Available for Expression Builder
+
+## New Operators Available for Expression Builder
+## Description
+ You can use the following new operators while building data set variables with the Expression Builder workflow: 
+- one of  – Checks if the compared value matches with any of the values of the selected data set variable.  
+- contains  – Checks if the compared value contains a substring from a selected data set variable values. 
+ The new operators appear in the Derived Variables page's Operator tab.  In addition, the Operator tab now remains  available until you save the derived variable. 
+## Affected Roles
+ All roles with the Manage Derived Variables building block. 
+## Advantages
+ With new operators available, you can configure derived variables to see the data you need and take appropriate action. 
+## User Impact
+ To create derived variables, you must select a combination of data set variables from the Derived Variables > Data Sets tab and operators from the Derived Variables > Operators tab.  
+ You can only use the  one of  and the  contains  operators for IF-THEN-ELSE blocks. In addition, you can only apply the  contains operator to text-based data set variables.  When you add one of , then add Select in the following field, then Select automatically populates with a list of values of the respective data variable. You can select values by either typing ahead or selecting from the list and build a comparison expression. 
+ When you add contains , you must add at least three characters from the values of the respective data variable in the following text field to complete the expression. The substring you enter is used for comparison. When you enter fewer than three characters, a "Comparison value you enter must have at least three characters ." appears.
+## Knowledge Space Updates
+ The following article has been updated in the MEDS Data Viewer Knowledge Space to support this feature: 
+- Create Derived Variable from Expression 
+## Special Considerations
+ None.

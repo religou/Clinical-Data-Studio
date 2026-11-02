@@ -1,0 +1,49 @@
+# Add Dataset
+
+## Add Dataset
+ After you configure your data source connections, you land on the Connection screen. From there, you can add expected datasets from a data source connection. 
+## Add Dataset
+ Important :
+- Imports support CSV and SAS ( .SAS7BDAT and .XPT ) files. 
+- Ensure that the original source file is available in source folders when ingesting. 
+- If the selected file is large, you can preview only the first 1000 rows, but all data imports after successful configuration. 
+- Click Add dataset . 
+- On the add dataset screen, enter the Dataset name. 
+- Click Select file , and select the file from the SFTP or S3 locations to configure.  
+- Click Select file. 
+## Configure Dataset Specification
+ On the Configure Dataset Specification screen, you can digitize the data transfer agreement available for this dataset . You can configure the expected data type for each column of the imported dataset, and select the columns that constitute a unique record as dataset keys. 
+- On the left-hand menu, click  Auto-detect. The system assigns a data type for each column.
+ Tip : Verify the data types assigned to the columns manually. To modify the expected data type for a column:
+- Click the Validations column and select the expected data type. 
+ Data Type 
+ Definition 
+ | Codelist 
+ | 
+ Select this data type to define a set of acceptable values for a column.
+ | Date/DateTime 
+ | 
+- Select this data type for columns with dates. 
+- Select a date time format for the column from the list. The date format must match the format of the imported column. 
+ | Float 
+ | Select this data type for columns with any decimal values. 
+ | Integer 
+ | Select this data type for columns with integer values. 
+ | String 
+ | Select this data type for columns with alphanumeric values. 
+- Select the unique columns to be the dataset key for each import.
+ Important : Changing key fields after you publish datasets and import records can cause errors in RBQM and Data Surveillance.
+ Tip : The system validates the input automatically. Select Filter invalid rows  to view all the rows with errors.
+ Note :
+- If the selected file is large, you can preview only the first 1000 rows for the dataset key. I f the rows beyond the first 1000 rows contain duplicate keys in the dataset key column ,  then the system returns errors after you import the dataset. 
+- You can continue configuring your dataset even with the errors. 
+- Click Continue . 
+## Define Importing Criteria
+ You can set up search criteria, to import datasets recurrently from a data source on the importing criteria screen. 
+ Important : The imported file must match the configuration defined for the dataset. 
+- Select Includes or Excludes. 
+- Enter the search key word for the file. 
+- To add more importing criteria, click + . 
+- Repeat steps 1 and 2. 
+- Click Add dataset > Start import recurrence .
+ Tip : To import the datasets later, select Start later .

@@ -1,0 +1,117 @@
+# Investigate Data Using the QTL Dashboard
+
+## Investigate Data Using the QTL Dashboard
+ The QTL Dashboard graphically renders:
+- Each predefined study parameter's QTL percentage value. 
+- RBQM's statistical analysis and approximation of the QTL threshold and upper limit . 
+- RBQM's statistical analysis of whether the parameter's QTL value is within a healthy range of the expected QTL value or whether it exceeds the threshold value or upper limit value. 
+ You can observe and track RBQM's analyses on the QTL Dashboard from three different perspectives:
+- Live View – Meters that show each study parameter's currently observed QTL value and QTL performance based on RBQM's most recent study data analysis. The Live View depicts the QTL performance relative to the expectation , threshold, and upper limit.  
+- Patients View – Funnel plots that show each study parameter's currently observed QTL performance relative to the expectation, threshold, and upper limit based on the number of patients enrolled in the study. However, in particular, the Patient View shows the QTL's projected threshold and upper limit values based on number of enrolled patients using RBQM's statistical analysis. 
+- Time View – Line graphs that show each study parameter's observed QTL value recorded over time on each date that RBQM performed a study data analysis. The Time View depicts the QTL's historical performance relative to the expectation, threshold, and upper limit. 
+ Note: Last Updated Timestamp
+ The Last Updated timestamp reflects the date and time when the most recent data snapshot generation process started. It does not represent the date and time when the data on the QTL Dashboard was last refreshed. Therefore, the Last Updated timestamp may be earlier than the time at which the refreshed data becomes available on the QTL Dashboard.
+ Tip : Play the video below to watch how to investigate data using the QTL Dashboard.
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+## Evaluate Live QTL Data
+ You can observe the current QTL percentages derived from your most recent study data analysis. Live QTL data shows you the current health and status of the QTL and confirms whether or not the parameter is performing as expected. 
+- Access RBQM , and then click QTLs in the left-hand menu.
+ The QTL Dashboard page Live View shows by default. 
+- If necessary, click Live in the upper-right part of the QTL Dashboard.
+ The QTL Dashboard's Live View shows each study parameter's currently observed QTL value and QTL performance using a meter . The following details explain how to read and interpret the QTL meters:
+- The name and description of the parameter appears at the top of each QTL meter.
+ Tip : Hover your cursor on the parameter name to view more details that explain what the parameter is meant to monitor and how it is measured. 
+- 
+- You can click in the upper right of any parameter's QTL meter to expand and focus on that individual parameter's QTL measurements. 
+- A status bar shows above the QTL meter. Statuses can be:
+ Tip : Click example images to enlarge.
+ Status 
+ Description 
+ Example 
+ | In Range (green) 
+ | 
+ The percentage of patients that do not meet the study parameter's specified criteria is considered within a healthy range of the expectation . Generally, in range QTLs require no action. 
+ | 
+ | Out of Range (orange) 
+ | 
+ The percentage of patients that do not meet the study parameter's specified criteria have exceeded the tolerance threshold . RBQM considers parameters whose QTL values exceed the threshold as at risk. This indicates potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine root cause and to prevent or mitigate study issues. 
+ | 
+ | Above Upper Limit. High Alert. (red) 
+ | 
+ The percentage of patients that do not meet the study parameter's specified criteria has exceeded the tolerance upper limit . RBQM considers parameters whose QTL values exceed the upper limit as high risk. This indicates potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine root cause and to prevent or mitigate study issues. 
+ | 
+ | QTL Excursion! (red) 
+ | RBQM flags and identifies QTL excursions when : 
+- The percentage of patients that do not meet the study parameter's specified criteria has exceeded the tolerance upper limit, and 
+- Is impossible to move the QTL value back within a healthy range of the QTL's expected value no matter the actions taken by the project team. 
+ QTL excursions indicate that the study quality is compromised to the point that the study may need to be shut down or restarted. 
+ | 
+- Observed Today – The current observed percentage of patients that do not meet the study parameter's criteria as of RBQM's most recent data analysis. 
+- – Denotes the parameter's expected QTL percentage value. 
+- – Denotes the parameter's current observed QTL percentage value. 
+- Expectation  – The expected percentage of the patient population that will not meet the study parameter's criteria. QTL percentages that RBQM assesses as in range of the expectation are considered healthy and do not require any action. 
+- Threshold – The minimum percentage of the patient population that cannot meet the study parameter's criteria before RBQM considers the parameter to be at risk. P arameters whose QTL values exceed the threshold indicate potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine root cause and to prevent or mitigate study issues. 
+- Upper Limit – The minimum percentage of the patient population that cannot meet the study parameter's criteria before RBQM considers the parameter to be high risk. P arameters whose QTL values exceed the upper limit indicate potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine root cause and to prevent or mitigate study issues. 
+## Evaluate and Predict QTL Performance Based on Number of Patients in the Study
+ You can observe a QTL's projected performance based on the number of enrolled patients in the study. By viewing a QTL's projected performance based on number of patients, you position yourself earlier on in study to make sound study criteria adjustments to avoid potential systemic issues. 
+- Access RBQM , and then click QTLs in the left-hand menu.
+ The QTL Dashboard page Live View shows by default. 
+- Click Patients in the upper right of the QTL Dashboard.
+The QTL Dashboard's Patients View uses funnel plots  to show each study parameter's currently observed QTL performance relative to the expectation , threshold , and upper limit based on the number of patients enrolled in the study . The following details explain how to read and interpret the QTL funnel plots: 
+- The name and description of the parameter appears at the top of each QTL funnel plot.
+ Tip : Hover your cursor on the parameter to view more details that explain what the parameter is meant to monitor and how it is measured. 
+- 
+- You can click in the upper right of any parameter's QTL meter to expand and focus on that individual parameter's QTL measurements. 
+- The x-axis represents the number of enrolled patients in the study. 
+- The y-axis represents the parameter's observed QTL percentage value. 
+- The solid green line represents the expected patient population percentage to not meet the study parameter's criteria. QTL percentages that RBQM assesses as in range of the expectation are considered healthy and do not require any action. 
+- The dotted yellow line represents t he minimum patient population percentage that cannot meet the study parameter's criteria before RBQM considers the parameter to be at risk. P arameters whose QTL values exceed the threshold indicate potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine root cause and to prevent or mitigate study issues. 
+- The dotted red line represents the minimum patient population percentage that cannot meet the study parameter's criteria before RBQM considers the parameter to be high risk. P arameters whose QTL values exceed the upper limit indicate potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine root cause and to prevent or mitigate study issues. 
+- The actual observed QTL value data point is represented by:
+- (blue) – The observed QTL value is within the acceptable range below the threshold. 
+- (red) – The observed QTL value has exceeded threshold. P arameters whose QTL values exceed the threshold indicate potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine root cause and to prevent or mitigate study issues. 
+- (red) – The observed QTL value is an excursion . RBQM flags and identifies QTL excursions when : 
+- The percentage of patients that do not meet the study parameter's specified criteria has exceeded the upper limit, and 
+- It is impossible to move the QTL value back within a healthy range of the QTL's expected value no matter the actions taken by the project team. 
+ QTL excursions indicate that the study quality is compromised to the point that the study may need to be shut down or restarted. 
+- You can hover your cursor on any data point to view: 
+- Date – The dates in which RBQM performed a data analysis on your study data and recorded the parameter's QTL value. 
+- # of Patients – The number of patients enrolled in the study. 
+- Observed – The parameter's QTL value as observed on the specific date when RBQM performed a data analysis on your study data. 
+- Expectation – The predefined, expected patient population percentage to not meet the study parameter's criteria. 
+- Threshold – The minimum percentage of the patient population that cannot meet the study parameter's criteria before RBQM considers the parameter to be at risk. 
+- Upper Limit – The minimum percentage of the patient population that cannot meet the study parameter's criteria before RBQM considers the parameter to be high risk. 
+## Evaluate Historical QTL Performance
+ You can observe the historical QTL performance for the parameters you are tracking in your study. Viewing historical QTL performance enables you to: 
+- Analyze and address historical trends in a parameter's QTL percentages over time. 
+- Identify and investigate unusual QTL values or unanticipated changes at specific timepoints. 
+- Monitor QTL performance after performing mitigating actions on the study. 
+- Access RBQM , and then click QTLs in the left-hand menu.
+ The QTL Dashboard page Live View shows by default. 
+- Click Time in the upper right of the QTL Dashboard.
+The QTL Dashboard's Time View uses line graphs to show each study parameter's currently observed QTL performance relative to the expectation , threshold , and upper limit based on the number of patients enrolled in the study . The following details explain how to read and interpret the QTL funnel plots : 
+- The name and description of the parameter appears at the top of each QTL line graph. 
+ Tip : Hover your cursor on the parameter to view more details that explain what the parameter is meant to monitor and how it is measured. 
+- 
+- You can click in the upper right of any parameter's QTL meter to expand and focus on that individual parameter's QTL measurements. 
+- The x-axis represents the dates in which RBQM performed a data analysis. 
+- The y-axis represents the observed QTL percentage value. 
+- The solid green line represents the expected patient population percentage to not meet the study parameter's criteria. QTL percentages that RBQM assesses as in range of the expectation are considered healthy and do not require any action. 
+- The dotted yellow line represents t he minimum patient population percentage that cannot meet the study parameter's criteria before RBQM considers the parameter to be at risk. P arameters whose QTL values exceed the threshold indicate potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine root cause and to prevent or mitigate study issues. 
+- The dotted red line represents the minimum patient population percentage that cannot meet the study parameter's criteria before RBQM considers the parameter to be high risk. P arameters whose QTL values exceed the upper limit indicate potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine root cause and to prevent or mitigate study issues. 
+- A solid blue line represents the observed QTL values that are within below the upper limit at each timepoint when RBQM performed a data analysis. 
+- A solid red line represents observed QTL values that are above the upper limit at each timepoint when RBQM performed a data analysis. 
+- The actual observed QTL value data point is represented by:
+- (blue) – The observed QTL value is within the acceptable range below the threshold. 
+- (red) – The observed QTL value has exceeded threshold. P arameters whose QTL values exceed the threshold indicate potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine root cause and to prevent or mitigate study issues. 
+- (red) – The observed QTL value is an excursion . RBQM flags and identifies QTL excursions when : 
+- The percentage of patients that do not meet the study parameter's specified criteria has exceeded the upper limit, and 
+- It is impossible to move the QTL value back within a healthy range of the QTL's expected value no matter the actions taken by the project team. 
+ QTL excursions indicate that the study quality is compromised to the point that the study may need to be shut down or restarted. 
+- You can hover your cursor on any data point to view: 
+- Date – The dates in which RBQM performed a data analysis on your study data and recorded the parameter's QTL value. 
+- # of Patients – The number of patients enrolled in the study. 
+- Observed – The parameter's QTL value as observed on the specific date when RBQM performed a data analysis on your study data. 
+- Expectation – The predefined, expected patient population percentage to not meet the study parameter's criteria. 
+- Threshold – The minimum percentage of the patient population that cannot meet the study parameter's criteria before RBQM considers the parameter to be at risk. 
+- Upper Limit – The minimum percentage of the patient population that cannot meet the study parameter's criteria before RBQM considers the parameter to be high risk.

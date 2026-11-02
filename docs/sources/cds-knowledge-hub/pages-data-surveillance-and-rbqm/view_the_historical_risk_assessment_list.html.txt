@@ -1,0 +1,13 @@
+# View the Historical Risk Assessment List
+
+## View the Historical Risk Assessment List
+ You can view the historical list of risk assessment iterations including the currently active risk assessment draft and all archived drafts recorded throughout the duration of the study. 
+- Access RBQM , and then click Risk Assessment > Version History in the left-hand menu.
+The Version History page shows the following details for the draft risk assessment and all archived risk assessments in the study history:
+ Column Descriptions 
+- NAME – The risk assessment title. 
+- VERSION – The risk assessment version. 
+- STATUS – Indicates whether the risk assessment is the currently active draft risk assessment or an archived risk assessment. 
+- DATE PERFORMED – The date in which the assessment was performed. 
+- TEMPLATES APPLIED – A system-supplied value showing the number of risk categorization templates used in the risk assessment. Click to view the names of the applied templates. 
+ Tip : If necessary, use the pagination at the bottom of the Version History table to find the historical risk assessment you need.

@@ -1,0 +1,38 @@
+# Data Surveillance: Reuse Visualizations Across Study Environments Using Templates
+
+## Data Surveillance: Reuse Visualizations Across Study Environments Using Templates
+## What Is New?
+ You can now import and export visualizations as templates for use across study environments.
+## What Is the Impact?
+## Users/Roles
+- Data managers 
+- Users with the Manage Detect Templates building block access. 
+## Workflow Process
+ No change to workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ With templates, data managers can save time by editing configurations while creating visualizations for use across study environments.
+## Where Do I See the Change?
+ In Data Surveillance > Visualizations > if you click , the More icon, for any visualization, and then click Save as template , you can save the visualization chart's layout, filters, groupings, and display settings as a template. The configuration applies to the latest data when you use the template. The Save as template window includes the Template Group and Name fields. You must use a unique template name.
+  In Data Surveillance > Visualizations > if you click Create Visualization, and then Import Template in the Templates section on the Create Visualization page, you can select from existing visualization templates. If you select a template, the visualization configuration appears on the page. You can further edit the configuration or use the template without change. The template is available for line, bar, donut, and tabular charts. Templates save your chart's layout, filters, groupings, and display settings. They will apply to the latest data when loaded. 
+ In Data Surveillance > Configuration > Library > Templates, if you click any existing template group, you can see a new Visualizations tab, that lists all visualization templates added to the template group. Each Visualization template includes the following fields: 
+- Template Name 
+- Description 
+- Chart Type 
+- Y-axis (available for all charts, except tabular visualizations) 
+- Y-axis Aggregation 
+- X-axis (available for all charts, except tabular visualizations) 
+- X-axis Aggregation 
+- Rows (available for tabular visualizations) 
+- Columns (available for tabular visualizations) 
+- Color Series (available for all charts, except tabular visualizations) 
+- Chart Filters (available for all charts, except tabular visualizations) 
+- Y-axis title (available for all charts, except tabular visualizations) 
+- X-axis title (available for all charts, except tabular visualizations) 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the feature:
+- Data Surveillance Templates Library 
+- Create, Edit, and Delete Visualizations. 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

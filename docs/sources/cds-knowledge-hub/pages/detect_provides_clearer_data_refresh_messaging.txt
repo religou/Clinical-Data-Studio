@@ -1,0 +1,20 @@
+# Detect Provides Clearer Data Refresh Messaging
+
+## Detect Provides Clearer Data Refresh Messaging
+ IMPORTANT: THIS FEATURE IS FROM A PRIOR RELEASE AND IS NOW DEPRECATED. IT NO LONGER EXISTS IN DETECT. 
+## Description
+ On the Overview page, when you click Refresh Analytics, you receive one of the following messages:
+- "Detect is currently refreshing to acquire and output your study's most recent data." 
+- Displays when the study data you see in Detect is not currently up to date, and Detect initializes the process of updating the analytics. 
+- "The study data refresh in Detect is still in progress."
+- Displays when the study data you see in Detect is not currently up to date, but Detect is already in the process of updating the analytics. 
+- "Detect already contains your study's current data."
+- Displays when the study data you see in Detect is currently up to date. In this case, Detect does not initialize a refresh of the analytics. 
+## Affected Roles
+ Users with Manage Detect permissions granted in Cloud Administration .
+## Advantages
+ The updating data refresh messaging helps you better understand the current status of the data displaying in Detect and the current status of pending data updates, if any.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

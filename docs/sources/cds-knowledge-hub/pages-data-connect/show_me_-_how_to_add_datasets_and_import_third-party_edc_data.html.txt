@@ -1,0 +1,19 @@
+# Show Me - How to Add Datasets and Import Third-Party EDC Data
+
+## Show Me - How to Add Datasets and Import Third-Party EDC Data
+ Summary 
+ | An overview on add datasets and import third-party EDC data in Imports. 
+ Duration 
+ | 6 min 16 sec 
+ Product 
+ | Data Connect 
+ Release 
+ | Jun 2025 
+ Video Category 
+ | Imports 
+ Related Topics 
+ | 
+- Add Dataset 
+- Import Third-Party EDC Data 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

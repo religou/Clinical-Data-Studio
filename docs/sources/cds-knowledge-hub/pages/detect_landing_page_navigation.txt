@@ -1,0 +1,14 @@
+# Detect Landing Page Navigation
+
+## Detect Landing Page Navigation
+ Detect Landing Page includes the following capabilities related to arranging the navigation:
+- Detect Landing Page: Insights Card Relabels Unclean Patients to In Progress Patients 
+- Medidata Detect Knowledge Space Consolidates User Assistance and Release Notes For All Detect Applications 
+- Improved Navigation In Patient Profiles 2022.2.0 
+- Improved Navigation and Rebranding in Centralized Statistical Monitoring 2022.1.0 
+- Navigation Across Detect Modules 
+- One-click Access To Detect Landing Page User Assistance 
+- Detect Landing Page Shows Module-level Status Details and High-level Analytics 
+- Detect Landing Page Includes Risk Management Module Card 
+- Detect Landing Page Module Cards Renamed and Reorganized 
+- Detect Landing Page: PDS Module Card Provides Access to Stacked Datasets and Vendor Configuration

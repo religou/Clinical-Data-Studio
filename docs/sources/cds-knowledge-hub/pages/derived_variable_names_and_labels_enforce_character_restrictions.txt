@@ -1,0 +1,13 @@
+# Derived Variable Names and Labels Enforce Character Restrictions
+
+## Derived Variable Names and Labels Enforce Character Restrictions
+## Description
+ MEDS Data Viewer now limits derived variables names and labels to include only alphanumeric characters, spaces, and underscores.
+## Affected Roles
+ All roles with the Manage Derived Variables permission. 
+## Advantages
+ The character restrictions ensure that MEDS Data Viewer can process your derived variables without fail.
+## User Impact
+ When you try to create or update a derived variable's name or label to include characters other than the alphanumeric characters, spaces, or underscores, then MEDS Data Viewer displays the following text: "Enter only alphanumeric characters, spaces, and underscores." 
+## Special Considerations
+ None.

@@ -1,0 +1,13 @@
+# Patient Profiles Video Library
+
+## Patient Profiles Video Library
+ Click any video title in the library to learn more about Patient Profiles. 
+- Show Me - Build Patient Profiles 
+- Show Me - How to Preview and Publish a Patient Profile 
+- Show Me - How to Create Headers 
+- Show Me - How to Create Timelines 
+- Show Me - How to Create Transposed Tables 
+- Show Me - Create Wide Tables 
+- Show Me - Create a Patient Profile Layout 
+- Show Me - How to Create Patient Information Tables 
+- Show Me - How to Start Creating a New Patient Profile

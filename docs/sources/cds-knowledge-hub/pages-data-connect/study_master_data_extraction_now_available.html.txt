@@ -1,0 +1,21 @@
+# Study Master Data Extraction Now Available
+
+## Study Master Data Extraction Now Available
+## Description
+ You can configure export jobs to extract Study Level Master data from Cloud Administration studies. Study Master data includes team membership, study assignments, and study site addresses for the selected study environment. 
+## Affected Roles
+ All roles with the Extract Master Data building block.
+## Advantages
+ You can extract  Study Level Master  data from your Cloud Administration studies.    
+## User Impact
+ In Cloud Administration, you can add the Extract Master Data building block to your customer-defined platform role.
+ In MEDS Extractor:
+- You can select the Master Data data type when creating export jobs. 
+- CTMS operational data extracts no longer contain the "Study master" file. You can find that file in Study Master data extracts with the new name "Study Site Addresses". 
+ Study Level Master data extracts reflect data entered into Cloud Administration such as client division information, study site information, and Principal Investigator information in three files: 
+- Team Membership 
+- Study Assignment 
+- Study Site Addresses 
+ When testing this feature, consider comparing the extracted data from this export job type to data entered into Cloud Administration. 
+## Special Considerations
+ When you select t he Master Data type, you cannot select either of the Audit Master Data or Audit CTMS data types.

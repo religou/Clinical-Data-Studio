@@ -1,0 +1,4 @@
+# About Ingestor
+
+## About Ingestor
+ Ingestor is a software-as-a-service (SaaS),cloud-based ingestion tool that imports data from external data sources directly into the Medidata platform using files such as comma-separated value (.csv) or SAS(.xpt) files.  With Ingestor, you can load non-Rave Clinical Data, non-Rave Clinical Operational Data, Study Master Data, and Clinical Trial Management System (CTMS). Each type of data that Ingestor supports has associated rules and options for how to structure data for successful loading.

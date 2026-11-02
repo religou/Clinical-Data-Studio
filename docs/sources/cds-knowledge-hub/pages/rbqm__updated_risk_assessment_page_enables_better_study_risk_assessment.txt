@@ -1,0 +1,27 @@
+# RBQM: Updated Risk Assessment Page Enables Better Study Risk Assessment
+
+## RBQM: Updated Risk Assessment Page Enables Better Study Risk Assessment
+## What Is New?
+ You can now access the Assessment Details page from the Risk Assessment tab in the left hand pane in Medidata Clinical Data Studio > RBQM.
+ The Risk Assessment page includes improvements that enable risk managers to better ascertain and assign risk factors specific to the study.
+## What Is the Impact?
+## Users/Roles
+ Risk managers.
+## Workflow Process
+ No change to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The improvements enable risk managers to better ascertain and assign risk factors specific to the study.
+ Risk managers can view the protocol version associated with the risk assessment and plan the course of action to adopt to mitigate or minimize the risk.
+## Where Do I See the Change?
+ The RBQM > Risk Assessment > Details > Assessment Details page includes the following updates:
+- The page title is now updated to Assessment Details.  
+- The  page includes separate sections for assessment details and participants. 
+- Save, Cancel, Add Risk Assessment, and Download Report buttons appear at the top right corner of the page. 
+- You can now add the protocol version to the page which appears on a downloaded risk assessment report.  
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Risk Assessment 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

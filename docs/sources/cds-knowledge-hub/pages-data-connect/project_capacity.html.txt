@@ -1,0 +1,17 @@
+# Project Capacity
+
+## Project Capacity
+ Project Capacity measures the amount of system resources used to publish a project in Data Connect Transformations. This feature ensures successful publishing by mitigating the risk of failed publishing occurrences due to resource overuse.
+## Overview
+ When working in Data Connect > Transformations , the Project Capacity meter show the percentage of resources the current project uses: 
+- Maximum Capacity : The maximum project capacity is 100% . 
+- Publishing Limits : If a project reaches 100% capacity, you cannot publish the project . An error message appears stating the configuration exceeds the limit and requires a reduction in scope .
+ Important : The system exempts existing projects that already exceed the capacity limit as "legacy exceptions." It does not automatically unpublish these projects, but does open them in a Project Lock state. In this state, you cannot add nodes, but can delete node or remove existing operators. 
+## Reduce Project Capacity
+ If your project reaches maximum capacity, you must modify the project scope to publish it . To reduce capacity usage, you can: 
+- Reduce the number of node operations, for example: Join , Group , Replicate or Filter , Pivot , or Unpivot. 
+- Decrease the number of derived variables. 
+- Split the project into two parts: 
+- Reduce the number of node operations in the current project. 
+- Publish the current project. 
+- Create a second project using the newly published project’s final dataset as the starting source.

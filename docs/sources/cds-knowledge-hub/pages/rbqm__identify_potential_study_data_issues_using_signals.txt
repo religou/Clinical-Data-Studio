@@ -1,0 +1,101 @@
+# RBQM: Identify Potential Study Data Issues Using Signals
+
+## RBQM: Identify Potential Study Data Issues Using Signals
+## What Is New?
+ In the centralized monitoring process, a signal is an  alert or indication of a potential problem, risk, or deviation in a clinical study.   Signals get  detected remotely  by analyzing study data centrally, and allow proactively identifying potential risks in the study data.  Signals help sponsors  focus resources  on sites or issues needing immediate attention, improving data integrity and patient safety.
+In short,  
+- A  signal is a potential issue identified through data analysis. 
+- An issue is a confirmed finding, the result of a signal validated through central monitor review, site discussion, or site visit.  
+ RBQM includes a new Signals feature that you can use to build automated and manual signals. Each signal is an observation that meets a set threshold, and derives data from a module you configure for signal generation. 
+## What Is the Impact?
+## Users/Roles
+ Central Monitors and Central Statistical Monitors, Clinical Research Associates, and users with View Signals and Manage Signals building blocks.
+## Workflow Process
+ Study data automatically refreshes daily at approximately 6:00 AM (EST). When you click Refresh on the Signals page, signals generate for configured modules, based on the source module's last successful data update, and the set threshold for each module. On the Signals page, each configured module shows the last snapshot date and time from its source module. This means you can determine the exact version of the signals data in each module based on its snapshot date. 
+ While configuring signals for individual modules, you can set up thresholds based on which automated signals get created. You must also choose the modules you want the signals to report on. For example, if you do not enable KRIs in the Signals Configuration, and add custom configurations, no signals get created for any KRI in your study when the signals data refreshes. Once you configure a signal, observations appear as signals based on custom configurations and the latest data snapshot for individual modules when you next refresh data. Custom configuration changes made after 6:00 AM EST do not show in the automated signals report until the next day.  
+## Other Applications
+ Signals read data from the following capabilities:
+- Patient Profiles. 
+- KRIs. 
+- QTLs. 
+- Rounding. 
+- Propagation. 
+- Potential Duplicate Patients. 
+- Under/over Reporting. 
+## How Do I Benefit?
+ With automated signals, Central Monitors can aggregate and track signals, create and assign actions for signals, and investigate signals of interest. You can monitor values that appear outside the set threshold and investigate observations.  Consolidating signals from various analyses into a single, centralized report: 
+- Streamlines the identification, tracking, and management of data quality issues across study data. 
+- Allows for continuous monitoring and ensures that potential risks get mitigated before they escalate as issues. 
+- Enhances efficiency, reduces manual effort, and improves decision-making for users involved in central monitoring and central statistical monitoring. 
+- Provides clear, actionable insights, ensuring that critical data quality issues are identified and addressed promptly. 
+## Where Do I See the Change?
+ The RBQM tab includes a new signals page that appears as follows: 
+ Tip : Click the image to enlarge.
+ Image 
+ | 
+ | 
+ Number 
+ Description 
+ | 1 
+ | Signals left-hand menu – The RBQM tab includes a new Signals page that you can access by clicking RBQM > Signals.  
+ | 2 
+ | Signals page header – The page shows a list of automatically generated signals based on the modules configured in RBQM > Configuration > Signals. Signals that meet the set threshold appear, and remain after each data refresh if they meet the threshold. The page header also includes details on when the report was last refreshed and who refreshed it. 
+ | 3 
+ | 
+   The top-right corner of the Signals page includes three options, a Refresh button, a module status icon, and an audit report icon. 
+- Refresh   – You can initiate a data refresh if you click the Refresh button. However, study data automatically refreshes daily at approximately 6:00 AM (EST). The refresh generates signals data from every configured module, based on the module's last successful data update. This means you can determine the version of the signals data in each module based on its snapshot date.  
+- Module Status – If you click module status icon, a side panel appears which displays the list of configured modules in the signal report, along with the latest snapshot date based on which the signals generate. For example, automated signals for KRIs in this signal report generate on the data snapshot for KRIs available on 28th July 2025.
+- Audit Report  – A new browser tab opens to show the Audit Viewer > Signals Audit Report.   The audit report tracks all actions and updates made on the Signals page. You can click Export , and then Excel , CSV , or PDF to view the report offline or sort data by column headings. 
+ | 4 
+ | 
+ Signals table – The list of signals auto-generated appears as a table with the following columns. For more information, see Create and Edit Signals .
+- Signal ID 
+- Site 
+- Country 
+- Patient 
+- Analysis 
+- Name 
+- Observation 
+- Description 
+- Due Date 
+- Status 
+- Assignee 
+- Category 
+- Opened By 
+- Opened Date 
+- Closed By 
+- Closed Date 
+- Issues 
+ If you click the , More icon, at the end of each row in the table, you can further view options to resolve, dismiss, reopen, close, watch, clear signals, raise a signal as an issue, create actions for signals, and view signal details.
+ For a new study, the Signals page may appear empty without any automated signals generated initially. You can click Refresh from the top-right corner of the page to start the data refresh, and  generate signals based on the module configurations. A " No signals have been created yet.” message appears in case of an empty Signals page.  
+ | 5 
+ | 
+ Search, Fitler, Create – On the top-right corner above the Signals table, you can find the following options: 
+- Search – If you type into the search field, you can search signals by specific sites, patients, analysis etc. 
+- Filter – You can filter by the following: 
+- Signal ID 
+- Site 
+- Country 
+- Patient 
+- Analysis 
+- Name 
+- Status 
+- Create Signal – Along with automated signals, you can manually create a signal for any module configured in RBQM > Configuration > Signals if you have the Manage Signals permission. If you click the Create Signal button, the following window appears. If you complete the field details, and click Create Signal , a user generated signal appears in the signals table. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the feature:
+- Signals . 
+- Create and Edit Signals . 
+- Refresh Signals to View the Latest Observations . 
+- View Module Data Snapshot Status . 
+## What Else Should I Know?
+- You can perform the following signals report actions only if you have the View Signals building block added to your role in Cloud administration:
+- View the Signals Report. 
+- Add, update, assign actions.  
+- Resolve Signals. 
+- View Signals Audit Report. 
+- With the Manage Signals building block, in addition to performing all the above actions, you can create, assign, dismiss, watch, and close signals. 
+- You can refresh data only once for the automated signals. If an  observation falls below the configured threshold, it does not update when you refresh data. The last value which met the threshold was met is shown as the signal observation. 
+- You cannot generate or configure signals for Rounding and Propagation, if pivot is turned on under RBQM > Configuration > Data Mapping > Rounding and Propagation for the data set. 
+- Custom configuration changes made after 6:00 AM EST do not show in the automated signals report until the next day.  
+- For Statistical Monitoring modules such as Rounding, Propagation, Duplicate Patients, and Under/over Reporting, if the Signals workflow encounters an error with any one module, the automated signals report for that module shows observations misaligned with those shown on the module's dashboard. On the signals report, the Module Snapshot still reflects the latest snapshot data from that module. For example, if Rounding has an error, then the signals for Rounding may not align with the data shown on the RBQM > Statistical Monitoring > Rounding and Propagation > Rounding tab. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

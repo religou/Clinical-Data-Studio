@@ -1,0 +1,7 @@
+# Patient Profiles Features
+
+## Patient Profiles Features
+ Medidata Detect includes the following patient profiles-related capabilities:
+- Chinese Characters Display In Patient Profile Reports and PDFs 
+- Consolidated Medidata Detect Help Accessible From Patient Profiles 
+- View a Patient's Profile from Detect to Analyze Patient-Level Details

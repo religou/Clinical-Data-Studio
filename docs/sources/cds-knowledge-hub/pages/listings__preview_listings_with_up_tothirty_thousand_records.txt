@@ -1,0 +1,48 @@
+# Listings: Preview Listings With Up To Thirty Thousand Records
+
+## Listings: Preview Listings With Up To Thirty Thousand Records
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the  released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Listings
+ Summary of Changes 
+ | 
+ You can now preview listings with up to 30,000 records.
+ Benefit to Users 
+ | Data managers can review a larger number of records during review cycles.
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data managers.
+ Impact to Workflow Processes 
+ No impact to workflow processes.
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+ On the Data Surveillance > Listings page, if you create or edit a listing and then click Preview , the listing preview can show up to 30,000 records.
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | Medium 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Preview a Draft Listing's Results 
+ Special Considerations 
+ |   To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

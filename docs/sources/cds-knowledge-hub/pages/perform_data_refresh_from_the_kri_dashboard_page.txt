@@ -1,0 +1,20 @@
+# Perform Data Refresh from the KRI Dashboard Page
+
+## Perform Data Refresh from the KRI Dashboard Page
+## Description
+ Users with the proper permissions can:
+- View the Refresh button on the KRI page. 
+- Click the Refresh button to trigger Medidata Detect to   render visualizations from the most recent study data analysis. 
+## Affected Roles
+ Users with Manage Detect permissions granted in Cloud Administration .
+## Advantages
+ You can control when Medidata Detect analyzes and renders your latest batch of study data to accommodate your organization's data review schedule and pace. The refresh button was available on the Schedule page in previous releases. Now it is available on the KRI Dashboard as well. 
+## User Impact
+ For users with proper permissions, the KRI Dashboard page displays the Refresh  button. 
+ When you click Refresh , Medidata Detect refreshes to display visual renderings of the most recent study data analysis. The  Last Updated  field updates to display the  time stamp of the currently rendered study data's most recent completed run through Medidata Detect's analytics. 
+## Knowledge Space Updates
+ The Key Risk Indicators Knowledge Space provides new and updated content to support this feature/enhancement: 
+- Investigate Data Using the Key Risk Indicators Table . 
+## Special Considerations
+ The data refresh applies to all Detect applications.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

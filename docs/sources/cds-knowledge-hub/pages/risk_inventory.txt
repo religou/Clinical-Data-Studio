@@ -1,0 +1,15 @@
+# Risk Inventory
+
+## Risk Inventory
+## Description
+ When a study user selects a study in Risk Management, the Risk Inventory page  displays all risks associated with the study environment. Data for the h ighest study environment level displays by default.  
+ Note : The study environment order from highest to lowest is: Production, Development, Functional Testing, Interactive Verification, User Acceptance Testing, Training, and Other, which includes custom study environments ordered alphabetically.
+  To view high-scoring risks that may require mitigation, sort risks by risk score. The highest risk scores then display at the top of the list. 
+## Affected Roles
+ All.
+## Advantages
+ The Risk Inventory is the one place where you can view all risks applicable to the study .
+## User Impact
+ You can search or sort the risks in the inventory to identify problems flagged by indicators that are out of range. You can view the origin of the risk, such as Critical Data, Critical Process, or Risk Category. You can also drill down to view or edit the risk details.
+## Special Considerations
+ None.

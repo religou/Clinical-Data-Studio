@@ -1,0 +1,21 @@
+# Publish Profile Designs as View Only or Master for Detect
+
+## Publish Profile Designs as View Only or Master for Detect
+## Description
+ You can set profile designs that have no missing data as view-only and publish them as read-only designs. A new Type column on the Published Designs page marks designs as View Only for Detect, indicating if the design was published as view-only or for use in Medidata Detect.  
+## Affected Roles
+ All. 
+## Advantages
+ Data managers can identify discrepancies and anomalies from patient data using view-only designs, and use designs published as Master for Detect to obtain the latest data from Detect. 
+ User Impact 
+- On the Patient Profiles Designs page > Draft Designs tab > for a selected design, if you click the on the right of the page, and then select View Only and on the Confirm window, click View Only , the design is published as View Only and appears on the Published Designs page. The Type column on the Published Designs page marks the design as View Only. You cannot edit a view only design. 
+- The Make Master option for draft designs is renamed to  Master for Detect .  
+- On the Patient Profiles Designs page > Published Designs tab > for a View Only design, click the on the right, select Copy to another study   to copy the published design to another study or Duplicate within study to create a copy within the study.  
+- The copied design appears under Draft Designs in the destination study. 
+- The duplicate design appears under Draft Designs page in the current study. 
+- On the Patient Profiles Designs page > Draft Designs tab > for a selected design, if you click the on the right of the page, the View Only option appears disabled if the design has missing data . 
+## Knowledge Space Updates
+ The Medidata Patient Profiles Knowledge Space provides the following updated content to support this feature: 
+- Reassign Master Designs 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

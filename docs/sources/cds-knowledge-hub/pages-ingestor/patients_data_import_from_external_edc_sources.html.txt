@@ -1,0 +1,37 @@
+# Patients Data Import from External EDC Sources
+
+## Patients Data Import from External EDC Sources
+## Description
+ You can create and import Patient IDs from external EDC sources using import jobs with the  External EDC - Patients data type. You can activate or inactivate a patient.
+ Feature/enhancement stories referenced in this article:
+ MCC-861272, MCC-861273, MCC-861271, MCC-866323, MCC-874398, MCC-874863 
+## Affected Roles
+ All.
+## Advantages
+ With the added import job type, you can import more of your data on the Medidata platform and use the data for analysis and processing. You can also activate or inactivate patients without uploading files containing clinical data.
+## User Impact
+ In Cloud Administration, you can now select one of the following building blocks:
+- View Eternal EDC Patients Data 
+- Manage External EDC Patients Data 
+- Import External EDC Patients Data 
+ By selecting one of these building blocks, you can interact with External EDC - Patients import jobs in MEDS Ingestor. For details on the permissions that each building block grants, see  Ingestor Roles and Permissions List . 
+ In MEDS Ingestor,
+- While creating import jobs, you can select the External EDC - Patients data type. You can create multiple External EDC - Patients import jobs for the same study or study environment. Only users with the  External EDC - Patients building block can create External EDC - Patients import jobs. 
+- While reviewing import jobs on the Jobs List screen, you can see import jobs with the External EDC - Patients data type. You can use the Data Type filter to filter by the new data type.  
+## Knowledge Space Updates
+ The MEDS Ingestor Knowledge Space provides new and updated content to support this feature: 
+ Updated
+- About MEDS Ingestor 
+- MEDS Ingestor Roles and Permissions 
+- Import Job Administration in MEDS Ingestor 
+- Create Import Jobs 
+- Import Data 
+- Track Job Progress 
+- Starter Import Files 
+ New
+- Quick Start MEDS Ingestor - Import Patients Data from External EDC Sources 
+- Create Import Job for Patients Data from External EDC Sources 
+- Import Patients Data 
+- Track Progress for Patients Data Import Jobs 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

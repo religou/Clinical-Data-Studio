@@ -1,0 +1,34 @@
+# Create Import Jobs
+
+## Create Import Jobs
+ With Ingestor, you can specify the type and destination of the data to import . You must create an import job before you can import data. The steps required to create an import job differ depending on which data type you intend to import. You can create jobs to import the following types of data:
+- Study Design Metadata (SDM)  – You can a utomatically create data integration and protocol configurations from predefined comma-separated value (CSV) files. 
+- Clinical Data from EDC Sources – You can import clinical trial data from external sources. 
+- Patients Data from Electronic Data Capture (EDC) Sources – You can activate or inactivate patients.  
+- Study Master Data – You can import data corresponding to various Cloud Administration fields. 
+- Clinical Trial Management System (CTMS) Data – You can import data corresponding to the appropriate fields in the respective Medidata CTMS capability. 
+ For a walkthrough about loading clinical data for Medidata CTMS, see  Import Non-Rave Data for Medidata CTMS . 
+## Create Job
+- Log into iMedidata.com . 
+- Navigate to Ingestor through your assigned client division.
+- Click New Import Job .
+- From the Data Type menu, select a data type. 
+- Click  Continue . 
+- As necessary, select a study that the import job applies to from the Study menu.
+ Tip : You can enter the study name to filter the study list.
+- Click Continue . 
+- Enter a Job Name. 
+- If necessary, click the Email Notifications toggle. 
+- Click  Continue . 
+- If necessary, click the SFTP settings toggle, and enter your SFTP settings:
+- SFTP Location – Select from the menu.
+ Note : To configure the list of SFTP locations, you must use Extractor. For details on setting up an sFTP location, see  Configure External File Locations for Imports . 
+- Folder Location to Retrieve Files – If necessary, enter the extension to the path described in the SFTP Location to import files from.  When left blank, Ingestor uses the SFTP location's root folder. 
+- Global Input Folder Toggle – Sets the selected SFTP location as a global import folder. When multiple import jobs use the same SFTP Input File Path, Ingestor can identify the appropriate jobs and transfer the corresponding files from the file names.
+ Note : If you want to use an SFTP location as a global location in Ingestor, then you must configure the SFTP location for global use on the SFTP location configuration screen. You cannot mark an SFTP location as global in Ingestor if it is not set as global on the SFTP location configuration screen. 
+- Folder Location for Output Status Files  –  If necessary, enter the extension to the path described in the SFTP Location to save process files to.  When left blank, Ingestor uses the SFTP location's root folder. 
+- Click  Continue . 
+- Review the job's summary details, and click Create Import Job .
+ The created import job appears on Ingestor's Jobs List screen. 
+## Next Step
+ Import Data

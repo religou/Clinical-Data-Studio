@@ -1,0 +1,45 @@
+# Datetime Formats Supported For Derived Variables
+
+## Datetime Formats Supported For Derived Variables
+ Custom datetime derived variables you create can be used in various capabilities within Data Surveillance and RBQM, except Listings and KRIs. Date variables include several date format variations that contain or omit the time. Key date parts include: year, month, day; and for time: hour, minute, seconds, and milliseconds. Data Surveillance and RBQM support the following datetime formats: 
+ | MMM- dd- yyyy 
+ | dd/mm/yyyy HH:nn:ss 
+ | yyyy-MM-dd HH:mm:ss 
+ | yyyy- mm- dd- HH:nn:ss 
+ | yyyy- mm- dd- HH+:nn:ss 
+ | dd-MM-yyyy HH:mm:ss 
+ | yyyy mm dd 
+ | yyyy- mm- dd- HH:nn:ss 
+ | yyyy-MM-ddTHH:mm:ss.SSS 
+ | yyyy- mm- dd- 
+ | mm- dd- yyyy HH:nn:ss 
+ | yyyy-MM-ddTHH:mm 
+ | yyyy/mm/dd 
+ | MMMddyyyy 
+ | yyyy-MM-ddTHH:mm:ss 
+ | dd- mm- yyyy 
+ | MMMddyyyy HH:mm 
+ | yyyyMMdd HH:mm:ss 
+ | dd/mm/yyyy 
+ | dd-MMM-yyyy HH:mm 
+ | yyyy-MM-dd HH:mm 
+ | dd.mm.yyyy 
+ | yyyy-MM-ddTHH:mm:ss 
+ | yyyy-dd-MM 
+ | yyyy- dd- mm- 
+ | yyyy-MM-dd 
+ | yyyy-MM-dd HH:mm:ss.SSS 
+ | yyyy/dd/mm 
+ | yyyyMMdd 
+ | MM-dd-yyyy HH:mm:ss 
+ | dd-/mm-/yyyy HH:nn 
+ | dd-MM-yyyy 
+ | MMM-dd-yyyy HH:mm:ss 
+ | yyyy- mm- dd- HH:nn:ss 
+ | dd-MMM-yyyy 
+ | yyyyMMM 
+ | yyyy/mm/dd HH:nn:ss 
+ | ddMMMyyyy 
+ | 
+ | dd- mm- yyyy HH:nn:ss 
+ | dd/MM/yyyy HH:mm

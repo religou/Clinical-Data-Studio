@@ -1,0 +1,16 @@
+# Improved Display of Long Filenames
+
+## Improved Display of Long Filenames
+## Description
+ MEDS Ingestor truncates the display of file names  longer than 100 characters. The full filename displays in a tooltip when you hover over the file name 
+ MEDS Ingestor adds ellipses (...) at the end of any truncated file names. 
+ Feature/enhancement stories referenced in this article:
+ MCC-460405 
+## Affected Roles
+ All.
+## Advantages
+ Truncating long file names makes pages easier to read. 
+## User Impact
+ MEDS Ingestor truncates file names wherever file names appear, such as on the import job list. 
+## Special Considerations
+ None.

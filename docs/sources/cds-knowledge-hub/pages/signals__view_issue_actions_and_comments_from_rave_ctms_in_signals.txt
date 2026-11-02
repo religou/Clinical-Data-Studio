@@ -1,0 +1,54 @@
+# Signals: View Issue Actions And Comments From Rave CTMS In Signals
+
+## Signals: View Issue Actions And Comments From Rave CTMS In Signals
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the  released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Signals
+ Summary of Changes 
+ | 
+   As highlighted in the Release Newsletter :   
+ You can now view  actions and comments made in Rave CTMS for signal issues sent there for issue resolution. These actions and comments appear on the Signals Details page as read-only notes. 
+ Benefit to Users 
+ | You can raise and track progress for issues in signals using Rave CTMS without the need to copy and duplicate work, and view actions and comments made in Rave CTMS from within Signals, saving time and improving efficiency. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+- Central Monitors and Central Statistical Monitors, Clinical Research Associates. 
+- U sers with View Detect CSM Configuration, Rave CTMS,  Manage Detect CSM Configuration. 
+ Impact to Workflow Processes 
+ Once a CTMS application is configured with your study, you can raise issues for signals and send to the external CTMS for progress tracking and issue resolution. Metadata about tasks assigned as part of issue tracking, or the change in issue status transmits back into Signals. You can view issue-related information on the Signal Details page, including comments and actions added in CTMS. 
+ Impact to Applications 
+ Rave CTMS must be available and set up for the study before integration. 
+ Impact on Interface 
+ For any signal on the RBQM > Signals page, if you click , More icon, then click Open signal details > Details tab, and then:
+- Click Issue ID hyperlink, then click the Issue Comments tab to view any comments made in Rave CTMS appear. 
+- Click Issue ID , then click the Issue Actions tab to view all the actions added in Rave CTMS appear. Each action shows the action ID, description and time it was added. A Managed by CTMS label also appears next to the issue action indicating that it is read-only and non-editable.
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+ Updated Articles: 
+- Perform Signal Operations . 
+- Track Signal Action Progress . 
+ Special Considerations 
+ |   To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

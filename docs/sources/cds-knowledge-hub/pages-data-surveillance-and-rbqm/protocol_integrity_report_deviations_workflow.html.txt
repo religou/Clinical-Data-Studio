@@ -1,0 +1,71 @@
+# Protocol Deviations and Protocol Integrity Report Workflow
+
+## Protocol Deviations and Protocol Integrity Report Workflow
+ Protocol Integrity Report (PIR) deviations initially have the Proposed status, regardless of source. You can review or dismiss these deviations.
+## PIR Overview
+- Proposed PD – The initial creation state for all protocol deviations (PD) (for example, from Medidata Rave or listings). This state requires you to assign a description from the PDAP. The PDAP description prepopulates for listing sources. You can also manually add PDs, To learn more, see  Investigate Protocol Deviations Using the Protocol Integrity Report . 
+- In Review – The state when a deviation is ready for evaluation after you assign a PDAP description, reviewer and due date. Assigning these updates the status to In Review. 
+- Confirmed – The state when a reviewer verifies accuracy and checks for duplicates. Actionable outcomes include: 
+- Marking the deviation as confirmed and assigning an approver (for example, a clinical research associate, or CRA) with a due date 
+- Reassigning the deviation for further review to keep the In Review status 
+- Marking the deviation as dismissed with a mandatory reason (for example, non-PD or duplicate) 
+- Approved – The approver (for example, a CRA) performs a holistic evaluation. Options include: 
+- Approve – Select to update the status to Approved 
+- Dismiss – Provide a reason (for example, duplicate) to remove the deviation from the protocol deviation list 
+ Note : 
+ For EDC queries:
+- EDC queries with the Closed or Answered statuses appear as potential deviations. The system categorizes other queries as potential deviations if they start with one of the following phrases: "PD," "Protocol Deviation," "Potential PD," “PDSD”, or "Potential Protocol Deviation". 
+- You can review the answer text to confirm if a protocol deviation occurred. 
+- If confirmed negative, you can dismiss the query to exclude it from the PIR. 
+- If confirmed positive, users accept the deviation to move it to 'Proposed' status. 
+ For listings:
+- You can create listings for submitting protocol deviations. To learn more, see  View, Create, and Edit Draft Listings .
+- You must submit a description, visit, and PDAP description. 
+- You can only map visits to datasets also used in the expression builder. 
+- Records submitted for PD are appear in PIR. 
+- Submitted records appear in Listings marked as Reviewed. 
+## PIR States
+ Current State 
+ User Action 
+ Next State 
+ Description 
+ | Proposed 
+ | Submit for Evaluation 
+ | In Review 
+ | Sends the protocol deviation for reviewer evaluation. 
+ | Proposed 
+ | Reject / Decline Deviation 
+ | Dismissed 
+ | Dismisses the protocol deviation before review begins. 
+ | In Review 
+ | Assign to Another Reviewer 
+ | In Review 
+ | Reassigns the protocol deviation to another reviewer while remaining in the In Review state. 
+ | In Review 
+ | Confirm Deviation 
+ | Confirmed 
+ | Confirms that the protocol deviation is valid. 
+ | In Review 
+ | Direct Approval 
+ | Approved 
+ | Approves the protocol deviation without requiring confirmation. 
+ | In Review 
+ | Reject / Decline Deviation 
+ | Dismissed 
+ | Dismisses the protocol deviation after review. 
+ | Confirmed 
+ | Sign-off 
+ | Approved 
+ | Completes the approval process. 
+ | Confirmed 
+ | Reject / Decline Deviation 
+ | Dismissed 
+ | Dismisses the protocol deviation after confirmation. 
+ | Approved 
+ | Void / Nullify 
+ | Dismissed 
+ | Invalidates an approved protocol deviation due to an error or exceptional circumstance. 
+ | Dismissed 
+ | No actions available 
+ | Dismissed 
+ | No further workflow actions are available.

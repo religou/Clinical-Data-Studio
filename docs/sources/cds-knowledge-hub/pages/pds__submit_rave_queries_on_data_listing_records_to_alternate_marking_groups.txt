@@ -1,0 +1,21 @@
+# PDS: Submit Rave Queries on Data Listing Records to Alternate Marking Groups
+
+## PDS: Submit Rave Queries on Data Listing Records to Alternate Marking Groups
+## What Is New?
+ In previous releases, when submitting Rave queries on a data listing's records, you could only send the queries to the default marking group as configured in the data listing's configuration. Now, you can select the specific marking group that you want to submit your queries to. 
+## What Is the Impact?
+## Users/Roles
+ Data Reviewer users with view and submit query privileges.
+## Workflow Process
+ No changes to the workflow process.
+## Other Applications
+ The marking group you select in the Submit Queries window in Data Reviewer changes the marking group in Rave that the query gets submitted to. 
+## How Do I Benefit?
+ You can more efficiently communicate and address queries with sites by sending specific queries only to the relevant recipients that the queries pertain to. 
+## Where Do I See the Change?
+ On the Data Reviewer > Data Listings page > Approved Listings tab: When you select a Rave-enabled approved listing, select one or more records from the listing's results table, and then click Submit Queries, then the Submit Queries window includes a new Marking Group menu.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement.
+- Review an Approved Listing's Results 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

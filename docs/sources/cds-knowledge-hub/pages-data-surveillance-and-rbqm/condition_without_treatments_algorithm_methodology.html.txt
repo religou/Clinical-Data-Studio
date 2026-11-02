@@ -1,0 +1,128 @@
+# Condition Without Treatments Algorithm Methodology
+
+## Condition Without Treatments Algorithm Methodology
+ The AI Reconciliation algorithm for the Conditions Without Treatments report assumes that patients take a treatment in response to a condition, when the condition expects a treatment. The algorithm is trained to identify a condition expecting a treatment where no treatment exists. For example, for a headache (condition) the expected treatment can be an aspirin (medication). So if a listing shows a headache, and no aspirin is added as treatment on the AE form, the listing is marked as a finding. Further, the treatment for a condition must treat the condition, and the treatment start date must lie in the same time frame of the condition start and end dates.
+## Descriptions used in the Algorithm
+ Term 
+ Description 
+ | Adverse Event (AE) 
+ | Any unfavorable and unintended sign, for example, abnormal laboratory findings, symptoms, or diseases, temporally associated with the use of a medicinal product. The symptom could be considered related or not related to the medicinal product. 
+ | Condition 
+ | An adverse event that occurs after the patient enters a study. It is possible for a condition to not appear in an AE form. 
+ | Treatment 
+ | A tr ea tm e nt i s a m edica t i on or pro ced ur e. 
+ | 
+ Finding
+ | A finding is a data anomaly. Conditions are findings if the condition:
+- Has a start date. 
+- Has a corresponding coded term. 
+- Is expecting a treatment, and no corresponding treatment exists within the time frame. 
+ | Related 
+ | T he c on di t i on i s l i n ked to t he tr ea tm e nt i n t he knowledge graph w i t h c on di t i on - tr ea tm e nt pair. 
+ | Unrelated 
+ | T he c on di t i on i s l i n ked to t he tr ea tm e nt i n t he knowledge graph   w i t h c on di t i on - tr ea tm e nt p ai r 
+ | In-time frame 
+ | T he m edica t i on a n d / or pro ced ur e o cc urs w i t hi n t he t i m e f r a m e o f t he c on di t i on st a rt i n g a n d e n di n g . 
+ | Out-of-time frame 
+ | T he m edica t i on a n d / or pro ced ur e o cc ur outside t he t i m e f r a m e o f t he c on di t i on st a rt i n g a n d e n di n g . 
+ | Match 
+ | The c on di t i on p ai rs w i t h t he m edica t i on a n d / or pro ced ur e i n t he knowledge graph, and t he m edica t i on a n d / or pro ced ur e o cc urs w i t hi n t he t i m ef r a m e o f t he c on di t i on st a rt i n g a n d e n di n g . 
+ | Confidence Level 
+ | T he   deg r ee o f ce rt ai nty t ha t a da t a a nom a ly like   t he ab s e n ce o f a n ece ss a ry tr ea tm e nt f or a gi v e n c on di t i on, exists.   
+ | User linked 
+ | 
+ You can submit l i n k s be tw ee n c on di t i ons a n d tr ea tm e nts   us ed to up da t e t he c on fide n ce l e v e l .  C on fide n ce l e v e l   up da t es f or us e r l i n k s i n - t i m ef r a m e , b ut does   up da t e   f or t h os e out - o f -time frame. AI Reconciliation does not distinguish between links submitted by mistake or those submitted intentionally. Once linked, the algorithms consider that the treatment treats the condition. 
+ | User feedback 
+ | 
+ You can provide feedback using the thumbs up or thumbs down icon for the findings. AI Reconciliation uses this feedback for performance tracking.
+## Data Requirements
+ T he a l g or i t h m r e qu i r e s t he f ollow i n g da t a f or e v e ry c on di t i on r ec or d : 
+- T he i nt e rpol a t ed (" st a n da r di z ed ") st a rt da t e 
+- T he i nt e rpol a t ed (" st a n da r di z ed ") e n d da t e 
+- T he v e r ba t i m o f t he t e rm 
+- T he c o ded t e rm 
+- T he p a t ie nt uu id 
+- T he r ec or d uu id 
+ T he a l g or i t h m r e qu i r e s t he f ollow i n g da t a f or e v e ry tr ea tm e nt r ec or d : 
+- T he v e r ba t i m o f t he t e rm 
+- T he c o ded t e rm 
+- T he p a t ie nt uu id 
+- T he r ec or d uu id 
+- T he   i n dica t i on 
+ Note : Based on the configuration in optional fields, 
+- True/False 
+- 1/0 
+- Y/N 
+- Yes / No 
+## Use Cases For Conditions Missing Treatments
+ There can be instances where conditions exist without a corresponding treatment. The following section provides information on the criteria used to classify a condition as a finding, the associated confidence levels, and the reasons for these levels. 
+## Case 1 - Condition Requires Both Medication and Procedure
+ A c on di t i on ca n r e qu i r e b ot h a m edica t i on a n d a pro ced ur e . A c on di t i on i s e xp ec t ed to r e qu i r e b ot h a m edica t i on a n d a pro ced ur e if : 
+- Form level : B ot h the ac t i on m edica t i on a n d ac t i on pro ced ur e fie l d s a r e c on fig ur ed f or t he stu d y i n  Data Surveillance . You can do this   b y s e l ec t i n g t he fie l d n a m e s f rom a list i n c on di t i on m a pp i n g i n Data Surveillance > Configuration > Data Mapping . 
+- Record level : A c on di t i on r ec or d based on the patient a n d s i t e may   r e qu i r e b ot h a m edica t i on a n d a pro ced ur e . You can indicate this by selecting the specific check-boxes in Data Surveillance for that record.  
+ I f both the above a r e tru e , a c on di t i on must ha v e both,   a r e l a t ed a n d i n - t i m e f r a m e m edica t i on a n d pro ced ur e f or t ha t c on di t i on to not be a fi n di n g . 
+ When does a condition that requires both a medication and a procedure become a finding? 
+ Use Case 
+ Confidence Level 
+ Rationale 
+ | 
+ 1
+ | 
+ Medication and/or procedure do not match.
+ Note: This use case includes scenarios where only the medication or the procedure match, but not both.
+- T he m edica t i on a n d / or pro ced ur e r ec or d i s pr e s e nt i n - t i m ef r a m e, a n d not   r e l a t ed to t he c on di t i on as p e r t he Knowledge Graph. 
+- T he m edica t i on a n d / or pro ced ur e r ec or d i s pr e s e nt out - o f - t i m ef r a m e a n d r e l a t ed to t he c on di t i on p e r t he 
+ Knowledge Graph. 
+- T he m edica t i on a n d / or pro ced ur e r ec or d i s pr e s e nt out - o f - t i m ef r a m e a n d not   r e l a t ed to t he c on di t i on p e r t he Knowledge Graph. 
+ | High 
+ | Partially missing information is a concern. 
+ | 2
+ | 
+ Medication and/or procedure are absent.
+ Note: This use case includes scenarios where ei t he r a m edica t i on or pro ced ur e is   pr e s e nt a n d m a t ches   t he c on di t i on . H ow e v e r, t hi s is not   tru e where   b ot h t he m edica t i on a n d t he pro ced ur e are present and match the condition. 
+- Medication and/or procedure records do not exist in the data. 
+ | High 
+ | Partially missing information is a concern. 
+ | 3
+ | 
+ The preferred term corresponding to the condition is absent in the Knowledge Graph. For example, "ear infection viral" may not be in the Knowledge Graph but "ear infection" might be.
+- The medication and/or procedure is present or missing. 
+- The medication matches the condition by the indication-verbatim/preferred term match. However, the procedure does not match the conditions using the same logic. The functionality is not available. 
+ | Low 
+ | There is insufficient knowledge within AI Reconciliation if the condition and treatment are related. 
+## Case 2 - Either Medication or Procedure Is Required 
+ A c on di t i on i s e xp ec t ed to r e qu i r e ei t he r a m edica t i on or a pro ced ur e if :
+- Form level : The study has neither action medication, or action procedure fields, or any one configured i n Data Surveillance. 
+- Record level : A c on di t i on r ec or d based on the patient   a n d s i t e must r e qu i r e ei t he r a m edica t i on or a pro ced ur e or ha v e n ei t he r ac t i ons c on fig ur ed at the form level .   
+ When does a condition that requires both a medication and a procedure become a finding? 
+ Use Case 
+ Confidence Level 
+ Rationale 
+ | 
+ | 
+ Treatment (medication or procedure) does not match the condition.
+- T he m edica t i on or pro ced ur e r ec or d i s pr e s e nt i n - t i m e f r a m e a n d not   r e l a t ed to t he c on di t i on as per the Knowledge Graph. 
+-   T he m edica t i on or pro ced ur e r ec or d i s pr e s e nt out - o f - t i m ef r a m e a n d not   r e l a t ed to t he c on di t i on as per the Knowledge Graph. 
+- T he m edica t i on or pro ced ur e r ec or d i s pr e s e nt out - o f - t i m ef r a m e a n d r e l a t ed to t he condition as per the Knowledge Graph. 
+- T he m edica t i on or pro ced ur e r ec or d i s not pr e s e nt in the form. 
+ | High 
+ | Treatment does not match the condition when the condition requires a treatment. 
+## Case 3 - Both Medication or Procedure Are Not Required 
+ A c on di t i on requires   n ei t he r a m edica t i on nor a pro ced ur e if: 
+- Form level : E i t he r ac t i on m edica t i on or ac t i on pro ced ur e fie l d s a r e c on fig ur ed f or t he stu d y, or   b ot h a r e c on fig ur ed f or t he stu d y in Data Surveillance > Configuration > Data Mapping. 
+- Record level: A c on di t i on r ec or d based on the patient or site   must not   r e qu i r e b ot h - a m edica t i on a n d a pro ced ur e . 
+ Note: When neither form nor record is configured, a condition requires either a medication or a procedure.
+## When does a condition that requires no medication or procedure, become a finding? 
+ For case 3, no condition becomes a finding for any scenario. 
+## When does a condition have low confidence of being an anomaly?
+ A condition has low confidence of being an anomaly when: 
+- The c on di t i on i s un k nown to t he knowledge graph. 
+- The p a t ie nt ha s a n unr e l a t ed tr ea tm e nt p e r t he knowledge graph   f or w hich som e us e r w i t hi n t he stu d y ha s l i n ked t he tr ea tm e nt a s tr ea t i n g t he c on di t i on. 
+- Existing user-linked c on di t i on a n d tr ea tm e nt pairs   a r e l i n ked agai n . 
+## When does a condition have a high confidence of being an anomaly?
+ A condition has high confidence of being an anomaly when: 
+- T he tr ea tm e nt a n d c on di t i on d o not a pp ea r a s a p ai r i n knowledge graph   w i t hi n t he t i m ef r a m e o f t he c on di t i on st a rt i n g a n d e n di n g . 
+- T he tr ea tm e nt i n dica t i on d o e s not e x ac tly m a t ch t he ad v e rs e e v e nt ' s r a w t e rm ( v e r ba t i m ) or pr efe rr ed t e rm , i n dica t i n g t ha t t he ad v e rs e e v e nt a n d tr ea tm e nt a r e not r e l a t ed a s a p ai r . 
+- The c on di t i on i s present in the knowledge graph . 
+- W he n b ot h m edica t i on a n d pro ced ur e a r e r e qu i r ed : if on e o f t he tr ea tm e nts i s unr e l a t ed as per the knowledge graph b ut b ot h tr ea tm e nts a r e not us e r - l i n ked . 
+- W he n ei t he r a r e r e qu i r ed : t he tr ea tm e nt i n t he r e qu i r ed d om ai n i s not us e r - l i n ked or no tr ea tm e nts a r e us e r - l i n ked .

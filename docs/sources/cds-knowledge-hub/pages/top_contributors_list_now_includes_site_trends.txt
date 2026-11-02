@@ -1,0 +1,18 @@
+# Top Contributors List Now Includes Site Trends
+
+## Top Contributors List Now Includes Site Trends
+## Description
+ The Contributors list now includes site trend plots that Detect has analyzed and identified as contributing to the study's overall discrepancy. 
+## Affected Roles
+ All.
+## Advantages
+ Medidata Detect's guided navigation is augmented by allowing you to access the site trend analysis for the top contributing items most affecting the study data quality. Site trends that are contributing items are also now factored into the selected aspect's weighted % discrepancy.
+## User Impact
+ On the Overview page > Top Contributors sub-page > Contributors list, the Chart Type column now includes  Site Trends . 
+ Tip : Click to enlarge.
+ Clicking a contributor name whose chart type is Site Trends navigates you to the respective Site Trend plot analysis containing the analysis for the selected contributor . 
+## Knowledge Space Updates
+ The following articles have been created or updated in the Medidata Detect Knowledge Space to support this feature/enhancement:
+- Overview 
+## Special Considerations
+ None.

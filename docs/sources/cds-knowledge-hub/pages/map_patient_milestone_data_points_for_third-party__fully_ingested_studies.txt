@@ -1,0 +1,67 @@
+# Map Patient Milestone Data Points for Third-party, Fully Ingested Studies
+
+## Map Patient Milestone Data Points for Third-party, Fully Ingested Studies
+## What Is New?
+ In Data Surveillance and RBQM, the Configuration > Data Mapping capability now includes the Patient Milestones tab > Patient Master Mapping table. The Patient Master Mapping table enables you to map data points from third-party studies whose study data is fully ingested through the Data Connect > Imports capability, so that Clinical Data Studio can identify the following milestone dates: 
+- Patient Enrolled Date – Mapping Patient Enrolled Date data points enables Clinical Data Studio to analyze study data from third-party, fully ingested studies in the following capabilities: 
+- KRI Dashboard 
+- QTL Dashboard 
+- Data Anomaly Detection 
+- Event Incidence 
+- Under-over Reporting 
+- Duplicate Patients 
+- Rounding and Propagation 
+- Duplicate Patients 
+- AI Data Reconciliation (specifically the Treatment Without Conditions report) 
+- Clean Patient Tracker 
+- Patient Informed Consent Date – Mapping Patient Informed Consent Date data points is not required for any Clinical Data Studio capability to analyze study data from third-party, fully ingested studies.  
+- Patient Randomized Date – Mapping Patient Randomized Date data points enables Clinical Data Studio to analyze study data from third-party, fully ingested studies in the following capabilities:
+- KRI Dashboard 
+- QTL Dashboard 
+- Data Anomaly Detection 
+- Event Incidence 
+- Under-over Reporting 
+- Duplicate Patients 
+- Rounding and Propagation 
+- Duplicate Patients 
+- AI Data Reconciliation (specifically the Treatment Without Conditions report) 
+- Clean Patient Tracker 
+- Patient Screening Date – Mapping Patient Screening Date data points is required to save the patient milestone mappings. However, mapping Patient Screening data points is not required for any Clinical Data Studio capability to analyze study data from third-party, fully ingested studies.  
+ Note : For third-party, fully ingested studies, the following capabilities require Patient Enrolled Date or Patient Randomized Date to be mapped :
+- KRI Dashboard 
+- QTL Dashboard 
+- Event Incidence 
+- Under-over Reporting 
+- Duplicate Patients 
+- Rounding and Propagation 
+- Duplicate Patients 
+- Statistical Monitoring 
+- AI Data Reconciliation (specifically the Treatment Without Conditions report) 
+- Clean Patient Tracker 
+ Clinical Data Studio factors in the mapped  Patient Enrolled Date or Patient Randomized Date —whichever is mapped— as the start date. The start date start date is taken as an indication for enrolled patients  on the study. The capabilities listed above require the defined start date in order to process the study data and properly generate and visualize their analyses. 
+## What Is the Impact?
+## Users/Roles
+ Clinical Data Studio configuration administrators
+## Workflow Process
+ The current process of tagging data for Rave studies does not change. However, the ability to map patient milestone data in Clinical Data Studio now enables Clinical Data Studio's capabilities to process and run analysis on study data from third-party studies that are fully ingested from the Data Connect > Imports capability. 
+## Other Applications
+ If you map patient milestone data in the Patient Milestones tab > Patient Master Mapping table and your study contains data that is tagged in Rave, then the Clinical Data Studio patient milestone data mappings override the Rave taggings to identify Day 0 in Patient Profiles and Over-under Reporting. 
+## How Do I Benefit?
+ In previous Clinical Data Studio releases, Clinical Data Studio's capabilities could not perform study data analysis on third-party studies with fully ingested study data. Clinical Data Studio could only perform analysis on study data that had been tagged in Rave. Now, the ability to map patient milestones data in Clinical Data Studio enables you to run Clinical Data Studio's analysis on third-party study data that is fully ingested and incorporated into Clinical Data Studio outside of Rave by way of the Data Connect > Imports capability. 
+## Where Do I See the Change?
+ In Data Surveillance and in RBQM, the Configuration capability > Data Mapping page includes the new Patient Milestones tab. The Patient Milestones tab includes the Patient Master Mapping table, which enables you to map the Data Set, Folder, and Mapped Variable for the following patient milestone dates: 
+- Patient Enrolled Date 
+- Patient Informed Consent Date 
+- Patient Randomized Date 
+- Patient Screening Date 
+ Tip : Click image to enlarge.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Map Patient Milestone Data for Third-party, Fully Ingested Studies 
+- Import External Data with Imports 
+## What Else Should I Know?
+- Mapping patient milestone data in the Patient Milestones tab > Patient Master Mapping table is not required for Rave studies whose study data is already tagged in Rave. 
+- Mapping patient milestone data is required for third-party studies whose data is fully ingested through Data Connect > Imports in order for Clinical Data Studio to identify key milestone data points required to process and analyze the study data. 
+- The calculation of system KRIs requires tagging study data in Rave. Clinical Data Studio cannot perform system KRI analysis on third-party, fully ingested study data. Patient Milestone Configuration does not enable for the mapping of data points required for system KRI analysis. 
+- You cannot map patient milestone data in Clinical Data Studio until after the first time Clinical Data Studio successfully processes the study data. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

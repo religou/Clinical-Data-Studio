@@ -1,0 +1,13 @@
+# Progress Bar Displays While Data Loads In Patient Selector
+
+## Progress Bar Displays While Data Loads In Patient Selector
+## Description
+ On the Design page > Profiles tab, a progress bar appears above the Patient Selector table to indicate the progress of data uploaded from data sets. Data already loaded displays in the Patient Selector table.
+## Affected Roles
+ All.
+## Advantages
+ For large data sets, the progress bar informs the progress of the data loaded. Patient Profile reviewers can scroll through data already loaded in the Patient Selector table.
+## User Impact
+ See Description.
+## Special Considerations
+ None.

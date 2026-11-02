@@ -1,0 +1,23 @@
+# Updated Job Status Reporting for Delayed Jobs
+
+## Updated Job Status Reporting for Delayed Jobs
+## What Is New?
+ The Medidata system's import job processor terminates jobs that take longer than six hours to process a job's first record. Prior to this update, Ingestor's job status screen labelled jobs terminated in this way as "Data Processing Failed".
+ However with this update, Ingestor now presents jobs terminated in this way with the status "Processing completed, but there is a data delay".
+ Feature/enhancement stories referenced in this article:
+ MCC-1196222 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ This change brings more clarity to the status of your import jobs, especially edge cases.
+## Where Do I See the Change?
+ You can see the update on a job's Job Files tab. The new status appears under that screen's Status column.
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

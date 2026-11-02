@@ -1,0 +1,9 @@
+# Finalize the Active Risk Assessment Version
+
+## Finalize the Active Risk Assessment Version
+ Once all assigned risk assessment participants formally approve the completion of all the active risk assessment's required tasks, you can finalize the active risk assessment. The finalized risk assessment then gets added to the Risk Assessment History as an archived, noneditable draft when a new risk assessment version gets created. 
+ Tip : You can  view the archived draft details in the Risk Assessment History and view archived risk assessment draft's reports . 
+- Access RBQM , and then click Risk Assessment > Details in the left-hand menu. 
+- On the Assessment Details page, click the Status menu, and then select final . 
+- Click Save .
+ Tip : It is generally a best practice to  create a new Risk Assessment version after finalizing a draft.

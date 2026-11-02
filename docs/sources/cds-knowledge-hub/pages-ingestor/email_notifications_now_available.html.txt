@@ -1,0 +1,22 @@
+# Email Notifications Now Available
+
+## Email Notifications Now Available
+## Description
+ You can now configure import jobs to send email notifications on job completion. The notifications inform you if the job completed successfully, successfully with failed rows, or unsuccessfully and includes relevant details. Email notifications deliver for jobs leveraging any import method: through the Ingestor interface, through an external sFTP location, or through Medidata API resources. Email notifications trigger for the following users that create jobs, modify jobs, or import files.
+ You can configure email notifications while creating import jobs, on an existing job's Job Configuration screen, or while using API resources. 
+ Note : The Medidata platform does not deliver email notifications to inactivated users or users no longer in the job's client division.  
+ Feature/enhancement stories referenced in this article:
+ MCC-1027843, MCC-989337, MCC-1007030, MCC-1008875 
+## Affected Roles
+ All.
+## Advantages
+ You can configure jobs to inform stakeholders about a given job's completion status without needing to navigate to the Ingestor interface. 
+## User Impact
+ Existing jobs have email notifications turned off by default. You can enable job notifications for existing jobs from a given job's Job Configuration screen. Likewise, any jobs created using API resources can use 
+## Knowledge Space Updates
+ The Ingestor Knowledge Space provides updated content to support email notifications: 
+- Create Import Jobs 
+- Update Job Configuration Details 
+ Note : For details on using Medidata API resources, see Upload External Data onto the Medidata Platform .
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

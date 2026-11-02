@@ -1,0 +1,140 @@
+# Data Quality Hub: Centralized, Prioritized View of Site-level Data Quality
+
+## Data Quality Hub: Centralized, Prioritized View of Site-level Data Quality
+ Important :
+- To learn more about changes done to these release notes, see the revision history. 
+- To learn more about features and enhancements covered in previous releases, see the releases history. 
+- To learn more about all features in this release, see the released features index.
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.3.0
+ Change Type 
+ | Feature (New Functionality) 
+ Functionality or Module 
+ | Data Quality Hub (former called the Risk Based Quality Management Summary page)
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ Data Quality Hub (former called the Risk Based Quality Management Summary page) is expanded to now include interactive metrics and visualizations for:
+- Priority Focus - Lists sites in the top 25th percentile of Site Impact Scores. 
+- Open Signals - Lists the number of in progress, overdue, and lingering signals 
+- Risk Inventory - Lists the number risks with the status of open, closed, watch, and transfer and the number of risks with those statues that consider high risk, moderate risk, low risk, or no risk score. 
+- Patients Cleaned By Site - Lists the number of cleaned patients and in progress patients by site. 
+- All Signals By Site – Lists all signals per site accompanied with additional signal details. 
+ Benefit to Users 
+ | The Data Quality Hub provides a centralized, prioritized view of site-level data quality within the Clinical Data Studio workspace to help you efficiently identify, prioritize, and address sites with the highest-impact signals of risks.
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+- Clinical Research Associates (CRAs) and Study Managers use the Data Quality Hub to prepare for risk review meetings and plan targeted operational site interventions. 
+- Data Managers and Medical Monitors use the Data Quality Hub to overlay statistical metrics with ongoing data cleaning progress charts. 
+ Impact to Workflow Processes 
+ There is no impact to the workflow process. However, the Data Quality Hub presents an opportunity to review and monitor your data using the following recommended high-level user journey:
+- The Background/Use Case : You are managing a study and you need to prepare for a risk review meeting, but you currently spend hours manually pulling fragmented data from the Signal Report, KRI/QTL logs, and CPT status. 
+- The Discovery (Dashboard Interaction) : You log in to the RBQM > Data Quality Hub and immediately identify high-risk sites through the "Priority Focus" spotlight, which highlights sites in the top 25% percentile of risk scores pulled from the Signal Grid. 
+- The Analysis (Insight Generation) : You validate these priorities by observing that the high-risk sites also show high KRI/QTL breaches and high counts of lingering signals (>30 days), despite having low Cleaning Progress. 
+- The Resolution (Post-Feature Goal) : You exit the Data Quality Hub to direct a site monitor toward specific interventions, leading to the resolution of signals in the source applications and a subsequent drop in the site’s Risk Score. 
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+ The Risk Based Quality Management Summary page is now renamed to the Data Quality Hub page. The Data Quality Hub page is the default page that initially shows when you open RBQM from the Medidata Global navigation. While working in RBQM, you can click Data Quality Hub in the left-hand menu to access to the Data Quality Hub.
+ Tip : Click images to enlarge.
+ The Data Quality Hub includes the following cards:
+ Card Name 
+ Description 
+ Image 
+ | Priority Focus 
+ | The Priority Focus card lists sites in the top 25th percentile of Site Impact Scores.
+- Site Score – Sum of impact score associated to a signal. 
+- Site Impact Score – (Site Score/ Total Study Impact Score)
+- Where Total Study Impact Score = Sum of all site impact score in a given study 
+ The Priority Focus card prioritizes and sorts sites by Site Impact Score.
+ You can click See More for a particular site to navigate to the All Signals By Site section below on the Data Quality Hub. The All Signals By Site will be filtered to show information only for the corresponding site selected from the Priority Focus section.
+ | 
+ | Key Risk Indicators (KRI) 
+ | Previous existing functionality carried over from the Risk Based Quality Management Summary page. 
+ The Key Risk Indicators (KRI) card shows:
+- Site-level key risk indicator (KRI) performance metrics, including: 
+- Number of sites being tracked for KRIs that are added to the SRI. 
+- Number and visual spread of low-, medium-, and high-risk sites. 
+ You can hover your cursor on a segment in the Key Risk Indicators (KRIs) card donut chart to: 
+- View the number of low-, medium-, or high-risk sites. 
+- Click a low-, medium-, or high-risk segment to directly access the prefiltered KRI Dashboard listing all sites, medium-risk sites, or high-risk sites, respective. 
+ | 
+ | Quality Tolerance Limits (QTL) 
+ | Previous existing functionality carried over from the Risk Based Quality Management Summary page .
+ The Quality Tolerance Limits (QTL) card shows:
+- Study-level quality tolerance limits (QTL) performance metrics, including: 
+- Number of QTLs begins tracked in the study. 
+- Number and visual spread of QTLs that are considered: 
+- In Range – The percentage of patients that do not meet the study parameter's specified criteria is considered within a healthy range of the expectation . Generally, in range QTLs require no action. 
+- Out of Range – The percentage of patients that do not meet the study parameter's specified criteria have exceeded the tolerance threshold . RBQM considers parameters whose QTL values exceed the threshold as at risk. 
+- Above Upper Limit – The percentage of patients that do not meet the study parameter's specified criteria has exceeded the tolerance upper limit . RBQM considers parameters whose QTL values exceed the upper limit as high risk. 
+ You can hover your cursor on the Quality Tolerance Limits (QTLs) card donut chart to:
+- View the number of study QTLs that are considered in range, out of range, or above the QTL's upper limit. 
+- Click the donut chart to directly access the QTL Dashboard. 
+ | 
+ | Risk Management 
+ | Previous existing card carried over from the the Risk Based Quality Management Summary page with modified visualization and functionality. 
+ The Risk Management card shows t he total count of identified risks as well as the count of overdue and due soon risks where: 
+- Overdue   -- The Current Date is after the Target Review Date, indicating that the risk review is overdue. 
+- Due Soon – The Target Review Date for the risk review is within one week of the Current Date. 
+ You can click a segment in the Risk Management card to directly access the prefiltered Risk Inventory listing all overdue risk reviews. 
+ | 
+ | Open Signals 
+ | Shows the total number of open signals as well as the number of signals that are:
+- In Progress 
+- Overdue 
+- lingering – Open for over 30 days. 
+ | 
+ | Risk Inventory 
+ | Shows the count of risks per status based on severity.
+ You can:
+- Hover your cursor on the bar for any risk status to show the total number of risks by status and the total number of risks based on risk severity for that status. 
+- Hover your cursor on a segment representing a risk severity to highlight all segments in the bar chart of the same severity. 
+ | 
+ | Patients Cleaned By Site 
+ | Previous existing card that is moved over from the Clean Patient Tracker page and formerly called the Patients In Progress By Site card . It shows all sites by default now, not just the top 10 sites in progress. 
+ The Patients Cleaned By Site card  contains   a bar graph that shows the total number of patients at each site broken down by the number of cleaned patients and in progress patients by site. 
+ You can: 
+- Hover your cursor on the bar for any site to show the raw metrics for that site. 
+- Hover your cursor on a segment representing Clean Patients or In Progress Patients to highlight all segments in the bar chart of the same status. 
+ In the graph's upper-right corner, you can click the double-sided arrow to open a separate window to:
+- View and compare the top ten sites in your study with the highest in progress patient counts. 
+- View the Sites list which provides more detailed information concerning outstanding tasks for all sites in your study and enables you to:
+- Directly open and review data listings, vendor queries, and AI Reconciliation reports with unreviewed records. 
+- Access the full, detailed list of open EDC queries for a specific site. 
+ | 
+ | All Signals By Site 
+ | The All Signals By Site card shows the list of all sites and associated signals. The card shows raw metrics per site such as:
+- Site Number 
+- Site Country 
+- Site Score 
+- Total number of signals associated with the site 
+- Number of signals created directly from a specific CDS module (such as KRIs, Patient Profiles, Propagation) or number of user-defined signals in the Signals module. 
+- Cleaning progress at the site. 
+ You can click to directly access the list of Signals for each module from the All Signals By Site card.
+ You can also expand a site to show additional details of the breakdown of the analyses of each signal.
+ | 
+ Impact to Existing Data or Settings 
+ There is no new building block associated with the Data Quality Hub; users with access to the Detect Landing Page can view the dashboard.
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Data Quality Hub (renamed from Risk Based Quality Management Summary) 
+ Special Considerations 
+ | 
+- Users must actively use the CDS Risk Management module to link signals to specific inventory risks 
+- Site priority calculation defaults unassigned signals to a "Medium" risk impact score while drawing active metrics from either a 3-point or 5-point score scale. 
+ To view Medidata testing documentation for this release, see the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

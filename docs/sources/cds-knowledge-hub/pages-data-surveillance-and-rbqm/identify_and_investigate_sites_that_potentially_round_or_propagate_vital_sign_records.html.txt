@@ -1,0 +1,84 @@
+# Identify and Investigate Sites That Potentially Round or Propagate Vital Sign Records
+
+## Identify and Investigate Sites That Potentially Round or Propagate Vital Sign Records
+ You can use the Rounding and Propagation heatmaps to identify sites that potentially round or propagate vital sign records.
+ Note: Last Updated Timestamp
+ The Last Updated timestamp reflects the date and time when the most recent data snapshot generation process started. It does not represent the date and time when the data in Rounding and Propagation was last refreshed. Therefore, the Last Updated timestamp may be earlier than the time at which the refreshed data becomes available in Rounding and Propagation.
+## Access and View the Rounding and Propagation Heatmaps
+ You can view heatmaps that report the percentage of a particular vital sign's records at each site that RBQM identifies as being rounded or propagated . 
+ You can also simultaneously view and compare side by side both the rounding and propagated event analysis at a site. 
+- Access RBQM , and then click Statistical Monitoring > Rounding & Propagation in the left-hand menu. 
+- On the Rounding & Propagation page, do any of the following:
+- Click Rounding Events to view the analysis and summary data for sites with roundings events. 
+- Click Propagation Events to view the analysis and summary data for sites with propagation events. 
+- Click View Side by Side to open a pop-up window that shows a stacked view of the Rounding Events heatmap on top of the Propagation Events heatmap. 
+## Interpret the Rounding and Propagation Heatmaps
+ Your proficiency in reading and understanding the Rounding and Propagation heatmaps greatly affects your ability to:
+- Distinguish between reliable and potentially unreliable data in the vital signs collection case. 
+- Identify and investigate sites that:
+- May not be following the study protocol correctly. 
+- May be falsifying or fabricating data. 
+- May be performing misconduct in aspects of the trial outside of data collection. 
+ This determination helps ensure you take efficient, well-informed follow-up actions in how you further investigate or report your study data findings.
+ The following details explain how to read and interpret the Rounding and Propagation heatmaps. 
+- The top of the Rounding & Propagation page lists high-level site details: 
+- Total Sites – The total number of sites in your study that RBQM identifies with potentially rounding events, propagating events, or both. 
+- Sites with Rounding – The total number of sites in your study that RBQM identifies with potentially rounding events. 
+- Sites with Propagation – The total number of sites in your study that RBQM identifies with potentially propagating events. 
+- The Y-axis lists the event names in descending alphabetical order (A at the top; Z at the bottom). 
+- The X-axis lists the sites that RBQM identifies as potentially rounding or propagating events. 
+- Sites are listed in descending order with sites containing the highest total percentage of rounded or propagated records at the site on the left; sites with the lowest percentage on the right.
+ Tip : You can click a site ID in the x-axis to:
+- Reposition the heatmap to show the selected site as the first site listed on the left on the x-axis. 
+- Dynamic filter the Summary table to show and high highlight same site ID. 
+- Each heatmap cell shows: 
+- For the Sites with Rounding heatmap, the percentage of all a vital sign's records collected at a site that are rounded records belonging to rounded patients. 
+- For the Sites with Propagation heatmap, the percentage of all a vital sign's records collected at a site that are propagated records belonging to rounded patients. 
+- Deeper and more intense cell coloring indicates a higher percentage of vital sign records at the site that RBQM identifies as being rounded or propagated. 
+- You can hover your cursor on any heatmap cell to view a popup containing the following details: 
+- Site   – The site ID. 
+- Patient Counted   – The number of patients at the site. 
+- Patients Rounded   – The number of patients at the site with at least three rounded records. 
+- Rounded Records Counted   – Shows on the Sites with Rounding table. The number of rounded records at the site. 
+- Propagated Records Counted   – Shows on the Sites with Propagation table. The number of propagated records at the site. 
+- Total Records   – The total number of records for the vital sign at the site.
+- You can click any heatmap cell to view in a separate dialog a consolidated list of patients with recorded events at the site and rounded or propagated record details. In the dialog, you can also click a patient ID to view that patient in Patient Profiles.
+ Tip : You can click View Side By Side to view the Sites with Rounding heatmap stacked directly on top of the Sites with Propagation heatmap. This helps you simultaneously compare both the rounding and propagated event analysis at a site. 
+## Use and Interpret the Summary Tables
+ The Rounding Events Summary table and Propagation Events Summary table list all sites that RBQM identifies as potentially rounding or propagating events. By default, s ites are listed in descending order with sites containing the highest total percentage of rounded or propagated records at the site at the top; sites with the lowest percentage at the bottom. From each Summary table, you can: 
+- View the Summary table data. 
+- Filter the Summary table for a specific site. 
+- Sort the Summary table by site or country. 
+- Drill down to view individual patient record details for specific events at a site. 
+ View the Summary Table Data 
+- Navigate to the Summary section below the heatmap.
+ Field Descriptions 
+- Site – The site ID where RBQM identifies potentially rounded or propagated events. 
+- Country – The country in which the site is located. 
+- # Affected Patients – The number of patients that RBQM identifies as having their event records rounded or propagated out of the total number of patients at that site. 
+- #<event name> – The Summary table lists an individual column for each event listed in the Sites with Rounding or Sites with Propagation heatmap. Depending on whether you are viewing the Rounding Events Summary table or the Propagation Events table, the columns shows you for each site:
+- The total number of event records that end in 0 or 5 out of the total number of event records at that site. 
+- The total number of event records that are considered propagated (3 or more consecutive values for the same variable for a given patient) out of the total number of event records at that site.  
+ Filter the Summary Table by Site 
+- Navigate to the Summary section below the heatmap.
+By default, the Summary table is sorted by sites with the highest percentage of rounded or propagated records in descending order (highest percentage at the top; lowest at the bottom). 
+- Click the Site menu, and select the site you want to filter for and view in the table.
+The selected site shows at the top of the Summary table with its row highlighted in blue.
+ Tip: I n the Summary table, when you click the row of a particular site ID, then the heatmap synchronously: 
+- Repositions to show the selected site as the first site listed on the left on the x-axis. 
+- Highlights the site ID in the x-axis in blue font color. 
+ Sort the Summary Table 
+- Navigate to the Summary section below the heatmap.
+By default, the Summary table is sorted by sites with the highest percentage of rounded or propagated records in descending order (highest percentage at the top; lowest at the bottom). 
+- Click the Site or Country column header to sort by that column.   indicates that the column is sorted in ascending alphabetical (A at the top; Z at the bottom) or ascending numeric order (lowest value at the top, highest at the bottom). 
+- Click a column header twice to sort in descending alphabetical (Z at the top; A at the bottom) or descending numeric order (highest value at the top, lowest at the bottom). 
+ View Individual Patient Records at a Site 
+- Navigate to the Summary section below the heatmap.
+- In the # Affected Patients  column, click the link associated with the site containing the patients you want to review.
+The Patients with Roundings Events or the Patients with Propagating Events pop-up window appears. By default, the list is sorted by patient ID in ascending numeric order (lowest value at the top, highest at the bottom). Depending on whether you are viewing the Rounding Events Summary table or the Propagation Events table, the columns show you for each site: 
+- A check mark in the Rounding Event column or Propagation Event column for patients that have at least one rounding event or propagation event, respectively. 
+- The number of the patient's records that end of 0 or 5 out of the patient's total number of records. 
+- The number of the patient's records that are considered propagated (3 or more consecutive values for the same variable for a given patient) out of the patient's total number of records.  
+- If necessary, click the Patient column to sort the list in descending numeric order.
+- Optional . C lick a patient ID to view that patient in Patient Profiles. 
+- Click Close .

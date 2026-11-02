@@ -1,0 +1,31 @@
+# New KRI Dashboard Orientation and Site Risk Indicator
+
+## New KRI Dashboard Orientation and Site Risk Indicator
+## Description
+- The KRI Dashboard orientation has been changed to vertical to enable you to select a site or a country to view KRIs in detail. 
+- You can select a detailed view for sites and countries with the aid of a new Side by Side View button. 
+- You can select up to four sites by checking the check boxes next to sites and click View. 
+- You can compare up to four sites or countries. 
+- The KRI Dashboard now shows the Site Risk Indicator (SRI), based on selected KRIs. 
+## Affected Roles
+- Site Monitor 
+- Study Manager 
+## Advantages
+- Concise view of the KRI outliers for a country and site 
+- Easy to view side-by-side comparison of the KRI outliers 
+- Grading site performance based on selected KRIs. 
+## User Impact
+- A new Side by Side View button added on the KRI Dashboard page that allows you to get a detailed view for up to four selected sites and countries. 
+- 
+- The Site view has a site option and the Countries view has a country option.
+- The View, Close, and Clear buttons are locked while in view mode. 
+- The View By dropdown on the KRI Dashboard includes two new options: 
+- Sites - High Risk
+- Sites - Medium Risk.
+## Knowledge Space Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support these enhancements: 
+- Access and view KRIs 
+- Investigate Data Using the KRI Dashboard 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

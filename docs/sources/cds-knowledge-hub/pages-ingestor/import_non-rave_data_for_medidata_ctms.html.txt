@@ -1,0 +1,77 @@
+# Import Non-Rave Data for Medidata CTMS
+
+## Import Non-Rave Data for Medidata CTMS
+ You can upload external data from non-Rave EDC sources, including Classic Rave, onto the Medidata platform through import jobs. To do so, you must create import jobs and import data files containing specifications that relate to your clinical data. The Medidata platform interprets how to process your clinical data through data integrations, which you configure by importing  Study Design Metadata (SDM) files through SDM import jobs. 
+## Medidata CTMS Capability Mapping
+ Medidata CTMS requires the following data from non-Rave systems to enable Medidata CTMS functionality: 
+- Clinical Data
+- Subject Disposition dates, such as enrollment or randomization 
+- Adverse Event data 
+- Subject Visits 
+- Clinical Operational Data
+- Source Data Verification (SDV) data 
+- Queries data 
+ The clinical data and clinical operational data enable the Medidata CTMS capabilities listed in the below table. If requisite data is unavailable, then Medidata CTMS disables the corresponding capability. 
+ Clinical Data 
+ Clinical Operational Data 
+ Medidata CTMS Capabilities
+ Subject Disposition
+ Adverse Events
+ Subject Visits
+ Source Data Verification
+ Queries
+ | Site Overview 
+ | X 
+ | 
+ | 
+ | 
+ | 
+ | Visit Scheduler 
+ | X 
+ | 
+ | 
+ | 
+ | 
+ | Reference Data 
+ | 
+ | X 
+ | X 
+ | X 
+ | X 
+ | Visit Report Placeholders 
+ | X 
+ | X 
+ | 
+ | X 
+ | 
+ | Activity Metrics 
+ | 
+ | 
+ | X 
+ | X 
+ | X 
+ | Enrollment Metrics 
+ | X 
+ | 
+ | 
+ | 
+ | 
+ | Milestones 
+ | X 
+ | 
+ | 
+ | 
+ | 
+## Data Loading File Requirements
+ Loading data for Medidata CTMS requires two sets of files: SDM files and Data files. The SDM files provide information about the study design, including:
+- Visits in the study 
+- Data sets  to load 
+- Each visit's expected data sets 
+- Each data set's expected fields 
+ You must describe all data you plan to ingest for the study in the SDM files.
+ Notes :
+- SD M files must include metadata about any data set you intend to load for a given study. The Medidata platform does not support multiple sets of SDM files per study. 
+- SDM is not study environment specific. You can use content in SDM files to load data into any study environment for the study, for example: UAT and Production. 
+- The data files must match the content data structures specified in the SDM files. 
+## Next Step
+ Prepare SDM Files

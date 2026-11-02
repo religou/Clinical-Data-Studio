@@ -1,0 +1,14 @@
+# Flag, Track, and Audit Reviewed Error Plot Outlier Data Points
+
+## Flag, Track, and Audit Reviewed Error Plot Outlier Data Points
+## Description
+ After you review individual outlier data points on error plots, you can flag those data points as reviewed. You can also track which of a variable's outlier data points have or have not been reviewed on error plots. 
+## Affected Roles
+ Users with CSA Review permissions. 
+## Advantages
+ Flagging outlier data points as reviewed helps you and other team members identify which data has or has not been reviewed. 
+ Knowing the review status of data points in your study prevents inadvertent, repeat review work and helps your team recognize and focus on the data that still requires review. You can also track previous users who reviewed specific data points and when those reviews occurred. 
+## User Impact
+ You can flag, track, and audit reviewed study data on the Error Plots page. To learn more, see  Flag, Track, and Audit Reviewed Study Data .
+## Special Considerations
+ Reviewed data points are marked as unreviewed if those data points change due to an update to the study's source data.

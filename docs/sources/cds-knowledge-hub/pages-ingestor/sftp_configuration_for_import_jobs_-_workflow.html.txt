@@ -1,0 +1,10 @@
+# SFTP Configuration for Import Jobs - Workflow
+
+## SFTP Configuration for Import Jobs - Workflow
+ With Ingestor, you can configure import jobs to download data from an SFTP location. The workflow below outlines the process pertaining to configuring and using SFTP locations in Ingestor. 
+ MEDSINGEST_Workflow_Master_SFTP-Config_ENG
+- Using Extractor, add an SFTP location to your client division. 
+- Use Ingestor create an import job . During the creation process, configure the job to use the SFTP location.
+ Note : If you choose not to configure a job's SFTP settings during its creation, or want to edit an existing job's SFTP settings, you can do so from the job's configuration screen .
+- You can use Ingestor to review any updates pertaining to the SFTP location. 
+- Every 30 minutes, Ingestor imports the files from the SFTP locations' Input File Path and exports various status files to the output folder path. When applicable, the exported files include processing files such as error lists, reconciliation reports, and success logs.

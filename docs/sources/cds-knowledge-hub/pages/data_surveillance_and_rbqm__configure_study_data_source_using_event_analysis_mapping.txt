@@ -1,0 +1,53 @@
+# Data Surveillance and RBQM: Configure Study Data Source Using Event Analysis Mapping
+
+## Data Surveillance and RBQM: Configure Study Data Source Using Event Analysis Mapping
+## What Is New?
+ You can now set up your study data source as  Rave EDC or external. External studies are those with externally coded terms from MEDRA or WHODRUG ingested into Rave.  
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ The Clinical Data Studio workflow analyzes and visualizes your study data depending on the data source you select. For more information, see  Clinical Data Studio's Data Pipeline .
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Selecting an explicit data source for your study enables data managers to use capabilities like Reconciliation, Event Analysis and analyze data quality and maintain data integrity.
+## Where Do I See the Change?
+ Study Data Source 
+ On the Data Surveillance or RBQM tab > Configuration > Data Mapping > Event Analysis tab, if you click Set Data Source from the top right corner of the page, you can select Rave or External as your data source. For new studies, there is no default selection, you must explicitly select one option. However, existing studies map to Rave as a data source by default. When you select a new data source, all previous data mappings for the study are removed. The data source appears in a new Data Source column on the Event Analysis page. For a new study, you must first select a data source before mapping event analysis data. The Event Analysis data mapping PDF report includes all the fields you configure for both external or Rave data sources. 
+ Mapping Conditions, Treatments, and History 
+ If you select Rave as your study data source, you can only configure datasets in the Conditions, Treatments, and History mappings from studies that use Rave Coder or Coder+.  For external data, see the following: 
+ Condition Mapping Treatment Mapping History Mapping 
+ Condition Mapping
+## Condition Mapping
+ If you select an external data source, that is, if your study does not use Rave Coder or Coder+, and then click New Mapping > Condition Mapping to create or edit a condition mapping,  you can configure the following new fields on the Condition Mapping page: 
+- Preferred Term Code 
+- Preferred Term 
+- Optional . System Organ Class (SOC) Name 
+ You cannot save the condition mapping unless you configure all the mandatory fields.
+ Treatment Mapping
+## Treatment Mapping
+ If you select an external data source , that is, if your study does not use Rave Coder or Coder+, and then click New Mapping > Treatment Mapping to create or edit a  treatment mapping  with Concomitant Treatment Type as Medication, you can configure the following new, mandatory fields on the Treatment Mapping page:
+- ATC 2 Code 
+- ATC 2 Name 
+- Product Name 
+- Product Code 
+ If you select an external data source , that is, if your study does not use Rave Coder or Coder+, and then click  New Mapping > Treatment Mapping to create or edit a  treatment mapping with Concomitant Treatment Type as Procedure , you can configure the following new, mandatory fields on the Treatment Mapping page:
+- Product Name 
+- Product Code 
+ History Mapping
+## History Mapping
+ If you select an external data source , that is, if your study does not use Rave Coder or Coder+, and then click  New Mapping > History Mapping to create or edit an existing history mapping, you can configure the following new fields on the History Mapping page:
+- Preferred Term Code 
+- Preferred Term 
+- Optional . System Organ Class (SOC) Name 
+ You cannot save the history mapping unless you configure all the mandatory fields.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Clinical Data Studio's Data Pipeline 
+- Map Event Analysis Data 
+## What Else Should I Know?
+- You can only map one data source at a time for your study. 
+- Before selecting an external data source, you must first import that external data using Data Connect's Imports capability  or through Ingestor . 
+- You cannot perform reconciliation activities or submit queries for derived datasets in Reconciliation if you do not map to the correct study data source.  
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

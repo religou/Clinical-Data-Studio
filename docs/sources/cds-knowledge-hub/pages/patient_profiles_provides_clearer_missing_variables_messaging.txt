@@ -1,0 +1,17 @@
+# Patient Profiles Provides Clearer Missing Variables Messaging
+
+## Patient Profiles Provides Clearer Missing Variables Messaging
+## Description
+ Patient Profiles 2022.2.0 provides clearer messaging for missing variables in copied elements in a study. 
+## Affected Roles
+ All. 
+## Advantages
+The updated messages show the status of the data and prompt you to take appropriate action.
+## User Impact
+ When you copy an element to another study in the Medidata Detect > Patient Data Surveillance (PDS) module > Patient Profiles > Design page > Elements tab, Patient Profiles appends a yellow marker for elements with missing variables, configurations, or settings. When you hover your cursor on the marker, a message alerts that the variable does not exist and prompts you to remove or replace the variable. 
+ Tip: Click image to enlarge. 
+ When you copy an element to another study in the Medidata Detect > Patient Data Surveillance (PDS) module > Patient Profiles > Design page > Elements tab > Table Options > General Options, Patient Profiles appends a yellow marker for missing variables used in the First Sort Column, Second Sort Column, or Third Sort Column. When you hover your cursor on the marker, a message alerts you that the variable does not exist in the table.
+## Knowledge Space Updates
+ None. 
+ Special Considerations 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

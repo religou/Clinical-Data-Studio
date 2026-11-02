@@ -1,0 +1,19 @@
+# Revamped Source to Target Mapping and Transformation
+
+## Revamped Source to Target Mapping and Transformation
+## Description
+ When configuring data mappings, you can: 
+- Choose forms and fields to map, and drag to target fields of the available concepts. 
+- Configure custom transformation logic in PostgreSQL (postgres) code to source fields while applying them to the target variable. 
+- Review data lineage between source fields into the target variables. 
+## Affected Roles
+ Select internal users with permission to use Platform Workbench.
+## Advantages
+ The expanded data mapping options give you more flexibility reconciling the study design with data capture. 
+## User Impact
+ None. This feature is available to select internal users.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ This feature is not generally available and will be used for demo purposes by Medidata personnel.
+ To view Medidata testing documentation for this release, refer to RCM.

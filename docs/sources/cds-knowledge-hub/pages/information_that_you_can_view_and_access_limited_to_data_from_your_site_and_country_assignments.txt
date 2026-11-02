@@ -1,0 +1,48 @@
+# Information That You Can View and Access Limited to Data from Your Site and Country Assignments
+
+## Information That You Can View and Access Limited to Data from Your Site and Country Assignments
+## Description
+ In Detect, you can now only view and access information associated with the sites and countries to which you are assigned in Cloud Administration . Detect de-identifies information for sites and countries not assigned to you. 
+ In addition, on the Overview page, you: 
+- Cannot select, drill down on, and investigate sites and countries to which you are not assigned. 
+- Can use the Assigned button to toggle the Countries perspective and Sites perspective to show: 
+- Only countries or sites assigned to you. 
+- All study sites and countries, but with unassigned items de-identified. 
+## Affected Roles
+ All.
+## Advantages
+ In previous Medidata Detect releases, you could view and access all study data. However, depending on your role and responsibilities, not all data may require your attention or investigation. Therefore, when trying to find the data you needed to investigate, you could easily get lost in Detect by accessing and searching through data that did not apply to your needs.
+ Now that Detect limits you to only data from your country and site assignments, your Detect workspace  displays only the exact data that you need to investigate. Therefore, you can much more effectively and efficiently focus only on the data you need without the risk and hassle of getting lost or distracted by data that is irrelevant to your role. This results in a streamlined workflow, leading you to produce faster, more accurate, and more effective data analyses. 
+ In addition, limiting user access to only assigned country and site data strengthens data security by ensuring users see only the data they are meant to see. 
+ Activating the Assigned button on the Overview page allows you to clean up your workspace to help you focus on the sites and countries assigned to you. Deactivating the Assigned button lets you assess how the discrepancy of your assigned sites and countries compares to all sites and countries in the study. 
+## User Impact
+ The fact that you can now only view and interact with information associated with the sites and countries assigned to you results in changes to the following pages: 
+- On the Overview page: 
+- You cannot select, drill down on, and investigate sites and countries to which you are not assigned. 
+- You can activate the Assigned button above the Countries perspective and Sites perspective to show only countries or sites assigned to you .
+- You can deactivate the Assigned button to show all study sites and countries. However, Detect de-identifies unassigned countries.
+ Tip : Click to enlarge the images below. The top image shows the Assigned button activated, which displays only countries assigned to you. The bottom image shows the button deactivated, displaying all countries in the study.
+- The Risk Categories, Domains, Countries, and Sites perspective labels depicts the number of aspects that Detect has identified as contributing to the perspective. For example, in the images above, Detect identifies a total of 23 countries as contributing to the Countries perspective.
+ Note : Depending on your permissions, not all perspectives may display to you on the Overview page. To learn more, see  Role-based Permissions Now Determine the Pespectives You Can View and Access .
+- On the Top Contributors page: 
+- The Contributors list only displays sites and countries to which you are assigned. 
+- On the Error Plots page: 
+- Frequency distribution plots using text analysis or text versus text analysis only sum up text for data points associated with the sites or countries to which you are assigned. 
+- Box-and-whisker plots  using numeric analysis  or numeric versus numeric analysis show all data points. However, the plot highlights only data points associated with the sites or countries to which you are assigned. All other data points are faded out.
+- On the Error Plots page > Summary section:
+- When you select View By >  Site , the Site dropdown displays only sites to which you are assigned. 
+- When you select View By >  Country , the Country dropdown displays only countries to which you are assigned. However, if you are not assigned to any countries, then Country does not display as an option from the View By menu. 
+- When you select View By >  Patient , the Patient  dropdown displays only patients that are in the sites or countries to which you are assigned. 
+- When you select View By >  Data: Top 100 Outliers , the Patient  dropdown displays only data points for patients that are in the sites or countries to which you are assigned. 
+- On the Event Incidence Plot page:
+- All data points in the study display. However, the plot highlights only data points associated with the sites or countries to which you are assigned. All other data points are faded out. 
+- You cannot click or hover your cursor to display more information on faded out data points. 
+- When you select View By >  Site , the plot  displays only sites to which you are assigned. All other data points are faded out. 
+- When you select View By >  Country , the plot  displays only countries to which you are assigned. All other data points are faded out. However, if you are not assigned to any countries, then Country does not display as an option from the View By menu. 
+- If you click  ,  , or  , the panel on the right side de-identifies sites and countries to which you are not assigned. 
+- The Summary section only displays sites and countries to which you are assigned. 
+- On the KRIs page:
+- When you select View By >  Site , the Key Risk Indicators table  displays only sites to which you are assigned. 
+- When you select View By >  Country ,  the Key Risk Indicators table  displays only countries to which you are assigned.  However, if you are not assigned to any countries, then Country does not display as an option from the View By menu. 
+## Special Considerations
+ None.

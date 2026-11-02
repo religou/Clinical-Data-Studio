@@ -1,0 +1,19 @@
+# Access RBQM
+
+## Access RBQM
+ Access to RBQM requires that you are invited to a study that is integrated with and linked to the RBQM app in Medidata. Once you receive an invitation and you activate your Medidata account, you can log in to Medidata and access your studies in RBQM. To learn more, see 
+ Login, Navigate Medidata, and Access Studies .
+ Note : You require permissions to access and perform specific actions in each RBQM capability. To learn more, see RBQM User Roles and Capabilities .
+ To access RBQM: 
+- Do one of the following: 
+- 
+- If you are not yet logged into Medidata:
+- Log in to iMedidata.com 
+- Click the RBQM   tab in the tab bar below the Medidata Home page welcome message. 
+- In the Clients table, click the client name containing the study you want to access. 
+- In the Study Groups table, click the study group name containing the study you want to access. 
+- In the Studies table, click the study you want to access.
+ The RBQM > Clean Patient Tracker page shows by default. 
+- If you are currently working in another Medidata app:
+- Click the RBQM tab in the tab bar below the study banner.
+The Data Surveillance > Risk Based Quality Management summary page shows by default.

@@ -1,0 +1,21 @@
+# Show Me - Configure S3 Connections
+
+## Show Me - Configure S3 Connections
+ Summary 
+ | An overview on configuring secure Amazon S3 connections. 
+ Duration 
+ | 2 min 08 sec 
+ Product 
+ | Data Connect - Exports 
+ Release 
+ | January 2025 
+ Video Category 
+ | Export Job Administration 
+ Related Topics 
+ | 
+- Configuring Exports to Deliver to Amazon S3 Connections 
+- Prepare Amazon S3 Bucket 
+- Add S3 Connection 
+- Configure Exports to Use S3 Connection 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

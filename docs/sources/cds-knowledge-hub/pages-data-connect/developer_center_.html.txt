@@ -1,0 +1,68 @@
+# Developer Center: Developer Center and Data Source Enhancements
+
+## Developer Center: Developer Center and Data Source Enhancements
+ Important: 
+- For a summary of changes done to these release notes, if any, see the revision history .. 
+- For features and enhancements covered in previous releases, see the releases history . 
+- For a summary of all features released, the released features index . 
+## Change Details
+ Product 
+ | Data Connect
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Data Connect > Developer Center
+ Summary of Changes 
+ | 
+ Important : The R SDK and Developer Center are only available as a limited release for selected users.
+ As highlighted in the Release Newsletter : 
+ The R02 release introduces stablity and usability improvements to the Developer Center, alongside significant updates to Veeva data handling and dataset metadata retrieval. 
+ Developer Center Updates 
+- Token Management Safety: The Developer Center now show a confirmation page when you attempt to disable or regenerate an authentication token. You must confirm the action to proceed, preventing accidental deactivation of access keys. 
+ Get Datasets Function Enhancements 
+ The datasets() function result now includes the following metadata attributes for each dataset:
+- Dataset Name 
+- Dataset Short Name 
+- List of Collections (optional) 
+- Dataset Type, for example: Derived Dataset, Rave, SFTP Import, Custom Code 
+- Dataset Source Name 
+- Activation Status (optional) 
+- Dataset Status 
+- Last Updated (optional) 
+ In addition, when a Veeva form contains data collected across different CRF versions, the  Get Datasets and Dataset Version functions now list all CRF versions as a comma-separated list. 
+ Benefit to Users 
+ | 
+- Security and Usability: The new confirmation pages in the Developer Center prevent the accidental disabling or regeneration of authentication tokens, reducing the risk of unintentional access disruptions 
+- Standardization: Updating the API response to camelCase ensures consistency with standard REST API formats, simplifying integration for developers 
+- Data Visibility: The Veeva update simplifies data management by consolidating multiple dataset versions into a single, comprehensive view. You can access a superset of data without navigating between disparate versions. 
+- Improved Metadata : The enhanced datasets() output provides greater visibility into dataset properties, statuses, and origins, aiding in better data management and troubleshooting 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ All Data Connect users managing API keys in the Developer Center or interacting with Veeva data sources. 
+ Impact to Workflow Processes 
+- Developer Center: You must now confirm your action in a page when clicking Disable Token or Generate New Token. 
+- Veeva EDC Data: You no longer need to manage multiple versions of a Veeva dataset. 
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+- Developer Center: A confirmation page appears when you select Disable Token or Generate New Token . 
+ Impact to Existing Data or Settings 
+ Existing Veeva studies migrate to the new versionless format. Previous versions are deprecated, and future imports utilize the superset schema. 
+ User Impact Assessment 
+ | 
+ Medium
+ Learning Resource Updates 
+ | There are no additional relevant resources.
+ Special Considerations 
+ | To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

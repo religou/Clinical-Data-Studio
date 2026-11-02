@@ -1,0 +1,162 @@
+# Investigate Data Using the Under-Over Reporting Events Plot
+
+## Investigate Data Using the Under-Over Reporting Events Plot
+ You can use the Under-Over Reporting Events plot to identify potentially noncompliant sites and countries whose adverse event, concomitant medication, and medical history reporting patterns significantly differ from the study norm. 
+ Note: Last Updated Timestamp
+ The Last Updated timestamp reflects the date and time when the most recent data snapshot generation process started. It does not represent the date and time when the data on the Under-Over Reporting Events plot was last refreshed. Therefore, the Last Updated timestamp may be earlier than the time at which the refreshed data becomes available on the Under-Over Reporting Events plot.
+## Access and View the Under-Over Reporting Events Plot
+ You can view funnel plots depicting the site- and country-level reported rate of: 
+- Adverse events over time in months. 
+- Concomitant medications compared to the combined number of reported adverse events and ongoing medical history events. 
+- Medical history events compared to total number of enrolled patients. 
+ You can also simultaneously view and compare the Adverse Events, Concomitant Medication, and Medical History funnel plots.
+- Access RBQM , and then click Statistical Monitoring > Under-Over Reporting in the left-hand menu.
+The Under-Over Reporting Events page shows. 
+- Do any of the following:
+- Click Adverse Events to view the Under-Over Reporting Adverse Events Plot. Adverse Events is the default selection. 
+- Click Concomitant Medication to view the Under-Over Reporting Concomitant Medication Plot. 
+- Click Medical History to view the Under-Over Reporting Medical History Plot 
+- Click View Side by Side to view the Adverse Events, Concomitant Medication, and Medical History plots simultaneously side by side. 
+- Optional : Each plot displays site-level data by default. Click the   View By   menu to toggle between site-level and country-level view. 
+## Filter the Under-Over Reporting Events Plot to View Site- or Country-level Data
+- Do either of the following: 
+- To view the Under-Over Reporting Events Plot data by site: click the View by filter above the Under-Over Reporting Events plot visualization, and then select Site . Site is the default selection. 
+- To view the Under-Over Reporting Events Plot data by country: click the View by filter above the Under-Over Reporting Events plot visualization, and then select Country . 
+## Zoom In on Under-Over Reporting Events Plot Data
+ You can zoom in on a specific section of the Under-Over Reporting Events Plot. Zooming in helps you get a closer, more granular view of specific data points on the plot. 
+- Click, hold, and drag your cursor to draw a box on a specific section of the plot that you want to zoom in on. 
+- If necessary, click   Reset Zoom   at the upper right of the visualization to return to the default zoom level. 
+## Interpret the Under-Over Reporting Events Plot
+ Your proficiency in reading and understanding the Under-Over Reporting Events Plot greatly affects your ability to determine outliers, anomalies, risks, and trends in your study's reported event data. This determination helps ensure you take efficient, well-informed follow-up actions in how you further investigate or report your study data findings.
+ Click a plot type below to learn how to read and interpret the Under-Over Reporting Events Plot based on analysis type.
+ Adverse Events 
+ You can use the Under-Over Reporting Adverse Events plot to identify sites and countries that have significantly different patterns of adverse event (AE) reporting compared to the study norm. Identifying, monitoring, and appropriately addressing sites and countries that may be under or overreporting adverse event data ensures:
+- 
+- Patient safety oversight. 
+- Drug labels include appropriate safety information, including potential drug-to-drug interactions. 
+ The following details explain how to read and interpret the Adverse Events plot .
+- The Y-axis vertically charts the average number of reported adverse events at a site or country over time in months. 
+- The X-axis horizontally charts the site or country's duration in the study in months. 
+- Each blue dot, , represents a site or country data point. 
+- The data point size increases based on the number of patients enrolled at the site or country. 
+- You can hover your cursor on a data point to view:
+- Country name 
+- Site – The site ID. Only appears when viewing the plot by site. 
+- AE Rate – The average number of reported adverse events at a site or country over time in months. Calculated as: N umber of AEs / Exposure Time in Months
+ Note : Exposure time is the study days across all patients.
+- Exposure in Months – The sum of months on the study across all enrolled patients. 
+- # of Patients – Number of patients enrolled at the site or country. 
+- You can click a data point to view that site or country's details in the Under-Over Reporting Adverse Events Plot Summary Table. To learn more, see Use and Interpret the Under-Over Reporting Events Plot Summary Table . 
+- RBQM normalizes the AE rate reported at each site or country across the overall study data and uses funnel lines to visually output the:
+- Upper 99% Limit – An AE rate that is at the 99% confidence interval above the study's average AE rate at a particular time in the study. RBQM considers sites or countries whose reported AE rate lies above the upper 99% limit to potentially be extreme outliers. Extreme outliers may warrant prompt investigation to  understand the type of events that are overreported; for example, signs and symptoms versus diagnosis . The Upper 99% Limit is represented by the uppermost solid, blue line in the funnel plot : 
+- Upper 95% Limit – An AE rate that is at the 95% confidence interval  above the study's average AE rate at a particular time in the study. RBQM considers sites or countries whose reported AE rate lies above the upper 95% limit to be potential outliers. Outliers may warrant investigation to understand the type of events that are overreported; for example, signs and symptoms versus diagnosis . The Upper 95% Limit is r epresented by the uppermost dotted, gray line in the funnel plot: 
+- Mean – The average reported AE rate across all sites or countries in the study. The mean is represented by the solid, yellow, middle line in the funnel plot: 
+- Lower 95% Limit – An AE rate that is at the 95% confidence interval  below the study's average AE rate at a particular time in the study. RBQM considers sites or countries whose reported AE rate lies below the lower 95% limit to be potential outliers. Outliers may warrant investigation to understand type of events that are underreported; for example, mild events . The Lower 95% Limit is r epresented by the lowermost dotted, gray line in the funnel plot: 
+- Lower 99% Limit – An AE rate that is at the 99% confidence interval below the study's average AE rate at a particular time in the study. RBQM considers sites or countries whose reported AE rate lies below the lower 99% limit to potentially be extreme outliers. Extreme outliers may warrant prompt investigation  to understand the type of events that are underreported; for example, mild events . The Lower 99% Limit is r epresented by the lowermost solid, blue line in the funnel plot: 
+ Concomitant Medication 
+ You can use the Under-Over Reporting Concomitant Medication plot to identify sites and countries that have significantly different patterns of concomitant medication reporting compared to the study norm. Identifying, monitoring, and appropriately addressing sites and countries that may be under or overreporting concomitant medication data can help address: 
+- Unreported adverse events and medical history events. 
+- Variability in over-the-counter medication reporting. 
+ The following details explain how to read and interpret the Concomitant Medication plot .
+- The Y-axis vertically charts the average number of reported concomitant medications per combined number of reported adverse events and ongoing medical history events at a site or country. 
+- The X-axis horizontally charts the total combined number of reported adverse events and ongoing medical history events at the site or country. 
+- Each blue dot, , represents a site or country data point. 
+- The data point size increases based on the number of patients enrolled at the site or country. 
+- You can hover your cursor on a data point to view:
+- Country name 
+- Site – The site ID. Only appears when viewing the plot by site. 
+- CM Rate – The average number of reported concomitant medications per combined number of reported adverse events and ongoing medical history events at the site or country. Calculated as:  Number of CMs / (Number of AEs + Number of Ongoing MH)
+ Note : Depending on aggregation—whether per site or per country—the CM rate is further divided by either number of sites or countries. 
+- AE + Ongoing MH – The total combined number of reported adverse events and ongoing medical history events at the site or country. 
+- # of Patients – Number of patients enrolled at the site or country. 
+- You can click a data point to view that site or country's details in the Summary Table. To learn more, see 
+- Use and Interpret the Under-Over Reporting Events Plot Summary Table. 
+- RBQM normalizes the AE rate reported at each site or country across the overall study data and uses funnel lines to visually output the:
+- Upper 99% Limit – A CM rate that is at the 99% confidence interval above the study's average CM rate when a site or country reports a given combined total number of adverse events and ongoing medical history events. RBQM considers sites or countries whose reported CM rate lies above the upper 99% limit to potentially be extreme outliers, which my warrant prompt investigation. The Upper 99% Limit is represented by the uppermost solid, blue line in the  funnel plot : 
+- Upper 95% Limit – A CM rate that is at the 95% confidence interval  above the study's average CM rate when a site or country reports a given combined total number of adverse events and ongoing medical history events. RBQM considers sites or countries whose reported AE rate lies above the upper 95% limit to be potential outliers, which my warrant investigation. The Upper 95% Limit is r epresented by the uppermost dotted, gray line in the funnel plot: 
+- Mean – The average reported AE rate across all sites or countries in the study. The mean is represented by the solid, yellow, middle line in the funnel plot: 
+- Lower 95% Limit – A CM rate that is at the 95% confidence interval below the study's average CM rate when a site or country reports a given combined total number of adverse events and ongoing medical history events.  RBQM considers sites or countries whose reported CM rate lies below the lower 95% limit to be potential outliers, which my warrant investigation. The Lower 95% Limit is r epresented by the lowermost dotted, gray line in the funnel plot: 
+- Lower 99% Limit – A CM rate that is at the 99% confidence interval below the study's average CM rate when a site or country reports a given combined total number of adverse events and ongoing medical history events.  RBQM considers sites or countries whose reported CM rate lies below the lower 99% limit to potentially be extreme outliers, which my warrant prompt investigation. The Lower 99% Limit is r epresented by the lowermost solid, blue line in the funnel plot: 
+ Medical History 
+ You can use the Under-Over Reporting Medical History plot to identify sites and countries that have significantly different patterns of medical history reporting compared to the study norm. Identifying, monitoring, and appropriately addressing sites and countries that may be under or overreporting medical history event data ensures: 
+- Patient eligibility is properly assessed. 
+- There are no unreported exclusionary medical history conditions. 
+- Adverse events are indeed newly emerged events as opposed to the potential worsening of previously unreported medical history events. 
+ The following details explain how to read and interpret the Medical History plot .
+- The Y-axis vertically charts the average number of reported medical history events per enrolled patient at a site or country. 
+- The X-axis horizontally charts the number of enrolled patients at a site or country. 
+- Each blue dot, , represents a site or country data point. 
+- The data point size increases based on the number of patients enrolled at the site or country. 
+- You can hover your cursor on a data point to view:
+- Country name 
+- Site – The site ID. Only appears when viewing the plot by site. 
+- MH Rate – The average number of reported medical history events per enrolled patient at the site or country. Calculated as: N umber of MH / Total Patients
+ Note : Depending on aggregation—whether per site or per country—the MH rate is further divided by either number of sites or countries. 
+- # of Patients – Number of patients enrolled at the site or country. 
+- You can click a data point to view that site or country's details in the Under-Over Reporting Adverse Events Plot Summary Table. To learn more, see Use and Interpret the Under-Over Reporting Events Plot Summary Table . 
+- RBQM normalizes the AE rate reported at each site or country across the overall study data and uses funnel lines to visually output the:
+- Upper 99% Limit – An MH rate that is at the 99% confidence interval above the study's average MH rate based on the number of enrolled patients at the site or country level. RBQM considers sites or countries whose reported MH rate lies above the upper 99% limit to potentially be extreme outliers, which my warrant prompt investigation. The Upper 99% Limit is represented by the uppermost solid, blue line in the  funnel plot : 
+- Upper 95% Limit – An MH rate that is at the 95% confidence interval  above the study's average MH rate based on the number of enrolled patients at the site or country level. RBQM considers sites or countries whose reported MH rate lies above the upper 95% limit to be potential outliers, which my warrant investigation. The Upper 95% Limit is r epresented by the uppermost dotted, gray line in the funnel plot: 
+- Mean – The average reported MH rate across all sites or countries in the study. The mean is represented by the solid, yellow, middle line in the funnel plot: 
+- Lower 95% Limit – An MH rate that is at the 95% confidence interval  below the study's average MH rate based on the number of enrolled patients at the site or country. RBQM considers sites or countries whose reported MH rate lies below the lower 95% limit to be potential outliers, which my warrant investigation. The Lower 95% Limit is r epresented by the lowermost dotted, gray line in the funnel plot: 
+- Lower 99% Limit – An MH rate that is at the 99% confidence interval below the study's average MH rate based on the number of enrolled patients at the site or country. RBQM considers sites or countries whose reported MH rate lies below the lower 99% limit to potentially be extreme outliers, which my warrant prompt investigation. The Lower 99% Limit is r epresented by the lowermost solid, blue line in the funnel plot: 
+ View Side by Side 
+ You can simultaneously view and compare the Adverse Events, Concomitant Medication, and Medical History funnel plots . Adverse events, concomitant medication, and medical history funnel plots tend to correlate with each other. Viewing all three side by side helps you identify anomalous event data that may warrant investigation. 
+ Tip : We recommend clicking an individual site or country's data point in the Under-Over Reporting Events Plot to highlight that specific site or country of interest on the plot. Then, click View Side by Side . This gives you the optimal perspective to compare and investigate individual sites or countries with anomalous reporting patterns across adverse events, concomitant medication, and medical history. For example, if a site significantly overreported adverse events but underreported concomitant medications.
+ Click the image below to enlarge.
+## Use and Interpret the Under-Over Reporting Events Plot Summary Table
+ The Under-Over Reporting Events Plot Summary table lists all sites and countries with reported adverse events in the Under-Over Reporting Events Plot visualization. The Summary table also summarizes key adverse event reporting-related metrics for each site and country. 
+- Do either of the following: 
+- To view the Under-Over Reporting Events Plot Summary Table by site: click the View by filter above the Under-Over Reporting Events plot visualization, and then select Site . 
+- To view the Under-Over Reporting Events Plot Summary Table by country: click the View by filter above the Under-Over Reporting Events plot visualization, and then select Country . 
+- Scroll down to the summary table below the Under-Over Reporting Events plot visualization. 
+- Depending on the whether you view the Adverse Events plot, Concomitant Medications plot, or Medical History plot, the Summary table has the following columns:
+ Adverse Events Plot Summary Table Column Descriptions 
+- Site  – The site the patient belongs to. Only appears when viewing the plot by site. 
+- Country – The country in which the site is located. 
+- # of Sites – The total number of sites in the country. Only appears when viewing the plot by country. 
+- # Patients – The number of patients enrolled at the site or country. 
+- # of AEs – The total number of reported AEs at the site or country. 
+- Exposure (Months) – The site's or country's duration in the study in months. 
+- Reporting – Indicates whether AEs are being overreported, underreported, or reported at a statistically normal rate when compared across all other sites or countries in the study.  
+- Normal – The site or country's reported AE rate is considered statistically normal. 
+- Over – The site or country's reported AE rate is at least at the 95% confidence interval above the study-reported mean. Therefore, RBQM considers the site or country to be a potential outlier that may be overreporting adverse events, which may warrant investigation. 
+- Under – The site or country's reported AE rate is at least at the 95% confidence interval below the study-reported mean. Therefore, RBQM considers the site or country to be a potential outlier that may be underreporting adverse events, which may warrant investigation. 
+- Significance Rate – A RBQM calculation that measures the probability of a site or country experiencing its reported adverse event rate compared to the overall adverse event rate reported rate across all sites or countries in the study. 
+- Extreme Outlier – Sites or countries with a significance rate less than 0.01 for its reported adverse event rate. The probability of the site or country having its current adverse event rate is extremely low considering the adverse event rate across all sites or countries. This indicates that there may be issues with how adverse events have been reported at the site or country, which may require further investigation. 
+- Outlier – Sites or countries with a significance rate between 0.01 and 0.05 for its reported adverse event rate. The probability of the site or country having its current adverse rate event is very low considering the adverse event rate across all sites and countries. This indicates that there may be issues with how adverse events have been reported at the site or country, which may require further investigation. 
+- Normal – Sites or countries with a significance rate greater than 0.05 for its reported adverse event reported rate. The probability of the site or country having its current adverse event rate is statistically normal considering the adverse event rate across all other sites and countries. 
+- Actions – Click and then View by Country to view the summary table by country. Only appears when viewing the plot by site. 
+ Concomitant Medication Plot Summary Table Column Descriptions 
+- Site  – The site the patient belongs to. Only appears when viewing the plot by site. 
+- Country – The country in which the site is located. 
+- # of Sites – The total number of sites in the country. Only appears when viewing the plot by country. 
+- # Patients – The number of patients enrolled at the site or country. 
+- # of CM – The total number of reported concomitant medications at the site or country. 
+- # of AEs – The total number of reported adverse events at the site or country. 
+- # of On-going MH – The total number of reported ongoing medical history events at the site or country. 
+- Reporting – Indicates whether concomitant medications are being overreported, underreported, or reported at a statistically normal rate given the combined total number of adverse events and ongoing medical history events at the site or country.  
+- Normal – The site or country's reported CM rate is considered statistically normal. 
+- Over – The site or country's reported CM rate is at least at the 95% confidence interval  above the study-reported mean. Therefore, RBQM considers the site or country to be a potential outlier that may be overreporting concomitant medication, which may warrant investigation. 
+- Under – The site or country's reported CM rate is at least at the 95% confidence interval below the study-reported mean. Therefore, RBQM considers the site or country to be a potential outlier that may be underreporting concomitant medication, which may warrant investigation. 
+- Significance Rate – A RBQM calculation that measures the probability of a site or country experiencing its reported concomitant medication rate compared to the overall concomitant medication rate reported across all sites or countries in the study. 
+- Extreme Outlier – Sites or countries with a significance rate less than 0.01 for its reported concomitant medication rate. The probability of the site or country having its current concomitant medication rate is extremely low considering the concomitant medication rate across all sites or countries. This indicates that there may be issues with how concomitant medication has been reported at the site or country, which may require further investigation. 
+- Outlier – Sites or countries with a significance rate between 0.01 and 0.05 for its reported concomitant medication rate. The probability of the site or country having its current concomitant medication event is very low considering the concomitant medication rate across all sites and countries. This indicates that there may be issues with how concomitant medication has been reported at the site or country, which may require further investigation. 
+- Normal – Sites or countries with a significance rate greater than 0.05 for its reported concomitant medication reported rate. The probability of the site or country having its current concomitant medication rate is statistically normal considering the concomitant medication rate across all other sites and countries. 
+- Actions – Click and then View by Country to view the summary table by country. Only appears when viewing the plot by site. 
+ Medical History Plot Summary Table Column Descriptions 
+- Site  – The site the patient belongs to. Only appears when viewing the plot by site. 
+- Country – The country in which the site is located. 
+- # of Sites – The total number of sites in the country. Only appears when viewing the plot by country. 
+- # Patients – The number of patients enrolled at the site or country. 
+- # of MH – The total number of reported medical history events at the site or country. 
+- Reporting – Indicates whether medical history is being overreported, underreported, or reported at a statistically normal rate when compared across all other sites or countries in the study.  
+- Normal – The site or country's reported MH rate is considered statistically normal. 
+- Over – The site or country's reported MH rate is at least at the 95% confidence interval above the study-reported mean. Therefore, RBQM considers the site or country to be a potential outlier that may be overreporting medical history, which may warrant investigation. 
+- Under – The site or country's reported MH rate is at least at the 95% confidence interval below the study-reported mean. Therefore, RBQM considers the site or country to be a potential outlier that may be underreporting medical history, which may warrant investigation. 
+- Significance Rate – A RBQM calculation that measures the probability of a site or country experiencing its reported medical history rate compared to the overall medical history rate reported rate across all sites or countries in the study. 
+- Extreme Outlier – Sites or countries with a significance rate less than 0.01 for its reported medical history rate. The probability of the site or country having its current medical history rate is extremely low considering the medical history rate across all sites or countries. This indicates that there may be issues with how medical history  has been reported at the site or country, which may require further investigation.
+- Outlier – Sites or countries with a significance rate between 0.01 and 0.05 for its reported medical history rate. The probability of the site or country having its current medical history event is very low considering the medical history rate across all sites and countries. This indicates that there may be issues with how medical history  has been reported at the site or country, which may require further investigation. 
+- Normal – Sites or countries with a significance rate greater than 0.05 for its reported medical history rate. The probability of the site or country having its current medical history rate is statistically normal considering the medical history  rate across all other sites and countries.
+- Actions – Click and then View by Country to view the summary table by country. Only appears when viewing the plot by site. 
+ Tip : You can click the row of any site or country in the table to highlight the site or country's data point in the Under-Over Reporting Events Plot.

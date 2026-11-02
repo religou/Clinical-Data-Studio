@@ -1,0 +1,40 @@
+# Data Connect Video Library
+
+## Data Connect Video Library
+ Click any video title in the library to learn more about Data Connect.
+## Datasets
+ None.
+## Imports
+- 
+ Show Me - How to Add a Data Source 
+- 
+ Show Me - How to Add Datasets and Import Third-Party EDC Data 
+- 
+ Show Me - How to Import Veeva EDC Data 
+## Exports
+## Export Job Administration
+- 
+ Show Me - Configure FTPS Connections 
+- 
+ Show Me - Configure S3 Connections 
+- 
+ Show Me - Configure SFTP Connections 
+## Transformations
+## Transforming Variable Mappings
+- 
+ Show Me - Transform Variable Mappings with Group First 
+- 
+ Show Me - Transform Variable Mappings with Group Last 
+- 
+ Show Me - Transform Variable Mappings with Join 
+- 
+ Show Me - Transform Variable Mappings with Pivot 
+- 
+ Show Me - Transform Variable Mappings with Replicate 
+- 
+ Show Me - Transform Variable Mappings with Union 
+- 
+ Show Me - Transform Variable Mappings with Unpivot 
+## Creating Enriched Views
+- 
+ Show Me - Create Unit Conversions Using Derived Datasets

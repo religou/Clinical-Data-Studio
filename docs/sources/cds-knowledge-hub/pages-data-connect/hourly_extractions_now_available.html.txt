@@ -1,0 +1,13 @@
+# Hourly Extractions Now Available
+
+## Hourly Extractions Now Available
+## Description
+ When creating export jobs that contain CTMS or Audit data, you can set the job to repeat every hour.
+## Affected Roles
+ All roles with access to MEDS Extractor.
+## Advantages
+ With the hourly repeat cycle, you can systematically extract CTMS or Audit data multiple times throughout the day.
+## User Impact
+ During the New Export Job workflow's Schedule Job Run(s) step, you can select the Hourly frequency.  The Hourly frequency is only available for the Audit data types or any of the CTMS data types. If your export jobs includes any other data type, the Hourly frequency becomes unavailable. 
+## Special Considerations
+ MEDS Extractor data extracts are only available for 24 hours after a successful job run. However, you can direct MEDS Extractor  to save a copy of the   extracted data to your selected SFTP destination. Extract copies saved to SFTP are   not subject to this 24-hour download time limit. Client SFTP administrators specify the file retention periods and access permissions for SFTP locations. The setup of, and access to, SFTP repositories is not under Medidata control. For details on setting up SFTP, see Configure SFTP Locations for Extracts, and the Name Outputs step of the   Create Export Job workflow.

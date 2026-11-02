@@ -1,0 +1,19 @@
+# Create Data Extracts in MEDS Extractor
+
+## Create Data Extracts in MEDS Extractor
+ Note : This feature appeared as part of MEDS Extractor 2019.1.0.
+## Description
+ MEDS Extractor enables the creation of data extracts. You can set extracts for specific data sets from the studies and environments. These extracts run immediately.
+## Affected Roles
+ All.
+## Advantages
+ Creating data set extracts provides a pipeline to pull your data from Medidata's data repository, replacing otherwise manual integrations. 
+## User Impact
+- In Cloud Administration, you can:
+- Add the Export Data permission to your customer-defined platform role which grants access to MEDS Extractor; and 
+- Select MEDS Extractor from the Actions dropdown menu from within your assigned study environment. 
+- In MEDS Extractor, you can:
+- Create exports; and 
+- Export data sets to CSV files for download to your local drives. 
+## Special Considerations
+ You must have an unblinded role assigned to you in at least one study to access MEDS Extractor.

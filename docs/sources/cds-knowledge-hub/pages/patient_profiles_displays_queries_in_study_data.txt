@@ -1,0 +1,29 @@
+# Patient Profiles Displays Queries In Study Data
+
+## Patient Profiles Displays Queries In Study Data
+## Description
+ On the Design page > Profiles tab, a new Patient Query tab shows the Rave queries raised for a selected patient in the study.  
+## Affected Roles
+ All. 
+## Advantages
+ By tracking queries in Patient Profiles, profile reviewers: 
+- Need not follow up queries in Rave 
+- Can review site responses within Patient Profiles, and 
+- Monitor data accuracy by reviewing the query information for a patient. 
+## User Impact
+ When viewing the profile design for a selected patient from the Design page > Profiles tab > Patient Selector table: 
+- On the Patient Profile tab 
+- Clicking the   tab below the Patient Selector section shows the patient's profile. 
+- Selecting another Patient ID in the Patient Selector table loads the profile information for the new patient. 
+- On the Patient Query tab 
+- If you click the   tab below the Patient Selector section, Rave queries raised for the patient show.  The list of queries appears as per the order in the Form  column. 
+- If a query is opened in Rave, the  Action column reads Open , and the Answered Date , Answered Data , Answered Text , Answered User , Resolved User , Resolved Date columns are blank. 
+- If a query is answered in Rave, the  Action column reads Answered , and the  Resolved User , Resolved Date columns are blank. 
+- If a query is closed in Rave, the  Action column reads Closed , and the  Answered Date , Answered Data , Answered Text , Answered User , Resolved User , Resolved Date columns have relevant information.
+- Clicking the  Patient Profile tab or the  Patient Query tab  allows you to switch between a patient's profile and query data, respectively. 
+## Knowledge Space Updates
+ The following articles have been created or updated in the Medidata Patient Profiles Knowledge Space to support this feature: 
+- View Patient Query Data 
+- Review and Export Patient Profiles 
+## Special Considerations
+ None.

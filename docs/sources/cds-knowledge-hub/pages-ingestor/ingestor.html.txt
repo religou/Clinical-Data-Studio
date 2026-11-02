@@ -1,0 +1,28 @@
+# Ingestor
+
+## Ingestor
+ Ingestor is a software-as-a-service (SaaS),cloud-based ingestion tool that imports data from external data sources directly into the Medidata platform using files such as comma-separated value (.csv) or SAS(.xpt) files.  With Ingestor, you can load non-Rave Clinical Data, non-Rave Clinical Operational Data, Study Master Data, and Clinical Trial Management System (CTMS). Each type of data that Ingestor supports has associated rules and options for how to structure data for successful loading. 
+ Tip : For details about receiving digests on this or other pages, including the release newsletter, see Watch Topics for Updates .
+ | 
+## Get Started
+ About Ingestor 
+ Get Started with Ingestor 
+ Import Non-Rave Data for Medidata CTMS 
+ Import File Standards 
+ | 
+## What's New
+ Ingestor 2023.2.3 Urgent Software Update Release Notes 
+ I ngestor 2023.2.2 Standard Software Update Release Notes 
+ Ingestor 2023.2.1 Standard Software Update Release Notes 
+ Ingestor 2023.2.0 Feature Release Notes 
+ | 
+## Training
+ Ingestor Video Library 
+ | 
+## Available Data Types
+ CTMS Data 
+ External EDC Data 
+ Study Master Data 
+ For a full list, see  Data Loading with Import Jobs .
+ | 
+ |

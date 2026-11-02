@@ -1,0 +1,56 @@
+# Customize Study Specific Risk Assessment Using Risk Assessment Configurations
+
+## Customize Study Specific Risk Assessment Using Risk Assessment Configurations
+ What Is New? 
+ RBQM > Configurations includes a new Risk Assessment Configurations page where you can set up fields for risk assessment specific to your study. You can now use a five-point scale, in addition to the three-point scale for assessing the risk factors for your study. The risk assessment details you configure appear on the Assessment Details page, where you can edit or customize your current risk assessment.  
+## What Is the Impact?
+## Users/Roles
+ Risk managers.
+## Workflow Process
+ No impact to the process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Risk managers can configure specific details relevant to the study risk, monitor values associated with the risk throughout the study using the risk evaluation scale adopted, and determine the data points required to complete the risk assessment and mitigation.
+## Where Do I See the Change?
+ The left hand panel in the RBQM > Configuration > Risks tab, includes a new Risk Assessment Configuration page. The page includes the following fields:
+- Risk Study Scale
+- Risk scoring scale 
+- 3 point scale (default) 
+- 5 point scale 
+- Risk Expected Fields
+- Risk Details
+- Score 
+- Response 
+- Owner 
+- Category 
+- Status 
+- Description 
+- Source 
+- Include in risk plan report 
+- Risk Actions
+- Action Required 
+- Action Taken 
+- Closed Date 
+ The 5 point risk scoring scale includes the following values:
+- Probability
+- 1 – Low 
+- 2 – Medium 
+- 3 – High 
+- Impact 
+- Detectability
+- 1 – High 
+- 3 – Medium 
+- 5 – Low 
+ Color coding for the 5 pointer scale is as follows:
+- Green – Total risk score range is between 1 and 5. 
+- Yellow –Total risk score range is between 5 and 25. 
+- Red – Total risk score range is between 25 and 125. 
+ If the risk assessment pointer scale changes from 3 to 5 or 5 to 3 in the duration of the study, risk scoring for existing risk updates accordingly. By default, the 3 point risk scoring scale appears selected. 
+ If you select the from the above fields and click Save Changes , the updates and fields save to the RBQM > Risk Assessment > Details > Assessment Details page. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the feature:
+- Risk Assessment Configuration 
+## What Else Should I Know?
+ You must have the Risk Assessment Configuration building block assigned to your role to configure risk assessment.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

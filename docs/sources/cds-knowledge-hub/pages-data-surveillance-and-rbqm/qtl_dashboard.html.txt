@@ -1,0 +1,56 @@
+# QTL Dashboard
+
+## QTL Dashboard
+ At study startup, your project team should preidentify study-level parameters that are critical to quality and define QTLs that you want to monitor for risk. The QTL Dashboard graphically renders each parameter's QTL percentage value and QTL performance relative to the expectation , threshold , and upper limit based on RBQM's statistical analysis. You can use the QTL Dashboard to evaluate high-level study health and to identify and investigate potential underlying systemic issues affecting study performance. 
+## What Are Quality Tolerance Limits (QTLs)?
+ QTLs are study-level metrics that indicate if a study parameter's reported data has breached a preidentified data quality threshold or upper limit . To learn more about QTLs, see What You Need to Know About Quality Tolerance Limits (QTLs) from Transcelerate. 
+## What Is the Purpose of QTLs?
+ QTLs monitor the emergence of systematic errors on critical variables and data that may be prone to patientive bias, ultimately impacting: 
+- Patient safety 
+- Study conduct and performance 
+- Compliance 
+- Data quality 
+- Study reliability 
+ ICH E6 (R2) describes in Section 5.0.4: “The Sponsor should decide which risks to reduce and/or which risks to accept. The approach used to reduce risk to an acceptable level should be proportionate to the significance of the risk…Predefined quality tolerance limits should be established, taking into consideration the medical and statistical characteristics of the variables as well as the statistical design of the study, to identify systematic issues that can impact patient safety or reliability of study results. Detection of deviations from the predefined quality tolerance limits should trigger an evaluation to determine if action is needed.” 
+## What Is the QTL Dashboard?
+ The QTL Dashboard graphically renders:
+- Each predefined study parameter's QTL percentage value. 
+- RBQM's statistical analysis and approximation of the QTL threshold and upper limit. 
+- RBQM's statistical analysis of whether the parameter's QTL value is within a healthy range of the expected QTL value or whether it exceeds the threshold value or upper limit value. 
+ You can observe and track RBQM's analyses on the QTL Dashboard from three different perspectives:
+- Live View – Meters that show each study parameter's currently observed QTL value and QTL performance based on RBQM's most recent study data analysis. The Live View depicts the QTL performance relative to the expectation, threshold, and upper limit.  
+- Patients View – Funnel plots that show each study parameter's currently observed QTL performance relative to the expectation, threshold, and upper limit based on the number of patients enrolled in the study. However, in particular, the Patient View shows the QTL's projected threshold and upper limit values based number of enrolled patients using RBQM's statistical analysis. 
+- Time View – Line graphs that show each study parameter's observed QTL value recorded over time on each date that RBQM performed a study data analysis. The Time View depicts the QTL's historical performance relative to the expectation, threshold, and upper limit. 
+## What Is the Purpose of the QTL Dashboard?
+ The QTL Dashboard allows you to c learly, quickly, and confidently evaluate the health and performance of study-level parameters that are critical to study quality. 
+ The QTL Dashboard's Live View allows you to evaluate a parameter's current health and status and confirms whether or not the parameter is performing as expected. Parameters whose QTL values exceed RBQM's defined threshold and upper limit values indicate potentially underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine root cause and to prevent or mitigate study issues. 
+ The Time View allows you to: 
+- Analyze address historical trends in a parameter's QTL percentage values over time. 
+- Identify and investigate unusual QTL values or unanticipated changes at specific timepoints. 
+- Monitor QTL performance after performing mitigating actions on the study. 
+ The Patients View enables you to project a parameter's QTL performance based on number patients enrolled in the study. Therefore, you can position yourself earlier on in study to make sound study criteria adjustments to avoid potential downstream systemic issues. 
+## Who Uses the QTL Dashboard?
+ Study managers, central monitors, medical monitors, and others can use QTLs. For example, if a QTL indicates that the number of patients experiencing troubled breathing exceeds the upper limit threshold, a study manager can pause the study to investigate the cause.
+## What Are the Benefits of Tracking QTLs in the QTL Dashboard?
+ Tracking QTLs helps: 
+- Ensure the study conduct operates as planned. 
+- Identify and prevent or mitigate systematic issues early on in the study that may: 
+- Threaten patient safety. 
+- Impact study efficacy. 
+- Invalidate the reliability of the study findings. 
+## What Are the Most Frequently Tracked QTLs?
+ The following parameters are the most frequently selected QTL targets in industry: 
+- Percentage of patients randomized who discontinued the study treatment prematurely (before protocol-defined time point) or withdrew consent  
+- Percentage of patients lost to follow up 
+- Percentage of mis-randomized or mis-stratified patients  
+- Percentage of patients missing protocol required end point.  
+- Percentage of patients missing critical end points (for example, noncompliance with critical assessments) 
+- Percentage of patients on prohibited therapy. 
+## How Does RBQM Determine and Flag At-risk Parameters?
+ See At-risk Parameter Detection Methodology .
+## How Do I Use and Interpret the QTL Dashboard?
+ See  Investigate Data Using the QTL Dashboard .
+## How Do I Generate QTL Reports?
+ See  Generate and Download QTL Reports .
+## How Do I Refresh the QTL Dashboard to Show the Latest Data?
+ See Schedule or Trigger When QTL Dashboard Refreshes and Outputs the Latest Study Data Analysis .

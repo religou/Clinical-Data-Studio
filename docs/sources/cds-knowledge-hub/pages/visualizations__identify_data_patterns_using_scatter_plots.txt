@@ -1,0 +1,50 @@
+# Visualizations: Identify Data Patterns Using Scatter Plots
+
+## Visualizations: Identify Data Patterns Using Scatter Plots
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the  released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Feature (New Functionality)
+ Functionality or Module 
+ | Visualizations
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter :  
+ Data Surveillance > Visualizations include a new chart type, namely scatter plots that you can use to chart the relationship between two, continuous numerical variables.  The x-axis typically represents the independent variable, while the y-axis represents the dependent variable, with each dot showing the intersection of these two values for a single data point. 
+ Benefit to Users 
+ | Using scatter plots, study team members can  identify patterns, trends, correlations, and outliers within the data. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data Managers, and users with the Manage Visualizations building block. 
+ Impact to Workflow Processes 
+ No impact to the workflow.
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+ If you click Create Visualization, the Chart Configuration section includes a new  icon, which you can click to create scatter plots. If you click scatter plot, the Visualization page shows the configuration fields, x-axis, and y-axis, which only accept numeric variables. 
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Create, Edit, and Delete Visualizations . 
+ Special Considerations 
+ | Scatter plots only work for integer or float type variables, and do not support any aggregations.
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

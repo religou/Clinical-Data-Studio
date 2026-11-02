@@ -1,0 +1,18 @@
+# QTL Patient and Time Trend Graphs More Clearly Deliniate Excursions
+
+## QTL Patient and Time Trend Graphs More Clearly Deliniate Excursions
+## Description
+ On the QTL Dashboard > Patient tab and the Time tab, when the trend graph's observed value is an excursion but it happens to overlap with the expected value, the observed value displays in red.
+## Affected Roles
+- Study managers 
+- Medical monitors 
+## Advantages
+ Ensuring that excursions persistently appear in red improves the trend graph's usability and readability.
+## User Impact
+ You do not need to zoom in on the graph to more clearly determine when a value is an excursion.
+## Knowledge Space Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support this enhancement: 
+- Investigate Data Using the QTL Dashboard 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

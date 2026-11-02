@@ -1,0 +1,36 @@
+# Enhancements Improve Listings Functionality
+
+## Enhancements Improve Listings Functionality
+## Description
+ You can now search existing listings, edit, and save listings with draft or approved status. The Listings tab indicates the status with a blue or gray marker next to the listing name. You can also search data sets to build conditional expressions while creating listings.
+## Affected Roles
+ All roles with the Data Reviewer access.
+## Advantages
+ The Draft and Approved listings workflow ensures data management listing reports are peer reviewed by separate individuals before use.
+## User Impact
+ On the Data Reviewer page > Listings tab: 
+- You can search listings in your study using the search field. 
+- If you first create a listing, it saves with Draft status. You can then open and edit the draft listing if necessary, preview the listing records, and click Save and Approve to save the listing with Approved status. The Listings tab shows the status next to the listing name. 
+- If you click Edit Listing , you can edit approved listings. You can enter the reason for the edit in the Reason for change field. The Edit Listing button does not show if a listing data refresh is in progress. 
+- If you click the (clock) icon next to the Listings tab, a new browser window shows the audit history of the listings on the page.  
+- If you click the (information) icon next to any listing, a tooltip shows the conditional expression for the listing.
+ Tip : Click the image to enlarge.
+- If you click Column Filter for an approved listing, the filter list show values for the variables in the listing. If you select values from the list and click Apply , the listing shows records as per the filters you apply. You can click Reset Filter to remove filters. 
+ Conditional Expression in Listings 
+- Approved listings show listing records whereas draft listings show the conditional expression, which you can edit or review, and save the listing with draft or approved status. 
+- The expression builder includes two new comparison operators and the one of operator is available for text fields:
+- >= (greater_than_or_equal_to) - compares greater than or equal values. 
+- <= ( less_than_or_equal to ) - compares less than or equal values. 
+- one of - selects a value from the list to compare variable values. 
+- While building conditional expressions for listings, you can: 
+- Search data sets using the search field in the Data Sets tab. 
+- Search data set variables by dragging a variable or typing in the field. You must type two or more characters to search variables from data sets. You can also select variables without a suffix, for example, date variables with partial dates.  
+- 
+- Add a text or numeric variable using comparison operators (=, <, >, != ) and a free text field, where you can also drag and drop variable values.
+- Select the Exclude Patients with option to exclude certain patients as per the conditional expression you build for the listing.  
+## Knowledge Space Updates
+ The Detect Knowledge Space provides new and updated content to support the enhancement: 
+- View, Create, and Edit Draft Listings 
+## Special Considerations
+ Only roles with the Manage Data Reviewer building block can build, edit or approve Listings. All users can view, sort, filter and see audit history.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal.

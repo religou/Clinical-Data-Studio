@@ -1,0 +1,15 @@
+# Patient Profiles Cloud Indicates Whether a Design is Unblinded or Blinded
+
+## Patient Profiles Cloud Indicates Whether a Design is Unblinded or Blinded
+## Description
+ Patient Profiles Cloud provides visual cues to let you know whether a design is blinded or unblinded.
+## Affected Roles
+ All.
+## Advantages
+ Clearly indicating whether a design is blinded or not lets you know whether or not you are looking at sensitive data.
+## User Impact
+- The Patient Profile Designs page includes a new column, Privacy, which lists whether a design is unblinded or blinded.
+ Tip : Click image to enlarge.
+- When you access a blinded design, a   icon displays next to the study name on the Design page, Reports, page, and Settings page. However, no icon displays next to the study name for unblinded designs.
+## Special Considerations
+ None.

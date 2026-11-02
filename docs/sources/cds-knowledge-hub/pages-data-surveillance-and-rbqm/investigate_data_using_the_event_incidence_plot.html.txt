@@ -1,0 +1,143 @@
+# Investigate Data Using the Event Incidence Plot
+
+## Investigate Data Using the Event Incidence Plot
+ You can use the Event Incidence Plot to view and analyze: 
+- Which specific event terms were reported as experienced by patients within a domain at the site level. 
+- How many patients at a specific site reported an event term compared to all patients at the site. This is also known as the incidence rate . 
+- The incidence rate for reported event terms at each individual site compared to the overall study event incidence rates. 
+- Which sites have incidence rates for a given event that are considered  statistically normal,  outliers , or extreme outliers when compared to that event's overall incidence rate across all sites. 
+- The total number of subjects at the study, site, and country level who experienced each event at least once over the life of the study. 
+ You can also log and track issues on the Event Incidence Plot. 
+ Note: Last Updated Timestamp
+ The Last Updated timestamp reflects the date and time when the most recent data snapshot generation process started. It does not represent the date and time when the data on the Event Incidence Plot was last refreshed. Therefore, the Last Updated timestamp may be earlier than the time at which the refreshed data becomes available on the Event Incidence Plot.
+ Tip : Play the video below to learn how to investigate datia using the Event Incidence Plot.
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+## Access and View the Event Incidence Plot
+ You can select which of your study data's domain sets you want to view in the Statistical Monitoring > Event Incidence Plot page.
+- Access RBQM , and then click Statistical Monitoring > Event Incidence in the left-hand menu.
+The Event Incidence page shows. 
+- Select the Domain .
+The data pertaining to the selected domain displays in the Event Incidence Plot and Summary table.  
+## Find Pertinent Event Incidence Plot Data
+ By default, the Event Incidence Plot lists coded event terms by incidence rate . That is, the event terms with the highest incidence rate at the study level appear at the top of the list; event terms with the lowest rate appear at the bottom.
+ To help you find pertinent study data in the Event Incidence Plot, you can:
+- Page through the listed events, 
+- Sort the plot's event terms by incidence rate or alphabetical order, and 
+- Filter the plot data. 
+## Page Through the Event Terms
+ If the Event Incidence Plot lists a high volume of event terms, you can page through the plot to find the terms you need.
+- Immediately below the Event Incidence Plot, use the page navigation,  , to find the pertinent listed events. 
+## Sort the Event Terms
+ You can sort the Event Incidence Plot event terms to give yourself a different perspective when evaluating the data.
+- Click Sort by , and select either of the following:
+- Incidence Rate – Sorts the list of event terms on the y-axis by  incidence rate in descending order. That is, terms with the highest incidence rate listed at the top; terms with the lowest incidence rate at the bottom. 
+- Alphabetical  – Sorts the list of event terms on the y-axis in ascending alphabetical order. That is, terms starting with A at the top of the list; terms starting with Z at the bottom. 
+## Filter the Plot Data
+ You can filter the plot data to simplify the plot view, which helps you locate and focus on the data that most requires your attention. 
+- Click any of the following: 
+- Domain – Select a domain to filter the plot to show only event terms reported within a specific domain. 
+- View by – Select Site or Country to filter the plot to show patient-reported event terms at the site level or country level, respectively. 
+- Site – Select a site to filter the plot to show only event terms reported within a specific site. The Site dropdown only appears when you select Site from the View by dropdown. 
+- Country – Select a country to filter the plot to show only event terms reported within a specific country. The Country dropdown only appears when you select County from the View by dropdown. 
+- More Filters... – Displays the following additional filters: 
+- Select Term(s)  – Select or enter one or more specific event terms whose data you want the Event Incidence Plot to filter for and display. 
+- Study Level Threshold – To filter the plot to show only event terms whose study-level incidence rate exceeds a particular threshold , enter the incidence rate threshold percentage in Study Level Threshold , and click Set . For example, if you only want to view event terms  that have a study incidence rate of 10% or higher , enter 10 in  Study Level Threshold , and click Set . 
+- Show Outliers Site Only – Select to show only events that are considered outliers or extreme outliers for the selected domain. 
+## Zoom In on Event Incidence Plot Data
+ You can zoom in on a specific section of the Event Incidence Plot. Zooming in helps you see a closer, more granular view of specific data points on the plot. 
+- Click, hold, and drag your cursor to draw a box on a specific section of the plot that you want to zoom in on. 
+- If necessary, click   Reset Zoom   at the upper right of the visualization to return to the default zoom level. 
+## Interpret the Event Incidence Plot
+ Your proficiency in reading and understanding Event Incidence Plots greatly affects your ability to:
+- Identify whether sites are tracking events correctly. 
+- View event trending patterns and  correlation between events. 
+- Identify sites that have significantly higher or lower incidence rates for individual events compared to overall study event incidence rates. 
+ The following details explain how to read and interpret the Event Incidence Plot.
+- The Y-axis vertically charts the event terms within the domain at the site level. 
+- The X-axis horizontally shows the incidence rate, represented as a percentage.
+- Each row represents an event term. Within each row are the data points, which represent individual sites that contain the event term. 
+- Where the site lies on the X-axis reflects the corresponding incidence rate in which the event term occurs at the site. For example, if a site is listed underneath the 30, then the corresponding reported event term has a 30% incidence rate at that site. 
+-  – A site that contains at least one reported incidence of the event term. The site  has an event incidence rate that has a statistically normal probability of occurring when compared to the event's incidence rate across all other sites. 
+-  – A site that contains at least one reported incidence of the event term. The site has an event incidence rate that has a very low probability of occurring when compared to the event's incidence rate across all other sites.  This indicates that there may be issues with how this event has been reported at the site, which may require further investigation. The site is considered an  outlier site. 
+-  – A site that contains at least one reported incidence of the event term. The site has an event incidence rate that has an extremely low probability of occurring when compared to the event's incidence rate across all other sites.  This indicates that there may be issues with how this event has been reported at the site, which may require further investigation. The site  is considered an extreme outlier site. 
+- You can hover your cursor on any  ,  , or  icon to view information specific to that site.
+ Field Descriptions 
+- Site  – The Site ID in which the reported events occurred. 
+- Country  – The country in which the site is located. 
+- N  – Depicts the number of patients who experienced the event compared to all total patients at the site. 
+- Incidence  – The percentage of patients at the site who reported experiencing the event. 
+- You can click any  ,  , or   icon to highlight only that specific site on the plot across all event terms. All other sites get dimmed. This gives you a clearer view of how the incidence of event terms is trending at that specific site.
+- You can also click any  ,  , or  icon to view additional patient-related information specific to that site in a slide-out panel on the right side of the page.
+ Field Descriptions 
+- Site  – The Site ID in which the reported events occurred. 
+- Country  – The country in which the site is located. 
+- N  – Depicts the number of patients who experienced the event compared to all total patients at the site. 
+- Incidence  – The percentage of patients at the site who reported experiencing the event. 
+- Term  – The coded term in which the reported term is classified. If a coded term is available, Statistical Monitoring auto-codes reported terms so that synonymous terms are represented under one standardized medical term. 
+- Patient  – The ID of the patient at the site who reported the event term. 
+- #  – The number of times in which the patient reported experiencing the event. 
+- Reported Term  – The actual term reported by the patient as entered in the eCRF . 
+- X  – Click X in the upper right of the panel to close and return to the regular plot view. 
+-  – The proportion—or incidence rate—of patients who reported the event term across all patients in the study. You can use this icon to gauge which event terms have the highest incidence rate across the study. Also, all sites to the left of   have a relatively lower incidence rate than the study-level event incidence rate for the corresponding reported event term. All sites to the right have a higher event incidence rate. 
+- You can click any   icon to highlight only the study-level incidence rate for each reported event term and dim all site-related data points. This gives you a clearer view of how the incidence of event terms is trending across the study. Click Reset Plot to return to the default plot view. 
+-  – The group of sites in the study that did not report the corresponding event term. One or more sites in the group have an event incidence rate that has an extremely low probability of occurring when compared to the event's incidence rate across all other sites.  This indicates that there may be issues with how this event has been reported at one or more of these sites, which may require further investigation.  This icon only displays at the 0% mark on the X-axis. 
+-  – The group of sites in the study that did not report the corresponding event term.  One or more sites in the group have an event incidence rate that has a very low probability of occurring when compared to the event's incidence rate across all other sites.  This indicates that there may be issues with how this event has been reported at one or more of these sites, which may require further investigation. This icon only displays at the 0% mark on the X-axis. 
+-  – The group of sites in the study that did not report the corresponding event term.  All sites in the group have an event incidence rate that has a statistically normal probability of occurring when compared to the event's incidence rate across all other sites. This icon only displays at the 0% mark on the X-axis. 
+- You can click any  ,  , or   icon to display information pertaining to the specific sites in the site grouping in a slide-out panel on the right side of the page.
+ Field Descriptions 
+- <First Column>  – Displays  ,  , or   to indicate whether the site in the corresponding row is statistically normal, an outlier, or an extreme outlier. 
+- Site  – The ID for the site at which the event was not reported. 
+- Country  – The country in which the site is located. 
+- # Patients  – The number of patients enrolled at the site. 
+- Items  – The number of sites in which the event was not reported. 
+- X  – Click X in the upper right of the panel to close and return to the regular plot view. 
+- <#> Total Event(s)  – The number of individual reported event terms listed in the Event Incidence Plot. 
+- <selected domain name> records not displayed – The number of reported events reported by only one patient. The Event Incidence Plot excludes events reported by only one patient. 
+## Use and Interpret the Event Incidence Plot Summary Table
+ The Event Incidence Summary table lists all sites and countries with patient-reported events in the Event Incidence Plot visualization. The Summary table also summarizes key event incidence-related metrics for each site and country. From the Summary table, you can: 
+- View all of the selected variable's data points by site or country. 
+- Sort by column to find and view data. 
+ View Summary Table Data by Site 
+- Do either of the following: 
+- To view the Event Incidence Summary Table by site: click the View by dropdown above the event incidence plot visualization, and then select Site . 
+- To view the Event Incidence Summary Table by country: click the View by dropdown above the event incidence plot visualization, and then select Country . 
+- Scroll down to the Summary section below the event incidence plot visualization. 
+- View or select the following: 
+ Column Descriptions 
+- Site  – The site the patient belongs to. 
+- Country  – The country in which the site is located.
+- # Outlier Incidences – The total number of patient events reported at the site considered as outliers based on Statistical Monitoring's data analysis after subtracting the number of events reported in one patient in the study. The Event Incidence Summary table is sorted by # Outlier Incidences in ascending order by default. 
+- # of Incidences –  The total number of patient events reported at the site after subtracting the number of events reported in one patient in the study. 
+-  The number of events that have only occurred in one patient in the study subtracted from the number of patient events reported at the site. 
+- # Patients  – The number of patients belonging to the site. 
+- # Outliers Above Study Incidence – The number of reported events for the site or country that are considered outliers, and have an incidence rate higher than the study’s rate. 
+- # Outliers Below Study Incidence – The number of reported events for the site or country that are considered outliers, and have an incidence rate lower than the study’s rate. 
+- Status  – Indicates the status of any issues logged against the site. You can click a status icon to view more details about the issues reported at the site. 
+- <Blank> – A blank cell indicates that an issue has never been logged at the site.  
+-  – Indicates that at least one issue at the site or country remains unresolved. 
+-  – Indicates all reported issues at the site or country are resolved. 
+- The number next to the flag; for example, , represents the number of issues reported at the site or country. 
+- Actions  –  Click  in the row that corresponds with the site or country you want to create an issue for. You can create a Protocol Deviation or Non-protocol Deviation.
+ Note : You can create protocol deviation issues and non-protocol deviations when viewing the summary table by site. But you can only create non-protocol deviation issues when viewing the summary table by country. 
+- Items  – The number of sites in the study containing patient-reported events. 
+ Sort the Summary Table 
+- Navigate to the Summary section below the plot visualization.
+By default, the Summary table is sorted by # Outlier Incidences  in descending order (highest score at the top; lowest at the bottom). 
+- Click any column header to sort by the column. The sorted header appears in blue font.  indicates that the column is sorted in ascending alphabetical (A at the top; Z at the bottom) or descending numeric order (highest value at the top, lowest at the bottom). 
+- Click a column header twice  to sort in descending alphabetical (Z at the top; A at the bottom) or ascending numeric order (lowest value at the top, highest at the bottom). 
+## Review Individual Patients with Critical Data
+ RBQM users with authorized Medidata Patient Profiles access can access and view individual patient profiles from Statistical Monitoring's Event Incidence Plot page. This enables you to: 
+- Quickly drill into Patient Profiles directly from Statistical Monitoring's event incidence plot to help you better understand the patient's data in context. 
+- Seamlessly perform data point analysis on specific patients to determine why the patient is an outlier. 
+- Conveniently view data in a per-patient format to understand the patients’ journey throughout the trial. 
+ To learn more, see  View Individual Patient Profiles from the Event Incidence Plot Page .
+## Log and Track Issues
+ Authorized users working in RBQM can log, track, and manage  issues while jointly reviewing Statistical Monitoring's study data analysis.   This yields the following benefits: 
+- Streamlined issue logging. 
+- Reduced recurrence of duplicate issues. 
+- Clear line of sight of site or country  issues and issue status. 
+- Reduced time and cost required to create and manage issues. 
+- Enhanced work experience and productivity in a centralized location. 
+- Improved ability to identify and mitigate risks to protocol compliance, patient safety, data integrity, and overall study quality. 
+ Important : You  can only view or create issues for sites and countries assigned to you. 
+ To learn more, see  Create, View, and Edit Issues from the Event Incidence Table .

@@ -1,0 +1,30 @@
+# Datasets: Organize Datasets with Dataset Collections
+
+## Datasets: Organize Datasets with Dataset Collections
+## What Is New?
+ Users can now organize datasets in dataset Collections. With this feature you can:
+- Create or remove a Collection for the study environment. 
+- Add a dataset to one or more collections. 
+- Browse or filter collections to view all the dataset that belongs to the collection. 
+- Remove a dataset from the collection. 
+## What Is the Impact?
+## Users/Roles
+ All. 
+## Workflow Process
+ No change in workflow process.
+## Other Applications
+ No impact to other applications
+## How Do I Benefit?
+ With Collections, you can organize the datasets in a logical manner. The Collections also support Tabular Visualizations in Data Surveillance. 
+## Where Do I See the Change?
+ To access this feature, access Data Connect and click Datasets on the left-hand menu.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Feature: 
+- Manage Dataset Collections 
+## What Else Should I Know?
+- You need access to building block Manage Data Connect Collections to: 
+- Create or modify a Collection 
+- Add a dataset to a Collection 
+ Note : Without the access to building block, you can see the Collection in the datagrid but cannot make changes related to Collections.
+- You cannot add Rave datasets to Collections yet due to the data catalog registration structure. For Rave datasets, the action menu item Add to Collection appears disabled in the data grid.  
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

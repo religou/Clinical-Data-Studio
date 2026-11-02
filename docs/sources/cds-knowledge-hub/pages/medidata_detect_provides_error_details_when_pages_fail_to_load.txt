@@ -1,0 +1,15 @@
+# Medidata Detect Provides Error Details When Pages Fail to Load
+
+## Medidata Detect Provides Error Details When Pages Fail to Load
+## Description
+ If a Detect page fails to load, a page error with details including the trace_id appears.
+## Affected Roles
+ All.
+## Advantages
+ When page errors occur, you can share the page error information with your Medidata representative to help troubleshoot or learn the cause of the issue.
+## User Impact
+ See the Description.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ None.

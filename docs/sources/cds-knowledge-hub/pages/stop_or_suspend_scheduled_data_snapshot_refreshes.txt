@@ -1,0 +1,13 @@
+# Stop or Suspend Scheduled Data Snapshot Refreshes
+
+## Stop or Suspend Scheduled Data Snapshot Refreshes
+## Description
+ You can inactivate scheduled data refreshes to discontinue or suspend refreshes from occurring.
+## Affected Roles
+ Medidata Detect administrators 
+## Advantages
+ You can discontinue or suspend scheduled data refreshes for closed studies or studies undergoing database lock or data clean up.
+## User Impact
+ On the History page >  Snapshot Schedule field, you can select None  to discontinue or suspend scheduled data refreshes.
+## Special Considerations
+ None.

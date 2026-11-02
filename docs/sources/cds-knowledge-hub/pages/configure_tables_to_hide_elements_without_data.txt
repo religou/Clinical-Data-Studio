@@ -1,0 +1,13 @@
+# Configure Tables To Hide Elements Without Data
+
+## Configure Tables To Hide Elements Without Data
+## Description
+ A new  Hide "No Data" Elements option in Patient Profiles 2021.1.0 allows you to display only those elements that have data present in a profile design. 
+ Affected Roles 
+ All.
+## Advantages
+ Patient Profiles design reviewers can arrange a patient's profile to hide unneeded data, which reinforces a more targeted data analysis. 
+## User Impact
+ On the Design page > Elements tab, when you add or edit an element and then click Table Options > General Options, you can select or deselect the Hide "No Data" Elements check box. To learn how selecting or deselecting this option affects the table display, see  Hide Elements with No Data . 
+## Special Considerations
+ None.

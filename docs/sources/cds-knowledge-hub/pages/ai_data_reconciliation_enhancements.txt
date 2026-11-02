@@ -1,0 +1,31 @@
+# AI Data Reconciliation Enhancements
+
+## AI Data Reconciliation Enhancements
+## What Is New?
+ Increased AI Data Reconciliation usability of existing features: 
+- All reports within AI Data Reconciliation appear default sorted with confidence from high to low. 
+- Thumbs down and thumbs up buttons added next to the confidence column in the data grid for AI Data Reconciliation reports 
+- A clock icon to link to the Audit Viewer to provide an audit of actions, for example, who is linking the records, thumbs up and thumbs down, and so on.  
+- Ability to export an AI Data Reconciliation Report, so that it can be reviewed it with the site monitor, and the site monitor can review it with the site 
+- An Action By column on the Rave Insights that displays the user name, so that you know who performed the Rave . 
+- Removed linking from the AI Data Reconciliation slide out pages to Overlapping AE/CM reports. 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ A streamlined Data Reconciliation process.
+## Where Do I See the Change?
+- Under the Confidence column on the AI Data Reconciliation page, see the Confidence ranking and the Thumbs Up and Thumbs Down button. 
+- Next to the title of the AI Data Reconciliation page, see the clock icon for accessing the Audit Viewer. 
+- The Download button on the Data Reconciliation page. 
+- The Action By column on the Query History page (AI Data Reconciliation page > click Rave Query under the Status column for a record). 
+- Removed linking from the AI Data Reconciliation slide out pages to Overlapping AE/CM reports.  
+## Where Do I Learn More?
+ The Detect Knowledge Space provides new and updated content to support this feature/enhancement:
+ Review AI Data Reconciliation Report Findings 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

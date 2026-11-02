@@ -1,0 +1,269 @@
+# View and Monitor the Risk Inventory
+
+## View and Monitor the Risk Inventory
+ You can use the Risk Inventory to view all:
+- Risks documented as part of your study's risk assessment, as well as associated risk and risk review details. 
+- QTLs associated with a risk in your study, as well as how well the QTLs are performing. 
+- KRIs associated with a risk in your study, as well as the KRIs' current KRI values. 
+ You can also use the Risk Inventory to monitor and track the risk score of each study risk. Doing so enables your team to:  
+- Better understand which risks pose the biggest threat to the study outcome. 
+- Prioritize the risks in which you develop risk mitigation strategies for. 
+- Track risks to monitor whether the risk level is increasing or decreasing. 
+- Determine the effectiveness of risk mitigation strategies and whether or not additional or adjusted mitigations are needed. 
+ To learn more, see Risk Scores .
+## View and Monitor Study Risks, Risk Details, and Risk Reviews
+ You can use the Risk Inventory to view the list of all risks documented as part of your study's risk assessment, as well as associated risk and risk review details. For example, you can: 
+- View a risk's status; for example, whether the risk is open or closed. 
+- View risks whose risk reviews are overdue or due soon. 
+- Sort the Risk Inventory based on risk score to help prioritize the risks that your team monitors and addresses. 
+ Data for the highest study environment level appears by default. 
+- Access RBQM , and then click Risks   in the left-hand menu.
+The Risk Inventory page appears with the Risks tab selected by default. The Risks table shows the following:
+ Column Descriptions 
+ Column Name
+ Description
+ | Risk ID
+ | A system-assigned unique ID for a risk. When you click a Risk ID, the risk form opens. See  Manage Risks from the Risk Inventory for more information.
+ | Risk Name
+ | The name of the risk.
+ | Review Status 
+ | A color-coded pill icon shows the review status for each risk in the Risk Inventory:
+- 
+- Red – Overdue. The Current Date after the Target Review Date, indicating which risk review is overdue. 
+- Yellow – Due Soon. The Current Date is between Last Review Date and Target Review Date, indicating the risk review is due soon. 
+- Green – Reviewed. The Last Review Date = Current Date, indicating which risks have been reviewed. 
+- Gray – Closed. The risk is no longer tracked as part of your study's ongoing risk assessment. For example, the risk is irrelevant to the study to due to protocol changes or the risk is acceptable to your study. Risks marked as closed do not appear in the Risk Inventory and do not get tallied in the study's total risk score.  
+ | Risk Origin
+ | The name of the critical data, critical process, or risk category that the risk is associated with.  
+ | Action Required 
+ | Yes indicates that there was an action taken on the risk as part of the latest risk review. No indicates that no actions were taken in the latest review. 
+ | Last Action Taken Date 
+ | The date of the last action taken to mitigate the risk. 
+ | Last Risk Review Date 
+ | The date the risk was last reviewed. Dates automatically update when a risk is marked as reviewed. 
+ | Target Review Date 
+ | For new risks that have not yet been reviewed, the Target Review Date depends on the Entered date and the Review Frequency. You set both the Entered date and Review Frequency on the Risk Details tab when you add a new risk.
+ For existing risks, the Target Review Date is based on the Review Frequency and the Last Risk Review Date.
+ | Review Frequency 
+ | 
+ The frequency of the risk review.
+ For new risks:
+- 
+- Weekly – The Target Review Date is 7 days after the risk is entered. For example, if the risk is entered on February 1, then the Target Review Date is February 8. 
+- Every Other Week – The Target Review Date is 14 days after the risk is entered. 
+- Monthly – The Target Review Date is 30 days after the risk is entered. 
+ Note : 30 days are added to the Entered date. For example, an Entered date of February 1 (nonleap year) shows a Target Review Date of March 2, that is, 30 days after the Entered date.
+- Quarterly – The Target Review Date is 90 days after the risk is entered.  
+ For existing risks, the Review Frequency is calculated as Weekly, Every Other Week, Monthly, or Quarterly based on the Last Risk Review Date instead of the Entered date.
+ | Risk Status
+ | 
+ Status of the risk:
+- Open – The risk is currently included as part of your study's ongoing risk assessment. The risk shows in the Risk Inventory and gets tallied in the study's total risk score. 
+- Watch – The risk is open, but considered a lower priority in your risk assessment and likely requiring a lower review frequency. The risk shows in the Risk Inventory and gets tallied in the study's total risk score. 
+- Transfer – The risk has been transferred to another party or organization to manage and is no longer a part of your risk assessment. The risk shows in the Risk Inventory, but does not get tallied toward the study's total risk score. 
+- Closed – The risk is no longer tracked as part of your study's ongoing risk assessment. For example, the risk is irrelevant to the study to due to protocol changes or the risk is deemed acceptable to your study. Risks marked as closed do not appear in the Risk Inventory and do not get tallied in the study's total risk score.  
+ Note : When a risk is closed or transferred, you can no longer edit fields on the Risk Review page except for Risk Status. If you reopen the risk by changing the Risk Status, you can edit the fields again.
+ | Entered
+ | The date you entered the risk into the risk record.
+ | Closed
+ | The date the risk is closed in the risk record. 
+- View the Closed Date. You cannot manually edit this field. Instead, the date is automatically set to the Current Date when the Risk Status value changes to Closed. The Closed Date appears on the Add Risk and Risk Review pages. When the Risk Status is Closed or Transferred, the Target Review Date is set to Not Applicable. 
+ | No. of QTL(s)
+ | The number of quality tolerance limits (QTLs) associated with the risk.
+ | No. or KRI(s)
+ | The number of key risk indicators (KRIs) associated with the risk.
+ | No. of Risk Mitigations
+ | The number of mitigations associated with the risk.
+ | Risk Score 
+ | A   calculated number (score) that reflects the risk's severity. When adding a risk or updating a risk's review details, you can score each of the following risk factors, Probability, Impact, and Detectability, on a scale of 1 to 3. The risk score is calculated by multiplying each risk factor's score together (Probability x Impact x Detectability). The maximum risk score is 27. 
+- A risk score of 1-3 appears with a green color-coded block and indicates a minimal risk. 
+- A risk score of 4-9 appears with a yellow color-coded block and indicates a moderate risk. 
+- A risk score of 10-27 appears with a red color-coded black and indicates a high risk. 
+ | 
+ Probability
+ | A numeric value used to calculate the risk score: High impact = 3, Medium impact = 2, Low impact = 1. 
+ | 
+ Impact
+ | A numeric value used to calculate the risk score: High impact = 3, Medium impact = 2, Low impact = 1. 
+ | 
+ Detectability
+ | A numeric value used to calculate the risk score: High impact = 3, Medium impact = 2, Low impact = 1. 
+ | Risk Response
+ | The appropriate course of action to manage the risk:
+- Accept  – The risk is below your study's risk threshold and considered an acceptable risk in your study. No action must be taken on the risk. The Risk Inventory does not track risks marked as accepted. In general, it is best practice to close risks that you accept. 
+- Eliminate  – The risk no longer requires including in the study's risk assessment. You can close or delete the risk for your study. 
+- Mitigate  – The risk requires mitigating actions to lower the risk's severity. 
+- Monitor  – The risk requires monitoring and review but no mitigating actions. 
+- Transfer  – The risk should be transferred to another party or organization to manage and no longer be a part of your risk assessment. 
+ | Risk Owner
+ | The person responsible for tracking the risk. This comes from the team membership role defined in Cloud Administration.
+ | Category
+ | 
+ Click here to display the list of pre-defined categories: 
+- Blinding 
+- Complexity 
+- Data Collection, CRF Source 
+- Data Integrity and Quality 
+- Diversity 
+- Endpoints 
+- GCP and Regulatory Compliance 
+- Geography 
+- Human Subject Protection 
+- Informed Consent 
+- Investigational Product/Study Medication 
+- IP Logistics/Supply Chain 
+- Operational Complexity 
+- Organizational Experience 
+- Protocol Compliance 
+- Safety 
+- Staff and Facilities 
+- Study File 
+- Study Phase 
+- Subject Population 
+- Technology 
+- Vendor 
+ | Risk Source
+ | The source of the risk. For example, from the Case Report Form (CRF) or third-party source documents.
+ | Include in Risk Plan Report? 
+ | Indicates if the risk is included in the Risk Plan Report or not.
+ Tip: Study Total Risk Score
+ The upper right of the Risk Inventory page shows the Study Total Risk Score , which is the combined total risk score of all risks in your study designated with the risk status of Open or Watch . The Study Total Risk Score can give you a general sense of the study's overall level of risk.
+- If necessary, filter or sort the Risk Inventory.
+ Tip : Sort the Risks table by the Risk Score column to show the highest risk scores at the top to view and prioritize risks that may most require mitigation. 
+## Filter the Risks Table
+ To help find the risks you need, you can filter the Risks table to show:
+- Specific risks by risk name or risk origin. 
+- Only risks that are currently in a specific review status, such as Overdue or Due Soon. 
+- Only risks that are currently designated with specific risk status, such as Open, Closed, or Watch. 
+- Only risks that do or do not require action. 
+- If necessary, access RBQM , and then click Risks   in the left-hand menu.
+The Risk Inventory page shows. 
+- On the Risks tab, do any of the following:
+- To show only risks with a specific name or risk origin:  click the Search field, and enter your search text.
+The Risks table updates in real time based on your search text. 
+- To show only risks that are currently in a specific review status:  click the Review Status menu, and select one of the following:
+- All 
+- Closed 
+- Due Soon 
+- Overdue 
+- Reviewed 
+- To show only risks that are currently designated with specific risk status:  click the Risk Status menu, and select one of the following:
+- All 
+- Closed 
+- Open 
+- Transfer 
+- Watch 
+- To show only risks that do or do not require action:  click the Action Required menu, and then select one of the following: 
+- All 
+- Yes 
+- No 
+ Note: In complete risks on the Risk Inventory page appear with a  , warning icon, status. If you hover over the icon, an  Incomplete  flag appears. 
+## Sort the Risks Table
+ To help find the risks you need, you can sort the Risks table's columns vertically in ascending or descending alphanumeric order. For example, you can sort to more quickly find a specific risk by Risk ID. Or you can sort by the Target Review Date to see which risks' review are most overdue or nearest the due date. You can also s ort the Risks table by the Risk Score column to show the highest risk scores at the top to view and prioritize risks that may most require mitigation. 
+- If necessary, access RBQM , and then click Risks   in the left-hand menu.
+The Risk Inventory page shows. 
+- By default, the Risks table is sorted by the Risk ID column in ascending alphanumeric (lowest value at the top, highest at the bottom)   order by default.
+- In the Risks tab > Risks table, c lick any column header to sort by the column. The sorted header appears in blue font.   indicates that the column is sorted in ascending alphabetical (A at the top; Z at the bottom) or descending numeric order (highest value at the top, lowest at the bottom). 
+- Click a column header twice   to sort in descending alphabetical (Z at the top; A at the bottom) or ascending numeric order (lowest value at the top, highest at the bottom). 
+## View QTLs Associated with Risks and Evaluate QTL Performance
+ QTLs are study-level metrics that indicate if a study parameter's reported data has breached a preidentified data quality threshold or upper limit . QTLs monitor the emergence of systematic errors on critical variables and data that may be prone to subjective bias, ultimately impacting: 
+- Patient safety 
+- Study conduct and performance 
+- Compliance 
+- Data quality 
+- Study reliability 
+ You can view the list of all QTLs associated with a risk in your study as well as each  QTL's details: 
+- For oversight to ensure the study team is following the risk plan 
+- As a reference for another study's risk assessment. 
+- The view each QTL's current observed value. 
+- To view the current risk score of the risk that each QTL is associated with. 
+ Tip : You can also edit a QTL's details. For example, you can: 
+- Update the risk name or description in care of entry error, typo, or for additional clarity. 
+- Manually update the QTL's expectation , observed value, threshold , and upper limit if the QTL is not integrated with the rest of RBQM. 
+- Document QTL deviations. 
+ To learn more, see  View and Edit the Details of QTLs Associated with Risks and Document QTL Deviations .
+ To learn more about QTLs, see About Quality Tolerance Limits . 
+ . 
+- Access RBQM , and then click Risks   in the left-hand menu.
+The Risk Inventory page shows. 
+- Click the QTLs tab.
+ Tips
+- Use the Search field to filter the QTLs table to show specific QTLs. 
+- Use the table's horizontal scrollbar to view all columns. 
+The QTLs table shows the following QTL information:
+ Column Descriptions 
+ Column 
+ Description 
+ | Observed Value 
+ | 
+ The current observed percentage of patients that do not meet the study parameter's criteria as of the most recent data analysis. 
+ A green value indicates that the percentage of patients that do not meet the study parameter's specified criteria is considered within a healthy range of the expectation . Generally, in range QTLs require no action. 
+ A yellow value indicates that the percentage of patients that do not meet the study parameter's specified criteria have exceeded the tolerance threshold . RBQM considers parameters whose QTL values exceed the threshold as at risk. This indicates potential underlying systemic issues, which can compromise study safety and integrity. You should investigate such parameters to determine the root cause and to prevent or mitigate study issues. 
+ A red value indicates that the percentage of patients that do not meet the study parameter's specified criteria has exceeded the tolerance upper limit . RBQM considers parameters whose QTL values exceed the upper limit as high risk. This indicates potential underlying systemic issues, which can compromise study safety and integrity. You should investigate such parameters to determine the root cause and to prevent or mitigate study issues. 
+ A red value and a fully red bar indicate a QTL excursion. RBQM  flags and identifies QTL excursions when : 
+- The percentage of patients that do not meet the study parameter's specified criteria has exceeded the tolerance upper limit, and 
+- It is impossible to move the QTL value back within a healthy range of the QTL's expected value no matter the actions taken by the project team. 
+ QTL excursions indicate that the study quality is compromised to the point that the study may need to be shut down or restarted. 
+ | Parameter/QTL Name 
+ | The QTL name of the parameter.  A parameter is a study variable that is assessed at the study level.  When used in the context of a QTL, parameters are measures that detect potential issues that can  be mitigated. 
+ | Expectation 
+ | The expected percentage of the patient population that will not meet the study parameter's criteria. QTL percentages that RBQM assesses as in range of the expectation are considered healthy and do not require any action. 
+ | Tolerance Limit 
+ | 
+ The QTL's tolerance limit, which includes the:
+- Threshold 
+- Upper Limit 
+ | Attached to Risk ID 
+ | The ID of the risk associated with this QTL. Click the link to open the risk details page where you can edit risk details, QTLs, KRIs, or Risk Mitigations.
+ | Risk Name 
+ | The name of the risk associated with this QTL. 
+ | Risk Origin 
+ | The name of the critical data, critical process, or risk category that the risk is associated with.  
+ | Risk Score 
+ | A   calculated number (score) that reflects the risk's severity. When adding a risk or updating a risk's review details, you can score each of the following risk factors, Probability, Impact, and Detectability, on a scale of 1 to 3. The risk score is calculated by multiplying each risk factor's score together (Probability x Impact x Detectability). The maximum risk score is 27. 
+- A risk score of 1-3 appears with a green color-coded block and indicates a minimal risk. 
+- A risk score of 4-9 appears with a yellow color-coded block and indicates a moderate risk. 
+- A risk score of 10-27 appears with a red color-coded black and indicates a high risk. 
+ | No. of Risk Mitigations 
+ | The number of risk mitigations associated with the risk. 
+## View KRIs Associated with Risks and Evaluate KRI Performance
+ Key Risk Indicators (KRIs) are predefined study metrics that enable you for the duration of the study to systematically:  
+- Identify and track known or anticipated risks to data quality. 
+- Evaluate country and site performance in a study. 
+- Ensure study conduct operates as planned. 
+ Examples of KRIs include patient accrual rates and data query rates.
+ You can track KRI performance using KRI values . KRI value calculations reflect as a percentage, count, mean, rate, or standard deviation. 
+ You can view all key risk indicators (KRIs) associated with a risk in your study as well as each KRI's details: 
+- For oversight to ensure the study team is following the risk plan. 
+- As a reference for another study's risk assessment. 
+- To view the KRIs' latest recorded KRI values. 
+- To view the current risk score of the risk that each KRI is associated with. 
+ Tip: You can also edit a KRI's detail. For example, you can: 
+- Update the KRI name or description in care of entry error, typo, or for additional clarity. 
+- Update the KRI's value. 
+ To learn more, see  View and Edit the Details of KRIs Associated with Risks . 
+ To learn more about KRIs, see About Key Risk Indicators .
+- Access RBQM , and then click Risks   in the left-hand menu.
+The Risk Inventory page shows. 
+- Click the KRIs tab.
+ Tips
+- Use the Search field to filter the KRIs table to show specific KRIs. 
+- Use the table's horizontal scrollbar to view all columns. 
+ The KRIs table shows the following KRI information:
+ Column Descriptions 
+ Column 
+ Description 
+ | KRI Value 
+ | Each KRI has a value, known as a KRI value, that computes based on RBQM's statistical analysis of your study data. RBQM calculates KRIs at the study, site, and country levels. The KRI value calculations reflect as a percentage, count, mean, rate, or standard deviation. 
+ | KRI Name 
+ | The name of the key risk indicator (KRI). 
+ | Attached to Risk ID 
+ | The ID of the risk associated with this KRI. Click the link to open the risk details page where you can edit risk details, QTLs, KRIs, or Risk Mitigations.
+ | Risk Name 
+ | The name of the risk associated with this KRI. 
+ | Risk Origin 
+ | The name of the critical data, critical process, or risk category that the risk is associated with.  
+ | Risk Score 
+ | A calculated number that reflects the severity of a risk as a score. The risk score is calculated by multiplying the risk factors together (Probability x Impact x Detectability). This is a numeric score with color coding where values 1-3 appear in green, 4-9 appear in yellow, and 10-27 appear in red. 
+ | No. of Risk Mitigations 
+ | The number of risk mitigations associated with the risk.

@@ -1,0 +1,14 @@
+# View Module Data Snapshot Status
+
+## View Module Data Snapshot Status
+ The signals you see on the Signals page are automated indications of potential issues in the modules you configure in Signal Configuration . The Signals page also includes user-generated signals.
+ While configuring signals for individual modules, you can set up thresholds based on which automated signals get created. You must choose the modules you want the signals to report on. For example, if you do not enable KRIs in Signals Configuration, and add custom configurations, no signals get created for any KRI in your study when signals data refreshes.  
+ Once you configure a signal, observations appear as signals based on custom configurations and the latest data snapshot for individual modules when you refresh Signals data.  This means you can determine the exact version of the signals data in each module based on its snapshot date. Custom configuration changes made after 6:00 AM EST do not show in the automated signals report until the next day. 
+- Access RBQM , and then click  Signals   in the left-hand menu.
+The Signals page appears. 
+- From the top right corner above the Signals table, click .
+ The Module Status slide-out panel appears with the following details: 
+- Name – Name of the modules configured for automated signal generation in Signal Configuration .
+ Note : For Patient Profiles, the name indicates the profile design for which a flag is set as the threshold for signal generation.
+- Snapshot Date –The last snapshot date and time from data refreshed in the source module.
+ Note : For Patient Profiles, the snapshot date indicates the date when the profile design was refreshed.

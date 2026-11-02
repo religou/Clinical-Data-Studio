@@ -1,0 +1,26 @@
+# Rave Metadata Versioning and Scenarios
+
+## Rave Metadata Versioning and Scenarios
+ With Data Connect, you can view and perform actions on datasets imported from Rave. Data Connect tracks changes to the dataset's metadata, which can impact downstream applications that consume Rave data. The flexibility of Rave form structuring and for a potentially infinite number of dataset versions and data scenarios. Because of this, this article highlights two common metadata change patterns and how Data Connect represents these changes as dataset versions so you can interact with the data that you need. 
+## What Triggers Metadata Changes?
+ When a Rave user changes any eCRF form in the dataset, it changes the form's metadata. This changes the metadata for the entire dataset, even if there was only a single change to a single field on a single form. Changes that can trigger metadata changes can include:
+- Changes to a field's data type, data format, name, or ordinal (position) 
+- Changes to the codelist 
+ Data Connect tracks these changes as dataset versions that you can view from the Datasets experience. In Data Connect, the dataset's version increments even when a user changes a field and reverts the change. 
+ Important :
+- Data Connect only supports published eCRFs. 
+- If a user only changes the fields of a form, the user can choose to not update the  form version in the Rave context. This has implications in the Data Connect context, highlighted below. 
+- You can see all eCRF versions from Rave, but to get the correct record count when performing transformations, you must:
+- Perform a union combining all eCRF versions; or, 
+- Ensure that you migrate all patients into the latest eCRF version. 
+## Grouping for Dataset Versions
+ In Rave, when you choose to create a form version, the system applies the new version at the study level. The system in turn applies the new version to every form in the study , even those that have not been changed. 
+ When you view the Rave dataset in Data Connect's Datasets experience using the Data Preview capability, you can select between multiple dataset versions in the Version menu. Because dataset versions can increment when users update forms and revert those updates, there can be multiple dataset versions that have the same metadata version, that is: they have the same semantic meaning. 
+ The Version menu groups these semantically identical dataset versions together as a single menu item. Dataset versions that have true changes – that is, those that have different metadata attributes – appear as separate menu items.
+ In the above example, the first set of dataset versions – 4958 and 5131 – have the same semantic meaning, and Data Connect therefore treats it as a single dataset version. Likewise the second set of dataset versions – 2129, 2296, ... 2730 – have the same semantic meaning compared to themselves and a different semantic meaning compared to the first set, and thus Data Connect lists the second set as a second menu item. This grouping continues with the third set, fourth set, and so on.
+ Important : When you do not update the form version after changing it in Rave, the dataset still changes in the Data Connect database. The dataset version number remains the same, but the position of that dataset version moves to a set with the same semantic meaning. For example, the dataset version can move from the second menu item to the third item, if it is similar to the other versions in that set; or to its own set. If the user does update the eCRF form, then the dataset upversions as expected, and gains an entry on the Versions menu. 
+## Versioning for Datasets with Removed Fields
+ Rave users can inactivate or delete form fields when they no longer need them. In Data Connect, if these removed fields, represented as columns in the dataset table, have historical data, they remain in the data preview.  This is to ensure persistence in the data catalog – adhering to FAIR principles – and to minimize breaking checkings in downstream workflows and applications. 
+ Data Connect handles the dataset differently depending how a user removed the field in Rave:
+- Inactivated fields – The corresponding columns show NULL data for new patients. 
+- Deleted fields – Removing the field changes the metadata of the dataset. If you decide to create a new form version in Rave, then Data Connect adds a dataset version in the Version menu. The new dataset version represents the change with the removed column, but Data Connect's data preview continue to shows the column.

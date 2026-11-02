@@ -1,0 +1,39 @@
+# Data Surveillance: Configure The Data Sets And Variables Used In CTCAE Reports
+
+## Data Surveillance: Configure The Data Sets And Variables Used In CTCAE Reports
+## What Is New?
+ The Clinical Data Studio June 2024 release includes two new AI Data Reconciliation reports built on the Common Terminology Criteria for Adverse Events (CTCAE) v 5.0 grading. 
+- Missing Lab for CTCAE Grading  
+- Invalid CTCAE Grade  
+ You can configure within Data Surveillance > Configuration > Data Mapping the lab measurement data sets and variables that AI Data Reconciliation uses to consume and produce the statistical analysis and visual output for CTCAE reports.   
+## What Is the Impact?
+## Users/Roles
+ Detect Configuration Manager Admin, Centralized Statistical Monitor.
+ Workflow Process 
+ No impact to the workflow process.
+## Other Applications
+ The CTCAE reports in AI Data Reconciliation show the data sets and variables you configure in Data Surveillance > Configuration > Data Mapping > Lab Measurements. For more information about CTCAE reports, see Data Surveillance: Reconcile Oncology Data With CTCAE Grading Reports . 
+## How Do I Benefit?
+ Lab Measurements provides a simple workspace where you can quickly configure the specific CTCAE data you want AI Data Reconciliation algorithms to analyze.
+## Where Do I See the Change?
+ On the Data Surveillance > Configuration > Data Mapping page, a new Lab Measurements tab appears where you can configure the data sets and variables that appear in the two CTCAE AI Data Reconciliation reports. If you click the Lab Measurements tab, the Lab Measurements Mapping table appears. You can use the table to enter or select the following information, which AI Data Reconciliation algorithms use to run CTCAE grading analysis on: 
+- Dataset 
+- Collection Date 
+- Sample Type 
+- Analyte Name 
+- Analyte Value 
+- Analyte Unit 
+- Upper Limit 
+- Lower Limit 
+ You can click   Add Lab Measurements   to configure additional lab measurements data that you want the AI Data Reconciliation algorithms to analyze. You can also edit existing lab measurements. 
+ You can map multiple data sets in the Lab Measurements Mapping table. However, you can configure a data set only once while configuring lab measurements. 
+ Additionally, you must also select CTCAE grade while mapping conditions o n the RBQM > Configuration > Data Mapping > Event Analysis tab, otherwise AI Data Reconciliation fails to run its analysis on CTCAE reports. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this 
+- Map Lab Measurements Data 
+## What Else Should I Know?
+- To edit the Lab Measurements Mapping table, you need Manage CSM Configuration access, whereas to view the table, you need View CSM Configuration. 
+- The CTCAE grade in data you ingest from Rave must be a numeric value. CTCAE reports do not work if the CTCAE grade is in Roman numerals. 
+- Data you ingest from Rave  must be in Central Lab data format, that is, each row must correspond to a single analyte name. If this is not the case, for example, if the data is in Local Lab format, you must use transformations in Clinical Data Studio - Data Connect to pivot lab data. 
+- If you resize any tab on the Data Surveillance > Configuration > Data Mapping page, based on your browser's screen resolution, the page resizes and becomes scrollable. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

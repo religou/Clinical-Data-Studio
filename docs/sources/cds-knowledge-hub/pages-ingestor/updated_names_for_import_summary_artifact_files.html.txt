@@ -1,0 +1,18 @@
+# Updated Names for Import Summary Artifact Files
+
+## Updated Names for Import Summary Artifact Files
+## Description
+ When you download artifact files from any import job's Import Summary panel, the file names now follow the following convention: 
+- <DataType>_<Name of Artifact>_<RunID>_<FileUploadDateTime>_<FileCompletionDateTime>.csv 
+ Feature/enhancement stories referenced in this article:
+ MCC-786582 
+## Affected Roles
+ All.
+## Advantages
+ The updated artifact file names make it easier for you to identify which file contains which information without needing to open the file.
+## User Impact
+ You can download any available artifact files from any job's Import Summary panel. You can see the updated file name while saving the file to your local device. The files' content are unchanged. 
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ None.

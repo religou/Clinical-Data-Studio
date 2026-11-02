@@ -1,0 +1,15 @@
+# Table Filtering Enhancements
+
+## Table Filtering Enhancements
+## Description
+ The Reset Filters button is now available when viewing a table, such as on the Job List screen or Job Files screen. Clicking the button clears any filters applied to the table. In addition, when you refresh a page with active table filters, the chosen filters remain applied to the table.
+## Affected Roles
+ All.
+## Advantages
+ The updated filtering functionality streamlines your ability to customize how Extractor presents your job details.
+## User Impact
+ If you have applied filters to a table, clicking the Reset Filters button clears those filters. When you refresh a page with active filters, the chosen filters remain applied to the table. Your use of Extractor is otherwise unchanged.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

@@ -1,0 +1,23 @@
+# Protocol Integrity Report
+
+## Protocol Integrity Report
+ The Protocol Integrity Report (PIR) functions as a centralized dashboard within the Clinical Data Studio RBQM workspace . You capture, track, review, and manage protocol deviations using this report. 
+## 
+## What Is Protocol Integrity Report?
+ The Protocol Integrity Report (PIR) functions as a centralized dashboard within RBQM workspace . You capture, track, review, and manage protocol deviations using this report 
+## What Is the Purpose of Protocol Integrity Report?
+ PIR centralizes protocol deviations from multiple sources into a single view . The system aligns identified deviations with the Protocol Deviation Assessment Plan (PDAP) . The alignment standardizes reporting and ensures regulatory compliance . PIR replaces manual tracking with automated record ingestion . The application maintains a complete audit trail . The system also detects duplicate records to guarantee data integrity 
+## Who Uses Protocol Integrity Report?
+ Central Monitors configure the PDAP and monitor deviations . Data Managers review identified deviations to ensure data integrity . Clinical Research Associates manage and review manual protocol deviations . Study Managers use consolidated reports for trial oversight and decision-making . Approvers evaluate final scientific integrity and approve deviations . 
+## How Does Protocol Integrity Report Work?
+ PIR organizes protocol deviations into the In progress and Approved tabs . The In Progress tab contains the Proposed, In Review, and Confirmed statuses . PIR automatically imports Answered or Closed Medidata Rave queries containing specific prefixes such as PD or Potential PD . The system pulls records from designated PD Listings . You map these listing records to PDAP descriptions . You manually add deviation records directly in the PIR dashboard . PIR flags potential duplicate records sharing the patient, site, visit, and PDAP description . 
+## What are the Benefits of Protocol Integrity Report?
+ PIR consolidates all protocol violations into a streamlined dashboard . The system eliminates complex manual queries . PIR provides dynamic updates to action plans . Automated audit trails deliver a secure record for regulatory reconstruction . The dashboard supports fast identification of critical data quality issues . 
+## How Do I Get Started?
+- Access RBQM, and select Protocol integrity report . 
+- Review the report. 
+ You can preform the following actions:
+- Add proposed deviation to enter a manual deviation . 
+- Review  potential deviations to process Rave queries . 
+- Select records in a PD listing to submit listing deviations . 
+- Submit protocol deviations to process the selected listing records .

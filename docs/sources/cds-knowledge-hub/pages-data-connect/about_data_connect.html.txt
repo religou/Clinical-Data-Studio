@@ -1,0 +1,42 @@
+# About Data Connect
+
+## About Data Connect
+ Data Connect is a part of Clinical Data Studio, and unifies data discovery, ingestion, transformation, and exports. It provides interoperability across various data sources and systems. Users can explore internal and external datasets, import non-Medidata data sources, and transform datasets into industry or custom data models. Users can then activate  non-Medidata datasets for downstream Medidata experiences, or export and share datasets to external systems. 
+## What Is Data Connect?
+ Data Connect is a suite of software capabilities that combine intuitive data syncing capabilities with powerful data transformation and export tools enabling users to:
+- Ingest any data quickly and easily. 
+- Transform data with minimal effort. 
+- Extract data from various sources. 
+## What Is the Purpose of Data Connect?
+ Data Connect's capabilities provide cross-functional operational teams tools to: 
+- Manage and import data from external sources. 
+- Alleviate bottlenecks by reducing the burden on technical resources to prepare collected clinical data for later submission 
+- Reduce iterations and handoffs between user groups through real-time data previews and validation. 
+- Provide end-to-end visibility throughout the data life cycle. 
+- Reduce overhead to orchestrate clinical data assets for downstream analysis. 
+- Download data from the Medidata platform in a central location. 
+## Who Uses Data Connect?
+ Data Managers, clinical data scientists, biostatisticians, data scientists, programmers, and more use Data Connect. 
+## How Does Data Connect Work?
+ Data Connect consists of a singular workspace that allows you to seamlessly work across the following modules: 
+- Datasets – R eview existing datasets that you access to including from Rave, external data sources, and transformed data sets. 
+- Imports – M anage and import data from external sources. 
+- Exports – Create and manage export jobs to extract your data from the Medidata platform. 
+- Transformations – C reate data sets, and transform them depending on your needs: 
+- Derived Datasets – E xplore existing data sets and create data sets based on a combination of various parameters. 
+- Unit Conversion – Configure unit conversations to transform data set fields from one unit into another unit for later mapping. 
+ Important :  Unsupported Data 
+ Data Connect does not support variables such as coding dictionaries, coded terms, and code lists. While you can import datasets that includes these data, you cannot see or use them in Data Connect. However, these data can appear as-is in RBQM and Data Surveillance when you activate the associated dataset. For details, see Unsupported Variables in Data Connect . 
+## What Are the Benefits of Data Connect?
+ Data Connect:
+- Provides access to data from Medidata data sources, such as Rave, and simplifies importing data from any non-Medidata source, such as labs or another Rave system. You can configure data transfer agreements into Data Connect to validate ingested data automatically. 
+- Enables clinical data managers build complex listings across multiple datasets without the need for programming. Clinical programmers and biostatisticians use Data Connect's no-/low-code data transformation
+capabilities to create custom datasets. Data Connect maintains complete traceability of all data transformations so users can always see what and how data was transformed. 
+- Allows users to create export jobs to enable the extraction of data sets from the Medidata platform  for any studies and environments they have access to . 
+## How Do I Get Started?
+ See one of the following: 
+- Grant Access to Data Connect 
+- Datasets 
+- Imports 
+- Exports 
+- Transformations

@@ -1,0 +1,186 @@
+# Ingestor Releases History
+
+## Ingestor Releases History
+ The following lists all  Ingestor releases (up to and including the current release) and the feature and enhancements introduced in each.
+ Code Continuity Across Releases
+ All Ingestor releases are cumulative. That is, each release or software update builds on the prior release's as appears in the release notes. For example, Software Update 2016.2.1  includes all the release  2016.2.0  code, which in turn is based on the  release  2016.1.0  code and so on. The release notes describe any updates between releases or s oftware updates (urgent or otherwise) . 
+## Ingestor 2023.2.1 (Nov 2023) 
+- 
+ Enhanced Support for Windows-Based SFTP Servers 
+- 
+ Ingestor 2023.2.1 Resolved Issues List 
+## Ingestor 2023.2.0 (Sep 2023) 
+- 
+ FTPS Location Support for Import Jobs 
+- 
+ Internal and Technical Changes in Ingestor 2023.2.0 
+- 
+ Ingestor 2023.2.0 Resolved Issues List 
+## Ingestor 2023.1.1 (Aug 2023) 
+- 
+ Interface Updates in Ingestor 2023.1.1 
+- 
+ Redesigned Release Notes Content Provide a Clearer and Easier to Consume Experience 
+- 
+ Ingestor 2023.1.1 Resolved Issues List 
+## Ingestor 2023.1.0 (Mar 2023) 
+- 
+ Email Notifications Now Available 
+- 
+ Preparations for Future Development 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+- 
+ Ingestor 2023.1.0 Resolved Issues List 
+## Ingestor 2022.4.0 (Nov 2022) 
+- 
+ Internal Technical Updates in Ingestor 2022.4.0 
+- 
+ Interface Updates in Ingestor 2022.4.0 
+- 
+ Interface Localization Support for APAC 
+- 
+ Ingestor 2022.4.0 Resolved Issues List 
+## Ingestor 2022.3.0 (Sep 2022) 
+ Important : As of the 2022.3.0 release, MEDS Ingestor has a new name: 'Ingestor'.
+- 
+ Compressed File Support for Import Jobs 
+- 
+ Interface Enhancements in Ingestor 2022.3.0 
+- 
+ Internal Technical Updates in Ingestor 2022.3.0 
+- 
+ Ingestor API Updates in Ingestor 2022.3.0 
+- 
+ Ingestor 2022.3.0 Resolved Issues List 
+## MEDS Ingestor 2022.2.0 (Jun 2022) 
+- 
+ Global SFTP Settings for Import Jobs 
+- 
+ User Interface Updates in MEDS Ingestor 2022.2.0 
+- 
+ Internal Technical Updates in MEDS Ingestor 2022.2.0 
+- 
+ MEDS Ingestor 2022.2.0 Resolved Issues List 
+## MEDS Ingestor 2022.1.0 (Mar 2022) 
+- 
+ Ability to Download Imported Files 
+- 
+ Internal Technical Updates in MEDS Ingestor 2022.1.0 
+- 
+ Run Now Button Available for SFTP-Enabled Import Jobs 
+- 
+ Job Files Page Updates and SDM File Processing Update 
+- 
+ Import Job Wizard Shows Supported Data Sets 
+- 
+ Create Import Jobs with Externalized API Endpoints 
+- 
+ Patients Data Import from External EDC Sources 
+- 
+ SAS File Support for External EDC Jobs 
+- 
+ Updates to Import Jobs List 
+## MEDS Ingestor 2021.4.0 (Nov 2021) 
+- 
+ Incremental Loading for External EDC Data Import 
+- 
+ Updates to Import Jobs Page 
+- 
+ View Details For Processing Job Files 
+- 
+ Externalized API Endpoints for MEDS Ingestor 
+- 
+ MEDS Ingestor 2021.4.0 Resolved Issues List 
+## MEDS Ingestor 2021.3.0 (Sep 2021) 
+- 
+ Data Import from SFTP Locations 
+- 
+ Import Job Notifications 
+- 
+ Auto-Refresh for Import Job Summary 
+- 
+ Expanded Study Master Data and CTMS Data Set Domains 
+- 
+ Updated Counts for External EDC Data Files 
+- 
+ Internal Technical Changes in MEDS Ingestor 2021.3.0 
+- 
+ Partially Processed File Reporting for Study Master Data Files 
+- 
+ Updated Names for Import Summary Artifact Files 
+- 
+ MEDS Ingestor 2021.3.0 Resolved Issues List 
+## MEDS Ingestor 2021.2.0 (Jul 2021) 
+- 
+ CTMS Data Import and Study Master Data Import Now Available 
+- 
+ Editable Import Job Configurations 
+- 
+ Internal Technical Updates in MEDS Ingestor 2021.2.0 
+- 
+ Redesigned Import Job Creation Workflow 
+- 
+ Redesigned Import Job List Page 
+- 
+ Updated Building Blocks for MEDS Ingestor 
+- 
+ Redesigned Import Summary Panel 
+- 
+ MEDS Ingestor 2021.2.0 Resolved Issues List 
+## MEDS Ingestor 2021.1.0 (Mar 2021) 
+- 
+ Support Import of Large Files 
+- 
+ Import Job Configuration and Job Files Pages 
+- 
+ Improved UI for Job Files 
+- 
+ Technical Changes in MEDS Ingestor 2021.1.0 
+- 
+ MEDS Ingestor 2021.1.0 Resolved Issues List 
+## MEDS Ingestor 2020.2.1 (Jan 2021) 
+- 
+ Technical Changes in MEDS Ingestor 2020.2.1 
+- 
+ Improved Import Summary Status Interface 
+- 
+ Ensure Unique Upload File Names 
+- 
+ MEDS Ingestor 2020.2.1 Resolved Issues List 
+## MEDS Ingestor 2020.2.0 (Nov 2020) 
+- 
+ Metadata File Based Creation of Data Integrations 
+- 
+ Enhanced Import Job UI 
+- 
+ Enhanced Study Level View 
+- 
+ MEDS Ingestor 2020.2.0 Resolved Issues List 
+## MEDS Ingestor 2020.1.0 (Apr 2020) 
+- 
+ External EDC File Support 
+- 
+ Support for Multiple File Import 
+- 
+ Downloadable Import Summary 
+- 
+ Improved Display of Long Filenames 
+- 
+ Help Links to the Knowledge Space 
+- 
+ MEDS Ingestor 2020.1.0 Resolved Issues List 
+## MEDS Ingestor 2019.2.0 (Nov 2019) 
+- 
+ Improvements to Import Job Summary 
+- 
+ Enhanced Navigation 
+- 
+ Detailed Import Status 
+- 
+ MEDS Ingestor 2019.2.0 Resolved Issues List 
+## MEDS Ingestor 2019.1.0 (Apr 2019) 
+- 
+ Create Import Jobs in MEDS Ingestor 
+- 
+ Edit Import Jobs in MEDS Ingestor

@@ -1,0 +1,144 @@
+# Ingestor Roles and Permissions List
+
+## Ingestor Roles and Permissions List
+ To access and use Ingestor, your platform role
+ must combine building blocks 
+ into a role. Ingestor uses different sets of permissions corresponding to the different data types Ingestor supports. 
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Building Block Name 
+ Data Type 
+ Action 
+ Description 
+ | View External EDC Data 
+ | External EDC Data 
+ | View Data 
+ | You can:
+- View External EDC jobs on the Job Files screen. 
+- Access the Job Files screen for External EDC jobs. 
+- Access the Import Summary for External EDC jobs. 
+- Access the Job Configuration screen for External EDC jobs. 
+ | Import External EDC Data 
+ | External EDC Data 
+ | Import Data 
+ | You can:
+- Perform the actions included in View External EDC Data building block. 
+- Import files with External EDC jobs. 
+- Download imported files for External EDC jobs. 
+ | Manage External EDC Data 
+ | External EDC Data 
+ | Manage Data 
+ | You can:
+- Perform the actions included in the Import External EDC Data building block. 
+- Mark External EDC jobs as Complete or Active on the Job Configuration screen. 
+- Update External EDC jobs' job configuration details on the Job Configuration screen, including changing and locking the job's data integration version. 
+ | View External EDC Patients Data 
+ | External EDC Patients Data 
+ | View Data 
+ | You can:
+- View External EDC - Patients jobs on the Job Files screen. 
+- Access the Job Files screen for External EDC - Patients jobs. 
+- Access the Import Summary for External EDC - Patients jobs. 
+- Access the Job Configuration screen for External EDC - Patients jobs. 
+ | Import External EDC Patients Data 
+ | External EDC Patients Data 
+ | Import Data 
+ | You can:
+- Perform the actions included in View External EDC Patients Data building block. 
+- Import files with External EDC - Patients jobs. 
+- Download imported files for  External EDC - Patients  jobs. 
+ | Manage External EDC Patients Data 
+ | External EDC Patients Data 
+ | Manage Data 
+ | You can:
+- Perform the actions included in the Import External EDC Patients Data building block. 
+- Mark External EDC - Patients jobs as Complete or Active on the Job Configuration screen. 
+- Update External EDC - Patients jobs' job configuration details on the Job Configuration screen. 
+ | View Study Design Metadata 
+ | Study Design Metadata 
+ | View Data 
+ | You can:
+- View Study Design Metadata (SDM) jobs on the Job Files screen. 
+- Access the Job Files screen for SDM jobs. 
+- Access the Import Summary for SDM jobs. 
+- Access the Job Configuration screen for SDM jobs. 
+ | Import Study Design Metadata 
+ | Study Design Metadata 
+ | Import Data 
+ | You can:
+- Perform the actions included in View Study Design Metadata building block. 
+- Import files with Study Design Metadata jobs. 
+- Download imported files for Study Design Metadata jobs. 
+ | Manage Study Design Metadata 
+ | Study Design Metadata 
+ | Manage Data 
+ | You can:
+- Perform the actions included in the Import Study Design Metadata building block. 
+- Mark Study Design Metadata (SDM) jobs as Complete or Active on the Job Configuration screen. 
+- Update SDM jobs' job configuration details on the Job Configuration screen. 
+ | View Study Master Data 
+ | Study Master Data 
+ | View Data 
+ | You can:
+- View Study Master Data jobs on the Job Files screen. 
+- Access the Job Files screen for Study Master Data jobs. 
+- Access the Import Summary for Study Master Data jobs. 
+- Access the Job Configuration screen for Study Master Data jobs. 
+ | Import Study Master Data 
+ | Study Master Data 
+ | Import Data 
+ | You can:
+- Perform the actions included in View Study Master Data building block. 
+- Import files with Study Master Data jobs. 
+- Download imported files for Study Master Data jobs. 
+ | Manage Study Master Data 
+ | Study Master Data 
+ | Manage Data 
+ | You can:
+- Perform the actions included in the Import Study Master Data building block. 
+- Mark Study Master Data jobs as Complete or Active on the Job Configuration screen. 
+- Update Study Master Data jobs' job configuration details on the Job Configuration screen. 
+ | View CTMS Data 
+ | Medidata CTMS Data 
+ | View Data 
+ | You can:
+- View Medidata CTMS jobs on the Job Files screen. 
+- Access the Job Files screen for Medidata CTMS jobs. 
+- Access the Import Summary for Medidata CTMS jobs. 
+- Access the Job Configuration screen for Medidata CTMS jobs. 
+ | Import CTMS Data 
+ | Medidata CTMS Data 
+ | Import Data 
+ | You can:
+- Perform the actions included in View Medidata CTMS Data building block. 
+- Import files with Medidata CTMS jobs. 
+- Download imported files for Medidata CTMS jobs.  
+ | Manage CTMS Data 
+ | Medidata CTMS Data 
+ | Manage Data 
+ | You can:
+- Perform the actions included in the Import Medidata CTMS Data building block. 
+- Mark Medidata CTMS jobs as Complete or Active on the Job Configuration screen. 
+- Update Medidata CTMS jobs' job configuration details on the Job Configuration screen.

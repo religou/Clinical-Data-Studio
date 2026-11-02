@@ -1,0 +1,19 @@
+# Show Me - Transform Variable Mappings with Unpivot
+
+## Show Me - Transform Variable Mappings with Unpivot
+ Summary 
+ | An overview on using the Unpivot transformation instruction while transforming variable mappings. 
+ Duration 
+ | 3 min 44 sec 
+ Product 
+ | Data Connect - Transformations 
+ Release 
+ | May 2026 
+ Video Category 
+ | Transforming Variable Mappings 
+ Related Topics 
+ | 
+- Transform Variable Mappings 
+- Generate Derived Datasets 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

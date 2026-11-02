@@ -1,0 +1,21 @@
+# Transformations - Support for SDTM IG v3.3 and v3.4 and Latest CDiSC Controlled Terminology
+
+## Transformations - Support for SDTM IG v3.3 and v3.4 and Latest CDiSC Controlled Terminology
+## What Is New?
+ Data Connect's Transformations experience now supports both Study Data Tabulation Model (SDTM) IG version 3.3 and 3.4 and any future versions dynamically. Users can also choose from latest CDiSC controlled terminology versions.
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No Impact to workflow process.
+## Other Applications
+ No impact to other applications
+## How Do I Benefit?
+ Users can now use the most up-to-date version to support industry standard compliance. 
+## Where Do I See the Change?
+ When creating an SDTM dataset, the user can select the SDTM version and CDiSC version. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Enhancement:
+- Manage Transformation Projects 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

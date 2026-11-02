@@ -1,0 +1,25 @@
+# Action Taken Enhancements for Risks
+
+## Action Taken Enhancements for Risks
+## Description
+ The Risk Management 2022.2.0 release lets you add multiple actions for a risk, so that you can track the actions associated with the action taken date. 
+## Affected Roles
+ Study Users
+## Advantages
+ Before the Risk Management 2022.2.0 release, you entered dates and text related to actions together in the same field when you added a risk. This release allows you to create multiple actions with target start and completion dates so you can more easily track upcoming actions. 
+## User Impact
+ When adding a risk, you can click next to Action Taken to enter one or more actions to take when reviewing the risk:
+- Action Taken date (required). If the user hovers the mouse over the Last Action Taken Date column of Risk Inventory, then the description of the latest action taken appears. 
+- Action Completion date (optional) 
+- Action Taken description (required)  
+ In addition, you can:
+- Save an action or cancel it 
+- Delete an action if not required later 
+- View the latest action associated to the risk in the Risk Inventory section of the Risk Plan Report. For example: 
+ The Action Taken  column is renamed as Last Action Taken Date in the Risk Inventory and on the Critical Data, Critical Processes, and Risk Categorization pages. Sorting is by date, and the format is DD-MMM-YYYY. You can only edit the   Last Action Taken Date   on the Risk Details or Add Risk pages. 
+## Knowledge Space Updates
+ The Risk Management Knowledge Space provides new and updated content to support this feature/enhancement: 
+- Risk Inventory 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

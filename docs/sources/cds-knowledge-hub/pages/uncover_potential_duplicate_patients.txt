@@ -1,0 +1,52 @@
+# Uncover Potential Duplicate Patients
+
+## Uncover Potential Duplicate Patients
+## Description 
+ Duplicate patients are patients who enroll in clinical trials for financial gain or for extra dosages of medication. This problem is more prevalent in certain types of trials such as pain, dependencies, or trials where monetary compensation and low impact of multiple dosings prompts some patients to enroll more than once. Duplicate patients threaten both participant safety and the integrity of research findings. 
+ Centralized Statistical Monitoring (CSM) uncovers potential duplicate patients by analyzing six demographics: date of birth, gender, height, weight, race, and ethnicity. Additionally, CSM also analyzes the physical distance within 100 miles of the site location of each patient to find patients that look very similar. Patients with too many similarities may indicate that those patients are indeed the same person. 
+## Affected Roles
+ Central monitors
+## Advantages
+ Identifying and removing potential duplicate patients from the study: 
+- Prevents financial loss 
+- Yields cleaner data 
+- Improves the chances of study success 
+## User Impact
+ Tip: Click image to enlarge.
+ Image A
+ Image B 
+ | 
+ | 
+ Number 
+ Description 
+ | 1 
+ | Data Veracity tab - You can click the Data Veracity link in Detect Landing Page > Centralized Statistical Monitoring (CSM) to access the Data Veracity tab. 
+ | 2 
+ | Potential Duplicate Patients subtab - The Data Veracity tab contains the Potential Duplicate Patients subtab. 
+ | 3 
+ | Potential Duplicate Patients page - You can click the Potential Duplicate Patients subtab to access the Potential Duplicate Patients page. 
+ | 4 
+ | 
+ The Potential Duplicate Patients page has an interactive heat map that shows countries with sites that have potential duplicate patients. 
+- Image A: Interactive heat map shows a global view. Red circles indicate sites within countries with potential duplicate patients. Blue circles are sites with no potential duplicate patients. You can click at the red or blue circles to zoom in and view sites at the site level.  
+- Image B: Zoomed in site level map depicting a selected site with duplicate patients and the other sites with potential duplicate patients within a 100 mile radius. When you hover over a site, a tooltip shows the site name and count of duplicate patients. You can click to switch between the global and site level views of the map. 
+ | 5 
+ | 
+ The Potential Duplicate Patients page also provides summary cards and table showing the number of potential duplicate patients at the country, site, and patient level. 
+ Selecting a country in the Summary-Country table: 
+- Shifts the map focus to show the corresponding potential duplicate patient information for the country. For example, if you select Japan, the heat map shifts the global view to show sites in Japan. 
+ Selecting a site in the Summary-Sites table, shows: 
+- The street level view of the selected site with possible duplicate patients relative to other sites with possible duplicate patients within a 100 mile radius. 
+- The selected site as a yellow pin ; other sites with possible duplicate patients in a 100 mile radius appear as purple pins . A horizontal line connects the selected site with other such sites. 
+- A table with a list of all potential duplicate patients at the selected site. 
+ Selecting a patient in the Summary-Patients table, shows: 
+- The street level view of a site where the selected patient enrolls relative to sites where the patient is a potential duplicate within a 100 mile radius. 
+- A patient-level table listing all potential duplicates of the selected patient at a selected site from the closest to the furthest site, creating a side by side comparison of potential duplicate patients. 
+ | 6 
+ | Site Level view of map - You can further zoom into the global heat map to view a site level map. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+- You must set up sites with the correct street addresses in Cloud Administration. 
+- You must configure the study in Detect Landing Page > Centralized Statistical Monitoring (CSM) > CSM Configuration to identify potential duplicate patients in CSM. The interactive heat map will not show if you fail to configure the study. A message will alert that the study has no configuration. 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

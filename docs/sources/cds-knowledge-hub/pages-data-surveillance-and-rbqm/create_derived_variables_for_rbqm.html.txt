@@ -1,0 +1,12 @@
+# Create Derived Variables
+
+## Create Derived Variables
+ Derived variables are custom configured data set variables. You can use derived variables across the Data Surveillance and RBQM capabilities just like you use any other variable. For example, to build data listings , visualizations , or patient profile design elements . Or you can use derived variables to configure data mappings , custom QTLs , or custom KRIs . You can: 
+- Create Derived Variable from Expression 
+- Create Derived Variable to Show Data Refresh Date 
+- Create Derived Variable with Difference in Dates Calculation 
+- Create Derived Variable with Concatenated Text 
+- Create Derived Variable with Text Substring 
+- Create Derived Variable with Check All That Apply 
+- Create Derived Variable with Conditional Concatenate 
+ Note : You can also create derived variables by copying from an existing derived variable .

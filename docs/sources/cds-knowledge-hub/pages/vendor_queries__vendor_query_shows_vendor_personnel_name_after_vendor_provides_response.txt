@@ -1,0 +1,22 @@
+# Vendor Queries: Vendor Query Shows Vendor Personnel Name After Vendor Provides Response
+
+## Vendor Queries: Vendor Query Shows Vendor Personnel Name After Vendor Provides Response
+## What Is New?
+ In Data Surveillance > Vendor Queries, if you click any vendor query set, and then click a query, the Vendor Response section in the Vendor Query slide out panel shows the vendor contact who responded to the query. 
+## What Is the Impact?
+## Users/Roles
+- All vendors with the Submit Vendor Feedback role. 
+- Data managers. 
+## Workflow Process
+ Data managers review listings to identify issues with vendor data and submit the query set to the vendor. Vendors receive an email with a hyperlink to access the notification centre. Vendors then add comments, update query status, provide clarification for the queries in the notification centre. The query set gets updated with the vendors' response for further data manager review and the vendor response section shows the name of the vendor personnel who responded to the query. 
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Data managers can track vendor query responses and follow up with the right vendor personnel to resolve vendor queries in the study.
+## Where Do I See the Change?
+ See What is New?.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Create, view. delete, and submit vendor query sets 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

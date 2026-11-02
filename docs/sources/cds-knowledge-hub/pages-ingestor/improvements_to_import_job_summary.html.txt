@@ -1,0 +1,18 @@
+# Improvements to Import Job Summary
+
+## Improvements to Import Job Summary
+## Description
+ MEDS Ingestor enhances the Import Jobs summary page to improve the workflow with data integrations from Medidata Designer.  The Import Jobs summary shows  that one import job links to one data integration version per environment.  You can mark an import job as locked or complete, to finalize or obsolete versions of import jobs.  An alert also appears when a newer version of a data integration exists for an import job. 
+ Feature/enhancement stories referenced in this article:
+ MCC-485909, MCC-499267, MCC-508643, MCC-524116, MCC-480119, MCC-464363, MCC-497732, MCC-497736, MCC-480490, MCC-490653, MCC-490654, MCC-441817, MCC-495006, MCC-502169, MCC-499395, MCC-500406, MCC-513132 
+## Affected Roles
+ All roles with access to MEDS Ingestor. 
+## Advantages
+ You can:
+- use different data integrations with multiple different environments. This allows you to test a data integration in an auxiliary environment without impacting production import jobs. However, you cannot use the same data integration across multiple import jobs. 
+- mark jobs as Complete by selecting Complete from . Completing a job ensures it is not available for additional file uploads. 
+- mark jobs as Locked by selecting Locked from . Locking a job indicates it is ready for operational use by preventing the assigned data integration version from being changed. 
+## User Impact
+ In Medidata  Cloud Administration y ou can a dd the Perform Admin Actions permission to your customer-defined platform role  which enables the option to mark jobs as Active . Marking a job as active removes the locked state allowing the assigned data integration to be changed. 
+## Special Considerations
+ Only users with the Perform Admin Actions permission can mark complete import jobs Active.

@@ -1,0 +1,18 @@
+# Show Me - How to Add a Data Source
+
+## Show Me - How to Add a Data Source
+ Summary 
+ | An overview on adding data sources in Imports. 
+ Duration 
+ | 2 min 27 sec 
+ Product 
+ | Data Connect 
+ Release 
+ | Feb 2026 
+ Video Category 
+ | Imports 
+ Related Topics 
+ | 
+- Add Data Source 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

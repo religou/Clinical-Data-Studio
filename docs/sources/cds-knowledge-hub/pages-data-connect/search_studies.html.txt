@@ -1,0 +1,13 @@
+# Search Studies
+
+## Search Studies
+## Description
+ MEDS Extractor can now search the study list for matching study names.
+## Affected Roles
+ All roles with access to MEDS Extractor. 
+## Advantages
+ You can now quickly search for a required study without navigating the whole study list.
+## User Impact
+ You can reduce the study list to studies of interest  by entering text  into the study search box, and clicking the search icon. 
+## Special Considerations
+ None.

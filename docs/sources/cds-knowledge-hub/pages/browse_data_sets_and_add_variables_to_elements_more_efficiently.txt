@@ -1,0 +1,35 @@
+# Browse Data Sets and Add Variables to Elements More Efficiently
+
+## Browse Data Sets and Add Variables to Elements More Efficiently
+## Description
+ When working in the Design page > Elements tab, the Data Options tab—which contains your list of data sets and variables—now offers the following improvements:
+ Tip : Click any image to enlarge.
+ Description 
+ Image 
+ | A green border displays to the left of data sets that contain at least one variable that is currently applied to the design.
+ | 
+ | A blue border displays to the left of data sets that contain no variables that are currently applied to the design. 
+ | 
+ | 
+ A green border displays on all sides of a variable that is currently applied to the design.
+ Note : Unused variables display without any border.
+ | 
+ | 
+ When working with wide tables and transposed tables:
+ If the table already contains a selected variable, then you cannot click and drag any other variables from the Data Options tab.
+ Notes:
+- You can still view the variables within the data sets in the Data Options tab. But you cannot actively click-and-drag any variables. 
+- You can view the variable settings for disabled variables. But you cannot change the data type of a disabled variable. 
+- If you remove a variable from a wide or transposed table, then you can once again actively click-and-drag variables from the Data Options tab. 
+ | 
+## Affected Roles
+ All.
+## Advantages
+ The usability improvements to the Data Options tab include:
+- Data sets that display with green and blue left-hand borders. Colored borders allow you to quickly identify which data sets contain variables, flags, or event tables that are currently used in the design. 
+- Variables that display with green borders on all sides. The green borders allow you to quickly identify which variables are currently applied to the design. 
+- Variables that become disabled when working with wide tables or transposed tables that already contain a variable. For wide tables and transposed tables, all variables in the table must come from the same data set. Therefore, when a table already contains a variable, disabling your ability to click-and-drag variables from the Data Options tab prevents you from adding variables from another data set. 
+## User Impact
+ See the Description section.
+## Special Considerations
+ The data sets and variables in the Settings page > Design Options tab do not include the improvements described in the Description section above.

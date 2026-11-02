@@ -1,0 +1,53 @@
+# Signals: Updated Create CTMS Issue User Interface Includes Additional Fields
+
+## Signals: Updated Create CTMS Issue User Interface Includes Additional Fields
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the  released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio 
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Signals
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter :   
+ In Signals, the Create CTMS Issue window shows an updated user interface with fields indicating none, one, or multiple sites.
+ Benefit to Users 
+ | Central Monitors can create actionable issues for signals, track, and assign them to personnel based on site information for resolution. This ensures potential issues get checked in time and do not threaten study data integrity.   
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+- Central Monitors and Central Statistical Monitors, Clinical Research Associates 
+-  Users with View Signals and Manage Signals building blocks. 
+ Impact to Workflow Processes 
+ No change to workflow processes.
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+ For both Protocol Deviation (PD) and Non-Protocol Deviation (Non-PD) issues that you raise for signals and choose to resolve with an external issue management system like Rave CTMS, t he Create CTMS Issue page includes a new Issue assignment section that includes site and assignee fields.  
+ The page also includes a Category dropdown where you can select the issue category. 
+- Non-PD Issue 
+- Protocol Deviation issue 
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | Low 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Raise and Resolve Signal Issues 
+ Special Considerations 
+ |   To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

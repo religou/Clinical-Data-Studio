@@ -1,0 +1,25 @@
+# Imports
+
+## Imports
+ Imports is a Data Connect capability that facilitates the transfer, validation, and aggregation of external data. You can configure and validate external data transfers based on Data Transfer Agreements. 
+## What is Imports?
+   Imports is a Data Connect capability with which you can: 
+- Establish external data source connections. Imports supports SFTP and Amazon S3 connections. 
+- Live stream datasets while adhering to a data transfer agreement (DTA) from the vendor. 
+- Monitor the status of the imported datasets. 
+- Create multiple versions of the imported data sets for corrections or updates. 
+## What Is the Purpose of Imports?
+ With Imports, you can process, configure, validate, and transfer external data to clinical programmers, Data Surveillance, and RBQM. You can enhance the data quality without worrying about the complexities of data transfers, monitoring connections, validating files, and preparing the data for clinical programmers.  
+## Who Uses Imports?
+ Clinical Programmers and Data Managers. 
+## How Does Imports Work?
+ You can establish an SFTP or S3 connection for external data transfers using imports and monitor the automatic data set transfers. 
+ You can configure the data set rules and validations as per the Data Transfer Agreements (DTA). You can monitor the data ingestions, review them, and resolve errors with Imports.
+ Important :  Unsupported Data 
+ Data Connect does not support variables such as coding dictionaries, coded terms, and code lists. While you can import datasets that includes these data, you cannot see or use them in Data Connect. However, these data can appear as-is in RBQM and Data Surveillance when you activate the associated dataset. For details, see Unsupported Variables in Data Connect . 
+## What Are the Benefits of Imports?
+ Imports provide:
+- An efficient way to automatically ingest external data as close to the raw data as possible. 
+- Error recognition in the ingested data. 
+## How Do I Access Imports?
+ Access Data Connect , and click Imports   in the left-hand menu.

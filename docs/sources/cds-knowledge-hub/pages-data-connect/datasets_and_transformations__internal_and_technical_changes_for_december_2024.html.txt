@@ -1,0 +1,26 @@
+# Datasets and Transformations: Internal and Technical Changes for December 2024
+
+## Datasets and Transformations: Internal and Technical Changes for December 2024
+## What Is New?
+ The Data Connect - Datasets and Transformations 2024.2.0 Feature Release introduces internal code changes: 
+- Improved concatenation for null values in Field Transformations. 
+- Improved support for case-sensitive values for MMM fields (MMM, Mmm, mmm) in Field Transformations. 
+- Math division consistency 25, 5 (that is, max length, significant digits to display) for field transformations. 
+- Internal code changes to account for deleted applications in the database. 
+- Improved results for math calculations in Field Transformations (Derived Datasets, SDTM, Custom Data Models) for an integer source type. 
+- New addition of Pinnacle 21 validation tab for domains that support manual values. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ These updates result in improved product performance, reliability, accuracy, and stability. 
+## Where Do I See the Change?
+ No changes to user interface.
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,34 @@
+# Clean Patient Tracker: Track Up To Twenty-Five Listings In Clean Patient Tracker
+
+## Clean Patient Tracker: Track Up To Twenty-Five Listings In Clean Patient Tracker
+## What Is New?
+ Previously, you could only track 15 listings in Data Surveillance > Clean Patient Tracker. You can now track up to 25 listings.
+ Based on how you configure form statuses in Data Surveillance > Configuration > Clean Patient Tracker , the form status column in Clean Patient Tracker shows the following. By default, all form status fields are enabled. If you clear the selected field, they do not appear in Clean Patient Tracker. 
+- The total count of forms configured for a patient. 
+- The count of each form status, in the following order:
+- Incomplete 
+- Non Conformant 
+- Requires Freeze 
+- Requires Lock 
+- Requires Review 
+- Requires Signature 
+ The TSDV Required column in Clean Patient Tracker is now renamed to Requires TSDV/SDV.
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ No impact on the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ With the increased number of listings, you can track in Clean Patient Tracker:
+- Enables your organization to seamlessly incorporate more listings data into Data Surveillance for tracking and analysis. 
+- Ensures Clean Patient Tracker analyses the most recent and correct listings data. 
+- Ensures data analysis quality by reducing data entry errors.   
+## Where Do I See the Change?
+ See What's New?.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Track and Clean Patient Data 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,22 @@
+# Resize Patient Selector Columns to Better View Variables
+
+## Resize Patient Selector Columns to Better View Variables
+## What Is New?
+ You can click-and-drag the Drag Handle button, , in any Patient Selector column header to resize the column width.
+ Tip : Click the video below to enlarge.
+## What Is the Impact?
+## Users/Roles
+ All Patient Profile users.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Resizing Patient Selector column headers enables you to custom fit the table spacing to better view and interact with more variables on screen.
+## Where Do I See the Change?
+ Patient Profiles > Design page > Profile tabs > Patient Selector.
+## Where Do I Learn More?
+ The Detect Knowledge Space provides new and updated content to support this feature/enhancement:
+- Review and Export Patient Profiles 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

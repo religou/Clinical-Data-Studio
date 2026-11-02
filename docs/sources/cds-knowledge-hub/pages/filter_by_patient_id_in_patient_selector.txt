@@ -1,0 +1,16 @@
+# Filter By Patient ID In Patient Selector
+
+## Filter By Patient ID In Patient Selector
+## Description
+ On the Profiles tab, you can now filter patients by Patient ID in the Patient Selector table. The filtering works on full or partial number strings and shows the corresponding patient profiles.
+## Affected Roles
+ All.
+## Advantages
+ Filtering by patient IDs allows profile reviewers to efficiently locate patient profiles of interest from a study efficiently.
+## User Impact
+ On the Designs page > Profiles tab, when data is loading from a data set, you can use the   field in the Patient Selector table. 
+- The Filter field is available only after all patient data loads into the Patient Selector table. 
+- If you enter the first few digits of a Patient ID in the Filter field, the Patient Selector table shows the corresponding patient profiles that include patients with the Patient ID. The first patient with the ID shows at the top of the Patient Selector table. For example,  if you enter 1005, and click Enter or outside of  the Filter field, then the Patient Selector table loads profiles for patient IDs containing "1005", like 100501, 100523, 100528 in an ascending order. 
+- If you enter most part of the Patient ID, then click the patient profile from the list in the Filter field, the Patient Selector table shows the corresponding patient profile. 
+## Special Considerations
+ None.

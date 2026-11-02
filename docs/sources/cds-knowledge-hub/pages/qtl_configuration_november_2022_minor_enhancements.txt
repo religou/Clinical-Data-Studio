@@ -1,0 +1,24 @@
+# QTL Configuration November 2022 Minor Enhancements
+
+## QTL Configuration November 2022 Minor Enhancements
+## Description
+ As part of the Medidata Detect November 2022 release, the QTL Dashboard includes the following minor enhancements:
+- When adding or editing a custom QTL:
+- You can select, drag, and drop a time-only variable or a variable that contains a time stamp into the Numerator Query or Denominator Query. 
+- You cannot add a value of 0 in the Expectation, Final Population, or Trigger Point fields. 
+- When editing a custom QTL, the Save button remains disabled until you modify any Quality Tolerance Limit dialog box. 
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ You can now configure QTLs that support time-only study data.
+ The QTL Dashboard functionality is more logical now that you are unable to:
+- Save an unmodified QTL. 
+- Save a QTL with 0 as the expectation, final population, or trigger point. 
+## User Impact
+ See the Description.
+## Knowledge Space Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support this enhancement: 
+- Add and Edit Custom QTLs 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

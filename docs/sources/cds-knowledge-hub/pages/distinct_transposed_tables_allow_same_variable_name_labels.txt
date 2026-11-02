@@ -1,0 +1,15 @@
+# Distinct Transposed Tables Allow Same Variable Name Labels
+
+## Distinct Transposed Tables Allow Same Variable Name Labels
+## Description
+ Transposed tables allow using the same label name for variables from a single data set in two distinct transposed tables. 
+## Affected Roles
+ All. 
+## Advantages
+ By using the same variable label name, patient profile reviewers can compare patient data from a single data set between multiple transposed tables in a study.   
+## User Impact
+ On the Design page > Elements tab > Table > Transposed Table, you can save variables from a data set with the same variable label name if the variables are not in the same transposed table. 
+ Knowledge Space Updates 
+ None. 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

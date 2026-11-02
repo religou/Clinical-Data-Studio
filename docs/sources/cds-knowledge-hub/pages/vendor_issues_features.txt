@@ -1,0 +1,11 @@
+# Vendor Issues Features
+
+## Vendor Issues Features
+ Data Reviewer includes the following capabilities related to working with Vendor Issues:
+- Vendor Queries: Vendor Query Shows Vendor Personnel Name After Vendor Provides Response 
+- Data Surveillance: Updated Listings Enable Better Vendor Queries Access 
+- Data Surveillance: Vendor Queries Enables Submitting Queries Directly To Vendors 
+- Data Surveillance: Vendor Issue Sets for Listings Renamed To Vendor Queries 
+- Data Surveillance: Updated Vendor Issue Sets Page Provides Better Usability 
+- Data Surveillance: Data Listings Updates Enable Easier Access To Vendor Issues 
+- PDS: Report External Data Issues and Track with Vendor Issue Sets

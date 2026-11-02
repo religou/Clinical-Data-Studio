@@ -1,0 +1,17 @@
+# Generate Risk Inventory Audit Report
+
+## Generate Risk Inventory Audit Report
+ You can generate audit trail reports to track changes in the risk documentation and the risk review status. Risk audit reports improve transparency and accountability of study data by:
+- Tracking the study personnel who made updates. 
+- Identifying when the updates were made. 
+- Identifying specific changes that were made. 
+ Audit Reports:
+- Enable sponsors to quickly and easily show compliance with clear, comprehensive audit details of actions performed in Risk Inventory. 
+- Provide sponsors with greater oversight to ensure study data is being monitored correctly. 
+- Allows for a quick view of the risk review status. 
+- Access RBQM , and then click Risks   in the left-hand menu.
+The Risk Inventory page shows. 
+- Click  next to the Risk Inventory page header.
+A new browser tab opens to the Audit Viewer > Risk Inventory Audit Report page.
+ Tip : In Audit Viewer, you can click Export and then  Excel , CSV , or PDF to view the report offline or sort data by column headings.
+ Note : The Risk Inventory audit report tracks the risk review status, and updates made in the Details tab, but it does not include updates made to the KRI or QTLs tabs of the Risk Review page.

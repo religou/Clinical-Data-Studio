@@ -1,0 +1,24 @@
+# Partially Processed File Reporting for Study Master Data Files
+
+## Partially Processed File Reporting for Study Master Data Files
+## Description
+ When reviewing the import job summary for Study Master Data import jobs, the Import Summary panel >  Data Processing section shows the following record counts: 
+- Processed – The number of rows in the imported file that were processed so far. 
+- Partially Updated  – The number of rows in the imported file that could only be loaded partially, for example: some columns were successfully loaded and some were not. 
+- Error – The number of processed rows with errors. 
+ Feature/enhancement stories referenced in this article:
+ MCC-786572 
+## Affected Roles
+ All platform roles with one of the following building blocks:
+- View Study Master Data
+- Import Study Master Data 
+- Manage Study Master Data 
+## Advantages
+ You can track the progress of individual data without waiting for the import job to finish. This can be especially helpful for large data files that require extended periods of time to finish processing.
+## User Impact
+ You can find the updated record counts while reviewing Study Master Data jobs' Job Files page> Import Summary panel > Data Processing section. This update retroactively affects the import summaries of your previously created jobs as well. 
+## Knowledge Space Updates
+ The MEDS Ingestor Knowledge Space provides updated content to support this enhancement: 
+- Track Progress for Study Master Data Jobs  (updated) 
+## Special Considerations
+ None.

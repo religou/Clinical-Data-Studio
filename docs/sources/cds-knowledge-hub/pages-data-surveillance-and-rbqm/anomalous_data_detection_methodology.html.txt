@@ -1,0 +1,16 @@
+# Anomalous Data Detection Methodology
+
+## Anomalous Data Detection Methodology
+## Clustering Variables
+ The variables are clustered by computing the distance between each pair, based on an appropriate metric, and assigning variables to the same cluster when the distance between them is small. Different types of variables require different distance metrics. For example, you must define the distance between two numeric variables differently from the distance between two categorical variables for a general treatment of the clustering of variables.   
+ The distances between pairs of variables are defined in matrix form. Hierarchical clustering is performed on the variable distance matrix to cluster the variables. The cluster tree is then cut at an appropriate height to define the variable groups (clusters). 
+## Univariate Anomaly Detection
+ Univariate Anomaly Detection identifies unusual (erroneous) values based on automated examination of each variable, including derived variables considered in on their own. It uses the distribution of values observed for a given variable. It identifies values that are very high or low (numeric variables), or rare (binary / categorical variables) in relation to other patients. Univariate Anomaly Detection is performed for each variable in the study. 
+- For continuous numeric variables, a robust Box-Cox transformation is used, followed by robust estimation of the mean and standard deviation and scoring of values based on Z scores. 
+- For categorical and binary variables, the empirical distribution is used and values are scored based on deviance residuals. 
+- For discrete numeric variables, the best discrete distribution is identified, the parameters are robustly fitted, and the values are scored by a deviance-style residual. 
+## Bivariate Anomaly Detection
+ Bivariate Anomaly Detection identifies unusual (erroneous) values based on automated examination of pairs of variables, including derived variables. It uses the joint distribution of values observed for a given pair of variables. It identifies values for a variable that represent an unusual conditional on the observed value of the paired variable. This enables anomaly detection even when a data value is not unusual on its own. Bivariate Anomaly Detection proceeds by fitting a relationship between the pair of variables and then scoring deviations from that fitted relationship. 
+## Flagging Unusual Values
+ If a pair of data values for a single patient has a score greater than a specified value (the default value is 2.95), that pair is flagged. Each of the data values in the pair is flagged because either of the two values or their co-occurrence can be the source of the anomaly. 
+ A data value can be flagged multiple times, if the variable appears in many rules. However, to avoid double counting of an anomalous value, a given data value is counted only once as being a flagged value, no matter how many times is flagged.

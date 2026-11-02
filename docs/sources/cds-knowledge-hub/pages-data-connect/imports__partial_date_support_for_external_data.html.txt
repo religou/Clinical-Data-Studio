@@ -1,0 +1,21 @@
+# Imports: Partial Date Support for External Data
+
+## Imports: Partial Date Support for External Data
+## What Is New?
+ You can now configure an imported date or datetime column with partial date. When you import data with partial dates, Imports  interpolates date data for the source date value UNK or UN. You can choose to view or hide the new interpolated date field from all data previews. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No direct impact to existing datasets. However, to enable partial date support for existing datasets, users must upgrade existing datasets to a new version. 
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The ability to support partial dates provides full transparency for  raw date values at the time of data capture. The system applies rules to populate unknown values and use interpolated d ate or datetime  for analytics. This saves time and mitigates user error caused by manual date interpretation.
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Imports capability, from the Add Clinical Dataset screen. The Date and Datetime columns no longer show NULL data for partial dates, but instead show interpolated dates. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Enhancement: 
+- Add Dataset 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

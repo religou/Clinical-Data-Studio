@@ -1,0 +1,127 @@
+# Centralized Statistical Monitoring Releases History
+
+## Centralized Statistical Monitoring Releases History
+ The following lists all Centralized Statistical Monitoring releases (starting with the initial release to up to the 2022.2.0 feature release) and the features and enhancements introduced in each. All Centralized Statistical Monitoring features and enhancements released after Centralized Statistical Monitoring 2022.2.0 are listed in the Clinical Data Studio Releases History .
+ Code Continuity Across Releases
+ Note : All Centralized Statistical Monitoring releases are cumulative. That is, each release or software update is built on the prior releases as noted in the release notes. For example,  Software Update 2016.2.1  includes all of the release  2016.2.0  code, which in turn is based on the  release  2016.1.0  code and so on. Any updates between releases or s oftware updates (urgent or otherwise)  are described in the release notes. 
+## Centralized Statistical Monitoring 2022.2.0 (Jul 2022)
+ This release provided the following new features: 
+- View Under- and Overreporting Event Trends at the Site and Country Level 
+- View Current and Historical QTL Value Trends 
+- Preview and Export Comprehensive QTL Reports 
+- Export and Download Customizable KRI Table Snapshots 
+- Perform Data Refresh from the KRI Dashboard Page 
+ This release also provided the following enhancements: 
+- View and Create Issues on the Weekend and Holiday Visits Page 
+- QTL-related Technical Enhancements 
+- KRI-related UI Updates and Technical Enhancements 
+ For information about the defects resolved in this release, see: 
+- Centralized Statistical Monitoring 2022.2.0 Resolved Issues List 
+## Centralized Statistical Monitoring (formerly Medidata Detect) 2022.1.1 (May 2022)
+ This release provided the following enhancements: 
+- Filter Scheduled Patient Visits By Visit Name 
+- New KRIs and QTLs Knowledge Spaces 
+ For information about the defects resolved in this release, see: 
+- Centralized Statistical Monitoring (formerly Medidata Detect) 2022.1.1 Resolved Issues List 
+## Centralized Statistical Monitoring (formerly Medidata Detect) 2022.1.0 (Apr 2022)
+ Note : As of this release, the product name has been changed from "Medidata Detect" to "Centralized Statistical Monitoring (CSM)". Going forward, Medidata Detect will refer to the overall family of products covering data and risk surveillance tools. See https://learn.mdsol.com/display/DETECTLPprd for details. 
+ This release provided the following new features: 
+- Improved Navigation and Rebranding in Centralized Statistical Monitoring 2022.1.0 
+- Identify Potentially Falsified Visit Data By Viewing Scheduled Patient Visits That Occurred on Non-business Days 
+- Uncover Potential Duplicate Patients 
+ This release also provided the following enhancements: 
+- Error Plots Streamline Navigation to View a Specific Patient's Profile 
+- Filter Study Risks By Sites And Countries In The Key Risk Indicators Dashboard 
+- Calculation Method Updated for Six System KRIs 
+- Column Header Tooltip in Key Risk Indicators Table Shows KRI Details 
+ For information about the defects resolved in this release, see: 
+- Centralized Statistical Monitoring -formerly Medidata Detect 2022.1.0 Resolved Issues List 
+## Medidata Detect 2021.2.1 (Sep 2021)
+ For information about the defects resolved in this release, see: 
+- Medidata Detect 2021.2.1 Resolved Issues List 
+## Medidata Detect 2021.2.0 (Aug 2021)
+ This release provided the following new features: 
+- View Comprehensive Audits of Track Review Actions, Issues Created, and Snapshot Schedules Created 
+- View Rave Queries With Comment and Status History on Error Plot Outlier Data Points 
+ This release also provided the following enhancements: 
+- Top Contributors List Now Includes Site Trends 
+- Event Incidence Page Enhancements 
+- History Page Informs You of Current Study Data Analysis Status 
+- Medidata Detect Provides Error Details When Pages Fail to Load 
+- Internal and Technical Enhancements in Medidata Detect 2021.2.0 
+- Preparatory Work for Future Features or Enhancements 
+ For information about the defects resolved in this release, see: 
+- Medidata Detect 2021.2.0 Resolved Issues List 
+## Medidata Detect 2021.1.2 (May 2021)
+ For information about the defects resolved in this release, see: 
+- Medidata Detect 2021.1.2 Resolved Issues List 
+## Medidata Detect 2021.1.1 (May 2021)
+ This release provided the following enhancements: 
+- Help Menu > Help On This Page Links to Directly Relevant User Assistance 
+- New Progressive User Assistance Access Points on the History Page and Error Plots Page 
+## Medidata Detect 2021.1.0 (Apr 2021)
+ This release provided the following new features: 
+- Track Study-level Threats Using Quality Tolerance Limits (QTLs) 
+- Trends Plots Improve Your Ability to Monitor Variable Data Across Sites 
+- View Historical Data Snapshots in Detect 
+ This release also provided the following enhancements: 
+- Stop or Suspend Scheduled Data Snapshot Refreshes 
+- Access User Assistance Pertaining to a Specific Page or Field With One Click 
+ For information about the defects resolved in this release, see: 
+- Medidata Detect 2021.1.0 Resolved Issues List 
+## Medidata Detect 2020.4.1 (Dec 2020)
+ This release provided the following enhancement: 
+- Refresh Medidata Detect to Analyze and Render the Latest Study Data 
+## Medidata Detect 2020.4.0 (Nov 2020)
+ This release provided the following new features: 
+- Filter Perspectives to Display Only the Aspects You Want to View 
+- Role-based Permissions Now Determine the Perspectives You Can View and Access 
+- Directly Access User Assistance Pertaining to a Specific Medidata Detect Page 
+- Schedule When Detect Refreshes with the Latest Study Data 
+- Information That You Can View and Access Limited to Data from Your Site and Country Assignments 
+- View Historical Trends in Site- and Country-Level KRI Data 
+ This release also provided the following enhancements: 
+- Text Versus Text Analysis Plot X- and Y-Axes Display Text in Alphanumeric Order 
+- View and Track User-Defined Custom Percentage KRIs 
+ For information about the defects resolved in this release, see: 
+- Medidata Detect 2020.4.0 Resolved Issues List 
+## Medidata Detect 2020.3.2 (Sep 2020)
+ This release provided the following new enhancement: 
+- Performance Improvements in Medidata Detect 2020.3.2 
+ For information about the defects resolved in this release, see: 
+- Medidata Detect 2020.3.2 Resolved Issues List 
+## Medidata Detect 2020.3.1 (Aug 2020)
+ For information about the defects resolved in this release, see: 
+- Medidata Detect 2020.3.1 Resolved Issues List 
+## Medidata Detect 2020.3.0 (Jul 2020)
+ This release provided the following new features: 
+- View and Create Issues Through Medidata Detect 
+- Event Incidence Plot Improvements 
+- View a Patient's Profile from Detect to Analyze Patient-Level Details 
+- View and Track User-Defined Custom KRIs 
+ This release also provided the following enhancements: 
+- Impact Factor Scores and Prioritizes Most Critical Study Data Quality Issues 
+- Top Contributors List Now Includes KRIs and Event Incidences 
+- Detect Provides Clearer Data Refresh Messaging 
+ For information about the defects resolved in this release, see: 
+- Medidata Detect 2020.3.0 Resolved Issues List 
+## Medidata Detect 2020.2.1 (May 2020)
+ For information about the defects resolved in this release, see: 
+- Medidata Detect 2020.2.1 Resolved Issues List 
+## Medidata Detect 2020.2.0 (Apr 2020)
+ Note : As of the 2020.2.0 release, the product name is rebranded as Medidata Detect.
+ This release provided the following new features: 
+- Identify and Track Study Risks Using the Key Risk Indicators Table 
+- Assess Overall Study Performance and Identify Pertinent, Discrepant Data 
+- Refresh Medidata Detect to Analyze and Render the Latest Study Data 
+ This release also provided the following enhancements: 
+- Error Plot Enhancements 
+- Product Rebranded as Medidata Detect 
+ For information about the defects resolved in this release, see: 
+- Medidata Detect 2020.2.0 Resolved Issues 
+## Rave CSA 2020.1.0 (Mar 2020)
+ This release provided the following new features: 
+- View Event Incidence at the Site- and Study-level 
+- Determine Study Data Outliers, Risks, and Trends Using Error Plots 
+- Flag, Track, and Audit Reviewed Error Plot Outlier Data Points 
+ Back to top

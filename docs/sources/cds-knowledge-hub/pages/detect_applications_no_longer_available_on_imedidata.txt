@@ -1,0 +1,30 @@
+# Detect Applications No Longer Available On iMedidata
+
+## Detect Applications No Longer Available On iMedidata
+## Description
+ You can no longer access the following Detect applications through iMedidata:
+- Patient Profiles 
+- Data Reviewer 
+- Centralized Statistical Monitoring 
+- Detect Configuration Manager 
+ You can access the Detect Landing Page through:
+- The iMedidata Home page. 
+- The platform navigation bar. 
+- Detect's left-hand menu > Overview tab. 
+ From the Detect Landing Page, you can access any of the following Detect modules that you have available to you:
+- Patient Data Surveillance 
+- Key Risk Indicators 
+- Quality Tolerance Limits 
+- Centralized Statistical Monitoring 
+- Utilities 
+## Affected Roles
+ All.
+## Advantages
+ Accessing Detect applications from a single page allows a better user experience as you do not need different navigational paths to access various Detect modules and capabilities.
+## User Impact
+ See Description.
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ You need the appropriate permission set up in iMedidata to access products within a module and between modules. For example, if you have access to Patient Profiles in PDS, but no access to Data Reviewer and Derived Variables, you see tabs relevant to Patient Profiles in PDS.  
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

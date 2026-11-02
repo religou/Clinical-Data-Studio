@@ -1,0 +1,11 @@
+# Rename Designs
+
+## Rename Designs
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+The Patient Profile Designs page shows. 
+- Click the Published Designs tab or the Draft Designs tab, and then find the design you want to rename. 
+- Click   within the row of corresponding design. 
+- Click  Rename . 
+- Enter the new name.
+ Note : The design name must be distinct from any existing design's name in the study. If you use an existing design name the " The design name exists in Patient Profiles. Rename design". message appears.
+- Click .

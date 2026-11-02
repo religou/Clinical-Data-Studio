@@ -1,0 +1,21 @@
+# KRI Configuration Risk Category Tab Enhancement
+
+## KRI Configuration Risk Category Tab Enhancement
+## Description
+ The note on the risk category tab about the weight assigned to system KRIs has been removed because it is no longer valid.
+## Affected Roles
+- KRI Configuration Manager 
+- Detect Manager. 
+## Advantages
+ Users can now modify the risk category weight for system KRIs.
+## User Impact
+- The note on the risk category tab about the weight assigned to system KRIs is no longer required, since you can customize the risk category weights and apply them to system KRIs as well. 
+- The category weight assigned for data collection is applied to all the KRIs that are mapped to it, including the system KRIs. 
+- When a new study is onboarded to KRI configuration, the default value for category weight is set to Medium on data collection. 
+- For existing studies, the data collection mapping is updated for system KRI weightage (the system KRIs mapped to data collection are added to the SRI calculation). 
+## Knowledge Updates
+ Here are links to new and updated content to support this feature/enhancement: 
+ Configure KRI Risk Category Weight for Site Risk Calculation 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

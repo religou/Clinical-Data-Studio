@@ -1,0 +1,15 @@
+# Sort Element Tables by Column on the Profiles Tab
+
+## Sort Element Tables by Column on the Profiles Tab
+## Description
+ On the Design page > Profiles tab, you can now sort all element tables by column in ascending or descending order.
+## Affected Roles
+ All.
+## Advantages
+ Sorting element tables by column improves data analysis by making it easier to find the data you need.
+## User Impact
+ On the Design page > Profiles tab, you can click a column header once to sort the element table by column in ascending order. Clicking the column header twice sorts the column in descending order. An upward-pointing arrow displays next to a column name that is sorted in ascending order. A downward-pointing arrow displays for columns sorted in descending order.
+ Ascending order:
+ Descending order:
+## Special Considerations
+ None.

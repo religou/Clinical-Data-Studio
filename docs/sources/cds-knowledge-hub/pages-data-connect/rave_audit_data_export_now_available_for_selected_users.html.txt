@@ -1,0 +1,18 @@
+# Rave Audit Data Export Now Available for Selected Users
+
+## Rave Audit Data Export Now Available for Selected Users
+## Description
+ Select users can now export Rave Subject Audit data through export jobs.
+## Affected Roles
+ All users that have the Extract Rave Audit Data building block applied to their platform role.
+## Advantages
+ You have more options to download the data you have on the Medidata platform.
+## User Impact
+ Users that connected their Rave URL to the Medidata Data Fabric can extract Rave Subject Audit data through export jobs. Cloud Administration includes a new Extract Rave Audit Data building blocks that, when selected, enables the Rave Audit data type when configuring export jobs. This changes does not affect existing export jobs and data types.
+## Knowledge Space Updates
+ The Extractor Knowledge Space provides updated content describing how to gain permission to extract Rave Subject Audit data and what that data entails: 
+- Exports Roles and Capabilities (updated) 
+- Export Configuration Compatibility by Data Type (updated) 
+- Study Level Rave Audit Data Objects (new) 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

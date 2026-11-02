@@ -1,0 +1,24 @@
+# Selectable Data Sets During Export Job Creation
+
+## Selectable Data Sets During Export Job Creation
+## Description
+ When creating an export job of any type, you can now select individual data sets to extract.  
+## Affected Roles
+ All roles with the ability to create export jobs. For details, see MEDS Extractor Roles and Permissions.
+## Advantages
+ You can now configure export jobs to extract only the specific data sets you need, which reduces both the processing load and time. 
+## User Impact
+ While creating export jobs, at the Select Data step, you can now select individual data sets for each data type that you applied to the export job.
+## Knowledge Space Updates
+ The MEDS Extractor Knowledge Space provides updated content to support this enhancement: 
+- Select Data for Client Division Level Jobs 
+- Select Data for Study Level Job 
+- Extract EDC Data - Quick Start 
+- Extract Site Monitoring Data - Quick Start 
+- Extract Issue Management Data - Quick Start 
+- Extract Study Management Data - Quick Start 
+- Extract Study Master Data - Quick Start 
+- Extract Client Division Master Data - Quick Start 
+- Extract Task Management Data - Quick Start 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

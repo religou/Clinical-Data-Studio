@@ -1,0 +1,19 @@
+# Quality Tolerance Limit Summary Report
+
+## Quality Tolerance Limit Summary Report
+## Description
+ Use the Quality Tolerance Limit (QTL) Summary Report to review the QTLs associated with your study.  View the report online or download it as a PDF file.   
+## Affected Roles
+ Study Users.
+## Advantages
+ Use the QTL Summary Report to view all of the QTLs associated with risks in the study. This information is useful when creating or updating Clinical Study Reports (CSRs) for your clinical trial.
+## User Impact
+- The Risk Plan Reports label in the left pane is renamed to Reports . 
+- From the Reports tab, you can generate a PDF version of either the Risk Plan Report or QTL Summary Report. 
+- Changes to QTL Summary Report details automatically save as soon as you enter new or updated information. You do not have to manually save changes when you edit the report details.  
+- Adding or deleting Participant records for one report automatically updates the Participant lists available for use in all Risk Management reports. 
+- You can indicate which participants need to review the report by selecting Yes or No in the Review Required column. 
+- You can issue a bulk selection request for all participants by clicking the check box in the header of the Participants list. Click once to select all check boxes. Click again to deselect all check boxes. 
+## Special Considerations
+ Ensure that your role includes the  Generate Reports  building block permission. This allows a study user to generate the QTL Summary report.
+ Note : You can acknowledge your review of the report manually by signing in the Signature box at the top of a printed copy of the report. Or use a signature feature if included in your PDF viewer software.

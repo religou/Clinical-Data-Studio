@@ -1,0 +1,47 @@
+# View and Export a Patient Profile on the Profiles Tab
+
+## View and Export a Patient Profile on the Profiles Tab
+## Description
+ The Design page now includes the Profiles tab, which allows you to view and export a patient profile. The Profiles tab displays the:
+- Patient Selector – Displays the full list of study patients. You can select any patient from the list to view that patient's patient profile. The Patient Selector section is expanded by default. 
+- Patient Profile  – Displays the patient profile for the patient that you selected in the Patient Selector. The patient  profile displays with actual study data to help you evaluate how the profile design is taking shape in real time.  The patient profile for the top-listed patient in the Patient Selector displays by default. 
+ You can also view and print patient profiles in PDF format by way of the Profiles tab.
+## Affected Roles
+ All.
+## Advantages
+ By viewing the patient profile during the profile design process, you can:
+- view the patient profile with actual patient study data to validate if the design is correct and displaying the desired results. 
+- edit the design and then view the profile again with the modified design against the subject data in iteration. 
+ Tables in the patient profile display as expanded by default; however, you can collapse tables to enhance your ability to view and scan the data in the profile.  You can also expand and collapse the Patient Selector table. 
+ Viewing and printing a patient profile in PDF format allows you to  send the patient profile to design reviewers who do not have access to Medidata Patient Profiles. Therefore, reviewers without Medidata Patient Profiles can still evaluate the patient profile design and provide feedback to the designer regarding design layout adjustments.
+## User Impact
+ The table below depicts the various Patient Profiles user interface updates that support your ability to find, view, and export a patient profile.
+ Tip : Click images to enlarge.
+ Update 
+ Image 
+ | The Design page now includes the Profiles tab. 
+ | 
+ | 
+ The Profiles tab includes the Patient Selector table.
+ | 
+ | You can sort the Patient Selector table in ascending and descending alphanumeric order by clicking the Patient ID or Site ID column header. 
+ | 
+ Ascending: 
+ Descending: 
+ | You can expand and collapse the Patient Selector table. 
+ | 
+ Expanded: 
+ Collapsed: 
+ | The Profiles tab includes the patient profile display. 
+ | 
+ Note : Image is at 50 percent zoom to provide a wider perspective of the profile display.
+ | 
+ You can expand and collapse tables in the patient profile.
+ Note : All tables are expanded by default.
+ | 
+ Expanded: 
+ Collapsed: 
+ | The Design page includes the View PDF button. 
+ | 
+## Special Considerations
+ None.

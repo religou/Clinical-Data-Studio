@@ -1,0 +1,29 @@
+# Configure the Expected Risk Review Fields
+
+## Configure the Expected Risk Review Fields
+ You can configure Risk Assessment and Risk Inventory to s ignify the specific risk details and risk actions that your study team is expected to enter and document when adding or updating risks in the risk assessment. Marking risk assessment fields as expected helps ensure your study team addresses and fulfills all risk documentation requirements as dictated by the protocol. 
+- Access RBQM , and then click Configuration > Risks in the left-hand menu.
+The Risk Assessment Configuration pages shows. 
+- In the Risk Expected Fields > Risk Details section, select any of the following field names to signify as being fields that expect entries when adding or updating risks in the risk assessment :
+- Score – When logging risks, you can s core each risk in your study by assessing and assigning on a 3- or 5-point scale the Probability, Impact, and Detectability of the risk; also known as the risk score . Risk Assessment automatically multiplies the Probability, Impact, and Detectability risk factor scores to generate the overall risk score.  
+- Response – The risk response:
+- Accept 
+- Eliminate   
+- Mitigate 
+- Monitor 
+- Transfer 
+- Owner – T he role of the person responsible for tracking the risk. 
+- Category 
+- Status – The risk status:
+- Closed 
+- Open 
+- Transfer 
+- Watch 
+- Description – Extra details about this risk and rationale for documenting and tracking the risk. 
+- Source – The source of the risk. For example, from the Case Report Form (CRF) or third-party source documents. 
+- Include in the risk plan report – Select Yes or No to include or exclude the risk in the risk plan report. For example, you can exclude company operational risks documented in the risk assessment that are not directly related to the actual study. 
+- In the Risk Expected Fields > Risk Actions   section, select any of the following field names to signify as being fields that expect entries when adding or updating risks in the risk assessment :
+- Action Required – Document one or more actions for reviewing the risk. For example, if you drafted a report, added a KRI to the risk, changed risk review milestone dates, or completed a risk review. 
+- Action Taken – The date of the first risk review action. 
+- Closed Date – The date the risk review action is completed. 
+- Click Save Changes .

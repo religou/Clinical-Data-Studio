@@ -1,0 +1,66 @@
+# Developer Center: New Python Library and Other Enhancements
+
+## Developer Center: New Python Library and Other Enhancements
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the releases history . 
+- For a summary of all features released, the   released features index . 
+## Change Details
+ Product 
+ | Data Connect
+ Version 
+ | 2026.3.0
+ Enhancements (Update Functionality) 
+ | Enhancements (Update Functionality) 
+ Functionality or Module 
+ | Developer Center 
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ Data Connect introduces the Python SDK and updates the R SDK.  Both software development kits (SDKs) are available as beta releases in Developer Center . 
+ The Python SDK library: 
+- Provides access to Data Connect data. 
+- Lets you register data products created in Python back in Data Connect through the Library.  
+- Is now compatible with a native IDE for running the transformation script. 
+ The R SDK library now:
+- Presents a data frame containing invalid records from dry publish and publish operations. 
+- Updates the Dry Publish and Publish responses to include valid record counts and duplicate record counts. 
+- Creates a new version of a Custom Code dataset if you modify any key fields after the initial Publish operation. 
+ The Documentation page now includes new Python library documentation and updated R library documentation. 
+ Benefit to Users 
+ | 
+- Users can access and manage Data Connect data directly in Python and R environments. 
+- Compatibility with native IDEs lets users run Python transformation scripts. 
+- Validation messaging and record counts in R Studio help users identify duplicate and invalid records before publishing. 
+- Automatic version increments for datasets and transformation projects prevent manual tracking errors. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ All Data Connect users that use Developer Center. 
+ Important : R SDK, Python SDK and Developer Center is in BETA version. This capability is available as a limited release for selected users. 
+ Impact to Workflow Processes 
+ No impact to workflow processes. 
+ Impact to Applications 
+ No impact to other applications. 
+ Impact on Interface 
+ The Documentation page now includes an option for the Python library. 
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | Low 
+ Learning Resource Updates 
+ | 
+- Updated Article:  Developer Center 
+- Updated Article:  Generate Custom Code Projects 
+ For more articles and videos, see   Imports   and the  Data Connect Video Library 
+ Special Considerations 
+ | None.
+ To view Medidata testing documentation for this release, see the   Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

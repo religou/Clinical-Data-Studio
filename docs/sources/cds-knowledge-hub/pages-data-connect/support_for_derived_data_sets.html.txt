@@ -1,0 +1,33 @@
+# Support for Derived Data Sets
+
+## Support for Derived Data Sets
+## What Is New?
+ You can create derived data sets based on a combination various parameters. This feature introduces the following capabilities: 
+- No-code data set operations, configurations, and edits including:
+- Duplication 
+- Grouping 
+- Pivot and unpivot 
+- Union 
+- Subset 
+- Joins 
+- The ability to add derived variables to derived data sets 
+- Field mapping from a single source data set or current target data set to the derived variable using manually entered values 
+- No-code field transformation configuration to enable further derived variable customization 
+- Generated dataset live preview  
+- Data lineage of the transformation steps with indicators for root causes when errors occur  
+## What Is the Impact?
+## Users/Roles
+ All users.
+## Workflow Process
+ You can create derived data sets for data projects created with the Create from Existing Data Sources option.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ With derived data sets, you can combine and transform data sets to support downstream use cases and analytics.
+## Where Do I See the Change?
+ You can see live changes in the Data Preview tab while configuring derived data sets. Once published, you can see the final versions of derived data sets on the Study Projects screen > Data Source section > Curated Views list.  
+## Where Do I Learn More?
+ The Platform Workbench Publication provides new content to support this feature:
+- Generate Derived Datasets 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

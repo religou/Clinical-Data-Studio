@@ -1,0 +1,13 @@
+# New Home Page for MEDS Extractor
+
+## New Home Page for MEDS Extractor
+## Description
+ The initial home page for the MEDS Extractor no longer shows a navigation panel with a list of studies. Instead, you see the list of extract jobs across all your studies. The Job list panel includes a Study column displaying all the studies included in each individual extract job.  
+## Affected Roles
+ All.
+## Advantages
+ With the user interface update, you can see all of your  extract jobs in a single list.
+## User Impact
+ The new home page appears when you log into MEDS Extractor. From the new home page, all of your export jobs appear without having to select a study first.
+## Special Considerations
+ None.

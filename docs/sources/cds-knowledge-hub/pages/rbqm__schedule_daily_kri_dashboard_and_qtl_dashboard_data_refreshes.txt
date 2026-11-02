@@ -1,0 +1,28 @@
+# RBQM: Schedule Daily KRI Dashboard and QTL Dashboard Data Refreshes
+
+## RBQM: Schedule Daily KRI Dashboard and QTL Dashboard Data Refreshes
+## What Is New?
+ You can schedule the KRI Dashboard and QTL Dashboard to refresh and render a study's latest data analysis on a daily frequency.
+## What Is the Impact?
+## Users/Roles
+ Users with:
+- View KRI Dashboard permissions can view the KRI scheduler. 
+- Manage KRI Scheduler permissions can schedule and run refreshes. 
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Scheduling daily KRI Dashboard and QTL Dashboard data refreshes supports organizations running fast paced, high-density studies that require more frequent data analysis.
+## Where Do I See the Change?
+ The
+- RBQM > KRI Dashboard page > KRI Scheduler page > Refresh Schedule menu 
+- RBQM > QTL Dashboard page > QTL Scheduler page > Refresh Schedule menu 
+ now include the Daily option.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of these enhancements:
+- Schedule or Trigger When KRI Dashboard Refreshes and Outputs the Latest Study Data Analysis 
+- Schedule or Trigger When QTL Dashboard Refreshes and Outputs the Latest Study Data Analysis 
+## What Else Should I Know?
+ If you set the refresh schedule to daily, the KRI Dashboard and QTL Dashboard will only refresh if study data is uploaded for use in RBQM daily as well. Otherwise, the KRI Dashboard and QTL Dashboard will perform a data refresh on the next day that study data is uploaded and made available for analysis
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

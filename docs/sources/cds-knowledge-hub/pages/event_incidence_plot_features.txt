@@ -1,0 +1,7 @@
+# Event Incidence Plot Features
+
+## Event Incidence Plot Features
+ Medidata Detect includes the following event incidence plot-related capabilities:
+- Event Incidence Plot Improvements 
+- View Event Incidence at the Site- and Study-level 
+- Event Incidence Page Enhancements

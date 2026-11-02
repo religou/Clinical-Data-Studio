@@ -1,0 +1,14 @@
+# Duplicate Designs Within Studies
+
+## Duplicate Designs Within Studies
+ You can duplicate your master design to create alternate versions, which you can modify for consumption from audiences with different data interests. For example, you can create a design for a data manager, and then create and modify a duplicate with slightly different design configurations for a site manager.
+ Note : Design copies retain all derived variables and flags (percentage KRIs). You must delete the derived variables and flags from the new design destination, save the design, and then once again add the derived variables and flags to the new design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+The Patient Profile Designs page shows. 
+- Click the Published Designs tab or the Draft Designs tab, and then find the design you want to duplicate. 
+- Click  within the row of the corresponding design. 
+- Click Duplicate Within Study . 
+- Enter a Design Name .
+ Note : The design name must be distinct from any existing design's name within the study.
+- In Duplicate to... , select the study environment that you want to copy the design to. 
+- Click  Duplicate .

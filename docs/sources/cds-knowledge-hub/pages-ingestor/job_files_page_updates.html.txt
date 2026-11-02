@@ -1,0 +1,35 @@
+# Job Files Page Updates and SDM File Processing Update
+
+## Job Files Page Updates and SDM File Processing Update
+## Description
+ The Job Files screen includes the following new columns:
+- Job Report – Opens the Import Summary panel. 
+- File Name – Contains a count of the files uploaded in the processing job. For successful jobs, also shows a list of the uploaded files and their respective data set type.
+- Data Set Name – Shows the uploaded data file's data set type. 
+- Import Method – Shows the processing job's upload method:
+- User Upload – Files uploaded using the MEDS Ingestor user interface. 
+- SFTP – Files uploaded using SFTP. 
+- API – Files uploaded using API endpoints. 
+ The Job Files screen also includes the Supported Data Sets button. Clicking Supported Data Sets shows a list of the data set types the import job type supports.
+ In addition, you can upload Study Design Metadata (SDM) files with simplified file names. When a file name contains the name of a data set, MEDS Ingestor processes that file as that data set. For example:
+- Datasets – Must contain *datasets.csv; for example:  study_design_datasets.csv  or  datasets.csv. 
+- Fields – Must contain *fields.csv; for example: study_design_fields.csv or  fields.csv . 
+- Schedule of Assessments – Must contain *soa.csv; for example: study_design_soa.csv or  soa.csv . 
+- Visits – Must contain *visits.csv; for example:  study_design_vists.csv or  visits.csv. 
+ Feature/enhancement stories referenced in this article:
+ MCC-846413, MCC-866363, MCC-834704, MCC-866309, MCC-871120, MCC-873682 
+## Affected Roles
+ All roles with the ability to see the Job Configurations details. For details, see  Ingestor Roles and Permissions List .
+## Advantages
+ With the updated Job Files screen, you can have more comprehensive data about your processing jobs. In addition, the simplified SDM file name restrictions gives you more flexibility in naming your files.
+## User Impact
+ See Description. In addition, previously created import jobs include the new columns.
+## Knowledge Space Updates
+ The MEDS Ingestor Knowledge Space provides updated content to support this enhancement: 
+- Track Progress for Clinical Data Import Jobs 
+- Track Progress for CTMS Jobs 
+- Track Progress for Study Design Metadata Jobs 
+- Track Progress for Study Master Data Jobs 
+- Study Design Metadata File Standards 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

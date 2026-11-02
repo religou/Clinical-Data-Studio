@@ -1,0 +1,13 @@
+# View Audit Details for Deactivated QTLs
+
+## View Audit Details for Deactivated QTLs
+ You can view audit details for deactivated quality tolerance limits (QTLs) that describe when the QTL was deactivated, who deactivated the QTL, and why the QTL was deactivated for analysis.
+- Access RBQM , and then click Configuration > QTLs in the left-hand menu.
+The Quality Tolerance Limit page shows. 
+- In the Quality Tolerance Limits list > Status column, click   in the corresponding row of the deactivated QTL whose audit details you want to view. 
+- In the Deactivation Note, read the following details:
+- Deactivated Date  – The date and timestamp when the QTL was deactivated. 
+- Deactivated By  – The user in your organization who deactivated the QTL. 
+- Note  – The reason or justification that the QTL was deactivated. Deactivation notes are read-only. 
+- Click   to close the window and return to the Quality Tolerance Limits page. 
+ Note : Formerly deactivated QTLs that have since been reactivated no longer appear the   in the Status column or have an associated deactivation note.

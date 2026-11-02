@@ -1,0 +1,27 @@
+# View Risk Notifications
+
+## View Risk Notifications
+ When creating risk assessments, risk managers can  assign risk assessment participants . Risk assessment participants are study team members involved in creating the risk assessment and identifying study risks. When adding participants, risk managers can enable participants who are iMedidata users to   receive iMedidata notifications when a risk assessment is overdue or when a risk is ready for review. 
+ Notifications are processed and sent through the Medidata's Notification Center. To learn more, see About Notification Center .  
+ You can view the risk notifications in two forms: 
+- Email notifications with a deep-link sent to your email inbox. 
+- In-app notifications accessible by way of the Medidata platform user interface. 
+ Risk Management provides two types of notifications at the risk level.
+- Risk Review Due Soon (warning). 
+- Risk Review Overdue (Critical). 
+ All users have access to notifications. However, these are not available until an event is triggered for users by the app. Users can then access the information from the email or by clicking a link in the user profile dropdown.
+ Note : You must be assigned as a Risk Owner to receive notifications.
+ Additionally, a new notification is available at the Risk Assessment level. The notification is sent to all participants of the risk assessment when the next planned assessment date has passed
+## View Risk Notifications Through Email
+- Open the email notification you receive from Medidata.
+- Click View in Notification Center . 
+- On the Notifications page, depending on the risk status, a message regarding the risk review appears. A sample message is as follows:
+ The participant can take further steps as necessary to manage the risk. For example, a pharmacist who identifies risks associated with the toxicity of a drug being studied may assess the study protocol for further guidance. To learn more, see  Manage Risks .
+## View Risk Notifications in the Notification Center
+- Log in to iMedidata.com. 
+- Click the Notifications icon in the iMedidata toolbar.
+ Note : An icon with a red circle  indicates new, unread notifications.
+The Notifications page shows all notifications you have received, listed in order from newest at top.
+ Note : You can continuously scroll through notifications to the end. When you reach the bottom, if there are more notifications, then the page automatically shows the notifications.
+- Optional. In the left-hand pane, click to filter the Notifications page to show specific notifications by type: All, Information, Warning, or Critical.
+ The participant can take further steps as necessary to manage the risk. For example, a pharmacist who identifies risks associated with the toxicity of a drug being studied may assess the study protocol for further guidance. To learn more, see Manage Risks .

@@ -1,0 +1,48 @@
+# Grant Access to RBQM
+
+## Grant Access to RBQM
+ You must to give users relevant building blocks to access, use, and manage Clinical Data Studio and its capabilities.  To access and use Clinical Data Studio, users' customer-defined platform role  must include the appropriate building blocks.  For a detailed list of applicable Clinical Data Studio building blocks, see:
+- Data Surveillance Building Blocks and Permissions 
+- RBQM Building Blocks and Permissions 
+- Data Connect Building Blocks and Permissions 
+## Configure Roles
+ You must configure customer-defined platform roles before you can assign the roles to users. You can either create roles or update roles. For more information on configuring roles in Cloud Administration, see Assign User Roles. 
+## Create Role 
+ You can create new roles specifically to access Extractor. 
+- Log into  iMedidata.com . 
+- Click your study group in the  Study Groups  pane. 
+- Click  Manage Roles . 
+- Select  Add Roles >  Add New Role . 
+- Complete the  Add a Role  form:
+- Enter a role Name. 
+- Select any Standard Role.
+- Select one or more building blocks. 
+- Click  Save . 
+## Assign Roles
+ You must assign customer-defined platform roles to users for the users to access Extractor. You can assign users are either the client division level or the study level.
+ Important : To extract data with the Medidata Rave and Audit CTMS data types for a given study, you must also use Cloud Administration's Manage Access tools to set Site and Country Access to all sites and countries.
+## Assign Roles at Client Division Level
+ For more information on assigning roles at the client division level in Cloud Administration, see  Assign User Access to Study Groups .
+- Navigate to a client division in Cloud Administration. 
+- Click Manage People   in the left-hand navigation. 
+- Open the  Add Person menu  and click   Add Access . 
+- Select the invitation email locale.
+ Note :  Information about Email Invitation Locale 
+ The invitation menu only sets the locale of invitation emails for users without existing iMedidata accounts. Existing users receive notifications in their current locale.
+- Enter user email addresses into the Email field.
+You can enter up to 25 email addresses. 
+- Select  Client Division . 
+- Select any applicable roles from the Roles menu. 
+- Click Assign Access . 
+## Assign Roles at Study Level
+ For more information on assigning roles in Cloud Administration, see  Assign User Access to Study Environments and Sites .
+ Tip : You can also upload a user data file to Cloud Administration to update multiple users. For details, see  Upload Users to a Study .
+- Log into iMedidata.com . 
+- Click your study in the  Studies  pane. 
+- Click  Manage Access . 
+- Click  Add Users >  Add Access 
+- Type or paste the emails of the users you want to add into the  Emails field.
+ Tip : You can enter up to 25 email addresses at once.
+- Select the environment you grant access. 
+- Select the applicable roles from the  Roles  dropdown. 
+- Click Assign Access .

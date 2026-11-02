@@ -1,0 +1,24 @@
+# View a Patient's Profile from Detect to Analyze Patient-Level Details
+
+## View a Patient's Profile from Detect to Analyze Patient-Level Details
+## Description
+ Detect users with authorized Medidata Patient Profiles access can launch and view individual patient profiles from Detect's Error Plots page and Event Incidence Plot page. You can also save and print the patient profiles as a PDF. 
+## Affected Roles
+- Data managers 
+- Medical Monitors 
+## Advantages
+ Within Detect, authorized users can quickly navigate to a patient's data within Patients Profiles. This enables you to: 
+- Quickly drill into Patient Profiles directly from Detect's error plot  and event incidence plot to help you better understand the patient's data in context. 
+- Seamlessly perform data point analysis on specific patients to determine why the patient is an outlier . 
+- Conveniently view data in a per-patient format to understand the patients’ journey throughout the trial. 
+## User Impact
+ You can navigate to a patient's data within Patient Profiles from the Error Plots page or Event Incidence Plot page.
+ On the Error Plots page, you can access a patient's profile using the following methods:
+- When viewing a Text Analysis plot  or Text Versus Text Analysis plot: click an individual data point to view additional details , and then click any blue, hyperlinked patient ID in the Patient column. Clicking a patient ID launches that individual patient's profile in a new tab. 
+- When viewing any error plot visualization type: navigate to the Summary table > select Patient or Data: Top 100 Outliers from the View By dropdown > click any blue, hyperlinked patient ID in the Patient column.  Clicking a patient ID launches that individual patient's profile in a new tab. 
+ On the Event Incidence Plot page, you can access a patient's profile using the following method: 
+- Click an individual data point to view additional details , and then click any blue, hyperlinked patient ID in the Patient column. Clicking a patient ID launches that individual patient's profile in a new tab. 
+ Within the patient profile window, you can click the View PDF button to view and save the patient profile as a PDF. 
+## Special Considerations
+ You can only view patient profiles for patients that have a master patient profile design configured in Medidata Patient Profiles . 
+ Only users with 'View Profile' Cloud Administration  permission granted can view patient IDs as hyperlinks and access individual patient profiles from Detect.

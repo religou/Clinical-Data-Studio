@@ -1,0 +1,26 @@
+# KRI Configuration Features
+
+## KRI Configuration Features
+ RBQM Configuration Manager includes the following key risk indicators (KRI)-related capabilities:
+- RBQM: Schedule Daily KRI Dashboard and QTL Dashboard Data Refreshes 
+- Configuration and Reporting: Preview the Number of Patients That Exceed a QTL or Percentage KRI Risk Threshold 
+- Detect Configuration Manager Minor Enhancements 
+- Add and Edit Custom KRIs in RBQM Configuration Manager 
+- KRI and QTL Configuration Updates 
+- Configure Custom KRI Thresholds 
+- Configure How Detect Determines and Signifies a Site's Level of Risk 
+- KRI Configuration November 2022 Minor Enhancements 
+- Save and Reuse Custom KRI Configurations as Templates 
+- Improved Percentage KRI Configuration Logic 
+- KRI Configuration Report Enhancements 
+- Preview the Number of Patients That Exceed a Percentage KRI's Risk Threshold 
+- Edit KRI Details and Configurations 
+- Export and Download Customizable KRI Table Snapshots 
+- Activate and Deactivate KRIs in RBQM Configuration Manager 
+- View, Filter, and Sort the Key Risk Indicators Table in RBQM Configuration Manager 
+- Add and Edit Custom Percentage KRIs 
+- Deactivate System KRIs from Displaying in Medidata Detect 
+- Download QTL and KRI Configuration Report PDFs 
+- Detect Landing Page Enhancement 
+- View Comprehensive Audits of KRI and QTL Configurations 
+- Percentage KRI Configuration Risk Threshold Edit Checks

@@ -1,0 +1,18 @@
+# Copy Designs To Different Studies
+
+## Copy Designs To Different Studies
+ Studies within the same therapeutic area usually follow the same standards and are similar. Hence copying designs between studies allows data managers to build new master designs by copying existing designs between studies and removing or replacing missing data set variables. You can copy both published and draft designs. If you copy designs or elements between studies, the original study or element might have patient data that does not match exactly with the destination study. 
+ Note : Design copies retain all derived variables and flags (percentage KRIs). You must delete the derived variables and flags from the new design destination, save the design, and then once again add the derived variables and flags to the new design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+The Patient Profile Designs page shows. 
+- Click the Published Designs tab or the Draft Designs tab, and then find the design you want to duplicate. 
+- Click   within the row of corresponding design. 
+- Click Copy to another Study . 
+- In the Copy dialog, select the following:
+- Client Division – Shows all client divisions that you have access to. Select the client division containing the target study you want to copy to. 
+- Study Group – Shows all study groups you have access to within the selected client division. Select the study group containing the target study you want to copy to. 
+- Study – Shows all studies you have access to within the selected study group. Select the study you want to copy to. 
+- Study Environment – Shows all study environments you have access to within the select study. Select the study environment that you want to copy to. 
+- Click  Copy .
+ Note :  A copied design with missing variables shows a yellow warning banner at the top of the Designs page. Yellow markers also appear next to elements with missing data within the copied design.
+You cannot copy or set a design with missing variables as a master for Detect.

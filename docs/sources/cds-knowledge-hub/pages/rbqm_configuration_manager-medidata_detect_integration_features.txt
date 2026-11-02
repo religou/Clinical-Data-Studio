@@ -1,0 +1,6 @@
+# RBQM Configuration Manager-Medidata Detect Integration Features
+
+## RBQM Configuration Manager-Medidata Detect Integration Features
+ RBQM Configuration Manager includes the following capabilities related to RBQM Configuration Manager-Medidata Detect Integration:
+- RBQM: Set Observation Thresholds For Modules Using Signal Configurations 
+- RBQM Configuration Manager Integrates with Medidata Detect

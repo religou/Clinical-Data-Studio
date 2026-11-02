@@ -1,0 +1,29 @@
+# View Current and Historical QTL Value Trends
+
+## View Current and Historical QTL Value Trends
+## Description
+ In addition to tracking QTL values based on the most recent study data, Detect now displays historical QTL data based on:
+- QTL value behavior over time. 
+- QTL value behavior based on number of study patients. 
+## Affected Roles
+- Study managers 
+- Medical monitors 
+## Advantages
+ Viewing QTL performance over time allows you to:
+- Investigate the historical performance and potential root cause of QTLs that are not performing as well as desired or expected. 
+- Identify as well as prevent or mitigate systematic issues early on in the study that may: 
+- Threaten subject safety or study efficacy. 
+- Invalidate the reliability of the study findings. 
+- Determine the impact of mitigating actions made on a QTL's target study parameter. 
+## User Impact
+ The QTL Dashboard now allows you to toggle between three different graphical views of your QTL data:
+- Live – View each QTL's status based on the new QTL calculation approach - considering expectation, threshold, and upper limit. 
+- Patients – View each QTL's performance (observed value compared to expectation, threshold, and limit) against the number of patients from the target population at the time (dates only) the QTL was run. 
+- Time – View each QTL's performance (observed value compared to expectation, threshold, and limit) over time, where timepoints are QTL data run datestamps.  
+ To learn more, see About Quality Tolerance Limits .
+## Knowledge Space Updates
+ The QTLs Knowledge Space provides new and updated content to support this feature: 
+- About Quality Tolerance Limits 
+## Special Considerations
+ QTL analysis does not display until the number of patients hits the trigger point.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

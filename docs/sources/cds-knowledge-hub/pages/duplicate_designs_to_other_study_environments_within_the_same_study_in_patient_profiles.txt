@@ -1,0 +1,13 @@
+# Duplicate Designs to Other Study Environments Within the Same Study in Patient Profiles
+
+## Duplicate Designs to Other Study Environments Within the Same Study in Patient Profiles
+## Description
+ You can now copy a single profile design from a study environment to any other environment that you have access to within the same study.
+## Affected Roles
+ All.
+## Advantages
+ In previous Patient Profiles versions, there was no way to duplicate a profile design from one study environment to another environment within the same study. Therefore, any time you wanted to see your design in different study environments, you needed to rebuild the design in each environment. Now you can quickly and easily duplicate a design to any study environment you have access to. This saves you time and effort and also ensures that your designs are initially the same when you migrate to other environments.
+## User Impact
+ In the Patient Profile Design list: when you click   for any design and then click Duplicate , then the ensuing Duplicate Design dialog box now displays a Duplicate to... dropdown. You can click the dropdown to select any study environment that you have access to that you want to copy your design to.
+## Special Considerations
+ None.

@@ -1,0 +1,839 @@
+0	Clinical Data Studio	clinical_data_studio_homepage.html
+1	Clinical Data Studio Release Notes	clinical_data_studio_release_notes.html
+2	Clinical Data Studio 2026.3.5 Standard Software Update Release Notes	clinical_data_studio_2026_3_5_standard_software_update_release_notes.html
+3	KRI Dashboard: Technical Enhancements	technical_enhancements_in_rbqm.html
+3	Clinical Data Studio 2026.3.5 Resolved Issues List	clinical_data_studio_2026_3_5_resolved_issues_list.html
+3	Clinical Data Studio 2026.3.5 Known Issues List	clinical_data_studio_2026_3_5_known_issues_list.html
+3	Clinical Data Studio 2026.3.5 Released Features Index	clinical_data_studio_2026_3_5_released_features_index.html
+3	Clinical Data Studio 2026.3.5 Release Notes Revision History	clinical_data_studio_2026_3_5_release_notes_revision_history.html
+2	Clinical Data Studio 2026.3.4 Standard Software Update Release Notes	clinical_data_studio_2026_3_4_standard_software_update_release_notes.html
+3	Clinical Data Studio 2026.3.4 Resolved Issues List	clinical_data_studio_2026_3_4_resolved_issues_list.html
+3	Clinical Data Studio 2026.3.4 Known Issues List	clinical_data_studio_2026_3_4_known_issues_list.html
+3	Clinical Data Studio 2026.3.4 Released Features Index	clinical_data_studio_2026_3_4_released_features_index.html
+3	Clinical Data Studio 2026.3.4 Release Notes Revision History	clinical_data_studio_2026_3_4_release_notes_revision_history.html
+2	Clinical Data Studio 2026.3.3 Standard Software Update Release Notes	clinical_data_studio_2026_3_3_standard_software_update_release_notes.html
+3	Technical Enhancements in RBQM and Data Surveillance	technical_enhancements_in_rbqm_and_data_surveillance.html
+3	Clinical Data Studio 2026.3.3 Resolved Issues List	clinical_data_studio_2026_3_3_resolved_issues_list.html
+3	Clinical Data Studio 2026.3.3 Known Issues List	clinical_data_studio_2026_3_3_known_issues_list.html
+3	Clinical Data Studio 2026.3.3 Released Features Index	clinical_data_studio_2026_3_3_released_features_index.html
+3	Clinical Data Studio 2026.3.3 Release Notes Revision History	clinical_data_studio_2026_3_3_release_notes_revision_history.html
+2	Clinical Data Studio 2026.3.2 Standard Software Update Release Notes	clinical_data_studio_2026_3_2_standard_software_update_release_notes.html
+3	Listings: Create Multiconditional Missing Records Expressions With OR Operator	listings__create_multiconditional_missing_records_expressions_with_or_operator.html
+3	Listings: Technical Enhancements	listings__technical_enhancements.html
+3	Internal and Technical Enhancements in RBQM and Data Surveillance	internal_and_technical_enhancements_in_rbqm_and_data_surveillance.html
+3	Clinical Data Studio 2026.3.2 Resolved Issues List	clinical_data_studio_2026_3_2_resolved_issues_list.html
+3	Clinical Data Studio 2026.3.2 Known Issues List	clinical_data_studio_2026_3_2_known_issues_list.html
+3	Clinical Data Studio 2026.3.2 Released Features Index	clinical_data_studio_2026_3_2_released_features_index.html
+3	Clinical Data Studio 2026.3.2 Release Notes Revision History	clinical_data_studio_2026_3_2_release_notes_revision_history.html
+2	Clinical Data Studio 2026.3.1 Urgent Software Update Release Notes	clinical_data_studio_2026_3_1_urgent_software_update_release_notes.html
+3	Clinical Data Studio 2026.3.1 Resolved Issues List	clinical_data_studio_2026_3_1_resolved_issues_list_1.html
+3	Clinical Data Studio 2026.3.1 Urgent Software Update Revision History	clinical_data_studio_2026_3_1_urgent_software_update_revision_history.html
+2	Clinical Data Studio 2026.3.0 Feature Release Notes	clinical_data_studio_2026_3_0_feature_release_notes.html
+3	Protocol Integrity Report: Protocol Integrity Report Now Available	protocol_integrity_report__protocol_integrity_report_now_available.html
+3	Data Quality Hub: Centralized, Prioritized View of Site-level Data Quality	data_quality_hub__centralized__prioritized_view_of_site-level_data_quality.html
+3	Data Surveillance Configuration: Schedule Data Refreshes Using Unified Scheduler	data_surveillance_configuration__schedule_data_refreshes_using_unified_scheduler.html
+3	Patient Profiles: Get Newest Published Designs Data Using On-Demand And Scheduled Refreshes	patient_profiles__get_newest_published_designs_data_using_on-demand_and_scheduled_refreshes.html
+3	Listings: Get Newest Listings Data With On-Demand And Scheduled Refreshes	listings__get_newest_listings_data_with_on-demand_and_scheduled_refreshes.html
+3	Data Oversight: Updated And Rebranded Task Oversight Includes Enhanced Capabilities	data_oversight__updated_and_rebranded_task_oversight_includes_enhanced_capabilities.html
+3	Templates: View and Manage Listing, KRI, QTL, and Custom Graph Templates in the Platform Library	platform_library__manage_templates_using_template_groups.html
+3	Custom Graphs: Rebranded Visualizations Includes On-Demand And Scheduled Data Refreshes	custom_graphs__rebranded_visualizations_includes_on-demand_and_scheduled_data_refreshes.html
+3	Custom Graphs: Summary Table Highlights Critical Data	custom_graphs__summary_table_highlights_critical_data.html
+3	Risk Assessment: View Audit Reports for Critical Data, Critical Processes, and Categorization	risk_assessment__view_and_export_audit_reports_for_critical_data__critical_processes__and_categorization.html
+3	Vendor Queries: View Audit Reports for Vendor Queries and Vendor Feedback	data_surveillance__view_and_export_audit_reports_for_vendor_queries_and_vendor_feedback.html
+3	Custom Graphs: View Audit Reports for Custom Graphs	data_surveillance__view_and_export_audit_reports_for_custom_graphs.html
+3	Clean Patient Tracker: Aggregated Count of Outstanding Tasks by Patient Chart Replaces Patients in Progress By Site and Outstanding Tasks Charts	clean_patient_tracker__aggregated_count_of_outstanding_tasks_by_patient_chart_replaces_patients_in_progress_by_site_and_outstanding_tasks_charts.html
+3	Audit Trail Review: Data Preview Shows Audit Site's Local Time	audit_trail_review__data_preview_shows_audit_site_s_local_time.html
+3	Configuration: Oncology Mapping Removes Enriched Date Variable Mapping Options	configuration__oncology_mapping_removes_enriched_date_variables_mapping_options.html
+3	Clinical Data Studio 2026.3.0 Resolved Issues List	clinical_data_studio_2026_3_0_resolved_issues_list.html
+3	Clinical Data Studio 2026.3.0 Known Issues List	clinical_data_studio_2026_3_0_known_issues_list.html
+3	Clinical Data Studio 2026.3.0 Released Features Index	clinical_data_studio_2026_3_0_released_features_index.html
+3	Clinical Data Studio Releases History	clinical_data_studio_releases_history.html
+4	Detect Landing Page Releases History	detect_landing_page_releases_history.html
+4	Patient Profiles Releases History	patient_profiles_releases_history.html
+4	Data Reviewer Releases History	data_reviewer_releases_history.html
+4	Centralized Statistical Monitoring Releases History	centralized_statistical_monitoring_releases_history.html
+4	Detect Configuration Manager Releases History	detect_configuration_manager_releases_history.html
+3	Clinical Data Studio 2026.3.0 Release Notes Revision History	clinical_data_studio_2026_3_0_release_notes_revision_history.html
+2	Current Known Issues for Clinical Data Studio	current_known_issues_for_clinical_data_studio.html
+2	Issues Resolved Outside of Clinical Data Studio	issues_resolved_outside_of_clinical_data_studio.html
+2	Clinical Data Studio Released Features	clinical_data_studio_released_features.html
+3	Data Oversight	data_oversight.html
+4	Data Oversight: Monitor Counts of Issues, Patients, and Study Data Using Data Oversight	data_oversight__monitor_counts_of_issues__patients__and_study_data_using_data_oversight_dashboard.html
+3	Review Reports, Templates, and RBQM Overview Released Features	detect_landing_page_released_features.html
+4	Review Reports: Template Group's KRIs Template List Includes Numeric KRI Filter Criteria	detect_landing_page__template_group_s_kris_template_list_includes_numeric_kri_filter_criteria.html
+4	Detect Global Template Library and Template Groups	detect_global_template_library_and_template_groups.html
+5	Detect Global Template Library Template Groups Now Support QTL Templates	detect_global_template_library_template_groups_now_support_qtl_templates.html
+4	Detect Landing Page Includes the Insights Module Card	detect_landing_page_includes_the_insights_module_card.html
+4	Detect Landing Page Navigation	detect_landing_page_navigation.html
+5	Detect Landing Page: Insights Card Relabels Unclean Patients to In Progress Patients	detect_landing_page__insights_card_relabels_unclean_patients_to_in_progress_patients.html
+5	Medidata Detect Knowledge Space Consolidates User Assistance and Release Notes For All Detect Applications	medidata_detect_knowledge_space_consolidates_user_assistance_and_release_notes_for_all_detect_applications.html
+5	Improved Navigation In Patient Profiles 2022.2.0	improved_navigation_in_patient_profiles_2022_2_0.html
+5	Improved Navigation and Rebranding in Centralized Statistical Monitoring 2022.1.0	improved_navigation_and_rebranding_in_centralized_statistical_monitoring_2022_1_0.html
+5	Navigation Across Detect Modules	navigation_across_detect_modules.html
+5	One-click Access To Detect Landing Page User Assistance	one-click_access_to_detect_landing_page_user_assistance.html
+5	Detect Landing Page Shows Module-level Status Details and High-level Analytics	detect_landing_page_shows_module-level_status_details_and_high-level_analytics.html
+5	Detect Landing Page Includes Risk Management Module Card	detect_landing_page_includes_risk_management_module_card.html
+5	Detect Landing Page Module Cards Renamed and Reorganized	detect_landing_page_module_cards_renamed_and_reorganized.html
+5	Detect Landing Page: PDS Module Card Provides Access to Stacked Datasets and Vendor Configuration	detect_landing_page__pds_module_card_provides_access_to_stacked_datasets_and_vendor_configuration.html
+4	Detect Applications No Longer Available On iMedidata	detect_applications_no_longer_available_on_imedidata.html
+4	DLP-Resolved Issues	dlp-resolved_issues.html
+5	Medidata Detect Landing Page 2022.2.0 Resolved Issues List	medidata_detect_landing_page_2022_2_0_resolved_issues_list.html
+5	Medidata Detect Landing Page 2022.1.0 Resolved Issues List	medidata_detect_landing_page_2022_1_0_resolved_issues_list.html
+3	Risk Management Released Features	risk_management_released_features.html
+4	Critical Data Features	critical_data_features.html
+5	Critical Data Identification	critical_data_identification.html
+5	Risk Management: Associate Critical Data Elements with Specific Data Points	risk_management__associate_critical_data_elements_with_specific_data_points.html
+4	Critical Processes Features	critical_processes_features.html
+5	Critical Processes Identification	critical_processes_identification.html
+5	Critical Processes Support in Risk Management 2020.1.0	critical_processes_support_in_risk_management_2020_1_0.html
+4	Risk Categorization Features	risk_categorization_features.html
+5	Risk Review Detailed Page Improvements	risk_review_detailed_page_improvements.html
+5	Flexible Risk Categories and Risk Category Templates	flexible_risk_categories_and_risk_category_templates.html
+5	Multiple Key Risk Indicators for a Risk	multiple_key_risk_indicators_for_a_risk.html
+5	Multiple Quality Tolerance Limits for a Risk	multiple_quality_tolerance_limits_for_a_risk.html
+5	New Required QTL Fields	new_required_qtl_fields.html
+5	New Risk Category Added for Diversity	new_risk_category_added_for_diversity.html
+5	Risk Categorization and Risk Scoring	risk_categorization_and_risk_scoring.html
+5	Warning Messages to Help You Avoid Unintentional Data Loss	warning_messages_to_help_you_avoid_unintentional_data_loss.html
+5	Add Custom Risk Categories to Templates and Associated Studies	add_custom_risk_categories_to_templates_and_associated_studies.html
+4	Risk Assessment: General Enhancements	risk_management__general_enhancements.html
+4	Risk Inventory Features	risk_inventory_features.html
+5	Last Action Taken Date Excludes Future Dates	last_action_taken_date_excludes_future_dates.html
+5	RBQM: Risk Inventory Filter Selections Persist When Changing Tabs	risk_inventory_filter_selections_persist_when_changing_tabs.html
+5	Action Taken Enhancements for Risks	action_taken_enhancements_for_risks.html
+5	Improved Support for Risk Reviews	improved_support_for_risk_reviews.html
+5	Quality Tolerance Limit (QTL) Changes in Risk Management 2023.1.0	quality_tolerance_limit__qtl__changes_in_risk_management_2023_1_0.html
+5	Risk Inventory	risk_inventory.html
+5	Risk Inventory Includes Study Risk Score	risk_inventory_includes_study_risk_score.html
+5	User Interface Changes to Risk Table Column Headers	user_interface_changes_to_risk_table_column_headers.html
+4	Risk Assessment Features	risk_assessment_features.html
+5	Risks Assessment: Download Current Risk Assessment Details Versions In Excel Format	risks_assessment__download_current_risk_assessment_versions_in_excel_format.html
+5	RBQM: Associate Mitigations with Functional Plans	rbqm__associated_mitigations_with_functional_plans.html
+5	RBQM: Risk Assessment Quality of Life Improvements for RBQM September 2024	rbqm__risk_assessment_quality_of_life_improvements_for_rbqm_september_2024.html
+5	RBQM: Updated Risk Assessment Page Enables Better Study Risk Assessment	rbqm__updated_risk_assessment_page_enables_better_study_risk_assessment.html
+5	Customize Study Specific Risk Assessment Using Risk Assessment Configurations	customize_study_specific_risk_assessment_using_risk_assessment_configurations.html
+5	RBQM: Risk Inventory, Add Risk And Risk Review Page Updates Enable Identification of Incomplete Risks	rbqm__risk_inventory__add_risk_and_risk_review_page_updates_enable_identification_of_incomplete_risks.html
+5	Risk Assessment Added to Risk Management 2022.3.0	risk_assessment_added_to_risk_management_2022_3_0.html
+4	Risk Assessment: Reuse Templates Across Study Groups	risk_management__reuse_templates_across_study_groups.html
+5	RBQM Library: Import Custom Templates Across Study Groups	risk_management__import_custom_templates_across_study_groups.html
+4	Risk Plan Reports	risk_plan_reports.html
+5	Quality Tolerance Limit Summary Report	quality_tolerance_limit_summary_report.html
+5	Risk Plan Reporting	risk_plan_reporting.html
+5	User Interface Changes to the Risk Plan Report	user_interface_changes_to_the_risk_plan_report.html
+4	UI Updates and Technical Enhancements Risk Management	ui_updates_and_technical_enhancements_risk_management.html
+5	Risk Assessment: Updated Risk Management Provides A Better User Experience	risk_assessment__updated_risk_management_provides_a_better_user_experience.html
+5	Risk Management Enhancements	risk_management_enhancements.html
+5	RBQM: Redesigned Risk Documentation Interface Mirrors and Streamlines Risk Examination Workflow	rbqm__risk_documentation_interface_design__style__and_usability_improvements.html
+5	RBQM: Technical Changes In Risk Assessment	rbqm__technical_changes_in_risk_assessment.html
+5	Context Sensitive Help for Risk Management	context_sensitive_help_for_risk_management.html
+5	Internal and Technical Changes in Risk Management 2020.2.0	internal_and_technical_changes_in_risk_management_2020_2_0.html
+5	Internal and Technical Changes in Risk Management 2021.2.0	internal_and_technical_changes_in_risk_management_2021_2_0.html
+5	Internal and Technical Changes in Risk Management 2021.3.0	internal_and_technical_changes_in_risk_management_2021_3_0.html
+5	Internal and Technical Changes in Risk Management 2022.3.0	internal_and_technical_changes_in_risk_management_2022_3_0.html
+5	User Interface Changes in Risk Management 2022.3.0	user_interface_changes_in_risk_management_2022_3_0.html
+5	Find the Precise, Comprehensive Risk Management User Assistance You Need	find_the_precise__comprehensive_risk_management_user_assistance_you_need.html
+4	Resolved Issues Risk Management	resolved_issues_risk_management.html
+5	Risk Management 2020.1.0 Resolved Issues List	risk_management_2020_1_0_resolved_issues_list.html
+5	Risk Management 2020.2.0 Resolved Issues List	risk_management_2020_2_0_resolved_issues_list.html
+5	Risk Management 2021.1.0 Resolved Issues List	risk_management_2021_1_0_resolved_issues_list.html
+5	Risk Management 2021.2.0 Resolved Issues List	risk_management_2021_2_0_resolved_issues_list.html
+5	Risk Management 2021.3.0 Resolved Issues List	risk_management_2021_3_0_resolved_issues_list.html
+5	Risk Management 2021.3.1 Resolved Issues List	risk_management_2021_3_1_resolved_issues_list.html
+5	Risk Management 2022.1.0 Resolved Issues List	risk_management_2022_1_0_resolved_issues_list.html
+5	Risk Management 2022.2.0 Resolved Issues List	risk_management_2022_2_0_resolved_issues_list.html
+5	Risk Management 2022.3.0 Resolved Issues List	risk_management_2022_3_0_resolved_issues_list.html
+5	Risk Management 2022.3.1 Resolved Issues List	risk_management_2022_3_1_resolved_issues_list.html
+5	Risk Management 2023.1.1 Resolved Issues List	risk_management_2023_1_1_resolved_issues_list.html
+5	Risk Management 2023.1.2 Resolved Issues List	risk_management_2023_1_2_resolved_issues_list.html
+3	Data Reviewer Released Features	data_reviewer_released_features.html
+4	Data Reviewer Features	data_reviewer_features.html
+5	EDC Queries: Track Queries Created From The Queries Dataset Using Open EDC Queries	edc_queries__track_queries_created_from_the_queries_dataset_using_edc_queries.html
+5	Data Surveillance: Access All Open EDC Queries Using The Queries Dataset	data_surveillance__access_all_open_edc_queries_using_the_queries_dataset.html
+5	Listings: Obtain Latest Listings Study Data With Simultaneous Refresh	listings__obtain_latest_listings_study_data_with_simultaneous_refresh.html
+5	Listings: Copy Listings Within And Across Study Environments	listings__copy_listings_within_and_across_study_environments.html
+5	Listings: Query Rave Data using Derived Datasets	listings__query_rave_data_using_derived_datasets.html
+5	PDS: Data Reviewer Shows Snapshot Timestamp of Data Currently Presented on Screen	pds__data_reviewer_shows_snapshot_timestamp_of_data_currently_presented_on_screen.html
+5	PDS: View and Use Stacked Datasets in Data Reviewer	pds__view_and_use_stacked_datasets_in_data_reviewer.html
+5	PDS: Data Reviewer Includes WHODRUG- and MEDRA-coded Terms as Seletable Variables	pds__data_reviewer_includes_whodrug-_and_medra-coded_terms_as_seletable_variables.html
+5	Data Set Pre-Filtering By Site Or Subject	data_set_pre-filtering_by_site_or_subject.html
+5	Data Reviewer Enhancements	data_reviewer_enhancements.html
+5	Data Reviewer Identifies Rave And External Data Sets In A Study	data_reviewer_identifies_rave_and_external_data_sets_in_a_study.html
+5	Hide, Show, And Reposition Data Set Variable Columns	hide__show__and_reposition_data_set_variable_columns.html
+5	Expansion Updates to Data Sets Panel	expansion_updates_to_data_sets_panel.html
+5	Data Loading Performance Fixes	data_loading_performance_fixes.html
+5	Data Set Viewer Interface Updates	data_set_viewer_interface_updates.html
+5	Upgraded Data Set Variable Filtering	upgraded_data_set_variable_filtering.html
+5	Data Variable Names Appear as in Patient Profiles	data_variable_names_appear_as_in_patient_profiles.html
+5	Data Set Variables Appear as Column Headers	data_set_variables_appear_as_column_headers.html
+5	Data Set Pre-Filtering Displays Site Number	data_set_pre-filtering_displays_site_number.html
+5	Data Variables - Sort Dates and Numbers in Ascending and Descending Order	data_variables_-_sort_dates_and_numbers_in_ascending_and_descending_order.html
+5	Review Data Sets With MEDS Data Viewer	review_data_sets_with_meds_data_viewer.html
+5	Data Reviewer Streamlines Navigation to View A Patient's Rave Data	data_reviewer_streamlines_navigation_to_view_a_patient_s_rave_data.html
+5	PDS: Build Custom Study Data Visualizations On Demand	pds__build_custom_study_data_visualizations_on_demand.html
+4	Oncology Features	oncology_features.html
+5	Oncology: Data Refresh Limit Prevents Performance Degradation	oncology__data_refresh_limited_to_two_per_day.html
+5	Data Surveillance: Improved RECIST 1.1 Dashboard Enables Better Information Access	data_surveillance__improved_recist_1_1_dashboard_enables_better_information_access.html
+5	Data Surveillance: Access Patient Profiles Directly From RECIST 1.1 Dashboard	data_surveillance__access_patient_profiles_directly_from_recist_1_1_dashboard.html
+5	PDS: Track Patient Tumor Burden Data with The RECIST 1.1  Dashboard	pds__track_patient_tumor_burden_data_with_the_recist_1_1__dashboard.html
+4	Vendor Issues Features	vendor_issues_features.html
+5	Vendor Queries: Vendor Query Shows Vendor Personnel Name After Vendor Provides Response	vendor_queries__vendor_query_shows_vendor_personnel_name_after_vendor_provides_response.html
+5	Data Surveillance: Updated Listings Enable Better Vendor Queries Access	data_surveillance__updated_listings_enable_better_vendor_queries_access.html
+5	Data Surveillance: Vendor Queries Enables Submitting Queries Directly To Vendors	data_surveillance__vendor_queries_enables_submitting_queries_directly_to_vendors.html
+5	Data Surveillance: Vendor Issue Sets for Listings Renamed To Vendor Queries	data_surveillance__vendor_issue_sets_for_listings_renamed_to_vendor_queries.html
+5	Data Surveillance: Updated Vendor Issue Sets Page Provides Better Usability	data_surveillance__updated_vendor_issue_sets_page_provides_better_usability.html
+5	Data Surveillance: Data Listings Updates Enable Easier Access To Vendor Issues	data_surveillance__data_listings_updates_enable_easier_access_to_vendor_issues.html
+5	PDS: Report External Data Issues and Track with Vendor Issue Sets	pds__report_external_data_issues_and_track_with_vendor_issue_sets.html
+4	Visualizations Features	visualizations_features.html
+5	Visualizations: Create Visualization Charts Using Queries and Audit Datasets	visualizations__create_visualization_charts_using_queries_and_audit_datasets.html
+5	Visualizations: Identify Data Patterns Using Scatter Plots	visualizations__identify_data_patterns_using_scatter_plots.html
+5	Visualizations: Updated User Interface Provides Better Usability	visualizations__updated_user_interface_provides_better_usability.html
+5	Data Surveillance: Reuse Visualizations Across Study Environments Using Templates	data_surveillance__reuse_visualizations_across_study_environments_using_templates.html
+5	Visualizations: PDF Downloads Include Summary Table	visualizations__pdf_downloads_include_summary_table.html
+5	Visualizations: Additional Aggregations Available For All Charts	visualizations__additional_aggregations_available_for_all_charts.html
+5	Visualizations: Chart Categorical Study Data Counts Using Tabular Visualizations	visualizations__chart_categorical_study_data_counts_using_tabular_visualizations.html
+5	Visualizations: Updated Charts Provide Better Usability	visualizations__updated_charts_provide_better_usability.html
+5	Data Surveillance: Build Visualizations For A Maximum Of Twenty Categories Using Donut Charts	data_surveillance__build_visualizations_for_a_maximum_of_twenty_categories_using_donut_charts.html
+5	Data Surveillance: Updated Visualizations Include Additional Sort Options And Better Usability	data_surveillance__updated_visualizations_include_additional_sort_options_and_better_usability.html
+5	Data Surveillance: Visualization Donut Charts Show Values Up to Two Decimal Points	data_surveillance__visualization_donut_charts_show_values_upto_two_decimal_points.html
+4	AI Data Reconciliation Features	ai_data_reconciliation_features.html
+5	AI Reconciliation: Reconciliation Page Name Reverted To AI Reconciliation	ai_reconciliation__reconciliation_page_name_reverted_to_ai_reconciliation.html
+5	AI Reconciliation: Query Rave Data In External Datasets Using Derived Datasets	ai_reconciliation_query_rave_data_in_external_datasets_using_derived_datasets.html
+5	AI Reconciliation: Updated AI Reconciliation Provides A Better User Experience	ai_reconciliation__updated_ai_reconciliation_provides_a_better_user_experience.html
+5	Updated AI Reconciliation Audit Button Improves Usability	updated_ai_reconciliation_audit_button_improves_usability.html
+5	Data Surveillance: View Refresh Status For Individual AI Data Reconciliation Reports	view_refresh_status_for_individual_ai_data_reconciliation_reports.html
+5	Data Surveillance: AI Data Reconciliation Reports Show Separate Confidence And Feedback Columns	data_surveillance__ai_data_reconciliation_reports_show_separate_confidence_and_feedback_columns.html
+6	Data Surveillance: Updated AI Reconciliation Provide Clearer Information In Reports	data_surveillance__updated_ai_reconciliation_provides_clearer_information_in_reports.html
+5	Data Surveillance: Reconcile Oncology Data With CTCAE Grading Reports	data_surveillance__reconcile_oncology_data_with_ctcae_grading_reports.html
+5	PDS: Add and Manage Internal Review Comments on AI Data Reconciliation Report Records	pds__add_and_manage_internal_review_comments_on_ai_data_reconciliation_report_records.html
+5	PDS: Minor AI Data Reconciliation User Interface Enhancements for April 2024	pds__minor_ai_data_reconciliation_user_interface_enhancements_for_april_2024.html
+5	PDS: Updated AI Data Reconciliation Report Download Files	pds__updated_ai_data_reconciliation_report_download_files.html
+5	PDS: Conditions Without Treatments Report Includes Indication	pds__conditions_without_treatments_report_includes_indication.html
+5	PDS: AI Data Reconcilation Reports Now Include Data Set and Overlapping Data Set	pds__ai_data_reconcilation_reports_now_include_data_set_and_overlapping_data_set.html
+5	PDS: Conditions Without Treatments Report Indicates Actions Taken	pds__conditions_without_treatments_report_indicates_actions_taken.html
+5	Preselected AI Data Reconciliation Patient IDs Enable Easy Rave Query Submission	preselected_ai_data_reconciliation_patient_ids_enable_easy_rave_query_submission.html
+5	AI Data Reconciliation Enhancements	ai_data_reconciliation_enhancements.html
+5	Reconcile Data Accurately Using Data Reviewer Algorithms	reconcile_data_accurately_using_data_reviewer_algorithms.html
+5	PDS: Updated AI Data Reconciliation Page Terminology Enables Multi-Data Set Analysis	pds__updated_ai_data_reconciliation_page_terminology_enables_multi-data_set_analysis.html
+5	PDS: Show or Hide Tables Columns for Approved Listings Results and AI Data Reconciliation Reports	pds__show_or_hide_tables_columns_for_approved_listings_results_and_ai_data_reconciliation_reports.html
+4	Derived Variables Features	derived_variables_features.html
+5	Derived Variable Names Save In Upper Case	derived_variable_names_save_in_upper_case.html
+5	Derived Variables Updates Ensure Accurate Data Set Selection While Merging	derived_variables_updates_ensure_accurate_data_set_selection_while_merging.html
+5	Case Insensitive Derived Variable Name Validation	case_insensitive_derived_variable_name_validation.html
+5	Create and View Derived Variables	create_and_view_derived_variables.html
+5	Derived Variables Updates	derived_variables_updates.html
+5	Derived Date Variables - Difference In Dates and Today	derived_date_variables_-_difference_in_dates_and_today.html
+5	Derived Variable Names and Labels Enforce Character Restrictions	derived_variable_names_and_labels_enforce_character_restrictions.html
+5	Derived Variables - Conditional Concatenate	derived_variables_-_conditional_concatenate.html
+5	Derived Variables Types Appear in Ascending Order in a List	derived_variables_types_appear_in_ascending_order_in_a_list.html
+5	Preview Button Removed When Updating Derived Variables	preview_button_removed_when_updating_derived_variables.html
+5	Update Derived Variable Workflow	update_derived_variable_workflow.html
+5	Using Space And Operators In Derived Variable Name Validation	using_space_and_operators_in_derived_variable_name_validation.html
+4	Expression Builder Features	expression_builder_features.html
+5	Case Insensitive Expression Builder Text Calculations	case_insensitive_expression_builder_text_calculations.html
+5	Data Surveillance: Reorder Data Listing Columns For Better Accessibility	data_surveillance__reorder_data_listing_columns_for_better_accessibility.html
+5	Concatenate Derived Variable Expanded to Multiple Concatenation	concatenate_derived_variable_expanded_to_multiple_concatenation.html
+5	Copy Configuration For Existing Derived Variables	copy_configuration_for_existing_derived_variables.html
+5	Identify Critical Data In Expression Builder, KRIs, QTLs and In Data Mapping	identify_critical_data_in_expression_builder__kris__qtls_and_in_data_mapping.html
+5	Corrected Text Field Rendering in Expression Builder	corrected_text_field_rendering_in_expression_builder.html
+5	Derived Variable - Expression Builder	derived_variable_-_expression_builder.html
+5	Derived Variable - Merge	derived_variable_-_merge.html
+5	Derived Variables - Check All That Apply	derived_variables_-_check_all_that_apply.html
+5	Expression Builder Accepts Decimal Numbers	expression_builder_accepts_decimal_numbers.html
+5	Expression Builder Workflow Allows Six Rows of Derived Variables	expression_builder_workflow_allows_six_rows_of_derived_variables.html
+5	New Operators Available for Expression Builder	new_operators_available_for_expression_builder.html
+5	New Warning Message for Incomplete Derived Variable Expressions	new_warning_message_for_incomplete_derived_variable_expressions.html
+5	Upgraded One Of Operator Available For Derived Variables	upgraded_one_of_operator_available_for_derived_variables.html
+4	Listings Features	listings_features.html
+5	Listings: Preview Listings With Up To Thirty Thousand Records	listings__preview_listings_with_up_tothirty_thousand_records.html
+5	Listings: Configuration And Column Order Maintained Across Studies In Copied Listings	listings__configuration_and_column_order_maintained_across_studies_in_copied_listings.html
+5	Listings: Maintain Data Continuity After Data Refreshes Using Dropped Listing Records	listings__maintain_data_continuity_after_data_refreshes_using_dropped_listing_records.html
+5	Listings: Mark Listings As In Progress During Review Cycles	listings__mark_listings_as_in_progress_during_review_cycles.html
+5	Listings: Updated Data Set Variable Types Enable Better Listings and Query Submission Experience	listings__updated_data_set_variable_types_enable_better_listings_and_query_submission_experience.html
+5	Data Surveillance: Query Veeva EDC Data Using Listings And AI Reconciliation	query_veeva_edc_data_using_listings_and_ai_reconciliation.html
+5	Data Surveillance: Download Listings and AI Reconciliation Reports As Excel Files	data_surveillance__download_listings_and_ai_reconciliation_reports_as_excel_files.html
+5	Data Surveillance: Query Veeva EDC Data Using Bulk Queries In Listings and AI Reconciliation	query_veeva_edc_data_using_bulk_queries_in_listings_and_ai_reconciliation.html
+5	Data Surveillance: Updated Data Sets Page Shows Better Usability	data_surveillance__updated_data_sets_page_shows_better_usability.html
+5	Listings, Data Sets, KRIs Include Published Audit Datasets	listings__data_sets__kris_include_published_audit_datasets.html
+5	Data Surveillance: Listings And Data Sets Enhancements Provide Better User Experience	data_surveillance__listings_and_data_sets_enhancements_provide_better_user_experience.html
+5	Data Surveillance: Open Query Records Table List Log Lines	data_surveillance__open_query_records_table_list_log_lines.html
+5	PDS: No Default Marking Group Selected When Submitting Rave Queries on Data Listing Records	pds__no_default_marking_group_selected_when_submitting_rave_queries_on_data_listing_records.html
+5	PDS: Track Up to Fifteen Approved Listings for Clean Patient Data Analysis	pds__track_up_to_fifteen_approved_listings_for_clean_patient_data_analysis.html
+5	PDS: Build Data Listings to Identify Records Present in Rave EDC But Missing from External Lab Data	pds__build_data_listings_to_identify_records_present_in_rave_edc_but_missing_from_external_lab_data.html
+5	PDS: Build Data Listing Configurations Using Time Variables	pds__build_data_listing_configurations_using_time_variables.html
+5	PDS: Submit Rave Queries on Data Listing Records to Alternate Marking Groups	pds__submit_rave_queries_on_data_listing_records_to_alternate_marking_groups.html
+5	Build Listings By Selecting Variables From Multiple Data Sets	build_listings_by_selecting_variables_from_multiple_data_sets.html
+5	Save and Reuse Listing Configurations as Templates	save_and_reuse_listing_configurations_as_templates.html
+5	Data Surveillance: Identify Changed Data Points In Approved Listings After Data Refresh	data_surveillance__identify_changed_data_points_in_approved_listings_after_data_refresh.html
+5	Create And View Listings	create_and_view_listings.html
+5	Track and Untrack Approved Listings for Clean Patient Data Analysis	track_and_untrack_approved_listings_for_clean_patient_data_analysis.html
+5	Data Reviewer Identifies The Origin Of Data Sets In A Study	data_reviewer_identifies_the_origin_of_data_sets_in_a_study.html
+5	Enhancements Improve Listings Functionality	enhancements_improve_listings_functionality.html
+5	Export Listings and Listings History	export_listings_and_listings_history.html
+5	Rave Enabled Listings Provide Insights Into Rave Query Status	rave_enabled_listings_provide_insights_into_rave_query_status.html
+5	View Historical Details For Listings	view_historical_details_for_listings.html
+5	Data Reviewer Listings Pages Redesigned For Better Usability	data_reviewer_listings_pages_redesigned_for_better_usability.html
+5	Listing Manager Enables Making Listings Active Or Inactive	listing_manager_enables_making_listings_active_or_inactive.html
+5	PDS: Download Listings Table from the Listings Manager	pds__download_listings_table_from_the_listings_manager.html
+5	PDS: Add Columns to Listings Without Defining in the Listing Expression	pds__add_columns_to_listings_without_defining_in_the_listing_expression.html
+5	Listings: Submit EDC Queries For Add Column Fields In Listings	submit_edc_queries_for_add_column_fields_in_listings.html
+4	Rave Features	rave_features.html
+5	Create Rave Queries Directly from Listings	create_rave_queries_directly_from_listings.html
+5	Rave Access Required To Submit Rave Queries For Listings	rave_access_required_to_submit_rave_queries_for_listings.html
+4	Data Reviewer UI Updates and Technical Enhancements	data_reviewer_ui_updates_and_technical_enhancements.html
+5	PDS: Minor Data Reviewer Enhancements for November 2023	pds__minor_data_reviewer_enhancements_for_november_2023.html
+5	Easily Find the Precise, Comprehensive Data Reviewer User Assistance You Need	easily_find_the_precise__comprehensive_data_reviewer_user_assistance_you_need.html
+5	Data Reviewer Data Sets Page Redesigned For Better Usability	data_reviewer_data_sets_page_redesigned_for_better_usability.html
+5	Product Rebranded as Data Reviewer	product_rebranded_as_data_reviewer.html
+5	Improved Navigation In Data Reviewer 2022.1.0	improved_navigation_in_data_reviewer_2022_1_0.html
+5	Technical Changes In MEDS Data Viewer 2021.2.0	technical_changes_in_meds_data_viewer_2021_2_0.html
+5	Technical Changes In MEDS Data Viewer 2021.2.3	technical_changes_in_meds_data_viewer_2021_2_3.html
+4	Resolved Issues Data Reviewer List	resolved_issues_data_reviewer_list.html
+5	Data Reviewer 2022.3.1 Resolved Issues List	data_reviewer_2022_3_1_resolved_issues_list.html
+5	Data Reviewer 2022.1.0 Resolved Issues List	data_reviewer_2022_1_0_resolved_issues_list.html
+5	Data Reviewer 2022.1.1. Resolved Issues List	data_reviewer_2022_1_1__resolved_issues_list.html
+5	Data Reviewer 2022.2.0 Resolved Issues List	data_reviewer_2022_2_0_resolved_issues_list.html
+5	Data Reviewer 2022.2.1 Resolved Issues List	data_reviewer_2022_2_1_resolved_issues_list.html
+5	MEDS Data Viewer 2020.1.0 Resolved Issues List	meds_data_viewer_2020_1_0_resolved_issues_list.html
+5	MEDS Data Viewer 2020.2.0 Resolved Issues List	meds_data_viewer_2020_2_0_resolved_issues_list.html
+5	MEDS Data Viewer 2020.3.0 Resolved Issues List	meds_data_viewer_2020_3_0_resolved_issues_list.html
+5	MEDS Data Viewer 2020.3.1 Resolved Issues List	meds_data_viewer_2020_3_1_resolved_issues_list.html
+5	MEDS Data Viewer 2020.3.2 Resolved Issues List	meds_data_viewer_2020_3_2_resolved_issues_list.html
+5	MEDS Data Viewer 2020.3.3 Resolved Issues List	meds_data_viewer_2020_3_3_resolved_issues_list.html
+5	MEDS Data Viewer 2020.3.4 Resolved Issues List	meds_data_viewer_2020_3_4_resolved_issues_list.html
+5	MEDS Data Viewer 2020.3.5 Resolved Issues List	meds_data_viewer_2020_3_5_resolved_issues_list.html
+5	MEDS Data Viewer 2020.3.6 Resolved Issues List	meds_data_viewer_2020_3_6_resolved_issues_list.html
+5	MEDS Data Viewer 2021.1.0 Resolved Issues List	meds_data_viewer_2021_1_0_resolved_issues_list.html
+5	MEDS Data Viewer 2021.1.1 Resolved Issues List	meds_data_viewer_2021_1_1_resolved_issues_list.html
+5	MEDS Data Viewer 2021.2.0 Resolved Issues List	meds_data_viewer_2021_2_0_resolved_issues_list.html
+5	MEDS Data Viewer 2021.2.1 Resolved Issues List	meds_data_viewer_2021_2_1_resolved_issues_list.html
+5	MEDS Data Viewer 2021.2.2 Resolved Issues List	meds_data_viewer_2021_2_2_resolved_issues_list.html
+5	MEDS Data Viewer 2021.2.3 Resolved Issues List	meds_data_viewer_2021_2_3_resolved_issues_list.html
+3	Patient Profiles Released Features	patient_profiles_released_features.html
+4	Deprecated Functionality PP	deprecated_functionality_pp.html
+5	Date Settings	date_settings.html
+6	Manage Date Settings Patient Profiles	manage_date_settings_patient_profiles.html
+6	Distinct Element Types Cannot Have the Same Merge Name	distinct_element_types_cannot_have_the_same_merge_name.html
+5	Customize the Missing Data Label for Transposed Tables	customize_the_missing_data_label_for_transposed_tables.html
+5	Integration With Other Medidata Apps	integration_with_other_medidata_apps.html
+6	Integrate Your Designs With CSA Patient Profiles	integrate_your_designs_with_csa_patient_profiles.html
+5	Configure Highlight Conditions for Elements Patient Profiles	configure_highlight_conditions_for_elements_patient_profiles.html
+5	Configure Display Conditions for Table Rows Patient Profiles	configure_display_conditions_for_table_rows_patient_profiles.html
+5	Configure Display Conditions for Elements Patient Profiles	configure_display_conditions_for_elements_patient_profiles.html
+5	The Design Options Page Displays First By Default When Creating New Designs	the_design_options_page_displays_first_by_default_when_creating_new_designs.html
+5	Add Transposed Tables to Designs Patient Profiles	add_transposed_tables_to_designs_patient_profiles.html
+5	Add Flags to Designs Patient Profiles	add_flags_to_designs_patient_profiles.html
+5	Configure Secondary Day 0 Date For Studies Without a Primary Day 0 Date	configure_secondary_day_0_date_for_studies_without_a_primary_day_0_date.html
+5	Day Zero Date Displays in Patient Profile Viewer	day_zero_date_displays_in_patient_profile_viewer.html
+5	Studies Page Features Improved Technical Capabilities	studies_page_features_improved_technical_capabilities.html
+4	Design Layout	design_layout.html
+5	Arrange the Design Layout Patient Profiles	arrange_the_design_layout_patient_profiles.html
+5	Data Surveillance: Patient Profiles Design Page and Profiles Tab Redesigned for Better Usability	data_surveillance__patient_profiles_style__design__and_usability_improvements.html
+4	Elements	elements.html
+5	Patient Profiles Provides Clearer Missing Variables Messaging	patient_profiles_provides_clearer_missing_variables_messaging.html
+5	Headers Feature to Display Set Flags Restored	headers_feature_to_display_set_flags_restored.html
+5	Element Conditional Display Options Updated	element_conditional_display_options_updated.html
+5	Data Options For Elements Display Enhancements	data_options_for_elements_display_enhancements.html
+5	Table Types Display In Element View	table_types_display_in_element_view.html
+5	Event Tables In Timelines Show Legend With Default Colors	event_tables_in_timelines_show_legend_with_default_colors.html
+5	Transposed Tables Highlight Values With Conditional Highlighting	transposed_tables_highlight_values_with_conditional_highlighting.html
+5	Conditional Options In Tables Restored	conditional_options_in_tables_restored.html
+5	Transposed Tables Allow Positioning Of Graph And Table	transposed_tables_allow_positioning_of_graph_and_table.html
+5	Wide Tables Allow Positioning Of Graph And Table	wide_tables_allow_positioning_of_graph_and_table.html
+5	Configure Tables To Hide Elements Without Data	configure_tables_to_hide_elements_without_data.html
+5	Flags Functionality In Headers Restored	flags_functionality_in_headers_restored.html
+5	Add Headers to Designs Patient Profiles	add_headers_to_designs_patient_profiles.html
+5	Add Notes to Elements and Layout Sections to Provide Insight on Profile Data	add_notes_to_elements_and_layout_sections_to_provide_insight_on_profile_data.html
+5	Add Patient Information Tables to Designs Patient Profiles	add_patient_information_tables_to_designs_patient_profiles.html
+5	Add Timelines to Designs Patient Profiles	add_timelines_to_designs_patient_profiles.html
+5	Use the Event Table Check Box to Turn Wide Tables into Event Tables	use_the_event_table_check_box_to_turn_wide_tables_into_event_tables.html
+5	Add Wide Tables to Designs Patient Profiles	add_wide_tables_to_designs_patient_profiles.html
+5	Remove Blank Rows at the Bottom of Tables	remove_blank_rows_at_the_bottom_of_tables.html
+5	Quickly View Currently Used Data Set When Editing Wide or Transposed Tables	quickly_view_currently_used_data_set_when_editing_wide_or_transposed_tables.html
+5	Receive Warning Message When Deleting Certain Elements	receive_warning_message_when_deleting_certain_elements.html
+5	Customize the Default Color of Variable Data Points in Timelines	customize_the_default_color_of_variable_data_points_in_timelines.html
+5	Transposed Table Functionality Restored	transposed_table_functionality_restored.html
+5	Wide Table Variable Color Configuration Functionality Restored	wide_table_variable_color_configuration_functionality_restored.html
+5	Timeline Visit Variable Configuration Functionality Restored	timeline_visit_variable_configuration_functionality_restored.html
+5	The Element Accordion Displays Full Data Set Names	the_element_accordion_displays_full_data_set_names.html
+5	Tooltip Displays Full Variable Display Name When Working in Elements	tooltip_displays_full_variable_display_name_when_working_in_elements.html
+5	Save Element Confirmation Box Message Text Aligned	save_element_confirmation_box_message_text_aligned.html
+5	Transpose Table Highlight Values Outside a Range	transpose_table_highlight_values_outside_a_range.html
+5	Wide Tables Display Conditions Restored	wide_tables_display_conditions_restored.html
+5	Distinct Transposed Tables Allow Same Variable Name Labels	distinct_transposed_tables_allow_same_variable_name_labels.html
+6	Data Options Tab Denotes Variables Derived from MEDS Data Viewer	data_options_tab_denotes_variables_derived_from_meds_data_viewer.html
+5	Copy Elements between Studies, Environments, and Draft Designs	copy_elements_between_studies__environments__and_draft_designs.html
+5	Copy Elements within a Study or Design	copy_elements_within_a_study_or_design.html
+5	Missing Data in Elements Indicated with Yellow Markers	missing_data_in_elements_indicated_with_yellow_markers.html
+5	Updates to Hide Event Tables With No Data	updates_to_hide_event_tables_with_no_data.html
+5	Patient Profiles Identifies The Origin Of Data Sets In A Study	patient_profiles_identifies_the_origin_of_data_sets_in_a_study.html
+4	Manage Data	manage_data.html
+5	Patient Profiles: Only Users With Full Site and Country Access Can Refresh Patient Profiles	patient_profiles__only_users_with_full_site_and_country_access_can_refresh_patient_profiles.html
+5	Patient Profiles: Edit, Delete, and View Audit History of Patient Profile Comments	patient_profiles__edit__delete__and_view_audit_history_of_patient_profile_comments.html
+5	Patient IDs Appear in Browser Tab	patient_ids_appear_in_browser_tab.html
+5	Modifications Made To Improve Data Integration With Medidata Detect	modifications_made_to_improve_data_integration_with_medidata_detect.html
+5	Manage Data Set Variable Types Patient Profiles	manage_data_set_variable_types_patient_profiles.html
+5	Browse Data Sets and Add Variables to Elements More Efficiently	browse_data_sets_and_add_variables_to_elements_more_efficiently.html
+5	Warning Message Displays for Profile Designers with Partial Site or Country Access	warning_message_displays_for_profile_designers_with_partial_site_or_country_access.html
+5	Tooltips Include Data Set Identifer Along with Variable Name in Patient Profiles	tooltips_include_data_set_identifer_along_with_variable_name_in_patient_profiles.html
+5	Lower and Upper Time Limits No Longer Pre-populated by Default	lower_and_upper_time_limits_no_longer_pre-populated_by_default.html
+5	Modifications Made to Improve Integration with Other Medidata Products	modifications_made_to_improve_integration_with_other_medidata_products.html
+5	Data Integration With Medidata Rave Enabled	data_integration_with_medidata_rave_enabled.html
+4	Query Data	query_data.html
+5	Patient Profiles Displays Queries In Study Data	patient_profiles_displays_queries_in_study_data.html
+5	Sort Query Data By Column Headers	sort_query_data_by_column_headers.html
+5	Search Query Data By Column Filters	search_query_data_by_column_filters.html
+5	Access to Rave EDC Source Data Only Available for Rave EDC-Derived Patient Profile Data	access_to_rave_edc_source_data_only_available_for_rave_edc-derived_patient_profile_data.html
+4	Manage Designs	manage_designs.html
+5	Patient Profiles: Copy Patient Profile Designs Across Client Divisions	patient_profiles__copy_patient_profile_designs_across_client_divisions.html
+5	Data Surveillance: Patient Profile Refresh Building Block Allows Users to Refresh Published Designs	data_surveillance__patient_profile_refresh_building_block_allows_users_to_refresh_published_designs.html
+5	Data Surveillance: Identify and Review New and Updated Patient Profile Data in Published Designs	identify_and_review_new_and_updated_patient_profile_data_in_published_designs.html
+5	Data Surveillance: Patient Profiles Highlights Variables Containing Critical Data Points When Designing Profiles	patient_profiles_highlights_variables_containing_critical_data_points_when_designing_profiles.html
+5	Patient Profiles Does Not Permit Duplicate Design Names	patient_profiles_does_not_permit_duplicate_design_names.html
+5	Profile Designs Marked As Master Become Read-only	profile_designs_marked_as_master_become_read-only.html
+5	Design Management Patient Profiles	design_management_patient_profiles.html
+5	Enhanced Ability to Identify Data Sets and Variables in Your Design in Patient Profiles	enhanced_ability_to_identify_data_sets_and_variables_in_your_design_in_patient_profiles.html
+5	Duplicate Designs to Other Study Environments Within the Same Study in Patient Profiles	duplicate_designs_to_other_study_environments_within_the_same_study_in_patient_profiles.html
+5	Designate Designs as Blinded or Unblinded	designate_designs_as_blinded_or_unblinded.html
+5	Patient Profiles Cloud Indicates Whether a Design is Unblinded or Blinded	patient_profiles_cloud_indicates_whether_a_design_is_unblinded_or_blinded.html
+5	Study Environments Require Study Data to Create or Edit Designs	study_environments_require_study_data_to_create_or_edit_designs.html
+5	Copy Designs Between Studies	copy_designs_between_studies.html
+5	Patient Profile Designs No Longer Marked As Blinded	patient_profile_designs_no_longer_marked_as_blinded.html
+5	Publish Profile Designs as View Only or Master for Detect	publish_profile_designs_as_view_only_or_master_for_detect.html
+5	Data Surveillance: Add Patient-level Internal Review Comments Within Patient Profile Designs	data_surveillance__add_patient-level_internal_review_comments_within_patient_profile_designs.html
+4	Navigation	navigation.html
+5	Patient Profiles Messages Now Show at Page Bottom	patient_profiles_messages_now_show_at_page_bottom.html
+5	Navigation in Patient Profiles	navigation_in_patient_profiles.html
+5	Data Surveillance: Improved Profile Designs Enables Identifying Reviewed Patients	improved_profile_designs_enables_identifying_reviewed_patients.html
+5	Enhanced Navigation When Saving an Element from Unsaved Changes Dialog Box in Patient Profiles	enhanced_navigation_when_saving_an_element_from_unsaved_changes_dialog_box_in_patient_profiles.html
+5	Improved Navigation	improved_navigation.html
+4	Profile Viewer	profile_viewer.html
+5	Data Surveillance: Manually Refresh Data in Individual Patient Profile Designs	manually_refresh_data_in_individual_patient_profile_designs.html
+5	Data Surveillance: Filter the Patient Selector to Show Only Profiles That Are Reviewed or Requiring Review	filter_the_patient_selector_to_show_only_profiles_that_are_reviewed_or_requiring_review.html
+5	Generate Patient Profile PDFs Using A Single Button	generate_patient_profile_pdfs_using_a_single_button.html
+5	Resize Patient Selector Columns to Better View Variables	resize_patient_selector_columns_to_better_view_variables.html
+5	Generate Customized Patient Profile PDFs in Bulk	generate_customized_patient_profile_pdfs_in_bulk.html
+5	Profiles Tab No Longer Automatically Loads a Patient Profile By Default	profiles_tab_no_longer_automatically_loads_a_patient_profile_by_default.html
+5	Header Flags Display on Profile Designs and Profile Design Reports	header_flags_display_on_profile_designs_and_profile_design_reports.html
+5	Search Patient Data By Column Filter	search_patient_data_by_column_filter.html
+5	Filter By Patient ID In Patient Selector	filter_by_patient_id_in_patient_selector.html
+5	Progress Bar Displays While Data Loads In Patient Selector	progress_bar_displays_while_data_loads_in_patient_selector.html
+5	Email Users And Support Team If Patient Profiles Bulk PDF Generation Fails	email_users_and_support_team_if_patient_profiles_bulk_pdf_generation_fails.html
+5	Data Surveillance: Patient Selector Table Improvements Enable Better Data Filtering	data_surveillance__patient_selector_table_improvements_enable_better_data_filtering.html
+5	View and Export a Patient Profile on the Profiles Tab	view_and_export_a_patient_profile_on_the_profiles_tab.html
+5	Sort Element Tables by Column on the Profiles Tab	sort_element_tables_by_column_on_the_profiles_tab.html
+5	Patient Selector Table Includes More Data Points to Investigate in Patient Profiles	patient_selector_table_includes_more_data_points_to_investigate_in_patient_profiles.html
+5	Read-only User Role Allows You to View Patient Profiles Without Edit Capabilities	read-only_user_role_allows_you_to_view_patient_profiles_without_edit_capabilities.html
+5	Expand or Collapse All Elements When Viewing a Patient Profile	expand_or_collapse_all_elements_when_viewing_a_patient_profile.html
+5	The Patient Selector Highlights the Selected Patient ID	the_patient_selector_highlights_the_selected_patient_id.html
+5	Generate Patient Profiles PDF in Bulk Based on Permissions	generate_patient_profiles_pdf_in_bulk_based_on_permissions.html
+5	Generate Patient Profiles PDF in Bulk	generate_patient_profiles_pdf_in_bulk.html
+5	Reference Date and Type appear on a Patient's Profile	reference_date_and_type_appear_on_a_patient_s_profile.html
+5	Patient Profile Enhancements	patient_profile_enhancements.html
+5	Generate Patient Profile PDFs in Chinese	generate_patient_profile_pdfs_in_chinese.html
+5	Generate Patient Profiles PDFs in Bulk by Site	generate_patient_profiles_pdfs_in_bulk_by_site.html
+5	Flag Patient Profiles as Reviewed	flag_patient_profiles_as_reviewed.html
+4	Reports	reports.html
+5	Patient Profiles: Audit Details Capture Reviews and Comments	patient_profiles__audit_details_capture_reviews_and_comments.html
+5	Patient Data Surveillance: Patient Profiles Enhancements for November 2023	patient_data_surveillance__patient_profiles_enhancements_for_november_2023.html
+5	Design Reports Show Last Updated And Published Details	design_reports_show_last_updated_and_published_details.html
+5	Review and Audit Designs Patient Profiles	review_and_audit_designs_patient_profiles.html
+5	Design Report Enhancements	design_report_enhancements.html
+5	Quickly View a Date Variable's Date Format on the Reports Page	quickly_view_a_date_variable_s_date_format_on_the_reports_page.html
+5	Standardized Data Type Terminology	standardized_data_type_terminology.html
+5	Patient Profile PDFs Include Additional Details in Page Footers	patient_profile_pdfs_include_additional_details_in_page_footers.html
+4	Resolved Issues	resolved_issues.html
+5	Medidata Patient Profiles 2022.3.2 Resolved Issues List	medidata_patient_profiles_2022_3_2_resolved_issues_list.html
+5	Medidata Patient Profiles 2022.3.1 Resolved Issues List	medidata_patient_profiles_2022_3_1_resolved_issues_list.html
+5	Medidata Patient Profiles 2022.3.0 Resolved Issues List	medidata_patient_profiles_2022_3_0_resolved_issues_list.html
+5	Medidata Patient Profiles 2022.2.2 Resolved Issues List	medidata_patient_profiles_2022_2_2_resolved_issues_list.html
+5	Medidata Patient Profiles 2022.2.1 Resolved Issues List	medidata_patient_profiles_2022_2_1_resolved_issues_list.html
+5	Medidata Patient Profiles 2022.20 Resolved Issues List	medidata_patient_profiles_2022_20_resolved_issues_list.html
+5	Medidata Patient Profiles 2022.1.0 Resolved Issues List	medidata_patient_profiles_2022_1_0_resolved_issues_list.html
+5	Medidata Patient Profiles 2021.3.1 Resolved Issues List 1	medidata_patient_profiles_2021_3_1_resolved_issues_list_1.html
+5	Medidata Patient Profiles 2021.3.0 Resolved Issues List	medidata_patient_profiles_2021_3_0_resolved_issues_list.html
+5	Medidata Patient Profiles 2021.2.0 Resolved Issues List	medidata_patient_profiles_2021_2_0_resolved_issues_list.html
+5	Medidata Patient Profiles 2021.1.3 Resolved Issues List	medidata_patient_profiles_2021_1_3_resolved_issues_list.html
+5	Medidata Patient Profiles 2021.1.2 Resolved Issues List	medidata_patient_profiles_2021_1_2_resolved_issues_list.html
+5	Medidata Patient Profiles 2021.1.1 Resolved Issues List	medidata_patient_profiles_2021_1_1_resolved_issues_list.html
+5	Medidata Patient Profiles 2021.1.0 Resolved Issues List	medidata_patient_profiles_2021_1_0_resolved_issues_list.html
+5	Medidata Patient Profiles 2020.2.3 Resolved Issues List	medidata_patient_profiles_2020_2_3_resolved_issues_list.html
+5	Medidata Patient Profiles 2020.2.2 Resolved Issues List	medidata_patient_profiles_2020_2_2_resolved_issues_list.html
+5	Medidata Patient Profiles 2020.2.1 Resolved Issues List	medidata_patient_profiles_2020_2_1_resolved_issues_list.html
+5	Medidata Patient Profiles 2020.2.0 Resolved Issues	medidata_patient_profiles_2020_2_0_resolved_issues.html
+5	Medidata Patient Profiles 2020.1.2 Resolved Issues List	medidata_patient_profiles_2020_1_2_resolved_issues_list.html
+5	Medidata Patient Profiles 2020.1.1 Resolved Issues List	medidata_patient_profiles_2020_1_1_resolved_issues_list.html
+5	Medidata Patient Profiles 2020.1.0 Resolved Issues List	medidata_patient_profiles_2020_1_0_resolved_issues_list.html
+5	Patient Profiles Cloud 2019.1.0 Resolved Issues	patient_profiles_cloud_2019_1_0_resolved_issues.html
+5	Patient Profiles Cloud 2018.3.0 Resolved Issues	patient_profiles_cloud_2018_3_0_resolved_issues.html
+5	Medidata Patient Profiles 2018.2.0 Resolved Issues	medidata_patient_profiles_2018_2_0_resolved_issues.html
+5	Medidata Patient Profiles 2018.1.0 Resolved Issues	medidata_patient_profiles_2018_1_0_resolved_issues.html
+5	Medidata Patient Profiles 2018.1.1 Resolved Issues	medidata_patient_profiles_2018_1_1_resolved_issues.html
+5	Patient Profiles 2017.1.0 Resolved Issues	patient_profiles_2017_1_0_resolved_issues.html
+4	UI Updates and Technical Enhancements	ui_updates_and_technical_enhancements.html
+5	Patient Profiles: Technical Enhancement in Patient Profiles	technical_enhancement_in_patient_profiles.html
+5	Patient Profiles: Quality of Life Improvements	patient_profiles__quality_of_life_improvements.html
+6	Patient Profiles: Quality of Life Updates	patient_profiles__quality_of_life_updates.html
+5	Clinical Data Studio 2025.1.0 Minor and Technical Enhancements	clinical_data_studio_2025_1_0_minor_and_technical_enhancements.html
+5	Patient Profiles: Quality of Life Enhancements	patient_profiles__quality_of_life_enhancements.html
+5	Technical Changes In The September 2024 Release	technical_changes_in_the_september_2024_release.html
+5	PDS: Patient Profiles Quality of Life Improvements for April 2024	pds__patient_profiles_quality_of_life_improvements_for_april_2024.html
+5	Patient Profiles Interface Updates	patient_profiles_interface_updates.html
+5	Performance Improvements in Patient Profiles 2022.2.0	performance_improvements_in_patient_profiles_2022_2_0.html
+5	Patient Profiles-Medidata Detect Integration Enables Detect Users to View Profiles	patient_profiles-medidata_detect_integration_enables_detect_users_to_view_profiles.html
+5	Additional Validation Checks Ensure You Configure Designs Properly in Patient Profiles	additional_validation_checks_ensure_you_configure_designs_properly_in_patient_profiles.html
+5	Updates to Date Format Display and Behavior in Patient Profiles	updates_to_date_format_display_and_behavior_in_patient_profiles.html
+5	Issues Resolved Outside Patient Profiles CLoud List Available On Knowledge Space	issues_resolved_outside_patient_profiles_cloud_list_available_on_knowledge_space.html
+5	Patient Profiles Cloud Introduces Unblinded and Blinded User Role Permissions	patient_profiles_cloud_introduces_unblinded_and_blinded_user_role_permissions.html
+5	Patient Profiles Cloud Can Ingest New External Date Formats	patient_profiles_cloud_can_ingest_new_external_date_formats.html
+5	Patient Profiles Clouds Adds a Leading Zero to Single-Digit Dates	patient_profiles_clouds_adds_a_leading_zero_to_single-digit_dates.html
+5	Patient Profiles Now Have Clearer Section Labeling	patient_profiles_now_have_clearer_section_labeling.html
+5	Technical Changes in Medidata Patient Profiles 2020.1.0	technical_changes_in_medidata_patient_profiles_2020_1_0.html
+5	Technical Changes in Medidata Patient Profiles 2020.2.1	technical_changes_in_medidata_patient_profiles_2020_2_1.html
+5	Technical Changes in Medidata Patient Profiles 2020.2.2	technical_changes_in_medidata_patient_profiles_2020_2_2.html
+5	Technical Changes in Medidata Patient Profiles 2022.1.0	technical_changes_in_medidata_patient_profiles_2022_1_0.html
+4	Patient Profiles: Transpose And Wide Tables Allow All Date Formats	patient_profiles__transpose_and_wide_tables_allow_all_date_formats.html
+3	Audit Trail Review	audit_trail_review.html
+4	RBQM: Updated User Names In Preview Enhances Audit Trail Review Usability	rbqm__updated_user_names_in_audit_trail_review_enhances_usability.html
+4	Audit Trail Review: Updated Audit Trail Review Improves User Experience	audit_trail_review__updated_audit_trail_review_improves_user_experience.html
+4	Audit Trail Review: Verify Audit Trail Chat Questions Using SQL Query	audit_trail_review__verify_audit_trail_chat_questions_using_sql_query.html
+4	Audit Trail Review: Publish Option Disabled For Unsaved Audit Trail Chats	audit_trail_review__publish_option_disabled_for_unsaved_audit_trail_chats.html
+4	RBQM: Enhance Study Data Compliance And Accuracy With Audit Trail Review	rbqm__enhance_study_data_compliance_and_accuracy_with_audit_trail_review.html
+3	Plan Documents	plan_documents.html
+4	Plan Documents: Plan Documents Updates Ensure Better User Experience	plan_documents__plan_documents_updates_ensure_better_user_experience.html
+4	RBQM: Ensure Study Data Accuracy Using Data Quality Plans	rbqm__ensure_study_data_accuracy_using_integrated_data_quality_plans.html
+3	Key Risk Indicators Released Features	key_risk_indicators_released_features.html
+4	KRI Dashboard: Modification Rate System KRI Highlights Sites with Outlying Data Modification Rates	kri_dashboard__modification_rate_system_kri_highlights_sites_with_outlying_data_modification_rates.html
+4	KRI Dashboard: View and Analyze Patient-level Impact on KRI Values	kri_dashboard__view_and_analyze_patient-level_impact_on_kri_values.html
+4	Data Surveillance and RBQM: KRI, QTL, And Derived Variables Configuration Updates Enhance Usability	data_surveillance_and_rbqm__kri__qtl__and_derived_variables_configuration_updates_enhance_usability.html
+4	Updated KRI Dashboard Shows Consistent Country Names	updated_kri_dashboard_shows_consistent_country_names.html
+4	View Patient-level Data for KRIs	view_patient-level_data_for_kris.html
+4	RBQM: Schedule Data Refreshes Using the KRI Scheduler	rbqm__schedule_data_refreshes_using_the_kri_scheduler.html
+4	KRI Enhancements for Detect November 2023	kri_enhancements_for_detect_november_2023.html
+4	Identify and Track Study Risks Using the Key Risk Indicators Table	identify_and_track_study_risks_using_the_key_risk_indicators_table.html
+4	New KRI Dashboard Orientation and Site Risk Indicator	new_kri_dashboard_orientation_and_site_risk_indicator.html
+4	View and Track User-Defined Custom KRIs	view_and_track_user-defined_custom_kris.html
+4	View and Track User-Defined Custom Percentage KRIs	view_and_track_user-defined_custom_percentage_kris.html
+4	KRI-related UI Updates and Technical Enhancements	kri-related_ui_updates_and_technical_enhancements.html
+4	Display Counts in KRI Dashboard Columns	display_counts_in_kri_dashboard_columns.html
+4	View Historical Trends in Site- and Country-Level KRI Data	view_historical_trends_in_site-_and_country-level_kri_data.html
+4	Perform Data Refresh from the KRI Dashboard Page	perform_data_refresh_from_the_kri_dashboard_page.html
+5	Schedule or Trigger When KRI Dashboard Refreshes with the Latest Study Data Analysis	schedule_or_trigger_when_kri_dashboard_refreshes_with_the_latest_study_data_analysis.html
+4	Calculation Method Updated for Six System KRIs	calculation_method_updated_for_six_system_kris.html
+4	Filter Study Risks By Sites And Countries In The Key Risk Indicators Dashboard	filter_study_risks_by_sites_and_countries_in_the_key_risk_indicators_dashboard.html
+4	Column Header Tooltip in Key Risk Indicators Table Shows KRI Details	column_header_tooltip_in_key_risk_indicators_table_shows_kri_details.html
+4	Technical Change in KRI Dashboard 2023.2.2	technical_change_in_kri_dashboard_2023_2_2.html
+4	KRI Configuration Risk Category Tab Enhancement	kri_configuration_risk_category_tab_enhancement.html
+4	KRI Dashboard 2023.1.0 Minor Enhancements	kri_dashboard_2023_1_0_minor_enhancements.html
+3	Quality Tolerance Limits Released Features	quality_tolerance_limits_released_features.html
+4	QTL Dashboard: Improved QTL Report Download Performance	qtl_dashboard__improved_qtl_report_download_performance.html
+4	View Patient-level Data for QTLs	view_patient-level_data_for_qtls.html
+4	QTL Enhancements for Detect November 2023	qtl_enhancements_for_detect_november_2023.html
+4	View Current and Historical QTL Value Trends	view_current_and_historical_qtl_value_trends.html
+4	RBQM: Schedule Data Refreshes Using the QTL Scheduler	rbqm__schedule_data_refreshes_using_the_qtl_scheduler.html
+4	Preview and Export Comprehensive QTL Reports	preview_and_export_comprehensive_qtl_reports.html
+4	Get Notified When QTLs Exceed Quality Thresholds	get_notified_when_qtls_exceed_quality_thresholds.html
+4	QTL Patient and Time Trend Graphs More Clearly Deliniate Excursions	qtl_patient_and_time_trend_graphs_more_clearly_deliniate_excursions.html
+4	Detect-Risk Management QTL Integration Enhancement	detect-risk_management_qtl_integration_enhancement.html
+4	Track Study-level Threats Using Quality Tolerance Limits (QTLs)	track_study-level_threats_using_quality_tolerance_limits__qtls_.html
+4	Schedule or Trigger When QTL Dashboard Refreshes with the Latest Study Data Analysis	schedule_or_trigger_when_qtl_dashboard_refreshes_with_the_latest_study_data_analysis.html
+3	Centralized Statistical Monitoring Released Features	centralized_statistical_monitoring_released_features.html
+4	Error Plots Features	error_plots_features.html
+5	View Rave Queries With Comment and Status History on Error Plot Outlier Data Points	view_rave_queries_with_comment_and_status_history_on_error_plot_outlier_data_points.html
+5	Error Plot Enhancements	error_plot_enhancements.html
+5	Determine Study Data Outliers, Risks, and Trends Using Error Plots	determine_study_data_outliers__risks__and_trends_using_error_plots.html
+5	Flag, Track, and Audit Reviewed Error Plot Outlier Data Points	flag__track__and_audit_reviewed_error_plot_outlier_data_points.html
+5	Text Versus Text Analysis Plot X- and Y-Axes Display Text in Alphanumeric Order	text_versus_text_analysis_plot_x-_and_y-axes_display_text_in_alphanumeric_order.html
+5	Performance Improvements in Medidata Detect 2020.3.2	performance_improvements_in_medidata_detect_2020_3_2.html
+5	Error Plots Streamline Navigation to View a Specific Patient's Profile	error_plots_streamline_navigation_to_view_a_specific_patient_s_profile.html
+5	Trends Plots Improve Your Ability to Monitor Variable Data Across Sites	trends_plots_improve_your_ability_to_monitor_variable_data_across_sites.html
+4	Event Incidence Plot Features	event_incidence_plot_features.html
+5	Event Incidence Plot Improvements	event_incidence_plot_improvements.html
+5	View Event Incidence at the Site- and Study-level	view_event_incidence_at_the_site-_and_study-level.html
+5	Event Incidence Page Enhancements	event_incidence_page_enhancements.html
+4	Under-Over Reporting Events Plot Released Features	under-over_reporting_events_plot_released_features.html
+5	View Under- and Overreporting Event Trends at the Site and Country Level	view_under-_and_overreporting_event_trends_at_the_site_and_country_level.html
+4	Potential Duplicate Patients Features	potential_duplicate_patients_features.html
+5	CSM: Potential Duplicate Patients Export Updates	csm__potential_duplicate_patients_export_updates.html
+5	CSM: Potential Duplicate Patients Analysis Accounts for Sites Without Recognizable Addresses	csm__potential_duplicate_patients_analysis_accounts_for_sites_without_recognizable_addresses.html
+5	Centralized Statistical Monitoring Enhancements	centralized_statistical_monitoring_enhancements.html
+5	Uncover Potential Duplicate Patients	uncover_potential_duplicate_patients.html
+4	Weekend and Holiday Visits Features	weekend_and_holiday_visits_features.html
+5	Filter Scheduled Patient Visits By Visit Name	filter_scheduled_patient_visits_by_visit_name.html
+5	View and Create Issues on the Weekend and Holiday Visits Page	view_and_create_issues_on_the_weekend_and_holiday_visits_page.html
+5	Identify Potentially Falsified Visit Data By Viewing Scheduled Patient Visits That Occurred on Non-business Days	identify_potentially_falsified_visit_data_by_viewing_scheduled_patient_visits_that_occurred_on_non-business_days.html
+4	Rounding and Propagation Features	rounding_and_propagation_features.html
+5	CSM: Filter Patient Lists to Show Patients With or Without Rounding Events	csm__filter_patient_lists_to_show_patients_with_or_without_rounding_events.html
+5	CSM: Rounding and Propagation Heatmap and Summary Table Synchronously Highlight Same Site Selection	csm__rounding_and_propagation_heatmap_and_summary_table_synchronously_highlight_same_site_selection.html
+5	CSM: Rounding Events and Propagation Events Summary Table Improvements	csm__rounding_events_and_propagation_events_summary_table_improvements.html
+5	CSM: Download Rounding Events and Propagation Events Summary Lists	csm__download_rounding_events_and_propagation_events_summary_lists.html
+5	CSM: Rounding and Propagation Heatmap Improvements	csm__rounding_and_propagation_heatmap_improvements.html
+5	CSM Rounding and Propagation UI Enhancements	csm_rounding_and_propagation_ui_enhancements.html
+5	Exit Rounding and Propagation History View	exit_rounding_and_propagation_history_view.html
+5	Identify Sites That Potentially Round or Propagate Vital Sign Records	identify_sites_that_potentially_round_or_propagate_vital_sign_records.html
+4	History Features	history_features.html
+5	Schedule When Detect Refreshes with the Latest Study Data	schedule_when_detect_refreshes_with_the_latest_study_data.html
+5	Refresh Medidata Detect to Analyze and Render the Latest Study Data	refresh_medidata_detect_to_analyze_and_render_the_latest_study_data.html
+5	View Historical Data Snapshots in Detect	view_historical_data_snapshots_in_detect.html
+5	Stop or Suspend Scheduled Data Snapshot Refreshes	stop_or_suspend_scheduled_data_snapshot_refreshes.html
+5	History Page Informs You of Current Study Data Analysis Status	history_page_informs_you_of_current_study_data_analysis_status.html
+4	Issue Management Features	issue_management_features.html
+5	View and Create Issues Through Medidata Detect	view_and_create_issues_through_medidata_detect.html
+4	Patient Profiles Features	patient_profiles_features.html
+5	Chinese Characters Display In Patient Profile Reports and PDFs	chinese_characters_display_in_patient_profile_reports_and_pdfs.html
+5	Consolidated Medidata Detect Help Accessible From Patient Profiles	consolidated_medidata_detect_help_accessible_from_patient_profiles.html
+5	View a Patient's Profile from Detect to Analyze Patient-Level Details	view_a_patient_s_profile_from_detect_to_analyze_patient-level_details.html
+4	UI Updates and Technical Enhancements CSM	ui_updates_and_technical_enhancements_csm.html
+5	Product Rebranded as Medidata Detect	product_rebranded_as_medidata_detect.html
+5	Validated Code for Future Features	validated_code_for_future_features.html
+5	Access User Assistance Directly Pertaining to a Specfic Medidata Detect Page	access_user_assistance_directly_pertaining_to_a_specfic_medidata_detect_page.html
+5	Information That You Can View and Access Limited to Data from Your Site and Country Assignments	information_that_you_can_view_and_access_limited_to_data_from_your_site_and_country_assignments.html
+5	Access User Assistance Pertaining to a Specific Page or Field With One Click	access_user_assistance_pertaining_to_a_specific_page_or_field_with_one_click.html
+5	Help Menu > Help On This Page Links to Directly Relevant User Assistance	help_menu___help_on_this_page_links_to_directly_relevant_user_assistance.html
+5	New Progressive User Assistance Access Points on the History Page and Error Plots Page	new_progressive_user_assistance_access_points_on_the_history_page_and_error_plots_page.html
+5	Medidata Detect Provides Error Details When Pages Fail to Load	medidata_detect_provides_error_details_when_pages_fail_to_load.html
+5	Internal and Technical Enhancements in Medidata Detect 2021.2.0	internal_and_technical_enhancements_in_medidata_detect_2021_2_0.html
+5	Preparatory Work for Future Features or Enhancements	preparatory_work_for_future_features_or_enhancements.html
+5	New KRIs and QTLs Knowledge Spaces	new_kris_and_qtls_knowledge_spaces.html
+5	View Comprehensive Audits of Track Review Actions, Issues Created, and Snapshot Schedules Created	view_comprehensive_audits_of_track_review_actions__issues_created__and_snapshot_schedules_created.html
+5	Technical Change in Medidata Detect 2023.1.3	technical_change_in_medidata_detect_2023_1_3.html
+4	Resolved Issues 1	resolved_issues_1.html
+5	Rave CSA 2020.1.0 Resolved Issues	rave_csa_2020_1_0_resolved_issues.html
+5	Medidata Detect 2020.2.0 Resolved Issues List	medidata_detect_2020_2_0_resolved_issues_list.html
+5	Medidata Detect 2020.2.1 Resolved Issues List	medidata_detect_2020_2_1_resolved_issues_list.html
+5	Medidata Detect 2020.3.0 Resolved Issues List	medidata_detect_2020_3_0_resolved_issues_list.html
+5	Medidata Detect 2020.3.1 Resolved Issues List	medidata_detect_2020_3_1_resolved_issues_list.html
+5	Medidata Detect 2020.3.2 Resolved Issues List	medidata_detect_2020_3_2_resolved_issues_list.html
+5	Medidata Detect 2020.4.0 Resolved Issues List	medidata_detect_2020_4_0_resolved_issues_list.html
+5	Medidata Detect 2021.1.0 Resolved Issues List	medidata_detect_2021_1_0_resolved_issues_list.html
+5	Medidata Detect 2021.1.1 Resolved Issues List	medidata_detect_2021_1_1_resolved_issues_list.html
+5	Medidata Detect 2021.1.2 Resolved Issues List	medidata_detect_2021_1_2_resolved_issues_list.html
+5	Medidata Detect 2021.2.0 Resolved Issues List	medidata_detect_2021_2_0_resolved_issues_list.html
+5	Medidata Detect 2021.2.1 Resolved Issues List	medidata_detect_2021_2_1_resolved_issues_list.html
+5	Centralized Statistical Monitoring (formerly Medidata Detect) 2022.1.1 Resolved Issues List	centralized_statistical_monitoring__formerly_medidata_detect__2022_1_1_resolved_issues_list.html
+5	Centralized Statistical Monitoring -formerly Medidata Detect 2022.1.0 Resolved Issues List	centralized_statistical_monitoring_-formerly_medidata_detect_2022_1_0_resolved_issues_list.html
+5	Centralized Statistical Monitoring 2022.2.0 Resolved Issues List	centralized_statistical_monitoring_2022_2_0_resolved_issues_list.html
+4	Deprecated Functionality CSM	deprecated_functionality_csm.html
+5	Detect Provides Clearer Data Refresh Messaging	detect_provides_clearer_data_refresh_messaging.html
+5	Overview Features	overview_features.html
+6	Assess Overall Study Performance Using the Overview	assess_overall_study_performance_using_the_overview.html
+6	Impact Factor Scores and Prioritizes Most Critical Study Data Quality Issues	impact_factor_scores_and_prioritizes_most_critical_study_data_quality_issues.html
+6	Top Contributors List Now Includes KRIs and Event Incidences	top_contributors_list_now_includes_kris_and_event_incidences.html
+6	Filter Perspectives to Display Only the Aspects You Want to View	filter_perspectives_to_display_only_the_aspects_you_want_to_view.html
+6	Role-based Permissions Now Determine the Pespectives You Can View and Access	role-based_permissions_now_determine_the_pespectives_you_can_view_and_access.html
+6	Top Contributors List Now Includes Site Trends	top_contributors_list_now_includes_site_trends.html
+5	Clinical Data Studio 2026.1.0 Resolved Issues List	clinical_data_studio_2026_1_0_resolved_issues_list.html
+3	Signals Released Features	signals_released_features.html
+4	Signals: View Potential Duplicate Patients, Rounding And Propagation, Or Under-Over Reporting At A Site Using Signals	view_potential_duplicate_patients__rounding_and_propagation__and_under-over_reporting_at_a_site_using_signals.html
+4	Signals: Updated Signals User Interface Shows Changed Data	signals__updated_signals_user_interface_shows_changed_data.html
+4	Signals: Monitor Risks Associated With Signals In A Study	signals__monitor_risks_associated_with_signals_in_a_study.html
+4	Signals: View Issue Actions And Comments From Rave CTMS In Signals	signals__view_issue_actions_and_comments_from_rave_ctms_in_signals.html
+4	Signals: Download Signals In PDF Format	signals___download_signals_in_pdf_format.html
+4	AI Reconciliation And Anomalies User Interfaces Show AI Assistant Dot And Dot Generated Data	ai_reconciliation_and_anomalies_user_interfaces_show_ai_assistant_dot_and_dot_generated_data.html
+4	Signals:Track Signal Action Progress Using the Actions Tab	signals__track_signal_action_progress_using_the_actions_tab.html
+4	Signals: Updated Signals Include Preset Filters, Comments, And Downloads	signals__updated_signals_include_preset_filters__comments__and_downloads.html
+4	Signals: Resolve Issues Within Signals Or Using External Issue Management System Rave CTMS	signals__resolve_issues_within_signals_or_using_external_issue_management_system_rave_ctms.html
+4	Signals: Raise Protocol Deviation And Non-Protocol Deviation Issues Using Signals	signals__raise_protocol_deviation_and_non-protocol_deviation_issues_using_signals.html
+4	RBQM Configuration: Patient Profile Designs With No Flags Unavailable For Signal Configuration	rbqm_configruation__patient_profile_designs_with_no_flags_unavailable_for_signal_configuration.html
+4	RBQM: Identify Potential Study Data Issues Using Signals	rbqm__identify_potential_study_data_issues_using_signals.html
+4	Signals: Identify Issue Type And Issue Target Using The Signals Table	signals__identify_issue_type_and_issue_target_using_the_signals_table.html
+3	Signals: Updated Create CTMS Issue User Interface Includes Additional Fields	signals__updated_create_ctms_issue_user_interface_includes_additional_fields.html
+3	Insights Released Features	insights_released_features.html
+4	Clean Patient Tracker: Monitor Vendor Queries Data In Clean Patient Tracker	clean_patient_tracker__monitor_vendor_queries_data_in_clean_patient_tracker.html
+4	Data Surveillance: TSDV and Form Counts Show Information at Patient Level In Clean Patient Tracker	data_surveillance__tsdv_and_form_counts_provide_more_accurate_patient_level_information_in_clean_patient_tracker.html
+4	Configuration: Configure Missing Pages Source And Form Status Data	configuration__configure_missing_pages_source_and_form_status_data.html
+4	Clean Patient Tracker: Track Up To Twenty-Five Listings In Clean Patient Tracker	clean_patient_tracker__track_up_to_twenty-five_listings_in_clean_patient_tracker.html
+4	Data Surveillance and RBQM: Configure Study Data Source Using Event Analysis Mapping	data_surveillance_and_rbqm__configure_study_data_source_using_event_analysis_mapping.html
+4	Data Surveillance: Verify Rave Target Source Data Count In Clean Patient Tracker	data_surveillance__verify_rave_target_source_data_count_in_clean_patient_tracker.html
+4	Data Surveillance: Updated Clean Patient Tracker Page Shows Better Usability	data_surveillance__updated_clean_patient_tracker_page_shows_better_usability.html
+4	Data Surveillance: Clean Patient Tracker Missing Pages Count Column Uneditable When Sourced from Rave	data_surveillance__clean_patient_tracker_missing_pages_count_column_uneditable_when_sourced_from_rave.html
+4	Data Surveillance: Configure Clean Patient Tracker to Autopopulate Missing Page Counts	data_surveillance__configure_clean_patient_tracker_to_autopopulate_missing_page_counts.html
+4	Data Surveillance: Clean Patient Tracker Metrics and Table Improvements	clean_patient_tracker_metrics_and_table_improvements.html
+4	Insights: Downloaded Open Query Records Report Includes Data Snapshot Timestamp	insights__downloaded_open_query_records_report_includes_data_snapshot_timestamp.html
+4	Insights: Outstanding Tasks Bar Graph No Longer Charts Open Queries	insights__outstanding_tasks_bar_graph_no_longer_charts_open_queries.html
+4	Insights: Unclean Patients Relabeled to In Progress Patients	insights__unclean_patients_relabeled_to_in_progress_patients.html
+4	Insights: Open Queries Table Now Includes Query Response Text	insights__open_queries_table_now_includes_query_response_text.html
+4	Insights: Clean Patient Tracker Terminology Updates	insights__clean_patient_tracker_terminology_updates.html
+4	Insights: Open Queries List Includes Open By and Query Data Columns	insights__open_queries_list_includes_open_by_and_query_data_columns.html
+4	Insights: Download the Clean Patient Tracker Patients List and Open Queries List	insights__download_the_clean_patient_tracker_patients_list_and_open_queries_list.html
+4	Track and Clean Unclean Patient Data with Clean Patient Tracker	track_and_clean_unclean_patient_data_with_clean_patient_tracker.html
+4	View All Patient Queries in One Location	view_all_patient_queries_in_one_location.html
+3	Review Reports Released Features	review_reports_released_features.html
+4	Review Reports User Interface Enhancements	review_reports_user_interface_enhancements.html
+4	Utilities - Review Reports	utilities_-_review_reports.html
+5	Filter Review Reports By Countries, Sites, And Patients	filter_review_reports_by_countries__sites__and_patients.html
+5	Capture Study Findings and Build Data Reports Directly in Detect	capture_study_findings_and_build_data_reports_directly_in_detect.html
+5	Review Report Enhancements	review_report_enhancements.html
+5	Close Date No Longer Required In Review Reports	close_date_no_longer_required_in_review_reports.html
+3	Detect Configuration Manager Released Features	detect_configuration_manager_released_features.html
+4	RBQM Configuration: Set Observation Thresholds For Weekend and Holiday Visits Using Signal Configurations	rbqm_configuration__set_observation_thresholds_for_weekend_and_holiday_visits_using_signal_configurations.html
+4	RBQM Configuration: Configure Custom Numeric KRIs That Run Statistical Analysis on Specific Data Subsets	rbqm_configuration__configure_custom_numeric_kris_that_run_statistical_analysis_on_specific_data_subsets.html
+4	Configuration: Configure AI Reconciliation In Clean Patient Tracker	configuration__configure_ai_reconciliation_in_clean_patient_tracker.html
+4	Configuration: Updated Configuration Page Enhances Usability	configuration__updated_configuration_page_enhances_usability.html
+4	RBQM Configuration: Signals Integration With Rave CTMS Issue Management	rbqm_configuration__signals_integration_with_rave_ctms_issue_management.html
+4	Access and Reuse Data Listing, QTL, and KRI Templates Across Multiple Client Divisions	access_and_reuse_data_listing__qtl__and_kri_templates_across_multiple_client_divisions.html
+4	Data Mapping Features	csm_configuration_features.html
+5	Data Surveillance: Autopopulate Missing Page Counts Sourced Directly from Rave	data_surveillance__autopopulate_missing_page_counts_derived_from_rave.html
+5	Data Mapping Reports Include Lab Measurements And Oncology Options	data_mapping_reports_include_lab_measurements_and_oncology_options.html
+5	Data Surveillance: Configure Vendor Groups To Assign Query Sets To Vendors	data_surveillance__configure_vendor_groups_to_assign_query_sets_to_vendors.html
+5	Data Surveillance: Names And OIDs Appear For Data Sets And Variables Used In RECIST 1.1 Mapping	data_surveillance__names_and_oids_appear_for_data_sets_and_variables_used_in_recist_1_1_mapping.html
+5	Configuration and Reporting: Derived Variables Enhancement Allows Selecting Type of Merge	configuration_and_reporting__derived_variables_enhancement_allows_selecting_type_of_merge.html
+5	Data Surveillance: Configure The Data Sets And Variables Used In CTCAE Reports	data_surveillance__configure_the_data_sets_and_variables_used_in_ctcae_reports.html
+5	Map Patient Milestone Data Points for Third-party, Fully Ingested Studies	map_patient_milestone_data_points_for_third-party__fully_ingested_studies.html
+5	Configuration and Reporting: Merge Multiple Datasets with Common Variables into One Dataset	configuration_and_reporting__merge_multiple_datasets_with_common_variables_into_one_dataset.html
+5	Configuration and Reporting: Map Data Set and Variables for Vendor Issues	configuration_and_reporting__map_data_set_and_variables_for_vendor_issues.html
+5	Configuration and Reporting: Map Data Set and Variables for the RECIST 1.1 Dashboard	configuration_and_reporting__map_data_set_and_variables_for_the_recist_1_1_dashboard.html
+5	Expand Event Analysis to Allow Multiple Domain Mappings	expand_event_analysis_to_allow_multiple_domain_mappings.html
+5	Configure the Data Sets and Variables Used for CSM's Event Analysis	configure_the_data_sets_and_variables_used_for_csm_s_event_analysis.html
+5	Configure the Data Sets and Variables Used for CSM's Error Plot Analysis	configure_the_data_sets_and_variables_used_for_csm_s_error_plot_analysis.html
+5	Event Analysis Includes AE Action Taken - Concomitant Medication Mapping Reference	event_analysis_includes_ae_action_taken_-_concomitant_medication_mapping_reference.html
+5	Configure the Vital Sign Data Used for CSM's Rounding and Propagation Analysis	configure_the_vital_sign_data_used_for_csm_s_rounding_and_propagation_analysis.html
+5	Detect Configuration Manager Enhancements	detect_configuration_manager_enhancements.html
+5	Configure All CSM-related Data Mappings on the CSM Configuration Page	configure_all_csm-related_data_mappings_on_the_csm_configuration_page.html
+5	Export CSM Configuration Report PDFs	export_csm_configuration_report_pdfs.html
+5	Configure Potential Duplicate Patient Data Mappings	configure_potential_duplicate_patient_data_mappings.html
+5	CSM Configuration Renamed to Detect Mapping and Other Label Changes	csm_configuration_renamed_to_detect_mapping_and_other_label_changes.html
+5	Event Analysis Includes New Mapping References	event_analysis_includes_new_mapping_references.html
+4	KRI Configuration Features	kri_configuration_features.html
+5	RBQM: Schedule Daily KRI Dashboard and QTL Dashboard Data Refreshes	rbqm__schedule_daily_kri_dashboard_and_qtl_dashboard_data_refreshes.html
+5	Configuration and Reporting: Preview the Number of Patients That Exceed a QTL or Percentage KRI Risk Threshold	configuration_and_reporting__preview_the_number_of_patients_that_exceed_a_qtl_or_percentage_kri_risk_threshold.html
+5	Detect Configuration Manager Minor Enhancements	detect_configuration_manager_minor_enhancements.html
+5	Add and Edit Custom KRIs in RBQM Configuration Manager	add_and_edit_custom_kris_in_rbqm_configuration_manager.html
+5	KRI and QTL Configuration Updates	kri_and_qtl_configuration_updates.html
+5	Configure Custom KRI Thresholds	configure_custom_kri_thresholds.html
+5	Configure How Detect Determines and Signifies a Site's Level of Risk	configure_how_detect_determines_and_signifies_a_site_s_level_of_risk.html
+5	KRI Configuration November 2022 Minor Enhancements	kri_configuration_november_2022_minor_enhancements.html
+5	Save and Reuse Custom KRI Configurations as Templates	save_and_reuse_custom_kri_configurations_as_templates.html
+5	Improved Percentage KRI Configuration Logic	improved_percentage_kri_configuration_logic.html
+5	KRI Configuration Report Enhancements	kri_configuration_report_enhancements.html
+5	Preview the Number of Patients That Exceed a Percentage KRI's Risk Threshold	preview_the_number_of_patients_that_exceed_a_percentage_kri_s_risk_threshold.html
+5	Edit KRI Details and Configurations	edit_kri_details_and_configurations.html
+5	Export and Download Customizable KRI Table Snapshots	export_and_download_customizable_kri_table_snapshots.html
+5	Activate and Deactivate KRIs in RBQM Configuration Manager	activate_and_deactivate_kris_in_rbqm_configuration_manager.html
+5	View, Filter, and Sort the Key Risk Indicators Table in RBQM Configuration Manager	view__filter__and_sort_the_key_risk_indicators_table_in_rbqm_configuration_manager.html
+5	Add and Edit Custom Percentage KRIs	add_and_edit_custom_percentage_kris.html
+5	Deactivate System KRIs from Displaying in Medidata Detect	deactivate_system_kris_from_displaying_in_medidata_detect.html
+5	Download QTL and KRI Configuration Report PDFs	download_qtl_and_kri_configuration_report_pdfs.html
+5	Detect Landing Page Enhancement	detect_landing_page_enhancement.html
+5	View Comprehensive Audits of KRI and QTL Configurations	view_comprehensive_audits_of_kri_and_qtl_configurations.html
+5	Percentage KRI Configuration Risk Threshold Edit Checks	percentage_kri_configuration_risk_threshold_edit_checks.html
+4	QTL Configuration Features	qtl_configuration_features.html
+5	Save and Reuse Custom QTL Configurations as Templates	save_and_reuse_custom_qtl_configurations_as_templates.html
+5	Add and Edit Custom QTLs in RBQM Configuration Manager	add_and_edit_custom_qtls_in_rbqm_configuration_manager.html
+5	Activate and Deactivate QTLs in RBQM Configuration Manager	activate_and_deactivate_qtls_in_rbqm_configuration_manager.html
+5	Define Custom QTLs and Percentage KRIs to Target Specific Data Population Subsets	define_custom_qtls_and_percentage_kris_to_target_specific_data_population_subsets.html
+5	QTL Configuration Report PDF Column Updates	qtl_configuration_report_pdf_column_updates.html
+5	QTL Configuration November 2022 Minor Enhancements	qtl_configuration_november_2022_minor_enhancements.html
+5	Find and Add Data Sets and Variables Faster When Configuring Custom QTLs and Percentage KRIs	find_and_add_data_sets_and_variables_faster_when_configuring_custom_qtls_and_percentage_kris.html
+5	Quality Tolerance Limits Table Column Header Updates	quality_tolerance_limits_table_column_header_updates.html
+5	QTL Configuration Report Enhancements	qtl_configuration_report_enhancements.html
+5	Updates to QTL Details When Defining Custom QTLs	updates_to_qtl_details_when_defining_custom_qtls.html
+5	New QTL Configuration Requirements and Validation Checks	new_qtl_configuration_requirements_and_validation_checks.html
+5	View and Sort the Quality Tolerance Limits List in RBQM Configuration Manager	view_and_sort_the_quality_tolerance_limits_list_in_rbqm_configuration_manager.html
+5	Detect Configuration Manager 2023.1.0 Minor Enhancements	detect_configuration_manager_2023_1_0_minor_enhancements.html
+4	RBQM Configuration Manager-Medidata Detect Integration Features	rbqm_configuration_manager-medidata_detect_integration_features.html
+5	RBQM: Set Observation Thresholds For Modules Using Signal Configurations	set_observation_thresholds_for_modules_using_signal_configurations.html
+5	RBQM Configuration Manager Integrates with Medidata Detect	rbqm_configuration_manager_integrates_with_medidata_detect.html
+4	UI Updates and Technical Enhancements Detect Configuration Manager	ui_updates_and_technical_enhancements_detect_configuration_manager.html
+5	Configuration and Reporting: Minor Detect Configuration Manager Enhancements for November 2023	configuration_and_reporting__minor_detect_configuration_manager_enhancements_for_november_2023.html
+5	Product Rebranded as Detect Configuration Manager	product_rebranded_as_detect_configuration_manager.html
+5	Data Surveillance: CP And CM Condition Mapping Reference Possible Only After Configuring Treatment And Procedure Data Sets	data_surveillance__cp_or_cm_condition_mapping_reference_possible_only_after_configuring_treatment_and_procedure_data_sets.html
+5	Updates to Detect User Permissions	updates_to_detect_user_permissions.html
+5	Improved Navigation in Detect Configuration Manager 2022.1.0	improved_navigation_in_detect_configuration_manager_2022_1_0.html
+5	Enhancements in RBQM Configuration Manager 2021.1.0	enhancements_in_rbqm_configuration_manager_2021_1_0.html
+5	Preperatotry Work for Future Features or Enhancements	preperatotry_work_for_future_features_or_enhancements.html
+5	Feature Release Announcement Informs You of the Latest Release Details	feature_release_announcement_informs_you_of_the_latest_release_details.html
+5	RBQM: Identify Stacked Data Sets While Configuring KRIs, QTLs and Data Mapping Fields	rbqm__identify_stacked_data_sets_while_configuring_kris__qtls_and_data_mapping_fields.html
+5	Preperatory Work for Future Features and Enhancements	preperatory_work_for_future_features_and_enhancements.html
+4	Resolved Issues 2	resolved_issues_2.html
+5	RBQM Configuration Manager 2020.1.0 Resolved Issues List	rbqm_configuration_manager_2020_1_0_resolved_issues_list.html
+5	RBQM Configuration Manager 2020.2.0 Resolved Issues List	rbqm_configuration_manager_2020_2_0_resolved_issues_list.html
+5	RBQM Configuration Manager 2020.2.1 Resolved Issues List	rbqm_configuration_manager_2020_2_1_resolved_issues_list.html
+5	RBQM Configuration Manager 2021.1.0 Resolved Issues List	rbqm_configuration_manager_2021_1_0_resolved_issues_list.html
+5	RBQM Configuration Manager 2021.2.0 Resolved Issues List	rbqm_configuration_manager_2021_2_0_resolved_issues_list.html
+5	Detect Configuration Manager 2022.1.0 Resolved Issues List	detect_configuration_manager_2022_1_0_resolved_issues_list.html
+5	Detect Configuration Manager 2022.2.0 Resolved Issues List	detect_configuration_manager_2022_2_0_resolved_issues_list.html
+5	Detect Configuration Manager 2022.2.1 Resolved Issues List	detect_configuration_manager_2022_2_1_resolved_issues_list.html
+3	General Data Surveillance and RBQM Released Features	general_detect_released_features.html
+4	Introducing the Enhanced Release Notes Experience	introducing_the_enhanced_release_notes_experience.html
+4	Internal and Technical Changes in Data Surveillance and RBQM Dec 2025	internal_and_technical_changes_in_data_surveillance_and_rbqm_dec_2025.html
+4	Clinical Data Studio 2025.3.0 Minor and Technical Enhancements	clinical_data_studio_2025_3_0_minor_and_technical_enhancements.html
+4	Data Surveillance and RBQM: Help Menu Launches Contextually Relevant Knowledge Hub User Assistance Directly in App	data_surveillance_and_rbqm__help_menu_launches_contextually_relevant_knowledge_hub_user_assistance_directly_in_app.html
+4	Introducing Clinical Data Studio	introducing_clinical_data_studio.html
+4	Internal and Technical Changes in Medidata Detect April 2024	internal_and_technical_changes_in_medidata_detect_april_2024.html
+4	Internal and Technical Enhancements in Medidata Detect November 2023	internal_and_technical_enhancements_in_medidata_detect_november_2023.html
+4	Launch Instructional Videos in-App Directly at the Point of Need	launch_instructional_videos_in-app_directly_at_the_point_of_need.html
+4	Internal and Technical Enhancements in Medidata Detect August 2023	internal_and_technical_enhancements_in_medidata_detect_august_2023.html
+4	Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience	redesigned_release_notes_content_provides_a_clearer_and_easier_to_consume_experience.html
+4	RBQM: Subjects Updated To Patients In KRIs and QTLs	rbqm__subjects_updated_to_patients_in_kris_and_qtls.html
+4	Notification Center for Detect	notification_center_for_detect.html
+4	Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience	medidata_knowledge_hub_provides_a_centralized__transformative_product_content_experience.html
+3	Internal And Technical Enhancements In Clinical Data Studio	internal_and_technical_enhancements_in_clinical_data_studio.html
+3	Resolved Issues from Past Releases	medidata_detect_resolved_issues_from_past_releases.html
+4	Clinical Data Studio 2026.2.1 Resolved Issues List	clinical_data_studio_2026_2_1_resolved_issues_list.html
+4	Clinical Data Studio 2026.2.0 Resolved Issues List	clinical_data_studio_2026_2_0_resolved_issues_list.html
+4	Clinical Data Studio 2026.1.1 Resolved Issues List	clinical_data_studio_2026_1_1_resolved_issues_list.html
+4	Clinical Data Studio 2025.3.7 Resolved Issues List	clinical_data_studio_2025_3_7_resolved_issues_list.html
+4	Clinical Data Studio 2025.3.6 Resolved Issues List	clinical_data_studio_2025_3_6_resolved_issues_list.html
+4	Clinical Data Studio 2025.3.5 Resolved Issues List	clinical_data_studio_2025_3_5_resolved_issues_list.html
+4	Clinical Data Studio 2025.3.4 Resolved Issues List	clinical_data_studio_2025_3_4_resolved_issues_list.html
+4	Clinical Data Studio 2025.3.2 Resolved Issues List	clinical_data_studio_2025_3_2_resolved_issues_list_1.html
+4	Clinical Data Studio 2025.3.1 Resolved Issues List	clinical_data_studio_2025_3_1_resolved_issues_list.html
+4	Clinical Data Studio 2025.3.0 Resolved Issues List	clinical_data_studio_2025_3_0_resolved_issues_list.html
+4	Clinical Data Studio 2025.2.2 Resolved Issues List	clinical_data_studio_2025_2_2_resolved_issues_list.html
+4	Clinical Data Studio 2025.2.1 Resolved Issues List	clinical_data_studio_2025_2_1_resolved_issues_list.html
+4	Clinical Data Studio 2025.2.0 Resolved Issues List	clinical_data_studio_2025_2_0_resolved_issues_list.html
+4	Clinical Data Studio 2025.1.4 Resolved Issues List	clinical_data_studio_2025_1_4_resolved_issues_list.html
+4	Clinical Data Studio 2025.1.3 Resolved Issues List	clinical_data_studio_2025_1_3_resolved_issues_list.html
+4	Clinical Data Studio 2025.1.2 Resolved Issues List	clinical_data_studio_2025_1_2_resolved_issues_list.html
+4	Clinical Data Studio 2025.1.1 Resolved Issues List	clinical_data_studio_2025_1_1_resolved_issues_list.html
+4	Clinical Data Studio 2025.1.0 Resolved Issues List	clinical_data_studio_2025_1_0_resolved_issues_list.html
+4	Clinical Data Studio - Patient Profiles 2024.4.4 Resolved Issues List	clinical_data_studio_-_patient_profiles_2024_4_4_resolved_issues_list.html
+4	Clinical Data Studio - Data Reviewer 2024.4.2 Resolved Issues List	clinical_data_studio_-_data_reviewer_2024_4_2_resolved_issues_list.html
+4	Clinical Data Studio - Patient Profiles 2024.4.2 Resolved Issues List	clinical_data_studio_-_patient_profiles_2024_4_2_resolved_issues_list.html
+4	Clinical Data Studio - KRI Dashboard 2024.1.2 Resolved Issues List	clinical_data_studio_-_kri_dashboard_2024_1_2_resolved_issues_list.html
+4	Clinical Data Studio - Data Reviewer 2024.4.1 Resolved Issues List	clinical_data_studio_-_data_reviewer_2024_4_1_resolved_issues_list.html
+4	Clinical Data Studio - Configuration 2024.4.1 Resolved Issues List	clinical_data_studio_-_configuration_2024_4_1_resolved_issues_list.html
+4	Clinical Data Studio - Risk Management 2024.4.2 Resolved Issues List	clinical_data_studio_-_risk_management_2024_4_2_resolved_issues_list.html
+4	Clinical Data Studio - Patient Profiles 2024.4.1 Resolved Issues List	clinical_data_studio_-_patient_profiles_2024_4_1_resolved_issues_list.html
+5	Clinical Data Studio - Patient Profiles 2024.4.3 Resolved Issues List	clinical_data_studio_-_patient_profiles_2024_4_3_resolved_issues_list.html
+4	Clinical Data Studio - Risk Management 2024.4.1 Resolved Issues List	clinical_data_studio_-_risk_management_2024_4_1_resolved_issues_list.html
+4	Clinical Data Studio December 2024 Resolved Issues List	clinical_data_studio_december_2024_resolved_issues_list.html
+4	Clinical Data Studio - Data Reviewer 2024.3.3 Resolved Issues List	clinical_data_studio_-_data_reviewer_2024_3_3_resolved_issues_list.html
+4	Clinical Data Studio - Statistical Monitoring 2024.1.2 Resolved Issues List	clinical_data_studio_-_statistical_monitoring_2024_1_2_resolved_issues_list.html
+4	Clinical Data Studio - Data Reviewer 2024.3.2 Resolved Issues List	clinical_data_studio_-_data_reviewer_2024_3_2_resolved_issues_list.html
+4	Clinical Data Studio - Risk Management 2024.3.1 Resolved Issues List	clinical_data_studio_-_risk_managment_2024_3_1_resolved_issues_list.html
+4	Clinical Data Studio - Data Reviewer 2024.3.1 Resolved Issues List	clinical_data_studio_-_data_reviewer_2024_3_1_resolved_issues_list.html
+4	Clinical Data Studio - Clean Patient Tracker 2024.1.3 Resolved Issues List	clinical_data_studio_-_clean_patient_tracker_2024_1_3_resolved_issues_list.html
+4	Clinical Data Studio - Risk Management 2024.2.1 Resolved Issues List	clinical_data_studio_-_risk_management_2024_2_1_resolved_issues_list.html
+4	Clinical Data Studio - Patient Profiles 2024.2.1 Resolved Issues List	clinical_data_studio_-_patient_profiles_2024_2_1_resolved_issues_list.html
+4	Clinical Data Studio September 2024 Resolved Issues List	clinical_data_studio_september_2024_resolved_issues_list.html
+4	Clinical Data Studio June 2024 Resolved Issues List	clinical_data_studio_june_2024_resolved_issues_list.html
+4	Clinical Data Studio - QTLs 2024.1.1 Resolved Issues List	clinical_data_studio_-_qtls_2024_1_1_resolved_issues_list.html
+4	Data Reviewer 2024.1.1 Resolved Issues List	data_reviewer_2024_1_1_resolved_issues_list.html
+4	Medidata Detect April 2024 Resolved Issues List	medidata_detect_april_2024_resolved_issues_list.html
+4	Risk Management 2023.3.1 Resolved Issues List	risk_management_2023_3_1_resolved_issues_list.html
+4	Medidata Patient Profiles 2023.2.1 Resolved Issues List	medidata_patient_profiles_2023_2_1_resolved_issues_list.html
+4	KRI Dashboard 2023.2.1 Resolved Issues List	kri_dashboard_2023_2_1_resolved_issues_list.html
+4	Medidata Patient Profiles 2023.1.2 Resolved Issues List	medidata_patient_profiles_2023_1_2_resolved_issues_list.html
+5	Medidata Patient Profiles 2023.1.6 Resolved Issues List	medidata_patient_profiles_2023_1_6_resolved_issues_list.html
+4	Medidata Detect November 2023 Resolved Issues List	medidata_detect_november_2023_resolved_issues_list.html
+4	Medidata Detect August 2023 Resolved Issues List	medidata_detect_august_2023_resolved_issues_list.html
+4	Medidata Patient Profiles 2023.1.4 Resolved Issues List	medidata_patient_profiles_2023_1_4_resolved_issues_list.html
+4	Medidata Detect Landing Page 2023.2.1 Resolved Issues List	medidata_detect_landing_page_2023_2_1_resolved_issues_list.html
+4	Data Reviewer 2023.2.1 Urgent Software Update Resolved Issues List	data_reviewer_2023_2_1_urgent_software_update_resolved_issues_list.html
+4	Medidata Detect July 2023 Resolved Issues List	medidata_detect_july_2023_resolved_issues_list.html
+4	Medidata Detect March 2023 Resolved Issues List	medidata_detect_march_2023_resolved_issues_list.html
+4	Medidata Patient Profiles 2022.3.5 Resolved Issues List	medidata_patient_profiles_2022_3_5_resolved_issues_list.html
+4	Medidata Detect January 2023 Resolved Issues List	medidata_detect_january_2023_resolved_issues_list.html
+4	Medidata Detect 2022.3.1 Resolved Issues List	medidata_detect_2022_3_1_resolved_issues_list.html
+4	Medidata Detect November 2022 Resolved Issues List	medidata_detect_november_2022_resolved_issues_list.html
+4	Medidata Detect May 2023 Resolved Issues List	medidata_detect_may_2023_resolved_issues_list.html
+4	Medidata Detect May 2023 Urgent Software Update Resolved Issues List	medidata_detect_may_2023_urgent_software_update_resolved_issues_list.html
+4	Medidata Data Reviewer 2023.1.1 Resolved Issues List	medidata_data_reviewer_2023_1_1_resolved_issues_list.html
+2	Clinical Data Studio 2026.2.1 Urgent Software Update Release Notes	clinical_data_studio_2026_2_1_urgent_software_update_release_notes.html
+1	About Clinical Data Studio	about_clinical_data_studio.html
+2	Log In, Navigate Medidata, and Access Studies	login__navigate_medidata__and_access_studies.html
+2	Clinical Data Studio's Data Pipeline	clinical_data_studio_s_data_pipeline.html
+2	Grant Access to Clinical Data Studio	grant_access_to_clinical_data_studio.html
+2	Request Product Enhancements and Share Feedback	request_product_enhancements_and_share_feedback.html
+2	PC Specifications	get_started_with_clinical_data_studio.html

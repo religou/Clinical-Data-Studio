@@ -1,0 +1,23 @@
+# External EDC File Support
+
+## External EDC File Support
+## Description
+ You can import data from external EDC systems into MEDS Ingestor.  The following external  data sets  are available for import in the comma-separated value (CSV) format: 
+- Disposition Status (DS) 
+- Adverse Event (AE) 
+- Subject Visits (SV)  
+ External EDC file support is only available to internal Medidata staff as of MEDS Ingestor 2020.1.0.
+ Feature/enhancement stories referenced in this article:
+ MCC-568905 
+## Affected Roles
+ All customer-defined platform roles with access to MEDS Ingestor. 
+## Advantages
+ Import external EDC files into MEDS. Once imported, produce consolidated reports using  MEDS Reporter 
+## User Impact
+ You can import CSV files from external EDC sources.  CSV files for import must have filenames starting with the data set type corresponding to the data in the file followed by a dash:
+- DS- for Disposition Status data. 
+- AE-  for Adverse Event data. 
+- SV-  for Subject Visit data. 
+ Important . These are the only MEDS Ingestor currently only supports the Disposition Status, Adverse Event, and Subject Visit data set types  for external EDC imports.
+## Special Considerations
+- External EDC file support is only available to internal Medidata staff as of MEDS Ingestor 2020.1.0 .

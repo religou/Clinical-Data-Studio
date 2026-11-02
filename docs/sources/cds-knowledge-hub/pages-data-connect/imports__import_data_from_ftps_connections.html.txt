@@ -1,0 +1,24 @@
+# Imports: Import Data from FTPS Connections
+
+## Imports: Import Data from FTPS Connections
+## What Is New?
+ Data Connect’s Imports capability provides new functionality that manages and imports data from FTPS Connection. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ There is no change to the existing data transfer configuration process. These updates augment existing functionalities. Users can now, however, import data from FTPS locations.
+## Other Applications
+- Data Connect > Datasets and Transformations – Users can see the datasets imported with Imports when using Data Connect's Datasets module or the Transformations module. 
+- Data Surveillance and RBQM – Users can use the transformed imported data for use by downstream capabilities such as Data Surveillance and RBQM. 
+- Data Connect > Exports – Users can export transformed data using imported external data from Data Connect's Exports module. 
+## How Do I Benefit?
+ Customers with Rave access for an FTPS server can now directly ingest data from it. 
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Imports tab.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this:
+- Add Data Source 
+## What Else Should I Know?
+ When managing import configuration versions o nly one draft can be active at a time, and only one published dataset version can be importing data simultaneously. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

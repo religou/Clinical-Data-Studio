@@ -1,0 +1,50 @@
+# Listings: Maintain Data Continuity After Data Refreshes Using Dropped Listing Records
+
+## Listings: Maintain Data Continuity After Data Refreshes Using Dropped Listing Records
+ Important :
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the   released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.2.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Listings
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ Listings now includes a dropped status for records which get dropped after a data refresh as they no longer meet the criteria configured in the listing's conditional expression. 
+ when a listing is refreshed, records that no longer meet the filter criteria (due to data updates) are automatically removed from the view. This results in the loss of visibility for records that may have already been reviewed or contain comments. To ensure data continuity by retaining "dropped" records in the listing if they possess historical review data or user comments, regardless of whether they still satisfy the primary filter expression. 
+ Benefit to Users 
+ | Data managers can track records that were dropped after refreshing listings, and have insight into historical reviews or user comments associated with those records. This enables data managers to have a complete view into study data. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data managers.
+ Impact to Workflow Processes 
+ No impact to the workflow process.
+ Impact to Applications 
+ No impact to applications.
+ Impact on Interface 
+ On the Data Surveillance > Listings pages, records marked as reviewed, or with comments, that do not meet the listing criteria after a data refresh, appear disabled and with a Dropped status.
+ Impact to Existing Data or Settings 
+ None.
+ User Impact Assessment 
+ | Medium 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Review Approved Listings Result . 
+ Special Considerations 
+ | To view Medidata testing documentation for this release, see the   Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

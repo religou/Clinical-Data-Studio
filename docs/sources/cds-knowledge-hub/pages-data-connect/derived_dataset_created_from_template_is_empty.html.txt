@@ -1,0 +1,17 @@
+# Derived Dataset Created From Template Is Empty
+
+## Derived Dataset Created From Template Is Empty
+ When you publish a derived dataset project, you can choose to publish it as a template , which you can reuse for other derived dataset projects. Sometimes, however, when you use a template the new project's canvas shows no nodes or branches from the template.
+## Symptoms
+ When you create a Derived Dataset project using the From Template option, the created project's canvas appears as empty. 
+## Causes
+ Projects published before the August release are missing a parameter added after the August release that prevents relevant data to populate in a template. Editing and republishing affected projects adds that parameter, ensuring that the templates function as expected.
+## Diagnostic
+ N/A
+## Resolution
+- Open a derived project that the template is based on. 
+- Change the final node of the project such that there is a net-zero change to the project's output, such as adding and then deleting a column. 
+- Save the project. 
+- From the Transformations > Projects page, identify the project, and select Publish to publish the project  without publishing it as a template. 
+- Wait for the project to move from the Publishing status to the Published status. 
+- Once has the Published status, select Publish as Template to update the template.

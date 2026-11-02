@@ -1,0 +1,26 @@
+# Arrange the Design Layout Patient Profiles
+
+## Arrange the Design Layout Patient Profiles
+## Description
+ After designing elements, you can:
+- arrange the positioning of elements in the design layout; 
+- color-code sections to enhance the report's readability; and 
+- prevent elements from displaying in reports and getting pulled into CSA's analytics. 
+ You generally do not begin configuring the design layout until you finish adding elements to the design.
+## Affected Roles
+ All.
+## Advantages
+ See the Description section.
+## User Impact
+ On the Design page > Layout tab, you can:
+- Add elements to the design layout; 
+- Remove elements from the design layout; 
+- Apply a color and name to the section; 
+- Opt to prevent the section from displaying in the profile and prevent section data from getting analyzed in CSA; 
+- Change the placement of sections in the design layout; 
+- Change the placement of variables within or across sections; 
+- Remove sections from the design layout; 
+- Navigate directly to an element on the display page to edit the element details; and 
+- Change a variable's data type. 
+## Special Considerations
+ Elements do not display in reports until you add them to the layout.

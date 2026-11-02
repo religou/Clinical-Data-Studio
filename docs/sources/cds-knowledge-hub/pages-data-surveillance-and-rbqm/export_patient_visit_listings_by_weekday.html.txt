@@ -1,0 +1,17 @@
+# Export Patient Visit Listings by Weekday
+
+## Export Patient Visit Listings by Weekday
+ You can export the list of scheduled patient visits that occurred on a specific day of the week. Exporting the patient visit listing for a specific weekday enables you to:
+- Sort the patient visit listing data. 
+- Easily exchange the patient visit listing data with sites and other stakeholders to facilitate communication. 
+- Locally save and archive the patient visit listing data. 
+- Access RBQM , and then click Statistical Monitoring > Weekend and Holiday in the left-hand menu.
+The Weekend and Holiday Visits page shows. 
+- In Countries , select to view the visit data by all countries or a specific country. 
+- Click a weekday card.
+The patient visit listing for the selected weekday appears. 
+- If necessary, filter the patient visit listing. For tips on filtering, see  Investigate Site Visits On Non-Business Days .
+ Note : The export only includes filtered patient visit data. F or example, if you filtered the visit listing for a specific site, then the export includes only the patient visit data for that site. 
+- Click Export on the top-right side of the patient visit listing.
+ The patient visit listing downloads locally to your machine as a .csv file.
+ Note : The export only includes the first 500 records in the patient visit listing.

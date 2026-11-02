@@ -1,0 +1,16 @@
+# Derived Variable Names Save In Upper Case
+
+## Derived Variable Names Save In Upper Case
+## Description
+ Derived Variables now saves a derived variable name by default in capitals.
+## Affected Roles
+ All Detect users with Derived Variables access.
+## Advantages
+ Data stored in the Derived Variables database is easier to view and retrieve.
+## User Impact
+ If you create a derived variable and enter the derived variable name either in upper, lower, or title case in the Name field, the name saves in upper case in Medidata Detect > Patient Data Surveillance > Derived Variables.
+## Knowledge Space Updates
+ The Detect Knowledge Space provides new and updated content to support the enhancement: 
+- Update Derived Variables 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

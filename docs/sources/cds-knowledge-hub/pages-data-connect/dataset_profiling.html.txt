@@ -1,0 +1,12 @@
+# Dataset Profiling
+
+## Dataset Profiling
+ Data Connect's Profiling capability examines and summarizes source data to review clinical datasets. With this feature, you can understand data structure, content, quality, and relationships. Profiling uncovers patterns, anomalies, and issues, such as missing values. It uses statistics and rules to create a data overview. Use this overview to assess data fitness for analytics, data warehousing, or integration. Profiling supports data governance and quality improvement.
+- Access Data Connect , and  click   Datasets   in the left-hand menu. 
+- Select a dataset by clicking its name on the left side of its row.   
+- Select the Profiling  tab. 
+- Select the Version of the dataset from the drop down list. 
+- Select Fields to compare using the  Select fields list on the right. 
+- Click +New Filter to add filters to the selected fields. 
+- Click Compare  on the right-hand side to compare a new dataset profile. This creates a profile on the right-hand side. 
+- Repeat the steps 4 and 5 to add fields and filters for the new dataset to compare. You can now compare two data profiles side by side.

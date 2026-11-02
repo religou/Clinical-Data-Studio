@@ -1,0 +1,9 @@
+# Imports Releases History
+
+## Imports Releases History
+ The following lists all releases for Data Connect's Imports capability before the June 2024 release, and the features or enhancements introduced in each.
+ Important : As of the 2024.1.0 release, Sync is a part of the Data Connect solution as its "Imports" capability. It is now "Data Connect - Imports" or "Imports." For details what the 2024.1.0 release entails, and following releases, see Data Connect Releases History ,
+ Code Continuity Across Releases
+ All Imports releases are cumulative.  That is, each release or software update builds on prior releases as noted in the release notes. For example,  Software Update 2020.2.1  includes all release 2020.2.0 code, which in turn is based on the release 2020.1.0 code and so on. The release notes describe any updates between releases or s oftware updates (urgent or otherwise). 
+## Sync 2023.1.0 Beta Feature Release (Nov 2023) 
+- Manage Third-Party Data Transfers with Sync

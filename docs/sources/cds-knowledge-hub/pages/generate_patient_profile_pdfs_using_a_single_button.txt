@@ -1,0 +1,18 @@
+# Generate Patient Profile PDFs Using A Single Button
+
+## Generate Patient Profile PDFs Using A Single Button
+## Description
+ You can generate single or bulk patient profile PDFs using the PDF  button on the Profile Viewer page.
+## Affected Roles
+ All.
+## Advantages
+ Using a single button to create individual or bulk PDFs provides a cleaner, more usable workspace on the Profiles tab. 
+## User Impact
+ On the Medidata Detect > Patient Data Surveillance (PDS) > Patient Profiles > Patient Profile Designs > Profiles tab, if you click PDF  and select Single Patient or Multiple Patients, you can download patient profile PDFs for individual or multiple patients. For more details, see:
+- Generate Customized Patient Profile PDFs in Bulk 
+- Review and Export Patient Profiles 
+## Knowledge Space Updates
+ The Patient Profiles Knowledge Space provides updated content to support the enhancement: 
+- Review and Export Patient Profiles 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,116 @@
+# RBQM: Set Observation Thresholds For Modules Using Signal Configurations
+
+## RBQM: Set Observation Thresholds For Modules Using Signal Configurations
+## What Is New?
+ In the Centralized Monitoring process , a signal is an alert or indication of a potential problem, risk, or deviation in a clinical study. Signals get detected remotely by analyzing study data centrally, and allow proactively identifying potential risks in the study data. Signals help sponsors focus resources on sites or issues needing immediate attention, improving data integrity and patient safety.
+In short,  
+- A signal is a potential issue identified through data analysis. 
+- An issue is a confirmed finding, the result of a signal validated through central monitor review, site discussion, or site visit.  
+ RBQM includes a new Signals feature that you can use to build automated signals. However, to produce automated signals, you must first configure the modules you want the signal to report on. You can configure signals in RBQM > Configuration > Signals. 
+## What Is the Impact?
+## Users/Roles
+ Central Monitors, Clinical Research Associates (CRAs), users with View Detect CSM Configuration and Manage Detect CSM Configuration building blocks added to their Cloud Administration profile.
+## Workflow Process
+ Signal configuration includes two aspects. First, the modules included in the signals report. Second, the specific thresholds within the modules at which signals get generated. 
+ While configuring signals for individual modules, you can set up thresholds based on which automated signals get created. You must also choose the modules you want the signals to report on. For example, if you do not enable KRIs in the Signals Configuration, and add custom configurations, no signals get created for any KRI in your study when the signals data refreshes. Once you configure a signal, observations appear as signals based on custom configurations and the latest data snapshot for individual modules.
+## Other Applications
+ No impact on other applications. However, automated signals get generated based on values you set up as thresholds for the following:
+- Patient Profiles 
+- KRIs 
+- QTLs 
+- Duplicate Patients 
+- Rounding 
+- Propagation 
+- Under/over Reporting 
+## How Do I Benefit?
+ With automated signals, Central Monitors can aggregate and track signals, create and assign actions for signals, and investigate signals of interest. You can monitor values that appear outside the set threshold and investigate observations, if necessary. Consolidating signals from various analyses into a single, centralized report: 
+- Streamlines the identification, tracking, and management of data quality issues across study data. 
+- Allows for continuous monitoring and ensures that potential risks get mitigated before they escalate as issues. 
+- Enhances efficiency, reduces manual effort, and improves decision-making for users involved in central monitoring and central statistical monitoring. 
+- Provides clear, actionable insights, ensuring that critical data quality issues are identified and addressed promptly. 
+## Where Do I See the Change?
+ You can configure Signals reports in RBQM > Configuration > Signals.
+ Tip : Click the image to enlarge.
+ Number  
+ Description 
+ | 1. 
+ | The Signals configuration page appears if you RBQM > Configuration > Signals on the left-hand menu.  
+ | 2. 
+ | The Signals configuration page shows when the signal configuration was last updated, the settings required for individual modules, and an option to download the configurations.  
+ | 3. 
+ | 
+ The left hand-side Settings panel lists all the modules for which you can configure automated signals, namely:
+- Patient Profiles 
+- KRIs 
+- QTLs 
+- Duplicate Patients 
+- Rounding 
+- Propagation 
+- Under/over Reporting. 
+ You must click the toggle button , next to a module name to include signals from the module in the automated signal report. Automated signals appear only if you enable the module, and then add configuration details. However, if you toggle off a module with previously saved configurations, they remain saved. If you refresh data in the automated signal report, signals from the deactivated module do not appear in the report. They appear once the module is toggled on.
+ For each configuration, if you click the More icon, at the end of row, you can further click Edit to edit the configuration or Delete to delete it. You can delete multiple configurations for a module at a time. If you toggle off a module, a "There are items already configured. Existing configurations will be deactivated. Are you sure you want to remove them?" message appears.  
+ Click the following tabs for more information on individual modules. 
+ Patient Profiles KRIs QTLs Duplicate Patients Rounding Propagation Under/over Reporting 
+ Patient Profiles
+## Patient Profiles
+ If you click Patient Profiles from the Settings pane, and then click Add Custom Configuration , the Add patient profile configuration page appears.
+- Design –You can select one from a list of published designs. 
+- Flags –You can select one from a list of flags associated with the published design. Flag names are unique within an approved patient profile design. 
+- Description – An editable, default description appears. 
+ You can add up to 15 distinct, custom configurations for Patient Profiles. A flag used in a custom configuration is no longer available in the profile design for another configuration.
+ KRIs
+## KRIs
+ If you click KRIs from the Settings pane, and then click Add Custom Configuration , the Add KRI configuration page appears.
+- Name – You can select one from the active KRIs configured on the RBQM > KRIs page. You can create 15 distinct custom configurations. A KRI you select in a custom configuration is no longer available for selection in another configuration. It becomes available only if you delete the saved custom configuration. If a KRI used in a custom configuration is no longer active, a label appears in the configuration row.  
+- Threshold –You can select High or Medium. 
+- Description – An editable, default description appears.  
+## 
+ QTLs
+## QTLs
+ If you click QTLs from the Settings pane, and then click Add Custom Configuration , the Add QTL configuration page appears.
+- Name – You can select one from the active QTLs configured on the RBQM > QTLs page. You can create 15 distinct custom configurations. A QTL you select in a custom configuration is no longer available for selection in another configuration. It becomes available only if you delete the saved custom configuration. If a QTL used in a custom configuration is no longer active, a message appears.  
+- Threshold –You can select Upper Limit or Threshold, depending on the QTL you select. 
+- Description – An editable, default description appears.  
+ Duplicate Patients
+## Duplicate Patients 
+ If you click Duplicate patients from the Settings pane, and then click Add Custom Configuration , the Add duplicate patients configuration page appears.
+ You can type in the Description field or use the default description text. Once you save, the automated signal reports include signals on duplicate patients in your study.
+ Rounding
+## Rounding
+ If you click Rounding from the Settings pane, and then click Add Custom Configuration , the Add rounding configuration page appears.
+- Variable – Select one or more variables from the data sets configured on the RBQM > Statistical Monitoring > Rounding & propagation > Propagation tab. 
+You can select a maximum of 12 variables in a single custom configuration. However, you can create 15 distinct custom configurations. A variable you select in a custom configuration is no longer available for selection in another configuration. It becomes available only if you drop the variable from the saved custom configuration.  
+- Threshold – This is a percentage and must be over 0. 
+- Description – An editable, default description appears. 
+ Propagation
+## Propagation
+ If you click Propagation from the Settings pane, and then click Add Custom Configuration , the Added propagation configuration page appears.
+- 
+- Variable – Select one or more variables from the data sets configured on the RBQM > Statistical Monitoring > Rounding & propagation > Propagation tab. 
+You can select a maximum of 12 variables in a single custom configuration. However, you can create 15 distinct custom configurations. A variable you select in a custom configuration is no longer available for selection in another configuration. It becomes available only if you drop the variable from the saved custom configuration.  
+- Threshold – This is a percentage and must be over 0. 
+- Description – An editable, default description appears 
+ Under/over Reporting
+## Under/over Reporting
+ If you click Under/over Reporting from the Settings pane, and then click Add Custom Configuration , the Add under/over reporting configuration page appears.
+- Event – Select a Condition, History, or Treatment event. 
+- Threshold – You can select one or both Under or Over thresholds. 
+- Description – An editable, default description appears.
+ You can have a maximum of three custom configurations, one per event. The Add Custom Configuration button becomes disabled thereafter.
+ | 4. 
+ | If you click a module in the left-hand Settings panel, the custom configurations for the individual module appear. If you then click the Add Custom Configuration button from the top-right of the page, you can define configurations for each module. You can create a total of 15 distinct custom configurations for each module, except Duplicate Patients, which has one configuration setting. For Rounding and Propagation, you can use a maximum of 12 variables in a single custom configuration. 
+ | 5. 
+ | You can click Download report from the top-right corner of the page to obtain a PDF file that includes custom configurations for all modules.  
+ | 6.  
+ | 
+ You can click the icon to download an audit trail report for Signal configuration.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the feature:
+- Signal Configuration 
+## What Else Should I Know?
+- Only users with View Detect CSM Configuration building blocks added to their Cloud Administration profiles can view and download custom configurations. Users with Manage CSM Detect Configuration can add, edit, or delete custom configurations. 
+- You can refresh data only once for the automated signals report.  
+- You cannot generate or configure signals for Rounding and Propagation, if pivot is turned on under RBQM > Configuration > Data Mapping > Rounding and Propagation. 
+- Custom configuration changes made after 6:00 AM EST do not show in the automated signals report until the next day.  
+- For Statistical Monitoring modules such as Rounding, Propagation, Duplicate Patients, and Under/over Reporting, if the Signals workflow encounters an error with any one module, the automated signals report for that module shows observations misaligned with those shown on the module's dashboard. On the signals report, the Module Snapshot still reflects the latest snapshot data from that module. For example, if Rounding has an error, then the signals for Rounding may not align with the data shown on the RBQM > Statistical Monitoring > Rounding and Propagation > Rounding tab. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

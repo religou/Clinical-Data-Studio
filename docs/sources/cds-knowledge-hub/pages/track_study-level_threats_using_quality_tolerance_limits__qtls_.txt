@@ -1,0 +1,36 @@
+# Track Study-level Threats Using Quality Tolerance Limits (QTLs)
+
+## Track Study-level Threats Using Quality Tolerance Limits (QTLs)
+## Description
+ Authorized users can now view and track quality tolerance limits (QTLs) on the Quality Tolerance Limits page. QTLs  are study-level metrics that indicate whether  a study parameter's reported data has breached a pre-identified data quality threshold.   QTLs target and monitor the greatest risks to  a study's: 
+- Safety 
+- Conduct 
+- Performance 
+- Compliance 
+- Data quality 
+ Each QTL has a value that is computed based on Medidata Detect's statistical analysis of your study data. QTLs are calculated at the study level. The QTL value calculations are reflected as one of the following: 
+- Number  – Provides a total count of the number of subjects that meet the QTL's defined criteria. 
+- Percentage  – Provides a percentage of the number of subjects that meet the QTL's defined criteria. 
+ QTLs that reach or exceed a threshold indicate that the QTL's target study parameter may warrant investigation and mitigation. 
+## Affected Roles
+- Study managers 
+- Medical monitors 
+## Advantages
+ Tracking QTLs helps: 
+- Ensure the study conduct operates as planned. 
+- Identify as well as prevent or mitigate systematic issues early on in the study that may: 
+- Threaten subject safety or study efficacy. 
+- Invalidate the reliability of the study findings. 
+## User Impact
+ You can click QTLs on the left-hand menu to navigate to the Quality Tolerance Limits page. The Quality Tolerance Limits page allows you to: 
+- Track the QTLs in your study and their respective values. 
+- Determine which QTLs exceed the upper or lower tolerance limit of what is considered acceptable for that study metric. 
+ Each QTL has a graphical output that displays:
+- Observed  – The observed number or percentage of patients that meet the study parameter's criteria. For example, the observed percentage of patients in the study who experienced a serious adverse event. 
+- Expectation    – The QTL's expected median value based on historical data. 
+- Upper Limit   – The study parameter's upper statistical threshold value that, if breached, would require investigation or mitigation of the parameter's target study risk. 
+- Lower Limit   – The study parameter's lower statistical threshold value that, if breached, would require investigation or mitigation of the parameter's target study risk. 
+ Tip : QTLs can be configured to have only an upper limit, only a lower limit, or both.
+ As shown below, QTLs whose values are within the acceptable range display in green. QTLs whose values are not within the acceptable range display in red. 
+## Special Considerations
+ You can hover your cursor on QTL names to display its full-text description.

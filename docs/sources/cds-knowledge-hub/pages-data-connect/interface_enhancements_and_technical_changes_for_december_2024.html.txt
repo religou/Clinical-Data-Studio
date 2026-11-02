@@ -1,0 +1,23 @@
+# Datasets and Transformations: Interface Enhancements for December 2024
+
+## Datasets and Transformations: Interface Enhancements for December 2024
+## What Is New?
+ As a part of December 2024 release, the Datasets and Transformations experiences feature various enhancements including:
+- Updates to transformation projects (SDTM, Custom Data Model, Derived Datasets and, Unit Conversions) when in read-only mode. When the user is in read-only mode, all user actions are disabled and a banner appears on the status of the project. 
+- Date picker removed for Run Now action on the Validation Frequency page. 
+- Updates to the Activation tab for a dataset that includes showing a banner when a new version of a dataset is available. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The interface updates improve the look, feel, and navigation of the respective experiences.  
+## Where Do I See the Change?
+ The interface updates apply to various screens across the Datasets and Transformations experience. 
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

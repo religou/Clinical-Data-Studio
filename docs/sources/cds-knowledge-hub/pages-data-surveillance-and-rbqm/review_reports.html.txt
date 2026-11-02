@@ -1,0 +1,28 @@
+# Review Reports
+
+## Review Reports
+ Review Reports is a Data Surveillance and RBQM capability that enables you to create and manage custom reports to capture activity logs and findings across data review and reconciliation cycles conducted within Data Surveillance and RBQM.  
+## What is Review Reports?
+ Review Reports is a Data Surveillance and RBQM  capability  that allows you to capture activity logs and findings across data review and reconciliation cycles. 
+## What Is the Purpose of Review Reports?
+ Review Reports   enables   you to create   review reports, which include data findings   from Data Surveillance and RBQM collected during a review period. With   Review Reports, study   managers streamline data collection and reporting. For example, you can:
+- Analyze and review KRI outliers identified in the KRI Dashboard. 
+- Analyze and review outliers identified in Statistical Monitoring's Data Anomaly Detection Plots. 
+- Monitor patients for data consistency in Data Surveillance. 
+## Who Uses Review Reports?
+ Study managers.
+## How Does Review Reports Work?
+ Review Reports allows you to create reports based on a specific category of data, for which you want to log and capture findings. For example, you can create a report for a specific study, an indication, or even a site. 
+ Once you create reports in Review Reports, you can then add report entries for specific data findings within those reports. For each report entry, you can log:
+- A description of the data finding. 
+- The Data Surveillance or RBQM capability and data set variable in which you observed the finding. 
+- The study, country, site, and patient in which you observed the finding. 
+- The priority in which you must address the finding, and the actions required to address the finding. 
+ You can share review reports with stakeholders to communicate findings and manage actions taken on findings.
+## What Are the Benefits of Review Reports?
+ Review Reports improves your ability to conduct trial assurances by allowing you to: 
+- Record study findings within the Data Surveillance and RBQM without relying on external tools like Excel.
+- Build and access customized, easy-to-read reports for the all Data Surveillance capabilities and the RBQM > Statistical Monitoring and RBQM > KRI Dashboard capabilities.
+- Streamline data collection and reporting of review cycles.
+## How Do I Create Review Reports?
+ See Add, Edit, And Delete Review Reports.

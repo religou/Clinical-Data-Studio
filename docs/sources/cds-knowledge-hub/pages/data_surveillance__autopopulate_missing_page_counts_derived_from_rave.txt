@@ -1,0 +1,26 @@
+# Data Surveillance: Autopopulate Missing Page Counts Sourced Directly from Rave
+
+## Data Surveillance: Autopopulate Missing Page Counts Sourced Directly from Rave
+## What Is New?
+ When configuring how you want to enter missing page counts in Clean Patient Tracker , you can now select to autopopulate missing page counts sourced directly from Rave.
+## What Is the Impact?
+## Users/Roles
+ Data managers. 
+## Workflow Process
+ If you configure Data Surveillance to autopopulate missing page counts from Rave, then you cannot manually edit entries in the Clean Patient Tracker > Patients table > Missing Pages column.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Configuring Data Surveillance to autopopulate missing page counts in Clean Patient Tracker directly from Rave: 
+- Ensures the data integrity and accuracy of Rave data ingested into Clean Patient Tracker. 
+- Eliminates the need to update and reload external missing page count report files to Data Surveillance. 
+- Reduces the time and effort to track missing page counts. 
+## Where Do I See the Change?
+ In the Data Surveillance > Configuration > Data Mapping >  Missing Pages tab > Missing Pages Source section, in addition to the Manual and External options, you can now select: 
+- Rave – Autopopulate missing page counts sourced directly from Rave. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Configure Manual or Automatic Missing Page Count Entry 
+## What Else Should I Know?
+ Missing pages from Rave are based on missing pages expected to date and exclude folders for future visits based on the window dates.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

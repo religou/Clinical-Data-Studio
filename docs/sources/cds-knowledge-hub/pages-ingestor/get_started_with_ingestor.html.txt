@@ -1,0 +1,6 @@
+# Get Started with Ingestor
+
+## Get Started with Ingestor
+ With Ingestor, you create import jobs to enable the importing of external data into the Medidata platform. Depending on your role, you can also import data with import jobs, and manage import job configurations. To get started with Ingestor, see one of the workflows in  Import Job Administration in Ingestor .
+ Note :  To grant users access to Ingestor, see  Assign Roles and Permissions . 
+ Tip : If this is your first time using Ingestor and you want a complete walkthrough on uploading external EDC data, see  Import Non-Rave Data for Medidata CTMS

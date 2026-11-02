@@ -1,0 +1,10 @@
+# Troubleshooting Data Connect
+
+## Troubleshooting Data Connect
+ Having problems with Data Connect? See the articles below for help:
+- 
+ System Error for Active Studies with Name Edits 
+- 
+ Missing VISIT_DATE Values 
+- 
+ Derived Dataset Created From Template Is Empty

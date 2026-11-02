@@ -1,0 +1,19 @@
+# Add and Store Custom KRI Configurations as Reusable Templates
+
+## Add and Store Custom KRI Configurations as Reusable Templates
+ You can add and store custom numeric KRI or custom percentage KRI  configurations as templates to study-level template groups. Adding and using specific custom KRIs as templates: 
+- Enables you and your team to quickly and easily reapply common custom KRIs as needed across study configurations. 
+- Promotes faster study start time. 
+- Ensures consistency and accuracy in custom KRI details across studies. 
+ To learn more about templates, see Data Surveillance Template Library .
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu.
+- In the Configuration and Reporting card, click KRI Configuration . 
+- On the KRI Risk Indicators page > KRI Configurations tab, click any custom numeric or percentage KRI in the Name column.
+ Note : You can only export existing custom KRIs as a template. When creating custom KRIs, you must first save the KRI, and then open the KRI from the table on the KRI Risk Indicators page > KRI Configurations tab.
+- At the bottom of the Custom Numeric KRI or Custom Percentage KRI window, click Export as Template . 
+- Select the Template Group within your organization's global template library where you would like to store the custom KRI template.
+ The list of template group names   shows in parentheses the client division name that the template group belongs to. 
+ Tip : For more information about template groups, see  View, Add, and Manage Template Groups .
+- Enter a Template Name . 
+- Click Export .
+A confirmation message appears at the top of the page. You can now find the custom KRI template in your organization's global template library stored in the selected template group. You can also now import and use the KRI configuration template when creating custom KRIs in other studies within the same  client division (CD) .

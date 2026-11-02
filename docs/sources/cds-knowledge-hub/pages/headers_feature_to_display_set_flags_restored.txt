@@ -1,0 +1,25 @@
+# Headers Feature to Display Set Flags Restored
+
+## Headers Feature to Display Set Flags Restored
+## Description
+ The Headers functionality, which shows flags set up for a patient's profile design, is reinstated.
+## Affected Roles
+ All.
+## Advantages
+ Header flags clearly distinguish designs that do and do not contain patient data that matches set filters. 
+ User Impact 
+ On the Design page > Elements tab > when working in Headers, if flags are set:
+- and patient data matches set flags: 
+- The flag cell in the Patient Selector appears yellow and contains a check mark.  
+- The header cell representing the flags in the Patient Profile design appears yellow and shows the flag value. 
+- and patient data does not match set flags:
+- The flag cell in the Patient Selector appears uncolored. 
+- The header cell representing the flags in the Patient Profile design appears uncolored and shows the flag value. 
+ Existing 
+ Changed to 
+ | 
+ | 
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

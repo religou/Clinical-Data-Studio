@@ -1,0 +1,411 @@
+# Create, Edit, and Delete Custom Graphs
+
+## Create, Edit, and Delete Custom Graphs
+ You can create Custom Graphs to chart the relationship between any combination of datasets on a single visual using real-time study data on demand. 
+ Custom Graphs enables you to flexibly plot any study data you want to visualize, catering to your specific needs or area of interest.  
+ You can view the data in the optimal graphical rendering—whether in a bar graph, stacked bar graph, line graph, multiline graph, donut graph, or segmented donut graph. 
+ You can also edit and delete Custom Graphs. In addition to standard data sets, you can also use queries and audit data sets to build Custom Graphs. 
+## Create and Edit Custom Graphs
+ You can create Custom Graphs to chart the relationship between any combination of datasets on a single visual using real-time study data on demand. 
+ Custom Graphs enables you to flexibly plot any study data you want to visualize, catering to your specific needs or area of interest. For example: 
+- Medical monitors can view the number of adverse events per site.
+- Site monitors can track patient enrollment rate.   
+- Data managers can view missed visits or data entry delays. 
+- CRAs can view, track, and compare patients records for pulse against blood pressure.  
+- Study managers can see the number of nonrandomized patients in the study or track the number of study dropouts per month. 
+ You can also view the data in the optimal graphical rendering—whether in a bar graph, stacked bar graph, line graph, multiline graph, donut graph, or segmented donut graph. 
+ Graphically visualizing study data relationships enables you to more effectively: 
+- Gain a clearer understanding or perspective of the study data. 
+- Identify study trends and patterns. 
+- Track study performance. 
+- Build and share reports or present on study data metrics using clear, visually appealing graphical renderings. 
+ You can also edit Custom Graphs. For example, you can fix an error or a typo in the custom graph's configuration. Or you can quickly edit an existing visualization without fully create a new visualization to:
+- Generate an alternative view of the study data. 
+- Change the data you want to visualize. 
+- Access Data Surveillance , and then click Custom Graphs in the left-hand menu. 
+- On the Custom Graphs page, do one of the following:
+- To import a custom graph template, click Create Custom Graphs > I mport Template , then select a Template group and a template from the list. Then click Use Selected Template . 
+- To create a custom graph, click Create Custom Graphs . 
+- To edit a custom graph , click the  More icon in the corresponding row of the custom graph you want to edit, and then click Edit . 
+- If you import a custom graph template, then you can edit fields in the Chart Configuration and Display Settings sections if needed. Then, go to step 12. 
+- If you follow the steps to create or edit a custom graph, then in Chart Type , select one of the following chart types:
+- – Bar chart. Bar charts typically visualize and compare variable data points based on value, count, or frequency.  For example, a bar chart might plot the number of adverse events recorded per site in a study.
+ Tip : We recommend using bar charts to graph variables on the x-axis with more than five data points.
+- – Line chart. Line charts typically visualize and track variable data point trends on a timeline or frequency. For example, a line chart might visualize the monthly percent or count of randomized patients recorded in the study over the course of two years. 
+- – Donut chart. Donut charts visualize the total count of values within a single variable. For example, the count of patients in the study with hypertension. 
+- – Scatter plot. Scatter plots display the relationship between two numeric, continuous dependent variables. For example, scatter plots show t he shift from baseline to post baseline using maximum or minimum values, and detect unexpected outcomes like identify high panic concentrations, or show discrepancies between actual and nominal time. 
+- Click the Y-Axis menu, and select a data set and variable.
+ Note : For scatter plots, you must select numeric variables on the y-axis; otherwise, the custom graph does not render. 
+- Select a y-axis aggregation.
+ Note : If you select the Count aggregation, the custom graph plots the total number of all individual log lines in the dataset, not the total number of unique records by record type.
+ Note : For scatter plots, you must select numeric variables on the x-axis;  otherwise, the custom graph does not render. 
+ Important : For line charts, you must select an aggregation for a   text variable on the y-axis;   otherwise, the custom graph does not render. 
+ Tip : For donut charts, we recommend selecting the Percentage aggregation for optimal visualization and readability.
+- Optional. Click Add Median line .
+ Note : A median line appears across the custom graphs chart.
+- Click the X-Axis menu and select a data set and variable.
+ Note : You cannot configure an x-axis in donut charts.
+ Note : For scatter plots, you must select numeric variables on the x-axis;  otherwise, the custom graph does not render. 
+ Tip : For line graphs, we recommend that you use date variables on the x-axis to create a timeline or visualize trends.
+- Optional. Select an x-axis aggregation.
+ Tip : For line charts, we recommend not selecting an aggregation on the x-axis unless you are plotting date or time variables on the x-axis. If  you do not select an aggregation   for a date variable on the x-axis,   then the line chart plots the data for every single day in the database. 
+ Important : If you add an aggregation to any nondate variables in the x-axis, then you must add a dataset and variable in the Color Series . Otherwise, the custom graph cannot render.
+- Optional . To further breakdown the study data being visualized to show and compare segmented data subcategories for deeper insights and analysis: Click the Color Series menu, and select a data set and variable. Selecting a color series modifies the charts into the following chart types:
+- Stacked Bar Chart – Segments the variable represented in each bar by subcategory and visualizes the variable's relative distribution of data by subcategory. For example, a stacked bar chart might show the total number of adverse events reported per site and further breakdown the adverse events by type and number of each specific adverse event reported.
+ Note : If you plot a stacked bar chart with more than 50 data points, the chart fits to scale all bars in the page view, and you cannot distinguish the colored bar segments.
+- Multiline Chart – Plots multiple lines on a single visual to simultaneously view and compare trends across multiple data subcategories. Each line represents a subcategory. For example, a line chart might show the weekly number of patients that get randomized in a study over the course of two years. But a multiline chart might further visualize the number of the weekly number of patients that get randomized in a study over the course of two years by race. In which case, the chart would show multiple lines representing each race recorded in the study data.
+ Tip : We recommend limiting multiline charts to show a maximum of five lines to ensure optimal chart readability. Otherwise, we recommend plotting the data in a bar graph.
+- Segmented Donut Chart – Segments the variable represented in the donut chart by subcategory and visualizes the variable's relative distribution of data by subcategory. You can aggregate segmented donut charts by count or percentage. For example, a segmented donut chart might show the percentage distribution of the patient population with hypertension by gender.
+ Note : The color palette shows the default colors that the visualization uses to represent the subcategories in the charts. The color palette is read-only. 
+- Optional . To chart a specific data subset from the y- and x-axis variable selections: Click the Chart Filters menu, do the following: 
+- Enter or select a data set. 
+- Enter or select a variable.
+ Note : Data sets and variables with critical data points in the study appear with a blue flag .
+- Select a comparator, such as= or !=, and then select or enter a comparator value.
+The list of selectable comparators differ whether you select a date, number, text, or time variable. The comparator value serves as the conditional threshold, which measures and flags whether specified conditions are met regarding the selected comparator.
+ Comparators and Comparator Value Descriptions 
+ Selected Variable Type 
+ Comparator 
+ Description 
+ Comparator Value Entry 
+ | Text, Numeric, Date, Time 
+ | = 
+ | Flags patients whose reported value within the selected variable is equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets. 
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text, Numeric, Date, Time 
+ | != 
+ | Flags patients whose reported value within the selected variable is not equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | > 
+ | Flags patients whose reported value within the selected variable is greater than or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | < 
+ | Flags patients whose reported value within the selected variable is less than or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | >= 
+ | Flags patients whose reported value within the selected variable is equal to, greater than, or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | <= 
+ | Flags patients whose reported value within the selected variable is equal to, less than, or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text 
+ | One Of 
+ | Flags patients who contain at least one of the reported terms within the select variable. 
+ | Select one or more patient-reported strings or terms. 
+ | Text, Numeric, Data, Time 
+ | Is Missing 
+ | Flags patients who do not contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text, Numeric, Data, Time 
+ | Is Not Missing 
+ | Flags patients who contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text 
+ | Contains 
+ | Flags patients who contain a specific, user-entered value reported data within the selected variable. 
+ | Enter a text value. 
+- In Display Settings, enter or select the following :
+- Title – Enter a short, concise title describing what the chart represents. 
+- Description – Enter details describing what the chart represents. For example, text describing the subcategories in plotted in a segmented chart. 
+- Y-axis Title – Enter a short, concise title describing what the y-axis represents. 
+- X-axis Title – Enter a short, concise title describing what the x-axis represents.
+ Note : You cannot add an x-axis title for donut charts since donut charts do not have an x-axis.
+- Click Refresh Data to generate or regenerate the visualization.
+The visualization appears in the Preview section.  Click a chart type below to learn how to interpret and interact with the chart. 
+ Bar Chart 
+- Bar charts typically visualize and compare variable data points based on value, count, or frequency. 
+- Each bar represents a variable data point within a data set. 
+- You can hover your cursor on any bar to view the data point's x- and y-axis value. 
+ Stacked Bar Chart 
+- Stacked bar charts segment the variable represented in each bar by subcategory and visualize the variable's relative distribution of data by subcategory. 
+- Each bar represents a variable data point within a data set. 
+- Each bar can be stacked—or segmented— to show one or more data categories within the variable data point. 
+- You can hover your cursor on a bar segment to highlight that data category in all bars and to view the data category value, x-axis value, and y-axis value. 
+- The legend shows all subcategories within the primary variable being visualized. 
+- You can hover your cursor on a subcategory label in the legend to highlight all segments representing that subcategory. 
+- You can click a subcategory label to remove all segments representing that subcategory from the chart. Reclick to view the subcategory's segments again. 
+ Line Chart 
+- Line charts typically visualize and track variable data point trends on a timeline or frequency. 
+- You can hover your cursor on any data point in line charts to view the data point's x- and y-axis. 
+ Multiline Chart 
+- Multiline charts plot for multiple lines on a single visual to simultaneously view and compare trends across multiple data subcategories within a variable. 
+- Each line represents a subcategory. 
+- You can hover your cursor on a data point in specific line to view that value's x- and y-axis value. 
+- The legend shows all subcategories within the primary variable being visualized. 
+- You can hover on a subcategory label in the legend to highlight that subcategory's line in the chart. 
+- You can click a subcategory label in the legend to remove that subcategory's line from the chart. Reclick to view the subcategory's line again. 
+ Scatter plots 
+- Scatter plot showing systolic and diastolic blood pressure, both numeric, continuous variables in a dataset. 
+- You can hover your cursor on a data point in specific plot point to view that value's x- and y-axis value. 
+- The legend on the x-axis shows the primary variable (male, female, uncharacterized). 
+ Donut Chart 
+- Donut charts visualize the total count of values within a single variable.   
+- D onut charts show values   up to   two decimal points. 
+ Note : D onut charts may not chart all patients in a data set if there are missing or incomplete patient records. Therefore, f or donut charts using the Percentage aggregation, the value shown inside the donut may not add up to 100%. 
+ Segmented Donut Chart 
+- Segmented donut charts split the variable represented in the donut chart by subcategory and visualize the variable's relative distribution of data by subcategory. 
+- You can hover your cursor on a segment in the donut chart to view that subcategory's value. 
+- The legend shows all subcategories within the primary variable being visualized. 
+- You can hover on a subcategory label in the legend to highlight that subcategory's segment in the chart. 
+- You can click a subcategory label in the legend to remove that subcategory's segment from the chart. Reclick to view the subcategory's segment again. 
+ Note : Segmented d onut charts may not chart all patients in a data set if there are missing or incomplete patient records. Therefore, f or segmented donut charts using the Percentage aggregation, the value shown inside the donut may not add up to 100%. 
+ Tip : If the visualization you want to view experiences slow performance, we recommend that you refresh the page, use more chart filters, and then regenerate the preview. 
+- Click Save in the lower-left corner of the page.
+ Note : Saved Custom Graphs update daily using real-time data based on the latest study data snapshot processed by Data Surveillance. 
+## Create Data Aggregation Custom Graphs Across Multiple Datasets
+ You can create Custom Graphs that aggregate study data across multiple datasets. For example, you can visualize:
+- Adverse events by visit over time 
+- Dosing reactions by dosing date 
+- Tumor sum MM by visit cycle 
+- Device response by visit week 
+- Access Data Connect , and then click Transformations in the left-hand menu. 
+- Click Add Project , and enter the following settings: 
+- Project Name – Enter a project name. 
+- Project Type – Select Derived datasets . 
+- Click Add project .
+The Transformations table updates to include the new project at the top of the list. 
+- Click the new project name in the Transformations table, and then click View / Modify . 
+- In the Data Source panel: click the Rave EDC menu, click the visit dataset ; for example, AE, and then drag and drop a dataset form into the Target section. 
+- In the Data Source panel > Rave EDC menu, click the target event dataset ; for example, SV, and then drag and drop a dataset form into the Target section. 
+- In the Target section, click the More icon on the event dataset, and then click Join .
+The Join Datasets page appears. 
+- In the Dataset Details section, enter a New Dataset Name . 
+- Click the Right Join menu, and then select Inner Join .
+ Note : Ensure the event dataset is on the left of the inner join and the visits data set is on the right. For example:
+- Click the Match Conditions panel, and then select the appropriate fields to match rows of data across datasets—usually patient_id at a minimum. 
+- Click the Select Fields panel, and then select all fields that you want to include in the datasets. 
+- Click Apply Join . 
+- After the Join Datasets page reloads, click X in the upper-right corner of the page. 
+- In the Transformations page > Target section, click the More icon on the new dataset, and then click Replicate or Filter .
+The Replicate or Filter Datasets page appears. 
+- Enter a New Dataset Name . 
+- Click the Conditional Filter toggle to activate.
+The activated toggle has a blue background with the slider on the right side, . 
+- Click the Filter Conditions panel, and then configure the filter condition using the selection operators, variables, functions , and values to construct your filter rule. 
+- Click the Select Fields panel, and then select all fields you want to include in the datasets. 
+- Click Apply Replicate or Filter . 
+- After the Replicate or Filter Datasets page reloads, click X in the upper-right corner of the page. 
+- In the Transformations page > Target section, click the More icon on the new dataset, and then click Group .
+The Group Datasets - Min, Max, Avg, Sum page appears.
+- Enter a New Dataset Name . 
+- In New Keys , add new keys.
+ Tip : New keys are the data points under which the grouping will occur.
+- Click the Select Fields panel, select the fields that you want to perform an aggregation on, and then select the variable type that you want to categorize each field. For example, Count. 
+- Click Apply Group.  and click the X on the top once the page has finished processing. 
+- After the Group Datasets - Min, Max, Avg, Sumpage reloads, click X in the upper-right corner of the page.
+The new dataset is now available for use in Data Surveillance and RBQM. 
+- Access Data Surveillance , and then click Custom Graphs in the left-hand menu. 
+- Click Create Custom Graph . 
+- In the Chart Type section, click the Line Chart icon. 
+- Click the   Y-Axis   menu, and select the transformed dataset and event aggregated count variable. 
+- Click the   X-Axis   menu, and select the visit variable. 
+- Optional. Select an x-axis aggregation.
+ Tip : For line charts, we recommend not selecting an aggregation on the x-axis unless you are plotting date or time variables on the x-axis. If  you do not select an aggregation   for a date variable on the x-axis,   then the line chart plots the data for every single day in the database. 
+ Important : If you add an aggregation to any nondate variables in the x-axis, then you must add a dataset and variable in the Color Series . Otherwise, the custom graph  cannot render.
+- Optional . To further breakdown the study data being visualized to show and compare segmented data subcategories for deeper insights and analysis: Click the Color Series menu, and select a data set and variable. Selecting a color series modifies a line chart into a:
+- Multiline Chart – Plots multiple lines on a single visual to simultaneously view and compare trends across multiple data subcategories. Each line represents a subcategory. For example, a line chart might show the weekly number of patients that get randomized in a study over the course of two years. But a multiline chart might further visualize the number of the weekly number of patients that get randomized in a study over the course of two years by race. In which case, the chart would show multiple lines representing each race recorded in the study data.
+ Tip : We recommend limiting multiline charts to show a maximum of five lines to ensure optimal chart readability. Otherwise, we recommend plotting the data in a bar graph.
+- Optional . To chart a specific data subset from the y- and x-axis variable selections: Click the Chart Filters menu, do the following: 
+- Enter or select a data set. 
+- Enter or select a variable. 
+- Select a comparator, such as= or !=, and then select or enter a comparator value.
+The list of selectable comparators differ whether you select a date, number, text, or time variable. The comparator value serves as the conditional threshold, which measures and flags whether specified conditions are met regarding the selected comparator.
+ Comparators and Comparator Value Descriptions 
+ Selected Variable Type 
+ Comparator 
+ Description 
+ Comparator Value Entry 
+ | Text, Numeric, Date, Time 
+ | = 
+ | Flags patients whose reported value within the selected variable is equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets. 
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text, Numeric, Date, Time 
+ | != 
+ | Flags patients whose reported value within the selected variable is not equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | > 
+ | Flags patients whose reported value within the selected variable is greater than or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | < 
+ | Flags patients whose reported value within the selected variable is less than or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | >= 
+ | Flags patients whose reported value within the selected variable is equal to, greater than, or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date, Time 
+ | <= 
+ | Flags patients whose reported value within the selected variable is equal to, less than, or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click and drop a variable from the list of data sets.
+ For time variables: enter the time using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn 
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text 
+ | One Of 
+ | Flags patients who contain at least one of the reported terms within the select variable. 
+ | Select one or more patient-reported strings or terms. 
+ | Text, Numeric, Data, Time 
+ | Is Missing 
+ | Flags patients who do not contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text, Numeric, Data, Time 
+ | Is Not Missing 
+ | Flags patients who contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text 
+ | Contains 
+ | Flags patients who contain a specific, user-entered value reported data within the selected variable. 
+ | Enter a text value. 
+- In Display Settings, enter or select the following :
+- Title – Enter a short, concise title describing what the chart represents. 
+- Description – Enter details describing what the chart represents. For example, text describing the subcategories in plotted in a segmented chart. 
+- Y-axis Title – Enter a short, concise title describing what the y-axis represents. 
+- X-axis Title – Enter a short, concise title describing what the x-axis represents.
+- Click Refresh Data to generate or regenerate the custom graph.
+The custom graph appears in the Preview section. Click a chart type below to learn how to interpret and interact with the chart. 
+ Line Chart 
+- Line charts typically visualize and track variable data point trends on a timeline or frequency. 
+- You can hover your cursor on any data point in line charts to view the data point's x- and y-axis. 
+ Multiline Chart 
+- Multiline charts plot for multiple lines on a single visual to simultaneously view and compare trends across multiple data subcategories within a variable. 
+- Each line represents a subcategory. 
+- You can hover your cursor on a data point in specific line to view that value's x- and y-axis value. 
+- The legend shows all subcategories within the primary variable being visualized. 
+- You can hover on a subcategory label in the legend to highlight that subcategory's line in the chart. 
+- You can click a subcategory label in the legend to remove that subcategory's line from the chart. Reclick to view the subcategory's line again. 
+ Tip : If the custom graph  you want to view experiences slow performance, we recommend that you refresh the page, use more chart filters, and then regenerate the preview. 
+- Click Save in the lower-left corner of the page.
+ Note : Saved Custom Graphs update daily using real-time data based on the latest study data snapshot processed by Data Surveillance. 
+## Create Tabular Custom Graphs
+ Tabular Custom Graphs enable you to segment populations of interest and identify patient groups for further investigation. Investigating counts or percentages of required parameters in study data enables data managers to:
+- Understand treatment efficacy by comparing outcomes and treatments. 
+- Evaluate compliance looking at rates of completion and adherence to medication. 
+- Explore differential subgroup responses based on demographic or baseline characteristics. 
+- Examine how well groups meet primary and secondary endpoints. 
+- Analyze AE trends relative to outcomes, treatments, or other effect states 
+ Note : You must have at least one Tabular Visual type collection in Data Connect to create tabular Custom Graphs in Data Surveillance.
+- Access Data Surveillance , and then click Custom Graphs in the left-hand menu. 
+- On the Custom Graphs page, click  Create Custom Graph . 
+- In Chart Type, select .
+The left-hand pane updates to show Tabular Datasets.
+ Note : Chart filters, Color series fields become disabled if you select tabular charts. 
+- In Rows , drag and drop one dataset from the left-hand Tabular Datasets pane.
+ Note : You can select only one tabular dataset at a time. 
+- In  Columns , select one or many variables from the tabular dataset you added into Rows.
+ Note : Y ou can have multiple columns for each row for a tabular custom graph . 
+- In Display Settings , enter or select the following: 
+- Title  – Enter a short, concise title describing what the chart represents. 
+- Description – Enter details describing what the chart represents. For example, text describing the summarization for the tabular chart. 
+- Click Refresh Data to generate or regenerate the custom graph.
+The custom graph appears in the Preview section. 
+- Click Save in the lower-left corner of the page. 
+## Edit Tabular Custom Graphs
+- Access Data Surveillance , and then click Custom Graphs in the left-hand menu. 
+- On the Custom Graphs page, do one of the following to edit a tabular custom graph :
+- Click a tabular custom graph  on the Custom Graphs page, then click Edit from the top right corner.
+- Click the More icon, , in the corresponding row of the custom graph you want to edit, and then click Edit .
+ Important Note : 
+- If you edit a tabular custom graph where the tabular dataset variables are no longer available from Data Connect , a "A new tabular report configuration is available. " message appears. Click View Configuration under the message and follow steps to  create a tabular visualization . 
+- If you had selected a specific dataset variable in the row or column field while creating a tabular custom graph, and it now appears disabled, a " Variable is no longer available. " message appears. 
+This indicates that the variable is no longer available in Data Connect . If you then select a new dataset and configure the tabular custom graph with new rows and columns, and then click Preview, a " The data configuration has changed. Refreshing will reload the chart with the latest settings."  message appears. 
+- Update the fields you want to edit. 
+- Click Refresh Data to generate or regenerate the custom graph.
+The custom graph appears in the Preview section.  
+- Click Save . 
+## Save Custom Graphs As Template
+ You can save Custom Graphs as a template and reuse them across study environments.
+- Access Data Surveillance , and then click Custom Graphs in the left-hand menu. 
+- On the Custom Graphs page, click the More icon in the corresponding row of the custom graph you want to save as a template. 
+- Click Save as Template . 
+## Delete Custom Graphs
+ You can delete Custom Graphs. For example, to manage and organize the list of Custom Graphs in your study or to remove obsolete Custom Graphs. 
+- Access Data Surveillance , and then click Custom Graphs in the left-hand menu. 
+- On the Custom Graphs page, click the More icon in the corresponding row of the custom graph  you want to delete. 
+- Click Delete . 
+## Download Custom Graphs
+ You can download Custom Graphs as PDF files for easy circulation and review with study team personnel. 
+- Access Data Surveillance , and then click Custom Graphs in the left-hand menu. 
+- On the Custom Graphs page, click the chart you want to download.  
+- Click Download from the top right corner of the page. 
+- Click Confirm .
+The PDF version of the bar, line and donut charts downloads to your browser.
+ Note : For all Custom Graphs, you can download the file as both a PDF and a CSV file.

@@ -1,0 +1,94 @@
+# Access and View Custom Graphs
+
+## Access and View Custom Graphs
+ Custom Graphs enables you and your study team members to chart the relationship between any combination of datasets on a single visual using real-time study data.  
+ For example, you can create Custom Graphs for: 
+- Medical monitors to view the number of adverse events per site.
+- Site monitors to track patient enrollment rate.   
+- Data managers to view missed visits or data entry delays. 
+- CRAs to view, track, and compare patients records for pulse against blood pressure.  
+- Study managers to see the number of nonrandomized patients in the study or track the number of study dropouts per month. 
+ You can view and interact with any visualization created in your study. 
+ Custom Graphs can plot data in a bar chart, stacked bar chart, line chart, multiline chart, scatter chart, donut chart, segmented donut chart, or tabular chart. 
+ Graphically viewing study data relationships enables you to more effectively: 
+- Gain a clearer understanding or perspective of the study data. 
+- Identify study trends and patterns. 
+- Track study performance. 
+- Build and share reports or present on study data metrics using clear, visually appealing graphical renderings. 
+## Access and View Custom Graphs
+- Access Data Surveillance , and then click Custom Graphs in the left-hand menu.
+The Custom Graphs table shows the following:
+ Column Descriptions 
+- Type – The type of graphical representation used to plot
+- – Donut chart. 
+- – Line chart. 
+- – Bar chart. 
+- – Scatter chart 
+- – Tabular chart 
+- Name – The custom name used to identify the visualization. 
+- Creator – The user who created the visualization. 
+- Last Modified – The date that the visualization was created or most recently modified. 
+- Description  – Details such as what data is plotted in the visualization or the visualization's purpose or rationale. 
+- Last Modified By – The user who created or most recently modified the visualization. 
+- If necessary, filter or sort the Custom Graphs table.
+ Important: Custom Graphs sort visits that appear relative to Medidata Rave or visit metadata provided. If no metadata exists, visits do not appear sorted correctly in the visualization chart.
+- In the Custom Graphs table, click the row of the visualization you want to view.
+The visualization appears below the table. Custom Graphs plot study data in a bar chart, stacked bar chart, line chart, multiline chart, donut chart, or segmented donut chart. Click a chart type below to learn how to interpret and interact with the chart.
+ Bar Chart 
+- Bar charts typically visualize and compare variable data points based on value, count, or frequency. 
+- Each bar represents a variable data point within a data set. 
+- You can hover your cursor on any bar to view the data point's x- and y-axis value. 
+ Stacked Bar Chart 
+- Stacked bar charts segment the variable represented in each bar by subcategory and visualize the variable's relative distribution of data by subcategory. 
+- Each bar represents a variable data point within a data set. 
+- Each bar can be stacked—or segmented— to show one or more data categories within the variable data point. 
+- You can hover your cursor on a bar segment to highlight that data category in all bars and to view the data category value, x-axis value, and y-axis value. 
+- The legend shows all subcategories within the primary variable being visualized. 
+- You can hover your cursor on a subcategory label in the legend to highlight all segments representing that subcategory. 
+- You can click a subcategory label to remove all segments representing that subcategory from the chart. Reclick to view the subcategory's segments again. 
+ Line Chart 
+- Line charts typically visualize and track variable data point trends on a timeline or frequency. 
+- You can hover your cursor on any data point in line charts to view the data point's x- and y-axis. 
+ Multiline Chart 
+- Multiline charts plot for multiple lines on a single visual to simultaneously view and compare trends across multiple data subcategories within a variable. 
+- Each line represents a subcategory. 
+- You can hover your cursor on a data point in specific line to view that value's x- and y-axis value. 
+- The legend shows all subcategories within the primary variable being visualized. 
+- You can hover on a subcategory label in the legend to highlight that subcategory's line in the chart. 
+- You can click a subcategory label in the legend to remove that subcategory's line from the chart. Reclick to view the subcategory's line again. 
+ Donut Chart 
+- Donut charts visualize the total count of values within a single variable. D onut charts show values  up to  two decimal points. 
+ Note : Donut charts may not chart all patients in a data set if there are missing or incomplete patient records. Therefore, for donut charts using the Percentage aggregation, the value shown inside the donut may not add up to 100%. 
+ Segmented Donut Chart 
+- Segmented donut charts split the variable represented in the donut chart by subcategory and visualize the variable's relative distribution of data by subcategory. 
+- You can hover your cursor on a segment in the donut chart to view that subcategory's value. 
+- The legend shows all subcategories within the primary variable being visualized. 
+- You can hover on a subcategory label in the legend to highlight that subcategory's segment in the chart. 
+- You can click a subcategory label in the legend to remove that subcategory's segment from the chart. Re-click to view the subcategory's segment again. 
+ Note : Segmented donut charts may not chart all patients in a data set if there are missing or incomplete patient records. Therefore, for segmented donut charts using the Percentage aggregation, the value shown inside the donut may not add up to 100%.
+ Scatter Chart 
+- Scatter charts plot for multiple dots on a single visual to simultaneously view and compare data points across multiple data subcategories within a numeric variable. 
+- Each color represents a subcategory within the numeric variable. 
+- You can hover your cursor on a data point to view that value's x- and y-axis value. 
+- The legend shows all subcategories within the primary variable being visualized. 
+ Note : Scatter plots only work for integer or float type variables, and do not support any aggregations. 
+ Tabular Chart 
+- Tabular Custom Graphs aggregate data by summing, averaging, etc. multiple dataset variables and display in a table format. The chart shows data in rows and columns with information summarized (aggregated) at the intersection points. The tabular charts show counts or percentages of categorical study data. 
+- You can drag and drop a single tabular dataset into the row, then select a variable from the dataset into the row. The column field remains disabled if no dataset is added to the row. You can add multiple variables into the column field. That is, you can have multiple columns for each row in the tabular visualization. 
+ Note : Only activated datasets with collection type as t abular visual used in Data Connect, are available as tabular datasets in Data Surveillance. You must therefore ensure that tabular visual collections are created in Data Connect . Contact your Medidata representative for further information.
+ Summary Table 
+ A Summary table appears below the chart for bar, line, and donut Custom Graphs. Count values in the summary table appear truncated up to two decimals. Each row represents a chart segment, and the color filler with the count in the columns. Any aggregations or calculations applied to the data while configuring the visualization chart, appears in the summary table. The summary table also includes patient level information such as Patient ID, Country, Site Number etc. You can click the Patient ID hyperlink to view the related patient's profile design in Patient Profiles. You can also export a summary table. You can filter, sort, or search the summary table dynamically by applying these parameters to the chart, including filtering with _TXT variables. 
+ For example, if you apply a Country filter to a line chart, the summary table below the chart also updates to show the country you filter by, after you click   Apply . To search, you must enter at least four characters into the Search field. 
+## Filter the Custom Graphs Table
+ To help find the Custom Graphs you need, you can filter the Custom Graphs table to show Custom Graphs:
+- Based on chart type; that is, donut chart, line chart, or bar chart. 
+- Based on name. 
+- Created by specific users. 
+- If necessary, access the Custom Graphs table . 
+- Click the Filter button, at the top-right corner of the Custom Graphs table. 
+- Click one or more of the following filters:
+- Type – Filter to show Custom Graphs based on chart type. 
+- Name – Filter to show Custom Graphs based on name. 
+- Created By – Filter to show only Custom Graphs created by specific users. 
+- Select one or more filter items. 
+- Click Apply .

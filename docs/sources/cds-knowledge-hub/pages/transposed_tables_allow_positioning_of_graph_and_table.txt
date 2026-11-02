@@ -1,0 +1,36 @@
+# Transposed Tables Allow Positioning Of Graph And Table
+
+## Transposed Tables Allow Positioning Of Graph And Table
+## Description
+ You can configure transposed tables to display tables, graphs, or both for data elements. You can configure transposed tables to position graphs and tables above or below the data element. You can also configure specific data variables in transposed tables to display in tables, graphs, or in both.  
+## Affected Roles
+ Patient Profile Designers. 
+## Advantages
+ Showing data elements in graph and table format, provides the flexibility of gaining better insight into specific data points in profile designs. 
+## User Impact
+ For transposed tables, on the Design page > Elements tab > Table Options> Graph Options, you can select  Show Both ,  Table Only  or  Graph Only . Depending on the selection, transposed tables will show either graph or table or both for data elements.  
+- If you do not select Show Both ,  Table Only  or  Graph Only , then Table Only is the default option. On viewing profiles on the Profiles page, only tables display for the element. 
+- If you select Table Only , graph options become disabled. On viewing profiles on the Profiles page, only tables display for the element. 
+- If you select Graph Only , graph options become enabled. On viewing profiles on the Profiles page, only graphs display for the element. 
+- If you select Show Both , graph options become enabled. If you then switch to Table Only , graph options become disabled and become enabled when you switch to Graph Only . 
+- If you select Show Both ,  
+- and then set  Table Position to Above Graph , the table appears above the graph while viewing profiles on the Profiles page. 
+- and then set  Table Position to Below Graph , the table appears below the graph while viewing profiles on the Profiles page. 
+- If you select Show Both , and then click the vertical ellipsis in a data variable's name,  Show only in Table ,  Show only in Graph , or Show in Both options display . 
+- If you select  Show only in Table ,  displays indicating that the variable does not display in graphs. On viewing profiles on the Profiles page, the specific variable only displays in the table and the graph displays to the left to account for the hidden column. 
+- If you select  Show only in Graph ,   displays indicating that the variable does not display in tables. On viewing profiles on the Profiles page, the specific variable only displays in the graph and the columns in the table display to the left to account for the hidden column. 
+- If you select  Show in Both or select neither  Show only in Table , nor  Show only in Graph , no additional icon displays near the data variable's name. On viewing profiles on the Profiles page, the variable displays both in graphs and tables for the patient. 
+- Data variables is in the "Tests" and Visit Variables section in a table, cannot be set to display in tables, graphs or both, as this is not applicable to such data variables. 
+- If you do not select   Show Both ,  Table Only , or  Graph Only , then   Table Only   is the default option. On viewing profiles on the Profiles page, the variable displays in tables for the patient. 
+- If you select Show Both  and also select General Options > Hide "No Data" Elements , then on viewing patient profiles: 
+- The table and graph do not display if the patient does not meet the criteria to have this data element displayed. 
+- Both table and graph display if the patient meets the criteria to have the data element displayed. 
+- If you select Graph Only , and also select General Options >  Hide "No Data" Elements , then on viewing patient profiles : 
+- The graph does not display if the patient does not meet the criteria to have this data element displayed. 
+- The graph displays if the patient meets the criteria to have the data element displayed. 
+- If you select Table Only , and also select General Options > Hide "No Data" Elements , then on viewing patient profiles: 
+- The table does not display if the patient does not meet the criteria to have this data element displayed. 
+- The table displays if the patient meets the criteria to have the data element displayed 
+- The Visit Date Column  option now displays under Graph Options. 
+## Special Considerations
+ None.

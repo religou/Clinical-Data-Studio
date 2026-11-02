@@ -1,0 +1,22 @@
+# Review Export Run History
+
+## Review Export Run History
+ After  creating an export , you can review  a table of the export's completed executions from the Export run history screen. 
+## Open the Export Run History Screen
+- Access Data Connect , and click   Exports   in the left-hand menu. 
+- On the Exports screen, select an export.
+ Note : You can only see the exports you created. You cannot see exports created by other users. 
+- Click Export run history tab.
+## Export Run History Details
+ Start Time 
+ The run's start date and time. The Medidata platform stores the date and time in UTC, and shows the date and time based on your device's local time.
+ End Time 
+ The run's completion date and time. The Medidata platform stores the date and time in UTC, and shows the date and time based on your device's local time.
+ Duration 
+ The length of time the run took to complete.
+ Version 
+ The export's version number.   Clicking the version takes you to that version's configuration details.  
+ Status 
+ The export's final status – Success or Failed.
+ Error 
+ This shows the error details if the export fails. See  Troubleshoot Common Errors for Failed Exports for details.

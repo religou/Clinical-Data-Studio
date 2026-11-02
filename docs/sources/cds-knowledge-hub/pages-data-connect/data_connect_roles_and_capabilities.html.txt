@@ -1,0 +1,148 @@
+# Data Connect Roles and Capabilities
+
+## Data Connect Roles and Capabilities
+ To grant yourself or other users permission to use Data Connect, you must use Medidata Cloud Administration® to: 
+- Add and edit roles . 
+- Configure roles and provide levels of permission to Data Connect . 
+- Assign roles to individuals, and remove roles throughout the client. 
+ Important : When assigning users to a role, you must assign users to the study level. 
+ You must have the necessary building blocks assigned to configure roles. Every building block includes one or more permissions to define the Data Connect capabilities listed in this article. In addition, you can only see data for the environments you have permission to use.
+## Minimum Permission Requirements
+ Module Combination 
+ Requirements 
+ | 
+- Datasets 
+- Imports 
+- Exports 
+- Transformations 
+ | 
+- Manage Data Sources 
+- Manage Extracts 
+- Extract Transformed Data 
+- Manage Transformation Projects 
+ | Exports only 
+ | 
+- Manage Extracts 
+ Note : For details about other capabilities and experiences you can access, see the individual permissions by experience articles.
+ Important : Studies on Forms Clinical that use the classic  Ingestor  experience and only need Data Connect's Exports capabilities can access Data Connect with the following building block combination: 
+- Keep your current building blocks selected 
+- Select Manage Extract Data 
+- Do not select Extract Transformations Projects 
+## Data Connect Building Blocks and Permissions
+ The building blocks granted by client administrators to roles in Cloud Administration help influence the content available on a Data Connect page.
+ Important :
+- Assigning these building blocks to  roles in Cloud Administration is at the discretion of every customer. 
+- When you add a building block to an existing role, the role does not automatically work with the new associated permissions. You must remove the role from the user and re-add the role to apply the permissions. 
+ A role is assigned building blocks and all the permissions within those blocks. However, access to the permissions and the Data Connect pages associated with them is controlled by each user's context level assignment in Cloud Administration.
+ The following table lists the building blocks and corresponding permissions for various operations within Data Connect.
+ Important : To export data with the Rave and Audit CTMS data types for a given study, you must also use Cloud Administration's Manage Access tools to set Site and Country Access to all sites and countries.
+ Datasets 
+ Name 
+ Permissions 
+ | Manage Data Collections 
+ | 
+- Grants the ability to:
+- Create, edit, and delete collections 
+- Add and remove datasets from collections 
+ Transformations 
+ Name 
+ Permissions 
+ | Manage Transformation Projects 
+ | 
+- Adds the Data Connect application to your list of registered applications 
+- Grants the ability to: 
+- Access the Datasets experience 
+- Access the Transformations experience. 
+- Create and manage transformation projects, including : 
+- SDTM-like datasets (in limited preview for select customers) 
+- Custom data models (in limited preview for select customers) 
+- Derived data models 
+- Enriched views such as unit conversions 
+- Write to the Data Connect data catalog 
+ | Manage Library Templates 
+ | 
+- Grants the ability to create and edit derived dataset templates 
+ | View Library Templates 
+ | 
+- Grants the ability to view and use derived dataset templates 
+ | Manage Transformation Projects 
+ | 
+- Grants the ability to archive your own projects. Medidata recommends this setting for most users. 
+ | Transformation Admin 
+ | 
+- Grants the ability to archive any user's project in the study group 
+ Imports 
+ Name 
+ Permissions 
+ | Manage Data Sources 
+ | 
+- Adds the Data Connect application to your list of registered applications   
+- Grants the ability to: 
+- Access to the Imports experience 
+- Write to the Data Connect data catalog 
+- See data sources and datasets added to Imports 
+- Add data sources and datasets to Imports 
+ Exports 
+ Name 
+ Permissions 
+ | Manage Extracts 
+ | 
+- Adds the Data Connect application to your list of registered applications 
+- Grants the ability to: 
+- Access the Exports experience 
+- Create exports, including: 
+- Read workflow plans 
+- Edit workflow plans 
+- Create workflow plans 
+- Execute workflow plans 
+- Cancel workflow plans 
+- Read clients 
+- Read study environments 
+- Read studies 
+- Edit exports 
+- Run exports 
+ | View Unblinded Data 
+ | 
+- Grants access to unblinding study data 
+ | Extract EDC Data 
+ | 
+- Grants the ability to extract Rave clinical data 
+ Note : If you assign this role, you must also:
+- Assign the Unblinded User building block; and, 
+- Select the All Sites and Countries flag. 
+ | Extract CTMS Data 
+ | 
+- Grants the ability to extract CTMS data 
+ | Extract Master Data 
+ | 
+- Grants the ability to extract Master data 
+ | Extract Cloud Admin Audit Data 
+ | 
+- Grants the ability to extract Cloud Admin Audit Master data 
+ | Extract Rave CTMS Audit Data 
+ | 
+- Grants the ability to extract CTMS Audit data 
+ | Extract Rave Audit Data 
+ | 
+- Grants the ability to extract Rave Audit data 
+ | Extract Transformed Data 
+ | You can extract Transformed data created through Transformations .
+ | View as Super User 
+ | 
+- Adds the Data Connect application to your list of registered applications 
+- Grants super user access, which allows you to view all exports within the client across the studies you have access to. 
+ Note : Visible exports include both exports that you created, and exports other users created.
+ | Extract Rave Companion Audit 
+ | 
+- Grants the ability to extract Rave Companion Audit data 
+ .
+ | Extractor Admin 
+ | 
+- Adds the Data Connect application to your list of registered applications 
+- Grants the ability to: 
+- Configure external connections as for extracted data, including: 
+- SFTP 
+- Amazon S3 
+- FTPS 
+- Manage connections 
+ Note : You must assign this at the study group level because connections are available to use with all studies in the study group.

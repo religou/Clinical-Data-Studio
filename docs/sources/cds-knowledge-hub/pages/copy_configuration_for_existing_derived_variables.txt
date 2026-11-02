@@ -1,0 +1,16 @@
+# Copy Configuration For Existing Derived Variables
+
+## Copy Configuration For Existing Derived Variables
+## Description
+ You can now copy the configuration of an existing derived variable. Highlighted fields indicate if the configuration grid expression is incomplete. 
+## Affected Roles
+ All roles with the View Data building block. 
+## Advantages
+ You can build new, derived variables based on existing ones without needing to reconfigure parameters you do not intend to change. 
+## User Impact
+ On the Medidata Detect > Patient Data Surveillance (PDS) > Derived Variables > Derived Variables page when you select an existing derived variable from a data set , and click in the configuration grid, a copy of the derived variable type appears. You can edit Name, Label, and configuration grid fields for the derived variable copy. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+- While working in derived variables, when you leave fields empty in the Configure Variable section such that the configuration is incomplete, and then click Save or Preview , a red outline appears in the empty fields along with a warning message. A red outline and warning message also appears if you leave the Name or Label fields empty and click Save or Preview . 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

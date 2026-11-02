@@ -1,0 +1,9 @@
+# Audit Trail Review
+
+## Audit Trail Review
+ Clinical Data Studio includes the following Audit Trail Review capabilities: 
+- RBQM: Updated User Names In Preview Enhances Audit Trail Review Usability 
+- Audit Trail Review: Updated Audit Trail Review Improves User Experience 
+- Audit Trail Review: Verify Audit Trail Chat Questions Using SQL Query 
+- Audit Trail Review: Publish Option Disabled For Unsaved Audit Trail Chats 
+- RBQM: Enhance Study Data Compliance And Accuracy With Audit Trail Review

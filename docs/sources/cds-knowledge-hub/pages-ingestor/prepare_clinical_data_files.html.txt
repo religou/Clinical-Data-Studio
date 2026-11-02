@@ -1,0 +1,939 @@
+# Prepare Clinical Data Files
+
+## Prepare Clinical Data Files
+ Prepare files containing clinical data and clinical operational data to enable Medidata CTMS functionality for non-Rave studies. You can use variable or fixed data structures depending on the data domain you plan to load. 
+ Note : If data collection does not match the defined Schedule of Assessment (SOA) file contents:
+- Update the SOA as a post-production change to reflect the new pairs of visits and data sets as a post-production change. 
+- Ensure the data provider updates the data file and associates data to the pairs of planned visits and data sets. 
+- Add a visit – such as UNSCHEDULED – as a post-production change, and provide the data provider instructions for when to associate data to UNSCHEDULED visit. 
+## Required Concept OIDs
+ Each data set must have fields tagged to the following Study Master Data concepts. Study Master Data Concepts are key to store and manage the clinical data. 
+ Concept Type
+ Concept OID
+ Variable Label/Name
+ Data Type
+ Max Length
+ | Study Master Data
+ | STUDYID
+ | Study Identifier
+ | Char
+ | 20
+ | Study Master Data
+ | SITEID
+ | Study Site Identifier
+ | Char
+ | 50
+ | Study Master Data
+ | SUBJID
+ | Subject Identifier
+ | Char
+ | 50
+ | Study Master Data
+ | VISIT
+ | Visit Name
+ | Integer
+ | 8
+## Medidata CTMS Capability Mapping
+ The clinical data and clinical operational data enable the Medidata CTMS capabilities listed in the below table. If requisite data is unavailable, then Medidata CTMS disables the corresponding capability. 
+ Medidata CTMS Capabilities
+ Disposition
+ Adverse Events
+ Subject Visits
+ SDV
+ Queries
+ | Site Overview
+ | X
+ | 
+ | 
+ | 
+ | 
+ | Visit Scheduler
+ | X
+ | 
+ | 
+ | 
+ | 
+ | Reference Data
+ | 
+ | X
+ | X
+ | X
+ | X
+ | Visit Report Placeholders
+ | X
+ | X
+ | 
+ | X
+ | 
+ | Activity Metrics
+ | 
+ | 
+ | X
+ | X
+ | X
+ | Enrollment Metrics
+ | X
+ | 
+ | 
+ | 
+ | 
+ | Milestones
+ | X
+ | 
+ | 
+ | 
+ | 
+## Prepare Subject Disposition Data Files
+- Prepare Subject Disposition data with the following parameters to enable CTMS functionality:
+ Concept Type
+ Concept OID
+ Variable Label/Name
+ Data Type
+ Max Length
+ | Clinical
+ | SCREENING_DATE
+ | Screening Date
+ | Date
+ | None
+ | Clinical
+ | INFORMED_CONSENT_DATE
+ | Informed Consent Date
+ | Date
+ | None
+ | Clinical
+ | SCREEN_FAILED_DATE
+ | Screen Failed Date
+ | Date
+ | None
+ | Clinical
+ | ENROLLED_DATE
+ | Enrolled Date
+ | Date
+ | None
+ | Clinical
+ | RANDOMIZED_DATE
+ | Randomization Date
+ | Date
+ | None
+ | Clinical
+ | EARLY_TERMINATED_DATE
+ | Early Terminated Date
+ | Date
+ | None
+ | Clinical
+ | COMPLETED_DATE
+ | Completed Date
+ | Date
+ | None
+## Organize Subject Disposition Data
+ Identify a method to organize Subject Disposition data for loading. You can use one of the following methods: 
+- Load data with the source data sets exported from an EDC system. 
+- Load data using Subject Disposition data sets. 
+## Method 1 - Load Data With Source Data Sets from an EDC System
+ You can load the Subject Disposition data from source data sets that you export from an EDC system. Clinical data exported from an EDC system do not map to CTMS functionality and are therefore optional. The Medidata Data Fabric only requires fields pertaining to the required concepts to enable CTMS functionality.
+- Prepare the Subject Disposition data file from your EDC system, and do one of the following to the extract: 
+- Load all the clinical data into the system.
+ Note : This option has an increased loading time.
+- Exclude the optional clinical data fields to prevent loading clinical data into the system.
+ Note : The system produces warning messages for fields skipped during data processing.
+- Remove the clinical data fields from source EDC data extracts.
+ Note : In the following example, the user loaded every field extracted from the EDC system. When doing so in your case, ensure that you include the correct Data Set and Visit metadata in the Schedule of Assessments SDM file to reflect the study design. 
+ STUDYID
+ SITEID
+ SUBJID
+ VISIT
+ SCREENING_DATE
+ SCREEN_FAILED_DATE
+ SCREEN_FAIL_REASON
+ | MY_STUDY
+ | 1006
+ | 1006-001
+ | SCREENING
+ | 20220501
+ | 
+ | 
+ | MY_STUDY
+ | 1006
+ | 1006-002
+ | SCREENING
+ | 20220502
+ | 20220502
+ | Too young for study
+ | MY_STUDY
+ | 1006
+ | 1006-003
+ | SCREENING
+ | 20220503
+ | 
+ | 
+- Add the data set definition to the SDM files while only tagging the fields with a CONCEPT_OID where appropriate, such as in the below example:
+ STUDY_NAME
+ DATASET_OID
+ FIELD_ORDER
+ FIELD_OID
+ CONCEPT_OID
+ TRANSFORMATION
+ FIELD_LABEL
+ | MY_STUDY
+ | DSSCR
+ | 1
+ | STUDYID
+ | STUDYID
+ | 
+ | Study ID
+ | MY_STUDY
+ | DSSCR
+ | 2
+ | SITEID
+ | SITEID
+ | 
+ | Site ID
+ | MY_STUDY
+ | DSSCR
+ | 3
+ | SUBJID
+ | SUBJID
+ | 
+ | Subject ID
+ | MY_STUDY
+ | DSSCR
+ | 4
+ | VISIT
+ | VISIT
+ | 
+ | Visit Name
+ | MY_STUDY
+ | DSSCR
+ | 5
+ | SCREENING_DATE
+ | SCREENING_DATE
+ | 
+ | Screening Date
+ | MY_STUDY
+ | DSSCR
+ | 6
+ | SCREEN_FAILED_DATE
+ | SCREEN_FAILED_DATE
+ | 
+ | Screen Failed Date
+ | MY_STUDY
+ | DSSCR
+ | 7
+ | SCREEN_FAIL_REASON
+ | 
+ | 
+ | Reason for Screen Failure
+## Method 2 - Prepare a Subject Disposition Data Set
+ In eCRF designs, the capture of subject disposition data typically occurs on multiple eCRF pages, and its corresponding EDC system outputs the data in multiple datasets. You can create a derived Subject Disposition data set by reading the relevant fields from EDC system extracts and creating a single dataset with all subject disposition data. 
+## Example 1 - Derived Data Set
+ The following example is a derived Subject Disposition data set.
+ Note : This is a derived data set with no actual visit that collects all the subject statues. Since Visit is a mandatory attribute for loading, use a placeholder visit name such as ALL, and then associate the data set and visit name in the Schedule of Assessments SDM File.
+ STUDYID
+ SITEID
+ SUBJID
+ VISIT
+ SCREENING_DATE
+ INFORMED_CONSENT_DATE
+ SCREEN_FAILED_DATE
+ ENROLLED_DATE
+ RANDOMIZED_DATE
+ EARLY_TERMINATED_DATE
+ COMPLETED_DATE
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | ALL
+ | 20220101
+ | 20220101
+ | 
+ | 20220115
+ | 20220117
+ | 
+ | 20220622
+ | MY_STUDY
+ | 1001
+ | 1001-002
+ | ALL
+ | 20220102
+ | 20220102
+ | 20220102
+ | 
+ | 
+ | 
+ | 
+ | MY_STUDY
+ | 1001
+ | 1001-003
+ | ALL
+ | 20220103
+ | 20220201
+ | 
+ | 20220201
+ | 
+ | 20220220
+ | 
+## Example 2 - Derived Data Set with Tagged Concepts
+ The following example is a snippet of the Fields SDM file representing the derived Subject Disposition data set with tagged fields representing Study Master Data and clinical data. 
+ STUDY_NAME
+ DATASET_OID
+ FIELD_ORDER
+ FIELD_OID
+ CONCEPT_OID
+ TRANSFORMATION
+ FIELD_LABEL
+ | MY_STUDY
+ | DS
+ | 1
+ | STUDYID
+ | STUDYID
+ | 
+ | Study ID
+ | MY_STUDY
+ | DS
+ | 2
+ | SITEID
+ | SITEID
+ | 
+ | Site ID
+ | MY_STUDY
+ | DS
+ | 3
+ | SUBJID
+ | SUBJID
+ | 
+ | Subject ID
+ | MY_STUDY
+ | DS
+ | 4
+ | VISIT
+ | VISIT
+ | 
+ | Visit Name
+ | MY_STUDY
+ | DS
+ | 5
+ | SCREENING_DATE
+ | SCREENING_DATE
+ | 
+ | Screening Date
+ | MY_STUDY
+ | DS
+ | 6
+ | INFORMED_CONSENT_DATE
+ | INFORMED_CONSENT_DATE
+ | 
+ | Informed Consent Date
+ | MY_STUDY
+ | DS
+ | 7
+ | SCREEN_FAILED_DATE
+ | SCREEN_FAILED_DATE
+ | 
+ | Screen Failed Date
+ | MY_STUDY
+ | DS
+ | 8
+ | ENROLLED_DATE
+ | ENROLLED_DATE
+ | 
+ | Enrolled Date
+ | MY_STUDY
+ | DS
+ | 9
+ | RANDOMIZED_DATE
+ | RANDOMIZED_DATE
+ | 
+ | Randomization Date
+ | MY_STUDY
+ | DS
+ | 10
+ | EARLY_TERMINATED_DATE
+ | EARLY_TERMINATED_DATE
+ | 
+ | Early Terminated Date
+ | MY_STUDY
+ | DS
+ | 11
+ | COMPLETED_DATE
+ | COMPLETED_DATE
+ | 
+ | Follow-Up Completed Date
+## Prepare Adverse Events Data
+ You can extract clinical data for adverse events through the source EDC system. Many EDC systems have the native ability to create extracts of clinical data for adverse events. However, many EDC systems do not have the native ability to create extracts of operational clinical data. In those cases, please contact your EDC vendor to get those extracts. Once you acquire both clinical data and operation data, please contact a programming resource to merge them into a single data set for loading.
+- Prepare Adverse Events data with the following parameters to enable CTMS functionality:
+ Concept Type
+ Concept OID
+ Variable Label/Name
+ Data Type
+ Max Length
+ | Clinical
+ | SVSTDTC
+ | Start Date/Time of Visit
+ | Date
+ | None
+ | Clinical
+ | AETERM
+ | Reported Term for the Adverse Event
+ | Char
+ | 50
+ | Clinical
+ | AESTDTC
+ | Start Date/Time of Adverse Event
+ | Date
+ | None
+ | Clinical
+ | AEENDTC
+ | End Date/Time of Adverse Event
+ | Date
+ | None
+ | Clinical
+ | AESER
+ | Serious Event
+ | Char
+ | 2
+ | Clinical Operational
+ | DATA_ENTRY_START_DATE
+ | Data Entry Start Date
+ | Date
+ | None
+ | Clinical Operational
+ | SDV_COMPLETE_STATUS
+ | SDV Completed Status
+ | Char
+ | 2
+ | Clinical Operational
+ | SDV_COMPLETE_DATE
+ | SDV Complete Date
+ | Date
+ | None
+ Note : Each adverse event requires a combination of clinical and clinical operational data. The Medidata Data Fabric requires the clinical details about each adverse event and the adverse event's data entry start date, SDV completion status, and SDV completion date. 
+ Example 
+ STUDYID
+ SITEID
+ SUBJID 
+ VISIT
+ VISIT_DATE
+ AETERM
+ AESER
+ AESTDTC
+ AEENDTC
+ DATA_ENTRY_START_DATE
+ SDV_COMPLETE_STATUS
+ SDV_COMPLETE_DATE
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | AE_LOG
+ | 20220101
+ | AE1
+ | Y
+ | 20220101
+ | 20220115
+ | 20220103 12:01:01
+ | N
+ | 
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | AE_LOG
+ | 20220105
+ | AE2
+ | Y
+ | 20220105
+ | 20220110
+ | 20220105 12:02:02
+ | Y
+ | 20220201
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | AE_LOG
+ | 20220105
+ | AE3
+ | Y
+ | 20220106
+ | 
+ | 20220105 12:03:03
+ | N
+ | 
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | AE_LOG
+ | 20220201
+ | AE4
+ | N
+ | 20220201
+ | 20220228
+ | 20220215 12:04:04
+ | N
+ | 
+## Prepare Subject Visits Data
+- Prepare Subject Visits data with the following parameters to enable CTMS functionality:
+ Concept Type
+ Concept OID
+ Variable Label/Name
+ Data Type
+ Max Length
+ | Clinical
+ | SVSTDTC
+ | Start Date/Time of Visit
+ | Date
+ | None
+ | Clinical Operational
+ | FRM_NAME
+ | Form Name
+ | Char
+ | 50
+ | Clinical Operational
+ | FRM_RPT_KEY
+ | Form Repeat Key
+ | Integer
+ | 8
+ | Clinical Operational
+ | DATA_ENTRY_START_DATE
+ | Data Entry Start Date
+ | Date
+ | None
+ Note : Subject Visit data requires a combination of both clinical data and clinical operational data. The Medidata Data Fabric requires details about the visit date for each eCRF form collected. If an eCRF form sees multiple uses in a visit, such as a repeat lab test, increment the FRM_RPT_KEY to indicate each extra instance of data collection for the form, for example: FRM_RPT_KEY = 2. 
+## Prepare Source Data Verification Data
+- Prepare Source Data Verification (SDV) data with the following parameters to enable CTMS functionality:
+ Concept Type
+ Concept OID
+ Variable Label/Name
+ Data Type
+ Max Length
+ Content Expectations
+ | Clinical
+ | SVSTDTC
+ | Start Date/Time of Visit
+ | Date
+ | None
+ | 
+ | Clinical Operational
+ | FRM_NAME
+ | Form Name
+ | Char
+ | 50
+ | 
+ | Clinical Operational
+ | FRM_RPT_KEY
+ | Form Repeat Key
+ | Integer
+ | 8
+ | 
+ | Clinical Operational
+ | SDV_COMPLETE_STATUS
+ | SDV Completed Status
+ | Char
+ | 2
+ | 
+ | Clinical Operational
+ | SDV_COMPLETE_DATE
+ | SDV Complete Date
+ | Date
+ | None
+ | Acceptable Values: 
+- Y – SDV is required and completed. 
+- N – SDV is required, but is incomplete. 
+ You can also leave this field empty to denote that SDV is optional or completed.
+ Note : SDV data requires a combination of both clinical data and clinical operational data. The Medidata Data Fabric requires details about each eCRF form collected which requires SDV, the visit dates for each eCRF form collected, the SDV completion status, and the SDV completion date. If an eCRF form sees multiple uses in a visit, such as a repeat lab test, then increment the FRM_RPT_KEY to indicate each extra instance of data collection for the form, for example: FRM_RPT_KEY = 2. 
+## Identify Method to Organize Subject Visit and Source Data Verification Data for Loading
+ Identify a method to organize Subject Visit and SDV data files for loading. You can use one of the following methods: 
+- Method 1 – Load individual files: one for Subject Visit data and one SDV data. 
+- Method 2 – Load a combined file for Subject Visit and SDV Data. 
+- Method 3 – Load Subject Visit data by loading source data sets exported from EDC system and loading a file for SDV data. 
+- Method 4 – Load Subject Visit data by loading source data sets exported from EDC system including SDV data. 
+## Method 1 - Load Individual Files
+ You can load the Subject Visit data file and the SDV data file separately.
+- Prepare a Subject Visit file containing details about all subject visits that occurred in the study, such as in the example:
+ STUDYID
+ SITEID
+ SUBJID
+ VISIT
+ VISIT_DATE
+ FRM_NAME
+ FRM_RPT_KEY
+ DATA_ENTRY_START_DATE
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | SCREENING
+ | 20220101
+ | INFORMED_CONSENT
+ | 1
+ | 20220101 14:01:01
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | SCREENING
+ | 20220101
+ | DEMOG
+ | 1
+ | 20220101 14:02:02
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | SCREENING
+ | 20220101
+ | VS_SCREEN
+ | 1
+ | 20220101 14:03:03
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | VISIT 1
+ | 20220201
+ | VS
+ | 1
+ | 20220201 14:04:04
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | VISIT 1
+ | 20220201
+ | LOCAL_LAB
+ | 1
+ | 20220201 14:05:05
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | VISIT 1
+ | 20220201
+ | DOSE_ADMIN
+ | 1
+ | 20220201 14:06:06
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | VISIT 2
+ | 20220301
+ | VS
+ | 1
+ | 20220301 14:07:07
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | END OF STUDY
+ | 20220401
+ | VS
+ | 1
+ | 20220401 14:08:08
+- Prepare an SDV file containing details about all visits with forms and fields requiring source data verification, such as in the example: 
+ STUDYID
+ SITEID
+ SUBJID
+ VISIT
+ VISIT_DATE
+ FRM_NAME
+ FRM_RPT_KEY
+ DATA_ENTRY_START_DATE
+ SDV_COMPLETE_STATUS
+ SDV_COMPLETE_DATE
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | SCREENING
+ | 20220101
+ | INFORMED_CONSENT
+ | 1
+ | 20220101 14:01:01
+ | Y
+ | 20220315
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | SCREENING
+ | 20220101
+ | DEMOG
+ | 1
+ | 20220101 14:02:02
+ | N
+ | 
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | VISIT 1
+ | 20220201
+ | LOCAL_LAB
+ | 1
+ | 20220201 14:05:05
+ | N
+ | 
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | VISIT 1
+ | 20220201
+ | DOSE_ADMIN
+ | 1
+ | 20220201 14:06:06
+ | N
+ | 
+ Note : The Medidata Data Fabric does not expect e ach form in the eCRF to require source data verification. Therefore, it expects visits and forms to include in the Source Data Verification file to be a subset of all forms and visits in the study. 
+## Method 2 - Load a Combined File
+ Since the necessary data for Subject Visits and SDV overlap, you can load the data as a single data set. 
+- Prepare a single data file containing Subject Visit and SDV data, such as in the example:
+ Note : When combining data into a single data set, for visit and forms that do not expect SDV, leave the SDV_COMPLETE_STATUS field empty. 
+ STUDYID
+ SITEID
+ SUBJID
+ VISIT
+ VISIT_DATE
+ FRM_NAME
+ FRM_RPT_KEY
+ DATA_ENTRY_START_DATE
+ SDV_COMPLETE_STATUS
+ SDV_COMPLETE_DATE
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | SCREENING
+ | 20220101
+ | INFORMED_CONSENT
+ | 1
+ | 20220101 14:01:01
+ | Y
+ | 20220315
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | SCREENING
+ | 20220101
+ | DEMOG
+ | 1
+ | 20220101 14:02:02
+ | N
+ | 
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | SCREENING
+ | 20220101
+ | VS_SCREEN
+ | 1
+ | 20220101 14:03:03
+ | 
+ | 
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | VISIT 1
+ | 20220201
+ | VS
+ | 1
+ | 20220201 14:04:04
+ | 
+ | 
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | VISIT 1
+ | 20220201
+ | LOCAL_LAB
+ | 1
+ | 20220201 14:05:05
+ | N
+ | 
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | VISIT 1
+ | 20220201
+ | DOSE_ADMIN
+ | 1
+ | 20220201 14:06:06
+ | N
+ | 
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | VISIT 2
+ | 20220301
+ | VS
+ | 1
+ | 20220301 14:07:07
+ | 
+ | 
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | END OF STUDY
+ | 20220401
+ | VS
+ | 1
+ | 20220401 14:08:08
+ | 
+ | 
+## Method 3 - Load Subject Visit Data from Exported from an EDC System and Load an SDV File Separately
+ You can prepare Subject Visit data from source data sets that you export from an EDC system. 
+ Clinical data exported from EDC system do not map to CTMS functionality and are therefore optional. Only fields pertaining to the required concepts are necessary to enable CTMS functionality.  
+- Prepare the Subject Visit data file by extracting source data from your EDC system and doing one of the following to the extract:
+- Load all the clinical data into the system.
+ Note : This option has an increased loading time. 
+- Exclude the optional clinical data fields to prevent loading clinical data into the system.
+ Note : The system produces warning messages for fields skipped during data processing.
+- Remove the clinical data fields from the extracted data file.
+ Note : Regardless of the option you choose, map the required concept tags in the fields SDM file for each data set. Include the correct Data Set and Visit metadata in the Schedule of Assessments SDM file to reflect the study design when loading source system EDC extracts. 
+- Similar to method one, prepare an SDV file containing details about all visits that have forms and fields requiring source data verification, such as in the example:  
+ STUDYID
+ SITEID
+ SUBJID
+ VISIT
+ VISIT_DATE
+ FRM_NAME
+ FRM_RPT_KEY
+ DATA_ENTRY_START_DATE
+ SDV_COMPLETE_STATUS
+ SDV_COMPLETE_DATE
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | SCREENING
+ | 20220101
+ | INFORMED_CONSENT
+ | 1
+ | 20220101 14:01:01
+ | Y
+ | 20220315
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | SCREENING
+ | 20220101
+ | DEMOG
+ | 1
+ | 20220101 14:02:02
+ | N
+ | 
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | VISIT 1
+ | 20220201
+ | LOCAL_LAB
+ | 1
+ | 20220201 14:05:05
+ | N
+ | 
+ | MY_STUDY
+ | 1001
+ | 1001-001
+ | VISIT 1
+ | 20220201
+ | DOSE_ADMIN
+ | 1
+ | 20220201 14:06:06
+ | N
+ | 
+## Method 4 - Load Exported Data Sets from an EDC System That Include Both Subject Visits Data and SDV Data
+ If your EDC system can export both clinical data and SDV data, you can load the exported source data sets.
+- Use your EDC system to export data sets containing Subject Visit data and SDV data. 
+## Prepare Queries Data
+- Prepare Queries data with the following parameters to enable CTMS functionality:
+ Important : Special Rules for Queries Data  
+- When loading Queries data, the data file must follow a fixed data structure. Ensure the data file matches the listed field names and field order. 
+- The Medidata platform does not provide error or warning logs when records fail to load. If you encounter error when loading Queries data, please contact Medidata Customer Support Team for guidance. 
+- The Medidata platform identifies duplicates in the file based on the following key columns: QUERYID, QUERY_ACTION, and QUERY_ACTION_DATETIME. Conversely, the platform does not process Queries data based on the Study Design Metadata's Fields file. 
+ FIELD OID
+ Variable Label/Name
+ Data Type
+ Max Length
+ Content Expectations
+ | QUERYID
+ | Query Identifier
+ | Integer
+ | 8
+ | None
+ | STUDYID
+ | 
+ | 
+ | 
+ | 
+ | SITEID
+ | 
+ | 
+ | 
+ | 
+ | SUBJID
+ | 
+ | 
+ | 
+ | 
+ | VISIT
+ | 
+ | 
+ | 
+ | 
+ | SVSTDTC
+ | Start Date/Time of Visit
+ | Date
+ | None
+ | None
+ | FRM_NAME
+ | Form Name
+ | Char
+ | 50
+ | 
+ | FRM_RPT_KEY
+ | Form Repeat Key
+ | Integer
+ | 8
+ | 
+ | FIELD_NAME
+ | Field Name
+ | Char
+ | 50
+ | 
+ | QUERY
+ | Query Text
+ | Char
+ | ??
+ | 
+ | QUERY_OPEN_METHOD
+ | Query Open Method
+ | 
+ | 
+ | Acceptable Values:
+- Manual 
+- Auto 
+ | QUERY_TYPE
+ | Query Type
+ | 
+ | 
+ | If Query Open Method = “Manual”, Valid Values
+- DataManagementToSite 
+- SiteMonitorToSite 
+- SafetyReviewerToSite 
+- DictionaryCodingToSite 
+- OtherToSite 
+- NonSiteQuery 
+ If Query Open Method = “Auto”, Valid Values
+- Query Open Method = QueryToSite 
+ | QUERY_CREATED_DATETIME
+ | Query Creation Timestamp
+ | 
+ | 
+ | 
+ | QUERY_ACTION
+ | Query Action
+ | 
+ | 
+ | Acceptable Values:
+- Open 
+- Answered 
+- Closed 
+- Forwarded 
+- Cancelled 
+ | QUERY_ACTION_TEXT
+ | Query Action Text
+ | 
+ | 
+ | 
+ | QUERY_ACTION_DATETIME
+ | Query Action Timestamp
+ | 
+ | 
+ | 
+## Next Step
+ Load SDM Files

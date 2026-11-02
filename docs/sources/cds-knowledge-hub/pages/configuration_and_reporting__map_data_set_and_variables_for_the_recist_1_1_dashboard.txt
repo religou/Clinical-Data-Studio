@@ -1,0 +1,73 @@
+# Configuration and Reporting: Map Data Set and Variables for the RECIST 1.1 Dashboard
+
+## Configuration and Reporting: Map Data Set and Variables for the RECIST 1.1 Dashboard
+## What Is New?
+ Medidata Detect April 2024 includes a new Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 dashboard that shows the tumor burden change in patients in oncology studies. Medidata Detect > Configuration and Reporting > Detect Mapping includes a new Oncology Mapping page, and a RECIST tab where you can configure data sets and variables that appear on the RECIST 1.1 dashboard. You can use Oncology Mapping to:
+- Identify forms and fields for analyzing the tumor burden for RECIST 1.1. 
+- View visualizations of oncology study data on the RECIST 1.1 dashboard. 
+- Facilitate faster reconciliation of study data. 
+ The RECIST Configuration page includes a Help on This Page option, which navigates you to the RECIST Configuration   Knowledge Hub article. 
+## What Is the Impact?
+## Users/Roles
+ Study Managers, Medical Monitors, and Data Managers.
+ Detect users with View CSM Configuration and Manage CSM Configuration access. 
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ The RECIST 1.1 dashboard in Data Reviewer shows the data sets and variables you configure in Configuration and Reporting > Detect Mapping > Oncology Mapping > RECIST. Source and target variables you configure in Oncology Mapping populate the RECIST 1.1 dashboard and the tumor burden response by patient table. For more information, see  PDS: Track Patient Tumor Burden Data with The RECIST 1.1 Dashboard . 
+## How Do I Benefit?
+ With RECIST Configuration:
+- You can identify the RAVE forms and fields useful in analyzing the tumor burden for the RECIST 1.1 dashboard. 
+- Data sets and variables you configure appear on the RECIST 1.1 dashboard. Medical Monitors and Data Managers can use the RECIST 1.1 dashboard to learn about the change in tumor size, individual patient journeys and implement the best course of action as per study protocol.  
+- You can facilitate a faster data reconciliation process. 
+## Where Do I See the Change?
+ The Medidata Detect > Configuration and Reporting > Detect Mapping > Oncology Mapping > RECIST tab includes a form, target, and source fields. You can select a data set as the RAVE form. Then map the appropriate data set source fields to the variable target field to ensure that the RECIST 1.1 dashboard analyzes, visualizes, and prioritizes oncology study data ingested from RAVE EDC.  
+- Response  
+ Target Field 
+  Source Field  
+ | Target Lesion Response 
+ | For each target field, you can select a variable from the data set you selected in the Response field. 
+ | Non-target Lesion Response 
+ | New Lesion Response
+ | Overall Response
+- Screening Target Lesion 
+ Target Field 
+ Source Field 
+ | Tumor Location 
+ | For each target field, you can select a variable from the data set you selected in the  Screening Target Lesion field.
+If you leave the Longest Diameter Unit or Short Axis Diameter Unit fields empty, Detect uses millimeter (mm) as the unit of measurement. 
+ | Longest Diameter 
+ | Longest Diameter Unit (Optional)  
+ | Short Axis Diameter 
+ | Short Axis Diameter Unit (Optional) 
+- On-study Target Lesion 
+ Target Field 
+ Source Field 
+ | Tumor location 
+ | For each target field, you can select a variable from the data set you selected in the  On-study Target Lesion field.
+ If you leave the Longest Diameter Unit or Short Axis Diameter Unit fields empty, Detect uses millimeter (mm) as the unit of measurement. 
+ | Longest diameter
+ | Longest Diameter Unit (Optional) 
+ | Short Axis Diameter 
+ | Short Axis Diameter Unit (Optional) 
+- Non-target lesion 
+ Target Field 
+ Source Field 
+ | Tumor Status 
+ | For each target field, you can select a variable from the data set you selected in the Non-target lesion field. 
+ | Tumor Location
+- New Lesions 
+ Target Field 
+ Source Field 
+ | Tumor Status 
+ | For each target field, you can select a variable from the data set you selected in the New Lesions field. 
+ Note : Before you save the RECIST configuration, c onfirm that you select the correct data set for the target and source fields. Otherwise, Detect fails to refresh and show its statistical analysis on the RECIST 1.1 dashboard. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the Feature:
+- Map RECIST 1.1 Data 
+- RECIST 1.1 
+## What Else Should I Know?
+ Detect users with the: 
+- View CSM Configuration role can view the RECIST Configuration page. 
+- Manage CSM Configuration role can configure data sets and variables in Detect Configuration Manager. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

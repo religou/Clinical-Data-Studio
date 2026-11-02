@@ -1,0 +1,24 @@
+# View QTL Notifications
+
+## View QTL Notifications
+ You can opt in to receive the following automated QTL notifications: 
+- Information – Informs you when the QTL Dashboard successfully processes a scheduled or manual data refresh.
+- Warning – Informs you that RBQM considers at least one QTL in your study as having exceeded the tolerance  threshold and is therefore considered  as out of range as of the latest QTL Dashboard data refresh. 
+- Critical – Informs you that RBQM considers at least one QTL in your study as an excursion as of the latest QTL Dashboard data refresh. 
+ Notifications are processed and sent through the Medidata's Notification Center . 
+ You can view QTL notifications in two forms: 
+- Email notifications with a deep-link sent to your email inbox. 
+- In-app notifications accessible by way of the Medidata platform user interface. 
+ QTL notifications keep you closely informed regarding the latest available QTL Dashboard study data and analysis to help you monitor and manage study risks as necessary.
+ Important : To subscribe or unsubscribe to QTL notifications, provide your Medidata Professional Services representative a list of emails of users who wish to subscribe or unsubscribe.
+## View QTL Notifications Through Email
+- Open the email notification you receive from Medidata. 
+- Click  View in Notification Center .
+ On the Notifications page, depending on the QTL status, a message regarding the QTL appears. You can take further steps as necessary to manage the risk to the study parameter.  
+## View QTL Notifications in the Notification Center
+- Log in to iMedidata.com . 
+- Click the Notifications icon in the iMedidata toolbar.
+ Note : An icon with a red circle  indicates new, unread notifications.
+The Notifications page shows all notifications you have received, listed in order from newest at top.
+ Note : You can continuously scroll through notifications to the end. When you reach the bottom, if there are more notifications, then the page automatically shows the notifications.
+- Optional . In the left-hand pane, click to filter the Notifications page to show specific notifications by type: All, Information, Warning, or Critical.

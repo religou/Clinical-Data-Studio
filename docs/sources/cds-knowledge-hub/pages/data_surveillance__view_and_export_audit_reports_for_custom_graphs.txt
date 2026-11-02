@@ -1,0 +1,64 @@
+# Custom Graphs: View Audit Reports for Custom Graphs
+
+## Custom Graphs: View Audit Reports for Custom Graphs
+ Important :
+- To learn more about changes done to these release notes, see the revision history . 
+- To learn more about features and enhancements covered in previous releases, see the releases history . 
+- To learn more about all features in this release, see the released features index .
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.3.0
+ Change Type 
+ | Enhancement 
+ Functionality or Module 
+ | Custom Graphs (previously known as Visualizations) 
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter :
+ Custom Graphs (previously known as Visualizations) now integrates with and provides access to Audit Viewer , which reports audit details for actions taken on Custom Graphs. 
+ Benefit to Users 
+ | 
+ Audit Reports allow you to maintain a consistent audit trail to trace actions taken on Custom Graphs. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Users with Manage Data Reviewer and View Data Reviewer building blocks. 
+ Impact to Workflow Processes 
+ You can access the Custom Graphs Report directly from the Custom Graphs page to view all actions and updates. 
+ Impact to Applications 
+ No impact to other applications. 
+ Impact on Interface 
+ The upper-right corner of the Data Surveillance > Custom Graphs page shows the Clock icon if you have access to Custom Graphs . 
+ Tip:  Click the image to enlarge.
+ Number 
+ Description 
+ | 1 
+ | 
+ The   Audit Reports   - Click the Clock   icon next to   the Refresh   button  to open a new browser tab or window to show   Custom Graphs Report . 
+ The Custom Graphs Report tracks all actions on taken Custom Graphs, and appears as follows: 
+- Activity Description column - In the audit report, the  Activity Description column shows graph name in the first line and  clear descriptions of configuration changes. 
+ You can click   Show Filters   above the upper-right corner of the table to filter the reports by Start Date and End Date. 
+ You can also click   Export , and then  Excel ,  CSV , or  PDF  to view the report offline or sort data by column headings. 
+ Impact to Existing Data or Settings 
+ No impact on existing data or settings; no configuration or permission updates required. 
+ User Impact Assessment 
+ | 
+ Medium
+ Learning Resource Updates 
+ | 
+ The following lists any new or added resources that support this change:
+- New Article: View and Export Audit Reports for Custom Graphs 
+ Special Considerations 
+ | 
+ Only users with Manage Data Reviewer and View Data Reviewer building blocks can view the Clock     icon. 
+ To view Medidata testing documentation for this release, see the   Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

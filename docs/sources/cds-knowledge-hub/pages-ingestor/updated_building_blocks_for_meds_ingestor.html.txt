@@ -1,0 +1,97 @@
+# Updated Building Blocks for MEDS Ingestor
+
+## Updated Building Blocks for MEDS Ingestor
+## Description
+ MEDS Ingestor updates its permission structure with new building blocks. The new building blocks grant users various permissions to create and manage new types of import jobs, and to import types of data. The new building blocks replace the previous version's building blocks.
+ Feature/enhancement stories referenced in this article:
+ MCC-745100, MCC-760854, MCC-760862, MCC-772438 
+## Affected Roles
+ All.
+## Advantages
+ With the updated building blocks, you have more precise control over MEDS Ingestor access. In addition, the updated building block names afford a clearer understanding about which building block grants what set of permissions.
+## User Impact
+ The following table describes the changes to Cloud Administration's building blocks pertaining to MEDS Ingestor.
+ Important : If you previously had access to MEDS Ingestor, your role's permissions may not automatically update with this update. Review and update your role's permissions to ensure you have correct access to MEDS Ingestor features.
+ Building Block 
+ Status 
+ Description 
+ | View Import Summary 
+ | Removed 
+ | N/A 
+ | Perform Admin Actions 
+ | Removed 
+ | N/A 
+ | View Import Job 
+ | Updated 
+ | Now called "View External EDC Data". You can:
+- View external EDC jobs on the Job Files screen. 
+- Access the Job Files screen for external EDC jobs. 
+- Access the Import Summary for external EDC jobs. 
+- Access the Job Configuration screen for external EDC jobs. 
+ | Import Data 
+ | Updated 
+ | Now called "Import External EDC Data". You can:
+- Perform the actions included in View External EDC Data building block. 
+- Import files with external EDC jobs. 
+ | Create Import Job 
+ | Updated 
+ | Now called "Manage External EDC Data". You can:
+- Perform the actions included in the Import External EDC Data building block. 
+- Mark external EDC jobs as Complete or Active on the Job Configuration screen. 
+- Update external EDC jobs' job configuration details on the Job Configuration screen, including changing and locking the job's data integration version. 
+ | View Study Design Metadata 
+ | Added 
+ | You can:
+- View Study Design Metadata (SDM) jobs on the Job Files screen. 
+- Access the Job Files screen for SDM jobs. 
+- Access the Import Summary for SDM jobs. 
+- Access the Job Configuration screen for SDM jobs. 
+ | Import Study Design Metadata 
+ | Added 
+ | You can:
+- Perform the actions included in View Study Design Metadata building block. 
+- Import files with Study Design Metadata jobs. 
+ | Manage Study Design Metadata 
+ | Added 
+ | You can:
+- Perform the actions included in the Import Study Design Metadata building block. 
+- Mark Study Design Metadata (SDM) jobs as Complete or Active on the Job Configuration screen. 
+- Update SDM jobs' job configuration details on the Job Configuration screen. 
+ | View Study Master Data 
+ | Added 
+ | You can:
+- View Study Master Data jobs on the Job Files screen. 
+- Access the Job Files screen for Study Master Data jobs. 
+- Access the Import Summary for Study Master Data jobs. 
+- Access the Job Configuration screen for Study Master Data jobs. 
+ | Import Study Master Data 
+ | Added 
+ | You can:
+- Perform the actions included in View Study Master Data building block. 
+- Import files with Study Master Data jobs. 
+ | Manage Study Master Data 
+ | Added 
+ | You can:
+- Perform the actions included in the Import Study Master Data building block. 
+- Mark Study Master Data jobs as Complete or Active on the Job Configuration screen. 
+- Update Study Master Data jobs' job configuration details on the Job Configuration screen. 
+ | View CTMS Data 
+ | Added 
+ | You can:
+- View CTMS jobs on the Job Files screen. 
+- Access the Job Files screen for CTMS jobs. 
+- Access the Import Summary for CTMS jobs. 
+- Access the Job Configuration screen for CTMS jobs. 
+ | Import CTMS Data 
+ | Added 
+ | You can:
+- Perform the actions included in View CTMS Data building block. 
+- Import files with Study Master Data jobs. 
+ | Manage CTMS Data 
+ | Added 
+ | You can:
+- Perform the actions included in the Import CTMS Data building block. 
+- Mark CTMS jobs as Complete or Active on the Job Configuration screen. 
+- Update CTMS jobs' job configuration details on the Job Configuration screen. 
+## Special Considerations
+ None.

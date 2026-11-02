@@ -1,0 +1,12 @@
+# Integrate With External Issue Management System
+
+## Integrate With External Issue Management System
+ You can configure Medidata CTMS for signal issue resolution using Integrations. On the RBQM > Configurations > Integrations page, in the CTMS application section, if you select Rave CTMS from the list, your study is integrated with Medidata CTMS for signal issue tracking and resolution.  
+ You can raise and track progress for issues in signals using an established, external issue management system, like Medidata CTMS without needed to copy and duplicate work, saving time and improving efficiency.  
+ Once a CTMS application is configured with your study, you can raise issues for signals and send to the external CTMS for progress tracking and issue resolution. Metadata about tasks assigned as part of issue tracking, or the change in issue status is transmitted back into Signals. You can view issue related information on the Signal Details page. 
+ Important : Integration with the Medidata CTMS issue management system must be configured and set up for the study prior to integrating with Signals for issue resolution.
+- Access RBQM , and then click   Configuration   > Integrations   in the left-hand menu.
+The Integrations page appears. 
+- From the CTMS application list, select the external issue management system that you want to integrate with Signals. For example, if you select  Rave CTMS   from the list, your study is integrated with Medidata CTMS for signal issue tracking and resolution. 
+ Note: You can configure only one external CTMS per study. 
+- Optional . Click , the Delete icon next to a configured CTMS to remove the integration.

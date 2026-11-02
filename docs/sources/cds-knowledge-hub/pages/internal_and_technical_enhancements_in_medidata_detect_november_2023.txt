@@ -1,0 +1,23 @@
+# Internal and Technical Enhancements in Medidata Detect November 2023
+
+## Internal and Technical Enhancements in Medidata Detect November 2023
+## What Is New?
+ Medidata Detect November 2023 includes the following internal and technical enhancements:
+- Improved Detect Landing Page and Data Reviewer page load time and efficiency. 
+- Key Risk Indicators, Quality Tolerance Limits, and Detect Configuration Manager security upgrades. 
+## What Is the Impact?
+## Users/Roles
+ Users with access to the Patient Data Surveillance (PDS) or Key Risk Indicators (KRIs) offerings.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The Detect Landing Page and the data that shows in the Patient Data Surveillance (PDS) card and Key Risk Indicators (KRIs) card now loads faster.
+ Key Risk Indicators, Quality Tolerance Limits, and Detect Configuration Manager security is modernize and upgraded.
+## Where Do I See the Change?
+ No changes to the user interface.
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,18 @@
+# Manage Risks from the Risk Inventory
+
+## Manage Risks from the Risk Inventory
+ You can use the Risk Inventory to track and monitor risks and, if necessary, take risk mitigating actions to ultimately eliminate risks or minimize the risks' impact on the study outcome. 
+ From the Risk Inventory, you can directly access individual risks to:
+- View and edit an individual risk's details. 
+- Document risk review actions taken. 
+- Mark risks as reviewed. 
+- Close risks. 
+- Add and manage QTLs associated with risks. 
+- Add and manage KRIs associated with risks. 
+- Add and manage risk mitigations 
+ Note : You cannot delete risks that you access directly from the Risk Inventory. You can only delete risks that you access from the Risk Assessment.
+ To learn more, see:
+- Add and Manage Risks 
+- Add and Manage QTLs Associated with Risks 
+- Add and Manage KRIs Associated with Risks 
+- Add and Manage Risk Mitigations

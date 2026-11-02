@@ -1,0 +1,35 @@
+# Manage Saved Chats
+
+## Manage Saved Chats
+ Saved chat prompts enable you to build on previously asked questions to create questions in the chat interface. You can also rerun or edit saved chats to run the query at different periods during a study, saving time to retrieve crucial operational data.
+## Open Saved Chat
+- If necessary, save a chat prompt. 
+- On the Audit Trail Review page, click Saved Chats .
+The Saved Chats slide-out panel lists all saved chats from the study in a descending chronological order. 
+- Optional. Click Only your chats  if you want to view only chats that you saved in the study. 
+- Do any one:
+- Click a saved chat name. 
+- Click , the More icon, next to a saved chat name, then click Open . 
+- If you are currently in an unsaved audit trail review session, a message appears asking if you want to stay or leave without saving.  
+- Click Leave without saving .
+The saved chat prompt appears in the chat interface.
+ Note : If you click Stay , the current audit trail review session continues.
+- Optional . Click Rerun to rerun the question. 
+- Optional. Click Edit to modify the question. 
+## Delete Saved Chat
+- If necessary, save a chat prompt. 
+- On the Audit Trail Review page, click Saved Chats .
+The Saved Chats slide-out panel lists all saved chats from the study in a descending chronological order. 
+- Optional. Click Only your chats  if you want to view only chats that you saved in the study. 
+- Click , the More icon, next to a saved chat name, then click Delete . 
+ The saved chat deletes from the study. 
+ Note : You cannot delete saved chats associated with published audit data sets. The Delete button remains disabled, and becomes enabled only after the published data set is deleted from the study. Contact your Medidata representative to delete a published audit data set. For more information, see  Publish Audit Data Sets .
+## Edit Saved Chat Name
+- If necessary, save a chat prompt. 
+- On the Audit Trail Review page, click Saved Chats .
+The Saved Chats slide-out panel lists all saved chats from the study in a descending chronological order. 
+- Optional. Click Only your chats  if you want to view only chats that you saved in the study. 
+- Click , the More icon, next to a saved chat name, then click Edit Name. 
+- Type in the text box to edit the saved chat name, as required. 
+- Click .
+The saved chat name updates.

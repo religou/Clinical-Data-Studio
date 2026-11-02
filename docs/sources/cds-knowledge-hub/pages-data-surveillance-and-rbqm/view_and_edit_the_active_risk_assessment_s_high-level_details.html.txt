@@ -1,0 +1,19 @@
+# View and Edit the Active Risk Assessment's High-level Details
+
+## View and Edit the Active Risk Assessment's High-level Details
+ You can view the active risk assessment's high-level details to ensure:
+- Ensure that the risk assessment is following the study protocol. 
+- Ensure the risk assessment team is performing the risk assessments on time. 
+- See when the next planned risk assessment date. 
+ You can also edit the high-level details to accommodate protocol changes, fix a typo or error, or update the risk assessment performance milestone dates.
+- Access RBQM , and then click Risk Assessment > Details in the left-hand menu. 
+- On the Assessment Details page, enter or select the following: 
+- Name – Enter up to 100 characters for the name of the risk assessment. 
+- Version number – Enter up to 10 characters for the version. 
+- Sponsor –   Enter up to 100 characters for the name of the sponsor. 
+- Protocol Version – The current protocol version available in concurrence with the active risk assessment version. 
+- Status – Optional . The status for active risk assessments is DRAFT by default. To finalize the current risk assessment draft, click the Status menu, and select final . To learn more, see  Finalize the Active Risk Assessment Version . 
+- Date assessment performed – Use the date picker calendar to enter the current or past date. 
+- Next planned assessment – Optional . Use the date picker to enter a future date for the next assessment. 
+- If necessary, you can also add, edit, or delete risk assessment participants. To learn more, see  Add and Manage Risk Assessment Participants . 
+- Click Save .

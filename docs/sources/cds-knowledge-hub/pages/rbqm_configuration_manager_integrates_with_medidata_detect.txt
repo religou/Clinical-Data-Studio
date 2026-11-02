@@ -1,0 +1,21 @@
+# RBQM Configuration Manager Integrates with Medidata Detect
+
+## RBQM Configuration Manager Integrates with Medidata Detect
+## Description
+ RBQM Configuration Manager allows you to create custom KRIs using the data sets and variables available in your study environment . You can then activate the custom KRIs to get consumed, analyzed, and calculated by Medidata Detect's data science microservice algorithms.  
+ Based on the analytics, Medidata Detect automatically generates the KRI data analysis and renders the visualization output in the Key Risk Indicator table . From the Key Risk Indicators table, you can view, analyze, track, and write issues against the custom KRIs. 
+ You can then use RBQM Configuration Manager to deactivate KRIs from getting consumed, analyzed, calculated, and displayed in Medidata Detect when that KRI no longer requires analysis. 
+## Affected Roles
+- RBQM Configuration Manager Admin 
+- RBQM Configuration Manager Viewer 
+- Medidata Detect users 
+## Advantages
+ RBQM Configuration Manager provides a single, centralized location for KRI configuration, storage, management, and activation. This promotes platform-wide standardization and consistency among the KRIs you are tracking in your studies. 
+## User Impact
+ You can use RBQM Configuration Manager's Key Risk Indicators page to:
+- Add and Edit Custom Numeric and Percentage KRIs , and 
+- Activate and Deactivate KRIs in RBQM Configuration Manager . 
+ You can view KRI data analysis and visualization in Medidata Detect's Key Risk Indicators table. From the Key Risk Indicators table, you can view, analyze, track custom KRIs as well as log issues against custom KRIs.
+ Activated KRIs get consumed, analyzed, calculated, and visually rendered by Medidata Detect. 
+## Special Considerations
+ None.

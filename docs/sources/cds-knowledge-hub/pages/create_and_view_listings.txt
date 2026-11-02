@@ -1,0 +1,48 @@
+# Create And View Listings
+
+## Create And View Listings
+## Description
+ Data managers frequently search for specific patient data within a study; for example, all female patients who have had a serious adverse event. In Data Reviewer, you can now search across data sets and save search criteria as Listings. With Listings you can:  
+- Use the expression builder to filter patient data from a single data set. 
+- Build and save selection criteria and access the listing when required. 
+## Affected Roles
+ All roles with the View Data building block. 
+## Advantages
+ With listings, you can search across data sets to check the patient data you need and take appropriate action. For example, data managers frequently search for specific patient data within a study; such as: all female patients who have had a serious adverse event. 
+## User Impact
+ The update includes various changes to the user interface. The below screenshot and table highlights the changes. 
+ Tip: Click image to enlarge. 
+ Number  
+ Description 
+ | 1 
+ | The Medidata Detect > Patient Data Surveillance > Data Viewer's left navigation includes a new Data Reviewer tab. 
+ | 2  
+ | The Data Reviewer tab contains a new Listings subtab. 
+ | 3 
+ | You can click the Listings subtab to show the Listings page. 
+ | 4 
+ | 
+ The Listings page includes a table for saved listings. When you select a saved listing, patient data corresponding to the listing appears on the page. You can edit or delete a saved listing by clicking   at the end of each listing and then clicking Edit or Delete , respectively.  
+- Name - Name of the listing 
+- Definition - Expression created using the expression builder 
+- Last Updated - Date when the listing was updated 
+- Updated By - Name of the user who last updated the listing 
+ | 5 
+ | The Listing page includes the New Listing button. By clicking the button, you can build a listing. 
+ | 6 
+ | The Data Sets table shows all the available data sets to build a listing. You can select only one data set per listing. The selected data set appears with a green outline.  
+ | 7 
+ | 
+ With the Expression Builder workflow, you can drag data set variables data set variables into the expression and apply AND and OR logical operators to build a listing. Warning messages appear if you try to save or preview an expression with blank or incorrect fields, or missing operators or variables. Once you build an expression and click Preview , the listing appears in the preview table. You can then save the listing, and it appears in the saved listing table on the page. 
+ | 8 
+ | The Preview table that shows data that the listing filters. The data always includes the Patient ID and Site and Country details, and also includes other patient patient data set variables. You can then click Save to save the listing. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ For a listing on the Listing page: 
+- You can further filter and sort data by applying column filters to the preview table and saved listings table.  
+- You can reposition data set variables for a selected data set by dragging and dropping column headers. 
+- As you scroll horizontally through a listing, the Patient ID, Site, and Country columns remain visible as the first three columns of the table. 
+ For listings on the Data Viewer page: 
+- You can access saved listings by clicking Listings, and then selecting a listing on the left side panel. You can edit a saved listing by selecting the listing on the left side panel and then clicking Edit Listing . You can also create listings by clicking the New Listings button. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

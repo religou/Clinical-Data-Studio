@@ -1,0 +1,48 @@
+# Data Surveillance: Clean Patient Tracker Metrics and Table Improvements
+
+## Data Surveillance: Clean Patient Tracker Metrics and Table Improvements
+## What Is New?
+ Clean Patient Tracker includes the following improvements:
+- The high-level outstanding data cleaning metrics at the top of the Clean Patient Tracker page show in a larger format. 
+- The Patient in Progress card shows the percentage of enrolled patients that are reviewed and currently have no outstanding data clean tasks. 
+- The Sites to Review card shows the percentage of sites in the study that are reviewed and currently have no outstanding data clean tasks. 
+- The Outstanding Tasks cards shows the percentage of all data cleaning tasks across the entire study that are  in progress or unreviewed . 
+- You can sort the Patients table by:
+- Patient ID 
+- Site 
+- Country 
+- In Progress Patients 
+- Enrolled Data 
+- Missing Pages 
+- You can sort the In Progress Patients By Site - Detailed View > Sites table by:
+- Site 
+- Country 
+- In Progress Patients 
+- Missing Pages 
+- Open Queries 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+- The high-level outstanding data cleaning metrics at the top of the Clean Patient Tracker page are easier to read. 
+- Showing the percentage of patients in progress, percentage of sites to review, and percentage of outstanding tasks:
+- Informs you of the volume of data cleaning work across the study that is complete and still needs to be completed. 
+- Help you monitor your current data cleaning progress across the study to ensure that tasks are being completed an a healthy, expected pace. 
+- Sorting the Patients table and In Progress Patients By Site - Detailed View > Sites table helps you better find, manage, and analyze the data cleaning metrics you need. 
+## Where Do I See the Change?
+ In RBQM > Clean Patient Tracker:
+- The metrics cards at the top of the Clean Patient Tracker page show in larger text. 
+- The Patients in Progress card now shows % Reviewed . 
+- The Sites to Review card now shows % Reviewed . 
+- The Outstanding Tasks card now shows % Outstanding . 
+- In the Patients table, you can click the Patient ID , Site , Country , In Progress Patients , Enrolled Data , Missing Pages column headers to sort the table by header. 
+- In the In Progress Patients By Site - Detailed View > Sites table, you can click the  Site , Country , In Progress Patients ,  Missing Pages, Open Queries column headers to sort the table by header. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of these enhancements:
+- Track and Clean Patient Data 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

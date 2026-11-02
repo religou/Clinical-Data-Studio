@@ -1,0 +1,15 @@
+# Data Variables - Sort Dates and Numbers in Ascending and Descending Order
+
+## Data Variables - Sort Dates and Numbers in Ascending and Descending Order
+## Description
+ On the Data Variables page, for a selected data set, you can sort dates and numeric variables in a column in the ascending or descending order by clicking the column header. 
+## Affected Roles
+ All. 
+## Advantages
+ The updates to the data set variable table provide a more accessible and comprehensive overview of your data set information and improves readability. 
+## User Impact
+ See Description. 
+## Knowledge Space Updates
+ None. 
+ Special Considerations 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

@@ -1,0 +1,13 @@
+# Distinct Element Types Cannot Have the Same Merge Name
+
+## Distinct Element Types Cannot Have the Same Merge Name
+## Description
+ When working in the Settings page > CSA tab, a validation check prevents you from entering the same merge name for two distinct element types.
+## Affected Roles
+- Patient Profile Designers 
+## Advantages
+ In previous Patient Profiles Cloud releases, you could enter the same merge name for two distinct element types on the Settings page > CSA tab. However, doing so would cause CSA's analytics to fail. The new validation check prevents you from entering the same merge name for two distinct element types. Thus, preventing human error and improving CSA's analytics success rate. For example, a wide table and event table cannot have the same merge name.
+## User Impact
+ See the Description section.
+## Special Considerations
+ You can enter the same merge name for multiple elements of the same element type. For example, three wide table elements can have the same merge name.

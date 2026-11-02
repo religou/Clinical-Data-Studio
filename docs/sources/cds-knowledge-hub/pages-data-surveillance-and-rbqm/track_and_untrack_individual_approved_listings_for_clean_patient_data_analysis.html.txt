@@ -1,0 +1,36 @@
+# Track and Untrack Individual Approved Listings for Clean Patient Data Analysis
+
+## Track and Untrack Individual Approved Listings for Clean Patient Data Analysis
+ You can activate up to 25 listings to track for unreviewed records in 
+ Clean Patient Tracker . Clean Patient Tracker then consumes for each activated listing t
+ he number of unreviewed individual data listing records. 
+ Clean Patient Tracker uses this data to visualize, list, and prioritize:
+- Outstanding study-level data cleaning task metrics. 
+- The sites in your study with the highest in progress patient counts. 
+- The specific data cleaning tasks with the highest count of in progress or unreviewed records. 
+- The most in progress patients in your study. 
+ You can then use Clean Patient Tracker to track unvetted and unreviewed records associated with the data listings , and further drill down directly to clean those listing's records within Data Surveillance. 
+ Tracking data listings in Clean Patient Tracker: 
+- Streamlines your ability to identify unvetted and reviewed records. 
+- Saves the time required to identify, access, and clean records. 
+- Ensures data quality and integrity. 
+ You can also deactivate listings from being tracked in Clean Patient Tracker. For example, if your study has undergone p rotocol amendments making a particular data listing irrelevant. Or perhaps another data listing has taken a higher precedent and warrants tracking over another listing. 
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Data Listings page shows. 
+- On the Data Listings page, click the  Approved Listings tab.
+The Approved Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's object identifier (OID). 
+- Expression – The data listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- Rave Enabled – A check mark indicates that you can submit Rave queries on the patient records captured by the data listing. 
+- Refreshed By – The last user who refreshed the approved listing to show the latest results. 
+- Track – Enables you to activate or inactivate the approved listing for Clean Patient Tracker analysis. 
+- If necessary, filter or sort  the Approved Listings table to help find the listing you need. 
+- On the Data Listings page > Approved Listings table, on the far right side of the table in the Track column, click the deactivated Activation button, , for the corresponding listing you want Clean Patient Tracker to track.
+The Activation button's background color turns blue with the slider on the right side, , indicating that the listing is configured to be tracked in Clean Patient Tracker.
+ Tip : You can activate up to 25 data listings for Clean Patient Tracker analysis. We recommend tracking the data that is most strongly associated with your study's risk assessment.
+- To deactivate listings from being tracked in Clean Patient Tracker, click the activated Activation button, .
+ The Activation button's background color turns white with the slider on the left side, , indicating that the listing is not configured to be tracked in Clean Patient Tracker. 
+ Tip : After activating or deactivating approved listings for Clean Patient Tracker analysis, we recommend that you trigger Clean Patient Tracker to recalculate outstanding records based on the latest study data .

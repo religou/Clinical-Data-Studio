@@ -1,0 +1,23 @@
+# Expansion Updates to Data Sets Panel
+
+## Expansion Updates to Data Sets Panel
+## Description
+ On the Data Viewer and Derived Variable pages, the Data Sets panel includes the following update. 
+- You can use the Open Panel and Close Panel links to open and close the Data Sets panel, respectively. 
+- You can use the Expand All and Collapse All links to view and hide variables in any Data Set. 
+## Affected Roles
+ All. 
+## Advantages
+ Updates to Data Sets panel  ensures that you can quickly see all all your data set variable data with fewer clicks. 
+## User Impact
+- For both Data Viewer and Derived Variable pages: 
+- Clicking Close Panel, hides the left side panel. 
+- Clicking Open Panel, shows the list of data set variables. 
+- For both Data Viewer and Derived Variable pages, in the Data Sets tab: 
+- Clicking Expand All, expands the list of data set variables. 
+- Clicking Collapse All, closes the list of data set variables. 
+## Knowledge Space Updates
+ The following article has been updated in the MEDS Data Viewer Knowledge Space to support this feature: 
+- View and Investigate Your Study's Data Sets 
+## Special Considerations
+ None.

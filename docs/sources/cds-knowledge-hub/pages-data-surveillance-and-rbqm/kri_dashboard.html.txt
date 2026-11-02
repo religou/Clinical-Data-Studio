@@ -1,0 +1,49 @@
+# KRI Dashboard
+
+## KRI Dashboard
+ Key Risk Indicators (KRIs) are standard and protocol specific study metrics that enable you to consistently:  
+- Identify and/or track known or anticipated risks to data quality. 
+- Evaluate country and site performance in a study. 
+- Monitor site compliance with data collection. 
+ KRIs are predefined metrics that you determine at the outset of a study, KRIs are calculated at site and country level with overall study metric.  
+ The KRI Dashboard lists the KRIs that your study monitors and their respective KRI values at each site or country.  
+ RBQM includes the following system KRIs are available on most Medidata Rave studies : 
+- AE Entry Delay 
+- Manual Query Rate 
+- Non-System Query Delay 
+- Number of AEs per Patient-Month 
+- Number of SAEs per Patient-Month 
+- Percent Out of Window Visit 
+- Percent Missing Visit 
+- System Query Rate 
+- System Query Delay 
+- Visit Entry Delay 
+- Modification rate 
+ You can also define and track custom KRIs  to help monitor protocol specific risks, more often than not related to non-compliance with collection of critical data. We recommend you balance t he number of custom KRIs against what is critical, the availability of other analyses (such as over/under-reporting), and the resulting operational burden.
+ For clinical data trending, and reporting over time including site level reporting consider creating companion visualizations. For more information, see  Custom Graphs . 
+ For more information on each KRI, see KRI Descriptions and Calculation Methodologies . 
+ Important : You do not create or manage custom KRIs on the KRI Dashboard. Buyt you can do so using KRI Configuration .  
+ Important : KRIs do not support datetime operations.
+## What Is the KRI Dashboard?
+ The KRI Dashboard shows the KRI values and trends for all selected KRIs and summarizes their impact on the  Site Risk Score (SRI) . 
+## What Is the Purpose of the KRI Dashboard?
+ To ensure quality conduct, studies can implement RBQM by identifying, assessing, monitoring, and mitigating the risks that could affect the quality or safety of a study. 
+ The KRI Dashboard allows you to: 
+- View all KRIs and respective values - system and protocol specific. 
+- Determine which KRI values are outliers  based on statistical or predefined thresholds . 
+- View historical trends in site- and country-level KRI data. 
+- View sites’ performance respective to other sites within each KRI. 
+- Rank sites based on the Site Risk Score (SRI) to allow better site prioritization based on the aggregated score across relevant KRIs weighted based on the risk category 
+ Based on your observations made from the KRI Dashboard, you can: 
+- Automatically set up signal detection that requires further investigation or mitigation. See the Signals page . 
+- Determine the best approach or mitigating actions to take on the issues or risks. 
+- Assess the effect the mitigating actions have made on the issues or risks over time. 
+## Who Uses the KRI Dashboard?
+ Anyone who tracks risk can use the KRI Dashboard. For example: 
+- Remote or site monitors - Can view comprehensive overview of site compliance with data collection, reporting as per protocol and study determined expectations. 
+- Data Managers – Can use a series of system KRIs that provide a good overview of data currency metrics including query rates, query management timeliness, and data reporting delays. 
+- Medical Monitors – Might be interested in viewing safety information, for example, non-serious adverse events (AEs), and serious adverse events (SAEs) reporting patterns. 
+## How Do I Use and Interpret the KRI Dashboard?
+ See  Investigate Data Using the KRI Dashboard . 
+## How Do I Refresh the KRI Dashboard to Show the Latest Data?
+ See Schedule or Trigger When KRI Dashboard Refreshes and Outputs the Latest Study Data Analysis .

@@ -1,0 +1,36 @@
+# Investigate Protocol Deviations Using the Protocol Integrity Report
+
+## Investigate Protocol Deviations Using the Protocol Integrity Report
+ In the Protocol Integrity Report (PIR), you can process protocol deviations (PD) autopopulated from Medidata Rave queries and other sources. 
+## Review Protocol Deviations
+ You can review automatically populated or manually entered protocol deviations (PD). 
+- On the In-Progress tab, click Review for the PD to open the Proposed Deviation page.
+- Update the Details and Comments tabs, and click Submit review , Confirm deviation , or Approve deviation.
+ Tip :  Use Case 
+ You are an Approver, such as the Chief Medical Officer or a biostatistics staff member. You receive an assignment notification to evaluate a PD's scientific integrity. You can resolve the PD in one of two ways:
+- Click Approve to change the status to Approved. 
+- Click  Dismiss and provide a mandatory reason (for example, non-PD or duplicate). 
+## Add Protocol Devitations
+ You can manage automatically populated protocol deviations (PD) from Rave and Data Surveillance Listings, or add deviations directly to the Protocol Integrity Report (PIR) manually or from a clinical trial management system (CTMS). 
+ You can directly create manual PD records by selecting existing study values for Site, Patient, and Visit when entering data.
+- Click Add proposed deviation . 
+- Select  Manual and click Next . 
+- Enter the deviation details and click Add . 
+## Review Potential Deviations
+ You can select queries that qualify as protocol deviations. Submitting these queries moves them to the Proposed Deviations queue. 
+ Note : Closed or Answered Rave queries appear as potential deviations. You can review the answer text to confirm whether a protocol deviation occurred. Dismiss queries that are not protocol deviations to exclude them from the PIR process. Accept confirmed deviations to change their status to Proposed. The query text must start with PD , Protocol Deviation , Potential PD , PDSD , or Potential Protocol Deviation to categorize it as a potential deviation. 
+- Click the right arrow on the Add Proposed Deviation button and select Review potential deviations . 
+- Select one or more queries and click Submit . 
+## Dismiss Deviation
+ You can dismiss approved protocol deviations (PD). Dismissing deviations moves the records to the static Dismissed Deviations panel. 
+- On the Approved tab, click the More icon for the PD and select Dismiss deviation . 
+- Enter the details and click Dismiss deviation . 
+## Add Comment to Deviation
+ You can comment on approved protocol deviations (PD).
+- On the Approved tab, click the More icon for the PD on the Approved Deviations or Dismissed Deviations list.
+- Select Comment and click +Add comment .
+- Enter the details and click the check icon to save the comment. 
+## Review PDAP Changes in PIR
+ Protocol Deviation Assessment Plan (PDAP) updates—for example, following a protocol amendment—save the new version and automatically update associated Protocol Integrity Report (PIR) records.
+ PIR records highlight to indicate an update from the PDAP. You can acknowledge these updates to clear the change flag.
+ Note : PDAP updates do not flag deviations previously assigned the Dismissed status.

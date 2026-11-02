@@ -1,0 +1,17 @@
+# Patient Profile Designs No Longer Marked As Blinded
+
+## Patient Profile Designs No Longer Marked As Blinded
+## Description
+ In Medidata Detect 2023.1.0, you can no longer designate patient profile designs as blinded.
+## Affected Roles
+ All.
+## Advantages
+ Patient Profiles designates new and updated patient profile designs as unblinded. Patient Profile designers and users can review all profile designs in the study.
+## User Impact
+ On the Medidata Detect > Patient Data Surveillance > Patient Profiles > Draft Designs page, the Mark as Blinded option does not exist for any design. 
+## Knowledge Hub Updates
+ The Medidata Detect Knowledge Hub no longer includes the following article: 
+- The Designate Designs as Blinded or Unblinded Designs 
+ Special Considerations 
+ Any saved bookmarks to the Designate Designs as Blinded or Unblinded Designs article now result in a broken link.
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

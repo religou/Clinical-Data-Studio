@@ -1,0 +1,11 @@
+# Manage Listings
+
+## Manage Listings
+ The Listings Manager shows all historical data listings created for your study—whether activated or deactivated.
+ You can use the Listings Manager to perform the following administrative tasks on your study's data listings:
+- View All Study Listings 
+- Activate and Deactivate Listings 
+- Add and Store Listing Configurations as Reusable Templates 
+- Download the Listings Table 
+- View and Export Listing Configurations Audit Reports 
+- Copy Listings

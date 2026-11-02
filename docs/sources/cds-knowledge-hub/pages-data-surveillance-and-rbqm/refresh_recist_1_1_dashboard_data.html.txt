@@ -1,0 +1,10 @@
+# Refresh RECIST 1.1 Dashboard Data
+
+## Refresh RECIST 1.1 Dashboard Data
+ Users with the proper  permissions can manually trigger RECIST 1.1 to render and reflect the study's latest available study data on the RECIST 1.1 dashboard. 
+ Tip : We recommend refreshing RECIST1.1 before data cleaning to ensure the records captured in RECIST 1.1 Dashboard findings are based on the most recent study data. 
+- Access Data Surveillance , and then click Oncology  in the left-hand menu.
+The RECIST 1.1 Dashboard page shows. 
+- On the RECIST 1.1 Dashboard page, click Refresh Data from the top right corner of the page.
+A "Refresh is currently in progress" message appears. The RECIST 1.1 Dashboard shows the most recent data from the study once the refresh is complete. The Current Refresh Date and Time show the latest refresh details.
+ Note : The Current Refresh Date and Time appear next to the Refresh Data button.

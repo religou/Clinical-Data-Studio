@@ -1,0 +1,21 @@
+# Show Me - Transform Variable Mappings with Replicate
+
+## Show Me - Transform Variable Mappings with Replicate
+ Summary 
+ | An overview on using the Replicate transformation instruction while transforming variable mappings. 
+ Duration 
+ | 3 min 28 sec 
+ Product 
+ | Data Connect - Transformations 
+ Release 
+ | May 2026 
+ Video Category 
+ | Transforming Variable Mappings 
+ Related Topics 
+ | 
+- Transform Variable Mappings 
+- Generate SDTM-like Datasets 
+- Generate Derived Datasets 
+- Generate Custom Data Models 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

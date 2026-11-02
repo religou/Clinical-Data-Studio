@@ -1,0 +1,20 @@
+# Get Notified When QTLs Exceed Quality Thresholds
+
+## Get Notified When QTLs Exceed Quality Thresholds
+## What Is New?
+ If a QTL in your study breaches the preidentified data quality threshold or is considered an excursion, then you receive a notification in the Notification Center that at least one QTL has a status of Out of Range or Excursion. 
+## What Is the Impact?
+## Users/Roles
+ QTL Dashboards users that opt in to receive notifications through the Notification Center. 
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ While there is no direct UI impact, the notifications are sent through email, and also made available in the Medidata Notification Center.
+## How Do I Benefit?
+ You can now receive notifications for all Detect Notification-enabled studies in which Detect determines that a QTL has become out of range of the data quality threshold or an excursion.
+## Where Do I See the Change?
+ You see the refresh notifications through email and also in the Medidata Notification Center.
+## Where Do I Learn More?
+ None.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

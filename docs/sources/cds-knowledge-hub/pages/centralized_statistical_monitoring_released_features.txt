@@ -1,0 +1,374 @@
+# Centralized Statistical Monitoring Released Features
+
+## Centralized Statistical Monitoring Released Features
+ Unable to render {include} The included page could not be found.
+ Medidata Detect includes the following capabilities:
+ Overview 
+- 
+ Role-based Permissions Now Determine the Pespectives You Can View and Access 
+- 
+ Filter Perspectives to Display Only the Aspects You Want to View 
+- 
+ Assess Overall Study Performance Using the Overview 
+- 
+ Impact Factor Scores and Prioritizes Most Critical Study Data Quality Issues 
+- 
+ Top Contributors List Now Includes KRIs and Event Incidences 
+ Error Plots 
+- 
+ Determine Study Data Outliers, Risks, and Trends Using Error Plots 
+- 
+ Flag, Track, and Audit Reviewed Error Plot Outlier Data Points 
+- 
+ Error Plot Enhancements 
+- 
+ Text Versus Text Analysis Plot X- and Y-Axes Display Text in Alphanumeric Order 
+- 
+ Performance Improvements in Medidata Detect 2020.3.2 
+- 
+ Error Plots Streamline Navigation to View a Specific Patient's Profile 
+- 
+ Configure the Data Sets and Variables Used for CSM's Error Plot Analysis 
+ Event Incidence Plot 
+- 
+ Event Incidence Plot Improvements 
+- 
+ View Event Incidence at the Site- and Study-level 
+ Key Risk Indicators (KRIs) 
+- 
+ View Historical Trends in Site- and Country-Level KRI Data 
+- 
+ Identify and Track Study Risks Using the Key Risk Indicators Table 
+- 
+ View and Track User-Defined Custom KRIs 
+- 
+ Perform Data Refresh from the KRI Dashboard Page 
+- 
+ Access and Reuse Data Listing, QTL, and KRI Templates Across Multiple Client Divisions 
+- 
+ Help Menu > Help On This Page Links to Directly Relevant User Assistance 
+- 
+ View and Track User-Defined Custom Percentage KRIs 
+- 
+ Updates to Detect User Permissions 
+- 
+ KRI Dashboard: Modification Rate System KRI Highlights Sites with Outlying Data Modification Rates 
+- 
+ Review Reports: Template Group's KRIs Template List Includes Numeric KRI Filter Criteria 
+- 
+ Schedule or Trigger When KRI Dashboard Refreshes with the Latest Study Data Analysis 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+- 
+ New KRI Dashboard Orientation and Site Risk Indicator 
+- 
+ Export and Download Customizable KRI Table Snapshots 
+- 
+ RBQM: Schedule Daily KRI Dashboard and QTL Dashboard Data Refreshes 
+- 
+ RBQM: Subjects Updated To Patients In KRIs and QTLs 
+- 
+ RBQM: Identify Stacked Data Sets While Configuring KRIs, QTLs and Data Mapping Fields 
+- 
+ KRI Dashboard 2023.1.0 Minor Enhancements 
+- 
+ Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience 
+- 
+ Internal and Technical Enhancements in Medidata Detect November 2023 
+- 
+ KRI Enhancements for Detect November 2023 
+- 
+ KRI-related UI Updates and Technical Enhancements 
+- 
+ Display Counts in KRI Dashboard Columns 
+ Quality Tolerance Limits (QTLs) 
+- 
+ Track Study-level Threats Using Quality Tolerance Limits (QTLs) 
+- 
+ Access and Reuse Data Listing, QTL, and KRI Templates Across Multiple Client Divisions 
+- 
+ Help Menu > Help On This Page Links to Directly Relevant User Assistance 
+- 
+ Get Notified When QTLs Exceed Quality Thresholds 
+- 
+ Updates to Detect User Permissions 
+- 
+ Launch Instructional Videos in-App Directly at the Point of Need 
+- 
+ Technical Enhancements in RBQM and Data Surveillance 
+- 
+ Clinical Data Studio 2025.3.0 Minor and Technical Enhancements 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+- 
+ View Current and Historical QTL Value Trends 
+- 
+ Preview and Export Comprehensive QTL Reports 
+- 
+ Schedule or Trigger When QTL Dashboard Refreshes with the Latest Study Data Analysis 
+- 
+ RBQM: Schedule Daily KRI Dashboard and QTL Dashboard Data Refreshes 
+- 
+ RBQM: Subjects Updated To Patients In KRIs and QTLs 
+- 
+ QTL Enhancements for Detect November 2023 
+- 
+ QTL Patient and Time Trend Graphs More Clearly Deliniate Excursions 
+- 
+ Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience 
+- 
+ Internal and Technical Enhancements in Medidata Detect November 2023 
+ History 
+- 
+ Schedule When Detect Refreshes with the Latest Study Data 
+- 
+ Refresh Medidata Detect to Analyze and Render the Latest Study Data 
+ Issue Management 
+- 
+ View and Create Issues Through Medidata Detect 
+ Patient Profiles 
+- 
+ View a Patient's Profile from Detect to Analyze Patient-Level Details 
+ UI Updates and Technical Enhancements 
+- 
+ Enhancements in RBQM Configuration Manager 2021.1.0 
+- 
+ Preperatotry Work for Future Features or Enhancements 
+- 
+ Product Rebranded as Medidata Detect 
+- 
+ Validated Code for Future Features 
+- 
+ Access User Assistance Directly Pertaining to a Specfic Medidata Detect Page 
+- 
+ Information That You Can View and Access Limited to Data from Your Site and Country Assignments 
+- 
+ Internal and Technical Enhancements in Medidata Detect 2021.2.0 
+- 
+ Preperatory Work for Future Features and Enhancements 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.3.5 Resolved Issues List 
+- 
+ Clinical Data Studio 2026.3.4 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2022.3.5 Resolved Issues List 
+- 
+ Clinical Data Studio 2026.3.3 Resolved Issues List 
+- 
+ Clinical Data Studio 2026.3.2 Resolved Issues List 
+- 
+ Clinical Data Studio 2026.3.1 Resolved Issues List 
+- 
+ Medidata Detect 2020.2.0 Resolved Issues List 
+- 
+ Detect Configuration Manager 2022.2.1 Resolved Issues List 
+- 
+ Detect Configuration Manager 2022.2.0 Resolved Issues List 
+- 
+ RBQM Configuration Manager 2020.2.1 Resolved Issues List 
+- 
+ Medidata Detect January 2023 Resolved Issues List 
+- 
+ Medidata Detect 2021.2.1 Resolved Issues List 
+- 
+ Centralized Statistical Monitoring -formerly Medidata Detect 2022.1.0 Resolved Issues List 
+- 
+ Medidata Detect 2021.1.0 Resolved Issues List 
+- 
+ Medidata Detect 2021.1.2 Resolved Issues List 
+- 
+ Medidata Detect 2021.2.0 Resolved Issues List 
+- 
+ Medidata Detect 2020.4.0 Resolved Issues List 
+- 
+ MEDS Data Viewer 2020.3.0 Resolved Issues List 
+- 
+ Data Reviewer 2022.3.1 Resolved Issues List 
+- 
+ Data Reviewer 2022.1.0 Resolved Issues List 
+- 
+ MEDS Data Viewer 2020.3.1 Resolved Issues List 
+- 
+ MEDS Data Viewer 2020.3.2 Resolved Issues List 
+- 
+ MEDS Data Viewer 2020.3.3 Resolved Issues List 
+- 
+ Data Reviewer 2022.1.1. Resolved Issues List 
+- 
+ Data Reviewer 2022.2.0 Resolved Issues List 
+- 
+ Data Reviewer 2022.2.1 Resolved Issues List 
+- 
+ Medidata Detect 2020.3.1 Resolved Issues List 
+- 
+ Medidata Detect 2020.2.1 Resolved Issues List 
+- 
+ Risk Management 2021.3.0 Resolved Issues List 
+- 
+ Risk Management 2022.1.0 Resolved Issues List 
+- 
+ Risk Management 2022.3.1 Resolved Issues List 
+- 
+ MEDS Data Viewer 2021.1.0 Resolved Issues List 
+- 
+ MEDS Data Viewer 2020.3.6 Resolved Issues List 
+- 
+ MEDS Data Viewer 2021.2.3 Resolved Issues List 
+- 
+ MEDS Data Viewer 2021.2.0 Resolved Issues List 
+- 
+ MEDS Data Viewer 2021.2.1 Resolved Issues List 
+- 
+ MEDS Data Viewer 2020.3.4 Resolved Issues List 
+- 
+ MEDS Data Viewer 2020.3.5 Resolved Issues List 
+- 
+ Centralized Statistical Monitoring 2022.2.0 Resolved Issues List 
+- 
+ Medidata Detect 2020.3.2 Resolved Issues List 
+- 
+ Risk Management 2021.1.0 Resolved Issues List 
+- 
+ Risk Management 2021.3.1 Resolved Issues List 
+- 
+ Risk Management 2022.3.0 Resolved Issues List 
+- 
+ Risk Management 2022.2.0 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2022.3.2 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2020.1.1 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2020.1.0 Resolved Issues List 
+- 
+ Patient Profiles Cloud 2019.1.0 Resolved Issues 
+- 
+ Patient Profiles Cloud 2018.3.0 Resolved Issues 
+- 
+ Medidata Patient Profiles 2018.2.0 Resolved Issues 
+- 
+ Medidata Patient Profiles 2018.1.1 Resolved Issues 
+- 
+ Medidata Detect 2020.3.0 Resolved Issues List 
+- 
+ Medidata Detect May 2023 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2022.3.1 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2022.2.1 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2022.1.0 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2021.1.0 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2021.3.1 Resolved Issues List 1 
+- 
+ Medidata Patient Profiles 2022.3.0 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2022.2.2 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2021.3.0 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2021.1.3 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2020.2.0 Resolved Issues 
+- 
+ Medidata Patient Profiles 2020.1.2 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2020.2.3 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2021.1.2 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2021.1.1 Resolved Issues List 
+- 
+ Medidata Detect May 2023 Urgent Software Update Resolved Issues List 
+- 
+ Medidata Detect March 2023 Resolved Issues List 
+- 
+ Medidata Detect 2022.3.1 Resolved Issues List 
+- 
+ Medidata Detect November 2022 Resolved Issues List 
+- 
+ Clinical Data Studio 2026.3.0 Resolved Issues List 
+- 
+ Medidata Detect July 2023 Resolved Issues List 
+- 
+ Data Reviewer 2023.2.1 Urgent Software Update Resolved Issues List 
+- 
+ KRI Dashboard 2023.2.1 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2023.2.1 Resolved Issues List 
+- 
+ Patient Profiles 2017.1.0 Resolved Issues 
+- 
+ Medidata Patient Profiles 2018.1.0 Resolved Issues 
+- 
+ Risk Management 2023.1.1 Resolved Issues List 
+- 
+ Risk Management 2023.1.2 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2021.2.0 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2020.2.2 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2020.2.1 Resolved Issues List 
+- 
+ Data Reviewer 2024.1.1 Resolved Issues List 
+- 
+ Medidata Detect April 2024 Resolved Issues List 
+- 
+ MEDS Data Viewer 2020.1.0 Resolved Issues List 
+- 
+ MEDS Data Viewer 2020.2.0 Resolved Issues List 
+- 
+ MEDS Data Viewer 2021.1.1 Resolved Issues List 
+- 
+ Rave CSA 2020.1.0 Resolved Issues 
+- 
+ RBQM Configuration Manager 2020.1.0 Resolved Issues List 
+- 
+ RBQM Configuration Manager 2020.2.0 Resolved Issues List 
+- 
+ Medidata Data Reviewer 2023.1.1 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2023.1.6 Resolved Issues List 
+- 
+ Medidata Detect November 2023 Resolved Issues List 
+- 
+ Medidata Detect August 2023 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2023.1.4 Resolved Issues List 
+- 
+ Medidata Detect Landing Page 2023.2.1 Resolved Issues List 
+- 
+ Medidata Patient Profiles 2023.1.2 Resolved Issues List 
+- 
+ Risk Management 2023.3.1 Resolved Issues List 
+ Deprecated Functionailty 
+- 
+ Integrate Your Designs With CSA Patient Profiles 
+- 
+ Configure Display Conditions for Table Rows Patient Profiles 
+- 
+ Add Flags to Designs Patient Profiles 
+- 
+ Manage Date Settings Patient Profiles 
+- 
+ Updates to Date Format Display and Behavior in Patient Profiles 
+- 
+ Detect Provides Clearer Data Refresh Messaging 
+- 
+ Configure Highlight Conditions for Elements Patient Profiles 
+- 
+ Configure Display Conditions for Elements Patient Profiles 
+- 
+ Add Transposed Tables to Designs Patient Profiles 
+- 
+ Studies Page Features Improved Technical Capabilities 
+- 
+ Customize the Missing Data Label for Transposed Tables 
+- 
+ The Design Options Page Displays First By Default When Creating New Designs 
+- 
+ Distinct Element Types Cannot Have the Same Merge Name

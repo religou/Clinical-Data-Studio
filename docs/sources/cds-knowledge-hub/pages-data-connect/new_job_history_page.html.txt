@@ -1,0 +1,13 @@
+# New Job History Page
+
+## New Job History Page
+## Description
+ The Job Run History page displays the results of all completed runs of a selected export job.  For any individual job execution, you can view job status details including the start and end times of the job. You can also drill down to view additional details of any job, as well as download the extracted data to your local device. 
+## Affected Roles
+ All roles with the Manage Extracts permission. 
+## Advantages
+ The Job Run History page shows the history of export job runs, including the job status, execution dates, and job run times.  You can review your export jobs in a central area. You can also download your extracted data 
+## User Impact
+ You can now view the run history of the export job and download the extracted data. For Run Once jobs, there is only a single entry. For recurring jobs you can review the job execution history.  For any individual job, you can review the job configuration. 
+## Special Considerations
+ None.

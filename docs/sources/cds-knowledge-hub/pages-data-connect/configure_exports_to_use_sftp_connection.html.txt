@@ -1,0 +1,13 @@
+# Configure Exports to Use SFTP Connection
+
+## Configure Exports to Use SFTP Connection
+ Once the SFTP connection is on the connections list, you can use the connection when configuring exports.
+## Configure Exports
+ While creating an export, on the Name Outputs step: 
+- Enable the Export Connection  toggle. 
+- Select Deliver to SFTP Connection . 
+- Select a connection from the menu. 
+- Optional . In the Path field, enter an extension to the connection’s path.  
+ When the system delivers files, the files appear in the path extension as shown in the Full Path preview. 
+- Enter the remaining export details, and click Create Export .   
+ Tip : For greater detail on the Name Outputs step, see  Name Outputs .

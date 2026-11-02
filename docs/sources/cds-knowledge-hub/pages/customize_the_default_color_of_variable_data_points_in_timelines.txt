@@ -1,0 +1,19 @@
+# Customize the Default Color of Variable Data Points in Timelines
+
+## Customize the Default Color of Variable Data Points in Timelines
+## Description
+ In previous releases, you could configure the color in which you wanted specific variable data points to display in timelines. However, you could not customize a default color for variable data points. Now you can configure a default color for non-customized variable data points in timelines.
+ You can also preview the default color for each variable data point in the timeline by selecting a timeline on the Design page > Elements tab.
+## Affected Roles
+- Patient Profiles Designers 
+## Advantages
+ Configuring non-customized variable data points to display in a default color of your choosing better enables you to view and scan data in your timelines.
+ Previewing the default color for each variable data point in the timeline helps you better understand how to read timelines when viewing patients' profiles.
+## User Impact
+ When working with wide tables on the Design page > Elements tab, the Table Options tab > Timeline Options section now includes the Point Color selector.
+ You must select the Event Table check box to enable the Point Color selector. If you click the color thumbnail to the right of the Point Color label, a color palette displays, and you can select your custom point color.
+ Then when you navigate to the Design page > Profiles tab to view patient profiles, any variable data points that are not customized to display in a particular color display in the selected default point color.
+ Furthermore, when you navigate to a timeline on the Design page > Elements tab, each variable contains a Display column. The Display column shows you the default point color in which that variable's data points display in the timeline.
+## Special Considerations
+- The Point Color option only applies to wide tables. 
+- You cannot change a variable's default point color from the Display column when viewing a timeline on the Design page > Elements tab.

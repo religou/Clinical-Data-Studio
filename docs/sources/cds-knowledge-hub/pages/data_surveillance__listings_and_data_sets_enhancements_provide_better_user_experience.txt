@@ -1,0 +1,29 @@
+# Data Surveillance: Listings And Data Sets Enhancements Provide Better User Experience
+
+## Data Surveillance: Listings And Data Sets Enhancements Provide Better User Experience
+## What Is New?
+ The Data Surveillance > Data Sets page is now renamed to Data sets. The Data sets include the following updates:
+- In the data set table, the Patient ID, Site, and Country columns remain locked while scrolling horizontally. You can also sort the data set table by these three columns. By default, the data sets appear sorted by Patient ID in the ascending order. 
+- Downloaded listings include comments related to the listing. 
+ The Data Surveillance > Data Listings page is now renamed to Listings. The Listings page includes the following updates:
+- When downloading listings, a page loading icon indicates that the download is in progress. 
+- When building listings, enriched values do not appear in the date picker list in the expression builder. 
+- The Mark Reviewed button appears only if you have the Manage Data Reviewer building block assigned to your role. 
+- For a Rave query associated with a listing, you can type up to 1084 characters in the query text field. 
+## What Is the Impact?
+## Users/Roles
+ Study Managers and Data Managers. 
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ You can locate data of interest in listings and data sets, resulting in quicker reviews and data reconciliation.
+## Where Do I See the Change?
+ See What Is New?
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Listings 
+- Data Sets 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

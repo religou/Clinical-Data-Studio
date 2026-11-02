@@ -1,0 +1,24 @@
+# Preview Audit Data Sets
+
+## Preview Audit Data Sets
+ You can preview audit data sets by viewing up to 100 patient data records captured by the query asked in the chat interface. The Data Preview section shows a preview of audit data retrieved from your study that matches the query. Previewing an audit data set enables you to evaluate whether the data set generates in the expected format with normal looking audit results. 
+ If the preview aligns with expectation, you can publish the audit data set for team-wide use in your study. You can also download the data set , and share with stakeholders.
+ Note : You can download audit data sets without publishing when you preview the data. Data preview within Audit Trail Review is current as of 8:00 pm (EST) the previous day based on the 9:00 am (EST) Medidata Rave data refresh cycle.  For more information, see  Clinical Data Studio Data Pipeline . 
+- If necessary, create an audit data set . 
+- Optional. Open a saved chat . 
+- Click Rerun . 
+- In the Data Preview section, click  , double-sided arrows icon, above the records.
+An expanded view appears, listing the first 100 records in the data set. The Data Preview table includes the following records:
+ Table Column Descriptions 
+- PatientID – The ID of the patient whose data matched the criteria specified in the query. 
+- Site – The site that the patient belongs to. 
+- Country – The country in which the site resides. 
+- Folder – Folder in Rave that stores the data. 
+- Form – Rave Data set that holds the patient data. 
+- Field – Data set variable in Rave that holds the patient data. 
+- Log – The log line where data is stored. 
+- Audit Action – Audit action performed on the record. 
+- Audit User – Name of the user who carried out the action. 
+- Audit Datetimestamp (GMT) – The date and time the audit action took place based on the standard UTC time zone. 
+- Audit Site's Local Time – The date and time the audit action took place based on your local time zone. 
+- If necessary, filter or sort the Data Preview table to find the audit record you need. (SA to update the hyperlinks)

@@ -1,0 +1,26 @@
+# Extract User Login History Data
+
+## Extract User Login History Data
+## Description
+ You can now extract data on users’ login history. By creating an Audit Master Data export job at the client division level, you can extract the user login history data pertaining to all the users within the client division.
+## Affected Roles
+ All roles with permission to extract Audit Master Data. For details, see MEDS Extractor Roles and Permissions.
+## Advantages
+ You can extract and download users' login history from every study of your client division without needing to select each study. 
+## User Impact
+ You can only set export jobs to extract from client division level during the job creation process. You cannot edit existing export jobs to extract from the client division level. This feature does not affect existing export jobs.
+ During the New Export Job workflow's Select Source step, after selecting the Client Division Level option, you can select Audit Master Data.
+ When exporting Client Division Level Audit Master Data, the extracted files contains the User Login History data object. 
+## Knowledge Space Updates
+ The MEDS Extractor Knowledge Space provides new and updated content to support this feature/enhancement: 
+- New
+- Client Division Level Audit Master Data - Quick Start 
+- Client Division Level Audit Master Data Objects 
+- Updated
+- Create Export Job at the Client Division Level 
+- Select Data for Client Division Level Jobs 
+- Schedule Client Division Level Job 
+- Set Export Type for Client Division Level Job 
+- Review Export Job Configuration 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

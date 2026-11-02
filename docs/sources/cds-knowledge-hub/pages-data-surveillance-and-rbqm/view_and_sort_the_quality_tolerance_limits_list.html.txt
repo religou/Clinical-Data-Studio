@@ -1,0 +1,21 @@
+# View and Sort the Quality Tolerance Limits List
+
+## View and Sort the Quality Tolerance Limits List
+ The Quality Tolerance Limits list provides an easy-to-read, holistic view of all custom quality tolerance limits (QTLs) available in your current study environment . You can sort the Quality Tolerance Limits list to help find the QTLs you want to view or take action on. 
+## View the Quality Tolerance Limits List
+ You can use the Quality Tolerance Limits list to view details about specific QTLs or find QTLs you want to take action on. 
+- Access RBQM , and then click Configuration > QTLs in the left-hand menu.
+ The Quality Tolerance Limits page, which contains the Quality Tolerance Limits list, appears.
+ Field Descriptions 
+- Parameter  – A study variable that is assessed at the study level. 
+- Status  – Indicates whether the QTL is currently active or inactive. Active QTLs are set so that their data gets filtered, calculated, and shown in the QTL Dashboard, Risk Assessment, and Risk Inventory. Inactive QTLs do not get calculated or appear in the QTL Dashboard, Risk Assessment, and Risk Inventory. 
+- Date Added – The QTL's original creation date. 
+- Date Updated – The most recent date in which the QTL update occurred. Date Updated is blank for unmodified QTL configurations. 
+- Updated By – The user who most recently updated the QTL. Updated By is blank for unmodified QTL configurations. 
+- Activate  –  indicates that the QTL is active. Active QTLs are set so that their data gets filtered, calculated, and shown in the QTL Dashboard, Risk Assessment, and Risk Inventory. indicates that the QTL is inactive. Inactive QTLs do not get calculated or appear in the QTL Dashboard, Risk Assessment, and Risk Inventory.
+ Tip : In the Parameter column, if you hover your cursor on a QTL name, a popup shows t he number of patients that reached or exceeded the QTL threshold out of the total number of patients that the QTL has calculated against. For example, 265 out of 2899 patients. 
+## Sort the Quality Tolerance Limits List
+ To help find the QTLs you need, you can sort the Quality Tolerance Limits list by Parameter, Analysis Type, Sides, or Status in ascending or descending alphanumeric order.
+- Access RBQM , and then click Configuration > QTLs in the left-hand menu.
+The Quality Tolerance Limit page shows. 
+- In the Quality Tolerance Limits list, click a column header to sort the column in alphanumeric order. Click again to reverse the order.

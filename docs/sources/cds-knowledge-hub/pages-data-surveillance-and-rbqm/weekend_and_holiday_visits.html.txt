@@ -1,0 +1,39 @@
+# Weekend and Holiday Visits
+
+## Weekend and Holiday Visits
+ You can view at the study or country level:
+- How many patient visits occurred on each day of the week throughout the study. 
+- The complete list of patient visits recorded on each day of the week. 
+ Identifying scheduled patient visits that occurred on weekends or holidays can help you investigate whether falsified or erroneous patient records exist in your study data. 
+## What Are Weekend and Holiday Visits?
+ Scheduled patient visits that occur on a weekend or holiday. 
+## Why Should I Care About Visits That Occur on Weekends or Holidays?
+ Scheduled patient visits typically do not occur on weekends or holidays. Visits recorded as taking place on weekends or holidays can indicate potential fraud, misconduct, or simple data entry errors by sites. 
+## What Are the Patient Visit Listings?
+ Statistical Monitoring's Weekend and Holiday Visits capability contains patient visit listings for each day of the week. The listings break down at the study or selected country level how many scheduled patient visits occurred on each day of the week throughout the study. You can further view the complete list of scheduled patient visits recorded on a specific weekday and investigate visit details such as: 
+- Site   – The site where the visit occurred. 
+- Country   – The country where the visit occurred 
+- Patient   – The patient ID of the patient who attended the visit. 
+- Visit Name   – The type of visit; for example, an unscheduled visit. 
+- Visit Date   – The date that the visit occurred. 
+## What Is the Purpose of the Patient Visit Listings?
+ Viewing the scheduled patient visits that occurred on weekends or holidays can help you investigate whether falsified or erroneous patient records exist in your study data. Based on your findings, you can monitor sites of interest to determine any mitigating actions. 
+## What Are the Benefits of the Patient Visit Listings?
+ Identifying erroneous or potentially falsified patient visit data in a study data puts you and your life sciences team in an optimal position to: 
+- Monitor sites of interest to:
+- Prevent financial loss. 
+- Ensure data integrity.  
+- Improve the chance of study success. 
+- Avoid delayed time to market. 
+- Prevent extreme adverse events(AEs) in study patients. 
+- Prevent failed clinical trials. 
+## Who Reviews the Patient Visit Listings?
+ Anyone assigned with ensuring study data integrity. For example, central monitors or site monitors.
+## How Do I Review the Patient Visit Listings to Identify Non-Business Day Visits?
+ See  Investigate Site Visits On Non-Business Days .
+## How Do I Refresh Weekend and Holiday Visits to Output the Latest Study Data Analysis?
+ See  Schedule or Trigger When Statistical Monitoring Refreshes and Outputs the Latest Study Data Analysis .
+## How Do I Export Patient Visit Listings by Weekday?
+ See Export Patient Visit Listings by Weekday .
+## How Do I Log and Track Issues?
+ You can manually raise signals for Weekend and Holiday Visits, and raise issues for the signals. See log issues that require further investigation or mitigation on the   Signals page .

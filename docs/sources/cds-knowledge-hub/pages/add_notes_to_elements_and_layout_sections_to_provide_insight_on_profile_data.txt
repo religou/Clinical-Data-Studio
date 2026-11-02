@@ -1,0 +1,18 @@
+# Add Notes to Elements and Layout Sections to Provide Insight on Profile Data
+
+## Add Notes to Elements and Layout Sections to Provide Insight on Profile Data
+## Description
+ Patient profile designers can add a single note to an element or layout section.
+## Affected Roles
+ All.
+## Advantages
+ Adding a note to display at the end of an element or layout section gives patient profile reviewers added insight into the profile's study data. Notes are especially useful with regards to the Highlight Condition functionality for explaining the conditions that result in data displaying in a particular color. For example:
+ “Red Text is Lab Value Above Normal Limits and Blue Text is Lab Value Below Normal Limits” or “Yellow Highlight = Serious AE; Light Orange Highlight = Severe AE; Pink Highlight = Both”
+## User Impact
+ Tip : Click to enlarge images below.
+ On the Elements tab, a Note link displays at the top of all elements with exception to flag elements. Click the Note link to add note text .
+ On the Layout tab, a Note link displays at the top of all sections with exception to the Header Section. Click the Note link to add note text.
+ On the Profiles tab, any notes you add in the Elements tab or Layout tab display at the bottom of the corresponding element or layout section in the patient profile. Notes display in the patient profile with a yellow background and italicized font.
+## Special Considerations
+ You cannot add notes to flag elements on the Elements tab.
+ You cannot add notes to the Header Section on the Layout tab.

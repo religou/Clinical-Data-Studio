@@ -1,0 +1,153 @@
+# Clinical Data Studio's Data Pipeline
+
+## Clinical Data Studio's Data Pipeline
+ For Clinical Data Studio to properly ingest, analyze, and visualize your study data, study teams must first: 
+- For sites in use in any study, ensure a country is added to their Cloud Administration address. 
+- Create study forms in Rave Study Builder . 
+- Tag the following fields in Rave Tagging :
+- Enrolled Date or Randomization Date
+ Important : You must only select one variable for the Enrolled Date and one variable for the Randomization Date. Otherwise, Clinical Data Studio cannot appropriately process study data, which will affect certain features abilities to analyze and visualize data.
+ Notes:
+- For Medidata Rave studies, you must tag the Enrolled Date or Randomization field in Rave Tagging. However, f or studies that consist of  third-party study data that is fully ingested and incorporated into Clinical Data Studio outside of Rave by way of the Data Connect >  Imports  capability, y ou must map the Enrolled Date or Randomization field using Clinical Data Studio's Data Mapping capability . 
+- Patient milestone data mappings configured in Clinical Data Studio override patient milestone data mappings configured in Rave. 
+- If you configure multiple patient milestone data mappings in Rave, but do not configure patient milestone data mappings in Clinical Data Studio, then Clinical Data Studio will fail to refresh data. 
+- Clinical Data Studio does not support Rave Publish-in-Place. To ensure that your Rave data works correctly in Clinical Data Studio, you must create new eCRF versions after updating data types or formats instead of performing a Publish-in-place. For more information, see Publish In Place . 
+- AE Start Date 
+- AE Serious (AESER)
+ Note : The AE Start Date and the AE Serious (AESER) fields must be configured from the same form.
+- Define the Target, Start Window and End Window for study visits in Rave Architect to enable RBQM to calculate the following system KRIs:  Percent Missing Visit and Percent Out of Window Visit. 
+- Ensure the study environment has a Set Time Zero edit check that coincides with the Day Zero in the Rave folder structure. 
+- Ensure that at least one form in the visit structure (typically the visit date form) has a date field marked as the Observation Date of Folder. This helps drive the expected dates in the study.
+ Tip : To learn more updating the visit structure, see  Configure Fields (see "Field in Step 5). See Manage Field Properties   for a description about the Observation Date of Folder. 
+- Ensure that a Medidata representative enables Rave Coder to show AE/CM terms within Statistical Monitoring for the study. 
+ Sites then enter study data:
+- Directly in Rave, or 
+- Through third-party data vendors; for example, protocol deviations, lab data, or any data not uploaded through Rave. You can then import that external data using Data Connect's Imports capability  or through Ingestor .
+ Note : New studies will import external, third-party data using Imports. However, legacy studies that have previously ingested data through Ingestor can continue to import data through Ingestor.
+ Important : Clinical Data Studio does not support study data containing multiple patients with the same Patient ID. This is true even if the Patient IDs come from different sites. If Clinical Data Studio does consume data with duplicate Patient IDs, then you may experience inconsistent results in CDS's data analyses and outputs.
+ Medidata's platform data workflow enriches and transforms all tagged study data for use and analysis in Clinical Data Studio. 
+ Note : Study teams should exclude unblinded data in the initial study enablement request.
+## Data Refresh Frequency
+ In Data Surveillance and RBQM, s tudy data automatically refreshes four times daily at approximately 9:00am (EST), 3:00pm (EST), 9:00pm (EST) and 3:00am (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, 5:00 am (EST) the same day, 11:00 am (EST) the same day, 5:00 pm (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Rave, and activated datasets from Data Connect are available in 6 to 12 hours within Data Surveillance and RBQM.  
+ Note : Queries submitted from Listings and AI Reconciliation to Veeva EDC takes approximately 3 hours to reflect on Clinical Data Studio. 
+ The following table outlines how data refreshes and appears in various Clinical Data Studio capabilities. 
+ If study data does not appear as the schedule below, contact your Medidata representative. 
+ Capability 
+ Rave data presented within the user interface after the 9:00 AM Refresh (EST) 
+ Rave data presented within the user interface after the 3:00 PM Refresh (EST) 
+ Rave data presented within the user interface after the 9:00 PM Refresh (EST) 
+ Rave data presented within the user interface after the 3:00 AM Refresh (EST) 
+ | Data Sets 
+ | Current as of 11:00 pm (EST) the previous day. 
+ | Current as of 5:00 am (EST) the same day. 
+ | Current as of 11:00 am (EST) the same day. 
+ | Current as of 5:00 pm (EST) the previous day. 
+ | Visualizations 
+ | KRI Configuration (values that appear on tooltips on hover), including percentage KRIs used as Flags in Patient Profiles 
+ | QTL Configuration (values that appear on tooltips on hover) 
+ | Risk Assessment > Critical Data 
+ | Activated Datasets from Data Connect that appear in Data Surveillance > Data Sets.
+ | Current as of 4:00 am (EST) the same day. 
+ | Current as of 10:00 am (EST) the same day. 
+ | Current as of 4:00 pm (EST) the same day.
+ | Current as of 10:00 pm (EST) the previous day. 
+ | Note : Ingested Veeva Data synchronizes at the ingestion point every 12 hours. This means the updated data may be available later than 12 hours. 
+ |   KRI Dashboard 
+ | Current as of 11:00 pm (EST) two days ago. See example below. 
+ | NA 
+ |   NA 
+ | NA 
+ |  QTL Dashboard 
+ | Statistical Monitoring 
+ | EDC Open Queries Report /Queries Dataset 
+ | Current as of 3:00 am (EST) the same day.
+ | Current as of 9:00 am (EST) the same day. 
+ | Current as of 3:00 pm (EST) the same day.
+ | Current as of 9:00 pm (EST) the same day. 
+ | Audit Trail Review 
+ | 
+- Once published, audit datasets appear for use in Data Sets, Listings, and KRIs within 15 to 30 minutes. Updated data appears in published audit datasets based on a weekly refresh cycle at 9:00 am (EST), on Monday. 
+- Data preview within ATR is current as of 8:00 pm (EST) the previous day. 
+ | NA 
+ | NA 
+ | NA 
+ | Status for Submitted Queries in Listings and AI Reconciliation 
+ | 
+- The updated query status appears for records in Listings and AI Reconciliation 3 to 4 hours after the queries are submitted (in Rave). 
+- Queries submitted from Listings and AI Reconciliation to Rave and to Veeva EDC (single query only) appear in near real time in the EDC. 
+- Queries submitted from Listings and AI Reconciliation to Veeva EDC takes approximately 3 hours to reflect on Clinical Data Studio. 
+ | Signals 
+Data is extracted from the underlying configured application daily at 6:00 am (EST), capturing all information available at that time. To make sure you receive the most recent Signal records, refresh both the configuration and the underlying application before 6:00 am (EST). Any signal configuration updates or application refreshes completed after 6:00 am (EST) are not available on Signals refresh until the following day.
+ | NA 
+ | NA 
+ | NA 
+ | NA 
+## How Data Refresh Affects Data Flow - An Example
+ In addition, you can:
+- Refresh data listings to produce results based on the latest study data . 
+- Refresh AI Data Reconciliation to produce reports based on the latest study data. 
+- Refresh published patient profile designs to show and reflect data based on the latest study data 
+- Refresh the RECIST 1.1 Dashboard to visualize and report on the latest study data . 
+- Trigger Clean Patient Tracker to recalculate outstanding records based on the latest study data . 
+ Note : You can refresh data in AI Reconciliation and RECIST 1.1 up to two times a day, based on Rave refresh schedules.
+ In RBQM after the data refresh, you can: 
+- View published audit data sets in the Data Surveillance > Data Sets capability, or 
+- Use p ublished audit data sets to create data listings and build custom KRIs. 
+ In addition, the KRI Dashboard, QTL Dashboard, and Statistical Monitoring capabilities enable you to refresh the modules to render analyses based on RBQM's most recently ingested study data. You can schedule data refreshes to occur and on a preset frequency or manually trigger data refreshes ad-hoc. See: 
+- Schedule or trigger KRI Dashboard to refresh and output the latest study data analysis . 
+- Schedule or trigger QTL Dashboard to refresh and output the latest study data analysis . 
+- Schedule or trigger Statistical Monitoring to refresh and output the latest study data analysis . 
+ Important: Data Quality Preparedness
+ Prior to performing a study migration, confirm that any changes made will or will not affect any Clinical Data Studio configurations. To learn more, see   Review Pre-Migration Plans . If you experience issues when migrating studies or ingesting datasets,   we recommend that you confirm that the datasets have not been affected in Clinical Data Studio. You can review and update any   activated datasets ,   and, if necessary, reconfigure any datasets   imported from external sources . 
+## Date Time Variable Formats Supported
+ Date time variables you create can be used in various capabilities within Data Surveillance, RBQM, and Data Connect. Date variables include
+ several date format variations that contain or omit the time. Key date parts include: year, month, day; and for time: hour, minute, seconds, and milliseconds. Data Surveillance, RBQM, and Data Connect support the following datetime formats: 
+ | MMM- dd- yyyy 
+ | dd/mm/yyyy HH:nn:ss 
+ | yyyy-MM-dd HH:mm:ss 
+ | yyyy- mm- dd- HH:nn:ss 
+ | yyyy- mm- dd- HH+:nn:ss 
+ | dd-MM-yyyy HH:mm:ss 
+ | yyyy mm dd 
+ | yyyy- mm- dd- HH:nn:ss 
+ | yyyy-MM-ddTHH:mm:ss.SSS 
+ | yyyy- mm- dd- 
+ | mm- dd- yyyy HH:nn:ss 
+ | yyyy-MM-ddTHH:mm 
+ | yyyy/mm/dd 
+ | MMMddyyyy 
+ | yyyy-MM-ddTHH:mm:ss 
+ | dd- mm- yyyy 
+ | MMMddyyyy HH:mm 
+ | yyyyMMdd HH:mm:ss 
+ | dd/mm/yyyy 
+ | dd-MMM-yyyy HH:mm 
+ | yyyy-MM-dd HH:mm 
+ | dd.mm .yyyy 
+ | yyyy-MM-ddTHH:mm:ss 
+ | yyyy-dd-MM 
+ | yyyy- dd- mm- 
+ | yyyy-MM-dd 
+ | yyyy-MM-dd HH:mm:ss.SSS 
+ | yyyy/dd/mm 
+ | yyyyMMdd 
+ | MM-dd-yyyy HH:mm:ss 
+ | dd-/mm-/yyyy HH:nn 
+ | dd-MM-yyyy 
+ | MMM-dd-yyyy HH:mm:ss 
+ | yyyy- mm- dd- HH:nn:ss 
+ | dd-MMM-yyyy 
+ | yyyyMMM 
+ | yyyy/mm/dd HH:nn:ss 
+ | ddMMMyyyy 
+ | 
+ | dd- mm- yyyy HH:nn:ss 
+ | dd/MM/yyyy HH:mm 
+## Interpolated Variables Behavior in Data Surveillance and RBQM
+ In Data Surveillance and RBQM, variables with the suffix_TXT, _INT, _DTC indicate enriched fields from Data Connect.
+ Note : Variables in Data Surveillance and RBQM are labelled "fields" in Data Connect. For consistency, this section will use "fields" giong forward.
+ Source fields refer to the original source of a data point, while enriched fields add extra information or context to the source data. Clinical Data Studio shows enriched fields to provide more detail about the about source fields, or to add derived information that is not directly present in the original source. If the source dataset fields include unknown values, additional interpolated (enriched) fields with the suffixes _INT, _TXT, etc are added to the source dataset . For example, if the source date is missing the day, the enriched _INT field (integer) interpolates the 1st day of the month, and the _DTC field (datetime) drops the unknown value. The values in the enriched fields differ when dates have unknown (UN or  UNK ) values. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms. For example, AESer and AESer_TXT. 
+- Patient Profiles – If you use _TXT values, you see end user strings rather dictionary coded values, that is, No/Yes rather than 0/1 in your patient profile design. If you use a dataset with datetime operations, then you should use the date field and its enrichments, for example: _INT,  DT , _DTC—from the source Rave dataset to ensure data accuracy in the patient profiles. 
+- Listings and Data Sets – Interpolated fields such as _INT and _DTC appear as-is in Data Connect. But these fields do not appear for selection in the Datasets pane in Listings as they show as the Rave source field, and are consumed implicitly within the date field. 
+- Interpolated fields in derived datasets and derived fields – For Rave-enabled listings containing derived datasets built in Data Connect , you can submit queries only for derived datasets where source fields originate from a Rave dataset. That is, the Submit Query button remains disabled if  the listings contains derived datasets where the source fields does not come from a Rave dataset.  
+ Similarly, for Rave-enabled listings containing derived fields, you can submit queries for derived fields  where source fields originate from a Rave dataset.  Otherwise, we recommend you select the form field from the Rave form in the Add Column option, and edit the listing.

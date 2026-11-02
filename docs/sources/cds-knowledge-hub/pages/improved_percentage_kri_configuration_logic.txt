@@ -1,0 +1,19 @@
+# Improved Percentage KRI Configuration Logic
+
+## Improved Percentage KRI Configuration Logic
+## Description
+ Detect Configuration Manager 2022.1.0 introduces improved logic to configure complex expressions to compare KRIs for patients within a form, between forms and across multiple folders and forms. 
+ Previously, a percentage  KRI  used a single expression, the AND operator and parenthesis to configure queries that looked for data in the same Rave folder and study data form. This method of calculation had limitations. You could not build complex sets of expressions and you could only configure KRIs that analyzed patients who matched at least one configured query.  
+## Affected Roles
+ Detect Configuration Manager Administrators.
+## Advantages
+ With the improved configuration logic, you can configure complex expressions to differentiate patients within a form, between forms and across multiple folders and forms.  
+## User Impact
+ You can build an expression using a single condition and the AND operator and parenthesis to configure percentage KRIs. On the Medidata Detect Landing Page > Key Risk Indicators (KRIs) module > KRI Configuration > Key Risk Indicators page: 
+- The Preview section shows the complex expression 
+- The complex expression passes on to analytics for further processing. 
+ Knowledge Space Updates 
+ None. 
+ Special Considerations 
+ You must allow one business day after activating custom KRIs to refresh the analytics and show the custom KRI data in the Key Risk Indicators dashboard. 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

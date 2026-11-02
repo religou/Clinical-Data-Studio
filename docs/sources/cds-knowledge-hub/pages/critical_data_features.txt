@@ -1,0 +1,6 @@
+# Critical Data Features
+
+## Critical Data Features
+ Risk Management includes the following critical data-related capabilities:
+- Critical Data Identification 
+- Risk Management: Associate Critical Data Elements with Specific Data Points

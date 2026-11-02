@@ -1,0 +1,31 @@
+# CTMS Data Import and Study Master Data Import Now Available
+
+## CTMS Data Import and Study Master Data Import Now Available
+## Description
+ You can now import files of the following data types into MEDS Ingestor:
+- Clinical Trial Management System (CTMS) Data, starting with Country Enrollment Planning data. 
+- Study Level Master Data, starting with  Client Division Organization with Addresses data. 
+ MEDS Ingestor includes the new data types as options in the New Import Job screen. Each data type has its own file requirements and standards.
+ Feature/enhancement stories referenced in this article:
+ MCC-748192, MCC-749422, MCC-765978, MCC-749424, MCC-749421, MCC-751376, MCC-779542 
+## Affected Roles
+ All roles with access to MEDS Ingestor.
+## Advantages
+ The added data types expands your ability to import your data into MEDS® and use the data in other applications, such as MEDS Extractor or MEDS Reporter.
+## User Impact
+ In Cloud Administration, you can add one or more of the following building blocks:
+- Manage CTMS Data – You can create CTMS import jobs. You can also edit the Job Configuration page for CTMS jobs. 
+- Import CTMS Data – You can import data using CTMS import jobs. 
+- View CTMS Data – You can see CTMS import jobs on the jobs list screen. You can also review the Job Files screen and Import Summary panel for CTMS jobs. 
+- Manage Study Master Data – You can create Study Master Data import jobs. You can also edit the Job Configuration page for Study Master Data jobs. 
+- Import Study Master Data – You can import data using CTMS import jobs. 
+- View Study Master Data – You can see Study Master Data import jobs on the jobs list screen. You can also review the Job Files screen and Import Summary panel for Study Master Data jobs. 
+ In MEDS Ingestor, you can:
+- Select one of the CTMS Data and the Study Master Data options in the Data Type menu of the New Import Job screen. 
+- See CTMS import jobs and Study Master Data import jobs on the Import Jobs screen. 
+- Review job files for CTMS and Study Master Data import jobs. 
+- Update job configuration details for CTMS and Study Master Data on each job's Job Configuration screen. 
+ Imported Study Master Data corresponds to various Cloud Administration fields, and you can confirm the data changes in Cloud Administration.
+ Imported CTMS data corresponds to the appropriate fields in the respective CTMS application, such as Study Management. You can confirm the data changes in the respective CTMS application.
+## Special Considerations
+ None.

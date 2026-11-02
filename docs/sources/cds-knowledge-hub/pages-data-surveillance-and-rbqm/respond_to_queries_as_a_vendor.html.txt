@@ -1,0 +1,52 @@
+# Respond To Queries As A Vendor
+
+## Respond To Queries As A Vendor
+ As a vendor user part of an approved vendor group configured in Data Surveillance, you can respond to assigned vendor queries. You must have access in Cloud Administration, and also have the Submit Vendor Feedback building block added to your role.
+Responding to vendor queries enables you to provide comments, clarifications, or missing data for external data ingested into a study. Data managers can then use this data to reconcile study data, and ensure study data accuracy.
+ For every vendor query assigned, you receive an email notification.
+## Respond to Assigned Queries
+- Open the email notification you receive from Medidata.
+- Click View in Notification Center .
+- 
+ Note : If you are not logged into  iMedidata.com . you must first log on. 
+- On the Notifications page, look for the Vendor Query Feedback Notification . 
+A brief message indicates that you are assigned queries for a specific study. 
+- Click View Queries .
+The Queries page shows a list of all the queries assigned to you.
+- 
+ Summarization Cards 
+- – All vendor queries assigned to you. 
+- – All vendor queries pending response. 
+- – Vendor queries you responded to.  
+- 
+ Column Descriptions 
+- Patient ID – Patient ID for the record. 
+- Vendor Query – Type of vendor query you submitted. One of the following:
+- Missing 
+- Mismatch 
+- Extra Vendor Record 
+- Query Description – The system provided query description or the description you enter corresponding to the vendor query type. 
+- EDC Data – Data set variables from Medidata Rave. 
+- Vendor Data – Data set variables from the vendor. 
+- Status – Select the vendor query status. 
+- Resolved 
+- Resolved (No changes) 
+- In progress 
+- Not available 
+- – Comments you enter against the query. 
+- Optional. Click  , the Comment icon, to comment on individual queries in the query set. A slide-out panel appears, where you can type and save comments.  
+- For each query, select a status. 
+- Repeat steps 8 and 9 for all queries in the set. 
+- Click Close query set at the top of the page.
+A Close query set window appears. 
+- Optional. Add completion comments in the Close query set window. 
+- Click Close query set. 
+The query set is marked as completed.  
+ Note : The vendor query status on the Vendor Queries page updates instantly as vendors change the status for individual queries. As a data manager, you can then proceed to take further action on the vendor query based on the response.
+## Accessing the Notification Center
+ The Notification Center enables the Medidata platform to securely send notifications to users to inform about events of importance. These events can be information, warnings, or critical messages. 
+ The Notification Center sends alerts in two forms:
+- In-app notifications accessible by way of the user interface. 
+- Email notifications with a deep-link sent to the user's email inbox. 
+ All users have access to notifications. However, these are not available until an event is triggered for users by the app. Users can then access the information from the email or by clicking a link in the user profile dropdown.
+ For more information, see About Notification Center .

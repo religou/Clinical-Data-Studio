@@ -1,0 +1,1270 @@
+# Prepare Study Design Metadata Files
+
+## Prepare Study Design Metadata Files
+ Study Design Metadata (SDM) files follow a fixed format. The files you prepare must exactly match the specified file structures and column names. The required files include: 
+- Visits – Lists all planned visits for the study. 
+- Data Sets – Lists all data sets you intend to load for a study, regardless of data provider. 
+- Schedule of Assessments (SOA) – Specifies which visits you intend to have data set data in the study. 
+- Fields – Specifies the data fields to include in each data set. 
+## General File Creation Rules
+- Metadata files must be cumulative. The uploaded file overwrites the corresponding metadata for the corresponding study. 
+- Metadata files can only contain content for a single study. 
+- Files must be in the comma-separated value (CSV), UTF-8 format. 
+- Header records must be the first record in each metadata file. 
+- Header records must be uppercase. 
+- Field header values must match the values specified under Column Header for each of the below metadata file specifications. 
+- If you use commas used in a field value – for example: Please list all events, issues, and problems – then you must double quotes to escape the additional comma: "Please list all events, issues, and problems". 
+- Do not use double quotes for null fields, such as '' — instead, denote null fields by keeping the field empty. 
+ Important : For each metadata file, fields marked as Required as according to its file specifications must have data. When preparing the content for the SDM file, the field must not be empty. 
+## File Naming Rules
+ SDM file names must not contain spaces. Key text in each file's name enables the Medidata Data Fabric to determine the type of metadata content contained in the file and how to process it. 
+ Tip : In addition the required text, we recommend including the study's name and the date in the file names. These additions can aid you in file management and file versioning when generating and uploading files.
+ SDM File Type
+ Required File Name
+ | Visits
+ | Must contain *visits.csv; for example:
+- visits.csv 
+- my-study_study_design_visits.csv 
+- my-study_sdm_visits.csv 
+- my-study_2022Sep30_sdm_visits.csv 
+ | Data Sets
+ | Must contain *datasets.csv; for example:
+- datasets.csv 
+- myStudy_study_design_datasets.csv 
+- myStudy_sdm_datasets.csv 
+- myStudy_20220930_sdm_datasets.csv 
+ | Schedule of Assessments (SOA)
+ | Must contain *soa.csv; for example:
+- soa.csv 
+- my-study_study_design_soa.csv 
+- my-study_sdm_soa.csv 
+- my-study_Sep_30_2022_sdm_soa.csv 
+ | Fields
+ | Must contain *fields.csv; for example: 
+- fields.csv 
+- myStudy_study_design_fields.csv 
+- my-study_sdm_fields.csv 
+- myStudy_30Sept2022_sdm_fields.csv 
+## Prepare Visits File
+ The Visits SDM file lists all planned visits or visit placeholders for the study. 
+- Prepare the Visits file according to the following file structure:
+ Column Heading
+ Description / Content Expectations
+ Data Type
+ Length
+ Required?
+ | STUDY_NAME
+ | “Study Name” field value in Cloud Administration.
+ | Char
+ | 256
+ | Yes
+ | VISIT_OID 
+ | 
+ The object identifier (OID) for the visit — the visit's name. 
+ Important : OID Requirements 
+- Uppercased alphanumeric text only. 
+- No spaces. 
+- The OID must begin with an alphabetical character. 
+- Underscores can appear in an OID, but not as the first character. 
+ | Char 
+ | 25 
+ | Yes 
+ | VISIT_NAME 
+ | Visit name description 
+ | Char 
+ | 50 
+ | Yes 
+ Example 
+ STUDY_NAME 
+ VISIT_OID 
+ VISIT_NAME 
+ | MY_STUDY 
+ | ALL 
+ | ALL 
+ | MY_STUDY 
+ | AE_LOG 
+ | AE_LOG 
+ | MY_STUDY 
+ | SCREENING 
+ | SCREENING 
+ | MY_STUDY 
+ | VISIT_1 
+ | VISIT 1 
+ | MY_STUDY 
+ | VISIT_2 
+ | VISIT 2 
+ | MY_STUDY 
+ | END_OF_STUDY 
+ | END OF STUDY 
+ Note : You must associate all data you intend to load with a planned visit, such as Screening. If data does not belong to a planned visit and someone can collect that data anytime during a study – such as Adverse Events – create a placeholder visit name such as ALL_VISITS or LOG. If data belongs to planned visit with an unknown visit name, create a placeholder visit name such as UNSCHEDULED.
+## Prepare Datasets File
+ The Data Sets SDM file lists all data sets you intend to load for a study, regardless of data provider. 
+- Prepare the Data Sets file according to the following file structure: 
+ Column Heading
+ Description / Content Expectations
+ Data Type
+ Length
+ Required?
+ | STUDY_NAME
+ | “Study Name” field value from Cloud Administration.
+ | Char
+ | 256
+ | Yes
+ | DATASET_OID
+ | 
+ The OID for the data set — the data set short name. 
+ Important : OID Requirements 
+- Uppercased alphanumeric text only. 
+- No spaces. 
+- The OID must begin with an alphabetical character. 
+- Underscores can appear in an OID, but not as the first character. 
+ | Char
+ | 50
+ | Yes
+ | CONCEPT_OID
+ | 
+ The associated activity concept. Leave null.
+ Note : This field is optional for this use case. You must include the header, but you can leave the individual fields null.
+ | Char
+ | 50
+ | No
+ | DATASET_NAME
+ | Data set description.
+ | Char
+ | 50
+ | Yes
+ Example 
+ STUDY_NAME 
+ DATASET_OID 
+ CONCEPT_OID 
+ DATASET_NAME 
+ | MY_STUDY 
+ | AE 
+ |   
+ | Adverse Events 
+ | MY_STUDY 
+ | DS 
+ |   
+ | Subject Disposition 
+ | MY_STUDY 
+ | QUERIES 
+ |   
+ | CRF Queries 
+ | MY_STUDY 
+ | SV 
+ |   
+ | Subject Visits and SDV 
+## Prepare Schedule of Assessments File
+ The Schedule of Assessments (SOA) SDM file specifies which visits – planned visits or visit placeholders – you intend to have data set data in the study. Data loading fails if data collected in a study visit differs from the planned pairs of data sets and visits.  
+- Prepare the SOA file according to the following file structure: 
+ Column Heading
+ Description / Content Expectations
+ Data Type
+ Length
+ Required?
+ | STUDY_NAME
+ | “Study Name” field value as it appears in Cloud Administration.
+ | Char
+ | 256
+ | Yes
+ | VISIT_OID
+ | The OID of a visit for upload. The specified VISIT_OID must match what appears in the Visits SDM file.
+ | Char
+ | 25
+ | Yes
+ | DATASET_OID
+ | OID of a data set for upload. The DATASET_OID must match what appears in the Data Sets SDM file.
+ | Char
+ | 50
+ | Yes
+ Example 
+ STUDY_NAME 
+ VISIT_OID 
+ DATASET_OID 
+ | MY_STUDY 
+ | ALL 
+ | DS 
+ | MY_STUDY 
+ | AE_LOG 
+ | AE 
+ | MY_STUDY 
+ | SCREENING 
+ | QUERIES 
+ | MY_STUDY 
+ | VISIT_1 
+ | QUERIES 
+ | MY_STUDY 
+ | VISIT_2 
+ | QUERIES 
+ | MY_STUDY 
+ | END_OF_STUDY 
+ | QUERIES 
+ | MY_STUDY 
+ | SCREENING 
+ | SV 
+ | MY_STUDY 
+ | VISIT_1 
+ | SV 
+ | MY_STUDY 
+ | VISIT_2 
+ | SV 
+ | MY_STUDY 
+ | END_OF_STUDY 
+ | SV 
+## Prepare Fields File
+ The fields SDM file specifies the data fields to include in each data set. The content in the fields files also provides key information to the system to process the data. 
+- Prepare the Fields file according to the following file structure:
+ Important : Any data pertaining to the Queries data file must follow a strict order for the sequence of rows:
+- QUERYID 
+- STUDYID 
+- SITEID 
+- SUBJID 
+- VISIT 
+- SVSTDTC 
+- FRM_NAME 
+- FRM_RPT_KEY 
+- FIELD_NAME 
+- QUERY 
+- QUERY_OPEN_METHOD 
+- QUERY_TYPE 
+- QUERY_CREATED_DATETIME 
+- QUERY_ACTION 
+- QUERY_ACTION_TEXT 
+- QUERY_ACTION_DATETIME 
+ Column Heading
+ Description / Content Expectations
+ Data Type
+ Length
+ Required?
+ | STUDY_NAME
+ | “Study Name” field value as it appears in Cloud Administration, for example: MY_STUDY.
+ | Char
+ | 256
+ | Yes
+ | DATASET_OID
+ | OID of a data set for upload. The DATASET_OID must exist in the Data Sets SDM file and Schedule of Assessments SDM file.
+ | Char
+ | 50
+ | Yes
+ | FIELD_ORDER
+ | 
+ The sequential order of the fields in a data set, for example: '1', '2', '3', etc. This sorts the data in the Fields file in ascending order.
+ Note : FIELD_ORDER does not need to match the column position in the data file except in the Queries data set. The Queries data set follows a strict column order. 
+ | Integer
+ | N/A
+ | Yes
+ | FIELD_OID
+ | 
+ The OID for the field — the field's short name. Examples include: 
+- AE_NAME 
+- QUERYID 
+- VISIT_DATE 
+ Important : OID Requirements 
+- Uppercased alphanumeric text only. 
+- No spaces. 
+- The OID must begin with an alphabetical character. 
+- Underscores can appear in an OID, but not as the first character. 
+ Note : If a Field OID has an associated Concept OID, then the Field OID can differ from the Concept OID.
+ | Char
+ | 50
+ | Yes
+ | CONCEPT_OID
+ | 
+ Provides semantic meaning for a Field OID, for example:
+- AE_NAME 
+- SVSTDTC 
+- SCREENING_DATE 
+ Important : You must use a valid Medidata Standard Concept OID when populating the Concept OID. Each data set has required concepts you must include. For successful clinical data upload for Medidata CTMS, you must include concepts required for:
+- Subject Disposition (DS)
+- STUDYID 
+- SITEID 
+- SUBJID 
+- VISIT 
+- SCREENING_DATE 
+- INFORMED_CONSENT_DATE 
+- SCREEN_FAILED_DATE 
+- ENROLLED_DATE 
+- RANDOMIZED_DATE 
+- EARLY_TERMINATED_DATE 
+- COMPLETED_DATE 
+- Adverse Events (AE)
+- STUDYID 
+- SITEID 
+- SUBJID 
+- VISIT 
+- SVSTDTC 
+- AETERM 
+- AESTDTC 
+- AEENDTC 
+- AESER 
+- DATA_ENTRY_START_DATE 
+- SDV_COMPLETE_STATUS 
+- SDV_COMPLETE_DATE 
+- Subject Visits (SV)
+- STUDYID 
+- SITEID 
+- SUBJID 
+- VISIT 
+- SVSTDTC 
+- FRM_NAME 
+- FRM_RPT_KEY 
+- DATA_ENTRY_START_DATE 
+- Source Data Verification (SDV)
+- STUDYID 
+- SITEID 
+- SUBJID 
+- VISIT 
+- SVSTDTC 
+- FRM_NAME 
+- FRM_RPT_KEY 
+- SDV_COMPLETE_STATUS 
+- SDV_COMPLETE_DATE 
+- Queries
+- QUERYID 
+- STUDYID 
+- SITEID 
+- SUBJID 
+- VISIT 
+- SVSTDTC 
+- FRM_NAME 
+- FRM_RPT_KEY 
+- FIELD_NAME 
+- QUERY 
+- QUERY_OPEN_METHOD 
+- QUERY_TYPE 
+- QUERY_CREATED_DATETIME 
+- QUERY_ACTION 
+- QUERY_ACTION_TEXT 
+- QUERY_ACTION_DATETIME 
+ For details for the requirements and expected values pertaining to each of these concepts, see  External EDC Standard Concepts .
+ Note : If a Field OID has an associated Concept OID, then the Field OID can differ from the Concept OID. 
+ For example, a given FIELD_OID and CONCEPT_OID pair can look like the following:
+- FIELD_OID – AE_NAME 
+- CONCEPT_OID – AETERM. 
+ | Char
+ | 50
+ | No
+ | TRANSFORMATION
+ | 
+ Enter "DIRECT" when you plan to use a field for two or more concepts for Subject Disposition dates, otherwise leave empty. 
+ For example, you can use the VISITDT field for both the SVSTDTC and ENROLLED_DATE concepts. 
+ | Char
+ | 10
+ | No
+ | FIELD_LABEL
+ | The data set field's description.
+ | Char
+ | 50
+ | Yes
+ | KEY_VALUE
+ | 
+ Indicates if the field uniquely identifies a row in a data set.
+ If a field set, set the value to 'Y'. Otherwise, set the value to 'N'.
+ Important :
+- Required values are not always considered Key Field values. 
+- If you set the Key Field value to 'Y', then you must also set the Required value to 'Y'. 
+ | Char
+ | 1
+ | Yes
+ | REQUIRED
+ | Indicates the field must have a value, that is, it is not nullable. If a field cannot be null, then set the value to 'Y'. Otherwise, set the value to 'N'.
+ Text must be lowercase.
+ | Char
+ | 1
+ | Yes
+ | DATA_TYPE
+ | The field's data type.
+ Accepted values, as string literals:
+- character 
+- integer 
+- float 
+- date 
+ | Char
+ | 12
+ | Yes
+ | LENGTH
+ | Maximum length of the field. Required if the field is one of:
+- character 
+- integer 
+- float 
+ | Integer
+ | N/A
+ | Conditional
+ | SIG_DIGITS
+ | Number of significant digits. Required if the field is a float.
+ | Integer
+ | N/A
+ | Conditional
+ | DATETIME_FORMAT
+ | 
+ Date format. Required if the field is a date.
+ Allowed Date Formats :
+ Date Formats 
+ Sample 
+ | ddMMMyyyy 
+ | 04FEB2020 
+ | yyyy/MM/dd 
+ | 2004/02/04 
+ | yyyy/MM/dd HH:nn:ss 
+ | 2004/02/04 10:23:30 
+ | yyyyMMdd HH:nn:ss 
+ | 20030204 10:23:50 
+ | yyyyMMdd 
+ | 20030204 
+ | yyyymmdd 
+ | 20030204 
+ | MM/dd/yy 
+ | 02/04/03 
+ | MM/dd/yyyy 
+ | 02/04/2003 
+ | dd/MM/yy 
+ | 04/02/03 
+ | dd/MM/yyyy 
+ | 04/02/2003 
+ | MM/dd/yy HH:nn:ss 
+ | 02/04/03 10:23:30 
+ | dd/MM/yy HH:nn:ss 
+ | 04/02/03 10:23:30 
+ | yy/MM/dd 
+ | 03/02/04, 3/2/4 
+ | yy/MM/dd HH:nn:ss 
+ | 03/02/04 10:23:30 
+ | MM/dd/yyyy HH:nn:ss 
+ | 02/04/2003 10:23:30 
+ | dd/MM/yyyy HH:nn:ss 
+ | 04/02/2003 10:23:30 
+ | ddMMMyy 
+ | 04Feb03 
+ | ddMMyyyy 
+ | 04022003 
+ | MMddyyyy 
+ | 02042003 
+ Important : Dates relating to queries only accept the yyyymmdd date format.
+ | Char
+ | 20
+ | Conditional
+ | SAS_FORMAT
+ | SAS format specifier for the field. For details on SAS formats, see the following SAS Reference .
+ Text is case insensitive.
+ | Char
+ | 25
+ | No
+ | ITEM_GROUP_TYPE
+ | Specifies the data field's item group type. Contains one of the following:
+- If a field is a Study Master Data Concept, then "common". 
+- If a field contains multiple records per subject per visit, then "repeating". 
+- If the field contains one record per subject per visit, then "non_repeating". 
+ Text is case insensitive.
+ | Char
+ | 15
+ | Yes
+ | SDV_REQUIRED
+ | 
+ Reserved for future use. Leave null.
+ Note : This field is not in use. You must include the header, but you can leave the individual fields null.
+ | Char
+ | 3
+ | No
+ Example 
+ STUDY_NAME 
+ DATASET_OID 
+ FIELD_ORDER 
+ FIELD_OID 
+ CONCEPT_OID 
+ TRANSFORMATION 
+ FIELD_LABEL 
+ KEY_VALUE 
+ REQUIRED 
+ DATA_TYPE 
+ LENGTH 
+ SIG_DIGITS 
+ DATETIME_FORMAT 
+ SAS_FORMAT 
+ ITEM_GROUP_TYPE 
+ SDV_REQUIRED 
+ | MY_STUDY 
+ | AE 
+ | 1 
+ | STUDYID 
+ | STUDYID 
+ |   
+ | Study ID 
+ | Y 
+ | Y 
+ | character 
+ | 30 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | AE 
+ | 2 
+ | SITEID 
+ | SITEID 
+ |   
+ | Site ID 
+ | Y 
+ | Y 
+ | character 
+ | 20 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | AE 
+ | 3 
+ | SUBJID 
+ | SUBJID 
+ |   
+ | Subject ID 
+ | Y 
+ | Y 
+ | character 
+ | 20 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | AE 
+ | 4 
+ | VISIT 
+ | VISIT 
+ |   
+ | Visit Name 
+ | Y 
+ | Y 
+ | character 
+ | 50 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | AE 
+ | 5 
+ | VISIT_DATE 
+ | SVSTDTC 
+ |   
+ | Visit Date 
+ | Y 
+ | Y 
+ | date 
+ |   
+ |   
+ | yyyymmdd 
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | AE 
+ | 6 
+ | AETERM 
+ | AETERM 
+ |   
+ | Adverse Event Term 
+ | Y 
+ | Y 
+ | character 
+ | 40 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | AE 
+ | 7 
+ | AESER 
+ | AESER 
+ |   
+ | Adverse Event Severity 
+ | N 
+ | N 
+ | character 
+ | 3 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | AE 
+ | 8 
+ | AESTDTC 
+ | AESTDTC 
+ |   
+ | AE Start Date 
+ | N 
+ | N 
+ | date 
+ |   
+ |   
+ | yyyymmdd 
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | AE 
+ | 9 
+ | AEENDTC 
+ | AEENDTC 
+ |   
+ | AE End Date 
+ | N 
+ | N 
+ | date 
+ |   
+ |   
+ | yyyymmdd 
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | AE 
+ | 10 
+ | DATA_ENTRY_START_DATE 
+ | DATA_ENTRY_START_DATE 
+ |   
+ | Data Entry Start Date of Adverse Event 
+ | N 
+ | N 
+ | date 
+ |   
+ |   
+ | yyyyMMdd HH:nn:ss 
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | AE 
+ | 11 
+ | SDV_COMPLETE_STATUS 
+ | SDV_COMPLETE_STATUS 
+ |   
+ | SDV Completed Status 
+ | N 
+ | N 
+ | character 
+ | 20 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | AE 
+ | 12 
+ | SDV_COMPLETE_DATE 
+ | SDV_COMPLETE_DATE 
+ |   
+ | SDV Complete Date 
+ | N 
+ | N 
+ | date 
+ |   
+ |   
+ | yyyymmdd 
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | DS 
+ | 1 
+ | STUDYID 
+ | STUDYID 
+ |   
+ | Study ID 
+ | Y 
+ | Y 
+ | character 
+ | 30 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | DS 
+ | 2 
+ | SITEID 
+ | SITEID 
+ |   
+ | Site ID 
+ | Y 
+ | Y 
+ | character 
+ | 20 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | DS 
+ | 3 
+ | SUBJID 
+ | SUBJID 
+ |   
+ | Subject ID 
+ | Y 
+ | Y 
+ | character 
+ | 20 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | DS 
+ | 4 
+ | VISIT 
+ | VISIT 
+ |   
+ | Visit Name 
+ | Y 
+ | Y 
+ | character 
+ | 50 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | DS 
+ | 5 
+ | SCREENING_DATE 
+ | SCREENING_DATE 
+ |   
+ | Screening Date 
+ | N 
+ | N 
+ | date 
+ |   
+ |   
+ | yyyymmdd 
+ |   
+ | non_repeating 
+ |   
+ | MY_STUDY 
+ | DS 
+ | 6 
+ | INFORMED_CONSENT_DATE 
+ | INFORMED_CONSENT_DATE 
+ |   
+ | Informed Consent Date 
+ | N 
+ | N 
+ | date 
+ |   
+ |   
+ | yyyymmdd 
+ |   
+ | non_repeating 
+ |   
+ | MY_STUDY 
+ | DS 
+ | 7 
+ | SCREEN_FAILED_DATE 
+ | SCREEN_FAILED_DATE 
+ |   
+ | Screen Failed Date 
+ | N 
+ | N 
+ | date 
+ |   
+ |   
+ | yyyymmdd 
+ |   
+ | non_repeating 
+ |   
+ | MY_STUDY 
+ | DS 
+ | 8 
+ | ENROLLED_DATE 
+ | ENROLLED_DATE 
+ |   
+ | Enrolled Date 
+ | N 
+ | N 
+ | date 
+ |   
+ |   
+ | yyyymmdd 
+ |   
+ | non_repeating 
+ |   
+ | MY_STUDY 
+ | DS 
+ | 9 
+ | RANDOMIZED_DATE 
+ | RANDOMIZED_DATE 
+ |   
+ | Randomization Date 
+ | N 
+ | N 
+ | date 
+ |   
+ |   
+ | yyyymmdd 
+ |   
+ | non_repeating 
+ |   
+ | MY_STUDY 
+ | DS 
+ | 10 
+ | EARLY_TERMINATED_DATE 
+ | EARLY_TERMINATED_DATE 
+ |   
+ | Early Terminated Date 
+ | N 
+ | N 
+ | date 
+ |   
+ |   
+ | yyyymmdd 
+ |   
+ | non_repeating 
+ |   
+ | MY_STUDY 
+ | DS 
+ | 11 
+ | COMPLETED_DATE 
+ | COMPLETED_DATE 
+ |   
+ | Follow-Up Completed Date 
+ | N 
+ | N 
+ | date 
+ |   
+ |   
+ | yyyymmdd 
+ |   
+ | non_repeating 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 1 
+ | QUERYID 
+ | QUERYID 
+ |   
+ | Query Identifier 
+ | Y 
+ | Y 
+ | integer 
+ | 8 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 2 
+ | STUDYID 
+ | STUDYID 
+ |   
+ | Study ID 
+ | Y 
+ | Y 
+ | character 
+ | 30 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 3 
+ | SITEID 
+ | SITEID 
+ |   
+ | Site ID 
+ | Y 
+ | Y 
+ | character 
+ | 20 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 4 
+ | SUBJID 
+ | SUBJID 
+ |   
+ | Subject ID 
+ | Y 
+ | Y 
+ | character 
+ | 20 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 5 
+ | VISIT 
+ | VISIT 
+ |   
+ | Visit Name 
+ | Y 
+ | Y 
+ | character 
+ | 50 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 6 
+ | SVSTDTC 
+ | SVSTDTC 
+ |   
+ | Visit Date 
+ | Y 
+ | Y 
+ | date 
+ |   
+ |   
+ | yyyyMMdd 
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 7 
+ | FRM_NAME 
+ | FRM_NAME 
+ |   
+ | Form Name 
+ | Y 
+ | Y 
+ | character 
+ | 50 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 8 
+ | FRM_RPT_KEY 
+ | FRM_RPT_KEY 
+ |   
+ | Form Repeat Key 
+ | Y 
+ | Y 
+ | integer 
+ | 8 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 9 
+ | FIELD_NAME 
+ | FIELD_NAME 
+ |   
+ | Field Name 
+ | Y 
+ | Y 
+ | character 
+ | 50 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 10 
+ | QUERY 
+ | QUERY 
+ |   
+ | Query Text 
+ | Y 
+ | Y 
+ | character 
+ | 200 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 11 
+ | QUERY_OPEN_METHOD 
+ | QUERY_OPEN_METHOD 
+ |   
+ | Query Open Method 
+ | N 
+ | Y 
+ | character 
+ | 50 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 12 
+ | QUERY_TYPE 
+ | QUERY_TYPE 
+ |   
+ | Query Type 
+ | N 
+ | Y 
+ | character 
+ | 50 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 13 
+ | QUERY_CREATED_DATETIME 
+ | QUERY_CREATED_DATETIME 
+ |   
+ | Query Creation Timestamp 
+ | Y 
+ | Y 
+ | date 
+ |   
+ |   
+ | yyyyMMdd 
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 14 
+ | QUERY_ACTION 
+ | QUERY_ACTION 
+ |   
+ | Query Action 
+ | N 
+ | N 
+ | character 
+ | 50 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 15 
+ | QUERY_ACTION_TEXT 
+ | QUERY_ACTION_TEXT 
+ |   
+ | Query Action Text 
+ | N 
+ | N 
+ | character 
+ | 50 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | QUERIES 
+ | 16 
+ | QUERY_ACTION_DATETIME 
+ | QUERY_ACTION_DATETIME 
+ |   
+ | Query Action Timestamp 
+ | N 
+ | N 
+ | date 
+ |   
+ |   
+ | yyyyMMdd 
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | SV 
+ | 1 
+ | STUDYID 
+ | STUDYID 
+ |   
+ | Study ID 
+ | Y 
+ | Y 
+ | character 
+ | 30 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | SV 
+ | 2 
+ | SITEID 
+ | SITEID 
+ |   
+ | Site ID 
+ | Y 
+ | Y 
+ | character 
+ | 20 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | SV 
+ | 3 
+ | SUBJID 
+ | SUBJID 
+ |   
+ | Subject ID 
+ | Y 
+ | Y 
+ | character 
+ | 20 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | SV 
+ | 4 
+ | VISIT 
+ | VISIT 
+ |   
+ | Visit Name 
+ | Y 
+ | Y 
+ | character 
+ | 50 
+ |   
+ |   
+ |   
+ | common 
+ |   
+ | MY_STUDY 
+ | SV 
+ | 5 
+ | VISIT_DATE 
+ | SVSTDTC 
+ |   
+ | Visit Date 
+ | Y 
+ | Y 
+ | date 
+ |   
+ |   
+ | yyyymmdd 
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | SV 
+ | 6 
+ | FRM_NAME 
+ | FRM_NAME 
+ |   
+ | Form Name 
+ | Y 
+ | Y 
+ | character 
+ | 50 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | SV 
+ | 7 
+ | FRM_RPT_KEY 
+ | FRM_RPT_KEY 
+ |   
+ | Form Repeat Key 
+ | Y 
+ | Y 
+ | integer 
+ | 8 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | SV 
+ | 8 
+ | DATA_ENTRY_START_DATE 
+ | DATA_ENTRY_START_DATE 
+ |   
+ | Date Entry Start Date 
+ | Y 
+ | Y 
+ | date 
+ |   
+ |   
+ | yyyyMMdd HH:nn:ss 
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | SV 
+ | 9 
+ | SDV_COMPLETE_DATE 
+ | SDV_COMPLETE_DATE 
+ |   
+ | SDV Complete Date 
+ | N 
+ | N 
+ | date 
+ |   
+ |   
+ | yyyymmdd 
+ |   
+ | repeating 
+ |   
+ | MY_STUDY 
+ | SV 
+ | 10 
+ | SDV_COMPLETE_STATUS 
+ | SDV_COMPLETE_STATUS 
+ |   
+ | SDV Completed Status 
+ | N 
+ | N 
+ | character 
+ | 20 
+ |   
+ |   
+ |   
+ | repeating 
+ |   
+## Next Step
+ Prepare Clinical Data Files

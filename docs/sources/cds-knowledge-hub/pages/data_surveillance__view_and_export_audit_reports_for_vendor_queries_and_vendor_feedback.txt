@@ -1,0 +1,70 @@
+# Vendor Queries: View Audit Reports for Vendor Queries and Vendor Feedback
+
+## Vendor Queries: View Audit Reports for Vendor Queries and Vendor Feedback
+ Important :
+- To learn more about changes done to these release notes, see the revision history . 
+- To learn more about features and enhancements covered in previous releases, see the releases history . 
+- To learn more about all features in this release, see the released features index .
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.3.0 
+ Change Type 
+ | Enhancement 
+ Functionality or Module 
+ | Vendor Queries and Vendor Feedback
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter :
+ The Vendor Queries page now integrates with and provides access to  Audit Viewer . Audit Viewer provide Vendor Audit Reports that log all changes on Vendor Queries and Vendor Feedback. 
+ Benefit to Users 
+ | 
+ Audit Reports allow you to maintain a consistent audit trail to trace actions and updates on Vendor Queries and Vendor Feedback. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+- Study managers and data managers. 
+- All users with Manage Data Reviewer and View Data Reviewer building blocks. 
+- All users with Submit Vendor Feedback building block. 
+ Impact to Workflow Processes 
+ You can access the Vendor Audit Report directly from the Vendor Queries page to view all Vendor Queries and Vendor Feedback updates. 
+ Impact to Applications 
+ No impact to other applications. 
+ Impact on Interface 
+ The upper-right corner of the Data Surveillance > Vendor Queries page shows the Clock icon for users with proper permissions. 
+ Tip: Click the image to enlarge.
+ Number 
+ Description 
+ | 1 
+ | 
+ The   Audit Reports   - Click the Clock icon at upper-right corner of the page to open a new browser tab or window to show Vendor Audit Report . 
+ The Vendor Audit Report tracks all updates made in Vendor Queries and Vendor Feedback, and appears as follows: 
+- Sub ID column - In the Vendor Audit Report , a Sub ID column next to the Patient ID column helps identify Vendor Feedback updates. 
+ Note:  If you navigate to any vendor query set from Data Surveillance > Vendor Queries page, a Sub ID next to the Status column helps identify the vendor query sets submitted to vendor for review. To learn more, see  Access and View Vendor Queries 
+ You can click Show Filters   above the upper-right corner of the table to filter the reports by Start Date and End Date. 
+ You can also click   Export , and then  Excel ,  CSV , or  PDF  to view the report offline or sort data by column headings. 
+ Impact to Existing Data or Settings 
+ No impact on existing data or settings; no configuration or permission updates required. 
+ User Impact Assessment 
+ | 
+ Medium
+ Learning Resource Updates 
+ | 
+ The following lists any new or added resources that support this change:
+- New Article: View and Export Audit Reports for Vendor Queries and Vendor Feedback 
+- Updated Article:  Access and View Vendor Queries 
+ Special Considerations 
+ | 
+ Only users with following permissions can view the Clock icon:
+- Users with Manage Data Reviewer and View Data Reviewer building blocks. 
+- Users with Submit Vendor Feedback building block. 
+ To view Medidata testing documentation for this release, see the   Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

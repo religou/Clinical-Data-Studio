@@ -1,0 +1,29 @@
+# PDS: Updated AI Data Reconciliation Report Download Files
+
+## PDS: Updated AI Data Reconciliation Report Download Files
+## What Is New?
+ Downloaded AI Data Reconciliation report CSV file includes the following enhancements:
+- CSV file names now match the name of the report on the AI Data Reconciliation page. 
+- A new Data Set column shows the data set that a record derives from. 
+- The Condition Without Treatments report includes the A ction Taken CM column and the Action Taken CP column. 
+## What Is the Impact?
+## Users/Roles
+ Data managers
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Matching the report name in the CSV file with the report name on the AI Data Reconciliation page helps you confirm that you are looking at the correct file. 
+ The Data Set column enables you to directly within the CSV file determine which data set the record derives from. 
+ The Conditions Without Treatments report CSV file's A ction Taken CM and Action Taken CP columns indicate if the site provided a medication or performed a procedure. 
+ Where Do I See the Change? 
+ In Patient Data Surveillance > AI Data Reconciliation: When viewing any AI Data Reconciliation report, if you click the Download button, the report downloads to your browser as a CSV file. Then you can see the CSV file enhance in:
+- Row 2, which shows the updated report name. 
+- Column D, which shows the Data Set column. 
+- In the Conditions Without Treatments report, where column K and column L show the Action Taken CM and Action Taken CP columns, respectively. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Download AI Data Reconciliation Reports 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

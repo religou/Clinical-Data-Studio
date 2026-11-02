@@ -1,0 +1,89 @@
+# Client Division Level Audit Master Data Objects
+
+## Client Division Level Audit Master Data Objects
+ You can export data objects containing audit master data from across studies within a client division. The data objects detail user  login history data for the selected client division. 
+ Important : Your Rave URL configuration can affect your ability to access exported data. For details, please contact your Medidata representative or Medidata Support.
+ User Login History 
+ User Login History
+ The User Login History data file contains an audit trail of all study assignments in Cloud Administration for a user. 
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | User UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The reported  user's unique identifier.
+ | First Name 
+ | Text 
+ | 50 
+ | 
+ The reported user's first name.
+ | Last Name 
+ | Text 
+ | 50 
+ | 
+ The reported user's last name.
+ | Email Address 
+ | Alphanumeric 
+ | 256 
+ | 
+ The reported user's email address.
+ | Session UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The unique identifier of the session pertaining to the user's  login action.  
+ | Action 
+ | Text 
+ | 16 
+ | The reported user's action:
+- Login 
+- Logout 
+ | Updated By Login 
+ | Alphanumeric 
+ | 256 
+ | The username of the person that last updated the user. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that last updated the user. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the person that last updated the user. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the user. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | 
+ The date and time when the user information was updated.
+ The system stores the date and time in UTC, and shows both in your local device's timezone.

@@ -1,0 +1,21 @@
+# Updated SFTP Support
+
+## Updated SFTP Support
+## Description
+ The Secure File Transfer Protocol (SFTP) location management workflow includes the following updates:
+- You can test SFTP connections in MEDS Extractor. 
+- You can specify if an SFTP location is available for data export, data import, or both. Data export is only available with MEDS Extractor, and data import is only available with MEDS Ingestor. 
+## Affected Roles
+ All roles with the Extractor Admin building block.
+## Advantages
+ With the updated SFTP support, you have more robust control over the functionality of your SFTP locations. With the added testing functionality, you can ensure a location is functional before adding it to an export job.
+## User Impact
+ From the Output Locations screen, you can: 
+- Test SFTP locations by identifying a location and clicking the Options icon >  Test . 
+- Review the Data Direction column to identify locations' data transfer direction. 
+- When adding or updating an SFTP location, you can select the location's Data Transfer Direction: 
+- Export Data  –  Readies the location to receive data. 
+- Import Data   – Readies the location to send  data. 
+ This enhancement does not change any settings for currently functional SFTP locations. 
+## Special Considerations
+ None.

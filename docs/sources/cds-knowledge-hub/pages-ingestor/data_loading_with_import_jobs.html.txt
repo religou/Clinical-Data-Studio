@@ -1,0 +1,72 @@
+# Data Loading with Import Jobs
+
+## Data Loading with Import Jobs
+ With Ingestor, you create import jobs to enable the loading of external data into the Medidata platform.
+## Data Types Compatible with Ingestor
+ You can upload the following types of data by uploading the appropriate files. For applicable file requirements for each data type, see 
+ Import File Standards . For downloadable starter and reference files, see 
+ Starter Import Files .
+ Note :  Usage Notes for Compressed Files 
+ All import job types support compressed files. Compressed files must contain compatible constituent files. For external EDC jobs, if the compressed file has multiple file types, then to ensure successful loading, the file types must have the same column headers.
+ Data Type 
+ Supported File Types 
+ | 
+ Study Design Metadata (SDM) data, including:
+- Schedule of Assessments (SOA) 
+- Visits 
+- Data Sets 
+- Fields 
+ | 
+- Comma-separated Value (CSV) 
+- Compressed files (.zip, .rar., .7z) 
+ | 
+ External EDC clinical sources
+ | 
+- CSV 
+- SAS files(.xpt)
+- Compressed files (.zip, .rar., .7z) 
+ Note :
+- Ingestor only supports the SAS V5 Transport file format and below. 
+- XPT files cannot contain more than eight characters in their column headers. 
+- When loading clinical data, ensure that you configure the Fields SDM file correctly. 
+ | External EDC patients data 
+ | 
+- Comma-separated Value (CSV) 
+- Compressed files (.zip, .rar., .7z) 
+ | 
+ Clinical Trial Management System (CTMS) data, including:
+- Country Enrollment Planning 
+- Service Providers 
+- Tasks 
+- Issues 
+- Actions 
+- Enrollment Metrics 
+ | 
+- Comma-separated Value (CSV) 
+- Compressed files (.zip, .rar., .7z) 
+ | 
+ Study Master Data, including:
+- Client Division Organization with Addresses 
+- Client Division People with Addresses 
+- Study Environments Sites with Addresses 
+- Team Membership Details 
+- Team Member Contact Details 
+ | 
+- Comma-separated Value (CSV) 
+- Compressed files (.zip, .rar., .7z) 
+## Identify Method to Load Clinical Data
+ Identify a method to load clinical data onto the Medidata platform. You can use one of the following methods:
+- Method 1 – Create an import job and load data with Ingestor. 
+- Method 2 – Create an import job with Ingestor, and load data with SFTP. 
+- Method 3 – Create an import job and load data with API resources.  
+## Method 1 - Create an Import Job and Load Data with Ingestor
+ You can use Ingestor to create import jobs that accept specific data types and then use the Ingestor interface to load the data from your system.
+- Create import jobs for each data type you want to load onto the Medidata platform. 
+- Upload prepared files using the Ingestor interface.   
+## Method 2 - Create an Import Job with Ingestor and Load Data with SFTP
+ You can use Ingestor to create import jobs that accept clinical data from an SFTP folder. Ingestor then loads data from the selected folder at regular intervals.
+- Configure SFTP locations for Ingestor use. 
+- Create import jobs for each data type, and configure them to use SFTP locations. 
+## Method 3 - Create an Import Job and Load Data with API Resources
+ You can use Medidata API resources to programmatically create import jobs and load data with those jobs. For details, see  Upload External Data onto the Medidata Platform in the Medidata Platform API publication on the Knowledge Hub..
+ Important : You cannot create SDM import jobs with the Medidata API. Instead, you must use the Ingestor to create the import job. Once created, you can use the Medidata API to upload files with the job.

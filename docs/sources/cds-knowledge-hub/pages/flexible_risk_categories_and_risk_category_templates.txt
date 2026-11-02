@@ -1,0 +1,33 @@
+# Flexible Risk Categories and Risk Category Templates
+
+## Flexible Risk Categories and Risk Category Templates
+## Description
+ Risk Management is an online collaboration application used to   identify, evaluate, and control or mitigate the risks of a study. Risk Management 2022.1.0 introduces greater flexibility when configuring risk categories and risk category templates because you can now reuse categories. 
+## Affected Roles
+ All.
+## Advantages
+ This release of Risk Management 2022.1.0 allows you to reuse risk categories and risk category templates, both for individual studies and study groups.
+## User Impact
+- You can reuse predefined risk categories when configuring any standard or custom risk categorization templates for a study group or when creating a study-specific risk category. These categories are added to the existing list of risk categories:
+- Data Integrity and Quality 
+- GCP and Regulatory Compliance 
+- Human Subject Protection 
+- Protocol Compliance 
+- Staff and Facilities 
+- Study File 
+- Vendor 
+- Informed Consent
+ Note: The Risk Category Objective field is blank for each of these new categories. Ensure you add an objective when adding a risk category to your template or study. 
+- You can define unique risk category objectives while reusing a risk category, both for a study group or for an individual study. For example, one category, named Technology may hold this objective: "Determine the technical competency required for a successful study." If you add another category and reuse the name, "Technology," you can enter different objective text.  Authorized users can associate as many questions as they want for reused risk categories. 
+## Knowledge Space Updates
+ The Risk Management Knowledge Space provides new and updated content to support this feature/enhancement: 
+ Note : Throughout the Risk Management Knowledge Space articles, the term, "client division scheme (CDS)" has been replaced with "study group." 
+- Risk Management Roles and Capabilities (Updated) 
+- Risk Management Template Administration (Updated) 
+- Manage Risk Categorization Templates (Updated) 
+- Manage Risks from the Risk Inventory (Updated) 
+- Navigate Risk Management as a Study User (Updated) 
+- Add and Manage Risk Categories (Updated) 
+## Special Considerations
+ None. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

@@ -1,0 +1,38 @@
+# Import Data
+
+## Import Data
+ After creating import jobs, you can use Ingestor to import data. The steps required to import data differ depending on which data type you intend to import. You can import up to 50 files at once. 
+ For a walkthrough about loading clinical data for Medidata CTMS, see  Import Non-Rave Data for Medidata CTMS . 
+## Accepted File Formats
+ Ingestor accepts the following file formats: 
+- Comma-separated value (.csv) 
+- SAS files(.xpt)
+ Note :
+- Ingestor only supports the SAS V5 Transport file format and below. 
+- SAS file upload is only available for External EDC jobs. 
+- Compressed files (.zip, .rar., .7z)
+ Note :
+- Compressed file upload is available for all import jobs. 
+- Compressed files must contain compatible constituent files. 
+- For external EDC jobs, if the compressed file has multiple file types, then to ensure successful loading, the file types must have the same column headers. When loading clinical data, ensure that you configure the Fields SDM file correctly. XPT files cannot contain more than eight characters in their column headers. 
+## Prerequisites for Importing
+ To successfully import data, ensure that:
+- You register your study and sites in Cloud Administration. 
+- If importing Rave data, your import file only contains subjects that exist in the study. 
+- Your data integration contains at least one key field that matches a column header in your import file. 
+- Your import file's key fields  uniquely identify all data in your data integration.  Ingestor ignores duplicate rows in your import file. 
+- Your import file's file name  is unique to the import job and environment. 
+ For details for file specifications, see  Import File Standards . For starter files that you can reference and edit, see Starter Import Files .
+ Important : You cannot import data into inactivated studies. 
+## Import Data
+- Log into iMedidata.com . 
+- Navigate to Ingestor through your assigned client division. 
+- Identify the import job to import data with, and click the import job's name.
+ Tip : You can filter import jobs by different parameters, such as Study, Job Type, and Environment. To filter the import job list, click the Filter icon  for one of the parameters, and select which data to filter by.
+- Click  Import New Data .
+- From the file browser, select files to import. The import process starts immediately.
+ Note : Ingestor processes the imported files depending if the job's import type is cumulative or incremental. Cumulative jobs replace all existing data. Incremental jobs add to or update existing data. Jobs with the incremental import type can   Upsert – add or update existing items – or Delete items. The uploaded file's name determines if Ingestor upserts or deletes items. If the file's name contains "upsert", then upsertion occurs. If the file's name contains "delete", then deletion occurs. 
+ You can switch an import job between the cumulative and incremental import types. For details, see Update Job Configuration Details . 
+ Tip : You also can drag files onto the file uploader. 
+## Next Step
+ Track Import Job Progress

@@ -1,0 +1,26 @@
+# View and Export the AI Reconciliation Report Audit Trail
+
+## View and Export the AI Reconciliation Report Audit Trail
+ You can view an audit report of historical actions and updates made on all AI Reconciliation reports in your study. For example, you can see: 
+- Access outside of Data Surveillance. 
+- User actions made on AI Reconciliation Reports . 
+- The specific report on which an action was made. 
+ Note : You need the right permissions to view the audit trail. For more information, see  Data Surveillance Building Blocks and Permissions .
+ Viewing the audit trail of actions made on AI Reconciliation reports, ensures traceability using a reportable single source of truth. 
+ You can also export the audit trail for:
+- Additional data manipulation in Excel or .csv format. 
+- Offline stakeholder communication. 
+- Local record retention. 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Click the Clock icon next to the AI Data Reconciliation page header .
+ The AI Data Reconciliation Audit Report appears. It audits the following user actions performed on each report :
+- When a user marked a finding as reviewed or unreviewed. 
+- When a user provided feedback on a finding's confidence level. 
+- When a user linked or unlinked supporting information to a record. 
+ Note : Users can link or unlink records only for Treatments without Conditions or ongoing MH, Conditions without Treatments or ongoing MH, and Worsening Conditions reports.
+ Click Show Filters above the upper-right corner of the table to filter the report by Start Date and End Date. 
+- Optional : To export the audit report, click Export in the upper-right corner of the page, and then select one of the following: 
+- To Excel 
+- To CSV 
+- To PDF

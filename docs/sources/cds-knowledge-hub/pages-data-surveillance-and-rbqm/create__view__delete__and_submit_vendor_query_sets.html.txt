@@ -1,0 +1,152 @@
+# Create, View, Delete, and Submit Vendor Query Sets
+
+## Create, View, Delete, and Submit Vendor Query Sets
+ While reviewing data listing records, you can raise queries on data ingested from Medidata Rave. Similarly, you  can create Vendor Queries to report and track queries or problems with external vendor data; for example, lab reports with missing patient data. You can assign Vendor Queries as part of vendor issue sets to approved vendors for further action, like a response addressing the data issue. 
+ Vendor Queries enables:
+- Seamless communication of discrepancies and inconsistencies with vendors. 
+- Faster reconciliation of Rave and external vendor data. 
+ Tip : Play the video below to watch how to create and submit vendor queries.
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+## Customize Column Configurations
+ You can customize column configurations directly using the   More icon, above the Listing table when previewing a draft or approved listing. 
+ Note: 
+- If you specify column configuration while creating a draft listing, the listing retains the configuration when it is approved. 
+- You can reconfigure columns of an approved listing, but these changes are temporary and only visible to you. If you refresh or reload the page, the columns revert back to the original configuration. 
+- If you move an approved listing back to draft listing without modifying the expression, the column configuration remains unchanged. 
+- If you edit the expression in an approved listing, newly added columns are automatically enabled for column configuration, and the existing columns retain their original configuration. 
+- If you use the Copy Listings or Import Listing feature, you lose column configuration of the original listing. 
+ Fix Column Configurations 
+ To better customise the results, you can hide, unhide, fix a table's columns to appear to the left or right. For example, you can hide columns of no interest.
+- If necessary, view an approved listing's results . 
+- Click ,  More icon, above the Listing table. 
+- Click Columns Configuration .
+A slide out panel appears. 
+- Drag and drop fields under Columns to either Left Fixed Columns or Right Fixed Columns . The fields you place under each appear as such in the listings table. For example, you fix Patient, Site or Country to the left.
+ Note : We recommend:
+- Fixing only Patient, Site and Country columns as left columns. 
+- Only fixing columns that you can see on your screen as per your screen resolution. 
+- Including some columns that are neither fixed as left or right fixed columns, so that horizontal scrolling remains. 
+ Do not fix all columns in the listings table. That is, fix some columns to the left, and the remaining to the right. This may cause the screen to freeze (UI Gridlock), where the fixed elements from the left and right sides have essentially met in the middle, leaving no room for the scrollable data to actually render.   
+## View Vendor Query Sets
+ While reconciling data, you can group patient listings with external data issues into vendor query sets. You can then submit the vendor query sets for further clarification to vendors on the Vendor Queries page . Viewing the submitted Vendor Queries in Data Surveillance shows all the patient records included in the vendor query set at once. You can view only submitted vendor query sets. 
+- Access Data Surveillance , and then click Vendor Queries in the left-hand menu.
+The Vendor Queries page shows the following:
+ Summarization Cards 
+- All  – All vendor query sets in the study. 
+- Draft – Query sets not yet submitted to the vendor. 
+- Submitted  – Vendor query sets submitted to vendors. 
+- In Progress  – Query sets that the vendor is currently reviewing. 
+- Completed  – Query sets that have all queries fulfilled. 
+ Column Descriptions 
+- Query Set Name – Vendor query set name.  
+- Vendor – The approved vendor group to whom the query set is assigned. 
+- Status – Indicates the vendor query set status: submitted, in progress, draft or completed. 
+- Sent – Date you submitted the vendor query to the vendor 
+- Due – Date the vendor query set is due for a response. 
+- Completed – Date the vendor query completed. 
+- Completion Comments – Comments entered when the query is completed. 
+- Count – Number of vendor queries in the vendor query set. 
+- If necessary, click the column headers to sort the Vendor Query Sets table. 
+- Click the , the More icon, and then the View Query Set option.The Queries page lists the vendor queries in the vendor query set, along with the vendor group name, submitted date, due date, and the completed date, if applicable.
+- 
+ Column Descriptions 
+- Patient – Patient ID for the record. 
+- Site – Site number associated with the record. 
+- Country – Country in which the site resides. 
+- Listing – Approved data listing name. 
+- Vendor Query – Type of vendor query you submitted. One of the following:
+- Missing 
+- Mismatch 
+- Extra Vendor Record 
+- Query Description – The system provided issue description or one that you entered corresponding to the vendor query type. 
+- EDC Data – Data set variables from Rave. 
+- Vendor Data – Data set variables from the vendor. 
+## Download Vendor Query Sets
+  You can download vendor queries and access the file offline outside of Data Surveillance. You can mark patient records included in the vendor query sets as reviewed on the Listings page once the vendor takes action. For example, the vendor provides clarification to your queries or supplies the missing records. 
+- Access Data Surveillance , and then click Vendor Queries  in the left-hand menu.
+- Click one of the following options:
+ Summarization Cards 
+- All  – All vendor query sets in the study. 
+- Draft – Query sets not yet submitted to the vendor. 
+- Submitted  – Vendor query sets submitted to vendors. 
+- In Progress  – Query sets that the vendor is currently reviewing. 
+- Completed – Query sets that have all queries fulfilled. 
+ Column Descriptions 
+- Query Set Name – Vendor query set name.  
+- Vendor – The approved vendor group to whom the query set is assigned. 
+- Status – Indicates the vendor query set status: submitted, in progress, draft or completed. 
+- Sent – Date you submitted the vendor query to the vendor 
+- Due – Date the vendor query set is due for a response. 
+- Completed – Date the vendor query completed. 
+- Completion Comments – Comments entered when the query is completed. 
+- Count – Number of vendor queries in the vendor query set. 
+- If necessary, click the column headers to sort the Vendor Query Sets table. 
+- Click the Query Set Name hyperlink. 
+- The Queries page lists all the queries in the vendor query set. 
+- Click , the More icon on the right in the vendor query set name banner. 
+- Click  Download query set.
+ The vendor query set downloads in CSV format to your browser. You can access the downloaded file and view the list vendor queries included in the vendor query set offline.
+ Note : You can download vendor query sets with any status multiple times. However, the Submitted date corresponds to the date you first downloaded the file for submission, or the date you submitted the query to the vendor.
+## Delete Draft Vendor Query Set
+ You can delete draft vendor query sets. For example, if the patient record pertains to a patient no longer participating in the study, or if the data issue is no longer an aberration, you can delete the query set with the issue before it is submitted.
+ Note : You cannot delete submitted Vendor Queries.
+- Access Data Surveillance , and then click Vendor Queries in the left-hand menu.
+- Click Draft from the following options: 
+- All  – All vendor query sets in the study. 
+- Draft – Query sets not yet submitted to the vendor. 
+- Submitted  – Vendor query sets submitted to vendors. 
+- In Progress  – Query sets that the vendor is currently reviewing. 
+- Completed – Query sets that have all queries fulfilled. 
+- For any vendor query set, click the  More icon . 
+- Click Delete Query Set . 
+## Submit Vendor Query Sets
+ While reviewing an approved listing's results on the Listings page, you can create vendor queries to group patient records with vendor data issues into vendor query sets. While creating, you must assign the vendor queries to approved vendors. Data Surveillance permits only one unsubmitted vendor query set per vendor to ensure vendors receive only one notification at a time about outstanding action on data issues. Submitting vendor queries opens a two way communication channel between vendors and data managers, and leads to obtaining accurate and complete study data. 
+ There are two ways in which you can submit vendor queries to vendors for action: 
+- Send vendor queries as a file in an email.
+ With this method, you must manually track any vendor response you receive on the queries, and enter them back into Data Surveillance. 
+- Submit Vendor Queries directly to vendors within Data Surveillance. 
+With direct vendor query submission, you can track progress, responses, and the query status in real time, all within Data Surveillance. 
+## Send Vendor Queries in an Email
+ You can add vendor queries for external data issues in patient records on the Listing page. On the Vendor Queries page, you can then submit the vendor query set  you raised for patient records. You can then download the submitted vendor query set and send it to the vendor by email for further action.  
+ Once the vendor responds to the issues, for example, sends the missing records, or information about mismatched records, or no further vendor action is required, you can mark the patient records as reviewed on the Listings page. 
+- Access Data Surveillance , and then click Vendor Queries in the left-hand menu. 
+- Click Draft from the following options: 
+- All  – All vendor query sets in the study. 
+- Draft – Query sets not yet submitted to the vendor. 
+- Submitted  – Vendor query sets submitted to vendors. 
+- In Progress  – Query sets that the vendor is currently reviewing. 
+- Completed – Query sets that have all queries fulfilled. 
+- If necessary, click the column headers to sort the Vendor Query Sets table. 
+- Click the Query Set Name hyperlink.
+ The Queries page appears. By default, all vendor queries appear preselected. You can deselect records you do not want to submit as part of the vendor query set. You can also edit queries in the vendor query set. 
+- Click  Edit Details , then update the following as required.
+- Query Set Name – Query set to which the vendor query belongs. 
+- Due Date – Due date by when you must submit the vendor query. 
+- Vendor Group – Vendor group name for whom you raised the vendor query. 
+- Click , the More  icon, above the Queries table. 
+- Select Download query set. 
+- The Status column for the vendor query set now reads Submitted. 
+The Vendor Queries file downloads in CSV format to your browser. You can share the file with the vendor for further action.
+Once the vendor responds, you can mark the data listing records as reviewed . 
+## Send Vendor Queries Directly to Vendors
+ You can submit vendor queries directly to vendor on the Vendor Queries page. When vendors respond, comment, or close the query, the status of the submitted query updates instantly so you can track vendor queries and plan data reconciliation accordingly.
+- Access Data Surveillance , and then click Vendor Queries  in the left-hand menu.
+The Vendor Query Sets page shows. 
+- Click Draft from the following options: 
+- All 
+- Draft 
+- Submitted 
+- In Progress 
+- Completed 
+- If necessary, click the column headers to sort the Vendor Query Sets table. 
+- Click the Query Set Name hyperlink.
+ The Queries page appears. By default, all vendor queries appear preselected. You can deselect records you do not want to submit as part of the vendor query set. You can also edit queries in the vendor query set. 
+-  Click Edit Details , then update the following as required.
+- Query Set Name – Query set to which the vendor query belongs. 
+- Due Date – Due date by when you must submit the vendor query 
+- Vendor Group – Vendor group name for whom you raised the vendor query.
+ Note : You can submit a vendor query if all the three fields are non-empty.
+- Click Save . 
+- Click Submit to vendor .
+The vendor query now appears under the Submitted card, with the sent date and the due date updated. The vendor receives an email notification about vendor queries assigned. Once the vendor responds, or comments on the query, the Status column updates from Submitted to Progress. The Summary cards at the top of the Vendor Queries page also show vendor queries with the In Progress status. 
+ Once the vendor closes a query set, the vendor query is marked complete, and the Status column updates to Completed. For more information on how vendors respond to queries assigned, see Respond To Queries As A Vendor .

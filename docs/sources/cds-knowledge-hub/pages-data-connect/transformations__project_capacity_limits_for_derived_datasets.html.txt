@@ -1,0 +1,59 @@
+# Transformations: Project Capacity Limits for Derived Datasets
+
+## Transformations: Project Capacity Limits for Derived Datasets
+ Important: 
+- For a summary of changes done to these release notes, if any, see the revision history .. 
+- For features and enhancements covered in previous releases, see the releases history . 
+- For a summary of all features released, the released features index . 
+## Change Details
+ Product 
+ | Data Connect
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Feature (New Functionality)
+ Functionality or Module 
+ | Transformations > Derived Datasets
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ Data Connect now includes a Project Capacity progress bar within Derived Datasets projects. This visual indicator shows the total execution time consumed by the project's operations against a hard limit of 60 seconds. 
+ The system calculates capacity usage as you build a derived dataset on the canvas . The progress bar provides visual feedback using the following color indicators: 
+- Green : 0% to 74% capacity 
+- Yellow : 75% to 90% capacity 
+- Red/Orange : 91% to 100% capacity 
+ Benefit to Users 
+ | This enhancement provides critical visibility into a project's complexity and execution time. By monitoring the Project Capacity bar, you can ensure your configurations remain within system limits, allowing you to optimize operations and successfully publish projects without encountering processing issues. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ All Data Connect users configuring derived datasets 
+ Impact to Workflow Processes 
+- Monitoring Capacity : You can now monitor the Project Capacity meter in the top header bar to track usage . 
+- Validation Blocking : If a project exceeds 100% capacity, the system blocks you from adding more nodes to the canvas. You must decrease the project scope, such as by reducing nodes or modifying operators, to unlock the canvas . 
+- Publishing: While the Publish button remains enabled, attempting to publish a project that is over capacity leads to a validation error. 
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+- Progress Bar: A labeled Project Capacity linear progress bar appears in a persistent location on the header . 
+- Info Icon: An info icon next to the bar shows a tooltip explaining that reaching maximum capacity prevents publishing . 
+- Error Messages : Specific error messages appear when you reach capacity, such as: "This configuration exceeds the project's capacity limit and it cannot be published" . 
+ Impact to Existing Data or Settings 
+ The system exempts existing projects that exceed the capacity limit as "legacy exceptions." It does not automatically unpublish these projects, but does open them in a Project Lock state.  In this state, you cannot add nodes, but can delete node or remove existing operators. 
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | 
+ The following lists any new or added resources that support this change:
+- New Article:  Project Capacity 
+ For more articles and videos, see  Transformations and the Data Connect Video Library . 
+ Special Considerations 
+ | To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

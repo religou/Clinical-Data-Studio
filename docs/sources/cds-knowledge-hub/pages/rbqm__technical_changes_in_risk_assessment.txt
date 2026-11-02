@@ -1,0 +1,21 @@
+# RBQM: Technical Changes In Risk Assessment
+
+## RBQM: Technical Changes In Risk Assessment
+## What Is New?
+RACT scoring no longer appears on the Risk Categorization page in Risk Assessment.
+## What Is the Impact?
+## Users/Roles
+ Risk managers.
+## Workflow Process
+ No change in the workflow.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Removing scoring for risk category questions enables you to focus on tasks more relevant to your study, for example, scoring risks affect your study the most. 
+ Where Do I See the Change? 
+ RACT Question Scoring no longer appears on the RBQM > Risk Assessment > Risk Categorization page. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Risk Assessment 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,7 @@
+# Manage Job Configurations
+
+## Manage Job Configurations
+ After creating import jobs, you can review and edit job details on each job's Job Configuration screen. The presented details differ depending on the type of import job. You can perform one of the following actions: 
+- Review Job Configuration Details 
+- Update Job Configuration Details 
+- Update Study Design Metadata for Clinical Data Loading

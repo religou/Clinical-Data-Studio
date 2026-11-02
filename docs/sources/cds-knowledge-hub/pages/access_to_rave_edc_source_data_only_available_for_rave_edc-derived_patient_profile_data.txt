@@ -1,0 +1,16 @@
+# Access to Rave EDC Source Data Only Available for Rave EDC-Derived Patient Profile Data
+
+## Access to Rave EDC Source Data Only Available for Rave EDC-Derived Patient Profile Data
+## Description
+ Authorized Rave EDC users can access Rave EDC from the Patient Profiles user interface by selecting a patient ID in the Patient Selector and then clicking View in Rave EDC . The View in Rave EDC  button appears only if all or some of the patient data originates from Rave EDC.
+## Affected Roles
+ All Detect users with access to Rave EDC.
+## Advantages
+ Accessing Rave EDC from Patient Profiles allows profile reviewers and Detect users to investigate patient records associated with data points in Patient Profiles.
+## User Impact
+ See Description.
+## Knowledge Space Updates
+ The Patient Profiles Knowledge Space provides new and updated content to support the enhancement: 
+- Rave EDC Data Integration 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

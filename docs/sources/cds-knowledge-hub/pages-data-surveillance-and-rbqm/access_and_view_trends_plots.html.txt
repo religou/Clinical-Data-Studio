@@ -1,0 +1,28 @@
+# Access and View Trends Plots
+
+## Access and View Trends Plots
+ You can select which of your study data variables' analyses you want to view in Statistical Monitoring's Data Anomaly Detection page > Trends List tab.
+## Access and View Trends Plots
+- Access RBQM , and then click Statistical Monitoring > Anomalies in the left-hand menu.
+The Data Anomaly Detection page shows. 
+- Click the Trends List tab.
+The Trends List shows the list of study variables. By default, the Trends Lists sorts by Strength of Association from highest at the top to lowest.
+- Variable Name – The name attributed to data that was charted or generated from a clinical trial procedure. For example, a lab value from a lab test. 
+- Risk Category 
+- Domain 
+- Strength of Association 
+- If necessary, sort or filter the Trends List to find the trends plot you need. 
+- Click a variable name in the list.
+The selected variable's trends plot renders on the Trends Plot tab below. To learn how to read and understand trends plots, see  Investigate Data Using Trends Plots . 
+ Tip : If you are currently viewing a variable's Text Analysis or Numeric Analysis plot on the Data Anomaly Detections page > Anomalous Plot tab, you can click the Trends Plot tab to view the variable's respective trends plots.
+## Sort and Filter the Trends List
+ You can sort the Trends List by column header or filter the Trends List to find the variable you need.
+## Sort the Trends List
+- Click any column header to sort the table by that column. The sorted header shows in blue font.  indicates that the column is sorted in descending numeric order (highest value at the top, lowest at the bottom).  
+- Click a column header twice  to sort in ascending numeric order (lowest value at the top, highest at the bottom). 
+## Filter the Trends List
+- Do any of the following:
+- Click the Variable Name filter, and enter the text of the variable you need or select the variable you need. You can have multiple filter entries. 
+- Click the Risk Category filter, and enter the text of the risk category you need or select the risk category you need. You can have multiple filter entries. 
+- Click the Domain filter, and enter the text of the domain you need or select the domain you need. You can have multiple filter entries. 
+- Click the Strength of Association filter, and select All , Greater than , or Less Than . If you select Greater than or Less than, then enter a Value in the corresponding text field.

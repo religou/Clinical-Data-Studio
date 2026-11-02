@@ -1,0 +1,85 @@
+# RBQM: Enhance Study Data Compliance And Accuracy With Audit Trail Review
+
+## RBQM: Enhance Study Data Compliance And Accuracy With Audit Trail Review
+## What Is New?
+ Audit trails are computer-generated records that capture all the activity in the system, and are valuable tools to maintain a high-level of data integrity, and are extremely useful to study teams. An Audit Trail Review (ATR) involves examining the recorded history of transactions or activities within a system to ensure compliance with regulations, detect any discrepancies, and verify the integrity of data. This review tracks all changes made to records, who made them, and when, providing a transparent and accountable record of system usage. It is important in ensuring accuracy in financial reporting, and supporting forensic investigations in cases of fraud or unauthorized access. The Audit Trail Review feature in Clinical Data Studio applies Large Language Models (LLMs) and Generative AI to explore complex audit trail data sets.   
+## What Is the Impact?
+## Users/Roles
+ All study team members.
+## Workflow Process
+ Audit Trail Review (ATR) pulls in operational metadata from Rave EDC to show edits, updates, and deletions made to data endpoints. Clinical Data Studio uses Generative AI to automatically build customized queries, and executes them against the operational Rave data to generate meaningful audit data sets that facilitate data quality checks.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Audit Trail Review: 
+- Provides an intuitive, user-friendly interface that makes data exploration simple and accessible. 
+- Enables you to effortlessly extract insights from vast and complex audit trail datasets using Large Language Models (LLMs) and Generative AI technology. 
+- Seamlessly filters massive datasets, where you can type a question into the interactive field to generate a meaningful dataset from your audit trail data. 
+- Delivers actionable insights that allow you to make smarter data decisions. 
+- Provides an Intuitive and user-friendly interface where AI-driven capabilities make finding the insights you need quicker and easier. 
+- Accelerates decision making by allowing you to create, explore, and analyze audit trail data in ways that were previously time-consuming or complex. 
+- Enables you to configure published audit data sets in KRIs and listings for use in your study. 
+ For ATR Manager users (with the Manage Audit Trail Review access), ATR offers additional flexibility to publish data sets directly within Clinical Data Studio capabilities. This integration allows audit trail insights to be used for analysis, collaboration, and reporting across projects and teams. 
+## Where Do I See the Change?
+ The RBQM tab in Clinical Data Studio includes a new Audit Trail Review tab. 
+ Image A 
+ Image B 
+ | 
+ | 
+ Number 
+ Description 
+ | 1. 
+ | Audit trail review tab – The left-hand navigation in the RBQM tab includes the Audit Trail Review tab which you can click to view the Audit Trail Review page. 
+ | 2. 
+ | Audit trail review page – The Audit Trail review page shows:
+- New Audit Review section that includes a welcome message, a generative AI powered chat option with predefined prompt questions, and a text field to enter questions you want to ask the AI for audit purposes.  
+- Data Preview section that fetches audit trail data based on user questions. 
+ | 3. 
+ | New audit review section – The section has a Generative AI interface where you can enter questions about data creation, modification, and deletion in any Rave EDC field. You can refine and restate the question as needed. The interface reiterates the question in simple query language. You can confirm if the interface reiterates the question correctly. If not, you can enter the question again. 
+If you click Save Prompt , you can save any chats and retrieve them later to regenerate the audit dataset at different times during your study. If you scroll away from an unsaved chat, a message option with leave without saving, and stay appears.  
+ | 4. 
+ | Ask AI about data you need for auditing purposes field – You can type any question you want to ask the LLM about audit data in the study. 
+ | 5. 
+ | 
+ Data preview section – You can get a preview of all the audit data based on the question you entered in the New audit review section. The Data Preview section remains blank if no data matches the question asked. Otherwise, it shows a table with details such as patient name, site, country, folder, form, log, audit action, audit user name, and audit date and time (Image B).
+- Download data  – You can download the data as a CSV file. When the download is complete, a message appears in the notifications center along with a download link. 
+- – If you click the double-arrow option, you can get an expanded view of the Data Preview section. In the expanded view, you can search and filter records, download, and publish. The expanded view shows the first 100 records from the data set. 
+- – If you click the More option, you can then click Publish as dataset to publish your audit trail dataset. 
+You can view published data sets in  Data Sets, Listings, and in KRIs. 
+ Note : You can only publish 10 data sets from a study. The Publish button becomes disabled once 10 data sets are published.
+ | 6. 
+ | 
+ Saved chats – If you click Save Prompt in the New audit review section , you can save chats. You can reuse saved chats and re-run or edit the query from the saved chat without publishing the data set. 
+ If you click  Saved Chats , a side panel appears where the default option. Only my chat , shows chats that you initiated, and saved. Chats appear chronologically by date. If you click the for any saved chat, you can open, delete, or edit the saved chat name. If you toggle off Only my chat , you can view other saved chats in the study. 
+ If you click Open for any chat, you can further select from the following:
+- Rerun – Recreates the same data set based on the original query. 
+- Edit – Adds the query prompt to the chat dialog box where you can engage with the interface to modify the query as necessary. 
+ Audit Review – You can click Audit Review from the top right corner of the Audit Trail Review page to start a new audit review session, or to choose to stay in the current session. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the feature:
+- Audit Trail Review 
+## What Else Should I Know?
+ Permissions 
+- You must have the  View Audit Trail Review t o ask questions and save prompts, whereas to publish audit data sets you need the Manage Audit Trail Review building block added respectively to your role in Cloud Administration.  
+ ATR Behavior 
+- No blinded data sets are shown as part of audit trail review data. 
+- You can only publish a maximum of 10 audit data sets in any study.  
+- You can publish only ten audit data sets per study environment. 
+- The audit workflow runs weekly, every weekend. The published data set is available in the study only after the audit workflow runs. 
+- You cannot publish and download a data set if the Data Preview shows no records. 
+ ATR Limitations 
+- Audit trail review does not support: 
+- Any aggregations. For example, a question like Give audits for AE form where a data point was modified more than 10 times, may produce a data set that was modified just once. 
+- Complex computations, or calculating differences in timestamps. For example, a question like Give audits where a datapoint was modified 10 days after it was entered. may not produce a result. 
+- Results at any level other than data points. For example, a question like Give me all sites in the data, does not produce a result. 
+- Filtering on data point values. 
+- Question prompts asking for all audits in the study. 
+- Filtering in the published audit data set is limited to the following fields:  
+- audit user, audit date/date range, form oid, field oid, audit subcategories, patient ID, country, and site. 
+- Published audit data listings do not support the following functionality: 
+- Submit queries. 
+- Submit vendor queries. 
+- Cross-dataset listing creation 
+- Missing records 
+- The ATR functionality times out if the learning model takes longer than five minutes to process a request. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

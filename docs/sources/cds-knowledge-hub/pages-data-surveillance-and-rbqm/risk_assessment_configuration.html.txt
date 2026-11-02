@@ -1,0 +1,13 @@
+# Risk Assessment Configuration
+
+## Risk Assessment Configuration
+ You can use Risk Assessment Configuration to configure Risk Assessment to:
+- Generate a risk's overall risk score by scoring the Probability, Impact, and Detectability risk factors on a 3-point or 5-point scale. To learn more, see  Configure the Risk Scoring Scale . 
+- Signify the specific risk details and risk actions that your study team is expected to enter and document when adding or updating risks in the risk assessment. To learn more, see  Configure the Expected Risk Review Fields . 
+ The risk assessment is a continually iterated document that collects and communicates valuable information about how study teams execute their risk management plan. RBQM's Risk Assessment capability enables risk managers to create and build the risk assessment. To learn more, see  Risk Assessment . 
+ RBQM's Risk Inventory capability gathers all study risks documented as part of the ongoing risk assessment version history in one consolidated list. Risk managers and other study team members can collaboratively use the Risk Inventory to:
+- Assess the study's identified risks and associated details with each risk . 
+- Prioritize the evaluation and review of risks based on risk score, rank, review status, and review due date. 
+- Evaluate risk QTL and KRI performance. 
+- Determine risk mitigating actions. 
+- Update risk details and statuses as necessary.

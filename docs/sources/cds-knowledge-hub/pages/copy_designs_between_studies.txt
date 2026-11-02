@@ -1,0 +1,24 @@
+# Copy Designs Between Studies
+
+## Copy Designs Between Studies
+## Description
+ You can copy draft designs or non-editable master designs from one study to another based on the studies you have access to.  
+## Affected Roles
+ Patient Profile Designers. 
+## Advantages
+ Building new designs by copying ensures data is more accurate when creating new studies in different environments. 
+## User Impact
+ Published Designs 
+ On the Design page > Published Designs tab, you can click to the right of a master design, select Copy to another study. You can then use the Copy design to another study  window to copy a master design to another environment. The Study list shows studies you have access to and the Environment list shows the list of environments based on the study. To learn more, see Copy Designs To Different Studies . 
+ Draft Designs 
+ On the Design page > Draft Designs tab, you can click on the right of a draft design, and then select Copy to another study . You can then use the Copy design to another study window to copy the draft design and all of its contents to another environment. The Study list shows studies you have access to and the Environment list show the list of environments based on the Study. To learn more, see Copy Designs To Different Studies . 
+ Knowledge Space Updates 
+ The Medidata Patient Profiles Knowledge Space provides new to support this feature: 
+- Copy Designs To Different Studies 
+- Reassign Master Designs 
+- Duplicate Designs Within Studies 
+## Special Considerations
+- While copying designs from one environment to another, Patient Profiles checks access before providing a list of environments you can copy designs into. 
+- The Master for Detect option appears disabled for designs with missing data. The option becomes enabled after you remove or replace missing variables. 
+- The Duplicate option for profile designs is renamed to Duplicate within study . 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

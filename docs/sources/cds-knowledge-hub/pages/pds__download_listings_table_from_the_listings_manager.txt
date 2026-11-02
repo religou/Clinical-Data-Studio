@@ -1,0 +1,34 @@
+# PDS: Download Listings Table from the Listings Manager
+
+## PDS: Download Listings Table from the Listings Manager
+## What Is New?
+ You can download the Listing Manager page > Listings table locally as a CSV file. The Listings Manager CSV file contains the following details: 
+- Name – The listing's object identifier (OID). 
+- Expression – The data listing's user-defined conditional expression, which Data Reviewer runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- Created By – The user who created the listing. 
+- Created – The listing's creation date is formatted as: DD MON YYYY 
+- Updated by – The user who most recently updated the listing. 
+- Last Updated – The data listing's creation date or when the last saved edit occurred. The date is formatted as: DD MON YYYY 
+- Rave Enabled – Shows either True or False. True  indicates that the listing is configured so that users can directly within Data Reviewer view and submit Rave queries on the patient records captured by the data listing . 
+- Status – Shows either Draft or Approved. The status indicates whether the listing is in approved or draft status. 
+- Activated – Shows either Yes or No. Yes indicates that the listing currently shows in its Approved Listings table or Draft Listings table. No indicates that the listing is currently hidden from the Approved Listings table or Draft Listings table.  
+## What Is the Impact?
+## Users/Roles
+ Data managers
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+   Downloading the Listings table enables you to: 
+- Review the listings and associated listing details in your study outside the Data Reviewer application. 
+- Easily exchange the Listings table externally with stakeholders to facilitate communication. 
+- Locally save and archive the Listings table. 
+## Where Do I See the Change?
+ The Data Reviewer > Listings Manager page now includes a Download button above the Listings table. You can click the Download button to download the Listings table as a CSV file to your browser. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Download the Listings Table 
+## What Else Should I Know?
+ The downloaded CSV file always includes all listings included in your study, regardless of the table filters set on the Listings Manager page at the time of download.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

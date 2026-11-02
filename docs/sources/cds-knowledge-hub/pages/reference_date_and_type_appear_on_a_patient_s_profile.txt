@@ -1,0 +1,13 @@
+# Reference Date and Type appear on a Patient's Profile
+
+## Reference Date and Type appear on a Patient's Profile
+## Description
+ On the Design page > Profiles tab, the randomization or enrollment date appears in the Patient ID row when you select a patient's profile. 
+## Affected Roles
+ All. 
+## Advantages
+ The patient profile provides you accurate information about a patient's reference type and date. 
+## User Impact
+ See the Description section. 
+## Special Considerations
+ None.

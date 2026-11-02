@@ -1,0 +1,33 @@
+# Datasets and Transformations Releases History
+
+## Datasets and Transformations Releases History
+ The following lists all releases for Data Connect's Datasets and Transformations capabilities before the June 2024 release, and the features or enhancements introduced in each.
+ Important : As of the 2024.1.0 release, Platform Workbench is a part of the Data Connect solution as its "Datasets and Transformations" capability. It is now "Data Connect - Datasets and Transformations" or "Datasets and Transformations." For details what the 2024.1.0 release entails, and following releases, see   Data Connect Releases History , 
+ Code Continuity Across Releases
+ All Platform Workbench releases are cumulative.   That is, each release or software update builds on prior releases as noted in the release notes. For example, the  Datasets and Transformations Standard Software Update 2023.1.1 includes all release Datasets and Transformations Feature Release 2023.1.0 code, which in turn is based on the release  2022.1.0 code and so on. The release notes describe any updates between feature releases, standard s oftware updates, or other types of releases. 
+## Platform Workbench 2023.4.0 Beta (Nov 2023)
+- Unit Conversion Projects Now Available
+- Custom Target Generation Projects Now Available
+- Integration with Sync
+- Integration with Extractor
+- Filtered Views During Field-Variable Mapping
+- Internal and Technical Changes in Platform Workbench for 2023.4.0
+## Platform Workbench 2023.3.0 Beta (Aug 2023)
+- Transformations Now Include Multiple Concatenation
+- Ability Delete Custom Transformations Now Available
+- Ability to Delete Manually Entered Records for Selected Domains
+- Internal and Technical Changes in Platform Workbench 2023.3.0
+- Resolved Issues
+## Platform Workbench 2023.2.0 Beta (Jun 2023)
+- SDTM-like Data Set Creation and Standardization
+- Support for Derived Data Sets
+- Ability to Export Transformed Data Sets
+- Internal Technical Changes 
+## Platform Workbench 2023.1.0 Beta (Feb 2023) 
+- Revamped Data Project Creation and Review Capabilities
+- Domain and Concept Configuration
+- Revamped Source to Target Mapping and Transformation
+- Internal and Technical Changes
+- Resolved Issues
+## Platform Workbench 2022.1.0 Beta (Sep 2022) 
+- Map Rave EDC Form Records with Platform Workbench

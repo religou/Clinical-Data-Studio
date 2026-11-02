@@ -1,0 +1,80 @@
+# Data Surveillance
+
+## Data Surveillance
+ Data Surveillance is a   comprehensive suite of data surveillance   software capabilities that   encompasses a drag-and-drop listings builder, automated query generation for Medidata Rave sourced data, issue management for non-Medidata sourced data, AI-powered data reconciliation, patient profiles, and visualizations.   Data Surveillance leverages AI to streamline data aggregation, standardization, and management workflows so that multiple users can act on real-time data in ways that reduce burden, shorten review timelines, increase quality, reduce risk, and improve patient safety. 
+ | 
+## Get Started
+ About Data Surveillance 
+ Access Data Surveillance 
+ Data Surveillance Building Blocks and Permissions 
+ | 
+## Task Oversight
+ Task Oversight 
+ Configure Modules To Assess Performance Metrics 
+ | 
+## Clean Patient Tracker
+ Clean Patient Tracker 
+ Track and Clean Patient Data 
+ | 
+## Datasets
+ Review Datasets 
+ | 
+## Open Queries
+ Open EDC Queries 
+ | 
+## Vendor Queries
+ Vendor Queries 
+ Access and View Vendor Queries 
+ Create, View, Delete, and Submit Vendor Query Sets 
+ | 
+ Listings 
+ Listings 
+ View, Create, and Edit Draft Listings 
+ Review Approved Listing Results 
+ Manage Listings 
+ | 
+## AI Reconciliation
+ AI Reconciliation 
+ About AI Reconciliation Reports 
+ Review AI Reconciliation Reports Findings 
+ | 
+## Patient Profiles
+ Patient Profiles 
+ Design Patient Profiles 
+ Review and Export Patient Profiles 
+ View Design Reports 
+ | 
+ Custom Graphs 
+ Custom Graphs 
+ Access and View Custom Graphs 
+ Create, Edit, and Delete Custom Graphs 
+ | 
+ Oncology - RECIST 1.1 
+ RECIST 1.1 
+ Access and View the RECIST 1.1 Dashboard 
+ Review RECIST 1.1 Dashboard Findings 
+ | 
+## Data Surveillance Configuration
+ Data Surveillance Configuration 
+ | 
+## Data Surveillance Template Library
+ Data Surveillance Template Library 
+ View, Add, and Manage Template Groups 
+ Add Listings as Templates to Template Groups 
+ | 
+ What's New 
+ Clinical Data Studio Release Notes 
+ Clinical Data Studio Release News 
+ | 
+## Training
+ Data Surveillance Video Library 
+ | 
+ More About Clinical Data Studio 
+ About Clinical Data Studio 
+ About RBQM 
+ About Data Connect 
+ About Cross Study Metrics 
+ | 
+ Technical Handbook 
+ Clinical Data Studio Technical Handbook 
+ |

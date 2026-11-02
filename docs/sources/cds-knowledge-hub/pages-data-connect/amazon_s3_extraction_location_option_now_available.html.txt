@@ -1,0 +1,28 @@
+# Amazon S3 Extraction Location Option Now Available
+
+## Amazon S3 Extraction Location Option Now Available
+## Description
+ When configuring export jobs, you can choose to deliver files to an Amazon Simple Storage Service (Amazon S3) location that you own. 
+## Affected Roles
+ All platform role with the Extractor Admin building block.
+## Advantages
+ You have more options to deliver your data extracts, especially if you use Amazon Web Services to host your data.
+## User Impact
+ In Cloud Administration, you can select the Extractor Admin building block, which grants permission to select S3 locations as an export target.
+ In Extractor,
+- In the Settings tab, you can select and configure the S3 location type when creating output locations. 
+- In the New Export Job workflow > Job Name step > Export Location section, you can choose to have the job delivery data to an S3 location. 
+ Note :
+- When configuring S3 locations, you must add a location and then enter the location settings. You cannot edit existing SFTP locations to convert them into S3 location configurations. 
+-  You can only set S3 locations as a data delivery target for export jobs. S3 locations are incompatible with import jobs. 
+## Knowledge Space Updates
+ The Extractor Knowledge Space provides new and updated content to support this new data delivery location: 
+- Updated
+- Name Outputs 
+- New
+- Configuring Exports to Deliver to Amazon S3 Connections 
+- Prepare Amazon S3 Bucket 
+- Add S3 Connection 
+- Configure Exports to Use S3 Connection 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

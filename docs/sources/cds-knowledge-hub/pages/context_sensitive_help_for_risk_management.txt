@@ -1,0 +1,18 @@
+# Context Sensitive Help for Risk Management
+
+## Context Sensitive Help for Risk Management
+## Description
+ Risk Management includes  context-sensitive Help   that displays the exact information for the  task  you are doing in one or two clicks. The Medidata Risk Management knowledge space articles are visible as searchable online documentation right in your browser.  
+## Affected Roles
+ All.
+## Advantages
+ Context-sensitive online help provides information on the portion of the application you are using. If you click Help > Help on This Page , you can view the online help for the application page you are using.
+## User Impact
+ Access online Help   when you c lick the  Help  link in the Risk Management header bar and then select one of these options: 
+- Help on This Page  - opens the help article for the current application page on your browser. 
+- Knowledge Space Home  - displays the home page for the Medidata Risk Management knowledge space. 
+- Help Center  - displays the Help Center link, which is a different support site maintained by Medidata Customer Success.  
+- Report a Problem  - displays a page with links to Help Center articles and provides a way to give feedback or report a problem. When you click  Submit Report , a ticket is generated for the Help Center and the system sends an email with the ticket number to the person submitting the problem report. 
+- Developer Info  - For some pages, clicking this option displays context-specific technical information about your user account and the current object you are viewing. For other pages, no data is returned. 
+## Special Considerations
+ You may have to turn off popup blockers to allow the Help tab to display in your browser.

@@ -1,0 +1,13 @@
+# Use the Event Table Check Box to Turn Wide Tables into Event Tables
+
+## Use the Event Table Check Box to Turn Wide Tables into Event Tables
+## Description
+ When working with wide tables on the Design page > Elements tab, the Table Options tab > Timeline Options section replaces the 'Show in Timeline' check box label with 'Event Table.'
+## Affected Roles
+- Patient Profile Designers 
+## Advantages
+ The previous label, 'Show in Timeline,' was often unclear to patient profile designers. The new label, 'Event Table,' more clearly indicates that selecting its check box turns the wide table into an event table.
+## User Impact
+ See the Description section.
+## Special Considerations
+ The Event Table check box only applies to wide tables.

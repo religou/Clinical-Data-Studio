@@ -1,0 +1,70 @@
+# Data Surveillance Configuration
+
+## Data Surveillance Configuration
+ Data Surveillance Configuration is a Data Surveillance capability that allows you to: 
+- Map the specific study data that you want Data Surveillance and RBQM to report on and visualize. 
+- Create and manage: 
+- Vendors to which you want to communicate vendor data issues. 
+- Derived variables. 
+- Stacked datasets. 
+- Review reports. 
+## What Is Data Surveillance Configuration?
+ Data Surveillance Configuration is a Data Surveillance capability that enables you to perform all data mapping and various study configuration tasks in one central location. 
+## What Is the Purpose of Data Surveillance Configuration?
+ Data Surveillance Configuration provides a single, centralized location for: 
+- Mapping the data that Data Surveillance and RBQM consume to produce the reports, statistical analysis, and visual output for: 
+- Data Anomaly Detection Plots 
+- Event incidence plots 
+- Under-over reporting events 
+- Potential duplicate patients 
+- Rounding and propagation of vital sign records. 
+- AI Data Reconciliation reports 
+- RECIST 1.1 Dashboard 
+- Creating and managing:
+- Vendors to which you want to communicate vendor data issues. 
+- Derived variables that you want to add for inclusion in your study's list of datasets. 
+- Stacked datasets, which enable you to merge datasets with common variables into one dataset. 
+- Review reports, which allow you to capture activity logs and findings across data review and reconciliation cycles conducted within Data Surveillance and RBQM. 
+ To learn more, see: 
+- Data Mapping 
+- Vendor Configuration 
+- Derived Variables 
+- Stacked Datasets 
+- Review Reports 
+## Who Uses Data Surveillance Configuration?
+ Risk managers, data managers, and any personnel involved with study risk management use Data Surveillance Configuration. 
+## What Are the Benefits of Data Surveillance Configuration?
+ Data Surveillance Configuration: 
+- Allows you to quickly configure in a simple, centralized workspace the specific study data that you want Data Surveillance and RBQM to analyze. 
+- Helps your organization target and review unique and specific facets of your study that you want to monitor for risk. 
+## How Does Data Surveillance Configuration Work?
+ Study teams must first properly set up studies in Medidata Rave , and then sites must enter study data directly in Rave or upload third-party data through Ingestor . To learn more, see Medidata Detect's Data Pipeline . Medidata's platform data workflow enriches and transforms all tagged study data , at which point, Data Surveillance pulls in the study's data sets and variables into your study environment. You can use Data Surveillance Configuration to: 
+- Map the data that Data Surveillance and RBQM  consume to produce the statistical analysis and visual renderings for:
+- Statistical Monitoring analyses 
+- Data anomaly detection and trends 
+- Event incidence and under-over reporting events 
+- Potential duplicate patients 
+- Rounding and propagation of vital sign records 
+- AI Data Reconciliation reports 
+- RECIST 1.1 dashboard reports 
+- Create, activate, and deactivate vendors to which you want to communicate vendor data issues. 
+- Create and update derived variables . 
+- Create stacked datasets and view the list of stacked datasets in your study. 
+- Add, Edit, And Delete Review Reports. 
+ You can refresh the AI Data Reconciliation, RECIST 1.1 dashboard, and listings in the Data Listings capability to render their respective reports and data analyses based on the most recently ingested study data. You can schedule data refreshes to occur and on a preset frequency or manually trigger data refreshes ad-hoc. W ith each data refresh, Medidata's microservice algorithms consume and analyze the configured study data mappings and all activated KRIs and QTLs, and then Data Surveillance and RBQM report and visualize the statistical analyses in: 
+- 
+- Data Anomaly Detection 
+- Trends 
+- Event Incidence 
+- Under-Over Reporting Events 
+- Weekend and Holiday Visits 
+- Potential Duplicate Patients 
+- Rounding and Propagation 
+- AI Reconciliation 
+- Custom Graphs 
+- RECIST 1.1 
+- KRI Dashboard 
+- QTL Dashboard 
+- Risk Assessment 
+- Risk Inventory 
+ Note : In Data Surveillance and RBQM, s tudy data automatically refreshes four times daily at approximately 9:00am (EST), 3:00pm (EST), 9:00pm (EST) and 3:00am (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, 5:00 am (EST) the same day, 11:00 am (EST) the same day, 5:00 pm (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Rave, and   activated datasets from Data Connect   are available in 6 to 12 hours within Data Surveillance and RBQM.  For more information, see   Clinical Data Studio Data Pipeline .

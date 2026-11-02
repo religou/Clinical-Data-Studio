@@ -1,0 +1,21 @@
+# Data Surveillance: CP And CM Condition Mapping Reference Possible Only After Configuring Treatment And Procedure Data Sets
+
+## Data Surveillance: CP And CM Condition Mapping Reference Possible Only After Configuring Treatment And Procedure Data Sets
+## What Is New?
+ You can configure Treatment Conmend and Treatment Conproc fields in Event Analysis only after mapping Concomitant Medication and Concomitant Procedure data sets first. 
+## What Is the Impact?
+## Users/Roles
+ Detect Configuration Manager Admin. 
+## Workflow Process
+ You must configure the Concomitant Medication and Concomitant Procedure reference's data set and and respective fields needed before configuring Treatment Conmed and Treatment Conproc fields in Event Analysis to take into account the appropriate treatment required for Adverse Events. 
+ Other Applications 
+ Configuring the Condition Mapping - Treatment Conmed and Condition Mapping - Treatment ConProcedure reference impacts the results produced in AI Data Reconciliation's analysis and reports.
+## How Do I Benefit?
+ Configuring appropriate treatments needed for adverse events (either conmed or conproc or both) helps  AI Data Reconciliation identify only those records for which the required treatment is missing. If this is not configured,  AI Data Reconciliation assumes that either one of the treatment is acceptable, and may produce incorrect results.  
+## Where Do I See the Change?
+ In Data Surveillance > Configuration > Data Mapping > Event Analysis tab > Event Analysis Mapping, or RBQM > Configuration > Data Mapping > Event Analysis tab > Event Analysis Mapping, if you create a Condition Mapping, and then select a data set in the Treatment ConMed or Treatment ConProcedure reference, a warning message appears if you do not have a procedure or treatment data set mapped in the Treatment Mapping table. The reference is not saved either.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement: 
+- Map Envent Analysis Data 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

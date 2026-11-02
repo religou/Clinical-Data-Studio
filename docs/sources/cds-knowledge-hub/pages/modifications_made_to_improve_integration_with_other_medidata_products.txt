@@ -1,0 +1,58 @@
+# Modifications Made to Improve Integration with Other Medidata Products
+
+## Modifications Made to Improve Integration with Other Medidata Products
+## Description
+ Some functionalities are no longer available in Patient Profiles 2020.1.0 to improve integration with other Medidata products. For more details on which areas of Patient Profiles are affected, see the User Impact section below.
+## Affected Roles
+ Patient Profiles Designer.
+## Advantages
+ Updating the Patient Profiles functionality ensures that you do not encounter patient profile design configurations that are now obsolete or will be re-implented in future releases. 
+## User Impact
+ The following functionality changes are made in Patient Profiles 2020.1.0:
+- The Studies page is no longer available.
+- On the Settings page:
+- The CSA Settings tab no longer displays. 
+- On the Settings page > Design Options tab:
+- The data set accordion on the right side of the page no longer displays. 
+- The Primary Day Zero Date section no longer displays. 
+- The Secondary Day Zero Date section no longer displays. 
+- The Add 1 to study days check box no longer displays. 
+- The CSA Cluster Variable section no longer displays. 
+- Only the Lower time limit field and Upper time limit field remain on the page. 
+- On the Design page > Elements tab:
+- The Add Element > Flag button no longer displays. 
+- The Add Element > Table button no longer displays the Transposed Table option when clicked. 
+- When working in any element type:
+- The Settings option,  , no longer displays when you hover your cursor on a data set in the DATA OPTIONS tab. 
+- When working in Headers: 
+- The Flags data set accordion no longer displays in the list of data sets. 
+- When working in Wide Tables:
+- The TABLE OPTIONS tab > General Options > Visit Name Column field no longer displays. 
+- The TABLE OPTIONS tab > Timeline Options > End Line for Ongoing Events at Last Date Available check box no longer displays. 
+- The TABLE OPTIONS tab > Timeline Options > Color options for functionality is always disabled. 
+- The TABLE OPTIONS tab > Graph Options > Red Border if Value Outside Shaded Range check box no longer displays. 
+- The TABLE OPTIONS tab > Conditional Options section no longer displays. 
+- When working in Patient Information Tables: 
+- The TABLE OPTIONS tab no longer displays. 
+- When working in Timelines: 
+- The Visit Variable section no longer displays. 
+- The Drug Variable section no longer displays. 
+- The TABLE OPTIONS tab no longer displays. 
+- On the Design page > Profiles tab: 
+- The Day 0 reference no longer displays in the patient profile. 
+- On the Report page > Profile Design tab, the Profile Design Report no longer displays the following information:
+- CSA Settings formatting on any element 
+- Primary Day 0 
+- Secondary Day 0 
+- Add 1 to study days 
+- Cluster 
+- Visit Column 
+- End line 
+- Red Border Outside Shaded Range 
+- Drug Variables 
+## Special Considerations
+- Initially accessing Patient Profiles lands you on the Patient Profiles Design page instead of the Studies page. 
+- You no longer must configure Day 0/1 for each study. The configuration is automatically identified by the system. 
+- The CSA Settings page is no longer required as Medidata Detect (formerly known as CSA) has been decoupled from the Patient Profiles configuration.  
+- Flags functionality no longer exists in Patient Profiles. Flag configuration will occur in a separate app in the future. 
+- Transposed table functionality no longer exists in Patient Profiles.

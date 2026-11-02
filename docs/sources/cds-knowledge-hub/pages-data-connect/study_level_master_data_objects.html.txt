@@ -1,0 +1,355 @@
+# Study Level Master Data Objects
+
+## Study Level Master Data Objects
+ You can export Study Level Master Data data objects detailing team membership metrics, role assignment data, and more. These data objects differ from Master Data objects extracted at the Client Division level. For a list of client division level Master Data objects, see  Client Division Level Master Data Objects . 
+ Important : Your Rave URL configuration can affect your ability to access exported data. For details, please contact your Medidata representative or Medidata Support.
+## Countries
+ The Countries data file contains details on countries within a Cloud Administration study. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The name of the organization's client division. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The unique identifier of the organization's client division. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study environment's name, for example: PROD or UAT.
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Environment Country Name 
+ | Alphanumeric 
+ | 2048 
+ | 
+ The study environment country's name.
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment country's unique identifier. 
+ | Team Member UUID 
+ | Unique Identifier 
+ | 16 
+ | The team member's unique identifier. 
+## Study Assignment
+ Provides an overview of all study assignments in Cloud Administration for a user. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The iMedidata client division's name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The client division's unique identifier. 
+ | Protocol ID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The Protocol identifier of the associated study.
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The iMedidata study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | A study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ A study environment's name (for example Dev, Prod or UAT).
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment's unique Identifier. 
+ | Study Environment Site UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment site's unique identifier.
+ | Team 
+ | Text 
+ | 256 
+ | Study, Country, or Site 
+ | Study Environment Site Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment site's name. 
+ | Study Environment Site Number 
+ | Alphanumeric 
+ | 1024 
+ | The study environment site's number. 
+ | User UUID 
+ | Unique Identifier 
+ | 16 
+ | The team member's unique identifier. 
+ | Email 
+ | Alphanumeric 
+ | 256 
+ | The team member's email address. 
+ | First Name 
+ | Text 
+ | 50 
+ | The team member's first name. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The team member's last name. 
+ | Role 
+ | Text 
+ | 256 
+ | The team member's iMedidata role. 
+## Study Site Addresses
+ Provides details of all study environment sites and their addresses for a given study environment. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The iMedidata client division's name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The client division's unique identifier. 
+ | Client Division Organization ID 
+ | Text 
+ | 255 
+ | 
+ The common identifier for the client division organization or parent organization. 
+ | Client Division Organization UUID 
+ | Unique Identifier 
+ | 16 
+ | The unique identifier for the client division organization or parent organization. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The iMedidata study's name.
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | A study's unique identifier. 
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study environment's name, for example: Dev, Prod, or UAT.
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment site's unique identifier.
+ | Study Site Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment site's name. 
+ | Study Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The study environment site's unique identifier. 
+ | Study Site Number 
+ | Numeric 
+ | 1024 
+ | The study environment site's number. 
+ | Study Country UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study country's unique identifier.
+ | Study Country Name 
+ | Alphanumeric 
+ | 2048 
+ | 
+ The study country's name.
+ | Address 1 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study site's first address field.
+ | Address 2 
+ | Alphanumeric 
+ | 256 
+ | The study site's second address field. 
+ | City 
+ | Alphanumeric 
+ | 256 
+ | The study site's city. 
+ | State/Province 
+ | Alphanumeric 
+ | 256 
+ | The study site's state or province. 
+ | Country 
+ | Text 
+ | 2048 
+ | The study site's country. 
+ | Postal Code 
+ | Text 
+ | 30 
+ | The study site's postal code. 
+ | Address Type 
+ | Text 
+ | 3 
+ | The study site's address type. For example: Main for the main address. 
+ | Primary Phone 
+ | Numeric 
+ | 256 
+ | The study site's primary phone number. 
+ | Other Phones 
+ | Numeric 
+ | 256 
+ | A list of the study site's other phone numbers. 
+ | Primary Email 
+ | Alphanumeric 
+ | 256 
+ | The study site's primary email address. 
+ | PI Email Address 
+ | Alphanumeric 
+ | 256 
+ | 
+ The email address of the study site's Principal Investigator (PI).
+ | PI First Name 
+ | Text 
+ | 50 
+ | 
+ The first name of the study site's Principal Investigator (PI).
+ | PI Last Name 
+ | Text 
+ | 50 
+ | The last name of the study site's Principal Investigator (PI). 
+ | PI Role 
+ | Text 
+ | 256 
+ | The iMedidata role of the study site's Principal Investigator (PI). 
+ | PI UUID 
+ | Alphanumeric 
+ | 16 
+ | The user identifier of the study site's Principal Investigator (PI). 
+ | Site Status 
+ | Text 
+ | 256 
+ | The site’s status in CTMS. Values vary depending on study configuration.
+This attribute is only supported for cumulative exports. 
+## Team Membership
+ Provides an overview team membership details as entered in Cloud Administration for the study environment. 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The iMedidata client division's name. 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The client division's unique identifier. 
+ | Protocol ID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The Protocol identifier of the associated study.
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The iMedidata study's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | A study's unique identifier. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ A study environment's unique Identifier.
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | 
+ The study environment's name, for example: Dev, Prod, or UAT.
+ | Team 
+ | Text 
+ | 256 
+ | The team's name. 
+ | Study Environment Country Name 
+ | Text 
+ | 256 
+ | 
+ The study environment country's name.
+ | Study Environment Country UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment country's unique identifier. Available for country level team assignments.
+ | Study Environment Site UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment site's unique identifier. Available for study level team assignments.
+ | Study Environment Site Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment site's name. 
+ | Study Environment Site Number 
+ | Numeric 
+ | 1024 
+ | The study environment site's number. 
+ | Team Member UUID 
+ | Unique Identifier 
+ | 16 
+ | The team member's unique identifier. 
+ | Salutation 
+ | Text 
+ | 50 
+ | The team member's salutation. 
+ | First Name 
+ | Text 
+ | 50 
+ | The team member's first name. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The team member's last name. 
+ | E-Mail Address 
+ | Alphanumeric 
+ | 256 
+ | The team member's email address. 
+ | Role 
+ | Text 
+ | 256 
+ | The team member's iMedidata role. 
+ | Role Start Date 
+ | Timestamp 
+ | 23 
+ | 
+ The date the user was assigned to the particular role of the reported study. The date corresponds to when the user was invited, added. or switched to the role. 
+ Extractor stores the date and time in UTC, and shows both in your local device's timezone. 
+ | Role End Date 
+ | Timestamp 
+ | 23 
+ | 
+ The date the user was removed from a particular role of the reported study. 
+ Extractor stores the date and time in UTC, and shows both in your local device's timezone.

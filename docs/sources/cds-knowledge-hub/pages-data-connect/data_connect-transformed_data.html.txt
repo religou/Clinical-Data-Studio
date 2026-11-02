@@ -1,0 +1,7 @@
+# Data Connect
+
+## Data Connect
+ You can export data objects containing data from datasets transformed by Data Connect's Transformation capability. 
+ Important :
+- Because of the user-driven nature of transformed data, there is no way to list possible output from this data object. The data that you receive from extracted transformed data object depends on the configuration of the source data project. For details about transforming datasets, see Transformations . 
+- The Data Connect data type can be exported in CSV, SAS XPT and dataset JSON formats.

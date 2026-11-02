@@ -1,0 +1,25 @@
+# Capture Study Findings and Build Data Reports Directly in Detect
+
+## Capture Study Findings and Build Data Reports Directly in Detect
+## Description
+ Medidata Detect 2022.2.0 introduces Review Reports, which allow you to build specific data reports and capture study findings that you can use while conducting trial assurances. 
+## Affected Roles
+ All.
+## Advantages
+ You can:
+- Record study findings within the Medidata Detect application without relying on external tools like Excel.  
+- Build and access customized reports for any application you require and enhance proficiency. 
+- Streamline data collection and reporting of review cycles. 
+## User Impact
+ The Detect Landing Page contains a new Utilities pod. Within the pod, you can click the Review Reports link, which directs you to the Review Reports page. The Review Reports page allows you to create and edit review reports . 
+ Tip : Click the image to enlarge.
+ Image 1 - Review Reports 
+ | 
+ Image 2 - Saved Entries in a Review Report 
+ | 
+## Knowledge Space Updates
+ The Knowledge Space provides new and updated content to support the feature: 
+- Review Reports 
+ Special Considerations 
+ Quality Tolerance Limits (QTLs) do not use Detect Review reports.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

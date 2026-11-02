@@ -1,0 +1,13 @@
+# Updated Job Configuration and Job History Details
+
+## Updated Job Configuration and Job History Details
+## Description
+ When an extract job includes multiple studies, the Job configuration and Job History Details pages display the data sets selected for every study included in the extract configuration. 
+## Affected Roles
+ All.
+## Advantages
+ You can see all the extracted data sets across all studies in a single view.
+## User Impact
+ You no longer need to select a specific study before viewing the extracted data sets.
+## Special Considerations
+ None.

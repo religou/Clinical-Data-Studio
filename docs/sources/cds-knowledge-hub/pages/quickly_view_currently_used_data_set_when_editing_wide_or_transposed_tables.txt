@@ -1,0 +1,14 @@
+# Quickly View Currently Used Data Set When Editing Wide or Transposed Tables
+
+## Quickly View Currently Used Data Set When Editing Wide or Transposed Tables
+## Description
+ When editing wide tables or transposed tables, the data set included in the table displays at the top of the Data Options tab to the right of the table. The data set also displays as expanded by default to show the variables.
+ Tip : Click image below to enlarge.
+## Affected Roles
+ All.
+## Advantages
+ Displaying the expanded data set at the top of the Data Options tab prevents you from navigating through the list of data sets to find the data set currently in use. Therefore, you can more quickly determine if you want to change any variables or bring more variables in to the data set.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

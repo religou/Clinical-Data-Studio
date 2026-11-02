@@ -1,0 +1,18 @@
+# Extracting Data with Exports
+
+## Extracting Data with Exports
+ You create exports to enable the extraction of datasets from the Medidata platform  for any studies and environments you have access to . Depending on your role, you can perform one or more of the following actions:
+- Create Export 
+- Download Data Extracts 
+- Review Exports 
+- Rerun Export 
+- Archive Export 
+- Edit Export 
+## Export Considerations
+- Your platform role must include both the Unblinded User and Data Extracts building blocks to access the Exports tab and create exports. For details about granting access see  Grant Access to Data Connect . 
+- If your role has a view restriction for at least one data point of a selected dataset, then you cannot extract the dataset. 
+- All data types extract as individual datasets in  c omma-separated value (.csv) files. You can also choose to extract Rave data in the SAS (.xpt) file format. The export process compresses these files as a single .zip file. You can download the .zip file after a successful export run. 
+- When you configure an export to extract Rave data in the SAS file format, the resulting .zip file contains both .csv files and .xpt files. 
+- All audit exports, including those related to Clinical Data Studio and Data Connect, can take up to 24 hours to run. This time depends on the configured date range and the number of audits for the study. If the audit export fails, consider adjusting the date range. 
+## Data Extraction with APIs
+ You can also programmatically extract data from the Medidata platform by using Clinical Cloud API resources. For details, see the Download Data File Extract from the Medidata Platform workflow and the Data Import and Export resource type on the Medidata Platform API publication in the Knowledge Hub.

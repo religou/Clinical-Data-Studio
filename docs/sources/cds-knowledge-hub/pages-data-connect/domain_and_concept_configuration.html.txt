@@ -1,0 +1,38 @@
+# Domain and Concept Configuration
+
+## Domain and Concept Configuration
+## Description
+ Platform Workbench expands your ability to configure domains and concepts on a data project in the ways outlined in the below table: 
+ Workflow 
+ Capability 
+ | Domain and Concept Creation 
+ | 
+ You can:
+- Add domains and concepts to a data project.
+- If a data project is missing a domain, you can select the following domains in SDTM standards and related concepts to the project:
+- Vital Signs (VS) 
+- Labs (LB) 
+- Concomitant or Prior Medications (CM) 
+- Adverse Events (AE) 
+- If a domain is missing a concept, you can add concepts to add to the domain. 
+- You can remove unnecessary domains and concepts. 
+ Note :  What are Concepts? 
+ Concepts are biomedical semantic terms that have different industry-standard properties attached to them. Concepts help accelerate the data mapping and transformation process by automatically populating values in different data standards. Medidata includes several concepts, but you can also add your own concepts and save them to the library for the future.
+ | Data Source Review 
+ | You can:
+- Review a domain’s data sources, see the source and target sources’ data and metadata, and: 
+- Tag a target data source with details such as enrichment and source field-to-target mapping. 
+- Map a source’s code list or category to specific controlled terminology or canonical syntax. 
+- Preview the target data source’s data mapping. 
+- Review a mapping’s data quality through alerts.
+## Affected Roles
+ Select internal users with permission to use Platform Workbench.
+## Advantages
+ With the expanded domain and concept configuration options, you can build projects that help reconcile the study design with data capture.
+## User Impact
+ None. This feature is available to select internal users.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ This feature is not generally available and will be used for demo purposes by Medidata personnel.
+ To view Medidata testing documentation for this release, refer to RCM.

@@ -1,0 +1,21 @@
+# Exports: Technical Changes for January 2025
+
+## Exports: Technical Changes for January 2025
+## What Is New?
+ Medidata routinely includes technical changes to Data Connect's Exports experience to improve performance and backend processes. Exports introduce the following internal code changes   for   the 2024.3.2 release: 
+- Enhancements to streaming performance . 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ The technical change optimizes back-end processes and provides performance improvements. 
+## Where Do I See the Change?
+ There are no changes to the user interface. 
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

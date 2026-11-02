@@ -1,0 +1,20 @@
+# Copy Elements between Studies, Environments, and Draft Designs
+
+## Copy Elements between Studies, Environments, and Draft Designs
+## Description
+ You can copy an element with all its contents in draft or non-editable master designs from one study to another. The studies, environments, and designs you see are based on your access.  
+## Affected Roles
+ Patient Profiles Designers. 
+## Advantages
+ By copying elements, Patient Profile designers can create new elements from existing studies ensuring that data is more accurate when building new designs.
+## User Impact
+ On the Design page > Elements tab, when you click to the right of a selected element, you can select Copy to another study from an alphabetically sorted list. You can then use the Copy Single Element window to copy the element and all of its contents to another study. The Study list shows studies you have access to and the Environment and Design lists show based on the study you select. To learn more, see  Copy Elements between Studies . 
+## Knowledge Space Updates
+ The Medidata Patient Profiles Knowledge Space provides new and updated content to support this feature: 
+- Add and Manage Elements 
+- Add and Manage Headers 
+- Add, Edit, and Delete Tables 
+- Add, Edit, and Delete Timelines 
+## Special Considerations
+ You cannot set profile designs containing elements with missing data as the master design for use in Medidata Detect. If on the Design page >   Layout tab,   you select an element in the destination study with missing data variables to build a profile design, then under Draft Designs, the Master for Detect  option which appears when you click   on the right hand side of the page is disabled for the copied design. 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

@@ -1,0 +1,17 @@
+# Externalized API Endpoints for MEDS Ingestor
+
+## Externalized API Endpoints for MEDS Ingestor
+## Description
+ You can use Medidata's Clinical Cloud API endpoints to import data using MEDS Ingestor resources. The Medidata platform uploads and processes files received through the endpoint. You can also request the status of a given file import process, or processing job, as well as the status of the transferred files.
+ Feature/enhancement stories referenced in this article:
+ MCC-810580, MCC-810581, MCC-810583, MCC-818763, MCC-818764, MCC-830977, MCC-840159 
+## Affected Roles
+ All roles with permission to use Clinical Cloud RESTful API Resources. For details, see Get Started with Medidata Platform RESTful API Resources .
+## Advantages
+ You can programmatically import files using Medidata's API, giving you more options to import data onto the Medidata platform.
+## User Impact
+ The addition of externalized MEDS Ingestor resources does not affect your use of the MEDS Ingestor user interface.
+## Knowledge Space Updates
+ None. You can find details on the Clinical Cloud API Changelog .  
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,21 @@
+# Profiles Tab No Longer Automatically Loads a Patient Profile By Default
+
+## Profiles Tab No Longer Automatically Loads a Patient Profile By Default
+## What Is New?
+ In previous Patient Profiles releases, when you initially accessed the Patient Profiles Design page > Profiles tab, then the patient profile of the Patient Selector's top-listed patient ID would show on the page by default. 
+ Now the Profiles tab no longer shows a patient profile on the page by default. 
+## What Is the Impact?
+## Users/Roles
+ All Patient Profiles users.
+## Workflow Process
+ When you access the Patient Profiles Design page > Profiles tab, you must select a patient ID from the Patient Selector for a patient profile to appear on the page. 
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Not having a patient profile automatically selected on the Profiles tab by default ensures that subsequently viewed or exported profiles show the correct information.
+## Where Do I See the Change?
+ On the Patient Profiles Design page > Profiles tab. 
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

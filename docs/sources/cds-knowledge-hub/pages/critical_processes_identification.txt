@@ -1,0 +1,18 @@
+# Critical Processes Identification
+
+## Critical Processes Identification
+## Description
+ You can list the critical processes you want to track across studies at the client division level through the use of templates. Or you can identify critical processes at the study level.  Here are some examples of critical processes relevant to a study:
+- Informed Consent 
+- Hematological Tests and Chemistry Collection 
+- Subject Randomization 
+- IP Compliance 
+## Affected Roles
+ All.
+## Advantages
+ You can list the critical processes in a template for use in many studies or define a unique set of critical processes for a single study. It is important to identify the set of risks associated with each critical process. 
+## 
+## User Impact
+ None.
+## Special Considerations
+ None.

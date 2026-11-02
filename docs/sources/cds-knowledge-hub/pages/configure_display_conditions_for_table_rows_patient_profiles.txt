@@ -1,0 +1,18 @@
+# Configure Display Conditions for Table Rows Patient Profiles
+
+## Configure Display Conditions for Table Rows Patient Profiles
+## Description
+ When designing profiles, there may be times when you need to display the same data in two tables, but you need to apply opposing conditions to the rows containing that data. For example, if you want to show significant adverse events (AE) in one table and non-significant adverse events in another table. In such case, you can build two tables with the same exact AE data set variables. On the first table you can build a condition with ae.SAE=Yes. On the second table, you can have the condition of ae.SAE=No.
+ Another example of applying row display conditions is if you know an adverse event table will have empty records, but it is unnecessary to display "No Data." You can create a condition where:
+ "ae.AE Term = is not missing AND ad.AE Start Date = is not missing" . 
+ As a result, empty rows do not display in the report.
+## Affected Roles
+ All.
+## Advantages
+ See the Description section.
+## User Impact
+ When working with wide tables or transposed tables on the Design page > Elements tab, you can:
+- Configure transposed table row display conditions; 
+- Remove transposed table row display conditions. 
+## Special Considerations
+ None.

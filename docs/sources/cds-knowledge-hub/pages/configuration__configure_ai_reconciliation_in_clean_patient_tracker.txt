@@ -1,0 +1,54 @@
+# Configuration: Configure AI Reconciliation In Clean Patient Tracker
+
+## Configuration: Configure AI Reconciliation In Clean Patient Tracker
+ Important : 
+- For a summary of changes done to these release notes, if any, see the  revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the  released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Data Surveillance Configuration
+ Summary of Changes 
+ | 
+ You can now configure the AI Reconciliation reports you want in Clean Patient Tracker on the Data Surveillance Configuration page.  
+ Benefit to Users 
+ | Configuring Data Surveillance to auto-populate the essential AI Reconciliation reports in Clean Patient Tracker: 
+- Ensures only AI Reconciliation reports that are necessary for your study appear. 
+- Enables your organization to seamlessly incorporate AI Reconciliation reports data into Data Surveillance for tracking and analysis. 
+- Ensures Clean Patient Tracker analyses the most recent available AI Reconciliation reports to produce the most accurate data analysis. 
+- Reduces the time and effort to track AI Reconciliation reports. 
+- Ensures data analysis quality by reducing data entry error. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data managers. 
+ Impact to Workflow Processes 
+ No impact to workflow process.
+ Impact to Applications 
+ No impact on other applications.  
+ Impact on Interface 
+ The Data Surveillance > Configuration > Clean Patient Tracker page now includes a section to select AI Reconciliation reports.  
+ If you select the AI Reconciliation reports you want Clean Patient Tracker to show and click Save , the configuration is saved. 
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Clean Patient Tracker Configuration 
+ Special Considerations 
+ |   To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

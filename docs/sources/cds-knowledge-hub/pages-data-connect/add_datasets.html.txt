@@ -1,0 +1,10 @@
+# Add Datasets
+
+## Add Datasets
+ As necessary, you can add datasets from the datasets list. You can add imported datasets and derived datasets .
+## Add an Imported Dataset
+ You can add datasets from external sources.
+- From the All Datasets screen, click Add dataset >  Import to go to the Imports screen where you can add external data sources. For details, see  Import External Data with Imports . 
+## Add a Derived Dataset
+ You can add datasets that contain transformations at both the dataset level and field level, such as with aggregated multiple other datasets or changed data structures. 
+- From the All Datasets screen, click Add dataset >  Derived datasets to go to the data transformation canvas. For details, see  Generate Derived Datasets .

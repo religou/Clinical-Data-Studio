@@ -1,0 +1,18 @@
+# Activate and Deactivate QTLs
+
+## Activate and Deactivate QTLs
+ You can activate custom quality tolerance limits (QTLs) so that their data gets filtered, analyzed, calculated, and shown in the QTL Dashboard, Risk Assessment, and Risk Inventory . If a custom QTL no longer requires analysis, you can deactivate that QTL so that the data no longer gets filtered, analyzed, calculated, or shown in the QTL Dashboard, Risk Assessment, and Risk Inventory. 
+## Activate QTLs
+ You can activate custom QTLs that are ready for consumption in the QTL Dashboard, Risk Assessment, and Risk Inventory.  Activating a QTL triggers a QTL's data to get filtered, analyzed, calculated, and shown in the QTL Dashboard, Risk Assessment, and Risk Inventory after the next data refresh. 
+- Access RBQM , and then click Configuration > QTLs in the left-hand menu.
+ The Quality Tolerance Limits page, which contains the Quality Tolerance Limits list, appears 
+- In the Quality Tolerance Limits list > Activate column, click   in the corresponding row of the QTL you want to activate.
+The Activate column now appears   for that QTL, indicating the QTL is active.
+## Deactivate QTLs
+ You can deactivate custom QTLs that no longer require analysis. Deactivated QTLs do not get calculated or appear in the QTL Dashboard, Risk Assessment, and Risk Inventory following the next data refresh. 
+- Access RBQM , and then click Configuration > QTLs in the left-hand menu.
+The Quality Tolerance Limits page, which contains the Quality Tolerance Limits list, appears.
+- In the Quality Tolerance Limits list > Activate column, click   in the corresponding row of the QTL you want to deactivate. 
+- Enter a reason for deactivating the QTL in the Deactivation Note dialog box and then click  .
+ Tip : The note should provide reasoning for why the QTL analysis is no longer required. For example, QTL is deactivated due to resolved values no longer posing a risk.
+ The Activate column now appears   for that QTL, indicating the QTL is inactive

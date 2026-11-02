@@ -1,0 +1,16 @@
+# Timeline Visit Variable Configuration Functionality Restored
+
+## Timeline Visit Variable Configuration Functionality Restored
+## Description
+ In the Medidata Patient Profiles 2020.1.0 release, the timeline's visit variable functionality was removed to improve integration with other Medidata products. The timeline's visit variable functionality is restored and available for use again. 
+## Affected Roles
+- Unblinded Patient Profiles Designer 
+- Blinded Patient Profiles Designer 
+## Advantages
+ You can add visit variables to timelines again.
+## User Impact
+ On the Design page > Elements tab:  When working in Timelines, the Visit Variable section displays. You can once again  click-and-drag variables from the data sets, and then drop the variables in the: 
+- Visit date variable > Visit Variable column 
+- Visit name variable > Visit Variable column. 
+## Special Considerations
+ None.

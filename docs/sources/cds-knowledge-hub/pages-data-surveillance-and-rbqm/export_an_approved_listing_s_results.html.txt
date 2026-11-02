@@ -1,0 +1,35 @@
+# Export an Approved Listing's Results
+
+## Export an Approved Listing's Results
+ You can export an approved listing's results as a .csv file to: 
+- Review the listing's results locally outside of Data Surveillance. 
+- Perform custom data manipulation in .csv format. 
+- Share offline with stakeholders. 
+- Store for local record retention. 
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Data Listings page shows. 
+- On the Data Listings page, click the  Approved Listings tab.
+The Approved Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's object identifier (OID). 
+- Expression – The listing's conditional expression that is used to identify and flag patient data that meet the specified conditions. 
+- Rave Enabled – A check mark indicates that the listing is Rave enabled, meaning that you can view the listing's Rave query status in Data Surveillance. No check mark indicates that the listing is not Rave enabled. 
+- Refreshed By – The last user who refreshed the approved listing to show the latest results. 
+- Track – Enables you to activate or inactivate the approved listing for Clean Patient Tracker analysis. 
+- If necessary, filter or sort  the Approved Listings table to help find the listing you need. 
+- On the Data Listings page > Approved Listings table, select an approved listing.
+ Below the Approved Listings section, a new section shows the selected listing and lists all patients with data that match the criteria specified in the listing's conditional expression. 
+- Above the listing results table, click Download (xlsx) .
+The listing results download to your browser as a .xlsx file. 
+- Open and save the file.
+The report name is formatted by default as <listing name>_<snapshot date in weekday, dd Mmm yyyy hh_mm_ss>. For example, "Listing Name Wed, 05 Apr 2023 03_13_05".
+ Field and Column Descriptions 
+- Updated By – The last user to refresh the data listing. 
+- Last Updated – The timestamp of the data listing's last successful data refresh. 
+- Patient ID – The ID of the patient whose data matched the criteria specified in the listings conditional expression. 
+- Site – The site that the patient belongs to. 
+- Country – The three-letter abbreviation for country in which the site resides. 
+- Rave Query Status – Specifies whether the Rave query is currently open, processed, or closed. 
+- Variable – Each column header to the right of the Rave Query Status column header represents a variable that the data listing's expression is configured to run against. Variable columns list the variable's data point entries captured by the data listing's conditional expression.

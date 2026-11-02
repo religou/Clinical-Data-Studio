@@ -1,0 +1,22 @@
+# AI Data Reconciliation Features
+
+## AI Data Reconciliation Features
+ Data Reviewer includes the following capabilities related to working with AI Data Reconciliation:
+- AI Reconciliation: Reconciliation Page Name Reverted To AI Reconciliation 
+- AI Reconciliation: Query Rave Data In External Datasets Using Derived Datasets 
+- AI Reconciliation: Updated AI Reconciliation Provides A Better User Experience 
+- Updated AI Reconciliation Audit Button Improves Usability 
+- Data Surveillance: View Refresh Status For Individual AI Data Reconciliation Reports 
+- Data Surveillance: AI Data Reconciliation Reports Show Separate Confidence And Feedback Columns 
+- Data Surveillance: Reconcile Oncology Data With CTCAE Grading Reports 
+- PDS: Add and Manage Internal Review Comments on AI Data Reconciliation Report Records 
+- PDS: Minor AI Data Reconciliation User Interface Enhancements for April 2024 
+- PDS: Updated AI Data Reconciliation Report Download Files 
+- PDS: Conditions Without Treatments Report Includes Indication 
+- PDS: AI Data Reconcilation Reports Now Include Data Set and Overlapping Data Set 
+- PDS: Conditions Without Treatments Report Indicates Actions Taken 
+- Preselected AI Data Reconciliation Patient IDs Enable Easy Rave Query Submission 
+- AI Data Reconciliation Enhancements 
+- Reconcile Data Accurately Using Data Reviewer Algorithms 
+- PDS: Updated AI Data Reconciliation Page Terminology Enables Multi-Data Set Analysis 
+- PDS: Show or Hide Tables Columns for Approved Listings Results and AI Data Reconciliation Reports

@@ -1,0 +1,51 @@
+# Stacked Datasets
+
+## Stacked Datasets
+ Stacked datasets are derived datasets that you create by merging datasets with common variables into one dataset. Stacked datasets: 
+- Enable for simpler study data organization and review. 
+- Optimize Data Surveillance's and RBQM's statistical analysis and visual output of data. 
+## What Are Stacked Datasets?
+ Stacked datasets are derived datasets that you create by merging datasets with common variables into one dataset. Stacked datasets include all variables from all the source datasets, even variables without any common matches across the source datasets. 
+## What Is the Purpose of Stacked Datasets?
+ Study data can sometimes contain datasets that share numerous common variables. For example: 
+- Medidata Rave may include variations of the same type of eCRF, or 
+- Study data may come from multiple sources such as a Rave vitals dataset and an external vitals dataset, or 
+- Screening data and study collection data may have similar data points. 
+ Stacked datasets enable you to merge datasets with common variables into one dataset.  
+## Who Creates and Manages Stacked Datasets?
+ Data managers.
+## What Are the Benefits of Stacked Datasets?
+ In instances where multiple datasets have numerous shared variables, merging the datasets into one stacked dataset: 
+- Simplifies the organization of your study data. 
+- Enables you to review your study data, create data listings, build patient profiles, and create derived variables faster and easier by streamlining the datasets you must access, review, and work with. 
+- Simplifies the configuration process when mapping the data sets and variables that Data Surveillance and RBQM use to consume and produce the reports, statistical analysis, and visual output for:
+- Data anomaly detection and trends . 
+- Event incidence and under-over reporting events . 
+- Potential duplication patients . 
+- Rounding and propagating vital sign records . 
+- AI Data Reconciliation reports . 
+- Data visualizations . 
+- RECIST 1.1 analytics . 
+- Optimizes the statistical analysis and visual outputs that Data Surveillance and RBQM produce on your study data to be as clean and accurate as possible. 
+## How Do Stacked Datasets Work?
+ The Stacked Datasets capability in Data Surveillance and RBQM enables you to create stacked datasets . You can then:
+- View and investigate the stacked datasets as part of your overall study data review process. 
+- Use stacked datasets to : 
+- Build data listings . 
+- Create visualizations . 
+- Add elements to patient profile designs . 
+- Configure within Data Mapping the datasets and variables that Data Surveillance and RBQM use to consume and produce the reports, statistical analysis, and visual output for: 
+- Data anomaly detection and trends . 
+- Event incidence and under-over reporting events . 
+- Potential duplication patients . 
+- Rounding and propagating vital sign records . 
+- AI Data Reconciliation reports . 
+- RECIST 1.1 dashboard plots . 
+- Define and add custom QTLs and custom KRIs that target specific facets of your study data that you want to monitor for risk. 
+- Create derived variables . 
+ In addition, you can view the list of stacked datasets in your study along with details for each stacked dataset such as: 
+- Creation and modification dates. 
+- Source datasets from which the stacked datasets derive. 
+ Note : On the Data Sets page, Data Listings page, and Visualizations page, the list of available datasets appends stacked dataset names with the green DERIVED icon. Note that Data Surveillance appends derived variable names with a blue DERIVED icon. 
+## How Do I Create Stacked Datasets?
+ See  Create and View Stacked Datasets .

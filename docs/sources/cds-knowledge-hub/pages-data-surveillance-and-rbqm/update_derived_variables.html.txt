@@ -1,0 +1,8 @@
+# Edit Derived Variables
+
+## Edit Derived Variables
+ You can update the name and label of your derived variables .
+- Access Data Surveillance or RBQM , and then click Configuration > Derived Variables in the left-hand menu. 
+- Navigate to a data set > derived  variable  within Data Sets list and click  derived . 
+- Update the Name and  Label fields. 
+- Click  Save .

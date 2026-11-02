@@ -1,0 +1,16 @@
+# Configure Display Conditions for Elements Patient Profiles
+
+## Configure Display Conditions for Elements Patient Profiles
+## Description
+ You can configure tables and timelines to display on a conditional basis. We provide this functionality because sometimes there are situations where an element is created to display data that may not apply to all subjects. For example, if an element is created to display pregnancy status data points, then you would want the element to only display data that applies to female subjects. 
+ Therefore, you can create conditions—such as “dem.gender=Female”—so that Medidata Patient Profiles knows to hide this particular element in reports for male subjects. As a result, taking the aforementioned example, the report will not display an empty timeline for male subjects. This yields a cleaner, more aesthetic looking report. 
+## Affected Roles
+ All.
+## Advantages
+ See the Description section.
+## User Impact
+ When working with tables or timelines on the Design page > Elements tab, you can:
+- Configure element display conditions; 
+- Remove element display conditions. 
+## Special Considerations
+ None.

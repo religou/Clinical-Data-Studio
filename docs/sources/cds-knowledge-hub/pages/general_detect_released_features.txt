@@ -1,0 +1,17 @@
+# General Data Surveillance and RBQM Released Features
+
+## General Data Surveillance and RBQM Released Features
+ Data Surveillance and RBQM include the following general, application-wide capabilities :  
+- Introducing the Enhanced Release Notes Experience 
+- Internal and Technical Changes in Data Surveillance and RBQM Dec 2025 
+- Clinical Data Studio 2025.3.0 Minor and Technical Enhancements 
+- Data Surveillance and RBQM: Help Menu Launches Contextually Relevant Knowledge Hub User Assistance Directly in App 
+- Introducing Clinical Data Studio 
+- Internal and Technical Changes in Medidata Detect April 2024 
+- Internal and Technical Enhancements in Medidata Detect November 2023 
+- Launch Instructional Videos in-App Directly at the Point of Need 
+- Internal and Technical Enhancements in Medidata Detect August 2023 
+- Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience 
+- RBQM: Subjects Updated To Patients In KRIs and QTLs 
+- Notification Center for Detect 
+- Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience

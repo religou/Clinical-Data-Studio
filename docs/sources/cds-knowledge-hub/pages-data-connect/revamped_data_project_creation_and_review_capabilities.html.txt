@@ -1,0 +1,33 @@
+# Revamped Data Project Creation and Review Capabilities
+
+## Revamped Data Project Creation and Review Capabilities
+## Description
+ Platform Workbench has been rebuilt to expand your ability to create and manage data projects in the ways outlined in the below table: 
+ Workflow 
+ Capability 
+ | Project Creation 
+ | 
+ You can:
+- Name the project. 
+- Select a target data set standard for the project, and the data set standard's version.
+ Note : The current available standard and version is SDTM version 3.3.
+ | Reviewing the Project List 
+ | You can:
+- Update or archive projects. 
+- Select a study and view its data sources, such as Rave EDC. When you select the study, you can: 
+- See a summary of that study’s available data projects as a table that includes the following metadata about each data project: 
+- Target view 
+- Constituent data sources 
+- Creation date 
+- Project Status – not started, ongoing, published, or archived 
+## Affected Roles
+ Select internal users with permission to use Platform Workbench.
+## Advantages
+ Platform Workbench serves as end-to-end data standardization tool using RAVE EDC as sources, and converting them into Adverse Event (AE) and Vital Signs (VS) SDTM as target data sets. With the expanded project creation options, you can build projects that help reconcile the study design with data capture. 
+## User Impact
+ None. This feature is available to select internal users.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ This feature is not generally available and will be used for demo purposes by Medidata personnel. 
+ To view Medidata testing documentation for this release, refer to RCM.

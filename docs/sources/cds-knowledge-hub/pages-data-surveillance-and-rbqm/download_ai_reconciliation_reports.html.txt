@@ -1,0 +1,13 @@
+# Download AI Reconciliation Reports
+
+## Download AI Reconciliation Reports
+ You can download and view each AI Reconciliation Report in CSV format. Doing so allows you to review the reports outside of Data Surveillance.
+- 
+ Access the AI Data Reconciliation report you want to view. 
+- Access Data Surveillance , and then click AI Reconciliation in the left-hand menu.
+The AI Data Reconciliation page shows. 
+- Click the Conditions or Treatment tab. 
+- Click   a report name. 
+- Click Download (.xlsx) .
+The report downloads as an Excel file to your browser. 
+## .

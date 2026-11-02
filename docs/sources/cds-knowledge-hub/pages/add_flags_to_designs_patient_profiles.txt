@@ -1,0 +1,16 @@
+# Add Flags to Designs Patient Profiles
+
+## Add Flags to Designs Patient Profiles
+## Description
+ Flags are conditional expressions that highlight important, high-level study information about patients. Reviewers use flags to quickly gauge a patient's status and the study's progress. For example, when reviewing a patient's report, you can quickly see whether a patient died, had a serious adverse event (SAE), and so on.  You build flag condition using variables from any data set to create expressions.  Designs require at least one flag.
+## Affected Roles
+ All.
+## Advantages
+ Flags allow report reviewers to quickly gauge a patient's status and the study's progress.
+## User Impact
+ On the Design page > Elements tab, you can:
+- add flags; 
+- edit flag names, operators, values, and expressions; and 
+- remove flag rows. 
+## Special Considerations
+ None.

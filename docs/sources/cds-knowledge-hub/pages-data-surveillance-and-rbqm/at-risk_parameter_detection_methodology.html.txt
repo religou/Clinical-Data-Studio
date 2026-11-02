@@ -1,0 +1,34 @@
+# At-risk Parameter Detection Methodology
+
+## At-risk Parameter Detection Methodology
+ At study startup, your project team should preidentify study-level parameters that are critical to quality and define the QTLs that you want to monitor for risk. Your team can then build the custom QTLs you want to track in your study in RBQM Configuration. When building custom QTLs, you define:
+- Parameter  – The t itle for the study variable that you want to assess at the study level. 
+- Definition  – Details that explain what the parameter is meant to monitor and how it is measured.
+- Expectation % – The QTL's expected mean value as a percentage based on historical data.
+ Note : Your project team should establish the QTL's expected value during the study startup and before data collection begins. This helps avoid potential bias influenced by preexisting knowledge and assumptions from historical data from previous studies, literature, and other avenues.
+- Final Population (# of patients) – Total number of patients expected to enroll in the study.
+- Trigger Point – The minimum required number of patients that meet the QTL's conditions for RBQM to analyze and output the QTL's results in the QTL Dashboard.
+- Numerator Query – Configurable mathematical expressions using operators and conditions on study data-derived variables to define how RBQM calculates and analyzes the QTLs you want to track in your study. 
+- Denominator Query – Configurable mathematical expressions using operators and conditions on specific data population subsets to define how RBQM calculates and analyzes the QTLs you want to track in your study. 
+ You can then activate QTLs to trigger RBQM to calculate the QTL percentage values and analyze QTL performance.
+ The logic expression used to build the numerator query and denominator query ultimately calculates the parameter's QTL percentage value by: 
+- Threshold – Two standard deviations above the QTL's predefined, expected value. RBQM considers parameters whose QTL values exceed the threshold as at risk. This indicates potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine root cause and to prevent or mitigate study issues. 
+- Upper Limit – Three standard deviations above the QTL's predefined, expected value. RBQM considers parameters whose QTL values exceed the upper limit as high risk. This indicates potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine root cause and to prevent or mitigate study issues. 
+ Note: How RBQM Auto-calculates the Threshold and Upper Limit
+ A common and effective method for computing the confidence interval (CI) of a given distribution is the approximation of the normal distribution from the Central Limit Theorem, given the sample size, n, is large enough (n>50). However, when n is small (n<50), using pure normal approximation in terms of computing CI can lead to noticeable approximation error. To better tackle this potential problem, the Wilson score interval method is used to compute the CI in the QTL algorithm. The Wilson method provides more accurate intervals, particularly for small sample sizes. As the sample size increases (n>100), the Wilson method’s approximation approaches that of the normal distribution, ensuring accurate CIs across varying sample sizes. 
+ Furthermore, RBQM's statistical analysis also flags and identifies when a QTL is a: 
+- QTL Excursion – A parameter's current observed QTL percentage value that:
+- Exceeds the upper limit, and 
+- Is impossible to move the QTL value back within a healthy range of the QTL's expected value no matter the actions taken by the project team. 
+ QTL excursions indicate that the study quality is compromised to the point that the study may need to be shut down or restarted. 
+ The QTL excursion prediction methodology uses the “best-case-scenario” method, which assumes that future observed QTL percentage values will be the “best case scenarios” for the study. For example, if an observed QTL percentage value at a given time point significantly exceeds three standard deviations above the expected value, then the “best-case-scenario” method:
+- Computes the remaining number of patients still to enroll in the study (based on the final population provided in the QTL configuration), and 
+- Determines that if no additional patients prematurely discontinue the study, then RBQM would still consider the parameter's QTL value as an excursion. 
+ Lastly, for each activated QTL, the QTL Dashboard graphically renders:
+- Each predefined study parameter's QTL percentage value. 
+- RBQM's statistical analysis and approximation of the QTL threshold and upper limit. 
+- RBQM's statistical analysis of whether the parameter's QTL value is within a healthy range of the expected QTL value or whether it exceeds the threshold value or upper limit value. 
+ You can observe and track RBQM's analyses on the QTL Dashboard from three different perspectives:
+- Live View – Meters that show each study parameter's currently observed QTL value and QTL performance based on RBQM's most recent study data analysis. The Live View depicts the QTL performance relative to the expectation, threshold, and upper limit.  
+- Patients View – Funnel plots that show each study parameter's currently observed QTL performance relative to the expectation, threshold, and upper limit based on the number of patients enrolled in the study. However, in particular, the Patient View shows the QTL's projected threshold and upper limit values based number of enrolled patients using RBQM's statistical analysis. 
+- Time View – Line graphs that show each study parameter's observed QTL value recorded over time on each date that RBQM performed a study data analysis. The Time View depicts the QTL's historical performance relative to the expectation, threshold, and upper limit.

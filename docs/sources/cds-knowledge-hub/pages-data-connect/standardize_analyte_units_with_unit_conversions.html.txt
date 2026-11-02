@@ -1,0 +1,48 @@
+# Standardize Analyte Units with Unit Conversions
+
+## Standardize Analyte Units with Unit Conversions
+ You can standardize analyte units in Data Connect Transformations to prepare datasets for regulatory submissions. This process uses derived datasets to apply pre-defined unit conversions from a centralized reference dictionary.
+## Prerequisites
+ Category 
+ Requirement 
+ Learn More 
+ | Building Blocks 
+ | Each of the following: 
+- Manage Transformation Projects 
+- Manage Data Sources 
+ | Data Connect Roles and Capabilities 
+## Understand Reference Dictionaries
+ Your organization can use one of two reference dictionary types to enforce global mandates. 
+- Custom Dictionary – A dictionary that your provides using an Application Programming Interface (API). Your organization maintains complete control over this dictionary 
+- Default Dictionary – An open-source dictionary called Quantities, Units, Dimensions and Data Types (QUDT). QUDT converts conventional or United States units to Standard International (SI) units. . 
+## Standardize and Convert Units
+## Create Derived Dataset Project
+- Access Data Connect . 
+- Go to Transformations , click Add Project , and enter the following details: 
+- Project Name : Enter a unique project name. 
+- Project Type: Select Derived datasets . 
+- Setup From : Select From scratch . 
+- Click Add project . 
+## Configure Unit Conversion
+- On the right side of the project row, click More > View / Modify to open the canvas. 
+- Drag your source dataset (for example: LBCHEM) from the left-hand Data Source panel to the target canvas. 
+- Select the dataset node, click the More icon, and select Unit conversion from the operator menu 
+- On the Dataset Details step, enter the following details: 
+- New dataset name – Enter a unique name for the new dataset. You cannot alter the original source node name. 
+- Select current dataset layout – Select the structure of the source dataset. Select Horizontal if the dataset contains individual variables for units and analytes. 
+- Selection conversion output – Select your target format (for example, SI unit). 
+- Click Continue . 
+- On the Source Units Definition step, map the unit columns to their corresponding analytes: 
+- Source unit columns – Select the column containing unit values (for example, Sodium_Unit). 
+- Select the value column (for example, Sodium) and map it to the corresponding unit column. 
+- Click Continue . 
+- On the Result Columns step, define the output column naming convention to differentiate between original and converted variables: 
+- Enter a prefix or suffix for the Result value column (for example, _values). 
+- Enter a prefix or suffix for the Result unit column (for example, _units). 
+- Click Continue . 
+- Click Apply Unit Conversion . 
+## System Behavior and Data Processing
+- Asynchronous Processing – The unit conversion process runs in the background and takes several minutes depending on the dataset size. You can navigate away from the canvas to work on other projects without interrupting the conversion. 
+- Completed Status – Once the conversion finishes, a new node appears on the canvas with a link indicating unit conversion. 
+- Unmapped Units – If the dictionary does not contain a unit or analyte, the system flags the record as Not available and outputs a null value. 
+- Multiple Matches – If the system finds multiple units for a single analyte, it shows an alert. You must open the configuration and manually select the correct unit from the dictionary.

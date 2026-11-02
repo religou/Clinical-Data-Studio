@@ -1,0 +1,13 @@
+# Day Zero Date Displays in Patient Profile Viewer
+
+## Day Zero Date Displays in Patient Profile Viewer
+## Description
+ The patient's day zero date and associated visit name now display on the Design page > Profiles tab in the patient profile header row. The day zero date also indicates whether the date is the selected patient's primary or secondary day zero date.
+## Affected Roles
+ All.
+## Advantages
+ In previous Patient Profiles Cloud releases, you could only view a patient's day zero date if you pulled the day zero variable into a header element. Now you can conveniently see the day zero date on the Design page > Profiles tab as part of the default header row when viewing patient profiles. This also allows users with the Patient Profile Viewer role to see the patient's day zero date.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

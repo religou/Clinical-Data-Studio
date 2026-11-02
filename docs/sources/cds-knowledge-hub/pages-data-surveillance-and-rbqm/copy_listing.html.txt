@@ -1,0 +1,34 @@
+# Copy Listings
+
+## Copy Listings
+ Users with the right access can copy listings within study environments or across multiple studies. Copying listings enables you to:
+- Save time and effort required to build new listings within a study. 
+- Maintain consistency across studies. 
+- Streamline anomaly detection process. 
+- Enhance overall study data reconciliation and review efficiency. 
+- Supports faster study setup. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Data Listings page shows. 
+- Click Manage Listing on the upper-right side of the Data Listings page.
+The Manage Listing page > Listings table shows all draft and approved listings in your study and each listing's associated details.
+ Table Column Descriptions 
+- Name – The listing's object identifier (OID). 
+- Expression – The data listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- Created By – The user who created the listing. 
+- Created –  The listing's creation date. 
+- Updated By – The user who most recently updated the listing. 
+- Last Updated – The data listing's creation date or or when the last saved edit occurred. 
+- Rave Enabled – A check mark indicates that you can directly within Data Surveillance view and submit Rave queries on the patient records captured by the data listing . 
+- Status – Indicates whether the listing is in approved or draft status. 
+- Activate – Enables you to control which approved listings and draft listings you want to show in the Data Listings > Approved Listings table and Data Listings > Draft Listings table, respectively. The activated slider, , indicates that the listing currently shows in its Approved Listings table or Draft Listings table. The deactivated slider,  , indicates that the listing is currently hidden from the Approved Listings table or Draft Listings table.  
+- If necessary, filter or sort the Listings table to find the listings you need. 
+- Select a listing. 
+- Click Copy above the listings table. 
+- On the Copy page, select the following depending on whether you copy within or across study environments:
+- Client 
+- Study groups 
+- Study 
+- Study Environment 
+- Click Copy .
+The listing is copied into the study.
+ Note : You cannot approve a copied draft listing, until you preview and save the listing expression. You can further edit and validate the expression for a copied listing. A warning   symbol appears next to copied listings indicating that you must preview and save the listing first.

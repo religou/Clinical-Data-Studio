@@ -1,0 +1,20 @@
+# Plan Documents
+
+## Plan Documents
+ A Data Quality Plan (DQP) in a study is a comprehensive document that outlines the strategies, procedures, and measures to ensure the accuracy, completeness, reliability, and integrity of the data collected during the trial. The plan is essential for verifying that the data supports robust conclusions and complies with regulatory standards. The Plan Documents capability enables data managers to build integrated data quality plans that may include risk mitigation methods for the study. 
+## 
+## What Is Plan Documents?
+ Plan Documents is a capability where you can build integrated data quality plans, including adding risk mitigations for your study.
+## What Is the Purpose of Plan Documents?
+ With plan documents, data managers can build data quality plans that scope out the various aspects of running a study, maintaining data integrity, and mitigating risk to study data. Plan Documents act as a tool to review and monitor data throughout a study, and ensure the successful execution of a clinical trial.
+## Who Uses Plan Documents?
+ Data managers with Manage Data Quality Plans and View Data Quality Plans building blocks use plan documents. 
+## How Does Plan Documents Work?
+ You can add mitigations and associate functional plans in the Risk Review section in Risk Management to track risks for better study data accuracy. You can then use various components available under the Plan Documents section to build integrated data quality plans which act as a guide for risk mitigation in the study. 
+## What are the Benefits of Plan Documents?
+ Plan documents are integral to maintaining data integrity. Plan Documents:
+- Streamlines operational planning by enabling the quick creation and management of comprehensive plans, allowing for faster execution.
+- Transforms risk data into actionable, dynamic plans that actively guide team member actions.
+- Provides enhanced transparency into actions and mitigations linked to each plan, ensuring alignment, accountability, and improved compliance across teams. This turns data quality management into a proactive, integrated process.
+## How Do I Create Plan Documents?
+ See  Access, View, and Create Plan Documents .

@@ -1,0 +1,23 @@
+# Datasets: Data Profiling and Comparision
+
+## Datasets: Data Profiling and Comparision
+## What Is New?
+ Users can:
+- Visually verify the respective data source has everything they need before they create a custom data product, and then verify the custom data product that they created. 
+- Compare both data profiles on single dataset with different filters. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the Workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Users can confirm the datasets and verify the data they need to apply complex transformations amidst vast data.
+## Where Do I See the Change?
+ To access the data profiling feature, go to the Profiling tab on the Datasets screen.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Feature: 
+- Dataset Profiling 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

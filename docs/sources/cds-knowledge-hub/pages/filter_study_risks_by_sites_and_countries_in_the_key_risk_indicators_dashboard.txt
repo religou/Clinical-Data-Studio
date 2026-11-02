@@ -1,0 +1,33 @@
+# Filter Study Risks By Sites And Countries In The Key Risk Indicators Dashboard
+
+## Filter Study Risks By Sites And Countries In The Key Risk Indicators Dashboard
+## Description 
+ You can filter Key Risk Indicators (KRIs) tracked in your study and their respective KRI values by multiple sites or countries, and reposition KRI value columns in the KRIs Dashboard available on the Detect Landing Page. 
+## Affected Roles
+- Central Monitors 
+- Study Managers 
+- Site Monitors 
+## Advantages
+ You can use filters to:
+- Locate, track, compare, and determine how risks evolve at the study for specific sites or countries. 
+- CSM possible issues or risks that require mitigating actions. 
+## User Impact 
+ On the Detect Landing Page > Key Risk Indicators (KRIs) > KRI Dashboard > Key Risk Indicators page, you can apply filters to columns in the Key Risk Indicators table. 
+- If you select Country in the View By field and then select one or multiple countries in the Countries field, the Key Risk Indicators table shows KRIs by countries you select. The default view is by Site. Filters also appear under Categories and KRI dashboard fields. 
+ Tip : Click image to enlarge. 
+- If you select from the list and click Apply , the table shows KRIs value columns based on selected options. 
+- If you enter three characters or digits in the field for Sites or Countries, Categories, or KRIs, the list shows data that includes the filter parameter. The filter response differs depending on the selected parameter. For example, if you enter 100 for Site, the list shows 1001, 1002, 1002, in this sequence. If you select sites from the list and then click Apply , the corresponding risk indicator categories and values appear. If you filter by one column and then by another, the first record that matches the filter parameters shows at the top of the Key Risk Indicators table. For example, you can filter by countries, than categories and then specific KRIs. 
+- For KRI categories, dragging and dropping column headers allows you to reposition KRI value columns in the Key Risk Indicators table. You can hide all columns except the View By and Enrolled Patient Count columns.  
+- If you scroll to the bottom of the Key Risk Indicators table, the updated color-coded risk thresholds text appears as follows: 
+- Red* - Risk warrants prompt investigation and site follow up* to determine root cause for site's non-compliance. 
+- Orange* - Risk warrants investigation to determine root cause for site's non-compliance. 
+- Green - Site is likely operating and reporting data as expected. 
+- Gray - Not enough reported data to determine risk level. 
+## Knowledge Space Updates
+ The Centralized Statistical Monitoring (formerly Medidata Detect) Knowledge Space provides new and updated content to support the KRI's Dashboard enhancement: 
+- Investigate Data Using the Key Risk Indicators Table (Updated) 
+## Special Considerations
+- For authorized Issue Management users selecting a KRI value in the Key Risk Indicators table, the button appears to the upper right on the Key Risk Indicators page. 
+- Centralized Statistical Monitoring does not perform site-level or country-level KRI analysis for studies with fewer than three sites or three countries. 
+- If you do not select all the KRI values from a KRI category, the KRI category header does not appear in the Key Risk Indicators table along with the KRI values columns. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

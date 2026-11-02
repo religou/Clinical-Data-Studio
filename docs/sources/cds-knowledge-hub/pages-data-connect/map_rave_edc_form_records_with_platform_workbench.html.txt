@@ -1,0 +1,15 @@
+# Map Rave EDC Form Records with Platform Workbench
+
+## Map Rave EDC Form Records with Platform Workbench
+## Description
+ With Platform Workbench, you can create data mappings connecting records from Rave EDC between multiple forms . You can create data maps for specific studies, and then configure those mappings for later use. As your record data during visits, the recorded data appears in Rave EDC according to the mappings you set. 
+## Affected Roles
+ Select internal users with permission to use Platform Workbench.
+## Advantages
+ A study's form design can sometimes differ from how you capture data during the study. Data mapping gives you more flexibility reconciling the study design with data capture.
+## User Impact
+ None. This feature is available to select internal users.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ This feature is not generally available and will be used for demo purposes by Medidata personnel.

@@ -1,0 +1,60 @@
+# Update Job Configuration Details
+
+## Update Job Configuration Details
+ After creating one or more import jobs , you can use Ingestor to update job details on each job's Job Configuration screen. Editable job details include the job name and completion status of the job. For some job types, such as external EDC jobs, you can edit additional details. 
+ Important : To update job configuration details, you must have a building block  that allows you to Manage Data assigned to your customer-defined platform role. For details, see  Ingestor Roles and Permissions List .
+## Open Job Configuration Page
+ You can access the Job Configuration page from specific job.
+- Log into iMedidata.com . 
+- Navigate to Ingestor through an assigned client division. 
+- Select an import job to review.
+ Tip : You can filter import jobs by different parameters, such as Study, Job Type, and Environment. To filter the import job list, click the Filter icon  for one of the parameters, and select which data to filter by.
+- Click the Job Configuration tab.
+ Tip : You can also access the Job Configuration page by clicking the gear icon from the jobs list.
+## Update Job Name
+ You can update the job name to change how the job appears throughout Ingestor.
+- On the Job Configuration page, click  Edit Job . 
+- Enter the job name. 
+- Click  Save Changes . 
+## Update Job Completion Status
+ You can inactivate jobs by marking them as Complete, or reactivate jobs by marking completed jobs as Active.  When you mark a job complete, you cannot: 
+- Import additional data into completed import jobs. 
+- Change the associated data integration version associated with completed import jobs. 
+## Mark Job As Complete
+- On the Job Configuration page, click  Mark as Complete . 
+## Mark Job As Active
+- On the Job Configuration page, click  Mark as Active . 
+## Update Data Integration Fields
+ You can update an external EDC job's data integration version. The Job Configuration screen notifies you when a new data integration version is available. You can also lock a data integration version to prevent updates.
+## Edit Data Integration Version
+- On the Job Configuration page, click  Edit Job . 
+- Select a data integration version. 
+- Click Save Changes . 
+## Lock Data Integration Version
+- On the Job Configuration page, click  Lock Version . 
+## Update Import Settings
+ You can update a job's import settings, such as how it uses SFTP to import data or its import type.
+## Toggle Email Notifications
+ You can configure import jobs to send email notifications on job completion. The notifications inform your stakeholders if the job completed successfully, successfully with failed rows, or unsuccessfully and includes relevant details. Email notifications deliver for jobs leveraging any import method: through the Ingestor interface, through an external sFTP location, or through Medidata API resources.
+ Email notifications trigger for the following users that create jobs, modify jobs, or import files.
+- On the Job Configuration page, click  Edit Job . 
+- Toggle Receive Email Notification After Job Completion on. 
+- Click Save Changes . 
+ Toggle SFTP Settings 
+ You can enable or disable the job's SFTP settings. When enabling SFTP settings, y ou must define an input folder path to receive files from and an output folder path to place Ingestor's post-processing files. Every 30 minutes, Ingestor imports the files from the Input File Path and exports various status files to the output folder path. When applicable, the exported files include processing files such as error lists, reconciliation reports, and success logs. 
+- On the Job Configuration page, click  Edit Job . 
+- Click the SFTP settings toggle, and enter your SFTP settings:
+- SFTP Location – Select from the menu.
+ Note : To configure the list of SFTP locations, you must use Extractor. For details on setting up an sFTP location, see  Configure External File Locations for Imports . 
+- Folder Location to Retrieve Files – If necessary, enter the extension to the path described in the SFTP Location to import files from.  When left blank, Ingestor uses the SFTP location's root folder. 
+- Global Input Folder Toggle – Sets the selected SFTP location as a global import folder. When multiple import jobs use the same SFTP Input File Path, Ingestor can identify the appropriate jobs and transfer the corresponding files from the file names.
+ Note : If you want to use an SFTP location as a global location in Ingestor, then you must configure the SFTP location for global use on the SFTP location configuration screen. You cannot mark an SFTP location as global in Ingestor if it is not set as global on the SFTP location configuration screen. 
+- Folder Location for Output Status Files  –  If necessary, enter the extension to the path described in the SFTP Location to save process files to.  When left blank, Ingestor uses the SFTP location's root folder. 
+- Click Save Changes . 
+## Toggle Import Type
+ For external EDC jobs, Ingestor processes the imported files depending if the job's import type is cumulative or incremental.  
+- On the Job Configuration page, click  Edit Job . 
+- Select an Import Type: 
+- Cumulative – Imported files replace all existing data. 
+- Incremental – Imported files add to or update existing data. You can   Upsert – add or update existing items – or Delete items.   The uploaded file's name determines if Ingestor upserts or deletes items. If the file's name contains "upsert", then upsertion occurs. If the file's name contains "delete", then deletion occurs. 
+- Click Save Changes .

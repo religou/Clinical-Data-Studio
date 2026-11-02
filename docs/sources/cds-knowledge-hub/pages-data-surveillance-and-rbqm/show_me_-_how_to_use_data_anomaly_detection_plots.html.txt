@@ -1,0 +1,19 @@
+# Show Me - How to Use Data Anomaly Detection Plots
+
+## Show Me - How to Use Data Anomaly Detection Plots
+ Summary 
+ | This video shows how to use Statistical Monitoring's Data Anomaly Detection plots 
+ Duration 
+ | 2 minutes 41 seconds plus user interaction time 
+ Product 
+ | RBQM 
+ Release 
+ | All releases 
+ Video Category 
+ | Data Anomaly Detection 
+ Related Topics 
+ | 
+- Data Anomaly Detection 
+- Investigate Data Using Data Anomaly Detection Plots 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

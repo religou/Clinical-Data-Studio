@@ -1,0 +1,39 @@
+# Download KRI Configuration Reports
+
+## Download KRI Configuration Reports
+ You can download key risk indicator (KRI) configuration reports, which contain pertinent configuration information about the KRIs in your study environment. The reports provide configuration details in a clear, easy-to-read, and exchangeable format.
+ Note : System KRIs are not available in KRI Configuration Report download files.
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu.
+- On the Key Risk Indicators page, click Report .
+The Detect Configuration Manager - Config Report - KRIs XLS file downloads to your machine. 
+- Open the file.
+ Column Descriptions 
+- Risk Category – A broad, categorized area of risk within which individual key risk indicators are identified, tracked, and mitigated. Risk categories and data sets have a parent-child relationship. 
+- Risk Category Weightage – Indicates whether the KRI's risk category is configured as Low, Medium, or High Risk. 
+- Indicator Type  – Specifies whether the KRI is a numeric KRI or percentage KRI . 
+- Indicator Name  – The unique label that identifies the KRI. 
+- Description  – Details about what the KRI is, what it is meant to calculate and track, or any other helpful information. 
+- Status – Indicates whether the KRI is active or inactive. Active KRIs get their data filtered, calculated, and shown in the KRI Dashboard, Risk Assessment, and Risk Inventory.  Inactive KRIs do not get calculated or shown in the KRI Dashboard, Risk Assessment, or Risk Inventory. System KRIs are active by default. 
+- Add to SRI – Indicates whether or not the KRI is configured as being factored in to RBQM's site risk analysis. 
+- Calculation Type  – The type of calculation that the custom KRI uses to perform on the selected variable. Custom KRIs can use one of the following standard calculation types:
+- Count  – Calculates the average record count in the selected data set. The Count calculation is only available at the data set level. 
+- 
+- Count Values  – Calculates the average count of records in the study that meet a specified criteria based on the selected variable. Valid only for data of a 1 or 0. 
+- Mean  – Calculates the mean value of a numeric data field based on the selected variable at the site. 
+- Rate  – Calculates the average record count in the selected data set over time. The Rate calculation is only available at the data set level. 
+- Rate Values – Calculates the average percentage in a site of non-missing, non-zero values for a given variable. Use cases include the fraction of Adverse Events which are Serious, where Serious was 1 for an SAE, and 0 for a non-SAE event, or the fraction of a lab parameter out of normal range. 
+- Standard Deviation  – Calculates the amount of dispersion or variance in a set of observed values based on the selected variable. 
+- Percentage  – A user-defined binary expression that assesses if subjects meet specified conditions or criteria within a targeted risk area.
+ Note : The percentage calculation type only applies to custom percentage KRIs.
+- Dataset – The  data set  that the custom KRI uses to perform the KRI calculation on. 
+- Variable – The  variable  that the custom KRI uses to perform the KRI calculation on. 
+- Threshold Type –  Indicates whether the KRI's threshold is user-defined or system-defined. 
+- Moderate Risk Threshold –  The configured value for the KRI's lowest risk limit. 
+- High Risk Threshold – The configured value for the KRI highest risk limit. 
+- Numerator Expression – The identified logic configured for the KRI's numerator used to query for matching subjects. The numerator expression targets the entire data set population. 
+- Denominator Expression – The identified logic configured for the KRI's denominator used to query for matching subjects. The denominator expression targets a specific dataset population subset. 
+- Created On – The KRI's original creation date. 
+- Updated By – The last person to update the KRI configuration. 
+- Updated On – The date when the KRI configuration was most recently updated. 
+- Modification Note – The reason for changing KRI configuration. 
+- Deactivated At – The date when the KRI was last deactivated.

@@ -1,0 +1,15 @@
+# Quality Tolerance Limits Released Features
+
+## Quality Tolerance Limits Released Features
+ Medidata Detect includes the following QTL-related capabilities: 
+- QTL Dashboard: Improved QTL Report Download Performance 
+- View Patient-level Data for QTLs 
+- QTL Enhancements for Detect November 2023 
+- View Current and Historical QTL Value Trends 
+- RBQM: Schedule Data Refreshes Using the QTL Scheduler 
+- Preview and Export Comprehensive QTL Reports 
+- Get Notified When QTLs Exceed Quality Thresholds 
+- QTL Patient and Time Trend Graphs More Clearly Deliniate Excursions 
+- Detect-Risk Management QTL Integration Enhancement 
+- Track Study-level Threats Using Quality Tolerance Limits (QTLs) 
+- Schedule or Trigger When QTL Dashboard Refreshes with the Latest Study Data Analysis

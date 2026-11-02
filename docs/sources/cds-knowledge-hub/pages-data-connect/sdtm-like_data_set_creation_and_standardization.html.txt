@@ -1,0 +1,32 @@
+# SDTM-like Data Set Creation and Standardization
+
+## SDTM-like Data Set Creation and Standardization
+## What Is New?
+ You can perform source-to-target data mapping and transformations for all Study Data Tabulation Model (SDTM) domq∂Ωains within a selected SDTM version. With this feature, users can: 
+- View source data records and fields during SDTM-like data generation 
+- Configure SDTM target variables by mapping from source data fields, current target domain variables, and entered values 
+- Customize transformations using no-code modules for field transformation 
+- Configure supplemental variables; that is, variables that are not part of the SDTM domain 
+- Preview results of the SDTM-like data set during configuration 
+- Validate the results of the SDTM-like data set during configuration based on the implementation guide's SDTM domain metadata requirement 
+ The field transformation module includes:
+- Over 20 no-code modules including mathematical functions, conditional functions, and concatenation 
+- The ability to create nested transformation functions 
+- Custom code support for open source postgres SQL 
+ When you refresh the preview while building data mappings or derived data sets, Platform Workbench performs quality checks on your edits. Platform Workbench bases these checks on the data catalog’s SDTM metadata requirements. 
+## What Is the Impact?
+## Users/Roles
+ All users.
+## Workflow Process
+ You can perform data mappings and transformations for data projects created with the Select from Existing Target Views option. 
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ By transforming data using the modules, you  can complete up to 80% of SDTM-like data standardization tasks even if you are a nontechnical user. The automated results preview and live validation reduce iteration and hand-off points during the data standardization process. 
+## Where Do I See the Change?
+ You can see source data by clicking the Preview button on the left panel. While configuring an SDTM-like data set, a Refresh button appears in the Data Preview tab. Once published, you can see your published data sets on the Study Projects screen > Data Source section > Curated Views list.
+## Where Do I Learn More?
+ The Platform Workbench Publication provides new content to support this feature:
+- Generate SDTM-like Datasets 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

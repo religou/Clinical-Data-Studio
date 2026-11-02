@@ -1,0 +1,38 @@
+# CSM: Rounding Events and Propagation Events Summary Table Improvements
+
+## CSM: Rounding Events and Propagation Events Summary Table Improvements
+## What Is New?
+ The Rounding Events Summary table and Propagation Events Summary table both include the following enhancements:
+- The #AFFECTPATIENTS/TOTALPATIENTS column header is relabeled to # Affected Patients. 
+- Column headers whose names derived from event names were previously formatted as #<event name> records Rounded/Total <event name> records. Now those column names are formatted as #<event name>. 
+- When you scroll horizontally through the table, the Site column remains frozen in place and always visible. 
+- A new Site filter menu above the table enables you to select a site to show highlighted in blue at the top of the table. Clicking Reset next to the filter returns the table to the default view. 
+ The Rounding Events Summary > Patients with Record Events table and Propagation Events Summary > Patients with Record Events table include the following enhancements:
+- The dialog box header now includes (Records rounded / Total records) next to the site name. 
+- When you scroll horizontally through the table, the Patient column remains frozen in place and always visible. 
+- A new column, Rounding Event, shows a check mark for patients that have at least one rounding event. No check mark indicates the patient has no rounding events. 
+## What Is the Impact?
+## Users/Roles
+ Central monitors
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The enhancements to the:
+- Rounding Events Summary table 
+- Propagation Events Summary table 
+- Rounding Events Summary > Patients with Record Events table, and 
+- Propagation Events Summary > Patients with Record Events table 
+ offer usability and readability improvements for greater comprehension and efficiency when analyzing sites and patients with potential rounding and propagation.
+## Where Do I See the Change?
+ On the:
+- Centralized Statistical Monitoring (CSM) > Data Veracity > Rounding and Propagation page > Rounding Events tab > Rounding Events Summary section >  
+- Centralized Statistical Monitoring (CSM) > Data Veracity > Rounding and Propagation page > Rounding Events tab > Rounding Events Summary section > Patients with Record Events table, 
+- Centralized Statistical Monitoring (CSM) > Data Veracity > Rounding and Propagation page > Propagation Events tab > Propagation Events Summary section, and 
+- Centralized Statistical Monitoring (CSM) > Data Veracity > Rounding and Propagation page > Propagation Events tab > Propagation Events Summary section, Patients with Record Events table. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of these enhancements:
+- Identify and Investigate Sites That Potentially Round or Propagate Vital Sign Records 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

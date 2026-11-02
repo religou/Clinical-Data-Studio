@@ -1,0 +1,13 @@
+# View and Export Audit Reports for Custom Graphs
+
+## View and Export Audit Reports for Custom Graphs
+ You can view audit reports to track actions made on custom graphs in your study and maintain a consistent audit trail . For example, you can 
+- Identify specific changes that were made (like creation or deletion of custom graphs). 
+- Track the study personnel who made updates. 
+- Identify when the updates were made. 
+ Note: You require permissions to view the audit trail. To learn more, see Data Surveillance Building Blocks and Permissions . 
+- Access Data Surveillance , and then click   Custom Graphs   in the left-hand menu. The Custom Graphs page shows. 
+- Click the Clock     icon   next to   the   Refresh   button . A new browser tab opens up the Audit Viewer > Custom Graphs Report . 
+- Optional: You can click   Show Filters  above the upper-right corner of the table to filter the reports by Start Date and End Date . 
+ Note: In the Custom Graphs Report, the Activity Description  column shows graph name in the first line and  clear descriptions of configuration changes. 
+ Tip :     In Audit Viewer, you can click   Export   and then  Excel ,   CSV , or   PDF to download the report locally and view offline or sort data by column headings. Report exports include the entire history, regardless of the filters applied in the Audit Viewer window.

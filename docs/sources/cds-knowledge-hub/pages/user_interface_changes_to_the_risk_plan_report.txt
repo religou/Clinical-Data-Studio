@@ -1,0 +1,17 @@
+# User Interface Changes to the Risk Plan Report
+
+## User Interface Changes to the Risk Plan Report
+## Description
+ The Risk Plan Report labels have changed to align with other Risk Management Reports.
+## Affected Roles
+ Study User.
+## Advantages
+ Improved labeling on the Risk Management report pages provides a more consistent user experience when generating reports. 
+## User Impact
+- The Risk Plan Reports label in the left pane is renamed to Reports . 
+- From the Reports tab, you can generate a PDF version of either the Risk Plan Report or Quality Tolerance Limit QTL Summary Report. 
+- Changes to Risk Plan Report details automatically save as soon as you enter new or updated information. You do not have to manually save changes when you edit the report details. 
+- The pane titled Risk Plan Participants has been renamed to Participants . Adding or deleting Participant records for one report automatically updates the Participant lists available for use in all Risk Management reports. 
+- You can issue a bulk selection request for all participants by clicking the check box in the header of the Participants list. Click once to select all check boxes. Click again to cancel the selection of all check boxes. 
+## Special Considerations
+ The Generate Risk Plan Reports building block name has changed to Generate Reports .

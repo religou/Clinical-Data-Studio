@@ -1,0 +1,39 @@
+# Load Study Design Metadata Files
+
+## Load Study Design Metadata Files
+ You must configure data integrations and protocol configuration by creating an SDM import job and uploading the required set of SDM files. These data integrations and protocol configurations enable you to upload other types of data, including external EDC data.
+ After creating an SDM import job, you then import the four required SDM files using comma-separated value (CSV) files. Importing SDM files creates both of:
+- A protocol configuration named <study name>Protocol Configuration at version 1. 
+- A data integration named External EDC Data Integration at version 1. 
+ After importing SDM files, you can track the status of your files from the import job's Job Files screen. The Job Files screen shows data related to the files you uploaded. 
+## Create SDM Import Job
+- Log into iMedidata.com . 
+- Navigate to Ingestor through your assigned client division.
+- Click New Import Job .
+- From the Data Type menu, select  Study Design Metadata . 
+- Click  Continue . 
+- From the Study menu, select a study that the import job applies to.
+ Tip : You can enter the study name to filter the study list.
+- Click Continue . 
+- Enter a Job Name. 
+- If necessary, click the   Email Notifications toggle. 
+- Click  Continue . 
+- If necessary, click the SFTP settings toggle, and enter your SFTP settings:
+- SFTP Location – Select from the menu.
+ Note : To configure the list of SFTP locations, you must use Extractor. For details on setting up an sFTP location, see  Configure External File Locations for Imports . 
+- Folder Location to Retrieve Files – If necessary, enter the extension to the path described in the SFTP Location to import files from.  When left blank, Ingestor uses the SFTP location's root folder. 
+- Global Input Folder Toggle – Sets the selected SFTP location as a global import folder. When multiple import jobs use the same SFTP Input File Path, Ingestor can identify the appropriate jobs and transfer the corresponding files from the file names.
+ Note : If you want to use an SFTP location as a global location in Ingestor, then you must configure the SFTP location for global use on the SFTP location configuration screen. You cannot mark an SFTP location as global in Ingestor if it is not set as global on the SFTP location configuration screen. 
+- Folder Location for Output Status Files  –  If necessary, enter the extension to the path described in the SFTP Location to save process files to.  When left blank, Ingestor uses the SFTP location's root folder. 
+- Click  Continue . 
+- Review the job's summary details, and click Create Import Job .
+ The created import job appears on Ingestor's Jobs List screen. 
+## Import SDM Data
+- From the Jobs List screen, identify the import job to import data with, and click the import job's name.
+ Tip : You can filter import jobs by different parameters, such as Study, Job Type, and Environment. To filter the import job list, click the Filter icon  for one of the parameters, and select which data to filter by.
+- Click  Import New Data .
+- From the file browser, select files to import. The import process starts immediately.
+ Important : You must upload all four SDM files simultaneously.
+ Tip : You also can drag files onto the file uploader. 
+## Next Step
+ Load Clinical Data Files

@@ -1,0 +1,213 @@
+# Export Configuration Compatibility by Data Type
+
+## Export Configuration Compatibility by Data Type
+ You can create exports to extract different types of data from the Medidata platform. Some configuration options differ between data types. The below tables highlight the job configuration options for each data type.
+ For details on the different data types, see  Available Exportable Data Objects .
+## Data Export Type Compatibility
+ You can set exports to extract data cumulatively or incrementally:
+- Cumulative – Each export instance exports all available data. 
+- Incremental – Each export instance only exports data changes since the previous run. The first incremental run is cumulative. 
+ For details about configuring an export's data export type, see Set Data Export Type .
+ Level 
+ Data Type 
+ Cumulative 
+ Incremental 
+ | Client 
+ | Client Division Level Master Data Objects 
+ | Yes 
+ | Yes 
+ | Client 
+ | Client Division Level Audit Master Data Objects 
+ | Yes 
+ | No 
+ | Study Level 
+ | Rave Data Objects 
+ | Yes 
+ | No 
+ | Study Level 
+ | CTMS Monitoring Visits, Letters, and Reports Data Objects 
+ | Yes 
+ | Yes 
+ | Study Level 
+ | CTMS Issues and Actions 
+ | Yes 
+ | Yes 
+ | Study Level 
+ | CTMS Documents, Submissions, Enrollment, Milestones, and Service Providers 
+ | Yes 
+ | Yes 
+ | Study Level 
+ | CTMS Tasks 
+ | Yes 
+ | Yes 
+ | Study Level 
+ | Study Level Master Data Objects 
+ | Yes 
+ | Yes 
+ | Study Level 
+ | Study Level Audit Master Data Objects 
+ | Yes 
+ | No 
+ | Study Level 
+ | CTMS Audit 
+ | Yes 
+ | No 
+ | Study Level 
+ | Study Level Rave Audit Data Objects 
+ | Yes 
+ | No 
+ | Study Level 
+ | Rave Companion Audit 
+ | Yes  
+ | No 
+ | Study Level 
+ | Data Connect – Transformed Data 
+ | Yes 
+ | Yes 
+ | Study Level
+ Client (Exports only)
+ | Data Connect Audit Data 
+ | Yes 
+ | No 
+ | Study Level 
+ | Clinical Data Studio Audit Data 
+ | Yes 
+ | No 
+## Repeating Export Compatibility
+ You can set exports to run immediately, schedule export to run at a future date, or schedule exports to repeat at a regular frequency. Repeating options include:
+- Minutely – The export runs each minute, starting from the start date and time. 
+- Hourly  – The export runs each hour, starting from the start date and time. 
+- Daily – The export runs at the selected hour each day, starting from the start date. 
+- Weekly  – The export runs on the selected hour on the selected days of every week.   The export first executes on the next selected day and hour on or after the scheduled start date. 
+- Monthly  –   The export runs at the selected date and hour each month. Exports only run on the months containing that date. 
+- Last day of month  –   The export runs at the selected hour on the last day of each month. This option ensures that exports run on the last day of every month, irrespective of the number of days in the month. 
+ For details about scheduling jobs, see  Schedule Export . 
+ Level 
+ Data Type 
+ Minutely 
+ Hourly 
+ Daily 
+ Weekly 
+ Monthly 
+ Last Day of the Month 
+ | Client 
+ | Client Division Level Master Data Objects 
+ | No 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Client 
+ | Client Division Level Audit Master Data Objects 
+ | No 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Client 
+ | Rave Data Objects 
+ | No 
+ | No 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Study 
+ | CTMS Monitoring Visits, Letters, and Reports Data Objects 
+ | No 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Study 
+ | CTMS Issues and Actions 
+ | No 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Study 
+ | CTMS Documents, Submissions, Enrollment, Milestones, and Service Providers 
+ | No 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Study 
+ | CTMS Tasks 
+ | No 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Study 
+ | Study Level Master Data Objects 
+ | No 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Study 
+ | Study Level Audit Master Data Objects 
+ | No 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Study 
+ | CTMS Audit 
+ | No 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Study 
+ | Study Level Rave Audit Data Objects 
+ | No 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Study 
+ | Rave Companion 
+ | No 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Study 
+ | Data Connect – Transformed Data 
+ | No 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Study
+ Client (Exports only)
+ | Data Connect Audit Data 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Study 
+ | Clinical Data Studio Audit Data 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes

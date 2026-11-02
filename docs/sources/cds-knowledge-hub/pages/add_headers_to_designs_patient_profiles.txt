@@ -1,0 +1,19 @@
+# Add Headers to Designs Patient Profiles
+
+## Add Headers to Designs Patient Profiles
+## Description
+ The header is the top section in the profile design. Designs can have only one header. Headers comprise one or more rows that are three or six columns wide. These columns hold flag information and individual variable information. Profiles require at least one flag; therefore, profile designs must also include a header to contain the flag. The Header section remains fixed at the top of the page when a you scroll down when viewing the patient profile in CSA.
+## Affected Roles
+ All.
+## Advantages
+ Headers identify the information contained in a section within the profile. Headers also hold flag and variable information. Rows without headers—such as patient information tables, which contain information only—benefit from having headers atop the row to label and define the table.
+## User Impact
+ On the Design page > Elements tab, you can:
+- Add headers, 
+- Name and rename headers, 
+- Add header rows, 
+- Rename header variables, 
+- Change the placement of a header row, and 
+- Remove header rows. 
+## Special Considerations
+ Headers are heavily weighted during the CSA analytics process. Therefore, we encourage you to use headers for information that CSA can analyze. For example, you do not want to add a Study Name variable to a header since the same variable applies across all subjects .

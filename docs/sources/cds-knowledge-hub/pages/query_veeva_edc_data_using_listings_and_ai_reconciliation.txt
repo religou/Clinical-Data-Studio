@@ -1,0 +1,60 @@
+# Data Surveillance: Query Veeva EDC Data Using Listings And AI Reconciliation
+
+## Data Surveillance: Query Veeva EDC Data Using Listings And AI Reconciliation
+## What Is New?
+ You can now use an external EDC platform such as Veeva as your study data source. Once you onboard a Veeva study, the data appears for use in Data Surveillance. You can also submit single queries directly into Veeva EDC for non-system fields in your study data from Listings and AI Reconciliation.
+## What Is the Impact?
+## Users/Roles
+ All study team members.
+## Workflow Process
+ No change to workflow.
+## Other Applications
+ You study must be set up with Veeva as external data source. For further details, see Data Connect Veeva Importing .
+## How Do I Benefit?
+ Data managers can query and reconcilie study data from external EDC such as Veeva by raising queries directly into Veeva EDC from Data Surveillance.
+## Where Do I See the Change?
+ In Data Surveillance using a Veeva study:
+- On the Data Sets page, the left hand Data Sets menu shows variables with source as EDC, indicating that the study data source is Veeva. External data within the Veeva study is marked as External. 
+- On the Listings page, you can submit single queries for transformed (derived data sets) and non-transformed into Veeva EDC. For derived data sets, the Submit Query button appears disabled if query submission is not enabled for the form, and mandatory fields are not completed. If you create a listing, and toggle on Enable Query, you can create a EDC query enabled listing. For a query enabled listing, if you select a record and click Submit Query, the following fields populate automatically. If you click Submit, the query is submitted into Veeva EDC.
+- Patient ID 
+- Site 
+- Country 
+- Query Text 
+- Field 
+- Value 
+- On the AI Reconciliation page:
+- For non-transformed data sets, if you click any report and then select a record (patient ID), you can click Submit Query to send a query into Veeva directly. 
+- For derived data sets or non-transformed data sets, if you click  Submit Query , no Form, Field, Folder, or Marking Group fields appear. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the feature:
+- Imports: Direct Querying Compatibility for Veeva EDC 
+- Review Approved Listing Results 
+- Review AI Reconciliation Reports Findings 
+## What Else Should I Know?
+ You can only submit a single query at a time into Veeva EDC from Listings or AI Reconciliation. If you select multiple records, the Submit Query button becomes disabled. You cannot submit queries for the following system fields:
+- STUDYID 
+- COUNTRY 
+- SITENUM 
+- SUBJID 
+- EGROUP 
+- EGROUPDEF 
+- EGROUPEID 
+- EVENT 
+- EVENTDEF 
+- EVENTEID 
+- EVENTDT 
+- ESEQ 
+- FORM 
+- FORMDEF 
+- FORMEID 
+- FSEQ 
+- FORMSTATUS 
+- CREATEDT 
+- FIRSTSUBMITDT 
+- LASTSUBMITDT 
+- IGSEQ 
+- DLASTMOD 
+- FGUID 
+- IGGUID 
+- LASTRUN 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

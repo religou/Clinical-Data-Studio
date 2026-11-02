@@ -1,0 +1,213 @@
+# Add and Edit Custom QTLs
+
+## Add and Edit Custom QTLs
+ Within a given study environment , you can define and add custom  quality tolerance limits (QTLs) that target specific facets of your study data that you want to monitor for risk. If necessary, you can also edit the details of the custom QTLs that you create. 
+## Add Custom QTLs
+ Quality tolerance limits (QTLs) are study-level metrics that indicate if a study parameter's reported data has breached a pre-identified data quality threshold . QTLs target and monitor the greatest risks to  a study's: 
+- Safety 
+- Conduct 
+- Performance 
+- Compliance 
+- Data quality 
+ QTLs that reach or exceed a threshold indicate that the QTL's target study parameter may warrant investigation and mitigation. Tracking QTLs helps: 
+- Ensure the study conduct operates as planned. 
+- Identify as well as prevent or mitigate systematic issues early on in the study that may: 
+- Threaten patient safety or study efficacy. 
+- Invalidate the reliability of the study findings. 
+ After  creating and activating custom QTLs in QTL Configuration, you can track QTL performance in RBQM's  Quality Tolerance Limits page . 
+- Access RBQM , and then click Configuration > QTLs in the left-hand menu.
+ The Quality Tolerance Limits page, which contains the Quality Tolerance Limits list, appears. 
+- Do one of the following:
+- To add a new custom QTL from scratch, click Add Custom QTL . 
+- To add a new custom QTL based on an existing QTL template: click Import Template , select the Template Group , select the template you need from the Templates list, and then click Import . To learn more about templates, see  Data Surveillance Template Library . 
+- In the Quality Tolerance Limit dialog box, select or enter the following:
+- Parameter  – Enter a title for the study variable that you want to assess at the study level. 
+- Definition  – Enter more details that explain what the parameter is meant to monitor and how it is measured.
+- Expectation % – Enter the QTL's expected mean value as a percentage based on historical data.
+ Note : Your project team should establish the QTL's expected value during the study startup and before data collection begins. This helps avoid potential bias influenced by preexisting knowledge and assumptions from historical data from previous studies, literature, and other avenues.
+- Final Population (# of patients) – Total number of patients expected to enroll in the study. The final population should be equal to or more than the expected population.
+ Tip : Adjust the expected number of patients to correspond with protocol revisions or if the study is over- or under-enrolled.
+- Trigger Point – The minimum required number of patients that meet the QTL's conditions for RBQM to analyze and output the QTL's results in the QTL Dashboard.
+ Tip : We recommend entering 25 or higher in Trigger Point to ensure RBQM produces a more reliable QTL analysis and prevent any erroneous early excursions or threshold violations .
+- To begin building an expression: From the list of Data Sets , click, drag, and drop a variable within the Numerator Query .
+ Special Notes
+- If data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or _DTC. For example, the source date is missing the day, the enriched _INT field interpolates the 1st day of the month, and _DTC fields drop the unknown value. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms. 
+- RBQM currently does not support building custom QTLs with data sets using datetime operations. 
+- When you define an individual condition, the condition is evaluated for whether there is at least one instance where the condition is true across all data in that domain for a given patient. If you build a grouped conditional set, the individual conditions in the set are independently evaluated for truth but not contextually evaluated within the same folder. 
+- Select a comparator, such as = or !=, and then select or enter a comparator value.
+The list of selectable comparators differs whether you select a date, number, or text variable. The comparator value serves as the conditional threshold, which measures and flags whether specified conditions are met regarding the selected comparator.
+ Note : For multiple-record data, similar QTLs with inverse queries may not produce inverse percentage values.
+ Comparators and Comparator Value Descriptions 
+ Selected Variable Type 
+ Comparator 
+ Description 
+ Comparator Value Entry 
+ | Text, Numeric, Date 
+ | = 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click, drag, and drop a variable from the list of data sets. 
+ For date variables: select a date from the calendar picker or click, drag, and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text, Numeric, Date 
+ | != 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is not equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click, drag, and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click, drag, and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | > 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is greater than or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click, drag, and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click, drag, and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | < 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is less than or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click, drag, and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click, drag, and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | >= 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is equal to, greater than, or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click, drag, and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click, drag, and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | >= 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is equal to, less than, or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click, drag, and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click, drag, and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text 
+ | One Of 
+ | Calculates the percentage of patients at the site or country level who contain at least one of the reported terms within the select variable. 
+ | Select one or more patient-reported strings or terms. 
+ | Text, Numeric, Date 
+ | Missing 
+ | Calculates the percentage of patients at the site or country level who do not contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text, Numeric, Date 
+ | Not Missing 
+ | Calculates the percentage of patients at the site or country level who contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text 
+ | Contains 
+ | Calculates the percentage of patients at the site or country level who contain a specific, user-entered value reported data within the selected variable. 
+ | Enter a text value. 
+- Optional . To add conditions to the expression, click, drag, and drop  or to the block within the Numerator Query that contains Add Condition . You can add as many conditions as you need.
+- AND  – Specifies that all individual conditions and conditions grouped within a grouped conditional set must be met for the expression to be considered true. 
+- OR  – Specifies that at least one individual condition or grouped conditional set must be met for the expression to be considered true. 
+- Repeat Steps 3-5 to build as many conditions as needed. 
+- If necessary, close any grouped conditional sets using   and  .
+- To remove a left or right paren from the Numerator Query, hover your cursor in the upper-right corner of the block containing the paren, and then click  X .
+ Tip : Click image to enlarge.
+- To remove a grouped conditional set from the Numerator Query, hover your cursor in the upper-right corner of the block that says  AND , OR , or ADD CONDITION which appears immediately to the right of the set you want to remove, and then click  X .
+The grouped conditional set to the left of the AND , OR , or ADD CONDITION block is removed. 
+ Tip : The Numerator Expression section details the full condition set as you build to help you determine if the logic you are configuring is correct. You can click Hide Preview to hide the Expression section.
+- Configure the QTL to target specific data population subsets by following steps 5-9 again, but perform the steps in the  Denominator Query . 
+- When finished building the expressions, click Save .
+The new custom QTL appears in the Quality Tolerance Limits list as inactive by default. To learn how to activate QTLs, see  Activate and Deactivate QTLs . 
+## Edit Custom QTL Details
+ After creating and saving a new custom QTL, you can update the custom QTL details, if necessary. For example, if initial study assumptions change during study execution—such protocol amendments or outdated expectations—you can revise the QTL's configuration details and document reasons for change.
+ Note : You cannot edit currently activated custom QTLs.
+- Access RBQM , and then click Configuration > QTLs in the left-hand menu.
+ The Quality Tolerance Limits page, which contains the Quality Tolerance Limits list, appears. 
+- Click any custom QTL in the Parameter  column. 
+ Tip : QTL parameters appear in blue, hyperlinked text.
+- In the Quality Tolerance Limit dialog box, select, enter, or update the following:
+- Parameter  – Enter a title for the study variable that you want to assess at the study level. 
+- Definition  – Enter more details that explain what the parameter is meant to monitor and how it is measured.
+- Reason for Change – Enter the reason for updating the QTL details. 
+- Expectation % – Enter the QTL's expected mean value as a percentage based on historical data.
+ Note : Your project team should establish the QTL's expected value during the study startup and before data collection begins. This helps avoid potential bias influenced by preexisting knowledge and assumptions from historical data from previous studies, literature, and other avenues.
+- Final Population (# of patients) – Total number of patients expected to enroll in the study.
+ Tip : Adjust the expected number of patients to correspond with protocol revisions or if the study is over- or under-enrolled.
+- Trigger Point – The minimum required number of patients that meet the QTL's conditions for RBQM to analyze and output the QTL's results in the QTL Dashboard.
+ Tip : We recommend entering 25 or higher in Trigger Point to ensure RBQM produces a more reliable QTL analysis.
+- To begin building an expression: From the list of Data Sets , click, drag, and drop a variable within the Numerator Query .
+ Note : If data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or _DTC. For example, the source date is missing the day, the enriched _INT field interpolates the 1st day of the month, and _DTC fields drop the unknown value. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms.
+- Select a comparator, such as = or !=, and then select or enter a comparator value.
+The list of selectable comparators differs whether you select a date, number, or text variable. The comparator value serves as the conditional threshold, which measures and flags whether specified conditions are met regarding the selected comparator.
+ Note : For multiple-record data, similar QTLs with inverse queries may not produce inverse percentage values.
+ Comparators and Comparator Value Descriptions 
+ Selected Variable Type 
+ Comparator 
+ Description 
+ Comparator Value Entry 
+ | Text, Numeric, Date 
+ | = 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click, drag, and drop a variable from the list of data sets. 
+ For date variables: select a date from the calendar picker or click, drag, and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text, Numeric, Date 
+ | != 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is not equal to the comparator value entry. 
+ | 
+ For text variables: enter a text value.
+ For numeric variables: enter a number value or click, drag, and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click, drag, and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | > 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is greater than or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click, drag, and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click, drag, and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | < 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is less than or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click, drag, and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click, drag, and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | >= 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is equal to, greater than, or later than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click, drag, and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click, drag, and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Numeric, Date 
+ | >= 
+ | Calculates the percentage of patients at the site or country level whose reported value within the selected variable is equal to, less than, or earlier than the comparator value entry. 
+ | 
+ For numeric variables: enter a number value or click, drag, and drop a variable from the list of data sets.
+ For date variables: select a date from the calendar picker or click, drag, and drop a variable from the list of data sets.
+ Note :  When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+ | Text 
+ | One Of 
+ | Calculates the percentage of patients at the site or country level who contain at least one of the reported terms within the select variable. 
+ | Select one or more patient-reported strings or terms. 
+ | Text, Numeric, Date 
+ | Missing 
+ | Calculates the percentage of patients at the site or country level who do not contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text, Numeric, Date 
+ | Not Missing 
+ | Calculates the percentage of patients at the site or country level who contain reported data within the selected variable. 
+ | Not applicable. 
+ | Text 
+ | Contains 
+ | Calculates the percentage of patients at the site or country level who contain a specific, user-entered value reported data within the selected variable. 
+ | Enter a text value. 
+- Optional . To add conditions to the expression, click, drag, and drop  or to the block within the Numerator Query that contains Add Condition . You can add as many conditions as you need.
+- AND  – Specifies that all individual conditions and conditions grouped within a grouped conditional set must be met for the expression to be considered true. 
+- OR  – Specifies that at least one individual condition or grouped conditional set must be met for the expression to be considered true. 
+- Repeat Steps 3-5 to build as many conditions as needed. 
+- If necessary, close any grouped conditional sets using   and  .
+ Tip : The Numerator Expression section details the full condition set as you build to help you determine if the logic you are configuring is correct. You can click Hide Preview to hide the Expression section.
+- Optional.  If you want the QTL to target specific data population subsets, follow steps 5-9 but perform the steps in the Denominator Query . 
+- When finished building the expressions, click Save .
+The updated custom QTL appears in the Quality Tolerance Limits list as inactive by default. To learn how to activate QTLs, see Activate and Deactivate QTLs .

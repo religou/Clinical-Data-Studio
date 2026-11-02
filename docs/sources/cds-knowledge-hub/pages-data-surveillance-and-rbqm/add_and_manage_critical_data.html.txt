@@ -1,0 +1,156 @@
+# Add and Manage Critical Data
+
+## Add and Manage Critical Data
+ You can identify and include as part of your risk assessment the data that is most critical to your study outcome . For example, administrative and demographic information, diagnosis, treatment, prescription drugs, laboratory tests, physiologic monitoring data, hospitalization, patient insurance , and so on. 
+ Adding critical data to the risk assessment helps you focus on and monitor the most important data to ensure:
+- Protocol compliance, patient safety, data quality, and data integrity. 
+- Product or treatment efficacy. 
+ You can:
+- Add critical data to the risk assessment. 
+- Add and manage the risks associated with critical data. 
+- View the critical data and their associated high-level details included in the risk assessment. 
+- View the risks associated with critical data. 
+- Edit critical data details. 
+- Delete critical data. 
+- View and export Critical Data Audit Reports. 
+ Note : S tudy data automatically refreshes twice daily at approximately 9:00am (EST) and 9:00pm (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, and 11:00 am (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Medidata Rave and  activated datasets from Data Connect  is available in 12 to 18 hours within  RBQM.   For more information, see  Clinical Data Studio Data Pipeline . 
+## Add Critical Data to the Risk Assessment
+ You can identify and include as part of your risk assessment the data that is most critical to your study outcome . For example, administrative and demographic information, diagnosis, treatment, prescription drugs, laboratory tests, physiologic monitoring data, hospitalization, patient insurance , and so on. 
+ You can add critical data by: 
+- Creating new critical data at the study level. 
+- Using a preexisting study-level critical data template. 
+ When adding critical data, you can configure specific data points associated with the critical data that you want to flag as critical to the study and track for risk.
+ Adding critical data to the risk assessment helps you focus and monitor the most important data to ensure:
+- Protocol compliance, patient safety, data quality, and data integrity. 
+- Product or treatment efficacy. 
+ Tip : After adding a critical data to the risk assessment, you can associate risks to the critical data . And then in addition, you can:
+- Associate QTLs , KRIs , and risk mitigations to the risk. 
+- Monitor the risk in the Risk Inventory . 
+- Manage the risk from the Risk Assessment or Risk Inventory . 
+- Access RBQM , and then click Risk Assessment > Critical Data in the left-hand menu. 
+- On the Critical Data page, click Add Critical Data .
+- Click the Critical Data menu, and do one of the following: 
+- To add a new, unique critical data, select >>New Critical Data . 
+- To add a critical data from a critical data template that resides at the client division or study group level, click a template name. 
+- Select or enter the following: 
+- Name – Enter up to 255 characters as the name of the critical data, for example, Tumor Assessment. This is a required field. The name must be unique. 
+- Category – This is a required field. 
+ Unable to render {include} The included page could not be found.
+- Group Name – Optional . Enter up to 225 characters describing the type of critical data, for example, Oncology. The group name does not have to be unique. 
+- Description – Optional . Enter up to 3000 characters to provide a more detailed description of the critical data. For example, "CT scan of a tumor at visit 5." 
+- Rationale – Optional . Enter up to 3000 characters to provide the reason for the critical data. For example, "Data supports the primary endpoint of the study." 
+- Optional . In Data Points , select the following: 
+- Data Set – The study data set containing specific data points associated with the critical data that you want to flag as critical to the study and track for risk. 
+- Variable – The variables associated with a critical data that you want to flag as critical to the study and track for risk.
+ Tip : Click the Plus icon, , to add more data points. Click the X icon, , to remove data points.
+ Note : When configuring  data listings , custom KRIs , and  patient profile design elements , the list of available data sets appends the names of d ata sets and variables containing critical data points with a blue flag . The blue flag does not appear next to data set and variable names containing the newly added critical data points until the next data refresh.
+- Click Save .
+ Note : When you add study-level critical data, it is available only for your study. Contact your administrator if you believe that the critical data belongs in the list of client division templates.
+## Flag Data Points in Critical Data Elements
+ When adding and managing a Risk Assessment's critical data elements, you can  associate   specific study data points   to the critical data elements. When you associate data points to critical data elements, then when  configuring data listings , custom KRIs , and  patient profile design elements , the list of available data sets appends the names of d ata sets and variables containing critical data points with a blue flag .  
+ Flagging critical data points helps your study team to proactively identify and monitor threats to data quality and integrity when reviewing data and when configuring: 
+- Data listings 
+- Custom KRIs 
+- Patient profile design elements . 
+- Do one of the following: 
+- Add critical data to the risk assessment . 
+- Edit critical data details. 
+- In  Data Points , select the following: 
+- Data Set  – The study data set containing specific data points associated with the critical data that you want to flag as critical to the study and track for risk. 
+- Variable  – The variables associated with a critical data that you want to flag as critical to the study and track for risk.
+ Tip : Click the Plus icon, , to add more data points. Click the X icon, , to remove data points.
+- Click  Save .
+ Notes
+- The list of data sets in the Listings, KRI Configuration, and Patient Profiles capabilities do not append a  blue flag next to data set and variables names containing the newly added critical data points until the next data refresh. 
+- Data points configured as critical will not show as flagged critical data points throughout Clinical Data Studio until the next system data refresh. 
+## Add and Manage Critical Data Risks
+ In addition to including critical data in your risk assessment, you can also associate specific risks to the critical data that you want to monitor as part of your risk assessment. You can: 
+- Add and associate risks to critical data. 
+- View and edit critical data risks. 
+- Link and unlink QTLs to critical data risks. 
+- View and edit the details of QTLs associated with risks. 
+- Evaluate the performance of QTLs associated with risks. 
+- Link and unlink Key Risk Indicators (KRIs) to critical data risks. 
+- View and edit the details of KRIs associated with risks. 
+- Add, view, edit, and delete critical data risk mitigations. 
+- Mark critical data risks as reviewed. 
+- Close critical data risks. 
+- Delete critical data risks. 
+ To learn more, see: 
+- Add and Manage Risks 
+- View and Monitor the Risk Inventory 
+- Add and Manage QTLs Associated with Risks 
+- Add and Manage KRIs Associated with Risks 
+- Add and Manage Risk Mitigations 
+## View the Critical Data Included in the Risk Assessment
+ You can view the list of critical data and their associated high-level details included in your risk assessment. For example, you can view the critical data:
+- For oversight to ensure the study team is following the risk plan, or 
+- As a reference for another study's risk assessment. 
+- Access RBQM , and then click Risk Assessment > Critical Data in the left-hand menu.
+The Critical Data page > Critical Data table shows the following details for all critical data included in the active risk assessment:
+ Column Descriptions 
+- Name – The unique name of the critical data; for example, Tumor Assessment. 
+- Category –  
+ Unable to render {include} The included page could not be found.
+- Group Name – A user-entered description of the type of critical data; for example, Oncology. 
+- Data Points – The number of specific study data points associated with a critical data that are flagged as critical to the study. 
+- #Risks – The number of risks associated with the critical data.
+ Tip : On the Critical Data table, you can click the Down Arrow , , to the left of a critical data name to view the list of risks associated with that critical data.
+- Add Risk – Click to add a new risk to associate with the critical data. To learn more, see Add and Manage Risks . 
+ Tip : To filter the Critical Data table to show only critical data assigned to a specific category, click the View by menu, and then select a category.
+## View the Risks Associated with Critical Data
+ You can view the list of risks associated with critical data in your risk assessment. For example, you can view the critical data risks:
+- For oversight to ensure the study team is following the risk plan, or 
+- As a reference for another study's risk assessment. 
+- Access RBQM , and then click Risk Assessment > Critical Data in the left-hand menu.
+ The Critical Data page appears. 
+- Optional . To filter the Critical Data table to show only critical data assigned to a specific category, click the View by menu, and then select a category. 
+- On the Critical Data table, click the Down Arrow , , to the left of the critical data name whose risks you want to view.
+A table shows the list of risks associated with the critical data and the following risk details:
+ Column Descriptions 
+- Risk ID – The risk's system-assigned unique ID. You can click a risk ID to view and edit the risk review details . 
+- Risk Name – The name of the risk. 
+- Review Status – A color-coded pill icon shows the review status for each risk associated with the critical data:
+- Red – Overdue. The Current Date > Target Review Date, indicating the risk review is overdue. 
+- Yellow – Due Soon. The Current Date is between Last Review Date and Target Review Date, indicating the risk review is due soon. 
+- Green – Reviewed. The Last Review Date = Current Date, indicating the risk is reviewed. 
+- Gray – Closed. The Risk Status is closed. 
+- Risk Score – A calculated number (score) that reflects the risk's severity. When adding a risk or updating a risk's review details, you can score each of the following risk factors, Probability, Impact, and Detectability, on a scale of 1 to 3. The risk score is calculated by multiplying each risk factor's score together (Probability x Impact x Detectability). The maximum risk score is 27. 
+- A risk score of 1-3 appears with a green color-coded block and indicates a minimal risk. 
+- A risk score of 4-9 appears with a yellow color-coded block and indicates a moderate risk. 
+- A risk score of 10-27 appears with a red color-coded black and indicates a high risk. 
+## Edit Critical Data Details
+ You can edit a critical data's details and associated data points. For example, if you must update the risk assessment's critical data based on a protocol amendment or update a typo or other mistake.
+- Access RBQM , and then click Risk Assessment > Critical Data in the left-hand menu.
+- On the Critical Data page, click the Actions menu, , on the far right of the row of the critical data you want to update.
+- Click Edit . 
+- On the Edit Critical Data dialog, select or enter the following: 
+- Name – Enter up to 255 characters as the name of the critical data, for example, Tumor Assessment. This is a required field. The name must be unique. 
+- Category – This is a required field. 
+ Unable to render {include} The included page could not be found.
+- Group Name – Optional . Enter up to 225 characters describing the type of critical data, for example, Oncology. The group name does not have to be unique. 
+- Description – Optional . Enter up to 3000 characters to provide a more detailed description of the critical data. For example, "CT scan of a tumor at visit 5." 
+- Rationale – Optional . Enter up to 3000 characters to provide the reason for the critical data. For example, "Data supports the primary endpoint of the study." 
+- Optional . In Data Points , select the following: 
+- Data Set – The study data set containing specific data points associated with the critical data that you want to flag as critical to the study and track for risk. 
+- Variable – The variables associated with a critical data that you want to flag as critical to the study and track for risk.
+ Tip : Click the Plus icon, , to add more data points. Click the X icon, , to remove data points.
+ Note : When configuring  data listings , custom KRIs , and  patient profile design elements , the list of available data sets appends the names of d ata sets and variables containing critical data points with a blue flag . The blue flag does not appear next to the data set and variable names containing the newly added critical data points until the next data refresh. 
+- Click Save .
+## View and Export Critical Data Audit Reports
+ Audit Reports allow you to  track actions made on the critical data in your study . This provides a single, traceable record of updates for audit readiness. For example, you can 
+- Identify specific changes that were made (like, adding critical data to the risk assessment). 
+- Track the study personnel who made updates. 
+- Identify when the updates were made. 
+ Note:   You require permissions to view the audit trail. To learn more, see   RBQM Building Blocks and Permissions .
+- Access RBQM , and then click   Risk Assessment > Critical Data   in the left-hand menu. The Critical Data page shows. 
+- Click the Clock     icon next to the page header. A new browser tab opens to the Audit Viewer > Critical Data Audit Report page. 
+- Optional: You can click  Show Filters above the upper-right corner of the table to filter the reports by Start Date and End Date .  
+ Tip :     In Audit Viewer, you can click   Export   and then  Excel ,   CSV , or   PDF   to  download the report locally and view offline or sort data by column headings. Report exports include the entire history, regardless of the filters applied in the Audit Viewer window. 
+ Important:  Critical Data Audit Report records actions made on critical data in your study after 30-July-2026. Any actions made on critical data prior to this date is excluded from the audit report.
+ Note:   Any changes to risks on Critical Data page will be recorded in Risk Inventory Audit Report. To learn more, see Generate Risk Inventory Audit Report . 
+## Delete Critical Data
+ You can delete a critical data from the risk assessment. For example, if you must update the risk assessment critical data based on a protocol amendment or a critical data was added to the risk assessment in error.
+- Access RBQM , and then click Risk Assessment > Critical Data in the left-hand menu.
+- On the Critical Data page, click the Actions menu, , on the far right of the row of the critical data you want to delete.
+- Click Delete .

@@ -1,0 +1,16 @@
+# Data Set Pre-Filtering Displays Site Number
+
+## Data Set Pre-Filtering Displays Site Number
+## Description
+ In the Data Viewer tab, you can pre-filter  data set  variable data by Site Number. The filtering works on full or partial number strings, and shows corresponding study data for data sets with over 50,000 records. 
+## Affected Roles
+ All roles with the View Data building block. 
+## Advantages
+ With the the updated filtering options, you can efficiently locate records of interest from a study. 
+## User Impact
+ In the Data Viewer tab, after a selected data set with over 50,000 record loads, you can use the View menu to pre-filter by Site Number.  If you select Site Number in the View field and enter the first three numbers in the   field, the list shows records that include study data with the Site Number. For example, if you enter 100, the list shows 1001, 3100 and so on. You can apply the Column Filter to all columns, except Site Number. The data set shows records corresponding to the Site Number you select.  
+## Knowledge Space Updates
+ The following article has been updated in the MEDS Data Viewer Knowledge Space to support this enhancement: 
+- View and Investigate Your Study's Data Sets 
+## Special Considerations
+ None.

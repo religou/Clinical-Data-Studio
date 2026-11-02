@@ -1,0 +1,24 @@
+# CSM: Potential Duplicate Patients Export Updates
+
+## CSM: Potential Duplicate Patients Export Updates
+## What Is New?
+ Potential Duplicate Patients includes the following export-related updates:
+- The Export button is relabeled to Download. 
+- The download of sites with potential duplicate patients includes sites without addresses. 
+- Embedded text beneath the Download button states: "Download a list of Potential Duplicates, including those not mapped." 
+## What Is the Impact?
+## Users/Roles
+ Central monitors
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Relabeling the Export button to Download unifies the Potential Duplicate Patients page with the terminology used elsewhere through Medidata Detect.
+## Where Do I See the Change?
+ Centralized Statistical Monitoring > Data Veracity > Potential Duplicate Patients > Download button.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Download the List and Summary Data of Sites with Potential Duplicate Patients 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,160 @@
+# Map Event Analysis Data
+
+## Map Event Analysis Data
+ You can map the data sets and variables that Data Surveillance and RBQM consume to analyze conditions, treatments, and medical history events for event incidence, under-or-over reporting of events, and AI data reconciliation reports. You can map data both from Medidata Rave or externally coded studies. 
+ Event analysis configuration:
+- Simplifies data mapping by requiring only the key variables for Data Surveillance and RBQM to perform its study data analysis.  
+- Optimizes data mapping by consolidating the configuration and mapping tasks in one centralized location. 
+- Allows you to capture data for multiple domains like Adverse Events, Reactogenicity, Concomitant Medication, and Concomitant Procedures.
+- Ensures Data Surveillance and RBQM analyze the correct terms and saves hours of configuration time. 
+ Important : Within the event analysis configuration, you must always: 
+- Select the exact field from Rave and ensure the field mapping does not include a suffix; for example, _TXT or _DTC. 
+- Pick the raw or verbatim terms for conditions, treatments, and medical history terms. This enables Data Surveillance and RBQM to provide the most accurate event incidence, under-over reporting events, and Reconciliation analysis.  
+- Event Incidence, AI Reconciliation and Under Over Reporting do not support data entry as a check box option in Rave for Ongoing MH.
+## Set Data Source
+ Data Surveillance and RBQM use the study you configure as the data source in the Event Analysis tab for analysis and reporting. Data managers can set up either fully ingested Rave studies or externally coded studies.
+- Access Data Surveillance or RBQM , and then click Configuration > Data Mapping in the left-hand menu.
+ The Data Mapping page appears. 
+- Click the Event Analysis tab. 
+- Click Set Data Source . 
+- The Set Data Source window shows a ' Selecting a different data source will remove all current mappings. Would you like to proceed?' message. Select one of the following:
+- Rave , if your study is fully ingested into Rave. 
+- External , if you are using a study with a combination of Rave and externally coded data from WHODRUG or MEDRA dictionaries. That is, if you are using derived datasets generated and activated in Data Connect, your study data uses an external code as data source. 
+- Click Confirm .
+ Note : You can configure only one data source at a time. For new studies, no default data source selection exists. For existing studies, based on the data source you select, all existing event analysis mappings for conditions, treatments and medical history are removed. You must reconfigure the data mappings.
+ Before selecting an external data source, you must first import that external data using Data Connect's Imports capability  or through Ingestor . For more information, see Clinical Data Studio's Data Pipeline . You cannot perform data reconciliation activities or submit queries for derived datasets in AI Reconciliation  if you do not map to the correct study data source.  
+## Map Conditions, Treatments, and Medical History for Event Analysis 
+ Data Surveillance and RBQM reports on and analyzes the conditions, treatments, and medical history events you map in the Event Analysis tab. Data Managers can choose to include the analysis information in:
+- Event Incidence 
+- Under-over Reporting 
+- Reconciliation reports 
+ Based on the data set you select, Data Surveillance and RBQM identify key variables to perform its study data analysis.  
+ Important : You must configure all three event types: conditions, treatments, and medical history, otherwise AI Reconciliation reports and Under-over Reporting plots do not work. Event Incidence plots work if you map any one event type. AI Reconciliation reports do not work if you capture medical dictionary coded information on the portrait section of a hybrid form. You must capture all medical dictionary coded information in the logline sections of a hybrid form for results to appear. 
+- Access Data Surveillance or RBQM , and then click Configuration > Data Mapping in the left-hand menu.
+ The Data Mapping page appears. 
+- Click the Event Analysis tab. 
+- Click New Mapping .
+ Note : If you select a new study data source, all existing event analysis mappings for conditions, treatments and medical history are removed. You must reconfigure the data mappings.
+- Select one of the following, and then enter the corresponding mapping details:
+- Condition Mapping – The mapping of the data set and fields, which record conditions such as Adverse Events or Reactogenicity. Based on the condition mapping, Event Incidence, Under-Over Reporting, and AI Data Reconciliation reports identify which data set to check for event analysis.
+ Field Descriptions 
+- Data Set – Data set you want Data Surveillance and RBQM to use when it runs its event analysis. 
+- Term – Reported term for the condition. For example, for the Adverse Event data set, you can select Adverse Event Name. 
+- Start Date – Condition start date. 
+- Serious Event Y/N – Whether the adverse event (condition) was serious. Y, Yes, T, True, 1, or Serious values are considered as serious. 
+- End Date – Condition end date. 
+- Treatment ConMed  – Optional. Concomitant medication used for the treatment.  
+- Treatment ConProcedure   – Optional. Concomitant procedure used for the treatment.
+ Note :  Selecting Treatment ConMed or Treatment ConProcedure helps filter out reconciled adverse or treated events. If you select Treatment ConMed and Treatment ConProcedure fields, you must further select Concomitant Treatment Type as Medication or Procedure under Treatment Mapping. Otherwise a warning message appears if you do not have a procedure or treatment data set mapped in the Treatment Mapping table. The reference is not saved either. 
+- True/False 
+- 1/0 
+- Y/N 
+- Yes / No 
+- Grade – The Common Terminology Criteria for Adverse Events (CTCAE)  grading data set variable you want Data Surveillance and RBQM to use when it runs its event analysis. 
+- Enable for – Select the reports you want the data mapping to appear in: 
+- 
+ Event Incidence 
+ You can map a data set to only one of each event type at a time (Condition, History, Treatment) for data to show in the Event Incidence plot. To report on another data set for a specific event type, you must delete or edit the existing event mapping, select a new data set, and then map to the event type. For example, when creating a condition mapping, you can select the Enable for Event Incidence option only if no other condition mapping exists for event incidence.
+For more information, see Event Incidence .
+- 
+ Under/Over Reporting 
+ You can map a data set to only one of each event type at a time (Condition, History, Treatment) for data to show in the Under-over Reporting report.
+For more information, see Under-Over Reporting Events .
+- 
+ AI Data Reconciliation   
+ If you map Concomitant Procedure or Concomitant Medication, then for AI Data Reconciliation's Treatment Without Conditions or Ongoing MH and Conditions Without Treatments reports:
+- Action taken for the condition shows as CM or CP.  
+- You must map treatments (Medication or Procedure) corresponding to the condition . 
+- AI Data Reconciliation then maps to the corresponding variables from the CM or CP data set. This narrows down the report to include findings with specific treatments for the condition. 
+ If you do not map Concomitant Procedure or Concomitant Medication, and if the patient undertook a treatment, Data Surveillance checks against every field identified as a treatment for the condition. 
+ For more information, see  AI Reconciliation .
+ If the study data source is set as External, the following additional fields also appear: 
+- Preferred Term – Externally coded preferred term's name from the MEDRA data dictionary.  
+- Preferred Term Code – Externally coded preferred term ID. 
+- System Organ Class (SOC) Name – Optional.  One of the 27 SOC names from MEDRA. For more information, see MEDRA . 
+ Note : The Conditions without Treatment and Treatment without Conditions and Ongoing MH reports in AI Reconciliation rely on a Medidata proprietary data product called Knowledge Graphs to match treatments and conditions and thereafter, find records with missing entries. This data product currently uses following coding dictionary versions:  
+ MEDRA: 26.0-English, WHODrug: Global-B3-202303-English-Drugs ,Global-B3-English-Atcs.
+- Treatment Mapping – The mapping of the data set and fields, which record patient's treatment like Concomitant Medication or Concomitant Procedure. Treatment mapping identifies the type of treatment the patient received. Based on the treatment mapping, AI Data Reconciliation's Conditions without Treatment report identifies which data set to check and whether the condition was treated.
+ Field Descriptions 
+- Data Set – Data set you want Data Surveillance and RBQM to use when it runs its event analysis. 
+- Term – Reported term for the treatment. For example, for the Concomitant Medication data set, you can select Concomitant Medication Name. 
+- Start Date – Treatment start date. 
+- Indication – Treatment indication. 
+- End Date – Treatment end date. 
+- Concomitant Treatment Type – Select whether the treatment is a medication or procedure.  
+- Select Medication if in Condition Mapping you mapped to Treatment ConMed.
+ If the study data source is set as External, the following additional fields also appear: 
+- ATC 2 Code – The pharmacological or therapeutic subgroup code in WHODrug. 
+- ATC 2 Name – The pharmacological or therapeutic subgroup name in WHODrug. 
+- Product Name – The product name in WHODrug. 
+- Product Code – The code associated with the product name in WHODrug.  For more information, see WHODrug . 
+- 
+- Select Procedure if in Condition Mapping you mapped to Treatment ConProcedure. 
+- If the study data source is set as External, the following additional fields also appear: 
+- Product Name – Externally coded preferred term's name from the MEDRA data dictionary 
+- Product Code – Externally coded preferred term ID .  For more information, see MEDRA . 
+- Enable for – Select the reports you want the data mapping to appear in: 
+- 
+ Event Incidence 
+ You can map a data set to only one of each event type at a time (Condition, History, Treatment) for data to show in the Event Incidence plot. To report on another data set for a specific event type, you must delete or edit the existing event mapping, select a new data set, and then map to the event type. For example, when creating a condition mapping, you can select the Enable for Event Incidence option only if no other condition mapping exists for event incidence.
+For more information, see Event Incidence .
+- 
+ Under/Over Reporting 
+ You can map a data set to only one of each event type at a time (Condition, History, Treatment) for data to show in the Under-over Reporting report.
+For more information, see Under-Over Reporting Events .
+- 
+ AI Data Reconciliation   
+ If you map Concomitant Procedure or Concomitant Medication, then for AI Data Reconciliation's Treatment Without Conditions or Ongoing MH and Conditions Without Treatments reports:
+- Action taken for the condition shows as CM or CP   
+- You must map treatments (Medication or Procedure) corresponding to the condition . 
+- AI Data Reconciliation then maps to the corresponding variables from the CM or CP data set. This narrows down the report to include findings with specific treatments for the condition. 
+ If you do not map Concomitant Procedure or Concomitant Medication, and if the patient undertook a treatment, Data Surveillance checks against every field identified as a treatment for the condition. 
+ For more information, see  AI Reconciliation .
+- History Mapping – The mapping of the data set and fields to report on the patient's medical history. Based on the history mapping, AI Data Reconciliation's Overlapping Non Worsening Conditions and Ongoing History report identifies which data set appears in the reports.
+ Field Descriptions 
+- Data Set – Data set you want Data Surveillance and RBQM to use when it runs its event analysis. 
+- Term – Reported term for the medical history. For example, for the Medical History data set, you can select Diagnosis Term. 
+- Ongoing – Select whether medical history is an ongoing event. The history mapping works if the ongoing data variable values are any of "y", "yes", "t", "true", "on", "1", "ongoing". 
+- Enable for – Select the reports you want the data mapping to appear in: 
+- 
+ Event Incidence 
+ You can map a data set to only one of each event type at a time (Condition, History, Treatment) for data to show in the Event Incidence plot. To report on another data set for a specific event type, you must delete or edit the existing event mapping, select a new data set, and then map to the event type. For example, when creating a condition mapping, you can select the Enable for Event Incidence option only if no other condition mapping exists for event incidence.
+For more information, see Event Incidence .
+- 
+ Under/Over Reporting 
+ You can map a data set to only one of each event type at a time (Condition, History, Treatment) for data to show in the Under-over Reporting report.
+For more information, see Under-Over Reporting Events .
+- 
+ AI Data Reconciliation   
+ If you map Concomitant Procedure or Concomitant Medication, then for AI Data Reconciliation's Treatment Without Conditions or Ongoing MH and Conditions Without Treatments reports:
+- Action taken for the condition shows as CM or CP .  
+- You must map treatments (Medication or Procedure) corresponding to the condition . 
+- AI Data Reconciliation then maps to the corresponding variables from the CM or CP data set. This narrows down the report to include findings with specific treatments for the condition. 
+ If you do not map Concomitant Procedure or Concomitant Medication, and if the patient undertook a treatment, Data Surveillance checks against every field identified as a treatment for the condition. 
+ Note : You can use derived variables to map data sets to be used in AI Reconciliation. 
+ For more information, see AI Reconciliation . 
+ If the study data source is set as External, the following additional fields also appear: 
+- 
+- Preferred Term – Externally coded preferred term's name from the MEDRA data dictionary.  
+- Preferred Term Code – Externally coded preferred term ID. 
+- System Organ Class (SOC) Name – Optional.  One of the 27 SOC names from MEDRA. For more information, see MEDRA . 
+ Note : You can map multiple different domains to each event type. For example, you can create Treatment mappings for both Concomitant Medication and Concomitant Procedures.
+- Click Save .
+ Tip : After saving the configuration, you must refresh Statistical Monitoring to view the event incidence and over/under reporting analyses.
+## Edit Mappings
+ You can map a data set to only one of each event type at a time (Condition, History, Treatment) for data. You can edit mappings in case of an incorrect selection or if you want to map a data set to another event type.
+- Access Data Surveillance , and then click Configuration > Data Mapping in the left-hand menu.
+The Data Mapping page appears. 
+- Click the Event Analysis tab. 
+- In the Dataset column, click the event name hyperlink. 
+- Edit the event configuration . 
+- Click Save .
+ Tip : After saving the configuration, you must refresh Statistical Monitoring to view the event incidence and over/under reporting analyses.
+## Delete Mappings
+ You can delete existing event mappings in case you want to create a new mapping between an event and a data set.
+- Access Data Surveillance , and then click Configuration > Data Mapping in the left-hand menu.
+The Data Mapping page appears. 
+- Click the Event Analysis tab. 
+- In the row of the event mapping you want to delete, click the More icon. 
+- Click Delete . 
+ Note : You must have at least one of each event mapping type configured for AI Data Reconciliation to work.

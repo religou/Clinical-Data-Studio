@@ -1,0 +1,15 @@
+# Approve Draft Listings
+
+## Approve Draft Listings
+ After your study team 
+ previews a draft listing and the listing passes preliminary validation, you can approve the listing for team-wide use in your study. Once approved, you and your study team can 
+ review and validate the listing's full set of results .
+ Note : Upon the Listing's initial approval, Data Surveillance creates a snapshot of the listing's results at the time of approval. See View and Export a Listing's Historical Data Snapshots .
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page > Draft Listings table, select a draft listing.
+ Tip : You can  preview a draft listing's results as well as review and edit a draft listing's configuration before approving. 
+- Click Approve Listing . 
+The listing appears in the Listings page > Approved Listings tab.
+ Note : The Edit and Approve Listing buttons become disabled once you click Approve Listing , until the listing is approved.
+ Note : When you edit an approved listing and save your changes, the listing returns to draft status, loses all existing reviews, and requires re-approval.

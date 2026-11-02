@@ -1,0 +1,39 @@
+# PDS: Data Reviewer Includes WHODRUG- and MEDRA-coded Terms as Seletable Variables
+
+## PDS: Data Reviewer Includes WHODRUG- and MEDRA-coded Terms as Seletable Variables
+## What Is New?
+ You can now select WHODRUG and MEDRA-coded term variables as selectable options in the list of data sets on the:
+- Data Sets page 
+- Data Listings page > New Listing window 
+- Data Listings page > Edit Listing window 
+ The available variables are:
+- MEDRA
+- Var_Name - Raw Value from Rave 
+- Var_Name_LLT - Lowest Level Term 
+- Var_Name_PT - Preferred Term 
+- Var_Name_HLT - High Level Term 
+- Var_Name_HLGT - High Level Group Term 
+- Var_Name_SOC - System Organ Class 
+- WHODRUG
+- Var_Name - Raw Value from Rave 
+- Var_Name_Product - Product Name/ Chemical Substance 
+- Var_Name_Product_Synonym - Alternative Name for Product (Optional Based on Dictionary Version) 
+- Var_Name_ATC1 (J) - anatomical or pharmacological groups 
+- Var_Name_ATC2 (J01) - Pharmacological or Therapeutic subgroup 
+- Var_Name_ATC3 (J01D) - Pharmacological or Therapeutic subgroup 
+- Var_Name_ATC4 (JO1DB)- Chemical subgroup 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ You can create a missing coding listing and track it on a Clean Patient Tracker to monitor your progress on coding terms. 
+## Where Do I See the Change?
+ See the What Is New? section.
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

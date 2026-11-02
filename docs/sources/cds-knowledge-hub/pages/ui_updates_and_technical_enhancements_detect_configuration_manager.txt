@@ -1,0 +1,14 @@
+# UI Updates and Technical Enhancements Detect Configuration Manager
+
+## UI Updates and Technical Enhancements Detect Configuration Manager
+ RBQM Configuration Manager includes the following user interface (UI) updates and technical enhancements: 
+- Configuration and Reporting: Minor Detect Configuration Manager Enhancements for November 2023 
+- Product Rebranded as Detect Configuration Manager 
+- Data Surveillance: CP And CM Condition Mapping Reference Possible Only After Configuring Treatment And Procedure Data Sets 
+- Updates to Detect User Permissions 
+- Improved Navigation in Detect Configuration Manager 2022.1.0 
+- Enhancements in RBQM Configuration Manager 2021.1.0 
+- Preperatotry Work for Future Features or Enhancements 
+- Feature Release Announcement Informs You of the Latest Release Details 
+- RBQM: Identify Stacked Data Sets While Configuring KRIs, QTLs and Data Mapping Fields 
+- Preperatory Work for Future Features and Enhancements

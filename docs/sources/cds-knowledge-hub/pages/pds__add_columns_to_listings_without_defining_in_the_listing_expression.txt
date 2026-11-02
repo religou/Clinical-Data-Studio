@@ -1,0 +1,31 @@
+# PDS: Add Columns to Listings Without Defining in the Listing Expression
+
+## PDS: Add Columns to Listings Without Defining in the Listing Expression
+## What Is New?
+ When creating data listings, you configure conditional expressions to capture patient records within a specified variable or variable grouping that match a set of criteria. Data listings then produce a list of patients that have data records that meet the criteria set in the listing's conditional expression. The list of patients contains a data column for each variable defined in the expression and the corresponding data recorded for each patient in that variable. 
+ Sometimes you may want a data listing's results to include a data column showing patient records for simple variables such as age or demographics. In previous Data Reviewer releases, you had to tediously define additional conditions in the listing's expression to configure the data listing results to include such data columns. 
+ Now you can configure data listings to add data columns directly to the data listing results without having to build the columns in through the conditional expression. You can add multiple columns and delete columns as well. 
+## What Is the Impact?
+## Users/Roles
+ All Data Reviewer users.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Adding data columns directly into data listings:
+- Helps keep data listing conditional expressions simpler and cleaner. 
+- Enables you to more easily add simple data columns—for example, age or demographics—to data listing results without building tedious arguments in the listing's conditional expression. 
+## Where Do I See the Change?
+ In the Data Reviewer > Data Listings page > New Listing window or Edit Listing window > Define Listing section, the Add Column toggle button shows on the right side. When you activate the Add Column button, the Add Column section shows beneath the Definite Listing column. In the Add column section, you select a data set and corresponding variable to add as a data column to the listing. You can click the Plus (+) icon to add more columns, or click the x icon to delete columns.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- View, Create, and Edit Draft Listings 
+- View and Edit Approved Listings 
+## What Else Should I Know?
+- To ensure the data listings do not capture an overly large number of records, we recommend when adding columns that you use:
+- Data sets that are already defined in the core data listing expression. 
+- Single record per patient data sets, such as demographics. 
+- You can use a maximum of ten different data sets in the Add Column section. 
+- The data listing results show the added variable columns to the right of the variable columns included as part of data listing's conditional expression. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

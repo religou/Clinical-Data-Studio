@@ -1,0 +1,24 @@
+# CSM Rounding and Propagation UI Enhancements
+
+## CSM Rounding and Propagation UI Enhancements
+## Description
+ CSM's Rounding and Propagation capability includes the following enhancements:
+- In the Sites with Rounding and Sites with Propagation heatmaps:
+- The leftmost column listing the vitals always remains frozen as you horizontally scroll through the table. 
+- Vitals for which Detect does not find any errors no longer appear in the heatmap. 
+- Your cursor no longer appears as a finger style cursor when you hover on the records and site IDs listed on the heatmap's y-axis and x-axis. 
+- The Sites with Rounding Events section label and Sites with Propagation Events section label no longer include the word, Events, in their labels. 
+- The Percentage of Rounding Errors label and Percentage of Propagation Errors label now use headline capitalization. 
+- In the Propagation Events Summary section > #AFFECTEDPATIENTS/TOTALPATIENTS column, the denominator for the fractions of affected patients no longer contains an extra space. 
+- In the Propagation Events Summary section, the column headers are reformatted to "# of <vital_name> records <Rounded/Propagated>/Total <vital_name> records" 
+## Affected Roles
+ Central monitors
+## Advantages
+ The Sites with Rounding and Sites with Propagation heatmap enhancements improve usability and standardize the look and feel. The Propagation Events Summary section enhancements more clearly describe the data that the table represents.
+## User Impact
+ See the Description section.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

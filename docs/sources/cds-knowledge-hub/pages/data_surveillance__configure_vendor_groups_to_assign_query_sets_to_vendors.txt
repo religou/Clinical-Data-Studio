@@ -1,0 +1,30 @@
+# Data Surveillance: Configure Vendor Groups To Assign Query Sets To Vendors
+
+## Data Surveillance: Configure Vendor Groups To Assign Query Sets To Vendors
+## What Is New?
+ You can submit vendor query sets to vendors only if they are part of an approved vendor group in Data Surveillance > Configuration > Vendors. 
+## What Is the Impact?
+## Users/Roles
+ Study Managers and Data Managers.
+ Users with the Manage Vendor Configuration access. 
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Having a stipulated set of vendors in a vendor group who can act on a query raised for data issues in a listing, ensures security and study data integrity. You can also follow up with the vendor personnel about the query as the vendor list populates from Rave,
+## Where Do I See the Change?
+ On the Data Surveillance > Configuration > Vendors page:
+ The page title is updated to Vendors and the data grid table is titled as Vendor Groups. You can click  Add Vendor Group to add a vendor group. The data grid includes the following columns:
+- Group Name 
+- Updated By 
+- Updated On 
+- Activate 
+ You can assign vendor queries to vendors from an active vendor group. If you click the  , the More icon, the Edit Vendors in Group option appears. Clicking Edit Vendors in Group option shows a slide-out panel. If you then click Add Vendors , and select vendor names from the list, which populate from users in Rave, you can add the user to the vendor group. You can further activate or deactivate a vendor in the vendor group. A timestamp shows when the user is activated or deactivated. 
+ Note : Vendors added to the Vendor Group must be added to a specific study with the Submit Vendor Feedback building block. Vendors are added in Cloud Administration. 
+ Where Do I Learn More? 
+ Use the following links to find new and updated content in support of the enhancement:
+- Vendors 
+## What Else Should I Know?
+ To view or add records in Vendors, you must have the Manage Vendor Configuration building block assigned to your role in Cloud Administation.
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

@@ -1,0 +1,20 @@
+# View Patients That Meet KRI Configuration Query Conditions
+
+## View Patients That Meet KRI Configuration Query Conditions
+ You can view for each currently active percentage KRI in your study, the enrolled patients that meet or do not meet the conditions specified in the KRI configuration's numerator query and denominator query. Viewing the patients that meet a KRI configuration's query conditions enables you to reconcile patient-level study data between the KRI and a data listing in Data Reviewer. For example, if a data listing shows 10% of patients withdraw from a study but a KRI indicates that 50% withdraw, then you can compare the KRI configuration's patient matches with the data listing. 
+ Note : You cannot view patient matches for KRIs configured using audit datasets.
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu.
+- On the Key Risk Indicators page > KRI Configurations tab, click the button next to an active percentage KRI name. 
+- Click KRI Patient Matches .
+The KRI Patient Matches window shows the following information:
+ Field Descriptions 
+- Total Patients – The number of patients enrolled in the study. 
+- # Patients Matching Numerator – The number of enrolled patients in the study whose patient data meets the specifications defined in the KRI configuration's numerator query. 
+- # Patients Matching Denominators – The number of enrolled patients in the study whose patient data meets the specifications defined in the KRI configuration's denominator query. 
+- Enrolled Patients – Only shows if the KRI configuration does not have a defined denominator query. A check mark always shows for all patients. 
+- Last Updated – The time stamp in which the most recent data refresh occurred. 
+- Patient ID – The patient's ID number. 
+- Site – The site the patient belongs to. 
+- Country – The country that the site resides in. 
+- Numerator Query – A check mark shows if the patient's data meets the conditions specified in the KRI configuration's numerator query. Otherwise, no check mark shows. A numerator query is the KRI configuration's manually defined conditional expression that parses your study data to capture patient records within a specified variable that   match the expression's defined conditions .   For example, you can configure an expression to capture patient data records for patients who recorded having a headache and a systolic blood pressure of greater than 115 . 
+- Denominator Query – A check mark shows if the patient's data meets the conditions specified in the KRI configuration's denominator query. Otherwise, no check mark shows. A denominator query is the KRI configuration's specific data population subset defined in which the numerator query runs against. For example, you can create a KRI configuration to capture patients who recorded having a headache and a systolic blood pressure of greater than 115 and are specifically female patients below age 50 .

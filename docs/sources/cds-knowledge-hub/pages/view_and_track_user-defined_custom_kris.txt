@@ -1,0 +1,28 @@
+# View and Track User-Defined Custom KRIs
+
+## View and Track User-Defined Custom KRIs
+## Description
+ In addition to the pre-defined system KRIs  provided by Medidata, you can now view user-defined system KRIs in the custom KRIs .
+ Users in your study environment can create and activate custom KRIs using Medidata's RBQM Configuration Manager. With RBQM Configuration Manager, you create KRIs by defining:
+- A unique name for the custom KRI, 
+- The data sets and variables  you want to perform calculations on, and 
+- The type of calculations you want performed on the data sets and variables:
+- Count  – Calculates the total number of entries in the selected data set. The Count calculation is only available at the data set level. 
+- Count Values  – Calculates the count of patients in the study that meet a specified criteria based on the selected variable. 
+- Mean  – Calculates the the mean value of a numeric data field based on the selected variable.  
+- Rate  – Calculates the rate of entries in the selected data set over time. The Rate calculation is only available at the data set level. 
+- Rate Values  – Calculates the percentage of patients in the study that meet a specified criteria based on the selected variable. 
+- Standard Deviation  – Calculates the amount of dispersion or variance in a set of observed values based on the selected variable. 
+ When activated, a custom KRI's data gets consumed, analyzed, calculated, and rendered in Medidata Detect's Key Risk Indicators table.
+## Affected Roles
+- Risk managers 
+- Data managers 
+- Medical monitors 
+## Advantages
+ Defining and tracking custom KRIs helps your organization target and track unique and specific facets of your study that you want to monitor for risk. 
+## User Impact
+ You do not create or manage custom KRIs in Medidata Detect. Rather, you or other users in your study environment can create and manage custom KRIs in a separate Medidata app, RBQM Configuration Manager.
+ However, when activated in RBQM Configuration Manager, you can view custom KRIs and their associated KRI values in Medidata Detect's Key Risk Indicators table just as you would for system KRIs.
+## Special Considerations
+- System KRIs are always available and activated in the Key Risk Indicators table, even if no custom KRIs are defined or activated. 
+- System KRIs and Custom KRIs with errors display as grayed out with no KRI values in the Key Risk Indicators table.

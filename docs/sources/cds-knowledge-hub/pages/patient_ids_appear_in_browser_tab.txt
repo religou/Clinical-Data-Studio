@@ -1,0 +1,16 @@
+# Patient IDs Appear in Browser Tab
+
+## Patient IDs Appear in Browser Tab
+## Description
+ On the Design page > Profiles tab, when you select patient data by Patient ID in the Patient Selector section, the Patient ID shows in the browser tab. When you select another patient ID, the browser tab shows the new patient ID. For example, if you select 10011004 from the Patient ID column in the Patient Selector section, the browser tab reads Patient Profiles - 10011004 . The browser tab reads Patient Profiles if you navigate to another page in Patient Profiles. 
+## Affected Roles
+ All. 
+## Advantages
+ Looking at the patient ID in the browser tab, patient profile reviewers can easily identify patient data corresponding to the patient ID in a study. 
+## User Impact
+ See Description. 
+## Knowledge Space Updates
+ The Medidata Patient Profiles Knowledge Space provides updated content to support this enhancement: 
+- Review and Export Patient Profiles 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

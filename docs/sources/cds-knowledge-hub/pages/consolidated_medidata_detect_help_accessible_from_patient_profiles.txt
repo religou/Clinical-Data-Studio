@@ -1,0 +1,16 @@
+# Consolidated Medidata Detect Help Accessible From Patient Profiles
+
+## Consolidated Medidata Detect Help Accessible From Patient Profiles
+## Description
+ The Patient Profiles Help menu options now send you to the Medidata Detect Knowledge Space . 
+## Affected Roles
+ All.
+## Advantages
+ User assistance pertaining to all Detect capabilities, including Patient Profiles is now consolidated within one, centralized knowledge site. You can seamlessly find in one place the user information you need when working across capability-to-capability.   
+## User Impact
+ While working in Patient Profiles, w hen you access the Help menu > Knowledge Space Home link, you are directed to the Medidata Detect Knowledge Space Home page instead of the Knowledge Space home page for Patient Profiles. The Help menu > Help on This Page link navigates you to the same information as before, but that information resides in a new knowledge space.  
+## Knowledge Space Updates
+ The Patient Profiles Knowledge Space no longer exists. All Patient Profiles-related knowledge content now resides in the new Medidata Detect Knowledge Space. See Patient Profiles . 
+## Special Considerations
+ Any articles that you bookmarked from the former Patient Profiles Knowledge Space no longer exist. You can now bookmark new Patient Profiles-related articles in the Medidata Detect Knowledge Space.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

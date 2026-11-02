@@ -1,0 +1,25 @@
+# Unsupported Variables in Data Connect
+
+## Unsupported Variables in Data Connect
+ Data Connect does not support specific variables found in source data systems. However, some of these variables can still appear in Data Surveillance or Risk-Based Quality Management (RBQM) when you activate a derived dataset from Data Connect . Review the following exclusions to understand current data availability limitations. 
+## Excluded Variables 
+ Variable 
+ Description 
+ Example 
+ | Coder-related Variables 
+ | Coding levels, supplemental terms, and component terms.
+ The following fields appear in Rave and transfer into Data Surveillance – but not RBQM – once you activate the dataset:
+- CMTRT_ATC1 
+- CMTRT_ATC2 
+- CMTRT_ATC3 
+- CMTRT_ATC4 
+- CMTRT_PT 
+- CMTRT_PRODUCT 
+- CMTRT_PRODUCTSYNONYM 
+ | The Coder term field variable CMTRT from the CM form
+ | Decoded Codelists 
+ | When a field in Rave is a Dictionary value, the field has 2 associated result fields: the string value and the coded value. Data Connect only shows the coded value, but Data Surveillance also adds the string value suffixed with "_TXT".  
+ | The CMYN field variable includes:
+- 'Y' as the coded value, with "Yes" as the string value 
+- 'N' as the coded value, with "No" as the string value 
+ Data Connect only shows CMYN and its coded value, while Data Surveillance also includes CMYN_TXT and the associated string value.

@@ -1,0 +1,22 @@
+# Detect Configuration Manager Minor Enhancements
+
+## Detect Configuration Manager Minor Enhancements
+## Description
+ Detect Configuration Manager includes the following enhancements:
+- The KRI Configuration >  KRI Configuration Report now lists system KRIs. 
+- The KRI Configuration > Custom Percentage KRI dialog and QTL Configuration > Quality Tolerance Limit dialog only allows you to enter 0 or 1 as the value for Boolean type variables in the Numerator Query and Denominator Query sections. 
+- The KRI Configuration > Custom Percentage KRI dialog > Reason for Change field label now uses headline capitalization. 
+## Affected Roles
+ Central monitors
+## Advantages
+ The Detect Configuration Manager enhancements provide the following benefits:
+- You can now view in the KRI Configuration Report pertinent configuration and historical details for system KRIs; in particular, the risk category mapping, activation status, and site risk calculation status. 
+- When configuring KRIs and QTLs, restricting entries to only 0 or 1 for Boolean type variable values ensures you cannot mistakenly enter nonbinary values. 
+- Changing the Custom Percentage KRI dialog > Reason for Change field to headline capitalization matches the same field label punctuation in QTL Configuration. 
+## User Impact
+ See the Description section.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,22 @@
+# Exports - Improved Error Handling for Export Failures
+
+## Exports - Improved Error Handling for Export Failures
+## What Is New?
+ As a part of Data Connect - Exports 2024.3.2 release, the Exports experience include various enhancements including: 
+- Disabled data types for users who do not have access to the respective building blocks for a data type. 
+- A user-friendly summary message introduced to the interface in case of export failure. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow processes.
+## Other Applications
+ None.
+## How Do I Benefit?
+ With these updates, you encounter fewer errors in export execution. The user-friendly failure messages help you to troubleshoot the errors by yourself before you contact Medidata Support.
+## Where Do I See the Change?
+ The interface updates apply to various screens across the Exports experience including the Export creation wizard and the Exports List screen. 
+## Where Do I Learn More?
+ There are no additional relevant resources. 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

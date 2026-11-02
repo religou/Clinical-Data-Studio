@@ -1,0 +1,6 @@
+# Rave Features
+
+## Rave Features
+ Data Reviewer includes the following capabilities related to Rave:
+- Create Rave Queries Directly from Listings 
+- Rave Access Required To Submit Rave Queries For Listings

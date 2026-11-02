@@ -1,0 +1,120 @@
+# Create, Edit, and Delete Data Refresh Schedules
+
+## Create, Edit, and Delete Data Refresh Schedules
+ You can use Unified Scheduler to create, edit, and delete data refresh schedules for Listings, AI Reconciliation, Patient Profiles, and Custom Graphs . You can configure schedules individually or in batches within the same module . To create or edit schedules, you must have the Manage Data Refresh Scheduler permission, in addition to the specific refresh permissions for each application. For more information, see Data Surveillance Building Blocks and Permissions . 
+## Access and View Refresh Schedule
+ You can view your study's current set of data refresh schedules as well high-level details associated with each schedule . 
+- Access Data Surveillance , and then click Configuration   in the left-hand menu. 
+- Click Unified Scheduler .
+ Existing refresh schedules for the following appear:
+- Listings 
+- AI Reconciliation 
+- Patient Profiles 
+- Custom Graphs.
+ Note : You can have only one consisting of all reports or no scheduled refresh for AI Reconciliation in a study.
+- For any schedule, the following appear:
+- Name – The scheduled refresh name. 
+- Cadence – Frequency at which data refreshes. For example, Monthly, on the first Monday. 
+- Last Edited By – Person who last edited the schedule. 
+## Create Refresh Schedule
+ Once you create a scheduled refresh, you can obtain the latest study data from Medidata Rave and external studies at set intervals.
+- Access Data Surveillance , and then click Configuration   in the left-hand menu. 
+- Click Unified Scheduler .
+On the Unified Scheduler Configure page, existing refresh schedules appear. 
+- Click Create Schedule . 
+- Select one of the following:
+- Listings 
+- AI Reconciliation
+ Note : AI Reconciliation appears disabled if you have a scheduled refresh for AI Reconciliation reports in the study. 
+- Patient Profiles 
+- Custom Graphs 
+- Click Next . 
+- On the Configure page, complete the field details.
+ Table Column Descriptions 
+- Title – T itle for the scheduled refresh. For Patient Profiles, the title is automatically updated to the published design you select. 
+- Frequency – Select the cadence at which the scheduled refresh. 
+- None – Saves the items in the scheduled refresh as a group. You can add frequency later as needed. 
+- Daily – Runs the scheduled refresh daily. 
+- Weekly – Runs the scheduled refresh weekly. You must further select the day. 
+- Biweekly – Runs the scheduled refresh every other week. You must further select the day.  
+- Monthly – Runs the scheduled refresh once a month. You must further select the day: 
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Bimonthly – Runs the scheduled refresh once every two months. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Quarterly – Runs the scheduled refresh once every quarter. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Select one or more records you want to include. 
+ Note: 
+- For Listings and Custom, select a maximum of 15 records from approved listings and custom graphs respectively. 
+- For Patient Profiles, select one published profile design. 
+- For AI Reconciliation, all records are automatically selected. 
+- Click Create Schedule . 
+- Optional.  Click Back from the top of the Configure Schedule page to restart the steps. 
+ Note : You can also create refresh schedules from the Listings , Patient Profiles , AI Reconciliation , and Custom Graphs pages.
+## Edit Refresh Schedule
+ You can edit a refresh schedule's cadence, add or remove items in the schedule. 
+- Access Data Surveillance , and then click Configuration   in the left-hand menu. 
+- Click Unified Scheduler .
+On the Unified Scheduler Configure page, existing refresh schedules appear. 
+- Click the , the More icon, for any schedule. 
+- Click Edit . 
+- On the Configure page, edit the field details.
+ Frequency Column Descriptions 
+- Frequency  – Select the cadence at which the scheduled refresh. 
+- 
+- None – Saves the items in the scheduled refresh as a group. You can add frequency later as needed. 
+- Daily – Runs the scheduled refresh daily. 
+- Weekly – Runs the scheduled refresh weekly. You must further select the day. 
+- Biweekly – Runs the scheduled refresh every other week. You must further select the day.  
+- Monthly – Runs the scheduled refresh once a month. You must further select the day: 
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Bimonthly – Runs the scheduled refresh once every two months. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Quarterly – Runs the scheduled refresh once every quarter. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Select or remove one or more records you want to include or exclude, respectively. 
+ Note: 
+- For Listings and Custom Graphs, select a maximum of 15 records from approved listings and custom graphs respectively. 
+- For Patient Profiles, select one published profile design. 
+- For AI Reconciliation, all records are automatically selected. 
+- Click Save Schedule .
+The changes made are updated for the schedule. 
+## View Included Items
+ For any given schedule, you can view all the items that get refreshed when the schedule runs. Data managers can identify all records included as part of a refresh.
+- Access Data Surveillance , and then click Configuration   in the left-hand menu. 
+- Click Unified Scheduler .
+On the Unified Scheduler Configure page, existing refresh schedules appear. 
+- Click the , the More icon, for any schedule. 
+- Click Included Items .
+- For Listings, the schedule shows all the approved listings included. 
+- For Patient Profiles, the schedule shows the published design included. 
+- For AI Reconciliation, the schedule shows all the eight reports in the study. 
+- For Custom Graphs, the schedule shows all the custom graphs included. 
+- Optional. Search the Included Items list. 
+ Note : You can also view included items in refresh schedules from the Listings , Patient Profiles , AI Reconciliation , and Custom Graphs pages.
+## Delete Refresh Schedule
+ If a refresh schedule is obsolete or items included no longer exist in the study, you can delete the schedule.
+- Access Data Surveillance , and then click Configuration   in the left-hand menu. 
+- Click Unified Scheduler .
+On the Unified Scheduler Configure page, existing refresh schedules appear. 
+- Click the , the More icon, for any schedule. 
+- Click Delete .
+ Note : You cannot undo deletion. Delete only if necessary.

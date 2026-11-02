@@ -1,0 +1,20 @@
+# Derived Variable - Merge
+
+## Derived Variable - Merge
+## Description
+ You can merge a data set variable from one data set into a target data set. The target data set lists the merged data set variable as a derived variable within the variable list.  Merging options include: 
+- Single to Single  – Merge a data set variable containing singular records over multiple visits with another data set containing singular records over multiple visits. For example, merging a Demographics data set variable to the Eligibility Criteria data set. 
+- Single to Multiple  – Merge a data set variable containing singular records over multiple visits with another data set containing multiple records over multiple visits. For example, merging a Demographics data set variable to the Adverse Events data set. 
+- Multiple to Single  – Merge a data set variable containing multiple records over multiple visits with another data set containing singular records over multiple visits. For example, merging an Adverse Events data set variable to Demographics data set. 
+- Multiple to Multiple  – Merge a data set variable containing multiple records over multiple visits with another data set containing multiple records over multiple visits. For example, merging an Adverse Events data set variable to the Chemistry data set. 
+ The merge workflow dynamically detects the merge type based on the source and target data sets. 
+## Affected Roles
+ All roles with the Manage Derived Variables permission.
+## Advantages
+ With the merge workflow, you can join two data sets together to:
+- Populate values from two different data sets on the same table. 
+- Prepare a data set to perform robust calculations with the Expression Builder. 
+## User Impact
+ You can find the Merge option in the Derived Variable Type dropdown. To merge data sets, you must select the source data variable and target data set. Depending on the type of merge, you must also select additional reference data. For details on the merge workflow, see  Merge Variables to Data Sets .
+## Special Considerations
+ None.

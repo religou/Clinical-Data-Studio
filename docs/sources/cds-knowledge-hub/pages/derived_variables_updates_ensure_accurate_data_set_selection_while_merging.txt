@@ -1,0 +1,22 @@
+# Derived Variables Updates Ensure Accurate Data Set Selection While Merging
+
+## Derived Variables Updates Ensure Accurate Data Set Selection While Merging
+ What Is New? 
+ A review data set merge warning message appears when you create and save a merge type derived variables.
+## What Is the Impact?
+## Users/Roles
+ All Clinical Data Studio users.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ None.
+## How Do I Benefit?
+ You can check and ensure that the data sets you merge are correct.
+## Where Do I See the Change?
+ In Data Surveillance or RBQM > Configuration > Derived Variables, or RBQM > Configuration > Derived Variables, when you create and save a merge type derived variable, the following message appears.
+ Please review and confirm that you have selected the correct merge type for the dataset. Otherwise, Data Surveillance and RBQM cannot refresh with the latest data.  
+ Where Do I Learn More? 
+ Use the following links to find new and updated content in support of the enhancement:
+- Merge Variables to Data Sets 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

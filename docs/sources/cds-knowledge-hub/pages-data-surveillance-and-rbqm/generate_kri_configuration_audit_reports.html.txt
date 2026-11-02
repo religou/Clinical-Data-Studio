@@ -1,0 +1,13 @@
+# Generate KRI Configuration Audit Reports
+
+## Generate KRI Configuration Audit Reports
+ You can generate audit reports to view the historical details of KRI configurations and modifications  in your study environment. Audit reports: 
+- Enable sponsors to quickly and effectively show compliance with clear, comprehensive audit details of actions performed in KRI Configuration. 
+- Provide sponsors with more oversight to ensure study data is monitored correctly. 
+ Note : You  can only view actions created against sites that you have access to. 
+ Important : KRI Configuration Audit Reports only log changes made to numeric and percentage KRIs. The reports do not log changes to system KRIs.
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu.
+The Key Risk Indicators page appears. 
+- Click  next to the Key Risk Indicator page header.
+A new browser tab opens to the Audit Viewer > KRIs Audit Report page.
+ Tip : In Audit Viewer, you can click Export and then  Excel , CSV , or PDF to view the report offline or sort data by column headings.

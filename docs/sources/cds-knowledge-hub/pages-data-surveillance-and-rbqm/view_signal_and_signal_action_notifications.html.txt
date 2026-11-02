@@ -1,0 +1,20 @@
+# View Signal And Signal Action Notifications
+
+## View Signal And Signal Action Notifications
+ If a signal or signal action is assigned to you, you will receive a notification. Notifications are processed and sent through the Medidata's  Notification Center . 
+ You can view signal or action notifications in two forms: 
+- Email notifications with a deep-link sent to your email inbox. 
+- In-app notifications accessible by way of the Medidata platform user interface. 
+ Signal and action notifications keep you closely informed regarding the latest available study data and analysis to help you monitor, manage, and act upon potential study concerns or risks as necessary.
+## View Notifications Through Email
+- Open the email notification you receive from Medidata. 
+- Click  View in Notification Center .
+ The Notifications page shows a message regarding the data refresh. 
+## View Notifications in the Notification Center
+- Log in to iMedidata.com . 
+- Click the Notifications icon in the iMedidata toolbar. 
+- 
+ Note : An icon with a red circle indicates new, unread notifications.
+The Notifications page shows all notifications you have received, listed in order from newest at top.
+ Note : You can continuously scroll through notifications to the end. When you reach the bottom, if there are more notifications, then the page automatically shows the notifications.
+- Optional . In the left-hand pane, click to filter the Notifications page to show specific notifications by type: All, Information, Warning, or Critical.

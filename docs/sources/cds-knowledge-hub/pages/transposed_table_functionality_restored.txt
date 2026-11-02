@@ -1,0 +1,25 @@
+# Transposed Table Functionality Restored
+
+## Transposed Table Functionality Restored
+## Description
+ In the Medidata Patient Profiles 2020.1.0 release, the transposed table functionality was removed to improve integration with other Medidata products. The transposed table functionality is restored and available for use again.
+## Affected Roles
+- Unblinded Patient Profiles Designer 
+- Blinded Patient Profiles Designer 
+## Advantages
+ Transposed tables allow for multiple values that may be separate lines of data to display in a single table row. You can create transposed tables for data that is structured in a long, skinny format to display in a wide table format. Generally, that is lab data, physical exam data, questionnaires, and so on. Transposed tables also display the same test name in a single column to allow you to easily view the data over time.   
+## User Impact
+ On the Design page > Elements tab, t he Add Element > Table button displays the Transposed Table option when clicked. You can once again: 
+- Add transposed tables to designs. 
+- Select to display numeric data in your transposed table as a graph and configure the graph display options. 
+- Configure table display and highlight conditions. 
+- Append a single note to display at the bottom of the table in the patient profile view. 
+- Edit transposed table details, such as:
+- Rename transposed tables. 
+- Add variables to tables. 
+- Rename variables. 
+- Remove variables from tables. 
+- Select, view, and remove test values. 
+ To learn more, see Transposed Tables . 
+## Special Considerations
+ None.

@@ -1,0 +1,246 @@
+# Patient Profiles Releases History
+
+## Patient Profiles Releases History
+ The following lists all Patient Profiles releases (starting with the initial release to up to the 2022.3.3 release) and the features and enhancements introduced in each. All Patient Profiles features and enhancements released after Medidata Patient Profiles 2022.3.3 are listed in the Clinical Data Studio Releases History .
+ Code Continuity Across Releases
+ Note : All Patient Profiles releases are cumulative. That is, each release or software update is built on the prior releases as noted in the release notes. For example, Software Update 2016.2.1 includes all of the release 2016.2.0 code, which in turn is based on the release 2016.1.0 code and so on. Any updates between releases or software updates (urgent or otherwise) are described in the release notes. 
+## Medidata Patient Profiles 2022.3.2 (sep 2022)
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2022.3.2 Resolved Issues List 
+## Medidata Patient Profiles 2022.3.1 (aug 2022)
+ This release provides the following enhancements: 
+- 
+ Generate Patient Profile PDFs Using A Single Button 
+- 
+ Design Reports Show Last Updated And Published Details 
+- 
+ Patient Profiles Does Not Permit Duplicate Design Names 
+- 
+ Access to Rave EDC Source Data Only Available for Rave EDC-Derived Patient Profile Data 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2022.3.1 Resolved Issues List 
+## Medidata Patient Profiles 2022.3.0 (jul 2022)
+ This release provides the following features: 
+- 
+ Generate Customized Patient Profile PDFs in Bulk 
+ This release provides the following enhancements: 
+- 
+ Patient Profiles Interface Updates 
+- 
+ Medidata Detect Knowledge Space Consolidates User Assistance and Release Notes For All Detect Applications 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2022.3.0 Resolved Issues List 
+## Medidata Patient Profiles 2022.2.2 (may 2022)
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2022.2.2 Resolved Issues List 
+## Medidata Patient Profiles 2022.2.1 (may 2022)
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2022.2.1 Resolved Issues List 
+## Medidata Patient Profiles 2022.2.0 (apr 2022)
+ This release provides the following features: 
+- 
+ Patient Profiles Provides Clearer Missing Variables Messaging 
+- 
+ Patient Profiles Identifies The Origin Of Data Sets In A Study 
+- 
+ Improved Navigation In Patient Profiles 2022.2.0 
+ This release provides the following enhancements: 
+- 
+ Performance Improvements in Patient Profiles 2022.2.0 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2022.20 Resolved Issues List 
+## Medidata Patient Profiles 2022.1.0 (jan 2022)
+ This release provides the following features: 
+- 
+ Data Integration With Medidata Rave Enabled 
+- 
+ Publish Profile Designs as View Only or Master for Detect 
+- 
+ Copy Designs Between Studies 
+- 
+ Missing Data in Elements Indicated with Yellow Markers 
+- 
+ Copy Elements within a Study or Design 
+- 
+ Copy Elements between Studies, Environments, and Draft Designs 
+ This release provides the following enhancements: 
+- 
+ Generate Patient Profiles PDFs in Bulk by Site 
+- 
+ Technical Changes in Medidata Patient Profiles 2022.1.0 
+- 
+ Updates to Hide Event Tables With No Data 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2022.1.0 Resolved Issues List 
+## Medidata Patient Profiles 2021.3.1 (oct 2021)
+ This release provides the following enhancement: 
+- Headers Feature to Display Set Flags Restored 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2021.3.1 Resolved Issues List 1 
+## Medidata Patient Profiles 2021.3.0 (oct 2021)
+ This release provides the following feature: 
+- Search Patient Data By Column Filters 
+ This release provides the following enhancements: 
+- Header Flags display on Profile Designs and Profile Design Reports 
+- Distinct Transposed Tables allow Same Variable Name Labels 
+- Patient IDs appear in Browser Tab 
+- Warning Message displays for Profile Designers with Partial Site or Country Access 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2021.3.0 Resolved Issues List 
+## Medidata Patient Profiles 2021.2.0 (aug 2021)
+ This release provides the following features: 
+- Patient Profiles Displays Queries In Study Data 
+- Search Query Data By Column Filters 
+- Sort Query Data By Column Headers 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2021.2.0 Resolved Issues List 
+## Medidata Patient Profiles 2021.1.3 (jun 2021)
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2021.1.3 Resolved Issues List 
+## Medidata Patient Profiles 2021.1.2(jun 2021)
+ This release provides the following enhancements: 
+- Progress Bar Displays While Data Loads In Patient Selector 
+- Element Conditional Display Options Updated 
+- Filter By Patient ID In Patient Selector 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2021.1.2 Resolved Issues List 
+## Medidata Patient Profiles 2021.1.1 (apr 2021)
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2021.1.1 Resolved Issues List 
+## Medidata Patient Profiles 2021.1.0 (apr 2021)
+ This release provides the following features: 
+- Flags Functionality In Headers Restored 
+- Configure Tables To Hide Elements Without Data 
+ This release provides the following enhancements: 
+- Profile Designs Marked As Master Become Read-only 
+- Wide Tables Allow Positioning of Graph and Table 
+- Transposed Tables Allow Positioning of Graph and Table 
+- Modifications Made to Improve Data Integration with Medidata Detect 
+- Email Users And Support Team If Patient Profiles Bulk PDF Generation Fails 
+- Conditional Options in Tables Restored 
+- Transposed Tables Highlight Values With Conditional Highlighting 
+- Event Tables in Timelines Show Legend With Default Colors 
+- Data Options For Elements Display Enhancements 
+- Table Types Display in Element View 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2021.1.0 Resolved Issues 
+## Patient Profiles 2020.2.3 (mar 2021)
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2020.2.3 Resolved Issues List 
+## Medidata Patient Profiles 2020.2.2 (jan 2021)
+ This release provides the following enhancement: 
+- Generate Patient Profiles PDF in Bulk Based on Permissions 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2020.2.2 Resolved Issues List 
+## Medidata Patient Profiles 2020.2.1 (nov 2020)
+ This release provides the following enhancement: 
+- Generate Patient Profiles PDF in Bulk 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2020.2.1 Resolved Issues List 
+## Medidata Patient Profiles 2020.2.0 (nov 2020)
+ This release provides the following enhancements: 
+- Transposed Tables Highlight Values Outside a Specified Range 
+- Wide and Transposed Tables Conditional Options Restored 
+- Data Options Tab Denotes Variables Derived from MEDS Data Viewer 
+- Profile Designs show Reference Date and Type 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2020.2.0 Resolved Issues 
+## Medidata Patient Profiles 2020.1.2 (aug 2020)
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2020.1.2 Resolved Issues 
+## Medidata Patient Profiles 2020.1.1 (jul 2020)
+ This release provides the following enhancements: 
+- Transposed Table Functionality Restored 
+- Timeline Visit Variable Configuration Functionality Restored 
+- Wide Table Variable Color Configuration Functionality Restored 
+- The Patient Selector Highlights the Selected Patient ID 
+- The Element Accordion Displays Full Data Set Names 
+- Lower and Upper Time Limits No Longer Pre-populated by Default 
+- Tooltip Displays Full Variable Display Name When Working in Elements 
+- Patient Profiles Now Have Clearer Section Labeling 
+- Save Element Confirmation Box Message Text Aligned 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2020.1.1 Resolved Issues 
+## Medidata Patient Profiles 2020.1.0 (apr 2020)
+ Important : The new and updated functionality in Patient Profiles Cloud 2019.1.0 was validated in March 2019. However, Patient Profiles Cloud 2019.1.0 was never made generally available. Therefore, Medidata Patient Profiles 2020.1.0 is the first release that contains the new and updated functionality built for the Patient Profiles Cloud 2019.1.0 release. See the Patient Profiles Cloud 2019.1.0 (mar 2019) section below for release details.
+ Note:  As of the 2020.1.0 release, any references to the product title are now updated to Medidata Patient Profiles or Patient Profiles. 
+ This release provides the following enhancements: 
+- Improved Navigation 
+- Technical Changes in Medidata Patient Profiles 2020.1.0 
+- Modifications Made to Improve Data Integration with Other Medidata Products 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2020.1.0 Resolved Issues List 
+## Patient Profiles Cloud 2019.1.0 (mar 2019)
+ This release provided the following features: 
+- Patient Profiles Cloud Indicates Whether a Design is Unblinded or Blinded 
+- Designate Designs as Blinded or Unblinded 
+- Patient Profiles Cloud Introduces Unblinded and Blinded User Role Permissions 
+ This release provided the following enhancements: 
+- Sort Element Tables by Column on the Profiles Tab 
+- Standardized Data Type Terminology 
+- Quickly View a Date Variable's Date Format on the Reports Page 
+- Receive Warning Message When Deleting Certain Elements 
+- Studies Page Features Improved Technical Capabilities 
+- Issues Resolved Outside Patient Profiles Cloud List Available On Knowledge Space 
+ The following defects were resolved in this release: 
+- Patient Profiles Cloud 2019.1.0 Resolved Issues 
+## Patient Profiles Cloud 2018.3.0 (dec 2018)
+ This release provided the following features: 
+- Configure Primary and Secondary Day Zero Dates 
+- View Patient Profiles Without Design Capabilities 
+ This release provided the following enhancements:
+- Customize the Default Color of Variable Data Points in Timelines 
+- Expand or Collapse All Elements When Viewing a Patient Profile 
+- Patient Profile PDFs Include Additional Details in Page Footers 
+- Day Zero Date Displays in Patient Profile Viewer 
+- Use the Event Table Check Box to Turn Wide Tables into Event Tables 
+- Patient Profiles Cloud Can Ingest New External Data Formats 
+- Patient Profiles Cloud Adds a Leading Zero to Single-Digit Dates 
+- Remove Blank Rows at the Bottom of Tables 
+- Distinct Element Types Cannot Have the Same Merge Name 
+- Study Environments Require Study Data to Create or Edit Designs 
+ The following defects were resolved in this release: 
+- Patient Profiles Cloud 2018.3.0 Resolved Issues 
+## Patient Profiles Cloud 2018.2.0 (jul 2018)
+ This release provided the following feature: 
+- Duplicate Designs to Other Study Environments Within the Same Study 
+ This release provided the following enhancements: 
+- Enhanced Navigation When Saving an Element from Unsaved Changes Dialog Box 
+- Enhanced Ability to Identify Data Sets and Variables Currently in Your Design 
+- Patient Selector Table Includes More Data Points to Investigate 
+- Additional Validation Checks Further Ensure You Configure Designs Properly 
+- Initially Navigate Directly to the Design Options Page When Creating New Designs 
+- Quickly View Currently-used Data Set When Editing Wide or Transposed Tables 
+- Design Report Enhancements 
+- Updates to Date Format Display and Behavior 
+- Customize the Missing Data Label for Transposed Tables 
+- Tooltips Include Data Set Identifier Along with Variable Name 
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2018.2.0 Resolved Issues 
+## Patient Profiles 2018.1.1 (jun 2018)
+ The following defects were resolved in this release: 
+- Medidata Patient Profiles 2018.1.1 Resolved Issues 
+## Patient Profiles 2018.1.0 (mar 2018)
+ This release provided the following feature: 
+- View and Export a Patient Profile on the Profiles Tab 
+ This release provided the following enhancements: 
+- More Efficiently Browse Data Sets and Add Variables to Elements 
+- Add Notes to Elements and Layout Sections to Provide Insight on Profile Data 
+ There are no resolved issues in this release. 
+## Patient Profiles 2017.1.0 (dec 2017)
+ This was the first release of Patient Profiles. This internal-only release provided the following new features: 
+- Navigation in Patient Profiles 
+- Add Headers to Designs Patient Profiles 
+- Add Flags to Designs Patient Profiles 
+- Add Wide Tables to Designs Patient Profiles 
+- Add Patient Information Tables to Designs Patient Profiles 
+- Add Transposed Tables to Designs Patient Profiles 
+- Add Timelines to Designs Patient Profiles 
+- Configure Display Conditions for Elements Patient Profiles 
+- Configure Highlight Conditions for Elements Patient Profiles 
+- Arrange the Design Layout Patient Profiles 
+- Design Management Patient Profiles 
+- Integrate Your Designs With CSA Patient Profiles 
+- Manage Date Settings Patient Profiles 
+- Review and Audit Designs Patient Profiles 
+ There are no resolved issues in this release.

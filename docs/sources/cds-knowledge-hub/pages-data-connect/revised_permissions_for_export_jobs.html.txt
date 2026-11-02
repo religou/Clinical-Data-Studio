@@ -1,0 +1,19 @@
+# Revised Permissions for Export Jobs
+
+## Revised Permissions for Export Jobs
+## Description
+ MEDS Extractor permissions have been extended to permit data extraction  from  Study Management , Issue Management, and Site Monitoring.  Additionally, the permissions to extract clinical data from EDC have been updated.  
+ To create a job to extract data you need to have  Manage Extracts permission and access to at least one study site. 
+ You also need the specific permission for the type of data to be extracted 
+## Affected Roles
+ All roles with the Admin Standard Role. 
+## Advantages
+ The updated export job permissions allow you to fine-tune the data you can extract. 
+## User Impact
+ In Cloud Administration, you can add the following permissions to your customer-defined platform role: 
+- Manage Extracts   – Allows you to create export jobs. Manage Extract was formerly the Extract Data permission. 
+- Extract EDC Data   – Allows  you extract EDC clinical data. 
+- Extract CTMS Data   – Allows you to extract any of the CTMS data types. 
+ To create or manage export jobs then the overall Manage Extracts permission is required for a user.
+## Special Considerations
+ None.

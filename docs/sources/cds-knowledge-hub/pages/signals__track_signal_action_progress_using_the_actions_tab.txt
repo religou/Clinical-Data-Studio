@@ -1,0 +1,90 @@
+# Signals:Track Signal Action Progress Using the Actions Tab
+
+## Signals:Track Signal Action Progress Using the Actions Tab
+## What Is New?
+ Actions are steps central monitors take in investigating signals in the study. You can now receive a notification when you are assigned actions and signals. The Signals page includes an Actions tab where you can track the progress for all actions assigned to team members for signals in your study.
+## What Is the Impact?
+## Users/Roles
+- Central Monitors and Central Statistical Monitors, Clinical Research Associates. 
+- Users with View Signals and Manage Signals building blocks. 
+## Workflow Process
+ No impact to workflow process.
+## Other Applications
+ Signals read data from the following capabilities:
+- Patient Profiles. 
+- KRIs. 
+- QTLs. 
+- Rounding. 
+- Propagation. 
+- Potential Duplicate Patients. 
+- Under/over Reporting. 
+## How Do I Benefit?
+ Clinical research associates no longer need to individually review each signal to find assigned actions. The Actions tab groups all the actions into a single list, providing a complete set of actions assigned in a study. This enables faster accessibility, reducing time taken to complete oversight, making reconciliation and progress tracking smother, provides a clear view of the workload across study team members. It also enables better management at high-incidence sites and prevents duplication of effort if actions already exist for signals.  
+## Where Do I See the Change?
+ The RBQM > Signals page includes the following updates:
+ Tip : Click the image to enlarge.
+ Number 
+ Description 
+ | 1 
+ | Actions tab – The RBQM > Signals page includes a new Actions tab, that lists all  actions assigned to signals in the study. 
+ | 2 
+ | 
+ Actions table – The actions table shows a total count of actions in the study. The table includes the following columns: 
+- Action ID 
+- Action Type 
+- Action Description 
+- Assignee – If no assignee is added to an action, you can click , the Add assignee button, and select a study team member, and a due date. You can add an assignee to actions in an open or in progress state. By default, the action status changes to In Progress when you assign an assignee, and changes back to Open if you remove the assignee. You receive a notification in your inbox as well as on the Notifications icon in iMedidata if any signal actions assigned to you. 
+- Open Date 
+- Action Due Date 
+- Action Status 
+- Action Closed Date 
+- Signal ID 
+- Signal Due Date 
+- Signal Description 
+- Site  
+ | 3 
+ | 
+ Actions Details – For any action, if you click , the More icon, the following options appear: 
+- Close action –The button appears disabled for an action in Open status, without any action being taken by the assignee. 
+- Mark as in progress – If an assignee takes action, you can mark it as in progress. The Open status changes to In Progress for the action. The button appears disabled for a closed action. 
+- View action details – If you click View action details, the Action details slide out panel appears.It includes a Details and an Action plan section. 
+- Details – All the fields are read-only, except Signal description, which you can update. 
+- Action ID 
+- Action Type 
+- Signal ID 
+- Signal Status 
+- Site  
+- Country 
+- Opened Date 
+- Opened By 
+- Closed Date 
+- Closed By 
+- Action Comments 
+- Signal Description 
+- Action plan – All the fields are editable, except for a closed action. In this case, all the action plan fields remain disabled. You can also change to a new assignee and the due date for an in progress action. The Action plan section includes the following fields: 
+- Action Status
+ Action Status 
+ Can Change to 
+ | Open 
+ | In Progress
+ | In Progress 
+ | 
+- Closed 
+- Open  
+ | Closed 
+ | No change can be made to action status 
+- Description 
+- Assignee 
+- Due Date 
+- If you click the Close button, all updates made on the Action Details page are saved for the action. 
+ | 4 
+ | 
+ Filtering the Actions table – If you click , the Filter icon next to the Search field, you can filter by Action ID, Action type, Assignee and Action Status. If you click the More filters button, you can apply further filters. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of feature:
+- Perform Signal Operations 
+- Track Signal Action Progress 
+- View Signal And Signal Action Notifications 
+## What Else Should I Know?
+ You can add, update, or assign actions only if you have the View Signals building block added to your role in Cloud administration. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

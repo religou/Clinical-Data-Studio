@@ -1,0 +1,25 @@
+# Data Surveillance: View Refresh Status For Individual AI Data Reconciliation Reports
+
+## Data Surveillance: View Refresh Status For Individual AI Data Reconciliation Reports
+## What Is New?
+You can now view individual refresh status for each of the eight AI Data Reconciliation reports.
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to the other applications.
+## How Do I Benefit?
+ You can determine further action based on the latest data in individual AI data reconciliation reports. For example, if a report refresh failed, you may need to contact the administrator to reconfigure the report.
+## Where Do I See the Change?
+ In the Data Surveillance > AI Data Reconciliation reports section, when you click either the Conditions or Treatments tab, each report appears. with an icon that indicates refresh status. For example, the Condition tab in a study A, appears:
+- - indicates the report failed to refresh. If you open the report, a Report Refresh Failed label shows next to the report name.  
+- No icon - indicates the report refreshed successfully. If you open the report, it shows the timestamp when the data was last refreshed along with a Success label next to the report name. 
+-  - indicates the report was skipped during the data refresh process. You must contact your system administrator to update report configurations. 
+ Where Do I Learn More? 
+ Use the following links to find new and updated content in support of the enhancement:
+- AI Data Reconciliation   
+## What Else Should I Know?
+-  If you do not map Grade in Data Surveillance > Configuration > Data Mapping > Event Analysis > Condition Mapping, then the CTCAE report is skipped during data refresh.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

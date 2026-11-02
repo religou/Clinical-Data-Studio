@@ -1,0 +1,29 @@
+# PDS: Track Up to Fifteen Approved Listings for Clean Patient Data Analysis
+
+## PDS: Track Up to Fifteen Approved Listings for Clean Patient Data Analysis
+## What Is New?
+ You can now activate up to 15 approved data listings for analysis in Clean Patient Tracker .
+## What Is the Impact?
+## Users/Roles
+ Data managers
+## Workflow Process
+ You can use Clean Patient Tracker to track unvetted and unreviewed records associated with up to 15 data listings . You can then further drill down directly to clean those listings' records in Data Reviewer. 
+## Other Applications
+ Clean Patient Tracker .
+## How Do I Benefit?
+ You can now track an additional five data listings in Clean Patient Tracker. Tracking listings in Clean Patient Tracker:
+- Visualizes, lists, and prioritizes outstanding data cleaning tasks so you can focus on the most unclean data or areas of most importance in your study. 
+- Facilitates faster cleaning of data. 
+- Refreshes for an up-to-date view of data cleanliness. 
+- Increases study team-level coordination and visibility of data cleanliness and outstanding data cleaning tasks. 
+- Promotes cleaner, more fully vetted study data. 
+## Where Do I See the Change?
+ On the Data Listings page > Approved Listings table, the far right side of the table includes the Track column. You can click the deactivated Activation button, , for the corresponding listings you want Clean Patient Tracker to track. Similarly, t o deactivate listings from being tracked in Clean Patient Tracker, you can click the activated Activation button, . 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Activate Individual Approved Listings for Clean Patient Tracker Analysis 
+- Clean Patient Tracker 
+- Track and Clean In Progress Patient Data 
+## What Else Should I Know?
+ After activating or deactivating approved listings for Clean Patient Tracker analysis, you can trigger Clean Patient Tracker to recalculate outstanding records based on the latest study data .
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

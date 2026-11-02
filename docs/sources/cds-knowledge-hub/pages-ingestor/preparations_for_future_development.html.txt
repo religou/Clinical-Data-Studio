@@ -1,0 +1,25 @@
+# Preparations for Future Development
+
+## Preparations for Future Development
+## Description
+ Ingestor includes the following updates to prepare for future Ingestor capabilities:
+- Architecture updates:
+- Updates to enable the addition of import job types outside the release cycle:
+- Creation of the following internal templates: Run Activity, Import Definition, and Import Configuration 
+- Removal of internal job creation and processing dependences 
+- Standardization of internal creation job processing assets 
+- Updates to Populate Platform identifiers in Ingestor database for future development 
+- Removal of obsolete columns from internal database and architecture 
+- Updates to prepare Ingestor's interface for localization. 
+ Feature/enhancement stories referenced in this article:
+ MCC-1011623, MCC-961194, MCC-1012597, MCC-1012584, MCC-1012614, MCC-1012621, MCC-1006536, MCC-1009027, MCC-1006534, MCC-1006535, MCC-994153, MCC-1031579, MCC-988704, MCC-1013013, MCC-1015212 
+## Affected Roles
+ None. This restructuring does not affect the way you use Ingestor.
+## Advantages
+ These updates prepare Ingestor to accept new data types for import jobs and other capabilities. As the Medidata team introduces new data types, you can use those types to import more types of data onto the Medidata platform through Ingestor.  
+## User Impact
+ None. This restructuring does not affect the way you use Ingestor. This release does not include new data types, and any new data types do not affect your existing import jobs.
+## Knowledge Updates
+ None. 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

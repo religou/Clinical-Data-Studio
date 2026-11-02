@@ -1,0 +1,107 @@
+# Study Design Metadata Import Error Messages
+
+## Study Design Metadata Import Error Messages
+ When you import  Study Design Metadata (SDM) files to create data integrations, you may come across different error messages. You can download a summary report containing the errors. The following table lists a number of possible errors and potential corrective action. 
+ Message Type 
+ Message 
+ Message Cause and Action Required. 
+ | Error 
+ | Response body: {"type":"errors:mdsol:validation_failed","title":"The validation of the request failed.","status":422,"validation_errors":[{"key":"item_group_type","message":"The item_group_type can be common only when its defined_item.type is master_metadata.","error_oid":"invalid_data"}]} 
+ | Validation failed for study_design_fields. ITEM_GROUP_TYPE value must be COMMON for Study, Site, Subject, and Visit fields. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:gauntlet:data_integration_version_publish_blocked","title":"Cannot publish the data integration version.","status":422,"blocked_details":{"uuid":"9aa24ede-8a75-465b-9118-96a2018aa1e3","blockers":[{"blocked_reason":"protocol_version_not_published"}]}} 
+ | Data Integration cannot be published because the Protocol Configuration is in draft. Publish the protocol and reupload. 
+ | Error 
+ | Response body: {"type":"errors:mdsol:validation_failed","title":"The validation of the request failed.","status":422,"validation_errors":[{"key":"ordinal","message":"The Ordinal value provided is already used on the Dataset","error_oid":"duplicate_data"}]} 
+ | Validation failed for study_design_fields. DATASET_OID must be unique. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:mdsol:validation_failed","title":"The validation of the request failed.","status":422,"validation_errors":[{"key":"oid","message":"The requested Dataset Item Configuration OID has already been used.","error_oid":"duplicate_data"}]} 
+ | Validation failed for study_design_fields. FIELD_OID must be unique. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:mdsol:validation_failed","title":"The validation of the request failed.","status":422,"validation_errors":[{"key":"oid","message":"oid format is invalid","error_oid":"invalid_format"},{"key":"field_header","message":"The field_header field is required.","error_oid":"missing_value"}]} 
+ | Validation failed for study_design_fields. FIELD_OID cannot be blank. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:mdsol:validation_failed","title":"The validation of the request failed.","status":422,"validation_errors":[{"key":"ordinal","message":"Value for ordinal is required and must be between 1 and 2147483647","error_oid":"invalid"}]} 
+ | Validation failed for study_design_fields. FIELD_ORDER must be a positive integer. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:gauntlet:data_integration_version_publish_blocked","title":"Cannot publish the data integration version.","status":422,"blocked_details":{"uuid":"84177839-319f-4766-98ec-e7fa3e296041","dataset_configurations":[{"uuid":"87fe2299-7df4-4ae8-b1cf-bf15fcf7293f","blockers":[{"blocked_reason":"missing_key_values"},{"blocked_reason":"missing_item_configuration"}]}]}} 
+ | Data Integration cannot be published because some key fields are missing or blank. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:mdsol:validation_failed","title":"The validation of the request failed.","status":422,"validation_errors":[{"key":"name","message":"The name field is required.","error_oid":"missing_value"}]} 
+ | Validation failed for study_design_fields. FIELD_LABEL is missing or blank. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:mdsol:validation_failed","title":"The validation of the request failed.","status":422,"validation_errors":[{"key":"item_group_type","message":"The item_group_type field is required.","error_oid":"missing_value"}]} 
+ | Validation failed for study_design_fields. ITEM_GROUP_TYPE is missing or blank. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:mdsol:validation_failed","title":"The validation of the request failed.","status":422,"validation_errors":[{"key":"ordinal","message":"Could not convert string to integer: 2147483650. Path 'ordinal', line 1, position 150.","error_oid":"invalid"}]} 
+ | Validation failed for study_design_fields. FIELD_ORDER must be a positive integer. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:mdsol:validation_failed","title":"The validation of the request failed.","status":422,"validation_errors":[{"key":"format.max_length","message":"Invalid max_length value provided for type","error_oid":"invalid"}]} 
+ | Validation failed for study_design_fields. LENGTH must be a positive integer. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:mdsol:validation_failed","title":"The validation of the request failed.","status":422,"validation_errors":[{"key":"format.max_length","message":"Could not convert string to integer: 2147483650. Path 'format.max_length', line 1, position 236.","error_oid":"invalid"}]} 
+ | Validation failed for study_design_fields. LENGTH must be a positive integer. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:mdsol:validation_failed","title":"The validation of the request failed.","status":422,"validation_errors":[{"key":"format.date_format","message":"date_format not provided for date type","error_oid":"missing_value"}]} 
+ | Data validation failed. DATETIME_FORMAT cannot be blank when DATA_TYPE is date. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:mdsol:validation_failed","title":"The validation of the request failed.","status":422,"validation_errors":[{"key":"format.max_length","message":"max_length value provided for date type","error_oid":"invalid"}]} 
+ | Data validation failed. LENGTH should be blank when DATA_TYPE is date. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:mdsol:validation_failed","title":"The validation of the request failed.","status":422,"validation_errors":[{"key":"format.precision","message":"precision value should not be provided for type","error_oid":"invalid"}]} 
+ | Data validation failed. SIG_DIGITS should be blank when DATA_TYPE is date. Correct the file and reupload. 
+ | Error 
+ | Response body: {"type":"errors:gauntlet:data_integration_version_publish_blocked","title":"Cannot publish the data integration version.","status":422,"blocked_details":{"uuid":"e534d166-5f13-4d85-b004-25c0b5136bef","dataset_configurations":[{"uuid":"8a60e153-7b16-443a-864b-c1482b1eecbc","oid":"ECGV","blockers":[{"blocked_reason":"activities_missing_mandatory_items","defined_items":[{"uuid":"0a9caf46-fe55-41bc-a0f2-050a1a3dee42","oid":"SUBJID"},{"uuid":"210e361c-4067-453f-bd34-aeb0d9d0075b","oid":"VISIT"},{"uuid":"04bba9ab-4e1d-43da-a124-2509e5643456","oid":"STUDYID"},{"uuid":"4b6ec36d-cc21-449f-a3aa-f244f6b4b516","oid":"SITEID"},{"uuid":"b2af1df1-a9b9-469a-8fe6-4e97517f82eb","oid":"SVSTDTC"}]}]}]}} 
+ | Validation failed for study_design_fields. Mandatory CONCEPT_OID fields missing from DATASET_OID. Correct the file and reupload. 
+ | Error 
+ | file not found for Study Design Visit. Expected a file to exist with name like <study_name>_study_design_visits_yyyymmddThhmm.csv 
+ | Study Design Visit file missing. Include the file named with the following convention:
+<study_name>_study_design_visits_yyyymmddThhmm.csv 
+ | Error 
+ | file not found for Study Design Dataset. Expected a file to exist with name like <study_name>_study_design_datasets_yyyymmddThhmm.csv 
+ | Study Design Datasets file missing. Include the file named with the following convention: 
+<study_name>_study_design_datasets_yyyymmddThhmm.csv 
+ | Error 
+ | file not found for Study Design Schedule of Assessment. Expected a file to exist with name like <study_name>_study_design_soa_yyyymmddThhmm.csv 
+ | Study Design Schedule of Assessments file missing. Include the file named with the following convention: 
+<study_name>_study_design_soa_yyyymmddThhmm.csv 
+ | Error 
+ | file not found for Study Design Fields. Expected a file to exist with name like <study_name>_study_design_fields_yyyymmddThhmm.csv 
+ | Study Design Fields file missing. Include the file named with the following convention: 
+<study_name>_study_design_fields_yyyymmddThhmm.csv 
+ | Error 
+ | study_design_soa.csv does not have required headers. Missing headers: ["VISIT_OID"]. 
+ | Validation failed for study_design_soa. The required headers are missing [OID1, OID2]. Correct the file and reupload. 
+ | Error 
+ | Response body: {"errors":"Validation failed: Short desc can't be blank"} 
+ | Validation failed for study_design_datasets. DATASET_NAME cannot be blank. Correct the file and reupload. 
+ | Error 
+ | Could not locate Study Activity for Dataset OID: <Dataset_OID> 
+ | Dataset OID found in study_design_soa.csv file is not found in study_design_datasets.csv file. Correct the file and reupload. 
+ | Error 
+ | Could not locate Study Event for Visit OID: <Visit_OID> 
+ | Visit OID found in study_design_soa.csv file is not found in study_design_visits.csv file. Correct the file and reupload. 
+ | Error 
+ | 
+Response body: {"errors":{"base":["oid is not unique within the study"]}} 
+ | Validation failed for study_design_visits. VISIT_OID must be unique. Correct the file and reupload. 
+ | Error 
+ | Skipping Publish a Draft Data Integration version because No Dataset Item configuration was created 
+ | Data Integration cannot be published. Dataset Field definitions are incomplete. Complete the study_design_fields file for all data sets and reupload. 
+ | Error 
+ | Mutations::ValidationException: Draft protocol already exists in protocol: 21d01d80-4e48-4cec-8220-d799e04340dd 
+ | Data Integration cannot be published because the Protocol Configuration is in draft. Publish the protocol and reupload. 
+ | Error 
+ | RuntimeError: Data Validation errors found while processing metadata files. Please check logs/artifact for details. 
+ | This message indicates that an error has occurred. You need to review the log to identify the specific error. 
+ | Warning 
+ | Cannot create study activities as custom activity creation failed 
+ | Datasets could not be created because of an error with custom dataset creation. 
+ | Warning 
+ | Skipping creation of event activities because a precondition failed 
+ | Schedule of Assessments could not be created because of an error with custom dataset creation. 
+ | Warning 
+ | Cannot Publish Protocol Version 
+ | Protocol Configuration Version cannot be published as one or more preconditions were not met. Examples are:
+- Draft Protocol already exists. Publish the draft protocol. 
+- System failed to created schedule for Protocol. Reupload   the SDM files again.

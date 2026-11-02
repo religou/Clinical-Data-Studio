@@ -1,0 +1,147 @@
+# RECIST 1.1 Dashboard Tumor Burden and Response Calculation Methodology
+
+## RECIST 1.1 Dashboard Tumor Burden and Response Calculation Methodology
+ The interactive waterfall plot and the patient table on the RECIST 1.1 Dashboard show the tumor burden and the tumor burden response respectively, for patients in your study. T he tumor burden response by patient table: 
+- Shows tumor response measurements that sites enter, and that the RECIST 1.1 algorithm calculates. 
+- Enables you to check if tumor measurements align with the clinical status of the patient. 
+- Enables you to compare discrepant patient records.  
+- Provides information needed to act further on discrepant records. 
+ While the site entered data flows from Medidata Rave to Data Surveillance, the built-in RECIST 1.1 algorithm calculates the following metrics:
+- Calculated Overall Response   – Overall tumor response.
+- Calculated TL Response   –   Tumor response stages (CR, PR, PD, SD, NE, NA) for target lesions. 
+- Calculated NTL Response   –   Tumor response stages (CR, PR, PD, SD, NE, NA) for non target lesions. 
+- Calculated NL Response   – Indicates if the algorithm calculated the occurrence of new lesions for the visit. 
+## RECIST 1.1 Algorithm Calculation Premise
+ The RECIST 1.1 algorithm uses the following assumptions for calculations:
+## Study Design Type 
+ The RECIST 1.1 algorithm supports a study only if it can extract the visit name from the folder name, and the visit date from folder date or folder name. The RECIST 1.1 calculations are accurate only if the extracted visit information is unique across patient visits. 
+ Type of Study Design 
+ Sample Image 
+ Supported By RECIST 1.1 Algorithm  
+ | Studies which capture oncology forms in different folders for every visit.
+ | 
+ | Yes.
+The algorithm extracts visit data from the individual visit folders, Screening , Cycle 1 Day 1 (0 ), Cycle 2 Day 1 (0) etc.  
+ | Studies which capture oncology forms in grouped folders for every visit.
+ | 
+ | 
+- If the visit name and visit date are not configured, the algorithm automatically extracts information from the folder. V isit name and visit date default to performed event name or folder name and date respectively, if not configured. You cannot use planned event name and date as the RECIST 1.1 algorithm does not consider these values. 
+ Note : Visit name and visit date are optional fields. For more information, see  Map RECIST 1.1 Data .
+Yes, but the study design has a limitation. As the visit name is extracted from the sub-older name which varies by patient even for same visit, the bar chart that compares patients across the same visit on the RECIST 1.1 Dashboard  does not render all patients.  
+ Here forms like Target Lesions, Non Target Lesions are recorded in a different folder from the visit folder. Within parent folders like Tumor Assessments , subfolders like Assessment + 01/0123(0) , Assessment + 01/02/23 (1) etc. exist, which contain the visit information. The algorithm extracts the visit data from the subfolders. 
+- If the visit name and visit date are configured, the algorithm correctly distinguishes between different visits.  
+ | Studies which capture oncology data in grouped forms for every visit.
+ | 
+ | Yes.
+ Here parent folders like Tumor Assessments exist, but without any subfolders specific to a visit. Instead, the study captures different visits as loglines within same form . For example, all visits for target lesions in the  Target Lesions (1, 2...) form, all visits for non target lesions in the Non Target Lesions form. Visit data can be correctly extracted if visit name and visit date are mapped in Configuration Management > RECIST 1.1.
+## Other Assumptions
+- The data must contain at least one screening target lesion diameter entry to provide a non-empty calculation. 
+- Screening target lesions and on-study target lesions are differentiated by checking if the folder where they are stored contains the terms screen or base. 
+- Scheduled visits are determined by looking at folder names without keywords  unsc or end . 
+- If the visit date is empty, the algorithm uses the folder name to identify a visit date. If this is not possible, the algorithm ignores the visit with no date for the final calculation, including any assessments at that visit, for example, target lesions. For studies with no visit date identified, the final output is empty. 
+- In case the long and short-axis diameters are collected in the same field for target lesions, the algorithm checks if the location field contains the term lymph. If the location field is empty, the location is assumed as non-nodal. 
+- All calculations are made in mm units, so any diameter provided is converted to mm. If no diameter unit field is specified, the algorithm checks for a unit dictionary associated with the diameter measurement field. If no unit is provided or recognized, the algorithm uses mm. 
+- If a visit has no target lesion diameter information, the algorithm does not include the visit in the output.  
+## Tumor Burden Calculation
+ The tumor burden evaluation includes the following calculated variables:
+- Sum of diameters – Also known as tumor burden, calculated at each visit by adding all the short-axis diameters and all the long diameters provided. 
+- Tumor burden change ( y ) – Calculated by subtracting the sum of diameters at screening ( x) from the sum of diameters at the current visit ( x) , then div iding that by the sum of diameters at screening ( x) and multiplying by 100. At screening, the value is 0.  
+ y = 100 ( x 1 − x 2) / x 2
+- NADIR – The smallest sum of diameters observed up until, and including the current visit. At screening, the NADIR = screening sum of diameters. 
+NADIR is the smallest of the the sum of diameters at baseline or the smallest sum of diameters during the trial. For more information on NADIR, see  RECIST 1.1 NIH Clarification . 
+ Note : The algorithm calculates values in millimeters (mm). 
+## Response Calculation
+ The algorithm calculates tumor response per visit by considering the lesions per category reported at the visit. 
+## Target Lesion Response Calculation 
+ Tumor burden calculations are used to calculate response for a patient visit. Tumor % change is measured for target lesions only as per RECIST 1.1 guidelines . The following table shows calculations by tumor response category: 
+ Calculated Response 
+ Conditions when the algorithm calculates the response. 
+ | Complete Response (CR) 
+ | When all target lesions (TLs) disappear. That is, the longest diameter of all non-nodal locations = 0 mm, and short axis of all lymph nodes is < 10 mm. 
+ | Partial Response (PR) 
+ | When a  >= 30% decrease in the sum of diameters occurs from the baseline sum of diameters. 
+ | Progressive Disease (PD) 
+ | When a >= 20% increase in the sum of diameters from NADIR and an absolute increase of >= 5 mm in the sum of diameters from NADIR occurs. 
+ | Stable Disease (SD) 
+ | When there is not sufficient change to qualify for PR or PD. 
+ | NE / NA 
+ | If any of the following criteria are met: 
+- If the patient visit does not qualify for any other response. 
+- if at least one lesion has an empty diameter 
+- if the short axis diameter for at least one lymph node is 10 mm or the longest diameter of at least one non-nodal location is 5 mm and the patient visit does not qualify for any other response. 
+## Non-Target Lesion Response Calculation
+ The algorithm uses the tumor status field to calculate non-target lesion response for a patient visit.
+ Calculated Response 
+ Conditions when the algorithm calculates the response 
+ | Complete Response (CR) 
+ | When all non-target lesions (NTL) disappear. That is, the status of all non-nodal locations is absent and the status of all lymph nodes is normal. 
+ | Progressive Disease (PD) 
+ | When at least on NTL has the status as Unequivocal Progression. 
+ | Non-CR/Non-PD (NN) 
+ | When at least one NTL has status as Present, and all the remaining are either Normal or Absent. 
+ | NE/NA 
+ | If any of the following criteria are met:
+- If the patient visit does not qualify for a response. 
+- If at least one NTL as the status as Unable ti Evaluate at the current visit, and no NTL has the status as Unequivocal Progression. 
+- If no NTL is present at a patient visit. 
+- If at least one NTL has an empty status. 
+## New Lesion Response Calculation
+ The algorithm calculates the new lesion response as follows:
+- Yes: If the New Lesions Tumor Status for the visit is Yes. 
+- No: If the New Lesions Tumor Status for the visit is No or empty. 
+## Overall Response Calculation
+ Complete Response (CR) 
+ Target Lesion Response 
+ Non Target Lesion Response 
+ New Lesion Response 
+ | CR 
+ | CR 
+ | No 
+ | CR 
+ | Null 
+ | No 
+ Progressive Disease (PD) 
+ Target Lesion Response 
+ Non Target Lesion Response 
+ New Lesion Response 
+ | PD 
+ | Any 
+ | Any 
+ | Any 
+ | PD 
+ | Any 
+ | Any 
+ | Any 
+ | Yes 
+ Partial Response (PR) 
+ Target Lesion Response 
+ Non Target Lesion Response 
+ New Lesion Response 
+ | CR 
+ | NN or NE/NA 
+ | No 
+ | PR 
+ | Not PD 
+ | No 
+ Stable Disease (SD) 
+ Target Lesion Response 
+ Non-Target Lesion Response 
+ New Lesion Response 
+ | SD 
+ | Non-PD 
+ | No 
+ Non-CR /Non-PD (NN) 
+ Target Lesion Response 
+ Non Target Lesion Response 
+ New Lesion Response 
+ | Null 
+ | NN 
+ | No 
+ NE /NA 
+ Target Lesion Response 
+ Non Target Lesion Response 
+ New Lesion Response 
+ | NE/NA 
+ | 
+ Not PD
+ | No

@@ -1,0 +1,20 @@
+# Product Rebranded as Detect Configuration Manager
+
+## Product Rebranded as Detect Configuration Manager
+## Description
+ Formerly known as RBQM Configuration Manager, the product's new name effective Release 2022.1.0, is Detect Configuration Manager. Whenever you configure any application in Detect like Key Risk Indicators (KRIs), Quality Tolerance Limits (QTLs) or Potential Duplicate Patients, you use Detect Configuration Manager. You can navigate to the Detect Configuration Manager using any of these paths. Go to: 
+- Medidata Detect > Centralized Statistical Monitoring (CSM) module > CSM Configuration  
+- Medidata Detect > Key Risk Indicators (KRIs) module > KRI Configuration 
+- Medidata Detect > Quality Tolerance Limits (QTLs) module > QTL Configuration 
+ For more information, see Improved Navigation in Detect Configuration Manager 2022.1.0 . 
+## Affected Roles
+ All. 
+## Advantages
+ Detect Configuration Manager aligns with the unified Medidata Detect model, and with the Medidata marketing collateral. 
+## User Impact
+- Online help links to rebranded product information. 
+- User roles in Cloud Administration renamed to align with product name. 
+## Knowledge Space Updates
+ None. 
+ Special Considerations 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

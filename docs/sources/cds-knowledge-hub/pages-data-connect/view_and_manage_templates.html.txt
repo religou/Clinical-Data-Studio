@@ -1,0 +1,30 @@
+# View and Manage Templates
+
+## View and Manage Templates
+ Data Connect includes the ability to create standardized, reusable, and version-controlled templates that capture and apply the transformation logic from source projects. This ensures uniformity and acceleration in the setup process across diverse transformation needs. 
+ Important : You need the following building blocks and corresponding permissions: 
+- View Library Templates : To view and use templates. 
+- Manage Library Templates : To create and edit templates 
+ When you add these building blocks, ensure that you add them at the client level and not at the study level. 
+## View Templates
+- Access Data Connect . 
+- Click the Platform Library   tab. 
+- Using the Search field, enter the template name, 
+- Click the More icon > View template . 
+- Click a data source or the node to view template details. 
+- Select a version from the menu to view the different versions of the template.
+ Important : You can only use the latest version of the template when you create a project with the template.
+- As necessary, click  Modify the source project to open the source project and update it.
+## Create a Project from Template
+ You can create a derived dataset transformation project with templates. 
+- Access Data Connect , and click  Transformations  in the left-hand menu. 
+- Click   Add Project , and enter the following settings:
+- Project Name   – Enter a project name. 
+- Project Type   – Select   Derived datasets . 
+- Select Setup From Template . 
+- Select a template from the library. 
+- Click   Add project . 
+The system automatically pre-populates the new derived dataset canvas with the template's predefined configurations including dataset schema and mapping logic. 
+- As necessary,  change the configuration .  
+- As necessary, publish the project . 
+ Important : Only Librarians or Admins can add or publish templates.

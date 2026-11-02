@@ -1,0 +1,51 @@
+# View All Study Listings
+
+## View All Study Listings
+ You can view all data listings created for your study—whether activated or deactivated—in the Listings table. You can also view each listing's associated metadata statuses regarding whether the listing is: 
+- Rave enabled. 
+- Approved or in draft status. 
+- Activated or deactivated. 
+ You can also filter and sort the Listings table to help find the specific data listings you need.
+## Access and View the List of Your Study's Listings
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Data Listings page shows. 
+- Click Manage Listing on the upper-right side of the Data Listings page.
+The Manage Listing page > Listings table shows all draft and approved listings in your study and each listing's associated details.
+ Table Column Descriptions 
+- Name – The listing's object identifier (OID). 
+- Expression – The data listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- Created By – The user who created the listing. 
+- Created –  The listing's creation date. 
+- Updated By – The user who most recently updated the listing. 
+- Last Updated – The data listing's creation date or or when the last saved edit occurred. 
+- Rave Enabled – A check mark indicates that you can directly within Data Surveillance view and submit Rave queries on the patient records captured by the data listing . 
+- Status – Indicates whether the listing is in approved or draft status. 
+- Activate – Enables you to control which approved listings and draft listings you want to show in the Data Listings > Approved Listings table and Data Listings > Draft Listings table, respectively. The activated slider, , indicates that the listing currently shows in its Approved Listings table or Draft Listings table. The deactivated slider,  , indicates that the listing is currently hidden from the Approved Listings table or Draft Listings table.  
+- If necessary, filter or sort the Listings table to find the listings you need. 
+## Filter the Listings Table
+ To help find the listings you need, you can filter the Listings table to show:
+- All listings in your study. 
+- Only approved listings. 
+- Only draft listings 
+- Only Rave-enabled listings. 
+- Specific listings by name. 
+- Only listings created by specific users. 
+- Only listings that were last updated by specific users. 
+- If necessary, access the Listings table .
+The Listings table shows all draft and approved listings in your study by default. 
+- Do any of the following:
+- Click the All Listings menu at the top-right corner of the Listings table, and then select one of the following:
+- Rave Enabled – Shows only approved and draft listings that are configured to let you to view and submit Rave queries on the patient records captured in the data listing's results 
+- Approved – Shows only listings that are in approved status. 
+- Draft – Shows only listings that are in draft status. 
+- Click the Filter button, , at the top-right corner of the Listings table, and then select and apply one or more of the following:
+- Name – Filter to show specific draft listings. 
+- Created By – Filter to show only draft listings created by specific users. 
+- Updated By – Filter to show only draft listings that were last updated by specific users. 
+## Sort the Listings Table
+ To help find the listings you need, you can sort the Listing table's columns vertically in ascending or descending alphanumeric order. For example, you can sort to more quickly find a specific listing name. Or you can sort the Last Updated column to find the most recently updated or longest unupdated listings.  
+- If necessary, access the Listings table . 
+- In the Listings table, click any column header to sort the table by column in ascending alphanumeric order.
+An up arrow, , appears next to the column name. 
+- Click a column header twice to sort the table by column in descending alphanumeric order.
+A down arrow, , appears next to the column name.

@@ -1,0 +1,18 @@
+# Expression Builder Features
+
+## Expression Builder Features
+ Data Reviewer includes the following capabilities related to working with the expression builder:
+- Case Insensitive Expression Builder Text Calculations 
+- Data Surveillance: Reorder Data Listing Columns For Better Accessibility 
+- Concatenate Derived Variable Expanded to Multiple Concatenation 
+- Copy Configuration For Existing Derived Variables 
+- Identify Critical Data In Expression Builder, KRIs, QTLs and In Data Mapping 
+- Corrected Text Field Rendering in Expression Builder 
+- Derived Variable - Expression Builder 
+- Derived Variable - Merge 
+- Derived Variables - Check All That Apply 
+- Expression Builder Accepts Decimal Numbers 
+- Expression Builder Workflow Allows Six Rows of Derived Variables 
+- New Operators Available for Expression Builder 
+- New Warning Message for Incomplete Derived Variable Expressions 
+- Upgraded One Of Operator Available For Derived Variables

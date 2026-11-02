@@ -1,0 +1,52 @@
+# Configuration: Configure Missing Pages Source And Form Status Data
+
+## Configuration: Configure Missing Pages Source And Form Status Data
+## What Is New?
+ You can configure data in Clean Patient Tracker using the Data Surveillance > Configuration > Clean Patient Tracker page. The configuration, previously available under the Data Surveillance > Configuration > Data Mapping > Missing Pages tab, is no longer available.
+## What Is the Impact?
+## Users/Roles
+ Data managers. 
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Configuring Data Surveillance to autopopulate missing page counts and form status calculations in Clean Patient Tracker:
+- Enables your organization to seamlessly incorporate missing page report data into Data Surveillance for tracking and analysis. 
+- Ensures Clean Patient Tracker analyses the most recent and correct data. 
+- Reduces the time and effort to track form status calculations and missing page counts. 
+- Ensures data analysis quality by reducing data entry errors.   
+## Where Do I See the Change?
+ On the Data Surveillance > Configuration > Clean Patient Tracker page, you can see the following:
+ Tip: Click the image to enlarge.
+ Number 
+ Description 
+ | 1.
+ | On the Data Surveillance tab, if you click Configuration from the left-hand menu, and then click Clean Patient Tracker , the Clean Patient Tracker Configuration page appears.  
+ | 2.
+ | The Clean Patient Tracker page includes a form status section, a missing pages source section, and a download option. 
+ | 3. 
+ | The Form status section allows you to configure fields used to perform form (CRF) status calculations per patient in Clean Patient Tracker. The values in the fields come from Rave EDC. It includes the following:
+- Incomplete – The pages which were obtained with incomplete information. 
+- Requires review – Total number of pages where at least one field on the page requires review. 
+- Requires freeze – Total number of pages where fields are locked from entering data. 
+- Requires lock – Total number of pages where a page is locked. 
+- Requires signature – Total number of pages with data, and requiring signatures. 
+- Non conformant – Total number of pages where at least one field on the page has non-conformant data. 
+  If you configure the fields and then click Apply , you must also then click Refresh in Data Surveillance > Clean Patient Tracker so the correct form statuses appear on the page.
+ | 4. 
+ | The Missing pages source section allows you to configure your data source to track missing pages count in Clean Patient Tracker > Patient Table > Missing Pages column. You can configure the source as:
+- Rave 
+- Manual  
+- External 
+ You must also select the dataset, the missing page count field, or the expected page count, and entered page count fields. 
+ | 5. 
+ | If you click the Download Report button from the top right corner of the page, the Clean Patient Tracker Configuration page downloads as a PDF. The report includes the form status calculations fields, and the missing pages source fields.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the feature : 
+- Clean Patient Tracker Configuration 
+- Clean Patient Tracker 
+## What Else Should I Know?
+- Once you configure the form statuses, you must refresh data on the Clean Patient Tracker page, so that the correct form statuses appear. 
+- If you do not select and configure fields, the corresponding form statuses per patient do not appear in Clean Patient Tracker. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

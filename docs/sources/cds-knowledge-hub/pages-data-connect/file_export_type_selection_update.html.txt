@@ -1,0 +1,15 @@
+# File Export Type Selection Update
+
+## File Export Type Selection Update
+## Description
+ While creating an export job, in the Name Output step > Export File Types section, the list shows the available file types as a list of check boxes instead of a bulleted list. There is only one option available: Comma Separated Values (CSV). The check box is selected by default, but disabled. This is to ensure that you do not clear the checkbox.
+## Affected Roles
+ All.
+## Advantages
+ This change is in preparation for added ease of use in future file types. 
+## User Impact
+ See Description.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

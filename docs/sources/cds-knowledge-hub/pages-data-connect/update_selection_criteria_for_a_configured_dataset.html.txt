@@ -1,0 +1,9 @@
+# Update Selection Criteria for a Configured Dataset
+
+## Update Selection Criteria for a Configured Dataset
+ You can update the selection criteria for a dataset as required.
+- Access Data Connect , and click   Imports   in the left-hand menu. 
+- Click the More icon of the data source, and select View .
+- Click the More icon of the dataset, and select Edit file selection criteria . 
+- Update the file selection criteria .  
+ Important : Updating the selection criteria does not create a version for a dataset.

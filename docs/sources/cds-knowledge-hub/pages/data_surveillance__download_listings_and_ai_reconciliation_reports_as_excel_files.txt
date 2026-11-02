@@ -1,0 +1,23 @@
+# Data Surveillance: Download Listings and AI Reconciliation Reports As Excel Files
+
+## Data Surveillance: Download Listings and AI Reconciliation Reports As Excel Files
+## What Is New?
+ You can now download reports in AI Reconciliation and Listings as Excel files. CSV file downloads are no longer available. Columns in the downloaded listing file match  that in the listings on screen. The downloaded Excel contains a comments column, with the latest comments shown first. 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ No impact to workflow.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Data managers can use Excel files to share information with study team members while reviewing data, and save time and effort on curating and formatting CSV files.
+## Where Do I See the Change?
+ On the Data Surveillance > Listings > Approved tab, if you select a listing, and then click Download (.xlsx) from the top right corner of the page, the listing downloads an Excel file. The columns in the downloaded file match that in the listing on screen, along with comments as the final column.
+ On the Data Surveillance > AI Reconciliation > Reconciliation page, if you click either Conditions or Treatments, and then select a report from the list, and then click  Download (.xlsx) from the top-right corner of the page, the report downloads as an Excel file.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- AI Reconciliation 
+- Listings 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

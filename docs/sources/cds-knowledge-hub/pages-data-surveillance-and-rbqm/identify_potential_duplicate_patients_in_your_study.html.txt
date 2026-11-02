@@ -1,0 +1,111 @@
+# Identify Potential Duplicate Patients In Your Study
+
+## Identify Potential Duplicate Patients In Your Study
+ You can use the Potential Duplicate Patients page to investigate and identify potential duplicate patients by: 
+- Surveying the Potential Duplicate Patients heatmap's global view to a ssess worldwide site locations with potential duplicate patients. 
+- Manually zooming in the heatmap to the site level view to focus on sites with potential duplicate patients. 
+- Viewing a summary list of:
+- Countries or sites with potential duplicate patients.
+- Patients that RBQM identifies as being potential duplicate patients.
+- Auto-zooming the heatmap to pinpoint and zoom in on specific c ountries and sites with potential duplicate patients. 
+- Investigating and comparing side-by-side the demographic details of potential duplicate patients.
+ Identifying and investigating sites with potential duplicate patients helps e nsure data integrity and i mproves the chance of study success. 
+ Note: Last Updated Timestamp
+ The Last Updated timestamp reflects the date and time when the most recent data snapshot generation process started. It does not represent the date and time when the data in Potential Duplicate Patients was last refreshed. Therefore, the Last Updated timestamp may be earlier than the time at which the refreshed data becomes available in Potential Duplicate Patients.
+ Note : To enable the Potential Duplicate Patients heatmap to render properly, you must:
+- Configure sites with the correct street addresses in Medidata Cloud Administration . 
+- Map potential duplicate patient data in Data Mapping . 
+## Identify and Investigate Sites with Potential Duplicate Patients from the Heatmap
+ You can s urvey the Potential Duplicate Patient heatmap's global view to assess worldwide site locations that RBQM identifies as having potential duplicate patients. You can then zoom in the map to the site level view to focus on specific geographical regions and site locations with potential duplicate patients. From the site level view, you can drill down and view a site's list of potential duplicate patients. You can then further drilldown and compare a patient's demographic details side by side with other potential duplicate patients within a 100-mile radius. 
+- Access RBQM , and then click Statistical Monitoring > Duplicate Patients in the left-hand menu.
+ The Potential Duplicate Patients heatmap initially displays the fully zoomed out, global view. 
+ Tip : Click image to enlarge.
+- Scan the map for site locations:
+- Blue circles, , indicate sites that RBQM does not identify as having potential duplicate patients.
+- Red circles, , indicate sites that RBQM identifies as having potential duplicate patients.
+- Deeper and more intense circle coloring indicates a cluster of sites within the same relative geographical proximity. 
+- If necessary, click, hold, and drag anywhere on the map to scroll the map.
+- If necessary, click to zoom in or zoom out on the map.
+ Tip : At any time, you can click Reset Zoom above the heatmap to restore the heatmap to the highest global zoom level.
+- From the highest global zoom level, click six or more times to change the heatmap to Site Level view.
+- Scan the map for site locations:
+- Black pins, , indicate sites that RBQM does not identify as having potential duplicate patients.
+- Purple pins, , indicate sites that RBQM identifies as having potential duplicate patients.
+- Optional . You can hover your cursor on any pin to view the following site information:
+- Site – The site ID.
+- Duplicate Patients – The number of duplicate patients RBQM identifies at the site.
+- Click a pin to:
+- Zoom the map to that site's street level location.
+ Note : Clicking a black pin filters the heatmap to show only the selected site's black pin and no other sites. Clicking a purple pin filters the heatmap to show only the sites that RBQM identifies as having the same potential duplicate patient. You can click Reset Zoom above the heatmap to restore all site locations in global view.
+- View the list of potential duplicate patients at the site below the heatmap.
+- In the Site table > Patient row, click a patient ID.
+ The Patient table displays comparing the patient's demographic details side by side with other potential duplicate patients within a-100 mile radius. 
+## View the List of Countries with Potential Duplicate Patients
+ You can view the list of countries that RBQM identifies as having one or more potential duplicate patients.
+- Access RBQM , and then click Statistical Monitoring > Duplicate Patients in the left-hand menu.
+The Potential Duplicate Patients page shows. 
+- Below the heatmap, in the Potential Duplicate Patients Summary section, click the Countries card.
+ The Summary - Countries table lists:
+- Country – The countries containing at least one potential duplicate patient.
+- # of Sites – The number of sites in the country.
+- # of Patients – The number of patients in the country.
+- # of Duplicate Patients – The number of potential duplicate patients in the country.
+ Tip : You can click a country row in the Summary - Countries table to auto-zoom the heatmap at the global view to pinpoint that country on the map. For example, if you click Japan, the heatmap shifts the global view to show sites in Japan.
+## View the List of Sites with Potential Duplicate Patients
+ You can view the list of sites that RBQM identifies as having one or more potential duplicate patients.
+- Access RBQM , and then click Statistical Monitoring > Duplicate Patients in the left-hand menu.
+The Potential Duplicate Patients page shows. 
+- Below the heatmap, in the Potential Duplicate Patients Summary section, click the Sites card.
+ The Summary - Sites table lists:
+- Site – The sites containing at least one potential duplicate patient.
+- Country – The country that the site is located in.
+- # of Patients – The number of patients at the site.
+- # of Duplicate Patients – The number of potential duplicate patients at the site.
+ Tip : You can click a site row in the Summary - Sites table to:
+- Auto-zoom the heatmap at the site level to pinpoint that site's region on the map. The selected site appears as a yellow pin  ; other sites with potential duplicate patients within a 100-mile radius appear as purple pins . A horizontal line connects the selected site with other such sites.
+ Note : if you click the row of a site without a recognized address, the Potential Duplicate Patients heatmap remains on the Global view and does not zoom to the Site view.
+- Display the list of potential duplicate patients at the site below the heatmap. 
+## View the List of Potential Duplicate Patients Identified by RBQM
+ You can view the list of patients that RBQM identifies as being potential duplicate patients.
+- Access RBQM , and then click Statistical Monitoring > Duplicate Patients in the left-hand menu.
+The Potential Duplicate Patients page shows. 
+- Below the heatmap, in the Potential Duplicate Patients Summary section, click the Patients card.
+ The Summary - Patients table lists:
+- Patient – The patient IDs that RBQM identifies as being potential duplicate patients.
+- Site – The site that the potential duplicate patient is located.
+- Country – The country that the site is located in.
+- # of Duplicate Patients – The number of potential duplicate patients associated with the patient ID.
+ Tip : You can click a patient row in the Summary - Patients table to:
+- 
+- Auto-zoom the heatmap at the street level to pinpoint the site where the patient is enrolled. The selected site appears as a yellow pin  ; other sites with potential duplicate patients within a 100-mile radius appear as purple pins . A horizontal line connects the selected site with other such sites. 
+- Show and compare the patient's demographic details side by side with other potential duplicate patients within a 100-mile radius. 
+## Auto-zoom the Heatmap to Pinpoint Specific Countries or Sites with Potential Duplicate Patients
+ You can auto-zoom the Potential Duplicate Patients heatmap to pinpoint:
+- Specific countries.
+- Specific sites.
+- Sites that contain a specific potential duplicate patient.
+## Auto-zoom to Pinpoint Specific Countries
+- Access RBQM , and then click Statistical Monitoring > Duplicate Patients in the left-hand menu.
+The Potential Duplicate Patients page shows. 
+- Below the heatmap, in the Potential Duplicate Patients Summary section, select the Countries card.
+- In the Summary - Countries table, click a country row.
+ The heatmap auto-zooms at the global view to pinpoint the selected country on the map. For example, if you click Japan, the heatmap shifts the global view to show sites in Japan. 
+## Auto-zoom to Pinpoint Specific Sites
+- Access RBQM , and then click Statistical Monitoring > Duplicate Patients in the left-hand menu.
+The Potential Duplicate Patients page shows. 
+- Below the heatmap, in the Potential Duplicate Patients Summary section, select the Sites card.
+- In the Summary - Sites table, click a site row.
+ The heatmap auto-zooms at the site level to pinpoint that site's region on the map. The selected site appears as a yellow pin  ; other sites with potential duplicate patients within a 100-mile radius appear as purple pins . A horizontal line connects the selected site with other such sites. 
+## Auto-zoom to Pinpoint the Site Containing a Specific Potential Duplicate Patient
+- Access RBQM , and then click Statistical Monitoring > Duplicate Patients in the left-hand menu.
+The Potential Duplicate Patients page shows. 
+- Below the heatmap, in the Potential Duplicate Patients Summary section, select the Patients card.
+- In the Summary - Patients table, click a patient row.
+ The heatmap auto-zooms at the street level to pinpoint the site where the patient is enrolled. The site appears as a yellow pin ; other sites with potential duplicate patients within a 100-mile radius appear as purple pins . A horizontal line connects the site with other such sites. 
+## Compare Side by Side the Demographic Details of Potential Duplicate Patients
+ You can view and compare a potential duplicate patient's demographic details side by side with other potential duplicate patients within a 100-mile radius.
+- Access RBQM , and then click Statistical Monitoring > Duplicate Patients in the left-hand menu.
+The Potential Duplicate Patients page shows. 
+- Below the heatmap, in the Potential Duplicate Patients Summary section, click the Patients card.
+- In the Summary - Patients tab, click a patient's row.
+ The Patient table displays comparing the patient's demographic details side by side with other potential duplicate patients within a 100-mile radius.

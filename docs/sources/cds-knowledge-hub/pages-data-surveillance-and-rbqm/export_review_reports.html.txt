@@ -1,0 +1,34 @@
+# Export Review Reports
+
+## Export Review Reports
+ You can export review reports as PDFs. The export includes high-level report details and report entries.  Exporting enables study data managers to review activity logs and data findings outside of the Data Surveillance and RBQM. For example, sites with poor internet connection can download and store review report PDFs locally to more reliably access the reports. 
+- Downloading enables local and physical record retention. 
+- Downloading facilitates the sharing of reports with stakeholders outside of Data Surveillance and RBQM . 
+- Access Data Surveillance or RBQM , and then click Configuration > Review Reports in the left-hand menu. 
+- On the Review Reports page, create reports  or select an existing report. 
+ Note : You must save a report first to export it.
+- On the Report Details page, click Export Report .
+ The report downloads in PDF format. 
+- 
+- Client – Study group name. 
+- Study – Study under review. 
+- Report – Report name. 
+- Exported – Date of the export. 
+- Open – Date the report was opened. 
+- Close – Date the report was closed. 
+- Status – Status of the report. 
+- Description – Description of the report. 
+- ID – The auto-generated number for the entry. 
+- Analysis  – The Data Surveillance or RBQM capability that the report entry is logged for. You can create report entries for PDS, KRI, or CSM. 
+- Domain – The study data set that the report entry pertains to. 
+- Observation – The Data Surveillance or RBQM capability within the specified Analysis that the report entry is logged for. 
+- Description – Information about the review report entry, based on the Data Surveillance or RBQM capability and data set variable you select. 
+- Priority  – Priority associated with the report: Low, Medium, High. For example, based on SOPs, you might mark Data Surveillance reports as high priority they contain critical data for your study. 
+- Country – Optional . The country to report on. 
+- Sites – Optional . One or more sites the report is based on. 
+- Patients – Optional . The patient IDs included in the report. 
+- Source – Optional . The study the report is based on. 
+- Actions – Optional . the actions you want to take to complete the review, for example, conducting a weekly follow-up review or adding additional sites into the review. 
+- Comments – Optional . Any additional comments, for example, observations or restrictions or any special notes for the review. 
+- Last Modified By – The user who made the latest change. 
+- Last Modified   – The  date the report was last modified.

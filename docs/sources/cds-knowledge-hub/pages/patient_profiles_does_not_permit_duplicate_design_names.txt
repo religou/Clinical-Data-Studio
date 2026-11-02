@@ -1,0 +1,18 @@
+# Patient Profiles Does Not Permit Duplicate Design Names
+
+## Patient Profiles Does Not Permit Duplicate Design Names
+## Description
+ You cannot save or update profile designs names with the same name as an existing design within a study.
+## Affected Roles
+ All.
+## Advantages
+ Distinct profiles design names help reviewers better locate and access pertinent profiles. 
+## User Impact
+ On the Medidata Detect > Patient Data Surveillance (PDS) > Patient Profiles > Patient Profile Designs page, if you create, edit, or duplicate a design within a study, you cannot save the design with the same name as an existing design name.
+## Knowledge Space Updates
+ The Patient Profiles Knowledge Space provides updated content to support the enhancement: 
+- Create Designs 
+- Duplicate Designs Within Studies 
+- Rename Designs 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,34 @@
+# View Refresh History And Audit Reports
+
+## View Refresh History And Audit Reports
+ Unified Scheduler maintains an audit trail capturing schedule modifications for complete traceability. You can view an audit report of historical actions and updates made on all schedules in your study. For example, you can see: 
+- Access outside of Data Surveillance. 
+- User actions made for each schedule. 
+- The specific report on which an action was made. 
+ Note : You need the right permissions to view the audit trail. For more information, see  Data Surveillance Building Blocks and Permissions .
+ Viewing the audit trail of actions made on each schedule , ensures traceability using a reportable single source of truth. 
+ You can also export the audit trail for:
+- Additional data manipulation in Excel or .csv format. 
+- Offline stakeholder communication. 
+- Local record retention. 
+## Refresh History And Audit Trail
+ Review data refresh history within Listings , AI Reconciliation , Patient Profiles , and Custom Graphs to monitor data update details for individual modules . The Refresh history page shows: 
+- When refreshes occurred . 
+- The type of refresh performed  
+- The associated snapshot date . 
+- The user who scheduled or started the refresh . 
+- For listings, it shows the record count associated with the refresh. 
+ The audit trail on the Unified Scheduler page provides the refresh history for each scheduled refresh. 
+- Access Data Surveillance , and then click Unified Scheduler in the left-hand menu.
+The Unified Scheduler page shows. 
+- Click the Clock icon next to the Export Settings button on the top right corner of the page. 
+ The Unified Scheduler Audit Report appears. It audits the following user actions performed on each report :
+- When a user marked a finding as reviewed or unreviewed. 
+- When a user provided feedback on a finding's confidence level. 
+- When a user linked or unlinked supporting information to a record. 
+ Click Show Filters above the upper-right corner of the table to filter the report by Start Date and End Date. 
+ Note : Listings retain data for only the last 10 refreshes; older refreshes appear for informational purposes only . 
+- Optional : To export the audit report, click Export in the upper-right corner of the page, and then select one of the following: 
+- To Excel 
+- To CSV 
+- To PDF

@@ -1,0 +1,22 @@
+# Transformations: SDTM Projects Validation with Pinnacle 21
+
+## Transformations: SDTM Projects Validation with Pinnacle 21
+## What Is New?
+ Users can now validate SDTM projects with Pinnacle 21 Enterprise. Users can make live edits to the SDTM dataset based on Pinnacle21 validation without losing context. 
+## What Is the Impact?
+## Users/Roles
+ All users with Pinnacle 21 enterprise license.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Most of the industry has Pinnacle 21 Enterprise to validate their SDTM dataset for agency submission. Users can now identify the discrepancies between SDTM datasets created in Clinical Data Studio and agency submission requirements. 
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Transformation tab for SDTM Projects.  
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Feature: 
+- Validate SDTM Data with Pinnacle 21 
+## What Else Should I Know?
+- Users must have a Pinnacle 21 enterprise license with Pinnacle 21 instance 6.1.1 and above. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

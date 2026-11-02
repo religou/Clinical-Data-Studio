@@ -1,0 +1,15 @@
+# Derived Variables Types Appear in Ascending Order in a List
+
+## Derived Variables Types Appear in Ascending Order in a List
+## Description
+ In the Derived Variable > Create Derived Variable > Derived Variable Type list appears in the ascending order.  
+## Affected Roles
+ All roles with the Manage Derived Variables building block. 
+## Advantages
+ With derived variable types listed in the ascending order, you can select the appropriate derived variable type for your operation and configuration. 
+## User Impact
+ See Description. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

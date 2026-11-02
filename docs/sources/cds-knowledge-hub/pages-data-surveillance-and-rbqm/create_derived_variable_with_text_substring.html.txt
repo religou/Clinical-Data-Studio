@@ -1,0 +1,22 @@
+# Create Derived Variable with Text Substring
+
+## Create Derived Variable with Text Substring
+ You can truncate text-based data set variables into a subset of text. Use Substring derivations to derive a subset of alphanumeric or numeric characters from a given text field. For example, if a field value for a visit is “Visit 1 Day 29”, but if you only want to display “Day 29”, you can substring out “Visit 1” using a substring derivation. 
+- Access Data Surveillance or RBQM , and then click Configuration > Derived Variables in the left-hand menu. 
+- Click  Create Derived Variable . 
+- Select a data set from the Data Sets list and drag into the Configure Variable section. For example, Adverse Events.
+ Note : If data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or _DTC. For example, if the source date is missing the day, the enriched _INT field interpolates the 1st day of the month, and _DTC fields drop the unknown value. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms. Source fields refer to the original source of a data point, while enriched fields add extra information or context to the source data.   Enriched fields are used to provide more detail about the about source fields, or to add derived information not directly present within the original source.  
+If derived datasets from Data Connect include raw dates, and were activated in Data Connect prior to March 2025, you must add raw dates, republish, and activate the datasets in Data Connect for use in Data Surveillance. For more details, see Add Partial Dates for Published Derived Datasets . 
+- Enter the derived variable's  identification information.
+- Name – Object identifier (OID) of derived variable. For example, AECAT Truncate. Must be unique. 
+- Label – Name for derived variable to appear in other applications. This can be the same as the Name field, or a more specific descriptor. For example, Adverse Event Category (Short). 
+- Select Substring from the Derived Variable Type menu. 
+- Drag a text variable into the  Variable field. 
+- Complete the Substring wizard:
+- Character start – Enter the first character of the derived variable data. Character start defaults to one and must be one or greater. 
+- Character count – Enter the length of the derived variable data. Character count defaults to one and must be one or greater.
+ Note :  If the substring parameters exceed the parameters of the original text, then empty spaces appear in substring. For example, if the o riginal text is "Intermittent", c haracter start is 6, c haracter count is 10, then t he result is "mittent" with three trailing spaces. 
+- Optional . Click  Preview  to display the preview panel.
+With the preview panel, you can review the derived variable and adjust the variable's parameters before saving.
+- Click  Save .
+ In Data Surveillance and RBQM, the list of available datasets and variables that you can view and select from include derived variables at the bottom of the list. In Data Surveillance, the list of available datasets and variables appends derived variable names with the blue DERIVED icon.

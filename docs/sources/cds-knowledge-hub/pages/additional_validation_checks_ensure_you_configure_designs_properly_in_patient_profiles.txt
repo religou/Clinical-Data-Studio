@@ -1,0 +1,16 @@
+# Additional Validation Checks Ensure You Configure Designs Properly in Patient Profiles
+
+## Additional Validation Checks Ensure You Configure Designs Properly in Patient Profiles
+## Description
+ Patient Profiles 2018.2.0 includes additional validation checks to  prevent you from saving incomplete or improperly configured designs. 
+## Affected Roles
+ All.
+## Advantages
+ The additional validation checks ensure proper design configuration so that profiles: 
+- render correctly, and 
+- successfully run through CSA's Big Data Analytics. 
+ Ensuring proper design configuration helps prevent wasted time and effort on unnecessary escalations and troubleshooting.
+## User Impact
+ Entering or configuring certain data incorrectly prompts new context-specific validation messages, which tell you which requirements are not met and how to correct the issue. For example:
+## Special Considerations
+ None.

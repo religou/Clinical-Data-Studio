@@ -1,0 +1,12 @@
+# Content Flow for Study Master Data and CTMS Data
+
+## Content Flow for Study Master Data and CTMS Data
+ When you use Ingestor to import  Study Master Data or CTMS Data, the data appears in other  applications such as Cloud Administration and Issue Management, and later in the Medidata Data Fabric . The flowchart below shows the content lifecycle. 
+ MEDSINGEST_WorkFlow_Master_Content-Flow-MasterData-CTMSData_ENG
+- For Study Master Data files: 
+- You use Ingestor to create a Study Master Data import job and import Study Master Data files .  The Study Master Data files can include data such as client divisions and team membership. For details, see  Study Master Data File Standards . 
+- After Ingestor processes the files, the updated or created data appears in Cloud Administration in their respective categories. Client division data updates Cloud Administration's Master Data. Study environment sites and team membership data updates Cloud Administration's study administration data. You can use imported data in the consuming applications after the applications' next refresh. 
+- For CTMS data files:
+- You use Ingestor to create a CTMS Data import job and import CTMS data files .  The CTMS files can include data such as enrollment planning, issues, and tasks. For details, see  Medidata CTMS Data File Standards . 
+- After Ingestor processes the files, the updated or created data appears in the respective CTMS application. You can find enrollment planning data in Study Management . You can find issues and actions data in Issue Management . You can find tasks data in Task Management . You can use imported data in the consuming applications after the applications' next refresh. 
+- The Medidata Data Fabric loads data into various systems and applications that consume Data Fabric data, such as Extractor .

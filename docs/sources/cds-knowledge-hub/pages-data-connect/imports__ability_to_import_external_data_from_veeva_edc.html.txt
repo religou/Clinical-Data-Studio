@@ -1,0 +1,25 @@
+# Imports: Ability to Import External Data from Veeva EDC
+
+## Imports: Ability to Import External Data from Veeva EDC
+## What Is New?
+ Data Connect’s Imports capability provides new functionality that manages and imports data directly from the Veeva EDC API. 
+ Users can choose the clinical dataset they want to import from Veeva by providing API credentials. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ There is no change to the existing   data transfer configuration process . These updates augment existing functionalities. Users can now, however, import data from Veeva. 
+## Other Applications
+- Data Connect   >   Datasets   and   Transformations   – Users can see the datasets imported with Imports when using Data Connect's Datasets module or the Transformations module. 
+- Data Surveillance   and   RBQM   – Users can use transform imported data for use by downstream capabilities such as Data Surveillance and RBQM. 
+- Data Connect   >   Exports   – Users can export transformed data using imported external data from Data Connect's Exports module. 
+## How Do I Benefit?
+ The new data source connection is available only for studies expected to use Veeva Direct connect integration. Users can import EDC data from Veeva by providing API credentials. Users can choose which clinical datasets they are interested to import. The integration transfers and imports metadata dataset extracts and clinical dataset extracts into Medidata systems. 
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Imports tab. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Feature:
+- Import with Veeva EDC Direct Connect 
+## What Else Should I Know?
+ There are certain limitations when you import EDC data with Veeva API . For details, see  Add Data Source .
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

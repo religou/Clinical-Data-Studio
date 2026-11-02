@@ -1,0 +1,73 @@
+# View Patient Query Data
+
+## View Patient Query Data
+ You can review Rave queries raised against a subject's patient profile at any time during the profile design process.  For more information on Rave queries, see Manage Queries in Rave . 
+## View Query Data
+ While reviewing patient data that sites enter during clinical trials, you can raise questions or inquiries about data points  on forms in Rave , for example, a diastolic pressure reading of 200. These questions are Rave queries .  You  can track both types of Rave queries in Patient Profiles: 
+- System Queries 
+- Manual or non system Queries 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- From the Profiles tab > Patient Selector section, select a patient. 
+- The Patient Selector section shows data loaded in ascending alphanumeric order by Patient ID. By default, the patient profile for the first patient listed appears below. For large data sets, a progress bar appears above the Patient Selector section to indicate the progress of data uploaded from data sets.
+ Click any column header to sort the Patient Selector by column. indicates the column is sorted in ascending order (A to Z, 0 to 9); indicates descending order (Z to A, 9 to 0). 
+- Click Apply Filter  to apply column filters to all columns in the Patient Selector section. 
+ Sort or scroll through the list as necessary, and then click within the corresponding row of a Patient ID to view that patient's profile below. 
+- From below the Patient Selector section, click the Patient Query tab. 
+- The Patient Query section shows Rave queries raised for the patient. The list of queries appears based on the order in the Form column. 
+ Tip : Click any column header to sort the Query Data table by column. indicates the column is sorted in ascending order (A to Z, 0 to 9); indicates descending order (Z to A, 9 to 0). 
+## Search Query Data 
+ You can search and filter query data in the Patient Query table by columns. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- Select a patient by Patient ID in the Profiles tab > Patient Selector section. 
+- From below the Patient Selector section, click the Patient Query tab. All the queries for the patient show in the Patient Query table. 
+- From the top of the Profiles page, click  . Filter fields add to all columns under the column header in the Patient Query table. 
+- For any column, if you enter the first three characters or digits in the  field, the list shows queries that include the filter parameter.  The filter response differs slightly depending on the selected parameter. For example, for the Created User column if you enter DON and click Enter, the Patient Query table shows query data with  Created User names like DONALD, BRANDON, MARDONE in an ascending order. The first query that matches the filter parameter shows at the top of the Patient Query table. 
+- If you enter most part of the column data in the  field, then select from  list, the Patient Query table shows the corresponding query data. 
+- If you enter a date for columns like Resolved Date , Answered Date , Resolved Date , then query data shows only for the specific date you enter. 
+- If you apply filters to more than one column at a time, the Patient Query table shows the corresponding query data that matches all filters. 
+- For any column, the   field allows you to filter on All , Blanks , Non-Blanks in addition to query data in the respective column. 
+- Click   from the top of the Profiles page. Filter fields remove from all columns in the Patient Query table.

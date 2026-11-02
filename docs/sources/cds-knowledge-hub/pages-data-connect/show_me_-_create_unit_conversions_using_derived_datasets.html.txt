@@ -1,0 +1,17 @@
+# Show Me - Create Unit Conversions Using Derived Datasets
+
+## Show Me - Create Unit Conversions Using Derived Datasets
+ Summary 
+ | An overview on creating an derived dataset with unit conversions. 
+ Duration 
+ | 2 min 53 sec 
+ Product 
+ | Data Connect - Transformations 
+ Release 
+ | July 2026 
+ Video Category 
+ | Creating Enriched Views 
+ Related Topics 
+ | Standardize Analyte Units with Unit Conversions 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

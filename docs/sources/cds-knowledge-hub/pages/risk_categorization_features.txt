@@ -1,0 +1,13 @@
+# Risk Categorization Features
+
+## Risk Categorization Features
+ Risk Management includes the following risk categorization-related capabilities:
+- Risk Review Detailed Page Improvements 
+- Flexible Risk Categories and Risk Category Templates 
+- Multiple Key Risk Indicators for a Risk 
+- Multiple Quality Tolerance Limits for a Risk 
+- New Required QTL Fields 
+- New Risk Category Added for Diversity 
+- Risk Categorization and Risk Scoring 
+- Warning Messages to Help You Avoid Unintentional Data Loss 
+- Add Custom Risk Categories to Templates and Associated Studies

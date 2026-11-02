@@ -1,0 +1,40 @@
+# Clinical Data Studio
+
+## Clinical Data Studio
+ Medidata Clinical Data Studio is a complete data management and quality experience that provides seamless access to integrated data from Medidata and non-Medidata sources. Built with a user-friendly, no/low code environment, Clinical Data Studio uses AI to streamline data aggregation, standardization, and management workflows so that multiple users can act on real-time data in ways that reduce burden, shorten review timelines, increase quality, reduce risk, and improve patient safety.  
+ Clinical Data Studio provides the following offerings:
+- Medidata Clinical Data Studio is a unified platform solution, which provides the following offerings: 
+- Medidata Data Surveillance – Includes the following capability suites:
+- Data Surveillance – Provides a drag-and-drop listings builder, automated query generation for Medidata Rave-sourced data, issue management for non-Medidata sourced data, AI-powered data reconciliation, patient profiles, and visualizations. 
+- Data Connect – Enables self-service data ingestion and no/low-code data transformation capabilities.  
+- Medidata Data Quality Management – Includes all the Data Surveillance capabilities above, plus the following additional capability suites: 
+- RBQM – Provides  risk surveillance capabilities supporting a holistic risk-based quality management (RBQM) approach to data quality. 
+- Cross Study Metrics – P rovides a   portfolio -level view of relevant data from upstream experiences, such as RBQM and Data Surveillance, across your studies. 
+ | 
+## Get Started
+ About Clinical Data Studio 
+ Log In, Navigate Medidata, and Access Studies 
+ | 
+## What's New
+ Clinical Data Studio Release Notes 
+ Clinical Data Studio Release News 
+ | 
+## Training
+ Medidata Clinical Data Studio 2026.3.0 Release Training 
+ | 
+## More About Clinical Data Studio
+ About Data Surveillance 
+ About RBQM 
+ About Data Connect 
+ About Cross Study Metrics 
+ | 
+## Technical Handbook
+ Clinical Data Studio Technical Handbook 
+ | 
+## Share Feedback
+ Request Product Enhancements and Share Feedback 
+ | 
+## Quarterly Newsletter
+ In the Studio Newsletter 
+ | 
+ |

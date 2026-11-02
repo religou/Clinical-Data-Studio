@@ -1,0 +1,30 @@
+# Data Surveillance: Updated Vendor Issue Sets Page Provides Better Usability
+
+## Data Surveillance: Updated Vendor Issue Sets Page Provides Better Usability
+## What Is New?
+ The Vendor Issue Sets page includes the following improvements:
+- When you click a submitted vendor issue set, the View Vendor Issue Set page shows the name of the person who submitted the vendor issue. 
+- When you click an unsubmitted vendor issue set, the Submit Vendor Issue Set page appears. 
+- The View and Submit options are no longer available from the More option for any vendor issue set. 
+## What Is the Impact?
+## Users/Roles
+ Study Managers and Data Managers.
+ All users with   Submit Vendor Issues and Manage Issue Sets access. 
+## Workflow Process
+ No impact to workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Data managers can reconcile vendor data faster by checking submitted and unsubmitted vendor issue sets. Study managers can trace and follow up inconsistencies or discrepancies with specific individuals by checking with the person who submitted the vendor issue set.
+## Where Do I See the Change?
+ In the Patient Data Surveillance > Vendor Queries > Vendor Issue Sets page:
+- If you click a submitted vendor issue set, the View Vendor Issue Set page appears and shows the name of the person who submitted the vendor issue. 
+- If you click an unsubmitted vendor issue set, the Submit Vendor Issue Set page appears. 
+- The View and Submit options are no longer available from the More option for any vendor issue set. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Data Listings 
+- Vendor Queries 
+## What Else Should I Know?
+ To access View Issue Sets, you must have the Submit Vendor Issues and Manage Issue Sets building blocks associated with your role in the Cloud Administration study group. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

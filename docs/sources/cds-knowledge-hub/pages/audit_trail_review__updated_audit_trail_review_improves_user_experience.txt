@@ -1,0 +1,23 @@
+# Audit Trail Review: Updated Audit Trail Review Improves User Experience
+
+## Audit Trail Review: Updated Audit Trail Review Improves User Experience
+## What Is New?
+ The Audit Trail Review page includes the following updates:
+- A disclaimer appears at the bottom of the New Audit Review section that reads "This AI can make mistakes. Double-check the output". 
+- The AI assistant used in the chat interface is named Dot. The question field it the New Audit Review section shows a message that reads " Ask Dot about data you need for auditing purposes...". 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Data managers can interact with Dot and retrieve audit data of interest, cross-check results and improve data integrity.
+## Where Do I See the Change?
+ See What Is New?
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Create Audit Trail Reviews 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

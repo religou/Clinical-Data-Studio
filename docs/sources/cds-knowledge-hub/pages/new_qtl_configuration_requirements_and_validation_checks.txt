@@ -1,0 +1,20 @@
+# New QTL Configuration Requirements and Validation Checks
+
+## New QTL Configuration Requirements and Validation Checks
+## Description
+ When you add or edit custom QTLs on   the Quality Tolerance Limit dialog box: 
+- If you enter an existing QTL name in the Parameter field and then try to create the QTL, a prompt appears informing you that the name already exists in the study and you are unable to create. 
+- The Save button is always enabled. 
+- If you click Save before you address all required fields, a prompt appears below the corresponding incomplete fields. 
+- When you modify QTLs, you must enter text in the Reason for Change field before saving. 
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ The new QTL configuration requirements and validation checks promote a smoother user workflow and helps ensure you provide complete QTL configuration details.
+## User Impact
+ See the Description section.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

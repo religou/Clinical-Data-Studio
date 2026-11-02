@@ -1,0 +1,24 @@
+# Review Data Sets With MEDS Data Viewer
+
+## Review Data Sets With MEDS Data Viewer
+## Description
+ MEDS Data Viewer renders MEDS-ingested clinical data in a table format. The table format allows you to:
+- View and parse a list of individual data sets at the study environment. 
+- View relevant subject information for each data set. 
+- Filter and sort table data. 
+## Affected Roles
+ Cloud Administration users with the Admin standard role.
+## Advantages
+ With MEDS Data Viewer, you can:
+- View a list of data sets and relevant subject information for each per study environment without additional Rave EDC access. 
+- Filter and sort data set data to discover trends and other insights. 
+## User Impact
+- In Cloud Administration, you can:
+- Add the View Data  permissions to customer-defined platform role , which grants access to MEDS Data Viewer. 
+- Select MEDS Data Viewer from the  Actions   dropdown menu from within your assigned study environment. 
+- In MEDS Data Viewer, you can:
+- Review metadata information for a given data set.  
+- View lists of variables that comprise each data set. 
+- View, sort, and filter tabular information about the variables that comprise each data set. 
+## Special Considerations
+ None.

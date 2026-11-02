@@ -1,0 +1,81 @@
+# Add and Manage Flags
+
+## Add and Manage Flags
+ You can add  %KRIs  as flags to headers in your profile design. KRIs are predefined metrics that enable you during the study to systematically: 
+- Identify and track known or anticipated risks to data quality, 
+- Evaluate country and site performance in a study, and 
+- Ensure study conduct operates as planned. 
+ Adding %KRIs as flags allow you to gauge a patient's status and the study's progress. 
+ You can also r emove flags from headers. 
+ Note : Your team can create and activate percentage KRIs in RBQM's KRI Configuration capability. To learn more, see:
+- KRI Configuration 
+- Add and Edit Custom Numeric and Percentage KRIs 
+- Activate and Deactivate KRIs 
+## Add %KRIs as Flags
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- Click Header . 
+- Enter a unique header name. 
+- Locate the %KRI variables listed under Flags in the data sets on the right side of the Design page > Elements tab. If %KRI variables do not exist in the study, please configure one or more %KRIs to use as flags in your header. 
+ Notes:
+- Data sets with a green left border contain at least one variable currently applied to the study. 
+- Data sets with a blue left border contain no variables currently applied to the study. 
+- Variables currently applied to the design appear with a green border on all sides 
+- Data set and variable names appended with a blue flag indicate that they are identified in Risk Assessment as   critical data for the study. 
+- Click, drag, and drop the variable within a header row. 
+- Repeat steps 5 and 6 for each header variable you want to add. If necessary, click   or   to add more rows. 
+- Optional : Click Note to append a single note to appear at the bottom of the header in the patient profile. To learn more, see Append Notes to Elements . 
+ Tip : Adding a note to appear at the end of a header gives patient profile reviewers added insight into the profile's study data. 
+- Click Save .
+ Note : When viewing a patient profile on the Profiles tab, the profile header section shows a red flag if the patient has met the percentage KRI's criteria. Otherwise, no flag shows in the header section. 
+## Remove Flags from Headers
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Elements tab. 
+- Click Header . 
+- On the Design page > Elements tab, go to the  Saved elements table, and click the name of the header containing %KRIs you you want to remove. 
+- For each flag you want to remove from the header design, click the flag variable, and then click .  
+- Click Save .

@@ -1,0 +1,13 @@
+# Generate Patient Profiles PDF in Bulk
+
+## Generate Patient Profiles PDF in Bulk
+## Description
+ You can export all patient profile designs in a study to PDF in bulk. The PDFs generated at a study level have the same format as individual patient profile design PDFs.  
+## Affected Roles
+ All.
+## Advantages
+ Downloading all patient profile design PDFs in bulk optimizes the PDF exchange and review process with design reviewers working outside of the Patient Profiles app. 
+## User Impact
+ On the Design page > Elements tab, you can click   located to the top right of the page. You can select All Patients in the PDF Export window and then click Export . When the requested PDFs are ready to download, you receive an email with a link to  download a zip file with the study name and current date. The zip file contains separate PDF files for each patient profile in the study that was exported.  The link expires after seven days. The email also includes patient IDs that fail to export to PDF.  
+## Special Considerations
+ Processing times may vary depending on the number of patient profiles in your study. The minimum time taken is one hour.

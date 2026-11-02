@@ -1,0 +1,30 @@
+# Merge Multiple-Record Variable to Multiple-Record Data Set
+
+## Merge Multiple-Record Variable to Multiple-Record Data Set
+ You can merge a data set variable containing multiple records over multiple visits with another data set containing multiple records over multiple visits. For example, merging an Adverse Events data set variable to the Chemistry data set. 
+ Important: 
+- You must add a subset value and preference, even if you merge SRPP to SRPP, or SRPP to MRPP. 
+- For a subset value, add the study ID. 
+- Access Data Surveillance or RBQM , and then click Configuration > Derived Variables in the left-hand menu. 
+- Click   Create Derived Variable . 
+- Identify and drag a  data set   from the Data Sets list into the Configure Variable section. For example, Adverse Events.
+ Note:   If data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or_ DTC . For example, if the source date is missing the day, the enriched _INT field interpolates the 1st day of the month, and _DTC fields drop the unknown value. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms. 
+- Enter the derived variable’s identification information: 
+- Name – Object identifier (OID) of derived variable. For example, Adverse Events – CHEMDT. Must be unique. 
+- Label  – Name for derived variable to appear in other applications. This can be the same as the Name field, or a more specific descriptor. For example, Adverse Events – Chemistry Dates. 
+- Select Merge  from the Derived Variable Type menu. 
+- Select MRPP to MRPP from the Type of Merge list.
+ Note : Always confirm that you have selected the correct merge type for the dataset. Otherwise, Data Surveillance and RBQM will fail to refresh and output its statistical analysis on future data snapshots.
+- Navigate to a different data set and drag your required variable to merge into the Source Variable field . 
+- Complete the merge wizard: 
+- Source Merge Variable – Drag the data set variable that you want to merge into the target data set. 
+- Target Merge Variable – Drag the data set variable that you want the source merge variable to merge with.
+The source merge variable aligns with each record of the multiple-record target variable.
+ Note : The Source Merge Variable and Target Merge Variable name must be the same.
+- Subset Variable – If applicable, d rag a data set variable from the selected source merge variable's data set that you want to merge a value from. The subset variable serves as a reference variable to narrow down the multiple-record source data set variable into a single record to merge into the target data set.
+ Note : The Subset Variable must be different from the Source Merge Variable and Target Merge Variable. Otherwise, Clinical Data Studio's data workflow may not work correctly.
+- Subset Value –   If applicable, select a value from the list to merge into the target data set. The subset value is a value from the selected subset variable. The subset value completes the process to narrow down the multiple-record source data set to single record.
+ Note : Derived Variables populates the subset value field based on the selected subset variable. In some cases, the subset values may not contain values. In those cases, you may disregard the field.
+- Preference –   Optional . If applicable, based on the selected subset variable and subset value, select which source data set variable value to merge into the target data set. For date or numeric values, select to merge the maximum or minimum value from the source data set variable. For text values, the first reported value is automatically merged. 
+- Click  Save .
+ In Data Surveillance and RBQM, the list of available datasets and variables that you can view and select from include derived variables at the bottom of the list. In Data Surveillance, the list of available datasets and variables appends derived variable names with the blue DERIVED icon.

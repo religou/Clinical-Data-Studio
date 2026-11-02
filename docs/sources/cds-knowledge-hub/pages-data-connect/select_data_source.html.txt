@@ -1,0 +1,26 @@
+# Select Data Source
+
+## Select Data Source
+ To create an export, you must first select the data source you plan to export datasets from. You must decide what data types to export, and which studies and which environments to export from.
+## Select Data Source
+ You can start the export creation from the Exports screen.
+- Access Data Connect , and click   Exports   in the left-hand menu. 
+- Click Create export . 
+- On the Data Source wizard, select the extraction level.
+- Select one or more data types.
+ Note : 
+- Your role determines the data types that appear in the Data Types menu. For details, see  Data Connect Roles and Capabilities . 
+- When you select t he Master Data type, you cannot select either of the Audit Master Data or Audit CTMS data types. In addition, when you select the Audit Master Data type, you cannot select any other data type. Similarly, when you select the Audit CTMS data type, you cannot select any other data type. 
+- For study level exports, select one or more Studies and an Environment; otherwise, skip to step 7.
+ Note: The environments list sorts environments by importance. 
+- Production 
+- Development 
+- Functional Testing 
+- Interactive Verification 
+- User Acceptance Testing (UAT) 
+- Training 
+- Other.   Custom study environments appear in alphabetical order, and are case-insensitive. 
+- Click  Continue to go to the Select Datasets screen. 
+ Note : There can be intermediate steps between the Select Data Source step and the Select Datasets step for some export types, such as Data Connect (Transformed Data). In those cases, follow the prompts until you reach the Select Datasets step. 
+## Next Step
+ Select Datasets

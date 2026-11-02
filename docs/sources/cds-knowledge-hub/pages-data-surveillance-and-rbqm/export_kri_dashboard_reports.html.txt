@@ -1,0 +1,11 @@
+# Export KRI Dashboard Reports
+
+## Export KRI Dashboard Reports
+ You can download and export data from the KRI Dashboard in .csv format. You can e xport everything on the KRI Dashboard or select specific KRIs and sites to export. Exporting the KRI Dashboard allows you to print and view snapshots of KRIs and compare history across data refreshes. This helps you: 
+- Track and audit KRI history. 
+- View and share KRI information without logging in to RBQM. 
+- Access RBQM , and then click KRIs in the left-hand menu.
+The KRI Dashboard shows . 
+- Optional . Filter the KRI Dashboard to show only the KRIs and country and site locations you need. 
+- Click Generate Report .
+The report downloads locally in .csv format.

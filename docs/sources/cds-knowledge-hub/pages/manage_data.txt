@@ -1,0 +1,15 @@
+# Manage Data
+
+## Manage Data
+ Medidata Patient Profiles includes the following capabilities relating to managing data:
+- Patient Profiles: Only Users With Full Site and Country Access Can Refresh Patient Profiles 
+- Patient Profiles: Edit, Delete, and View Audit History of Patient Profile Comments 
+- Patient IDs Appear in Browser Tab 
+- Modifications Made To Improve Data Integration With Medidata Detect 
+- Manage Data Set Variable Types Patient Profiles 
+- Browse Data Sets and Add Variables to Elements More Efficiently 
+- Warning Message Displays for Profile Designers with Partial Site or Country Access 
+- Tooltips Include Data Set Identifer Along with Variable Name in Patient Profiles 
+- Lower and Upper Time Limits No Longer Pre-populated by Default 
+- Modifications Made to Improve Integration with Other Medidata Products 
+- Data Integration With Medidata Rave Enabled

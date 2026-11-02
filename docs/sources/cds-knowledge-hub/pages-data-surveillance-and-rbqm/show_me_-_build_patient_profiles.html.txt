@@ -1,0 +1,17 @@
+# Show Me - Build Patient Profiles
+
+## Show Me - Build Patient Profiles
+ Summary 
+ | This video demonstrates how you can build a patient profile. 
+ Duration 
+ | 3 minutes and 30 seconds 
+ Product 
+ | Data Surveillance 
+ Release 
+ | 2023 R03 
+ Video Category 
+ | Patient Profiles 
+ Related Topics 
+ | Design Patient Profiles 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

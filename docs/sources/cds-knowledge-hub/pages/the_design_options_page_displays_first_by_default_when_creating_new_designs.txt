@@ -1,0 +1,14 @@
+# The Design Options Page Displays First By Default When Creating New Designs
+
+## The Design Options Page Displays First By Default When Creating New Designs
+## Description
+ Clicking the Create New Design button on the Patient Profile Designs page directs you to the Design Options page.  
+## Affected Roles
+ All.
+## Advantages
+ As a best practice, we recommend that you configure the Day 0 Date before adding design elements. Automatically landing on the Design Options page first when creating new designs guides you to configure the Day 0 Date before adding elements.  Thus, streamlining the design configuration process. 
+ Note : You are not required to configure the Day 0 date prior to adding elements.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

@@ -1,0 +1,42 @@
+# Client Division Level Extraction Now Available
+
+## Client Division Level Extraction Now Available
+## Description
+ You can configure export jobs to extract data from the client division level. Exporting data from the client division level extracts data from all studies within the client division. Client division level extractions are only available for the Master and Audit data types.
+## Affected Roles
+ All.
+## Advantages
+ With client division level extractions , you can extract and download data from every study of your client division without needing to select each study. 
+## User Impact
+ You can only set export jobs to extract from client division level during the job creation process. You cannot edit existing export jobs to extract from the client division level. This feature does not affect existing export jobs.
+ During the New Export Job workflow's Select Source step:
+- You can now choose between Study Level and Client Division Level extractions.
+- When you select the Client Division Level option, the Study, Environment, and Add Study Environment options disappear. To change client divisions, you must use the client division menu from the application's top toolbar.
+ The Export Jobs page includes both study level jobs and  client division level jobs. The new Export Level column appears between the Job Name and Data Type columns, and denotes if the job extracts at the study level or at the client division. You can also filter the jobs list by Export Level. 
+ The Job Configuration page includes the following changes:
+- For all export jobs, the Job Configuration page includes the Export Level field. The Export Level field denotes if the job extracts at the study level or at the client division level. 
+- For client division level export jobs, the Client Division field replaces the Study or Environment fields. The Client Division field shows which client division the export job applies to. In addition, the Job Configuration page does not group data sets by study environment. 
+ The Job Run History page > View Details panel includes the following changes: 
+- For all export jobs, the Job Run History page includes the Export Level field. The Export Level field denotes if the job extracts at the study level or at the client division level. 
+- For client division level export jobs, the Client Division field replaces the Study or Environment fields. The Client Division field shows which client division the export job applies to. In addition, the Job Run History page's details panel does not group data sets by study environment. 
+ When exporting Client Division Level Master Data, the extracted files have the following different data objects: 
+- Client Division Scheme Organizations instead of Study Organizations. 
+- Client Division Scheme People and Addresses instead of Study People and Addresses 
+- Client Division Scheme Users and Addresses instead of Study Users and Addresses. 
+## Knowledge Space Updates
+ The following articles have been created or updated in the MEDS Extractor Knowledge Space to support this feature:
+- New
+- Create Export Job at the Client Division Level  
+- Select Source for Client Division Level Jobs 
+- Select Data for Client Division Level Jobs  
+- Schedule Client Division Level Job 
+- Set Export Type for Client Division Level Job  
+- Name Outputs for Client Division Level Job  
+- Extract Client Division Master Data - Quick Start 
+- Client Division Level Master Data Objects 
+- Updated
+- Review Exports List 
+- Review Export Configuration 
+- Review Export Run History 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

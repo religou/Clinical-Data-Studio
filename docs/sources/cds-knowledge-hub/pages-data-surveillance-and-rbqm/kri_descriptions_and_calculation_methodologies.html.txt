@@ -1,0 +1,164 @@
+# KRI Descriptions and Calculation Methodologies
+
+## KRI Descriptions and Calculation Methodologies
+ You can view and track system KRIs and custom KRIs in the KRI Dashboard . 
+## System KRIs
+ System KRIs are Medidata-defined KRIs that are standard in all studies analyzed by RBQM. Medidata defines the calculations that are performed on specific data sets and variables based on metrics that most studies typically track. Medidata always provides all customers with the system KRIs. System KRIs are uneditable and in an active state by default; however, you can deactivate system KRIs as needed. 
+ The following table lists:
+- The current system KRIs you can track in the KRI Dashboard . 
+- The KRI category to which the KRI belongs . 
+- A description for each KRI. 
+- How RBQM calculates each KRI's values. 
+ Important : For a KRI and its KRI value to be included in the KRI Dashboard, your study requires:
+- At least three sites or three countries to match the minimum data requirements listed in the table below. 
+- At least two enrolled patients at each site or country. 
+ Important : If there are fewer data points at the site and country level, the statistical model that calculates KRIs may produce less accurate outcomes.
+ KRI Category 
+ KRI Name 
+ Description 
+ Calculation 
+ Minimum Data Requirements and Considerations 
+ Applied Filters 
+ | Data Collection 
+ | AE Entry Delay 
+ | Calculated as the average time in study days between the AE Visit Date and First Entry Date for each individual adverse event. AE Entry Delay is reported at the site, country, and study levels. 
+ AE Visit Date is defined as the first visit date following the AE Start/onset Date. 
+ First Entry Date is defined as an adverse event's record creation date. 
+ | For all adverse events at the site and country level: ((First Entry Date) - (AE Visit Date)) ÷ (Number of Adverse Events) 
+ The predefined AE Entry Delay risk thresholds are: 
+ • <7 days = Green 
+ • >7 and <14 days = Yellow 
+ • >14 days = Red 
+ | RBQM requires: 
+ • Two or more records at a site in the Rave AE data set for the site's KRI value to appear in the Key Risk Indicators table. 
+ • Two or more records at a country in the AE Event table for the country's KRI values to appear in the KRI Dashboard. 
+ • Two or more study-level records in the AE Event table for the study-level KRI value to appear in the KRI Dashboard. 
+ | 1. Subjects must be enrolled.  
+ 2. AE must have a start date.  
+ 3. Visits must be active, non-deleted, and scheduled.  
+ | Data Collection 
+ | Missing Visit Percentage 
+ | The percentage of all patient visits that are missing at the site, country, and study level. A patient visit is considered missing if the actual visit has not been entered, but the patient has another date or event that indicates the patient's follow-up time has exceeded the visit window. 
+ | For all patients at the site, and country, and study level: ((# of missing visits) ÷ (total # of expected visits at the time of calculation)) * 100 
+ The predefined Missing Visit Percentage risk thresholds are: 
+ • 0-10% = Green 
+ • 10-20% = Yellow 
+ • >20% = Red 
+ | Visit windows must be configured in the Rave Folders tab. RBQM requires at least three visits reported at the site. 
+ | 1. Subjects must be enrolled.   
+ 2. Visits must be active, non-deleted, and scheduled.  
+ 3.Denominator is restricted to expected visits whose scheduled window has already passed. 
+ | Data Collection 
+ | Manual Query Rate 
+ | The percentage of manual queries out of the total number of data points that exist for that patient. 
+ | ((# of user-created queries from the Rave query source file) ÷ (total # of data points reported for each patient at that site/country)) * 100 
+ | The Rave query data set must exist. Third-party data ingested outside of Rave does not produce insights or values for this KRI. RBQM requires at least 50 rows in the query data set for each user-created site or country to calculate and appear in KRI Dashboard. Queries do not get filtered based on if the parent data point is deactivated. Deactivated data with answered queries gets counted. 
+ | 1. Subject must be enrolled and have datapoints in the study.  
+ 2. Queries must be visible, active, not hidden, answered, not cancelled, and specifically exclude auto-queries and "sticky" notes. 
+ | Data Collection 
+ | Non-System Query Delay 
+ | The mean time in days for manual queries to be answered. This is calculated as the difference between the date that a query was answered by a user from the date it was opened in Rave. 
+ | For All Queries at the site, country, and study level: ((Date a response was provided in the Rave) - (Date the query was opened in Rave)) ÷ (Number of Queries) 
+ The predefined Non-System Query Delay risk thresholds are: 
+ • <7 days = Green 
+ • >7 and <14 days = Yellow 
+ • >14 days = Red 
+ | The Rave query data set must exist. Non-Rave ingested data does not produce insights or values for this KRI. RBQM requires at least 50 rows in the query data set for each user-created site or country to calculate and appear in KRI Dashboard. Queries do not get filtered based on if the parent data point is deactivated. Deactivated data with answered queries gets counted. 
+ | 1. Subject must be enrolled  
+ 2. Queries must be active, visible, not hidden, not cancelled, and specifically exclude auto-queries and "sticky" notes. 
+ | Data Collection 
+ | Percent Out of Window Visit 
+ | The percentage of all patient visits that occurred out of window at the site, country, or study level. A patient visit is considered out of window if the actual visit date is before the visit window start date or after the visit window end date configured in Rave. 
+ | For all patients at the site, and country, and study level: ((Out-of-window visits for all patients) ÷ (Total # of visits that the patient has actually had at the time of calculation for all patients)) * 100 
+ The predefined Percent Out of Window Visit risk thresholds are: 
+ • 0-10% = Green 
+ • 10-20% = Yellow 
+ • >20% = Red 
+ | Visit windows must be configured in the Rave Folders tab. RBQM needs at least three visits reported for the site. 
+ | 1. Subject must be enrolled and have datapoints in the study.  
+ 2. Visits must be active, scheduled, touched, non-deleted, and have visit date. 
+ 3. Scheduled Visits with target dates but missing window dates are always considered in window 
+ | Safety 
+ | Number of SAEs per Patient-Month 
+ | The total number of serious adverse events divided by the number of patient months of follow-up at the site. 
+ | # of SAEs ÷ ((Max Clinical Date - Day 0) ÷ 30 for all patients) 
+ | For the site or country KRI value to calculate in the KRI Dashboard, RBQM requires that two or more records for that site or country exist in the Rave AE data set. 
+ | 1. Subject must be enrolled  
+ 2. The event must be explicitly flagged as serious. 
+ | Safety 
+ | Number of AEs per Patient-Month 
+ | The total number of adverse events at a site divided by the number of patient months of follow-up at the site. 
+ | # of AEs ÷ ((Max Clinical Date - Day 0) ÷ 30 for all patients) 
+ | For the site or country KRI value to calculate in the KRI Dashboard, RBQM requires that two or more records for that site or country exist in the Rave AE data set. 
+ | 1. Subject must be enrolled  
+ | Data Collection 
+ | System Query Rate 
+ | The percentage of system queries out of the total number of data points that exist for that patient. 
+ | ((# of system-created queries from Rave Query source file) ÷ (total # of data points reported for each patient at that site or country)) * 100 
+ | The Rave query data set must exist. Non-Rave ingested data does not produce insights or values for this KRI. RBQM requires at least 50 rows in the query data set for each user-created site or country to calculate and appear in KRI Dashboard. Queries do not get filtered based on if the parent data point is deactivated. Deactivated data with answered queries gets counted. 
+ | 1. Subject must be enrolled and have datapoints in the study.  
+ 2. Queries must be visible, active, not hidden, not cancelled, and generated by the auto-query system. 
+ | Data Collection 
+ | System Query Delay 
+ | Mean time in days for users to answer system queries. This is calculated as the difference between the date that query was opened Rave from the time that an answer was provided. 
+ | For All Queries at the site, country, and study level: ((Date a response was provided in the system) - (Date the query was opened in the system)) ÷ (Number of Queries) 
+ The predefined System Query Delay risk thresholds are: 
+ • <7 days = Green 
+ • >7 and <14 days = Yellow 
+ • >14 days = Red 
+ | The Rave query data set must exist. Non-Rave ingested data does not produce insights or values for this KRI. RBQM requires at least 50 rows in the query data set for each user-created site or country to calculate and appear in KRI Dashboard. Queries do not get filtered based on if the parent data point is deactivated. Deactivated data with answered queries gets counted. 
+ | 1. Subject must be enrolled  
+ 2. Queries must be active, visible, not hidden, answered, not cancelled, and generated by the auto-query system. 
+ | Data Collection 
+ | Visit Entry Delay 
+ | The mean time in days between when the visit date occurred and the visit data entry date. 
+ | For all visits at the site, country, and study level: ((Event performed date; that is, the Actual Date Provided) - (Data entry Start Date; that is, when the date was entered in the system) where patients day 0 is not null, then averaged at each site, country, and for the study as a whole) ÷ (Number of visits) 
+ The predefined Visit Entry Delay risk thresholds are: 
+ • <7 days = Green 
+ • >7 and <14 days = Yellow 
+ • >14 days = Red 
+ | Day 0 must exist for patients to be included in the site-level analysis. RBQM requires at least two recorded visits at the site per patient. 
+ **Important:** Visit entry delay KRI calculates the difference between the first entry date for a visit and visit date. If the visit date is updated to a future date later on, it may result in the difference being a negative value. In such cases, entries are not considered for calculations. 
+ | 1. Subject must be enrolled and have datapoints in the study.  
+ 2. Visits must be active, touched, and non-deleted. Visit date should not be null 
+ | Data Collection 
+ | Modification Rate 
+ | Number of modifications made by non system user out of the total number of data points that exist for that patient. 
+ | ((# modifications on each datapoint by non system user) ÷ (total # of data points reported for each patient at that site or country))  
+ | The Rave audit data set must exist. Non-Rave ingested data does not produce insights or values for this KRI. Here are minimum data requirements for calculation of this KRI 
+ 1. 50 datapoints per patient 
+ 2. 2 patients 
+ 3. 3 sites / countries 
+ | 
+- Subject should be enrolled 
+- Datapoint should be active 
+- Audit user not in ('systemdetect',' detectsystem, 'cdssystem', 'systemuser', 'raveimport', 'coderimport') 
+## Custom KRIs
+ In addition to system KRIs , you can track user-defined custom KRIs in the KRI Dashboard . Custom KRIs help organizations target and track unique and specific endpoints or area of interests for risk analysis. Authorized users in your study environment can create and activate custom KRIs using Medidata's KRI Configuration . With KRI Configuration, you can create numeric KRIs or percentage KRIs . To learn more, see Add and Edit Custom Numeric and Percentage KRIs . 
+ Note : Screen Failure (SF) Rate is no longer available as a system KRI, but you can set it up as custom KRI for studies where SF patient's data is collected in Medidata Rave. In Rave, the patient's Rave Patient Status must be tagged with Screen Failure. 
+ Important : For a KRI and its KRI value to be included in the KRI Dashboard, your study requires:
+- At least three sites or three countries to enable calculating custom KRIs. 
+- At least two enrolled patients at each site or country. 
+## Custom Numeric KRIs
+ A custom numeric KRI is a key risk indicator that analyzes a single user-specified variable or data set and produces a numeric output for the results or observances. Numeric KRI value calculations are based on one of the following variable types: Mean, Count, Rate, Count Values, Rate Values, Standard Deviation. For example, you can calculate the mean of blood pressure values in your study to determine if any sites or countries show signs of risk regarding blood pressure data. 
+ For numeric KRIs, you define: 
+- A unique name for the custom KRI. 
+- The data sets and variables you want to perform calculations on. 
+- The type of calculations you want performed on the data sets and variables: 
+- Count  –  Calculates the average record count in the selected data set. The Count calculation is only available at the data set level. This calculates count at the patient level for each site and country and then takes average of patient-level counts to arrive at site-, country-, and study-level values. 
+- Count Values – Calculates the average count of records in the study that meet a specified criteria based on the selected field. Valid only for fields with a value of 1 or 0. This calculates count at patient-, site-, country-, and study-level values. 
+- Mean  – Calculates the mean value of a numeric data field based on the selected variable at the site. This calculates the mean of a variable at the patient/site/country/study level depending on the values users are seeing. 
+- Rate  – Calculates the total average record count divided by patient time on study in months in the selected data set over time. The Rate calculation is only available at the data set level. This calculates rate for a dataset at the patient/site/country/study level depending on the values users are seeing. 
+- Rate Values – Calculates the average percentage in a site of non-missing, non-zero values for a given variable. Use cases include the fraction of Adverse Events which are Serious, where Serious was 1 for an SAE, and 0 for a non-SAE event, or the fraction of a lab parameter out of normal range. Valid only for fields with a value of a 1 or 0. This calculates count at patient-, site-, country-, and study-level values and multiply by 100.
+- Standard Deviation – Calculates variance in a set of observed values based on the selected field. This calculates value for a field at the patient/site/country/study level depending on the values users are seeing. 
+## Custom Percentage KRIs
+ A custom percentage KRI is key risk indicator based on a user-defined binary expression that assesses whether or not patients meet specified conditions or criteria within a targeted risk area. Percentage KRI value calculations appear as percentages. For example, the percentage of patients who experienced serious adverse events. Or the percentage of patients with a history of hypertension who had thrombocytopenia between study days 5 and 10. 
+ For percentage KRIs, you define: 
+- A unique name for the custom KRI. 
+- The specific risk category that you want the KRI to target its analysis on. 
+- A functional expression for a numerator and denominator using date, number, or text variables within a study environment that queries your study database to assess if patients meet certain conditions or criteria. 
+- The denominator includes the number of patients meeting the expression's criteria who are enrolled.
+- If the denominator is not specified, it is taken as the total number of enrolled patients. 
+- The numerator includes the number of patients meeting the expression's criteria who are enrolled and who also meet denominator criteria. 
+ Note : Screen Failure (SF) Rate is no longer available as a system KRI, but you can set it up as custom KRI for studies where SF patient's data is collected in Rave. In Rave, the patient's Rave Patient Status must be tagged with Screen Failure. 
+ When activated, a custom KRI's data is consumed, analyzed, calculated, and rendered in the KRI Dashboard .

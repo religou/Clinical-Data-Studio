@@ -1,0 +1,6 @@
+# Plan Documents
+
+## Plan Documents
+ Clinical Data Studio includes the following Plan Documents capabilities: 
+- Plan Documents: Plan Documents Updates Ensure Better User Experience 
+- RBQM: Ensure Study Data Accuracy Using Data Quality Plans

@@ -1,0 +1,111 @@
+# Rave Companion Audit
+
+## Rave Companion Audit
+ You can export data objects containing audit data from  Rave Companion . For details on the Rave Companion audit log and how to access audit log reports, see Rave Companion Audit Log Reports . 
+ Important : Your Rave URL configuration can affect your ability to access exported data. For details, please contact your Medidata representative or Medidata Support.
+ Rave Companion 
+ Rave Companion
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Study Name 
+ | Text 
+ | 256 
+ | The study's name. 
+ | Study Env UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Site 
+ | Alphanumeric 
+ | 256 
+ | The study site's name. 
+ | Subject 
+ | Text 
+ | 256 
+ | Given name of the patient 
+ | Folder 
+ | Text 
+ | 256 
+ | The folder pertaining to the reported data. 
+ | Form 
+ | Text 
+ | 256 
+ | The form pertaining to the reported data. 
+ | Field 
+ | Text 
+ | 256 
+ | The field pertaining to the reported data. 
+ | Audit Action 
+ | Text 
+ | 10000 
+ | Description of the change to the record. 
+ | Audit User 
+ | Text 
+ | 256 
+ | The username of the person that performed the audit. 
+ | Audit Action Type 
+ | Text 
+ | 256 
+ | 
+ The data's action type:
+- TypedEntry – For text fields, this action type signifies that the user typed the form field entry within Rave Companion, which populated the eCRF. Rave Companion also shows this action type when the user selects a check box, dropdown, date, or datetime value using Rave Companion. 
+- RaveFormEntry – This   action type signifies that the user entered form field data directly in the Rave eCRF, which then populated the corresponding form field in Rave Companion.
+ Note:  Each time a user saves a Rave eCRF, the audit log creates a RaveFormEntry type audit entry for the Save field with  a value of "true." 
+- ClickCaptureEntry – This action type signifies that the user entered form field data in Rave Companion using the click data capture functionality. 
+- ConnectEntry – This action type signifies that the user populated form field data by selecting EHR data that MHRC delivered to Rave Companion.   This action type has a corresponding Request ID. 
+- ConnectEntryAuto – This action type signifies that Rave Companion automatically selected EHR data to populate this form field, based on the user's selection of EHR data for another form field within the same form. This action type has a corresponding Request ID. 
+ | Request ID 
+ | Text 
+ | 256 
+ | Represents the query parameters that MHRC used to request data from an EHR system 
+ | Audit Time 
+ | Timestamp 
+ | 256 
+ | The date and time when the audit occurred.  
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The username of the person that updated the record. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the person that updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The application used to last update the action. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the action information was updated.

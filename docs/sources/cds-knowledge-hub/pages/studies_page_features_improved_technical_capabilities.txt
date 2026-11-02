@@ -1,0 +1,13 @@
+# Studies Page Features Improved Technical Capabilities
+
+## Studies Page Features Improved Technical Capabilities
+## Description
+ To better handle client divisions with 25 or more studies, the Studies page > Studies list no longer includes the sort functionality.
+## Affected Roles
+ All.
+## Advantages
+ The Studies page can better handle client divisions with 25 or more studies without receiving an internal server error.
+## User Impact
+ The Studies page > Studies list no longer includes the sort functionality.
+## Special Considerations
+ None.

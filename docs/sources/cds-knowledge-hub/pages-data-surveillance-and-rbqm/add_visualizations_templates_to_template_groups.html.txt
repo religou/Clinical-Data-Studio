@@ -1,0 +1,16 @@
+# Add Custom Graphs Templates to Template Groups
+
+## Add Custom Graphs Templates to Template Groups
+ You can add and store custom graph   configurations as templates to study-level template groups. Adding and using specific custom graphs as templates: 
+- Enables you and your team to quickly and easily reapply common chart configurations as needed across studies. 
+- Promotes faster study start time. 
+- Ensures consistency and accuracy in custom graph details across studies. 
+ Note : You need the Manage Detect Templates building block to add custom graphs as templates. For more information see Data Surveillance Building Blocks and Permissions .
+- Access Data Surveillance , and then click Custom Graphs in the left-hand menu. 
+- On the Custom Graphs page, click the More   icon for the custom graph you want to store as a template. 
+- Click  Save as template . 
+- Select the Template Group within your organization's global template library where you would like to store the custom graph template.
+ Tip :  The list of template group names   shows in parentheses the client division name that the template group belongs to. 
+- Enter a Name . 
+- Click Save .
+A confirmation message appears on the page. You can now find the custom graph template in your organization's global template library stored in the selected template group. You can also now import and use the custom graph template when creating custom graphs in other studies.

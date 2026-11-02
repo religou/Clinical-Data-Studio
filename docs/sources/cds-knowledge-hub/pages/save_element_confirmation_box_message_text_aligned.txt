@@ -1,0 +1,13 @@
+# Save Element Confirmation Box Message Text Aligned
+
+## Save Element Confirmation Box Message Text Aligned
+## Description
+ When you save updates to an element, the Changes Saved dialog box's text is now realigned within the box. The realigned text ensures that the Close button,  , in the upper-right corner of the dialog box no longer gets truncated. 
+## Affected Roles
+ Patient Profile Designers
+## Advantages
+ You can more easily select the Close button,  , in upper-right corner of the Changes Saved dialog box to close the box. 
+## User Impact
+ The realigned dialog box text displays on the Design page > Elements tab when you update and save an element. 
+## Special Considerations
+ None.

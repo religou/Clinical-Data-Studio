@@ -1,0 +1,23 @@
+# FTPS Location Support for Export Jobs
+
+## FTPS Location Support for Export Jobs
+## What Is New?
+ You can add FTPS locations from Extractor's Settings screen, and select those locations when configuring export jobs. 
+## What Is the Impact?
+## Users/Roles
+ All users with the Extractor Admin building block on their role.
+## Workflow Process
+ You can add FTPS locations to Extractor, and apply those locations on jobs.
+## Other Applications
+ Ingestor can also use FTPS locations.
+## How Do I Benefit?
+ If you use Medidata-hosted or self-hosted FTPS locations, you can now also use the same locations for export jobs. 
+## Where Do I See the Change?
+ From Extractor's Settings tab, you can add or update external file locations to use FTPS. When creating or editing a job, you can configure it to use the FTPS location. 
+## Where Do I Learn More?
+ The Extractor Knowledge Space provides new content to support this feature: 
+- Configuring Exports to Deliver to FTPS Connections 
+- Add FTPS Connection 
+- Configure Export to Use FTPS Connection 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

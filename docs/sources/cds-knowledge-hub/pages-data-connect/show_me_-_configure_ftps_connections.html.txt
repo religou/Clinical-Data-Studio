@@ -1,0 +1,19 @@
+# Show Me - Configure FTPS Connections
+
+## Show Me - Configure FTPS Connections
+ Summary 
+ | An overview on configuring secure FTPS connections. 
+ Duration 
+ | 2 min 28 sec 
+ Product 
+ | Data Connect - Exports 
+ Release 
+ | January 2025 
+ Video Category 
+ | Export Administration 
+ Related Topics 
+ | 
+- Add FTPS Connection 
+- Configuring Exports to Deliver to SFTP 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

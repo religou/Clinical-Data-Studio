@@ -1,0 +1,16 @@
+# Patient Profiles Identifies The Origin Of Data Sets In A Study
+
+## Patient Profiles Identifies The Origin Of Data Sets In A Study
+## Description
+ Patient Profiles 2022.2.0 identifies whether data sets in a study, come from Rave EDC or external sources.
+## Affected Roles
+ All Patient Profiles users with access to Rave EDC. 
+## Advantages
+ Identifying the origin of data sets allows profile reviewers to investigate patient data for anomalies or discrepancies.   
+## User Impact
+ When you work with an element on the Medidata Detect > Patient Data Surveillance (PDS) > Patient Profiles > Patient Profile Designs > Elements tab, the Data tab shows a or label to identify the origin of the data set. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ On the Design page > Profiles tab, when you select a patient in the Patient Selector section, the View in Rave EDC button appears only if the profile design contains a data set that originates from Rave EDC. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

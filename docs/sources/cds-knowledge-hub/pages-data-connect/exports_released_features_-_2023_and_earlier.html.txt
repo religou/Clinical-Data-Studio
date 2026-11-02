@@ -1,0 +1,122 @@
+# Exports Released Features - 2023 and Earlier
+
+## Exports Released Features - 2023 and Earlier
+ Data Connect's Exports capability includes the following   features, enhancements, and resolved issues that have been documented over the history of the releases: 
+ Export Job Creation 
+- 
+ Audit Data Extraction Now Available 
+- 
+ Client Division Level Extraction Now Available 
+- 
+ Create Data Extracts in MEDS Extractor 
+- 
+ Date Validation While Creating Export Jobs 
+- 
+ Extract Data from CTMS 
+- 
+ File Export Type Selection Update 
+- 
+ Hourly Extractions Now Available 
+- 
+ Incremental Data Extraction Now Available 
+- 
+ Incremental Master Data Extraction Now Available 
+- 
+ Rerun Data Extracts 
+- 
+ Review Data Extracts in MEDS Extractor 
+- 
+ Schedule Data Extracts 
+- 
+ Store Extracts on Secure FTP Sites 
+- 
+ Study Master Data Extraction Now Available 
+- 
+ Super User Role Now Available 
+- 
+ Task Management Data Extraction Now Availbale 
+- 
+ Updated SFTP Support 
+ UI Updates 
+- 
+ Create Job UI Enhancements 
+- 
+ Improved Job List 
+- 
+ Improved Sort Order for Environments 
+- 
+ Job List Usability Enhancements 
+- 
+ Navigation Enhancements 
+- 
+ New Job Configuration Details Page 
+- 
+ New Job History Page 
+- 
+ Search Studies 
+- 
+ Updates to Export Job List Screen 
+- 
+ Workflow for New Export Job 
+ Technical Enhancements 
+- 
+ Internal and Technical Changes in Extractor 2022.4.0 
+- 
+ Internal Technical Changes in Extractor 2023.1.0 
+- 
+ Internal Technical Updates in Extractor 2022.3.0 
+- 
+ Revised Permissions for Export Jobs 
+ Resolved Issues 
+- 
+ MEDS Extractor 2022.2.0 Resolved Issues List 
+- 
+ MEDS Extractor 2022.1.0 Resolved Issues List 
+- 
+ MEDS Extractor 2021.3.1 Resolved Issues List 
+- 
+ MEDS Extractor 2021.3.0 Resolved Issues List 
+- 
+ MEDS Extractor 2021.2.0 Resolved Issues List 
+- 
+ MEDS Extractor 2021.1.0 Resolved Issues List 
+- 
+ MEDS Extractor 2020.3.0 Resolved Issues List 
+- 
+ MEDS Extractor 2020.2.0 Resolved Issues List 
+- 
+ MEDS Extractor 2020.1.1 Resolved Issues List 
+- 
+ MEDS Extractor 2020.1.0 Resolved Issues List 
+- 
+ MEDS Extractor 2019.1.0 Resolved Issues List 
+- 
+ Extractor 2024.1.0 Resolved Issues List 
+- 
+ Extractor 2023.3.0 Resolved Issues List 
+- 
+ Extractor 2023.2.0 Resolved Issues List 
+- 
+ Extractor 2023.1.0 Resolved Issues List 
+- 
+ Extractor 2022.4.0 Resolved Issues List 
+- 
+ Extractor 2022.3.0 Resolved Issues List 
+- 
+ Data Connect September 2024 Resolved Issues List 
+- 
+ Data Connect June 2024 Resolved Issues List 
+- 
+ Data Connect 2025.5.0 Resolved Issues List 
+- 
+ Data Connect 2025.3.0 Resolved Issues List 
+- 
+ Data Connect 2025.2.5 Resolved Issues List 
+- 
+ Data Connect 2025.2.2 Resolved Issues List 
+- 
+ Data Connect 2025.1.0 Resolved Issues List 
+- 
+ Data Connect - Exports 2024.3.4 Resolved Issues List 
+- 
+ Data Connect - Exports 2024.3.2 Resolved Issues List

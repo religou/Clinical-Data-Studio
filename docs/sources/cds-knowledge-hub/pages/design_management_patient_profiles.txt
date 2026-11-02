@@ -1,0 +1,19 @@
+# Design Management Patient Profiles
+
+## Design Management Patient Profiles
+## Description
+ Medidata Patient Profiles provides the following design management capabilities:
+- Create New Designs  – Initially create and begin working on a new design in the Design page. 
+- Find and Access Designs  – Find and access already existing designs for which you have permissions to access. 
+- Reassign Master Designs  – The master design is the design that CSA uses for analytics and to generate profiles. If you want track design versions over time, you can copy the prior master design. Then you can make changes to the duplicate and reassign the duplicate copy as the new master design. 
+- Rename Designs – Edit the design name from the Design List page. 
+- Duplicate Designs  – Duplicate a design to create alternate versions, which you can modify for consumption from audiences with different data interests. For example, you can create a design for a data manager, and then create and modify a duplicate with slightly different design configurations for a site manager. 
+- Delete Designs 
+## Affected Roles
+ All.
+## Advantages
+ See the Description section.
+## User Impact
+ You can perform all design management tasks on the Patient Profile design page. You can also rename designs by accessing a design's Design page and editing the name field.
+## Special Considerations
+ None.

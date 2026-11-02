@@ -1,0 +1,18 @@
+# Risk Plan Reporting
+
+## Risk Plan Reporting
+## Description
+ You can create a risk plan report that provides risk assessment details for your study. View the report online or download it as a PDF file. 
+## Affected Roles
+ Study User.
+## Advantages
+ View the critical data, critical processes, risk categories, and risk inventory in a single consolidated report or in a selection of reports.
+## User Impact
+ Use this feature to:
+- Update risk plan report details and participants. 
+- Indicate which participants are required to acknowledge the report. 
+- Configure the report to print all or specific components such as critical data, critical processes, risk categories, or the risk inventory. 
+- Generate the risk plan report for online review or to download in PDF format. 
+## Special Considerations
+ Ensure that your role includes the  Generate Risk Plan Report  building block permission. This allows a study user to generate the risk plan report.
+ Note : The Study Approval / Acknowledge permission associated with an eSignature is not yet active for Risk Management. Instead, you may acknowledge the report manually by signing in the Signature box at the top of a printed copy or by using a signature feature if included in your PDF viewer software.

@@ -1,0 +1,18 @@
+# Data Integration With Medidata Rave Enabled
+
+## Data Integration With Medidata Rave Enabled
+## Description
+ Data integration in Patient Profiles 2022.1.0 allows authorized Rave EDC users to access the following functionality in Rave EDC from the Patient Profiles user interface: 
+- Selecting a patient ID in the Patient Selector and then clicking opens the corresponding patient's data in Rave EDC. 
+## Affected Roles
+- All Patient Profiles users with access to Rave EDC. 
+- All Detect users with access to Patient Profiles and Rave EDC. 
+## Advantages
+ Accessing Rave EDC from Patient Profiles allows profile reviewers and Detect users to investigate further patient records associated with data points in Patient Profiles. 
+## User Impact
+ On the Design page > Profiles tab, when you select a patient in the Patient Selector section, and then click the Patient Profile tab, you can click View in Rave EDC .  A browser tab opens showing data corresponding to the patient ID in Rave EDC. 
+## Knowledge Space Updates
+ The Medidata Patient Profiles Knowledge Space provides the following new content to support this feature: 
+- Rave EDC Data Integration 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

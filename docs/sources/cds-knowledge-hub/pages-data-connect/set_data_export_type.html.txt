@@ -1,0 +1,13 @@
+# Set Data Export Type
+
+## Set Data Export Type
+ After setting the run schedule for the export, you land on the Data Export Type screen. You can choose what data to export relative to the latest executed export. You can export all available data or to export only the data changes since the latest export execution. 
+ Data export options differ by data type. For a table comparing the data types, see Export Configuration Compatibility by Data Type . 
+## Select an Export Type
+- On the Set Export Type screen, select a data export type:
+- Cumulative – Each export instance exports all available data. 
+- Incremental – Each export instance only exports data changes since the previous run. The first incremental run is cumulative.
+ Note : Incremental data export is not available for Audit and EDC data. 
+- Click Continue to go to the Outputs screen. 
+## Next Step
+ Name Outputs

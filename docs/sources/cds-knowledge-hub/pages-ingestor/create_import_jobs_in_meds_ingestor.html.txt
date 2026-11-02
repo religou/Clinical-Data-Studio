@@ -1,0 +1,22 @@
+# Create Import Jobs in MEDS Ingestor
+
+## Create Import Jobs in MEDS Ingestor
+## Description
+ MEDS Ingestor enables the creation of Data Import Jobs. The creation of data import jobs prepares MEDS Ingestor to import supported external data types into MEDS®. You can set import jobs for the specific studies that you configured data integrations for within  Experimental Design .
+ Feature/enhancement stories referenced in this article:
+ MCC-402674, MCC-417821, MCC-445699, MCC-455206, MCC-464283, MCC-469685, MCC-485250, MCC-402678, MCC-417849, MCC-445988, MCC-455637, MCC-464290, MCC-477912, MCC-485264, MCC-402680, MCC-427458, MCC-445989, MCC-456824, MCC-464291, MCC-482585, MCC-402681, MCC-427956, MCC-447328, MCC-457179, MCC-465306, MCC-484355, MCC-410680, MCC-437059, MCC-450125, MCC-458630, MCC-469664, MCC-484631, MCC-414769, MCC-441788, MCC-454635, MCC-464280, MCC-469672, MCC-484659 
+## Affected Roles
+ All.
+## Advantages
+ Creating import jobs provides a pipeline to connect your data to MEDS. Because import jobs synchronize with Experimental Design , your external data connects seamlessly to the appropriate studies and environments set in Experimental Design. This connection results in a streamlined data integration process from your data source to Medidata's data repository that saves you time from otherwise manual integrations.
+## User Impact
+- In Cloud Administration, you can:
+- Add the Create Import Job, Import Data, View Import Job, and View Import Summary permissions to your customer-defined platform role which grants access to MEDS Ingestor; and 
+- Select MEDS Ingestor from the  Actions dropdown menu from within your assigned study environment. 
+- In MEDS Ingestor, you can:
+- Create new import jobs; and 
+- Import CSV files into existing import jobs from your local drives. 
+## Special Considerations
+- You must have at least one published protocol in Designer in order to create import jobs. 
+- MEDS Ingestor is in a nonfunctional beta release. You can upload and store files with MEDS Ingestor but MEDS Ingestor does not process the files or import the files into MEDS. 
+- File import only works with single files.

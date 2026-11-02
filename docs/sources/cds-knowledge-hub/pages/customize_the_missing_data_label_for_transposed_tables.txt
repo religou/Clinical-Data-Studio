@@ -1,0 +1,14 @@
+# Customize the Missing Data Label for Transposed Tables
+
+## Customize the Missing Data Label for Transposed Tables
+## Description
+ On the Elements tab, when working in a transposed table, the Table Options tab now includes a General Options section. The General Options section contains the Missing Data Text field. 
+ Using the Missing Data Text field, you can enter a custom label, which displays for cells in the transposed table that do not contain data. For example, "No data."
+## Affected Roles
+ All.
+## Advantages
+ You can customize the text that you want to display in your transposed tables for data points that have no data.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

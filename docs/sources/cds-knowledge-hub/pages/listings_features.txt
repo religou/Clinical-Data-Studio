@@ -1,0 +1,36 @@
+# Listings Features
+
+## Listings Features
+ Data Reviewer includes the following capabilities related to listings:
+- Listings: Preview Listings With Up To Thirty Thousand Records 
+- Listings: Configuration And Column Order Maintained Across Studies In Copied Listings 
+- Listings: Maintain Data Continuity After Data Refreshes Using Dropped Listing Records 
+- Listings: Mark Listings As In Progress During Review Cycles 
+- Listings: Updated Data Set Variable Types Enable Better Listings and Query Submission Experience 
+- Data Surveillance: Query Veeva EDC Data Using Listings And AI Reconciliation 
+- Data Surveillance: Download Listings and AI Reconciliation Reports As Excel Files 
+- Data Surveillance: Query Veeva EDC Data Using Bulk Queries In Listings and AI Reconciliation 
+- Data Surveillance: Updated Data Sets Page Shows Better Usability 
+- Listings, Data Sets, KRIs Include Published Audit Datasets 
+- Data Surveillance: Listings And Data Sets Enhancements Provide Better User Experience 
+- Data Surveillance: Open Query Records Table List Log Lines 
+- PDS: No Default Marking Group Selected When Submitting Rave Queries on Data Listing Records 
+- PDS: Track Up to Fifteen Approved Listings for Clean Patient Data Analysis 
+- PDS: Build Data Listings to Identify Records Present in Rave EDC But Missing from External Lab Data 
+- PDS: Build Data Listing Configurations Using Time Variables 
+- PDS: Submit Rave Queries on Data Listing Records to Alternate Marking Groups 
+- Build Listings By Selecting Variables From Multiple Data Sets 
+- Save and Reuse Listing Configurations as Templates 
+- Data Surveillance: Identify Changed Data Points In Approved Listings After Data Refresh 
+- Create And View Listings 
+- Track and Untrack Approved Listings for Clean Patient Data Analysis 
+- Data Reviewer Identifies The Origin Of Data Sets In A Study 
+- Enhancements Improve Listings Functionality 
+- Export Listings and Listings History 
+- Rave Enabled Listings Provide Insights Into Rave Query Status 
+- View Historical Details For Listings 
+- Data Reviewer Listings Pages Redesigned For Better Usability 
+- Listing Manager Enables Making Listings Active Or Inactive 
+- PDS: Download Listings Table from the Listings Manager 
+- PDS: Add Columns to Listings Without Defining in the Listing Expression 
+- Listings: Submit EDC Queries For Add Column Fields In Listings

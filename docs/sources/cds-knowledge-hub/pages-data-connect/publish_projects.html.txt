@@ -1,0 +1,47 @@
+# Publish Projects
+
+## Publish Projects
+ After configuring a data project, you can publish it so that others in your study group can see and use its datasets.
+## Publication Considerations and Limitations
+- While publishing a dataset:
+- If the process gets stuck on the In-Progress step, try waiting 5 minutes and then republish the dataset. 
+- Resolve all issues identified by the system for the configuration. 
+- When publishing a  derived dataset :
+- The data lineage must have a single end node to ensure proper versioning. An error occurs if you have more than one end node. 
+- A validation error occurs if you try to publish any project created before May 21, 2025 without upgrading the dataset. Before publishing such a project, you must upgrade the dataset in the project. After the upgrade, you can update and publish the project. 
+## Publish Transformation Project
+ Publish Only Publish and Add to Library Add Published Project to Library 
+ Publish Only
+- Return to the Transformation Projects screen . 
+- Identify a project, and in the project's far-right, c lick More >  Publish .
+- Do one of the following: 
+- For derived dataset projects, select Publish   without saving to library , and click  Publish . 
+- Otherwise, click  Publish to share this project across the study group. 
+ Publish and Add to Library
+ Important :
+- You must have the correct permissions to publish projects to the library. For details, see Data Connect Roles and Capabilities . 
+- You can only perform this action for the following project types:
+- Derived dataset 
+- Custom data model 
+- Return to the Transformation Projects screen . 
+- Identify a project, and in the project's far-right, c lick More > Publish .
+- Select Publish and save to library to save the published dataset to the template library.
+ Note : 
+- Saving the published dataset as a template creates a custom data model. This custom data model appears as a Custom SDTM-like Target option when creating an SDTM data project  in addition to the industry standard. This ability to save a published dataset as a template is in limited preview and is only available to select users that can create custom data models. If you are interested in previewing this feature, please contact your Medidata account representative. 
+- You cannot make derived dataset templates if the dataset uses pivot operations. 
+- Configure the template, and click Publish to share this project across the study group and save it as a template in the library.
+ For details about templates, see  View and Manage Templates . 
+ Add Published Project to Library
+ Important :
+- You must have the correct permissions to publish projects to the library. For details, see  Data Connect Roles and Capabilities . 
+- You can only perform this action for the following project types:
+- Derived dataset 
+- Custom data model 
+- Return to the Transformation Projects screen . 
+- Identify a published derived dataset project. 
+- In the project's far-right, c lick More >  Publish as template .
+- Configure the template, and click Publish to share this project across the study group and save it as a template in the library.
+ For details about templates, see  View and Manage Templates .
+ Note :
+- Saving the published dataset as a template creates a custom data model. This custom data model appears as a Custom SDTM-like Target option when creating an SDTM data project  in addition to the industry standard. This ability to save a published dataset as a template is in limited preview and is only available to select users that can create custom data models. If you are interested in previewing this feature, please contact your Medidata account representative. 
+- You cannot make derived dataset templates if the dataset uses pivot operations.

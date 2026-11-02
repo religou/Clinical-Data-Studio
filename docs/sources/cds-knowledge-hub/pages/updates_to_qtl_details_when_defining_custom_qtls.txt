@@ -1,0 +1,27 @@
+# Updates to QTL Details When Defining Custom QTLs
+
+## Updates to QTL Details When Defining Custom QTLs
+## Description
+ When you add or edit custom QTLs , the Quality Tolerance Limit dialog box includes the following new fields: 
+- Final Population (# of Patients) – Total number of patients expected to enroll in the study.
+ Tip : A djust the expected number of patients to correspond with protocol revisions or if the study is over- or under-enrolled. 
+- Trigger Point – The minimum required number of patients that meet the QTL's conditions for Detect to analyze and output the QTL's results in Centralized Statistical Monitoring (CSM).
+ Tip : We recommend entering 25 or higher in Trigger Point.
+ The dialog box no longer includes the following fields: 
+- Analysis Type 
+- Number 
+- Percentage 
+- Sides 
+## Affected Roles
+ Detect Configuration Manager Admin 
+## Advantages
+ Final population and trigger point details help Detect better calculate the QTL's lower and upper threshold limit confidence levels. Therefore, Detect provides more accurate, reliable QTL results for clearer data analysis and better informed study decisions.
+ Detect Configuration Manager no longer allows you to create QTLs measured by total subject count. Therefore, the Analysis Type field and its associated subfields, Number and Percentage, are removed since these details are no longer required.
+## User Impact
+ See the Description section.
+## Knowledge Space Updates
+ The Detect Configuration Manager Knowledge Space provides new and updated content to support this feature/enhancement: 
+- Add and Edit Custom QTLs 
+## Special Considerations
+ The number entered in Trigger Point must be less than the number entered in Final Population (# of patients).
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

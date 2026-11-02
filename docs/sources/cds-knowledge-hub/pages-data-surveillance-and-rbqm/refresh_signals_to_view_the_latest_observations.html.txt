@@ -1,0 +1,78 @@
+# Refresh Signals to View the Latest Observations
+
+## Refresh Signals to View the Latest Observations
+ You can refresh data on the Signals page to view the latest signal observations. Signals generate automatically based on the modules you configure in Signal Configuration .  
+ You can refresh data on the Signals page to generate signals for configured modules based on the source module's last successful data update and the threshold set for each module. A slide out panel on the Signals page shows the module's snapshot date from which signals data is extracted. 
+## Refresh Signals Data
+ On the Signals page, each configured module shows the last snapshot date and time from its source module. On the Signal Configuration page,  you can choose the modules you want the signals to report on.   Once you configure a signal, observations appear as signals based on custom configurations and the source modules' latest data snapshot when you next refresh data on the Signals page. For more information, see  Signal Configuration . 
+- Access RBQM , and then click  Signals  in the left-hand menu. 
+- Optional . Click to know the latest data snapshot for the following modules.
+- Patient Profiles 
+- KRIs 
+- QTLs 
+- Potential Duplicate Patients 
+- Rounding  
+- Propagation 
+- Under/over Reporting 
+- Weekend and Holiday Visits 
+- Click Refresh from the top right-corner above the Signals table. 
+ The Signals table shows signals that meet the set threshold for each module. For more information, see Signal Behavior Based on Data Refresh . The Changed Data column in the Signals table shows a for a signal indicating observation value changes between data refreshes, 
+ Note : To get the most updated signals, you must refresh the Signals page and the configured source modules .   Signals data appears based on the configured modules' latest data snapshot at 7:30 am (EST). Signal configuration changes made after 7:30 am (EST) do not show in the automated signals report until the next day. 
+## Signal Behavior Based on Data Refresh
+## 
+ New Signal 
+ By default, a new signal on the Signals report appears with the status New . For example, the following image shows a new signal for Rounding. If no action is taken , the signal status remains new. If no action occurs on the signal, and you refresh the source  Rounding module and the Signals report , the signal continues to appear as new if the observation meets the updated threshold. However, if the signal value no longer meets the updated threshold after a data refresh, and the signal status is still new, that is, no action occurred on the signal, it drops from the signal report. 
+ Tip: Click the image to enlarge.
+ Signal Acted Upon 
+## Signal Acted Upon
+ For any new signal in the signal report, once you  add an assignee , create action , watch , raise issue , and so on, the signal continues to appear after every data refresh. For such a signal, the status is one of the following depending on the action performed:
+- Open
+- Resolved
+- Watched
+- Closed
+- Reopened
+ The signal continues to appear on the Signals page even if the threshold changes after the data refresh. The signal status remains unchanged. However, if the observation falls below the set threshold, the signal does not drop out from the signal report, instead the last observation value that met the threshold appears in the signal report.
+ For example, the following image shows a signal for Rounding. If you refresh the source Rounding module, and the Signals page, the signal continues to appear with its status unchanged if the observation meets the updated threshold. If the central monitor resolves the signal or the CRA sets the status to Watched , these actions indicate that the signal is in progress or under investigation. For example, if rounding is at 90%, the signal continues to appear. However, if it falls to 50%, then the last observation value that met the threshold for rounding appears in the signal.
+ Tip: Click the image to enlarge.
+ Dismissed Signal 
+## Dismissed Signal
+ If you dismiss a signal in the Signal report and set the signal status as Dismissed, the signal continues to appear as dismissed even if the observation value goes up after a data refresh.   However, if the central monitor decides on further action and adds an assignee to the signal, the status changes to Open . If the observation drops below the threshold for a dismissed signal, the signal no longer appears in the signal report after a data refresh.
+ For example, the following image shows a dismissed signal for Rounding. If you refresh the source Rounding module, and the Signals report, the signal continues to appear as Dismissed even if the observation value meets the threshold. If you  add an assignee to the signal for further investigation, the signal status changes to Open . 
+ Tip: Click the image to enlarge.
+ Inactive Signal Configuration Module 
+## Inactive Signal Configuration Module
+ If you turn off modules configured in Signal Configuration after automated signals generate, then those modules do not contribute new data when you refresh data from individual source modules and on the Signals page.  If auto-generated signals are acted upon, that is, signals with statuses Open, Watched, Closed, Resolved, or Reopened, then the signals continue to appear on the Signals page. 
+ Signal Persists 
+## Signal Persists 
+ Signals with status as Resolved continue to appear appear on the Signals page , and retain their default descriptions and status across data refreshes.
+## Identify Changed Signal Data After Refresh
+ Once you refresh signals, based on threshold set for modules configured and activated in Signal Configuration , observation values may go above or below the threshold.  The Changed Data column in the Signals table shows a for a signal if observation values change between data refreshes. If you hover over the icon, a tooltip shows the changed values. The following table lists common changes in signal data. 
+ Use Case 
+ Signal Configuration Status 
+ Signal Behavior 
+ Modules 
+ Observation Values 
+ | Signal is no longer identified as a signal 
+ | Active 
+ | Signal no longer meets the set threshold for the module. Existing, acted upon signals for the module continue to appear on the Signals page. The signal persists ensuring you can track a history of all actions taken for it.
+ Signals with status New or Dismissed no longer appear.
+ | 
+- QTLs 
+- KRIs 
+- Rounding  
+- Propagation 
+- Over and Over Reporting 
+- Potential Duplicate Patients 
+- Patient Profiles 
+- Weekend and Holiday Visits 
+ | 
+- For Potential Duplicate Patients, observation sets to No longer duplicate . 
+- For Patient Profiles, observation sets to 0 patients . 
+- For Weekend and Holiday Visits, observation sets to < Day of the week> 0. 
+ | Signal configuration is removed. 
+ | Inactive 
+ | 
+ The signal is no longer tracked. Existing, acted upon signals for the module continue to appear on the Signals page. However, the signal analysis hyperlink no longer works. The signal persists ensuring you can track a history of all actions taken for it.
+Signals with status New or Dismissed no longer appear.
+ | All modules. 
+ | Observation value reads Inactive configuration

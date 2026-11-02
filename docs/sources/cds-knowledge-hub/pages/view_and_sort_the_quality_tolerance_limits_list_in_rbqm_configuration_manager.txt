@@ -1,0 +1,14 @@
+# View and Sort the Quality Tolerance Limits List in RBQM Configuration Manager
+
+## View and Sort the Quality Tolerance Limits List in RBQM Configuration Manager
+## Description
+ The Quality Tolerance Limits list allows you to view and sort all custom QTLs that are available in your current study environment . 
+## Affected Roles
+- RBQM Configuration Manager Admin 
+- RBQM Configuration Manager Viewer 
+## Advantages
+ The  Quality Tolerance Limits list provides an easy-to-read, holistic view of all  custom QTLs available in your current study environment. You can sort and filter the  Quality Tolerance Limits list to help find the QTLs you want to view or take action on.
+## User Impact
+ The QTLs page displays the  Quality Tolerance Limits list, which you can sort to find the QTLs you need.
+## Special Considerations
+ Refreshing your browser reverts the  Quality Tolerance Limits list to the default sort.

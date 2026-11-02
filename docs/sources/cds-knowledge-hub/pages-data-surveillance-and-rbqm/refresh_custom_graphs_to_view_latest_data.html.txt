@@ -1,0 +1,103 @@
+# Refresh Custom Graphs To View Latest Data
+
+## Refresh Custom Graphs To View Latest Data
+ You can refresh custom graphs simultaneously to produce results based on the most recent study data. You can schedule a maximum of 15 custom graphs  to run on a daily cadence . There is no limit for scheduled refreshes you can run . You can manually refresh custom graphs on-demand each day.    
+ Custom Graphs supports on-demand refresh directly within the application to instantly trigger manual data updates independently of predefined automated schedules .Total daily refreshes combine both scheduled and on-demand refreshes. You can have up to four on-demand refreshes for each custom graph daily. 
+ Tip : We recommend refreshing custom graphs before creating various charts so that charts are based on the most recent study data. As Data Surveillance refreshes four times daily, you can obtain the updated Medidata Rave data from four separate snapshots in a day. For more information, see Clinical Data Studio Data Pipeline .
+## Refresh Custom Graphs Data On-Demand
+- 
+ If necessary, access and view your study's custom graphs. 
+- Access Data Surveillance , and then click Custom Graphs in the left-hand menu.
+The Custom Graphs page shows. 
+- Above the custom graphs table, click Refresh .
+The On-demand Refresh page appears.
+- Select a maximum of 15 records.
+ Note : Records currently being refreshed or part of a scheduled refresh do not appear for selection.
+- Click Refresh .
+A "Refresh has started." message appears. The custom graphs show the most recent data once the refresh completes.
+ Note : For tabular Custom graphs, the Refresh button remains enabled regardless of new data versions . 
+## Refresh Data On A Fixed Schedule
+ You can set all Custom Graphs to refresh data at a specified cadence by configuring a refresh schedule on the Unified Scheduler page . You can also schedule refreshes on the Custom Graphs page.
+## View Refresh Schedule
+ You can view the details of the scheduled refresh configured for custom graphs.
+- Access Data Surveillance , and then click   Custom Graphs   in the left-hand menu. 
+- Click   , the   More   icon at the top right corner of the page. 
+- Click   View Schedule .
+The Refresh schedule page shows all the scheduled refreshes. For each schedule, the following appears:
+ Schedule Refresh Details 
+- Name – Title of the refresh. 
+- Frequency – Frequency at which refresh occurs. of the refresh. 
+- Last Edited B y – The user who last edited the refresh schedule. 
+- Optional.  Click Export Settings to export the scheduled refresh configurations. 
+## Edit Refresh Schedule
+- Access Data Surveillance , and then click   Custom Graphs   in the left-hand menu. 
+- Click   , the   More icon, from the top right corner of the page. 
+- Click   View Schedule . 
+- The Refresh schedule page shows all the scheduled refreshes 
+- For any schedule, click   , the   More   icon from the top right corner of the schedule. 
+- Click Edit .  
+- Update the following fields as needed.
+ Table Column Descriptions 
+- Title – Read-only; non-editable.  T itle for the scheduled refresh. 
+- Frequency – Select the cadence at which the scheduled refresh. 
+- None – Saves the items in the scheduled refresh as a group. You can add frequency later as needed. 
+- Daily – Runs the scheduled refresh daily. 
+- Weekly – Runs the scheduled refresh weekly. You must further select the day. 
+- Biweekly – Runs the scheduled refresh every other week. You must further select the day.  
+- Monthly – Runs the scheduled refresh once a month. You must further select the day: 
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Bimonthly – Runs the scheduled refresh once every two months. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Quarterly – Runs the scheduled refresh once every quarter. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Select one or more records. 
+ Note: You select a maximum of 15 custom graphs in a single schedule. 
+- Click Save Schedule . 
+## View Included Items 
+ You can view the list of records included in a scheduled refresh.
+- Access Data Surveillance , and then click   Custom Graphs   in the left-hand menu. 
+- Click   , the   More icon, from the top right corner of the page. 
+- Click   View Schedule . 
+- The Refresh schedule page shows all the scheduled refreshes 
+- For any schedule, click   , the   More   icon from the top right corner of the schedule. 
+- Click Included Items .
+The Included Items shows all records in the schedule. 
+## Delete Schedule
+ If a refresh schedule is no longer required, you can delete it.
+- Access Data Surveillance , and then click   Custom Graphs   in the left-hand menu. 
+- Click   , the   More icon, from the top right corner of the page. 
+- Click   View Schedule . 
+- The Refresh schedule page shows all the scheduled refreshes 
+- For any schedule, click   , the   More   icon from the top right corner of the schedule. 
+- Click Delete . 
+- A Delete Schedule message appears.
+ Note : You cannot undo deletion. We recommend deleting schedules only if needed.
+- Click Delete.
+ The refresh schedule is deleted. 
+## View Refresh History
+ Review data refresh history within to monitor data update details for individual modules . The Refresh history page shows: 
+- When refreshes occurred . 
+- The type of refresh performed  
+- The associated snapshot date . 
+- The user who scheduled or started the refresh . 
+- For Custom Graphs, it shows the record count associated with the refresh. 
+- Access Data Surveillance , 
+- Click   Custom Graphs   in the left-hand menu. 
+- Select any custom graph. 
+- Click   , the   More icon , above the custom graph. 
+- Click   Refresh History . The Refresh History page shows all refreshes for the custom graph.
+ Column Descriptions 
+- Refresh Date – Date and time when refresh started. 
+- Refresh Type – Scheduled or On-demand. For scheduled refreshes, the refresh cadence also appears. 
+- Snapshot Date – Date and time for the data snapshot.  
+- Refreshed By – Person who started the refresh. 
+- Optional. Filter or Sort the refresh history.

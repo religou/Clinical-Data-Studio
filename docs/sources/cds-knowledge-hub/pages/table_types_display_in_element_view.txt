@@ -1,0 +1,19 @@
+# Table Types Display In Element View
+
+## Table Types Display In Element View
+## Description
+ On the Design page > Elements tab, when you are working with a table, the Type column displays the type of table.  
+## Affected Roles
+ All.
+## Advantages
+ You can now more easily identify table elements when building profile designs. 
+## User Impact
+ On the Design page > Elements tab: 
+- If you set a transposed table to show both table and graph, the Type column in the Elements view displays  Transposed Table + Graph  
+- If you set a transposed table to show only the graph, the Type column in the Elements view displays  Graph  
+- If you set a transposed table to show only the table, the Type column in the Elements view displays  Transposed Table   
+- If you set a wide table to show both table and graph, the Type column in the Elements view displays  Wide Table + Graph  
+- If you set a wide table to show only the graph, the Type column in the Elements view displays  Graph  
+- If you set a wide table to show only the table, the Type column in the Elements view displays  Wide Table .   
+## Special Considerations
+ None.

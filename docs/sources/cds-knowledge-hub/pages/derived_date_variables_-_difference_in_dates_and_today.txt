@@ -1,0 +1,15 @@
+# Derived Date Variables - Difference In Dates and Today
+
+## Derived Date Variables - Difference In Dates and Today
+## Description
+ You can create the following new derived variables:
+- Difference in Dates – C alculate the number of days between two date-based data set variables into a single derived variable. 
+- Today – Displays the d ay that the data refresh occurs in MEDS Data Viewer. 
+## Affected Roles
+ All roles with the Manage Derived Variables permission.
+## Advantages
+ With the added derived date variables, you can add additional points of references to your data set tables. You can also use the derived variables in other applications such Patient Profiles and Medidata Detect.
+## User Impact
+ You can find the new derived variable workflows in the Derived Variable Type dropdown. The Difference in Dates workflow requires two date-based data set variables. The Today workflow requires no additional specifications.
+## Special Considerations
+ None.

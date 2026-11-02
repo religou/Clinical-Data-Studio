@@ -1,0 +1,34 @@
+# Build Listings By Selecting Variables From Multiple Data Sets
+
+## Build Listings By Selecting Variables From Multiple Data Sets
+## Description
+ The Listings submenu and page no longer exist separately in Data Reviewer. Instead, you can access listings and data sets on the Data Reviewer page. The Listings functionality now allows you to select a maximum of 10 data set variables from six different data sets.
+## Affected Roles
+ All.
+## Advantages
+- You can create listings based on complex search criteria that compares data across multiple data sets . For example, female patients below age 50 who have had a serious adverse event.  
+- You can navigate less to find data sets and build listings as you access listings and data sets from the same page. 
+## User Impact
+ New Listing 
+ The Listings submenu and page are no longer available in Medidata Detect > Patient Data Surveillance (PDS) > Data Reviewer. Instead, you can create and access listings on the Data Reviewer page on the Listings panel. If you click New Listing , drag-and-drop variables from data sets, complete the expression builder workflow, you can then save the listing. The expression builder includes a new dropdown with two options to compare two data set variables of the same type:
+- Variable – You can drag-and-drop a data set variable into the Variable field. The variable can be a string, data, or numeric variable. 
+- Numeric / Text / Date Value – The field appears depending on the variable you drag-and-drop into the expression builder. For example, if you drag-and-drop a Date value, the field appears as a Date Value and you can enter or select a date to compare. However, you cannot drag-and-drop time variables into the expression builder. 
+- The comparison operators available are: Equals to, Not Equals to, Greater than, Less than, and Contains . 
+ You can select a maximum of 10 different data set variables from six different data sets to build a listing. You cannot save a listing until you preview the search results. A listing can also have empty values in the search results.
+ Preview a Listing 
+ While building a listing, if you click Preview: 
+- The listing shows entries as per the expression builder conditions without any column filters, and a maximum of 100 records of the total records. The total number of records in the listing appears at the bottom of the page. 
+- If the number of records exceeds a preconfigured threshold, a warning message appears. You can then edit the expression builder so that the listing shows records less than the preconfigured threshold.  
+- The Patient ID, Site, and Country columns always appear for the listing. 
+ Saved Listing 
+ Clicking a saved listing shows all the data set variables used the expression builder and the Object Identifiers (OIDs) for each variable. If you hover your cursor over next to the listing name, a tooltip shows the expression used to build the listing. The  Last Updated By  and  Last Updated date and time appear next to the listing name. You cannot edit or delete a saved listing; however, clicking the Show History link at the top the saved listing page shows the list of changes made to the listing. 
+ The following simulation shows building a listing with variables from two different data sets. 
+ Tip : Click the image to enlarge.
+## Knowledge Space Updates
+ The Data Reviewer Knowledge Space provides updated content to support the feature: 
+- View, Create, and Edit Draft Listings 
+- Refresh And Get Listings History 
+## Special Considerations
+- You can use a maximum of six data sets and 10 different variables in the expression for listings. 
+- For listings that use complex expressions with OR and AND, you must use parenthesis (()) to combine and separate the conditions. For example, the expression AE.AEPT equals COUGH AND DEM.AGEIC greater_than 50 OR AE.AEPT contains RES returns different results as compared to ( AE.AEPT equals COUGH AND DEM.AGEIC greater_than 50 ) OR AE.AEPT contains RES . 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,27 @@
+# Datasets and Transformations: Interface Enhancements for August 2024
+
+## Datasets and Transformations: Interface Enhancements for August 2024
+## What Is New?
+ As a part of the August 2024 release, the Datasets and Transformation experiences feature various enhancements including:
+- Updates to SDTM and custom template searching capability. 
+- Activation locking when another user is editing a dataset with the Transformation experience. 
+- The ability to filter by category while configuring unregistered patients, visitors, or sites. 
+- Updates to the analyte mapping library. 
+- Live validation on derived dataset custom variables. 
+- Improved version interface changes for dataset and activation. 
+- Upgrade the activation pipelines for newer dataset versions. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No Impact to the workflow process. 
+## Other Applications
+ None.
+## How Do I Benefit?
+ The interface updates improve the look, feel, and navigation of the respective experiences. 
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Datahub and Transformations tab. 
+## Where Do I Learn More?
+ There are no additional relevant resources. 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

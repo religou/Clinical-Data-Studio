@@ -1,0 +1,21 @@
+# Exports: Data Export Now Available in JSON Format
+
+## Exports: Data Export Now Available in JSON Format
+## What Is New?
+ Users can now export transformed datasets in JSON format.
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ There is no change in the existing process. Users can now, however export transformed datasets in JSON formats.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Users can now schedule the export transformed datasets in the JSON format . They can use these extracted datasets  locally or by the internal systems. 
+## Where Do I See the Change?
+ Users can select the JSON format on the Select Data step while configuring exports.  
+## Where Do I Learn More?
+ There are no additional relevant resources. 
+## What Else Should I Know?
+ The renamed Data Connect data type – formerly known as Transformed Data – can export all datasets from Data Connect's Datasets experience. This includes internal data, Rave data, external data, and transformed data. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

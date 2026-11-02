@@ -1,0 +1,34 @@
+# Audit Trail Review AI and LLM Model Working Methodology
+
+## Audit Trail Review AI and LLM Model Working Methodology
+ Audit Trail Review (ATR) uses the  Claude LLM , pre-trained, fine-tuned internally to provide information relevant to study data. Medidata uses the following Artificial Intelligence (AI), Machine Learning (ML), and Large Learning Model (LLM) practices to ensure data quality and security.
+## How We Ensure Periodic Tuning Of AI Models
+ The ATR model adheres to Medidata's Standard Operating Procedures (SOP) for Artificial Intelligence (AI). The SOP outlines practices for evaluation, iteration, and release. The process ensures continuous improvement and adaptation to evolving requirements. Key points we follow from the SOP include:
+- Programmatic validation – Programmatically parse and validate the output of the language model to ensure it meets strict requirements, such as adherence to study metadata, and reduces LLM hallucination risks. 
+- Retrieval-Augmented Generation (RAG) – Use RAG to ensure that the model stays aligned with the evolving study metadata. 
+- Few-shot prompting and in-context learning – Use the LLM's in-context learning capability using few-shot prompting, which serves as examples of the desired behavior. While this does not directly affect the model's tuning, it ensures generating accurate outputs across diverse user queries. 
+- Feedback incorporation – Review feedback, including cases where the model's performance deviated from expectation. Use the feedback to guide updates along with stakeholder and client feedback. 
+- Model versioning – Maintain the most up-to-date foundation model to ensure the AI system is pre-trained on the most recent data available. 
+## Our Approach to the Explainability of AI-Generated Outcomes
+ Medidata prioritizes the explainability of AI-generated outcomes through a combination of design principles and interactive features. These include: 
+- Natural language explanations – Audit Trail Review (ATR) provides clear, easy-to-understand descriptions of outputs in natural language. These explanations are customized for non-technical audiences, and ensure transparency about how the AI model generates answers. 
+- Mapping user input to metadata – The ATR model uses study-specific metadata to map information you provide to relevant operations within the model, and provides valid and study-specific results.  
+- User confirmation workflow – ATR requires interactive user confirmation in natural language. This ensures alignment with the user’s intent. and makes the model’s reasoning transparent. 
+## Our Approach to Machine Learning (ML) Operations 
+ Medidata's approach to ML operations focuses on ensuring that the end-to-end machine learning lifecycle is reproducible, transparent, and efficient. Key elements include: 
+- Version control – Maintain all components of the machine learning pipeline, including code, data sets, and models, in version control systems. Version control ensures traceability and the ability to track or roll back changes, as necessary, and reproduce results. 
+- Benchmark data sets – Execute validation against a benchmark data set to ensure any changes to the ML model are measured against pre-established standards. 
+- Automated pipeline execution – Automate the ML model pipeline to streamline the training, evaluation, and deployment process. Automation promotes efficiency, and limits the risk of human error. 
+- Multidimensional validation process – The validation workflow incorporates a combination of automated and manual review that provides an additional layer of scrutiny and addresses complex edge cases.  
+## Machine Learning (ML) Technique Used for Interactive User Feedback
+ You can interact with the ATR model using a Yes or No feedback mechanism that confirms that the LLM and AI models interpret what users request.  A user's response establishes a decision point in the workflow that ensures the ML model proceeds with data processing only after explicit user approval. The feedback is not automatically used for model retraining in a formal supervised learning approach. However, it contributes to performance evaluations, and can be used to inform periodic manual updates to improve the ML model's performance over time. 
+## ATR Study Level Data Flow
+ The image shows how study data in Audit Trail Review flows into a M edidata-owned instance of Bedrock API that ensures no data leakage occurs to third-party applications. 
+## How We Maintain Data Privacy
+ Audit Trail Review (ATR) maintains data privacy programmatically and by design to ensure appropriate safeguards. The following components list the mechanisms used to ensure data privacy and protection. 
+- The large language model (LLM) operates within a private, secure environment that is owned and managed by Medidata. This prevents exposure of proprietary data to third-party vendors. 
+- The AI model does not have direct access to the audit trail database, with only validated SQL queries executed within ATR. Each query is automatically restricted by trial-specific parameters, ensuring that only data relevant to the selected trial can be securely accessed and returned. 
+- The AI model is only exposed to study metadata (which includes information about forms, fields, sites, and countries) and the underlying audit trail database schema. By limiting exposure to the available data, the framework ensures that raw patient data is never exposed to the AI model, providing additional privacy protection. 
+- User queries are processed in isolation and secured by user and trial-specific credentials ensuring that no additional data or metadata from one query influences the outcome of another. 
+- The AI system message is tailored to prevent data leakage. The AI model generates output based solely on the user's input and with constraints to a specific trial. Red teaming validates the ability of the model to accurately identify and reject user queries that pose any risk of data leakage across users. 
+- User-supplied parameters for SQL query generation are extracted and independently validated to ensure content compliance and safe execution.

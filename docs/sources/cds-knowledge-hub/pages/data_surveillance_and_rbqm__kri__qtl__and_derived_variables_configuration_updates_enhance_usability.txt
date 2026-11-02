@@ -1,0 +1,24 @@
+# Data Surveillance and RBQM: KRI, QTL, And Derived Variables Configuration Updates Enhance Usability
+
+## Data Surveillance and RBQM: KRI, QTL, And Derived Variables Configuration Updates Enhance Usability
+## What Is New?
+ On the Data Surveillance or RBQM > Configuration > Derived Variables page, if you click preview while creating a derived variable, then the Preview button appears disabled once you save. 
+ On the RBQM > Configuration >  KRI or QTL pages, the Copy to Another Study button no longer appears on the respective pages.
+## What Is the Impact?
+## Users/Roles
+ Data Managers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ With a cleaner user interface, you can perform study data quality management activities with greater efficiency.
+## Where Do I See the Change?
+ See What's New?.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Derived Variables 
+- KRI Configuration 
+- QTL Configuration 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

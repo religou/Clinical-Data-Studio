@@ -1,0 +1,15 @@
+# Filter Perspectives to Display Only the Aspects You Want to View
+
+## Filter Perspectives to Display Only the Aspects You Want to View
+## Description
+ The Overview page allows you to filter perspectives to display only the specific aspects you want to view.
+## Affected Roles
+ All.
+## Advantages
+ Filtering perspectives allows you to more easily find and drill down on the aspects you need rather than scrolling through or zooming in on large sets of aspects. Filtering is especially helpful if you have privileges to access many sites, but you want to directly find and access one or small number of particular sites.
+## User Impact
+ On the Overview page, a Select menu displays above each perspective.
+ Tip : Click image to enlarge.
+ You can use the Select menu to pick one or more of the specific aspects that you want to display in the perspective.
+## Special Considerations
+ None.

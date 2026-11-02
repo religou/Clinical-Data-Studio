@@ -1,0 +1,125 @@
+# Access, View, and Create Plan Documents
+
+## Access, View, and Create Plan Documents
+ Plan Documents are an integral part of a clinical study used to:
+- Streamline operational planning. 
+- Transform risk-prone data into actionable, dynamic plans that actively guide team member actions. 
+- Enhance transparency and mitigate risks, ensuring alignment, accountability, and improved compliance across teams. 
+ Note : You can access and view plans only if you have the View Data Quality Plan building block added to your Cloud Administration role. To create plan documents, you must have the Manage Data Quality Plans building block. For more information, see  RBQM Building Blocks and Permissions .
+## Access Plans
+ You can view your study's current set of data plans as well high-level details associated with each plan. 
+- Access RBQM , and then click Plan Documents  in the left-hand menu.
+The Plan Documents table shows the following:
+ Column Descriptions 
+- Name – The plan name. 
+- Status – The status of the plan, draft or published.  
+- Last Modified –The plan's creation date or when the last saved edit occurred. 
+- Edited By – The user who most recently updated the plan. 
+- If necessary,  filter or sort the Plan Documents table. 
+## View Plans
+ To help find the information you need, you can view existing plan documents to show:
+- Specific plans by name. 
+- Only plans created by specific users. 
+- Only plans that were last updated by specific users. 
+- If necessary, access the Plan Documents table . 
+- Optional . Create a plan.
+The plan document version is set at version 1 by default. 
+- Click the plan name for any plan.
+The plan's detailed view appears with the following details:
+- Library  – Includes a list of built-in elements you can drag and drop into your plan.  
+- Misc 
+- Study 
+- Tables 
+- Document Workspace – A text editor where you can drag and drop library elements, or type, or paste text to include into your plan. 
+- Table of Contents – By default, the table of contents option is disabled. Enable it to include a table of contents in your plan. 
+## Sort the Current Plans Table
+ To help find the plans you need, you can sort the Plan Documents table's columns vertically in ascending or descending alphanumeric order. For example, you can sort to more quickly find a plan name. Or you can sort the Last Updated column to find the most recently updated or longest unupdated plan. 
+- If necessary, access the Current Documents table . 
+- In the plan documents table, click any column header to sort the table by column in ascending alphanumeric order.
+An up arrow, , appears next to the column name. 
+- Click a column header twice to sort the table by column in descending alphanumeric order.
+A down arrow, , appears next to the column name. 
+## Create Plan Documents
+ Data quality plans are integral to trial records, and are essential for the successful execution of clinical studies. You can create a plan documents to include crucial plans for training personnel, or risk mitigation techniques to implement in the duration of the study. 
+- If necessary, access the Current Documents table . 
+- Click Create New Plan above the Plan Document table. 
+- Type a document title. 
+- Click Create Plan .
+The new plan appears with a Draft status in the Current Plans list.  
+## Add Components To Plan Documents
+ Once you create a new plan, you can edit it to add components that build out the plan.
+- If necessary, access the Plan Documents table . 
+- Optional . Create a plan.
+The plan version is set at version 1 by default. 
+- Click the plan name for any plan.
+The plan's Document Workspace appears. 
+- Drag and drop a component from the Library on the left-hand tab into the Document Workspace. 
+ The Library includes the following dynamic elements: 
+- Misc 
+- Today's Date 
+- Plan Name 
+- Study
+- Study Name 
+- Protocol ID 
+- Tables
+- Deviation Description 
+- Risk Assessment 
+- Critical Data 
+ Note: Deviation Description - Plan Documents Integration
+ The Protocol Deviation Assessment Plan (PDAP) defines automated detection rules, severities, and categories for protocol deviations.
+ Drag the Deviation Descriptions table element into the workspace to configure the PDAP . You can have only  one active (published) plan document and one draft document at any given time . To make changes to a published plan, you must create a  new draft from the active published version . 
+ When you publish the new draft, the system automatically replaces the active version and archives the previous version in the read-only version history . 
+ Updating the PDAP automatically flags and highlights associated protocol deviation records in the Protocol Integrity Report (PIR) so users can identify plan changes. To learn more, see  Protocol Integrity Report . 
+ Deviation Description Fields 
+ Field 
+ Description 
+ Notes 
+ | ID
+ | This required alphanumeric code uniquely identifies each template row . 
+ | The system prevents duplicate entries . Select short codes like IE1 or SF3 . 
+ | Category
+ | This selection groups protocol deviations to standardize study data . 
+ | Choose a preconfigured option or configure a custom category . You only inactivate saved categories . 
+ | Description
+ | This text field details the specific protocol departure . 
+ | The selected description standardizes explanations across similar study events . This selection locks matching fields in the Protocol Integrity Report . 
+ | Blinding
+ | This setting specifies if the deviation data utilizes blinding . 
+ | This field lacks functional relevance in the R7 release . The option gains significance in the R11 release . 
+ | Identification Method
+ | This required field determines how the system captures the deviation record . 
+ | Select Manual or Programmatic from the dropdown menu . The Programmatic option captures electronic data capture queries and clinical data listings . 
+ | Additional Information
+ | This section groups optional parameters within the assessment template . 
+ | Leave these non-mandatory parameters blank during initial setup . 
+ | Impact on Data
+ | This yes-or-no selection evaluates if the deviation affects trial data validity . 
+ | This entry drives the automatic calculation of the deviation classification . 
+ | Impact on Patient
+ | This yes-or-no selection evaluates if the deviation threatens participant safety . 
+ | Selecting Yes defaults the classification to Important . 
+ | Importance Threshold
+ | This optional field defines the limits required to trigger the deviation . 
+ | You leave this optional field blank during initial configuration . 
+ | Threshold
+ | This optional field defines the specific criteria that trigger the deviation . 
+ | The selected description automatically populates and locks this field in the Protocol Integrity Report . 
+ | Classification
+ | This field classifies the deviation severity . 
+ | The dropdown menu includes Important and Non-important . Selecting Yes for either impact field defaults the value to Important . 
+ Note: Risk Assessment - Plan Documents Integration
+ If you add a risk assessment table to a plan document, the risks table includes the Functional Plans Affected column, which autopopulates based on the entries made for a risk in: 
+- Risk Assessment > Add Risk subpage >   Details tab > Mitigations and Actions section > Mitigations and Plans panel > Functional Plans Affected field  
+- Risk Assessment > Risk Review   subpage  >   Details tab > Mitigations and Actions section > Mitigations and Plans panel > Functional Plans Affected field  
+- Risk Inventory > Risk Review   subpage  >   Details tab > Mitigations and Actions section > Mitigations and Plans panel > Functional Plans Affected field  
+  To learn more about adding and managing risk mitigations, see Add and Manage Risk Mitigations . 
+- Type or copy and paste text into the Text Area in the Document Workspace. 
+- Optional . Format the text using the options in the editor.
+- Optional . Type a section name in the section area above the Text Area. 
+- Repeat steps 4 - 7 for each section you want to add into your plan document. 
+- Optional. In the Section Header click  , the More icon, and then click Remove .
+The section removes from the plan document.
+ Note : You cannot reorder sections.
+- Optional . Toggle on Table of Contents in the top-right corner of the Document Workspace. 
+- Click Save .
+The updated plan appears in the Current Plans list. The plan document saves with a new version. Any mock data that appears in the Document Workspace for dynamic elements like Risk Inventory and Critical Data tables you addedis , replaces with actual data in the saved document.

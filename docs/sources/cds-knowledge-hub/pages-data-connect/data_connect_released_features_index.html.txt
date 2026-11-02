@@ -1,0 +1,366 @@
+# Data Connect Released Features Index
+
+## Data Connect Released Features Index
+ This article lists the features and enhancements of Data Connect as an exportable table with the following highlights:
+- Feature Article – The article link. Click to go to the article's details. 
+- Product – The product's name. 
+- Version – The product version the update pertains to. 
+- Change Type – Feature, enhancement, or technical change. 
+- Functionality or Module – The specific functionality area or category the update pertains to. 
+- Summary of Changes – A summary of what changes the feature, enhancement, or technical changes introduced. 
+ Tip : You can cross-reference the product version with the releases history to determine when a particular capability was released. 
+ Important : Features and enhancements introduced before Data Connect 2026.1.0 do not use the current tabular format and therefore do not appear on this table. For a list of all feature and enhancements, see Data Connect Released Features . 
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Feature Article 
+ Product 
+ Version 
+ Change Type 
+ Functionality or Module 
+ Summary of Changes 
+ | Imports: Enhanced Veeva API Requests 
+ | Data Connect
+ | 2026.3.9
+ | Enhancement (Updated Functionality) 
+ | Imports
+ | 
+ As highlighted in the Release Newsletter :
+ Enhanced Veeva API requests to consistently use the same study name identifier for testing connections, retrieving dataset lists, and running the study data extract job. 
+ Note : This is a technical change with no impact to existing connections.
+ | Transformations: Upstream Editing for Filter, Union, and Join Operators 
+ | Data Connect
+ | 2026.2.1
+ | Enhancement (Updated Functionality) 
+ | Transformations
+ | 
+ As highlighted in the Release Newsletter :
+ Data Connect enables users to edit Filter, Union, and Join operators when positioned upstream in the transformation canvas lineage.
+- Filter Operator : Edit filter criteria directly on upstream nodes (for example, changing criteria from Value > 5 to Value > 10 . 
+- Union Operator : Add new incoming data set paths to an upstream union node. 
+- Join Operator : Modify join keys by swapping or adding keys on upstream join nodes. 
+ | Imports: Performance and Reliability Enhancements, and Preparation for Future Capabilities 
+ | Data Connect
+ | 2026.3.6
+ | Enhancement (Updated Functionality) 
+ | Imports
+ | 
+ As highlighted in the Release Newsletter :
+ Internal and technical changes to improve product performance, reliability, accuracy, and stability.
+ | Introducing the Enhanced Release Notes Experience 
+ | Data Connect
+ | 2026.1.0
+ | N/A (Education Content)
+ | None (Education Content)
+ | 
+ The release notes include several formatting updates to address reported challenges and issues with the Medidata Release Notes experience. The changes appear across multiple pages for the release notes.
+- Tabular Structure – Pages that describe changes, such as this article, now appear in a tabular structure with renamed or added sections.  
+- New sections 
+- Product – The product the change applies to. 
+- Version – The code product version that the change applies to. 
+- Change Type – The type of change: 
+- Feature 
+- Enhancement 
+- Technical change 
+- Functionality or Module – The area of the product that this section affects, such as a particular module within the product or a subsection within the module. 
+- Impact to Existing Data or Settings – Any changes that an update introduces to existing data or settings that need review. 
+- User Impact Assessment – A high-level summary of the change's impact. 
+- Changed sections 
+- "What's New?" is now "Summary of Changes" 
+- "How Do I Benefit?" is now "Benefit to Users" 
+- "What's the Impact?" is now "Summary of User Impact" 
+- "Users/Roles" is now "Impact to Users and Roles" 
+- "Workflow Process" is now "Impact to Workflow Processes" 
+- "Other Applications" is now "Impact to Other Applications" 
+- Where Do I See This Change? is now "Impact on Interface" and appears in the Summary of User Impact section 
+- New Released Features Indices – Release notes now include new Released Features Index articles — one for a specific release, and another for the entire product across releases. These articles list all changes relative to the page's scope as a downloadable table. 
+- Feature Release Notes Parent Page – For Feature Release Notes, the home page includes new links to other reference articles such as the released features indices and webinar details, where applicable. 
+ | Transformations: Edit Derived Variables in Intermediary Nodes 
+ | Data Connect
+ | 2026.3.4
+ | Enhancement (Updated Functionality) 
+ | Transformations.
+ | 
+ As highlighted in the Release Newsletter : 
+ You can now edit derived variables in intermediary nodes when the variables are not consumed downstream. 
+ | Imports: Interface and Technical Enhancements for Data Connect 2026.3.3 
+ | Data Connect
+ | 2026.3.3
+ | 
+ Enhancement (Updated Functionality)
+ | 
+ Imports
+ | 
+ As highlighted in the Release Newsletter :
+- System and Performance Upgrades : U pgraded background task engine, starting with Veeva connector data syncs to ensure more resilient, predictable data processing and faster issue resolution. 
+- Activity Audit Logging : Added system-wide audit tracking for key user actions and data changes.  
+- Accurate Status Feedback : Files containing only headers or nonvalid patient records now show a Warning status rather than misleading success or error messages. Uploading an empty file now shows a helpful warning message rather than triggering an error. 
+ | Imports: Veeva Direct Connect Enhancements for 2026.3.0 
+ | Data Connect
+ | 2026.3.0
+ | Enhancement (Update Functionality)
+ | Imports 
+ | 
+ Data Connect improves Veeva Direct Connect and the dataset list view: 
+- Datasets imported from Veeva EDC now use the Form OID exclusively (Form Name in Veeva) in data connect imports and clinical data ingestion flow. 
+- The dataset list view displays the Form OID as a badge and the descriptive form name next to it for readability. 
+- The system provides an improved error message when imports fail because of missing codelist columns. 
+ | Transformations: Updates to Unit Conversion Workflow, Veeva EDC Datasets, and Other Enhancements 
+ | Data Connect
+ | 2026.3.0
+ | Enhancement (Update Functionality) 
+ | Transformations 
+ | 
+ As highlighted in the Release Newsletter : 
+ | Unit Conversions 
+ | You can create, edit, delete, and publish unit conversions within derived dataset projects using a redesigned interface. 
+ | Veeva EDC datasets 
+ | 
+- Support now shows Form OID in data preview screen for Veeva datasets. 
+- Updated data source panel now shows Form OID instead of form name for Veeva datasets. 
+ | General 
+ | 
+- The Data preview screen now shows a  last updated timestamp indicator. 
+- Improved performance for derived dataset projects through backend optimizations. 
+ | Developer Center: New Python Library and Other Enhancements 
+ | Data Connect
+ | 2026.3.0
+ | 
+ | Developer Center 
+ | 
+ As highlighted in the Release Newsletter : 
+ Data Connect introduces the Python SDK and updates the R SDK.  Both software development kits (SDKs) are available as beta releases in Developer Center . 
+ The Python SDK library: 
+- Provides access to Data Connect data. 
+- Lets you register data products created in Python back in Data Connect through the Library.  
+- Is now compatible with a native IDE for running the transformation script. 
+ The R SDK library now:
+- Presents a data frame containing invalid records from dry publish and publish operations. 
+- Updates the Dry Publish and Publish responses to include valid record counts and duplicate record counts. 
+- Creates a new version of a Custom Code dataset if you modify any key fields after the initial Publish operation. 
+ The Documentation page now includes new Python library documentation and updated R library documentation. 
+ | Imports: Technical Changes and Preparatory Work for Future Capabilities in Data Connect 2026.2.5 
+ | Data Connect
+ | 2026.2.5
+ | Technical Change
+ | None.
+ | 
+ Data Connect routinely includes internal and technical changes to improve performance and optimize back-end processes. Data Connect 2026.2.5 introduces the following internal code changes:
+- Migration of the Imports application infrastructure to a dedicated AWS account. 
+ | Transformations: Internal and Technical Changes in Data Connect 2026.2.6 
+ | Data Connect
+ | 2026.2.6
+ | Technical Change
+ | None.
+ | 
+ Data Connect routinely includes internal and technical changes to improve performance and optimize back-end processes. Data Connect 2026.2.6 introduces the following internal code changes:
+- Updated SQL logic for improved math operation handling.  
+ | Exports: Interface and Technical Enhancements for Data Connect 2026.2.1 
+ | Data Connect
+ | 2026.2.1
+ | 
+ Enhancement (Updated Functionality)
+ | Exports
+ | 
+ As highlighted in the Release Newsletter :
+- Exports Interface : Exports shows Veeva Connect datasets consistently with Data Connect Datasets, Imports, and Transformations. 
+- Exports Wizard : You can schedule hourly exports to run at 1, 2, 3, 4, 6, 8, and 12-hour intervals. 
+- Exports : 
+- Data Connect migrated the backend database for Master Data, Rave CTMS, and EDC (Raw) data types 
+- Data Connect improves handling for Date columns. 
+- The Resume/Pause Export button on the Job Details page now works as expected. 
+ | Transformations: Derived Variable and Field Count Enhancements 
+ | Data Connect
+ | 2026.2.0
+ | Enhancement (Update Functionality)
+ | Transformations
+ | 
+ As highlighted in the Release Newsletter : 
+ | Derived variables 
+ | 
+- From the Canvas after creating a dataset, you can now select  Add Derived Variable from the Operator list. 
+- Helper fields: 
+- Calculated Fields are now called Helper Fields. They are available on the same screen as the Derived Variable. This variable does not appear in the output dataset/node. You can use it with multiple derived variables. 
+- Logic Condition: 
+- Using multiple data types no longer requires Helper fields for data type conversion. Data Connect auto detects data types when you enter a Value.  
+- The Concatenate option now has both Simple and Advanced options. 
+- The Substring menu selection has By Position and By Delimiter options. 
+- You can enter expressions while using the Math calculation. 
+- Rank operations have new names: 
+- RANK is now GROUP [First/Last].
+- GROUP is now GROUP STATS [Min/Max/Avg/Sum]. 
+- New Keys is now Grouping fields. 
+- Select fields is now Select output fields. 
+ | Field count 
+ | 
+- The Data Preview screen includes a field count beyond the count of records. 
+ | Imports: Compatibility Enhancements and Preparation for Future Capabilities 
+ | Data Connect
+ | 2026.1.5
+ | Enhancement (Update Functionality)
+ | Imports
+ | 
+ As highlighted in the Release Newsletter : 
+ Support for Alternative Country Names : Imports now support alternative country names. Alternate country spellings automatically map to the appropriate ISO code. 
+ In addition, this release provides the infrastructure updates to support the following future capability: 
+- Updates to Support Bulk Query Veeva Direct Connect : You can now generate bulk queries within the Data Surveillance and RBQM modules of Veeva EDC for data imported with Veeva Direct Connect. You can also retrieve and use the full history of available Veeva EDC queries.
+. 
+ | Internal and Technical Changes in Data Connect 2026.1.2 
+ | Data Connect
+ | 2026.1.2
+ | Technical Change
+ | None.
+ | 
+ Data Connect routinely includes internal and technical changes to improve performance and optimize back-end processes. 
+ Data Connect 2026.1.2 introduces the following internal code changes:
+- Updated metadata to prepare for future enhancements. 
+ | Developer Center: Enhancements and Updates in Data Connect 2026.1.4 
+ | Data Connect
+ | 2026.1.4
+ | Enhancement (updated functionality) 
+ | N/A
+ | 
+ As highlighted in the Release Newsletter : 
+ Function/Module 
+ Description 
+ | R Library - Get Datasets 
+ | 
+- Retrieve datasets in study environments without requiring study UUID in input attributes. 
+- Dataset pagination lets you use Page Size and Page Number to control which results return in a single request. 
+ | R Library - Get Dataset Versions 
+ | 
+- Retrieve datasets in study environments without requiring study or study environment UUIDs in input attributes. 
+ | R Library - Get Studies 
+ | 
+- User with the Manage Custom Code projects permissions can retrieve a list of available studies and study environments. 
+- Study pagination lets you use Page Size and Page Number to specify which studies return in a single request. 
+ | R Library - Fetch Data 
+ | Retrieve datasets in study environments without requiring study or study environment UUIDs in input attributes. 
+ | R Library - DateTime Format support 
+ | 
+- Specify the date and date time format for a column in the data frames you publish. 
+- R Library now validates your date and dat etime formats. 
+- Data validation ensures that data transformed from R back into Data Connect matches the required date or datetime format. 
+- Non-valid data records no longer publish. 
+- You can now view the following errors: 
+- Non valid date/datetime format column errors. 
+-   Records where data does not match the defined format. 
+ | R Library - Error Handling Framework 
+ | A new error handling framework now governs all R functions, ensuring consistent failure reporting through standardized codes and actionable details.
+ | Developer Center 
+ | You can now filter and select the latest R library version in Developer Center Documentation page.  
+ | Transformations: Internal and Technical Changes in Data Connect 2026.1.4 
+ | Data Connect
+ | 2026.1.4 
+ | Enhancement (updated functionality) 
+ | None.
+ | 
+ As highlighted in the Release Newsletter : 
+ The Transformations interface now dynamically adjusts width based on the available screen area. 
+ | Imports: Support for Versionless Veeva EDC Datasets 
+ | Data Connect
+ | 2026.1.0
+ | Enhancement (Updated Functionality)
+ | Imports > Veeva EDC Direct Connect
+ | 
+ As highlighted in the Release Newsletter : 
+ Data Connect now uses a version-independent approach to import Veeva EDC data collected across multiple versions at a given time . Imported datasets now appear in a single table featuring a "superset" schema that contains all unique columns from every version of that form . 
+ In addition, the system now creates consolidated visits that represent unique visits across all CRF versions found in the event_definitions file
+ | Transformations: Quality of Life Enhancements in Data Connect 2026.1.0 
+ | Data Connect
+ | 2026.1.0
+ | Enhancement (Updated Functionality) 
+ | Transformations > Derived Datasets
+ | 
+ As highlighted in the Release Newsletter : 
+ The R02 release introduces several usability enhancements designed to improve project management, data visibility, and transformation capabilities. 
+- Archived Dataset Awareness: Data Connect now provides visual indicators and warnings when you interact with archived datasets. If a project uses a dataset from an archived project, the system shows a warning about potential state data.
+- Archive Impact Analysis: Before you archive a project, a confirmation message details the datasets and downstream processes impacted by the action. In addition, archiving a project that saved as a template prevents future use of that template. 
+- Project Filtering: You can now filter the project list to view only those projects created from a template. 
+- Substring Transformation: You can now extract a substring using a self-defined delimiter during data transformation. 
+ | Transformations: Project Capacity Limits for Derived Datasets 
+ | Data Connect
+ | 2026.1.0
+ | Feature (New Functionality)
+ | Transformations > Derived Datasets
+ | 
+ As highlighted in the Release Newsletter : 
+ Data Connect now includes a Project Capacity progress bar within Derived Datasets projects. This visual indicator shows the total execution time consumed by the project's operations against a hard limit of 60 seconds. 
+ The system calculates capacity usage as you build a derived dataset on the canvas . The progress bar provides visual feedback using the following color indicators: 
+- Green : 0% to 74% capacity 
+- Yellow : 75% to 90% capacity 
+- Red/Orange : 91% to 100% capacity 
+ | Transformations: Support for Versionless Veeva EDC Datasets 
+ | Data Connect
+ | 2026.1.0
+ | Feature (New Functionality)
+ | Datasets
+ Transformations
+ | 
+ As highlighted in the Release Newsletter : 
+ Data Connect now supports a versionless schema for Veeva data sources, consolidating multiple dataset versions into a single view. 
+ While in Datasets, when previewing or profiling Veeva datasets, an All option is now available in the version list and is selected by default. 
+ In addition, while in Transformations, the system shows an All badge next to  versionless folders in the Data Source panel, and nodes in the canvas lineage to indicate the dataset type. 
+ | Developer Center: Developer Center and Data Source Enhancements 
+ | Data Connect
+ | 2026.1.0
+ | Enhancement (Updated Functionality)
+ | Data Connect > Developer Center
+ | 
+ Important : The R SDK and Developer Center are only available as a limited release for selected users.
+ As highlighted in the Release Newsletter : 
+ The R02 release introduces stablity and usability improvements to the Developer Center, alongside significant updates to Veeva data handling and dataset metadata retrieval. 
+ Developer Center Updates 
+- Token Management Safety: The Developer Center now show a confirmation page when you attempt to disable or regenerate an authentication token. You must confirm the action to proceed, preventing accidental deactivation of access keys. 
+ Get Datasets Function Enhancements 
+ The datasets() function result now includes the following metadata attributes for each dataset:
+- Dataset Name 
+- Dataset Short Name 
+- List of Collections (optional) 
+- Dataset Type, for example: Derived Dataset, Rave, SFTP Import, Custom Code 
+- Dataset Source Name 
+- Activation Status (optional) 
+- Dataset Status 
+- Last Updated (optional) 
+ In addition, when a Veeva form contains data collected across different CRF versions, the  Get Datasets and Dataset Version functions now list all CRF versions as a comma-separated list. 
+ | Transformations: Internal and Technical Changes in Data Connect 2026.1.0 
+ | Data Connect
+ | 2026.1.0
+ | Technical Change
+ | None.
+ | 
+ Data Connect routinely includes internal and technical changes to improve performance and optimize back-end processes. Data Connect 2026.1.0 introduces the following internal code changes to Datasets and Transformations:
+- Infrastructure and Build Optimization 
+- Backend Refactoring 
+- UI Code Optimization 
+ | Transformations: Enhanced String Transformations for Derived Variables 
+ | Data Connect
+ | 2026.1.0
+ | Enhancement (Updated Functionality)
+ | Transformations > Derived Datasets
+ | 
+ As highlighted in the Release Newsletter : 
+ The R02 release introduces enhancements to string transformation functions used in derived datasets. 
+- Simple Concatenate (Ignore nulls): The Simple Concatenate transformation is now called Simple Concatenate (Ignore nulls) . This function now automatically skips null values during concatenation, ensuring that the specified delimiter does not repeat when data points are missing. 
+- Substring with Delimiter: The Substring transformation now includes the ability to define a specific delimiter, allowing you to extract substrings based on character patterns rather than just fixed positions.

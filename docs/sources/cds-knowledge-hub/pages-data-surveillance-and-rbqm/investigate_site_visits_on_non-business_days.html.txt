@@ -1,0 +1,26 @@
+# Investigate Site Visits On Non-Business Days
+
+## Investigate Site Visits On Non-Business Days
+ Patients enrolled in a study receive specific medications according to the research plan. To determine the drug's safety and efficacy, the patient visits the investigator's or doctor's office at a scheduled cadence. This is known as a scheduled visit. Scheduled visits do not occur on non-business days of the week such as weekends or holidays. Visits recorded as taking place on weekends or holidays can indicate potential fraud, misconduct, or even simple data entry errors by sites. 
+ Statistical Monitoring breaks down at the study or selected country level how many scheduled patient visits occurred on each weekday throughout the study. You can view scheduled patient visits to help you investigate whether falsified or erroneous patient records exist in your study data and monitor sites of interest. 
+ Note: Last Updated Timestamp
+ The Last Updated timestamp reflects the date and time when the most recent data snapshot generation process started. It does not represent the date and time when the data in Weekend and Holiday Visits was last refreshed. Therefore, the Last Updated timestamp may be earlier than the time at which the refreshed data becomes available in Weekend and Holiday Visits.
+- Access RBQM , and then click Statistical Monitoring > Weekend and Holiday in the left-hand menu. 
+- On the Weekend and Holiday Visits page > Visit Days tab, do either of the following: 
+- To view the visit data for study visits, click Countries , and then select All .
+The weekday cards update to show the number of visits taken place on each weekend for the entire study.
+- To view the visit data for a specific country, click Countries , and then select the country you need from the list.
+The weekday cards update to show the number of visits taken place on each weekend for the selected country.
+- Click the weekday card pertaining to the day of the week whose patient visit data you want to review. 
+ The list of scheduled patient visits and visit details recorded on the selected day appear. Visit details include: 
+- Site – The site where the visit occurred. 
+- Country – The country where the visit occurred. 
+- Patient – The patient ID of the patient who attended the visit. 
+- Visit Name – The type of visit; for example, an unscheduled visit. 
+- Visit Date – The date that the visit occurred. 
+- Optional . To help streamline your data investigation, you can filter the patient visit listing by Site , Country , Visit Name , or Visit Date , and then click Apply .
+ Filtering Tips
+- When viewing a listing of patient visits that occurred on a weekday (as opposed to on a weekend), you can filter the listing by Country and Visit Date to help you identify visits that occurred during a country's holiday. For example, filtering by Canada and United Kingdom, 26 Dec 2022, which happened to be Boxing Day in those countries. Or another example is filtering for United States, 27 Nov 2014, which happened to be Thanksgiving in that country. Patient visits should not occur on these holidays. 
+- Central monitors can filter the patient visit listing by Country to focus their review on areas they are most interested in. 
+- Site monitors can filter the patient visit listing by Site to focus their review on sites they are monitoring. 
+- You can filter by Visit Name and exclude Unscheduled visits from the patient visit listing. Unscheduled visits can occur anytime because they may be for emergency visits. But scheduled visits should only occur during normal working days. Filtering to remove unscheduled visits narrows the lists so you can only focus on scheduled visits.

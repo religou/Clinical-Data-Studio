@@ -1,0 +1,22 @@
+# View Statistical Monitoring Data Refresh Notifications
+
+## View Statistical Monitoring Data Refresh Notifications
+ You can opt in to receive the following automated Statistical Monitoring notifications: 
+- Information – Informs you when Statistical Monitoring successfully processes a scheduled or manual data refresh.
+ Notifications are processed and sent through the Medidata's Notification Center . 
+ You can view Statistical Monitoring notifications  in two forms: 
+- Email notifications with a deep-link sent to your email inbox. 
+- In-app notifications accessible by way of the Medidata platform user interface. 
+ Statistical Monitoring notifications keep you closely informed regarding the latest available Statistical Monitoring study data and analysis to help you monitor and manage study risks as necessary.
+ Important : To subscribe or unsubscribe to Statistical Monitoring notifications, provide your Medidata Professional Services representative a list of emails of users who wish to subscribe or unsubscribe.
+## View Statistical Monitoring Notifications Through Email
+- Open the email notification you receive from Medidata. 
+- Click  View in Notification Center .
+ The Notifications page shows a message regarding the data refresh. 
+## View Statistical Monitoring Notifications in the Notification Center
+- Log in to iMedidata.com . 
+- Click the Notifications icon in the iMedidata toolbar.
+ Note : An icon with a red circle  indicates new, unread notifications.
+The Notifications page shows all notifications you have received, listed in order from newest at top.
+ Note : You can continuously scroll through notifications to the end. When you reach the bottom, if there are more notifications, then the page automatically shows the notifications.
+- Optional . In the left-hand pane, click to filter the Notifications page to show specific notifications by type: All, Information, Warning, or Critical.

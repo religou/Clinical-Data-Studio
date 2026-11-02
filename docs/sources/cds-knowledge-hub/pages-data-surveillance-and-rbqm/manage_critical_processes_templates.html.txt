@@ -1,0 +1,56 @@
+# Manage Critical Processes Templates
+
+## Manage Critical Processes Templates
+ RBQM administrators can create study-level critical process templates for critical process elements that the study team plans to include in the risk assessment for multiple studies.
+ RBQM administrators can also update template details and activate and deactivate critical process templates for use across all studies in the study group.
+ Using critical process templates:
+- Reduces time and effort when creating risk assessments. 
+- Ensures accurate, consistent critical process details across multiple studies. 
+ Note : Study users create critical processes at the study level. If study users want to copy a template for use in a study, the RBQM administrator must first activate the template.
+## Access and View the Study-level Critical Processes Templates Library
+- Access RBQM , and then click click Library > Critical Processes in the left-hand menu.
+ A listing of templates appears and shows the following information about each critical processes template:
+ Column 
+ Description 
+ | Name 
+ | Indicates the name of the critical processes template, for example, Tumor Assessment. A description appears when your mouse hovers over the name if a description has been added in the template. 
+ | Category 
+ | 
+ Unable to render {include} The included page could not be found.
+ | Group Name 
+ | This is a free text field where you can enter a word used to identify a group of critical processes, for example, Oncology. The group name does not have to be unique . 
+ | Activate 
+ | 
+ All the critical processes templates default to disabled, as indicated by a gray   toggle.
+ You can enable the critical processes template by adjusting the toggle to blue  . When you click All , then all of the templates become enabled.
+## Create a Critical Processes Template
+- Access the study-level Critical Processes Templates Library . 
+- Click  Create Template.  
+- Enter values for these fields: 
+- Name - Enter up to 255 characters as the name of the critical processes template, for example, Tumor Assessment. This is a required field. The name must be unique. 
+- Category - This is a required field.
+ Unable to render {include} The included page could not be found.
+- Group Name - Enter up to 225 characters describing the type of critical process, for example, Oncology. The group name does not have to be unique. Use the group name to identify similar critical processes. 
+- Description - Enter up to 3000 characters to provide a more detailed description of the critical process. For example, "CT scan of a tumor at visit 5." This description appears when your mouse hovers over the name in the critical processes listing page. 
+- Rationale - Enter up to 3000 characters to provide the reason for using the critical process. For example, "Data supports the primary endpoint of the study." 
+- Click Save .
+ Note : Before making the template available to the studies, you must activate it by moving the gray toggle to the right so it turns blue .  
+## Activate or Deactivate a Critical Processes Template
+ Activate a template before using it in a study.
+- Access the study-level Critical Processes Templates Library . 
+- To activate a template, find the template you want to activate and move the toggle in the Activate column from gray  to blue .
+- To deactivate a template, find the template you want to deactivate and move the toggle in the Activate column from blue to gray . 
+ Note : Click All to activate all templates in the list.
+## Edit a Critical Process Template
+ You must deactivate the template before you can edit it.
+ Note : For templates that are activated, OK appears at the bottom instead of Save . Activated templates are read-only at the study group level.
+- Access the study-level Critical Processes Templates Library . 
+- Ensure that the toggle in the Activate column is gray  before you select the template to be edited. 
+- Change the field values in the template. 
+- Click Save . 
+## Delete a Critical Processes Template
+ The Delete button only appears for a template that is deactivated and has never been activated in the past.
+- Access the study-level Critical Processes Templates Library . 
+- Select the template to be deleted. 
+- Click the Delete button.
+The message, "Critical Processes Template deleted successfully," confirms deletion of the template.

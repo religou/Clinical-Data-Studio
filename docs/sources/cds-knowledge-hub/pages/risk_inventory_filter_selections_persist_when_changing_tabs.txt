@@ -1,0 +1,20 @@
+# RBQM: Risk Inventory Filter Selections Persist When Changing Tabs
+
+## RBQM: Risk Inventory Filter Selections Persist When Changing Tabs
+## What Is New?
+ On the RBQM > Risk Inventory page, if you Review Status, Risk Status, and Risk Owner filter selections persist when you switch between the Risks tab, QTLs tab, and KRIs tab.
+## What Is the Impact?
+## Users/Roles
+ Risk managers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Retaining your Risk Inventory filter selections improves your data exploration experience since you no longer need to reselect your filters each time you switch between tabs.
+## Where Do I See the Change?
+ On the RBQM > Risk Inventory page.
+## Where Do I Learn More?
+ None.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

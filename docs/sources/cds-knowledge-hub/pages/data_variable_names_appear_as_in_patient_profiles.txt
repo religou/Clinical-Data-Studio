@@ -1,0 +1,15 @@
+# Data Variable Names Appear as in Patient Profiles
+
+## Data Variable Names Appear as in Patient Profiles
+## Description
+ Data set variable names and labels in MEDS Data Viewer appear with the same format as in Patient Profiles. 
+## Affected Roles
+ All.
+## Advantages
+ Using the same format for data set variable names and labels in MEDS Data Viewer and Patient Profiles ensures that you have a seamless experience between Medidata products. 
+## User Impact
+ Data set variable labels appear first with names in parenthesis, similar to how data set variables appear in Patient Profiles. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ None.

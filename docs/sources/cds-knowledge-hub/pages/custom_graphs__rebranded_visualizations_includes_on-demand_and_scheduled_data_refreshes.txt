@@ -1,0 +1,97 @@
+# Custom Graphs: Rebranded Visualizations Includes On-Demand And Scheduled Data Refreshes
+
+## Custom Graphs: Rebranded Visualizations Includes On-Demand And Scheduled Data Refreshes
+ Important :
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the   released features index .   
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.3.0
+ Change Type 
+ | Feature (New Functionality) 
+ Functionality or Module 
+ | Custom Graphs 
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ The Data Surveillance > Visualizations page is renamed to Custom Graphs . This rebranding holds true throughout Clinical Data Studio, including the Templates Library and downloaded reports. Custom Graphs also includes a refresh option where you can start on-demand or scheduled data refreshes. You can further manage scheduled refreshes on the Unified Scheduler page.
+ Benefit to Users 
+ | Data managers can obtain the latest study data using on-demand and scheduled refreshes, and conduct study data review and reconciliation using the most recent data. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data managers and study team members must possess both building blocks; capability-specific, and Unified Scheduler related, to view and manage data refresh schedules . For On-demand refreshes, users need the Refresh Custom Graphs building block. 
+ Data Surveillance Capability 
+ Building Block Required 
+ User Action pertaining to refreshes 
+ | Unified Scheduler 
+ | View Data Refresh Scheduler 
+ | View  
+ | Manage Data Refresh Scheduler 
+ | Create or Edit 
+ | Scheduled Refresh from Custom Graphs
+(previously known as Visualizations) 
+ | View Data Refresh Scheduler AND
+View or Manage Data Reviewer 
+ | View 
+ | Manage Data Refresh Scheduler AND 
+ Refresh Custom Graphs AND
+View or Manage Data Reviewer
+ | Create or Edit 
+ | On Demand Refresh from Custom Graphs 
+ | Refresh Custom Graphs AND  View or Manage Data Reviewer.  
+ | View or Start Refresh 
+ Impact to Workflow Processes 
+- Scheduled refreshes for custom graphs on the Unified Scheduler page operate on daily, weekly, biweekly, monthly, bimonthly, and quarterly cadences . 
+- Custom Graphs allow up to four successful refreshes per day per custom graph . 
+- Conflict prevention rules block multiple on-demand refreshes for the same custom graph on the same snapshot, and block on-demand refreshes while scheduled refreshes run . That is, a record selected for a scheduled refresh is not available for on-demand refresh selection. 
+- You can export current refresh configurations into a downloadable PDF report through the Notification Center . 
+ Impact to Applications 
+- Unified Scheduler updates data for Custom Graphs through scheduled refreshes. 
+ Impact on Interface 
+ In Data Surveillance, you can find the following Custom Graphs updates.
+ Number 
+ Description 
+ | 1 
+ | Left-Hand menu – In the Data Surveillance tab, Visualizations no longer appears in the left hand-menu. It is renamed to Custom Graphs.  
+ | 2 
+ | Page Heading – If you click Custom Graphs in the left-hand menu, the Custom Graphs page appears which lists all the custom graphs (previously known as visualizations) in the study. The Last refreshed date and time details no longer appear under the Custom Graphs summary page heading.
+ | 3 
+ | Refresh – If you click the Refresh button on the top right corner of the Custom Graphs, you can select a maximum of 15 custom graphs for an on-demand refresh. You can refresh any custom graph up to a maximum of 4 times per day. The On-demand refresh page does not show custom graphs that currently have a refresh in progress, or are part of a scheduled refresh ,or has been recently refreshed and has the most updated data snapshot.
+ Note : Custom graphs selected for a scheduled refresh are not available for on-demand refresh.
+ | 4 
+ | Scheduled Refreshes – If you click  , More icon, next to the Refresh button on the top right corner of the page, and then click View Schedule , the Unified Scheduler page shows all the custom graphs refresh schedules. For more information, see  Data Surveillance Configuration: Schedule Data Refreshes Using Unified Scheduler . 
+ Note : On the Data Surveillance > Custom Graphs page, if you select any custom graph, and then click   More icon, and then click Refresh History , the page shows both on-demand and scheduled refreshes. The refresh table shows the following fields:
+- Refresh Date 
+- Refresh Type 
+- Snapshot Date 
+- Refreshed By 
+ If a custom graph has not been refreshed, there may not be details ion the Refresh History page. In such instances, the Please refresh graph data to generate a snapshot message appears.
+ | 5 
+ | Included in Scheduled Refreshes – The Custom Graphs page includes a new Included in Scheduled Refreshes column, which shows a tick mark if the custom graph is part of a scheduled refresh. 
+ The Details page displays the current refresh status of any custom graph. It shows  In Progress while the custom graph refreshes, Refresh Successful when the refresh completes, and Refresh Failed if the refresh fails 
+ For any custom graph, the last refreshed date and time in the user's local timezone appear under the page title.
+ Impact to Existing Data or Settings 
+- Neither scheduled nor on-demand data refreshes interfere or break existing schedules.  
+- For custom graphs, records selected for a scheduled data refresh do not appear for selection in on-demand refreshes. The reverse is also true.  
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- New Article: Unified Scheduler . 
+- Updated Article: Custom Graphs . 
+ Special Considerations 
+ | 
+- You can refresh tabular custom graphs manually even if the graph shows the latest snapshot data through a refresh. The Snapshot Date appears an N/A on the Refresh History page for tabular custom graphs as the data is always the latest. 
+- To view Medidata testing documentation for this release, see the   Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

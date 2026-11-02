@@ -1,0 +1,34 @@
+# Patient Profiles: Quality of Life Enhancements
+
+## Patient Profiles: Quality of Life Enhancements
+## What Is New?
+ Patient Profiles includes the following quality of life enhancements:
+- When working with published designs, the Refresh button becomes inactive if the current data shown in the design is from the most recent data refresh or if a refresh is in progress. 
+- The Patient Profile Designs page > Published Designs table now includes a Last Refresh Date column, which shows the timestamp of when the last refresh was performed for each published design. 
+- When downloading patient profiles, you can now export the patient profile comment history. 
+## What Is the Impact?
+## Users/Roles
+ Patient profile designers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The quality of life enhancements provide the following benefits:
+- Disabling the Refresh button when the design contains the most up to date data or when a refresh is in progress prevents you from needlessly initiating a new data refresh. 
+- Seeing a profile design's last refresh date on the Patient Profiles Designs page > Published Designs table clearly indicates the freshness of the data shown in each profile design. 
+- Patient profile exports enable you to include comment history details in reports. 
+## Where Do I See the Change?
+ You can find:
+- The disabled Refresh button when working within published design on the upper-right corner of the page. 
+- The Last Refresh Date column on the Patient Profiles Designs page > Published Designs table. 
+- When working within a published design, when you click the Download button or the Download Profile button, the Download Profiles window > Download Option menu now includes the Comments option. When you select the Comments option, the download report includes the comment history. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Refresh Designs to Reflect the Latest Available Study Data 
+- Find and Access Designs 
+- Export Patient Profiles to PDF 
+## What Else Should I Know?
+- The last refresh date is only available for published designs and not draft designs since you cannot refresh draft designs. 
+- Comment timestamps in the Comments pane show in your local timezone; however, the comment timestamp in downloaded patient profile PDF files show in GMT/UTC. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

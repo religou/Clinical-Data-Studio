@@ -1,0 +1,29 @@
+# Patient Profiles: Quality of Life Updates
+
+## Patient Profiles: Quality of Life Updates
+## What Is New?
+ Patient Profiles includes the following quality of life enhancements:
+- Designs now include the name of the last user who refreshed the profile. 
+- The color palette of the colors used for your highlighting and your section coloring has been updated. 
+- The Download Profile button in the Patient Selector is bundled in the More menu. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+- Displaying the name of the last users who refreshed the profile enables you attribute who produced the current profile view that you are looking at. 
+- Updating the highlighting and section color palette better matches the Web accessibility guidelines for color distances and for readability. 
+- Moving the Download Profile button to the More menu gives the Patient Selector a cleaner look and feel. 
+## Where Do I See the Change?
+- The name of the last user who refreshed the profile shows at the top of the page next to the snapshot date. 
+- The updates color palette shows when adding element highlight conditions, applying section colors when adding elements to the Design Layout, and when view a patient profile report. 
+- The Download Profile button is located in the More menu in the Patient Selector header. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Review and Export Patient Profiles 
+## What Else Should I Know?
+ Patient Profile PDF downloads also display the updated color palette.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

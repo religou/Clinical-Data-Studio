@@ -1,0 +1,67 @@
+# RBQM Configuration: Set Observation Thresholds For Weekend and Holiday Visits Using Signal Configurations
+
+## RBQM Configuration: Set Observation Thresholds For Weekend and Holiday Visits Using Signal Configurations
+ Important: 
+- For a summary of changes done to these release notes, if any, see the  revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the  released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | RBQM Configuration
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter :  
+ Configure weekend and holiday visits for signal generation to improve monitoring of site activity patterns. 
+ Signals now include weekend and holiday visit observations. However, to produce automated signals for weekend and holiday visits, you must first  configure signals in RBQM > Configuration > Signals. 
+ Benefit to Users 
+ | With automated signals, Central Monitors can aggregate and track signals, create and assign actions for signals, and investigate signals of interest. You can monitor values that appear outside the set threshold and investigate observations, if necessary. 
+ Consolidating signals from various analyses into a single, centralized report: 
+- Streamlines the identification, tracking, and management of data quality issues across study data. 
+- Allows for continuous monitoring and ensures that potential risks get mitigated before they escalate as issues. 
+- Enhances efficiency, reduces manual effort, and improves decision-making for users involved in central monitoring and central statistical monitoring. 
+- Provides clear, actionable insights, ensuring that critical data quality issues are identified and addressed promptly. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Central Monitors, Clinical Research Associates (CRAs), users with View Detect CSM Configuration and Manage Detect CSM Configuration building blocks added to their Cloud Administration profile. 
+ Impact to Workflow Processes 
+ Signal configuration includes two aspects. First, the modules included in the signals report. Second, the specific thresholds within the modules at which signals get generated. 
+ While configuring signals for Weekend and Holiday Visits, you can set up thresholds based on which automated signals get created. You must also choose Weekend and Holiday Visits if you want the signals to report on, otherwise no signals get created for weekend and holiday visits in your study when the signals data refreshes. Once you configure a signal, observations appear as signals based on custom configurations and the latest data snapshot for individual modules. Weekend and Holiday Visits shows the time at which data refreshed in the users local time zone. 
+ Impact to Applications 
+ No impact on other applications. However, automated signals get generated based on values you set up as thresholds for Weekend and Holiday Visits. 
+ Impact on Interface 
+ The RBQM > Configuration > Signals page now includes Weekend and Holiday Visits on the left-hand menu.  
+ You must click the toggle button , next to Weekend and Holiday visits to include signals from the module in the automated signal report. Automated signals appear only if you enable the module, and then add configuration details. However, if you toggle off the module with previously saved configurations, they remain saved. If you refresh data in the automated signal report, signals from the deactivated module do not appear in the report. They appear once the module is toggled on. 
+ If you click Weekend and Holiday Visits , the right-hand side shows the following: 
+- Day of the week  
+- Exclude visits 
+- Default Description  
+ You can click Save to save the signal configuration.
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Signal Configuration . 
+ Special Considerations 
+ | 
+- Only users with View Detect CSM Configuration building blocks added to their Cloud Administration profiles can view and download custom configurations. Users with Manage CSM Detect Configuration can add, edit, or delete custom configurations. 
+- You can refresh data only once for the automated signals report.  
+- Custom configuration changes made after 6:00 AM EST do not show in the automated signals report until the next day.  
+- For Statistical Monitoring modules such as Rounding, Propagation, Duplicate Patients, and Under/over Reporting, if the Signals workflow encounters an error with any one module, the automated signals report for that module shows observations misaligned with those shown on the module's dashboard. On the signals report, the Module Snapshot still reflects the latest snapshot data from that module. For example, if Rounding has an error, then the signals for Rounding may not align with the data shown on the RBQM > Statistical Monitoring > Rounding and Propagation > Rounding tab. 
+   To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

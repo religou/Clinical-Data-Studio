@@ -1,0 +1,28 @@
+# Patient Profiles: Edit, Delete, and View Audit History of Patient Profile Comments
+
+## Patient Profiles: Edit, Delete, and View Audit History of Patient Profile Comments
+## What Is New?
+ When working in published patient profile designs, the patient-level review comment functionality now enables you to:
+- Edit and delete existing comments. 
+- View the audit trail history of each comment. 
+## What Is the Impact?
+## Users/Roles
+ Patient profile designers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Previously, you could only add comments to patient profiles. So if you submitted a comment, you had to create an altogether new comment to address typos, inaccuracies, or missing details or include more details. Now you can edit or delete existing comments as needed without creating a separate, new comment.
+ The comment audit trail enables you to view the full detailed history of all comments and comment-related actions made within a patient profile design.
+## Where Do I See the Change?
+ In Data Surveillance > Patient Profiles, when working with published designs, the Profiles tab > Patient Selector table > Comments column shows a blue Comment Bubble   icon in the row of profiles with comments. When you click the Comment Bubble icon to view the Comments pane, you can:
+- Click the More icon associated with one of your comments, and then click  Edit or Delete to edit or delete the comment. 
+- Click the Clock   icon to view the comment's full audit trail history. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Review and Export Patient Profiles 
+## What Else Should I Know?
+- Deleting a comment completely removes the comment from the design in the user interface. However, you can still find the comment's full historical details and updates in the audit trail history. 
+- Comment actions take about 10 mins to reflect in the audit trail history. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,5 @@
+# Issue Management Features
+
+## Issue Management Features
+ Medidata Detect includes the following issue management-related capabilities:
+- View and Create Issues Through Medidata Detect

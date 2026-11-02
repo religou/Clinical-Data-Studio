@@ -1,0 +1,17 @@
+# Patient Profiles Interface Updates
+
+## Patient Profiles Interface Updates
+## Description
+ Medidata Patient Profiles 2022.3.0 includes updates to the application interface that enhance usability.
+## Affected Roles
+ All.
+## Advantages
+ The updates to transposed and wide tables and the patient selector improves readability.
+## User Impact
+ On the Patient Profiles > Design page > Elements tab: When working with transposed or wide tables, if you click the Table Options tab, then enter text into the  Legend Note field, then the text appears as a legend when you view the profile design on the Profiles tab. The Legend Note is an optional field. 
+ On the Patient Profiles > Design page > Profiles tab: W hen data is loading from a data set , the text above the progress bar on the Patient Selector table reads  Loading . 
+## Knowledge Space Updates
+ The Knowledge Space provides updated content to support the enhancement: 
+- Add, Edit, and Delete Tables 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

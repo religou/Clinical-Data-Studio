@@ -1,0 +1,17 @@
+# UI Updates and Technical Enhancements CSM
+
+## UI Updates and Technical Enhancements CSM
+ Medidata Detect includes the following user interface (UI) updates and technical enhancements: 
+- Product Rebranded as Medidata Detect 
+- Validated Code for Future Features 
+- Access User Assistance Directly Pertaining to a Specfic Medidata Detect Page 
+- Information That You Can View and Access Limited to Data from Your Site and Country Assignments 
+- Access User Assistance Pertaining to a Specific Page or Field With One Click 
+- Help Menu > Help On This Page Links to Directly Relevant User Assistance 
+- New Progressive User Assistance Access Points on the History Page and Error Plots Page 
+- Medidata Detect Provides Error Details When Pages Fail to Load 
+- Internal and Technical Enhancements in Medidata Detect 2021.2.0 
+- Preparatory Work for Future Features or Enhancements 
+- New KRIs and QTLs Knowledge Spaces 
+- View Comprehensive Audits of Track Review Actions, Issues Created, and Snapshot Schedules Created 
+- Technical Change in Medidata Detect 2023.1.3

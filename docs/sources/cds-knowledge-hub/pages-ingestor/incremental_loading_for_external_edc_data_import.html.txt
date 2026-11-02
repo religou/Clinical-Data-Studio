@@ -1,0 +1,23 @@
+# Incremental Loading for External EDC Data Import
+
+## Incremental Loading for External EDC Data Import
+## Description
+ You can create external EDC import jobs or update existing external EDC import jobs with the Incremental import type. Import jobs with the incremental import type can Upsert – add or update existing items – or Delete items. The uploaded file's name determines if MEDS Ingestor upserts or deletes items. If the file's name contains "upsert", then upsertion occurs. If the file's name contains "delete", then deletion occurs. 
+ Feature/enhancement stories referenced in this article:
+ MCC-751385, MCC-794826, MCC-794827, MCC-804223, MCC-810569, MCC-810571, MCC-810574, MCC-828328, MCC-831291, MCC-811152, MCC-814517, MCC-820388 
+## Affected Roles
+ All platform roles with either the Import External EDC Data or the Manage External EDC Data building blocks. For details, see  Ingestor Roles and Permissions List .
+## Advantages
+ With incremental data loading, you can refresh subsets of your imported data without needing to upload large files containing largely unchanged data. 
+## User Impact
+ While creating external EDC import jobs, you can select the Incremental import type during the Job Settings step.
+ While reviewing an external EDC import job's Job Configuration screen > Import Settings section, you can toggle the job's Import Type between Cumulative and Incremental.
+ While uploading external EDC files, each file's file name determines how MEDS Ingestor processes the data file. Include "Upsert" in the file name to create or update records. Include "Delete" in the file name to delete records."
+## Knowledge Space Updates
+ The MEDS Ingestor Knowledge Space provides updated content to support this feature: 
+- Import Clinical Data from External EDC Sources 
+- Track Progress for Clinical Data Import Jobs 
+- Review Job Configuration Details 
+- Update Job Configuration Details 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

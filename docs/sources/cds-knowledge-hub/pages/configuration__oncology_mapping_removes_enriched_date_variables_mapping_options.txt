@@ -1,0 +1,47 @@
+# Configuration: Oncology Mapping Removes Enriched Date Variable Mapping Options
+
+## Configuration: Oncology Mapping Removes Enriched Date Variable Mapping Options
+ Important :
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history. 
+- For a summary of all features released, the   released features index .
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.3.0
+ Change Type 
+ | Enhancement (Updated Functionality) 
+ Functionality or Module 
+ | Configuration
+ Summary of Changes 
+ | 
+ In Data Surveillance and RBQM: On the Configuration > Data Mapping > Oncology tab, you can no longer map to enriched date variables such as DTC, INT, or DT dates.
+ Benefit to Users 
+ | Removing enriched data variables from Oncology Mappings ensures that you select mappings supported by Clinical Data Studio.
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data managers. 
+ Impact to Workflow Processes 
+ No impact to workflow process. 
+ Impact to Applications 
+ No impact to other applications. 
+ Impact on Interface 
+ In Data Surveillance and RBQM: On the Configuration > Data Mapping > Oncology tab, enriched data variables are no longer available to select from the configuration mapping dropdown lists.
+ Impact to Existing Data or Settings 
+ For mappings configured with enriched dates, the dates will remain but be nonconformant. Users must be able to remediate.
+ User Impact Assessment 
+ | Low 
+ Learning Resource Updates 
+ | There are no additional relevant resources. 
+ Special Considerations 
+ | To view Medidata testing documentation for this release, see the   Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

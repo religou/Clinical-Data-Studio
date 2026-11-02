@@ -1,0 +1,15 @@
+# Manage Data Set Variable Types Patient Profiles
+
+## Manage Data Set Variable Types Patient Profiles
+## Description
+ Medidata Patient Profiles automatically defines the subject ID/patient ID variable for all data sets through the MEDS data standardization. We recommend that data managers parse through the data set to ensure all variables are coordinated with the appropriate data types. For example, if Patient Profiles defines a variable housing a date as a "Text" variable, then you can change the variable's data type to "Date."  
+## Affected Roles
+ All.
+## Advantages
+ Vetting variable data types optimizes:
+- the efficiency in which CSA's analytics scan your study data; and 
+- how the data displays in your profiles. 
+## User Impact
+ On the right side of the Settings page > Date Options tab, or any element work space, you can access variables by way of the data set accordion. From there, you can select a variable to change its data type.
+## Special Considerations
+ We recommend that you complete any data type changes prior to building elements.

@@ -1,0 +1,15 @@
+# Detect Landing Page Releases History
+
+## Detect Landing Page Releases History
+ The following lists all Detect Landing Page releases (starting with the initial release to up to the 2022.2.0 feature release) and the features and enhancements introduced in each. All Detect Landing Page features and enhancements released after Detect Landing Page 2022.2.0 are listed in the 
+ Clinical Data Studio Releases History .
+ Code Continuity Across Releases
+ All Detect Landing Page releases are cumulative.  That is, each release or software update builds on prior releases as noted in the release notes. For example, Software Update 2020.2.1 includes all of the release 2020.2.0  code, which in turn is based on the release 2020.1.0 code and so on. The release notes describe any updates between releases or software updates (urgent or otherwise). 
+## Detect Landing Page 2022.2.0 (Jul 2022)
+ The following Detect Landing Page feature was introduced in this release: 
+- Capture Study Findings and Build Data Reports Directly in Detect 
+ The following Detect Landing Page technical change was introduced in this release:  
+- One-click Access To Detect Landing Page User Assistance 
+## Detect Landing Page 2022.1.0 (Apr 2022)
+ The following Detect Landing Page features were introduced in this release:  
+- Navigation Across Detect Modules

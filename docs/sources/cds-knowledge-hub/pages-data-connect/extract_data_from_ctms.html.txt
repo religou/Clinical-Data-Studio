@@ -1,0 +1,13 @@
+# Extract Data from CTMS
+
+## Extract Data from CTMS
+## Description
+ MEDS Extractor now extracts selected data from CTMS,   Study Management , Issue Management, and Site Monitoring. 
+## Affected Roles
+ All roles with access to MEDS Extractor. For details, s ee  Revised Permissions for Export Jobs 
+## Advantages
+ You can extract key milestone data  from CTMS-enabled studies, in addition to the Rave EDC clinical data.
+## User Impact
+ You can now extract study and site management data at the same time as clinical study data.
+## Special Considerations
+ None.

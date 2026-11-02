@@ -1,0 +1,14 @@
+# Access User Assistance Directly Pertaining to a Specfic Medidata Detect Page
+
+## Access User Assistance Directly Pertaining to a Specfic Medidata Detect Page
+## Description
+ The Medidata Detect Help menu now includes the "Help on this Page" option. When you click this option, you are directed to the specific knowledge space article pertaining to the current Medidata Detect page you are working in rather than the knowledge space Home page.
+## Affected Roles
+ All.
+## Advantages
+ You can quickly find the user assistance directly pertaining to the page in Medidata Detect you are working in with one click rather than opening up the Medidata Detect Knowledge Space Home page and navigating to the article you need.
+## User Impact
+ The Medidata Detect Help menu now includes the "Help on this Page" option, which when clicked, directs you to the specific knowledge space article pertaining to the current Medidata Detect page you are working in.
+ Tip : Click image to enlarge.
+## Special Considerations
+ None.

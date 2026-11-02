@@ -1,0 +1,64 @@
+# Add, Edit, and Delete Review Report Entries
+
+## Add, Edit, and Delete Review Report Entries
+ You can add report entries for specific data findings that pertain to a report. You can log for each entry:
+- A description of the data finding. 
+- The Data Surveillance or RBQM capability and data set variable in which the finding was observed. 
+- The study, country, site, and patient in which the finding was observed. 
+- The priority in which the finding must be addressed,  and the actions required to address the finding. 
+- Additional comments and high-level metadata. 
+ You can also edit and delete report entries.
+## View Review Report Entries
+- Access Data Surveillance or RBQM , and then click Configuration > Review Reports in the left-hand menu. 
+- On the Review Report page, do either of the following: 
+- Add a review report . 
+- Click an existing review report name in the Name column. 
+- On the Review Reports page, select any entry. 
+## Filter Review Report Entries
+ You can filter the report entries to quickly locate review report entries of interest, for example, all entries for a particular site. 
+- Access Data Surveillance or RBQM , and then click Configuration > Review Reports in the left-hand menu. 
+- On the Review Reports page, create reports select an existing report. 
+- On the Report Details page, click Column Filter . 
+Filter options appear for Analysis, Domain, Observation, Priority, Country, Sites, and Patients. 
+- Select options from the filter list. 
+ The table updates to show entries that match the selected filter criteria. 
+- Optional : If you filter first by Countries, the Sites and Patients lists filters to show sites within the countries and patients at the sites you filter by. 
+## Add Review Report Entries 
+- Access Data Surveillance or RBQM , and then click Configuration > Review Reports in the left-hand menu. 
+- On the Review Report page, do either of the following: 
+- Add a review report . 
+- Click an existing review report name in the Name column. 
+- On the Review Reports page, click Add Entry . 
+- In the Entries table, select or enter the following:
+- ID – The auto-generated number for the entry 
+- Analysis – Select one of the following Data Surveillance and RBQM capabilities to run the report on: PDS, KRI, or CSM. 
+- Domain – Select any data set variable you want to include in the review. 
+- Observation – Select the Data Surveillance or RBQM capability that you want to include in the review. 
+- Description – Enter details about the review entry. 
+- Priority   – Priority associated with the report: Low, Medium, High. 
+- Country – Optional. Select the country to report on. 
+- Sites – Optional. S elect one or more sites. 
+- Patients – Optional . Select the patient IDs you want to include in the report. 
+- Source – Optional .The study you want to report on. 
+- Actions – Optional . Enter the actions you want to take to complete the review, for example, conducting a weekly follow-up review or adding additional sites into the review. 
+- Comments – Optional . Enter any additional comments, for example, observations or restrictions or any special notes for the review. 
+- Last Modified By – The user who made the latest change. 
+- Last Modified – The date the report was last modified.
+ Note : Scroll to the right of the page to view above fields. If a study contains no data, you cannot add entries to a review report. If you click Add Entry, an error message appears.
+- Repeat steps 2-3 for each additional review report entry. 
+## Edit Review Report Entries
+ You can edit review report entries in case of a typo or general updates. 
+- Access Data Surveillance or RBQM , and then click Configuration > Review Reports in the left-hand menu. 
+- On the Review Reports page, create reports or select an existing report. 
+- On the Report Details page, scroll to the right of the page.  
+- Click . 
+- Click Edit .  
+- Make the changes.  
+- Click to save the change. 
+## Delete Review Report Entries
+ You can delete review report entries that are no longer of interest.  For example, if a country is no longer included in the study, you can delete the report entry. 
+- Access Data Surveillance or RBQM , and then click Configuration > Review Reports in the left-hand menu. 
+- On the Review Reports page, create reports  or select an existing report. 
+- On the Report Details page, scroll to the right of the page.  
+- Click . 
+- Click Delete .

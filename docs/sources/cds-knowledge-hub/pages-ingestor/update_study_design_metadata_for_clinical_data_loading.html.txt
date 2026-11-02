@@ -1,0 +1,28 @@
+# Update Study Design Metadata for Clinical Data Loading
+
+## Update Study Design Metadata for Clinical Data Loading
+ You can update an external EDC job's data integration version to use updated metadata files. To do so, you must first load a new set of Study Design Metadata (SDM) files to the corresponding SDM import job to create a new data integration version. Then you can update the external EDC job to use that new data integration version. 
+ For details about loading clinical data for CTMS, see Import Non-Rave Data for Medidata CTMS . 
+## Create New Data Integration Version
+- Prepare the required four SDM files for data loading: 
+- Schedule of Assessments (SOA) 
+- Visits 
+- Data Sets 
+- Fields
+ Note : Metadata files must be cumulative. The uploaded file overwrites the corresponding metadata for the corresponding study. For details SDM file requirements, see Study Design Metadata File Standards . 
+- On Ingestor’s Import Jobs screen, select an SDM import job. 
+- Import the prepared metadata files into the SDM job to update the job’s data integration version. 
+ The  data integration version number automatically increments to the next number. For example, if the latest version was 1.0, then the updated data integration version is 2.0. 
+## Update External EDC Job to Use the New Data Integration Version
+- Return to the Import Jobs screen, and select the External EDC import job that requires an updated data integration version. 
+- Click the job’s Job Configuration tab. 
+- On the job’s Job Configuration tab, click Edit Job . 
+- Select the new data integration version from the updated list.
+ Note : Ingestor’s cache takes about five minutes to reset. Therefore, it takes at least five minutes for a newly added version number to appear. 
+- Click Save Changes . 
+## Load Clinical Data Files with the Updated Data Integration Version
+- Prepare clinical data files for data loading.
+ Note : The prepared clinical data files must be cumulative since the Ingestor must fully refresh the datasets for the new data integration version.  
+- In Ingestor, while still on the job’s Job Configuration tab, click the Job Files tab. 
+- Import the prepared clinical data files into the external EDC file.
+ Note : When l oading clinical data files cumulatively, Ingestor deletes all clinical data and metadata from the previous data integration version. Because of this deletion and reuploading process, data loading can take longer than usual.

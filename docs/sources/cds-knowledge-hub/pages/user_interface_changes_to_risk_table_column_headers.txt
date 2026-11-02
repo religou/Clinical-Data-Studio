@@ -1,0 +1,21 @@
+# User Interface Changes to Risk Table Column Headers
+
+## User Interface Changes to Risk Table Column Headers
+## Description
+ There are changes to the risk form fields in the Risk Management 2021.2.0 release. Some fields have been moved or renamed, and the order of columns on the Risk Inventory and Risk Category pages has changed. These changes affect the risk context view on the Critical Data, Critical Processes, Risk Categorization, and Risk Inventory pages. 
+## Affected Roles
+ Study User.
+## Advantages
+ Improved navigation and labeling on the Risk Management pages provide a more consistent user experience with the software. 
+## User Impact
+ These fields, which held self-defined indicators in past releases, have been repurposed and enhanced:  
+- Indicator Type 
+- Indicator Description 
+- Indicator Value 
+ Instead of entering indicator type, description, or value, you can, optionally, enter these components on separate tabs in the risk form:
+- Quality Tolerance Limits (QTLs) 
+- Key Risk Indicators (KRIs) 
+- Risk Mitigations 
+ Additional filters for   QTLs and KRIs have been added to the top of the Risk Inventory page.
+## Special Considerations
+ None.

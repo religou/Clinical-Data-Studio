@@ -1,0 +1,23 @@
+# Job List Usability Enhancements
+
+## Job List Usability Enhancements
+## Description
+ Updates to the job list page include  various usability enhancements. You can :
+- Refresh the status display of export jobs without having to navigate through the hierarchy of studies,  
+- Drill down on the export job name to access the Job Configuration Details and Job History pages. 
+- Column headers, including any open filters, remain, frozen, on screen. 
+- You can scroll the job list and the column headers, including any open filters, remain on screen.  
+## Affected Roles
+ All roles with the Manage Extracts permission. 
+## Advantages
+ The job list enhancements provide the following benefits:
+- You can refresh the export job status without needing to navigate through the hierarchy of studies, saving navigation time and clicks. 
+- The drill-down functionality allows you to review your export job configurations and history with more detail to review failed jobs.  
+- The improved sorting and freezing for column headers provides improved readability, especially when there are multiple jobs displayed for a study environment. 
+## User Impact
+ On MEDS Extractor's job list page you can:
+- Click a job name to access the job configuration details and job history pages. 
+- Click   Refresh Job   List   to  track the progress of your current job. 
+ Additionally, when you scroll through the job list, column headers and open filters remain on screen. 
+## Special Considerations
+ None.

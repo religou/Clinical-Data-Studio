@@ -1,0 +1,15 @@
+# Select Datasets
+
+## Select Datasets
+ After selecting your  study level exports  data sources , you land on the Datasets screen. Depending on the data types you selected, you can select individual datasets to export. 
+ Note : There can be intermediate steps between the Select Data Source step and the Select Datasets step for some export types, such as Transformed Data. In those cases, follow the prompts until you reach the Select Datasets step. 
+## Select Datasets to Extract
+- From the Select Dataset step:
+- Select the output format of each data type.
+ Note : The comma-separated value (CSV) output format is the default selection. When extracting Rave data type, you can also choose to output data files in the XPT format, or in both CSV and XPT. For Rave data only, when you select both types, the extracted zip file contains duplicate sets of files in both CSV and XPT formats. 
+- Select datasets to extract.
+- Select the version of the dataset to extract.
+ Important : Select  ALL for Veeva Connect datasets.
+- Click Continue .
+## Next Step
+ Schedule Export

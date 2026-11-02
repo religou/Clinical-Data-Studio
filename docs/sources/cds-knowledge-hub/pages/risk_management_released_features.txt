@@ -1,0 +1,111 @@
+# Risk Management Released Features
+
+## Risk Management Released Features
+ Risk Management includes the following:
+ Critical Data 
+- 
+ Critical Data Identification 
+ Critical Processes 
+- 
+ Critical Processes Identification 
+- 
+ Critical Processes Support in Risk Management 2020.1.0 
+ Risk Categorization 
+- 
+ Multiple Key Risk Indicators for a Risk 
+- 
+ Multiple Quality Tolerance Limits for a Risk 
+- 
+ Risk Categorization and Risk Scoring 
+- 
+ User Interface Changes to Risk Table Column Headers 
+- 
+ Flexible Risk Categories and Risk Category Templates 
+- 
+ New Risk Category Added for Diversity 
+- 
+ Warning Messages to Help You Avoid Unintentional Data Loss 
+- 
+ New Required QTL Fields 
+- 
+ Add Custom Risk Categories to Templates and Associated Studies 
+ Risk Inventory 
+- 
+ Risk Inventory 
+- 
+ User Interface Changes to Risk Table Column Headers 
+- 
+ Improved Support for Risk Reviews 
+- 
+ Risk Inventory Includes Study Risk Score 
+- 
+ Action Taken Enhancements for Risks 
+ Risk Assessment 
+- 
+ Risk Assessment Added to Risk Management 2022.3.0 
+- 
+ User Interface Changes in Risk Management 2022.3.0 
+- 
+ Risk Review Detailed Page Improvements 
+ Risk Plan Reports 
+- 
+ Risk Plan Reporting 
+- 
+ Quality Tolerance Limit Summary Report 
+- 
+ User Interface Changes to the Risk Plan Report 
+ Risk Management Reports 
+- 
+ Risk Plan Reporting 
+- 
+ Quality Tolerance Limit Summary Report 
+- 
+ User Interface Changes to the Risk Plan Report 
+ UI Updates and Technical Enhancements 
+- 
+ Internal and Technical Changes in Risk Management 2020.2.0 
+- 
+ Internal and Technical Changes in Risk Management 2021.2.0 
+- 
+ Internal and Technical Changes in Risk Management 2021.3.0 
+- 
+ Internal and Technical Changes in Risk Management 2022.3.0 
+ Online Help, Localization, and Documentation 
+- 
+ Context Sensitive Help for Risk Management 
+ Resolved Issues 
+- 
+ Risk Management 2021.3.0 Resolved Issues List 
+- 
+ Risk Management 2022.1.0 Resolved Issues List 
+- 
+ Risk Management 2022.3.1 Resolved Issues List 
+- 
+ Risk Management 2021.1.0 Resolved Issues List 
+- 
+ Risk Management 2021.3.1 Resolved Issues List 
+- 
+ Risk Management 2022.3.0 Resolved Issues List 
+- 
+ Risk Management 2022.2.0 Resolved Issues List 
+- 
+ Risk Management 2023.1.1 Resolved Issues List 
+- 
+ Risk Management 2023.1.2 Resolved Issues List 
+- 
+ Risk Management 2023.3.1 Resolved Issues List 
+- 
+ Clinical Data Studio - Risk Management 2024.3.1 Resolved Issues List 
+- 
+ Clinical Data Studio - Risk Management 2024.4.1 Resolved Issues List 
+- 
+ Clinical Data Studio - Risk Management 2024.4.2 Resolved Issues List 
+- 
+ Clinical Data Studio 2025.3.1 Resolved Issues List 
+- 
+ Risk Management 2021.2.0 Resolved Issues List 
+- 
+ Risk Management 2020.1.0 Resolved Issues List 
+- 
+ Risk Management 2020.2.0 Resolved Issues List 
+ Deprecated Functionailty

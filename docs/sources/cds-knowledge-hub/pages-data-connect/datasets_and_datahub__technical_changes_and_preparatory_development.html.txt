@@ -1,0 +1,21 @@
+# Datahub: Technical Changes and Preparatory Development
+
+## Datahub: Technical Changes and Preparatory Development
+## What Is New?
+ The Data Connect September 2024 Standard Software Update introduces internal code changes: 
+- Changes to filters applied on Rave datasets.  
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to workflow processes.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The technical change optimizes back-end processes and provides performance improvements.
+## Where Do I See the Change?
+ There are no changes to the user interface.
+## Where Do I Learn More?
+ There are no relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

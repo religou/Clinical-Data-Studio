@@ -1,0 +1,81 @@
+# Manage Risk Categorization Templates
+
+## Manage Risk Categorization Templates
+ RBQM administrators can create study-level risk categorization templates for risk categories that the study team plans to include in the risk assessment for multiple studies.
+ RBQM administrators can also update template details and activate and deactivate risk categorization templates for use across all studies in the study group.
+ Using risk categorization templates:
+- Reduces time and effort when creating risk assessments. 
+- Ensures accurate, consistent risk category details across multiple studies. 
+## Access and View the Study-level List of Risk Categorization Templates
+- Access RBQM , and then click Library > Risk Categorization in the left-hand menu.
+ A listing of templates appears and shows the following information about each risk categorization template:
+ Column 
+ Description 
+ | Name 
+ | Indicates the name of the Risk Categorization template, for example, Medidata COVID-19. A description appears when your mouse pointer hovers over the name if a description has been added in the template. 
+ | Description 
+ | An explanation of the risk assessment categories included in the template and questions for discussion.
+ | Group Name 
+ | Indicates the type of Risk Categorization template, for example, Oncology. 
+ | Source 
+ | The organization that provides the list of categories and questions included in the template. 
+ | Activate 
+ | 
+ All the Risk Categorization templates default to disabled, indicated by a gray  toggle.
+ You can enable the Risk Categorization template by moving the toggle to blue  . When you click All, then all the templates become enabled.
+ Important : The Risk Categorization Templates page shows a list of predefined templates. These templates provide a starting point for you to categorize the risks for your study. You may add or delete risks in these predefined templates or create your own unique template. 
+- Decentralized Clinical Trials (DCT) Risk Assessment Considerations –  The DCT Risk Assessment Considerations template provides categories of risk, questions for discussion and considerations specific to risk categories associated to implementation of decentralized trials. The DCT Risk Assessment Considerations template supports risk identification that could affect patient safety, data integrity or regulatory compliance due to the impact of decentralized trials to clinical trial operations. The source of information for this template is the Association of Clinical Research Organizations (ACRO). 
+- Medidata COVID-19 –  The COVID-19 template provides categories of risk, questions for discussion, and considerations specific to risk categories associated to the COVID-19 pandemic. The COVID-19 template supports risk identification that could affect patient safety, data integrity, or regulatory compliance due to the impact of COVID-19 to clinical trial operations. The source of information for this template is Medidata, a Dassault Systèmes Company. 
+- TransCelerate BioPharma Inc . RACT – This TransCelerate template provides categories of risk, questions for discussion and considerations specific to risk categories. The TransCelerate template supports risk identification that could affect patient safety, data integrity, or regulatory compliance. The source of information for this template is TransCelerate BioPharma Inc. 
+ Click here to expand the list of categories used in the TransCelerate Risk Categorization template: 
+ Unable to render {include} The included page could not be found.
+## Create a Risk Categorization Template
+- Access the study-level list of Risk Categorization Templates .
+ Important : The Risk Categorization Templates page shows a list of predefined templates. These templates provide a starting point for you to categorize the risks for your study. You may add or delete risks in these predefined templates or create your own unique template. 
+- Decentralized Clinical Trials (DCT) Risk Assessment Considerations –  The DCT Risk Assessment Considerations template provides categories of risk, questions for discussion and considerations specific to risk categories associated to implementation of decentralized trials. The DCT Risk Assessment Considerations template supports risk identification that could affect patient safety, data integrity or regulatory compliance due to the impact of decentralized trials to clinical trial operations. The source of information for this template is the Association of Clinical Research Organizations (ACRO). 
+- Medidata COVID-19 –  The COVID-19 template provides categories of risk, questions for discussion, and considerations specific to risk categories associated to the COVID-19 pandemic. The COVID-19 template supports risk identification that could affect patient safety, data integrity, or regulatory compliance due to the impact of COVID-19 to clinical trial operations. The source of information for this template is Medidata, a Dassault Systèmes Company. 
+- TransCelerate BioPharma Inc . RACT – This TransCelerate template provides categories of risk, questions for discussion and considerations specific to risk categories. The TransCelerate template supports risk identification that could affect patient safety, data integrity, or regulatory compliance. The source of information for this template is TransCelerate BioPharma Inc. 
+ Click here to expand the list of categories used in the TransCelerate Risk Categorization template: 
+ Unable to render {include} The included page could not be found.
+- Click  Create Template .
+- Enter values for the following fields:
+- Name –  Enter up to 255 characters as the name of the Risk Categorization template. This is a required field. The name must be must be unique.
+- Description –  Enter up to 3000 characters to provide a more detailed description of the risk category. This is a required field. 
+- Group Name – Enter up to 255 characters describing the risk category. The group name does not have to be unique. 
+- Source – The source of the risk categories and questions you plan to add to the template. 
+- Click Add Risk Category , and select a category from the list of available categories.
+- 
+ Important: Select Custom in the Select Category dropdown to create a custom category while creating a Risk Categorization Template, Critical Data, or Critical Process at client division level. You can also add these templates to their study and the categories associated to them. 
+- 
+- You can create multiple custom risk  categories to a risk categorization template, and 
+- Create custom categories to use the templates at study-level for Critical Data and Critical processes. 
+- You can reuse any of the category names shown in this list:
+ Unable to render {include} The included page could not be found.
+- Move your cursor over the Risk Category Objective field to show the pencil icon. Add an objective or edit any existing objective text.
+ Note : Some objectives appear blank. Add text for each objective because this text appears when you hover your cursor over the risk name in any of the Risk Assessment or Risk Inventory pages. If you reuse a category name, you can make the objective unique for each instance of the category name. This helps you distinguish one category from another when the category name is a duplicate.
+- Click Add Question . Edit the text by clicking the  pencil icon for each column:
+- Questions for Discussion – Develop questions that can help the risk assessment team focus their conversation about the risks to the study. 
+- Rationale – Enter up to 3000 characters to provide the reason for using the template. For example, "Data supports the primary endpoint of the study." 
+- Considerations – Enter additional information you want the team members to be aware of when discussing risk. 
+- Click Save after each entry.
+ Note : Before using the template, you must activate it on the template listing page by moving the gray toggle to the right so it turns blue .  
+## Activate or Deactivate a Risk Categorization Template
+ You must activate the template before using it in a study.
+- Access the study-level list of Risk Categorization Templates .
+- Do either of the following:
+- To activate a template, find the template you want to activate and move the toggle in the Activate column from gray  to blue .
+- To deactivate a template, find the template you want to deactivate and move the toggle in the Activate column from blue to gray .
+ Tip : Click All to activate or deactivate all templates in the list.
+## Edit a Risk Categorization Template
+ You must deactivate the template before you can edit it.
+ Note : For templates that are activated, the OK button appears at the bottom instead of Save . Activated templates are read-only at the study group level.
+- Access the study-level list of Risk Categorization Templates . 
+- Ensure the Activate toggle is gray  before you select the template to be edited. 
+- Change the field values in the template. Hover your cursor over a field to access the pencil icon and adjust the field value. 
+- Click Save . 
+## Delete a Risk Categorization Template
+ The Delete button only shows for a template that is deactivated and has never been activated in the past.
+- Access the study-level list of Risk Categorization Templates . 
+- Select the template to be deleted. 
+- Click the Delete button.
+The message, "Risk Categorization Template deleted successfully," confirms deletion of the template.

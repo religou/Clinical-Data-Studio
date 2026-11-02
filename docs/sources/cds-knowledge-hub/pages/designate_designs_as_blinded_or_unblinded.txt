@@ -1,0 +1,20 @@
+# Designate Designs as Blinded or Unblinded
+
+## Designate Designs as Blinded or Unblinded
+## Description
+ In accordance with the new unblinded and blinded user roles , Patient Profiles Cloud also introduces unblinded and blinded designs.
+- Unblinded Design  – A design that may contain sensitive data. Only unblinded Patient Profiles Cloud users can access and view unblinded designs. Unblinded designers can also edit unblinded designs. Blinded Patient Profiles Cloud users cannot access and view unblinded designs. 
+- Blinded Design  – All Patient Profiles Cloud users can access and view blinded designs. Unblinded designers can also edit blinded designs. 
+ New and updated designs are designated as unblinded designs by default. Unblinded patient profile designers can change unblinded designs to blinded designs. Conversely, designers can also change blinded designs to unblinded designs.
+## Affected Roles
+- Unblinded patient profile designers can mark designs as unblinded or blinded. Designers can also view and edit all designs. 
+- Unblinded patient profile viewers can view all designs. 
+- Blinded patient profile viewers cannot view unblinded designs. However, blinded users can view blinded designs. 
+## Advantages
+- Introducing unblinded and blinded designs further restricts which designs users can or cannot view and edit. Doing so ultimately protects blinded data within Patient Profiles Cloud. This enables organizations to confidently and safely run any study in Patient Profiles Cloud without running the risk of voiding the study. 
+- Automatically designating new and updated designs as unblinded by default is a safeguard in case the new or updated information in the design is sensitive data. Designers can always manually mark the design as blinded if necessary. 
+## User Impact
+ On the Patient Profile Designs page, unblinded patient profile designers can change unblinded designs to blinded or change blinded designs to unblinded.
+ Tip : Click to enlarge images.
+## Special Considerations
+ None.

@@ -1,0 +1,23 @@
+# Detect Landing Page Includes Risk Management Module Card
+
+## Detect Landing Page Includes Risk Management Module Card
+## Description
+ The Medidata Detect Landing page now includes the Risk Management card.
+## Affected Roles
+ All.
+## Advantages
+ Risk Management is now a module within the Medidata Detect product suite. Implementing the Risk Management card onto the Detect Landing page is the first step to formally integrating Risk Management into Medidata Detect.
+## User Impact
+ The Risk Management card provides:
+- High-level status details for overdue risk reviews and next planned assessments 
+- Direct access to Risk Management's Risk Inventory, Risk Assessment, and Report capabilities. 
+## Knowledge Hub Updates
+ Here are links to new and updated content to support this feature: 
+- Risk Management 
+- Risk Inventory 
+- Create Risk Assessment Drafts 
+- Risk Management Reports 
+ When working within Risk Management, the Help menu options no longer take you to the Risk Management Knowledge Space, but rather the Medidata Detect Knowledge Hub instead. All Risk Management knowledge content is now absorbed into the Medidata Detect Knowledge Hub. You can still find all the same content that was available to you in the Risk Management Knowledge Space. That content simply now resides in the Medidata Detect Knowledge Hub.
+## Special Considerations
+ Risk Management study users can access Risk Management by way of the Detect Landing page or directly from iMedidata. Risk Management administrators must still access Risk Management directly from iMedidata.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

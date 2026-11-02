@@ -1,0 +1,31 @@
+# Insights: Downloaded Open Query Records Report Includes Data Snapshot Timestamp
+
+## Insights: Downloaded Open Query Records Report Includes Data Snapshot Timestamp
+## What Is New?
+ The Open Queries download file now includes a timestamp showing the date and time of the data snapshot represented in the downloaded list of records. The data snapshot timestamp is formatted as YYYYMMDDTHHMMSSZ5, where:
+- YYYY – Year 
+- MM – Month 
+- DD – DD 
+- T – Represents the word time. 
+- HH – Hour 
+- MM – Minute 
+- SS – Second 
+- Z5 – Eastern Time Zone 
+## What Is the Impact?
+## Users/Roles
+ Data managers. 
+## Workflow Process
+ No impact to the workflow process. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ The data snapshot timestamp:
+- Tells you how recent the data is for the records listed in the downloaded file. 
+- Enables you to compare records from other Open Queries downloads with different data snapshot timestamps. 
+## Where Do I See the Change?
+ You can find the timestamp when you go to Insights > Open Queries page > Open Query Records table, and then click the Download button and open the Open Queries .CSV file. The timestamp shows in Column B, Row 1. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Download the Open Query Records List 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

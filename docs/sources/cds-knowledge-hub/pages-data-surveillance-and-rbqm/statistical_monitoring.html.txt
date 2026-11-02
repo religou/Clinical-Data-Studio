@@ -1,0 +1,41 @@
+# Statistical Monitoring
+
+## Statistical Monitoring
+ In the world of clinical trials, Risk-Based Quality Management (RBQM) is the overarching strategy used to ensure patient safety and data integrity. Statistical Monitoring (SM) is the "analytical engine" of that strategy.
+## What Is the Purpose of Statistical Monitoring?
+ Instead of sending monitors to every single clinical site to manually check all data sources, SM uses advanced analytics and statistical algorithms to remotely "scan" trial data for anomalies, compliance, inconsistencies and other problems that may impact data quality and trial outcome. This reduces onsite work and cost and enables real time data driven risk identification and proactive monitoring and mitigation.
+## Who Uses Statistical Monitoring?
+ Typically central monitors and data managers with insights being relevant to safety and clinical teams as well as biostatisticians. 
+## How Does Statistical Monitoring Work?
+ CDS SM approach is a combination of unsupervised ML checks designed for identification of unexpected risks and as an exploratory tool, and the set of targeted statistical analyses, like Over/Under reporting, Incidence plots, Duplicate patients, Rounding and Propagation, Weekend and Holiday visits. 
+ In the context of Risk-Based Quality Management (RBQM), normalized statistical analysis is frequently the superior approach because it relies on domain-specific logic rather than raw mathematical distance. Let’s clarify this statement. 
+ Contextual Relevance (Signal vs. Noise) 
+ Unsupervised machine learning treats data points as coordinates in space. It flags "outliers" based on statistical variance, but it doesn't understand why a data point is different. 
+ The Normalized Solution like CDS Over and underreporting, by normalizing eg Adverse Events (AEs) against Exposure (Patient-Days), you account for the fact that a patient on a drug for 300 days is naturally more likely to have an event than one on for 10 days. Normalization effectively "levels the playing field," ensuring you are measuring performance quality rather than just volume. 
+ Reducing "False Positives" through Domain Logic 
+ Unsupervised ML is "noisy." It often flags sites for harmless reasons. 
+ If you normalize e.g. CM reporting by the number of AEs and Medical History (MH) entries like we have done in CDS, you are looking for proportionality . It makes sense for a patient with a long medical history and multiple AEs to have more CMs. A site is only a "true" outlier if they have high AEs/MH but zero CMs- a classic sign of underreporting that unsupervised ML might miss or bury in other "anomalies." 
+ Interpretability and "The Why" 
+ CSM findings are sent to busy CRAs and you must be able to explain why a site was flagged and what action has to be taken. 
+ An unsupervised model might flag Site 101, but when a monitor asks why, the answer is often: "Because its multi-dimensional vector was 3 standard deviations from the centroid." This is not actionable for a clinical monitor. 
+ With normalized stats, the explanation is intuitive: "Site 101 is being flagged because their AE reporting rate per 100 days of exposure is 60% lower than the study average, despite having a similar patient profile." This gives the monitor a clear starting point for a root cause analysis. 
+ Stability in Small Data Sets 
+ Unsupervised ML generally requires large volumes of data to "learn" what is normal. In the early stages of a Phase II or III trial, data is sparse. 
+ With low patient counts, unsupervised models become unstable, flagging almost everything as an anomaly because a "normal" baseline hasn't been established thus delaying proactive risk monitoring to when ‘sufficient’ data is collected 
+ Statistical normalization (like using a Poisson distribution for AE rates) works even with smaller cohorts because it is grounded in established probability math and clinical expectations. Similarly rule based, analytical approaches like rounding and propagation are based on industry reality on e.g. how many consecutive assessments of e.g. weight or BP can look the same before the concern is that the site is not evaluating patients at each visit, using appropriate research approved process or tool. 
+ Below are the CSM analyses provided in RBQM: 
+- Data Anomaly Detection – Determine your study data's outliers, anomalies, unusual data associations, risks, trends, and missing data at the data point-, patient-, site-, and country-level. 
+- Weekend and Holiday Visits – Investigate potential falsified or erroneous patient records in your study data. 
+- Potential Duplicate Patients – Identify and investigate: 
+- Sites with potential duplicate patients across all site locations in your study. 
+- Individual patients who may be duplicate patients . 
+- Rounding & Propagation – Distinguish between reliable and potentially unreliable data in the vital signs collection case. 
+- Event Incidence – View the reported events and the incidence rate in which those events occurred within a  domain at the site and study level. 
+- Under-Over Reporting Events – Identify potentially noncompliant sites and countries whose AE, CM, and MH reporting patterns significantly differ from the study norm. 
+ In addition, the below list of capabilities is typically used with above to further understand and monitor possible risks - at the site, country or study level, on all data including audit data. 
+- KRI Dashboard – View and assess insights into site and country performance and compliance using key risk indicators. 
+- QTL Dashboard – Identify systemic- and protocol-level issues that affect trial outcome and patient safety. 
+- Audit Trail Review 
+- Create audit trail reviews  to extract insights from operational study data. 
+- Publish audit data sets and use to build KRIs and listings in a study. 
+ The advantage of CDS CSM is the ability to auto-generate signals from all various targeted analyses without the user needing to identify each signal separately. For more information, see Signals .

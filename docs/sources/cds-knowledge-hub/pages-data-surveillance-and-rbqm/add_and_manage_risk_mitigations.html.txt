@@ -1,0 +1,98 @@
+# Add and Manage Risk Mitigations
+
+## Add and Manage Risk Mitigations
+ As part of a study's risk assessment, study teams generally set a risk score threshold. For risks whose scores exceed the threshold, study teams can closely monitor and review, take action on, and create risk mitigation strategies to control, reduce, or eliminate the study risks. You can: 
+- Add risk mitigations to risks in and specify the functional plan—such as a data review plan, safety monitoring plan—in which to document the mitigations. 
+- View the risk mitigations associated with a risk. 
+- Edit a risk's set of mitigations. 
+- Delete mitigations. 
+## Add Risk Mitigations
+ You can add risk mitigations to risks in and specify the functional plan—such as a data review plan, safety monitoring plan—in which to document the mitigations. Risk mitigations help you control, reduce, and eliminate study risks. 
+ You can access the risks to which you want to add risk mitigations in two ways:
+- When viewing a holistic view of the risks in your study's risk inventory. 
+- When viewing the risks associated with specific critical data, critical processes, or risk categories in the risk assessment. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page : In the Risks tab > Risks table > Risk ID column, click the Risk ID for the risk to which you want to add a risk mitigation. 
+- If on the Critical Data page, Critical Processes page, or Categorization page, do one of the following :
+- To add mitigations to a new risk : In the Add Risk column, click the blue Plus icon, , in the row of the corresponding critical data, critical process, or risk category to which you want to add a risk mitigation .
+ Note : Before you can add a KRI to a new risk, you must first enter a Risk Name , Date Entered , and Review Frequency on the risk's Details tab. To learn more, see  Add Risks to the Risk Assessment .
+- To add mitigations to an existing risk :  In the Name column, click the Down Arrow , , to the left of the critical data, critical process, or risk category whose risks you want to view, and then in the Risk ID column, click the risk ID to which you want to add a risk mitigation . 
+- In the Risk Review or Add Risk subpage, click the  Details tab. 
+- In the Mitigation and Actions section, click + Add Mitigation . If one or more mitigations already exist, click the black Plus icon, , next to Mitigation . 
+- In the Mitigations and Plans panel, enter or select the following:
+- Title –  Enter a title for the mitigation. 
+- Description   – Optional . Enter up to 255 characters describing the mitigation mechanism to follow. For example, "The s ite must contact patients at least 48 hours before the site visit to remind them of the upcoming site visit and to follow up on pending Adverse Events (AEs)." 
+- Functional Plans Affected – Select one or more from the list of functional plans.
+ Note : If you build Plan Documents and add risk assessment tables as components to your plan, the risk assessment tables include the Functional Plan Affected column field for each mitigation added to risks. You can filter tables in plan documents to show only mitigations that apply to the plan. 
+- Click Save . 
+- Optional . Repeat steps 2-6 for each additional risk mitigation you want to add. 
+- Click Save . 
+## View and Edit Risk Mitigations
+ When conducting risk reviews, you can view a risk's set of defined mitigations to ensure the study team is following the risk plan as expected. If not, then you can record a review action that must be taken, adjust any existing mitigations, or add new mitigations.
+ You can also edit risk mitigations to correct a typo or entry error, or to accommodate protocol amendments.
+ You can access the risks whose risk mitigations you want to view and edit in two ways:
+- When viewing a holistic view of the risks in your study's risk inventory. 
+- When viewing the risks associated with specific critical data, critical processes, or risk categories in the risk assessment. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page : In the Risks tab > Risks table > Risk ID column, click the Risk ID whose risk mitigations you want to view or edit. 
+- If on the Critical Data page, Critical Processes page, or Categorization page: In the Name column, click the Down Arrow , , to the left of the critical data, critical process, or risk category whose risks you want to view, and then in the Risk ID column, click the risk ID whose risk mitigations you want to view or edit . 
+- In the Risk Review subpage, click the  Details tab. 
+- In the Mitigation and Actions section, click the More icon, , associated with the mitigation you want to edit. 
+- In the Mitigations and Plans panel, enter or select the following:
+- Title –  Enter a title for the mitigation. 
+- Description   – Optional . Enter up to 255 characters describing the mitigation mechanism to follow. For example, "The s ite must contact patients at least 48 hours before the site visit to remind them of the upcoming site visit and to follow up on pending Adverse Events (AEs)." 
+- Functional Plans Affected – Select one or more from the list of functional plans.
+ Note : If you build Plan Documents and add risk assessment tables as components to your plan, the risk assessment tables include the Functional Plan Affected column field for each mitigation added to risks. You can filter tables in plan documents to show only mitigations that apply to the plan. 
+- Click Save . 
+- Optional . Repeat steps 2-6 for each additional risk mitigation you want to add. 
+- Click Save . 
+## Delete Risk Mitigations
+ You can delete risk mitigations from risks; for example: 
+- Duplicate mitigations. 
+- Mitigations added in error. 
+- Irrelevant mitigations due to protocol amendments. 
+ You can access the risks whose risk mitigations you want to delete in two ways:
+- When viewing a holistic view of the risks in your study's risk inventory. 
+- When viewing the risks associated with specific critical data, critical processes, or risk categories in the risk assessment. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page : In the Risks tab > Risks table > Risk ID column, click the Risk ID whose risk mitigations you want to delete. 
+- If on the Critical Data page, Critical Processes page, or Categorization page: In the Name column, click the Down Arrow , , to the left of the critical data, critical process, or risk category whose risks you want to view, and then in the Risk ID column, click the risk ID whose risk mitigations you want to delete . 
+- In the Risk Review subpage, click the  Details tab. 
+- In the Mitigations and Actions section, click and then click Delete , in the corresponding row of each risk mitigation you want to delete. 
+- Click Save .

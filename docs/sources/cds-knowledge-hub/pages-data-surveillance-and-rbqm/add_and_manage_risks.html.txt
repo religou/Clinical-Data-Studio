@@ -1,0 +1,266 @@
+# Add and Manage Risks
+
+## Add and Manage Risks
+ You can identify and add to the risk assessment the study risks associated with critical data, critical processes, and risk categories. By adding risks to the risk assessment, you can track and monitor risks and, if necessary, take risk mitigating actions to eliminate risks or minimize the risks' impact on the study.
+ In addition, you can:
+- View and edit an individual risk's details. 
+- Document risk review actions taken. 
+- Mark risks as reviewed. 
+- Close risks. 
+- Delete risks. 
+- Add and manage QTLs associated with risks. 
+- Add and manage KRIs associated with risks. 
+- Add and manage risk mitigations. 
+## Add Risks to the Risk Assessment
+ You can identify and add to the risk assessment the study risks associated with critical data, critical processes, and risk categories. When logging risks, you can:
+- Identify high-level details about the risk such as rationale for tracking, current risk status, or recommended actions to address or manage the risk. 
+- Set the frequency in which your team must review the risk. 
+- Score each risk in your study by assessing the probability, impact, and detectability of the risk; also known as the risk score . 
+ By adding risks to the risk assessment, you can track and monitor risks and, if necessary, take risk mitigating actions to eliminate risks or minimize the risks' impact on the study.
+ Tip : After adding a risk, you can optionally a ssociate QTLs and KRIs to the risk or add risk mitigations . 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears.
+- In the Add Risk column, click the blue Plus icon, , in the row of the corresponding critical data, critical process, or risk category to which you want to associate a new risk. 
+- On the Add Risk subpage >  Details tab > Details section, select or enter the following:
+ Field Descriptions 
+- Label (Required) – Enter up to 255 characters for the name of the risk. 
+- Status  – Select the risk status: 
+- Closed – The risk is no longer tracked as part of your study's ongoing risk assessment. For example, the risk is irrelevant to the study to due to protocol changes or the risk is acceptable to your study. Risks marked as closed do not appear in the Risk Inventory and do not get tallied in the study's total risk score.  
+- Open – The risk is currently included as part of your study's ongoing risk assessment. The risk shows in the Risk Inventory and gets tallied in the study's total risk score. 
+- Transfer – The risk has been transferred to another party or organization to manage and is no longer a part of your risk assessment. The risk shows in the Risk Inventory, but does not get tallied toward the study's total risk score. 
+- Watch – The risk is open, but considered a lower priority in your risk assessment and likely requiring a lower review frequency. The risk shows in the Risk Inventory and gets tallied in the study's total risk score. 
+- Response  – Select the risk response: 
+- Accept – The risk is below your study's risk threshold and considered an acceptable risk in your study. No action must be taken on the risk. The Risk Inventory does not track risks marked as accepted. In general, it is best practice to close risks that you accept. 
+- Eliminate – The risk no longer requires inclusion in the study's risk assessment. You can close or delete the risk for your study. 
+- Mitigate – The risk requires mitigating actions to lower the risk's severity. 
+- Monitor – The risk requires monitoring and review but no mitigating actions. 
+- Transfer – The risk should be transferred to another party or organization to manage and no longer be a part of your risk assessment. 
+- Description – Enter up to 3000 characters to provide further details about this risk and rationale for documenting and tracking the risk. 
+- Owner – Enter or select the name of the person responsible for tracking the risk.  
+- Source – The source of the risk. For example, from the Case Report Form (CRF) or third-party source documents. 
+- Include in Report – Select Yes to include the risk in the risk plan report. Otherwise, select No to exclude. For example, you can exclude company operational risks documented in the risk assessment that are not directly related to the actual study. 
+- Category – The Category selection automatically takes on the same category as the parent critical data, critical process, or risk category that risk is associated with. If necessary, s elect a different category. In general, the Category selection should match that of the category selected for the risk's associated critical data, critical process, or risk category. 
+- Date Entered (Required) – Enter the date the risk is entered into the risk record in DD/MMM/YYYY format. You can also use the date picker calendar to select the date. 
+- Date Closed –   You cannot manually edit this field. Instead, the date is automatically set to the Current Date when the Risk Status value changes to Closed. The Closed Date appears on the Add Risk and Risk Review pages. When the Risk Status is Closed or Transferred, the Target Review Date is set to Not Applicable.
+ Note : When a risk is closed or transferred, you can no longer edit fields on the Risk Review page except for Risk Status. If you reopen the risk by changing the Risk Status, you can edit the fields again.
+- Optional . In the Score section, select the following risk factor scores to generate the risk's overall risk score :
+- Probability – Select a value on a 3-point risk score scale:  High impact = 3, Medium impact = 2, Low impact = 1. On a 5-point risk score scale:  High probability = 5, Medium probability = 3, Low probability = 1. 
+- Impact – Select a value on a 3-point risk score scale:  High impact = 3, Medium impact = 2, Low impact = 1. On a 5-point risk score scale:  High impact = 5, Medium impact = 3, Low impact = 1. 
+- Detectability – Select a value on a 3-point risk score scale:  High impact = 3, Medium impact = 2, Low impact = 1. On a 5-point risk score scale:  Difficult to Detect = 5, Medium to Detect = 3, Easy to Detect = 1.
+ Note : RBQM automatically multiplies the Probability, Impact, and Detectability risk factor scores to generate the risk score. On a 3-point risk score scale, the maximum risk score is 27. Color coding indicates the severity of risk where values 1-3 appear in green (minimal risk), 4-9 appear in yellow (moderate risk), and 10-27 appear in red (high risk). On a 5-point risk score scale, the maximum risk score is 125. Color coding indicates the severity of risk where values 1-5 appear in green (minimal risk), 6-25 appear in yellow (moderate risk), and 26-125 appear in red (high risk). To learn more, see Risk Scores . 
+- In the Mitigations and Actions section, select or enter the following:
+ Field Descriptions 
+- Mitigation – Click the Add Mitigation button to add mitigations to the risk. To learn more, see  Add and Manage Risk Mitigations . 
+- Action Required     – Selecting Yes indicates that there was an action taken on the risk as part of the latest risk review. Selecting No indicates no actions were taken in the latest review. 
+- Review Frequency (Required) – Select Weekly , Every Other Week , Monthly , or Quarterly . RBQM uses the Review Frequency to calculate when the target review date is approaching.  
+ Note : For new risks, the Review Frequency affects the Target Review Date as follows:
+- Weekly – The Target Review Date is 7 days after the risk is entered. For example, if the risk is entered on February 1, then the Target Review Date is February 8. 
+- Every Other Week – The Target Review Date is 14 days after the risk is entered. 
+- Monthly – The Target Review Date is 30 days after the risk is entered. 
+ Note : 30 days are added to the Entered date. For example, an Entered date of February 1 (in a nonleap year) shows a Target Review Date of March 2, that is, 30 days after the Entered date.
+- Quarterly – The Target Review Date is 90 days after the risk is entered. 
+ For existing risks, the Target Review Date is based on the Review Frequency and the Last Risk Review Date.
+- Action Taken – Click the Add Action button to add and document one or more actions for reviewing the risk. For example, if you drafted a report, added a KRI to the risk, changed risk review milestone dates, or completed a risk review. When adding actions, select or enter the following:
+- Action Taken Date (Required) – Enter the date of the first risk review action in DD/MMM/YYYY format. 
+- Action Completed Date (Required) – Enter the date the risk review action is completed in DD/MMM/YYYY format. 
+- Action Taken (Optional) – Enter up to 3000 characters documenting actions taken related to tracking the risk. 
+ Tip : You must only select or enter a Label , Date Entered , and Review Frequency to save the risk.
+- Click  Save .
+You can now monitor and manage the risk from the Risk Inventory. 
+ Note: If you save a risk with one or more expected fields empty, a notification message appears and the risk saves, but is marked as incomplete. In complete risks on the Risk Inventory page appear with a   , warning icon. If you hover your cursor over the icon, an   Incomplete   flag appears. 
+## View and Edit Risk Details
+ You can view an individual risk's details:
+- For oversight to ensure the study team is following the risk plan. 
+- To view documented review actions taken on the risk. 
+- As a reference for another study's risk assessment. 
+ You can also edit a risk's details. For example, you can:
+- Update the risk name or description to correct an entry error, typo, or for more clarity. 
+- Change the current risk status. 
+- Document actions to address or manage the risk. 
+- Change the frequency in which your team must review the risk. 
+- Adjust the risk score . 
+ You can access the risks you want to view and edit in two ways:
+- When viewing a holistic view of the risks in your study's risk inventory. 
+- When viewing the risks associated with specific critical data, critical processes, or risk categories in the risk assessment. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page : In the Risks tab > Risks table > Risk ID column, click the Risk ID for the risk whose details you want to view or edit. 
+- If on the Critical Data page, Critical Processes page, or Risk Categorization page : Click the Down Arrow , , to the left of the critical data, critical process, or risk category name whose risks you want to view, and then i n the Risk ID column, click the risk ID whose details you want to view or edit. 
+- On the Risk Review subpage >  Details tab, view, select, or enter the following:
+ Field Descriptions 
+- Label (Required) – Enter up to 255 characters for the name of the risk. 
+- Status  – Select the risk status: 
+- Closed – The risk is no longer tracked as part of your study's ongoing risk assessment. For example, the risk is irrelevant to the study to due to protocol changes or the risk is acceptable to your study. Risks marked as closed do not appear in the Risk Inventory and do not get tallied in the study's total risk score.  
+- Open – The risk is currently included as part of your study's ongoing risk assessment. The risk shows in the Risk Inventory and gets tallied in the study's total risk score. 
+- Transfer – The risk has been transferred to another party or organization to manage and is no longer a part of your risk assessment. The risk shows in the Risk Inventory, but does not get tallied toward the study's total risk score. 
+- Watch – The risk is open, but considered a lower priority in your risk assessment and likely requiring a lower review frequency. The risk shows in the Risk Inventory and gets tallied in the study's total risk score. 
+- Response  – Select the risk response: 
+- Accept – The risk is below your study's risk threshold and considered an acceptable risk in your study. No action must be taken on the risk. The Risk Inventory does not track risks marked as accepted. In general, it is best practice to close risks that you accept. 
+- Eliminate – The risk no longer requires inclusion in the study's risk assessment. You can close or delete the risk for your study. 
+- Mitigate – The risk requires mitigating actions to lower the risk's severity. 
+- Monitor – The risk requires monitoring and review but no mitigating actions. 
+- Transfer – The risk should be transferred to another party or organization to manage and no longer be a part of your risk assessment. 
+- Description – Enter up to 3000 characters to provide further details about this risk and rationale for documenting and tracking the risk. 
+- Owner – Enter or select the name of the person responsible for tracking the risk.  
+- Source – The source of the risk. For example, from the Case Report Form (CRF) or third-party source documents. 
+- Include in Report – Select Yes to include the risk in the risk plan report. Otherwise, select No to exclude. For example, you can exclude company operational risks documented in the risk assessment that are not directly related to the actual study. 
+- Category – The Category selection automatically takes on the same category as the parent critical data, critical process, or risk category that risk is associated with. If necessary, s elect a different category. In general, the Category selection should match that of the category selected for the risk's associated critical data, critical process, or risk category. 
+- Date Entered (Required) – Enter the date the risk is entered into the risk record in DD/MMM/YYYY format. You can also use the date picker calendar to select the date. 
+- Date Closed –   You cannot manually edit this field. Instead, the date is automatically set to the Current Date when the Risk Status value changes to Closed. The Closed Date appears on the Add Risk and Risk Review pages. When the Risk Status is Closed or Transferred, the Target Review Date is set to Not Applicable.
+ Note : When a risk is closed or transferred, you can no longer edit fields on the Risk Review page except for Risk Status. If you reopen the risk by changing the Risk Status, you can edit the fields again.
+- Optional . In the Risk Score section, select the following risk factor scores to generate the risk's overall risk score :
+- Probability – Select a value on a 3-point risk score scale:  High impact = 3, Medium impact = 2, Low impact = 1. On a 5-point risk score scale:  High probability = 5, Medium probability = 3, Low probability = 1. 
+- Impact – Select a value on a 3-point risk score scale:  High impact = 3, Medium impact = 2, Low impact = 1. On a 5-point risk score scale:  High impact = 5, Medium impact = 3, Low impact = 1. 
+- Detectability – Select a value on a 3-point risk score scale:  High impact = 3, Medium impact = 2, Low impact = 1. On a 5-point risk score scale:  Difficult to Detect = 5, Medium to Detect = 3, Easy to Detect = 1.
+ Note : RBQM automatically multiplies the Probability, Impact, and Detectability risk factor scores to generate the risk score. On a 3-point risk score scale, the maximum risk score is 27. Color coding indicates the severity of risk where values 1-3 appear in green (minimal risk), 4-9 appear in yellow (moderate risk), and 10-27 appear in red (high risk). On a 5-point risk score scale, the maximum risk score is 125. Color coding indicates the severity of risk where values 1-5 appear in green (minimal risk), 6-25 appear in yellow (moderate risk), and 26-125 appear in red (high risk).  To learn more, see Risk Scores . 
+- In the Mitigations and Actions section, select or enter the following:
+ Field Descriptions 
+- Mitigation – Click the Add Mitigation button to add mitigations to the risk. To learn more, see  Add and Manage Risk Mitigations . 
+- Action Required     – Selecting Yes indicates that there was an action taken on the risk as part of the latest risk review. Selecting No indicates no actions were taken in the latest review. 
+- Review Frequency (Required) – Select Weekly , Every Other Week , Monthly , or Quarterly . RBQM uses the Review Frequency to calculate when the target review date is approaching.  
+ Note : For new risks, the Review Frequency affects the Target Review Date as follows:
+- Weekly – The Target Review Date is 7 days after the risk is entered. For example, if the risk is entered on February 1, then the Target Review Date is February 8. 
+- Every Other Week – The Target Review Date is 14 days after the risk is entered. 
+- Monthly – The Target Review Date is 30 days after the risk is entered. 
+ Note : 30 days are added to the Entered date. For example, an Entered date of February 1 (in a nonleap year) shows a Target Review Date of March 2, that is, 30 days after the Entered date.
+- Quarterly – The Target Review Date is 90 days after the risk is entered. 
+ For existing risks, the Target Review Date is based on the Review Frequency and the Last Risk Review Date.
+- Action Taken – Click the Add Action button to add and document one or more actions for reviewing the risk. For example, if you drafted a report, added a KRI to the risk, changed risk review milestone dates, or completed a risk review. When adding actions, select or enter the following:
+- Action Taken Date (Required) – Enter the date of the first risk review action in DD/MMM/YYYY format. 
+- Action Completed Date (Required) – Enter the date the risk review action is completed in DD/MMM/YYYY format. 
+- Action Taken (Optional) – Enter up to 3000 characters documenting actions taken related to tracking the risk. 
+ Tip : You must only select or enter a Label , Date Entered , and Review Frequency to save the risk.
+- Click  Save .
+ Note:  If you save a risk with one or more expected fields empty, a notification message appears and the risk saves, but is marked as incomplete. In complete risks on the Risk Inventory page appear with a   , warning icon. If you hover your cursor over the icon, an   Incomplete   flag appears. 
+## Document Risk Review Actions Taken
+ When reviewing risks, you can document one or more actions that you performed as part of your risk review. For example, if you drafted a report, added a KRI to the risk, changed risk review milestone dates, or completed a risk review. Documenting the risk review actions taken helps:
+- Track the review actions you have performed on the risk throughout the study. 
+- Communicate to team members risk review actions that you and others have performed. 
+- Provides auditable traceability. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page : In the Risks tab > Risks table > Risk ID column, click the Risk ID for the risk whose details you want to view or edit. 
+- If on the Critical Data page, Critical Processes page, or Risk Categorization page : Click the Down Arrow , , to the left of the critical data, critical process, or risk category name whose risks you want to view, and then i n the Risk ID column, click the risk ID whose details you want to view or edit. 
+- On the Risk Review subpage >  Details tab > Mitigations and Actions section >  Action Taken field, click the  Add Action , button , and then select or enter the following: 
+- Action Taken Date (Required) – Enter the date of the first risk review action in DD/MMM/YYYY format. 
+- Action Completed Date (Required) – Enter the date the risk review action is completed in DD/MMM/YYYY format. 
+- Action Taken (Optional) – Enter up to 3000 characters documenting actions taken related to tracking the risk. 
+- In the Add Action panel, click Save . 
+- In the Review Review subpage, click Save . 
+## Mark Risks as Reviewed
+ As part of the risk monitoring plan, study teams typically agree on and establish a frequency for how often and consistently to review risk performance and update risk details as necessary. After reviewing a risk in RBQM, you can formally mark the risk as reviewed. Marking risks as reviewed updates the Risk Inventory and Risk Review window to:
+- Set the risk's status to 'Reviewed'. 
+- Post the timestamp of the risk's last review performed. 
+- Post the name of the user who performed the last review of the risk. 
+ Marking risks as reviewed helps communicate to you and others on your team which risk reviews are up to date and on time and which risks require review. This helps ensure that your team follows the established risk monitoring plan.
+ You can access the risks you want to mark as reviewed in two ways:
+- When viewing a holistic view of the risks in your study's risk inventory. 
+- When viewing the risks associated with specific critical data, critical processes, or risk categories in the risk assessment. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page : In the Risks tab > Risks table > Risk ID column, click the Risk ID for the risk you want to mark as reviewed. 
+- If on the Critical Data page, Critical Processes page, or Risk Categorization page : Click the Down Arrow , , to the left of the critical data, critical process, or risk category name whose risks you want to view, and then i n the Risk ID column, click the risk ID for the risk you want to mark as reviewed. 
+- If necessary, on the Risk Review subject, view or edit the  risk details or any associated QTLs , KRIs , or risk mitigations . 
+- Click Mark Reviewed .
+A "Risk reviewed successfully" message shows at the top of the page. On the Risk Review subpage > Details tab, the:
+- Target Review Date field shows the status as Reviewed . 
+- Last Reviewed By field updates to show your name as the most recent reviewer as well as the review date.  
+## Close Risks
+ You can close risks that you no longer must track as part of your study's ongoing risk assessment. For example:
+- The risk is irrelevant to the study to due to protocol changes. 
+- The risk acceptable to your study. 
+- The study has concluded. 
+ Risks marked as closed do not appear in the Risk Inventory and do not get tallied in the study's total risk score. 
+ You can access the risks you want to close in two ways:
+- When viewing a holistic view of the risks in your study's risk inventory. 
+- When viewing the risks associated with specific critical data, critical processes, or risk categories in the risk assessment. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page : In the Risks tab > Risks table > Risk ID column, click the Risk ID for the risk you want to close. 
+- If on the Critical Data page, Critical Processes page, or Risk Categorization page : Click the Down Arrow , , to the left of the critical data, critical process, or risk category name whose risks you want to view, and then i n the Risk ID column, click the risk ID for the risk you want to close. 
+- In the Review Risk subpage, click the Status menu, and then click Close .
+- Click Save . 
+## Delete Risks
+ You can delete risks from the study; for example, duplicate risks or other risks added to the risk assessment in error.
+ Note : Deleting risks permanently deletes the risk and all associated data from RBQM. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Click the Down Arrow , , to the left of the critical data, critical process, or risk category name whose risks you want to view, and then i n the Risk ID column, click the risk ID for the risk you want to delete. 
+- In the Review Risk subpage header, click the More icon,  , and then  click Delete . 
+## Add and Manage QTLs Associated to Risks
+ QTLs are study-level metrics that indicate if a study parameter's reported data has breached a preidentified data quality  threshold or upper limit . You can: 
+- Link QTLs to risks to evaluate and monitor whether the risk level is improving based on how you are managing or mitigating the risks. 
+- View and edit the details of QTLs associated with risks 
+- Unlink QTLs from risks. 
+ To learn more, see  Add and Manage QTLs Associated with Risks . 
+## Add and Manage KRIs Associated to Risks
+ Key Risk Indicators (KRIs) are predefined study metrics that enable you for the duration of the study to systematically:  
+- Identify and track known or anticipated risks to data quality. 
+- Evaluate country and site performance in a study. 
+- Ensure study conduct operates as planned. 
+ You can:
+- Link KRIs to risks to evaluate and monitor whether the risk level is improving based on how you are managing or mitigating the risks. 
+- View and edit the details of KRIs associated with risks 
+- Unlink KRIs from risks. 
+ To learn more about KRIs, see  Add and Manage KRIs Associated with Risks .
+## Add and Manage Risk Mitigations
+ Risk mitigations  help control, reduce, or eliminate risks to the study outcome. You can: 
+- Add risk mitigations to risks. 
+- View the risk mitigations associated with a risk. 
+- Edit a risk's set of mitigations. 
+- Delete mitigations. 
+ To learn more, see  Add and Manage Risk Mitigations .

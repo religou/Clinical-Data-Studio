@@ -1,0 +1,46 @@
+# Updates to Detect User Permissions
+
+## Updates to Detect User Permissions
+## Description
+ Centralized Statistical Monitoring, Key Risk Indicators, Quality Tolerance Limits, Data Reviewer, and Detect Configuration Manager include updates to permissions in your customer-defined platform role. 
+## Affected Roles
+ All.
+## Advantages
+ The Centralized Statistical Monitoring, Key Risk Indicators, Quality Tolerance Limits, and Detect Configuration Manager permission update support the new Detect style.
+ The updated Data Reviewer permissions allow you to access Data Reviewer as per your roles.
+## User Impact
+ For Centralized Statistical Monitoring:
+- The following permission labels are updated:
+- Manage Detect CSM From Manage Detect 
+- Review Detect CSM From Review Detect 
+- View Detect CSM From View Detect 
+- View QTL Dashboard From View QTL 
+- The following permissions are removed:
+- View Detect Risk Categories Perspective 
+- View Detect Sites Perspective 
+- View Detect Countries Perspective 
+- View Detect Domains Perspective 
+ For Key Risk Indicators:
+- The following new permission is added:
+- View KRI Dashboard – Inherits KRI-related permissions from CSM. 
+ For Quality Tolerance Limits:
+- The following permission labels are updated:
+- View QTL Dashboard From View QTL 
+ For Data Reviewer:
+- To access Medidata Detect > Patient Data Surveillance > Data Reviewer, you must have the following   permissions to your customer-defined platform role in Data Reviewer.
+- View Data Reviewer - to view listings. 
+- Manage Data Reviewer - to create, edit, and approve listings. 
+- Submit Queries - additional permission to submit Rave queries for a listing record. You must have either the View Data Viewer or the Manage Data Viewer permission to view listings. 
+ For Detect Configuration Manager:
+- The following permission labels are updated:
+- Manage Detect Configuration 
+- Manage KRI Configuration 
+- View KRI Configuration 
+- View QTL Configuration 
+- Manage QTL Configuration 
+- View Detect Configuration 
+## Knowledge Space Updates
+ The Detect Knowledge Space provides new and updated content to support the enhancement: 
+- Detect User Roles and Capabilities 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

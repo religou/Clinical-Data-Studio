@@ -1,0 +1,28 @@
+# Download Period for Successful Exports Extended to 60 Days
+
+## Download Period for Successful Exports Extended to 60 Days
+## Description
+ You can download extracted files from an export job up to 60 days after the most recent successful export.
+## Affected Roles
+ All.
+## Advantages
+ Previously, you had up to 24 hours after a successful export job to download the extracted files. While SFTP export has no limitation, the additional time gives you flexibility for when you can download your files, especially when an export job completes over a weekend or holiday.
+## User Impact
+ You can download extracted files up to 60 days after an export job successfully completes.
+## Knowledge Space Updates
+ The MEDS Extractor Knowledge Space provides new and updated content to support this enhancement: 
+- Name Outputs for Client Division Level Job 
+- Name Outputs 
+- Download Data Extracts 
+- Review Export Run History 
+- Extract EDC Data - Quick Start 
+- Extract Site Monitoring Data - Quick Start 
+- Extract Issue Management Data - Quick Start 
+- Extract Study Management Data - Quick Start 
+- Extract Study Master Data - Quick Start 
+- Extract Client Division Master Data - Quick Start 
+- Extract Study Level Audit Data - Quick Start 
+- Extract Task Management Data - Quick Start 
+- Extract Client Division Level Audit Master Data - Quick Start 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

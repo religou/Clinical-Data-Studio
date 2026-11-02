@@ -1,0 +1,46 @@
+# KRI Risk Level Alert Methodology
+
+## KRI Risk Level Alert Methodology
+ RBQM indicates a KRI's level of risk on the KRI Dashboard by color-coding its KRI value and appending asterisks to the KRI value. However, the methodology that RBQM uses to determine a KRI's risk level threshold differs for system KRIs and custom KRIs. 
+## System KRIs Risk Alert Methodology
+ RBQM uses a standard value-based risk level threshold for the following system KRIs: 
+- AE Entry Delay 
+- Visit Entry Delay 
+- Non-System Query Delay 
+- System Query Delay 
+- Percent Out Of Window Visit 
+- Missing Visit Percentage 
+ For AE Entry Delay, Visit Entry Delay, Non-System Query Delay, and System Query Delay, if the KRI's value is: 
+- Less than 7 , then the KRI Dashboard shows the KRI value in green font and no asterisk. Green suggests that there is nothing about the study data at the site or country that would raise alarm about the risk being monitored. The site or country is likely operating and reporting data as expected. 
+- Equal to or greater than 7 but less than 14 , then the KRI Dashboard shows the KRI value in yellow font and appended with one asterisk. Yellow* indicates that there is a strong association indicating that there may be an underlying cause at the site or country resulting in its KRI value to be an outlier. The risk being monitored may warrant investigation at the site or country level. 
+- Greater than 14 , then the KRI Dashboard shows the KRI value in red font and appended with two asterisks. Red** indicates that there is a strong association indicating that there may be an underlying cause at the site or country resulting in its KRI value to be an extreme outlier. The risk being monitored may warrant investigation at the site or country level. 
+ For Percent Out Of Window Visit and Missing Visit Percentage, if the KRI's value is: 
+- Equal to or greater than 0% but less than 10% , then the KRI Dashboard shows the KRI value in green font and no asterisk. Green suggests that there is nothing about the study data at the site or country that would raise alarm about the risk being monitored. The site or country is likely operating and reporting data as expected. 
+- Equal to or greater than 10% but less than 20% , then the KRI Dashboard shows the KRI value in yellow font and appended with one asterisk. Yellow* indicates that there is a strong association indicating that there may be an underlying cause at the site or country resulting in its KRI value to be an outlier. The risk being monitored may warrant investigation at the site or country level. 
+- Greater than 20% , then the KRI Dashboard shows the KRI value in red font and appended with two asterisks. Red** indicates that there is a strong association indicating that there may be an underlying cause at the site or country resulting in its KRI value to be an extreme outlier. The risk being monitored may warrant investigation at the site or country level. 
+ RBQM uses a statistical model to determine the risk level for the following system KRIs: 
+- Number of AEs Per Patient-Month 
+- Number of SAEs Per Patient-Month 
+- Manual Query Rate 
+- System Query Rate 
+ To learn about RBQM's statistical model for its risk level alert methodology, see Statistical Model for Risk Alert Methodology . 
+## Custom KRIs Risk Alert Methodology
+ You can configure custom numeric and percentage KRIs to use: 
+- User-defined risk level thresholds as the basis for the KRI's risk level alert methodology, or 
+- The system-defined risk level thresholds based on RBQM's statistical model for the KRI's risk level alert methodology. To learn more, see Statistical Model for Risk Alert Methodology . 
+ If the KRI's threshold type is User Defined, then you can define the KRI's: 
+- Moderate Risk Threshold 
+- High Risk Threshold. 
+ If the KRI's value is: 
+- Above the user-defined high risk threshold , then the KRI Dashboard shows the KRI value in red font and appended with two asterisks. Red** indicates that there is a strong association indicating that there may be an underlying cause at the site or country resulting in its KRI value to be an extreme outlier. The risk being monitored may warrant investigation at the site or country level. 
+- Below the user-defined high risk threshold but above the user-defined moderate risk threshold , then the KRI Dashboard shows the KRI value in yellow font and appended with one asterisk. Yellow* indicates that there is a strong association indicating that there may be an underlying cause at the site or country resulting in its KRI value to be an outlier. The risk being monitored may warrant investigation at the site or country level. 
+- Above the user-defined moderate risk threshold and there is no defined high risk threshold , then the KRI Dashboard shows the KRI value in yellow font and appended with one asterisk. Yellow* indicates that there is a strong association indicating that there may be an underlying cause at the site or country resulting in its KRI value to be an outlier. The risk being monitored may warrant investigation at the site or country level. 
+- Below the user-defined moderate risk threshold , then the KRI Dashboard shows the KRI value in green font and no asterisk. Green suggests that there is nothing about the study data at the site or country that would raise alarm about the risk being monitored. The site or country is likely operating and reporting data as expected. 
+## Statistical Model for Risk Alert Methodology
+ RBQM includes each site and country in a  statistical model to determine whether the site or country is significantly associated with a given KRI . RBQM calculates the p-value and slope coefficient for all sites and countries for a given KRI. RBQM then ranks the p-value and slope coefficient for all sites and countries for a given KRI by quantile . RBQM ranks sites and countries with lower p-values higher than those with higher p-values. Likewise, RBQM ranks sites and countries with higher slope coefficients higher than those with lower slope coefficients.  
+ RBQM determines a site or country KRI's risk level by calculating the combined average of the p-value quantile value and slope coefficient quantile value for each site and country KRI. Based on the average quantile, the KRI Dashboard  color-codes each site and country KRI value to alert you to the KRI risk level:
+- Red** indicates that the KRI value at the site or country has an average quantile value of less than 5% or greater than 95% for a given KRI value. This means that there is a strong association indicating that there may be an underlying cause at the site or country resulting in its KRI value to be an extreme outlier. The risk being monitored may warrant investigation at the site or country level. 
+- Yellow* indicates that the KRI value at the site or country has an average quantile value between 5% and 15% or between 85% and 95% for a given KRI value. This means that there is a strong association indicating that there may be an underlying cause at the site or country resulting in its KRI value to be an outlier. The risk being monitored may warrant investigation at the site or country level. 
+- Green indicates that the KRI value at the site or country has an average quantile value between 15% and 85% for a given KRI value. This suggests that there is nothing about the study data at the site or country that would raise alarm about the risk being monitored. The site or country is likely operating and reporting data as expected. 
+- Gray indicates that there are fewer than two patients at the site or country, which is not enough data to determine risk level. 
+ For example, let us say a site or country KRI has a p-value of 0.0006 and a slope coefficient of 14.3. In this scenario, the p-value is very low and the slope coefficient is very high compared to those of other sites or countries for the same KRI. Thus, the p-value is assigned a quantile of 100% and the slope coefficient is assigned a quantile of 96%. The resulting average quartile value for that site or country will then be (100% + 96%)/2 = 98%. Since the site or country KRI has an average quantile value greater than 95%, then the KRI Dashboard color-codes the KRI value in red.

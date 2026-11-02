@@ -1,0 +1,160 @@
+# Refresh Designs to Reflect the Latest Available Study Data
+
+## Refresh Designs to Reflect the Latest Available Study Data
+ You can set scheduled refreshes or manually refresh individual published patient profile designs to show and reflect data based on the latest study data ingested by Data Surveillance. 
+ Performing data refreshes on individual patient profile designs enables you to: 
+- Control the data that you want to show for your patient profile designs. 
+- Control the pace of your patient profile review cycles. 
+- Gain clearer visibility and understanding of the data that: 
+- Requires initial review. 
+- Is reviewed and up to date. 
+- Was previously reviewed but now requires rereview due to post-review data changes. 
+ Therefore, conducting patient profile design reviews is now clearer, simpler, and more efficient. 
+ Important : We highly recommend r eviewing patients marked with the Requiring Review status before refreshing profile designs. You can filter the Patient Selector by the Review Status column > Requiring Review filter to find patients that require review. Otherwise, you risk losing track of and not reviewing new and updated data from previous data snapshots. 
+## Refresh Patient Profiles Data On-Demand
+ Patient Profiles supports on-demand refresh directly within the application to instantly trigger manual data updates independently of predefined automated schedules .  Items already scheduled or queued for data refresh today disable automatically, and are unavailable for selection for on-demand refreshes. 
+ Total daily refreshes combine both scheduled and on-demand refreshes : You can perform up to two refreshes per day per design. 
+ Tip : We recommend refreshing data for patient profile designs only when you need to see new data. For example, you might want to refresh a patient profile design to review data after a specific study milestone date. 
+- 
+ Access a published design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment.
+- On the Patient Profiles Designs page, c lick the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Published Date – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Profiles tab, click  Refresh .
+ Notes:
+- The Refresh button is inactive if the current data shown in the design is from the most recent data refresh or if a refresh is in progress. 
+- Patient profile designs   may take several minutes or more to refresh depending on the design complexity and patient volume. 
+- The name of the last user who refreshed the profile shows in the design page header below the design name. 
+## Refresh Data On A Fixed Schedule
+ You can set published profile designs in a study to refresh data at a specified cadence by configuring a refresh schedule on the  Unified Scheduler page . You can also schedule refreshes on the Patient Profiles page.
+## View Refresh Schedule
+ You can view the details of the scheduled refresh configured for published patient profile designs.
+- Access Data Surveillance . 
+- Click Patient Profiles   in the left-hand menu. 
+- On the Published Designs tab, click   View Refresh Schedule .
+The Refresh schedule page shows all the scheduled refreshes. For each schedule, the following appears:
+ Schedule Refresh Details 
+- Name – Title of the refresh. 
+- Frequency – Frequency at which refresh occurs. 
+- Last Edited B y – The user who last edited the refresh schedule. 
+- Optional.  Click Export Settings to export the scheduled refresh configurations. 
+## Create Refresh Schedule
+ You can create scheduled refreshes on the Patient Profiles page as well as on the Unified Scheduler page. 
+- Access Data Surveillance . 
+- Click Patient Profiles   in the left-hand menu. 
+- On the Published Designs tab, click   View Refresh Schedule .
+The Refresh schedule page shows all the scheduled refreshes.  
+- Click Create Schedule .
+The Create Schedule page appears. 
+- Click Patient Profiles. 
+- Click Next . 
+- On the Configure page, complete the field details.
+ Table Column Descriptions 
+- Title – T itle for the scheduled refresh. 
+For Patient Profiles, the title is automatically updated to the published design you select. 
+- Frequency – Select the cadence at which the scheduled refresh. 
+- None – Saves the items in the scheduled refresh as a group. You can add frequency later as needed. 
+- Daily – Runs the scheduled refresh daily. 
+- Weekly – Runs the scheduled refresh weekly. You must further select the day. 
+- Biweekly – Runs the scheduled refresh every other week. You must further select the day.  
+- Monthly – Runs the scheduled refresh once a month. You must further select the day: 
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Bimonthly – Runs the scheduled refresh once every two months. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Quarterly – Runs the scheduled refresh once every quarter. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Select the published design you want to include. 
+- Click Create Schedule . 
+- Optional.  Click Back from the top of the Configure Schedule page to restart the steps. 
+## Edit Refresh Schedule
+ To create or edit schedules for Patient Profiles, you must must have the following building blocks: 
+- Manage Data Refresh Scheduler 
+- Patient Profile Refresh 
+- All site access 
+ For more information, see  Data Surveillance Building Blocks and Permissions . 
+- Access Data Surveillance , and then click   Patient Profiles   in the left-hand menu. 
+- On the Published Designs tab, click   View Refresh Schedule . The Refresh schedule page shows all the scheduled refreshes 
+- For any schedule, click   , the   More   icon from the top right corner of the schedule. 
+- Click Edit .  
+- Update the refresh frequency fields as needed.
+ Table Column Descriptions 
+- Title – Read-only; non-editable.  T itle for the scheduled refresh. 
+- Frequency – Select the cadence at which the scheduled refresh. 
+- None – Saves the items in the scheduled refresh as a group. You can add frequency later as needed. 
+- Daily – Runs the scheduled refresh daily. 
+- Weekly – Runs the scheduled refresh weekly. You must further select the day. 
+- Biweekly – Runs the scheduled refresh every other week. You must further select the day.  
+- Monthly – Runs the scheduled refresh once a month. You must further select the day: 
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Bimonthly – Runs the scheduled refresh once every two months. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Quarterly – Runs the scheduled refresh once every quarter. You must further select the day:
+- First 
+- Last 
+- First day of the month. 
+- Last day of the month. 
+- Select a new published profile design, if needed.  
+- Click Save Schedule . 
+## View Included Items 
+ You can view the list of records included in a scheduled refresh.
+- Access Data Surveillance , and then click   Patient Profiles   in the left-hand menu. 
+- On the Published Designs tab, click   View Refresh Schedule.
+ The Refresh schedule page shows all the scheduled refreshes 
+- For any schedule, click   , the   More   icon from the top right corner of the schedule. 
+- Click Included Items .
+The Included Items in a schedule window shows the published design in the schedule. 
+## Delete Schedule
+ If a refresh schedule is no longer required, you can delete it.
+- Access Data Surveillance , and then click   Patient Profiles   in the left-hand menu. 
+- On the Published Designs tab, click   View Refresh Schedule .
+ The Refresh schedule page shows all the scheduled refreshes 
+- For any schedule, click   , the   More   icon from the top right corner of the schedule. 
+- Click Delete . 
+- A Delete Schedule message appears.
+ Note : You cannot undo deletion. We recommend deleting schedules only if needed.
+- Click Delete.
+ The refresh schedule is deleted. 
+## View Refresh History
+ Review data refresh history within to monitor data update details for individual modules . The Refresh history page shows: 
+- When refreshes occurred . 
+- The type of refresh performed  
+- The associated snapshot date . 
+- The user who scheduled or started the refresh . 
+- For listings, it shows the record count associated with the refresh. 
+- Access Data Surveillance , 
+- Click   Custom Graphs   in the left-hand menu. 
+- Select any custom graph. 
+- Click   , the   More icon , above the custom graph. 
+- Click   Refresh History . The Refresh History page shows all refreshes for the custom graph.
+ Column Descriptions 
+- Refresh Date – Date and time when refresh started. 
+- Refresh Type – Scheduled or On-demand. For scheduled refreshes, the refresh cadence also appears. 
+- Snapshot Date – Date and time for the data snapshot.  
+- Refreshed By – Person who started the refresh. 
+- Optional. Filter or Sort the refresh history.

@@ -1,0 +1,14 @@
+# Signal Configuration
+
+## Signal Configuration
+ You can configure within RBQM the modules that Data Surveillance and RBQM uses to produce automated Signals for: 
+- Patient Profiles 
+- KRI Dashboard 
+- QTL Dashboard 
+- Potential Duplicate Patients 
+- Rounding and Propagation 
+- Under-Over Reporting Events 
+- Weekend and Holiday Visits 
+ The signals you see on the Signals page are automated indications of potential issues in the modules you configure. The Signals page also includes user-generated signals.
+ While configuring signals for individual modules, you can set up thresholds based on which automated signals get created. You must choose the modules you want the signals to report on. For example, if you do not enable KRIs in Signals Configuration, and add custom configurations, no signals get created for any KRI in your study when signals data refreshes.  
+ Study data automatically refreshes daily at approximately 7:30 AM (EST). When you refresh data on the Signals page, automated signals generate for configured modules based on the source module's last successful data update, and the threshold set for each module. Once you configure a signal, observations appear as signals based on custom configurations and the latest data snapshot for individual modules when you next refresh data. This means you can determine the exact version of the signals data in each module based on its snapshot date. Signal configuration changes made after 7:30 AM EST do not show in the automated signals report until the next day.

@@ -1,0 +1,5 @@
+# Integration With Other Medidata Apps
+
+## Integration With Other Medidata Apps
+ Medidata Patient Profiles includes the following capabilities related to integration with other Medidata apps:
+- Integrate Your Designs With CSA Patient Profiles

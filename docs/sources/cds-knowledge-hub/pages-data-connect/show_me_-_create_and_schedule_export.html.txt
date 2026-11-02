@@ -1,0 +1,19 @@
+# Show Me - Create and Schedule Export
+
+## Show Me - Create and Schedule Export
+ Summary 
+ | An overview on creating and scheduling export jobs. 
+ Duration 
+ | 5 min 57 sec 
+ Product 
+ | Data Connect - Exports 
+ Release 
+ | January 2025 
+ Video Category 
+ | Export Job Administration 
+ Related Topics 
+ | 
+- Create Export 
+- Extracting Data with Exports 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

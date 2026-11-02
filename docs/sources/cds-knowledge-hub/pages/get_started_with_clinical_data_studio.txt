@@ -1,0 +1,13 @@
+# PC Specifications
+
+## PC Specifications
+ For the best user experience, we recommend that your PC meets the following specifications:
+ | Browser 
+ | Latest version of Chrome, Firefox, or Safari. 
+ | Operating Systems 
+ | Windows 10 preferred, macOS 
+ | Internet Connectivity 
+ | High-speed internet 
+ | Network Settings 
+ | Your IT team can assess if you must make firewall changes to allow file transfers as specified in this article:
+ Firewall and Outbound Connectivity Issues

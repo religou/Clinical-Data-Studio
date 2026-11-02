@@ -1,0 +1,17 @@
+# Element Conditional Display Options Updated
+
+## Element Conditional Display Options Updated
+## Description
+ When you set up conditional display options for an element, the Operator field now shows only three options: "=", "not =", and "contains".
+## Affected Roles
+ All.
+## Advantages
+ With fewer operators available for conditional display, Patient Profile designers can filter and locate specific patient data in a study.
+## User Impact
+ When working with wide tables, transposed tables, or patient information tables on the Design page > Elements tab > TABLE OPTIONS tab > Conditional Options section > Display Conditions:
+- Element: When you click , the Operator field only shows three options: "=", "not =", and "contains"
+- If you select "=" as the operator, the element displays patient data if the variable is equal to the value set up in the expression. Otherwise the patient data does not display. 
+- If you select "not =" as the operator, the element displays patient data if the variable is not equal to the value set up in the expression. Otherwise the patient data does not display. 
+- If you select "contains" as the operator, the element displays patient data only if the variable in the expression contains  the value set up in the expression. Otherwise the patient data does not display. 
+## Special Considerations
+ None.

@@ -1,0 +1,25 @@
+# Exports: Interface Enhancements for September 2024
+
+## Exports: Interface Enhancements for September 2024
+## What Is New?
+ As a part of September 2024 release, the Exports experiences feature various enhancements including:
+- Updates to Exports user interface to provide a cohesive experience within Data Connect. 
+- Exports landing page updated to omit the active and archived tabs, users can view the archived job list with the More icon. 
+- The Settings tab and Locations tab renamed to "Connections" in the user interface. 
+- The Job Configuration tab for an export job is renamed as Settings. 
+- Updates to the old Job Run History data grid to display execution history. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ None.
+## How Do I Benefit?
+ The interface updates improve the look, feel, and navigation of the respective experiences.  
+## Where Do I See the Change?
+ The interface updates apply to various screens across the Exports experience including the Export creation wizard and the Exports List screen. 
+## Where Do I Learn More?
+ There are no additional relevant resources. 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

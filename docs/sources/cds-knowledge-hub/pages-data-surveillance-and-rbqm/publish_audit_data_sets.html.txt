@@ -1,0 +1,35 @@
+# Publish Audit Data Sets
+
+## Publish Audit Data Sets
+ Publishing audit trail data sets enables the use of operational data along with clinical data in a study. Audit data sets once published are available throughout the study for use as part of listings and KRIs. 
+ Note : You  can publish audit data sets only if you have the Manage Audit Trail Review permissions added to your role in Cloud Administration. 
+ Published audit data listings do not support: 
+- Submit queries. 
+- Submit vendor queries. 
+- Cross-dataset listing creation 
+- Missing records 
+## Publish Audit Data 
+- If necessary,  create an audit data set . 
+- Optional . From the right top corner of the page, click Saved chats . 
+ The Saved chats slide-out panel shows all the saved chats.  
+ Note : You must save a chat to publish the data as an audit dataset. The Publish as dataset button in the top right corner of the Data Preview section remains disabled for unsaved chats.
+- Select a saved chat. 
+- Do one of the following:
+- Click Rerun .
+ The interactive chat shows a confirmation message " Great, re-running your dataset." The query runs without any change. The Data Preview shows a data snapshot that matches the query criteria.
+- Optional. Click Retry. 
+- Click , the More icon, and then click  Publish as dataset to publish.
+ Note :
+- You cannot publish an audit dataset without saving the audit trail chat first . The Publish as dataset button remains disabled for unsaved chats. 
+- For any study, you can only publish a maximum of 10 data sets. The Publish as dataset button remains disabled once the study reaches this limit. Contact your Medidata representative if the Publish as dataset button gets disabled after 10 audit data sets are published in your study, if you want to publish further, or to delete an active, published audit data set. 
+- Enter a data set name in the Save to Datasets window. 
+- Click Confirm .
+The data set is available in the study once published.
+ Note :  Once published, audit datasets appear for use in Data Sets, Listings, and KRIs within 15 to 30 minutes. Updated data appears in published audit datasets based on a weekly audit workflow that runs at 9:00 am (EST), on Monday. You cannot publish and download a data set if the Data Preview section shows no records.  
+## Limitations in Published Audit Datasets
+ Audit data sets you publish are available to use throughout your study in Data Sets , Listings , KRI Dashboard . However, some limitation exists for published data sets.
+- You cannot use audit data sets for cross-data comparison. This means that while building a data set in the expression builder in listings or KRIs, you cannot use an audit data set along with a Medidata Rave data set. You can use a single audit data set in the expression builder. 
+- You cannot view individual patient pages in Rave from published data sets.  
+- Similarly, you cannot create listings or KRIs with audit time or audit dates. Published data sets also do not show updated queries if the question includes  dynamic dates. For example, a question like Show audit data for last two days, shows data specific to the date when you first asked the question. If you run the published data set at another time, it may bring in new data, but ATR does not automatically adjust to reflect relative dates. 
+## Inactive Patient Records
+ Audit trail review (ATR) captures all actions taken within Rave, including in records for inactive patients. You can therefore, preview, download, or publish records for inactive patients if their audit records are available in the audit trail. However, Numeric KRIs and percentage KRIs created for such audit data sets do not account for inactive patients. Listings you create using audit data sets may contain inactive patients. However, for listings tracked in  Clean Patient Tracker (CPT), inactive patients do not appear in CPT.

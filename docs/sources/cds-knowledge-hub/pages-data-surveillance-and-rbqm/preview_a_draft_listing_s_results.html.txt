@@ -1,0 +1,25 @@
+# Preview a Draft Listing's Results
+
+## Preview a Draft Listing's Results
+ You can preview a draft listing's results by viewing up to 100 patient data records captured by the listing's conditional expression. Previewing a draft listing's results enables you to evaluate whether the listing generates in the expected format with normal looking results. 
+ If the preview passes validation, then you can approve the listing for team-wide use in your study. Otherwise, you can edit the draft listing if the listing configuration requires updates for approval.
+ Note : The draft listing preview is meant for preliminary evaluation. You must first approve a listing before you can  review and validate a Listing's full set of results .
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Listings page shows. 
+- On the Listings page, click the Draft Listings tab.
+The Draft Listings table shows the following:
+ Table Column Descriptions 
+- Name – The listing's object identifier (OID). 
+- Expression – The Listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- Rave Enabled – A check mark indicates that you can directly within Data Surveillance view and submit Rave queries on the patient records captured by the Listing . 
+- Created By – The user who created the listing. 
+- Last Updated – The listing's creation date or when the last saved edit occurred. 
+- Updated By – The user who most recently updated the listing. 
+- If necessary, filter or sort the Draft Listings table to find the listing you need. 
+- Select a draft listing in Draft Listings table.
+ Up to 100 of the total data records that match the conditionals specified in the listing's expression appear in the table at the bottom of the page. 
+ Table Column Descriptions 
+- PatientID – The ID of the patient whose data matched the criteria specified in the listings conditional expression. 
+- Site – The site that the patient belongs to. 
+- Country – The country in which the site resides. 
+- Variable – Each column header to the right of the Country column header represents a variable that the listing's expression is configured to run against. The variable column header shows the human-readable variable name at the top and the variable object identifier (OID) at the bottom. And then the column lists the variable's data point entries captured by the listing's conditional expression.

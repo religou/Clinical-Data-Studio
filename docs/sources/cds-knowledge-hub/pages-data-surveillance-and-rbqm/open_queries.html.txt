@@ -1,0 +1,41 @@
+# Open EDC Queries
+
+## Open EDC Queries
+ You can view in one consolidated location the detailed list of all open and answered queries raised against patient data for enrolled patients in your study. Viewing and evaluating all open and answered patient queries in your study in one place enables you to review and close queries faster. Therefore, you can more quickly and efficiently lock and freeze patient data. The list of queries automatically refreshes every 6 hours. The number of open EDC queries matches the records in the Queries dataset. 
+ Note : The Queries list does not show canceled or closed queries. 
+ You can also: 
+- Drill down to view queried patients' case report forms in Medidata Rave. 
+- Download the Open Queries list to a CSV file. 
+ Note: In Data Surveillance and RBQM, s tudy data automatically refreshes four times daily at approximately 9:00am (EST), 3:00pm (EST), 9:00pm (EST) and 3:00am (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, 5:00 am (EST) the same day, 11:00 am (EST) the same day, 5:00 pm (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Rave, and activated datasets from Data Connect  are available in 6 to 12 hours within Data Surveillance and RBQM. 
+## View Open Query Records
+- Access Data Surveillance , and then click EDC Queries in the left-hand menu.
+The Open EDC Queries page shows and contains the Queries list. The list includes the following information:
+- Patient – The patient ID of the queried patient. You can click a hyperlinked Patient ID to view that patient's case report forms in Rave.
+ Note : You cannot link to patient case report forms that exist in Rave Classic.
+- Site – The site that the patient belongs to. 
+- Country – The country in which the patient's site resides. 
+- Status – Specifies whether the patient query is currently open or answered.
+ Note : The Queries list does not show canceled or closed queries.  
+- Folder – The folder containing query for a patient data point. 
+- Form – The name of the form that contains the query for a patient data point. 
+- Field – The field name of the patient data point that is queried. 
+- Open Date – The date on which the query was opened on the patient data point. 
+- Open By – The user who opened the query on the patient data point. 
+- Query Data – The contents of the queried data point. 
+- Query Text – The user-entered query text opened on a data point. 
+- Marking Group – A virtual communication group in which individuals who belong to a specific role receive explicit permissions to conduct query-related actions. 
+- Response Text – The site's response to the query. 
+- Response Date – The date the query was responded to. 
+- Responded By – The user who responded to the opened query. 
+- Log Line –  T he specific log line in the form that is queried. 
+## Download the Open Query Records List
+ You can download the Open Queries list to a CSV file. Downloading the Open Queries list enables you to: 
+- Easily exchange the list externally with stakeholders to facilitate communication. 
+- Locally save and archive the list. 
+ Notes
+- You cannot download an Open Query Records list containing over 30,000 records. 
+- Larger data sets may take longer to download.  
+- Access Data Surveillance , and then click EDC Queries in the left-hand menu.
+The Open EDC Queries page shows. 
+- In the Open Query Records section, click Download .
+The Open Query Records list downloads to your browser as a CSV file. You can save the file locally to your machine.

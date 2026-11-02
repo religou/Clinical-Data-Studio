@@ -1,0 +1,25 @@
+# Data Mapping Features
+
+## Data Mapping Features
+ Data Surveillance and RBQM include the following data mapping-related capabilities :  
+- Data Surveillance: Autopopulate Missing Page Counts Sourced Directly from Rave 
+- Data Mapping Reports Include Lab Measurements And Oncology Options 
+- Data Surveillance: Configure Vendor Groups To Assign Query Sets To Vendors 
+- Data Surveillance: Names And OIDs Appear For Data Sets And Variables Used In RECIST 1.1 Mapping 
+- Configuration and Reporting: Derived Variables Enhancement Allows Selecting Type of Merge 
+- Data Surveillance: Configure The Data Sets And Variables Used In CTCAE Reports 
+- Map Patient Milestone Data Points for Third-party, Fully Ingested Studies 
+- Configuration and Reporting: Merge Multiple Datasets with Common Variables into One Dataset 
+- Configuration and Reporting: Map Data Set and Variables for Vendor Issues 
+- Configuration and Reporting: Map Data Set and Variables for the RECIST 1.1 Dashboard 
+- Expand Event Analysis to Allow Multiple Domain Mappings 
+- Configure the Data Sets and Variables Used for CSM's Event Analysis 
+- Configure the Data Sets and Variables Used for CSM's Error Plot Analysis 
+- Event Analysis Includes AE Action Taken - Concomitant Medication Mapping Reference 
+- Configure the Vital Sign Data Used for CSM's Rounding and Propagation Analysis 
+- Detect Configuration Manager Enhancements 
+- Configure All CSM-related Data Mappings on the CSM Configuration Page 
+- Export CSM Configuration Report PDFs 
+- Configure Potential Duplicate Patient Data Mappings 
+- CSM Configuration Renamed to Detect Mapping and Other Label Changes 
+- Event Analysis Includes New Mapping References

@@ -1,0 +1,13 @@
+# Patient Profiles-Medidata Detect Integration Enables Detect Users to View Profiles
+
+## Patient Profiles-Medidata Detect Integration Enables Detect Users to View Profiles
+## Description
+ Patient Profiles infrastructure updates enable authorized Medidata Detect users to launch and view individual patient profiles in a standalone window from Detect's Error Plots page. Authorized Detect users can also save and print the patient profiles as a PDF.
+## Affected Roles
+ Medidata Detect users.
+## Advantages
+ Medidata Detect users can further investigate individual patients with discrepant data by viewing the patient's profile. The Patient Profiles application does not include this enhancement.
+## User Impact
+ There is no change or impact the Patient Profiles user interface or functionality. The infrastructure update only allows authorized Medidata Detect users to launch and view a single patient profile from the Medidata Detect user interface.
+## Special Considerations
+ If you try to view a patient profile that does not contain data, you receive an error message indicating the data does not exist.

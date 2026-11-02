@@ -1,0 +1,20 @@
+# Exports: Export Data with Date Range
+
+## Exports: Export Data with Date Range
+## What Is New?
+ When configuring an export to extract Study Group Audit Master Data, users  can enter a start date and end date in the Export Wizard.
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ None.
+## How Do I Benefit?
+ This enhancement reduces the time taken to export the Audit Master Data as the User Login History of a Study Group is large.
+## Where Do I See the Change?
+ Users can select the start and end data during the Schedule step when configuring new exports or updating existing exports. 
+## Where Do I Learn More?
+ There are no additional relevant resources. 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,21 @@
+# Data Set Viewer Interface Updates
+
+## Data Set Viewer Interface Updates
+## Description
+ While viewing data sets in the Data Viewer tab,  the information that appears when you click the   Info button for a data set is updated. The listed information includes: 
+- Form Name   – The data set's unique identifier. 
+- DS Name – The data set's name. 
+- # of Variables   – Number of variables in the data set. 
+- # of Unique Patients   – Number of unique patients whose data is captured in the data set. 
+- # of Records – Number of unique records within the data set. 
+ Additionally, the Data Viewer tab's interface includes the following changes:
+- The  Info button appears for a given data set when you either expand a specific data set or click  Expand All to expand all data sets. 
+- Icons and variables vertically align on each data set table.  
+## Affected Roles
+ All roles with access to MEDS Data Viewer.
+## Advantages
+ The updates to the   Info button provide a more accessible and comprehensive overview of your data set information. The alignment updates to the icons and variables in the data set tables improve readability.
+## User Impact
+ You can find the   Info button on the Data Viewer tab after expanding one of the data sets. Clicking the button displays the data set overview information.
+## Special Considerations
+ None.

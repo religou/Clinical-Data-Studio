@@ -1,0 +1,22 @@
+# Compressed File Support for Import Jobs
+
+## Compressed File Support for Import Jobs
+## Description
+ You can now load compressed files when importing data. When uploading ZIP files, Ingestor extracts the files and processes them normally. Accepted compressed file types include: .zip, .rar, and .7z.  
+ Feature/enhancement stories referenced in this article:
+ MCC-908089, MCC-908092, MCC-908096, MCC-908110, MCC-908111, MCC-930760, MCC-930776, MCC-937469, MCC-941819, MCC-941824, MCC-943680 
+## Affected Roles
+ All platform roles that can import files. For details, see  Ingestor Roles and Permissions List .
+## Advantages
+ You can upload files containing large data files or bundle files together, such as Study Design Metadata files. 
+## User Impact
+ You can use ZIP files when uploading files to import jobs with the Ingestor interface, SFTP, or API.
+- The constituent files must adhere to the data type's file standards.  
+- Compressed files must contain compatible constituent files. Ingestor skips incompatible files during data processing. 
+- For external EDC jobs, if the compressed file has multiple file types, then to ensure successful loading, the file types must have the same column headers. When loading clinical data, ensure that you configure the Fields SDM file correctly. XPT files cannot contain more than eight characters in their column headers. 
+## Knowledge Space Updates
+ The Ingestor Knowledge Space provides updated content to support the added compressed file support: 
+- Import Data 
+- Track Job Progress 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

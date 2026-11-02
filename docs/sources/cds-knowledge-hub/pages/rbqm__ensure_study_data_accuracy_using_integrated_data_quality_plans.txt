@@ -1,0 +1,55 @@
+# RBQM: Ensure Study Data Accuracy Using Data Quality Plans
+
+## RBQM: Ensure Study Data Accuracy Using Data Quality Plans
+## What Is New?
+ A Data Quality Plan (DQP) in a study is a comprehensive document that outlines the strategies, procedures, and measures to ensure the accuracy, completeness, reliability, and integrity of the data collected during the trial. The plan is essential for verifying that the data supports robust conclusions and complies with regulatory standards. Clinical Data Studio now includes a capability where you can build integrated data quality plans for your study. The RBQM tab in Clinical Data Studio includes a Plan Document capability where you can build data quality plans that include risk mitigations for your study.
+## What Is the Impact?
+## Users/Roles
+ Data managers with the Manage Data Quality Plans building block can publish, whereas data managers with View Data Quality Plans permissions can only view existing plans.
+## Workflow Process
+ Data managers add mitigations and associate functional plans in the Risk Review section in Risk Management to track risks for better study data accuracy. Data managers then use various components available under the Plan Documents section to build integrated data quality plans which act as a guide for risk mitigation in the study. 
+## Other Applications
+ When adding and managing mitigations, you can associate mitigations with functional plans. When writing integrated data quality plans in the RBQM > Plan Documents capability, if you add a risk assessment table to a plan document, the risks table includes the Functional Plans Affected column, which auto-populates based on the entries made in the Mitigations and Plans > Functional Plans Affected field for each mitigation added to risks in the Add Risk and Risk Review subpages.
+## How Do I Benefit?
+ Data Quality Plans:
+- Streamlines operational planning by enabling the quick creation and management of comprehensive plans, allowing for faster execution. 
+- Transforms risk data into actionable, dynamic plans that actively guide team member actions. 
+- Provides enhanced transparency into actions and mitigations linked to each plan, ensuring alignment, accountability, and improved compliance across teams. This turns data quality management into a proactive, integrated process. 
+## Where Do I See the Change?
+ Under the RBQM tab in Clinical Data Studio.
+ Image 1 
+ Image 2 
+ | 
+ | 
+ Number 
+ Description
+ | 1.
+ | Plan documents tab – The RBQM tab includes a new Plan Documents tab in the left-hand navigation that you can use to build components of an integrated data quality plan.
+ | 2. 
+ | Plan documents page – The Plan documents page appears when you click the Plan documents tab from the left-hand menu. The page includes a list of current plants in the study. (Image 1).
+ | 3. 
+ | Create New plan – You can create a plan if you click the Create new plan button. The new plan includes a library of elements, a document workspace, and a plan name section (Image 2). You can search for saved plans using the Search option.
+ | 4. 
+ | 
+ Current plans – The current plans section shows all the plans in your study. It includes details such as na me, status, date and time the plan was last modified, and the person who edited the plan. If you click in the plan row, you can see further options to publish, view version history, and create PDFs. If you click any plan name, a detailed view of the plan appears (Image 2). You can view the version history of both, a draft, and published plan. 
+ | 5. 
+ | Plan Name – The name appears above the plan editor interface, along with the plan status: draft or published. You can also see the date and time the plan was last modified, the person who edited the plan, and the version number.
+ | 6. 
+ | 
+ Library – The library appears to the left of the plan document interface, and includes dynamic elements like date, page number, plan name, study name, protocol ID, and Risk Inventory and Critical Data tables that you can drag and drop into your plan report. For example, you can drag and drop any risk mitigation plans you create on the RBQM > Risk Assessment > Critical Processes page.
+ | 7. 
+ | 
+ Document Workspace – The document workspace is a text editor space where you can build and format the various components of a plan. The workspace includes a text area where you can enter text and format as required. You can add various sections to build a plan. You can remove sections using the on the section header. However, you cannot reorder sections. You can add new sections by dragging and If you toggle on the Table of contents, your plan includes a table of content in the PDF version of your plan.
+ | 8. 
+ | 
+ Save – You can click 
+ Preview to preview your plan which shows all the data pulled from the elements you added into the plan document. In the preview mode, you can also download the plan as a PDF file. You can then click 
+ Save to save the plan. In the preview mode, mock data appears in the document workspace for dynamic elements like Risk Inventory and Critical Data tables, that replace with actual study data when you save. Once you publish a plan, you cannot revert the plan into a draft version. You can however create a new version. As your study runs the duration, you can run the plan at different times and it will pull in the latest study data into the data quality plan.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the feature:
+- Plan Documents 
+## What Else Should I Know?
+- You need the View Data Quality Plans and Manage Data Quality Plans building block added to your Cloud Administration role to view and publish plan documents, respectively. 
+- Non latin characters display in the editor and PDF. 
+- The downloaded PDF includes no headers or footers, or images. The PDF includes some data duplication around page breaks. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

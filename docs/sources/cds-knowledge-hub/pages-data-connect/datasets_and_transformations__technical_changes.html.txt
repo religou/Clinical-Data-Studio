@@ -1,0 +1,21 @@
+# Datasets and Transformations: Technical Changes
+
+## Datasets and Transformations: Technical Changes
+## What Is New?
+ The Data Connect - Datasets and Transformations 2024.1.4 Standard Software Update introduces internal code changes: 
+- The implementation feature flags to control the dataset activation capability. When users attempt to access the dataset activation capability when that feature flag is turned off, the following message appears: "Activation is currently not available, if you need support, please reach out to Medidata help desk." 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to workflow processes.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The technical change optimizes back-end processes and provides performance improvements.
+## Where Do I See the Change?
+ There are no changes to the user interface.
+## Where Do I Learn More?
+ There are no relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

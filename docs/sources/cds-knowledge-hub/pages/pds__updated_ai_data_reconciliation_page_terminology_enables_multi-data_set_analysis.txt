@@ -1,0 +1,112 @@
+# PDS: Updated AI Data Reconciliation Page Terminology Enables Multi-Data Set Analysis
+
+## PDS: Updated AI Data Reconciliation Page Terminology Enables Multi-Data Set Analysis
+## What Is New?
+ The AI Data Reconciliation page includes the following tab, report, table header, and column header label updates:
+ Previous Label 
+ Updated Label 
+ New Label 
+ | Adverse Events tab 
+ | Conditions tab 
+ | 
+ | ConMeds tab 
+ | Treatments tab 
+ | 
+ | The AEs without CMs report 
+ | Conditions without Treatments report 
+ | 
+ | Worsening AEs report 
+ | Worsening Conditions report 
+ | 
+ | Overlapping AEs report 
+ | Overlapping Conditions report 
+ | 
+ | Overlapping non-worsening AE and ongoing MH report 
+ | Overlapping non-worsening Conditions and ongoing MH report 
+ | 
+ | Overlapping CMs report 
+ | Overlapping Treatments report 
+ | 
+ | CMs without AEs or ongoing MH report 
+ | Treatments without Conditions or ongoing HM report 
+ | 
+ | AEs without CMs table header 
+ | Conditions without Treatments table header 
+ | 
+ | Worsening AEs table header 
+ | Worsening Conditions table header 
+ | 
+ | Overlapping AEs table header 
+ | Overlapping Conditions table header 
+ | 
+ | Overlapping non-worsening AE and ongoing MH report table header 
+ | Overlapping non-worsening Conditions and ongoing MH table header 
+ | 
+ | Overlapping CMs report 
+ | Overlapping Treatments report 
+ | 
+ | CMs without AEs or ongoing MH report 
+ | Treatments without Conditions or ongoing MH report 
+ | 
+ | N/A 
+ | N/A 
+ | 
+ DATASET column header (all reports) 
+ Note : DATASET shows the data set OID as configured in Detect Configuration Manager > Detect Mapping > Event Analysis.
+ | AE REPORTED TERM label (all instances) 
+ | REPORTED TERM column header (all instances)  
+ | 
+ | AE PREFERRED TERM label (all instances) 
+ | PREFERRED TERM column header (all instances) 
+ | 
+ | AE START DATE label (all instances) 
+ | START DATE column header (all instances) 
+ | 
+ | AE END DATE label (all instances) 
+ | END DATE column header (all instances) 
+ | 
+ | AE REPORTED BEFORE label (all instances) 
+ | REPORTED BEFORE label (all instances) 
+ | 
+ | AE REPORTED AFTER label (all instances) 
+ | REPORTED AFTER label (all instances) 
+ | 
+ | CM REPORTED TERM label (all instances)
+ | REPORTED TERM label (all instances) 
+ | 
+ | CM PREFERRED TERM label (all instances) 
+ | PREFERRED TERM label (all instances) 
+ | 
+ | CM START DATE label (all instances) 
+ | START DATE label (all instances) 
+ | 
+ | CM END DATE label (all instances) 
+ | END DATE label (all instances) 
+ | 
+ | CM INDICATION 
+ | INDICATION 
+ | 
+ | SAME TIME FRAME AE(s) label (all instances) 
+ | Same Time Frame Conditions label (all instances) 
+ | 
+ | OUTSIDE TIME FRAME AE(s) 
+ | OUTSIDE TIME FRAME CONDITIONS 
+ | 
+## What Is the Impact?
+## Users/Roles
+ Data managers
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ You must use Detect Configuration Manager's Event Analysis Mapping to map the data sets that you want AI Data Reconciliation to analyze.
+## How Do I Benefit?
+ Updating the verbiage to treatment and conditions enables you to configure multiple data sets as references in the Detect Configuration Manager's Event Analysis Mapping. Therefore, AI Data Reconciliation can simultaneously analyze multiple data sets that use similar coding.
+## Where Do I See the Change?
+ See the Description section.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- AI Data Reconciliation 
+- Map Event Analysis Data 
+## What Else Should I Know?
+ AI Data Reconciliation requires data sets to be coded in MedDRA or WHODrug, respectively. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

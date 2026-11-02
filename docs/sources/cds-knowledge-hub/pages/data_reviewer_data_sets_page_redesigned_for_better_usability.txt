@@ -1,0 +1,39 @@
+# Data Reviewer Data Sets Page Redesigned For Better Usability
+
+## Data Reviewer Data Sets Page Redesigned For Better Usability
+## Description
+ Data Reviewer 2023.1.0 includes a redesigned Data Sets page, which provides a improved user experience.
+## Affected Roles
+ All roles with the View Data building block. 
+## Advantages
+ You can now locate on screen Data Reviewer components with ease and have a better user experience.
+## User Impact
+ The screenshot and corresponding table below highlight the User Interface (UI) changes. 
+ Tip: Click image to enlarge.
+ Number 
+ Changes on the Data Sets page 
+ | 1 
+ | You can select Data Sets in the left menu in Medidata Detect > Patient Data Surveillance > Data Reviewer to view the Data Sets page.  
+ | 2 
+ | 
+ You can select a data set from the Data Sets list. The list shows the data set source next to the data set name. For example, in the list below all the data sets originate from RAVE.
+ | 3 
+ | Next to the data set list, the source of the data set: RAVE or External; form name, and the total number of records in the data set appear.
+ | 4 
+ | The data set name and the total number of records also appear above the data set grid. 
+ | 5 
+ | The data set grid displays the paginated records. It defaults to the first 25 rows. You can change the pagination to 50 or 100 records at the bottom of the page. 
+ The Patient ID, Site and Country columns appear as the first three columns for any data set and remain static. You can scroll to the right to view other  columns of interest. If you click the Patient ID link in a record, you can view the corresponding patient's details in RAVE EDC.
+ | 6 
+ | 
+ You can filter the data set by one or multiple columns. When you click , the option appears above the data set grid. You can then select columns to filter by. For example, if you select Patient ID in the option, and then select specific Patient IDs as shown, and click Apply , the data set grid updates to show details for only the patients you select. If you select Blank in the column filter, the data set shows blank records or records with missing information.
+ | 7 
+ | 
+ You can click Show Columns to hide columns so the data set only includes columns of interest. If you select specific columns and click Apply , the data set grid updates to include only the columns you select for the records in the data set grid. For example, in the following only six columns will show in the data set grid. You can simultaneously apply filters and . The Patient ID, Site and Country columns will always appear for a data grid.
+ Knowledge Hub Updates 
+ The Detect Knowledge Hub provides updated content to support the enhancement: 
+- View and Investigate Your Study's Data Sets 
+## Special Considerations
+- You need the appropriate RAVE access to access patients from within the Data Sets grid in RAVE. 
+- You can view a patient's details in RAVE EDC when you click the Patient ID link only if the data set originates in RAVE. 
+- To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

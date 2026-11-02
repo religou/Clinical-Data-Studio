@@ -1,0 +1,24 @@
+# Add Custom Risk Categories to Templates and Associated Studies
+
+## Add Custom Risk Categories to Templates and Associated Studies
+## What Is New?
+ You can now create a custom category when you select Custom in the Select Category dropdown, while creating a Risk Categorization Template, Critical Data, or Critical Process at client division level. You can also add these templates to their study and the categories associated with them.
+- You can now create multiple custom risk categories to a risk categorization template, and 
+- Create custom categories to use the templates at study-level for Critical Data and Critical processes. 
+## What Is the Impact?
+## Users/Roles
+ Data manager.
+## Workflow Process
+ No impact to the workflow process. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ You can now create and use custom risk categories for your studies.
+## Where Do I See the Change?
+ Detect Landing Page > Risk Management > Studies > All Studies > Risk Categorization Templates 
+ Where Do I Learn More? 
+ The Detect Knowledge Space provides new and updated content to support this feature/enhancement: 
+ Manage Risk Categorization Templates  
+## What Else Should I Know?
+ After you select Custom from the Risk Category dropdown, you cannot change that category to a predefined one.
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

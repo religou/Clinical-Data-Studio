@@ -1,0 +1,31 @@
+# Conditional Options In Tables Restored
+
+## Conditional Options In Tables Restored
+## Description
+ In Medidata Patient Profiles 2021.1.0, the conditional options feature is reinstated for tables. This applies to wide tables, transposed tables, patient information tables, and event tables. 
+## Affected Roles
+ All. 
+## Advantages
+ Setting conditions to display data allows Patient Profile reviewers to easily identify patient data that matches specific criteria (for example, pregnant patients) in a study. 
+## User Impact
+ On the Design page > Elements tab > when you are working on an element > Table Options > Conditional Options: 
+ When you set up an expression to only display the element based on specific criteria, such as the value of a data variable in the data set: 
+- If the patient data meets the criteria, the table and graph (as appropriate) display. 
+- If the patient data does not meet the criteria, the table and graph (as appropriate) do not display.
+- If you configure the element to display both the table and graph, and also select Table Options > General Options >  Hide "No Data" Elements : 
+- The graph and table do not display when patient data does not meet the criteria. 
+- The graph and the table display when patient data meets the criteria. 
+- If you configure the element to display only the graph, then select Table Options > General Options >  Hide "No Data" Elements :  
+- The graph does not display when patient data does not meet the criteria. 
+- The graph displays when patient data meets the criteria.  
+- If you configure the element to display only the table, then select Table Options > General Options >  Hide "No Data" Elements :  
+- The table does not display when patient data does not meet the criteria. 
+- The graph displays when patient data meets the criteria.  
+ When you set up an expression using a variable used in configuring a table, as the display criteria for the element: 
+- If the patient data meets the criteria, the element displays. 
+- If the patient data does not meet the criteria, the element does not display. 
+ When you set up an expression using a variable not used in configuring a table, as the display criteria for the element: 
+- If the patient data meets the criteria, the element displays. 
+- If the patient data does not meet the criteria, the element does not display. 
+## Special Considerations
+ None.

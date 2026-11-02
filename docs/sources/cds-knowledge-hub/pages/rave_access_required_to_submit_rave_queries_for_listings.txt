@@ -1,0 +1,20 @@
+# Rave Access Required To Submit Rave Queries For Listings
+
+## Rave Access Required To Submit Rave Queries For Listings
+## Description
+ You can submit queries for Rave query-enabled listings only if you have the appropriate Rave access to submit queries via Detect. You can also edit the form, field, and folder details while submitting queries.
+## Affected Roles
+ All Medidata Detect users with Rave access.
+## Advantages
+ You can target specific data points in a listing's Rave query, which enhances communication and collaboration with sites. 
+## User Impact
+ For a selected Rave query-enabled listing on the Data Reviewer page > Listings tab:
+- The Submit Queries button appears only if you have the appropriate Rave access to submit queries via Detect. 
+- On the Submit Queries page:
+- If you click the pencil icon, you can edit the folder, form, and field for the listing. 
+- If Rave is unavailable when you click Submit Query , a " Rave is currently unavailable. Contact your Medidata Representative for Rave support" message appears. 
+## Knowledge Space Updates
+ The Detect Knowledge Space provides new and updated content to support the enhancement: 
+- View, Create, and Edit Draft Listings 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

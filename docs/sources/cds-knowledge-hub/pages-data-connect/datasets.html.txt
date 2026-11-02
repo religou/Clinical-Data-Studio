@@ -1,0 +1,36 @@
+# Datasets
+
+## Datasets
+ Data Connect's Datasets capability lists all available datasets that you have permission to see. You can see each dataset's label, type, source, activation status, and more. 
+## What Is Datasets?
+ Datasets is a table that shows you: 
+- All datasets you have access to. 
+- Metadata pertaining to each dataset, including: Dataset type, the upstream data source, activation status, and last refresh date. 
+- Filtered views for the datasets, including: 
+- Internal sources from within the Medidata platform, such as Rave data. 
+- External sources imported through Data Connect, such as Labs data. 
+- Transformed datasets produced through Data Connect's Transformations capability. 
+## What Is the Purpose of Datasets?
+ Datasets allows you to review the statuses of datasets those in your study group are using. You can see metadata about each dataset, including if a dataset is activated. You can use activated datasets for other capabilities compatible with Data Connect, such as Data Surveillance and RBQM. Therefore you quickly check datasets for further analysis as necessary. 
+## Who Uses Datasets?
+ Data managers, clinical data scientists, biostatisticians, data scientists, and programmers.
+## How Does Datasets Work?
+ Datasets lists the datasets available within your study group. Each listing includes the following details: 
+- The dataset's name; version; and data type, such as if it is an Rave dataset or a derived datasets. 
+- The dataset's data source details, such as if the Rave dataset comes from a Rave source. 
+- The dataset's activation date and most recent refresh date. 
+ Important : Metadata updates from Rave sources can take up to 24 hours to update in Data Connect.
+ You can filter the table by dataset category, including: 
+- Internal sources from within the Medidata platform, such as Rave data. 
+- External sources imported through Data Connect, such as Labs data. 
+- Transformed datasets produced through Data Connect's Transformations capability. 
+ You can also create datasets from the Datasets screen, which serves as another link into Data Connect's Transformations capability. 
+ Important :  Unsupported Data 
+ Data Connect does not support variables such as coding dictionaries, coded terms, and code lists. While you can import datasets that includes these data, you cannot see or use them in Data Connect. However, these data can appear as-is in RBQM and Data Surveillance when you activate the associated dataset. For details, see Unsupported Variables in Data Connect . 
+## What Are the Benefits of Datasets?
+ Datasets provides a central location to: 
+- Review datasets in your study group. 
+- Check activated datasets that compatible capabilities are using, such as Data Surveillance. 
+- Ensure that activated datasets are using the latest and greatest data configurations. 
+## How Do I Access Datasets?
+ You land on the Datasets dashboard when entering Data Connect. You can also reach the dashboard by clicking the Datasets tab while in Data Connect.

@@ -1,0 +1,27 @@
+# View Historical Trends in Site- and Country-Level KRI Data
+
+## View Historical Trends in Site- and Country-Level KRI Data
+## Description
+ You can now view   trends in key risk indicator data   at the site and country level, and you can compare that data to all sites and countries overall in your study. 
+## Affected Roles
+- Central Monitors 
+- Study Managers 
+- Site Monitors 
+## Advantages
+ In previous Medidata Detect releases, at any given time you were   only able   to see current KRI values .
+ Now Medidata Detect keeps a record of historical data so you can evaluate how the KRI values change over time and how a given site or country's KRI values relate to the overall study data.
+ Tracking KRI data over time also helps you determine whether you are correctly managing issues and that any mitigating actions you have taken are resulting in a positive outcome.
+## User Impact
+ On the KRIs page, you can c lick any cell in the Key Risk Indicators table , and then click the Trend Graph button above the table. 
+ Tip : Click image to enlarge.
+ Clicking the Trend Graph button displays the selected KRI's historical trending data in a separate modal. 
+ On the KRI trend graph, you can: 
+- Hover your cursor   over a specific data   point on the graph to view:
+- The KRI snapshot date. 
+- The KRI value at the selected site or country. 
+- The KRI value for all sites or countries in the study. 
+- Specify a custom date range to display on the graph by:
+- Using the From and To fields, or 
+- Clicking and dragging your mouse over a specific area on the bottom graph. 
+## Special Considerations
+ None.

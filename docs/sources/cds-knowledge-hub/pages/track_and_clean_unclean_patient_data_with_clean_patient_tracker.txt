@@ -1,0 +1,45 @@
+# Track and Clean Unclean Patient Data with Clean Patient Tracker
+
+## Track and Clean Unclean Patient Data with Clean Patient Tracker
+## What Is New?
+ Clean Patient Tracker is an interactive dashboard that visualizes, lists, and prioritizes in one centralized location the outstanding patient data cleaning tasks   across Detect that require vetting and review. You can use Clean Patient Tracker to: 
+- Track unvetted and unreviewed patient data. 
+- Drilldown and directly access and complete outstanding data cleaning tasks. 
+- View historical details of actions taken on Clean Patient Tracker in your study environment. 
+- Manually trigger Clean Patient Tracker to recount the number of outstanding patient data cleaning tasks that require vetting and review. 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ Clean Patient Tracker pulls in the following study data: 
+- The number of unreviewed data listing records for up to ten listings that you select to track in Data Reviewer > Data Listings. 
+- The number of unreviewed and report records from Data Reviewer > AI Data Reconciliation. 
+- The number of open queries from Rave EDC. 
+ Clean Patient Tracker then visualizes, lists, and prioritizes: 
+- Outstanding study-level data cleaning task metrics. 
+- The sites in your study with the highest unclean patient counts. 
+- The specific data cleaning tasks with the highest count of unclean or unreviewed records. 
+- The most unclean patients in your study. 
+ You can then track unvetted and unreviewed patient data , and further drill down directly to complete the outstanding data cleaning tasks listed in Clean Patient Tracker. 
+## Other Applications
+ Detect users with the proper permissions can m anually trigger Clean Patient Tracker to recount the number of outstanding patient data cleaning tasks that require vetting and review. For the most up-to-date counts, you can first refresh individual listings on the Data Listings page and refresh the AI Data Reconciliation page, and then recalculate   in Clean Patient Tracker. 
+## How Do I Benefit?
+ Clean Patient Tracker:
+- Consolidates in one centralized location the metrics regarding outstanding data cleaning tasks across your RBQM portfolio in Detect. 
+- Visualizes, lists, and prioritizes outstanding data cleaning tasks so you can focus on the most unclean data or areas of most importance in your study. 
+- Facilitates faster cleaning of data. 
+- Refreshes for an up-to-date view of data cleanliness. 
+- Increases study team-level coordination and visibility of data cleanliness and outstanding data cleaning tasks. 
+- Promotes cleaner, more fully vetted study data. 
+## Where Do I See the Change?
+ The Detect Landing Page now includes the Insights card, from which you can access the new Clean Patient Tracker page and its functionalities.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Clean Patient Tracker 
+- Access and View Clean Patient Tracker 
+- Track and Clean Patient Data 
+- View and Export Clean Patient Tracker Audit Reports 
+- Trigger Clean Patient Tracker to Recalculate Outstanding Records Based on the Latest Study Data 
+## What Else Should I Know?
+ An admin must associate the View Clean Patient Tracker building block to a role in your Cloud Administration study group so that you can access Clean Patient Tracker .
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

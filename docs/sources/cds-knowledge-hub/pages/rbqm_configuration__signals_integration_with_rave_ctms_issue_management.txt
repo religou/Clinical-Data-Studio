@@ -1,0 +1,26 @@
+# RBQM Configuration: Signals Integration With Rave CTMS Issue Management
+
+## RBQM Configuration: Signals Integration With Rave CTMS Issue Management
+## What Is New?
+ In the Centralized Monitoring process , a signal is an   alert or indication of a potential problem, risk, or deviation in a clinical study . An issue is a confirmed finding, the result of a signal validated through central monitor review, site discussions, or site visits. You can now raise issues and resolve them both internally within the Signals capability, or use an external clinical trial management system (CTMS) like Rave CTMS for issue resolution. 
+ You can configure Rave CTMS for signal issue resolution using Integrations. On the RBQM > Configurations > Integrations page, in the CTMS application section, if you select  Rave CTMS from the list, your study is integrated with Rave CTMS for signal issue tracking and resolution. You can configure only one external CTMS per study. You can remove the integration if you click  , the Delete icon next to a configured CTMS. 
+ Important : You must configure the study and set up integration with the Rave CTMS issue management system before integrating with Signals for issue resolution.
+## What Is the Impact?
+## Users/Roles
+- Central Monitors and Central Statistical Monitors, Clinical Research Associates. 
+- U sers with View Detect CSM Configuration and Manage Detect CSM Configuration. 
+## Workflow Process
+ Once a CTMS application is configured with your study, you can raise issues for signals and send to the external CTMS for progress tracking and issue resolution. Metadata about tasks assigned as part of issue tracking, or the change in issue status transmits back into Signals. You can view issue-related information on the Signal Details page.
+## Other Applications
+ Rave CTMS must be available and set up for the study before integration.
+## How Do I Benefit?
+ You can raise and track progress for issues in signals using an established, external issue management system, like Rave CTMS without the need to copy and duplicate work, saving time and improving efficiency. 
+## Where Do I See the Change?
+ See What's New?.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the feature:
+- Signal Configuration 
+- Integrate With External Issue Management System. 
+## What Else Should I Know?
+ You must have the View Detect CSM Configuration and Manage Detect CSM Configuration building blocks assigned to your role in Cloud Administration to set up integrations with Rave CTMS.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

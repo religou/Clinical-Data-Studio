@@ -1,0 +1,22 @@
+# Clinical Data Studio Released Features
+
+## Clinical Data Studio Released Features
+ Clinical Data Studio includes the following feature, enhancement, and resolved issue documentation produced over Clinical Data Studio's release history : 
+- Data Oversight 
+- Review Reports, Templates, and RBQM Overview Released Features 
+- Risk Management Released Features 
+- Data Reviewer Released Features 
+- Patient Profiles Released Features 
+- Audit Trail Review 
+- Plan Documents 
+- Key Risk Indicators Released Features 
+- Quality Tolerance Limits Released Features 
+- Centralized Statistical Monitoring Released Features 
+- Signals Released Features 
+- Signals: Updated Create CTMS Issue User Interface Includes Additional Fields 
+- Insights Released Features 
+- Review Reports Released Features 
+- Detect Configuration Manager Released Features 
+- General Data Surveillance and RBQM Released Features 
+- Internal And Technical Enhancements In Clinical Data Studio 
+- Resolved Issues from Past Releases

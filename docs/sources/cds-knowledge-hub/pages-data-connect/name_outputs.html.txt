@@ -1,0 +1,40 @@
+# Name Outputs
+
+## Name Outputs
+ After setting the export type for the export, you land on the Outputs screen. From the Outputs screen,  you can define  the names of output files. You can use variables to embed export information into file names.
+ Important : You cannot edit or delete after their creation.
+## Configure Export Output 
+- Enter an export Name.
+ Note : 
+- Export names can be up to 50 characters. 
+- Export names must be unique for each study and environment. 
+- Export names can include alphanumeric characters, underscores, and dashes. 
+- Select an option specifying the .zip file name for the extracted datasets:
+ Select for more ---> Create File Name Dynamically Enter File Name Manually 
+ Select for more --->
+ Create File Name Dynamically
+- You can use variables to build the name of the exported zip file. Drag these variables onto the gray bar to build the output file name.  
+- Export ID   –  An internal identifier guaranteed to be unique. This variable is always part of the file name, but you can reposition the variable within the file name. 
+- Export Name – The export name. 
+- Export Submission Timestamp –   The export's submission time. The time zone appears according to your device's local time settings. 
+- Study Name – The study's name 
+ Note:
+ Variables can create long file names. These long names can cause problems downloading or unzipping the datasets to your local device. 
+ Enter File Name Manually
+- You can specify a fixed zip file name. Use only alphanumeric characters, underscores, or dashes in the zip file name. 
+- Drag elements to form the exported file's dataset names: 
+- Export ID – An internal identifier guaranteed to be unique. This variable is always part of the file name, but you can reposition the variable within the dataset name. 
+- Export Submission Timestamp –  The export's submission time  
+- Environment Name 
+- Dataset Name – Th e name of the extracted dataset. This variable is always part of the dataset name, but you can reposition the variable with the dataset name. 
+- Study Name – The study's name 
+ Note : Variables can create long file names. These long names can cause problems downloading or unzipping the datasets to your local device. 
+- Optional . Enable  Export Location to set the export to deliver files to an external location, and enter the external location details:
+ Note : Only a user with the proper permissions can configure the location list. For details on setting up external delivery locations, see Configuring External File Connections .
+- Select a location.
+- In the Path field, enter an extension to the location's path.
+When the system delivers files, the files appear in the path extension as shown in the Full Path preview field. 
+- Click Create Export to complete the New Export workflow and return to the Exports Screen.
+ Tip : You can receive notifications about completed exports through email and the Medidata Message Center . See  View Exports Ready To Download Notifications or  View Exports Failed Notifications for more information.
+## Next Step
+ Download Data Extracts

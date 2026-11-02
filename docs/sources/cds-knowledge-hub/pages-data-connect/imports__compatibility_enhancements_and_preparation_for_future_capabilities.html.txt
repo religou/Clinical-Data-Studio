@@ -1,0 +1,56 @@
+# Imports: Compatibility Enhancements and Preparation for Future Capabilities
+
+## Imports: Compatibility Enhancements and Preparation for Future Capabilities
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the releases history . 
+- For a summary of all features released, the   released features index . 
+## Change Details
+ Product 
+ | Data Connect
+ Version 
+ | 2026.1.5
+ Change Type 
+ | Enhancement (Update Functionality)
+ Functionality or Module 
+ | Imports
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ Support for Alternative Country Names : Imports now support alternative country names. Alternate country spellings automatically map to the appropriate ISO code. 
+ In addition, this release provides the infrastructure updates to support the following future capability: 
+- Updates to Support Bulk Query Veeva Direct Connect : You can now generate bulk queries within the Data Surveillance and RBQM modules of Veeva EDC for data imported with Veeva Direct Connect. You can also retrieve and use the full history of available Veeva EDC queries.
+. 
+ Benefit to Users 
+ | Alternative Country Names: You can reduce data entry errors using alternative country names (such as "United States of America" or "USA") that automatically map to standard ISO codes. 
+ Bulk Query Veeva Direct Connect: Once available, this feature enables the access and use the full history of Veeva EDC queries directly within the Data Surveillance and RBQM modules. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ All Imports users.
+ Impact to Workflow Processes 
+ No impact to workflow processes.
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+ No changes to the user interface. 
+ A later Clinical Data Studio release will introduce the necessary interface updates for bulk querying. 
+ Impact to Existing Data or Settings 
+ Incompataible country names trigger existing error handling and generate an error log. 
+ User Impact Assessment 
+ | 
+ Low
+ Learning Resource Updates 
+ | There are no additional relevant resources 
+ For more articles and videos, see Imports and the  Data Connect Video Library 
+ Special Considerations 
+ | If a site provides a country name that does not exist in the reference list, the system logs an error. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

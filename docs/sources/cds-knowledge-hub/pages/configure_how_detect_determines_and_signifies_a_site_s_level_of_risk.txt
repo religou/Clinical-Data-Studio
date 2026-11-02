@@ -1,0 +1,26 @@
+# Configure How Detect Determines and Signifies a Site's Level of Risk
+
+## Configure How Detect Determines and Signifies a Site's Level of Risk
+## Description
+ The KRI Dashboard now visually signifies sites that Detect assesses as being medium or high risk . Detect Configuration Manager's KRI Configuration enables you to configure:
+- The level of weight (low, medium, or high) that a particular KRI risk category carries when Detect calculates the KRI's value and a site's overall level of risk. 
+- Which specific KRIs you want Detect to factor in when calculating each site's risk level. 
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ You can fully customize the level of weight that you want Detect to apply to a KRI's risk category when calculating the KRI's value. This helps you more precisely determine at-risk sites based on your study goals and protocol. You can also quickly and easily customize which KRIs you want Detect to factor in when calculating each site's risk level.
+## User Impact
+ KRI Configuration now contains two tabs: KRI Configurations and Risk Category Weight .
+ On the KRI Configurations tab, the Key Risk Indicators list contains a new Add to SRI column. The column contains a toggle button that allows you to enable or disable Detect from factoring that KRI into Detect's Site Risk Indicator analysis.
+ On the Risk Category Weight tab, you can customize and configure the level of risk (low, medium, or high) that is associated to specific risk categories .
+## Knowledge Space Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support this feature: 
+- Investigate Data Using the KRI Dashboard 
+## Special Considerations
+ On the KRI Configurations tab, all system KRIs assigned the Data Collection risk category have Add to SRI enabled by default. This cannot be disabled.
+ On the Risk Category Weight tab, the Data Collection risk category will have a weight of Medium selected by default. All other Risk categories will have a null value selected by default.
+ Detect assigns all system KRIs an unmodifiable, medium weight . 
+ You cannot enable Add to SRI for:
+- An inactivated KRI. You must first ensure a KRI is activated before you can enable the KRI's Add to SRI button. 
+- A KRI if the KRI's risk category is not assigned a weight on the Risk Category Weight tab. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

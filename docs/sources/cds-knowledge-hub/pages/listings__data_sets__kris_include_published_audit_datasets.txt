@@ -1,0 +1,29 @@
+# Listings, Data Sets, KRIs Include Published Audit Datasets
+
+## Listings, Data Sets, KRIs Include Published Audit Datasets
+## What Is New?
+ Clinical Data Studio now includes an audit trail review (ATR) capability. The Audit Trail Review (ATR) process examines the recorded history of transactions or activities within a system to ensure compliance with regulations, detect any discrepancies, and verify the integrity of data. This review  allows you to create meaningful datasets that contain all changes made to records, details of who made them, and when, providing a transparent and accountable record of system usage. ATR is crucial in ensuring accuracy in financial reporting, and supporting forensic investigations in cases of fraud or unauthorized access. The Audit Trail Review (ATR) feature in Clinical Data Studio applies Large Language Models (LLMs) and Generative AI to explore complex audit data sets. Once you save and publish audit data sets, you can use them in   listings, data sets, and KRIs in your study. 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ No impact to workflow process.
+## Other Applications
+ Audit Trail Review (ATR) pulls in operational metadata from Rave EDC to show edits, updates, and deletions made to data endpoints.   Clinical Data Studio uses Generative AI to automatically build customized queries, and executes them against the operational Rave data to generate meaningful audit data sets that facilitate data quality checks. The published data sets in ATR appear in KRIs, listings, and data sets.
+## How Do I Benefit?
+ You can use audit data sets to build listings, and get audit-related data pertaining to a specific snapshot date into your study. You can use audit data sets in KRIs to track key study risks.
+## Where Do I See the Change?
+- In Data Surveillance > Data Sets, audit data sets appear in the left accordion with an audit label next to the name.  
+- In Data Surveillance > Listings > New Listing, audit data sets appear in the Data sets tab to the left of the expression builder. You can drag and drop audit data sets into the expression builder. Audit data sets include an audit label next to the name. 
+- On the RBQM > Configurations > KRIs > KRI Configurations tab, if you click Custom KRI and select either Percentage or Numeric, the KRI builder shows published audit data sets in the Data Sets field. You can then select an audit data set to build a custom KRI. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Data Sets 
+- Listings 
+- KRI Configuration 
+## What Else Should I Know?
+- When using audit data sets in Listings, the Submit Query functionality and cross-dataset listing creation remain disabled. 
+- Audit data sets in KRIs do not permit cross-data sets. You cannot use audit trail data in a KRI with clinical data. 
+- You can use only one audit data set per listing. 
+- Audit data sets do not appear in Visualizations. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

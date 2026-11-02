@@ -1,0 +1,18 @@
+# Preview and Export Comprehensive QTL Reports
+
+## Preview and Export Comprehensive QTL Reports
+## Description
+ You can now preview and export the PDF report with individual or comprehensive QTL values and performance (observed value compared to expectation, threshold, and limit) and dates each QTL was assessed. 
+## Affected Roles
+- Study managers 
+- Medical monitors 
+## Advantages
+ QTL reports provide a better more comprehensive view of the QTL data points. Downloading QTL report PDFs enables you to easily share and review reports without logging in to Detect. 
+## User Impact
+ The QTL Dashboard now contains a Generate Report button. You can click this button and then select one or more QTLs whose QTL values you want view over time. The report view provides more comprehensive details than the regular view in the app. You can then choose to generate and download a PDF of the report.
+## Knowledge Space Updates
+ The QTLs Knowledge Space provides new and updated content to support this feature: 
+- Access and View QTLs 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

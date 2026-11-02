@@ -1,0 +1,22 @@
+# Data Anomaly Detection Plot Visualization Types
+
+## Data Anomaly Detection Plot Visualization Types
+ Statistical Monitoring applies one of five different types of data analysis depending on the variable or variables you select to view : 
+- Text Analysis 
+- Numeric Analysis 
+- Text Versus Text Analysis 
+- Numeric Versus Numeric Analysis 
+- Numeric Versus Text Analysis 
+ Each type of data analysis uses one of three specific data visualizations: 
+- Frequency Distribution Plot 
+- Box-and-whisker Plot 
+- Scatter Plot 
+## Frequency Distribution Plot
+ A frequency distribution plot shows the frequency and distribution of the unique text values present in the study data for an individual variable. When Statistical Monitoring runs a text analysis on one or more variables, the analysis produces a frequency distribution plot. For example: 
+ Tip : Click image to enlarge.
+## Box-and-Whisker Plot
+ A box-and-whisker plot shows the distribution and variability of the values in a data set. The graph plots the data points on an illustration with respect to the data set's lower whisker value , median value, upper whisker value , and interquartile range . When Statistical Monitoring runs a single-variable numeric analysis  or a numeric versus text analysis , the analysis produces a box-and-whisker plot. For example: 
+ Tip : Click image to enlarge.
+## Scatter Plot
+ A scatter plot illustrates the relationship between the values of two different variables. The graph plots the values of two variables along the horizontal and vertical axes. When Statistical Monitoring runs a numeric analysis on multiple variables, the analysis produces a scatter plot. For example:
+ Tip : Click image to enlarge.

@@ -1,0 +1,66 @@
+# Load Clinical Data Files
+
+## Load Clinical Data Files
+ After successfully importing SDM files, you can then create external Electronic Data Capture 
+ (EDC) import jobs 
+ . After creating an external EDC import job, you can import your data with files in CSV format. 
+ A fter creating one or more external EDC import jobs, you can import data into the Medidata platform using comma-separated value (CSV) files, SAS files (.XPT), or a compressed file containing such file types. You can import up to 50 files at once. Accepted compressed file types include .zip, .rar, and .7z. 
+ After importing external EDC files, you can track the status of your files from the import job's Job Files screen. The Job Files screen shows data related to the files you uploaded. 
+## Identify Method to Load Clinical Data
+ Identify a method to load clinical data onto the Medidata platform. You can use one of the following methods:
+- Method 1 – Create an import job and load data with Ingestor. 
+- Method 2 – Create an import job with Ingestor, and load data with SFTP. 
+- Method 3 – Create an import job and load data with API resources.  
+## Method 1 - Create an Import Job and Load Data with Ingestor
+ You can use Ingestor to create import jobs that accept clinical data and then use the Ingestor interface to load the data from your system. 
+## Create Import Job
+- Click All Jobs to return to the Jobs List screen. 
+- Click New Import Job .
+- From the Data Type menu, select  External EDC . 
+- Click  Continue . 
+- From the Study menu, select a study that the import job applies to.
+ Tip : You can enter the study name to filter the study list.
+- Click  Continue . 
+- Select a data integration, and click Continue .
+ Note :  The data integration specifies the expected fields and data upload format of the source data. The data uploaded in the SDM import job determines that data integration. 
+- Select a study environment, and click Continue . 
+- Enter the following, and click Continue :
+- Data Integration Version – The version of the data integration based on the uploaded SDM files. 
+- Job Name – The job's name. Must be unique. 
+- Import Type – The type of data the job imports. Cumulative jobs replace all existing data. Incremental jobs add to or update existing data. Jobs with the incremental import type can   Upsert – add or update existing items – or Delete items. 
+- Email  Notifications – Toggle if you want to receive notifications about the job's completion in your email . 
+- Click  Continue . 
+- Review the job's summary details, and click Create Import Job . 
+## Load Data
+- From the Job List screen, identify the import job to import data with, and click the import job's name to enter the Job Files screen.
+ Tip : You can filter import jobs by different parameters, such as Study, Job Type, and Environment. To filter the import job list, click the Filter icon  for one of the parameters, and select which data to filter by.
+- Click  Import New Data .
+- From the file browser, select files to import. The import process starts immediately.
+ Tip : You also can drag files onto the file uploader. 
+## Method 2 - Create an Import Job with Ingestor and Load Data with SFTP
+ You can use Ingestor to create import jobs that accept clinical data from an SFTP folder. Ingestor then loads data from the selected folder at regular intervals. 
+- Click All Jobs to return to the Jobs List screen. 
+- Click New Import Job .
+- From the Data Type menu, select  External EDC . 
+- Click  Continue . 
+- From the Study menu, select a study that the import job applies to.
+ Tip : You can enter the study name to filter the study list.
+- Click  Continue . 
+- Select a data integration, and click Continue .
+ Note :  The data integration specifies the expected fields and data upload format of the source data. The data uploaded in the SDM import job determines that data integration. 
+- Select a study environment, and click Continue . 
+- Enter the following, and click Continue :
+- Data Integration Version – The version of the data integration based on the uploaded SDM files. 
+- Job Name – The job's name. Must be unique. 
+- Import Type – The type of data the job imports. Cumulative jobs replace all existing data. Incremental jobs add to or update existing data. Jobs with the incremental import type can   Upsert – add or update existing items – or Delete items.     
+- Click the SFTP settings toggle, and enter your SFTP settings:
+- SFTP Location – Select from the menu.
+ Note : To configure the list of SFTP locations, you must use Extractor. For details on setting up an sFTP location, see  Configure External File Locations for Imports . 
+- Folder Location to Retrieve Files – If necessary, enter the extension to the path described in the SFTP Location to import files from.  When left blank, Ingestor uses the SFTP location's root folder. 
+- Global Input Folder Toggle – Sets the selected SFTP location as a global import folder. When multiple import jobs use the same SFTP Input File Path, Ingestor can identify the appropriate jobs and transfer the corresponding files from the file names.
+ Note : If you want to use an SFTP location as a global location in Ingestor, then you must configure the SFTP location for global use on the SFTP location configuration screen. You cannot mark an SFTP location as global in Ingestor if it is not set as global on the SFTP location configuration screen. 
+- Folder Location for Output Status Files  –  If necessary, enter the extension to the path described in the SFTP Location to save process files to.  When left blank, Ingestor uses the SFTP location's root folder. 
+- Click  Continue . 
+- Review the job's summary details, and click Create Import Job . 
+## Method 3 - Create an Import Job and Load Data with API Resources
+ You can use Medidata API resources to programmatically create import jobs for clinical data and load data with those jobs. For details, see Upload External Data onto the Medidata Platform on the Clinical Cloud API Knowledge Space.

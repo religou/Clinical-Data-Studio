@@ -1,0 +1,52 @@
+# Add and Manage Risk Assessment Participants
+
+## Add and Manage Risk Assessment Participants
+ Risk assessment participants are cross-functional study team members who identify and evaluate the critical data, critical processes, risk categories, and associated risks presenting the most potential negative impact to the study. For example, a pharmacist might assess the study protocol to identify risks associated with the toxicity of a drug being studied. Or a site monitor might identify risks to the visit schedule.
+ You can add the list of risk assessment participants to the risk assessment. You can also assign participants; for example, a quality assurance director, to formally acknowledge and approve the risk assessment reports .
+ In addition, you can also:
+- Enable participants to receive  risk notifications through Medidata's Notification Center . 
+- View the list of study team members involved in creating the risk assessment and identifying study risks. 
+- Edit individual risk assessment participant details. 
+- Delete participants from the risk assessment. 
+## View Participants
+ You can view the list of participants and their associated details to learn about the study team members involved in creating the risk assessment and identifying specific risks.
+- Access RBQM , and then click Risk Assessment > Details in the left-hand menu. 
+- The Assessment Details page > Participants table lists the following details for all participants in the risk assessment:
+ Column Descriptions 
+- Name – The participant's name. 
+- Role  –  The participant's role in the study.  
+- Company –  The participants employer. 
+- Acknowledgement Required – A gray toggle to the left,   , indicates that the participant does not need to acknowledge the risk assessment report ; a blue toggle to the right, , indicates that the participant must acknowledge the risk assessment report. 
+## Add Participants
+ You can add to the risk assessment the list of study team members involved in creating the risk assessment and identifying study risks. You can also:
+- Assign participants to formally acknowledge and approve the risk assessment reports . 
+- Enable participants to receive  risk notifications through Medidata's Notification Center . 
+ Note : If you create a new risk assessment draft version after finalizing a previous version, the list of participants persists into the new version. If necessary, you can edit or delete participants.
+- Access RBQM , and then click Risk Assessment > Details in the left-hand menu. 
+- In the Assessment Details page > Participants section, click + Add participant . 
+- On the Add Participant dialog, select or enter the following:
+- User – Select an iMedidata study user to add as a risk assessment participant. When selecting iMedidata study users as participants from the User menu, those participants receive iMedidata notifications when a risk assessment is overdue or when a new risk is ready for review. 
+- First Name  – Enter up to 255 characters for the first name of the participant. This field is non-editable if you select a participant name from the User menu. 
+- Last Name – Enter up to 255 characters for the last name of the participant. This field is non-editable if you select a participant name from the User menu. 
+- Participant's Role –  Enter up to 255 characters for the role of the participant in the study.  
+- Company Name – Enter up to 255 characters for the name of the company the participant works for. 
+- Acknowledgement Required – Click to switch. A gray toggle to the left,   , indicates that the participant does not need to acknowledge the risk assessment report . A blue toggle to the right, , indicates that the participant must acknowledge the risk assessment report. 
+- Click Save .  
+ Note : When you add a participant, that name appears in all participant lists for all Risk Management reports. Similarly, removing a participant deletes the name from all participant lists in Risk Management.
+## Edit Individual Participant Details
+ You can edit individual participant details to update entry errors or change whether or not the risk assessment reports require the participant's acknowledgement. 
+- Access RBQM , and then click Risk Assessment > Details in the left-hand menu. 
+- In the Assessment Details page > Participants table, click the name of the participant you want to update. 
+- On the Add Participant dialog, select or enter the following:
+- First Name –  Enter up to 255 characters for the first name of the participant. 
+- Last Name –  Enter up to 255 characters for the last name of the participant. 
+- Participant's Role –  Enter up to 255 characters for the role of the participant in the study.  
+- Company Name –  Enter up to 255 characters for the name of the company the participant works for. 
+- Acknowledgement Required – Click to switch. A gray toggle to the left,   , indicates that the participant does not need to acknowledge the risk assessment report . A blue toggle to the right, , indicates that the participant must acknowledge the risk assessment report. 
+- Click Save .
+## Delete Participants
+ You can delete participants from the risk assessment; for example, individuals added in error or who are no longer on the study team.
+- Access RBQM , and then click Risk Assessment > Details in the left-hand menu. 
+- In the Assessment Details page > Participants table, click the Trashcan icon, .
+ Note : Removing a participant deletes the name from all participant lists in Risk Management.
+- Click Save .

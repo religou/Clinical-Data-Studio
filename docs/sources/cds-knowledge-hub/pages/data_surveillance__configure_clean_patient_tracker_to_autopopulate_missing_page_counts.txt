@@ -1,0 +1,39 @@
+# Data Surveillance: Configure Clean Patient Tracker to Autopopulate Missing Page Counts
+
+## Data Surveillance: Configure Clean Patient Tracker to Autopopulate Missing Page Counts
+## What Is New?
+ To track missing page counts in the Clean Patient Tracker > Patients table > Missing Pages column, you can configure in Data Surveillance whether you want to:
+- Manually enter missing page counts, or 
+- Autopopulate missing page counts derived from externally ingested and mapped missing page count report datasets. 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+- If you configure Data Surveillance to autopopulate missing page counts from an external dataset, then you cannot manually edit entries in the Missing Pages column. 
+- For external datasets to be made available for use in the Data Mapping capability's Missing Pages tab, you must first ingest the dataset using Data Connect's Imports capability or using Ingestor. 
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Configuring Data Surveillance to autopopulate missing page counts in Clean Patient Tracker: 
+- Enables your organization to seamlessly incorporate your missing page report data into Data Surveillance for tracking and analysis. 
+- Ensures Clean Patient Tracker analyses the most recent available missing page counts to produce the most accurate data analysis. 
+- Reduces the time and effort to track missing page counts. 
+- Ensures data analysis quality by reducing data entry error. 
+## Where Do I See the Change?
+ The Data Surveillance > Configuration > Data Mapping capability includes a new Missing Pages tab. In the Missing Pages tab > Missing Pages Source section, you can select one of the following:
+- Manual – Manually enter page counts in the Clean Patient Tracker > Patients table > Missing Pages column. This is the default selection. 
+- External – Map to an externally ingested dataset from which you want to derive and autopopulate missing page counts in the Clean Patient Tracker > Patients table > Missing Pages column.  
+ If you select External, you can then select: 
+- Dataset – The externally ingested dataset from which you want to derive and autopopulate missing page counts.
+ Note : The dataset must be ingested using Data Connect's Imports capability or Ingestor to be made available for use in Data Surveillance.
+ You can then select:
+- Missing Page Count – Select the specific column from the selected dataset from which you want to derive and autopopulate missing page counts. 
+ OR 
+- Expected Page Count and Entered Page Count – Select the specific column from the selected dataset containing the expected page count and then the column containing the entered page count. Data Surveillance calculates the difference between the expected and entered page count and autopopulates those numbers in Clean Patient Tracker. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Configure Manual or Automatic Missing Page Count Entry 
+## What Else Should I Know?
+- After mapping missing page count report datasets, we recommend triggering Clean Patient Tracker to recount the number of outstanding patient data cleaning tasks to ensure Clean Patient Tracker reports the correct metrics.  
+- If the missing pages mapping changes from manual to external, or external to manual, then the data in the Clean Patient Tracker > Patients table > Missing Pages column is overwritten to match the newly selected source. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

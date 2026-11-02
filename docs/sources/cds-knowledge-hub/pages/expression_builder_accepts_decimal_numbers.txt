@@ -1,0 +1,13 @@
+# Expression Builder Accepts Decimal Numbers
+
+## Expression Builder Accepts Decimal Numbers
+## Description
+ When using the expression builder to build derived variables, you can now input decimals in both numeric and logical operations.
+## Affected Roles
+ All roles with the Manage Derived Variables permission. 
+## Advantages
+ With the added decimal inputs, you can create numeric and logical expressions without being limited to whole numbers.
+## User Impact
+ You can find the expression builder by selecting the Expression Builder option in the Derived Variable Type menu. To add decimal numbers, you must drag the Number field from the Derived Variables > Operators tab into the expression builder. For details on building expressions, see  Create Derived Variable from Expression . 
+## Special Considerations
+ None.

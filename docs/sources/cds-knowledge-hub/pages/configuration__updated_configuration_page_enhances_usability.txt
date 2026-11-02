@@ -1,0 +1,67 @@
+# Configuration: Updated Configuration Page Enhances Usability
+
+## Configuration: Updated Configuration Page Enhances Usability
+ Important: 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the  released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Configuration  
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter :   
+ The Configuration page in Data Surveillance and RBQM includes updates that proved better usability. 
+ The Data Surveillance or RBQM > Data Mapping > Patient Milestones tab does not appear if the EDC source for your study is RAVE EDC. It appears only for external data sets or studies. The Patient Milestones tab also includes updates for better performance. The Data Mapping page also includes an mAudit button for all tabs that allows you to track an audit trail of all actions users perform. 
+ Benefit to Users 
+ | Data Managers only need to map essential fields while configuring patient milestones for studies and receive actionable insights. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data managers.
+ Impact to Workflow Processes 
+ No impact to workflow process.
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+ On the Data Surveillance or RBQM > Configuration > Data Mapping page: 
+- Patient Milestones page, the following fields no longer exist: 
+- Patient informed consent date 
+- Patient screening date 
+- On RBQM > Configuration > Data Mapping, a n mAudit button appears at the top right corner of the page for all tabs that shows an audit history of all tasks:
+- Data set configuration 
+- Event analysis  
+- Potential duplicate patients 
+- Rounding and propagation 
+- Lab measurements  
+- Oncology 
+- Patient milestones 
+- On the Data Surveillance > Configuration page,  a n mAudit button appears at the top right corner of the page for all tabs that shows an audit history of all tasks: 
+- Vendors 
+- Clean Patient Tracker 
+- For  non-RAVE EDC studies >  On the  Data Surveillance > Configuration > Clean Patient Tracker page: 
+-  The Form Status section does not appear.   
+- The Rave option for missing pages does not appear. The default selection is Manual. 
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | Low 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Map Patient Milestone Data for Third-party, Fully Ingested Studies 
+ Special Considerations 
+ |   To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

@@ -1,0 +1,28 @@
+# Data Surveillance: Build Visualizations For A Maximum Of Twenty Categories Using Donut Charts
+
+## Data Surveillance: Build Visualizations For A Maximum Of Twenty Categories Using Donut Charts
+## What Is New?
+ On the Data Surveillance > Visualizations page, y ou can build or edit visualizations for a maximum of 20 categories using donut charts. If there are more than 20 distinct categories, the Visualization page shows a warning message. 
+## What Is the Impact?
+## Users/Roles
+ All study team members. 
+## Workflow Process
+ No impact to workflow.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Graphically visualize study data relationships in donut charts enables you to accurately: 
+- Gain a clearer understanding or perspective of the study data. 
+- Identify study trends and patterns. 
+- Track study performance. 
+- Build and share reports or present on study data metrics using clear, visually appealing graphical renderings.  
+## Where Do I See the Change?
+ See What Is New?
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Visualizations 
+## What Else Should I Know?
+- For visualizations with a large amount of data, we recommend that you add chart filters to narrow your results. If the visualization you want to build experiences slow performance, we recommend that you refresh the page, use additional filters, and then regenerate the preview . 
+- When building donut charts, we recommend selecting Percentage as the aggregation for optimal chart readability.
+- The donut chart may not chart all patients in a data set if there are missing or incomplete patient records. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

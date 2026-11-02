@@ -1,0 +1,34 @@
+# Download Signal Configurations
+
+## Download Signal Configurations
+ You can download Signal configuration reports, which contain pertinent configuration information about the signals in your study environment. The reports provide configuration details in a clear, easy-to-read, and exchangeable format. 
+- Access RBQM , and then click Configuration >Signals in the left-hand menu.
+- On the Signals page, click Download Report . 
+- Click the .pdf option. 
+- Click Download .
+The PDF file is downloaded to your computer. 
+- Open the file. 
+For each module configured and enabled, the file includes:
+ Column Descriptions 
+ Patient Profiles 
+- Design – A published design.
+- Flags – A flag associated with the published design.
+- Description – A description for the signal.
+ KRIs 
+- Name – KRI name.
+- Threshold – High or Medium
+- Description – Default or user entered description.  
+ QTLs 
+- Name – QTL name.
+- Threshold – Upper Limit or Threshold.
+- Description – Default or user entered description.  
+ Propagation 
+- Variable – Variable name.
+- Threshold (%) – Percentage threshold value.
+- Description – Default or user entered description.  
+ Duplicate Patients 
+- Description – A user defined description. 
+ Unser/over Reporting 
+- Event – A Condition, History, or Treatment event.
+- Threshold  – Under or Over or both.
+- Description – Default or user entered description.

@@ -1,0 +1,40 @@
+# Elements
+
+## Elements
+ Medidata Patient Profiles includes the following capabilities related to elements:
+- Headers Feature to Display Set Flags Restored 
+- Data Options For Elements Display Enhancements 
+- Wide Tables Allow Positioning Of Graph And Table 
+- Add Patient Information Tables to Designs Patient Profiles 
+- Add Timelines to Designs Patient Profiles 
+- Use the Event Table Check Box to Turn Wide Tables into Event Tables 
+- Remove Blank Rows at the Bottom of Tables 
+- Copy Elements between Studies, Environments, and Draft Designs 
+- Copy Elements within a Study or Design 
+- Missing Data in Elements Indicated with Yellow Markers 
+- Updates to Hide Event Tables With No Data 
+- Patient Profiles Provides Clearer Missing Variables Messaging 
+- Distinct Transposed Tables Allow Same Variable Name Labels 
+- Patient Profiles Identifies The Origin Of Data Sets In A Study 
+- Element Conditional Display Options Updated 
+- Table Types Display In Element View 
+- Event Tables In Timelines Show Legend With Default Colors 
+- Transposed Tables Highlight Values With Conditional Highlighting 
+- Conditional Options In Tables Restored 
+- Transposed Tables Allow Positioning Of Graph And Table 
+- Configure Tables To Hide Elements Without Data 
+- Flags Functionality In Headers Restored 
+- Add Headers to Designs Patient Profiles 
+- Add Notes to Elements and Layout Sections to Provide Insight on Profile Data 
+- Add Wide Tables to Designs Patient Profiles 
+- Quickly View Currently Used Data Set When Editing Wide or Transposed Tables 
+- Receive Warning Message When Deleting Certain Elements 
+- Customize the Default Color of Variable Data Points in Timelines 
+- Transposed Table Functionality Restored 
+- Wide Table Variable Color Configuration Functionality Restored 
+- Timeline Visit Variable Configuration Functionality Restored 
+- The Element Accordion Displays Full Data Set Names 
+- Tooltip Displays Full Variable Display Name When Working in Elements 
+- Save Element Confirmation Box Message Text Aligned 
+- Transpose Table Highlight Values Outside a Range 
+- Wide Tables Display Conditions Restored

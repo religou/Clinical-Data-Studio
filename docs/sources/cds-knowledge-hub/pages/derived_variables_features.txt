@@ -1,0 +1,16 @@
+# Derived Variables Features
+
+## Derived Variables Features
+ Data Reviewer includes the following capabilities related to derived variables:
+- Derived Variable Names Save In Upper Case 
+- Derived Variables Updates Ensure Accurate Data Set Selection While Merging 
+- Case Insensitive Derived Variable Name Validation 
+- Create and View Derived Variables 
+- Derived Variables Updates 
+- Derived Date Variables - Difference In Dates and Today 
+- Derived Variable Names and Labels Enforce Character Restrictions 
+- Derived Variables - Conditional Concatenate 
+- Derived Variables Types Appear in Ascending Order in a List 
+- Preview Button Removed When Updating Derived Variables 
+- Update Derived Variable Workflow 
+- Using Space And Operators In Derived Variable Name Validation

@@ -1,0 +1,37 @@
+# View and Export a Listing's Historical Data Snapshots
+
+## View and Export a Listing's Historical Data Snapshots
+ When you create or refresh a data listing, Data Surveillance records the listing's data snapshot. You can view the historical data for each of the data listing's recorded snapshots. Therefore, you can review a listing's data records from a specific date and time. 
+ You can also export the listing's historical data snapshots to CSV files to store locally, and view and exchange outside of Data Surveillance.
+- 
+ If necessary, access and view your study's approved listings. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Data Listings page shows. 
+- On the Data Listings page, click the  Approved Listings tab.
+The Approved Listings table shows the following:
+ Column Descriptions 
+- Name – The listing's Object identifier (OID) 
+- Expression – The listing's conditional expression that is used to identify and flag patient data that meet the specified conditions. 
+- Rave Enabled – A check mark indicates that the listing is Rave enabled, meaning that you can view the listing's Rave query status in Data Surveillance. No check mark indicates that the listing is not Rave enabled. 
+- Refreshed By – The last user who refreshed the approved listing to show the latest results. 
+- Track – Enables you to activate or inactivate the approved listing for Clean Patient Tracker analysis. 
+- If necessary, filter or sort  the Approved Listings table to help find the listing you need. 
+- On the Data Listings page > Approved Listings table, select an approved listing.
+ Below the Approved Listings section, a new section shows the selected listing and lists all patients with data that match the criteria specified in the listing's conditional expression. 
+- Above the listing results table, click History .
+ A side panel opens to the right of the page with the refresh history. Each link represents the data snapshot for each time the listing was refreshed. 
+- Click a link for the listing snapshot date whose listing results you want to view.
+The Refresh Window shows at the top of the table the listing name and the number of records associated with the listing on the selected snapshot date.
+ Table Column Descriptions 
+- PatientID – The ID of the patient whose data matched the criteria specified in the listings conditional expression. 
+- Site – The site that the patient belongs to. 
+- Country – The country where in which the site resides. 
+- Status – Indicates whether the listing record is reviewed, queried, or commented on. 
+- – Indicates that the listing record is marked as reviewed. The absence of the icon means the listing record is unreviewed. To learn more, see Mark Individual Listing Results as Reviewed or Unreviewed . 
+- – Indicates that the listing record has been queried. The absence of the icon means the listing record has no queries. To learn more, see View and Submit Rave Queries on Patient Records . 
+- – Indicates that the listing record contains internal review comments. The absence of the icon means the listing record has no comments. To learn more, see Add, View, Edit, or Delete Comments on Individual Listing Results . 
+- Variable – Each column header to the right of the Status column header represents a variable that the data listing's expression is configured to run against. The variable column header shows the human-readable variable name at the top and the variable object identifier (OID) at the bottom. And then the column lists the variable's data point entries captured by the data listing's conditional expression.   
+- To export the listing's historical data snapshot, click Download (.xlsx) above the listing results table.
+The listing results download to your browser as an Excel file. 
+- Open and save the file.
+The report name is formatted by default as <listing name>_<snapshot date in weekday, dd Mmm yyyy hh_mm_ss>. For example, "Listing Name Wed, 05 Apr 2023 03_13_05."

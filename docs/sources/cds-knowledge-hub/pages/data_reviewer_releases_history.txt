@@ -1,0 +1,145 @@
+# Data Reviewer Releases History
+
+## Data Reviewer Releases History
+ The following lists all Data Reviewer releases (starting with the initial release to up to the 2022.3.0 feature release) and the features and enhancements introduced in each. All Data Reviewer features and enhancements released after Data Reviewer 2022.3.0 are listed in the Clinical Data Studio Releases History .
+ Note :  Code Continuity Across Releases 
+ All Data Reviewer releases are cumulative. That is, each release or software update is built on the prior releases as noted in the release notes. For example,  Software Update 2016.2.1  includes all of the release  2016.2.0  code, which in turn is based on the  release  2016.1.0  code and so on. Any updates between releases or s oftware updates (urgent or otherwise)  are described in the release notes. 
+## Data Reviewer 2022.2.1 (Aug 2022) 
+- 
+ Data Reviewer 2022.2.1 Resolved Issues List 
+## Data Reviewer 2022.2.0 (Aug 2022) 
+- 
+ View Historical Details For Listings 
+- 
+ Build Listings By Selecting Variables From Multiple Data Sets 
+- 
+ Create Rave Queries Directly from Listings 
+- 
+ Data Reviewer 2022.2.0 Resolved Issues List 
+## Data Reviewer 2022.1.1 (Apr 2022) 
+- 
+ Data Reviewer Identifies Rave And External Data Sets In A Study 
+- 
+ Data Reviewer 2022.1.1. Resolved Issues List 
+## Data Reviewer 2022.1.0 (Apr 2022) 
+- 
+ Product Rebranded as Data Reviewer 
+- 
+ Create And View Listings 
+- 
+ Data Reviewer Identifies The Origin Of Data Sets In A Study 
+- 
+ Upgraded One Of Operator Available For Derived Variables 
+- 
+ Hide, Show, And Reposition Data Set Variable Columns 
+- 
+ Copy Configuration For Existing Derived Variables 
+- 
+ Data Reviewer Streamlines Navigation to View A Patient's Rave Data 
+- 
+ Improved Navigation In Data Reviewer 2022.1.0 
+- 
+ Data Reviewer 2022.1.0 Resolved Issues List 
+## MEDS Data Viewer 2021.2.3 (Oct 2021) 
+- 
+ Technical Changes In MEDS Data Viewer 2021.2.3 
+- 
+ Expression Builder Workflow Allows Six Rows of Derived Variables 
+- 
+ Derived Variables Types Appear in Ascending Order in a List 
+- 
+ Data Variables - Sort Dates and Numbers in Ascending and Descending Order 
+- 
+ MEDS Data Viewer 2021.2.3 Resolved Issues List 
+## MEDS Data Viewer 2021.2.2 (Sept 2021) 
+- 
+ Data Set Pre-Filtering Displays Site Number 
+- 
+ MEDS Data Viewer 2021.2.2 Resolved Issues List 
+## MEDS Data Viewer 2021.2.1 (Aug 2021) 
+- 
+ MEDS Data Viewer 2021.2.1 Resolved Issues List 
+## MEDS Data Viewer 2021.2.0 (Aug 2021) 
+- 
+ Derived Variables - Check All That Apply 
+- 
+ Derived Variables - Conditional Concatenate 
+- 
+ Technical Changes In MEDS Data Viewer 2021.2.0 
+- 
+ Data Set Variables Appear as Column Headers 
+- 
+ Corrected Text Field Rendering in Expression Builder 
+- 
+ New Operators Available for Expression Builder 
+- 
+ New Warning Message for Incomplete Derived Variable Expressions 
+- 
+ Data Variable Names Appear as in Patient Profiles 
+- 
+ Expansion Updates to Data Sets Panel 
+- 
+ MEDS Data Viewer 2021.2.0 Resolved Issues List 
+## MEDS Data Viewer 2021.1.1 (Jun 2021) 
+- 
+ Data Set Pre-Filtering By Site Or Subject 
+- 
+ MEDS Data Viewer 2021.1.1 Resolved Issues List 
+## MEDS Data Viewer 2021.1.0 (May 2021) 
+- 
+ Upgraded Data Set Variable Filtering 
+- 
+ Data Loading Performance Fixes 
+- 
+ Data Set Viewer Interface Updates 
+- 
+ Case Insensitive Derived Variable Name Validation 
+- 
+ Preview Button Removed When Updating Derived Variables 
+- 
+ Using Space And Operators In Derived Variable Name Validation 
+- 
+ Case Insensitive Expression Builder Text Calculations 
+- 
+ MEDS Data Viewer 2021.1.0 Resolved Issues List 
+## MEDS Data Viewer 2020.3.6 (Feb 2021) 
+- 
+ MEDS Data Viewer 2020.3.6 Resolved Issues List 
+## MEDS Data Viewer 2020.3.5 (Jan 2021) 
+- 
+ MEDS Data Viewer 2020.3.5 Resolved Issues List 
+## MEDS Data Viewer 2020.3.4 (Dec 2020) 
+- 
+ MEDS Data Viewer 2020.3.4 Resolved Issues List 
+## MEDS Data Viewer 2020.3.3 (Dec 2020) 
+- 
+ MEDS Data Viewer 2020.3.3 Resolved Issues List 
+## MEDS Data Viewer 2020.3.2 (Dec 2020) 
+- 
+ MEDS Data Viewer 2020.3.2 Resolved Issues List 
+## MEDS Data Viewer 2020.3.1 (Nov 2020) 
+- 
+ Expression Builder Accepts Decimal Numbers 
+- 
+ Derived Variable Names and Labels Enforce Character Restrictions 
+- 
+ MEDS Data Viewer 2020.3.1 Resolved Issues List 
+## MEDS Data Viewer 2020.3.0 (Nov 2020) 
+- 
+ Derived Variable - Expression Builder 
+- 
+ Derived Variable - Merge 
+- 
+ Derived Date Variables - Difference In Dates and Today 
+- 
+ Update Derived Variable Workflow 
+- 
+ Concatenate Derived Variable Expanded to Multiple Concatenation 
+- 
+ MEDS Data Viewer 2020.3.0 Resolved Issues List 
+## MEDS Data Viewer 2020.2.0 (Sep 2020) 
+- 
+ Create and View Derived Variables 
+## MEDS Data Viewer 2020.1.0 (Apr 2020) 
+- 
+ Review Data Sets With MEDS Data Viewer

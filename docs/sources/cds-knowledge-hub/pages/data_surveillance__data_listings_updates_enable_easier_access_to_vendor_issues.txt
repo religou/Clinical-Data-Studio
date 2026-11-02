@@ -1,0 +1,30 @@
+# Data Surveillance: Data Listings Updates Enable Easier Access To Vendor Issues
+
+## Data Surveillance: Data Listings Updates Enable Easier Access To Vendor Issues
+## What Is New?
+ The Data Listings page now includes the following vendor issues improvements:
+- When you click the microscope icon in the Status column for a data listing, a slide out panel appears. You can now access the Vendor Issue Sets page when you click the Issue Set hyperlink in the slide out panel. 
+- While creating a vendor issue, the Rave data and Vendor data field text shows field names instead of OIDs. 
+- The approved listings table now includes a Vendor Issues column and a check mark indicates if the data listing is part of a vendor issue set. 
+## What Is the Impact?
+## Users/Roles
+ Study Managers and Data Managers.
+ All users with Submit Vendor Issues and Manage Issue Sets access. 
+## Workflow Process
+ No change to workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Data managers can easily identify if a data listing has an associated vendor issue, then cross-check the specific vendor issue set directly from the Data Listings page. While creating vendor issues, data managers can reconcile data faster by referring the Rave or vendor data fields instead of OIDs.
+## Where Do I See the Change?
+ On the Data Surveillance > Listings page:
+- The approved listings table includes a Vendor Issues column, and a check mark in the column indicates if the data listing is part of a vendor issue set. 
+- If you click the microscope icon for a data listing, a slide-out panel appears. If you click the issue set hyperlink in the slide-out panel, the Vendor Issue Set page appears, with the specific vendor issue highlighted. 
+- While creating a vendor issue, the EDC data and Vendor data field text shows field names instead of OIDs. For example, the EDC data field may say Was Specimen Collected?=Yes; Study=Detect Horizon Exciter Sbx 482; Test Name=ANTI-DSDNA; Collection Date=26 APR 2022, i instead of LBLCYN=Yes; STUDY_NAME=Detect Horizon Exciter Sbx 482; LBTEST=ANTI-DSDNA; LBLCSDT=26 APR 2022. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement : 
+- Data Listings 
+- Vendor Queries 
+## What Else Should I Know?
+ To access View Issue Sets, you must have the Submit Vendor Issues and Manage Issue Sets building blocks associated with your role in the Cloud Administration study group. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

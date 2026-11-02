@@ -1,0 +1,30 @@
+# Identify Critical Data In Expression Builder, KRIs, QTLs and In Data Mapping
+
+## Identify Critical Data In Expression Builder, KRIs, QTLs and In Data Mapping
+## What Is New?
+ While configuring KRIs, QTLs and Data Mapping, and in the Expression Builder in Data Sets:
+ Critical data sets and variables appear with a blue flag indicating critical data. A tooltip also appears for data sets with critical data.
+## What Is the Impact?
+## Users/Roles
+ Risk managers, study managers, data managers.
+## Workflow Process
+ No change to workflow process.
+## Other Applications
+ None.
+## How Do I Benefit?
+ Identifying critical data sets used in your study helps you focus on and monitor the most important data to ensure:
+- Protocol compliance, patient safety, data quality, and data integrity. 
+- Product or treatment efficacy. 
+## Where Do I See the Change?
+ For any of the following pages in RBQM > Configuration, or Data Surveillance > Configuration, if you create or edit any configuration, c ritical data sets and variables appear with a blue flag indicating critical data. If you hover over the critical data, a tooltip also appears. 
+- KRIs 
+- QTLs 
+- Data Mapping  
+ Similarly, in Data Surveillance > Listings, if you select data sets and variables in an expression builder to create a listing, data sets and variables with critical data points to the study appear with a blue flag .
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Data Sets 
+- Data Surveillance Configuration 
+- RBQM Configuration 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,12 @@
+# Data Mapping
+
+## Data Mapping
+ You can configure within Data Mapping the data sets and variables that Data Surveillance and RBQM uses to consume and produce the reports, statistical analysis, and visualizations for: 
+- Data anomaly detection and trends . 
+- Event incidence and under-over reporting events . 
+- Potential duplication patients . 
+- Rounding and propagating vital sign records . 
+- AI Data Reconciliation reports . 
+- RECIST 1.1 Dashboard . 
+- Clean Patient Tracker missing page count reports. 
+- Third-party, fully ingested studies .

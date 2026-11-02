@@ -1,0 +1,17 @@
+# Redesigned Import Summary Panel
+
+## Redesigned Import Summary Panel
+## Description
+ MEDS Ingestor updates the Import Summary panel. The Import Summary panel shows a summary of every file uploaded during the data import process in one view. For each file, the page also shows the file's details, processing summary, and any downloadable artifacts related to the import.
+ Tip : Click image to enlarge.
+ Feature/enhancement stories referenced in this article:
+ MCC-751376 
+## Affected Roles
+ All roles with access to MEDS Ingestor.
+## Advantages
+ With the redesigned Import Summary screen panel, you can view  details of multiple imported files in a streamlined view. From this view, you can see each file's respective processing summary, and download any related import summary artifacts. This saves you the effort of reviewing multiple files across separate screens.  
+## User Impact
+ You can access the Import Summary panel from the Jobs List page by clicking the Import Summary link for any failed or successful uploaded file.
+ This update does not affect your import file visibility or access. If you cannot see or access your previously created import jobs, review  Updated Building Blocks for MEDS Ingestor and ensure that your role has the appropriate building blocks.
+## Special Considerations
+ None.

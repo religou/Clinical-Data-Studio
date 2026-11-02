@@ -1,0 +1,19 @@
+# AI Reconciliation FAQs
+
+## AI Reconciliation FAQs
+## What algorithms drive AI Reconciliation Reports?
+ AI Reconciliation reports are driven by a set of algorithms that identify discrepancies by reconciling records within forms and across forms. For more information, see About AI Reconciliation Reports . 
+## What data is used for AI Reconciliation Reports?
+ AI Reconciliation reconciles data across Adverse Events, Medical History, Concomitant Treatment, Concomitant Procedure forms, and Labs. For more information, see  About AI Reconciliation Reports . 
+## How and when does AI Reconciliation get updated based on cumulative and incremental user feedback?
+ We continuously make efforts to improve the quality and output of AI Reconciliation algorithms. As the algorithms rely on multiple components for performance, we continue to improve the algorithms to deliver the most accurate results and enhance product functionality. To improve the accuracy of the Conditions without Treatment, Treatment without Conditions, and on-going Medical History reports,  we update the knowledge graphs to include additional treatments and conditions when the underlying biomedical databases get updated. These pre-scheduled updates are made annually. We also monitor the algorithm's performance and user feedback. In the unlikely scenario that the model performance deviates beyond a prespecified threshold, we can retrain the model with new labels.
+ The AI Reconciliation algorithm updates in two ways: 
+- Instant updates 
+- Periodic updates 
+ For more information, see  About AI Reconciliation Reports . 
+## How accurate is the AI Reconciliation algorithm before study level fine tuning?
+ The accuracy of the AI Reconciliation algorithm applied to a study, is measured in two ways. These metrics establish the performance of the algorithm and ensure the quality of findings.
+- True Positive False Negative Percentage 
+The AI Reconciliation algorithm has a true positive rate of identifying findings with 90% accuracy, and a false negative rate of 5% on test data. The true positive indicates the percentage of times the algorithm identifies a finding correctly. The false negative indicates the percentage of times the algorithm does not display a condition or treatment as being a finding. 
+- Confidence Level 
+The AI Reconciliation algorithm also assigns a confidence score that quantifies the certainty of a finding being an anomaly. This enables data managers to evaluate the reliability of findings, prioritize investigative efforts, and make informed decisions. A subject matter expert validates the the most prevalent, high confidence condition and treatment findings and non-findings, making up to 80% of total occurrences. These metrics establish the performance of our proprietary AI Reconciliation algorithm and ensure the quality of our findings.

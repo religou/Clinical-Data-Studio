@@ -1,0 +1,22 @@
+# View Exports Failed Notifications
+
+## View Exports Failed Notifications
+ Through the Medidata system, you receive the following automated notifications: 
+- Information   – Informs you when the export fails in Data Connect - Exports.
+ Notifications are processed and sent through the Medidata's  Notification Center . 
+ You can view exports failed notifications in two forms: 
+- Email notifications with a deep-link sent to your email inbox. 
+- In-app notifications are accessible by way of the Medidata platform user interface. 
+ Exports failed notifications keep you closely informed regarding failed exports and logged errors. 
+ Note : To receive or discontinue exports failed notifications, contact your Medidata Professional Services representative.
+## View Exports Failed Notifications Through Email 
+- Open the email notification you receive from Medidata. 
+- Click  View in Notification Center .
+ The Notifications page shows a message regarding the data refresh. 
+## View Exports Failed Notifications in the Notification Center
+- Log in to   iMedidata.com . 
+- Click the   Notifications   icon     in the iMedidata toolbar.
+ Note : An icon with a red circle    indicates new, unread notifications. 
+The Notifications page shows all notifications you have received, listed in order from newest at top.
+ Note : You can continuously scroll through notifications to the end. When you reach the bottom, if there are more notifications, then the page automatically shows the notifications. 
+- Optional . In the left-hand pane, click to filter the Notifications page to show specific notifications by type: All, Information, Warning, or Critical.

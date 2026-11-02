@@ -1,0 +1,22 @@
+# Derived Variables - Conditional Concatenate
+
+## Derived Variables - Conditional Concatenate
+## Description
+ You can now create the Conditional Concatenate derived variable. With the Conditional Concatenate derived variable, you can combine multiple IF-THEN-ELSE expressions to build a text-based derived variable. You can concatenate up to 20 data set variables in a single operation. After creating a Conditional Concatenate derived variable, you can only edit the derived variable's label; all other fields become read-only. 
+## Affected Roles
+ All roles with the Manage Derived Variables building block. 
+## Advantages
+ With the Conditional Concatenate option, you can configure derived variables to see the data you need and take appropriate action.  
+## User Impact
+ You can find the Conditional Concatenate option in the Derived Variable > Create Derived Variable > Derived Variable Type menu. To build concatenated expressions, you must select a combination of data set variables from the Derived Variables > Data Sets tab and operators from the Derived Variables > Operators tab.  
+ When using the Conditional Concatenate workflow: 
+- You must include at least two IF-THEN-ELSE blocks in the concatenated expression. 
+- You can concatenate up to 20 data set variables and up to 10 rows of dual IF-THEN-ELSE blocks. 
+- You can select a concatenation separator. The default separator is a comma (,). The text entered in the Prefix field only appears once at the beginning of the derived variable. Likewise, the text entered in the Suffix field only appears once at the end of the derived variable.  
+ After creating the derived variable, you can only edit the variable's label field. 
+ For details on building expressions, see Knowledge Space Updates. 
+## Knowledge Space Updates
+ The following article has been created in the MEDS Data Viewer Knowledge Space to support this feature: 
+- Create Derived Variable with Conditional Concatenate 
+## Special Considerations
+ None.

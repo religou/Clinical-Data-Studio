@@ -1,0 +1,17 @@
+# Show Me - Create a Patient Profile Layout
+
+## Show Me - Create a Patient Profile Layout
+ Summary 
+ | This video shows how to configure a patient profile design layout. 
+ Duration 
+ | 2 minutes and 5 seconds 
+ Product 
+ | Data Surveillance 
+ Release 
+ | 2024 R06 
+ Video Category 
+ | Patient Profiles 
+ Related Topics 
+ | Configure the Design Layout 
+ Remember to turn on your speakers.
+ &amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;

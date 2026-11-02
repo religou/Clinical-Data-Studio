@@ -1,0 +1,33 @@
+# Set Upper and Lower Time Limits
+
+## Set Upper and Lower Time Limits
+ The workflow progress bar below depicts where defining date settings occur within the recommended patient profile design workflow. 
+ You can set the study's lower time limit and upper time limit (in study days) that Patient Profiles pulls data for timelines or graphs. Typically, the lower limit is the earliest study day a patient can be screened; for example, -28. The upper limit is the latest study day a patient can possibly have based on the visit schedule. The lower and upper time limits set the x-axis for the timeline and graphs within patient profiles. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Settings tab. 
+- Enter the Lower Time Limit and Upper Time Limit to define the window of time in which you want Patient Profiles to pull data for timelines or graphs. 
+- Click Save . 
+## Next Step
+ Add Elements

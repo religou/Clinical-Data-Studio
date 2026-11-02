@@ -1,0 +1,26 @@
+# View Historical Data Snapshots in Detect
+
+## View Historical Data Snapshots in Detect
+## Description
+ Medidata Detect provides a list of historical data snapshots. You can select a data snapshot to enter History View mode to see how the data looked throughout Detect when that the snapshot occurred.
+## Affected Roles
+ All.
+## Advantages
+ Viewing historical data snapshots provides a smoother, more convenient way to audit studies and reconcile the data and actions made between snapshots.
+## User Impact
+ The Schedule tab in the left-hand menu is now renamed to History tab.
+ The History page provides a historical list of all previous data snapshots in your study environment. If you click a snapshot in the list, you can navigate to any Detect page to view what the data points and issues looked like when the snapshot occurred.
+ While in History View, a blue banner displays at the top of all Detect pages. The banner indicates the date the historical snapshot's data refresh occurred. For example:
+ You can click Exit History View in the blue banner to revert to the latest data snapshot.
+## Special Considerations
+- History View mode displays the actions that occurred in the immediate data snapshot following the snapshot date you selected to view. For example, say you selected to view a data snapshot with a date of 17 Oct 2020 and the following data snapshot took place on 22 Oct 2020. In such case, History View mode displays the data in Detect as of 17 Oct 2020, but shows the actions made in Detect up until 22 Oct 2020. 
+- While in History View mode:
+- Data is read-only. 
+- The Error Plots page > Summary section > Actions column does not display. 
+- The Event Incidence Plot page > Summary section > Actions column does not display. 
+- You cannot deep link into Issue Management. 
+- You cannot update track review data. 
+- Track reviews and issues created are those that occurred against the selected historical snapshot or previous snapshots. That is, the created dates may be after the snapshot date, but before the following snapshot. 
+- On the Issues slide-out panel, the Assignee column and Status column do not display. 
+- On the Issues slide-out panel, the Is Closed column displays.
+ Note : If the issue was resolved after the date of the snapshot being viewed, then Is Close has a value of No. If the resolved date occurred before the date of the snapshot in view, then Is Close has a value of Yes.

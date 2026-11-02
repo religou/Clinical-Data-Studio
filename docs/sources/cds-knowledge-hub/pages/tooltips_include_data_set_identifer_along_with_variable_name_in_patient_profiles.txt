@@ -1,0 +1,13 @@
+# Tooltips Include Data Set Identifer Along with Variable Name in Patient Profiles
+
+## Tooltips Include Data Set Identifer Along with Variable Name in Patient Profiles
+## Description
+ On the Elements tab, hovering your cursor on a variable name in a header, patient information table, or wide table row or column displays a tooltip. The tooltip shows you the data set identifier along with variable name.
+## Affected Roles
+ All.
+## Advantages
+ Tooltips help you easily identify which data set the variable belongs to.
+## User Impact
+ See the Description Section.
+## Special Considerations
+ None.

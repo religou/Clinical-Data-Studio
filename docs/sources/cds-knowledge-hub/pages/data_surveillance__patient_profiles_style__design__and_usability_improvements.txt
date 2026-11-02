@@ -1,0 +1,101 @@
+# Data Surveillance: Patient Profiles Design Page and Profiles Tab Redesigned for Better Usability
+
+## Data Surveillance: Patient Profiles Design Page and Profiles Tab Redesigned for Better Usability
+## What Is New?
+ The following Patient Profiles components include enhancements:
+ Patient Profile Designs Page 
+- The Patient Profile Designs page shows a restyled, modernized user interface. 
+- The Patient Profile Designs page > Published Designs table and Draft Designs table:
+- Include a keyword search bar to help find and access designs. 
+- Show the the number of designs listed in the table header. 
+- Relabelled the Create Design button to Create New Design. 
+ Design page > Profiles tab 
+- When working in published or draft designs, the Design page > Profiles tab:
+- Shows a restyled, modernized user interface. 
+- Shows a header section that contains: 
+- The design name. 
+- You can click the design name to view a list of other designs in the study. You can click another design name to quickly switch to and work in that design. When working in published designs, you can only switch between published designs. Likewise, when working in draft designs, you can only switch between draft designs. 
+- The date and time stamp when the data in the design was last refreshed. 
+- The Refresh button. 
+- The Download button, which was previously labeled as the PDF button. The Download button no longer enables you to download the patient profile that is currently selected from the Patient Selector. However, the Download button still enables you to:
+- Download all patient profiles. 
+- Download patient profiles belonging to specific sites. 
+- Specify whether you want to include all patient profile design elements, only graphs and timelines, or only tables in the downloaded file. 
+- The Back ( < ) button . 
+- You can click the Back ( < ) button to go back to the Patient Profile Designs page. 
+- When you select to view a patient profile from the Patient Selector, the Patient Profile tab and Patient Query tab no longer show beneath the Patient Selector. Instead, the Profile tab and Queries tab open in a separate subpage within the Design page. The Profile tab still shows the patient profile. The Queries tab still shows the list of queries associated with the selected patient. 
+ Patient Selector 
+- When working in published or draft designs, the Design page > Profiles tab > Patient Selector:
+- Shows a restyled, modernized user interface look-and-feel. 
+- Shows the count of patient profiles listed in the Patient Selector table header. 
+- Contains the Download Profile button.
+- You can click the Download Profile button to download the patient profile that is currently selected in the Patient Selector table. You can only select one profile; otherwise, the Download Profile button becomes disabled. This downloads everything in the patient profile design. You cannot specify to only include certain elements. 
+- No longer includes the Show menu, Apply Filter, and Clear Filter. Now you can click the Filter button,  ,  to apply table filters to the Patient Selector. 
+- No longer includes the Refresh button, Marked Reviewed button, Clear Reviewed button, or PDF button. 
+- The Refresh button is now located in the Design page > Profiles tab header section. 
+- The Mark Reviewed button is now located in the Profile tab header section when viewing an individual patient profile. The button only shows when the patient profile is unreviewed. 
+- The Clear Reviewed button is relabelled to Mark Unreviewed and is now located in the Profile tab header section when viewing an individual patient profile. The button only shows when the patient profile is marked as reviewed. 
+- The PDF button has been replaced and split into two buttons: 
+- The Download button in the Design page > Profiles table header section. 
+- The Download Profile button in the Patient Selector. 
+- Contains the More button, , which when clicked, enables you to: 
+- Select the columns when you want to show in the Patient Selector. 
+- Configure columns that you want to freeze and on the left or right side of the Patient Selector. 
+ Patient Profile Viewer  
+- When working in published or draft designs and viewing patient profiles on the Design page > Profiles tab > Profile tab:
+- The Patient Profile tab:
+- Is relabelled to Profile. 
+- Shows a restyled, modernized user interface look-and-feel. 
+- Shows a header section that contains the: 
+- Patient ID 
+- Site Number 
+- Randomization Date 
+- Mark Reviewed button 
+- Open in Rave EDC button 
+- The Patient Profile Viewer:
+- Includes an actual section header called "Patient Header." 
+- The Patient Header section lists all flags and visually indicates through color-coding that flags that are turned on or off. 
+- Shows tables, timelines, graphs, and table highlighting in a cleaner, modern design. 
+- Enables you to hover your cursor on:
+- Graph data points to view the data point date and value. 
+- Timeline data points to view the data point and event name. 
+- Shows the count of table items listed in the table headers. 
+- Enables you to sort tables by column in alphanumeric order. 
+- Show the Updates button above the patient profile. 
+- Relabels the View in Rave EDC button to Open in Rave EDC and now includes the button in the Profile tab > header section. 
+- Consolidates the Expand All and Collapse All buttons into one button. The button label shows as Collapse All when the table sections are expanded. The button label shows as Expand All when the table sections are collapsed. This button shows above the patient profile. 
+- Includes a new Comments button above the patient profile, which you can click to add internal review comments to the patient profile. 
+ Queries Table 
+- When working in published or draft designs and viewing patient queries on the Design page > Profiles tab > Queries tab:
+- The Patient Query tab:
+- Is relabelled to Queries. 
+- Shows a restyled, modernized user interface look-and-feel. 
+- The Queries table:
+- Includes a Queries table header. 
+- Shows the count of listed queries in the Queries table header 
+- Enables you to sort table columns in alphanumeric order. 
+- No longer includes the Column Filter button, Clear Filter button, or any table filtering capabilities. 
+## What Is the Impact?
+## Users/Roles
+ Patient profile designers.
+## Workflow Process
+ When selecting to view a patient profile from the Patient Selector, the Profile tab and Queries tab no longer show directly beneath the Patient Selector. Instead, the Profiles tab and Queries tab show on a separate subpage in the Design page. On the subpage, you can click the Back button ( < ) in the header section to go back to the main Design page. 
+ On the Design page > header section, you can
+- Click the Back ( < ) button to go back to the Patient Profile Designs page. 
+- Click the design name to view and open other designs in your study. 
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The Patient Profiles design, style, and usability improvements:
+- Improve and modernize the general look and feel of the user interface. 
+- Align the design style with the most current Medidata platform style. 
+- Provide quality of life improvements to improve your day-to-day work in Patient Profiles. 
+- Streamline access to profiles, patient selector, and design selector pages. 
+## Where Do I See the Change?
+ See the What Is New section.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Find and Access Designs 
+- Review and Export Patient Profiles 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

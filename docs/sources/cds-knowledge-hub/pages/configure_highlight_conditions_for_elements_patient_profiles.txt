@@ -1,0 +1,16 @@
+# Configure Highlight Conditions for Elements Patient Profiles
+
+## Configure Highlight Conditions for Elements Patient Profiles
+## Description
+ Using highlight conditions, you can design your wide and transposed tables with colored highlighting to bring attention to certain rows in your table. For example, you could design an adverse event table with highlights. The table could highlight a grade 4 adverse event row in yellow and a grade 5 in red.  
+## Affected Roles
+ All.
+## Advantages
+ See the Description section.
+## User Impact
+ When working with wide tables or transposed tables on the Design page > Elements tab, you can:
+- Configure two unique highlight conditions; 
+- Configure a third highlight color combination if both highlight conditions are met; and 
+- Remove wide table highlight conditions. 
+## Special Considerations
+ None.

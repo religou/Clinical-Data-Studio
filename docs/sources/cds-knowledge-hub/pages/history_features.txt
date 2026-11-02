@@ -1,0 +1,9 @@
+# History Features
+
+## History Features
+ Medidata Detect includes the following schedule-related capabilities:
+- Schedule When Detect Refreshes with the Latest Study Data 
+- Refresh Medidata Detect to Analyze and Render the Latest Study Data 
+- View Historical Data Snapshots in Detect 
+- Stop or Suspend Scheduled Data Snapshot Refreshes 
+- History Page Informs You of Current Study Data Analysis Status

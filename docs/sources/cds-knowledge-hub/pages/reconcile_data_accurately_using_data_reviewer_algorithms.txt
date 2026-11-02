@@ -1,0 +1,83 @@
+# Reconcile Data Accurately Using Data Reviewer Algorithms
+
+## Reconcile Data Accurately Using Data Reviewer Algorithms
+## Description
+ Data Managers and Central Monitors must reconcile study data collected at sites to ensure data accuracy. However, lack of clinical experience in personnel conducting reconciliation or errors encountered while manually entering data can hamper the reconciliation process or even threaten study integrity. Medidata Detect 2023.1.0 introduces six new AI Data Reconciliation reports that use built-in algorithms to automatically reconcile study data.
+## Affected Roles
+ All roles with the Manage Data Reviewer building block. 
+## Advantages
+ As Data Managers and Central Monitors, you can:
+- Produce error-free data by avoiding a manual  reconciliation process. 
+- Use built-in algorithms to create reconciliation reports, and save time spent on reviewing study data and finding matches for each report. 
+- Overcome lack of clinical experience to reconcile study data. 
+## User Impact
+ The update includes various changes to the user interface including creation of a new page - AI Data Reconciliation in Data Reviewer. The screenshot and table below indicate the changes.
+ Tip: Click image to enlarge.
+ Image A 
+ Image B 
+ | 
+ | 
+ Number  
+ Description 
+ | 1 
+ | To view the AI Data Reconciliation page:
+- You can click AI Data Reconciliation from the left menu in Medidata Detect > Patient Data Surveillance > Data Reviewer to view the AI Data Reconciliation page. (Image A)
+OR  
+- You can click the AI Data Reconciliation link on the Detect Landing Page > Patient Data Surveillance.(Image B) 
+ | 2 
+ | 
+ The AI Data Reconciliation page includes two tabs:  Adverse Events (AEs) and Concomitant Medication (CondMeds). 
+ | 3 
+ | 
+ Adverse Events -  Includes four reconciliation reports:
+- 
+- 
+- AEs without CMs - Shows a list of patients with adverse events (AEs)  that do not have any associated concomitant medications (CMs) recorded within specific days of the AE start date. 
+- Worsening AEs - Shows a list of patients with AEs that appear worsening but
+do not have any associated ongoing medical history (MH) or "non-worsening" related AE record.
+OR
+have "non-worsening" related AE record report after the worsening AE start date. 
+- Overlapping AEs - Shows a list of patients with two or more of the same AEs whose start and end data overlap. 
+- Overlapping non-worsening AE and ongoing MH - Shows a list of patients with non-worsening AEs whose start and end date overlap with ongoing medical history (MH) start date. 
+ ConMeds - Includes two reconciliation reports:
+- 
+- 
+- Overlapping CMs - Shows a list of patients with two or more of the same CMs whose start and end data overlap. 
+- CMs without AEs or ongoing MH - Shows a list of patients with concomitant medications (CMs) that do not have any associated 
+AEs recorded that started before, or on the day the CM started or ended.
+OR
+Ongoing medical history (MH). 
+ For further information, see  View And Access AI Data Reconciliation Reports .
+ | 4 
+ | 
+ The dropdown shows either the four Adverse Events or two ConMeds reconciliation reports. You can select a report from the list to view.
+ | 5 
+ | 
+ Shows a report selected from the list in . The above image A shows a AEs without CMs report. For each report:
+- You can click   next to the report name to view reviewed, unreviewed, or all records. For example, the AEs without CMs report shown above has 5758 unreviewed records. 
+- You can click to apply column filters. 
+- You can select records and click Mark Reviewed to mark the records as reviewed. 
+- You can select multiple records and click Submit Queries to submit Rave queries for the records. The Submit Query page opens up, and displays the records selected. 
+- If no data exists for a report, a " No data with anomalies exists for the selected report" appears. 
+- Along with specific columns based on the type of data, each report includes the following: 
+- Patient ID - The patient ID associated with the record. You can click the Patient ID to review the patient's profile in Patient Profiles . 
+- Site - The site number for the record. 
+- Country - The country associated with the record. 
+- Confidence - The level of confidence in the accuracy of the record. Values are: High, Medium, and Low. If you click at the end of a record and 
+- 
+- select Agree, a icon appears in the Confidence column. 
+- select Disagree, a icon appears instead. 
+- Status - A icon indicates the record was reviewed. A indicates that a Rave query was submitted for the record. Clicking the icon for a record opens a left slide-out panel, which shows the history for the query submitted for the record. 
+- Columns with counts - You can click the number in a column with a count to open a left slide-out panel which shows child-records for the selected record.  For example, in the AEs without CMs report, Same Time Frame CMs and Outside Time Frame CMs are both count columns. Each child record includes a Link button which you can click to link the child record to the parent record in the report and mark the parent record as reviewed. The Confidence column for the parent record shows a icon. 
+- 
+ | 6 
+ | You can click Refresh Data to refresh all the data in the AI Data Reconciliation reports. The button disables while data refreshes. The page shows the date and time when the refresh completes. The button enables if there is new data in the reconciliation reports. 
+## Knowledge Hub Updates
+ The Detect Knowledge Hub provides new and updated content to support the feature: 
+- AI Data Reconciliation 
+- View And Access AI Data Reconciliation Reports 
+## Special Considerations
+- You can view the AI Data Reconciliation page if you have the right access. 
+- The Patient ID link on the AI Data Reconciliation page will work only if you have the right Patient Profiles access. 
+- You cannot submit Rave queries on the AI Data Reconciliation page and the Submit Queries button does not appear if you do not have a role with the Submit Queries via Detect access. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

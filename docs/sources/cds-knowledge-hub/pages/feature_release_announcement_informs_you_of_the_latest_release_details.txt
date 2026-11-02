@@ -1,0 +1,15 @@
+# Feature Release Announcement Informs You of the Latest Release Details
+
+## Feature Release Announcement Informs You of the Latest Release Details
+## Description
+ RBQM Configuration Manager 2021.2.0 introduces a feature release announcement. 
+ The release announcement includes a brief description of the key features and enhancements in the newly released version of RBQM Configuration Manager. 
+## Affected Roles
+ All.
+## Advantages
+ The feature release announcement provides a quick overview of newly released features and enhancements with links to learn more in the product knowledge space. 
+## User Impact
+ The feature release announcement appears on login when you access RBQM Configuration Manager for the first time after the latest release. The message continues to appear until you click Got it! to dismiss the announcement or Remind Me in One Day to snooze the announcement for 24 hours.
+ Note : The release announcement guide is only available for Feature Releases, and does not appear for Standard Software Update (SSU)  or Urgent Software Update (USU) .
+## Special Considerations
+ The feature release announcement appears automatically the first time you log in after a new feature release is pre-released (if applicable) and generally released (GA). The announcement remains available until dismissed, or for the entire duration of the pre-release cycle. The announcement remains available until dismissed or for a maximum of 4 weeks after the GA date. If you do not log in for 4 weeks after the GA release, you do not see the announcement. The announcement no longer appears if there is a subsequent SSU or USU within 4 weeks of the last feature release GA.

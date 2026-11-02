@@ -1,0 +1,25 @@
+# Access and View Vendor Queries
+
+## Access and View Vendor Queries
+ Vendor Queries enable your study team to report and track concerns or problems with external data, and maintain clear communication with vendors on resolving the issues. For example, you can create Vendor Queries for:
+- Data Managers to group issues by vendor during data reconciliation. 
+- Programmers to enquire the completeness and accuracy of lab data imports. 
+- Study team members to manage records with outstanding data issues. 
+- Access Data Surveillance , and then click Vendor Queries in the left-hand menu.
+The Vendor Issue Sets page shows the following:
+ Summarization cards 
+- – All vendor issue sets in the study. 
+- – Submitted vendor issue sets. 
+- – Unsubmitted vendor issue sets. 
+ Column Descriptions 
+- Vendor – The approved vendor to whom the issue set is assigned. 
+- Issues Set Name – Vendor issue set name. 
+- Status – Indicates if the vendor issue set was submitted. 
+- Sub ID – Indicates the vendor query set was submitted to vendor for review. 
+- Submitted – Date the vendor issue set was submitted. 
+- Due – Date the vendor issue set is due for a response. 
+- Count – Number of issues in the vendor issue set. 
+- If necessary, click the column headers to sort the Vendor Issue Sets table. 
+- Click the Issue Set Name hyperlink for any submitted vendor issue.
+The Vendor Queries page lists all the issues in the issue set. 
+ Note : You can view issues only for submitted issue sets.

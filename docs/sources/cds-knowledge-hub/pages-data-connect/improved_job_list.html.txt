@@ -1,0 +1,15 @@
+# Improved Job List
+
+## Improved Job List
+## Description
+ MEDS Extractor enhances the job list with detailed information on extraction job progress, such as displaying the next job run date and time in your local timezone. MEDS Extractor also removes duplicate job information. 
+## Affected Roles
+ All.
+## Advantages
+ The job list page displays more detail for scheduled   jobs, providing a streamlined presentation.  
+## User Impact
+ When reviewing scheduled jobs, t he job list page displays: 
+- Current job statuses as icons. 
+- Future job run details with dates displayed in your local timezone. 
+## Special Considerations
+ None.

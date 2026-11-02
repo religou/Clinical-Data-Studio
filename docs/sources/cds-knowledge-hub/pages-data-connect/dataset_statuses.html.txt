@@ -1,0 +1,65 @@
+# Dataset Statuses
+
+## Dataset Statuses
+ Data Connect - Datasets centralizes dataset statuses, allowing you to monitor the end-to-end health of your data from import through transformation and activation to export. This reference describes the status alerts, error reconciliation, and interface elements visible on the Datasets page. 
+## Overview 
+ The Datasets page includes indicators that help you identify and prioritize data issues: 
+- The Activation column highlights a dataset's activation status. 
+- The Status column consolidates errors from across Data Connect modules into a single location. Instead of checking individual modules separately for errors, you can view the reconciled status of a dataset directly. 
+## Datasets Page Elements
+ The  Datasets page includes indicators that help you identify and prioritize data issues. 
+ Element 
+ Description 
+ | Activation 
+ | Indicates the dataset's activation status. 
+ You can filter on each status to see the counts and specific datasets pertaining to that status. 
+ | Status 
+ | Indicates the health of specific datasets within the list. Statuses appear as " Warning", with an orange triangle; or " Error", with a red circle. 
+ You can filter on each status to see the counts and specific datasets currently triggering an alert. With this, you can quickly assess the volume of errors requiring attention. 
+## Activation Status Types and Descriptions 
+ Activation statuses reflect the state of an activated dataset. You can review details about the activation by clicking the dataset's name on the left of the row to see its details, and going to the Activations tab. 
+ Status 
+ Icon 
+ Description 
+ | Blanks 
+ | N/A 
+ | The dataset's initial state.
+ | In Progress 
+ | Gray Cycle Icon 
+ | An interim state between Blank and Activated. Most datasets complete activation within five minutes. If a dataset remains in this state for more than one hour, contact Medidata Support. 
+ | Activated 
+ | Green Checkmark
+ | The dataset is available for use in downstream applications such as Data Surveillance and RBQM.
+ For example, in Data Surveillance and RBQM:
+- You can see the data in the Data Surveillance and RBQM workflow after its next refresh cycle. 
+- When you activate a new version of the dataset for Data Surveillance,  its configurations and review history can reset in Data Surveillance . 
+- Any records associated with identified unregistered values are unavailable for the downstream applications that you activated the dataset for. 
+ | Upgrade Available 
+ | Orange Triangle 
+ | The dataset has source datasets that have updated versions. You can upgrade the dataset to use the latest version. For details, see  Upgrade Datasets to Latest Version 
+ | Inactive 
+ | Grey Pause Icon 
+ | The activated dataset is now paused.
+ | Error 
+ | Red Exclamation 
+ | An issue occurred during processing.
+## Dataset Status Types and Descriptions 
+ Dataset statuses roll up from Imports, Exports, and Transformations. Selecting a specific dataset opens a details panel that isolates the issue to the specific stage in the pipeline. 
+ Status 
+ Icon 
+ Description 
+ Examples 
+ | No issues 
+ | N/A 
+ | The dataset processed correctly across all modules. 
+ | There are no issues with this dataset. 
+ | Warning 
+ | Orange Triangle 
+ | The process is completed, but with issues, or a pipeline is inactive. 
+ | Imports: Records Partially Imported 
+ Transformations: Inactive pipeline 
+ | Error 
+ | Red Exclamation 
+ | A critical issue occurred during processing. 
+ | Imports: System processing error 
+ Exports: Export 'Export_Name' has failed

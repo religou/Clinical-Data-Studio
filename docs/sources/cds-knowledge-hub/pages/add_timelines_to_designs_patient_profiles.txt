@@ -1,0 +1,25 @@
+# Add Timelines to Designs Patient Profiles
+
+## Add Timelines to Designs Patient Profiles
+## Description
+ Timelines allow you to visually compare specific data points over the duration of a study in a single output. For example, you can view visit dates, study days, adverse events, con meds, and so on in a single visual element. 
+ Timelines can include randomization and visit data, drug data, event tables, or individual date variables.
+## Affected Roles
+ All.
+## Advantages
+ Timelines allow you to: 
+- effectively compare data against each other, and  
+- view correlations in one output rather than having to cross-reference multiple data sets. 
+## User Impact
+ On the Design page > Elements tab, you can:
+- Add timelines to designs; 
+- Add variables and event tables to timelines; 
+- Assign colors to variables display in the timeline; 
+- View and edit value labels; 
+- Set element display conditions; 
+- Edit visit variable labels; 
+- Edit timeline details; 
+- Remove variables and events; and 
+- Delete element display conditions. 
+## Special Considerations
+ None.

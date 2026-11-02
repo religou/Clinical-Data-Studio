@@ -1,0 +1,89 @@
+# Configure Modules To Assess Performance Metrics
+
+## Configure Modules To Assess Performance Metrics
+ The Task Oversight dashboard is a singular place to understand key operational activities like set up, data import, refresh, and data review as documented in Data Connect and Data Surveillance. You can configure modules whose performance metrics you want to track to appear on the dashboard.  
+ Note : You need   View CDS Task Oversight added to your Cloud Administration profile to view Task Oversight. For more information, see Data Surveillance Building Blocks and Permissions .
+## Configure Modules
+ The slide-out panel now allows you to view and select all approved listings, all published patient profile designs, and custom graphs in the study, showing them, five at a time. You can also search or filter by specific names, for example   Listing124 . 
+- Access Task Oversight. 
+The Task Oversight dashboard appears.
+ Note : The first time you login, the dashboard shows modules you have access to from the following:
+- Patient Profiles. 
+- AI Reconciliation. 
+- Listings. 
+- Custom Graphs 
+- Vendor Queries, and 
+- Data Connect. 
+- Click Configure Widgets .
+The Select Metrics to Display slide-out panel appears. 
+- Select the modules you what to show metrics for:
+- Patient Profiles. 
+- AI Reconciliation. 
+- Listings. 
+- Custom Graphs. 
+- Vendor Queries, and 
+- Data Connect. 
+- Click Apply .
+Task Oversight shows your chosen modules and saves your preferences. The dashboard automatically shows the selections every time you log in.
+ Note : You must select at least one module. 
+## Assess Performance Metrics
+ Each module you configure shows performance metrics relevant to actionable insights. Updates made to records, such as marking listings as reviewed or unreviewed, or similar actions in any of the modules, reflects in the metrics shown on the Task Oversight dashboard instantly. 
+ The following table lists metrics that Task Oversight includes in each module.
+ Module 
+ Metrics 
+ | Data Connect 
+ | Number of total datasets, by type: 
+- Imported 
+- Derived  
+- Rave  
+ Number of data issues by status:  
+- Data warning 
+- Data error 
+- Activation error  
+- Activation upgrade available  
+ Data Warning and Data Error show components contributing to the issue:  
+- Imports  
+- Exports 
+- Transformation 
+ For more information, see Data Connect . 
+ | Patient Profiles 
+ | Count of all Patient Profile published designs categorized by status; draft or approved. The master profile design appears as the first row with a key icon. You can select the design you want to monitor. For any design you select, the dashboard shows: 
+- Profile Name 
+- Refresh date 
+- Patient count  
+- Reviewed 
+- Needs Review 
+- Unreviewed 
+- Total   
+ | Listings 
+ | Count of all listings in the study, categorized by status; draft or approved. You can filter or sort listings. You can select the listing you want to monitor. For any listing you select, the dashboard shows: 
+- Refresh rate 
+- Created date 
+- Refresh date  
+- Refreshed by  
+- Record count 
+- Reviewed 
+- UnReviewed 
+- In Progress 
+- Total 
+ | Custom Graphs 
+ | The Task Oversight page includes metrics for Custom Graphs (previously known as Visualizations). Custom Graphs shows the total configured visuals in your study. Each row shows a custom graph, its last refreshed date, and the person who refreshed. If you click View All Custom   Graphs , a page shows a list of all custom graphs in the study. 
+ | AI Reconciliation 
+ | The dashboard shows the last r efresh date, and the refresh rate. It shows the count of total events not reviewed. For each individual reports, it shows:  
+- Skipped 
+- Success 
+- Failed 
+ For every   report that successfully refreshes,  the dashboard shows:   
+- Reviewed  
+ | Vendor Queries 
+ | The count of all vendor query sets by status; submitted, completed, or in progress. For each vendor query set, you can see the following: 
+- Vendor group name 
+- Sent date  
+- Due date  
+- Completed  
+- Record status  
+- Reviewed 
+UnReviewed
+- 
+- In Progress
+- Total

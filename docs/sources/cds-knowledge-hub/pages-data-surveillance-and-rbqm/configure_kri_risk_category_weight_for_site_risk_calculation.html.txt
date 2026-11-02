@@ -1,0 +1,12 @@
+# Configure KRI Risk Category Weight for Site Risk Calculation
+
+## Configure KRI Risk Category Weight for Site Risk Calculation
+ The KRI Dashboard visually signifies sites that RBQM assesses as being medium or high risk to your study's performance. KRI Configuration enables you to configure t he weightage (low, medium, or high) that a particular KRI risk category carries when RBQM calculates a site's overall level of risk. C ustomizing the risk category  weight that RBQM applies when assessing site risk more precisely determines at-risk sites based on your study goals and protocol.   
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu.
+- On the Key Risk Indicators page, click the Risk Category Weight tab. 
+- For each risk category, select one of the following weights:
+- Low – KRIs belonging to a risk category with low weightage have a reduced impact on RBQM's assessment of a site's performance risk level. Select Low for KRI risk categories that you feel should have less influence on determining a site's performance. 
+- Medium – KRIs belonging to a risk category with medium weightage have a standard impact on RBQM's assessment of a site's performance risk level. Select Medium for KRI risk categories that you feel should have a moderate influence on determining a site's performance. 
+- High – KRIs belonging to a risk category with high weightage have an increased impact on RBQM's assessment of a site's performance risk level. Select High for KRI risk categories that you feel should have a heavy influence on determining a site's performance.
+ Note: You cannot enable Add for SRI for a KRI on the Key Risk Indicator page if the KRI's risk category has no assigned weight. 
+- Click Save .

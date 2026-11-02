@@ -1,0 +1,22 @@
+# Technical Changes In The September 2024 Release
+
+## Technical Changes In The September 2024 Release
+## What Is New?
+ Data Surveillance and RBQM now include technical changes that improve performance, provide a standardized user experience, and fix security issues.
+## What Is the Impact?
+## Users/Roles
+ All study users.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact on other applications.
+## How Do I Benefit?
+ With a standardized, consistent user interface you can access Data Surveillance and RBQM capabilities of interest easily, and work with greater efficiency. 
+## Where Do I See the Change?
+ In Data Surveillance. and RBQM sections.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the change:
+- Data Surveillance 
+- RBQM 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

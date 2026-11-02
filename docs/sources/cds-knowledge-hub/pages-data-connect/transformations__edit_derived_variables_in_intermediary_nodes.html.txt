@@ -1,0 +1,49 @@
+# Transformations: Edit Derived Variables in Intermediary Nodes
+
+## Transformations: Edit Derived Variables in Intermediary Nodes
+ Important :
+- To learn more about changes done to these release notes, see the revision history . 
+- To learn more about features and enhancements covered in previous releases, see the releases history . 
+- To learn more about all features in this release, see the released features index .
+## Change Details
+ Product 
+ | Data Connect
+ Version 
+ | 2026.3.4
+ Change Type 
+ | Enhancement (Updated Functionality) 
+ Functionality or Module 
+ | Transformations.
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ You can now edit derived variables in intermediary nodes when the variables are not consumed downstream. 
+ Benefit to Users 
+ | You can now edit derived variables in intermediary nodes when the variables are not consumed downstream. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ All.
+ Impact to Workflow Processes 
+ None.
+ Impact to Applications 
+ None.
+ Impact on Interface 
+ None.
+ Impact to Existing Data or Settings 
+ None.
+ User Impact Assessment 
+ | 
+ Low
+ Learning Resource Updates 
+ | There are no additional relevant resources. 
+ Special Considerations 
+ | To view Medidata testing documentation for this release, see the   Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

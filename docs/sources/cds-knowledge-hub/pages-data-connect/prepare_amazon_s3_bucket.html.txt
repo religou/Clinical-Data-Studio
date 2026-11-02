@@ -1,0 +1,56 @@
+# Prepare Amazon S3 Bucket
+
+## Prepare Amazon S3 Bucket
+ The first step to adding an S3 connection is to prepare your S3 bucket to be compatible with Medidata's systems.
+ Important : Prerequisites 
+- You have an accessible Amazon S3 bucket in your system. If you do not, contact your team’s technical support to create one. 
+## Create an AWS S3 Bucket Policy
+- Sign into the AWS console for your S3 account. 
+- Go to the S3 page, and identify a S3 bucket for the output files. 
+- In the S3 bucket’s Security section, update  the following settings:
+- Disable Block all public access . 
+- Disable Block public and cross-account access to buckets and objects through any public bucket or access point policies . 
+- Leave the other options under "Block all public access" enabled. 
+- In the Bucket Policy section, select  Edit Bucket Policy to add one of the following policies:
+ Important :  Usage Notes 
+- Select the policy that corresponds to the Medidata environment you want to grant access to. 
+- Replace <bucket-name> and <folder> with the values for your S3 bucket. 
+ Innovate Production 
+ Innovate
+ Innovate 
+ {
+ "Version": "2012-10-17",
+ "Statement": [
+ {
+ "Sid": "MedidataWrite",
+ "Effect": "Allow",
+ "Principal": {
+ "AWS": "arn:aws:iam::565378680304:role/Hercules-Innovate"
+ },
+ "Action": "s3:PutObject",
+ "Resource": "arn:aws:s3:::<bucket-name>/<folder>/*"
+ }
+ ]
+} 
+ Production
+ Production 
+ {
+ "Version": "2012-10-17",
+ "Statement": [
+ {
+ "Sid": "MedidataWrite",
+ "Effect": "Allow",
+ "Principal": {
+ "AWS": "arn:aws:iam::565378680304:role/Hercules-Production"
+ },
+ "Action": "s3:PutObject",
+ "Resource": "arn:aws:s3:::<bucket-name>/<folder>/*"
+ }
+ ]
+} 
+- Save the bucket policy. 
+## Create Support Ticket to Link S3 Bucket
+- Submit a support ticket to Medidata Support. Provide the S3 bucket name and the name of the study environment that you intend to connect to.
+Once submitted, Medidata Support works with the Medidata technical team to connect your S3 bucket to Hercules, Medidata's workflow tool. When the Medidata team completes the necessary steps, they notify you and close the support ticket. 
+## Next Step
+ Add S3 Connection

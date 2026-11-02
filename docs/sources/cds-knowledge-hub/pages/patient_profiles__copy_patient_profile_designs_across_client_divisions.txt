@@ -1,0 +1,22 @@
+# Patient Profiles: Copy Patient Profile Designs Across Client Divisions
+
+## Patient Profiles: Copy Patient Profile Designs Across Client Divisions
+## What Is New?
+ You can now copy a patient profile design from one study to any other study within the client divisions that you have access to.
+## What Is the Impact?
+## Users/Roles
+ Patient profile designers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ You can quickly and efficiently create similar designs across multiple client divisions. 
+## Where Do I See the Change?
+ On the Patient Profile Designs page > Published Designs tab or Draft Designs tab: when you click the More  icon associated with any design, and then you click Copy to Another Study, then the Copy dialog now includes the Client Division menu.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Copy Designs To Different Studies 
+## What Else Should I Know?
+ Medidata recommends only using the copy functionality if the source design and the target design contain many of the same tables, flags, variables, and table options. Otherwise, the target design will show many empty elements in the profiles, which you must remove or replace in the design configuration.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

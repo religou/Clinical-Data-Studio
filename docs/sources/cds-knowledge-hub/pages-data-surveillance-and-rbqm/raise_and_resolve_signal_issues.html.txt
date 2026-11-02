@@ -1,0 +1,114 @@
+# Raise And Resolve Signal Issues
+
+## Raise And Resolve Signal Issues
+ Issues are confirmed findings that indicate potential problems with your study data,  the result of a signal validated through central monitor review, site discussions, or site visits.  You can raise and resolve issues internally within Signals, or send them to an external issue management system for resolution. Before you send  issues for resolution externally, you must integrate Signals with the chosen issue management system, Medidata CTMS.  
+ This results in : 
+- Streamlined issue logging. 
+- Reduced recurrence of duplicate issues. 
+- A clear line of sight of site or country  issues and issue status. 
+- Reduced time and cost required to create and manage issues. 
+- An enhanced work experience and productivity in a centralized location. 
+- An improved ability to identify and mitigate risks to  protocol compliance , patient safety, data integrity, and overall study quality. 
+ Important : You  can only view or create issues for sites and countries assigned to you. 
+## Raise An Issue For Resolution Internally Within Signals
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click , the More icon, for a signal with status O pen or Reopened . 
+- From the list of options, click Raise as Issue .
+- Select one of the following:
+- Protocol Deviation 
+- Non-protocol Deviation 
+- Click Continue .
+- Select one of the following and complete fields on the Create issue window: Do one of the following:
+- 
+ Protocol deviation 
+ Note : Each of the following fields is optional. You can raise a signal as a protocol deviation issue without adding any additional information.
+- Protocol deviation severity – Select the protocol deviation severity from the list or type into the field. 
+- Protocol deviation subcategory – Select the protocol deviation subcategory from the list or type into the field. 
+- IRB notification required – Select if the issue needs an IRB notification. 
+- Sponsor notification required –   Select if the issue needs sponsor notification. 
+- Regulatory notification required –  Select if the issue needs regulatory notification.
+- 
+ Non-Protocol deviation 
+ Note : Each of the following fields is optional. You can raise a signal as a non-protocol deviation issue without adding any additional information.
+- 
+- Protocol deviation category – Select the non-protocol deviation category from the list or type into the field. 
+- Protocol deviation severity – Select the non-protocol deviation severity from the list or type into the field. 
+-  Click Create Issue .
+ The Issue column for the signal updates to Yes. The issue is added to the signal and appears on the Signal Details page.
+ Note : You can raise signals with status Open as issues. That is, you cannot raise a resolved, dismissed, or watched signal as an issue. You can only raise one issue per signal for resolution within Signals. 
+## Send An Issue To Medidata CTMS
+ An issue is a confirmed finding, the result of a signal validated through central monitor review, site discussions, or site visits. You can raise a signal as an issue if you have the Manage Signal building block. You can raise issues and resolve them internally within the Signals application, or send them for resolution with a Signals-integrated external issue management system like Medidata CTMS. For more information, see Signal Acted Upon. 
+- Access RBQM , and then click  Signals   in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click , the   More   icon, for a signal with status Open or Reopened. 
+ Note : A new signal's status changes to Open only if you assign it to an assignee. You can raise an issue for a signal only if the signal status is  Open or Reopened . 
+ Important: A blinded user creating an issue can only select a blinded user as the assignee. An unblinded user creating an issue can only select an unblinded user as the assignee.
+ For more information, see Issues and Building Blocks . 
+- Click  Raise an Issue. 
+- Click Send to CTMS .
+- Select one of the following:
+- Protocol deviation
+- Non-protocol deviation 
+- Click Continue .
+- Select one of the following, and complete the field details on the Create CTMS issue window:
+- 
+ Protocol deviation 
+- Issue Assignment:
+- Assignee – The person the issue is assigned to/ Select an assignee for the site from the list. 
+- Country – Auto-populated.  Country associated with the signal.
+- Site – Auto-populated.  Site associated with the signal. 
+- Issue Type – Auto-populated.  Issue type based on your selection. 
+- Issue created by – populator.  The person who creates the issue.  
+- Issue created – Auto-populated. The date you created the issue. 
+- Assignee –  Select the person you want to assign to the issue.
+- Description – Type a description for the issue. 
+- Additional configuration:
+- Protocol deviation category – The protocol deviation category populated from Medidata CTMS. Select from the list. 
+- Protocol deviation severity – The protocol deviation severity populated from Medidata CTMS. Select from the list. 
+- Protocol deviation subcategory – The protocol deviation subcategory populated from Medidata CTMS. Select from the list. 
+- Notification requirements:
+- IRB notification required – Optional. Select if the issue needs an IRB notification. 
+- Sponsor notification required – Optional. Select if the issue needs sponsor notification. 
+- Regulatory notification required – Optional. Select if the issue needs regulatory notification. 
+- For further information, see  Medidata CTMS Issue Management.  
+- 
+ Non-protocol deviation 
+- Issue Assignment: 
+- 
+- Assignee – The person the issue is assigned to/ Select an assignee for the site from the list. 
+- Country – Auto-populated.  Country associated with the signal. 
+- Site – Auto-populated.  Site associated with the signal. 
+- Issue Type – Auto-populated.  Issue type based on your selection. 
+- Issue created by – Auto-populated.  The person who creates the issue.  
+- Issue created – Auto-populated. The date you created the issue. 
+- Assignee –  Select the person you want to assign to the issue.
+- Description – Type a description for the issue. 
+- Severity – The non-protocol deviation severity populated from Medidata CTMS. Select from the list.
+- Category – The non-protocol deviation category populated from Medidata CTMS. Select from the list.
+- Subcategory – The non-protocol deviation subcategory populated from Medidata CTMS. Select from the list. 
+- Visibility – The non-protocol deviation related visibility. Select from the list.
+ For further information, see  Medidata CTMS Issue Management.  
+- Click Create CTMS Issue .
+ The issue is sent to Medidata CTMS for further tracking. The Issue column for the signal updates to Yes. 
+ Note : The issue you send to Medidata CTMS progresses through the issue resolution cycle entirely in Medidata CTMS. The issue status appears on the signal on the Signals page. You can raise and track multiple issues for a signal in Medidata CTMS simultaneously. If all issues associated with a signal resolve in Medidata CTMS, the signal's status changes to Closed only if you close the signal in RBQM > Signals. 
+## View Medidata CTMS Issue Comments and Actions
+ You can view actions and comments added in Medidata CTMS against issues sent there for resolution for signals from within Signals. This allows you to track progress as well as identify the assignee who must take action to resolve the signal issue. 
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click , the More icon, for the signal you want to view. 
+- Click Open Signal Details. 
+- On the Details tab, click the Issue ID hyperlink. 
+- Click the Issue Comments tab to view any comments on the issue.
+ Note : The issue comments are read-only notes. Data is live and automatically synced. You can only manage issue comments directly in Medidata CTMS. For further information, see  Medidata CTMS Issue Management.  
+- Click the Issue Actions tab to view actions.
+ Each action shows the action ID, description and time it was added. A   Managed by CTMS   label also appears next to the issue action indicating that it is read-only and non-editable. 
+## Clear An Issue
+ Signals that indicate potential issues, and require actions for mitigation and resolution. To streamline this process, you can mark signals as issues directly without navigating to individual signal details. However, if signals marked as issues no longer raise concerns as issues, you can clear the issue, and take the next course of action to de-escalate the level of intervention.  
+ Important : You can clear only issues not sent to Medidata CTMS for resolution within Signals. 
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click , the More icon, for the signal you want to view. 
+- From the list of options, click Clear as issue .
+The issue column for the signal updates to No.
+ Note : You can clear issues for signals with status Open, Watched, Resolved, or Reopened. You cannot clear a closed signal as an issue.

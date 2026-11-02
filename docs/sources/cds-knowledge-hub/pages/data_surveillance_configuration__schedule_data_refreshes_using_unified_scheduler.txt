@@ -1,0 +1,152 @@
+# Data Surveillance Configuration: Schedule Data Refreshes Using Unified Scheduler
+
+## Data Surveillance Configuration: Schedule Data Refreshes Using Unified Scheduler
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the   released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.3.0
+ Change Type 
+ | Feature (New Functionality)
+ Functionality or Module 
+ | Unified Scheduler
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter: 
+ In clinical studies, data managers require predictable workflows with regards to study data.  Manual refreshes provide flexibility, but relying solely on manual intervention increases operational overhead and risks data not being ready for governance checkpoints and review windows . Clinical Data Studio includes Unified Scheduler to resolve such issues . Unified Scheduler enables setting up automated refresh scheduling along with the existing on-demand capabilities for: 
+- Listings 
+- Patient Profiles 
+- AI Reconciliation 
+- Custom Graphs 
+ Benefit to Users 
+ | 
+ Unified Scheduler provides: 
+- Automated scheduling for governance checkpoints and review windows . 
+- Reduced operational overhead . 
+- A scalable and auditable framework for data refreshes . 
+- Support for both scheduled refreshes and on-demand refreshes across the following capabilities: 
+- Listings 
+- AI Reconciliation 
+- Patient Profiles 
+- Custom Graphs 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data managers and study team members must possess both building blocks; capability-specific, and Unified Scheduler related, to view and manage data refresh schedules . For example, if you do not have the Refresh AI Reconciliation permission, you cannot create or edit refresh schedules on either the Unified Scheduler page or the AI Reconciliation page.
+ Data Surveillance Capability 
+ Building Block Required 
+ User Action pertaining to refresh schedules 
+ | Unified Scheduler 
+ | View Data Refresh Scheduler 
+ | View  
+ | Manage Data Refresh Scheduler 
+ | Create or Edit 
+ | Listings 
+ | View Data Refresh Scheduler AND
+View or Manage Data Reviewer 
+ | View 
+ | Manage Data Refresh Scheduler AND 
+ Refresh Listings AND
+View or Manage Data Reviewer
+ | Create or Edit 
+ | AI Reconciliation 
+ | View Data Refresh Scheduler AND
+View or Manage Data Reviewer 
+ | View 
+ | Manage Data Refresh Scheduler AND 
+ Refresh AI Reconciliation AND
+View or Manage Data Reviewer
+ | Create or Edit 
+ | Patient Profiles 
+ | View Data Refresh Scheduler AND
+View Patient Profiles 
+ | View 
+ | Manage Data Refresh Scheduler AND  
+ Patient Profile Refresh AND All site access 
+ | Create or Edit 
+ | Custom Graphs (previously known as Visualizations) 
+ | View Data Refresh Scheduler AND
+View or Manage Data Reviewer 
+ | View 
+ | Manage Data Refresh Scheduler AND 
+ Refresh Custom Graphs AND
+View or Manage Data Reviewer
+ | Create or Edit 
+ Impact to Workflow Processes 
+- Schedules operate on daily, weekly, biweekly, monthly, bimonthly, and quarterly cadences . 
+- There is no limit to number of refreshes you can schedule to run in a study per day. 
+- Conflict prevention rules block multiple on-demand refreshes for the same module on the same snapshot, and block on-demand refreshes while scheduled refreshes run . That is, a record selected for a scheduled refresh is not available for on-demand refresh selection. 
+- You can download unified scheduler configurations in PDF format. When the download is complete and available, you get a notification through the Notification Centre. 
+ Note : For on-demand refreshes:
+- Listings and Custom Graphs allow up to four successful refreshes per day per listing or custom graph . 
+- Patient Profiles and AI Reconciliation allow up to two successful refreshes per day . 
+ Impact to Applications 
+- Unified Scheduler updates data for Listings, AI Reconciliation, Patient Profiles, and Custom Graphs (previously known as Visualizations) . 
+- Each Data Surveillance capability included in Unified Scheduler refreshes data independently. Resources already refreshed using the latest available DQM workflow data, or resources currently undergoing refresh, are automatically excluded. 
+ Impact on Interface 
+ If you click Data Surveillance > Configuration, a new Unified Scheduler page appears as follows:
+ Number 
+ Description 
+ | 1. 
+ | Unified Scheduler tab – If you click the Unified Scheduler tab, a new Unified Scheduler page appears where you can scheduler refreshes at a set cadence for Listings, AI Reconciliation, Patient Profiles, Custom Graphs.  
+ | 
+ | 2. 
+ | 
+ The Unified Scheduler page – The page shows a list of scheduled data refreshes for the study. If no scheduled refreshes exist for any of the capabilities, a "No refresh schedule created yet." message appears. You can specify up multiple refresh schedules for listings, patient profiles, and custom graphs. For AI Reconciliation, you can have only one data refresh schedule that includes all the AI Reconciliation reports. For each scheduled refresh, you can click the three dots, More icon ( ) to view Edit, Included Items and Delete options. You can click Edit to edit the scheduled refresh, click Included Items to view all the items, for example, listings or custom graphs in a specific refresh schedule. If you click Delete , you can delete a scheduled data refresh. 
+- On the Data Surveillance > Patient Profiles page, if you click the  View Refresh Schedule button, the Unified Scheduler page appears, showing all Patient Profiles refresh schedules. 
+- On the Data Surveillance > AI Reconciliation page, if you click , More icon, next to the Refresh button on the top right corner of the page, and then click View Schedule , the Unified Scheduler page shows the AI Reconciliation refresh schedule. The schedule shows the date and time for the refresh. If no refresh schedule exists, a No refresh schedule created yet. message appears. 
+- On the Data Surveillance > Listings page, if you click , More icon, next to the Refresh button on the top right corner of the page, and then click View Schedule , the Unified Scheduler page shows all the listing refresh schedules.  
+- On the Data Surveillance > Custom Graphs page, if you click  , More icon, next to the Refresh button on the top right corner of the page, and then click View Schedule , the Unified Scheduler page shows all the custom graphs refresh schedules.  
+ | 
+ | 3.  
+ | 
+ Create Schedule – If you click the Create Schedule button, you can further select details like Name, Cadence and the records from Listings, Patient Profiles and Custom Graphs that you want to include in a data refresh schedule. For AI Reconciliation, you must select all records. If a data refresh schedule already exists for AI Reconciliation, on the Selection page, AI Reconciliation appears disabled. 
+ Tip : The Create Schedule button also appears on the Patient Profiles, AI Reconciliation, Listings and Custom Graphs pages. You can create scheduled refreshes for individual applications.
+ Cadence for any schedule can further be selected from: 
+- 
+- Frequency – daily, weekly, bi-weekly, monthly, bi-monthly, quarterly. 
+- Start – first, last, first_day, last_day. 
+- Day– Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.
+- Selection page
+- Configuring Listings – You can select up to a maximum of 15 listings per schedule from the list of approved listings in a single schedule. You can have up to four successful refreshes per day per listing. 
+- 
+ Note - On the Data Surveillance > Listings > if you select any approved listing, and then click History , the page shows both on-demand and scheduled refreshes for the listing.
+- Configure Patient Profiles – You can select any published profile design into a scheduled refresh. When you select a published patient profile design to schedule a refresh, the Title field automatically populates with the Patient Profile design name.  
+ Note - On the Data Surveillance > Patient Profiles > if you select any published design, and then click , More icon, and then click Refresh History , the page shows both on-demand and scheduled refreshes. 
+- Configure Custom Graphs – You can select up to a maximum of 15 custom graphs per schedule from the list of custom graphs in a single schedule. You can have up to four successful refreshes per day per custom graph.  
+ Note - On the Data Surveillance > Custom Graphs page, if you select any custom graph, and then click   More icon, and then click Refresh History , the page shows both on-demand and scheduled refreshes.
+- Configure AI Reconciliation – You can have only one scheduled refresh for AI Reconciliation. The single scheduled refresh must include all eight AI Reconciliation reports. You can have up to two successful refreshes per day.  
+- 
+ Note - On the Data Surveillance > AI Reconciliation page, if you click   More icon, and then click Refresh History , the page shows both on-demand and scheduled refreshes.
+ | 
+ | 4. 
+ | Export Settings – You can export refresh settings for all the scheduled data refreshes created by clicking the Export settings button. Once the download is ready, you receive an email with a link to the file. You can also click the Audit icon to retrieve a list of all changes made on the page. 
+ | 
+ Impact to Existing Data or Settings 
+- Neither scheduled nor on-demand data refreshes interfere with each other. 
+- In listings, custom graphs, and patient profiles,records that are are up to date, or currently in-progress, do not appear for selection for on-demand and scheduled refreshes. 
+ User Impact Assessment
+ | High 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- New Article: Unified Scheduler . 
+ Special Considerations 
+ | 
+- You can include a maximum of 15 listings or custom graphs per scheduled data refresh batch.  
+- For each of the following, if you click Data Surveillance > 
+- Patient Profiles > View Refresh Schedule, the page shows scheduled refreshes. 
+- AI Reconciliation > More icon (three dots next to Refresh button) > View Schedule, the page shows scheduled refresh. Clicking View History, shows a log of all data refresh actions. 
+- Listings or Custom Graphs >  More icon (three dots next to Refresh button) > View Schedule, the page shows scheduled refreshes. Clicking View History , shows a log of all data refresh actions. 
+- To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

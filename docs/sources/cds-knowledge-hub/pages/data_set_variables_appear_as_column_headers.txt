@@ -1,0 +1,15 @@
+# Data Set Variables Appear as Column Headers
+
+## Data Set Variables Appear as Column Headers
+## Description
+ In the Data Viewer tab, after selecting a data set,data set variable labels appear as column headers of the data set table. When you hover over each column header, a tooltip displays with the data set variable's label and name in parenthesis. 
+## Affected Roles
+ All. 
+## Advantages
+ The updates to the data set variable table provide a more accessible and comprehensive overview of your data set information and improves readability. 
+## User Impact
+ See Description. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ None.

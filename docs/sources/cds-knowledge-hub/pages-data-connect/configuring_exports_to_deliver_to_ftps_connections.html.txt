@@ -1,0 +1,7 @@
+# Configuring Exports to Deliver to FTPS Connections
+
+## Configuring Exports to Deliver to FTPS Connections
+ When creating exports, you can configure the export to send a copy of extracted files to a server using a file transfer protocol (FTPS). After adding one or more FTPS connections, other users within your study group can use them when configuring exports.
+ Important : To configure the list of FTPS connections, your platform role must include the Extractor Admin building block. For details, see  Grant Access to Data Connect and Data Connect Roles and Capabilities .
+ Tip : Manage FTPS Connections with API Resources 
+ You can also manage SFTP connections from the Medidata platform using Clinical Cloud API resources. For details, see the Create External File Location for Data Import and Export Jobs workflow and the Export File Locations resource on the Clinical Cloud API Knowledge Space.

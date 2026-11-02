@@ -1,0 +1,23 @@
+# Create Risk Assessment Drafts
+
+## Create Risk Assessment Drafts
+ The study's risk assessment is a continually edited, updated, and versioned document. Each time you create a risk assessment, you create a new draft version of the risk assessment for that study. A study only has one active, editable risk assessment draft version at a time. 
+ Note : Finalized risk assessment drafts get added to the risk assessment snapshot history as an archived, noneditable draft. 
+ To learn more about the risk assessment, see  Risk Assessment. 
+- Access RBQM , and then click Risk Assessment > Details in the left-hand menu.
+- On the Assessment Details page, click + Add risk assessment .
+ Note : If you create a new risk assessment version, the existing version becomes archived and read-only. To view the historical list of risk assessments in your study, see View the Historical Risk Assessment List . 
+ The new risk assessment version is a copy of the previous risk assessment version to make it easier to edit. 
+- On the Assessment Details page, select or enter the following information:
+ Field Descriptions 
+- Name – Enter up to 100 characters for the name of the risk assessment. 
+- Version number – Enter up to 10 characters for the version. 
+- Sponsor – Enter up to 100 characters for the name of the sponsor. 
+- Protocol Version –  
+- Status – You cannot edit the Status for a new assessment. The status is DRAFT by default. 
+- Date assessment performed – Use the date picker calendar to enter the current or past date. 
+- Next planned assessment – Optional . Use the date picker to enter a future date for the next assessment. 
+- If necessary, add or edit participants to the risk assessment. To learn more, see Add and Manage Risk Assessment Participants .
+ Note : When you add a participant, that name appears in all participant lists for all Risk Management reports. Similarly, removing a participant deletes the name from all participant lists in the Risk Assessment.
+- Click Save .
+You can add or manage the critical data , c ritical processes , and r isk categories in the new risk assessment draft version.

@@ -1,0 +1,18 @@
+# Access and View Data Anomaly Detection Plots
+
+## Access and View Data Anomaly Detection Plots
+ You can select which of your study data variables' analysis you want to view on the Statistical Monitoring >  Data Anomaly Detection page.
+- Access RBQM , and then click Statistical Monitoring > Anomalies in the left-hand menu. 
+- On the Data Anomaly Detection page, select a Domain Set. 
+- Select a Variable.
+The list of plots associated with the selected variable show in the Plot table below. The table only lists plots with outlier data.
+- Plot Name – The variable or variables that RBQM analyzes. 
+- # Outliers – The total number of the variable's data point that are considered outliers. 
+- Click a plot name.
+ The selected plot renders in the plot visualization along with summary information. To learn how to read and understand data anomaly detection plots, see Investigate Data Using Data Anomaly Detection Plots . 
+ In addition, high-level performance-related metrics pertaining to the selected variable update next to the plot list: 
+- Total # of Outliers  – The total number of distinct data points that are considered outliers for the selected variable. 
+- % of Outliers  – The percentage of all the domain set's outliers that are associated with the selected variable. 
+- Mean Score Overall – The selected variable's overall mean discrepancy score for all data points. 
+- More Score Outliers  –  The mean discrepancy score for data points that are outliers in the selected variable. 
+- Strength of Association – A numeric value that indicates the probability that patients at an individual site will have reported the same or similar numeric or text values for a particular variable. Strength of association calculates on a range from 0.00 to 1.00. The higher a variable's strength of association with the site variable, the more likely it is that you can predict the value of that variable for a new patient at a given site. To learn more, see  Strength of Association Description and Calculation Methodology .

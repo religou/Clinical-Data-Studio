@@ -1,0 +1,19 @@
+# New Risk Category Added for Diversity
+
+## New Risk Category Added for Diversity
+## Description
+ A new category, Diversity, is available in the list of predefined categories to choose from when adding a new Risk Category at the study group or study level.
+## Affected Roles
+ All.
+## Advantages
+ The study manager can use the Diversity risk category to better understand the risks associated with different groups of participants. 
+## User Impact
+ The Diversity category is an addition to the existing set of categories you can select when creating or editing a risk. The risk objective for the Diversity category is: “Focus on diverse patient populations including race, ethnicity, and underrepresented populations such as sex, gender identity, age, socioeconomic status, disability, pregnancy status, lactation status, and co-morbidity.”
+## Knowledge Space Updates
+ The Risk Management Knowledge Space provides new and updated content to support this feature/enhancement: 
+- Manage Risk Categorization Templates 
+- Add Risk Details 
+- Add and Manage Risk Categories 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal.

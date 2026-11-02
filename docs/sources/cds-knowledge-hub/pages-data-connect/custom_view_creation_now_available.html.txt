@@ -1,0 +1,25 @@
+# Custom View Creation Now Available
+
+## Custom View Creation Now Available
+## What Is New?
+ You can use Platform Workbench to generate data sets based on your own data models by performing source-to-target data mapping and transformations for domains within a data model you configure. You can create these custom data sets from scratch or based on a template model. 
+ After creating a data project, you can perform tasks such as: 
+- Add custom variables with configurable data types, formats, and requirements. 
+- Configure a custom target variables by mapping from source data fields, current target domain variables, and entered values. 
+- Customize transformations using no-code modules for field transformation. 
+ When you refresh the preview while building data mappings, Platform Workbench performs quality checks on your edits based on your configurations. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ There is no change to the workflow process. This feature extends existing project creation capabilities.  
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ You can create any data model on the Medidata platform that can match your downstream pipelines as necessary. Moreover, you are no longer locked to creating mappings based on the SDTM data model, which is not ideal for analysis use cases.  
+## Where Do I See the Change?
+ When you create a data project in the Transformations, you can select the Custom View project type. When selecting this project type, you can either create the data model from scratch or use another custom data model created within your client division.
+## Where Do I Learn More?
+ Supplementary help articles will be available at a future date.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

@@ -1,0 +1,24 @@
+# Add and Edit Custom QTLs in RBQM Configuration Manager
+
+## Add and Edit Custom QTLs in RBQM Configuration Manager
+## Description
+ Within a given study environment , you can define and add custom QTLs that target specific facets of your study data that you want to monitor for risk. If necessary, you can also edit the details of the custom QTLs that you create. 
+## Affected Roles
+ RBQM Configuration Manager Admin
+## Advantages
+ Defining custom QTLs in a single, centralized location helps your organization  target and monitor the greatest risks to  a study's: 
+- Safety 
+- Conduct 
+- Performance 
+- Compliance 
+- Data quality 
+ QTLs that reach or exceed a a pre-identified data quality threshold indicate that the QTL's target study parameter may warrant investigation and mitigation. Tracking QTLs helps: 
+- Ensure the study conduct operates as planned. 
+- Identify as well as prevent or mitigate systematic issues early on in the study that may: 
+- Threaten subject safety or study efficacy. 
+- Invalidate the reliability of the study findings. 
+## User Impact
+ On the QTLs page, you can click Add Custom QTL  to define and save a custom QTL within a study environment.
+ You can also click a custom QTL listed on the QTLs page to edit the custom QTL's details .
+## Special Considerations
+ You cannot configure site-level QTLs. You must create QTLs to monitor thresholds for specific site-level parameters.

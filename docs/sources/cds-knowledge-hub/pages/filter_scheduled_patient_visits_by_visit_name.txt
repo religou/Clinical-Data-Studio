@@ -1,0 +1,20 @@
+# Filter Scheduled Patient Visits By Visit Name
+
+## Filter Scheduled Patient Visits By Visit Name
+## Description
+ Centralized Statistical Monitoring (CSM) breaks down at the study, country, or patient-level the number of scheduled patient visits for each weekday throughout the study. You can now filter scheduled patient visits by visit name for any selected weekday. 
+## Affected Roles
+ Central monitors.
+## Advantages
+ By filtering scheduled patient visits, you can identify the type of visits easily and investigate specific visits, for example, visits that were recorded on weekends or holidays. Visits recorded as taking place on weekends or holidays may indicate potential fraud, misconduct or simple data entry errors by sites. Based on your findings, you can monitor sites of interest to determine any mitigating actions. 
+## User Impact
+ On the Medidata Detect > Centralized Statistical Monitoring (CSM) module > Data Veracity > Weekend and Holiday Visits page, when you select a weekday, the list of patient visits and visit details recorded appear in the weekday table.
+- If you select multiple sites, countries and a visit date, and one or multiple visit names, and then click Apply, the patient visits list shows visits that match the filter criteria. 
+- If you do not select any option from the sites, countries, visit names or visit date fields and click Apply, no visits appear in the weekday table. 
+## Knowledge Space Updates
+ The CSM Knowledge Space provides the following updated content to support the enhancement: 
+- Investigate Site Visits On Non-Business Days 
+## Special Considerations
+- You can view visit counts for countries or sites even if you do not have access to the sites or countries. 
+- The visit filtering and exporting options become available only after data completely loads into CSM. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

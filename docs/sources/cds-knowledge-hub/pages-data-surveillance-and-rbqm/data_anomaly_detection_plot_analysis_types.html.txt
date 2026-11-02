@@ -1,0 +1,63 @@
+# Data Anomaly Detection Plot Analysis Types
+
+## Data Anomaly Detection Plot Analysis Types
+ When you select variables to view in the Data Anomaly Detection plot visualization, Statistical Monitoring applies one of five different types of data analyses depending on the variable  or variables you are viewing. 
+ Each data analysis type renders using one of three specific data visualizations: frequency distribution plot , box-and-whisker plot , or scatter plot . Each data analysis type also has a unique plot sorting and filtering options .
+ Note : You can find c ommon examples for each data analysis type below. However, actual outputs vary from study to study based on the variable relationships that Statistical Monitoring's data analysis identifies. 
+## Text Analysis
+ Statistical Monitoring analyzes the frequency and distribution of the unique text values existing within an individual variable in the study data. For example, text analysis might visualize and compare the frequency of each unique, patient-entered text value for 'reason for discontinuation' for a given study variable. RBQM conducts text analysis across visit-based, event-based, and single-record per patient data contexts. The analysis produces a frequency distribution plot visualization. For example: 
+ Tip : Click image to enlarge.
+## Numeric Analysis
+ Statistical Monitoring analyzes the distribution of all numeric and date values existing within a single variable in the study data. For example, numeric analysis might visualize the raw distribution of the numeric values patients entered for ALT values for a given study variable. RBQM conducts numeric analysis across visit-based, event-based, and single-record per patient data contexts. The analysis produces a box-and-whisker plot visualization. For example: 
+ Tip : Click image to enlarge.
+## Text Versus Text Analysis
+ Statistical Monitoring analyzes the combined frequency and distribution of the unique text values existing within two paired variables in the study data. For example, text versus text analysis might visualize and compare how many times patients entered a paired combination of text values for the severity of adverse events across those two variables. RBQM conducts text versus text analysis across visit-based, event-based, and single-record per patient data contexts. The analysis produces a frequency distribution plot visualization. For example: 
+ Tip : Click image to enlarge.
+## Numeric Versus Numeric Analysis
+ Statistical Monitoring analyzes the combined distribution of all numeric and date values existing within two paired variables in the study data. For example, numeric versus numeric analysis might visualize the raw distribution of the numeric values that patients entered for systolic versus diastolic blood pressure across those two variables. RBQM conducts numeric versus numeric analysis across visit-based, event-based, and single-record per patient data contexts. The analysis produces a  scatter plot visualization. For example:
+ Tip : Click image to enlarge.
+## Numeric Versus Text Analysis
+ Statistical Monitoring analyzes the distribution of all numeric and date values existing in the study data against all existing text values across two paired variables. For example, numeric versus text analysis might compare the distribution of height among female patients against the height of among male patients. RBQM conducts numeric versus text analysis across visit-based, event-based, and single-record per patient data contexts. The analysis produces multiple side by side  box-and-whisker plot visualizations. For example:
+ Tip : Click image to enlarge.
+## Identify Which Data Analysis Type You Are Viewing in Data Anomaly Detection
+ Data Anomaly Detection visualizations and capabilities vary depending on the type of data analysis Statistical Monitoring applies to the variables you select to view. Therefore, being able to identify which data analysis you are viewing in the plot helps you effectively use and interpret Data Anomaly Detection plots .
+ Click a data analysis type below to learn how you can identify which type of data analysis you are viewing in the plot visualization.
+ Text Analysis 
+ You can identify when a plot uses text analysis because the plot renders as a frequency distribution plot with the following sorting options: 
+- High - Low Score 
+- Low - High Score 
+- Alphabetical Text 
+ For example:
+ Tip : Click image to enlarge.
+ Numeric Analysis 
+ You can identify when a plot uses numeric analysis because the plot renders as a box-and-whisker plot with the following filtering options: 
+- Outer Values 
+- Outliers 
+- Box Plot 
+ For example:
+ Tip : Click image to enlarge.
+ Text Versus Text Analysis 
+ You can identify when a plot uses text versus text analysis because the plot renders as a frequency distribution plot. The plot also provides a Show filter, which you can use to select to view the plot data based on: 
+- Threshold , or 
+- Occurrences 
+ For example:
+ Tip : Click image to enlarge.
+ Numeric Versus Numeric Analysis 
+ You can identify when a plot uses numeric versus numeric analysis because the plot renders as a scatter plot with the following filtering options: 
+- Swap Axis 
+- Outliers 
+- Jittered 
+ For example:
+ Tip : Click image to enlarge.
+ Numeric Versus Text Analysis 
+ You can identify when a plot uses numeric versus text analysis because the plot renders multiple box-and-whisker plots and the visualization provides the following filtering options: 
+- Outer Values 
+- Outliers 
+- Box Plot 
+ The plot also provides a Sort by filter. You can sort the plot data by:
+- Alphabetical 
+- Mean 
+- Median 
+- Spread (Q3-Q1) 
+ For example:
+ Tip : Click image to enlarge.

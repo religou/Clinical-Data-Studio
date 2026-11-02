@@ -1,0 +1,37 @@
+# Export Job Editing Now Available
+
+## Export Job Editing Now Available
+## Description
+ You can now update jobs. Extractor creates another job version a fter updating a job. Future job executions reflect the most recent job version. You can update the following parameters: 
+- Study – You can update the study and add studies to the job. 
+- Data Type – You can update the data type and add data types to the job. 
+- Export Data Sets – You can update the selection of data sets to include in or exclude from the extract. 
+- Scheduling Frequency – You can update the job run frequency. 
+- Data Export Type – You can change job from cumulative to Incremental and vice versa. 
+- File Type – You can update and select between multiple file types depending on the job, such as comma-separated value (CSV) or SAS (XPT) for EDC jobs. 
+- SFTP – You can update which external SFTP location the job uses. 
+ Important : You cannot update a job's name.
+## Affected Roles
+ All.
+## Advantages
+ You can update your jobs directly and forgo needing to create more jobs and archiving older ones to address configuration changes. 
+## User Impact
+ On the Export Jobs screen, each job's options menu includes the Edit Job button. You can also find the Edit Job button on a specific job's Job Configuration screen. Clicking Edit Job takes you to the export job edit wizard with prefilled fields based on the current configuration. The edit wizard follows the same workflow as the job creation wizard on which you can update fields as necessary. Editing a job creates a job version. Extractor uses the most recent job version when running jobs. 
+ Various parts of Extractor's Job Details screen include updates to support this feature:
+- The updated Job Configuration tab: 
+- Includes a version menu that you can use to review the job's version history. 
+- Adds the following fields: 
+- Created Date – The job version's creation date. The field shows "-" for new jobs. 
+- Modified Date – The job version's modification date. This field reflects when the job changed from version x to version x+1 and shows "-" for new jobs. 
+- Version – The job's version number. This field shows "1" for new jobs. 
+- The updated Job Run History tab: 
+- Includes the Version column. Clicking the version takes you to that version's configuration details.  
+- Includes the View Version Details button on a specific job run's menu. Clicking View Version Details also takes you to that version's configuration details. 
+- The added Versions tab includes a list of the job's versions. You can click a version's View Version Details button to see that version's configuration details. 
+## Knowledge Updates
+ Here are links to new and updated content to support these updates: 
+- Review Export Configuration  (updated) 
+- Review Export Run History (updated) 
+- Edit Export (new) 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

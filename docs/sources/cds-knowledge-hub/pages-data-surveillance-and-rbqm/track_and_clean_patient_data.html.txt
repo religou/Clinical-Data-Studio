@@ -1,0 +1,110 @@
+# Track and Clean Patient Data
+
+## Track and Clean Patient Data
+ You can use Clean Patient Tracker to  track unvetted and unreviewed patient data , and further drill down directly to complete the outstanding data cleaning tasks that Clean Patient Tracker lists. 
+## Track High-level Outstanding Data Cleaning Task Metrics
+ Clean Patient Tracker provides an immediate assessment of your study’s overall data cleanliness. These high-level metrics allow you to quantify the remaining workload at a glance. 
+- Access Data Surveillance . 
+- Click Clean Patient Tracker in the left-hand menu.
+The top of the Clean Patient Tracker page shows the following real time metrics:
+- Enrolled patients – The number of enrolled patients in the study. 
+- Patients to review   
+- Count – The number of enrolled patients with at least one outstanding task. 
+- Percentage –  The proportion of enrolled patients who are Clean, that is, fully reviewed with no outstanding tasks.   
+- Sites to review 
+- Count –  The number of sites containing at least one outstanding task. 
+- Percentage – The proportion of sites where all patient data is currently reviewed and clean. 
+- Outstanding tasks 
+- Count  – The total volume of incomplete tasks across the entire study. 
+- Percentage –  The percentage of all study-wide data cleaning tasks that remain in progress or unreviewed. 
+- Open Queries – The total number of queries currently awaiting response or resolution. 
+## View the Aggregated Count of Outstanding Tasks by Patient
+ Clean Patient Tracker includes the Aggregated Count of Outstanding Tasks by Patient horizontal stacked bar chart, which shows the counts of outstanding tasks per patient. The chart also further groups and counts outstanding tasks per patient by:
+- Listings 
+- Vendor queries 
+- Page statuses 
+- AI Reconciliation reports 
+- Medidata Rave queries 
+ The Aggregated Count of Outstanding Tasks by Patient chart's display of all patient-level outstanding tasks helps you quickly identify patients and tasks that most require review. Thus, enabling you to more efficiently clean  patient data and ensure study data integrity and accuracy. 
+- Access Data Surveillance , and then click Clean Patient Tracker in the left-hand menu.
+The Clean Patient Tracker page shows. 
+- Go to the Aggregated Count of Outstanding Tasks by Patient section.
+The Aggregated Count of Outstanding Tasks by Patient chart is sorted in ascending alphabetical order by default.
+ Tip : Use the table's vertical scroll bar on the right side of the display to view all patients in the table.
+- Optional . In the top-right corner of the Aggregated Count of Outstanding Tasks by Patient section, click the Sort button, and the sort the chart view by: 
+- Descending – Lists patients with the most number of outstanding tasks at the top of the chart in descending order with patients with the least outstanding tasks at the bottom. 
+- Ascending – Lists patients with the least number of outstanding tasks at the top of the chart in ascending order with patients with the most outstanding tasks at the bottom. 
+- Alphabetical (default) – Lists patient IDs in the chart in ascending alphanumeric order with the lowest number ID at the top and highest number ID at the bottom. 
+- Action – View a simple list of outstanding tasks for specific patients. 
+- Hover your cursor on any patient row in the chart to display a tooltip that shows the following details for that specific patient:
+- Patient ID 
+- Listings count 
+- Vendor queries count 
+- page statuses count 
+- AI Reconciliation count 
+- Rave Queries count 
+- Action – View and highlight the count of specific outstanding task types (such as listings) across all patients. 
+- Hover your cursor on a specific outstanding task type in the legend below the table or hover your cursor on a bar chart segment representing a specific task type.
+ Note: The Patient table shows paginated results based on the Aggregated Count of Outstanding Tasks by Patient chart. To see other patients in the chart, click the next page, or filter by Site or Country.
+## Track and Clean Individual Patients
+ The Patients section of Clean Patient Tracker provides a granular view of every enrolled patient. Use this table to investigate specific data discrepancies and navigate directly to the source records for cleaning. 
+## Key Data Points in the Patients Table 
+ For each patient, the table tracks: 
+- Total In-Progress Records — A cumulative count of all unvetted data. 
+- Missing CRFs (Missing Pages)— Forms expected but not yet entered. 
+- Open Queries — Total active queries requiring resolution. 
+- AI Reconciliation Tasks— Pending records from specific AI Reconciliation reports. 
+- Tracked Listings — Unreviewed records from specific, pre-configured listings. 
+ Note : Recalculate Clean Patient Tracker to show the current count of outstanding tasks and if needed refresh underlying listings and AI Reconciliation.
+- Access Data Surveillance , and then click Clean Patient Tracker in the left-hand menu.
+The Clean Patient Tracker page shows. 
+- Go to the Patients section.
+The Patients section header is appended with the count of all enrolled patients in the study. 
+- Optional . Filter your view:
+- By Status – Click the filter icon next to the Patients header to switch between View All, View Clean, or View In Progress patients. 
+- By Task Type –  Click View report columns to select and display only specific tasks or report types. 
+- Action –  Address Missing Pages 
+- Click the number in the Missing Pages column for your target patient. 
+- Missing pages can be auto-populated from Rave or added manually. Type the updated count. Click Save .
+ Notes for Auto-populated Missing Pages Count 
+- If your instance of Clean Patient Tracker is configured to auto-populate missing page counts from an external dataset or Rave, you cannot manually edit entries in the Missing Pages column. That is, the field is read-only. 
+- The missing pages count autopopulated from Rave is the Expected to Date count, and not the total number of pages expected per patient. 
+- The Expected to Date count excludes folders for future visits based on the entry window dates. That is, Missing Pages Count = Expected to Date - Touched. 
+- Expected to Date is the count of all forms for the patient, and is based on the end window related to the instance date. 
+- If the end window is yesterday's or today's date, the associated forms are counted. 
+- If end window is tomorrow, the associated forms are not counted. 
+- If no end window is defined, all forms are counted. 
+- If the end window is defined on a folder, and if the date is less than or equal to the current date and time, then it is counted. Otherwise, it is not counted. 
+- Touched (Entered) is the count of forms for the patient that have submitted data. 
+ Calculation Rule  
+Missing pages from Rave are calculated based on the forms that exist for a patient. For example, if an edit check adds a form to a patient as a result of a value entered (male patient, hence no pregnancy form), that form is not included in future calculations of the missing pages count. So in this example, the count for missing pages for male patients does not include the form. For more information on Expected to Date and Entered, see Rave Page Status Report. 
+- To learn more, see  Configure Manual or Automatic Missing Page Count Entry. 
+- Action – Review Open Queries 
+- Click the hyperlinked number in the Open Queries column. A new browser window opens, automatically filtered to show only the open queries for the specific patient. For more information, see Open EDC Queries. 
+-  Action – Address AI Reconciliation and Listings 
+- Click any hyperlinked number in an AI Reconciliation or Listing column. A new browser window opens showing the listing or AI Reconciliation report you selected or configured,  pre-filtered for that patient so you can begin vetting records immediately. 
+-  Action – Outstanding vendor queries  
+- Click any hyperlinked number in the Vendor Queries column.  A new browser window opens showing the outstanding open vendor queries you selected,  pre-filtered for that patient so you can begin vetting records immediately. 
+ Refresh and Recalculate 
+After you finish cleaning tasks in a listing or AI Reconciliation report, return to the Clean Patient Tracker and click Recalculate. This ensures the dashboard reflects your most recent work and updates the Clean status of the patient.  To learn more, see  Trigger Clean Patient Tracker to Recalculate Outstanding Records Based on the Latest Study Data . 
+ Vendor Support
+ If your study tracks vendor-specific data, click the hyperlinked number in a Vendor column to view outstanding vendor queries for that site. 
+## Manually Mark Patients as Clean or In Progress
+ While the Clean Patient Tracker automates status based on outstanding tasks, you can manually override a patient's status when professional judgment is required. For example, if a specific form was not completed or an issue remains unreconciled but has been accepted by the project team, you may choose to mark that patient as Clean . 
+- Access Data Surveillance , and then click Clean Patient Tracker in the left-hand menu.
+The Clean Patient Tracker page shows. 
+- Go to the Patients section. 
+- Click on the right side of the Patients list in the corresponding row listing patient you want to mark as clean or in progress. 
+- Do one of the following:
+- For in progress patients that you want to mark as clean: click Mark patient as clean , enter the reason that you are manually marking the patient as clean, and then click Save .
+In the Patients list, a Note icon shows next to Patient IDs for manually cleaned patients. You can click the icon to view the user who created the note, note creation timestamp, and the reason for manually marking the patient as clean. 
+ Important : Patients that you manually mark as clean will always remain categorized in Clean Patient Tracker with the Clean status. This is true even if new, unreviewed records are generated for that patient and processed in a future data refresh. However, if necessary, you can override the Clean status for a patient by manually marking that patient as in progress. 
+- 
+- For clean patients that you want to mark as in progress: click Mark patient as in progress . 
+## View Manually Cleaned Patient Notes
+ In the Patients list, a Note icon shows next to Patient IDs for manually cleaned patients. You can click the icon to view the user who created the note, note creation timestamp, and the reason for manually marking the patient as clean.
+- Access Data Surveillance , and then click Clean Patient Tracker in the left-hand menu.
+The Clean Patient Tracker page shows. 
+- Go to the Patients section. 
+- Click the Note icon next to the patient ID of any manually cleaned patient.
+The Clean Patient Notes appears.

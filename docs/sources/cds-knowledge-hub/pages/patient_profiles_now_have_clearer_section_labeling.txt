@@ -1,0 +1,14 @@
+# Patient Profiles Now Have Clearer Section Labeling
+
+## Patient Profiles Now Have Clearer Section Labeling
+## Description
+ On the Design page > Profiles tab, when a transposed table has graphs configured, the profile section containing the graphs displays "Graphs" in the section header.
+## Affected Roles
+- Patient Profile Designer 
+- Patient Profile Viewer 
+## Advantages
+ Adding "Graphs" to the section header helps you easily differentiate which section contains the graphs and which section contains the table.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

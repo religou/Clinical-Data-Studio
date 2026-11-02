@@ -1,0 +1,36 @@
+# Review Exports List
+
+## Review Exports List
+ The Exports screen lists the exports that export datasets from the Medidata Platform.  You can review the status of each export, and download datasets from successfully completed exports.
+## Open the Exports List
+- Access Data Connect , and click   Exports   in the left-hand menu. 
+ Note : By default, you can only see the exports you created. To see exports created by other users, your platform role must include the View as Super User building block. For details on managing permissions, see Grant Access to Data Connect . 
+## Exports List Details
+ Tips :  Sorting and Filtering the Exports List 
+- Clicking any column header sorts the list by that field. The sorting toggles between ascending and descending. 
+- Clicking the Filter icon reveals filtering options. You can filter the exports list by: Frequency, Export Type, Last Run Status, Enrivonrments, Export, Data Type, Export Activity, Created by or, Study View. You can also select  View Multi Study Environment Only to filter the export list to only show multistudy exports. 
+ Name 
+ The export's name. 
+ Export 
+ The study or client division the export is exporting from.
+ Data Type 
+ The export's target data types.
+ Last Run Status 
+ The export's most recent execution status.
+ Next Run 
+ The export's next execution start date. If this field is empty, then the export runs immediately, or all scheduled exports are complete. For details on schedule configuration, see Schedule Export.
+ Created By 
+ Shows the name of the user who created the export.
+ Note : This column only appears for users with the View as Super User building block applied to their platform role.
+ Job-specific Actions 
+ By clicking the More menu , you can perform actions to a specific export, including:
+- View Export Details – Takes you to the export's Configuration screen. For details, see  Review Export Configuration . 
+- Edit   – Opens the export wizard where you can edit the export parameters and create another version. For details, see Edit Export 
+- Run Now – Executes the export immediately, and creates another entry on the export's Run History screen. For details about the Export Run History screen, see Review Export Run History . 
+ Note : 
+- You can only select Run Now for the exports you created. You cannot execute exports created by another user. 
+- You cannot select Run Now when the export is "In Progress." 
+- Download Latest Run – If available, downloads the extracted data files for the most recent successful export run. The download option is only available for 24 hours after completed successful run. For details, see Download Data Extracts . 
+- Pause Export  – If the export is recurring, pauses the repeat schedule. 
+- Resume Export  – If the export is recurring but paused, resumes the paused repeat schedule. 
+- Archive Export – Archives the export. For details, see  Archive Export .

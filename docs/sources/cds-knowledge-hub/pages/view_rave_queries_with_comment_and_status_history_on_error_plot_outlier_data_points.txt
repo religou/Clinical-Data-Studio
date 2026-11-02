@@ -1,0 +1,29 @@
+# View Rave Queries With Comment and Status History on Error Plot Outlier Data Points
+
+## View Rave Queries With Comment and Status History on Error Plot Outlier Data Points
+## Description
+ In Medidata Detect, you can now view Rave query information raised against an error plot's top 100 outlier data points. 
+## Affected Roles
+- Data Managers 
+- Central Monitors 
+## Advantages
+ Appending data points with the  signifies to reviewers whether an issue regarding an outlier data point is addressed with a query in Rave EDC. Therefore, reviewers need not log in to Rave EDC to determine if data points are queried. Reviewers can simply mark the data points as reviewed in Detect with the understanding that the data points are being managed by another user. 
+## User Impact
+ On the Error Plots page > Summary section, when you select to view by the Top 100 Outliers, a  appears next to data points for which a user has entered a query on in Rave EDC. You can click the  to view the Query History panel, which shows:
+- Patient ID 
+- Variable 
+- Value 
+- Query Type 
+- Action 
+- Query Data 
+- Text 
+- Action By 
+- Action Date 
+ For more information, see View Rave Queries in Data Anomaly Detection Plots .
+## Knowledge Space Updates
+ The following articles have been created or updated in the Medidata Detect Knowledge Space to support this feature:
+- View Rave Queries in Data Anomaly Detection Plots 
+- Data Anomaly Detection Plots 
+## Special Considerations
+ You cannot create queries in Detect. You can only see queries and associated information that come from Rave EDC.
+ In the Query Data column, the data point value reads as the coded term rather than the manually entered term.

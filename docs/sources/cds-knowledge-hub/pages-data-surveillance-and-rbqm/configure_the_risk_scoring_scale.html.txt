@@ -1,0 +1,11 @@
+# Configure the Risk Scoring Scale
+
+## Configure the Risk Scoring Scale
+ You can configure Risk Assessment to g enerate a risk's overall risk score by scoring the Probability, Impact, and Detectability risk factors on a 3-point or 5-point scale. 
+- Access RBQM , and then click Configuration > Risks in the left-hand menu.
+The Risk Assessment Configuration pages shows. 
+- In the Risk Study Scale section, select one of the following:
+- 3 Point Scale 
+- 5 Point Scale 
+ Tip : Scoring risks and risk factors on a 5-point scale create a wider risk score disparity between low and high risks, which improves your ability to identify high risk items.
+- Click Save Changes .

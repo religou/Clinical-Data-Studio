@@ -1,0 +1,14 @@
+# Request Product Enhancements and Share Feedback
+
+## Request Product Enhancements and Share Feedback
+ You can submit product enhancement requests and share other feedback to Medidata while working directly within the Medidata platform interface. Upon receipt, Medidata will review all feedback for consideration to be released as future product features, enhancements, or other updates. Approved ideas will be promoted and tracked as features or requirements along with all other planned features.
+ Important : To send requests or feedback for a specific Clinical Data Studio capability suite such as Data Surveillance, RBQM, or Data Connect, you must first access the capability suite. 
+- Do one of the following:
+- Access Data Surveillance . 
+- Access RBQM . 
+- Access Data Connect . 
+- In the upper-right corner of any page, click the Feedback icon.
+- Fill out the form that appears.
+ Important : Only enter one product enhancement request or feedback per form.
+- Click  Submit .
+Medidata will receive and review the information provided in your submission for consideration to incorporate as future product features, enhancements, or other updates.

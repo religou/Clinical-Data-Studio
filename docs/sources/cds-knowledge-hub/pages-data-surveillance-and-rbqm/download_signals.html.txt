@@ -1,0 +1,15 @@
+# Download Signals
+
+## Download Signals
+ You can download and export data from Signals in .xlsx formats. You can e xport everything on the Signals page into a single export. Exporting signals allows you to print and view snapshots of signals and compare history across data refreshes. This helps you: 
+- Track and audit signal history. 
+- View and share signals information without logging in to RBQM. 
+## Download Signals Data
+- Access RBQM , and then click Signals in the left-hand menu.
+The Signals page shows. 
+- Click , the Download button, from the top right corner of the page. 
+- Select .xlsx. 
+- Click Download . 
+- Click the  file name link.
+ The signals download as a zipped file, which you can unzip as a CSV file to your browser. The downloaded report consists of two tabs: Header and Details. The Header tab includes information such as: Study Name, Refreshed Date, Downloaded Date, Downloaded By. The Details tab includes information about all the downloaded signals in the study. The column formatting matches what appears on the Signals table.
+ Important: Filters applied to the Signals table do not appear in the downloaded file.

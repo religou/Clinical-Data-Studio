@@ -1,0 +1,75 @@
+# RBQM Configuration
+
+## RBQM Configuration
+ RBQM Configuration is an RBQM capability that allows you: 
+- Map the specific study data that you want Data Surveillance and RBQM to report on and visualize. 
+- Configure the risk scoring scale and data you want to capture in the risk assessment. 
+- Create and manage: 
+- KRIs and QTLs 
+- Derived variables 
+- Stacked datasets 
+- Review reports 
+## What Is RBQM Configuration?
+ RBQM Configuration is a n RBQM  capability that enables you to perform all data mapping and various study configuration tasks in one central location. 
+## What Is the Purpose of RBQM Configuration?
+ RBQM Configuration provides a single, centralized location for: 
+- Mapping the data that Data Surveillance and RBQM consume to produce the reports, statistical analysis, and visual output for :
+- Data Anomaly Detection Plots 
+- Event incidence plots 
+- Under-over reporting events 
+- Potential duplicate patients 
+- Rounding and propagation of vital sign records. 
+- AI Data Reconciliation reports 
+- RECIST 1.1 Dashboard 
+- Configuring the risk scoring scale and data you want to capture in the risk assessment. 
+- Creating and managing:
+- KRIs and QTLs that you want Data Surveillance and RBQM to report and analyze. 
+- Derived variables that you want to add for inclusion in your study's list of datasets. 
+- Stacked datasets, which enable you to merge datasets with common variables into one dataset. 
+- Review reports, which allow you to capture activity logs and findings across data review and reconciliation cycles conducted within Data Surveillance and RBQM. 
+ To learn more, see: 
+- Data Mapping 
+- Risk Assessment Configuration 
+- KRI Configuration 
+- QTL Configuration 
+- Derived Variables 
+- Stacked Datasets 
+- Review Reports 
+## Who Uses RBQM Configuration?
+ Risk managers, data managers, and any personnel involved with study risk management use RBQM Configuration. 
+## What Are the Benefits of RBQM Configuration?
+ RBQM Configuration: 
+- Allows you to quickly configure in a simple, centralized workspace the specific study data that you want Data Surveillance and RBQM to analyze. 
+- Promotes platform-wide standardization and consistency and among the QTLs and KRIs you are tracking in your studies. 
+- Helps your organization target and review unique and specific facets of your study that you want to monitor for risk. 
+## How Does RBQM Configuration Work?
+ Study teams must first properly set up studies in Medidata Rave , and then sites must enter study data directly in Rave or upload third-party data through Ingestor . To learn more, see Medidata Detect's Data Pipeline . Medidata's platform data workflow enriches and transforms all tagged study data , at which point, RBQM pulls in the study's data sets and variables into your study environment. You can use RBQM Configuration to: 
+- Map the data that Statistical Monitoring and Data Surveillance use consume to produce the statistical analysis and visual renderings for:
+- Data anomaly detection and trends 
+- Event incidence and under-over reporting events 
+- Potential duplicate patients 
+- Rounding and propagation of vital sign records 
+- AI Data Reconciliation reports 
+- RECIST 1.1 
+- Configure the risk scoring scale and data you want to capture in the risk assessment . 
+- Create custom QTLs and   custom KRIs so that you can track your study's QTLs and KRIs on the QTL Dashboard and  KRI Dashboard . 
+- Activate QTLs and   KRIs to get consumed, analyzed, and calculated by RBQM's data science microservice algorithms. 
+- Create and update derived variables . 
+- Create stacked datasets and view the list of stacked datasets in your study. 
+- Add, Edit, And Delete Review Reports. 
+ The KRI Dashboard, QTL Dashboard, and Statistical Monitoring capabilities enable you to refresh the modules to render analyses based on RBQM's most recently ingested study data. You can schedule data refreshes to occur and on a preset frequency or manually trigger data refreshes ad-hoc. W ith each data refresh, Medidata RBQM's microservice algorithms consume and analyze the configured study data mappings and all activated KRIs and QTLs, and then Data Surveillance and RBQM visualizes the statistical analyses in: 
+- Data Anomaly Detection 
+- Trends 
+- Event Incidence 
+- Under-Over Reporting Events 
+- Weekend and Holiday Visits 
+- Potential Duplicate Patients 
+- Rounding and Propagation 
+- AI Reconciliation 
+- Custom Graphs 
+- RECIST 1.1 
+- KRI Dashboard 
+- QTL Dashboard 
+- Risk Assessment 
+- Risk Inventory 
+ Note :   In RBQM, s tudy data automatically refreshes twice daily at approximately 9:00am (EST) and 9:00pm (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, and 11:00 am (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Rave and   activated datasets from Data Connect   is available in 12 to 18 hours within   RBQM. For more information, see   Clinical Data Studio Data Pipeline .

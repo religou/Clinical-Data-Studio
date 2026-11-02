@@ -1,0 +1,15 @@
+# Preperatory Work for Future Features and Enhancements
+
+## Preperatory Work for Future Features and Enhancements
+## Description
+ Preparatory work has been completed in support of future features or enhancements in RBQM Configuration Manager.
+## Affected Roles
+ None.
+## Advantages
+ None.
+## User Impact
+ None.
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ This work is in support of features and enhancements in a future release.

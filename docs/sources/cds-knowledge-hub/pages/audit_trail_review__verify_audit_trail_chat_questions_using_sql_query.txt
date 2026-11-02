@@ -1,0 +1,43 @@
+# Audit Trail Review: Verify Audit Trail Chat Questions Using SQL Query
+
+## Audit Trail Review: Verify Audit Trail Chat Questions Using SQL Query
+## What Is New?
+ You can now view the underlying SQL query that Audit Trail Review (ATR) uses to retrieve audit data from your study.
+## What Is the Impact?
+## Users/Roles
+ All study team members.
+## Workflow Process
+ No impact to the workflow processes.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ You can validate whether the audit data shown matches the question you asked in the chat option. You can further edit the question as required based in the formatted SQL query text. 
+## Where Do I See the Change?
+ On the RBQM tab > Audit Trail Review > new audit review section, type your question into the chat option, and ATR shows the audit data in the Data Preview section on the right of the page. Then if you click the More icon ( ), then click View SQL , you can view the underlying SQL code that retrieves audit data based on your question from the study.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement.
+- Audit Trail Review 
+## What Else Should I Know?
+ Permissions 
+- You must have the  View Audit Trail Review t o ask questions and save prompts, whereas to publish audit data sets you need the Manage Audit Trail Review building block added respectively to your role in Cloud Administration.  
+ ATR Behavior 
+- No blinded data sets are shown as part of audit trail review data. 
+- You can only publish a maximum of 10 audit data sets in any study.  
+- The audit workflow runs every day. The published data set is available in the study 30 minutes after it was published. 
+- You cannot publish and download a data set if the Data Preview shows no records. 
+ ATR Limitations 
+- Audit trail review does not support: 
+- Any aggregations. For example, a question like Give audits for AE form where a data point was modified more than 10 times, may produce a data set that was modified just once. 
+- Complex computations, or calculating differences in timestamps. For example, a question like Give audits where a datapoint was modified 10 days after it was entered. may not produce a result. 
+- Results at any level other than data points. For example, a question like Give me all sites in the data, does not produce a result. 
+- Filtering on data point values. 
+- Question prompts asking for all audits in the study. 
+- Filtering in the published audit data set is limited to the following fields:  
+- audit user, audit date/date range, form oid, field oid, audit subcategories, patient ID, country, and site. 
+- Published audit data listings do not support the following functionality: 
+- Submit queries. 
+- Submit vendor queries. 
+- Cross-dataset listing creation 
+- Missing records 
+- The ATR functionality times out if the learning model takes longer than five minutes to process a request. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

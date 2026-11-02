@@ -1,0 +1,24 @@
+# Add and Edit Custom Percentage KRIs
+
+## Add and Edit Custom Percentage KRIs
+## Description
+ Within a given study environment, you can define and add custom percentage KRIs to target and monitor specific study data for risk. With custom percentage KRIs, you can build functional expressions to query your study database to assess if subjects meet certain conditions or criteria.   For example, you can build a percentage KRI that reports the percentage of all study subjects who  experienced  a systolic blood pressure over 140. Or you can build a percentage KRI that calculates the percentage of all study subjects who reported experiencing a specific adverse event. 
+ Medidata Detect  produces an incidence analysis on the custom percentage KRI, which you can view  in Detect's Key Risk Indicators table  and Contributors list. 
+ After creation, you can update the custom percentage KRI name and description. 
+## Affected Roles
+ RBQM Configuration Manager Admin
+## Advantages
+ Custom percentage KRIs provide you greater control and flexibility of the specific data and metrics that you want Medidata Detect to analyze and report. Therefore, you can better target your study data analysis on areas that most require your attention to optimally monitor and investigate risk. 
+## User Impact
+ On the KRIs page, you can click  Add Custom KRI  > Percentage , which navigates you to the new Custom Percentage KRI page. 
+ Tip : Click image to enlarge.
+ On the Custom Percentage KRI page, you can define and save a custom percentage KRI within a study environment. You define custom percentage KRIs by building functional expressions. The expressions consist of one or more conditions. You build conditions using date, numeric, or text variables from the list of data sets available within a study environment. You then select a comparator for the variable, such as: =, !=, >, <, >=, <=, One Of, Missing, Not Missing, or Contains. You then apply a comparator value that serves as the conditional threshold based on selected comparator. Values can be dates selected from a calendar date picker, a date or numeric variable from the list of data sets, manually entered text or values, or one or more patient-reported terms selected from a dropdown. 
+ You can then add additional conditions to build an expression with a jointed condition set using the following operators:  .
+ Activating a custom percentage KRI triggers the KRI's data to get filtered, analyzed, calculated, and displayed in Medidata Detect's Key Risk Indicators table and Contributors list. 
+ You can also click a custom percentage KRI listed on the KRIs page to edit the custom percentage KRI's name and description. 
+ For details about adding and editing custom percentage KRIs, see  Add and Edit Custom Numeric and Percentage KRIs . 
+## Special Considerations
+- The list of selectable comparators and comparator value options differ based on whether you are working with a variable of date, number, or text data type. For more information, see  Add and Edit Custom Numeric and Percentage KRIs . 
+- When using a variable as the comparator value, the originally selected variable and comparator variable must come from the same data set. 
+- When using parentheses to build a condition comprised of multiple operations, you must properly encapsulate the condition with a left paren and right paren. Otherwise, you cannot save the customer percentage KRI. Errant parens also prevent you from saving. 
+- If you build a percentage KRI's expression using multiple data sets from different risk categories (for example, endpoints and safety), then the percentage KRI is assigned the Other risk category.

@@ -1,0 +1,22 @@
+# View Historical Details For Listings
+
+## View Historical Details For Listings
+## Description
+ When you create a listing, Data Reviewer takes a snapshot of the data in the listing. You can view the history and refresh the listing manually to get the most recent search results.
+## Affected Roles
+ All.
+## Advantages
+ You can view listing results at a specific snapshot date and time.
+## User Impact
+ On the Data Reviewer > Data Reviewer page > Listings tab, you can:
+- Click a saved listing and then click   Refresh   to refresh the listing with the most recent search results. 
+- Click the   Show History   link to view a side panel showing:
+- The list of historical refreshes made to listing. 
+- The Last Updated Date details. 
+- The Last Updated By details. 
+ Within the Show History side panel, you can click a listing refresh date to view the listing snapshot as recorded on that refresh date.
+## Knowledge Space Updates
+ The Data Reviewer Knowledge Space provides new content to support the feature: 
+- Refresh And Get Listings History 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,53 @@
+# Data Surveillance: Improved RECIST 1.1 Dashboard Enables Better Information Access
+
+## Data Surveillance: Improved RECIST 1.1 Dashboard Enables Better Information Access
+## What Is New?
+ The RECIST 1.1 dashboard includes updates to the summary cards, waterfall chart, and the tumor response by patient table.
+## What Is the Impact?
+## Users/Roles
+ Study Managers, Medical Monitors, and Data Managers.
+ All users with View Oncology Analytics and Oncology Reviewer access.
+## Workflow Process
+ No change in workflow.
+## Other Applications
+ The RECIST 1.1 dashboard works only if you configure data sets and variables in RBQM OR Data Surveillance > Configuration > Data Mapping > Oncology > Oncology Mapping. Source and target variables you configure in Oncology Mapping populate the RECIST 1.1 dashboard and the tumor burden response by patient table.
+## How Do I Benefit?
+ The improved RECIST 1.1 dashboard:
+- Quantifies accurate tumor burden and outcome calculations for patients. 
+- Summarizes the total count of patients, and those in various stages of treatment response at the selected scan visit type and site, including patients whose overall response data is missing from a selected visit. 
+- Enables data managers to easily identify discrepant, unreviewed, reviewed records making data reconciliation faster. 
+- Assists data managers in assessing the accuracy of RECIST 1.1 calculations and safety monitoring. 
+## Where Do I See the Change?
+ On the Data Surveillance > Oncology > RECIST 1.1 page: 
+- Summary cards include a new Patient without OR card that shows the count of patients for whom the overall response is missing for a selected visit. 
+- The Waterfall Tumor Burden Change (%) change chart shows the Patient IDs corresponding to each bar in the X-axis. 
+- In the Tumor Burden Response by Patient table:
+- The columns appear in the following order: 
+- 
+- 
+- Patient, Site, Country, Status, Visit Name, Visit Date 
+- Overall Response 
+- Calculated Overall Response 
+- Smallest Sum of Diameters 
+- Sum of Diameters (SLD) 
+- Tumor % Change 
+- TL Response 
+- Calculated TL Response 
+- NTL Response 
+- Calculated NTL Response 
+- NL Response 
+- Calculated NL Response 
+- 
+- The tumor response stage abbreviations in the Tumor Burden Response by Patient table are updated as: 
+- PR – Partial Response 
+- SD – Stable Disease 
+- PD – Progressive Disease 
+- NE/NA – Not Evaluable or Not Applicable 
+- NN – Non-CR/Non-PD 
+- You can filter by Overall Response and Calculated Overall Response columns. You can select multiple, discrepant, or non-discrepant records and mark them as reviewed or unreviewed. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- RECIST 1.1 
+## What Else Should I Know?
+ You can view the RECIST 1.1 dashboard only if you have View Oncology Analytics and Oncology Reviewer access.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,20 @@
+# Transformations Now Include Multiple Concatenation
+
+## Transformations Now Include Multiple Concatenation
+## What Is New?
+ You can perform multiple concatenation by adding parameters during the Concatenation transformation operation. 
+## What Is the Impact?
+## Users/Roles
+ All
+## Workflow Process
+ No change to the workflow process. The concatenation update extends existing functionality.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The concatenation update gives you more flexibility and options when transforming data sets or derived variables. You can now concatenate three or more items as nececessary..
+## Where Do I See the Change?
+ The Concatenation operation now includes an Add button. Clicking the button adds more Input fields to the operation wizard so you can select more form fields for the operation.
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

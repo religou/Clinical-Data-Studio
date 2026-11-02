@@ -1,0 +1,99 @@
+# Under-Over Reporting Events
+
+## Under-Over Reporting Events
+ The Under-Over Reporting Events Plot graphically shows event reporting patterns across adverse events (AE), concomitant medication (CM), and medical history (MH) at the site and country level. The Under-Over Reporting Events Plot helps you identify potentially noncompliant sites and countries whose event reporting patterns significantly differ from the study norm. 
+## What Are the Under-Over Reporting Events Plots?
+ The Under-Over Reporting Events Plot contains three separate funnel plots :
+- Adverse Events (AE) – Graphs the reported rate of adverse events over time in months for each site and country in the study. 
+- Concomitant Medication (CM) – Graphs the reported rate of concomitant medications compared to the combined number of reported adverse events and ongoing medical history events for each site and country in the study. 
+- Medical History (MH) – Graphs the reported rate of medical history events compared to total number of enrolled patients at each site and country in the study. 
+ Each site and country's reported data is represented as a blue data point on each graph. RBQM normalizes the study-wide reported event data and visually outputs funnel lines representing the data's:
+- Upper 99th Percentile Threshold – An event rate that is at the 99% confidence interval above the study's average event rate at a particular time in the study. RBQM considers sites or countries whose reported event data lies above the upper 99% limit to potentially be extreme outliers, which may warrant prompt investigation. 
+- Upper 95th Percentile Threshold – An event rate that is at the 95% confidence interval above the study's average event rate at a particular time in the study. RBQM considers sites or countries whose reported event data lies above the upper 95% limit to be potential outliers, which may warrant investigation. 
+- Mean – The average reported rate across all sites or countries in the study. 
+- Lower 95th Percentile Threshold – An event rate that is at the 95% confidence interval below the study's average event rate at a particular time in the study. RBQM considers sites or countries whose reported event data lies below the lower 95% limit to be potential outliers, which may warrant investigation. 
+- Lower 99th Percentile Threshold – An event rate that is at the 99% confidence interval below the study's average event rate at a particular time in the study. RBQM considers sites or countries whose reported event data lies below the lower 99% limit to potentially be extreme outliers, which may warrant prompt investigation. 
+## What Is the Purpose of the Under-Over Reporting Events Plot?
+ You can use the Under-Over Reporting Events Plot to identify potentially noncompliant sites and countries whose AE, CM, and MH reporting patterns significantly differ from the study norm. Based on your findings, you can further investigate sites and countries that may be under or over reporting event data before generating an issue for an on-site or remote monitor. 
+## Who Uses the Under-Over Reporting Events Plot?
+ The following types of users, among many others, use the Under-Over Reporting Events Plot:
+- Central Monitors 
+- Data Managers 
+- Medical Monitors 
+## How Does RBQM Detect Sites and Countries That Under or Overreport Events?
+ See  Sites That Under or Overreport Events Detection Methodology .
+## Event Data Interrogation Criteria and Workflow Example
+ As part of your under-over reporting event evaluation, you should consider the following data interrogation criteria:
+ Criteria 
+ Consideration 
+ How to Interrogate in RBQM 
+ Example 
+ | Number of Patients, Events, and Overall Drug Exposure 
+ | Consider dense enrollment and all patients being in the early stages of the trial. 
+ | Investigate Data Using the Under-Over Reporting Events Plott > Adverse Events analysis 
+ | 
+ Adverse Events Under-Over Reporting
+ | Reporting Pattern of Concomitant Medications 
+ | Does the clinical trial site have significantly more concomitant medications than what we see with other sites? Do we see concomitant medications without associated AEs and medical histories? 
+ | Investigate Data Using the Under-Over Reporting Events Plot > Concomitant Medications analysis 
+ | 
+ | Medical History 
+ | Are there too many or too few? Are there healthier patients with fewer events or missing information? 
+ | Investigate Data Using the Under-Over Reporting Events Plot > Medical History analysis 
+ | 
+ | Reporting Patterns 
+ | Do we see any patterns related to the type of underreported events; for example, mild events? 
+ | Investigate Data Using the Event Incidence Plot 
+ | 
+ | Patient Populations 
+ | Evaluation of information in the context of impacted patients or subpopulation of patients. 
+ | View Patient Profile 
+ | 
+ Patient Profiles - Safety Timeline table
+ | Data Currency 
+ | Is the adverse event reporting variance due to a backlog of information not being entered? Evaluate in particular the AE Entry Delay KRI. 
+ | Investigate Data Using the KRI Dashboard - AE Entry Delay metric 
+ | 
+ KRI Dashboard - AE Entry Delay metric
+## What Are the Benefits of Using the Under-Over Reporting Events Plot?
+ The Under-Over Reporting Events capability's highly contextual vantage point allows earlier insight to signals of risk, and encourages better allocation of monitoring resources. By analyzing event reporting rates, you can i dentify whether sites and countries are under or over reporting adverse events, concomitant medications, and medical history. 
+ Based on your findings, you can determine appropriate corresponding actions such as to:
+- Investigate data further using the following Clinical Data Studio capabilities:
+- Event Incidence – To understand potential types of missing events. 
+- Patient Profiles – To understand the study population and impacted patients. 
+- KRI Dashboard – To identify potential data entry delays and delays in event reporting. 
+- Datasets – To review aggregated, underlying study data reported at a site or country of interest. 
+- Create issues for statistically significant event reporting variation signals to flag monitors to investigate root cause. 
+- Investigate sites to ensure they follow proper protocols and procedures. 
+- Provide training or corrective actions to the site. 
+- Ensure sites are equipped to collect accurate and timely safety information. 
+## What Are the Benefits of Using Each Under-Over Reporting Events Plot Analysis Type?
+ Traditional clinical trial monitoring processes do not provide visibility into reporting patterns, which require cross-site evaluation to identify potential risk signals like event over- or underreporting. Leveraging the RBQM Under-Over Reporting Event capability's advanced analytics, intuitive visualizations, and real-time data from all patient data sources ensures adequate data and risk surveillance, as well as comprehensive and timely safety reporting. 
+ Furthermore, each Under-Over Reporting Events Plot Analysis type provides the following benefits:
+- Adverse Events (AE)   – You can use the Under-Over Reporting Adverse Events plot to identify sites and countries that have significantly different patterns of adverse event (AE) reporting compared to the study norm. Identifying, monitoring, and appropriately addressing sites and countries that may be under or over reporting adverse event data ensure:
+- Patient safety oversight. 
+- Drug labels include appropriate safety information, including potential drug-to-drug interactions. 
+- Concomitant Medication   (CM)   – You can use the Under-Over Reporting Concomitant Medication plot to identify sites and countries that have significantly different patterns of concomitant medication reporting compared to the study norm. Identifying, monitoring, and appropriately addressing sites and countries that may be under or over reporting concomitant medication data can help address:
+- Unreported adverse events and medical history events. 
+- Variability in over-the-counter medication reporting. 
+- Medical History (MH)   – You can use the Under-Over Reporting Medical History plot to identify sites and countries that have significantly different patterns of medical history reporting compared to the study norm. Identifying, monitoring, and appropriately addressing sites and countries that may be under or over reporting medical history event data ensures:
+- Patient eligibility is properly assessed. 
+- There are no unreported exclusionary medical history conditions. 
+- Adverse events are indeed newly emerged events as opposed to the potential worsening of previously unreported medical history events. 
+- View Side by Side – You can simultaneously view and compare the Adverse Events, Concomitant Medication, and Medical History funnel plots. Adverse events, concomitant medication, and medical history funnel plots tend to correlate with each other. Viewing all three side by side helps you identify anomalous event data that may warrant investigation.
+## Under-Over Reporting Events Plot Sample
+ Plot Type 
+ Image 
+ | Adverse Events 
+ | 
+ | Concomitant Medication 
+ | 
+ | Medical History 
+ | 
+ | 
+ Side by Side 
+ | 
+## How Do I Use and Interpret the Under-Over Reporting Events Plot?
+ See Investigate Data Using the Under-Over Reporting Events Plot .
+## How Do I Refresh Under-Over Reporting Events to Output the Latest Study Data Analysis?
+ See  Schedule or Trigger When Statistical Monitoring Refreshes and Outputs the Latest Study Data Analysis .

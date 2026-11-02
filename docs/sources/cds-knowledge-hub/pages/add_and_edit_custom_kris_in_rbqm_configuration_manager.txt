@@ -1,0 +1,15 @@
+# Add and Edit Custom KRIs in RBQM Configuration Manager
+
+## Add and Edit Custom KRIs in RBQM Configuration Manager
+## Description
+ Within a given study environment , you can define and add custom KRIs   that target specific facets of your study data that you want to monitor for risk. After creation, you can update the custom KRI name and description, if necessary. 
+## Affected Roles
+ RBQM Configuration Manager Admin
+## Advantages
+ Defining custom KRIs in a single, centralized location helps your organization consistently target and track unique and specific facets of your study that you want to monitor for risk.
+## User Impact
+ On the KRIs page, you can click Add Custom KRI to define and save a custom KRI within a study environment.
+ You can also click a custom KRI listed on the KRIs page to edit the custom KRI's name and description.
+## Special Considerations
+- Medidata develops and maintains a standard  list of risk categories to which custom KRIs get assigned. 
+- When adding a custom KRI, the KRI's risk category is defined as "Other" by default. However, once created and saved, the KRI's risk category is updated according to the risk category associated with the KRI's selected data set .

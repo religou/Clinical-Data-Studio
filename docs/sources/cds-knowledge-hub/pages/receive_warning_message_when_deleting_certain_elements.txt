@@ -1,0 +1,17 @@
+# Receive Warning Message When Deleting Certain Elements
+
+## Receive Warning Message When Deleting Certain Elements
+## Description
+ If you attempt to:
+- delete an event table that is currently used in a timeline, or 
+- delete a flag that is currently used in a header 
+ outside of the respective timeline or header itself, then you receive a warning message.
+ The message states that the event table or flag you want to delete will be removed from all timelines or headers in which they currently exist.
+## Affected Roles
+ Unblinded patient profile designers.
+## Advantages
+ The warning message acts as safeguard to inform you of the repercussions of deleting events or flags outside of their respective timeline or header. Thus, potentially preventing you from unknowingly and unintentionally deleting elements.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

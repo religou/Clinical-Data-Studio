@@ -1,0 +1,25 @@
+# Codelist and Unit Codelist Support for Veeva EDC
+
+## Codelist and Unit Codelist Support for Veeva EDC
+## What Is New?
+ When you import Veeva EDC data with Veeva Direct connect, the system now also imports codelist and unit codelist columns from clinical data files. This enables you to successfully see Veeva EDC data with decoded columns and standard unit columns in Datasets and perform operations on them in Transformations. 
+ When you review this data in Data Surveillance, you can configure the KRI, QTL, and Anomaly modules to automatically identify decoded codelist fields from raw fields. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ When you review this data in Data Surveillance, you can configure the KRI, QTL, and Anomaly modules to automatically identify decoded codelist fields from raw fields. 
+## How Do I Benefit?
+ This change improves Data Connect's compatibility with Veeva EDC such that you retain more data and formatting when you use Veeva Direct Connect, expanding your ability to transform and activate data for Data Quality Management.
+## Where Do I See the Change?
+- Data Connect > Imports: No changes. 
+- Data Connect > Datasets : You can see Veeva data with decoded columns and standard unit columns. 
+- Data Connect > Transformations : You can use Veeva data with decoded columns and standard unit columns in your transformations. 
+- Data Surveillance : The Codelist column that appears in the KRI, QTL, and Anomaly modules can show these data. 
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ In Data Surveillance, you cannot issue queries on decoded columns.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

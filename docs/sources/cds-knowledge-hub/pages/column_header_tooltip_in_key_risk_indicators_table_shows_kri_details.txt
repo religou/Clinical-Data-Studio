@@ -1,0 +1,21 @@
+# Column Header Tooltip in Key Risk Indicators Table Shows KRI Details
+
+## Column Header Tooltip in Key Risk Indicators Table Shows KRI Details
+## Description
+ The KRIs Dashboard, available from the Detect Landing Page, now shows a tooltip when you hover your cursor over column headers in the Key Risk Indicators table on the Key Risk Indicators page.   
+## Affected Roles
+- Risk managers 
+- Data managers 
+- Medical monitors 
+## Advantages
+ You can search and view specific data and metrics you want to analyze and report by scanning the tooltip in the column headers of the KRI table. 
+## User Impact
+ On the Detect Landing Page > Key Risk Indicators (KRIs) module > Key Risk Indicators Dashboard > Key Risk Indicators page, you can hover your cursor over any column header in the Key Risk Indicators table to view the: 
+- KRI Label - KRI name and description as defined in Detect Configuration Manager 
+- KRI Type - Custom or System KRI 
+- KRI calculation method  - KRI calculation that uses a statistical or a user set threshold in Detect Configuration Manager. For KRIs calculated using user-set threshold limits, color-coded threshold values and ranges also appear in the tooltip.  
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ The user set, color-coded threshold values and ranges that appear in column header tooltips in the Key Risk Indicators table, depend on whether one or both user set threshold limits exist in Centralized Statistical Monitoring (formerly Medidata Detect). 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

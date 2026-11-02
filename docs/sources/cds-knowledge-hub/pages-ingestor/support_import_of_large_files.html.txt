@@ -1,0 +1,15 @@
+# Support Import of Large Files
+
+## Support Import of Large Files
+## Description
+ MEDS Ingestor now supports large file imports. Testing included importing files with more than one million rows of data. 
+ Feature/enhancement stories referenced in this article:
+ MCC-730459, MCC-727227 
+## Affected Roles
+ All Data Import roles.
+## Advantages
+ The new internal design allows data migration into MEDS on a larger scale than supported in earlier releases.
+## User Impact
+ None.
+## Special Considerations
+ Uploading very large files from the user desktop can take several minutes.

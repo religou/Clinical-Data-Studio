@@ -1,0 +1,71 @@
+# Activate and Deactivate Listings
+
+## Activate and Deactivate Listings
+ You can activate approved and draft data listings to appear in the Data Listings page > Approved Listings tab and Draft Listings tab, respectively. For activated listings, you can edit, approve, preview, review, and take other actions on the data listing on the Data Listings page. 
+ By default, all new listings are set to active status. 
+ You can also deactivate approved and draft data listings to not appear in the Data Listings page > Approved Listings tab and Draft Listings tab, respectively. For deactivated listings, you cannot edit, approve, preview, review, and take other actions on the data listing on the Data Listings page. 
+ Deactivating approved and draft data listings removes unwanted or irrelevant data listings from appearing on the Data Listings page. Therefore, you can better find and take action on pertinent data listings.
+## Activate Listings
+ You can activate approved and draft data listings to appear in the Data Listings page > Approved Listings tab and Draft Listings tab, respectively. For activate listings, you can: 
+- Edit approved or draft listing configurations. 
+- Approve draft listings. 
+- Preview draft listing results. 
+- Review approved listing results. 
+- Track approved or draft listings in Clean Patient Tracker. 
+- Refresh an approved listing's results. 
+- Export an approved listing's results. 
+- View a listing's history data snapshots. 
+ By default, all new listings are set to active status. 
+- 
+ If necessary, access the Manage Listing page. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Data Listings page shows. 
+- Click Manage Listing on the upper-right side of the Data Listings page.
+ The Manager Listing page > Listings table shows all draft and approved listings in your study and each listing's associated details.
+ Table Column Descriptions 
+- Name – The listing's Object identifier (OID). 
+- Expression – The data listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- Created By – The user who created the listing. 
+- Created –  The listing's creation date. 
+- Updated By – The user who most recently updated the listing. 
+- Last Updated – The listing's creation date or when the last saved edit occurred. 
+- Rave Enabled – A check mark indicates that you can directly within Data Surveillance view and submit Rave queries on the patient records captured by the data listing . 
+- Status – Indicates whether the listing is in approved or draft status. 
+- Activate – Enables you to control which approved listings and draft listings you want to show in the Data Listings > Approved Listings table and Data Listings > Draft Listings table, respectively. The activated slider, , indicates that the listing currently shows in its Approved Listings table or Draft Listings table. The deactivated slider,  , indicates that the listing is currently hidden from the Approved Listings table or Draft Listings table.  
+- If necessary, filter or sort the Listings table to find the listings you need.
+ Tip : Clicking the Activate column header sorts the table to show activated listings at the top in ascending alphabetical order. Clicking the Activate column header again sorts the table to show deactivated listings at the top in descending alphabetical order.
+- Click the deactivated slider, , in the corresponding row of the listing you want to activate.
+The data listing shows as activated, . The data listing now shows in the Data Listings page > Approved Listings tab or Draft Listings tab and retains its approved or draft status. You can edit and review the data listing and perform on actions on the Data Listings page as necessary. Also, you can optionally track the data listing in Clean Patient Tracker. 
+## Deactivate Listings
+ You can deactivate approved and draft data listings no not appear in the Data Listings page > Approved Listings tab and Draft Listings tab, respectively. For deactivated listings, you cannot:
+- Edit approved or draft listing configurations. 
+- Approve draft listings. 
+- Preview draft listing results. 
+- Review approved listing results. 
+- Track approved or draft listings in Clean Patient Tracker 
+- Refresh an approved listing's results. 
+- Export an approved listing's results. 
+- View a listing's history data snapshots. 
+ Deactivating approved and draft data listings removes unwanted or irrelevant data listings from appearing on the Data Listings page. Therefore, you can better find and take action on pertinent data listings.
+- 
+ If necessary, access the Manage Listing page. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Data Listings page shows. 
+- Click Manage Listing on the upper-right side of the Data Listings page.
+ The Manager Listing page > Listings table shows all draft and approved listings in your study and each listing's associated details.
+ Table Column Descriptions 
+- Name – The listing's Object identifier (OID). 
+- Expression – The data listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- Created By – The user who created the listing. 
+- Created –  The listing's creation date. 
+- Updated By – The user who most recently updated the listing. 
+- Last Updated – The listing's creation date or when the last saved edit occurred. 
+- Rave Enabled – A check mark indicates that you can directly within Data Surveillance view and submit Rave queries on the patient records captured by the data listing . 
+- Status – Indicates whether the listing is in approved or draft status. 
+- Activate – Enables you to control which approved listings and draft listings you want to show in the Data Listings > Approved Listings table and Data Listings > Draft Listings table, respectively. The activated slider, , indicates that the listing currently shows in its Approved Listings table or Draft Listings table. The deactivated slider,  , indicates that the listing is currently hidden from the Approved Listings table or Draft Listings table.  
+- If necessary, filter or sort the Listings table to find the listings you need.
+ Tip : Clicking the Activate column header sorts the table to show activated listings at the top in ascending alphabetical order. Clicking the Activate column header again sorts the table to show deactivated listings at the top in descending alphabetical order.
+- Click the activated slider, , in the corresponding row of the listing you want to deactivate. 
+- Enter the reason for deactivating the data listings. 
+- Click Save .
+The data listing shows as deactivated, . The data listing no longer shows in the Data Listings page > Approved Listings tab or Draft Listings tab. However, the data listing still retains its current approved or draft status. Also, the data listing no longer gets tracked by Clean Patient Tracker if it was previously set to be tracked.

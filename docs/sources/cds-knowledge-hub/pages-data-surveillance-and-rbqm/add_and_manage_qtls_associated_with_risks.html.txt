@@ -1,0 +1,274 @@
+# Add and Manage QTLs Associated with Risks
+
+## Add and Manage QTLs Associated with Risks
+ QTLs are study-level metrics that indicate if a study parameter's reported data has breached a preidentified data quality threshold or upper limit . QTLs monitor the emergence of systematic errors on critical variables and data that can be prone to subjective bias, ultimately impacting: 
+- Patient safety 
+- Study conduct and performance 
+- Compliance 
+- Data quality 
+- Study reliability 
+ You can: 
+- Link QTLs to risks to evaluate and monitor whether the risk level is improving based on how you are managing or mitigating the risks. 
+- View and edit the details of QTLs associated with risks. 
+- Document QTL deviations. 
+- Unlink QTLs from risks. 
+ To learn more about QTLs, see About Quality Tolerance Limits . 
+## Link and Unlink QTLs to Risks
+ QTLs are study-level metrics that indicate if a study parameter's reported data has breached a preidentified data quality threshold or upper limit . QTLs monitor the emergence of systematic errors on critical variables and data that can be prone to subjective bias, ultimately impacting: 
+- Patient safety 
+- Study conduct and performance 
+- Compliance 
+- Data quality 
+- Study reliability 
+ You can link QTLs to risks. If necessary, you can also unlink QTLs from risks. To learn more about QTLs, see About Quality Tolerance Limits . 
+## Link QTLs to Risks
+ You can link QTLs to risks in two ways: 
+- Create new, unique QTLs directly within the Risk Assessment and Risk Inventory. 
+- Add preconfigured QTLs to the risk assessment from the RBQM Configuration > QTL Configuration capability. 
+ You can then manage QTL details and track QTL performance in several ways. You can: 
+- Manually enter and update QTL details such as expectation , observed value, threshold , and upper limit . Manually maintained QTLs are not integrated with the rest of RBQM. RBQM does not conduct statistical analysis on these types of QTLs.  
+- Create QTLs in Risk Assessment or QTL Configuration. 
+- Link a QTL originally created in Risk Assessment with RBQM so that: 
+- The QTL gets stored and updated in the RBQM Configuration > QTL Configuration module. After linking, subsequent QTL updates made in QTL Configuration propagate to the QTL in Risk Assessment. 
+- RBQM consumes the QTL, and if activated , produces the QTL's performance analysis in the QTL Dashboard, Risk Assessment, and Risk Inventory with each data refresh. 
+ To learn more about how to read QTL graphs, see Evaluate the Performance of QTLs Associated with Risks . 
+ You can access the risks to which you want to associate QTLs in two ways:
+- When viewing a holistic view of the risks in your study's risk inventory. 
+- When viewing the risks associated with specific critical data, critical processes, or risk categories in the risk assessment. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page : In the Risks tab > Risks table > Risk ID column, click the Risk ID for the risk to which you want to associate a new QTL. 
+- If on the Critical Data page, Critical Processes page, or Categorization page, do one of the following :
+- To link QTLs to a new risk : In the Add Risk column, click the blue Plus icon, , in the row of the corresponding critical data, critical process, or risk category to which you want to associate a new risk.
+ Note : Before you can add a QTL to a new risk, you must first enter a Risk Name , Date Entered , and Review Frequency on the risk's Details tab. To learn more, see  Add Risks to the Risk Assessment .
+- To link QTLs to an existing risk :  In the Name column, click the Down Arrow , , to the left of the critical data, critical process, or risk category whose risks you want to view, and then in the Risk ID column, click the risk ID to which you want to associate a new QTL. 
+- In the Risk Review or Add Risk subpage, click the  QTLs tab. 
+- Click the Quality Tolerance Limit (QTL) menu, and then do either of the following:
+- To create a new, unique QTL, click >> Create New QTL . 
+- To link a preconfigured study-level QTL that already exists in the RBQM Configuration > QTL Configuration > Quality Tolerance Limits list, click the name of the QTL you want to use.
+ Note : Only QTLs that are currently activated in QTL Configuration show in the Quality Tolerance Limit (QTL) menu. To learn more, see  Activate and Deactivate QTLs . 
+- Select or enter the following:
+ Field Descriptions 
+- Name (Required) – This is a parameter required for defining the QTL. Enter up to 255 characters for the name of the QTL. This is a required field if you are creating your own tracking QTL. You can edit this field. When the QTL is integrated with the RBQM Configuration, the updated name appears in both applications. A parameter is a study variable that is assessed at the study level.  When used in the context of a QTL, parameters are measures that detect potential issues that can  be mitigated. Example: The percentage or number of participants with premature discontinuation of the investigational drug. 
+- Definition – Enter up to 500 characters to define the QTL. Include how the QTL gets measured. Example: P ercentage of participants randomized who do not meet inclusion/exclusion criteria. 
+ Note: When the Share QTL toggle on the right side of the QTLs tab is On, you cannot edit the following fields: Expectation, Observed Value, Threshold, Upper Limit, Final Population, and Trigger Point.
+ Instead, the Risk Assessment and Risk Inventory automatically populates these fields based on how each QTL is configured in QTL Configuration and based on the QTL's performance metrics from  QTL Dashboard . The data in these fields update in alignment with the scheduled and manually triggered data refreshes performed in QTL Dashboard . 
+- Expectation – T he expected percentage of the patient population that will not meet the study parameter's criteria. QTL percentages that RBQM assesses as in range of the expectation are considered healthy and do not require any action. 
+- Observed Value – T he observed percentage of patients that do not meet the study parameter's criteria as of the most recent data analysis. For example, in RBQM, this value comes from the date RBQM performed a data analysis on your study data. For QTLs that are not integrated with RBQM, the percentage entered in the Observed Value field appears as Observed Today % in the QTL graph.   
+- Threshold – The minimum percentage of the patient population that cannot meet the study parameter's criteria before RBQM considers the parameter to be at risk. P arameters whose QTL values exceed the threshold indicate potential underlying systemic issues, which can compromise study safety and integrity. You should investigate such parameters to determine the root cause and to prevent or mitigate study issues. The Threshold value must be less than the Upper Limit.  
+- Upper Limit – The minimum percentage of the patient population that cannot meet the study parameter's criteria before RBQM considers the parameter to be high risk. P arameters whose QTL values exceed the upper limit indicate potential underlying systemic issues, which can compromise study safety and integrity. You should investigate such parameters to determine the root cause and to prevent or mitigate study issues. 
+- Final Population (#No. of Subjects) (Required for shared QTLs) – Total number of patients expected to enroll in the study. The final population should be equal to or more than the expected population. This field is hidden if the Share QTL button is switched to Off. 
+- Trigger Point (Required for shared QTLs) – The minimum required number of patients that meet the QTL's conditions for RBQM to analyze and produce the QTL's results in the QTL Dashboard. This field is hidden if the Share QTL button is switched to Off. 
+- Modification Note (Required) – When initially linking a preexisting QTL to a risk or editing an existing QTL, you must add a note explaining the modification. The Modification Note field does not show if you create a new QTL. 
+- Action Plan – Enter up to 2000 characters to explain the action required if a QTL is exceeded.  
+- Deviations – Deviations occur when the QTL value has breached the QTL's predefined threshold or upper limit . Detection of deviations from the predefined quality tolerance limits should trigger an evaluation to determine if action is needed. You can document QTL deviations by clicking   Add and then selecting or entering the following:
+- Start Date – Select the date in which the QTL value initially exceeded the QTL threshold. 
+- End Date – Optional . Select the date in which the QTL value returned below the QTL threshold. 
+- Occurrence – Enter the maximum value of the QTL threshold breach. 
+- Action Taken and Outcome/Impact on the Trial – If a QTL is exceeded, explain the deviation. Enter up to 2000 characters describing the rationale if the trial results are still acceptable. (For example, for submission for marketing authorization or for analyzing the safety profile of a marketed compound.) Clearly state if the results are not valid. 
+- Justification for Quality Tolerance Limit – Enter up to 500 characters describing the rationale and any limitations to the use of the subject of the QTL.  
+- Justification for Expectation –  Enter up to 500 characters of published data or historical data from previous trials within the organization. When referencing historical data, it is important to state whether systematic issues have been excluded. 
+- Justification for Threshold – Enter up to 500 characters explaining the rationale for the value set in place for the QTL threshold. For example, why would a QTL value exceeding the threshold be cause for concern? 
+- Algorithms – Enter an explanation of the algorithm used to produce the QTL metrics for traceability and auditing purposes. 
+- Source of Data – If the Share QTL button is switched to On, then this field automatically populates with Detect as the field entry and is noneditable. 
+- Supporting Details – Enter any extra or miscellaneous QTL information you want documented. 
+- Optional . Toggle the Share QTL button to On , , to link the QTL with RBQM so that: 
+- The QTL gets stored and updated in the RBQM Configuration > QTL Configuration capability. After linking, subsequent QTL updates made in QTL Configuration propagate to the QTL in the Risk Assessment and Risk Inventory. 
+- RBQM consumes the QTL, and if the QTL is activated , then RBQM produces the QTL's performance analysis in the QTL Dashboard, Risk Assessment, and Risk Inventory with each data refresh.
+ Note: Special Notes About Shared QTLs
+- The Share QTL toggle is set to Off by default when you create when you initially link a QTL to a risk. Ensure that the Share QTL toggle is On  if you want to share the QTL with RBQM. 
+- You can hover your cursor on the Information icon, , next to the Medidata RBQM Metric field to confirm whether the QTL is currently integrated with the RBQM.  
+- When the Share QTL toggle is  On , then the toggle is set to On for every risk using that QTL. Switching the toggle to Off turns sharing off for every risk using that QTL.  
+- QTL Dashboard provides analysis data to the Risk Assessment and Risk Inventory for shared QTLs so long as the QTL is activated in RBQM Configuration. Check with your RBQM data administrator to determine the frequency of the refresh cycle for analysis data sent to the Risk Assessment and Risk Inventory. The refresh of QTL analysis data in the Risk Assessment and Risk Inventory occurs simultaneously with the refresh of QTL Dashboard data.  
+- Click Save .
+ Tip : To learn how to read and understand the QTL graph in the QTLs tab, see Evaluate the Performance of QTLs Associated with Risks . 
+## Unlink QTLs to Risks
+ You can unlink QTLs to risks; for example, if you no longer deem the QTL as a good measurement of risk performance.
+ Note : If your instance of Risk Assessment and Risk Inventory is integrated with RBQM, and the QTL you want to unlink is integrated with QTL Configuration, then unlinking the QTL only removes its association from the risk in Risk Assessment and Risk Inventory. The QTL remains stored in QTL Configuration and is available to link to risks again in Risk Assessment and Risk Inventory.
+ You can access the risks to which you want to unlink QTLs in three ways:
+- When viewing a holistic view of the risks in your study's risk inventory. 
+- When viewing a holistic view of the QTLs associated with risks in your study. 
+- When viewing the risks associated with specific critical data, critical processes, or risk categories in the risk assessment. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page, do either of the following :
+- In the Risks tab > Risks table > Risk ID column, click the Risk ID containing the QTL you want to unlink. 
+- Click the QTLs tab, and then in the Attached to Risk ID column, click the risk ID containing the QTL you want to unlink. 
+- If on the Critical Data page, Critical Processes page, or Categorization page, do one of the following : In the Name column, click the Down Arrow , , to the left of the critical data, critical process, or risk category whose risks you want to view, and then in the Risk ID column, click the risk ID containing the QTL you want to unlink. 
+- In the Risk Review subpage, click the  QTLs tab. 
+- If necessary, if there are multiple QTLs associated with the risk, click the down arrow next to the QTLs tab, and select the QTL you want to unlink from the risk.
+- To the right of the Quality Tolerance Limit Name field, click Remove QTL .
+The QTL is no longer listed in the Risk Review subpage > QTLs tab, and the QTL is no longer linked to the risk. 
+## View and Edit the Details of QTLs Associated with Risks
+ You can view a QTL's details:
+- For oversight to ensure the study team is following the risk plan, 
+- To view the documented history of QTL deviations, or 
+- As a reference for another study's risk assessment. 
+ You can also edit a QTL's details. For example, you can:
+- Update the risk name or description in care of entry error, typo, or for additional clarity. 
+- Manually update the QTL's expectation , observed value, threshold , and upper limit in the QTL is not integrated with the rest of RBQM. 
+- Document QTL deviations. 
+ You can access the QTLs whose details you want to view or edit in three ways:
+- When viewing a holistic view of the risks in your study's risk inventory. 
+- When viewing a holistic view of the QTLs associated with risks in your study. 
+- When viewing the risks associated with specific critical data, critical processes, or risk categories in the risk assessment. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page, do either of the following :
+- In the Risks tab > Risks table > Risk ID column, click the Risk ID containing the QTL whose details you want to view or edit. 
+- Click the QTLs tab, and then in the Attached to Risk ID column, click risk ID containing the QTL whose details you want to view or edit. 
+- If on the Critical Data page, Critical Processes page, or Categorization page : In the Name column, click the Down Arrow , , to the left of the critical data, critical process, or risk category whose risks you want to view, and then in the Risk ID column, click the risk ID containing the QTL whose details you want to view or edit. 
+- In the Risk Review subpage, click the  QTLs tab. 
+- If necessary, if there are multiple QTLs associated with the risk, click the down arrow next to the QTLs tab, and select the QTL you want to view or edit.
+- View, select, or enter the following:
+ Field Descriptions 
+- Name (Required) – This is a parameter required for defining the QTL. Enter up to 255 characters for the name of the QTL. This is a required field if you are creating your own tracking QTL. You can edit this field in the Risk Assessment and Risk Inventory. When the QTL is integrated with the RBQM Configuration, the updated name appears in both applications. A parameter is a study variable that is assessed at the study level.  When used in the context of a QTL, parameters are measures that detect potential issues that can  be mitigated. Example: The percentage or number of participants with premature discontinuation of the investigational drug. 
+- Definition – Enter up to 500 characters to define the QTL. Include how the QTL is measured. Example: P ercentage of participants randomized who do not meet inclusion/exclusion criteria. 
+ Note: When the Share QTL toggle on the right side of the QTLs tab is On, you cannot edit the following fields: Expectation, Observed Value, Threshold, Upper Limit, Final Population, and Trigger Point.
+ Instead, the Risk Assessment and Risk Inventory automatically populates these fields based on how each QTL is configured in QTL Configuration and based on the QTL's performance metrics from  QTL Dashboard . The data in these fields update in alignment with the scheduled and manually triggered data refreshes performed in QTL Dashboard . 
+- Expectation – T he expected percentage of the patient population that will not meet the study parameter's criteria. QTL percentages that RBQM assesses as in range of the expectation are considered healthy and do not require any action. 
+- Observed Value – T he observed percentage of patients that do not meet the study parameter's criteria as of the most recent data analysis. For example, in RBQM, this value comes from the date RBQM performed a data analysis on your study data. For QTLs that are not integrated with RBQM, the percentage entered in the Observed Value field appears as Observed Today % in the QTL graph.   
+- Threshold – The minimum percentage of the patient population that cannot meet the study parameter's criteria before RBQM considers the parameter to be at risk. P arameters whose QTL values exceed the threshold indicate potential underlying systemic issues, which can compromise study safety and integrity. You should investigate such parameters to determine the root cause and to prevent or mitigate study issues. The Threshold value must be less than the Upper Limit.  
+- Upper Limit – The minimum percentage of the patient population that cannot meet the study parameter's criteria before RBQM considers the parameter to be high risk. P arameters whose QTL values exceed the upper limit indicate potential underlying systemic issues, which can compromise study safety and integrity. You should investigate such parameters to determine the root cause and to prevent or mitigate study issues. 
+- Final Population (#No. of Subjects) (Required for shared QTLs) – Total number of patients expected to enroll in the study. The final population should be equal to or more than the expected population. This field is hidden if the Share QTL button is switched to Off. 
+- Trigger Point (Required for shared QTLs) – The minimum required number of patients that meet the QTL's conditions for RBQM to analyze and produce the QTL's results in the QTL Dashboard. This field is hidden if the Share QTL button is switched to Off. 
+- Modification Note (Required) – When initially linking a preexisting QTL to a risk or editing an existing QTL, you must add a note explaining the modification. The Modification Note field does not show if you create a new QTL. 
+- Action Plan – Enter up to 2000 characters to explain the action required if a QTL is exceeded.  
+- Deviations – Deviations occur when the QTL value has breached the QTL's predefined threshold or upper limit . Detection of deviations from the predefined quality tolerance limits should trigger an evaluation to determine if action is needed. You can document QTL deviations by clicking   Add and then selecting or entering the following:
+- Start Date – Select the date in which the QTL value initially exceeded the QTL threshold. 
+- End Date – Optional . Select the date in which the QTL value returned below the QTL threshold. 
+- Occurrence – Enter the maximum value of the QTL threshold breach. 
+- Action Taken and Outcome/Impact on the Trial – If a QTL is exceeded, explain the deviation. Enter up to 2000 characters describing the rationale if the trial results are still acceptable. (For example, for submission for marketing authorization or for analyzing the safety profile of a marketed compound.) Clearly state if the results are not valid. 
+- Justification for Quality Tolerance Limit – Enter up to 500 characters describing the rationale and any limitations to the use of the subject of the QTL.  
+- Justification for Expectation –  Enter up to 500 characters of published data or historical data from previous trials within the organization. When referencing historical data, it is important to state whether systematic issues have been excluded. 
+- Justification for Threshold – Enter up to 500 characters explaining the rationale for the value set in place for the QTL threshold. For example, why would a QTL value exceeding the threshold be cause for concern? 
+- Algorithms – Enter an explanation of the algorithm used to produce the QTL metrics for traceability and auditing purposes. 
+- Source of Data – If the Share QTL button is switched to On, then this field automatically populates with Detect as the field entry and is noneditable. 
+- Supporting Details – Enter any extra or miscellaneous QTL information you want documented. 
+- Optional . Toggle the Share QTL button to On , , to link the QTL with RBQM so that: 
+- The QTL gets stored and updated in the RBQM Configuration > QTL Configuration module. After linking, subsequent QTL updates made in QTL Configuration propagate to the QTL in the Risk Assessment and Risk Inventory. 
+- RBQM consumes the QTL, and if the QTL is activated , then RBQM produces the QTL's performance analysis in the QTL Dashboard, RIsk Assessment, and Risk Inventory with each data refresh.
+ Note: Special Notes About Shared QTLs
+- The Share QTL toggle is set to Off by default when you create when you initially link a QTL to a risk. Ensure that the Share QTL toggle is On  if you want to share the QTL with RBQM. 
+- You can hover your cursor on the Information icon, , next to the Medidata RBQM Metric field to confirm whether the QTL is currently integrated with RBQM.  
+- When the Share QTL toggle is  On , then the toggle is set to On for every risk using that QTL. Switching the toggle to Off turns sharing off for every risk using that QTL.  
+- QTL Dashboard provides analysis data to the Risk Assessment and Risk Inventory for shared QTLs so long as the QTL is activated in RBQM Configuration. Check with your RBQM data administrator to determine the frequency of the refresh cycle for analysis data sent to the Risk Assessment and Risk Inventory. The refresh of QTL analysis data in the Risk Assessment and Risk Inventory occurs simultaneously with the refresh of QTL Dashboard data.  
+- Click Save .
+ Tip : To learn how to read and understand the QTL graph in the QTLs tab, see Evaluate the Performance of QTLs Associated with Risks . 
+## Document QTL Deviations
+ Deviations occur when the QTL value has breached the QTL's predefined threshold or upper limit . Detection of deviations from the predefined quality tolerance limits should trigger an evaluation to determine if action is needed. You can document QTL deviation details such as the QTL deviation start date, end date, and recorded QTL value that signaled the deviation.
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page, do either of the following :
+- In the Risks tab > Risks table > Risk ID column, click the Risk ID containing the QTL whose details you want to view or edit. 
+- Click the QTLs tab, and then in the Attached to Risk ID column, click risk ID containing the QTL whose details you want to view or edit. 
+- If on the Critical Data page, Critical Processes page, or Categorization page : In the Name column, click the Down Arrow , , to the left of the critical data, critical process, or risk category whose risks you want to view, and then in the Risk ID column, click the risk ID containing the QTL whose details you want to view or edit. 
+- In the Risk Review subpage, click the  QTLs tab. 
+- If necessary, if there are multiple QTLs associated with the risk, click the down arrow next to the QTLs tab, and select the QTL you want to view or edit.
+- In the Deviations section, click   Add, and then selecting or entering the following: 
+- 
+- Start Date – Select the date in which the QTL value initially exceeded the QTL threshold. 
+- End Date – Optional . Select the date in which the QTL value returned below the QTL threshold. 
+- Occurrence – Enter the maximum value of the QTL threshold breach. 
+- Click Save . 
+## Evaluate the Performance of QTLs Associated with Risks
+ You can evaluate and monitor the performance of QTLs associated with risks to determine if the risk level is improving based on how you are managing or mitigating the risks. 
+ You can access the QTLs whose performance you want to evaluate in three ways:
+- When viewing a holistic view of the risks in your study's risk inventory. 
+- When viewing a holistic view of the QTLs associated with risks in your study. 
+- When viewing the risks associated with specific critical data, critical processes, or risk categories in the risk assessment. 
+- If necessary, do either of the following:
+ Access the Risk Inventory. 
+- Access RBQM , and then click Risk Assessment > Risks in the left-hand menu. 
+The Risk Inventory page appears. 
+ Access the critical data, critical processes, or categorization in the Risk Assessment. 
+- Access RBQM , and then in the RBQM left-hand menu , do any of the following: 
+- To add risks to critical data, click the Critical Data tab.
+ The Critical Data page appears. 
+- To add risks to critical processes, click the Critical Processes tab.
+The Critical Processes page appears.
+- To add risks to risk categories, click the Categorization tab.
+The Categorization page appears. 
+- Do either of the following:
+- If on the Risk Inventory page, do either of the following :
+- In the Risks tab > Risks table > Risk ID column, click the Risk ID containing the QTL whose performance you want to evaluate. 
+- Click the QTLs tab, and then in the Attached to Risk ID column, click the risk ID containing the QTL whose performance you want to evaluate. 
+- If on the Critical Data page, Critical Processes page, or Categorization page : In the Name column, click the Down Arrow , , to the left of the critical data, critical process, or risk category whose risks you want to view, and then in the Risk ID column, click the risk ID containing the QTL whose performance you want to evaluate. 
+- In the Risk Review subpage, click the  QTLs tab. 
+- If necessary, if there are multiple QTLs associated with the risk, click the down arrow next to the QTLs tab, and select the QTL whose performance you want to evaluate.
+- The QTL graph on the right side of the window shows the study parameter's currently observed QTL value and QTL performance using a meter . The following details explain how to read and interpret the QTL meters: 
+- 
+- A status bar shows above the QTL meter. Statuses can be:
+ Tip : Click example images to enlarge.
+ Status 
+ Description 
+ Example 
+ | In Range (green) 
+ | 
+ The percentage of patients that do not meet the study parameter's specified criteria is considered within a healthy range of the expectation . Generally, in range QTLs require no action. 
+ | 
+ | Out of Range (orange) 
+ | 
+ The percentage of patients that do not meet the study parameter's specified criteria have exceeded the tolerance threshold . RBQM considers parameters whose QTL values exceed the threshold as at risk. This indicates potential underlying systemic issues, which can compromise study safety and integrity. You should investigate such parameters to determine the root cause and to prevent or mitigate study issues. 
+ | 
+ | Above Upper Limit. High Alert. (red) 
+ | 
+ The percentage of patients that do not meet the study parameter's specified criteria has exceeded the tolerance upper limit . RBQM considers parameters whose QTL values exceed the upper limit as high risk. This indicates potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine the root cause and to prevent or mitigate study issues. 
+ | 
+ | QTL Excursion! (red) 
+ | RBQM flags and identifies QTL excursions when : 
+- The percentage of patients that do not meet the study parameter's specified criteria has exceeded the tolerance upper limit, and 
+- It is impossible to move the QTL value back within a healthy range of the QTL's expected value no matter the actions taken by the project team. 
+ QTL excursions indicate that the study quality is compromised to the point that the study may need to be shut down or restarted. 
+ | 
+- Observed Today – The current observed percentage of patients that do not meet the study parameter's criteria as of RBQM's most recent data analysis. 
+- – Denotes the parameter's expected QTL percentage value. 
+- – Denotes the parameter's current observed QTL percentage value. 
+- Expectation  – The expected percentage of the patient population that will not meet the study parameter's criteria. QTL percentages that RBQM assesses as in range of the expectation are considered healthy and do not require any action. 
+- Threshold – The minimum percentage of the patient population that cannot meet the study parameter's criteria before RBQM considers the parameter to be at risk. Parameters whose QTL values exceed the threshold indicate potential underlying systemic issues, which can compromise study safety and integrity. You should investigate such parameters to determine the root cause and to prevent or mitigate study issues. 
+- Upper Limit – The minimum percentage of the patient population that cannot meet the study parameter's criteria before RBQM considers the parameter to be high risk. Parameters whose QTL values exceed the upper limit indicate potential underlying systemic issues, which may compromise study safety and integrity. You should investigate such parameters to determine the root cause and to prevent or mitigate study issues. 
+ Note : When you first change the Share QTL toggle from Off to On in the QTLs tab, the following fields no longer show data: Expectation, Observed Value, Upper Limit, Threshold. After RBQM runs the next data refresh in QTL Dashboard, these fields automatically populate with the values from RBQM, and the QTL graph reflects to show the most current metrics. See Schedule or Trigger When QTL Dashboard Refreshes with the Latest Study Data Analysis for information on scheduling the refresh of QTL data from RBQM.

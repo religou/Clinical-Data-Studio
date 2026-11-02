@@ -1,0 +1,24 @@
+# Filtered Views During Field-Variable Mapping
+
+## Filtered Views During Field-Variable Mapping
+## What Is New?
+ While performing field-variable mappings, you can now configure your view to show a ll variables, or to filter to only m apped variables or u nmapped variables. The default view is to show all variables.   
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ There is no change to the workflow process. This enhancement extends the existing field-variable mapping workflow. 
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ You can filter to only see variables you are interested in mapping and thus work more efficiently.
+## Where Do I See the Change?
+ While configuring field-variable mappings throughout Platform Workbench, the mapping screen now includes three buttons corresponding to the three views: 
+- All Variables  – Shows a list of all variables for the domain. 
+- Mapped Variables – Shows a list of any mapped variables for the domain. 
+- Unmapped Variables – Shows a list of all unmapped variables for the domain. 
+ The mapping screen defaults to All Variables, and clicking a button swaps to a different view. The views refresh as you update mappings.
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

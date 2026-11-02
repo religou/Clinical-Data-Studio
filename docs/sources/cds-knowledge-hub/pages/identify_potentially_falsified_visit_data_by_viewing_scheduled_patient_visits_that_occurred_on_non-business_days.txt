@@ -1,0 +1,43 @@
+# Identify Potentially Falsified Visit Data By Viewing Scheduled Patient Visits That Occurred on Non-business Days
+
+## Identify Potentially Falsified Visit Data By Viewing Scheduled Patient Visits That Occurred on Non-business Days
+## Description
+ Centralized Statistical Monitoring (CSM) breaks down at the study or selected country level how many scheduled patient visits occurred on each weekday throughout the study. You can further view the complete list of scheduled patient visits recorded on a specific weekday and investigate visit details such as: 
+- Site   – The site where the visit occurred. 
+- Country   – The country where the visit occurred 
+- Patient   – The patient ID of the patient who attended the visit. 
+- Visit Name   – The type of visit, for example, an unscheduled visit. 
+- Visit Date   – The date that the visit occurred. 
+ Tip : You can filter the list of scheduled patient visits recorded on a weekday to show a specific date; for example, to determine how many visits occurred on a holiday. 
+## Affected Roles
+ Central monitors. 
+## Advantages
+ Scheduled patient visits typically do not occur on weekends or holidays. Visits recorded as taking place on weekends or holidays may indicate potential fraud, misconduct, or simple data entry errors by sites. Viewing the scheduled patient visits that occurred on weekends or holidays can help you investigate whether falsified or erroneous patient records exist in your study data. Based on your findings, you can monitor sites of interest to determine any mitigating actions. 
+## User Impact
+ Number 
+ Description 
+ | 1 
+ | Data Veracity tab - You can click the Data Veracity link in   Detect Landing Page >   Centralized Statistical Monitoring (CSM) to access the new Data Veracity tab. 
+ | 2 
+ | Weekend and Holiday Visits subtab - The Data Veracity tab contains a subtab called Weekend and Holiday Visits. 
+ | 3 
+ | Weekend and Holiday Visits page - You can click the Weekend and Holiday Visits subtab to access the Weekend and Holiday Visits page, which contains a visual, country-level depiction of the number of scheduled patient visits that occurred on each weekday throughout study.  
+ | 4 
+ | Countries dropdown - You can use the Countries dropdown to view the number of scheduled patient visits recorded on each weekday for all countries in the study or a specific country.  
+ | 5 
+ | Weekday card  - You can click a day, for example, Sunday, to view the complete list of visits and visit details recorded on that weekday. The card shows the number of scheduled patient visits recorded on each weekday at the study or selected country level throughout the study duration. 
+ | 6 
+ | 
+ List of visits and visit details recorded for the selected weekday - You can filter the visit list by Site, Country or Visit Date, and export the first 500 records in the list as a CSV file.  
+- Site - You can select multiple sites from the list or type into  field. If you then click Apply , the weekday's list shows visits for the selected sites. 
+- Country - You can select multiple countries from the list or type into the Country field. If you do not filter by a specific country in the Countries dropdown at the top of the page, the Country list includes all the countries in the study.  
+- Patient - Patient ID of the patient who attend the site visit. 
+- Visit Name - Indicates the type of visit recorded for the weekday; for example, an unscheduled visit. 
+- Visit Date - You can select a date to filter the visit list by. For example, you can filter by 27 Nov 2014, to see if any scheduled visits occurred on the date for sites in United States. You can further investigate the visits as the 27 Nov 2014 was Thanksgiving Day and hence a holiday.    
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+- You can view visit counts for countries or sites even if you do not have access to the sites or countries. 
+- The visit filtering and exporting options become available only data completely loads into CSM. 
+- When you are viewing the Weekend and Holiday Visits page and you click the  Help  menu >  Help On This Page option, you can navigate to the corresponding help article in the Centralized Statistical Monitoring (formerly Medidata Detect) Knowledge Space. 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

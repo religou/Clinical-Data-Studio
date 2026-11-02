@@ -1,0 +1,38 @@
+# View, Filter, and Sort the KRI Configurations List
+
+## View, Filter, and Sort the KRI Configurations List
+ The KRI Configurations list provides an easy-to-read, comprehensive view of all system KRIs  and custom KRIs available in your current  study environment . You can sort and filter the KRI Configurations list to help find the KRIs you want to view or act on. 
+## View the KRI Configurations List
+ You can use the KRI Configurations list to view details about specific KRIs or find KRIs you want to act on. 
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu.
+The Key Risk Indicators page appears.
+ Field Descriptions 
+- Name  – The unique label that identifies the KRI. 
+- Risk Category – A broad, categorized area of risk within which individual key risk indicators are identified, tracked, and mitigated.  Risk categories and data sets have a parent-child relationship. 
+- Type  – Indicates whether the KRI is a System KRI or Custom KRI. 
+- Status  – Indicates whether the KRI is active or inactive. Active KRIs get their data filtered, calculated, and rendered in the KRI Dashboard, Risk Assessment, and Risk Inventory. Inactive KRIs do not get calculated or appear in the KRI Dashboard, Risk Assessment, and Risk Inventory. System KRIs are active by default. 
+- Activate  –  indicates that the KRI is active. Active KRIs get their data filtered, calculated, and rendered in the KRI Dashboard, Risk Assessment, and Risk Inventory. indicates that the KRI is inactive. Inactive KRIs do not get calculated or appear in the KRI Dashboard, Risk Assessment, and Risk Inventory.
+ Note : System KRIs are active by default.
+- Items  – The number of KRIs listed in the KRI Configurations list based on the filtered view. 
+## Filter the KRI Configurations List 
+ To help find the KRIs you need, you can filter the KRI Configurations list to show:
+- All KRIs in your study environment , 
+- Only platform -wide system KRIs, 
+- Only the user-defined custom numeric KRIs in your study environment, or 
+- Only the user-defined custom percentage KRIs in your study environment, or 
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu. 
+- On the Key Risk Indicators page > KRI Configurations tab, click Filter KRIs . 
+- Select one or more of the following:
+- System – Shows only system KRIs, which are standard assessments performed by Medidata that stand out as widely applicable to all studies. System KRIs are always in active state. You cannot inactivate system KRIs. To learn more about the available system KRIs and how they are calculated, see KRI Descriptions and Calculation Methodologies . 
+- Numeric – Shows only custom numeric KRIs, which are user-created metrics designed to target and support a specific endpoint or area of interest for risk analysis. 
+- Percentage – Shows only custom percentage KRIs, which are user-created metrics designed to target and support a specific endpoint or area of interest for risk analysis. 
+## Sort the KRI Configurations List 
+ To help find the KRIs you need, you can sort the KRI Configurations list by KRI name, Risk Category, Type, or Status in ascending or descending alphanumeric order. The default is ascending order.
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu. 
+- On the Key Risk Indicators page > KRI Configurations tab, click a column header to sort the column in alphanumeric order. Click again to reverse the order. 
+## View High-level Calculation Details About a Specific KRI
+ On the Key Risk Indicators page > KRI Configurations tab, you can quickly view: 
+- A brief, detailed description about any KRI. 
+- For percentage KRIs: the number of patients that meet a percentage KRI criteria over the number the patients the KRI calculates against. 
+- Access RBQM , and then click Configuration > KRIs in the left-hand menu. 
+- On the Key Risk Indicators page > KRI Configurations tab, hover your cursor on any KRI name in the Name column.

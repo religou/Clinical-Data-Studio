@@ -1,0 +1,29 @@
+# Visualizations: PDF Downloads Include Summary Table
+
+## Visualizations: PDF Downloads Include Summary Table
+## What Is New?
+ You can now download patient level data available in summary table associated with each visualization chart (except tabular visualizations) in PDF format.
+## What Is the Impact?
+## Users/Roles
+ Data Managers. 
+## Workflow Process
+ No impact to the workflow process. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ With downloads, data managers can streamline their filing and decision-making process by automating exports and visualizations. This, in turn, increases efficiency and saves time spent in manually exporting data and creating visualizations. With the summary table, you can recreate any visualization chart using the patient level data from the associated summary table. 
+## Where Do I See the Change?
+ Download charts as PDF 
+ If you click Data Surveillance > Visualizations page > select a visualization > click the Download button from the top right corner of the page, and click .pdf, the downloaded file includes the chart and the associated summary table. The downloaded file includes the following components:
+- Title 
+- Description 
+- Last refresh date 
+- Printed date 
+- Owner details 
+- Number of pages. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Access and View Visualizations 
+- Create, Edit, and Delete Visualizations. 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

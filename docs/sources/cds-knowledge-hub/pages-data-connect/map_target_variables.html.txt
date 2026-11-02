@@ -1,0 +1,44 @@
+# Map Target Variables
+
+## Map Target Variables
+ You can perform source-to-target mapping on variables from a data project's variable mapping screen. You must also map variables when activating a dataset .
+ Map by Dragging May by Search Map by Direct Input 
+ Map by Dragging
+## Map by Dragging
+- In the Data Source panel, browse to or search for a data source's dataset.
+ Tip : Click the Preview icon to see the fields and data within the form.
+- Click the form's Expand icon for a domain’s form, such as Rave > AE, to show its fields. 
+- Identify a variable, and click the  Map  button in the Target Mapping and Values column. 
+- Drag a field from the Source Dataset panel onto a variable in the right panel using the Drag  icon, for example: AE's AEENDAT field onto the AESPID variable.
+ Note :
+- The variable must be available for mapping. 
+- Once you map a given combination of domain’s field and concept on a form, you cannot map that domain to the same concept on a different form, even if you map a different field.  
+- As necessary, click Show More >  Transformation Instruction  to open the Edit Transformation screen, and  configure transformations .
+- Repeat steps 1–5 as necessary.
+ Tip : After mapping a target variable from a source or through direct input, you can use the target variable as a source for other target variables.
+ May by Search
+## Map by Search
+- In the Source Dataset panel, browse to or search for a domain's form. 
+- In the Source Dataset panel, click the Expand icon for a domain’s form to show its fields. 
+- Identify a variable, and click the  Enter  button. 
+- Enter a field name in a variable’s gray entry field.
+ Note : The variable must be available for mapping.
+- Select a field from the search results. 
+- As necessary, click Show More >  Transformation Instruction  to open the Edit Transformation screen, and  configure transformations . 
+- Click the Refresh button in the bottom panel to preview the mapping. 
+- Click the Quality Control tab to see any quality issues you must address. 
+- Address the quality issues, and repeat steps 1–8 as necessary.
+ Tip : After mapping a target variable from a source or through direct input, you can use the target variable as a source for other target variables.
+ Map by Direct Input
+## Map by Direct Input
+- In the Source Dataset panel, browse to or search for a domain's form. 
+- In the Source Dataset panel, click the Expand icon for a domain’s form to show its fields. 
+- In the SDTM View screen, click  Map  for a domain’s concept, such as Labs, to show its variables. 
+- Identify a variable, and click the  Enter  button. 
+- Enter a field name in a variable’s gray entry field, such as “SUB_ID”, and press Enter.
+ Note : The variable must be available for mapping.
+- As necessary, click Show More >  Transformation Instruction  to open the Edit Transformation screen, and  configure transformations . 
+- Click the Refresh button in the bottom panel to preview the mapping. 
+- Click the Quality Control tab to see any quality issues you must address. 
+- Repeat steps 2–9 as necessary.
+ Tip : After mapping a target variable from a source or through direct input, you can use the target variable as a source for other target variables.

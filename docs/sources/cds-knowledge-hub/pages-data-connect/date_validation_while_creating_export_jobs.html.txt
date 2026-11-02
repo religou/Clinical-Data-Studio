@@ -1,0 +1,17 @@
+# Date Validation While Creating Export Jobs
+
+## Date Validation While Creating Export Jobs
+## Description
+ While creating export jobs, MEDS Extractor includes date validation to ensure that you only enter valid dates. For example, when scheduling a job, you cannot leave the Start Date field blank. 
+ In addition, export jobs with no end date now store the end date value as null data instead of "999-12-31T23:59:59Z". This change causes any applicable Job Run End Date fields in MEDS Extractor to be blank.
+## Affected Roles
+ All.
+## Advantages
+ MEDS Extractor's date validation ensures that your export jobs contain viable parameters. This mitigates errors during the job creating process, saving time and effort in correcting malformed export job configurations.
+ With the change to how MEDS Extractor stores export jobs' end dates, jobs with no end dates have a more consistent and intuitive appearance compared to the jobs' configuration. 
+## User Impact
+ While reviewing a recurring export job's Job Configuration page, when the job has no end date, then the Job Run End Date field appears blank.
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

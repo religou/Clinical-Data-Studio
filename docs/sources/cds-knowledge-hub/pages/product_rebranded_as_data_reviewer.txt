@@ -1,0 +1,17 @@
+# Product Rebranded as Data Reviewer
+
+## Product Rebranded as Data Reviewer
+## Description
+ Formerly known as MEDS Data Viewer, the product's new name, effective Release 2022.1.0, is Data Reviewer . You can access Data Reviewer as part of Medidata Detect's Patient Data Surveillance (PDS) module. For more information, see Improved Navigation In Data Reviewer 2022.1.0 . 
+## Affected Roles
+ All. 
+## Advantages
+ Data Reviewer aligns with the unified Medidata Detect model and the Medidata marketing collateral. 
+## User Impact
+- The new name, Data Reviewer, appears on the page headers of the application UI. 
+- Online help links to the rebranded product information. 
+- User roles in Cloud Administration renamed to align with product name. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

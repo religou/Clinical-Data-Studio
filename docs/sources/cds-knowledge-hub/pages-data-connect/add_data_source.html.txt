@@ -1,0 +1,48 @@
+# Add Data Source
+
+## Add Data Source
+ To import data from external sources, you must first establish an SFTP or S3 data source connection.
+ Important :
+- Currently Imports supports only SFTP, FTPS and, S3 connections. 
+- A data source connection can have multiple incoming datasets.  
+## Access the Data Source Configuration Wizard
+- Access Data Connect , and click   Imports   in the left-hand menu. 
+- Click   Add data source . 
+## Add Data Source
+ SFTP FTPS S3 
+ SFTP
+- On the add data source screen, enter data source name, and click Continue . 
+- Click SFTP to import files from an SFTP connection, and enter below details: 
+- Host – The connection's host URL 
+- Port – The connection's port number 
+- Folder path – The connection's folder path 
+- Username – The connection's username 
+- Password –The connection's password 
+- Click Test Connection .
+ Tip : Recheck the connection details if the authentication fails. You can continue configuring your data source even without testing the connection.  
+- After the test is successful, click Add data source .   
+ FTPS
+- On the add data source screen, enter data source name, and click Continue . 
+- Click FTPS to import files from an FTPS connection, and enter below details: 
+- Host – The connection's host URL 
+- Port – The connection's port number 
+- Folder path – The connection's folder path 
+- Encryption mode – Select the encryption mode as needed.  
+- Username – The connection's username 
+- Password –The connection's password 
+- Click Test Connection .
+ Tip : Recheck the connection details if the authentication fails. You can continue configuring your data source even without testing the connection.  
+- After the test is successful, click Add data source .   
+ S3
+- On the add data source screen, enter data source name, and click Continue . 
+- Click S3 to import files from an S3 connection, and enter below details: 
+- Access key – AWS access key ID 
+- Secret access key – AWS secret access key 
+- Region – AWS region 
+- Bucket name – S3 bucket name 
+- Folder path – S3 folder path 
+- Click Test Connection .
+ Tip : Recheck the connection details if the authentication fails. You can continue configuring your data source even without testing the connection.  
+- After the test is successful, click Add data source .   
+## Next Step
+ Add Dataset

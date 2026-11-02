@@ -1,0 +1,13 @@
+# Preview Button Removed When Updating Derived Variables
+
+## Preview Button Removed When Updating Derived Variables
+## Description
+ When updating derived variables in the Derived Variable tab, the Preview button no longer appears.
+## Affected Roles
+ All roles with the Manage Derived Variables building blocks.
+## Advantages
+ Currently, you can only update a derived variable's name and label. The removal of the Preview button therefore streamlines the readability of the update screen by removing an unused user interface element.  
+## User Impact
+ On the Derived Variable tab, when you select a derived variable to update its name or label, the Preview tab no longer appears on the screen.
+## Special Considerations
+ None.

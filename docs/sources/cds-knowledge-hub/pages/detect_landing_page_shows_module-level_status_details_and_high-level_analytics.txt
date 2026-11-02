@@ -1,0 +1,16 @@
+# Detect Landing Page Shows Module-level Status Details and High-level Analytics
+
+## Detect Landing Page Shows Module-level Status Details and High-level Analytics
+## Description
+ Medidata Detect's redesigned landing page highlights module-level status details and high-level analytics in five module cards. Namely, Risk Management (RM), Patient Data Surveillance (PDS), Key Risk Indicators (KRIs), Quality Tolerance Limits (QTLs), and Centralized Statistical Monitoring (CSM). 
+## Affected Roles
+ All.
+## Advantages
+ You can get a quick look into metrics that matter to your study with the analytics and graphical representations presented for each Detect module.
+## User Impact
+- The module cards now contain data attributes, which provide valuable data to users. 
+- Page load time might be marginally longer. 
+## Knowledge Hub Updates
+ None.
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

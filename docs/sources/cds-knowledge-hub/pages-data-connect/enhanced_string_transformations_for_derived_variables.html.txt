@@ -1,0 +1,55 @@
+# Transformations: Enhanced String Transformations for Derived Variables
+
+## Transformations: Enhanced String Transformations for Derived Variables
+ Important: 
+- For a summary of changes done to these release notes, if any, see the revision history .. 
+- For features and enhancements covered in previous releases, see the releases history . 
+- For a summary of all features released, the released features index . 
+## Change Details
+ Product 
+ | Data Connect
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Transformations > Derived Datasets
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ The R02 release introduces enhancements to string transformation functions used in derived datasets. 
+- Simple Concatenate (Ignore nulls): The Simple Concatenate transformation is now called Simple Concatenate (Ignore nulls) . This function now automatically skips null values during concatenation, ensuring that the specified delimiter does not repeat when data points are missing. 
+- Substring with Delimiter: The Substring transformation now includes the ability to define a specific delimiter, allowing you to extract substrings based on character patterns rather than just fixed positions. 
+ Benefit to Users 
+ | These updates provide greater flexibility and cleaner data output when manipulating string fields. 
+- Improved Data Quality: By automatically skipping nulls during concatenation, the system prevents you from creating data strings with repeated delimiters, for example: converting "headache; fever;;;rash" to "headache; fever; rash". 
+- Enhanced Extraction: The ability to substring by a delimiter allows for more dynamic text extraction, reducing the need for complex custom SQL or multiple transformation steps to isolate specific data segments. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ All Data Connect users configuring derived datasets and transformations. 
+ Impact to Workflow Processes 
+- Concatenation: When using the concatenation function, you no longer need to configure logic to handle nulls manually. The Simple Concatenate (Ignore nulls) function handles this automatically. 
+- Substring: You can now input a specific character or string as a delimiter when configuring a Substring transformation 
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+- Transformation List: The Simple Concatenate option is now to Simple Concatenate (Ignore nulls) . 
+- Configuration Panel: The Substring configuration panel now includes an input field for defining a delimiter. The previous "Ignore Nulls" parameter no longer exists in the concatenate configuration as it is now the default behavior. 
+ Impact to Existing Data or Settings 
+ You must review existing transformations to ensure the new "Ignore Nulls" behavior aligns with your expected data outputs. 
+ User Impact Assessment 
+ | Medium
+ Learning Resource Updates 
+ | There are no additional relevant resources.
+ For more articles and videos, see  Generate Derived Datasets and the Data Connect Video Library . 
+ Special Considerations 
+ | To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

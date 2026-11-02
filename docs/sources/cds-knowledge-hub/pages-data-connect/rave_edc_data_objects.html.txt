@@ -1,0 +1,134 @@
+# Rave Data Objects
+
+## Rave Data Objects
+ Rave data objects contain raw electronic case report form (eCRF) data from Rave. While configuring exports, you set which Rave data to extract.
+ Important : Your Rave URL configuration can affect your ability to access exported data. For details, please contact your Medidata representative or Medidata Support.
+## Extract Expectations by Field Type
+ Numeric 
+ Appears as entered in Rave. 
+ Unit Dictionary 
+ Appears as entered in Rave.
+ Character 
+ Appears as entered in Rave.
+ Data Dictionary 
+ Appears as entered in Rave.
+ Date 
+ The extracted format changes depending on the field's format in Rave: 
+- ISO 8601 Date – Formatted in Rave as <Field_OID>_DT. If the original date value is a complete date, then the extracted date value appears in the ISO 8601 format. 
+- Strongly Typed Date – Formatted in Rave as <Field_OID>_DTC. The extracted date value appears in the YYYY-MM-DD format. If the date is a partial date, then "–-" appears for the missing values. 
+- Interpolated Date – Formatted in Rave as <Field_OID>_DTI. The extracted date value appears in the ISO 8601 format. If the date is a partial date, then the extracted date is interpolated. For values missing in Rave, the extracted file makes the following substitutions:
+- If the day is missing, then the extracted file substitutes "01" for the day. 
+- If the month is missing, then the extracted file substitutes January as the month. 
+- If the year is missing, then the extracted file does not show the date. 
+ Scenario 
+ eCRF Field in Rave 
+ ISO 8601 Date 
+ Strongly Typed Date 
+ Interpolated Date 
+ | Complete Date 
+ | 04 APR 2015 
+ | 2015-04-04T00:00:00 
+ | 2015-04-04 
+ | 2015-04-04T00:00:00 
+ | Partial Date: Missing Day 
+ | UNK MAR 2006 
+ | 
+ | 2006-03--- 
+ | 2006-03-01T00:00:00 
+ | Partial Date: Missing Month 
+ | 15 UNK 2006 
+ | 
+ | 2006---15 
+ | 2006-01-15T00:00:00 
+ | Partial Date: Missing Year 
+ | 
+ | 
+ | 
+ | 
+ Medical Coding 
+ For fields coded with Coder, verbatim terms for coding decisions appear in the <Field_OID>RAW field. Likewise, preferred termed appear in the <Field_OID>PT field. When coding decisions are unavailable, values for preferred terms are automatically loaded by the system. 
+## Extract Content by Headers
+ Header Columns
+ Attribute Type 
+ Description
+ | study_uuid
+ | Unique Identifier 
+ | The study's unique identifier.
+ | study_name
+ | Alphanumeric 
+ | The study's name in iMedidata.
+ | study_environment_uuid
+ | Unique Identifier 
+ | 
+ The study environment's unique identifier.
+ | environment_oid
+ | Alphanumeric 
+ | The study environment's name (for example, Dev, Prod, or UAT).
+ | client_division_uuid
+ | Unique Identifier 
+ | The client division's unique identifier.
+ | client_division_name
+ | Alphanumeric 
+ | iMedidata Client Division Name
+ | forms_oids
+ | Object Identifier 
+ | 
+ The Rave form's object identifier (OID).
+ | sdtm_domain_oid
+ | Object Identifier 
+ | 
+ The study data tabulation model's (SDTM) domain name. Available if the form OID is mapped to an SDTM. 
+ | subject_uuid
+ | Unique Identifier 
+ | The subject's unique identifier.
+ | subject_identifier
+ | Numeric 
+ | The subject's identification number.
+ | metadata_version_uuid
+ | Unique Identifier 
+ | 
+ The eCRF metadata version's unique identifier.
+ | metadata_version
+ | Numeric 
+ | The eCRF metadata version number.
+ | study_environment_site_uuid
+ | Unique Identifier 
+ | 
+ The study environment site's unique identifier.
+ | site_name
+ | Alphanumeric 
+ | The study environment site's name in iMedidata.
+ | study_environment_country_uuid
+ | Unique Identifier 
+ | 
+ The study environment country's unique identifier.
+ | region_uuid
+ | Unique Identifier 
+ | The region's unique identifier.
+ | region_name
+ | Text 
+ | The region's name in iMedidata.
+ | country_uuid
+ | Unique Identifier 
+ | The county's unique identifier.
+ | country_code_alpha2
+ | Text 
+ | The country's two-character ISO Country code.
+ | country_code_alpha3
+ | Text 
+ | The country's three-character SO Country code.
+ | planned_event_oid
+ | Object Identifier 
+ | The object identifier of the planned visit corresponding to the eCRF.
+ | planned_event_name
+ | Alphanumeric 
+ | The name of the planned visit corresponding to the eCRF.
+ | performed_event_name
+ | Alphanumeric 
+ | The name of the actual visit corresponding to the eCRF.
+ | performed_event_ord_number
+ | Number 
+ | The identification number of the actual visit corresponding to the eCRF.
+ | performed_event_date
+ | Date 
+ | The date of the actual visit corresponding to the eCRF.

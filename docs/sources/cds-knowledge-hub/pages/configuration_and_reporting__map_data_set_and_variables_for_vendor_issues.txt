@@ -1,0 +1,33 @@
+# Configuration and Reporting: Map Data Set and Variables for Vendor Issues
+
+## Configuration and Reporting: Map Data Set and Variables for Vendor Issues
+## What Is New?
+ Medidata Detect > Patient Data Surveillance (PDS) > Data Reviewer > Vendor Issues > Vendor Issues is a new feature that tracks vendor data issues. To use Vendor Issues, you must first configure vendor details in Medidata Detect > Configuration and Reporting > Vendor Configuration. With Vendor Configuration, you can:
+- Add unique vendors.  
+- Ensure Detect includes a list of active vendors to assign vendor issue sets. 
+ The Vendor Configuration page includes a Help on This Page option, which navigates you to the Vendor Configuration Knowledge Hub article.
+## What Is the Impact?
+## Users/Roles
+ Study Managers and Data Managers.
+ Detect users with the Manage Vendor Configuration access. 
+## Workflow Process
+ Detect users can now track, flag, and monitor issues with vendor data. 
+## Other Applications
+ Detect users with Manage Vendor Configuration access can create vendor issue sets in Data Reviewer to track issues with ingested vendor data.
+## How Do I Benefit?
+ Vendor Configuration: 
+- Allows you to add unique vendors. 
+- Enables Detect to not only ingest third-party vendor data, but also track, flag, and monitor issues with vendor data. 
+## Where Do I See the Change?
+  Medidata Detect > Configuration and Reporting > Vendor Configuration includes a new vendor configuration page, with the following fields:
+- Vendor Name 
+- Updated By 
+- Updated Date 
+- Activate/Deactivate 
+ You can add vendor names by clicking the Add Vendor record, and then adding a unique vendor name.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Vendor Configuration 
+## What Else Should I Know?
+ To view or add records in Vendor Configuration, you must have the Manage Vendor Configuration building block assigned to your role in Detect. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

@@ -1,0 +1,18 @@
+# Schedule Data Extracts
+
+## Schedule Data Extracts
+## Description
+ You can schedule data exports  to run at a future date and to repeat at specified intervals.
+## Affected Roles
+ Roles with Data Extract permissions.
+## Advantages
+ Scheduling data set exports simplifies routine extraction of data from MEDS  as it removes the need for regular manual interactions.
+## User Impact
+ You can schedule exports at a specific time of these date options: 
+- Run Once.  (At a specified future date and time) 
+- Every day. 
+- Weekly on selected day(s) of the week. 
+- A specific date of the month. 
+- The last day of the month. 
+## Special Considerations
+ Extracted data  are only available for 24 hours after a scheduled export job has run.

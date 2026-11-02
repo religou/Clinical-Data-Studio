@@ -1,0 +1,112 @@
+# RBQM
+
+## RBQM
+ RBQM is a   comprehensive suite of   risk surveillance   software capabilities that   support a holistic   risk-based quality management (RBQM)   approach to data quality. RBQM enables study teams to comprehensively manage site, study, and patient risk using collaborative risk management workspaces, dynamic dashboards, and auto-generated, AI-powered data visualizations. 
+ | 
+ Get Started 
+ About RBQM 
+ Access RBQM 
+ RBQM Building Blocks and Permissions 
+ | 
+ Data Quality Hub 
+ Data Quality Hub 
+ | 
+ Risk Assessment 
+ Risk Assessment 
+ Create Risk Assessment Drafts 
+ Add and Manage Risks 
+ | 
+## Risk Inventory
+ Risk Inventory 
+ View and Monitor the Risk Inventory 
+ Manage Risks from the Risk Inventory 
+ | 
+## Plan Documents
+ Plan Documents 
+ Access, View, and Create Plan Documents 
+ Preview, Edit, and Download Plan Documents 
+ Publish Plan Documents 
+ | 
+## Protocol Integrity Report
+ Protocol Integrity Report 
+ Investigate Protocol Deviations Using the Protocol Integrity Report 
+ | 
+## KRI Dashboard
+ KRI Dashboard 
+ Investigate Data Using the KRI Dashboard 
+ KRI Descriptions and Calculation Methodologies 
+ | 
+## QTL Dashboard
+ QTL Dashboard 
+ Investigate Data Using the QTL Dashboard 
+ | 
+## Data Anomaly Detection
+ Data Anomaly Detection 
+ Access and View Data Anomaly Detection Plots 
+ Investigate Data Using Data Anomaly Detection Plots 
+ | 
+## Trends
+ Trends 
+ Access and View Trends Plots 
+ Investigate Data Using Trends Plots 
+ | 
+ Weekend and Holiday Visits 
+ Weekend and Holiday Visits 
+ Investigate Site Visits On Non-Business Days 
+ | 
+## Potential Duplicate Patients
+ Potential Duplicate Patients 
+ Identify Potential Duplicate Patients In Your Study 
+ | 
+## Rounding and Propagation
+ Rounding and Propagation 
+ Identify and Investigate Sites That Potentially Round or Propagate Vital Sign Records 
+ | 
+## Event Incidence
+ Event Incidence 
+ Investigate Data Using the Event Incidence Plot 
+ | 
+## Under-Over Reporting Events
+ Under-Over Reporting Events 
+ Investigate Data Using the Under-Over Reporting Events Plot 
+ | 
+   Statistical Monitoring History 
+ History 
+ Generate Audit Reports 
+ Schedule or Trigger Statistical Monitoring Data Refreshes 
+ View Historical Data Snapshots 
+ | Signals 
+ View And Access Signals 
+ Create and Edit Signals 
+ Refresh Signals to View the Latest Observations 
+ Perform Signal Operation 
+ |   Audit Trail Review 
+ Create Audit Trail Reviews 
+ Download Audit Data Sets 
+ Preview Audit Data Sets 
+ Publish Audit Data Sets 
+ | 
+ RBQM Configuration 
+ RBQM Configuration 
+ | 
+ RBQM Templates 
+ Manage Critical Data Templates 
+ Manage Critical Processes Templates 
+ Manage Risk Categorization Templates 
+ Listing, KRI, and QTL Template Library 
+ | 
+## More About Clinical Data Studio
+ About Clinical Data Studio 
+ About Data Surveillance 
+ About Data Connect 
+ About Cross Study Metrics 
+ | 
+## What's New
+ Clinical Data Studio Release Notes 
+ Clinical Data Studio Release News 
+ | 
+## Training
+ RBQM Video Library 
+ | 
+## Technical Handbook
+ Clinical Data Studio Technical Handbook

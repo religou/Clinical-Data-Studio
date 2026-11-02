@@ -1,0 +1,164 @@
+# Ingestor Released Features
+
+## Ingestor Released Features
+ Ingestor is a software-as-a-service (SaaS),cloud-based ingestion tool that imports data from external data sources directly into the Medidata platform using files such as comma-separated value (.csv) or SAS(.xpt) files.  With Ingestor, you can load non-Rave Clinical Data, non-Rave Clinical Operational Data, Study Master Data, and Clinical Trial Management System (CTMS). Each type of data that Ingestor supports has associated rules and options for how to structure data for successful loading. 
+ Ingestor includes the following:
+ Import Job Creation 
+- 
+ Create Import Jobs in MEDS Ingestor 
+- 
+ Detailed Import Status 
+- 
+ Edit Import Jobs in MEDS Ingestor 
+- 
+ External EDC File Support 
+- 
+ Improvements to Import Job Summary 
+- 
+ Patients Data Import from External EDC Sources 
+- 
+ SAS File Support for External EDC Jobs 
+- 
+ Support for Multiple File Import 
+ Import Job Data Types 
+- 
+ CTMS Data Import and Study Master Data Import Now Available 
+- 
+ Metadata File Based Creation of Data Integrations 
+- 
+ Partially Processed File Reporting for Study Master Data Files 
+- 
+ Updated Counts for External EDC Data Files 
+ Import Job Management 
+- 
+ Ability to Download Imported Files 
+- 
+ Auto-Refresh for Import Job Summary 
+- 
+ Create Import Jobs with Externalized API Endpoints 
+- 
+ Data Import from SFTP Locations 
+- 
+ Editable Import Job Configurations 
+- 
+ Externalized API Endpoints for MEDS Ingestor 
+- 
+ Global SFTP Settings for Import Jobs 
+- 
+ Import Job Notifications 
+- 
+ Incremental Loading for External EDC Data Import 
+- 
+ Ingestor API Updates in Ingestor 2022.3.0 
+- 
+ Updated Names for Import Summary Artifact Files 
+- 
+ Updates to Import Jobs Page 
+- 
+ View Details For Processing Job Files 
+ UI Updates 
+- 
+ Enhanced Import Job UI 
+- 
+ Enhanced Navigation 
+- 
+ Enhanced Study Level View 
+- 
+ Import Job Wizard Shows Supported Data Sets 
+- 
+ Improved Display of Long Filenames 
+- 
+ Improved Import Summary Status Interface 
+- 
+ Job Files Page Updates and SDM File Processing Update 
+- 
+ Run Now Button Available for SFTP-Enabled Import Jobs 
+- 
+ Updates to Import Jobs List 
+- 
+ User Interface Updates in MEDS Ingestor 2022.2.0 
+ Online Help, Localization, and Documentation 
+- 
+ Help Links to the Knowledge Space 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+- 
+ Redesigned Release Notes Content Provide a Clearer and Easier to Consume Experience 
+ Technical Changes 
+- 
+ Enhanced Support for Windows-Based SFTP Servers 
+- 
+ Interface Enhancements in Ingestor 2022.3.0 
+- 
+ Interface Localization Support for APAC 
+- 
+ Interface Updates in Ingestor 2022.4.0 
+- 
+ Interface Updates in Ingestor 2023.1.1 
+- 
+ Internal and Technical Changes in Ingestor 2023.2.0 
+- 
+ Internal and Technical Changes in Ingestor 2023.2.5 
+- 
+ Internal Technical Changes in MEDS Ingestor 2021.3.0 
+- 
+ Internal Technical Updates in Ingestor 2022.3.0 
+- 
+ Internal Technical Updates in Ingestor 2022.4.0 
+- 
+ Internal Technical Updates in MEDS Ingestor 2021.2.0 
+- 
+ Internal Technical Updates in MEDS Ingestor 2022.1.0 
+- 
+ Internal Technical Updates in MEDS Ingestor 2022.2.0 
+- 
+ Preparations for Future Development 
+- 
+ Technical Changes in MEDS Ingestor 2020.2.1 
+- 
+ Technical Changes in MEDS Ingestor 2021.1.0 
+- 
+ Updated Building Blocks for MEDS Ingestor 
+ Resolved Issues 
+- 
+ MEDS Ingestor 2022.2.0 Resolved Issues List 
+- 
+ MEDS Ingestor 2022.1.0 Resolved Issues List 
+- 
+ MEDS Ingestor 2021.4.0 Resolved Issues List 
+- 
+ MEDS Ingestor 2021.3.0 Resolved Issues List 
+- 
+ MEDS Ingestor 2021.2.0 Resolved Issues List 
+- 
+ MEDS Ingestor 2021.1.0 Resolved Issues List 
+- 
+ MEDS Ingestor 2020.2.1 Resolved Issues List 
+- 
+ MEDS Ingestor 2020.2.0 Resolved Issues List 
+- 
+ MEDS Ingestor 2020.1.0 Resolved Issues List 
+- 
+ MEDS Ingestor 2019.2.0 Resolved Issues List 
+- 
+ MEDS Ingestor 2019.1.0 Resolved Issues List 
+- 
+ Ingestor 2023.2.5 Resolved Issues List 
+- 
+ Ingestor 2023.2.4 Resolved Issues List 
+- 
+ Ingestor 2023.2.3 Resolved Issues List 
+- 
+ Ingestor 2023.2.2 Resolved Issues List 
+- 
+ Ingestor 2023.2.1 Resolved Issues List 
+- 
+ Ingestor 2023.2.0 Resolved Issues List 
+- 
+ Ingestor 2023.1.1 Resolved Issues List 
+- 
+ Ingestor 2023.1.0 Resolved Issues List 
+- 
+ Ingestor 2022.4.0 Resolved Issues List 
+- 
+ Ingestor 2022.3.0 Resolved Issues List

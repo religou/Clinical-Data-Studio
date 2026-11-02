@@ -1,0 +1,15 @@
+# Create Export
+
+## Create Export
+ You can create exports at the client level or the study context level.  By creating an export at the client level, you can extract data from every study within the client. By creating an export at the study level, you can extract data from a subset of studies within the client. 
+ After you create the export, and the export successfully runs, you can then download extracted datasets. 
+## Create Export
+- Access Data Connect , and click   Exports   in the left-hand menu. 
+- Click Create Export . 
+- Complete the Create Export wizard.
+ Tip : For a walkthrough on completing the wizard, see  Select Data Source  and follow the workflow.
+## Export Creation Workflow
+## Available Data Types
+ The data you can export differs when you export at the client level or the study level. For details about the data objects that appear in the exported data files, see Available Exportable Data Objects .
+## Next Step
+ Download Data Extracts

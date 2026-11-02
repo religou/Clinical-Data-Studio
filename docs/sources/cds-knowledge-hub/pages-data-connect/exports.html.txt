@@ -1,0 +1,21 @@
+# Exports
+
+## Exports
+ Exports is a Data Connect capability that exports various types of data, such as clinical and CTMS data, from the Medidata platform in various file types. 
+## What Is Exports?
+ Exports is data export tool that packages various types of data, such as clinical and CTMS data, from the Medidata platform in various file types for downloading. You can specify multiple datasets from specific studies and environments. Exports deliver the exported datasets as individual files compressed into standard .zip files. 
+## What Is the Purpose of Exports?
+ Exports allows you to download various data from the Medidata platform, including transformed data outputted from data projects made in Transformations . You can run exports on a recurring schedule, which allows you to track changes made to different data sources to ensure the data is clean and within expectations. 
+## Who Uses Exports?
+ Data managers, clinical data scientists, biostatisticians, data scientists, and programmers.
+## How Does Exports Work?
+ You can create and run exports by specifying the origin and type of data to export from the Medidata platform . 
+ To create an export , you must use the Create Export workflow to configure the exports parameters, such as when and how often the export runs and what type of data it delivers for each export. After you create the exports and the export successfully runs, you can then download the extracted datasets. You can either download files directly from the interface, or configure external locations to send files to instead. 
+ Important :  Unsupported Data 
+ Data Connect does not support variables such as coding dictionaries, coded terms, and code lists. While you can import datasets that includes these data, you cannot see or use them in Data Connect. However, these data can appear as-is in RBQM and Data Surveillance when you activate the associated dataset. For details, see Unsupported Variables in Data Connect . 
+## What Are the Benefits of Exports?
+ Exports provide:
+- A central location to download data from the Medidata platform for auditing and view purposes. 
+- Secure methods to download your data locally or to an external location. 
+## How Do I Access Exports?
+ Access Data Connect , and click   Exports   in the left-hand menu.

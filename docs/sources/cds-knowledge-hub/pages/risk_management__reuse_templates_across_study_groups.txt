@@ -1,0 +1,22 @@
+# Risk Assessment: Reuse Templates Across Study Groups
+
+## Risk Assessment: Reuse Templates Across Study Groups
+## What Is New?
+ You can now reuse the templates for critical data / processes / categorization across study groups for which you have access. 
+## What Is the Impact?
+## Users/Roles
+ Risk Assessment users.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Users do not need to create the same template across different study groups. Users can only import activated templates across study groups. Users do not any new permissions for templates. 
+## Where Do I See the Change?
+ Templates are now available directly at the study level in the Library in the left hand menu. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Risk Assessment 
+## What Else Should I Know?
+ Users cannot use custom templates across study groups. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

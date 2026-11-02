@@ -1,0 +1,15 @@
+# Product Name Changed to Extractor
+
+## Product Name Changed to Extractor
+## Description
+ The MEDS Extractor application name and interface elements now show "Extractor".
+## Affected Roles
+ All.
+## Advantages
+ The name update into Extractor aligns with rebranding strategy at Medidata.
+## User Impact
+ User interface names and labels through the Medidata platform show "Extractor" instead of "MEDS Extractor". Application functionality is unaffected.
+## Knowledge Space Updates
+ The Extractor Knowledge Space updates all references to the product name to "Extractor". 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

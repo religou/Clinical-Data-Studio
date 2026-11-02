@@ -1,0 +1,18 @@
+# Enhanced Study Level View
+
+## Enhanced Study Level View
+## Description
+ You can  view the list of accessible studies on the MEDS Ingestor landing page before you see any import jobs details. After selecting a study, you see the import job list. List columns include Import Job Name, Study Environment, Data Type, and Data Integration Name and Version. You can drill down with the job name to view details of the selected job's imported files.  
+ Feature/enhancement stories referenced in this article:
+ MCC-616070 
+## Affected Roles
+ All roles with the Data Import permission.
+## Advantages
+ The job list page   displays more detail for scheduled   jobs, providing a streamlined presentation.  
+## User Impact
+ When reviewing import jobs, t he job list page displays: 
+- Current job statuses as icons. 
+- The data integration name, version, data type, and environment for the import job. 
+- A drill-down on the job name, which shows details of the files ingested. 
+## Special Considerations
+ None.

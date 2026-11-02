@@ -1,0 +1,73 @@
+# Improved Support for Risk Reviews
+
+## Improved Support for Risk Reviews
+## Description
+ You can track risk review activities using the improvements in Risk Management 2022.2.0.
+## Affected Roles
+ Study Manager.
+## Advantages
+ In the past, when creating a risk, you could not indicate the frequency of risk reviews, and there was a chance that review actions could be missed. With Risk Management 2022.2.0, extra fields for tracking risk reviews have been added to inform the reviewer of necessary actions. 
+## User Impact
+ When you click Risk Inventory , a list of risks associated with your study appears. 
+## Changes to the Risk Inventory
+ The following improvements help you in completing the risk review process: 
+- New columns have been added to the Risk inventory: Review Status, Target Review Date , and Review Frequency . 
+- The "scroll right for details" bar appears at the top of the list of risks instead of at the bottom of the list. 
+- The Risk Origin now shows only the Description and Rationale. The risk grid has been removed. 
+- A Review Status filter appears at the top of the Risk Inventory page. You can filter by Closed, Due Soon, Reviewed, or Overdue. A color-coded pill icon shows the review status for each risk in the Risk Inventory: 
+- Yellow - Due Soon . The Current Date is between Last Review Date and Target Review Date indicating the Risk Review is due soon.  
+- Red - Overdue . The Current Date > Target Review Date indicating which Risk Review is overdue. 
+- Green - Reviewed . The Last Review Date = Current Date indicating which Risks have been reviewed. 
+- Gray - Closed . The Risk Status is closed. 
+ When you select a Risk ID from the Risk Inventory, the Risk Review page opens where you can view or edit existing Risk Details, QTLs, KRIs, or Risk Mitigations.   
+ Note : The Edit Risk page has been renamed Risk Review.
+ From the Risk Review page, you can: 
+- Add the Target Review Date and Review Status when reviewing or editing a risk associated to Critical Data, Critical Process, or Risk Categorization. 
+- View who last reviewed the risk. Two new fields, Last Reviewed By and Mark Reviewed, work together to show review history for risks associated to Critical Data, Critical Processes, or Risk Categorization. The name of the person who last reviewed the risk and the date of the review action automatically populate the Last Reviewed By field when you click Mark Reviewed . 
+- Add the Review Frequency while adding a new risk to Critical Data, Critical Process, or Risk Categorization. The system uses the Review Frequency to calculate when the target review date is approaching.  
+- Add one or more actions to take when reviewing the risk. 
+- View the Closed Date. You cannot manually edit this field. Instead, the date is automatically set to the Current date when the Risk Status value changes to Closed . The Closed Date appears on the Add Risk and Risk Review pages. When the Risk Status is Closed or Transferred, the Target Review Date is set to Not Applicable .
+ Note : When a risk is closed or transferred, you can no longer edit fields on the Risk Review page except for Risk Status. If you reopen the risk by changing the Risk Status, you can edit the fields again.
+## 
+## Calculating the Target Review Date
+ For new risks that have not yet been reviewed, the Target Review Date depends on the Entered date and the Review Frequency. Set both the Entered date and Review Frequency on the Risk Details tab when you add a new risk.
+ Note : The Review Frequency field replaces the Last Risk Review Date on the Add Risk page. 
+- Entered - The date you enter the new risk in Risk Management. 
+- Review Frequency - The frequency of the risk review:
+- Weekly - The Target Review Date is 7 days after the risk is entered. For example, if the risk is entered on February 1, then the Target Review Date is February 8. 
+- Every Other Week - The Target Review Date is 14 days after the risk is entered. 
+- Monthly - The Target Review Date is 30 days after the risk is entered. 
+ Note: 30 days are added to the Entered date. For example, an Entered date of February 1 (in a non-leap year) shows a Target Review Date of March 2, that is, 30 days after the Entered date.
+- Quarterly - The Target Review Date is 90 days after the risk is entered. 
+ For existing risks , the Target Review Date is based on the Review Frequency and the Last Risk Review Date.
+- Last Risk Review Date - Last date a risk was reviewed.  
+ Note : The Last Risk Review Date appears as a column heading in the Risk Inventory. The dates are automatically updated when a risk is reviewed. In previous releases, you could enter a last Risk Review Date in the Add Risk page, but this field has been removed because it is not applicable for new risks. The Review Frequency field replaces the Last Risk Review Date on the Add Risk page in Risk Management 2022.2.0.
+- Close Date - Date a risk was closed. For a closed risk, the Target Review Date shows Not Applicable .  
+- For example, when the Review Frequency for an existing risk is set to:
+- Weekly - The Target Review Date is 7 days after the Last Risk Reviewed Date. 
+- Every Other Week - The Target Review Date is 14 days after the Last Risk Reviewed Date. 
+- Monthly - The Target Review Date is 30 days after the Last Risk Reviewed Date.   
+- Quarterly - The Target Review Date is 90 days after the Last Risk Reviewed Date. 
+## Changes to Risk Details 
+ When you click in the Add Risk column on the Critical Data, Critical Processes, or Risk Categorization pages, the Add Risk page appears. Here you can create a risk by editing data in these tabs: Risk Details, QTLs, KRIs, or Risk Mitigations. Risk Management 2022.2.0 modifies several fields in the Risk Details form to support a more structured review of risks: 
+- Risk Name (Required) 
+- Entered 
+- Review Frequency (Required) - Options include Weekly, Every Other Week, Monthly, or Quarterly 
+- Action Taken - you can add multiple actions for a risk 
+- Notification 
+- Review Date  
+- Color coding to indicate status of risk 
+- Marked Reviewed at bottom of page 
+- Edit a risk. The Save button remains enabled while navigating from QTLs, KRIs, and Risk Mitigation to Risk Details. 
+- The Last Risk Review Date field has been removed from the Risk Details form and is replaced by the Frequency column. 
+## Knowledge Space Updates
+ The  Risk Management Knowledge Space provides new and updated content to support this feature/enhancement: 
+- Navigate Risk Management as a Study User 
+- Manage Risks from the Risk Inventory 
+- Add Risk Details 
+- Add QTLs 
+- Add KRIs 
+- Risk Inventory 
+## Special Considerations
+ None. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

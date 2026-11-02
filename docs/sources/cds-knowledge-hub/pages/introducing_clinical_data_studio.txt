@@ -1,0 +1,281 @@
+# Introducing Clinical Data Studio
+
+## Introducing Clinical Data Studio
+## What Is New?
+ Clinical Data Studio is a complete data management tool that provides access to integrated data from Medidata and external sources, using AI to streamline data aggregation, standardization, and management workflows. With Clinical Data Studio, clinical or IT programmers, clinical data management, and clinical operations roles can act on data instantly to reduce user burden, shorten operational timelines, and increase data quality.
+ The software capabilities that comprised the former Medidata Detect solution are now part of Clinical Data Studio. Clinical Data Studio includes redesigned and rebranded Detect capabilities available as part of two offerings: Medidata Data Surveillance and Medidata Data Quality Management. 
+- Medidata Data Surveillance – Includes the following capability suites:
+- Data Surveillance – Provides a drag-and-drop listings builder, automated query generation for Rave EDC-sourced data and issue management for non-Medidata sourced data, AI-powered data reconciliation, patient profiles, and visualizations. Data Surveillance includes the following capabilities:
+- Clean Patient Tracker 
+- Data Sets 
+- EDC Queries  
+- Vendor Queries (formerly known as Vendor Issues) 
+- Listings 
+- AI Reconciliation 
+- Patient Profiles 
+- Visualizations 
+- Oncology 
+- Configuration 
+- Library 
+- Data Connect – Enables self-service data ingestion and no/low-code data transformation capabilities.  
+- Medidata Data Quality Management – Includes all the Data Surveillance capabilities above, plus the RBQM capability suite, which provides risk surveillance capabilities supporting a holistic risk-based quality management (RBQM) approach to data quality. RBQM includes the following capabilities: 
+- 
+- Summary 
+- Risk Assessment 
+- Risks 
+- KRIs 
+- QTLs 
+- Statistical Monitoring (formerly known as Detect CSM) 
+- Configuration 
+- Library 
+ Tip : For former Medidata Detect users, to learn how Medidata Detect's features and functionalities have been redesigned and reorganized in Data Surveillance and RBQM, see the table describing the differences in the Where Do I See the Change section .
+ Note : All your existing permissions in iMedidata and former Detect capabilities remain the same in Clinical Data Studio. 
+## What Is the Impact?
+## Users/Roles
+ All Clinical Data Studio (CDS) users.
+## Workflow Process
+ See the Where Do I See the Change? section.
+## Other Applications
+ Clinical Data Studio also includes an offering, Data Connect , which enables you to import and transform data for use in Data Surveillance and RBQM. 
+ Note : Some users may continue to upload study data through Ingestor for use and analysis in Clinical Data Studio. 
+ How Do I Benefit? 
+ With Clinical Data Studio. you can:
+- Ingest any data quickly and easily – CDS provides access to data from Medidata data sources, such as Rave EDC and simplifies importing data from any external source, such as labs or another EDC system. You can configure data transfer agreements into CDS to validate ingested data automatically. 
+- Transform Data with Minimal Effort – With Clinical Data Studio, clinical data managers can build complex listings across multiple datasets without the need for programming. Clinical programmers and biostatisticians can use Clinical Data Studio’s no/low-code data transformation capabilities to create custom datasets. Clinical Data Studio maintains complete traceability of all data transformations so you can always see what and how data transformed. 
+- Achieve High-Quality Data Faster – Clinical Data Studio delivers accelerated review of data and patient profiles, visualizations, AI-assisted data reconciliation, risk management, site performance monitoring, issue management, anomaly detection, and patient safety overview. 
+- The Medidata Advantage – Clinical Data Studio delivers a unified data management and analytics experience for all users, powered by AI and advanced analytics.  
+## Where Do I See the Change?
+ You can access Clinical Data Studio's Data Surveillance and RBQM capability suites from the Medidata Home page. To learn more, see Log In, Navigate Medidata, and Access Studies .
+ | 
+ | 
+ Number 
+ Description 
+ | 1
+ | The client, study group, study, and site you select in Medidata. 
+ | 2 
+ | The tabs represent all the applications you have access to. For example, user A may see Overview, RBQM, Data Connect, and Data Surveillance, whereas user B may have access to Overview and Data Surveillance only. The fist image shows the home page when you click the RBQM tab, whereas the second image shows the page when you click the Data Surveillance tab. The Overview tab provides access to the Medidata Home Page . 
+ | 3 
+ | The left-hand menu appears when you select an application. For example the image shows the left-hand menu with capabilities in RBQM. 
+ | 4 
+ | When you click any capability in the left-hand menu, the corresponding page appears on the right side. The image shows the Summary page, which is the default page for RBQM. 
+ In addition to new features added as part of the Clinical Data Studio June 2024 release, Clinical Data Studio's Data Surveillance capability suite and RBQM capability suite comprise the software capabilities that were provided in the former Medidata Detect solution. However, those software capabilities are redesigned and reorganized in Data Surveillance and RBQM. To learn and understand the design differences between the former Medidata Detect solution and the new Data Surveillance and RBQM capability suites, see the following table.
+ Tip : Each table tab represents a capability from the former Medidata Detect solution and how that capability is redesigned in Data Surveillance and RBQM.
+ Detect Home Page Patient Profiles Data Reviewer Centralized Statistical Monitoring Risk Management KRI Dashboard QTL Dashboard Configuration and Reporting Insights 
+ Detect Home Page
+## Detect Home Page
+ In Clinical Data Studio, the Summary page replaces the Detect Home Page and appears when you click RBQM > Summary. 
+ in Detect 
+ Now In Clinical Data Studio 
+ | Detect > Detect Home Page
+ | Access RBQM > Summary
+ | 
+ Detect Home Page
+ | 
+ Risk Based Quality Management page
+ | 
+ The Detect Home Page included cards with links into specific Detect pages.
+ | 
+ The RBQM Summary page includes four cards:
+- Risk Management 
+- Key Risk Indicators (KRIs) 
+- Quality Tolerance Limits (QTLs) 
+- Centralized Statistical Monitoring 
+ Each card gives a summarized view of specific data points or includes links to capability pages. 
+ Patient Profiles
+## Patient Profiles
+ In Clinical Data Studio, you can access Patient Profiles from the Data Surveillance tab. Patient Profiles includes updates and changes in navigation as listed in the following table:
+ Previously in Detect 
+ Now In Clinical Data Studio 
+ | Detect > Patient Da ta Surveillance > Patient Profiles 
+ | Access Data Surveillance > Patient Profiles.
+ | 
+ Left-hand menu options:
+ | 
+ | Once you select a published or draft design, the Order of tabs is as follows:
+- Elements 
+- Layout 
+- Profiles 
+ | Once you select a published or draft design, the order of tabs is as follows: 
+- Profiles 
+- Elements 
+- Layout 
+- Design Report 
+- Settings 
+ Data Reviewer
+## Data Reviewer
+ In Clinical Data Studio, you can access functionalities in the former Data Reviewer from the Data Surveillance tab. The updated, renamed functionalities and changed navigation are listed in the following table:
+ Previously in Detect 
+ Now In Clinical Data Studio 
+ | Detect > Patient Data Surveillance > Data Reviewer
+ | Access Data Surveillance :
+- Data Sets 
+- Open Queries 
+- Vendor Issue Sets 
+- Data Listings 
+- AI Data Reconciliation 
+- RECIST 1.1 
+ | 
+ Left-hand menu options:
+ | 
+ | 
+ | 
+- Listing Manager no longer appears on the left-hand menu. Instead the Data Listings page includes a Manage Listing button on the top right corner of the page. Listing managers can use the button to edit listings. 
+ Centralized Statistical Monitoring
+## Centralized Statistical Monitoring
+ In Clinical Data Studio, the former Centralized Statistical Monitoring has been rebranded as Statistical Monitoring, which you can access from the RBQM tab. The updated navigation is shown in the following table:
+ Previously in Detect 
+ Now In Clinical Data Studio 
+ | Detect > Centralized Statistical Monitoring:
+- Data Veracity
+- Weekend and Holiday Visits 
+- Potential Duplicate Patients 
+- Rounding & Propagation 
+- Reporting Patterns
+- Event Incidence 
+- Under-Over Reporting Events 
+- Exploratory Analysis 
+- History  
+ | Access RBQM  > Statistical Monitoring: 
+- Data Anomaly Detection 
+- Weekend and Holiday Visits 
+- Potential Duplicate Patients 
+- Rounding & Propagation 
+- Event Incidence 
+- Under-Over Reporting Events 
+- History 
+ | 
+ Left-hand menu options:
+ | 
+ Risk Management
+## Risk Management
+ In Clinical Data Studio, the former Risk Management capability is split into offerings that focus on specific study risk-related features that you can access from the RBQM tab. 
+ Previously in Detect 
+ Now In Clinical Data Studio 
+ | Detect > Risk Management:
+- Risk Inventory 
+- Risk Assessment 
+- Report 
+ | 
+- Access RBQM  > Risk Assessment:
+- Assessment Details 
+- Critical Data 
+- Critical Processes 
+- Categorization 
+- Version History 
+- Reports 
+- Access RBQM > Risks, which shows the Risk Inventory page. 
+- Access RBQM > Configuration > Risks, which shows the Risk Assessment Configuration page. 
+- Access RBQM  > Library:
+- Critical Data Templates 
+- Critical Processes Templates 
+- Risk Categorization Templates 
+ | 
+ Left-hand menu options:
+ | 
+ The arrows in the image below correspond to Risk Assessment, Risk Inventory, Risk Assessment Configuration, and RBQM Template Library, respectively. 
+ | 
+ | 
+- The current risk assessment version appears on the Critical Data , Critical Processes , and Categorization pages. 
+- The Version History page includes the version number and status for the risk assessment. Once finalized, the current version of the risk assessment becomes uneditable. You can then download the Risk Assessment report.  
+- For any client division scheme, the templates appear at the study level for your study. 
+- Only Risk Administrators can view the templates in the RBQM Template Library. 
+ KRI Dashboard
+## KRI Dashboard
+ In Clinical Data Studio, the former KRI Dashboard capability is rebranded as Key Risk Indicators. You can access study-related key risk indicators (KRIs) from the RBQM tab. 
+ Previously in Detect 
+ Now In Clinical Data Studio 
+ | Detect > Key Risk Indicators:
+- KRI Dashboard 
+- KRI Scheduler 
+ | 
+- Access RBQM > KRI Dashboard, which appears when you click the KRIs subtab. 
+- Access RBQM > Configuration > Key Risk Indicators, which appears when you click the KRIs subtab. You can configure KRIs for your study on the KRI Configuration page. 
+ | 
+ | 
+ | 
+ | 
+- The KRI Scheduler no longer appears as a separate page, but as a button on the Key Risk Indicators page. If you have View KRI Dashboard permissions, you can view the KRI Scheduler button on the Key Risk Indicators page.  
+- If you have Manage KRI Scheduler permissions, you can perform instant refreshes or schedule them by clicking the KRI Scheduler. 
+ QTL Dashboard
+## QTL Dashboard
+ In Clinical Data Studio, the former QTL Dashboard is rebranded as Quality Tolerance Limits. You can access quality tolerance limits (QTLs)-related features from the RBQM tab. 
+ in Detect 
+ Now In Clinical Data Studio 
+ | Detect > Quality Tolerance Limits:
+- QTL Dashboard 
+- QTL Scheduler 
+ | 
+- Access RBQM > QTL Dashboard, which appears when you click the QTLs subtab. 
+- Access RBQM > Configuration > Quality Tolerance Limits, which appears when you click the QTLs subtab. You can configure QTLs for your study on the Quality Tolerance Limits 
+-  page. 
+ | 
+ Left-hand menu options:
+ | 
+ | 
+ | 
+- The QTL Scheduler no longer appears as a separate page, but as a button on the Quality Tolerance Limits page 
+- If you have View QTL Dashboard permissions, you can view the QTL Scheduler button on the Quality Tolerance Limits page.  
+- If you have Manage QTL Scheduler permissions, you can perform instant refreshes or schedule them by clicking the QTL Scheduler. 
+ Configuration and Reporting
+## Configuration and Reporting
+ In Clinical Data Studio, you can access offerings in the former Configuration and Reporting card from the Configuration tab and Library tab in both RBQM and Data Surveillance, respectively. 
+ in Detect 
+ Now In Clinical Data Studio 
+ | Detect > Configuration and Reporting:
+- Review Reports 
+- Detect Mapping 
+- QTL Configuration 
+- KRI Configuration 
+- Derived Variables 
+- Vendor Configuration 
+- Stacked Datasets 
+- Detect Templates 
+ | 
+ Data Surveillance 
+- Access Data Surveillance > Configuration:
+- Data Mapping, which also includes Oncology Mapping. 
+- Vendor Configuration 
+- Derived Variables 
+- Stacked Datasets 
+- Review Reports 
+- Access Data Surveillance > Library, shows templates for KRIs, QTLs, and listings at the client division  level. 
+ RBQM 
+- Access RBQM > Configuration:
+- Data Mapping 
+- Risk Assessment Configuration 
+- Key Risk Indicators 
+- Quality Tolerance Limits 
+- Derived Variables 
+- Stacked Datasets 
+- Access RBQM > Library, which shows templates for critical data, critical processes, risk categories, KRIs, QTLs, and listings at the client division level. 
+ | 
+ Left-hand menu options:
+ | 
+ Data Surveillance 
+ RBQM  
+ | 
+ | 
+ | 
+ | 
+- Detect Mapping is now renamed to Data Mapping. 
+- In the Configuration tab for both Data Surveillance and RBQM, you can edit configurations or map data only if you have the Manage CSM Configuration role. 
+ Insights
+## Insights
+ In Clinical Data Studio, the Insights card is renamed to Clean Patient Tracker, which is the default page that appears when you click Data Surveillance.
+ in Detect 
+ Now In Clinical Data Studio 
+ | Detect > Insights :
+- Clean Patient Tracker 
+ | Access Data Surveillance > Clean Patient Tracker
+ | 
+ Left-hand menu options:
+ | 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this change:
+- Clinical Data Studio 
+- Data Surveillance and RBQM 
+ You can also view the:
+- Medidata Clinical Data Studio June 2024 Release Training 
+- Differences Between Medidata Detect and Clinical Data Studio eLearning video . 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,15 @@
+# Design Report Enhancements
+
+## Design Report Enhancements
+## Description
+ Design reports now include the following enhancements:
+- All graph options in wide tables and transposed tables now display.
+- Timelines include a new Label/Color(s) section featuring colored labels. The associated drug variable defines the labels.
+## Affected Roles
+ All.
+## Advantages
+ Displaying all graph options in the design report enhances your ability to review design reports.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

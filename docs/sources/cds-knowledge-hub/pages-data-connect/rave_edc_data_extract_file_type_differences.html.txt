@@ -1,0 +1,36 @@
+# Rave Data Extract File Type Differences
+
+## Rave Data Extract File Type Differences
+ You can configure exports to export data files as comma-separated values (CSV) files, as  SAS V5 Transport files (XPT), or as JSON files. The extracted data is identical between both file types, but the file structure differs. This article describes differences between the CSV and XPT format for the Rave (RAW) data type . 
+ For details on extracting data, see  Extracting Data with Exports . 
+ Note : SAS V5 Transport file export is only available when exporting Rave RAW data. When you select the SAS file type for Rave RAW data, the exported file outputs as a compressed file containing both CSV and XPT files. 
+ Summary
+ Description 
+ CSV
+ XPT
+ | Field Name Length Limits 
+ | Field names can differ between the file types. 
+ | Matches Medidata standards
+ | Limited to 8 characters
+ | Field Type Changes
+ | Fields containing a combination of characters and numbers can appear in different formats between the file types. 
+ | Numeric format
+ | String format
+ | Extra Data Columns
+ | The extracted files can have extra data columns containing applicable metadata related to the file type. 
+ | No added columns
+ | Added columns:
+- SAS_ALTERED_ITEM_NAME – Shows mappings for any fields truncated in the XPT file. 
+- SAS_FORMAT – Shows the formatting applied to the CSV file when generating the XPT file. 
+ | Datetime Field Format
+ | The export process treats datetime-based fields as dates and applies the Date format in extracted files. However, the export process treats date-based fields as characters and applies the Char format in extracted files. The extracted files can have extra columns containing applicable metadata related to the date field. 
+ | No added columns
+ | Added Columns: 
+- _DT 
+- _DTC 
+- _DTI 
+ You can disregard the content of these columns.
+ | Time Field Format
+ | Time-based fields do not have a standardized format. The export process treats time-based fields as strings and applies the String format in the extracted files. 
+ | String format 
+ | String format

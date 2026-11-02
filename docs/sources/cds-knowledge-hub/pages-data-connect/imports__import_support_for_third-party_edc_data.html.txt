@@ -1,0 +1,31 @@
+# Imports: Import Support for Third-party EDC Data
+
+## Imports: Import Support for Third-party EDC Data
+## What Is New?
+ Data Connect’s Imports capability provides new functionality to import third-party EDC data by SFTP, FTPS, or S3 connections. Users can configure metadata datasets listing: 
+- All planned visits added within a study.  
+- All sites added within the study.  
+- All patients within the study 
+- The primary site associated with each patient within the study. 
+ After importing metadata and clinical data, users can activate the data to use in Data Surveillance.  
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ There is no change to the existing   data transfer configuration process . These updates augment existing functionalities. Users can now, however, import third-party EDC data with Imports. 
+## Other Applications
+- Data Connect   >   Datasets   and   Transformations   – Users can see the third-party EDC data imported with Imports when using Data Connect's Datasets module or the Transformations module. 
+- Data Surveillance   and   RBQM   – Users can use transform third-party EDC data for use by downstream capabilities such as Data Surveillance and RBQM. 
+- Data Connect   >   Exports   – Users can export transformed data using imported third-party EDC data from Data Connect's Exports module. 
+## How Do I Benefit?
+ With the ability to:
+- Import third-party EDC datasets from external sources, users can use Medidata's risk-based monitoring capabilities such as Data Surveillance with data from their own data sources. 
+- Edit import configurations, users can correct misconfigurations or update criteria when file naming conventions are changed in external source systems. 
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Imports tab. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Feature: 
+- Import Third-Party EDC Data 
+## What Else Should I Know?
+ There are certain limitations when you import EDC data with Veeva API, for more information on this see  Add Data Source . 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,58 @@
+# AI Reconciliation: Updated AI Reconciliation Provides A Better User Experience
+
+## AI Reconciliation: Updated AI Reconciliation Provides A Better User Experience
+## What Is New?
+ AI Reconciliation includes updates to the page that enhance the user experience.
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ No impact to workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The updated AI Reconciliation page enhances the user experience and enables data managers to filter and find records of interest, thus enabling greater efficiency in data reconciliation.
+## Where Do I See the Change?
+ On the Data Surveillance tab, if you click AI Reconciliation on the left-hand menu, the AI Reconciliation page appears. The updated page has the following changes:
+ Tip : Click the image to enlarge.
+ Image A 
+ Image B 
+ | 
+ | 
+ Number 
+ Description 
+ | 1. 
+ | AI Reconciliation – The page title now reads Reconciliation. It shows the last refreshed date and time, and the global refresh status. 
+ | 2. 
+ | Conditions and Treatments cards – The new Conditions and Treatments cards replace the respective tabs. For a selected card, the list of reconciliation reports appear. For example, the default selection is Conditions, which shows all the six conditions reports. 
+ | 3.  
+ | List of reports – Based on the Condition or Treatments card you select, the corresponding list of reports appears. Each report shows the individual refresh status and the type of report. If you click an individual report, a new page with the report details appears. (Image B) 
+ | 4. 
+ | 
+ Refresh – You can click the Refresh button to refresh all reconciliation reports at once.
+ | 5. 
+ | 
+ Individual Reports page – If you click any report on the Reconciliation page, it opens on a new page. The individual report shows the refresh status, the date, and time it was last refreshed and the type of report.
+ | 6. 
+ | 
+ Reviewed and Unreviewed cards – The new Reviewed and Unreviewed cards show report records as per the selected card.
+ | 7. 
+ | 
+ Individual Report data – The records in the report appear in a table format, with the following columns.
+- Patient 
+- Site 
+- Country 
+- Dataset 
+- Logline 
+- Reported Term 
+- Preferred Term 
+- Confidence 
+ You can click the Patient number to view the patient profile associated with the patient. You can submit Rave queries, mark records as reviewed, add comments, link conditions or treatments, give feedback thumbs up or thumbs down, for individual records. If you click any hyperlinked number for any column, for example, S ame Time Frame Treatments , or Outside Time Frame Treatments for a patient in the report table, a new page that shows the associated conditions or treatments, appears.
+ | 8. 
+ | 
+ Download (xlsx.) – You can download report data as Excel files. If you click , the More icon, and then click Column Configuration , you can hide columns from the report. However, Patient ID, Site, Country, and Status columns appear for all reports.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- AI Reconciliation 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

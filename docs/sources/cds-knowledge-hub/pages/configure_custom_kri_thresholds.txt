@@ -1,0 +1,26 @@
+# Configure Custom KRI Thresholds
+
+## Configure Custom KRI Thresholds
+## Description
+ On the Key Risk Indicators page, you can configure user-defined, custom KRI thresholds to identify KRI outliers. 
+## Affected Roles
+ Detect Configuration Manager Administrators. 
+## Advantages
+ For Custom Numeric and Custom Percentage KRIs, you can set your own threshold to determine moderate risk and high risk categories and study data issues that meet your data monitoring requirements. 
+## User Impact
+ On the Medidata Detect Landing Page > Key Risk Indicators (KRIs) module > KRI Configuration > Key Risk Indicators page, the Custom Numeric KRI dialog box and the Custom Percentage KRI dialog box now include the following new fields: 
+-  Threshold Type – Select KRI threshold as User Defined or System Defined. Selecting User Defined displays the following fields:   
+- Moderate Risk Threshold – Enter the value that represents the lowest risk limit for the KRI. 
+- The Custom Percentage KRI value must be between 1 and 100. 
+- The Custom Numeric KRI value must be a positive number less than the High Risk Threshold value. 
+- High Risk Threshold – Optional. Enter a value that represents the highest risk limit for the KRI.   
+- The Custom Percentage KRI value must be between 1 and 100. 
+- The Custom Numeric KRI value must be a positive number more than the Moderate Risk Threshold value. 
+## Knowledge Space Updates
+ None. 
+ Special Considerations 
+- You can edit only inactive KRIs. 
+- If you update an existing user defined KRI, new changes will affect all calculations and analytics that consume the user defined KRI.  
+- If activated, the updated custom KRI details appear in Centralized Statistical Monitoring (CSM) (formerly Medidata Detect) after the Centralized Statistical Monitoring (CSM) (formerly Medidata Detect) next data refresh. 
+- If you hover your cursor over a Percentage KRI in the Type column of the KRI table, a tooltip indicates if the KRI's threshold calculation is User Defined or System Defined.  
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

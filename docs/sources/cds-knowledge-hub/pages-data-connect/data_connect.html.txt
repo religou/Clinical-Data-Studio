@@ -1,0 +1,30 @@
+# Data Connect
+
+## Data Connect
+ Data Connect is a part of Clinical Data Studio, and unifies data discovery, ingestion, transformation, and exports. It provides interoperability across various data sources and systems. Users can explore internal and external datasets, import non-Medidata data sources, and transform datasets into industry or custom data models. Users can then activate  non-Medidata datasets for down stream Medidata experiences, or export and share datasets to external systems.  
+ | 
+## Get Started
+ About Data Connect 
+ Grant Access to Data Connect 
+ Log In, Navigate Medidata, and Access Studies 
+ Access Data Connect 
+ | 
+## What's New
+ Data Connect Release Notes 
+ Data Connect Release News 
+ | 
+## Training
+ Medidata Clinical Data Studio 2026.3.0 Release Training 
+ | 
+## More About Clinical Data Studio
+ About Clinical Data Studio 
+ About Data Surveillance 
+ About RBQM 
+ About Cross Study Metrics 
+ | 
+## More About Data Connect
+ Datasets 
+ Imports 
+ Exports 
+ Transformations 
+ |

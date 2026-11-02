@@ -1,0 +1,13 @@
+# Validated Code for Future Features
+
+## Validated Code for Future Features
+## Description
+ Pre-work has begun and code is validated for the Dashboard tab and KRI tab. However, these features are not visible or available for use in Rave CSA 2020.1.0 and are currently planned to release for Rave CSA 2020.2.0.
+## Affected Roles
+ None.
+## Advantages
+ None.
+## User Impact
+ None.
+## Special Considerations
+ None.

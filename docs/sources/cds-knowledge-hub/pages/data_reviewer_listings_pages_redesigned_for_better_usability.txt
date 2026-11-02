@@ -1,0 +1,51 @@
+# Data Reviewer Listings Pages Redesigned For Better Usability
+
+## Data Reviewer Listings Pages Redesigned For Better Usability
+## Description
+ Data Reviewer 2023.1.0 presents a new User Interface (UI) including redesigned Listings pages.
+## Affected Roles
+ All roles with the View Data building block. 
+## Advantages
+ You can now locate on-screen Data Reviewer components with ease and have a better user experience.
+## User Impact
+ Note: The generated fields, for example, _DTC, _TXT, and so on,  have been removed from the datasets selection list.  For Listings created against generated fields, edit the Listings and select the associated non-generated fields.   
+ The screenshot and corresponding table below highlight the UI changes.
+ Tip: Click image to enlarge.
+ Number 
+ Description 
+ | 1 
+ | The Listings page is renamed to Data Listings. You can select Data Listings in the left menu in Medidata Detect > Patient Data Surveillance > Data Reviewer to view the Data Listings page.  
+ | 2 
+ | The Data Listings page shows all the listings created in the study. 
+ | 3 
+ | The Data Listings page now includes two tabs: Approved Listings , which includes all approved listings and Draft Listings , which includes listings are saved but not yet approved. For more information on the data grid 
+ | 4 
+ | The Approved Listings section shows the number of approved listings and all the active approved listings in the study. Similarly, the Draft Listings section shows the number of draft listings and all the active draft listings in the study.  
+ | 5 
+ | For any listing you select, you can click Submit Queries to submit Rave queries for Rave Enabled listings . 
+ | 6 
+ | 
+ You can click to apply filters to columns shown in a listing. 
+- For draft listings, you can filter by: Name, Rave Enabled, Created By, Updated By.  
+- For approved listings, you can filter by: Name, Rave Enabled, Created By, Refreshed By. 
+ | 7 
+ | For any listing you select, the listing details appear on the page. Each listing includes the following columns:
+- Name - Listing name 
+- Expression - The expression used to build the listing 
+- Rave Enabled - A check mark indicates if the listing Rave enabled. 
+- Created By - Name of the person who created the listing. For draft listings, this column is replaced by Last Updated , which shows the date when the draft listing was last saved. 
+- Refreshed By -Name of the person who refreshed the listing. For draft listings, this column is replaced by Updated By , which shows the person who last updated the listing. 
+ | 8 
+ | The Listing name and the total number of records in the listing. 
+ | 9 
+ | 
+ You can click Refresh to get get the latest data into the listing. You can click History to open a slide-out panel to the left which shows the historical details for the listing. You can filter columns using the icon and also hide columns with data based on the expression builder. However, you cannot hide the Patient ID , Site , and Country columns for any listing. For more information, see Refresh And Get Listings History .
+ | 10 
+ | You can click New Listing to create a draft listing using the Expression Builder. Listing records display based on the expression, data set variables, and operators you select in the expression builder. For more information, see View, Create, and Edit Draft Listings . 
+ Knowledge Hub Updates 
+ The Detect Knowledge Hub provides new and updated content to support the enhancement: 
+- Data Listings 
+## Special Considerations
+- You can only view Draft Listings if you have Edit Listing access. 
+- You can only approve a listing with < 10,000 records. You must edit the conditional expression in the expression builder if the listing shows >10,000 records. 
+- To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

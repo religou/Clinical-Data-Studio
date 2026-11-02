@@ -1,0 +1,25 @@
+# PDS: Add and Manage Internal Review Comments on AI Data Reconciliation Report Records
+
+## PDS: Add and Manage Internal Review Comments on AI Data Reconciliation Report Records
+## What Is New?
+ You can add comments directly on individual records that appear in any AI Data Reconciliation report. You can also: 
+- View a record's comment history. 
+- Edit and delete your own comments. 
+## What Is the Impact?
+## Users/Roles
+ Data Managers. 
+## Workflow Process
+ No impact to the workflow process. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ Comments enable you to share review notations with your study team. For example, you can comment on your rationale for marking a record as reviewed. Or you can communicate with others your intention to review a record once its query is closed.
+## Where Do I See the Change?
+ In Patient Data Surveillance (PDS) > AI Data Reconciliation: when viewing any report, you can c lick the More button, , in the row corresponding to a finding you want to comment on, and then click Comment . A Comments panel appears where you can enter and submit your comment. Afterwards, i n the row containing the finding, the Status column shows a Comment icon, . You can click a Comment icon to: 
+- View the comment history and associated metadata. 
+- Edit or delete your own comments. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Review AI Data Reconciliation Report Findings 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

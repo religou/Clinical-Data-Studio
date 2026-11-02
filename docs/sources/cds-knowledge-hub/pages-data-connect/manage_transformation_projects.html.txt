@@ -1,0 +1,94 @@
+# Manage Transformation Projects
+
+## Manage Transformation Projects
+ With the Transformations experience, you can create and manage transformation projects to serve a variety of use cases. You can create the following types of projects:
+- Derived datasets 
+- Enriched views such as unit conversions 
+- SDTM-like datasets* 
+- Custom data models* 
+- Custom code projects to host datasets transformed with the Data Connect R SDK* 
+ Important : Projects denoted with an asterisk are in limited preview for select customers. 
+## Project Considerations
+- Projects for SDTM-like datasets, derived datasets, and custom data models include several no-code field-level transformation components, which you can combine to create complex transformations. 
+- For complex transformation operations, you can use the Data Connect R SDK Library. For details, see  Generate Custom Code Projects . 
+- Errors in a transformation project do not affect the upstream data source or, when applicable, other upstream transformation projects. 
+- All users within a study can access any transformation project. However, only one user can configure a project at a time. While a user configures a transformation project, other users concurrently viewing the project only have view access and cannot make changes until the current editor leaves the project configuration screen. 
+- Projects have multiple statuses. For details, see  Transformation Project Statuses . 
+ Important : While editing an activated derived dataset project, if you make a change without changing the dataset name – such as performing a Replicate operation entering a dataset name – then when you republish the dataset, it creates a dataset with a duplicate dataset name rather than overwrite the original dataset. To fix the issue, do one of the following: 
+- To prevent the duplication : R ename the last node to publish a dataset with a new name. 
+- If duplication has occurred : Upversion the duplicated dataset, and only activate the dataset that has the highest version . 
+## Create Project
+ SDTM-like Datasets Enriched Datasets - Unit Conversions Derived Datasets Custom Data Models Custom Code 
+ SDTM-like Datasets
+ You can use a streamlined no-code process to generate Study Data Tabulation Model
+ (SDTM)-like datasets
+ across all domains
+ , available in version SDTM IG 3.3 and 3.4. This includes CDISC controlled terminology mapping. 
+ When you refresh the preview while building data mappings, you can trigger quality checks on demand for your edits based on the SDTM metadata requirements. You can also use Pinnacle 21 Enterprise to validate SDTM datasets.
+ Important :  Pinnacle 21 Validation Perquisites 
+- You must have a valid Pinnacle 21 enterprise license with Pinnacle 21 version 6.1.1 and above. 
+- You must contact your account executive to obtain approval to use the Pinnacle 21 integration. Ensure that you have and share the Domain URL and System/API Key for your Pinnacle 21 implementation 
+- To obtain the above details, send an email to  support@pinnacle21.atlassian.net . 
+ To create this project:
+- Access Data Connect , and click  Transformations  in the left-hand menu. 
+- Click Add Project , and enter the following settings:
+- Project Name – Enter a project name. 
+- Target Setup – Select one of the following:
+- Industry Default – Uses the industry SDTM model with no added domains or variables. 
+- Custom SDTM-like Target – Prepopulates the dataset with domains and variables based on the selected template. For details, see Publish Projects . 
+- Project Type – Select a suitable SDTM version. 
+- SDTM Target Template – If using a custom SDTM-like target, select which template to use. 
+- Template Version – Select which version to use. 
+- CDISC Version – Select required CDISC version to use for the project. 
+- Click Add project . 
+ For details on configuring this project type, see  Generate SDTM-like Datasets .
+ Enriched Datasets - Unit Conversions
+ You can configure unit conversion to transform data set fields from one unit into another unit for later mapping. Unit conversion uses a Quantities, Units, Dimensions, and Types (QUDT) industry library to automatically identify relevant source and target units and analytes. The QUDT supports over 1500 units resulting in over 1.5 million pairwise combinations. With unit conversion, you can automatically generate and apply conversion factors, and custom configurations.
+ After adding one or more data sets, you can configure unit conversions on each dataset by defining unit fields for their respective unit dataset. This entails:
+- Selecting a value for the source dataset. 
+- Selecting a unit for the target dataset. 
+- Selecting an analyte as necessary. 
+ To create this project:
+- Access Data Connect , and click  Transformations  in the left-hand menu. 
+- Click Add Project , and enter the following settings:
+- Project Name – Enter a project name. 
+- Project Type – Select Enriched view . 
+- Click Add project . 
+ For details on configuring this project type, see  2026-07-30_14-28-48_Generate Enriched Datasets with Unit Conversions .
+ Derived Datasets
+ You can create derived datasets based on a combination of various parameters and using capabilities including: 
+- No-code dataset operations, configurations, and transformations 
+- The ability to add more variables to the derived dataset 
+ With derived datasets, you can combine and transform datasets to support downstream use cases and analytics.
+ To create this project:
+- Access Data Connect , and click  Transformations  in the left-hand menu. 
+- Click Add Project , and enter the following settings:
+- Project Name – Enter a project name. 
+- Project Type – Select Derived datasets . 
+- Click Add project .
+ Tip :
+- You can also create a derived dataset project from the Datasets tab by clicking Add Dataset > Derived Datasets.  
+- To create a derived dataset project from a template, see  View and Manage Templates . 
+ For details on configuring this project type, see  Generate Derived Datasets .
+ Custom Data Models
+ You can generate custom data model templates that you and other users in your study group can reuse across studies. You can create these data models from scratch, from  derived datasets , or from SDTM-like datasets . During configuration, you can use a streamlined no-code process to conform various data sources into the data model's requirements with live data preview and metadata-based validation. 
+ To create this project:
+- Access Data Connect , and click  Transformations  in the left-hand menu. 
+- Click Add Project , and enter the following settings:
+- Project Name – Enter a project name. 
+- Project Type – Select Custom data model . 
+- Available Custom Data Model – Do one of the following:
+- Enable, and select a published data model saved as a template . The selected template prepopulates the data model with variables and configurations that you can further update. 
+- Disable to start with an empty state. 
+- Custom Data Model Version – If using a data model template, you select one of the template's published versions. 
+- Click Add project . 
+ For details on configuring this project type, see Generate Custom Data Models .
+ Custom Code
+ Data Connect's Custom Code data project serves as the destination and container for datasets you externally create and transform with Data Connect R Software Development Kit (SDK) . This article covers the different aspects and purposes of the Custom Code project type. 
+ To create this project:
+- Access Data Connect , and click  Transformations  in the left-hand menu. 
+- Click Add Project , and enter the following settings:
+- Project Name – Enter a project name. 
+- Project Type – Select Custom code (BETA) . 
+- Click Add project . 
+ For details about this project type, see Generate Custom Data Models .

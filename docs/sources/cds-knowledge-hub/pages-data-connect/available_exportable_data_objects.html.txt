@@ -1,0 +1,17 @@
+# Available Exportable Data Objects
+
+## Available Exportable Data Objects
+ Files extracted by exports contain various data objects from the applications you have access to. For details on creating exports, see the  Create Export workflow. 
+ Important : Your Rave URL configuration can affect your ability to access exported data. For details, please contact your Medidata representative or Medidata Support.
+- Rave Data Objects 
+- Medidata CTMS Data Objects 
+- Study Level Master Data Objects 
+- Study Level Audit Master Data Objects 
+- Study Level Rave Audit Data Objects 
+- Client Division Level Master Data Objects 
+- Client Division Level Audit Master Data Objects 
+- Rave Companion Audit 
+- Data Connect 
+- Data Connect Audit Data 
+- Clinical Data Studio Audit Data 
+ For details on the roles and permissions required to export data, see Data Connect Roles and Capabilities .

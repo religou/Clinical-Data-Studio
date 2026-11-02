@@ -1,0 +1,59 @@
+# Patient Profiles Cloud Introduces Unblinded and Blinded User Role Permissions
+
+## Patient Profiles Cloud Introduces Unblinded and Blinded User Role Permissions
+## Description
+ In previous releases, Patient Profiles Cloud did not have a way of identifying which data was considered clinically unblinding. And as such, any patient profile designer who had access to Patient Profiles Cloud also had access to all data sets, including the unblinding data. In this scenario, depending on a designer's role in a sponsor's organization, there was the risk of an accidental unblinding incident, which could potentially nullify the results of the entire trial. Therefore, it was not always safe to run certain studies in Patient Profiles Cloud. And ideally, an organization should be able to safely run all studies on the same platform.
+ To alleviate this issue and allow organizations to run all studies in Patient Profiles Cloud, Patient Profiles now provides four total users roles:
+- Unblinded Patient Profile Designer 
+- Blinded Patient Profile Designer 
+- Unblinded Patient Profile Viewer 
+- Blinded Patient Profile Viewer 
+ Implementing unblinded and blinded users role permissions controls the types of actions users can and cannot perform in Patient Profiles Cloud, and which designs users can and cannot view.
+ Note : Patient Profiles 2019.1.0 also includes a feature in which you can designate designs as unblinded or blinded .
+ The table below illustrates the each user role's level of access and edit privileges:
+ User Role 
+ Can View Blinded Designs 
+ Can View Unblinded Designs 
+ Can Create Designs 
+ Can Edit Designs 
+ Can Mark Designs as Blinded or Unblinded 
+ Additional Notes 
+ | Unblinded Patient Profile Designer 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Yes 
+ | Patient profile designers have unblinded permissions by default. 
+ | Blinded Patient Profile Designer 
+ | No 
+ | No 
+ | No 
+ | No 
+ | No 
+ | Patient profile designers with blinded permissions cannot create or access designs in Patient Profiles Cloud.
+ | Unblinded Patient Profile Viewer 
+ | Yes 
+ | Yes 
+ | No 
+ | No 
+ | No 
+ | -- 
+ | Blinded Patient Profile Viewer 
+ | Yes 
+ | No 
+ | No 
+ | No 
+ | No 
+ | -- 
+## Affected Roles
+ All.
+## Advantages
+ Implementing unblinded and blinded user roles ultimately protects blinded data within Patient Profiles Cloud. This enables organizations to confidently and safely run any study in Patient Profiles Cloud without running the risk of voiding the study.
+## User Impact
+ We now refer to the Patient Profile Designer role as the Unblinded Patient Profile Designer role. The available set of functionalities available to designers remains the same other than the ability to designate designs as unblinded or blinded .
+ The Patient Profile Viewer role is now divided between the Unblinded Patient Profile Viewer role and the Blinded Patient Profile Viewer role. The set of available functionalities and the tasks that each role can perform remains the same. The only difference is that the Unblinded Patient Profile Viewer role can view all designs. And the Blinded Patient Profile Viewer role can only view blinded designs.
+## Special Considerations
+- Ensure that the appropriate unblinded or blinded permissions are assigned to you in Cloud Admin. If necessary, contact your Medidata representative. 
+- If you are a patient profile designer and you cannot create or access designs in Patient Profiles Cloud, contact your Medidata representative. 
+- If you are a blinded user and you try to access an unblinded design using a saved link, then you land on the Design List page and cannot access the design. This may occur if the study was previously designated as a blinded design and changed to unblinded.

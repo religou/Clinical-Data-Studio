@@ -1,0 +1,35 @@
+# Data Surveillance: Updated Listings Enable Better Vendor Queries Access
+
+## Data Surveillance: Updated Listings Enable Better Vendor Queries Access
+## What Is New?
+ The Listings page includes the following enhancements:
+- The Add Vendor Issue button for data listings is renamed to Submit Vendor Query. 
+- When you click the microscope icon in the Status column for a data listing, a slide-out panel appears. You can now edit the query set description in the slide-out panel.  
+- When you submit vendor queries, two additional query type options appear on the Add Vendor Queries page. 
+## What Is the Impact?
+## Users/Roles
+ Study Managers and Data Managers.
+ All users with Submit   Vendor Issues and Manage Issue Sets access. 
+## Workflow Process
+ No change to workflow process. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ Data managers can identify if a data listing has an associated vendor query, then cross-check the specific vendor issue set directly from the Listings page. While creating vendor queries, data managers can reconcile data faster by referring to the Rave or vendor data fields. 
+## Where Do I See the Change?
+ On the Data Surveillance > Listings page:
+- The Add Vendor Issue button for data listings is updated to Submit Vendor Query. 
+- If you click the     microscope icon for a data listing, a slide-out panel titled Vendor Query appears, which shows the vendor response card if a query set is not in draft state. You can edit the issue description for the query set in the slide-out panel.  
+- If you click Submit Vendor Query for a set of queries in a data listing: 
+- The Create Vendor Issues page is renamed to Add Vendor Queries. 
+- The Vendor Query list shows two additional options on the Add Vendor Queries page:
+- Other  
+- Discrepant 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Data Listings 
+- Vendor Queries 
+## What Else Should I Know?
+- The vendor response card appears in the slide-out panel for a data listing only if a query set is in either submitted, in-progress, or completed state. 
+- To access View Issue Sets, you must have the Submit Vendor Issues and Manage Issue Sets building blocks associated with your role in the Cloud Administration study group. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,92 @@
+# Data Surveillance: Query Veeva EDC Data Using Bulk Queries In Listings and AI Reconciliation
+
+## Data Surveillance: Query Veeva EDC Data Using Bulk Queries In Listings and AI Reconciliation
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the   released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.2.0
+ Change Type 
+ | Feature (New Functionality)
+ Functionality or Module 
+ | Listings and AI Reconciliation
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ If you use an external EDC platform such as Veeva as your study data source, you can now submit bulk queries into Veeva EDC for non-system fields in your study data from Listings and AI Reconciliation.  
+ Benefit to Users 
+ | Data managers can query and reconcilie study data from external EDC such as Veeva by raising queries directly into Veeva EDC from Data Surveillance. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Data managers and users with Manage Data Reviewer and View Data Reviewer building blocks in Cloud Administration.
+ Impact to Workflow Processes 
+ No change to the workflow process. 
+ Impact to Applications 
+ You study must be set up with Veeva as external data source. For further details, see Data Connect Veeva Importing .
+ Impact on Interface 
+- On the Listings page, you can submit bulk queries for transformed (derived data sets) and non-transformed into Veeva EDC. For derived data sets, the Submit Query button appears disabled if query submission is not enabled for the form, and mandatory fields are not completed. For a query enabled listing, if you select one or more records and click Submit Query, the following fields populate automatically. If you click Submit, the query is submitted into Veeva EDC.
+- Patient ID 
+- Site 
+- Country 
+- Query Text 
+- Field 
+- Value 
+- On the AI Reconciliation page:
+- For non-transformed data sets, if you click any report and then select one or more records (patient IDs), you can click Submit Query to send a query into Veeva directly for the selected records. 
+- For derived data sets or non-transformed data sets, if you click  Submit Query , no Form, Field, Folder, or Marking Group fields appear. 
+- Bulk queries you submit take around three hours to post the data into Veeva EDC and return the status back into Listings and AI Reconciliation. The status column updates once the status is received. 
+- The Status column for any record included in a query set, shows a icon. The icon appears around three hours after you submit the query. If you click the icon, a Query History slide out panel appears with the following fields:
+- Query Text 
+- Action 
+- Action By 
+- Action Date  
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Articles: 
+- Review Approved Listings Results . 
+- Review AI Reconciliation Reports Findings 
+ Special Considerations 
+ | You cannot submit queries for the following system fields:
+- STUDYID 
+- COUNTRY 
+- SITENUM 
+- SUBJID 
+- EGROUP 
+- EGROUPDEF 
+- EGROUPEID 
+- EVENT 
+- EVENTDEF 
+- EVENTEID 
+- EVENTDT 
+- ESEQ 
+- FORM 
+- FORMDEF 
+- FORMEID 
+- FSEQ 
+- FORMSTATUS 
+- CREATEDT 
+- FIRSTSUBMITDT 
+- LASTSUBMITDT 
+- IGSEQ 
+- DLASTMOD 
+- FGUID 
+- IGGUID 
+- LASTRUN 
+   To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

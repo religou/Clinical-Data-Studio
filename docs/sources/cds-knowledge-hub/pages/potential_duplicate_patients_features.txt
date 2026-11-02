@@ -1,0 +1,8 @@
+# Potential Duplicate Patients Features
+
+## Potential Duplicate Patients Features
+ Medidata Detect includes the following potential duplicate patient-related capabilities: 
+- CSM: Potential Duplicate Patients Export Updates 
+- CSM: Potential Duplicate Patients Analysis Accounts for Sites Without Recognizable Addresses 
+- Centralized Statistical Monitoring Enhancements 
+- Uncover Potential Duplicate Patients

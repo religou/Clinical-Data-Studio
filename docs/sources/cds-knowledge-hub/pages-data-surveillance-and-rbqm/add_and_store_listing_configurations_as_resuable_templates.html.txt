@@ -1,0 +1,19 @@
+# Add and Store Listing Configurations as Reusable Templates
+
+## Add and Store Listing Configurations as Reusable Templates
+ You can add and store listing configurations as templates to study-level template groups. Adding and using specific listings as templates: 
+- Enables you and your team to quickly and easily reapply common listings as needed across study configurations. 
+- Promotes faster study startup time. 
+- Ensures consistency and accuracy in listing details across studies. 
+- 
+ If necessary, access the Manage Listing page. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Data Listings page shows. 
+- Click Manage Listing on the upper-right side of the Data Listings page.
+ The Manage Listing page > Listings table shows all draft and approved listings in your study and each listing's associated details. 
+- In the Manage Listing page > Listings table, select the listing that you want to store as a template. 
+- Click Export as Template . 
+- Select the Template Group within your organization's global template library where you want to store the listing template. 
+- Enter a Name . 
+- Click Export .
+A confirmation message appears at the top of the page. You can now find the listing template in your organization's global template library stored in the selected template group. You can also now import and add the listing template to data listings in other studies within the same Client .

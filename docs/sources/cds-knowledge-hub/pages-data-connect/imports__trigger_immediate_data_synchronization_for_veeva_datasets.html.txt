@@ -1,0 +1,21 @@
+# Imports: Trigger Immediate Data Synchronization for Veeva Datasets
+
+## Imports: Trigger Immediate Data Synchronization for Veeva Datasets
+## What Is New?
+ Users can now sync Veeva EDC datasets immediately.
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process. 
+## Other Applications
+ No Impact to other applications
+## How Do I Benefit?
+ Users had to wait until 12 hours to sync the new ZIP file in the data source to process the new datasets. With this enhancement, users can trigger Veeva EDC dataset synchronization on demand and import the latest datasets from the data source.
+## Where Do I See the Change?
+ No changes to the user interface.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Enhancement: 
+- Import with Veeva EDC Direct Connect 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,28 @@
+# Data Surveillance and RBQM
+
+## Data Surveillance and RBQM
+ Data Surveillance and RBQM are   comprehensive data and risk surveillance   software capability suites   provided by the Clinical Data Studio solution. Data Surveillance encompasses a drag-and-drop listings builder, automated query generation for Rave sourced data, issue management for non-Medidata sourced data, AI-powered data reconciliation, patient profiles, and visualizations. RBQM   supports a holistic   risk-based quality management (RBQM)   approach to data quality. 
+ | 
+## Data Surveillance
+ About Data Surveillance 
+ Access Data Surveillance 
+ | 
+## RBQM
+ About RBQM 
+ Access RBQM 
+ | 
+## More About Clinical Data Studio
+ About Clinical Data Studio 
+ About Data Connect 
+ About Cross Study Metrics 
+ | 
+## What's New?
+ Clinical Data Studio Release Notes 
+ Clinical Data Studio Release News 
+ | 
+## Training
+ Data Surveillance Video Library 
+ RBQM Video Library 
+ | 
+## Technical Handbook
+ Clinical Data Studio Technical Handbook

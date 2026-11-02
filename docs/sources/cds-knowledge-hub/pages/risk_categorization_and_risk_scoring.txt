@@ -1,0 +1,22 @@
+# Risk Categorization and Risk Scoring
+
+## Risk Categorization and Risk Scoring
+## Description
+ The risk assessment team can categorize risks to make them easier to review and develop mitigation strategies.  Yo u can use predefined templates or create new risk categorization templates to apply to all studies in the client division. You can also create new risk categories at the study level.   
+## Affected Roles
+ All.
+## Advantages
+ Yo u can list the risk categories in a template for use in many studies or define a unique set of risk categories for a single study. The risk categories make it easier for the risk assessment team to review and develop mitigation strategies for a group of similar risks.  
+## User Impact
+## Client Division Level
+ A list of predefined templates displays when you click   Risk Categorization Templates   in the left pane. These templates provide a starting point for you to categorize the risks for your study. You may add or delete risks in these predefined templates or create your own unique template. 
+- Decentralized Clinical Trials (DCT) Risk Assessment Considerations   - The DCT Risk Assessment Considerations template provides categories of risk, questions for discussion, and considerations specific to risk categories associated to the implementation of decentralized trials. This template supports risk identification that could affect patient safety, data integrity, or regulatory compliance because of the impact of decentralized trials on clinical trial operations. The source of information for this template is the Association of Clinical Research Organizations (ACRO). 
+- Medidata COVID-19   - The COVID-19 template provides categories of risk, questions for discussion, and considerations specific to risk categories associated to the COVID-19 pandemic. This template supports risk identification that could affect patient safety, data integrity, or regulatory compliance because of the impact of COVID-19 to clinical trial operations. The source of information for this template is Medidata, a Dassault Systèmes Company. 
+- TransCelerate BioPharma Inc. RACT   -   This TransCelerate   template provides categories of risk, questions for discussion, and considerations specific to risk categories. This template supports risk identification that could affect patient safety, data integrity, or regulatory compliance. The source of information for this template is TransCelerate   BioPharma   Inc. 
+## Study Level
+- You can use a predefined risk categorization template to group the risks associated with the study. Or you can create new risk categories and add risks unique to your study.  
+- When you add a risk category, you can configure a list of questions that the team uses when discussing the risk or mitigation strategies. You can associate a risk score with a question, with a risk, or with a risk category. 
+- The risk score is based on the Scoring by Product methodology and uses a three-point scale: High, Medium, and Low. 
+- A Total Risk Categorization Score shows at the top of the Risk Categorization page. The Total Risk Categorization Score is calculated as the sum of the individual Risk Category Scores. 
+## Special Considerations
+ None.

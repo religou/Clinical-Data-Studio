@@ -1,0 +1,13 @@
+# Tooltip Displays Full Variable Display Name When Working in Elements
+
+## Tooltip Displays Full Variable Display Name When Working in Elements
+## Description
+ On the Design page > Elements tab, a tooltip now displays when you hover your cursor on a variable's display name when working in Header, Patient Information, and Wide Table elements. 
+## Affected Roles
+ Patient Profiles Designers
+## Advantages
+ You can hover on a truncated variable display name to view a tooltip that shows the full name. 
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

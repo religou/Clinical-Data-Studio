@@ -1,0 +1,14 @@
+# The Element Accordion Displays Full Data Set Names
+
+## The Element Accordion Displays Full Data Set Names
+## Description
+ On the Design page > Elements tab, when you are working with an element, the Element accordion on the right side of the page displays full data set names.
+## Affected Roles
+- Unblinded Patient Profile Designer 
+- Blinded Patient Profile Designer 
+## Advantages
+ You can now more easily identify the data sets listed in the Element accordion when building profile designs.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

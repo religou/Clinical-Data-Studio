@@ -1,0 +1,19 @@
+# Support for Multiple File Import
+
+## Support for Multiple File Import
+## Description
+ You can upload up to ten comma-separated value (CSV) files in a single import job. MEDS Ingestor validates each file to ensure file names are in the following format: <DatasetOID>-<filename>.csv. Uploads fail when file names do not adhere to the naming convention.  
+ Feature/enhancement stories referenced in this article:
+ MCC-568549, MCC-568554, MCC-568559, MCC-588678 
+## Affected Roles
+ All.
+## Advantages
+ The ability to upload multiple CSV files:
+- reduces time spent uploading files. 
+- provides a simplified and more intuitive user experience. 
+## User Impact
+- You can queue up to 10 files for import in the same job, reducing time spent uploading files. 
+- File name validation standardizes file names, ensuring that your files import successfully. 
+- File name validation occurs when you either  drag-and-drop files onto corresponding import jobs in the Import Summary or c lick Import on a given import job. 
+## Special Considerations
+ None.

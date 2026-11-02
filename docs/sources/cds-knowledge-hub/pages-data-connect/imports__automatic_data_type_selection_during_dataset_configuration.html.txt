@@ -1,0 +1,22 @@
+# Imports: Automatic Data Type Selection During Dataset Configuration
+
+## Imports: Automatic Data Type Selection During Dataset Configuration
+## What Is New?
+ While configuring a dataset using Data Connect's Imports experience, the system automatically detects and selects a data type for users. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ There is no change to the existing dataset configuration process . These updates augment existing functionalities. Users can now, however, use the auto-detect functionality to automatically assign data types to the columns. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ Earlier, users had to select a data type for each column and navigate between the columns and validation controls, which was a tedious process. Now with auto-detect functionality, the system assigns the data type automatically to each column.
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Imports tab. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Add Dataset 
+## What Else Should I Know?
+ Users can still select data types for columns manually, and they must manually select the date format for date-based data types. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

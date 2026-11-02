@@ -1,0 +1,125 @@
+# Create and Edit Signals
+
+## Create and Edit Signals
+ Signal creation is a critical function in the clinical data review cycle that enables proactively identifying and  managing potential data issues, ensuring comprehensive oversight and timely interventions. Creating signals based on data analysis for modules configured in your study enables you assess discordant observations from KRIs, QTLs, Patient Profiles, Statistical Monitoring etc. You can then further take action on such observations by creating and assigning issues, thereby significantly streamlining site and study oversight. You can create automated and manual signals in the signals report. 
+## Automatically Generate Signals
+ You can automatically generate signals in the signals report based on modules you configure in RBQM > Configuration > Signals . Automated signals generate based on a combination of two factors: one, the modules configured, and two, the thresholds set for specific modules. The data you see in a signal is from every configured module, based on the source module's last successful data update.  
+- Access RBQM , and then click RBQM > Configuration > Signals in the left-hand menu.
+The Signals Configuration page appears. 
+- Add Custom Configurations . 
+Automated signals generate based on custom configurations. The signals table includes the following columns:
+ Signal Columns 
+- Signal ID   – Unique signal number per study environment associated with the auto-generated or user defined signal. 
+- Site – The site associated with the signal.
+For QTLs, the site reads as "All Sites". 
+- Country  – The country where the site is situated. For QTLs, the field reads as "All Study Countries".
+- Patient  – One or many patients who meet the signal threshold at the site. The field shows up to 10 patients, with the remaining concatenated with a "+" icon. You can hover to view all patients. 
+- Analysis – One module from Patient Profiles, KRIs, QTLs, Under and over Reporting, Rounding, Propagation, or Potential Duplicate Patients. 
+- Name – The variable for the module on which the signal is generated. Some example are  KRI Name, AE Entry Delay, Missing Visit Percentage, Manual Query Rate,Non-System Query Delay, Percent Out of Window Visit, Number of SAEs per Patient-Month, Number of AEs per Patient-Month etc. 
+- Observation – An automated observation based on the text used in signal threshold. Updated observation values appear in the signal report only if the value is at or above the set threshold. Sample description text for a KRI AE Entry Delay of 17 days when you set a threshold as "high" - The AE Entry Delay of 973 exceeds the threshold of 17 .
+ Note : If the observation value falls below the module's configured threshold, it does not get updated when you refresh Signals data. The last value at which the threshold was met shows as the observation.
+ Observations and Patient Information for Modules 
+ Patient information and observations do not appear for all modules as in some cases, signal data appears at the site level, not at the patient level. The following table shows further details.
+ Module Name 
+ Observation Value 
+ Patient Information Available 
+ | Custom KRIs, system threshold. For System KRI, see the next table. 
+ | None 
+ | No 
+ | QTLs 
+ | QTL value 
+ | No, because this signal is captured at a site level, and not at the patient level. 
+ | Custom KRIs, custom threshold 
+ | KRI value 
+ | No. 
+ | Under and Over Reporting 
+ | Under or Over 
+ | No, because this signal is captured at a site level, and not at the patient level. 
+ | Rounding 
+ | Percent rounding 
+ | Yes 
+ | Propagation 
+ | Percent propagation 
+ | Yes 
+ | Patient Profiles 
+ | None 
+ | Yes 
+ | Potential Duplicate Patients 
+ | None 
+ | Yes, grouped by duplicate patients. 
+ Observations and Patient Information for System KRIs 
+ For System KRIs, no patient information appears. The following table indicates where observations appear for system KRIs.
+ System KRI Name (no patient listed) 
+ Observation 
+ | AE Entry Delay 
+ | Days 
+ | Missing Visit Percentage 
+ | Percentage 
+ | Missing Query Rate 
+ | 
+ | Non-System Query Delay 
+ | Days 
+ | Percent Out of Window Visit 
+ | Percentage 
+ | Number of SAEs per Patient-Month 
+ | 
+ | Number of AEs per Patient-Month 
+ | 
+ | System Query Rate 
+ | 
+ | System Query Delay 
+ | Days 
+ | Visit Entry Delay 
+ | Days 
+- Description – A description based on a combination of the observation text and a system defined or custom description you entered while configuring the signal for the module. Sample Description text - The site is an outlier considering the time it takes to report AEs (considering AE Visit Date and First Entry Date). Please follow up with the site to ensure adequate processes and resources are in place. 
+- Due Date – The due date for the signal. 
+- Status – A signal has the following statuses: 
+- New – A newly created signal not yet assigned to an assignee or acted upon. 
+- Open – A signal assigned to an assignee. 
+- Resolved – A signal marked as resolved. 
+- Watched – A signal that may require intervention or action, but currently is being watched. No action is made on a watched signal, it is not assigned to an assignee. 
+- Dismissed – A signal that is dismissed. For example, if the observation may not be a potential issue for the time period in review. 
+- Closed – A signal closed as it is no longer of interest. 
+- Reopened – A signal reopened after it was closed. 
+- Assignee – The name of the person assigned to the signal for further action. If no assignee exists, click the , Add assignee option to assign the signal to an assignee. 
+- Category – Select from a list of existing categories or create a new category. 
+- Opened By – The person who opened the signal. 
+- Opened Date – The date the signal was opened. 
+- Closed By – The person who marked the signal as closed. 
+- Closed Date – Date the signal was closed. 
+- Issues – A yes or no value that indicates if a signal is an issue. 
+- Issue Type – A signal can have a protocol deviation or a non-protocol deviation issue type.  
+- Issue Target – An issue associated with a signal can be external or internal. 
+ Note : F or a new study, the first time you click RBQM > Signals, the Signals page appears empty until signals get generate. Click the Refresh button at the top right corner of the page to get the latest auto-generated signals. To get the most updated signals, you must refresh the Signals data daily. Auto-generated signals appear based on the latest data snapshot for each configured module available at 6:00 am (EST). If you make any   custom signal configurations   after 6:00 am (EST), the changes are not visible on the Signals page until the next day. 
+## Manually Create Signals
+ You can manually create signals based on predefined criteria, including patient data, study site, and observational context. This enhances data integrity and supports the early detection of data quality issues, contributing to overall study success.  
+ Important : For  Anomalies, Weekend & Holiday Visits, and Event Incidence Plots, you must manually create signals as these modules are not configurable currently in Signal Configuration . 
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- From the top right corner above the Signals table, click Create Signal .
+ Note : The Create Signal button appears only if you have  Manage Signals permissions assigned to your role in Cloud Administration. Otherwise the button remains disabled. 
+- Complete the following fields:
+- Site – Optional . Select a site from the list of sites for the study. 
+- Country – Optional . Auto-populates based on the site you select. 
+- Patients – Optional . Type in the patient IDs you want to include in the signal from the site. 
+- Analysis – Auto-populates to user defined . 
+- Observation – Type in the observation details you want to include. 
+- Name – Type in signal name. This is alphanumeric. 
+- Assignee – Optional . Select an assignee from a list of users with access to the study and signals. If you leave this field empty, the signal status defaults to New, otherwise it is set to Open.
+- Due Date – Optional . Select a due date for the signal. If you select an assignee for the signal, the due date is mandatory.
+ Note : If you do not assign a signal, it appears with status as New. If you add an assignee to the signal, it appears as Opened.
+- Description – Type in a description for the signal. 
+- Click Create Signal .
+The new signal appears in the signal report.
+ Note : The Create Signal button becomes enabled only after all the mandatory fields are present.
+## Edit Signals
+ For both automated and user generated signals, you can edit signal descriptions and category.
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- From the Signals table, click , the More icon, and then click Open Signal Details , for the signal you want to edit. 
+- On Signals slide-out panel, click the Details tab. 
+- Edit the following: 
+- Category – Enter or select a category from the list. 
+- Description – Type to edit existing description.  
+- Click  Close .
+ Note : Once you update a default description which is a combination of the observation and description from Signal Configuration , the updated description appears for the signal. The default description is no longer available.

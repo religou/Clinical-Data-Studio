@@ -1,0 +1,342 @@
+# Study Level Audit Master Data Objects
+
+## Study Level Audit Master Data Objects
+ You can export audit master data data objects detailing study environment site data, site address data, and team membership data. 
+ Important : Your Rave URL configuration can affect your ability to access exported data. For details, please contact your Medidata representative or Medidata Support.
+ Study Environment Sites Study Environment Site Addresses Team Memberships 
+ Study Environment Sites
+ The Study Environment Sites data file provides an audit trail of all study assignments in Cloud Administration for a user. 
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division Name 
+ | Text 
+ | 16 
+ | 
+ The client division's name in Cloud Administration.
+ | Client Division UUID 
+ | Unique Identifier 
+ | 256 
+ | The client division's unique identifier. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment's name, for example: PROD or UAT. 
+ | Organization ID 
+ | Unique Identifier 
+ | 255 
+ | 
+ The identifier of the client division organization associated with the site.  
+ | Site UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment site's unique identifier.
+ | Site Name 
+ | Text 
+ | 256 
+ | The site's name. 
+ | Site Number 
+ | Numeric 
+ | 1024 
+ | The site's current identification number. 
+ | Audit Type 
+ | Text 
+ | 6 
+ | The data's audit type:
+- Create 
+- Update 
+ | Changes 
+ | Alphanumeric 
+ | 10000 
+ | A summary of the changes to the site. Shows the types of changes that the current audit template for the study environment site as it appears in production. Available types:
+- Study Environment Site (SES) Created 
+- Site Number Changed 
+- Principal Investigator (PI) Assigned 
+- PI Assigned 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The full name and user name of the user who updated site information, for example: John Doe (jdoe). 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the user who updated site information. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the user who updated site information. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the app that performed the update. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | 
+ The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+ The system stores the date and time in UTC, and shows both in your local device's timezone. 
+ Study Environment Site Addresses
+ The Study Environment Site Addresses data file provides an audit trail of all study environment sites and their addresses for a given study environment. 
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | The client division's unique identifier. 
+ | Client Division Name 
+ | Text 
+ | 256 
+ | The client division's name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment's name. 
+ | Organization ID 
+ | Alphanumeric 
+ | 255 
+ | The client division organization's Identifier 
+ | Site UUID 
+ | Unique Identifier 
+ | 16 
+ | The site's unique identifier. 
+ | Site Name 
+ | Alphanumeric 
+ | 256 
+ | The site's name. 
+ | Site Number 
+ | Numeric 
+ | 1024 
+ | 
+ The study environment site number.
+ | Address UUID 
+ | Unique Identifier 
+ | 16 
+ | The site address's unique identifier. 
+ | Address 
+ | Alphanumeric 
+ | 256 
+ | The site's current address. 
+ | Audit Type 
+ | Text 
+ | 6 
+ | The data's audit type:
+- Create 
+- Update 
+ | Change 
+ | Alphanumeric 
+ | 10000 
+ | Details of the change 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The full name and username of the person that last updated the site's address information.
+ | First Name 
+ | Text 
+ | 50 
+ | The forename of the person that last updated the site's address information. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that last updated the site's address information. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the app that performed the update. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | 
+ The date and time when the site's address information was updated.
+ Extractor stores the date and time in UTC, and shows both in your local device's timezone. 
+ Team Memberships
+ The team membership data file provides the audit trail of team membership data as entered in Cloud Administration for the study environment. 
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Client Division UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The client division's unique identifier.
+ | Client Division Name 
+ | Alphanumeric 
+ | 256 
+ | The client division name. 
+ | Study UUID 
+ | Unique Identifier 
+ | 16 
+ | The study's unique identifier. 
+ | Study Name 
+ | Alphanumeric 
+ | 256 
+ | The study's name. 
+ | Study Environment UUID 
+ | Unique Identifier 
+ | 16 
+ | 
+ The study environment's unique identifier.
+ | Study Environment Name 
+ | Alphanumeric 
+ | 256 
+ | The study environment's name. 
+ | Team Member UUID 
+ | Unique Identifier 
+ | 16 
+ | The team member's unique identifier. 
+ | Team Membership 
+ | Alphanumeric 
+ | 256 
+ | The team's name. Uses the following format:
+ Study/County :<<Country Name>>/Site :<<SiteName>>
+ | First Name 
+ | Text 
+ | 50 
+ | The team member's first name.  
+ | Last Name 
+ | Text 
+ | 50 
+ | The team member's last name. 
+ | Email Address 
+ | Alphanumeric 
+ | 256 
+ | The team member's email address. 
+ | Audit Type 
+ | Text 
+ | 6 
+ | The data's audit type:
+- Create 
+- Update 
+ | Change 
+ | Alphanumeric 
+ | 10000 
+ | A summary of the team membership change. Shows the types of changes the audit template for the current team membership as it appears in production. Types include:
+- Team Membership Created, Updated, or Deleted 
+- Start Date Changed 
+- End Date Changed 
+- Role Changes 
+- Role Primary Changed 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The full name username of the person that last updated the team member's team assignment, for example: John Doe (jdoe). 
+ | First Name 
+ | Text 
+ | 50 
+ | The forename of the person that last updated the team member's team assignment. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The surname of the person that last updated the team member's team assignment. 
+ | Updated by App 
+ | Text 
+ | 256 
+ | The full name username of the person that last updated the team member's team assignment, for example: John Doe (jdoe). 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | 
+ The date and time when the team member's team assignment was updated, for example: 16-APR-2021 17:41 UTC.
+ Extractor stores the date and time in UTC, and shows both in your local device's timezone.

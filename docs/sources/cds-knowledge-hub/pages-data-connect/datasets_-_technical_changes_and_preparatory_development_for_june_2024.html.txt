@@ -1,0 +1,27 @@
+# Datasets: Technical Changes and Preparatory Development for June 2024
+
+## Datasets: Technical Changes and Preparatory Development for June 2024
+## What is New?
+ Medidata routinely includes internal and technical changes to Data Connect's Datasets and Transformations modules to improve performance and optimize back-end processes. Datasets and Transformations introduces the following internal code changes for the June 2024 release:
+- Technical changes:
+- Support for study environments selected in the Global Navigation 
+- Compatibility enhancements telemetry and in-app help 
+- Improved data streaming when previewing transformations 
+- Improved data streaming compatibility with Data Surveillance and RBQM  
+- Preparatory work for future capabilities:
+- Access control for Data Connect through building blocks. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ Improved data streaming from Data Connect into Data Surveillance and RBQM.
+## How Do I Benefit?
+ These updates result in improved product performance, reliability, accuracy, and stability. 
+## Where Do I See the Change?
+ There are no changes to the user interface. 
+## Where Do I Learn More?
+ No additional information is available for these internal and technical changes.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

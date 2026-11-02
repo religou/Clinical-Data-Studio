@@ -1,0 +1,10 @@
+# Download the Clean Patient Tracker Patients List
+
+## Download the Clean Patient Tracker Patients List
+ You can download the Clean Patient Tracker Patients list to a CSV file. Downloading the Clean Patient Tracker Patients list enables you to: 
+- Easily exchange the list externally with stakeholders to facilitate communication. 
+- Locally save and archive the list. 
+- Access Data Surveillance , and then click Clean Patient Tracker in the left-hand menu.
+The Clean Patient Tracker page shows. 
+- In the Patients section, click Download .
+The Clean Patient Tracker Patient Data list downloads to your browser as a CSV file. You can save the file locally to your machine.

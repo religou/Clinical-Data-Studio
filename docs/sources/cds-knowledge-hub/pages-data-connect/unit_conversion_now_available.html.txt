@@ -1,0 +1,26 @@
+# Unit Conversion Now Available
+
+## Unit Conversion Now Available
+## What Is New?
+ You can configure unit conversations to transform data set fields from one unit into another unit for later mapping. Platform Workbench uses a Quantities, Units, Dimensions, and Types (QUDT) industry library to automatically identify relevant source and target units and analytes. The QUDT supports over 1500 units resulting in over 1.5 million pairwise combinations. With unit conversion, you can automatically generate and apply conversion factors, and custom configurations. 
+ After adding one or more data sets, you can configure unit conversions on each form by defining unit fields for their respective unit forms. This entails: 
+- Selecting a value for the source form. 
+- Selecting a unit for the target form. 
+- Selecting an analyte as necessary. 
+ Platform Workbench performs quality checking for your selections, and groups related source units. From there, you select a target unit for the group or select units for individual source units. Platform Workbench uses an internal library to automatically identify relevant source and target units, and you can manually identify units as necessary.
+ Transformation modules for other projects also now include the datetime difference module.
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ There is no change to the workflow process. This feature extends existing project creation capabilities.  
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ You can standardize the units within your data models, especially when combining data from multiple sources.
+## Where Do I See the Change?
+ When you create a data project in the Transformations, you can select the Unit Conversion project type.
+## Where Do I Learn More?
+ Supplementary help articles will be available at a future date.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

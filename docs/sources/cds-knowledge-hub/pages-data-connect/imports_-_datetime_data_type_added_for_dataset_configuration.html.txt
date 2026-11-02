@@ -1,0 +1,21 @@
+# Imports - DateTime Data Type Added for Dataset Configuration
+
+## Imports - DateTime Data Type Added for Dataset Configuration
+## What Is New?
+ Users can configure a dataset using the new DateTime datatype for datasets with date time format.
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to workflow process.
+## Other Applications
+ No Impact to other applications.
+## How Do I Benefit?
+ The DateTime data types are standardized through Data Connect, now you do not have to configure a DateTime data type as a string data type.
+## Where Do I See the Change?
+ Users can access these enhancements from Data Connect's Imports > Add Dataset . 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Enhancement:
+- Add Dataset 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

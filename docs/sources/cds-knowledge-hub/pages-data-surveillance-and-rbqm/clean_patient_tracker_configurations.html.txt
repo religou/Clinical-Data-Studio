@@ -1,0 +1,34 @@
+# Clean Patient Tracker Configuration
+
+## Clean Patient Tracker Configuration
+ The Clean Patient Tracker Configuration page lets you configure missing page counts from Medidata Rave or externally coded studies, and Rave form statuses that appear in Clean Patient Tracker.
+ To track missing page counts in the Clean Patient Tracker > Patients table > Missing Pages column, you can configure in Data Surveillance whether you want to:
+- Manually enter missing page counts, or 
+- Autopopulate missing page counts directly from:
+- Rave, or 
+- Externally ingested and mapped missing page count report datasets. 
+ To track the Rave form statuses for each patient in the Clean Patient Tracker > Patients table, you can also configure whether you want to show forms that are:
+- Incomplete, or 
+- Require review, or 
+- Require lock, or 
+- Require freeze, or 
+Require signature, or 
+- Are non conformant. 
+ To track specific AI Reconciliation reports in Clean Patient Tracker > Patients table, you can configure only the reports of interest from the following: 
+- Conditions Without Treatments 
+- Worsening Conditions 
+- Overlapping Conditions 
+- Overlapping non-Worsening Conditions and Ongoing Medical History 
+- Invalid CTCAE Grade 
+- Missing Lab for CTCAE Grade 
+- Overlapping Treatments 
+- Treatments Without Conditions or Ongoing Medical History 
+ For more information, see  About AI Reconciliation Reports .
+ Configuring Data Surveillance to autopopulate missing page counts and Rave form status in Clean Patient Tracker: 
+- Enables your organization to seamlessly incorporate your missing page report data into Data Surveillance for tracking and analysis. 
+- Ensures Clean Patient Tracker analyses the most recent available missing page counts to produce the most accurate data analysis. 
+- Reduces the time and effort to track missing page counts. 
+- Ensures data analysis quality by reducing data entry error.   
+ With Clean Patient Tracker you can:
+- Configure Manual or Automatic Missing Page Count Entry from External Dataset Mappings 
+- Configure Medidata Rave Form Statuses

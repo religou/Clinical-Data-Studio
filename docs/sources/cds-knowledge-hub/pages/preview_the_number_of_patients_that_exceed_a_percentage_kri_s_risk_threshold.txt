@@ -1,0 +1,17 @@
+# Preview the Number of Patients That Exceed a Percentage KRI's Risk Threshold
+
+## Preview the Number of Patients That Exceed a Percentage KRI's Risk Threshold
+## Description
+ You can preview the number of patients that meet a percentage KRI criteria over the number the patients the KRI has been calculated against, along with the KRI description when you hover your cursor on the KRI name. For numeric KRIs, you can see the KRI description.  
+## Affected Roles
+ Detect Configuration Manager Administrators. 
+## Advantages
+ The preview feature gives you an overview of the number of patients that meet a percentage KRI criteria over the number the patients the KRI has been calculated against. Using this information, you can take appropriate action to mitigate the risk.
+## User Impact
+ See Description. 
+## Knowledge Space Updates
+ None. 
+ Special Considerations 
+- KRI values update as per data refresh schedules.  
+- In addition, the number of patients' metadata only appears for active KRIs. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

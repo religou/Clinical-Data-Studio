@@ -1,0 +1,53 @@
+# Transformations: Support for Versionless Veeva EDC Datasets
+
+## Transformations: Support for Versionless Veeva EDC Datasets
+ Important: 
+- For a summary of changes done to these release notes, if any, see the revision history .. 
+- For features and enhancements covered in previous releases, see the releases history . 
+- For a summary of all features released, the released features index . 
+## Change Details
+ Product 
+ | Data Connect
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Feature (New Functionality)
+ Functionality or Module 
+ | Datasets
+ Transformations
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ Data Connect now supports a versionless schema for Veeva data sources, consolidating multiple dataset versions into a single view. 
+ While in Datasets, when previewing or profiling Veeva datasets, an All option is now available in the version list and is selected by default. 
+ In addition, while in Transformations, the system shows an All badge next to  versionless folders in the Data Source panel, and nodes in the canvas lineage to indicate the dataset type. 
+ Benefit to Users 
+ | This change enables you to access versionless Veeva EDC data without needing to manually upgrade Veeva EDC datasets. By selecting the All view, you automatically receive the latest data points and column updates from Imports, eliminating the need to manage infrastructure for separate versions. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ All Data Connect and Workbench users interacting with Veeva data sources. 
+ Impact to Workflow Processes 
+ You no longer must select specific versions – for example: v1 or v2 – to view the latest data. The workflow now starts on the All view, which includes all consolidated data and new columns. 
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+- Source Panel and Canvas: An ALL badge appears next to versionless folders and nodes .
+- Data Preview: The version list now includes an All option, which appears first and is selected by default .
+ Impact to Existing Data or Settings 
+ Existing projects using specific versions now use the versionless schema. Field UUIDs include updates to reflect the latest versionless form. 
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | There are no additional relevant resources.
+ For more articles and videos, see  Datasets , Transformations , and the Data Connect Video Library . 
+ Special Considerations 
+ | To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

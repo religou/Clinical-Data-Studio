@@ -1,0 +1,32 @@
+# Exports: Export Datasets with Data Connect
+
+## Exports: Export Datasets with Data Connect
+## What Is New?
+ Users can now access Extractor's data export capabilities through Data Connect's Export module. Data Connect inherits every Extractor capability, and includes the Transformed Data export type that exports datasets created through the Transformations module. 
+## What Is the Impact?
+## Users/Roles
+- All users with access to Data Connect 
+- All Extractor users 
+ Important : Existing Extractor users must now access their export jobs through Data Connect. This change does not affect any existing job configurations, but only changes how you access your jobs.
+## Workflow Process
+ There is no impact on the workflow process. The existing workflow to create and manage export jobs is unchanged. 
+## Other Applications
+ Extractor and its data export capabilities is no longer accessible directly through the Medidata landing page. Users must access its capabilities through Data Connect.
+## How Do I Benefit?
+ The integration with Data Connect enables a seamless data management and. export experience for Data Connect users.
+## Where Do I See the Change?
+ Data Connect includes the Exports tab where users can access its data export capabilities. Extractor is no longer accessible and is instead replaced by Exports. 
+## Where Do I Learn More?
+ There are several knowledge articles that cover how to use Data Connect's Exports module, including: 
+- Exports 
+- User Data Listings - Export Types and Methods 
+- Rave Data Extract File Type Differences 
+- Export Configuration Compatibility by Data Type 
+- Export Stages 
+- Available Exportable Data Objects 
+- Configuring External File Connections 
+- Extracting Data with Exports 
+ Important : Documentation pertaining to Extractor is no longer accessible due to redundancy with Data Connect's Exports documentation, Any links to Extractor documentation will redirect to the Data Connect documentation. Update your links accordingly.
+## What Else Should I Know?
+ Extractor is no longer accessible as a standalone capability. All users must use Data Connect's Exports module to create and manage export jobs. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

@@ -1,0 +1,23 @@
+# Add Wide Tables to Designs Patient Profiles
+
+## Add Wide Tables to Designs Patient Profiles
+## Description
+ A wide table allows for up to 12 columns of data. You create wide tables for data that you do not need to display in a timeline, such as medical history. All data in a wide table must come from the same data set.
+## Affected Roles
+ All.
+## Advantages
+ See the Description section.
+## User Impact
+ On the Design page > Elements tab, you can:
+- Create wide tables. 
+- Select to display wide tables in a timeline and configure the timeline display options. 
+- Select to display numeric data in your timeline as a graph and configure the graph display. 
+- Configure wide table display and highlight conditions . 
+- Remove display and highlight conditions. 
+- Edit wide table details:
+- Rename wide tables, 
+- Rename variables, 
+- Change a variable's placement in the table, and 
+- Remove variables from tables. 
+## Special Considerations
+ None.

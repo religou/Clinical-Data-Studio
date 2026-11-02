@@ -1,0 +1,143 @@
+# Datasets and Transformations Released Features - 2023 and Earlier
+
+## Datasets and Transformations Released Features - 2023 and Earlier
+ Data Connect's Datasets and Transformations capabilities include the following   features, enhancements, and resolved issues that have been documented over the history of the releases: 
+ Data Project Creation 
+- 
+ Custom View Creation Now Available 
+- 
+ Revamped Data Project Creation and Review Capabilities 
+- 
+ Ability to Export Transformed Data Sets 
+- 
+ Unit Conversion Now Available 
+- 
+ Filtered Views During Field-Variable Mapping 
+ Domain and Concept Configuration 
+- 
+ Domain and Concept Configuration 
+- 
+ Transformations: Support for Third-Party Data from Non-EDC Sources 
+ Source to Target Mapping and Transformation 
+- 
+ Revamped Source to Target Mapping and Transformation 
+- 
+ Map Rave EDC Form Records with Platform Workbench 
+- 
+ SDTM-like Data Set Creation and Standardization 
+- 
+ Support for Derived Data Sets 
+- 
+ Ability Delete Custom Transformations Now Available 
+- 
+ Ability to Delete Manually Entered Records for Selected Domains 
+- 
+ Transformations Now Include Multiple Concatenation 
+ UI Updates and Technical Enhancements 
+- 
+ Transformations: Internal and Technical Changes in Data Connect 2026.1.0 
+- 
+ Datasets: Technical Changes and Preparatory Development for June 2024 
+- 
+ Internal Technical Changes in Platform Workbench 2023.2.0 
+- 
+ Internal and Technical Changes in Platform Workbench for 2023.1.0 
+- 
+ Internal and Technical Changes in Platform Workbench 2023.3.0 
+- 
+ Internal and Technical Changes in Platform Workbench for 2023.4.0 
+- 
+ Datasets: Improved Permissions Between Modules 
+- 
+ Datasets and Transformations: Interface Updates for Data Connect 2025.3.0 
+- 
+ Datasets and Transformations: Technical Changes for 2025.2.3 
+- 
+ Datasets: Interface Updates for 2025.2.3 
+- 
+ Datasets and Transformations - Interface Updates for Data Connect 2025.1.0 
+- 
+ Transformations: Quality-of-Life Updates in Data Connect 2025.5.0 
+- 
+ Transformations: Internal and Technical Changes in Data Connect 2025.5.0 
+- 
+ Datahub: Interface Updates for Data Connect 2025.3.5 
+- 
+ Datasets and Transformations: Technical Changes for November 2024 
+- 
+ Datasets and Transformations: Interface Enhancements for November 2024 
+- 
+ Datasets and Transformations: Interface Enhancements for August 2024 
+- 
+ Transformations: Internal and Technical Change in Data Connect for 2025.3.6 
+- 
+ Filtered Views During Field-Variable Mapping 
+- 
+ Transformations: Upstream Editing for Filter, Union, and Join Operators 
+- 
+ Transformations - Support for SDTM IG v3.3 and v3.4 and Latest CDiSC Controlled Terminology 
+- 
+ Transformations: Interface Updates to Transformations for June 2024 
+- 
+ Transformations: Edit Derived Variables in Intermediary Nodes 
+- 
+ Transformations: Updates to Unit Conversion Workflow, Veeva EDC Datasets, and Other Enhancements 
+- 
+ Transformations: Derived Variable and Field Count Enhancements 
+- 
+ Transformations: Quality of Life Enhancements in Data Connect 2026.1.0 
+- 
+ Transformations: Enhanced String Transformations for Derived Variables 
+- 
+ Transformations: Quality of Life Updates in 2025.6.0 
+- 
+ Datasets: Interface Updates for Data Connect 2025.3.0 
+- 
+ Datasets - Interface Enhancements for 2025.1.0 
+- 
+ Datasets and Transformations: Technical Changes 
+- 
+ Transformations - Configuration Locking for Dataset Preview and Quality Check 
+- 
+ Transformations - Automated Visit Mapping 
+- 
+ Transformations: Ability to Add Custom Analytes 
+- 
+ Transformations: Improved Date Format Processing in Field Transformation 
+ Online Help, Localization, and Documentation 
+ Content by label 
+ There is no content with the specified labels
+ Resolved Issues 
+- 
+ Platform Workbench 2023.1.0 Resolved Issues List 
+- 
+ Platform Workbench 2023.2.0 Resolved Issues List 
+- 
+ Platform Workbench 2023.3.0 Resolved Issues List 
+- 
+ Platform Workbench 2023.4.0 Resolved Issues List 
+- 
+ Data Connect - Datasets and Transformations 2024.1.1 Resolved Issues List 
+- 
+ Data Connect August 2024 Resolved Issues List 
+- 
+ Data Connect - Datasets and Transformations 2024.1.5 Resolved Issues List 
+- 
+ Data Connect 2025.1.0 Resolved Issues List 
+- 
+ Data Connect 2025.2.0 Resolved Issues List 
+- 
+ Data Connect 2025.2.2 Resolved Issues List 
+- 
+ Data Connect 2025.2.3 Resolved Issues List 
+- 
+ Data Connect - Datasets and Transformations - 2024.2.3 Resolved Issues List 
+- 
+ Data Connect - Datasets & Transformation 2024.2.1 Resolved Issues List 
+- 
+ Data Connect 2025.3.0 Resolved Issues List 
+- 
+ Data Connect - Datasets and Transformations 2024.1.4 Resolved Issues List 
+ Deprecated Functionailty 
+ Content by label 
+ There is no content with the specified labels

@@ -1,0 +1,37 @@
+# Configure Manual or Automatic Missing Page Count Entry
+
+## Configure Manual or Automatic Missing Page Count Entry
+ Configuring Data Surveillance to autopopulate missing page counts in Clean Patient Tracker: 
+- Enables your organization to seamlessly incorporate your missing page report data into Data Surveillance for tracking and analysis. 
+- Ensures Clean Patient Tracker analyses the most recent available missing page counts to produce the most accurate data analysis. 
+- Reduces the time and effort to track missing page counts. 
+- Ensures data analysis quality by reducing data entry error.   
+- Access Data Surveillance , and then click Configuration > Clean Patient Tracker in the left-hand menu.
+ The Clean Patient Tracker Configuration page appears. 
+- In the Missing Pages Source section, do either of the following:
+- To configure manual page count entry: click Manual , and then click Save .
+The Clean Patient Tracker > Patients table > Missing Pages column is now set for manual entry. There are no further required steps. 
+- To autopopulate missing page counts directly from Medidata Rave, click Rave .
+The Clean Patient Tracker > Patients table > Missing Pages column is now set to be sourced from Rave. There are no further required steps.
+ Notes:
+- If you configure Data Surveillance to autopopulate missing page counts from Rave, then you cannot manually edit entries in the Missing Pages column. 
+- Missing pages from Rave are based on missing pages expected to date, and excludes folders for future visits based on the window dates. That is, Missing Pages Count = Expected to Date - Touched. 
+- Expected to Date is the count of all forms for the patient, and is based on the end window related to the instance date.
+- If the end window is defined on a folder, and if the date is less than or equal to the current date and time, then it is counted. Otherwise, it is not counted.
+- If the end window is yesterday's or today's date, the associated forms are counted. 
+- If end window is tomorrow, the associated forms are not counted. 
+- If no end window is defined, all forms are counted. 
+- Touched (Entered) is the count of forms for the patient that have submitted data. 
+- Calculation Rule: Missing pages from Rave are calculated based on the forms that exist for a patient. For example, if an edit check adds a form to a patient as a result of a value entered (male patient, hence no pregnancy form), that form is not included in future calculations of the missing pages count. So in this example, the count for missing pages for male patients does not include the form. For more information on Expected to Date and Entered, see Rave Page Status Report. 
+- To autopopulate missing page counts from an externally ingested dataset: click External .
+If you selected External, continue on to Step 3.
+ Note : If you configure Data Surveillance to autopopulate missing page counts from an external dataset, then you cannot manually edit entries in the Missing Pages column. 
+- In  Dataset , select the externally ingested dataset from which you want to derive and autopopulate missing page counts.
+ Note : The dataset must be ingested using  Data Connect's Imports capability or Ingestor to be made available for use in Data Surveillance.
+- Do either of the following:
+- In Missing Page Count , select the specific column from the selected dataset from which you want to derive and autopopulate missing page counts. 
+- In Expected Page Count and Entered Page Count , select the specific column from the selected dataset containing the expected page count and then the column containing the entered page count.
+Data Surveillance calculates the difference between the expected and entered page count and autopopulates those numbers in Clean Patient Tracker. 
+- Click Save.
+ Tip : After mapping missing page count report datasets, we recommend triggering Clean Patient Tracker to recount the number of outstanding patient data cleaning tasks to ensure Clean Patient Tracker reports the correct metrics. 
+ Important : If the missing pages mapping changes from manual to external, or external to manual, then the data in the Clean Patient Tracker > Patients table > Missing Pages column is overwritten to match the newly selected source. The missing page count in Clean Patient Tracker is extracted from the missing pages report available in Rave.

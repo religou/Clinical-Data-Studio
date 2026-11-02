@@ -1,0 +1,17 @@
+# Import Job Wizard Shows Supported Data Sets
+
+## Import Job Wizard Shows Supported Data Sets
+## Description
+ While creating import jobs, after selecting a job type, the job wizard shows a list of supported data sets and file name expectations for the selected job type.
+ Feature/enhancement stories referenced in this article:
+ MCC-845443, MCC-854668, MCC-854667 
+## Affected Roles
+ All roles with the ability to create import jobs. For details, see  Ingestor Roles and Permissions List 
+## Advantages
+ With the added data set details, you can determine which import job type serves your data import needs before creating the job. You can also determine the file expectations so you can prepare your import files without issue.
+## User Impact
+ After selecting an import job type, the Job Settings screen shows a new Supported Data Sets table, which contains details on the import job type's supported data sets. 
+## Knowledge Space Updates
+ None. However, for a list of import file standards, see  Import File Standards . 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

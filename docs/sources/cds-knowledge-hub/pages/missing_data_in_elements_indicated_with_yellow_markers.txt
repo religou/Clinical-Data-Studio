@@ -1,0 +1,28 @@
+# Missing Data in Elements Indicated with Yellow Markers
+
+## Missing Data in Elements Indicated with Yellow Markers
+## Description
+ When you copy a design to another study, Patient Profiles appends a yellow marker to elements with missing data variables, configurations, or settings. A warning message provides more information about the missing data.  
+## Affected Roles
+ All. 
+## Advantages
+ Patient profile reviewers can: 
+- Identify missing data from a copied design in the destination study. 
+- Replace or remove missing variables, configurations, or settings. 
+## User Impact
+ For All Elements 
+- On the Design page > Elements tab, a yellow marker appears for elements with missing variables, configurations, or settings. You can hover your cursor on the marker to read a message detailing the missing information.
+- On the Design page > Elements tab > when working in Elements > TABLE OPTIONS > Conditional Options, a yellow marker appears for elements with missing variables, configurations, or settings. You can hover your cursor on the marker to read a message detailing the missing information.
+ In Reports 
+ On the Reports page > Profile Design tab: 
+- Shows all the missing variables in Element Type, Element Name, Section Name, and Missing Variables columns at the top of the report. 
+- A yellow marker   appears next to elements with missing variables, configurations, or settings. 
+- Clicking Print will print a report with missing data. 
+## Knowledge Space Updates
+ The Medidata Patient Profiles Knowledge Space provides the following updated content to support this feature: 
+- Data Sets 
+- Copy Designs To Different Studies 
+- Add and Manage Elements 
+- View Design Reports 
+ Special Considerations 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

@@ -1,0 +1,28 @@
+# Data Surveillance: TSDV and Form Counts Show Information at Patient Level In Clean Patient Tracker
+
+## Data Surveillance: TSDV and Form Counts Show Information at Patient Level In Clean Patient Tracker
+## What Is New?
+ Clean Patient Tracker now includes TSDV/SDV and form counts information at the patient level at a site.
+## What Is the Impact?
+## Users/Roles
+ Data Managers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ You can ensure the data integrity and accuracy of Rave data ingested into Clean Patient Tracker.   Data managers can obtain the complete patient level information at a site and streamline the data tracking process for the patient. 
+## Where Do I See the Change?
+ Data Surveillance > Clean Patient Tracker, includes the following information for patients at a site:
+- Incomplete   –   Sum of form statuses where form is incomplete. 
+- Non conformant   – Sum of form statuses where form is non conformant. 
+- Requires freeze   – Sum of form statuses where form requires freeze. 
+- Requires lock   – Sum of form statuses where form requires lock. 
+- Requires review   – Sum of form statuses where form require review. 
+- Requires signature  – Sum of form statues where form requires signature. 
+- Requires TSDV/ SDV   –   Sum of all TSDV/SDV required for patients at a particular site. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Track and Clean Patient Data 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,20 @@
+# Updates to Export Job List Screen
+
+## Updates to Export Job List Screen
+## Description
+ MEDS Extractor's Export Jobs screen includes the following changes:
+- When you sort the job list by the Last Run parameter, the list now sorts by 'In Progress', then by the dates in reverse chronological order. 
+- The Frequency column includes the job's activation status with its schedule frequency. With this added subtext, you can see if a job has a future run instance. 
+- When filtering jobs, the 'Schedule' filtering parameter is now 'Job Activity'. When filtering by Job Activity, you can filter by Active or Inactive jobs. 
+- When you manually run a job by clicking Run Now, the job list page automatically refreshes.  
+## Affected Roles
+ All.
+## Advantages
+ The Export Jobs screen updates provide a more streamlined and intuitive experience when viewing, sorting, and filtering export jobs.
+## User Impact
+ See Description.
+## Knowledge Space Updates
+ The MEDS Extractor Knowledge Space provides new and updated content to support this enhancement: 
+- Review Exports List (updated) 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

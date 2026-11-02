@@ -1,0 +1,39 @@
+# View Comprehensive Audits of Track Review Actions, Issues Created, and Snapshot Schedules Created
+
+## View Comprehensive Audits of Track Review Actions, Issues Created, and Snapshot Schedules Created
+## Description
+ Medidata Detect now integrates with Audit Viewer so that you can view audit reports of the following user actions performed in Detect:
+- Issues created on error plots, trends plots, KRIs, and event incidences. 
+- Track review updates on error plots. 
+- Snapshot schedules created on the History page. 
+## Affected Roles
+ All.
+## Advantages
+ Audit reports:
+- Enable sponsors to quickly and easily show compliance with clear, comprehensive audit details of actions performed in Detect. 
+- Provide sponsors with additional oversight to ensure study data is being monitored correctly. 
+- Allows for a quick view of the review status of error plot data points in bulk in tabular format. 
+## User Impact
+ You can click   next to the:
+- Error Plots page header 
+- Event Incidence page header 
+- Key Risk Indicators page header 
+- History page > Snapshot Schedule field 
+ If you click  next to the:
+- Error Plots page header,  you navigate to Audit Viewer. Audit Viewer shows you the audit history of: 
+- Issues created on the study's top 100 outlier data points. 
+- Track review actions made on the study's top 100 outlier data points. 
+- Event Incidence page header,  you navigate to Audit Viewer. Audit Viewer shows you the audit history details of issues created on the Event Incidence Plot in your study environment. 
+- Key Risk Indicators page header, the Audit Report Details dialog box appears. You can select specific audit details you want to view such as specific countries or sites, users who performed actions, and the date range of actions taken. After defining the specifications,  Audit Viewer shows you the audit history of the KRIs in your study environment based on your specifications. 
+- History page > Snapshot Schedule field, you navigate to Audit Viewer. Audit Viewer shows you the audit history of snapshot schedules created in your study environment. 
+ To learn more, see  Generate Audit Reports . 
+## Knowledge Space Updates
+ The following articles have been created or updated in the Medidata Detect Knowledge Space to support this feature:
+- Generate Audit Reports 
+- Data Anomaly Detection Plots 
+- Event Incidence Plot 
+- KRIs 
+- History 
+## Special Considerations
+ You can only view actions created against sites that you have access to.
+ Audits only report actions performed as of the Medidata Detect 2021.2.0 release. Actions performed prior to the 2021.2.0 release are not audited.

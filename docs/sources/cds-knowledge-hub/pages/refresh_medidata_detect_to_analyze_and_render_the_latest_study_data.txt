@@ -1,0 +1,16 @@
+# Refresh Medidata Detect to Analyze and Render the Latest Study Data
+
+## Refresh Medidata Detect to Analyze and Render the Latest Study Data
+ Description 
+ Users with the proper permissions can:
+- View the Refresh Analytics Now button on the Schedule page. 
+- Click the Refresh Analytics Now button to trigger Medidata Detect to render visualizations from the most recent study data analysis. 
+## Affected Roles
+ Users with Manage Detect permissions granted in Cloud Administration .
+## Advantages
+ You can control when Medidata Detect analyzes and renders your latest batch of study data to accommodate your organization's data review schedule and pace. 
+## User Impact
+ For users with proper permissions, the Schedule page displays the Refresh Analytics Now  button. 
+ When you click Refresh Analytics Now , Medidata Detect refreshes to display visual renderings of the most recent study data analysis. The  Last Updated  field updates to display the  time stamp of the currently rendered study data's most recent completed run through Medidata Detect's analytics. To learn more, see  Schedule or Trigger When CSM Refreshes and Outputs the Latest Study Data Analysis . 
+## Special Considerations
+ None.

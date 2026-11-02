@@ -1,0 +1,15 @@
+# Incremental Data Extraction Now Available
+
+## Incremental Data Extraction Now Available
+## Description
+ While creating recurring export jobs to extract CTMS data, you can set the job to extract incrementally. Incremental extracts only contain the added or updated data since the previous run. Incremental extracts do not contain updates about deleted data. The first run of an incremental job is always cumulative. 
+## Affected Roles
+ All roles with access to MEDS Extractor.
+## Advantages
+ With incremental data extractions, you can select to see only the changes since the last job execution. This saves you time from comparing the previous extract to the current extract to check for data changes.
+## User Impact
+ The Export Jobs list adds the Export Type column denoting if the job is cumulative or incremental.
+ During the New Export Job workflow's Export Data Type step, you can select between Cumulative and Incremental data extracts. Incremental data extraction is only available for the CTMS data types.
+ While reviewing incremental data extracts, you can see added or updated data since the job's previous run. Incremental data extracts do not contain updates about deleted data.  
+## Special Considerations
+ None.

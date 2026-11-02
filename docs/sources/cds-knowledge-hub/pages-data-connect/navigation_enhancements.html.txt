@@ -1,0 +1,18 @@
+# Navigation Enhancements
+
+## Navigation Enhancements
+## Description
+ MEDS Extractor enhances navigation and export job creation with the following updates: 
+- You can navigate MEDS Extractor by client division and study. 
+- Refreshed look and feel for export list left panel navigation. 
+- Improved validation and detailed error messages when creating export jobs. 
+## Affected Roles
+ Users with the Extract Data from MEDS permission and an unblinded role in at least one study .
+## Advantages
+ The enhanced navigation features provide simplified and initiative navigation consistent with other Medidata applications. 
+## User Impact
+- You select client division from the top toolbar. You select study and environment from the left pane. 
+- Where applicable, validation or error messages appear when you create export jobs. 
+## Special Considerations
+ You must to reselect the study and environment each time you navigate to MEDS Extractor from the client division level. 
+ You must have an unblinded role assigned to you in at least one study to access MEDS Extractor.

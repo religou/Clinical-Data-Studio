@@ -1,0 +1,24 @@
+# RBQM: Subjects Updated To Patients In KRIs and QTLs
+
+## RBQM: Subjects Updated To Patients In KRIs and QTLs
+## What Is New?
+ All instances of the term Subjects have been replaced by Patients in Clinical Data Studio - KRIs and  Clinical Data Studio - KRIs - QTLs.
+## What Is the Impact?
+## Users/Roles
+ All Clinical Data Studio users.
+## Workflow Process
+ No impact on the workflow process.
+## Other Applications
+ No impact on other applications.
+## How Do I Benefit?
+ You can see a uniform usage of patient-centric terminology across Clinical Data Studio.
+## Where Do I See the Change?
+ All instances of Subjects have been replaced by Patients in the following pages:
+- In Data Surveillance > Configuration > Key Risk Indicators 
+- In Data Surveillance > Configuration > Quality Tolerance Limits 
+## Where Do I Learn More?
+ Use the following links to find updated content in support of the enhancement:
+- KRI Configuration 
+- QTL Configuration 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

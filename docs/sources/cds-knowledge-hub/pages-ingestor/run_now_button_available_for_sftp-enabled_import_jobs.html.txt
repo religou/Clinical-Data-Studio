@@ -1,0 +1,33 @@
+# Run Now Button Available for SFTP-Enabled Import Jobs
+
+## Run Now Button Available for SFTP-Enabled Import Jobs
+## Description
+ For SFTP-enabled import jobs, you can force an SFTP exchange from the Job Configuration Screen.
+ Feature/enhancement stories referenced in this article:
+ MCC-811204 
+## Affected Roles
+ All roles with the ability to see and use the Job Configuration screen. For details, see  Ingestor Roles and Permissions List .
+## Advantages
+ Every 30 minutes, MEDS Ingestor imports the files from the Input File Path and exports various status files to the output folder path. With this update, you can test the SFTP configuration settings and confirm successful imports before going live with production data without needing to wait for the first scheduled SFTP run.
+## User Impact
+ From an import job's Job Configuration screen, you force an SFTP exchange by clicking  Check SFTP Input Folder Now . The import job then runs in the same manner as a regularly scheduled SFTP job run.
+## Knowledge Space Updates
+ The MEDS Ingestor Knowledge Space provides updated content to support this enhancement: 
+- Review Job Configuration Details 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal . 
+## Description
+ For SFTP-enabled import jobs, you can force an SFTP exchange from the Job Configuration Screen.
+ Feature/enhancement stories referenced in this article:
+ MCC-811204 
+## Affected Roles
+ All roles with the ability to see and use the Job Configuration screen. For details, see  Ingestor Roles and Permissions List .
+## Advantages
+ Every 30 minutes, MEDS Ingestor imports the files from the Input File Path and exports various status files to the output folder path. With this update, you can test the SFTP configuration settings and confirm successful imports before going live with production data without needing to wait for the first scheduled.
+## User Impact
+ From an import job's Job Configuration screen, you force an SFTP exchange by clicking  Check SFTP Input Folder Now . The import job then runs in the same manner as a regularly scheduled SFTP job run.
+## Knowledge Space Updates
+ The MEDS Ingestor Knowledge Space provides updated content to support this enhancement: 
+- Review Job Configuration Details 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

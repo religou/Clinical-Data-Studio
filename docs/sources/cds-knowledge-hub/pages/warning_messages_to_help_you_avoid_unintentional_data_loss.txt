@@ -1,0 +1,26 @@
+# Warning Messages to Help You Avoid Unintentional Data Loss
+
+## Warning Messages to Help You Avoid Unintentional Data Loss
+## Description
+ Risk Management 2022.2.0 introduces warning messages when you add, edit, or delete a risk or a Critical Data, Critical Process, or Risk Categorization template. This helps prevent unintentional data loss if you change your mind or select the X , Cancel , or Delete options by mistake. 
+## Affected Roles
+ All.
+## Advantages
+ If you click the X , Cancel , or Delete buttons in error, this could lead to unintentional data loss. The addition of a warning message helps you avoid the accidental click of X , Cancel , or Delete. 
+## User Impact
+ Warning messages appear when there is a risk of unintentional data loss. The messages alert you to cancel or confirm an action. The warning messages appear when you: 
+- Create, edit, or delete a risk or a risk category associated with a study. 
+- Navigate between the Add New Risk category and Select Risk category tabs when adding a risk category. 
+- Delete or modify an existing risk associated with Critical Data, Critical Processes, Risk Categorizations, or Risk Categorization templates. 
+- Click Cancel while creating or editing Critical Data, Critical Processes, or Risk Categorization templates. Clicking Cancel closes the page, and data entered in the template is lost. 
+- Update the Add Review frequency when adding a new risk to a Critical Data, Critical process, or Risk Categorization template. 
+- Update the Target Review Date and Review Status when reviewing or editing a risk associated to a Critical Data, Critical process, or Risk Categorization template. 
+- Update the Last Reviewed by and Mark Reviewed fields when reviewing a risk associated to a Critical Data, Critical process, or Risk Categorization template. 
+- Add Review Status, Frequency, and Review Dates in the Risk Inventory. 
+- Update the Risk Status to Closed. You can no longer edit other fields on the Risk Review form. 
+- Close or transfer a risk. 
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal.

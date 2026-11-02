@@ -1,0 +1,41 @@
+# Custom Variable Fields
+
+## Custom Variable Fields
+ The article lists the fields you can enter when adding a custom variable.
+ Field 
+ Description 
+ Required 
+ | Alias 
+ | The variable's short form name. 
+ | Yes 
+ | Description 
+ | The variable's description to clarify the alias as necessary. 
+ | Yes 
+ | Variable Data Type 
+ | The variable's data type: 
+- Numeric – A data type that represents a number, with multiple formats you can select in the Variable Format field. 
+- String – A data type that represents text data type. 
+- Boolean – A data type that represents logical true and false. 
+- Date – A data type that represents the date. 
+ | Yes 
+ | Variable Format 
+ | 
+ The variable's format; the selections depend on the data type. 
+- Integer – A numeric format denotes numbers without decimals. 
+- Float – A numeric format that denotes numbers with decimals. 
+- String – A textual data format denotes a sequence of characters, digits, or symbols; and which a system always treats as text. 
+- Boolean – A logical data format that denotes one of two values: TRUE or FALSE. 
+- Date – One of several date format variations that contains or omits the time. Key date parts include: year, month, day; and for time: hour, minute, seconds, and milliseconds. For supported formats, see  Date Time Variable Formats Supported . 
+ | Yes 
+ | Target Variable Requirement 
+ | The variable's mapping requirement:
+- Required – You must map the target variable before publishing the dataset. 
+- Permissible – You can map the target variable for data collection purposes, although it is not necessary for downstream applications. 
+- Expected – You intend that target variable to include future values. 
+ | Yes 
+ | Reason 
+ | A description for why you created the variable. 
+ | No 
+ | Unique Identifier 
+ | Denotes if the variable serves as a unique identifier within the dataset. 
+ | No

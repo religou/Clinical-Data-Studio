@@ -1,0 +1,33 @@
+# Centralized Statistical Monitoring Enhancements
+
+## Centralized Statistical Monitoring Enhancements
+## Description
+ Centralized Statistical Monitoring (CSM) includes the following enhancements:
+- The Potential Duplicate Patients feature includes a new Export button that allows you to download a listing of the patients identified as duplicates in a Comma Separated Values (CSV) file. 
+- Error Plots has been renamed Data Anomaly Detection. 
+## Affected Roles
+- Central Monitors 
+- Data Managers. 
+## Advantages
+- The ability to export the details of patients identified as duplicates in a CSV file. 
+- Alignment with the essence of the Data Anomaly Detection feature. 
+## User Impact
+- An Export button has been added on the Potential Duplicate Patients page (Detect Landing Page > Central Statistical Monitoring (CSM) > Data Veracity > select Potential Duplicate Patients from the left-hand menu). 
+- Error Plots has been renamed Data Anomaly Detection. 
+ Knowledge Updates 
+ Here are the links to new and updated content to support this feature/enhancement: 
+- Data Anomaly Detection   
+- Anomalous Data Detection Methodology 
+- Access and View Data Anomaly Detection 
+- Investigate Data Using Data Anomaly Detection 
+- View Individual Patient Profiles with Data Anomaly Detection 
+- Flag, Track, and Audit Reviewed Study Data 
+- View Rave Queries 
+- Create, View, and Edit Issues with Data Anomaly Detection 
+- Generate Data Anomaly Detection Audit Reports 
+- Data Anomaly Detection Visualization Types 
+- Data Anomaly Detection Analysis Types   
+- Access and View the Potential Duplicate Patients Map 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,24 @@
+# View All Patient Queries in One Location
+
+## View All Patient Queries in One Location
+## What Is New?
+ You can view in one consolidated location the detailed list of all open queries raised against patient data in your study. 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ Instead of individually locating open queries on patient data directly in Rave, you can efficiently view all open queries on Detect's Open Queries page. You can then address the open queries in Rave as needed. 
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Viewing and evaluating all open patient queries in your study in one centralized location enables you to review and close queries faster. Therefore, you can more quickly and efficiently lock and freeze patient data.
+## Where Do I See the Change?
+ The Detect Landing Page now includes the Insights card, from which you can access Clean Patient Tracker. From Clean Patient Tracker, in the left-hand menu, you can access Open Queries. The Open Queries page contains the Open Query Records list. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- View Open and Answered Query Records 
+## What Else Should I Know?
+ The list of open queries automatically refresh every 12 hours. 
+ An admin must associate the View Clean Patient Tracker building block to a role in your Cloud Administration study group so that you can access the Open Queries page. 
+ Otherwise, the links on the Detect Landing Page > Insights card show as inactive.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

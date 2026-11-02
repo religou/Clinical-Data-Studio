@@ -1,0 +1,24 @@
+# Detect Landing Page Module Cards Renamed and Reorganized
+
+## Detect Landing Page Module Cards Renamed and Reorganized
+## Description
+ On the Detect Landing page, you can see organizational updates to the following module cards:
+- The Utilities card renamed to Configuration and Reporting. 
+- The Derived Variables link is now located in the Configuration and Reporting card. 
+- The CSM Configuration link renamed to Detect Mapping. 
+- The Detect Mapping link is now located in the Configuration and Reporting card. 
+- The KRI Configuration link is now located in the Configuration and Reporting card. 
+- The QTL Configuration link is now located in the Configuration and Reporting card. 
+ In addition, if a module card shows as gray and unavailable to you, then a Read more link shows below the card name. You can click the Read more link go to the Knowledge Hub article providing overview information pertaining to that card's corresponding module.
+## Affected Roles
+ All.
+## Advantages
+ Reorganizing the capabilities listed in the module cards better aligns customer expectations as to which Detect capabilities support which Detect modules. Therefore, you can better find the Detect capability you require on the Detect Landing page.
+ The Read more links provide you the opportunity to learn more about the Detect modules and capabilities that you currently do not have access to. This may bring awareness to Detect tools that you and your organization can acquire to help you even more efficiently run your studies.
+## User Impact
+ See the Description.
+## Knowledge Hub Updates
+ None. 
+## Special Considerations
+ The Derived Variables functionality now resides within the Detect Configuration Manager module. Also, the Derived Variable page is renamed to Derived Variables.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

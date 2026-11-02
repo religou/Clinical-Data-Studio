@@ -1,0 +1,19 @@
+# Copy Elements within a Study or Design
+
+## Copy Elements within a Study or Design
+## Description
+ You can copy elements within a design or study. For elements with missing variables, you can only create a copy within the design. While copying elements within a study, you see the list of studies, environments, and designs based on your access. 
+## Affected Roles
+ All.
+## Advantages
+ Creating new elements from existing studies by copying elements ensures that data is more accurate when building new designs.
+## User Impact
+ On the Design page > Elements tab, when you click to the right of a selected element, you can select Duplicate within design to create an element copy within the design. The Copy to another study option is disabled for elements with missing variables. 
+ Knowledge Space Updates 
+ The Medidata Patient Profiles Knowledge Space provides new and updated content to support this feature:
+- Add and Manage Elements 
+- Add and Manage Headers 
+- Add, Edit, and Delete Tables 
+- Add, Edit, and Delete Timelines 
+ Special Considerations 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

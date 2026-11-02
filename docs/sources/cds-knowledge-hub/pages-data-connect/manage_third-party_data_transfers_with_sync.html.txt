@@ -1,0 +1,28 @@
+# Manage Third-Party Data Transfers with Sync
+
+## Manage Third-Party Data Transfers with Sync
+## What Is New?
+ Sync is a part of the Platform Workbench family of capabilities – also known as Data Connect – that augments the workflow of collecting and managing third-party data transfers. With Sync, you can:
+- Configure Data Source Connections – You can configure data source connections for a study environment to import data through SFTP.  
+- Configure Data Sets – You can configure data import criteria for Sync to identify and use for data transfer. Criteria include validation rules for key fields and column data types. You can manually run validation on a given data type or key field to ensure accurate definitions. 
+- Monitor and Manage Data Transfers – You can view a given import's progress and the status of the imported fields. You can also view any imported records, and records with errors and their respective reasons for the errors. 
+ Sync integrates with Platform Workbench as a tab within the Platform Workbench's interface.
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ This is Sync's first release, and therefore all functionality is new.
+## Other Applications
+ You can perform transformations and create derived data sets in Platform Workbench with data you import with Sync.
+## How Do I Benefit?
+ Sync reduces time spent developing data transfer specifications, data delivery, and issue resolution. With Sync, you can: 
+- Configure data source connections such as SFTP, and configure data sets expected from a data source connection. 
+- Specify rules through data transfer agreements that Sync enforces during transfer. 
+- View data from every source in a single place and resolve data issues as necessary. 
+## Where Do I See the Change?
+ Platform Workbench includes the Import tab where you can access Sync's capabilities.
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ Sync currently supports CSV files.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

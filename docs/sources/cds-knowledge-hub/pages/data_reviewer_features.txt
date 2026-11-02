@@ -1,0 +1,27 @@
+# Data Reviewer Features
+
+## Data Reviewer Features
+ Data Reviewer includes the following capabilities related to working with data reviewer: 
+- EDC Queries: Track Queries Created From The Queries Dataset Using Open EDC Queries 
+- Data Surveillance: Access All Open EDC Queries Using The Queries Dataset 
+- Listings: Obtain Latest Listings Study Data With Simultaneous Refresh 
+- Listings: Copy Listings Within And Across Study Environments 
+- Listings: Query Rave Data using Derived Datasets 
+- PDS: Data Reviewer Shows Snapshot Timestamp of Data Currently Presented on Screen 
+- PDS: View and Use Stacked Datasets in Data Reviewer 
+- PDS: Data Reviewer Includes WHODRUG- and MEDRA-coded Terms as Seletable Variables 
+- Data Set Pre-Filtering By Site Or Subject 
+- Data Reviewer Enhancements 
+- Data Reviewer Identifies Rave And External Data Sets In A Study 
+- Hide, Show, And Reposition Data Set Variable Columns 
+- Expansion Updates to Data Sets Panel 
+- Data Loading Performance Fixes 
+- Data Set Viewer Interface Updates 
+- Upgraded Data Set Variable Filtering 
+- Data Variable Names Appear as in Patient Profiles 
+- Data Set Variables Appear as Column Headers 
+- Data Set Pre-Filtering Displays Site Number 
+- Data Variables - Sort Dates and Numbers in Ascending and Descending Order 
+- Review Data Sets With MEDS Data Viewer 
+- Data Reviewer Streamlines Navigation to View A Patient's Rave Data 
+- PDS: Build Custom Study Data Visualizations On Demand

@@ -1,0 +1,17 @@
+# Data Reviewer Identifies Rave And External Data Sets In A Study
+
+## Data Reviewer Identifies Rave And External Data Sets In A Study
+## Description
+ Data Reviewer 2022.1.1 distinguishes between and identifies data sets from Rave EDC and external sources in a study.
+## Affected Roles
+ All.
+## Advantages
+ Identifying the origin of data sets enables you to group data set variables of interest from a study and investigate anomalies or discrepancies.
+## User Impact
+ The Data Set tab on the Medidata Detect >Patient Data Surveillance (PDS) > Data Reviewer > Data Viewer page or Listings page now includes a Rave or External label to identify the origin of the data set. You will also see similar labels for data sets on the Medidata Detect > Patient Data Surveillance (PDS) > Data Reviewer > Derived Variables page.
+## Knowledge Space Updates
+ The Data Reviewer Knowledge Space provides the following updated content to support the enhancement:
+- View and Investigate Your Study's Data Sets 
+- Derived Variables 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

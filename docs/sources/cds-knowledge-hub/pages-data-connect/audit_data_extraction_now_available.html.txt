@@ -1,0 +1,25 @@
+# Audit Data Extraction Now Available
+
+## Audit Data Extraction Now Available
+## Description
+ You can configure export jobs to extract audit data from your studies. You can extract Study Level Master Audit data and CTMS Audit data. Study Level Master Audit data includes team membership and site address data. CTMS Audit data includes service provider, visit, and document audit data. 
+## Affected Roles
+ All roles with access to MEDS Extractor.
+## Advantages
+ You can extract Audit data from your studies.
+## User Impact
+ In Cloud Administration, you can add the following building blocks to your customer-defined platform role:
+- Extract Cloud Admin Audit Data – You can extract Audit Master data. 
+- Extract CTMS Audit Data – You can extract Audit CTMS data. 
+ In MEDS Extractor, y ou can select the Audit Master Data and Audit CTMS data types while creating export jobs. 
+ Audit Master data extracts reflect data entered into Cloud Administration such as client division, study site, and role information in three files: 
+- Study Environment Sites 
+- Study Environment Site Addresses 
+- Team Memberships 
+ Audit CTMS data extracts reflect data entered with CTMS applications such as Study Management and Site Monitoring, and include service provider, site visit, and document information in three files: 
+- CTMS Service Providers 
+- CTMS Site Visits 
+- CTMS Documents 
+ When testing this feature, consider comparing the extracted data from this export job type to data entered into the respective applications. 
+## Special Considerations
+ When you select the Audit Master Data type, you cannot select any other data type. Similarly, when you select the Audit CTMS data type, you cannot select any other data type.

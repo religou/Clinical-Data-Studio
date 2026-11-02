@@ -1,0 +1,19 @@
+# Notification Center for Detect
+
+## Notification Center for Detect
+## Description
+ The Medidata Notification Center is now integrated with Detect to help deliver notifications to users. This release includes notifications for both scheduled and manual refreshes for Detect QTL, KRI, and CSM. Manual refreshes become available once the notification is sent, and scheduled refreshes appear after 7:00 a.m. EST on the day the refresh is requested. 
+## Affected Roles
+ All.
+## Advantages
+ You can now receive refresh notifications for all your studies in Detect, based on predefined templates.
+## User Impact
+ While there is no direct UI impact, the refresh notifications are sent through email, and also made available in the Medidata Notification Center.
+## Knowledge Updates
+ Here are the links to new and updated content to support this feature/enhancement: 
+ Schedule or Trigger When KRI Dashboard Refreshes and Outputs the Latest Study Data Analysis 
+ Schedule or Trigger When QTL Dashboard Refreshes and Outputs the Latest Study Data Analysis 
+ Schedule or Trigger When CSM Refreshes and Outputs the Latest Study Data Analysis 
+## Special Considerations
+ Refresh failures only show on the UI Scheduler, and are not included in notifications.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

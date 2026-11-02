@@ -1,0 +1,34 @@
+# Export the List and Summary Data of Sites with Potential Duplicate Patients
+
+## Export the List and Summary Data of Sites with Potential Duplicate Patients
+ You can export the list of site locations in your study with potential duplicate patients. The export includes summary data for each site listed. Exporting enables you to:
+- Sort the data for site locations with potential duplicate patients. 
+- Easily exchange the list and summary data with sites and other stakeholders to facilitate communication. 
+- Locally save and archive the list and summary data. 
+- Access RBQM , and then click Statistical Monitoring > Duplicate Patients in the left-hand menu.
+- In the Potential Duplicate Patients page > Potential Duplicate Patients Summary section, click Download .
+ The detect duplicate patients listing downloads locally to your machine as a .csv file. 
+- Snapshot Date – The user's generated system time. 
+- Group ID – The grouping of the duplicate patients. 
+- Patient – The patient ID. 
+- Confidence – Indicates Statistical Monitoring's level of confidence that the patient is a duplicate. Values are: Low, Medium, High. 
+- Country – The country in which the duplicate patient record exists. 
+- Site – The site where the duplicate patient record exists. 
+- Address – The address of the site. 
+- Birth Date – The patient's birth date as entered in the EDC. 
+- Ethnicity – The patient's ethnicity. 
+- Race – The patient's race. 
+- Gender – The patient's gender. 
+- Height – The patient's height. 
+- Weight – The patient's weight. 
+- Group ID – The grouping of the duplicate patients. 
+- Patient – The patient ID. 
+- Country – The country in which the duplicate patient record exists. 
+- Site – The site where the duplicate patient record exists. 
+- Address – The address of the site. Sites with addresses that are not recognized by Google have a blank entry. 
+- Birth Date – The patient's birth date as entered in the EDC. 
+- Ethnicity – The patient's ethnicity. 
+- Race – The patient's race. 
+- Gender – The patient's gender. 
+- Height – The patient's height. 
+- Weight – The patient's weight.

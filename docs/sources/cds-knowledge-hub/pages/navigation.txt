@@ -1,0 +1,9 @@
+# Navigation
+
+## Navigation
+ Medidata Patient Profiles includes the following capabilities related to navigating the app:
+- Patient Profiles Messages Now Show at Page Bottom 
+- Navigation in Patient Profiles 
+- Data Surveillance: Improved Profile Designs Enables Identifying Reviewed Patients 
+- Enhanced Navigation When Saving an Element from Unsaved Changes Dialog Box in Patient Profiles 
+- Improved Navigation

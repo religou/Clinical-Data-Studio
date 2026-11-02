@@ -1,0 +1,23 @@
+# Potential Duplicate Patient Detection Methodology
+
+## Potential Duplicate Patient Detection Methodology
+ To determine potential duplicate patients, RBQM analyzes enrolled patients from a unique study and identifies and filters through patients that show an exact match on the following variables: 
+- Date of birth 
+- Ethnicity 
+- Race 
+- Gender 
+ Enrolled Patient Qualifications
+ RBQM qualifies enrolled patients as patients that have time on study and subject start date recorded. RBQM calculates:
+- time on study as: <subject start date> - <latest subject record date>. 
+- subject start date as: subject enrollment date or subject randomization date, whichever is available. 
+ RBQM then takes those matched patients and assesses the sites in which they are enrolled to check that:
+- The two patients are at different sites. 
+- The sites are within 100 miles of each other by using latitude and longitude. 
+- The sites are within the same country if latitude and longitude are not available. 
+ Lastly, RBQM performs a distance match on height and weight. The calculation for the distance match is:   𝑥=2|𝑥1−𝑥2|𝑥1+𝑥2.   If both the height and weight of the two patients have less than or equal to 1% difference, then RBQM flags those patients at the site as potential professional patients.
+ Furthermore, the downloadable Duplicate Patients report .csv file includes a Confidence column that states RBQM's level of confidence that a patient is a duplicate. Values are: Low, Medium, and High. To learn more, see  Export the List and Summary Data of Sites with Potential Duplicate Patients .
+ To determine confidence level, RBQM takes the maximum value   𝑥   of the distance match—once again, 𝑥=2|𝑥1−𝑥2|𝑥1+𝑥2—which is obtained either from the distance of height or weight, and applies the maximum x value into the following equation:   𝑦=1−100𝑥.
+ The category score is assigned a confidence level as follows:
+- Low –  y < 1/3 
+- Medium –  if 1/3 < y < 2/3 
+- High – y > 2/3

@@ -1,0 +1,17 @@
+# Product Rebranded as Medidata Detect
+
+## Product Rebranded as Medidata Detect
+## Description
+ Formerly known as Rave CSA, the 2020.2.0 release displays the new name of the product, Medidata Detect.
+## Affected Roles
+ All.
+## Advantages
+ Medidata Detect aligns with Medidata marketing collateral.
+## User Impact
+- The iMedidata app pane displays the new product name as Medidata Detect. 
+- The new name displays on the page headers of the application UI . 
+- Online help links to rebranded product information. 
+- Product references in the current knowledge space display the new product name. 
+- User roles in Cloud Administration renamed to align with product name. 
+## Special Considerations
+ None.

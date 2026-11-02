@@ -1,0 +1,17 @@
+# Publish Plan Documents
+
+## Publish Plan Documents
+ Published plans are final documents that you can share with study team members. Published plans include a version history and can be cross-checked for previous updates. As your study progresses, you can run a published plan at different times and it provides the latest study data. 
+ Note : To publish a data plan, you must have have the Manage Data Quality Plans building block, whereas to view and preview, you need the View Data Quality Plans building block added to your role in Cloud Administration. For more information, see RBQM Building Blocks and Permissions . 
+## Publish Plan Documents
+- If necessary, create a plan , and then add elements . 
+- On the Plan Documents page, click , the More icon, in row corresponding to any plan with Draft status. 
+- Click Publish Plan .
+The plan document appears with status published in the Current Plans table. The plan document's version number updates.
+ Note : Published plan documents are read-only, and cannot be reverted to draft status.  You can create a new version of a published plan document to edit.
+## View Plan Document Version History 
+- If necessary, create a plan , and then add elements . 
+- On the Plan Documents page, click , the More icon, in row corresponding to any plan. 
+- Click View Version History .
+A slide-out panel shows the document version history. 
+ Note : You can click previous versions of the plan document, but they appear as read-only versions.

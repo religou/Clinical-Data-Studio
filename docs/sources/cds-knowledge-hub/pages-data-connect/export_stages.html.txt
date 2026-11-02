@@ -1,0 +1,14 @@
+# Export Stages
+
+## Export Stages
+ You can create exports to extract data from the Medidata platform. The flowchart below shows the overall data extraction lifecycle.
+ EXTRACTOR_FlowChart_Master_JobStages_ENG
+- You use Data Connect to create an export, which results in one of the following:
+- Data Connect creates the export. 
+- Data Connect fails to create the export. Review the export's settings and try creating another job. 
+- After creating the export, Data Connect runs the export at the specified time period. 
+- Data Connect processes the export, 
+- If the export is successful, then all the export's select datasets are available for downloading.
+- The system adds a link to download the data extract from the user interface. 
+- If the export has an SFTP configuration , then the system sends the data extract to the SFTP location. 
+- If the export fails, then the export process fails. You can review the job's status and details in the user interface. The job status includes a Trace ID to help identify and troubleshoot the root cause with Medidata Support.

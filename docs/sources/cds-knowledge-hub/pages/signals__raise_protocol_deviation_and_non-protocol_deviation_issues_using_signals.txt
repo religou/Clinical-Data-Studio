@@ -1,0 +1,60 @@
+# Signals: Raise Protocol Deviation And Non-Protocol Deviation Issues Using Signals
+
+## Signals: Raise Protocol Deviation And Non-Protocol Deviation Issues Using Signals
+## What Is New?
+ You can now specify the type of issues you can raise for signals generated for study data. You can specify the following:
+- A Protocol Deviation (PD) issue or,  
+- A Non-Protocol Deviation (Non-PD)  
+ You can further resolve these issues internally, that is, within Signals, or send them to an external issue management system like Rave CTMS for resolution. 
+## What Is the Impact?
+## Users/Roles
+- Central Monitors and Central Statistical Monitors, Clinical Research Associates 
+-  Users with View Signals and Manage Signals building blocks. 
+## Workflow Process
+ For any signal with status Open, you can raise either a Protocol Deviation (PD), or a N on-Protocol Deviation (Non-PD) issue. If you send the issue to an external issue management system like Rave CTMS.  
+## Other Applications
+ To raise issues to an external issue management system, Rave CTMS, you must ensure that Signals is integrated with Rave CTMS. 
+ Signals read data from the following capabilities:
+- Patient Profiles. 
+- KRIs. 
+- QTLs. 
+- Rounding. 
+- Propagation. 
+- Potential Duplicate Patients. 
+- Under/over Reporting. 
+## How Do I Benefit?
+ Central Monitors can create actionable issues for autocomplete generated and user-generated signals, track, and resolve them. This ensures potential issues get checked in time and do not threaten study data integrity. This further:
+- Ensures protocol deviations, safety issues, and high-risk findings are formally tracked and resolved in alignment with sponsor expectations. 
+- Provides a clear audit trail for all issues raised, reducing inspection risks. 
+- Streamlines the workflow by allowing you to raise issues directly from Signals rather than duplicating work in multiple systems. 
+## Where Do I See the Change?
+ On the Signals page, for any signal with an Open or Reopened status, you can create an issue. 
+ Raising an Issue 
+ Description 
+ | 
+ | 
+ Create Issue – If you click , the More icon, and click Raise an issue , the Create Issue window appears. If you select Protocol Deviation or Non-Protocol Deviation, you can raise an issue internally for resolution within Signals.
+ Note : The Raise an issue option for a Signal appears disabled if a signal already has an issue raised against it. You can raise only one issue per signal if the issue is not sent to Rave CTMS for resolution.
+ If you select the  Send to CTMS check box on the Create Issue window, you send the issue to an external issue management system like Rave CTMS. You can raise multiple issues for a signal if you send them to Rave CTMS for resolution.
+ | 
+ | 
+ Protocol Deviation Issue – If you click Protocol deviation , then click Continue , you can select the following fields for the issue. 
+- Protocol deviation severity 
+- Protocol deviation subcategory 
+- IRB notification required 
+- Sponsor notification required 
+- Regulatory notification required 
+ Note : All the above fields are optional if you raise an issue for resolution within Signals, as opposed to sending issues to an external issue management system like CTMS.
+ | 
+ | 
+ Non-Protocol Deviation Issue – If you select Non-Protocol deviation , then click Continue , you can select the following fields for the issue. 
+- Protocol deviation severity 
+- Protocol deviation subcategory 
+ Note : All the above fields are optional if you raise an issue for resolution within Signals, as opposed to sending issues to an external issue management system like CTMS. For a QTL based signal observation, you can raise one Non-Protocol deviation issue per signal.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the feature:
+- Raise And Resolve Signal Issues. 
+- Perform Signal Operations. 
+## What Else Should I Know?
+ You need View Signals and Manage Signals building blocks added to your role in Medidata Cloud Administration to raise issues.  
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,7 @@
+# Weekend and Holiday Visits Features
+
+## Weekend and Holiday Visits Features
+ Medidata Detect includes the following weekend and holiday visit-related capabilities:
+- Filter Scheduled Patient Visits By Visit Name 
+- View and Create Issues on the Weekend and Holiday Visits Page 
+- Identify Potentially Falsified Visit Data By Viewing Scheduled Patient Visits That Occurred on Non-business Days

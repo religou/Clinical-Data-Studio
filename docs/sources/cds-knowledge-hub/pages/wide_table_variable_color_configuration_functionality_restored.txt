@@ -1,0 +1,14 @@
+# Wide Table Variable Color Configuration Functionality Restored
+
+## Wide Table Variable Color Configuration Functionality Restored
+## Description
+ In the Medidata Patient Profiles 2020.1.0 release, the wide table timeline option to configure the color of variable data points was removed to improve integration with other Medidata products. The ability to configure the color of variable data points in wide table timelines is restored and available for use again. 
+## Affected Roles
+- Unblinded Patient Profiles Designer 
+- Blinded Patient Profiles Designer 
+## Advantages
+ You can configure variable data points to display in the timeline in the color of your choosing to make profiles easier to scan and read. 
+## User Impact
+ On the Design page > Elements tab:   When working in Wide Tables,  the TABLE OPTIONS tab > Timeline Options > Color options for functionality is re-enabled. You can once again configure the color of the variable data points in wide tables that display in timelines. 
+## Special Considerations
+ None.

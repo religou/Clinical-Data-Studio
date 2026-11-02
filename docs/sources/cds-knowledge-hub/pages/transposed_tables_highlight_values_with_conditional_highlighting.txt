@@ -1,0 +1,19 @@
+# Transposed Tables Highlight Values With Conditional Highlighting
+
+## Transposed Tables Highlight Values With Conditional Highlighting
+## Description
+ Transposed tables highlight high and low variables that lie outside a specified   normal range , along with highlighting rows in the table based on set conditions.  A ( ) displays next to variable values exceeding the upper limit. A ( ) displays next to variable values below the lower limit. 
+## Affected Roles
+ All. 
+## Advantages
+ The combination of highlighting table rows and high and low values with red and blue markers, respectively, allows Patient Profile design reviewers to easily identify outliers in a study. 
+## User Impact
+ On the Design page > Elements tab:  
+- Working in Transposed Tables > TABLE OPTIONS tab, Highlight Conditions allow you to set up a visual indicator (color) to indicate a value based on set criteria. 
+- Working in Transposed Tables > DATA tab, you can drag-and-drop upper and lower limit variables   in to the Variable column in the Normal Range section. The Display column shows the upper limit in red and the lower limit in blue. These   colors   are set by default and cannot be changed. 
+ On the Design page > Profiles tab:  
+- If you specify both upper and lower limit variables, high and low variables outside the specified normal range display with a  or icon, respectively, for a patient. The cell in the profile is also highlighted with the color you chose for conditional highlighting variable values based on set criteria.   
+- If you specify only upper limit variables, high variables outside the specified normal range display with a  icon for a patient. The cell in the profile also is highlighted with the color you chose for conditional highlighting variable values based on set criteria.   
+- If you specify only lower limit variables, low variables below the specified normal range display with a icon for a patient. The cell in the profile also is highlighted with the color you chose for conditional highlighting variable values based on set criteria.   
+## Special Considerations
+ Transposed tables indicate high and low values outside a range only if upper and lower limit variables have been defined for the selected test. If a variable is equal to either the set upper or lower limit, a visual marker does not appear next to the variable as this it is within the specified range.

@@ -1,0 +1,13 @@
+# Event Tables In Timelines Show Legend With Default Colors
+
+## Event Tables In Timelines Show Legend With Default Colors
+## Description
+ Legends appear in the default color, red, for event tables that are added into a timeline. The legend also displays with custom colors. 
+## Affected Roles
+ All. 
+## Advantages
+ The legends allow Patient Profile design reviewers to identify patient data based on the color in a study. For example, Patient Profiles reviewers may rely on color-coded Con Meds based on medication indication.  
+## User Impact
+ On the Designs pages > Elements tab, if you apply default or custom colors in event tables used in a timeline , the legends appear in red or custom colors, respectively, when viewing a patient's profile on the Profiles page.  
+## Special Considerations
+ None.

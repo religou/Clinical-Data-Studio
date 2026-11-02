@@ -1,0 +1,52 @@
+# Data Sets
+
+## Data Sets
+ Data Surveillance's Data Sets capability ingests your team's study data from:  
+- Medidata Rave, or any other electronic data source like Veeva EDC. 
+- Third-party vendor data—for example, protocol deviations, lab data, or any data not uploaded through Rave—which gets uploaded through Data Connect's Imports capability  or through Ingestor . 
+ Note : New studies will import external, third-party data using Imports. However, legacy studies that have previously ingested data through Ingestor can continue to import data through Ingestor.
+ You can then use the Data Sets capability to view your study's data sets to:
+- Holistically explore and investigate your entire set of study data, and 
+- Investigate patients' case report forms in Rave or Veeva EDC. 
+ This initial exploratory study data analysis can help determine if you should create any data listings to monitor data that may be of high risk to the study.
+ Note: In Data Surveillance and RBQM, s tudy data automatically refreshes four times daily at approximately 9:00am (EST), 3:00pm (EST), 9:00pm (EST) and 3:00am (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, 5:00 am (EST) the same day, 11:00 am (EST) the same day, 5:00 pm (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Rave, and  activated datasets from Data Connect are available in 6 to 12 hours within Data Surveillance and RBQM. For more information, see  Clinical Data Studio Data Pipeline . 
+## Access, View, and Investigate Your Study's Data Sets
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+- Access Data Surveillance , and then click Data Sets in the left-hand menu.
+The Data Sets page shows. 
+- On the Data Sets page, and then select the data set you want to view.
+ Note : Data sets appended with the: 
+- indicate that the data set's data comes from Rave. 
+- indicate that the data set is a custom code dataset . 
+- indicate that the data set comes from a third-party vendor. 
+- indicate that the data set is a  stacked data set or derived dataset generated in Data Connect . 
+- indicate that the data set is a published audit data set. 
+- indicate that the data set's data comes from Rave Queries. 
+  The selected data set's table shows all patient data records captured for all variables in the data set.
+ Note : For Rave Coder users, you must code at least one term and then Clinical Data Studio must subsequently perform a data refresh for the Datasets table to show coded term information.
+- Optional . Filter the data set table to help find the information you need. 
+- Optional . Use the page navigation below the data set table to sort through the list of records. 
+- Optional . Click a hyperlinked Patient ID to view that patient's case report forms in Rave. 
+## Filter Data Set Tables
+ To help scan data set tables to find specific records , you can filter the table to show:
+- All data set records. This is the default view. 
+- Only data records for specific tables columns. For example, you can show or hide records for specific variables in the data sets table. 
+- Only data records with specific values in specific table columns. For example, you can show only records associated with specific patient IDs in the table. 
+- Do any of the following:
+- To show only data records for specific table columns: click   , the More icon, and then click Columns Configuration , at the top-right corner of the data set table, select or clear the columns you want to show or hide, respectively, and then click Apply . 
+- To show only data records with specific values in specific table columns: click the Filter button, , at the top-right corner of the data set table, click More filters , select a column name, click the column filter (for example, ), select all data values you want to view in the table, click Select , and then click Apply Changes . 
+## Fix Column Configurations
+ To better customise the results, you can hide, unhide, fix a table's columns to appear to the left or right. For example, you can hide columns of no interest.
+- Access Data Surveillance , and then click Datasets in the left-hand menu.
+The Datasets page shows. 
+- Click any dataset. 
+- Click ,  More icon, above the dataset table. 
+- Click Columns Configuration .
+A slide out panel appears. 
+- Drag and drop fields under Columns to either Left Fixed Columns or Right Fixed Columns . The fields you place under each appear as such in the listings table. For example, you fix Patient, Site or Country to the left.
+ Note : We recommend:
+- Fixing only Patient, Site and Country columns as left columns. 
+- Only fixing columns that you can see on your screen as per your screen resolution. 
+- Including some columns that are neither fixed as left or right fixed columns, so that horizontal scrolling remains. 
+ We do not recommend:
+- Fixing all columns, that is, fixing some columns to the left, and the remaining to the right. This may cause the screen to freeze (UI Gridlock), where the fixed elements from the left and right sides essentially meet in the middle, leaving no room for the scrollable data to actually render.

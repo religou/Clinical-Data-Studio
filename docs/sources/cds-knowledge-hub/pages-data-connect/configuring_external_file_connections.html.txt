@@ -1,0 +1,11 @@
+# Configuring External File Connections
+
+## Configuring External File Connections
+ When configuring exports, you can choose to deliver files to an external file connection that you own. After configuring the external connection outside of the Medidata platform, you can add the connection to the external file connection list. You can then use that connection when configuring exports. 
+- Configuring Exports to Deliver to Amazon S3 Connections 
+- Configuring Exports to Deliver to FTPS Connections 
+- Configuring Exports to Deliver to SFTP 
+ Tip :  Troubleshooting Common Connection Issues 
+ A common issue that occurs is misconfigured delivery location servers for external connections. Ensure that the delivery location is properly configured before adding it as a location. 
+- SFTP / FTPS – FTP servers must be accessible outside your organization's private network. Medidata cannot whitelist IP addresses or VPN tunnels to an external server. 
+-   S3 – S3 connections require other configurations on your side. You must complete the client-side AWS configuration before adding the connection. For details, see Prepare Amazon S3 Bucket .

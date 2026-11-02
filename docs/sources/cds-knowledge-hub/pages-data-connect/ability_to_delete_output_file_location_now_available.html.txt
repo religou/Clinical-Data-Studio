@@ -1,0 +1,17 @@
+# Ability to Delete Output File Location Now Available
+
+## Ability to Delete Output File Location Now Available
+## Description
+ You can now delete output file locations you have access to. The locations list also updates the Output Locations column to instead show "Locations".
+## Affected Roles
+ All roles with the ability to configure output file locations. For details, see Exports Roles and Capabilities. 
+## Advantages
+ You can remove output locations that you no longer need.
+## User Impact
+ You can delete output locations from the Extractor's location list. When you review a location's actions menu, the Delete Location option appears. Otherwise your ability to create or manage output locations is unchanged.
+## Knowledge Space Updates
+ The Extractor Knowledge Space provides updated content to describe how to delete output locations: 
+- Add SFTP Connection 
+- Add S3 Connection 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

@@ -1,0 +1,21 @@
+# Rave Enabled Listings Provide Insights Into Rave Query Status
+
+## Rave Enabled Listings Provide Insights Into Rave Query Status
+## Description
+ Rave enabled listings provide insights into the status of submitted Rave queries in Data Reviewer.
+## Affected Roles
+ All.
+## Advantages
+ You can view the status of Rave queries submitted for listings from within Data Reviewer, enabling you to inspect responses to queries or the data issue identified in the listing.
+## User Impact
+ Note: For Rave query insights implemented in Listings created prior to Detect 2023 R03, edit the Rave query, save it as a draft, and approve it. You can then retrieve the related Rave query insight information. 
+- If you create or edit a Rave enabled listing in Medidata Detect > Patient Data Surveillance > Data Reviewer > Data Listings. The Rave Query Details section in the Expression Builder includes a Marking Group dropdown with several marking group options configured for the study. The default option is Site From DM. H owever, you can select any of the options. For more information, see Markings in Classic Rave EDC .  
+- If you click the icon in the Status column for an approved Rave enabled listing, a slide out panel shows all the queries associated with the Rave enabled data point associated with the listing. 
+## Knowledge Hub Updates
+ The Medidata Detect Knowledge Hub provides updated content to support the enhancement: 
+- View, Create, and Edit Draft Listings 
+## Special Considerations
+- You must have Rave query access to submit Rave queries for listings. 
+- The Status column in an approved Rave enabled listing displays the icon 24 hours after submitting a Rave query in Data Reviewer. 
+- For Listings created prior to release, save again in "draft" and "approved" in order for query status to be displayed. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

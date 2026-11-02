@@ -1,0 +1,35 @@
+# Event Incidence Plot Improvements
+
+## Event Incidence Plot Improvements
+## Description
+ The Event Incidence Plot page includes the following new feature:
+- Event Incidence Summary – The Summary table lists all sites and countries with patient-reported events in the Event Incidence Plot visualization. The Summary table also summarizes key event incidence-related metrics with regards to each site and country. 
+ The Event Incidence Plot page also includes the following new enhancements:
+- View the Event Incidence Plot by Country  –  In previous Medidata Detect releases, you could only view event incidences at the site and study level. You can now additionally use the View By dropdown to filter the Event Incidence plot and Summary table to view patient-reported event terms at the country level. 
+- Filter the Event Incidence Plot to Display Specific Reported Event Terms  – The new Select Term(s) dropdown enables you to filter the Event Incidence plot to display data for specific event terms at the site, country, and study level. 
+## Affected Roles
+- Central monitors 
+- Data managers 
+- Medical monitors 
+## Advantages
+ The Summary table allows you to:
+- View in a tabular format the list of sites or countries with patient-reported events within the selected domain. 
+- Sort by column to more easily find and analyze specific data of interest. 
+ Filtering the Event Incidence Plot and Summary table by country:
+- Helps you focus on and analyze patient-reported event data and trends at the country level. 
+ Filtering the Event Incidence Plot and Summary table to display only specific event terms:
+- Helps you focus on and analyze specific event terms of interest at the site, country, and study level. 
+## User Impact
+ The Summary table displays below the Event Incidence plot visualization.  From the Summary   table, you can: 
+- View a list of sites or countries that have patient-reported event terms within a domain. 
+- Sort by column to view and find data.
+ Tip : Click to enlarge.
+ The Event Incidence Plot includes the additional View by dropdown, which enables you to filter the Event Incidence plot to display reported event terms at the site or country level.
+ The Event Incidence Plot also now includes a More Filters... link. When clicked, the following filters display:
+- Select Term(s)  – Use this dropdown to select or enter one or more specific event terms whose data you want the Event Incidence Plot to filter for and display. 
+- Study Level Threshold  – Existing functionality from previous releases. 
+- Show Outlier Site Only  – Existing functionality from previous releases. 
+ When filters are expanded, you can click the Less Filters... link to collapse the filters and return to the default view.
+## Special Considerations
+- The Event Incidence plot displays reported event terms within the selected domain at the site level by default. 
+- The Summary table is filtered by the # Outlier Incidences column in descending order (highest to lower) by default.

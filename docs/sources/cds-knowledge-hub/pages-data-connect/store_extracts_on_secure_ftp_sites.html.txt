@@ -1,0 +1,15 @@
+# Store Extracts on Secure FTP Sites
+
+## Store Extracts on Secure FTP Sites
+## Description
+ With the new Extractor Admin permission, you can define a   client hosted  secure FTP (SFTP) storage location to use as the preferred storage location for data extractions. When creating a new export job, you can select a defined SFTP location as the preferred output destination. When the export job executes, the data extracts transfer automatically to the selected client hosted SFTP location. 
+## Affected Roles
+- Users with the new  Extractor Admin permission can define and edit SFTP locations using the Settings menu. 
+- When creating a new export job, users with the Data Extract permission can select a preconfigured SFTP destination for extracted data sets. 
+## Advantages
+ Data sets stored on client defined SFTP servers are not subject to a 24-hour download limitation. You can retrieve those data  anytime after the export job has completed successfully.
+## User Impact
+- While creating export jobs.  you can select a preconfigured SFTP destination to ensure that data extracts from the export job are available beyond the 24-hour limit imposed by MEDS Extractor. 
+- If you have the  Extractor Admin permissions, you see the new  Settings option on the MEDS Extractor job list page. You can also choose a predefined SFTP location for extracts, as part of selecting output destinations. 
+## Special Considerations
+ None.

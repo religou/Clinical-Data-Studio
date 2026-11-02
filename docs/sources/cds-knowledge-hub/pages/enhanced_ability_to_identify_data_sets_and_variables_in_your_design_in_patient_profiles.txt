@@ -1,0 +1,27 @@
+# Enhanced Ability to Identify Data Sets and Variables in Your Design in Patient Profiles
+
+## Enhanced Ability to Identify Data Sets and Variables in Your Design in Patient Profiles
+## Description
+ Patient Profiles 2018.1.0 introduced visual enhancements to the Data Options tab on the Design page > Elements tab to help you identify which data sets and variables are applied to your design. To learn more, see  Browse Data Sets and Add Variables to Elements More Efficiently .
+ Patient Profiles 2018.2.0 builds upon these visual enhancements by:
+- Displaying the visual indicators in the list of data sets in a stronger, bolder color. For example, a stronger shade of green indicates data sets applied to your design. 
+- Increasing the width of the visual indicators in the list of data sets. 
+- Including the data set list's visual indicators in the:
+- Design page > Layout tab 
+- Settings page > Design Options tab 
+- Element Display Condition dialog box, accessible from the Table Options tab when designing timelines or any table element. 
+- Row Display Condition dialog box, accessible from the Table Options tab when designing any table element. 
+- Highlight Condition dialog box, accessible from the Table Options tab when designing wide tables and transposed tables. 
+## Affected Roles
+ All.
+## Advantages
+ Bolder, wider visual indicators enhance your ability to scan and identify your design's selected data sets and variables. The visual indicators also display in more data set lists throughout Patient Profiles, not just the Data Options tab on the Design page > Elements tab.
+## User Impact
+ The table below illustrates the visual enhancements made in Patient Profiles 2018.2.0.
+ Tip : Click images to enlarge.
+ Before Patient Profiles 2018.2.0 
+ Now 
+ | 
+ | 
+## Special Considerations
+ None.

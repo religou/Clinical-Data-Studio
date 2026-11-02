@@ -1,0 +1,42 @@
+# PDS: Patient Profiles Quality of Life Improvements for April 2024
+
+## PDS: Patient Profiles Quality of Life Improvements for April 2024
+## What Is New?
+ On the Patient Data Surveillance (PDS) > Patient Profiles > Design page > Profiles tab > Patient Selector, you can now:
+- Select the number of rows you want the Patient Selector to show on the page. You can show 25, 50, or 100 rows at a time.
+- The default rows per page are 25 rows. 
+- Paginate through the Patient Selector table. 
+- Click Patient Selector column headers to sort the Patient Selector table by column vertically in ascending or descending alphanumeric order. 
+ In addition, performance when filtering the Patient Selector by table column is improved.
+## What Is the Impact?
+## Users/Roles
+ All Patient Profiles users. 
+## Workflow Process
+ No impact to the workflow process. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ In previous Patient Profiles releases, the Patient Selector listed all patient data for all patient profiles on a single page. Paginating the Patient Selector reduces the amount of data that the Design page consumes, which significantly improves page performance. 
+ Filtering and sorting the Patient Selector table helps you scan the table to find specific patient profiles based on specific data. 
+## Where Do I See the Change?
+ On the Patient Data Surveillance (PDS) > Patient Profiles > Design page > Profiles tab > Patient Selector, you can find the following enhancements:
+ Tip : Click the images to enlarge.
+ Patient Select Enhancement 
+ Image 
+ | Show number of rows and pagination 
+ | 
+ | Patient Selector table columns filters
+ | 
+ | Sortable Patient Selector table columns 
+ | 
+ Note : You can c lick a column header to sort by that column. A blue Up Arrow, , indicates that the column is sorted in ascending alphabetical (A at the top; Z at the bottom) or ascending numeric order (lowest value at the top, highest at the bottom). Click a column header twice to sort in descending alphabetical (Z at the top; A at the bottom) or descending numeric order (highest value at the top, lowest at the bottom) as indicated by a blue Down Arrow, . 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of these enhancements:
+- Review and Export Patient Profiles 
+## What Else Should I Know?
+- If you access a patient profile directly from an AI Data Reconciliation report, the Rounding & Propagation > Patients with Recorded Events window, the Event Incidence plot, the Data Anomaly Detect plot > Summary table > Patient column (when viewing the Summary table by Patient), then  the paginated data shows when you clicks the Patient Selector upon landing on the patient details page. The pagination shows the total number of pages, current page number, and the default rows per page is set to 25. 
+- You must enter a minimum of three characters to initiate the Patient Selector column filters. 
+- You can only filter up to 10 Patient Selector columns at a time. 
+- You cannot sort the Patient Selector table by the Unreviewed Patient Status column. 
+- If you want to navigate to page 10 or higher, we recommend using the pagination's next arrow, > , instead of entering a specific page number 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

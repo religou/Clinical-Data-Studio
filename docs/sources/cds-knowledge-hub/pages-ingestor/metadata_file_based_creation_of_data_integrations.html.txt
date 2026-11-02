@@ -1,0 +1,15 @@
+# Metadata File Based Creation of Data Integrations
+
+## Metadata File Based Creation of Data Integrations
+## Description
+ You can use MEDS Ingestor to create data integration configurations by importing Study Design Metadata comma-separated value (CSV) files. You can import third-party external data with no additional requirement for Medidata EDC applications.
+ Feature/enhancement stories referenced in this article:
+ MCC-616342, MCC-621155, MCC-645856, MCC-645863, MCC-651077, MCC-654375, MCC-657107, MCC-679435, MCC-679743 
+## Affected Roles
+ All roles with Data Import permissions. 
+## Advantages
+ MED Ingestor now enables ingestion of third-party non-Medidata EDC data into MEDS without requiring you to be a Medidata EDC customer. 
+## User Impact
+ You can upload Study Design Metadata (SDM) files  to create data integrations for third-party data. 
+## Special Considerations
+ As uploading SDM files creates protocols and data integrations, therefore you must also have Medidata Designer permissions. Therefore,  Medidata Designer no longer supports the creation of data integrations for Laboratory data.

@@ -1,0 +1,24 @@
+# Data Surveillance: Verify Rave Target Source Data Count In Clean Patient Tracker
+
+## Data Surveillance: Verify Rave Target Source Data Count In Clean Patient Tracker
+## What Is New?
+ You can now obtain source document verification and Targeted Source Document Verification record count from Rave data for activated patients at the record level within Clean Patient Tracker in Clinical Data Studio. For more information, see  Rave TSDV . 
+## What Is the Impact?
+## Users/Roles
+ Data Managers.
+## Workflow Process
+ The TSDV module in Rave EDC optimizes data validation by randomly and dynamically selecting patients for verification, rather than verifying all patient data in a Rave study. Targeted SDV uses block plans to reduce the volume of verification performed. The TSDV count shows only if TSDV is set up for the study in Rave EDC. When you click Recalculate in Clean Patient Tracker, the TSDV count calculated at the record level for patients in a specific site, shows.  Otherwise, the SDV count appears. 
+## Other Applications
+ No impact on other applications.
+## How Do I Benefit?
+ Data managers can distinguish between data that has Targeted source data verification (TSDV). Data managers can ensure that they review and verify the correct data before a study is locked. This enables greater data integrity and accuracy. 
+## Where Do I See the Change?
+ In Data Surveillance > Clean Patient Tracker, TSDV % appears as a column in the patients table.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the feature : 
+- Track and Clean Patient Data . 
+## What Else Should I Know?
+- The TSDV count shown at record level does not account for deleted, hidden, or inactive Rave data.  
+- TSDV counts appear if TSDV is established for the study. For studies that require verification in Rave Architect, only the SDV count appears. 
+- TSDV is set up after patients are already in Rave, study managers must include those patients in the TSDV plan. Patients who are not part of the TSDV plan show only as part of the SDV count.  
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

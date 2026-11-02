@@ -1,0 +1,13 @@
+# New Job Configuration Details Page
+
+## New Job Configuration Details Page
+## Description
+ You can now view the full details of a selected export job, including the data sources and schedule options configured in the job.
+## Affected Roles
+ All roles with the Manage Extracts permission. 
+## Advantages
+ The job configuration page provides a streamlined single page summary  of the selected export job configuration.
+## User Impact
+ Drill down on the export job name in the job list page to view the Job configuration page.
+## Special Considerations
+ None.

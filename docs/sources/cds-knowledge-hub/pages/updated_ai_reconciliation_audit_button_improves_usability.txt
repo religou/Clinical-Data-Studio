@@ -1,0 +1,20 @@
+# Updated AI Reconciliation Audit Button Improves Usability
+
+## Updated AI Reconciliation Audit Button Improves Usability
+## What Is New?
+ The Audit button now appears in the top-right corner of the AI Reconciliation page.  You can view an audit report of historical actions and updates made on all AI Reconciliation reports in your study using the audit button. 
+## What Is the Impact?
+## Users/Roles
+ Data Managers.
+## Workflow Process
+ No impact on the workflow.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The updated position of the audit button allows you to easily initiate audit tracking for historical actions and updates made in AI Reconciliation reports. 
+## Where Do I See the Change?
+ See What's New?.
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,50 @@
+# Review Datasets
+
+## Review Datasets
+ From the All Datasets screen, you can see a list of accessible datasets within your study group and their details.
+## Review the Datasets List
+ The datasets list shows various details about your datasets. 
+ You can filter the dataset list by clicking one of the following categories:
+- All – Show all datasets. 
+- Alerts  – Show all dataset that has errors or warnings. 
+- Internal – Show datasets from internal sources from within the Medidata platform, such as Rave data. 
+- SDTM / Enriched View / Custom Data Model / Derived Dataset – Show datasets from the respective data transformation type as produced through Data Connect's Transformations capability. 
+- External – Show datasets from sources imported through Data Connect, such as Labs data. 
+- Sensor – Show datasets from the Sensor Cloud . 
+ Column 
+ Description 
+ | Label 
+ | The dataset's name as set from its source.
+ | Collection 
+ | The dataset's collection. For more about dataset collection, see  Manage Dataset Collections .
+ | Type 
+ | The dataset's type, such as Rave, Derived Dataset, or SFTP Data Source.
+ | Source 
+ | 
+ The dataset's data source, such as Rave or the data source specified when configuring an imported source or transformed source.
+ Note : All datasets are live from their respective sources, and are, when applicable, automatically transformed based on their respective transformation configurations.
+ | Activation 
+ | 
+ Denotes if the dataset is Activated or Inactive. Other compatible Medidata capabilities use Activated datasets for their functionalities, such as Data Surveillance . For more about dataset activation , see  Activate Datasets . 
+ | Status 
+ | 
+ Denotes the centralized status for the dataset. You can view if the consolidated dataset status with the module that the dataset gave an error or warning. 
+ | Last Updated 
+ | Denotes the most recent date in MMM DD, YYYY format when the dataset's updated configuration is published. Usually, if this field is empty, then it means that its source is live-streaming the records. To learn more, see Dataset Statuses . 
+ Important : Data Latency Timeline 
+ Because the data can come from different sources, they can have different refresh cycles. For example, Rave data can take up to 12 hours to appear after loading them the first time. For details, see  Dataset Latency .
+## Review a Specific Dataset
+ Clicking a specific dataset label opens the dataset's details. Depending on the dataset, you can perform different actions accessible by different tabs.
+ Tip : Click anywhere on a specific dataset row other than the dataset label to view dataset status for Data Connect. 
+ Tab 
+ Description 
+ | Data Preview 
+ | Shows a table of the dataset's variables and records. You can hide columns and filter data as necessary. 
+ | Profiling 
+ | You can profile your dataset with various filters and fields. For details about dataset profiling, see  Dataset Profiling . 
+ | Activation 
+ | Shows the dataset's activation status. You can activate a dataset, or deactivate or edit a deactivated dataset. For details about dataset activation, see  Activate Datasets . 
+ | Unregistered Values 
+ | Shows a list of the dataset's records that have not been registered to the study. 
+ By registering values, you can check and map visits from derived datasets or external datasets to existing visits. You can also create unscheduled visits and map visits to those as well.
+ Important : The system consolidates Rave dataset versions that have the same metadata. You can select between dataset versions from the Versions menu. For details, see  Rave Metadata Versioning and Scenarios .

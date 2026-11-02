@@ -1,0 +1,141 @@
+# About Clinical Data Studio
+
+## About Clinical Data Studio
+ Medidata Clinical Data Studio is a complete data management and quality experience that provides seamless access to integrated data from Medidata and non-Medidata sources. Built with a user-friendly, no/low code environment, Clinical Data Studio uses AI to streamline data aggregation, standardization, and management workflows so that multiple users can act on real-time data in ways that reduce burden, shorten review timelines, increase quality, reduce risk, and improve patient safety.
+## What Is Clinical Data Studio?
+ Medidata Clinical Data Studio is a unified platform solution, which provides the following offerings: 
+- Medidata Data Surveillance – Includes the following capability suites:
+- Data Surveillance – Provides a drag-and-drop listings builder, automated query generation for Medidata Rave-sourced data, issue management for non-Medidata sourced data, AI-powered data reconciliation, patient profiles, and visualizations. 
+- Data Connect – Enables self-service data ingestion and no/low-code data transformation capabilities.  
+- Medidata Data Quality Management – Includes all the Data Surveillance capabilities above, plus the following additional capability suites: 
+- RBQM – Provides  risk surveillance capabilities supporting a holistic risk-based quality management (RBQM) approach to data quality. 
+- Cross Study Metrics – P rovides a   portfolio -level view of relevant data from upstream experiences, such as RBQM and Data Surveillance, across your studies. 
+ Leveraging the Medidata Platform—the industry’s leading clinical research platform—and enabled by a scalable, flexible, open, and real-time streaming data architecture, Clinical Data Studio uniquely delivers a unified data management and analytics experience—powered by automation, AI, and advanced analytics—for all clinical data and multiple roles. With Clinical Data Studio, you can get started quickly and get value faster without extensive implementation timelines and ongoing managed service fees.
+## What Is the Purpose of Clinical Data Studio?
+ Built with a user-friendly, no/low code environment, Clinical Data Studio uses AI to streamline data aggregation, standardization, and management workflows so that multiple users can act on real-time data in ways that reduce burden, shorten review timelines, increase quality, reduce risk, and improve patient safety. Clinical Data Studio provides:
+- Streamlined self-serve ingestion to manage non-Medidata data transfer. 
+- Low/no-code transformation and standardization engine to minimize technical resource burden. 
+- Comprehensive data quality, risk, and safety management capabilities. 
+- Embedded AI and smart analytics to automate manual, error-prone tasks and accelerate time to insight. 
+- Dynamic, fit-for-purpose visualizations and dashboards for a total view of the patient and study. 
+ Clinical Data Studio unlocks efficiencies and accelerates clinical discovery by supporting a wide variety of use cases for clinical data managers, clinical operations, medical monitors, clinical programming, and other data stakeholders.
+ With its Data Surveillance and Data Quality Management offerings, Clinical Data Studio delivers a comprehensive data quality solution, including accelerated review of data and patient profiles, easy-to-configure on-demand visualizations, AI-assisted data reconciliation, risk management, site performance monitoring, collaborative issue management, anomaly detection, and patient safety overview.
+## Who Uses Clinical Data Studio?
+ Clinical Data Managers and Clinical Data Scientists 
+- Automate data review and query management. 
+- Identify data patterns with advanced analytics. 
+- Reconcile complex data with AI. 
+ Clinical Operations and Safety 
+- Identify site and study risks sooner with real-time dashboards. 
+- Explore patient safety issues comprehensively. 
+- Predict and monitor SAEs with AI. 
+ Clinical Programmers and IT 
+- Eliminate manual data integration activities.
+- Ingest-Transform-Extract datasets in low code environment. 
+- Accelerate data mapping for submission. 
+ C-Suite and Executives 
+- Break operational silos 
+- Generate high quality and submission-ready data faster
+- Increase visibility and make decisions faster 
+## How Does Clinical Data Studio Work?
+ Clinical Data Studio   ingests your team's study data from:  
+- Rave 
+- Third-party vendor data—for example, protocol deviations, lab data, or any data not uploaded through Rave—which gets uploaded through Data Connect's Imports capability  or through Ingestor . 
+ Note : New studies will import external, third-party data using Imports. However, legacy studies that have previously ingested data through Ingestor can continue to import data through Ingestor.
+ In Data Surveillance and RBQM, study data automatically refreshes four times daily at approximately 9:00am (EST), 3:00pm (EST), 9:00pm (EST) and 3:00am (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, 5:00 am (EST) the same day, 11:00 am (EST) the same day, 5:00 pm (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Rave, and activated datasets from Data Connect are available in 6 to 12 hours within Data Surveillance and RBQM.
+ Once Clinical Data Studio pulls the study's data sets and variables into your study environment, you can use the following apps and their capabilities: 
+- Data Connect: 
+- Datasets – R eview existing datasets that you have access to including from Rave, external data sources, and transformed data sets. 
+- Imports – M anage and import data from external sources. 
+- Exports – Create and manage export jobs to extract your data from the Medidata platform. 
+- Transformations – C reate data sets, and transform them depending on your needs: 
+- Data Surveillance: 
+- Task Oversight – A dashboard that shows study metrics and key performance indicators (KPIs) from Patient Profiles, Vendor Queries, Listings, AI Reconciliation, and Data Connect. It  allows you to track and monitor in one centralized location the progress of patient data in your study that requires vetting and review. 
+- Clean Patient Tracker – View a  dashboard that visualizes, lists, and prioritizes the outstanding patient data cleaning tasks across Data Surveillance that require vetting and review. 
+- Data Sets – M onitor high-risk, critical, or complex study data from Rave and third-party data vendors to mitigate and prevent issues to data quality or integrity. 
+- Open EDC Queries –  V iew in one consolidated location the detailed list of all open and answered queries raised against patient data in your study. 
+- Vendor Queries – Report and track external data issues with vendors. 
+- Listings – Create conditional expressions that parse your study data to identify and report patient data records within a specified variable that may indicate a study risk. 
+- AI Reconciliation – View automated reports that use built-in algorithms to reconcile site data and identify anomalies within adverse event (AE), concomitant medication (CM), and medical history (MH) data sets. 
+- Patient Profiles – Build patient profile designs using tables, flags, graphs, and timelines to identify safety signals and ensure patient data consistency. 
+- Custom Graphs – A self-serve data visualization and reporting tool that enables you to chart the relationship between any combination of datasets on a single visual using real-time study data on demand. 
+- Oncology - RECIST 1.1 – View auto-generated visualizations that produces  the treatment response and disease progression metrics for patients based on the Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 methodology. 
+- Data Surveillance Configuration – Enables you to:
+- Map the specific   study data that you want Data Surveillance and RBQM to report on and visualize. 
+- Configure: 
+- Automation of data refreshes across Data Surveillance. 
+- Vendors to which you want to communicate vendor data issues. 
+- Derived variables. 
+- Stacked datasets. 
+- Review reports. 
+- RBQM: 
+- Data Quality Hub   – A dashboard view of RBQM-related key performance metrics and list of 25th sites based on site impact score.. The Data Quality Hub enables you to identify areas of study risk and directly access the RBQM capabilities you need address the identified risks. 
+- Risk Assessment – A highly collaborative, continually iterated workspace that cross-team study members use to document identified areas of risk. Risk Assessment enables teams to Identify and address high priority risks, evaluate risk performance, as well as review and approve risk plan reports. 
+- Risk Inventory – A real-time, comprehensive list of all study risks and associated QTLs and KRIs documented in the Risk Assessment. You can track, monitor, and manage risks from the Risk Inventory. 
+- Plan Documents –  Build and publish integrated data quality plans and   add components to your plan—i ncluding functional plans— to review and monitor data throughout a study. 
+- Protocol Integrity Report – A centralized dashboard that enables you to capture, track, review, and manage protocol deviations. It centralizes protocol deviations from multiple sources into a single view. The system aligns identified deviations with the Protocol Deviation Assessment Plan (PDAP). 
+- KRI Dashboard – A dashboard view of the key risk indicators (KRIs) that your study monitors and their respective KRI values at each site or country. Monitoring KRI metrics from the KRI Dashboard enables teams to monitoring site and country performance and compliance. 
+- QTL Dashboard –  A dashboard view of the performance metrics associated with the quality tolerance limits that your study monitors. The QTL Dashboard enables study teams  to c learly, quickly, and confidently evaluate the health and performance of study-level parameters that are critical to study quality. 
+- Statistical Monitoring – A data analysis and visualization solution that applies advanced statistical analytics on clinical study data to detect risks, anomalies, and trends. Statistical Monitoring includes the following capabilities: 
+- Data Anomaly Detection – View AI-powered visualizations of RBQM's analysis for a single variable or pair of variables in your study data. You can use Data Anomaly Detection to determine outliers, anomalies, risks, and trends in your study data, and further investigate or report your data findings as necessary. 
+- Trends – Show a single variable's data at each site side by side using a box-and-whisker plot or stacked bar chart. You can use trend plots to pinpoint sites with abnormal or incorrect data that may warrant investigation. 
+- Weekend and Holiday Visits – View patient visit listings that break down at the study or country level how many scheduled patient visits occurred on each day of the week throughout the study. Viewing the scheduled patient visits that occurred on weekends or holidays can help you investigate whether falsified or erroneous patient records exist in your study data. 
+- Potential Duplicate Patients – View on an interactive heatmap the site locations in your study that RBQM identifies as having potential duplicate patients. Identifying and investigating sites with potential duplicate patients helps ensure data integrity and improves the chance of study success. 
+- Rounding and Propagation – View heatmaps to identify potentially unreliable data or noncompliant sites, and then further investigate or report your data findings as necessary. 
+- Event Incidence – Shows the reported events and the incidence rate in which those events occurred within a domain at the site and study level. You can use the Event Incidence Plot to determine sites whose reporting of events may require further investigation or corrective action as well as whether a drug should be discontinued. 
+- Under-Over Reporting Events – Visualizes event reporting patterns across adverse events (AE), concomitant medication (CM), and medical history (MH) at the site and country level. The Under-Over Reporting Events Plot helps you identify potentially noncompliant sites and countries whose event reporting patterns significantly differ from the study norm. 
+- History – Schedule data refreshes or manually trigger refreshes in Statistical Monitoring's capabilities and view historical data snapshots. 
+- Signals – Identify, track, and take action on potential study data issues by creating automated and manual threshold-based signals. 
+- Audit Trail Review – Ask questions into a chat interface and use Large Learning Models (LLMs) and Generative AI to explore and create audit data sets from complex Rave study data. Users with permissions can save and publish audit data sets and for use in KRIs and Listings. 
+- RBQM Configuration – Enables you to:
+- Map the specific   study data that you want Data Surveillance and RBQM to report on and visualize. 
+- Configure the risk scoring scale and data you want to capture in the risk assessment. 
+- Create and manage: 
+- KRIs and QTLs 
+- Derived variables 
+- Stacked datasets 
+- Review reports 
+- Configure the Clinical Data Studio capabilities that Data Surveillance and RBQM use to produce signals for. 
+- RBQM Template Library – Enables you to:
+- Create and manage Critical Data, Critical Processes, and Risk Categorization templates. 
+- Platform Library –  P rovides  centralized   access to the global template library to view and manage :
+- Listings, KRIs, QTLs and Custom Graphs Templates – Store and reuse common data listing, QTL, KRI, and Custom Graphs configurations that your organization is likely to include in multiple study configurations. 
+- Transformation Templates – Create standardized, reusable, and version-controlled templates that capture and apply the transformation logic from source projects in Data Connect.  
+- Cross Study Metrics :
+- Data Management Quality Metrics – dashboards with preset and organized visuals pertaining to   Data Surveillance   and  RBQM   data such as KRI data across your studies. Dashboards include: 
+- KRIs – You can view metrics about key risk indicators across your studies based on data from RBQM. 
+- QTLs – You can view metrics about   quality tolerance limits  (QTLs) across your studies based on data from  RBQM .   
+- Clean Patients – You can view metrics about patients with clean data across your studies based on data from Data Surveillance. 
+ To learn more, see:
+- Data Connect 
+- Data Surveillance 
+- RBQM 
+- Cross Study Metrics 
+ Important : Clinical Data Studio supports a limited range of numeric values. The exists between 9,223,372,036,854,775,807 and -9,223,372,036,854,775,807. Any number that falls outside this range appears as null in Clinical Data Studio.
+## How Do Clinical Data Studio's Capabilities Acquire Study Data?
+ See  Clinical Data Studio's Data Pipeline .
+## What Are the Benefits of Clinical Data Studio?
+ Clinical Data Studio enables study teams to:
+- Ingest and integrate all study data from multiple data sources.
+- Access data from Medidata data sources, including Rave, and easily import data from any non-Medidata source, such as labs or another EDC system. 
+- Data transfer agreements can be configured into Clinical Data Studio to validate ingested data automatically. 
+- Transform data with minimal effort.
+- Transform and prepare data in any way needed for review and analysis with no or little programming required. 
+- Reduce the burden on technical teams and domain experts by simplifying transformation activities with a no/low code environment. 
+- Perform data review, safety surveillance, and risk monitoring using the same real-time data within a unified data management and analytics experience. 
+- Data acquired on or ingested into the platform is streamed to data transformation and quality management tasks in real time. This: 
+- Centralizes all your data’s lifecycle in one consistent experience for all clinical data, multiple roles, powered by automation, AI, and advanced analytics. 
+- Ensures that everyone on the study team is working with the latest data. 
+- Breaks operational and data silos, increasing efficiency, visibility, and driving better informed and faster decisions 
+- Moves your RBQM strategies closer to the data and bridge the gap between data management and risk monitoring initiatives 
+- Achieve high-quality data faster.
+- Automate data review, bulk query management, data reconciliation, and surveillance with AI/ML and dynamic tracker dashboards. 
+- Use AI-powered workflows to simplify, accelerate, and gain faster data surveillance and risk management insights. 
+- Alleviate bottlenecks by enabling parallel workflows to clean, monitor, and transform data at the same time. 
+- Enhance study and participant safety.
+- Optimize patient profile reviews with visualizations and drill-downs to easily reveal patient safety issues. 
+- Optimize patient safety monitoring activities with holistic data and predictive analyses 
+- Reduce study risk and improve site performance.
+- Enhance study oversight, mitigate risk, and ensure compliance with advanced analytics. 
+## How Do I Access My Clinical Data Studio Apps and Studies?
+ See  Log In, Navigate Medidata, and Access Studies .

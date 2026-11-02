@@ -1,0 +1,30 @@
+# CSM Configuration Renamed to Detect Mapping and Other Label Changes
+
+## CSM Configuration Renamed to Detect Mapping and Other Label Changes
+## Description
+ CSM Configuration is renamed to Detect Mapping. Detect Mapping also includes the following label changes:
+- The CSM Configuration page header that persists across all Detect Mapping tables is renamed to Detect Mapping. 
+- The CSM Configuration tab on the left-hand navigation is renamed to Detect Mapping. 
+- The Error Plot Configuration tab is renamed to Dataset Configuration. 
+- The Error Plot Configuration page is renamed to Dataset Configuration. 
+- The Event Analysis Configuration page is renamed to Event Analysis Mapping. 
+- The Duplicate Patient Configuration page is renamed to Duplicate Patient Mapping . 
+- The Rounding and Propagation Configuration page is renamed to Rounding and Propagation Mapping . 
+- The CSM Configuration Report button is renamed to Detect Mapping Report.
+- When you click the Detect Mapping Report button, the ensuing dialog that appears is renamed from CSM Configuration to Detect Mapping Report.
+- In the Detect Mapping Report, you can click the Select Mappings check box to select all or clear all mappings. 
+## Affected Roles
+ Detect Configuration Manager Admin 
+## Advantages
+ Using the term mapping instead of configuration better correlates with the actions you perform in Detect Configuration Manager.
+## User Impact
+ See the Description section.
+## Knowledge Hub Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support this enhancement: 
+- Map Data Set Analysis Data 
+- Map Event Analysis Data 
+- Map Potential Duplicate Patient Data 
+- Map Vital Sign Data for Rounding and Propagation Analysis 
+- Download Detect Mapping Report PDFs 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

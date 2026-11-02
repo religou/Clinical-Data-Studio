@@ -1,0 +1,21 @@
+# Download QTL and KRI Configuration Report PDFs
+
+## Download QTL and KRI Configuration Report PDFs
+## Description
+ You can download QTL and KRI configuration reports, which contain pertinent configuration information about the QTLs and KRIs in your study environment.
+## Affected Roles
+ RBQM Configuration Manager Admin 
+## Advantages
+ You can view on demand the QTLs and KRIs configured in your study environment and associated configuration details in a clear, easy-to-read, and exchangeable format.
+## User Impact
+ On the Quality Tolerance Limits page and the Key Risk Indicators page, you can click a PDF  button, which generates a PDF version of the respective configuration reports:
+- RBQM Configuration Manager - Config Report - QTLs 
+- RBQM Configuration Manager - Config Report - KRIs 
+ Each report contains metadata and pertinent configuration details about the QTLs and KRIs in your study environment.
+ To learn more, see  Download QTL Configuration Reports and  Download KRI Configuration Reports .
+## Knowledge Space Updates
+ The following articles have been created in the RBQM Configuration Manager Knowledge Space to support this feature:
+- Download QTL Configuration Reports 
+- Download KRI Configuration Reports 
+## Special Considerations
+ You must have QTLs or KRIs configured in your study environment; otherwise, the respective configuration reports contain no values.

@@ -1,0 +1,108 @@
+# Track Job Progress
+
+## Track Job Progress
+ After starting the file import process, you can track the status of your files from the import job's Job Files screen. The Job Files screen shows data related to the files you uploaded. The tracked data differs depending on the type of import job.  You can perform one of the following actions: 
+## Open Job Files Table
+ You can reach the Job Files screen from an import job.
+- Log into iMedidata.com . 
+- Navigate to Ingestor through your assigned client division. 
+- Identify the import job to review, and click the import job.
+ Tip : You can filter import jobs by different parameters, such as Study, Job Type, and Environment. To filter the import job list, click the Filter icon  for one of the parameters, and select which data to filter by.
+## Job Files Table Data
+ The Job Files screen shows a table listing the various attributes pertaining to all files of the import job.
+ Job Report 
+ Opens the Import Summary panel. The Import Summary panel describes details about the individual processing jobs. 
+ Archive File 
+ Indicates if the uploaded file is part of a compressed file. Hovering over shows the name of the compressed file.
+ File Name 
+ Shows the name of the file uploaded in the processing job. If job processed multiple files, shows a count of the files uploaded in the processing job. For successful jobs, you can expand a column entry to see a list of the imported files and the respective data set names. 
+ Data Set Name 
+ Shows the name of the uploaded file's data set . 
+ Status 
+ The Import Summary provides more information about each stage of the data import process.
+ Color-coded bars show the progress of data file upload, import, and validation. Errors at any stage cause the import to fail.
+ Ingestor displays the current process stage with appropriate colors and text updates.
+ Start Time 
+ The import job's start time. Ingestor stores the import time as UTC. The time appears in your local timezone.
+ End Time 
+ The import job's completion time.  Ingestor stores the completion time as UTC. The time appears in your local timezone.
+ Imported by 
+ The name of the user who started the import.
+ Import Method 
+ Shows the processing job's upload method: 
+- User Upload   – Files uploaded using the Ingestor user interface. 
+- SFTP   – Files uploaded using SFTP. 
+- API   – Files uploaded using API endpoints. 
+ No. of Records 
+ Shows the number of records processed by the job .
+## Refresh Job Files Data
+ You can refresh the Job Files screen to track the progress of jobs that are in progress.
+- Click the Refresh icon to reload the Job Files screen. 
+## Review Import Summary
+ Once an import job finishes with either a success or failed state, you can review the Import Summary.
+- For completed jobs, click Job Report  > View  to open the Import Summary panel 
+## Import Summary Panel Data
+ In the Import Summary panel, you can review a 
+ summary of the imported files for a given file import process, or processing job, in one view. The panel shows the files' details, processing summary, and any downloadable artifacts related to the import. 
+ General Summary 
+ Lists general information about the imported files:
+- Study – The target study for the processing job.
+ Note : This field only appears for Study Design Metadata jobs and External EDC jobs.
+- Study Environment – The target study environment for the processing job. 
+- Start Time – The file import's start time in the DD-MMM-YYYY hh:mm:ss format. Start time appears in your local time.  
+- End Time – The file import's end time in the DD-MMM-YYYY hh:mm:ss format. Start time appears in your local time.  
+- Imported By – Shows the user who imported the files. 
+- Run ID – The processing job's identification number. Unique to each processing job for a given import job. You can click the Copy button to save the details on your clipboard. 
+- Job ID – The import job's identification number. Unique to each import job. You can click the Copy button to save the details on your clipboard. 
+- Workflow Plan ID – The processing job's workflow plan identifier. Unique to each workflow plan for a given processing job. You can click the Copy button to save the details on your clipboard. 
+- Workflow Execution ID – The workflow execution's identification number. Unique to each workflow execution job. You can click the Copy button to save the details on your clipboard. 
+- Data Integration – The name of data integration name pertaining to the uploaded file.
+ Note : This field only appears for external EDC jobs.
+- Data Integration Version – The data integrations version pertaining to the uploaded file. If a new data integration version exists, you can update the data integration version by clicking Update .
+ Note : This field only appears for external EDC jobs.
+- Import Type – Denotes whether the processing job is Cumulative, replacing all existing data; or Incremental, adding to or updating existing data. Processing jobs with the incremental import type can Upsert – add or update existing items – or Delete items.  The uploaded file's name determines if Ingestor upserts or deletes items. If the file's name contains "upsert", then upsertion occurs. If the file's name contains "delete", then deletion occurs. 
+ Note :
+- An uploaded file can only include "upsert" or "delete", and not both. 
+- This field is only available for external EDC jobs. 
+ File Upload 
+ Shows the job's overall file import status, and lists every file uploaded with the import job, with each file's status:
+- Upload Status – Denotes if the file successfully uploaded to Ingestor.  
+- File Name – The uploaded file's name. 
+- Size – The uploaded file's side. 
+- Dataset – The name of the data set the file pertains to. 
+- Download – You can download the files uploaded during that job run. 
+ Data Validation 
+ Shows the job's overall data validation status. If a file fails validation, you can download error files or related artifacts. 
+ Data Processing 
+ Shows the job's overall data processing status, and lists each file's data processing status with the corresponding record count. Possible statuses:
+- Total – The number of rows in the imported file. 
+- Imported Without Errors or Warnings – The number of data rows imported without error or warning. 
+- New – The number of rows that resulted in created data. This field can appear as "Succeeded" for some data types.  
+- Updated – The number of rows that resulted in updated data. 
+- Deleted – The number of rows that resulted in deleted data. 
+- Processed – The number of rows in the imported file processed by Ingestor. 
+- Partially Updated  – The number of rows in the imported file that Ingestor partially loaded, for example: Ingestor successfully loaded some columns and failed on others. 
+- Error – The number of processed rows with errors. 
+- Reprocessed – The number of rows that required reprocessing. 
+- No Changes – The number of rows that resulted in no data changes. 
+- Succeeded – The number of rows that resulted in created data. This field can appear as "New" for some data types. 
+- Failed – The number of rows that Ingestor could not create, update, or delete.  
+- Completed Successfully   – Ingestor finished processing and publishing all records to the Medidata platform; the data are available to access from the Medidata platform. 
+- Completed with Failed Rows   – One of the following:
+- Ingestor failed to publish some records due to issues on one or more rows of the file. The other successful records are accessible from the Medidata platform. The job's artifact records contain details about any errors. 
+- Ingestor published the records successfully, but failed to do so within 72 hours. Successful records are not yet accessible from the Medidata platform. The job's artifact records contains about any errors. 
+- Data Processing Failed   – One of the following:
+- Ingestor failed to publish the data due to errors in the file. The artifact file contains details about any errors in the file. 
+- Ingestor published the records successfully, but failed to do so within 72 hours due to issues with data streaming. The job's artifact records contains about any data flow errors. 
+ SFTP 
+ The job's SFTP configuration details:
+- Location Name  – The name of the SFTP location used by the processing job. 
+- Upload Files Path – The extension of the path in the SFTP location where Ingestor imports data files from. 
+- Output Files Path – The extension of the path in the SFTP location where Ingestor saves process files. 
+ Artifact Files 
+ If there are errors, you can also download error lists or reconciliation reports. Reconciliation reports contain details about the data validation and data processing, including error details for each row. 
+## Download Imported Files
+ For completed processing jobs, you can download the files pertaining to that processing job. You can download imported files regardless of the processing job's success.
+- From the Import Summary panel > File Upload section, click  Download for each file you want to download. 
+## Next Step
+ Manage Job Configurations

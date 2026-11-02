@@ -1,0 +1,14 @@
+# Activate and Deactivate KRIs in RBQM Configuration Manager
+
+## Activate and Deactivate KRIs in RBQM Configuration Manager
+## Description
+ You can activate custom KRIs  so   that data gets filtered, analyzed, calculated, and displayed in Medidata Detect's Key Risk Indicator table . If a custom KRI no longer requires analysis, you can deactivate that KRI so that the KRI's data no longer gets filtered, analyzed, calculated, or displayed in Medidata Detect. 
+## Affected Roles
+ RBQM Configuration Manager Admin
+## Advantages
+ Tracking custom KRIs helps your organization target and track unique and specific facets of your study that you want to monitor for risk.
+## User Impact
+ On the KRIs page > Key Risk Indicators list > Activate column, you can click   in the corresponding row of the KRI you want to activate. To deactivate, you can click  . 
+## Special Considerations
+- Allow one business day after activating custom KRIs to allow Detect to refresh the analytics and render the custom KRIs' data in the Key Risk Indicators table. 
+- RBQM Configuration Manager only stores the most recent deactivation note for deactivated KRIs.

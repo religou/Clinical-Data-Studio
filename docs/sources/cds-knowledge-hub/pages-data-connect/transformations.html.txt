@@ -1,0 +1,37 @@
+# Transformations
+
+## Transformations
+ Data Connect's Transformations capability provides the ability to manage heterogenous datasets to industry and company standards. It is a family of platform capabilities that integrate with Medidata's analytics solutions, reducing time and resources for Sponsors and CROs that perform activities including clinical data collection, clinical insights, and submission preparation. 
+## What Is Transformations?
+ Transformations is a family of platform functionalities that integrate with Medidata platform through Clinical Data Studio. Its capabilities include: 
+- Generating SDTM-like datasets 
+- Generating custom datasets across multiple source datasets that you can use to create derived datasets 
+- Configuring and enriching custom data models that you can use to activate non-Medidata data sources and prepare them to be ready for other applications 
+## What Is the Purpose of Transformations?
+ Transformations enables non-technical users to standardize and transform any data sources into any data standard. Target data standards can be an industry standard, such as SDTM, or to a custom standard. 
+## Who Uses Transformations?
+ Data managers, clinical data scientists, biostatisticians, data scientists, and programmers.
+## How Does Transformations Work?
+ Transformations pulls data from various sources including: the internal data, such as Rave data; and external data that you can import such as Labs data. With these data, you can build data transformation projects and data models that serve different cases, including: 
+- Custom Data Models 
+- Datasets Enriched with Unit Conversions 
+- Derived Datasets 
+- SDTM-like datasets 
+ Important :  Unsupported Data 
+ Data Connect does not support variables such as coding dictionaries, coded terms, and code lists. While you can import datasets that includes these data, you cannot see or use them in Data Connect. However, these data can appear as-is in RBQM and Data Surveillance when you activate the associated dataset. For details, see Unsupported Variables in Data Connect . 
+ These data projects include built-in validation tools so you can address issues as you customize them. Once validated, you can then publish the data projects so that the associated transformations apply to the affected data in other capabilities in Clinical Data Studio, such as  Data Surveillance . You can also download snapshots of the transformed data through export jobs .
+ Important : Metadata updates from Rave sources can take up to 24 hours to update in Data Connect.
+## What Are the Benefits of Transformations?
+ Transformations serves various user groups and user types including Life Sciences Sponsors, Clinical Research Organizations (CROs), Medidata Internal Service Organization, and the following: 
+- Data Managers and Clinical Data Scientists – Reduces programming skill requirements so these roles can focus on using their expertise in data standards and structure. 
+- Biostatisticians and Data Scientists – Reduces time and effort on data engineering tasks, and increases bandwidth to focus on data analysis tasks. 
+- Programmers – Reduces the workload during the database lock period, so that they can focus on solving edge cases and building pipelines for future automation. 
+ Transformations bases its core user experience on three key principles: 
+- Precision and Intention – Data transformation is a precise and intentional task. It is therefore important to do it right the first time, and pinpoint the root cause of a given error without leaving room for assumption or interpretation. 
+- Reproducibility – Reduce the number of repetitive tasks as much as possible with 100% accuracy and transparency. 
+- Interoperability and Scalability – Being data model agnostic allows Transformations to digest any data structure and output to any other data model with an infrastructure that supports the increasing scale of data velocity, data volume, and data variety. 
+## How Do I Access Transformations?
+ Access Data Connect , and click   Transformations   in the left-hand menu. Y ou can also click Add Datasets > Derived Datasets from the Datasets screen as a shortcut to create a derived dataset project . 
+ Important : Supported Browsers 
+- Chrome – Version 129 or later 
+- Safari – 18.0 (MacOS Sequoia 15.0) or later

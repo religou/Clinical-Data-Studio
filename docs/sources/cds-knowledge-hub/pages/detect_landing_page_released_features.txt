@@ -1,0 +1,52 @@
+# Review Reports, Templates, and RBQM Overview Released Features
+
+## Review Reports, Templates, and RBQM Overview Released Features
+ Review Reports, Listing, KRI, and QTL Templates, and RBQM Overview include the following features, enhancements, and resolved issues that have been documented over the history of the releases:  
+ Navigation 
+- 
+ Detect Global Template Library and Template Groups 
+- 
+ Improved Navigation and Rebranding in Centralized Statistical Monitoring 2022.1.0 
+- 
+ Navigation Across Detect Modules 
+- 
+ Review Reports: Template Group's KRIs Template List Includes Numeric KRI Filter Criteria 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+- 
+ Capture Study Findings and Build Data Reports Directly in Detect 
+- 
+ Improved Navigation In Data Reviewer 2022.1.0 
+- 
+ Detect Landing Page Includes the Insights Module Card 
+- 
+ Improved Navigation In Patient Profiles 2022.2.0 
+- 
+ Detect Landing Page Shows Module-level Status Details and High-level Analytics 
+- 
+ Detect Landing Page Includes Risk Management Module Card 
+- 
+ Detect Landing Page Module Cards Renamed and Reorganized 
+- 
+ Detect Landing Page: PDS Module Card Provides Access to Stacked Datasets and Vendor Configuration 
+- 
+ Detect Applications No Longer Available On iMedidata 
+- 
+ Internal and Technical Enhancements in Medidata Detect August 2023 
+- 
+ Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience 
+- 
+ Internal and Technical Enhancements in Medidata Detect November 2023 
+- 
+ Review Report Enhancements 
+- 
+ Detect Landing Page Enhancement 
+- 
+ Detect Global Template Library Template Groups Now Support QTL Templates 
+- 
+ Detect Landing Page: Insights Card Relabels Unclean Patients to In Progress Patients 
+- 
+ One-click Access To Detect Landing Page User Assistance 
+ Review Reports 
+- 
+ Capture Study Findings and Build Data Reports Directly in Detect

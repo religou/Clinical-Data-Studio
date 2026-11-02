@@ -1,0 +1,50 @@
+# Troubleshoot Common Errors for Failed Exports
+
+## Troubleshoot Common Errors for Failed Exports
+ If an export fails, you can view the cause on the Error column of the Export execution details screen. 
+ Refer to the table below for diagnosing and correcting the most common issues. After you adjust the configurations, you can rerun the export by clicking Run Now.
+ Note : If you are unable to correct the issue by yourself, open a helpdesk ticket.
+ Error Message  
+ Troubleshoot 
+ | Data extraction failed 
+ | 
+ For Data Connect Exports :
+- Ensure that you can preview the datasets in the Data Connect's Datasets. 
+- Ensure that you are assigned to a role with Extract Transformed Data building block. 
+ For Rave (Raw) :
+- Ensure that you are assigned to a role with Extract Transformed Data and Unblinded Data building blocks. 
+- Ensure that you have permissions for all sites and countries for the study environment. 
+- Verify that the study is onboarded to MEDS with your Medidata representative. 
+ For CTMS and Master Data :
+- Ensure that you are assigned to correct building blocks including Unblinded Data building block. 
+ Note : See  Data Connect Roles and Capabilities for more information. 
+ | JSON processing failed 
+ | 
+- Ensure all the field names do not contain special characters. 
+ Note : See  Rave Data Extract File Type Differences for more information. 
+ | SAS processing failed 
+ | 
+- Ensure your SAS field names do not contain special characters. 
+ Note : See  Rave Data Extract File Type Differences for more information. 
+ | SFTP delivery failed 
+ | 
+- Ensure that your SFTP server credentials have not changed or expired. 
+- Ensure that the server is accessible outside of your private network or VPN connection. 
+- Ensure that the account has full read or write access to the server. 
+ Note : See  Configuring Exports to Deliver to SFTP for more information. 
+ | FTPS delivery failed 
+ | 
+- Ensure that your FTPS server credentials have not changed or expired. 
+- Ensure that the server is accessible outside of your private network or VPN connection. 
+- Ensure that the account has full read or write access to the server. 
+- If you use Medidata hosted FTPS server, ensure that you are using Implicit encryption and port 990. 
+ Note : See  Configuring Exports to Deliver to FTPS Connections for more information.
+ | S3 delivery failed 
+ | 
+- Ensure that your S3 bucket is registered with Medidata. If not, open a helpdesk ticket to register. 
+- Ensure the S3 bucket policy in your AWS console matches the Medidata policy. 
+- Ensure the values entered in the interface to match with your AWS console as the S3 bucket name and path are case-sensitive. 
+ Note : See  Configuring Exports to Deliver to Amazon S3 Connections for more information.
+ | Export failed due to an internal error. 
+ | 
+- Open a helpdesk ticket.

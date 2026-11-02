@@ -1,0 +1,36 @@
+# Data Reviewer Enhancements
+
+## Data Reviewer Enhancements
+## What Is New?
+ Improved listings functionality. You can now:
+- Create new comments, and edit/delete your own comments. Also, through Mark Reviewed, you can Mark Review a record, and check the status through the Status column for any approved listing. 
+- See the preselected records, so that before submitting queries you can make required changes.
+- When you select a listing to submit queries, the Submit Queries button is selectable and present next to the Mark Reviewed button. 
+- See accurate data when the view option is changed for a selected approved listing. 
+- See a fixed-width status comun for all approved data listings. 
+- Select rows within approved listings, so you can bulk Mark Review records.  
+- Review one record at a time. 
+- Click on a comment icon, and have a comment slide out appear where you can read comments, and make new ones. 
+- Have the default query text as a mandatory field,  so that you can enter the query text while creating queries. 
+- See an Action By column that displays the user name. 
+- See the preselected records and the specific columns, so that you can make changes before submitting queries. 
+- See the headers of the selected dataset while scrolling down to see the column values for each variable selected at the top. 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ None.
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+- You can now focus the attention on data that has been reviewed. 
+- Through the comments feature, you can now document your review findings. 
+## Where Do I See the Change?
+ Detect Landing Page > Data Reviewer > Data Listing > select a listing.
+## Where Do I Learn More?
+ The Detect Knowledge Space provides new and updated content to support this feature/enhancement: 
+ Use Listings 
+## What Else Should I Know?
+ You must refresh an approved listing to enable comments and review that listing.
+ Note : Comments and records marked as reviewed are kept through subsequent refreshes. That is, when a record is marked as reviewed, if the same record result is returned after refresh, Detect keeps the record as reviewed and all the comments associated with that record are maintained.  Detect does not clear out the "reviewed" status or the comments after a data refresh. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

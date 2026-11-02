@@ -1,0 +1,102 @@
+# Perform Signal Operations
+
+## Perform Signal Operations
+ Each signal is an indication of a potential data issue or glitch that can quickly escalate and become unmanageable, or even threaten the data integrity of a clinical study. With Signals, you can take steps to review and validate, assess, and further investigate signals to assign responsible stakeholders corrective or preventive tasks, and track all progress in one place. 
+ Signal operations are based on the status associated with a signal. An automated signal that appears for any module has any one of the following signal statues:
+- New 
+- Opened 
+- Dismissed 
+- Watched 
+- Resolved 
+- Reopened 
+- Closed 
+ The following image shows the signals status:
+ Tip: Click the image to enlarge.
+## Dismiss Signals
+ If a new or watched signal appears in the signal report, but the Central Monitor assesses the signal to be irrelevant, they can dismiss the signal. You must have the Manage Signals building block to dismiss signals. For more information, see Dismissed Signal .
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click , the More icon, for the signal you want to view. 
+- From the list of options, click Dismiss . 
+- In the Dismiss Signal window, enter a reason for dismissal. 
+- Click Dismiss .
+The signal status updates to Dismissed.
+ Note : A signal with status as Dismissed remains dismissed if the observation value meets the threshold after a data refresh. However, if the central monitor decides on further action, and adds an assignee to the signal, the status changes to Open . If the observation drops below the threshold for a dismissed signal, the signal no longer appears in the signal report after a data refresh.
+## Watch Signals
+ You can watch a new or dismissed signal to monitor any fluctuations in observation values or potential changes, and then act as needed. Certain signals may not require any investigation or action currently, but watching allows central monitors to  consolidate key signals from various analyses that might need intervention in future. You must have the Manage Signals building block to watch signals. For more information, see Signal Acted Upon. 
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click , the More icon, for the signal you want to view. 
+- From the list of options, click Watch .
+The signal status updates to Watched. 
+ Note : You can further raise a watched signal as an issue, or dismiss it, if needed.
+## Add Assignee
+ If you decide that a signal that appears in the signal report requires action, you can assign the signal to an assignee. The assignee can take further actions and update the action status. You must have the Manage Signals building block to assign signals. For more information, see Signal Acted Upon. 
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click under the Assignee column in the row for the signal you want to assign. 
+- In the Add Assignee window, complete the following details: 
+- Assignee Name – Select from the list the person you want to assign the signal.  
+- Due Date – Select a due date. 
+- Click Add Assignee . 
+ Note : The signal status changes from New to Open. You can assign a signal to only one assignee. You can only create an action for a new signal after you add an assignee.
+## Link Risks to Signals
+ With linking study risks to signals, you can prioritize efforts and ensure effective study oversight.  
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click , the More icon, for the signal you want to view. 
+- From the list, click Open Signal Details . 
+ A slide-out panel shows four tabs: Details, Comments, Actions, Resolution. 
+- Click the Details tab. 
+- In the Signal Details section, select one or more risks into the Associated Risks list. 
+- Click the check mark. 
+- Edit the text in the Description field if needed.
+The Description field auto populates based on the description for the configured module. 
+- Click Close . 
+## Add Comments
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click , the More icon, for the signal you want to view. 
+- From the list, click Open Signal Details . 
+ A slide-out panel shows four tabs: Details, Comments, Actions, Resolution. 
+- Click the Comments  tab.
+All the comments for the signal appear on the page. 
+- Click  Create Comment . 
+- Type into the field to add your comments. 
+- Click  , the OK icon to save your comment.
+The new comment appears with your name. 
+## Resolve Signals
+ You can resolve signals as needed if satisfactory investigation outcomes emerge, even if there are outstanding actions for the signal. Signals you mark as resolved are sent for further review. For more information, see Signal Acted Upon. 
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click , the More icon, for the signal you want to view. 
+- From the list of options, click Resolve .
+OR
+From the list of options, click Open Signal Details . Then click the Resolution tab, and click Add Resolution . 
+- On the Mark as Resolved page, complete the following:
+- Root Cause – Optional . Type the reason you marked the signal as resolved. For example, if the signal was raised as an issue, you can type the root cause. 
+- Mitigation – Optional. Type the mitigation for the signal. 
+- Description – Type a brief description for the signal. 
+ Note : You can mark signals as resolved if they have status as Open or Reopened.
+## Close Signals
+ If all investigation pertaining to a resolved signal is satisfactory, you can close a signal. You must have the Manage Signals building block to close signals. For more information, see Signal Acted Upon. 
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click , the More icon, for the resolved signal you want to close. 
+- From the list, click  Open Signal Details . 
+- From the Signals slide out panel, click the  Resolution tab. 
+- On the Resolution tab, click Update Status . 
+- Select Closed .
+The signal status updates to Closed . 
+## Reopen Signals
+ You can reopen a closed signal if you have the Manage Signals building block added to your Cloud Administration access. For more information, see Signal Acted Upon. 
+- Access RBQM , and then click  Signals in the left-hand menu.
+The Signals page appears. 
+- In the Signals list table, click , the More icon, for the resolved signal you want to close. 
+- From the list, click  Open Signal Details . 
+- From the Signals slide out panel, click the  Resolution tab. 
+- On the Resolution tab, click Reopen Signal . 
+- On the Reopen window, type in the Comments field. 
+- Click Confirm .
+The signal status updates to Reopened .
+ Note : You must assign the reopened signal to an assignee for further action.

@@ -1,0 +1,75 @@
+# Templates: View and Manage Listing, KRI, QTL, and Custom Graph Templates in the Platform Library
+
+## Templates: View and Manage Listing, KRI, QTL, and Custom Graph Templates in the Platform Library
+ Important :
+- To learn more about changes done to these release notes, see the revision history . 
+- To learn more about features and enhancements covered in previous releases, see the releases history . 
+- To learn more about all features in this release, see the released features index .
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.3.0
+ Change Type 
+ | Enhancement 
+ Functionality or Module 
+ | Templates
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter :
+ The templates for Listings, KRIs, QTLs, and Custom Graphs (previously known as Visualizations) are no longer accessible from Data Surveillance or RBQM. These are now available in the Platform Library and grouped as Template Groups. 
+ Benefit to Users 
+ | Platform Library provides  centralized access to the global template library containing all templates from Listings, KRIs, QTLs, and Custom Graphs (previously known as Visualizations) . 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+- Users with access to Listings, KRIs, QTLs, and Custom Graphs (previously known as Visualizations). 
+- Users who referenced the template libraries previously.  
+ Impact to Workflow Processes 
+ To access Template Groups in Platform Library, you require the following permissions: 
+- Manage Detect Templates 
+- View Detect Templates 
+ Impact to Applications 
+ The templates for Listings, KRIs, QTLs, and Custom Graphs (previously known as Visualizations) are no longer accessible from Data Surveillance or RBQM. You must navigate to the Platform Library to view and manage Template Groups. 
+ Impact on Interface 
+ The Template Library capability is no longer accessible in Data Surveillance or RBQM.
+ You can view and manage your Listing, KRI, QTL, and Custom Graph templates by accessing the Platform Library tab on the Medidata App Navigation Tab Barand then selecting the Template Groups from the left-hand menu.   
+ Tip:   Click the image below to enlarge it. 
+ Number 
+ Description 
+ | 1 
+ | Platform Library tab – If you click Platform Library tab on the Medidata App Navigation Bar, you can access Template Groups. 
+ | 2 
+ | The Template Groups table – Select Template Groups from left-hand menu to view a table with all the template groups. 
+ | 3 
+ | 
+ Edit template group - To modify the name or description of a template group, click  
+ | 4 
+ | 
+ Click the template group name in the Name column to view the templates stored in a template group.
+ Select Listings, KRIs, QTLs, and Custom Graphs tabs to view templates published from each of these modules.
+ Impact to Existing Data or Settings 
+ No impact on existing data or settings; no configuration or permission updates required. 
+ User Impact Assessment 
+ | 
+ Medium
+ Learning Resource Updates 
+ | 
+ The following lists any new or added resources that support this change:
+- Updated Articles:  
+- About Clinical Data Studio 
+- Data Surveillance Template Library 
+- View, Add, and Manage Template Groups   
+- Add Custom Graphs Templates to Template Groups 
+ Special Considerations 
+ | 
+ You cannot delete any template group or edit individual templates directly from the Template Groups page. 
+ To view Medidata testing documentation for this release, see the   Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

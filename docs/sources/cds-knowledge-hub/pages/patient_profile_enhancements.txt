@@ -1,0 +1,21 @@
+# Patient Profile Enhancements
+
+## Patient Profile Enhancements
+## Description
+- The date format in the Profile Updated and Last Reviewed Date columns on the Patient Selector has been updated from YYYY-mm-dd to Day Mon Year, for example 25 Apr 2023.
+- You can now resize the Transposed, Wide, and Event tables from within the Profiles tab. 
+## Affected Roles
+ All.
+## Advantages
+- Standard date format for all Detect applications 
+- Column manipulation allows for better review of data, particularly for large variable data. 
+## User Impact
+- On the Medidata Detect > Patient Date Surveillance (PDS) > Patient Profiles > Published Designs > select a design > Profiles page, the Profile Updated and Last Reviewed Date columns on the Patient Selector has been updated from YYYY-mm-dd to dd Mon YYYY. 
+- When you hover over the column delimiter on the Profiles tab, t he arrow changes to a grab icon. If you then click on the delimiter, you can now r esize the column. 
+## Knowledge Updates
+ Here are links to new and updated content to support this feature/enhancement: 
+- Review and Export Patient Profiles 
+- Add, Edit, and Delete Tables   
+## Special Considerations
+ None. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

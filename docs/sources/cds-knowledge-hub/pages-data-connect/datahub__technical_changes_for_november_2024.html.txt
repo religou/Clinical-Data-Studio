@@ -1,0 +1,21 @@
+# Datahub: Technical Changes for November 2024
+
+## Datahub: Technical Changes for November 2024
+## What Is New?
+ Medidata routinely includes technical changes to Data connect's Datahub module to improve performance and backend processes. Datahub introduces the following code changes for the November 2024 release:
+- Performance updates to the table query. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ This update prepares Data Connect for more robust capabilities through the Datahub experience. 
+## Where Do I See the Change?
+ No changes to the user interface.
+## Where Do I Learn More?
+ There are no additional relevant resources. 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

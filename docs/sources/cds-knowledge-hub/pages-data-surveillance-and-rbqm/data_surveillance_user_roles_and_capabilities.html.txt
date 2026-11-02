@@ -1,0 +1,180 @@
+# Data Surveillance Building Blocks and Permissions
+
+## Data Surveillance Building Blocks and Permissions
+ You can use Medidata Cloud Administration® to: 
+- Manage access . 
+- Configure roles and provide levels of access to Data Surveillance . 
+- Assign roles to individuals, and remove roles with permissions needed to manage study groups. Study groups hold sets of studies belonging to the client division. 
+- Manage team membership .
+ Client division administrators must have the necessary building block assigned to allow them to configure roles. Every building block includes one or more permissions to define the Clinical Data Studio permissions listed in this article. 
+## Data Surveillance Building Blocks and Permissions
+ The building blocks granted by client administrators to roles in Cloud Administration help influence the content available on a Clinical Data Studio page.
+ Important : Assigning these building blocks to roles in Cloud Administration is at the discretion of every customer.
+ A role is assigned building blocks and all the permissions within those blocks. However, access to the permissions and the Clinical Data Studio pages associated with them is controlled by each user's context level assignment in Cloud Administration.
+ The following table lists the building blocks and corresponding permissions for various operations within Clinical Data Studio.
+ Data Surveillance Building Blocks 
+ Permissions 
+ | Administer Patient Profiles  
+ | Patient Profiles 
+- View Patient Profiles 
+- Create Designs 
+- Mark Patient Profiles as Reviewed or Unreviewed 
+- Add and View Patient-level Internal Review Comments Within Patient Profile Designs 
+- Export Patient Profiles to PDF 
+- Refresh Designs to Reflect the Latest Available Study Data 
+- View Design Reports 
+- Duplicate Designs Within Studies 
+- Copy Designs to Different Studies 
+ | View Patient Profiles 
+ | Patient Profiles 
+- View Patient Profiles 
+- Mark Patient Profiles as Reviewed or Unreviewed 
+- Add and View Patient-level Internal Review Comments Within Patient Profile Designs 
+- Export Patient Profiles to PDF 
+- View Design Reports 
+ | Patient Profile Refresh 
+ | 
+ Patient Profiles 
+- Refresh Designs to Reflect the Latest Available Study Data 
+ | Manage Data Reviewer 
+ | Listings 
+- View, Create and Edit Listings 
+- Activate and Deactivate Listings 
+- Add, View, Edit, or Delete Internal Review Comments on Individual Records 
+- Mark Individual Records as Reviewed or Unreviewed 
+- Approve Draft Listings 
+- Copy Listings 
+- Add and Store Listing Configurations as Reusable Templates 
+- Create a Listing By Importing an Existing Listing Configuration Template (See: Create Draft Listings ) 
+- Track and Untrack Individual Approved Listings for Clean Patient Data Analysis 
+- Along with View Data Refresh Scheduler BB and Refresh Listings, allows you to create/edit Refresh Schedules 
+ Derived Variables 
+- View and Create Derived Variables 
+ AI Reconciliation 
+- View Report Findings 
+- View, Add, Edit, or Delete Internal Review Comments on Individual Findings 
+- Mark Records as Reviewed or Unreviewed 
+- Agree or Disagree with Findings 
+- Link Treatments, Conditions, or Ongoing Medical History (MH) to Findings 
+- Along with View Data Refresh Scheduler BB and Refresh AI Reconciliation, allows you to create/edit Refresh Schedules 
+ Custom Graphs 
+- Access and View Custom Graphs 
+- Create, Edit, and Delete Custom Graphs 
+- Along with View Data Refresh Scheduler and Refresh Custom Graphs allows you to create/edit Refresh Schedules 
+ Datasets 
+- View Your Study's Data Sets 
+ Vendor Queries 
+- Access and View Vendor Queries 
+ | View Data Reviewer 
+ | Listings 
+- Add, View, Edit, or Delete Internal Review Comments on Individual Records 
+- Mark Individual Records as Reviewed or Unreviewed. 
+- Along with View Data Refresh Scheduler BB, allows you to view Refresh Schedules. 
+ Derived Variables 
+- View Derived Variables 
+ AI Reconciliation 
+- View Report Findings 
+- View, Add, Edit, or Delete Internal Review Comments on Individual Findings 
+- Mark Records as Reviewed or Unreviewed 
+- Agree or Disagree with Findings 
+- Link Treatments, Conditions, or Ongoing Medical History (MH) to Findings 
+- Along with View Data Refresh Scheduler BB, allows you to view Refresh Schedules. 
+ Custom Graphs 
+- Access and View Custom Graphs 
+- Along with View Data Refresh Scheduler BB, allows you to view Refresh Schedules. 
+ AI Reconciliation 
+- Along with View Data Refresh Scheduler BB, allows you to view Refresh Schedules. 
+ Datasets 
+- View Your Study's Datasets 
+ Vendor Queries 
+- Access and View Vendor Queries 
+ | 
+ Submit Queries via Detect 
+ | 
+ Important : To submit queries in Data Surveillance, you should have the required permissions to submit queries in Medidata Rave. Data Surveillance does not verify your query permissions in Rave. 
+ Note : This building block also requires that you are granted the “Manage Data Reviewer” or “View Data Reviewer” building block.
+ Listings 
+- View and Submit Rave Queries on Patient Records 
+ AI Reconciliation 
+- View and Submit Rave Queries on Findings 
+ | Submit Vendor Issues 
+ | Vendor Queries 
+- Create, View, Delete, and Submit Vendor Query Sets 
+ | Manage Vendor Configuration 
+ | Configuration > Vendors 
+- View the Vendor Group List 
+- Activate Vendor Groups/Vendor 
+- Add Vendors To Vendor Groups 
+- Deactivate Vendors 
+ | Submit Vendor Feedback 
+ | 
+ Note : The Submit Vendor Feedback building block is granted to third-party vendors. When the building block is assigned to a user, the user's name is automatically listed for selection in the Vendor Group list in Vendor Configuration.
+ Vendor Queries 
+- Respond To Queries As A Vendor 
+ | View Clean Patient Tracker 
+ | Clean Patient Tracker 
+- View Clean Patient Tracker (only if users have View Data Reviewer) 
+- Track and Clean Patient Data 
+- Trigger Clean Patient Tracker to Recalculate Outstanding Records Based on the Latest Study Data 
+ Open EDC Queries 
+- View Open Query Records 
+ | View Oncology Analytics 
+ | RECIST 1.1 
+- Access and View the RECIST 1.1 Dashboard 
+- Refresh RECIST 1.1 Dashboard Data 
+- Mark Records as Reviewed In the Tumor Response by Patient Table 
+ | View Detect Templates 
+ | Library > Template Library 
+ The View Detect Templates building block enables you to:
+- View and export Listing, KRI, and QTL templates from your organization's Global Library. 
+ | Manage Detect Templates 
+ | Library > Template Library 
+ The View Detect Templates building block enables you to:
+- View and export Listing, KRI, and QTL templates from your organization's Global Library. 
+- Add and store listing configurations as templates to study-level template groups. 
+ | Manage Detect CSM Configuration 
+ | Configuration > Data Mapping 
+- Map Data Set Analysis Data 
+- Map Event Analysis Data 
+- Map Potential Duplicate Patient Data 
+- Map Vital Sign Data for Rounding and Propagation Analysis 
+- Map Lab Measurements Data 
+- Map RECIST 1.1 Data 
+- Configure Manual or Automatic Missing Page Count Entry 
+- Map Patient Milestone Data for Third-party, Fully Ingested Studies 
+ Configuration > Derived Variables 
+- View and Create Derived Variables 
+ Configuration > Stacked Datasets 
+- Create and View Stacked Datasets. 
+ | View CDS Task Oversight 
+ | 
+ Task Oversight tab 
+- Access and view the Task Oversight dashboard. 
+- Configure widgets.  
+ | Submit Listing Protocol Deviations 
+ | 
+ Listings 
+- Can submit protocol deviations 
+ | Refresh Custom Graphs 
+ | 
+ Note : This building block also requires that you are granted the “Manage Data Reviewer” or “View Data Reviewer” building block.
+ Custom Graphs 
+- View or Start On-demand Refresh for Custom Graphs. 
+ | Refresh Listings 
+ | 
+ Note : This building block also requires that you are granted the “Manage Data Reviewer” or “View Data Reviewer” building block.
+ Listings 
+- View or Start On-demand Refresh for Listings. 
+ | Refresh AI Reconciliation 
+ | 
+ Note : This building block also requires that you are granted the “Manage Data Reviewer” or “View Data Reviewer” building block.
+ AI Reconciliation 
+- View or Start On-demand Refresh for AI Reconciliation. 
+ | View Data Refresh Scheduler 
+ | 
+- View Unified Scheduler.  
+ For more information, see Unified Scheduler Individual Capabilities Permissions .
+ | Manage Data Refresh Scheduler 
+ | 
+- Create or Edit Unified Scheduler 
+ For more information, see Unified Scheduler Individual Capabilities Permissions .

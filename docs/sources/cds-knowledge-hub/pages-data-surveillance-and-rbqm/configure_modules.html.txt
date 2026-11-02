@@ -1,0 +1,125 @@
+# Add, Edit, And Delete Signal Configurations
+
+## Add, Edit, And Delete Signal Configurations
+ For any study environment , you can define and add custom signal configurations for modules. These configurations target specific facets of your study data that you want to monitor for potential risk.
+- A  signal is a potential issue identified through data analysis.
+- An issue is a confirmed finding that is the result of a signal validated through monitor review, site discussion, or site visit.  
+  The signals you configure based on a specific threshold, produce automated signal reports on each module you include. 
+## View and Access Custom Signals Configurations 
+ You can view existing configurations for each module. 
+- Access RBQM , and then click Configuration > Signals in the left-hand menu.
+The Signals Configuration page appears. 
+- Select any module from the left-hand Settings menu.
+The corresponding configurations page appears to the right, listing all existing configurations for the module. 
+## Enable or Disable Signal Configuration
+ Data managers can monitor all or some of the following modules for potential risks. However you may not want to monitor all modules at a given time, for example, if the study has no requirements to monitor a specific type of data. You can enable or disable a module while configuring signals. 
+- Access RBQM , and then click Configuration > Signals in the left-hand menu.
+The Signals Configuration page appears. 
+- For each module in the left-hand Settings menu, toggle on or off the button.
+Automated signals appear only if you enable a module (toggle on), and then add configuration details. 
+ Note : if you toggle off a module with previously saved configurations, they remain saved. Signals from a deactivated module do not appear in the automated signals report when you refresh data. They appear once the module is enabled (toggled on). 
+## Add Custom Signals Configurations   
+ You can add custom configurations for each of the following modules:   
+- Patient Profiles 
+- KRI Dashboard 
+- QTL Dashboard 
+- Potential Duplicate Patients 
+- Rounding and Propagation 
+- Under-Over Reporting Events     
+- Weekend and Holiday Visits                                                                                                                                                           
+- Access RBQM , and then click Configuration > Signals in the left-hand menu.
+The Signals Configuration page appears.   
+- For modules in the left-hand Settings menu that you want to include in the signals report, toggle on the button. 
+- Select a module you want to include in the automated signals report.
+ The corresponding Configuration page appears. 
+- Do the following for modules you want to report on:
+- 
+ Patient Profiles 
+- Click Add Custom Configuration .
+- Complete the field details.
+- Design – Select from a list of published designs.
+- Flags – Select from a list of flags associated with the published design. Flag names are unique within an approved patient profile design. A flag used in a custom configuration becomes unavailable in the profile design for another configuration. You can add up to 15 distinct, custom configurations for Patient Profiles. A flag used in a custom configuration is no longer available in the profile design for another configuration. 
+- Description – Optional . Type in a description. 
+- 
+ KRIs 
+- Click Add Custom Configuration .
+- Complete the field details.
+- Name – Select from active KRIs configured on RBQM > KRI Dashboard. You can create 15 distinct custom configurations. A KRI you select in a custom configuration is no longer available for selection in another configuration. It becomes available only if you delete the saved custom configuration. If a KRI used in a custom configuration is no longer active, a label appears in the configuration row. 
+- Threshold – Select the threshold at the signal generates.
+- High
+- Medium.
+- Description – Optional . Type in a description, or select or edit the default description.  
+ Note : The default description text appears only if you use system KRIs to configure signals.
+- 
+ QTLs 
+- Click A dd Custom Configuration .
+- Complete the field details.
+- Name – Select one from the active QTLs configured on the RBQM > QTLs page. You can create 15 distinct custom configurations. A QTL you select in a custom configuration is no longer available for selection in another configuration. It becomes available only if you delete the saved custom configuration. If a QTL used in a custom configuration is no longer active, a message appears. 
+- Threshold – Select depending on the QTL want to monitor.
+- Upper Limit
+- Threshold 
+- Description – Optional . Type in a description, or select or edit the default description.   
+- 
+ Duplicate Patients 
+- Click Add Custom Configuration .
+- Description – Optional . Type in a description, or select or edit the default description. 
+ You can create a total of 15 distinct custom configurations for each module, except Duplicate Patients, which has one configuration setting. 
+- 
+ Rounding 
+- Click Add Custom Configuration .
+- Complete the field details
+- 
+- Variable – Select one or more variables from the data sets configured on the RBQM > Statistical Monitoring > Rounding & propagation > Rounding tab.
+ You can select a maximum of 12 variables in a single custom configuration. However, you can create 15 distinct custom configurations. A variable you select in a custom configuration is no longer available for selection in another configuration. It becomes available only if you drop the variable from the saved custom configuration. 
+- Threshold – A percentage value; must be over 0.
+- Description – Optional . Type in a description, or select or edit the default description.   
+- 
+ Propagation 
+- Click Add Custom Configuration .
+- Complete the field details
+- 
+- Variable – Select one or more variables from the data sets configured on the RBQM > Statistical Monitoring > Rounding & propagation > Propagation tab.
+ You can select a maximum of 12 variables in a single custom configuration. However, you can create 15 distinct custom configurations. A variable you select in a custom configuration is no longer available for selection in another configuration. It becomes available only if you drop the variable from the saved custom configuration. 
+- Threshold – A percentage value; must be over 0.
+- Description – Optional . Type in a description, or select or edit the default description.   
+- 
+ Weekend and Holiday Visits 
+- Click Add Custom Configuration .
+- Complete the field details
+- 
+- Days of the week – Select one or more days of the week.
+- Exclude visits? – Optional. Select from the list.
+- Description – Optional . Type in a description, or select or edit the default description.  
+- 
+ Under/over Reporting 
+- Click Add Custom Configuration .
+- Complete the field details.
+- Event – Select a Condition, History, or Treatment event.
+- Threshold – Select one or both from the following thresholds
+- Under 
+- Over.
+- Description – Optional . Type in a description, or select or edit the default description. 
+ You can have a maximum of three custom configurations, one per event. The Add Custom Configuration button becomes disabled thereafter. 
+- Click Save .
+ The configuration appears in the module's configuration page.
+## Edit Custom Signal Configuration 
+ You can edit a saved custom signal configuration. For example, if you want to track KRIs for the site which are at a medium threshold for the first half of the year, and now want to track KRIs at a high threshold value, you can then edit the signal configuration.
+- Access RBQM , and then click Configuration > Signals in the left-hand menu.
+The Signals Configuration page appears. 
+- Select a module for which you want to edit the signal configuration.
+- Click the More icon, at the end of configuration row. 
+- Click Edit. 
+- Click Save .
+The changes you made appear when you next refresh data for the automated signal report. 
+## Delete Custom Signal Configuration 
+ You can delete a custom signal configuration. For example, if you no longer want to track signals for a specific KRI, you can delete the signal configuration.
+- Access RBQM , and then click Configuration > Signals in the left-hand menu.
+The Signals Configuration page appears. 
+- Select a module for which you want to delete the signal configuration.
+- Click the More icon, at the end of configuration row. 
+- Click Delete .
+ The single configuration row is deleted. The changes you made appear when you next refresh data for the automated signal report.
+## Bulk Delete Custom Signal Configurations
+- Access RBQM , and then click Configuration > Signals in the left-hand menu.
+The Signals Configuration page appears. 
+- Select a module for which you want to delete signal configurations.

@@ -1,0 +1,28 @@
+# PDS: Minor Data Reviewer Enhancements for November 2023
+
+## PDS: Minor Data Reviewer Enhancements for November 2023
+## What Is New?
+- On an approved listing's results table and an AI Data Reconciliation report's table, when you use the table's page navigation, you can filter for Patient ID on all pages. 
+- When submitting queries on approved data listings or on AI Data Reconciliation report findings, on the Edit Query window:
+- The font used for the Form menu's selected option matches the list of selectable menu options. 
+- The Query Text field now has an 500 character limit, and shows the number of characters entered against the character limit. 
+- When you create new data listings by importing from a data listing template, the imported listing uses the original template name unless otherwise changed. 
+- The AI Data Reconciliation Refresh button always shows on the page even if there is no new data available. 
+- Clean Patient Tracker discontinues tracking:
+- Deactivated data listings. 
+- Edited approved data listings, which after editing and saving, revert to draft status. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The minor enhancements ensures that Data Reviewer behaves as expected.
+## Where Do I See the Change?
+ See the Description section.
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

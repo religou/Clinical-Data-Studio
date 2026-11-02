@@ -1,0 +1,24 @@
+# Review and Audit Designs Patient Profiles
+
+## Review and Audit Designs Patient Profiles
+## Description
+ At any time after   adding elements to your design layout , you can view the profile design  specifications and layout information . 
+ As you pull additional elements into the layout, the Reports page updates accordingly in real time. 
+## Affected Roles
+ All
+## Advantages
+ You can use the design report to provide a straightforward and efficient way for to reviewers and stakeholders to view and sign o ff on the components used to create the design. 
+## User Impact
+ On the Reports page, you can:
+- Save the report as a PDF; 
+- Print the report; 
+- View design options; 
+- View all elements in the layout; 
+- View flag and display conditions; 
+- View highlight conditions and colors set for each element; 
+- View the event table configuration within a timeline;
+- View CSA settings for each element; 
+- View additional configuration options; and 
+- Identify if a section is disabled. 
+## Special Considerations
+ We recommend previewing your design reports before running your profile through CSA's data analytics.

@@ -1,0 +1,37 @@
+# RBQM: Associate Mitigations with Functional Plans
+
+## RBQM: Associate Mitigations with Functional Plans
+## What Is New?
+ When adding risk mitigations to risk assessments, you can associate the mitigations with functional plans. Then when creating data quality plans in the RBQM > Plan Documents capability,  if you add a risk assessment table to a plan document, the risks table includes the Functional Plans Affected column, which autopopulates based on the entries made in the Mitigations and Plans > Functional Plans Affected field for each mitigation added to risks in the Add Risk and Risk Review subpages. You can filter the tables in plan documents to show only mitigations that apply to the plan. 
+## What Is the Impact?
+## Users/Roles
+ Risk managers
+## Workflow Process
+ The Add Risk subpage and Risk Review subpage no longer include the Risk Mitigations tab. The functionality that enables you to add and manage risk mitigations now exists in the Details tab > Mitigations and Actions section. 
+## Other Applications
+ When writing integrated data quality plans in the RBQM > Plan Documents capability, if you add a risk assessment table to a plan document, the risks table includes the Functional Plans Affected column, which autopopulates based on the entries made in the Mitigations and Plans > Functional Plans Affected field for each mitigation added to risks in the Add Risk and Risk Review subpages. You can filter the tables in plan documents to show only mitigations that apply to the plan. 
+## How Do I Benefit?
+ When creating risks mitigations in RBQM, associating mitigations with functional plans: 
+- Streamlines the connection between the mitigations you add to the risk assessment and the mitigations you add to functional plans as part of the data quality plan. 
+- Enables you to filter data quality plans in the RBQM > Plan Documents capability to focus solely on mitigations and action plans that affect you or that you are responsible for. 
+- Makes creating data quality plans faster and easier. 
+- Improves compliance by linking actions and mitigations to plans, providing full visibility for better alignment. 
+## Where Do I See the Change?
+ When you: 
+- Create a new risk in the Risk Assessment > Add Risk subpage,  
+- View or edit a risk in the Risk Assessment > Risk Review subpage , or 
+- View or edit a risk in the Risk Inventory > Risk Review subpage 
+ the Add Risk subpage and Risk subpage no longer include the Risk Mitigations tab. Instead, the functionality that enables you to add and manage risk mitigations now exists in the: 
+- Risk Assessment > Add Risk subpage > Details tab > Mitigations and Actions section, 
+- Risk Assessment > Risk Review subpage  > Details tab > Mitigations and Actions section, and 
+- Risk Inventory > Risk Review subpage  > Details tab > Mitigations and Actions section. 
+ In the Mitigations and Actions section, you can click the Add Mitigation button, which when clicked, opens the Mitigations and Plans side panel. 
+ Tip : Click images to enlarge.
+ When adding or editing a mitigation, you can click the Functional Plans Affected field and select one or more functional plans that you want to associate the mitigation with. 
+ When writing integrated data quality plans in the RBQM > Plan Documents capability, if you add a risk assessment table to a plan document, the risks table includes the Functional Plans Affected column, which autopopulates based on the entries made in the Mitigations and Plans > Functional Plans Affected field for each mitigation added to risks in the Add Risk and Risk Review subpages.  You can filter the tables in plan documents to show only mitigations that apply to the plan. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Add and Manage Risks 
+- Plan Documents 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

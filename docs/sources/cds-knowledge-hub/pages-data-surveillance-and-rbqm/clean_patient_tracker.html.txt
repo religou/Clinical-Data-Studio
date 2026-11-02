@@ -1,0 +1,35 @@
+# Clean Patient Tracker
+
+## Clean Patient Tracker
+ The Clean Patient Tracker is a summary dashboard that visualizes, lists, and prioritizes outstanding data cleaning tasks for enrolled patients across Data Surveillance. It streamlines the vetting and review process by highlighting exactly where action is needed. 
+## What Is the Purpose of Clean Patient Tracker?
+ Clean Patient Tracker allows you to track in one centralized location the progress of patient data cleaning and prioritize activities based on the outstanding tasks. 
+## Who Uses Clean Patient Tracker?
+ Study teams including data managers, project managers and clinical operations teams. 
+## How Does Clean Patient Tracker Work?
+ To use the tracker effectively, it is important to understand how Data Surveillance categorizes patient status based on outstanding work. 
+## In Progress Patients 
+ An In Progress patient is any patient whose data is associated with one or more outstanding data cleaning tasks. A patient remains in this status as long as any of the following require attention:
+- Listing Reviews: Records that have been flagged but not yet vetted. 
+- AI Reconciliation: Report records requiring manual review or confirmation. 
+- Missing CRFs: Missing case report forms (missing pages) that require reconciliation within the study. 
+- Vendor Queries: Pending or unaddressed vendor queries associated with the patient. 
+- Open Queries: Any existing queries in the study awaiting a response. 
+ Clean Patient Tracker automatically pulls in the following study data: 
+- The number of open queries from Medidata Rave. 
+- The number of open vendor queries. 
+ You can also select to show the following: 
+- The number of unreviewed approved listing records for up to 25 listings that you select to track in Listings 
+- The number of unreviewed records in reports from AI Reconciliation. 
+- The Rave form status you want to track. 
+ Note : You must first configure the missing pages source, from statuses, and the AI Reconciliation reports you want to track. For more information, see  Clean Patient Tracker Configuration . 
+ Tip : For the most up-to-date counts, first refresh individual listings on the Listings page and refresh the AI Reconciliation reports , and then recalculate   in Clean Patient Tracker . 
+## Clean Patients 
+ A clean patient is a patient whose data is not associated with any outstanding data cleaning tasks. 
+## What Are the Benefits of Clean Patient Tracker?
+ Clean Patient Tracker:
+- Consolidates in one centralized location the metrics regarding outstanding data cleaning tasks  
+- Increases study team-level coordination and prioritization of outstanding data cleaning tasks. 
+- Promotes faster insights into data cleaning progress 
+## How Do I Track and Clean Unvetted and Unreviewed Patient Data?
+ See  Track and Clean Patient Data .

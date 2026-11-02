@@ -1,0 +1,15 @@
+# Data Reviewer Identifies The Origin Of Data Sets In A Study
+
+## Data Reviewer Identifies The Origin Of Data Sets In A Study
+## Description
+ Data Reviewer 2022.1.0 identifies whether data sets in a study come from  Rave EDC or external sources. 
+## Affected Roles
+ All. 
+## Advantages
+ Identifying the origin of data sets enables you to group data set variables of interest from a study and investigate anomalies or discrepancies. 
+## User Impact
+ On the Medidata Detect > Patient Data Surveillance (PDS) > Data Reviewer > Data Viewer page, the Data Set tab includes a label next to data sets to identify the origin of the data set. 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

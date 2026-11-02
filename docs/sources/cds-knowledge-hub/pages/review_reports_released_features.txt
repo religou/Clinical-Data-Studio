@@ -1,0 +1,7 @@
+# Review Reports Released Features
+
+## Review Reports Released Features
+ Utilities includes the following features, enhancements, and resolved issues that have been documented over the history of the releases:  
+ Review Reports 
+- 
+ Capture Study Findings and Build Data Reports Directly in Detect

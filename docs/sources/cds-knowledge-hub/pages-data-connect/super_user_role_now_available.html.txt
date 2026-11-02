@@ -1,0 +1,21 @@
+# Super User Role Now Available
+
+## Super User Role Now Available
+## Description
+ You can now apply the Super User role to MEDS Extractor users. Users with the Super User role can view all jobs within the client division across the studies the user has access to. Visible jobs include both jobs that user created, as well as jobs other MEDS Extractor users created.
+## Affected Roles
+ All platform roles with the View as Super User building block.
+## Advantages
+ With the Super User role, you can set specific users to have greater visibility of export jobs within a client division.
+## User Impact
+ In Cloud Administration, while creating or editing a platform role, you can select the Data Extraction > View as Super User building block.
+ When a Super User enters MEDS Extractor, on the Export Jobs screen, that user can:
+- See all export jobs across all studies they have access to. The Export Jobs screen includes the new Created By column that shows the name of the user who created the job.  
+- Sort jobs by the Created By column. 
+- Filter jobs by the Created By parameter. 
+## Knowledge Space Updates
+ The MEDS Extractor Knowledge Space provides new and updated content to support this feature: 
+- MEDS Extractor Roles and Permissions (updated) 
+- Review Export Jobs List (updated) 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

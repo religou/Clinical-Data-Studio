@@ -1,0 +1,26 @@
+# Wide Tables Allow Positioning Of Graph And Table
+
+## Wide Tables Allow Positioning Of Graph And Table
+## Description
+ You can configure wide tables to display tables, graphs, or both for data elements. You can configure wide tables to position graphs and tables above or below the data element. You can also configure specific data variables in wide tables to display in tables, graphs, or in both.  
+## Affected Roles
+ All. 
+## Advantages
+ Showing data elements in graph and table format provides facilitates better insight into specific data points in profile designs. 
+## User Impact
+ When you are working on wide tables on the Design page > Elements tab > Table Options> Graph Options> Table and Graph, you can select Show Both , Table Only or Graph Only . Depending on the selection, wide tables display the graph or table or both for data elements. 
+- If you do not select Show Both ,  Table Only  or  Graph Only , then Table Only is the default option. On viewing profiles on the Profiles page, only tables display for the element. 
+- If you select Table Only , graph options become disabled. On viewing profiles on the Profiles page, only tables display for the element. 
+- If you select Graph Only , graph options become enabled. On viewing profiles on the Profiles page, only graphs display for the element. 
+- If you select Show Both , graph options become enabled. If you then switch to Table Only , graph options become disabled and become enabled when you switch to Graph Only . 
+- If you select Show Both , and then click the vertical ellipsis in a data variable's name,  Show only in Table ,  Show only in Graph , or Show in Both options display . 
+- If you select  Show only in Table ,  displays indicating that the variable does not display in graphs. On viewing profiles on the Profiles page, the variable only displays in tables for the patient. 
+- If you select  Show only in Graph ,   displays indicating that the variable does not display in tables. On viewing profiles on the Profiles page, the variable only displays in graphs for the patient. 
+- If you select  Show in Both or select neither  Show only in Table , nor  Show only in Graph , no additional icon displays near the data variable's name. On viewing profiles on the Profiles page, the variable displays both in graphs and tables for the patient. 
+- If you do not select Show Both ,  Table Only , or  Graph Only , then Table Only is the default option. On viewing profiles on the Profiles page, the variable displays in tables for the patient. 
+- If you select Show Both ,  
+- and then set  Table Position to Above Graph , the table appears above the graph while viewing profiles on the Profiles page. 
+- and then set  Table Position to Below Graph , the table appears below the graph while viewing profiles on the Profiles page. 
+- The Visit Date Column  option now appears under Graph Options. 
+## Special Considerations
+ None.

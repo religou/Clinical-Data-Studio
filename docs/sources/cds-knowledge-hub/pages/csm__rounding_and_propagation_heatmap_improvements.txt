@@ -1,0 +1,34 @@
+# CSM: Rounding and Propagation Heatmap Improvements
+
+## CSM: Rounding and Propagation Heatmap Improvements
+## What Is New?
+ On the Rounding and Propagation > Sites with Rounding table, when you hover your cursor on a table cell, a dialog shows:
+- Site – The site ID. 
+- Patient Counted – The number of patients at the site. 
+- Patients Rounded – The number of patients at the site with at least three rounded records. 
+- Rounded Records Counted – The number of rounded records at the site. 
+- Total Records – The total number of records for the vital sign at the site. 
+ In addition, you can click a table cell to view in a separate dialog a list of patients with recorded events at the site and rounded record details. In the dialog, you can also click a patient ID to view that patient in Patient Profiles.
+ Similarly, on the Sites with Propagation table, when you hover your cursor on a table cell, a dialog shows:
+- Site – The site ID. 
+- Patient Counted – The number of patients at the site. 
+- Patients Propagated – The number of patients at the site with at least three propagated records. 
+- Propagated Records Counted – The number of propagated records at the site. 
+- Total Records – The total number of records for the vital sign at the site. 
+ Likewise, you can click a table cell to view in a separate dialog a list of patients with recorded events at the site and propagated record details. In the dialog, you can click a patient ID to view that patient in Patient Profiles.
+## What Is the Impact?
+## Users/Roles
+ Central monitors
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ In the dialog that shows the list of patients with recorded events, you can click a patient ID to access and view that patient in Patient Profiles.
+## How Do I Benefit?
+ The updated heatmap pop-ups are cleaner and easier to read and contain more pertinent information. The ability to view individual patients with recorded events and access those patients' profiles enables you to more efficiently investigate patient data.
+## Where Do I See the Change?
+ Centralized Statistical Monitoring > Data Veracity > Rounding and Propagation, on the Sites with Rounding and Sites with Propagation heatmaps.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Identify and Investigate Sites That Potentially Round or Propagate Vital Sign Records 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,13 @@
+# Lower and Upper Time Limits No Longer Pre-populated by Default
+
+## Lower and Upper Time Limits No Longer Pre-populated by Default
+## Description
+ On the Settings page > Design Options tab, the Lower time limit field and Upper time limit field are no longer pre-populated with -14 and 365, respectively.
+## Affected Roles
+ Patient Profile Designers
+## Advantages
+ Removing the default values in the time limit fields eliminates any potential user interface issues caused by the pre-populated fields.
+## User Impact
+ See the Description section.
+## Special Considerations
+ You must enter at least one character in the Lower time limit field and Upper time limit field to save.

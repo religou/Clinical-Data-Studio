@@ -1,0 +1,66 @@
+# Role-based Permissions Now Determine the Pespectives You Can View and Access
+
+## Role-based Permissions Now Determine the Pespectives You Can View and Access
+## Description
+ Medidata Detect users are now assigned roles defined by your Detect administrator in Cloud Administration . The roles assigned to you determine the perspectives you can view and interact with in Detect, as well as the actions you can perform.
+ The table below lists examples of suggested roles, perspectives available to each role, and permissible actions:
+ Role 
+ Available Perspectives 
+ Permissible Actions 
+ | Detect Site Monitor 
+ | 
+- Sites 
+ | 
+- View and Assess Site-level Study Performance 
+- Access and View the Top Contributors 
+- Investigate Data Using Data Anomaly Detection Plots 
+- Investigate Data Using the Event Incidence Plot 
+- Investigate Data Using the Key Risk Indicators Table 1 
+- Flag, Track, and Audit Reviewed Study Data 
+ | Detect Country Manager 
+ | 
+- Countries 
+- Sites 
+ | 
+- View and Assess Country-level and Site-level Study Performance 
+- Access and View the Top Contributors 
+- Investigate Data Using Data Anomaly Detection Plots 
+- Investigate Data Using the Event Incidence Plot 
+- Investigate Data Using the Key Risk Indicators Table 1 
+- Flag, Track, and Audit Reviewed Study Data 
+ | Detect Data Manager 
+ | 
+- Domains 
+- Countries 
+- Sites 
+ | 
+- View and Assess Overall Study Performance (excluding the risk categories perspective) 
+- Access and View the Top Contributors 
+- Investigate Data Using Data Anomaly Detection Plots 
+- Investigate Data Using the Event Incidence Plot 
+- Investigate Data Using the Key Risk Indicators Table 1 
+- Flag, Track, and Audit Reviewed Study Data 
+ | Detect Super User 
+ | 
+- Risk Categories 
+- Domains 
+- Countries 
+- Sites 
+ | 
+- View and Assess Overall Study Performance 
+- Access and View the Top Contributors 
+- Investigate Data Using Data Anomaly Detection Plots 
+- Investigate Data Using the Event Incidence Plot 
+- Investigate Data Using the Key Risk Indicators Table 1 
+- Flag, Track, and Audit Reviewed Study Data 
+- Schedule or Trigger When CSM Refreshes and Outputs the Latest Study Data Analysis 
+## Affected Roles
+ All.
+## Advantages
+ In previous Medidata Detect releases, you could view and access all perspectives and data analyses provided for the overall study data. However, depending on your role and responsibilities, not all of the perspectives and data analyses may require your attention or investigation. Therefore, when trying to find the data you needed to investigate, you could easily get lost in Detect by accessing and searching through data that did not apply to your needs.
+ Now that Detect users are assigned role-based permissions, your Detect workspace  displays only the exact perspectives and data analyses that you need to investigate. Therefore, you can much more effectively and efficiently focus only on the data you need without the risk and hassle of getting lost or distracted by data that is irrelevant to your role. This results in a streamlined workflow, leading you to produce faster, more accurate, and more effective data analyses. 
+## User Impact
+ The Overview page displays only the perspectives and data analyses permissible to you based on your assigned role. For example, if you are assigned only the Detect Site Monitor role, then you can only view and access the Sites perspective on the Overview page as defined by your organization.
+## Special Considerations
+ Detect administrators must update existing roles or create new roles with the appropriate permissions to ensure users can view and access perspectives.
+ If you do not have permissions to view any perspectives, you cannot view data in Detect and the Overview page displays the following message: " You do not have permissions to view perspective data. Contact your admin to update your Detect permissions."

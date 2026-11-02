@@ -1,0 +1,103 @@
+# Access and View the RECIST 1.1 Dashboard
+
+## Access and View the RECIST 1.1 Dashboard
+ On the RECIST 1.1 dashboard, you can view summary count cards, an interactive waterfall plot, and a patient records t able showing tumor response-related information for the patients in your study. The tumor response by patient table also includes tumor measurements that the built-in algorithm calculates, which you can use to identify and query discrepancies. This helps improve data accuracy and patient safety. 
+- Access Data Surveillance , and then click Oncology in the left-hand menu.
+The RECIST 1.1 page shows. 
+- Click the Scan Visit menu, and then s elect the scan visit that you want to view.
+The data corresponding to the scan visit type, for example, Last scan visit, appears in the Tumor Burden (%) Change plot below. 
+ Tip : Below is a sample RECIST 1.1 dashboard plot. Click to enlarge.
+The RECIST 1.1 dashboard shows the following:
+- 
+ The number of patients at each tumor response stage, based on the scan visit type and site. 
+- Total Patients – Total number of patients in the study. 
+- Patients in PD – Number of patients whose tumor response is progressive disease (PD). 
+- Patients in SD – Number of patients whose tumor response is stable disease (SD). 
+- Patients in PR – Number of patients whose tumor response is partial response (PR. 
+- Patients in CR – Number of patients whose tumor response is complete response (CR). 
+- Patients in OR – Number of patients for whom the overall response is missing for a selected visit. (OR). 
+- Patients in NE/NA – Number of patients whose tumor response is not evaluable (NE) or not applicable (NA). 
+- 
+ A visual representation of the tumor burden change percentage for the study patients. 
+- A waterfall chart that shows the percentage change relative to the baseline tumor burden for a patient at a specific time, for example, at Last Scan Visit or Cycle 3 Day 1. 
+- A line chart that shows a patient's progress throughout the oncology study. 
+- 
+ A tumor burden response by patient table. 
+ The tumor burden response by patient table includes study data that RECIST 1.1 ingests from Medidata Rave, and tumor burden responses calculated by the built-in algorithm . Each record represents a patient at a scan visit. The tumor burden response by patient table updates data as per the scan visit type and site selected.  
+- Patient ID – The ID of the patient who participates in the oncology study. You can click the patient ID to access the patient profile design associated with the patient in Patient Profiles. 
+- Site – The site that the patient belongs to. 
+- Country – The country in which the site resides. 
+- Status – 
+- – shows that there is a discrepancy between the overall tumor response that sites enter and the value calculated by the built-in algorithm. 
+- – shows that the record was marked as reviewed. 
+- Visit Name – The scheduled or unscheduled visit at which tumor measurements were taken. For example, Last Scan Visit or Cycle 3 Day 1. 
+- Visit Date –The date at which tumor measurements were taken. 
+- Overall Response –The total tumor burden for the patient. See below:
+ Target lesions 
+ Nontarget lesions 
+ New lesions 
+ Overall response 
+ | CR 
+ | CR 
+ | No 
+ | Complete Response 
+ | CR 
+ | Non-CR/non-PD 
+ | No 
+ | Partial Response 
+ | PR 
+ | Non-CR/non-PD 
+ | No 
+ | Partial Response 
+ | SD 
+ | Non-CR/non-PD 
+ | No 
+ | Stable Disease 
+ | PD 
+ | Any 
+ | Yes/no 
+ | Progressive Disease 
+ | Any  
+ | PD 
+ | Yes/no 
+ | Progressive Disease 
+ | Any 
+ | Any 
+ | Yes 
+ | Progressive Disease 
+- Smallest Sum of Diameter – The smallest sum of diameters (SLD) of the target lesions during treatment, called the nadir. For more information on the nadir, see RECIST v1.1 . 
+- Sum of Diameters (SLD ) – The sum of longest diameters of target lesion, nontarget lesions, and new lesions.  
+- Tumor % Change – Site entered tumor burden percent change. 
+- TL Response –Tumor response stages (CR, PR, PD, SD, Not Evaluable (NE), Not Applicable (NA)) for target lesions (TL) as per the following table:
+ Response 
+ Target Lesions 
+ Nontarget 
+ New Lesions 
+ | CR 
+ | Disappearance of all target lesions 
+ | Disappearance of all nontarget lesions 
+ | No 
+ | 
+ | Lymph node axis < 10 mm 
+ | Normalization of tumor marker levels 
+ | Partial Response 
+ | PR 
+ | 30% >= decrease in Sum of Diameters (SLD) from baseline (>= 4 weeks) 
+ | No progression 
+ | No 
+ | PD 
+ | >= 20% increase in SLD from 'nadir' with an absolute Sum of Disease (SoD) increase >= 5 mm 
+ | unequivocal progression in lesion size 
+ | Yes, appearance of new unequivocally metastatic lesions 
+ | SD 
+ | Neither PR nor PD with the 'nadir" as reference point 
+ | Persistence of one or more nontarget lesions and tumor markers > normal 
+ | No 
+- NTL Response – Tumor response stages (CR, PR, PD, SD, NE, NA) for nontarget lesions. 
+- NL Response – Yes indicates new lesions. No indicates no new lesions at scan visit. 
+- Calculated Overall Response – Overall tumor response as calculated by the built-in algorithm.
+- Calculated TL Response – Tumor response stages (CR, PR, PD, SD, NE, NA) for target lesions as calculated by the built-in algorithm. 
+- Calculated NTL Response – Tumor response stages (CR, PR, PD, SD, NE, NA) for nontarget lesions as calculated by the built-in algorithm. 
+- Calculated NL Response – Indicates if the algorithm calculated the occurrence of new lesions for the scan visit.
+ For more information on how the RECIST 1.1 built-in algorithm calculates tumor metrics, see RECIST 1.1 Dashboard Tumor Burden and Response Calculation Methodology .
+ To learn more about the RECIST 1.1 dashboard, see Review RECIST 1.1 Dashboard Findings .

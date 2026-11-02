@@ -1,0 +1,25 @@
+# Key Risk Indicators Released Features
+
+## Key Risk Indicators Released Features
+ Medidata Detect includes the following KRIs-related capabilities:
+- KRI Dashboard: Modification Rate System KRI Highlights Sites with Outlying Data Modification Rates 
+- KRI Dashboard: View and Analyze Patient-level Impact on KRI Values 
+- Data Surveillance and RBQM: KRI, QTL, And Derived Variables Configuration Updates Enhance Usability 
+- Updated KRI Dashboard Shows Consistent Country Names 
+- View Patient-level Data for KRIs 
+- RBQM: Schedule Data Refreshes Using the KRI Scheduler 
+- KRI Enhancements for Detect November 2023 
+- Identify and Track Study Risks Using the Key Risk Indicators Table 
+- New KRI Dashboard Orientation and Site Risk Indicator 
+- View and Track User-Defined Custom KRIs 
+- View and Track User-Defined Custom Percentage KRIs 
+- KRI-related UI Updates and Technical Enhancements 
+- Display Counts in KRI Dashboard Columns 
+- View Historical Trends in Site- and Country-Level KRI Data 
+- Perform Data Refresh from the KRI Dashboard Page 
+- Calculation Method Updated for Six System KRIs 
+- Filter Study Risks By Sites And Countries In The Key Risk Indicators Dashboard 
+- Column Header Tooltip in Key Risk Indicators Table Shows KRI Details 
+- Technical Change in KRI Dashboard 2023.2.2 
+- KRI Configuration Risk Category Tab Enhancement 
+- KRI Dashboard 2023.1.0 Minor Enhancements

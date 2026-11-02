@@ -1,0 +1,54 @@
+# Import External Data with Imports
+
+## Import External Data with Imports
+ You can automatically ingest external datasets from a data source connection. 
+ Important :
+- Your platform role must include Manage Data Sources building blocks to access the Imports tab and ingest external data. For details about granting access see Grant Access to Data Connect . 
+## File Requirements and Compatibility
+ You must prepare your external data to be compatible with the listed formats, sources, and import types.
+ Category 
+ Details 
+ | Supported File Formats 
+ | 
+ Clinical Datasets 
+- UTF-8-encoded Comma-separated value (UTF-8 .CSV) 
+- SAS (.sas7bdat or sas.xpt) 
+ Note : The SAS7BDAT file format is a SAS proprietary file format. You can import this format using Imports, but expect formatting inconsistency around the date, datetime, and numeric data types. To ensure maximum compatibility, use the XPT or CSV format. Medidata recommends that you use the XPOT function in SAS to export the XPT file format.
+ Metadata Datasets 
+- UTF-8-encoded Comma-separated value (UTF-8 .CSV) 
+ | Supported Sources 
+ | 
+- SFTP 
+- S3 
+- FTPS 
+- Veeva EDC 
+ | Supported Import Types 
+ | 
+- Cumulative – Each import cycle imports all available records, even unchanged records. 
+ | Maximum Supported File Size 
+ | 
+- 1 GB for CSV 
+- 600 MB for SAS7bdat and XPT 
+ | Notes 
+ | For CSV files, the system supports special characters as long as the file uses structural quoting. That is, you can use commas ('), backslashes (/), double quotes ("), and so on if you enclose the field in quotes.
+## Import Data Workflow
+ To set up an import, you must add a data source and add datasets in the data source. There must be at least one dataset file in the data source during configuration. The file must be a CSV and can be a sample or test file.
+## Import Process
+ After adding and enabling a dataset, the system attempts to load a file from the data source once each hour. You can also manually load the file from the data source's status screen. The system performs a cumulative refresh – that is, it expects a full refresh of the file from the source for every import – identifying which files and records are new, updated, or removed. 
+ Note : The system considers a file new when: 
+- It meets the import criteria as defined during dataset configuration; and, 
+- Its Last Modified date in the source folder is greater than the last time the data source was checked. 
+ If you change a dataset's specifications or import criteria, the system does not automatically attempt to reload the last processed file. You must wait for the next hourly refresh cycle or manually trigger the refresh for the system to pick up the changes.
+ To manually trigger the refresh cycle:
+- Go to Data Connect > Imports, and select a dataset. 
+- From the dataset's More menu, click  Trigger data source synchronization .
+ You can only manually refresh non-Veeva EDC data sources.
+ Loading times can vary because factors can affect loading times such as: 
+- The number of new records versus deleted records 
+- The number of columns 
+- The number of non-string data types. 
+ If loading does not complete within six hours, please contact Medidata Support. 
+## Third-Party EDC Import
+ For details, see Import Third-Party EDC Data and  Import with Veeva EDC Direct Connect 
+## Dataset Activation for Data Surveillance
+ When you have at least one successfully imported dataset, you can activate the dataset for use by Data Surveillance. For details, see  Activate Datasets .

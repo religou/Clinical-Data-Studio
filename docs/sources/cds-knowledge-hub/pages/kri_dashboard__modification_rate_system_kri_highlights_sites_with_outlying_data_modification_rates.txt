@@ -1,0 +1,59 @@
+# KRI Dashboard: Modification Rate System KRI Highlights Sites with Outlying Data Modification Rates
+
+## KRI Dashboard: Modification Rate System KRI Highlights Sites with Outlying Data Modification Rates
+ Important : 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the releases history . 
+- For a summary of all features released, the released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Feature (New Functionality)
+ Functionality or Module 
+ | KRI Dashboard
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter :
+ The KRI Dashboard now includes an additional system KRI called Modification Rate. The Modification Rate KRI calculates as:
+- (The Total  Number of Data Point Modifications Made by Non-system Users Across All Study Data Sets) / (The Total Number of Data Points Across All Study Data Sets). 
+ In other words, the Modification Rate KRI calculates the average number of non-system user (manual) modifications per data point. Clinical Data Studio uses a statistical model to calculate site risk based on the Modification Rate, and the KRI Dashboard color-codes each site KRI value to alert you to the KRI risk level: 
+- Red** indicates that the KRI value at the site has an average quantile value of less than 5% or greater than 95% for a given KRI value. This means that there is a strong association indicating that there may be an underlying cause at the site resulting in its KRI value to be an extreme outlier. The risk being monitored may warrant investigation at the site level. 
+- Yellow* indicates that the KRI value at the site has an average quantile value between 5% and 15% or between 85% and 95% for a given KRI value. This means that there is a strong association indicating that there may be an underlying cause at the site resulting in its KRI value to be an outlier. The risk being monitored may warrant investigation at the site level. 
+- Green indicates that the KRI value at the site has an average quantile value between 15% and 85% for a given KRI value. This suggests that there is nothing about the study data at the site that would raise alarm about the risk being monitored. The site is likely operating and reporting data as expected. 
+- Gray indicates that there are fewer than two patients at the site, which is not enough data to determine risk level. 
+ Benefit to Users 
+ | The Modification Rate KRI helps you identify sites that disproportionately modify data more or less than other sites, and helps you:
+- Gauge site-level data entry quality and transcription error rate 
+- Determine sites that may require an adjustment to their source data verification (SDV) strategy. 
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+ Anyone who is assigned to track risks can use the Key Risk Indicators table such as CRAs or site users. 
+ Impact to Workflow Processes 
+ No impact to the workflow process.
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+ The KRI Dashboard now includes the Modification Rate system KRI listed in the table by default under the Data Collection category.
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ Note : The Modification Rate system KRI is activated by default; however, you can deactivate system KRIs .
+ User Impact Assessment 
+ | Low 
+ Learning Resource Updates 
+ | 
+ The following lists any new or added resources that support this change:
+- Updated Article: KRI Descriptions and Calculation Methodologies 
+ Special Considerations 
+ |   To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

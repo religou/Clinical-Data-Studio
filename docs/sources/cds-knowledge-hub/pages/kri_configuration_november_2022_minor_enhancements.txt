@@ -1,0 +1,23 @@
+# KRI Configuration November 2022 Minor Enhancements
+
+## KRI Configuration November 2022 Minor Enhancements
+## Description
+ When adding or editing a custom percentage KRI:
+- Detect prevents you from saving the KRI with a name that already exists in your study. 
+- Detect prevents you from saving the KRI if one or more fields in the Custom Numeric KRI dialog box or Custom Percentage KRI dialog box are incomplete. 
+- The Save button remains disabled until you modify any field in the Custom Numeric KRI dialog box or Custom Percentage KRI dialog box. 
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ The inability to create multiple custom percentage KRIs with the same name ensures that your KRI data and analysis is cleaner and easier to read and investigate.
+ The KRI Dashboard functionality is more logical now that you are unable to s ave an unmodified custom numeric or percentage KRI. 
+## User Impact
+ When adding or editing a custom percentage KRI:
+- If in the Percentage KRI's Name field you enter a KRI name that already exists in your study, and then you attempt to save, then the save attempt fails and you receive the following message: "A KRI with the same name already exists in the study." 
+- If you do not enter or select information in one or more fields, Detect prevents you from saving, and a message displays below the incomplete fields instructing you on the required information. 
+## Knowledge Space Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support this enhancement: 
+- Add and Edit Custom Numeric and Percentage KRIs 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

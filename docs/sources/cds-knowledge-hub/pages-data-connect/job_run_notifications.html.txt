@@ -1,0 +1,15 @@
+# Job Run Notifications
+
+## Job Run Notifications
+## Description
+ Extractor can now send notifications about completed jobs. Extractor sends notifications through email or the Medidata Message Center. Notifications describe w hether the job was successful or failed, and include information for next steps such as a download link for successful jobs or error messaging for failed jobs. 
+## Affected Roles
+ All.
+## Advantages
+ With the added job notifications, you can learn about the status of your jobs without needing to log into Extractor to view job details.
+## User Impact
+ Job notifications have no impact on the Extractor interface or on how you interact with export jobs. Job notifications appear in your email and Medidata Message Center. Ensure that your email configuration can receive Medidata system emails.
+## Knowledge Space Updates
+ None. To learn more about Message Center, see the Message Center Knowledge Space . 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

@@ -1,0 +1,31 @@
+# Identify and Track Study Risks Using the Key Risk Indicators Table
+
+## Identify and Track Study Risks Using the Key Risk Indicators Table
+## Description
+ You can view the key risk indicators (KRIs) being tracked in your study and their respective KRI values at each site or country from the Key Risk Indicators table. 
+ The Key Risk Indicators table allows you to: 
+- See all KRIs being tracked in your study and their respective KRI values at each site and country. 
+- Determine which site's or country's KRI values are outliers and non-outliers. 
+- Determine which   site's or country's   KRIs have surpassed the risk threshold. 
+ Based on your observations made from the Key Risk Indicator table, you can determine: 
+- The issues or risks that require further investigate or mitigation.  
+- The best approach or mitigating actions to take on the issues or risks. 
+- The effect the mitigating actions have made on the issues or risks over time. 
+## Affected Roles
+ Anyone who is assigned to track risks can use the Key Risk Indicators table. For example: 
+- Data Quality  (Site, Country, or Data Manager)  – Might  look at abnormal trends in data, adherence to data entry instructions, or proactive discrepancy management.   For example, the manager might examine the number of queries and query response time. 
+- Safety  (Medical Monitor)  –   Might be interested in the processing of safety information, non-serious adverse events (AEs), and serious adverse events (SAEs). 
+- Subject  (Study, Country Managers)  – Might  refer to outliers in screen failure rate or trends in ratio of subjects. 
+## Advantages
+ The Key Risk Indicators table: 
+- Provides a clear and consistent method of tracking and calculating known and anticipated risks to study data quality. 
+- Allows you to track, compare, and determine how risks are evolving at the  study, site, and country levels. 
+- Allows for rapid detection of possible issues or risks that may require mitigating actions. 
+- Helps you determine any necessary mitigating actions to take on risks. 
+- Allows you to see if areas of risk have improved over time after taking mitigating actions. 
+- Helps ensure the study conduct operates as planned. 
+- Improves decision making, data quality, and good clinical practice (GCP) compliance. 
+## User Impact
+ You can access the Key Risk Indicators table on the KRIs page. To learn more, see  KRIs .
+## Special Considerations
+ Medidata Detect does not perform site-level or country-level KRI analysis for studies with fewer than three sites or three countries, respectively.

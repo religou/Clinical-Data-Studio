@@ -1,0 +1,46 @@
+# Audit Trail Review
+
+## Audit Trail Review
+ Audit trails are secure, computer-generated, time-stamped electronic records allowing for the reconstruction of the course of events relating to the creation, modification, or deletion of electronic GxP records. They capture the following: 
+- Who   accessed or interacted with the data 
+- What   action was performed such as addition, deletion, modification, or query 
+- When   the change occurred 
+- Why   the data was altered if available. 
+ By analyzing audit trail data from clinical data, study teams may:
+- Identify and monitor improper data capture changes, unusual data entry patterns. 
+- Detect unauthorized access to data. 
+- Assess risks with data integration and more. 
+ In Clinical Data Studio, Audit Trail Review is a capability in RBQM that enables study teams to explore complex audit data sets using Generative AI and Large Language Models (LLMs). Data managers, central monitors, and other team members use audit trail as a data source, and Audit Trail Review (ATR) as another tool in their RBQM toolbox to identify signals of risk as recommended by industry  papers and ICHE6 (R3) guidelines.  
+  For specific chat prompt use cases and examples, see Chat Prompt Use Cases .
+## What Is Audit Trail Review?
+ An audit trail review involves examining the history of transactions captured in an audit trail to ensure compliance with regulations, detect any discrepancies, and verify the integrity of data. Efficient audit trail review is essential in maintaining data security, ensuring accuracy in financial reporting, and supporting forensic investigations in cases of fraud or unauthorized access. 
+ Audit Trail Review (ATR) allows efficient, self-service audit trail reviews. ATR leverages Large Language Models (LLMs) to parse user questions related to study-specific audit trails. The system uses relevant study information passed through internal Medidata APIs to generate subsets of the audit trail for end users to analyze. The process follows privacy guidelines and validation standards to ensure there is no data leakage to any third-party system.   
+ For more information, see Medidata's Audit Trail Review webinar . 
+## What Is The Purpose of Clinical Data Studio's Audit Trail Review?
+ Audit Trail Review (ATR) provides an intuitive interface that makes audit data exploration simple and accessible. Users can extract actionable insights from vast and complex Medidata Rave audit trail datasets using ATR., and make smarter study data decisions.  
+ Audit Trail Review: 
+- Seamlessly filters massive Rave data sets, where you can type a question into the interactive ChatGPT like  interface to iterface field to generate a manageable, meaningful data set from your audit trail data. 
+- Enables you to save chats, export data or publish datasets for further use within Clinical Data Studio. 
+- Enables you to configure published audit data sets, that can be used in KRIs and listings, and in the future self-serve visuals and anomaly detection. 
+## Who Uses Audit Trail Review?
+ Clinical study data managers and study team members use Audit Trail Review to ensure operational study data integrity.
+## How Does Clinical Data Studio's ATR Work?
+ Audit Trail Review (ATR) pulls in a subset of operational metadata from Rave to show edits, updates, and deletions made to data endpoints. ATR uses Large Language earning Models (LLMs) to explore complex study data and retrieves audit data sets that match queries you build in the form of questions. You type questions into a chat interface powered by Generative AI to formulate queries. The chat prompt reiterates the main point or the gist of your query. Once you confirm this, ATR executes the query against audit tables operational Rave data to generate meaningful audit data sets that facilitate data quality checks. You can further download or publish audit data sets for use in your study as part of listings or KRIs (Numeric or Percentage). 
+ Important : In a study, a udit review activities must not be investigative on all data at all times. It must rather be driven by study risk where audit data can help monitoring for potential issues. Audit review must be intentional and targeted. 
+## What Type of Data Can Audit Trail Review Retrieve?
+ Using audit trail review, you can get information on audits at the datapoint level for the following audit subcategories: 
+- Query data 
+- Inactivated data 
+- Created data 
+- Modified data 
+ In addition, you can also: 
+- Filter audit data by patient, site, country, user, and audit time. 
+- Get datapoints that were modified a large number of times. 
+- Get datapoints modified with or without a query. 
+ Important : Vague or ambiguous questions may lead to the chat interface providing variable responses. We recommend formulating questions as clearly as possible. For more information see Create Audit Trail Reviews .
+## What Are the Benefits of Audit Trail Review?
+ Audit Trail Review helps you to monitor and enhance your study risks to operational data integrity, ensuring:
+- Protocol compliance, patient safety, data quality, and data integrity. 
+- Product or treatment efficacy. 
+## How Do I Create Audit Trail Reviews?
+ See  Create Audit Trail Reviews .

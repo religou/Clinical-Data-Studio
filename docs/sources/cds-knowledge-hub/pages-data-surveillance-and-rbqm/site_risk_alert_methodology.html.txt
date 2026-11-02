@@ -1,0 +1,50 @@
+# Site Risk Alert Methodology
+
+## Site Risk Alert Methodology
+ The   KRI Dashboard   visually signifies sites that RBQM assesses as being medium or high risk to your study's performance relative to all sites in the study by appending the site name with a Medium , , or High , , icon. The Medium and High signal icons help you quickly identify and determine sites that may warrant investigation. 
+ RBQM uses the following methodology to determine a site's risk level: 
+- All nine system KRIs that are categorized under the Data Collection risk category.
+- AE Entry Delay 
+- Manual Query Rate 
+- Missing Visit Percentage 
+- Modification Rate 
+- Non-System Query Delay 
+- Percent Out of Window Visit 
+- System Query Delay 
+- System Query Rate 
+- Visit Entry Delay  
+- Any custom KRIs that your team has activated for inclusion in its risk level calculation.   To learn more, see Add or Remove KRIs from RBQM's Site Risk Calculation . 
+ All KRIs have an assigned risk category. Each risk category has an assigned weight (low, medium, or high) that a particular KRI risk category carries when the site's risk score is calculated.  
+ Note : The default weight for the Data Collection risk category is Medium; however, you can change any risk category's weight at any time. To learn more, see Configure KRI Risk Category Weight for Site Risk Calculation . 
+  The s ite risk algorithm converts the risk category weights to the following numeric risk category weight values: 
+- Low = 0.16 
+- Medium = 0.33 
+- High = 0.5 
+ Meanwhile, the s ite risk algorithm takes the selected KRI value at each site, and then based on the KRI value's color-coded level of risk, converts the KRI output  to a numeric value . 
+ Then for each site, each KRI's value is multiplied with the KRI's risk category weight value to produce the KRI value's weighted level of significance . 
+- Red** indicates that there is a strong association indicating that there may be an underlying cause at the site resulting in its KRI value to be an extreme outlier. 
+- Yellow* indicates that there is a strong association indicating that there may be an underlying cause at the site resulting in its KRI value to be an outlier. 
+- Green indicates that there is nothing about the study data at the site that would raise alarm about the risk being monitored. The site or country is likely operating and reporting data as expected. 
+- Gray indicates that there are fewer than two patients at the site, which is not enough data to determine risk level. 
+ To learn more, see  KRI Risk Level Alert Methodology .
+ The site risk algorithm takes the selected KRI value at each site, and then based on the KRI value's color-coded level of risk, converts the KRI value to a significance value :
+- Red** = 3 
+- Yellow* = 2 
+- Green = 1 
+- Gray = 0 
+ Then for each site, the site risk algorithm multiplies each KRI's  significance value with the KRI's risk category weight value to produce the KRI value's weighted level of significance .
+ For example, let us say Site A is tracking KRI 1. And KRI 1 is color-coded in Red** on the KRI Dashboard, indicating that the KRI value is an extreme outlier. This means that KRI 1 has a significance value of 3 . And then let's say KRI 1 is assigned to the Safety risk category. And the Safety risk category has a weight of Medium, which we convert to a risk category weight value of 0.33 . Then, you calculate: 
+ (The KRI's significance value ) x (the KRI's risk category weight value ) = the KRI value's weighted level of significance . 
+ So: 3 x .33 = .99. Therefore, KRI 1's weighted level of significance is .99. 
+ The site rank is determined through a three-step calculation: 
+- Weighted Significance – RBQM calculates the weighted level of significance for every individual KRI at a site and sums them together. 
+- Impact Factor –  Simultaneously, it calculates the "Impact Factor" by totaling the risk category weights for all KRIs tracked at that site. 
+- Final Ranking –  Finally, the sum of the weighted significance is divided by the Impact Factor to produce the final Site Rank. 
+ Sites are categorized into risk levels based on their rank percentile relative to all other sites in the study: 
+- High Risk (site rank is at 75th Percentile and Above) – These sites are flagged with a High icon, next to their name. 
+- Medium Risk (site rank is between 50th to 74th Percentile) – These sites are flagged with a Medium icon, next to their name. 
+- Low Risk (site rank is below 50th Percentile) – These sites carry no icon, indicating performance within the expected range. 
+ Note on Statistical Ties: In the rare event that the 50th and 75th percentiles share the same site rank value, the following logic is applied: 
+- High Risk: Sites at the 51st percentile and above (marked with a High icon ). 
+- Medium Risk: Sites exactly at the 50th percentile (marked with a Medium icon, ). 
+- Low Risk: Sites below the 50th percentile (no icon).

@@ -1,0 +1,22 @@
+# Patient Profiles Cloud Can Ingest New External Date Formats
+
+## Patient Profiles Cloud Can Ingest New External Date Formats
+## Description
+ Patient Profiles Cloud can properly ingest external data (data not entered from Rave) in the following formats:
+- YYYY-MM-DDTHH:mm:ss 
+- YYYY-MM-DDTHH:mm 
+- YYYY-MM-DDThh:mm:ss 
+- YYYY-MM-DDThh:mm 
+## Affected Roles
+ All.
+## Advantages
+ If a patient profile designer creates an element with dates in any of the following formats:
+- YYYY-MM-DDTHH:mm:ss 
+- YYYY-MM-DDTHH:mm 
+- YYYY-MM-DDThh:mm:ss 
+- YYYY-MM-DDThh:mm 
+ then Patient Profiles Cloud can handle and properly display the dates in the given format.
+## User Impact
+ None.
+## Special Considerations
+ None.

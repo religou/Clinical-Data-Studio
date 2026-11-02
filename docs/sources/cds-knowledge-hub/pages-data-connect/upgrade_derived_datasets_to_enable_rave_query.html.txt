@@ -1,0 +1,18 @@
+# Upgrade Derived Datasets to Enable Rave Query
+
+## Upgrade Derived Datasets to Enable Rave Query
+ When you activate a derived dataset using Rave data, the connection allows you to directly open Rave queries in Data Surveillance. This functionality is available by default for newly created derived datasets. However, existing derived datasets require manual upgrades to enable this functionality.
+## Considerations and Limitations
+- Derived datasets created before May 23, 2025 must be upgraded and then reactivated to enable direct Rave querying in Data Surveillance. 
+- Derived datasets created on or after May 23, 2025 do not need to be upgraded. 
+- Derived datasets using the following operations from Rave datasets will be enabled for direct Rave querying in Data Surveillance:
+- Join 
+- Union 
+- Replicate or Filter 
+- Medidata recommends upgrading no more than five datasets at a time per study. To upgrade more datasets, wait for any queued upgrades to finish. 
+## Upgrade Dataset
+- Access Data Connect , and click  Datasets   in the left-hand menu. 
+ The Datasets landing page shows a banner that says "Upgrade to enable queries for derived datasets in Data Surveillance". 
+- Click View Available Upgrades on the banner. 
+- Locate a dataset from the right-hand menu and click Upgrade . 
+- After a successful upgrade, activate the dataset for Data Surveillance.

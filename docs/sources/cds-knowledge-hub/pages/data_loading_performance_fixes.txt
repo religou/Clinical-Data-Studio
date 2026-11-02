@@ -1,0 +1,13 @@
+# Data Loading Performance Fixes
+
+## Data Loading Performance Fixes
+## Description
+ MEDS Data Viewer has improved data set loading. Previously, when you create a derived variable, return to the Data Viewer tab, and try to filter a data set variable table, the table may appear blank or display an error as the system tries to load the new derived variable. With this update, you can view and filter the data set table without causing a blank screen or error screen to appear.
+## Affected Roles
+ All roles with the View Data and View Derived Variables building blocks.
+## Advantages
+ In the Data Viewer tab, you can load data set variable tables with newly created derived variables without causing a blank or error screen. 
+## User Impact
+ This performance update does not change how you view data sets or create derived variables.
+## Special Considerations
+ None.

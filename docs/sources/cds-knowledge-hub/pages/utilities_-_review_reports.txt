@@ -1,0 +1,8 @@
+# Utilities - Review Reports
+
+## Utilities - Review Reports
+ Detect Landing Page includes the following capabilities related to arranging the review reports:
+- Filter Review Reports By Countries, Sites, And Patients 
+- Capture Study Findings and Build Data Reports Directly in Detect 
+- Review Report Enhancements 
+- Close Date No Longer Required In Review Reports

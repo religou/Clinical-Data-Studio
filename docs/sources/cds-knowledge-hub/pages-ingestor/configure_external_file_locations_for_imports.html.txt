@@ -1,0 +1,8 @@
+# Configure External File Locations for Imports
+
+## Configure External File Locations for Imports
+ When creating import jobs, you can configure the job to retrieve files from an external server, such as SFTP and FTPS. You must configure external file locations with Data Connect. After adding one or more locations, the list of locations is available to Ingestor and Extractor users in your client division. 
+ You can configure external locations in one of the following ways:
+- Add FTPS Locations 
+- Add SFTP Locations 
+ Important : To configure the list of external file locations, you must use Data Connect. To access Data Connect and use its external location configuration capability, your platform role must include the Extractor Admin building block. For details, see Grant Access to Extractor  and Data Connect Roles and Capabilities .

@@ -1,0 +1,62 @@
+# Review Job Configuration Details
+
+## Review Job Configuration Details
+ After creating one or more import jobs , you can use Ingestor to review and manage job details on each job's Job Configuration screen. The presented details differ depending on the type of import job.  
+## Open Job Configuration Page
+- Log into iMedidata.com . 
+- Navigate to Ingestor through an assigned client division. 
+- Select an import job to review.
+ Tip : You can filter import jobs by different parameters, such as Study, Job Type, and Environment. To filter the import job list, click the Filter icon  for one of the parameters, and select which data to filter by.
+- Click the Job Configuration tab.
+ Tip : You can also access the Job Configuration page by clicking the gear icon from the jobs list.
+## Job Details
+ Job Name 
+ Import job's name and Job ID.
+ Tip : You can click the clipboard icon to copy the Job ID to your clipboard. You can use the Job ID when using the Medidata API or with Medidata Support. Click image to enlarge.
+ Study 
+ Name of the data import's target study.
+ Study Environment 
+ Name of the data import's target study environment.
+ Note : This field is only applicable for Study Design Metadata jobs and external EDC  jobs.
+ Data Type 
+ Type of data the job imports.
+ Created 
+ The user who created this job, and when. This field is in the following format: dd-mmm-yyyy hh:mm:ss. Time is in UTC. 
+ Last Modified 
+ The user who last edited the import job, and when. This field is in the following format: dd-mmm-yyyy hh:mm:ss. Time is in UTC. 
+## Data Integration Details
+ Note : Data integration details are only available when reviewing external EDC jobs.
+ Data Integration Name 
+ The data integration's name. 
+ Data Integration Version 
+ The data integration  version. 
+ Data Integration Version Creation Date 
+ The data integration  version's creation date  in the following format: dd-mmm-yyyy. 
+ Data Integration Published Date 
+ The data integration  version's creation date  in the following format: dd-mmm-yyyy. 
+ Source Protocol Configuration Name 
+ The source protocol configuration name. 
+ Source Protocol Configuration Version 
+ The source protocol configuration version number. 
+ Source Protocol Configuration Creation Date 
+ The source protocol configuration creation date in the following format: dd-mmm-yyyy. 
+ Source Protocol Configuration Published Date 
+ The source protocol configuration publication date in the following format: dd-mmm-yyyy. 
+## Import Settings
+ Import Type 
+ Denotes whether the processing job is Cumulative, replacing all existing data; or Incremental, adding to or updating existing data. Processing jobs with the incremental import type can Upsert – add or update existing items – or Delete items. The uploaded file's name determines if Ingestor upserts or deletes items. If the file's name contains "upsert", then upsertion occurs. If the file's name contains "delete", then deletion occurs. 
+ Note :
+- An uploaded file can only include "upsert" or "delete", and not both. 
+- This field is only available for external EDC jobs 
+ Source 
+ The indicates where the uploaded data comes from : 
+- SFTP   – Indicates that the job uses SFTP import. 
+- Not Available   – Indicates that the job uses manual import. 
+ SFTP Location 
+ The name of the SFTP location used by the import job.
+ Folder Location to Retrieve Files 
+ The extension of the path in the SFTP location where Ingestor imports data files from .
+ Folder Location for Output Status Files 
+ The extension of the path in the SFTP location where Ingestor saves process files .
+ Run Job Now 
+ For SFTP-enabled jobs, you can click SFTP Input Folder Now to force an SFTP exchange. The import job then runs in the same manner as a regularly scheduled SFTP job run.

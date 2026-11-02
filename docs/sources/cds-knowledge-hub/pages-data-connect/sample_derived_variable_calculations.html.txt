@@ -1,0 +1,27 @@
+# Calculations to Output Unsupported Derived Variable Operations
+
+## Calculations to Output Unsupported Derived Variable Operations
+ Transformations do not support the time fields with format HH:MM. However we can still calculate the time difference using the below procedure.
+ HH:MM Time Format Absolute Value Operator 
+ HH:MM Time Format
+ While configuring a derived variable project, go to the List View and do the following:
+- From the target variable list screen, click the More icon, select  Add Variable,  and enter the below details:
+- Alias : Date 01 
+- Description : Date 01 
+- Variable Data Type : Date  
+- Variable Format : YYYY MM DD HH:MM 
+- Target Variable Requirement : Required 
+- Click Add Variable. 
+- Repeat step one to add one more variable and enter the below details.
+- Alias : Date 02 
+- Description : Date 02 
+- Variable Data Type : Date  
+- Variable Format : YYYY MM DD HH:MM 
+- Target Variable Requirement : – Required
+ Important : Make sure that the Variable format for both the variables must be same. 
+- For variable Date_01 and Date_02, click  Select target variables  and chose the applicable date variables from the list.
+ Note :  For this example we are selecting  TXTM   and  TXETM   variables for Date_01 and Date_02 respectively.   
+ Absolute Value Operator
+ From the Create Transformations screen, use the modules to extract the absolute value:
+- Convert the column into a string. 
+- Use the Extract Number function on the string.

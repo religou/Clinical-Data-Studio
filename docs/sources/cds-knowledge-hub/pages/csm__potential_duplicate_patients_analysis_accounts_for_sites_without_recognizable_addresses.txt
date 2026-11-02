@@ -1,0 +1,22 @@
+# CSM: Potential Duplicate Patients Analysis Accounts for Sites Without Recognizable Addresses
+
+## CSM: Potential Duplicate Patients Analysis Accounts for Sites Without Recognizable Addresses
+## What Is New?
+ In previous releases, Potential Duplicate Patients could not run its analysis on sites whose addresses were not recognized by the address search plugin that Medidata uses . Therefore, those sites and associated patients were not accounted for in the overall potential duplicate patient analysis. Now, Potential Duplicate Patients runs its analysis sites without recognizable site addresses at the country level. In addition, t he Sites card reports the number of sites with and without recognizable site addresses. 
+## What Is the Impact?
+## Users/Roles
+ Central monitors
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The Patient Duplicate Patients analysis is now more comprehensive and truly reflective of the patient population.
+## Where Do I See the Change?
+ Centralized Statistical Monitoring > Data Veracity > Potential Duplicate Patients.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement:
+- Investigate and Identify Potential Duplicate Patients In Your Study 
+## What Else Should I Know?
+ On the Summary - Sites table, if you click a site without an address, the Potential Duplicate Patients heatmap remains on the Global view and does not zoom to the Site view.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

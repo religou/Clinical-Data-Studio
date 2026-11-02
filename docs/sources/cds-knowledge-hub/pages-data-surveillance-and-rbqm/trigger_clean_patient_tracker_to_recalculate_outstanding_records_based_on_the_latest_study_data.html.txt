@@ -1,0 +1,15 @@
+# Trigger Clean Patient Tracker to Recalculate Outstanding Records Based on the Latest Study Data
+
+## Trigger Clean Patient Tracker to Recalculate Outstanding Records Based on the Latest Study Data
+ Data Surveillance users with the proper permissions can m anually trigger Clean Patient Tracker to recount the number of outstanding patient data cleaning tasks that require vetting and review. The counts are based on the latest study data retrieved in Data Surveillance for: 
+- Data listing records that require review. 
+- AI Data Reconciliation report records that require review. 
+- Open queries in your study that require response. 
+- Pending or unaddressed vendor queries per patient. 
+- Targeted Source Document Verification (TSDV) or Source Document Verification (SDV) counts from Medidata Rave. 
+ The upper- right corner   of the Clean Patient Tracker page shows the timestamp of   the last time that Clean Patient Tracker counted the number of outstanding tasks. 
+ Tip : For the most up-to-date counts, first refresh individual listings on the Listings page and refresh the AI Reconciliation reports , and then recalculate   in Clean Patient Tracker .
+- Access Data Surveillance , and then click Clean Patient Tracker in the left-hand menu.
+The Clean Patient Tracker page shows. 
+- Click Recalculate .
+Clean Patient Tracker refreshes to recount and revisualize the outstanding patient data cleaning tasks that require vetting and review.

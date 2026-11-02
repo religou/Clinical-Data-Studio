@@ -1,0 +1,71 @@
+# Log In, Navigate Medidata, and Access Studies
+
+## Log In, Navigate Medidata, and Access Studies
+ You log in to Medidata to access your studies. New users must first activate your Medidata account.
+ &amp;lt;p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;  
+## Activate Your Medidata Account
+ Access to iMedidata is by invitation only. As a new user, you cannot log in until you receive an email and click the link to accept the invitation to join iMedidata. You are then redirected to an activation web page where you create your username and password and register as an iMedidata user. 
+ You can register, create a username and password, and accept the Terms of Use for up to 45 days after you receive an invitation.
+ To learn more, see  How to Activate Your iMedidata Account .
+## Log In to Medidata
+ You can access iMedidata after you receive your email invitation and activate your iMedidata account .
+- Enter  www.imedidata.com  in your browser address field.  
+- Enter your username and password on the iMedidata login page.
+Your Medidata homepage  appears. This  includes any assigned studies, study groups, app access, and eLearnings. 
+ If you cannot log in to iMedidata, see Trouble Logging into iMedidata for help with resolving potential login issues.
+## Navigate the Medidata Home Page
+ The Medidata home page appears when you sign into Medidata. The home page provides a unified starting point for all your studies and Medidata capabilities.
+ From the home page, you can access your recent activity, studies, and sites. You can also access the help center, and your profile, courses, and notifications.
+ Number 
+ Page Element 
+ Description 
+ | 1 
+ | Global Navigation Menu 
+ | 
+ The global navigation menu appears at the top of the page. 
+ It contains the following elements:
+- Medidata Logo – Click to go to the Medidata Home page.  
+- Clients – Click to select a recently viewed client or to open the All Clients page. 
+- Study Groups – Click to select a recently viewed study group or to open the All Study Groups page. 
+- Studies – Click to select a recently viewed study or to open the All Studies page.  
+- Sites – Click to select a recently viewed site or to open the All Sites page. 
+- –  Chat with a Medidata representative or find answers to your technical questions and learn how to use our products with the Knowledge Hub. 
+-  – Send design feedback to Medidata. 
+- – Access all in-application notifications via Notification Center. Notifications arrive as either email or in-app notifications.  
+- – Access your profile to change profile information and account details. In your profile menu—which appears as your name's initials—you can access the following information:  
+- Linked Accounts —View or switch to any linked accounts. 
+- My Profile —Open your user profile.  
+- My Courses —Open up your course list.  
+ | 2 
+ | The Medidata App Navigation Tab Bar 
+ | The Medidata App Navigation Tab Bar appears below the Medidata Home page welcome message and shows the Medidata applications linked to studies you work on. When you integrate with applications such as Medidata Rave, the app names show in the tab bar. Click a specific app's tab to navigate to that app. 
+ | 3 
+ | Recent Activity 
+ | 
+- The studies and sites you have recently worked on appear in the first two columns.  
+- Click the recent study or site to open it or click the three dots to open in a different capability. 
+- You can see your recent work activity in the History column on the right.  
+ Note: The information that appears on your home page is unique to your study assignments and role permissions. 
+## All Clients Page
+ Click the Clients menu > All Clients to view your clients.
+- Enter a study group name in the search field to find a study group. 
+- Click a study group name to select a capability.  
+## All Study Groups Page
+ Click the Study Groups menu > All Study Groups to view your study groups.
+- Enter a study group name in the search field to find a study group. 
+- Click a study group name to select a capability.  
+## All Studies Page
+ Click the Studies menu > All Studies to view your studies.  
+- Enter a study name in the search field to find a study. 
+- Click a study to select a study 
+## All Sites Page
+ Click the Sites menu > All Sites  view all sites for your assigned studies.  
+## Find and Access Studies
+- Log in to iMedidata.com .
+ The Medidata Home page shows. To learn more, see Navigate the Medidata Home Page . 
+- Click the an app name  in the tab bar below the Medidata Home page welcome message. For example, Data Surveillance.
+ Tip : Click image to enlarge.
+- In the Clients table, click the client name containing the study you want to access. 
+- In the Study Groups table, click the study group name containing the study you want to access. 
+- In the Studies table, click the study you want to access.
+ The landing page of the app you need to work in shows.

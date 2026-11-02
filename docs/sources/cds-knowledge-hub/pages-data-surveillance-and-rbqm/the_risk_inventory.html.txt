@@ -1,0 +1,58 @@
+# Risk Inventory
+
+## Risk Inventory
+ The Risk Inventory is a real-time, comprehensive list of all study risks and associated QTLs and KRIs documented in the Risk Assessment. You can track, monitor, and manage risks from the Risk Inventory to:
+- Ensure study teams perform risk reviews on time. 
+- Prioritize the risks that your team monitors and addresses based on risk level. 
+- Evaluate risk QTL and KRI performance to determine whether the risk level is increasing or decreasing. 
+- Determine risk mitigating actions to take or assess the effectiveness of actions taken. 
+## What Is the Risk Inventory?
+ The Risk Inventory is a consolidated, real-time list of all:
+- Risks documented as part of your study's risk assessment and risk review details associated with each risk. 
+- QTLs associated with a risk in your study along with QTL details and performance metrics. 
+- KRIs associated with a risk in your study along with KRI details and the current KRI values. 
+## What Is the Purpose of the Risk Inventory?
+ The Risk Inventory enables study teams to collaboratively track, monitor, and manage risks. For example, you can:
+- View the real-time, comprehensive list of all documented study risks in one centralized location. 
+- View each risk's status; for example, whether the risk is open or closed. 
+- Monitor risk review details such as last risk review date, target review date, and review status—for example, Due Soon or Overdue—to ensure study teams completes risk reviews on time per the study protocol. 
+- Assess each risk's  risk score to help prioritize the risks that your team monitors and develops risk mitigation strategies for. 
+- View the list of QTLs and KRIs associated with a risk in your study. 
+- Evaluate risk QTL and KRI performance to determine whether the risk level is increasing or decreasing. 
+- Determine risk mitigating actions to take or assess the effectiveness of actions taken. 
+- Update risk details and statuses as necessary. 
+ To learn more, see:
+- View and Monitor the Risk Inventory 
+- Manage Risks from the Risk Inventory 
+## Who Uses the Risk Inventory?
+ Risk managers.
+## How Does the Risk Inventory Work?
+ When creating and building the study team's Risk Assessment, risk managers can: 
+- Identify and document the following risk assessment components: critical data , critical processes , risk categories . 
+- Identify and document the risks associated with each critical data, critical process, or risk category. 
+- Score risks based on the following risk factors: Probability, Impact , Detectability . 
+- Assign a risk weight to risk categories to rank the category by importance. 
+- Associate risks with QTLs and KRIs to track risk performance. 
+- Document risk mitigation strategies for specific risks. 
+ The Risk Inventory gathers all study risks documented as part of the Risk Assessment in one consolidated list. Risk managers and other study team members can view the list of all risks , as well as associated risk and risk review details. For example, you can: 
+- View a risk's status; for example, whether the risk is open or closed or incomplete. 
+- View risks whose risk reviews are overdue or due soon. 
+- Sort the Risk Inventory based on risk score to help prioritize the risks that your team monitors and addresses. 
+- Evaluate risk QTL and KRI performance. 
+- Determine risk mitigating actions to take or assess the effectiveness of actions taken. 
+ From the Risk Inventory, you can also directly access individual risks to:
+- View and edit an individual risk's details . 
+- Document risk review actions taken . 
+- Mark risks as reviewed . 
+- Close risks . 
+- Add and manage QTLs associated with risks . 
+- Add and manage KRIs associated with risks . 
+- Add and manage risk mitigations . 
+ You can also download the risk inventory to view locally in a PDF or share with others outside of RBQM.
+## What Are the Benefits of Using the Risk Inventory?
+ The Risk Inventory helps you view, monitor, and address study risks ensuring:
+- Protocol compliance, patient safety, data quality, and data integrity. 
+- Product or treatment efficacy. 
+- Faster, more efficient studies with greater chances of study success, approval, and validity. 
+## How Do I Access the Risk Inventory?
+ See  View and Monitor the Risk Inventory .

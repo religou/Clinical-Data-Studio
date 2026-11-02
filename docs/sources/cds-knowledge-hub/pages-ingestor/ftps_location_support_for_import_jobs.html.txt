@@ -1,0 +1,24 @@
+# FTPS Location Support for Import Jobs
+
+## FTPS Location Support for Import Jobs
+## What Is New?
+ You can now configure import jobs to use FTPS locations that you add in Extractor.
+ Feature/enhancement stories referenced in this article:
+ MCC-1091513, MCC-1060480, MCC-1105067 
+## What Is the Impact?
+## Users/Roles
+ All   platform roles   with permission to configure FTPS locations and configure import jobs. For details, see Ingestor Roles and Permissions List .
+## Workflow Process
+ While configuring an import job, you can set the job to import from an FTPS location similar to how you set SFTP locations.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ If you use Medidata-hosted or self-hosted FTPS locations, you can now also use the same locations for import jobs. 
+## Where Do I See the Change?
+ When creating or editing a job, you can configure it to use the FTPS location. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this change:
+- Configure External File Locations for Imports (updated) 
+- Add FTPS Locations (new) 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

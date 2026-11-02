@@ -1,0 +1,17 @@
+# Workflow for New Export Job
+
+## Workflow for New Export Job
+## Description
+ MEDS Extractor now uses a multi-step workflow when you create export jobs.   MEDS Extractor validates each step before you can move to the next , simplifying error correction.
+ With the updated export job workflow, you can:
+- Select which data to extract. 
+- Name export jobs. 
+- Name extracted files. 
+## Affected Roles
+ All roles with access to MEDS Extractor. 
+## Advantages
+ The multi-step export job creation workflow simplifies  data entry now that export jobs can pull data from a wider range of sources. The workflow also provides more options for the automatic naming of job files.
+## User Impact
+ The multistep export job creation workflow appears when you click New Export Job.  Canceling out of creating a job warns you that the export job will not be created.
+## Special Considerations
+ None.

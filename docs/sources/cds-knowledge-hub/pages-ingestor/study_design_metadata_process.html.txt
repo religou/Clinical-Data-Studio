@@ -1,0 +1,16 @@
+# Study Design Metadata Import Process
+
+## Study Design Metadata Import Process
+ You can use Study Design Metadata (SDM) files to automate the creation of data integrations and protocol configurations. You can then use the data integrations to import external data into the Medidata platform. Importing SDM files creates both of :
+- A protocol configuration named <study name>Protocol Configuration at version 1. 
+- A data integration named External EDC Data Integration at version 1. 
+ For details regarding the composition of SDM files, see  Study Design Metadata Files . 
+ Note :  Subsequent successful imports of updated SDM files increment the version number. 
+## Study Design Metadata Import Workflow
+ Ingestor processes SDM files using the following numbered steps shown in the schematic:
+- You create a Ingestor import job with the Study Design Metadata data type and import the four SDM files simultaneously. SDM files are standard CSV files that describe the format of the third-party data that an import job ingests. 
+- Designer Loader, a Ingestor component, generates  a new Data Integration for the study from the four SDM files. 
+- You use the  Import Data workflow to specify the generated data integration and import third-party data files. 
+- Ingestor checks if  the third-party data file matches the assigned data integration configuration. 
+- Ingestor imports your data into the Medidata platform. 
+ SDM Managed Importing

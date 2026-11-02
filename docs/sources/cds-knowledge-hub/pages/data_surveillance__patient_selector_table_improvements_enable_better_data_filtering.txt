@@ -1,0 +1,27 @@
+# Data Surveillance: Patient Selector Table Improvements Enable Better Data Filtering
+
+## Data Surveillance: Patient Selector Table Improvements Enable Better Data Filtering
+## What Is New?
+ The Patient Selector table in Patient Profiles includes the following updates:
+- A new Reviewer Name column indicates the person who reviewed the patient data. 
+- You can filter by empty values in the Reviewed Status column.   
+- You can filter patient IDs by the Reviewer column. 
+- Columns sort based on the data type when sorted by column headers. 
+## What Is the Impact?
+## Users/Roles
+ All Patient Profile users.
+## Workflow Process
+ No impact to the workflow process. 
+## Other Applications
+ No impact to other applications. 
+## How Do I Benefit?
+ Flagging patient profiles as reviewed helps you and other team members identify which profiles have or have not been reviewed. Filtering profiles by review status or by reviewer, helps your team recognize and focus on profiles that still require review.  
+## Where Do I See the Change?
+ In the Data Surveillance > Patient Profiles > Patient Profile Designs > after you select a published or draft design > Profiles tab:
+- If you click filter by Blanks in the Review Status column, the Patient Selector table shows all patient profiles with no reviewed status. 
+- If you filter by a specific name in the Reviewer Name column, the Patient Selector table shows patient profiles reviewed by the person selected. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Review and Export Patient Profiles 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

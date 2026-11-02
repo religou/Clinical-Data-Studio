@@ -1,0 +1,13 @@
+# Download the Risk Inventory
+
+## Download the Risk Inventory
+ You can download a Risk Inventory Report PDF. The report contains pertinent information about the risks' Review Status, Origin, Action Required, and so on.
+ Downloading the report PDF allows you to view on demand the data associated with each risk. The PDF presents the report in a clear, easy-to-read, and exchangeable format for:
+- Offline stakeholder communication 
+- Record retention 
+- Review, approval, and signature. 
+- Access RBQM , and then click Risks   in the left-hand menu.
+The Risk Inventory page shows.
+- Click Export .
+The Risks Inventory report downloads to your machine. 
+- Open the PDF. The report name is formatted as Risk Inventory <week day>, <day number> <month abbreviation> <year> <mm_dd_yy>, for example, Risk Inventory Mon, 21 Aug 2023 10_20_24.

@@ -1,0 +1,571 @@
+# Clinical Data Studio Audit Data
+
+## Clinical Data Studio Audit Data
+ You can export data objects containing data pertaining to activity and metadata from Data Surveillance and RBQM . You can export data about AI Recon Feedback, Listings, Patient Profiles, and more. 
+ AI Recon Feedback Listings CPT Tracker KRIs QTLs Patient Profiles Plots Risk Inventory Signal Configurations Signal 
+ AI Recon Feedback
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Name 
+ | Text 
+ | 256 
+ | Type of condition report. 
+ | Snapshot Date 
+ | Text 
+ | 256 
+ | Day in which the data was reviewed 
+ | Patient Id 
+ | Text 
+ | 256 
+ | The ID of the patient associated with the report record. 
+ | Site 
+ | Text 
+ | 256 
+ | Site number associated with the record. 
+ | Country 
+ | Text 
+ | 256 
+ | Country where the site is located. 
+ | Preferred Term 
+ | Text 
+ | 256 
+ | The condition or treatment the patient reported. 
+ | Reported Term 
+ | Text 
+ | 256 
+ | The coded term for the reported term in the record. 
+ | Start Date 
+ | Text 
+ | 256 
+ | The date when the patient first experienced the condition or treatment. 
+ | End Date 
+ | Text 
+ | 256 
+ | The last date when the patient experienced the condition or treatment. 
+ | Action 
+ | Text 
+ | 256 
+ | Last action performed by the user. 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The user name of the user who updated the record. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the user who updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the user who updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the app that performed the update. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+The system stores the date and time in UTC, and shows both in your local device's timezone. 
+ Listings
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Listing Id 
+ | Text 
+ | 256 
+ | Unique numeric identifier for each listing 
+ | Name 
+ | Text 
+ | 256 
+ | The listing's object identifier (OID). 
+ | Status 
+ | Text 
+ | 256 
+ | Shows either Draft or Approved.
+ The status indicates whether the listing is in approved or draft status.
+ | Expression 
+ | Text 
+ | 256 
+ | The data listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications.
+ In general, expressions identify and report high-risk data points that your study team can review and investigate as necessary.
+ | Activated 
+ | Text 
+ | 256 
+ | Shows either Yes or No.
+ Yes indicates that the listing currently shows in its Approved Listings table or Draft Listings table.
+ No indicates that the listing is hidden from the Approved Listings table or Draft Listings table.
+ | Reason for Change 
+ | Text 
+ | 256 
+ | Reason for updated data changes 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The user name of the user who updated the record. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the user who updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the user who updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the app that performed the update. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+ The system stores the date and time in UTC, and shows both in your local device's timezone. 
+ CPT Tracker
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Patient 
+ | Text 
+ | 256 
+ | The ID of the patient associated with the report record. 
+ | Site 
+ | Text 
+ | 256 
+ | Site number associated with the record. 
+ | Country 
+ | Text 
+ | 256 
+ | Country where the site was located 
+ | Action 
+ | Text 
+ | 256 
+ | Last action performed by the user. 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The user name of the user who updated the record. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the user who updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the user who updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the app that performed the update. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+ The system stores the date and time in UTC, and shows both in your local device's timezone.
+ KRIs
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Action Taken 
+ | Text 
+ | 256 
+ | Last action performed by the user. 
+ | KRI Name 
+ | Text 
+ | 256 
+ | Name of the key risk indicator. 
+ | Description 
+ | Text 
+ | 256 
+ | 
+ Details about what the KRI is, what it is meant to calculate and track, or any other helpful information.
+ | Numerator Expression 
+ | Text 
+ | 256 
+ | The identified logic configured for the KRI's numerator used to query for matching subjects. The numerator expression targets the entire data set population
+ | Denominator Expression 
+ | Text 
+ | 256 
+ | The identified logic configured for the KRI's denominator used to query for matching subjects. The denominator expression targets a specific dataset population subset.
+ | Moderate Risk Threshold 
+ | Text 
+ | 256 
+ | The configured value for the KRI's lowest risk limit. 
+ | High Risk Threshold 
+ | Text 
+ | 256 
+ | The configured value for the KRI highest risk limit. 
+ | Calculation Type 
+ | Text 
+ | 256 
+ | The type of calculation that the custom KRI uses to perform on the selected variable. 
+ | Added To SRI 
+ | Text 
+ | 256 
+ | Indicates whether or not the KRI is configured as being factored in to RBQM's site risk analysis. 
+ | Reason for Change 
+ | Text 
+ | 256 
+ | The reason for changing KRI configuration 
+ | Reason for Deactivation 
+ | Text 
+ | 256 
+ | The reason the KRI was last deactivated. 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The user name of the user who updated the record. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the user who updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the user who updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the app that performed the update. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+ The system stores the date and time in UTC, and shows both in your local device's timezone. 
+ QTLs
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Action Taken 
+ | Text 
+ | 256 
+ | Last action performed by the user. 
+ | QTL Name 
+ | Text 
+ | 256 
+ | Name of the quality tolerance limit. 
+ | Description 
+ | Text 
+ | 256 
+ | 
+ Details about what the QTL is, what it is meant to calculate and track, or any other helpful information.
+ | Numerator Expression 
+ | Text 
+ | 256 
+ | Details the numerator query's full condition set configured for the QTL. 
+ | Denominator Expression 
+ | Text 
+ | 256 
+ | Details the denominator query's full condition set configured for the QTL. 
+ | Expectation 
+ | Text 
+ | 256 
+ | The QTL's expected median value based on historical data. 
+ | Subject Population 
+ | Text 
+ | 256 
+ | Total number of patients expected to enroll in the study. 
+ | Trigger Point 
+ | Text 
+ | 256 
+ | The minimum required number of patients that meet the QTL's conditions for RBQM to analyze and output the QTL's results in RBQM.
+ | Reason for Change 
+ | Text 
+ | 256 
+ | The reason for changing QTL configuration. 
+ | Reason for Deactivation 
+ | Text 
+ | 256 
+ | The reason the QTL was last deactivated. 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The user name of the user who updated the record. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the user who updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the user who updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the app that performed the update. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+The system stores the date and time in UTC, and shows both in your local device's timezone. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+ The system stores the date and time in UTC, and shows both in your local device's timezone. 
+ Patient Profiles
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Comment ID 
+ | Text 
+ | 256 
+ | The unique comment ID represented in the patient profile. 
+ | Profile Design Name 
+ | Text 
+ | 256 
+ | The patient profile design's name. 
+ | Patient ID 
+ | Text 
+ | 256 
+ | The ID of the patient represented in the patient profile. 
+ | Activity 
+ | Text 
+ | 256 
+ | Describes the general action that was performed. 
+ | Activity Details 
+ | Text 
+ | 256 
+ | Describes the specific change that was performed to a patient profile. 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The user name of the user who updated the record. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the user who updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the user who updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the app that performed the update. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+ The system stores the date and time in UTC, and shows both in your local device's timezone.
+ Plots
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Action Taken 
+ | Text 
+ | 256 
+ | The action taken against the plot 
+ | Snapshot Date 
+ | Text 
+ | 256 
+ | The plot's snapshot date 
+ | Site 
+ | Text 
+ | 256 
+ | The name of the site associated with the plot 
+ | Country 
+ | Text 
+ | 256 
+ | The name of the country associated with the plot 
+ | Plot Name 
+ | Text 
+ | 256 
+ | The plot's name 
+ | Patient ID 
+ | Text 
+ | 256 
+ | The ID of the patient associated with the plot 
+ | Domain 
+ | Text 
+ | 256 
+ | The first domain associated with the plot 
+ | Variable 1 
+ | Text 
+ | 256 
+ | The first variable associated with the plot 
+ | Datapoint 1 
+ | Text 
+ | 256 
+ | The first datapoint associated with the plot 
+ | Domain 2 
+ | Text 
+ | 256 
+ | The second domain associated with the plot 
+ | Variable 2 
+ | Text 
+ | 256 
+ | The second variable associated with the plot 
+ | Datapoint 2 
+ | Text 
+ | 256 
+ | The second data point associated with the plot 
+ | Discrepancy 
+ | Text 
+ | 256 
+ | Noted discrepancies pertaining to the plot 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The user name of the user who updated the record. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the user who updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the user who updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the app that performed the update. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+ The system stores the date and time in UTC, and shows both in your local device's timezone. 
+ Risk Inventory
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | System 
+ | Text 
+ | 256 
+ | Risk Management System 
+ | Risk ID 
+ | Text 
+ | 256 
+ | A system-assigned unique ID for a risk. 
+ | Sub ID 
+ | Text 
+ | 256 
+ | A system-assigned unique ID for a submission. 
+ | Section 
+ | Text 
+ | 256 
+ | One word description of the action taken.
+- Details = Entered key details 
+- Action = Actions taken 
+- Mitigation = Entered new mitigation plan 
+ | Changes 
+ | Text 
+ | 256 
+ | Detailed description of updates performed by the user. 
+ | Action 
+ | Text 
+ | 256 
+ | Last action performed by the user. 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The user name of the user who updated the record. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the user who updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the user who updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the app that performed the update. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+ The system stores the date and time in UTC, and shows both in your local device's timezone.
+ Signal Configurations
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Application 
+ | Text 
+ | 256 
+ |  The application's name 
+ | Name 
+ | Text 
+ | 256 
+ |  The signal's name 
+ | Activity 
+ | Text 
+ | 256 
+ |  The activity's name 
+ | Activity Details 
+ | Text 
+ | 256 
+ |  Details about the activity 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The user name of the user who updated the record. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the user who updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the user who updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the app that performed the update. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+ The system stores the date and time in UTC, and shows both in your local device's timezone.
+ Signal
+ Attribute Name 
+ Attribute Type 
+ Max Length 
+ Attribute Description 
+ | Signal ID 
+ | Text 
+ | 256 
+ | The signal's identification number 
+ | Sub ID 
+ | Text 
+ | 256 
+ | The submission's identification number  
+ | Activity Taken 
+ | Text 
+ | 256 
+ | Describes the activity associated with the signal 
+ | Activity Details 
+ | Text 
+ | 256 
+ | Details about the activity 
+ | Updated By Login 
+ | Text 
+ | 256 
+ | The user name of the user who updated the record. 
+ | First Name 
+ | Text 
+ | 50 
+ | The first name of the user who updated the record. 
+ | Last Name 
+ | Text 
+ | 50 
+ | The last name of the user who updated the record. 
+ | Updated By App 
+ | Text 
+ | 256 
+ | The name of the app that performed the update. 
+ | Date (UTC) 
+ | Timestamp 
+ | 23 
+ | The date and time when the audit was created, for example: 16-APR-2021 17:41 UTC.
+ The system stores the date and time in UTC, and shows both in your local device's timezone.

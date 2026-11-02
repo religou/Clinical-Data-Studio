@@ -1,0 +1,49 @@
+# Create Rave Queries Directly from Listings
+
+## Create Rave Queries Directly from Listings
+## Description
+ You can create Rave queries directly from listings in Data Reviewer. You can select and submit Rave queries for all or some of the records in listings.
+## Affected Roles
+ All Detect users with access to Rave and Data Reviewer.
+## Advantages
+ You can save time by creating and posting queries in Rave directly from Data Reviewer. For example, you can now create multiple queries to submit to Rave manually in under a minute, compared to five to seven minutes previously. Similarly, you can review data and generate queries per review cycle in less than one day per person compared to one to two weeks by multiple reviewers.
+## User Impact
+ On the Data Reviewer > Listings tab, you can build listings. 
+ Number 
+ Field Name 
+ Description 
+ | 1 
+ | Rave Query Enabled 
+ | On the Medidata Detect > Patient Data Surveillance (PDS) > Data Reviewer > Listings tab, if you select the Rave Query Enabled option while building a listing, a Rave query builder window appears.  
+ | 2 
+ | Empty Field 
+ | You can drag-and-drop a data set variable for which you want to create a Rave query into the field. 
+ | 3, 4 
+ | Form and Field 
+ | Both fields populate by default based on the variable you select for the Rave query. 
+ | 5 
+ | Folder   
+ | Options in Folder populate based on the variable you select for the Rave query. Select an option from the list. 
+ | 6 
+ | Default Query Text 
+ | Enter Rave query description. This is a mandatory field.
+ If you click Preview while building a listing:
+- The listing shows all search results as per the selected variables. 
+- The listing saves and appears in the Listing tab when you click Save . 
+ Note - You must preview and save to create a listing. You can build a listing without creating a Rave query .
+ For a saved listing :
+- If you click Submit Queries at the top of the listing, a window shows a list of records with saved queries that you want to submit to Rave for that listing. 
+- Each record includes a selection option, the Patient ID, Site, Country, Status, Query Text, Folder, Form, and Field details. 
+- If you click Submit , the queries submit to Rave. 
+- Records with an existing Rave query contain a icon in the Status column.  
+ The following image shows the Submit Queries window for a saved listing. 
+ Tip : Click image to enlarge.
+## Knowledge Space Updates
+ The Data Reviewer Knowledge Space provides new and updated content to support the feature: 
+- View, Create, and Edit Draft Listings 
+- Refresh And Get Listings History 
+## Special Considerations
+- You can create Rave queries for only data set variables from Rave and not from derived variables or third-party ingested data or variables that have suffixes, such as  _INT, _TXT . 
+- If you create a Rave query with a variable used in the expression builder for the listing, the Folder dropdown includes an additional option: Derived by Expression. 
+- You must configure studies in Rave with the marking group Site from DM to create Rave queries from listings. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

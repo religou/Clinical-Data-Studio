@@ -1,0 +1,1564 @@
+# Clinical Data Studio Releases History
+
+## Clinical Data Studio Releases History
+ The following lists all Clinical Data Studio releases (up to and including the current release) and the features or enhancements introduced in each.
+ Important: Release Notes Title Update
+ As of 23-May-2025 , the Clinical Data Studio release notes document title format is changed from:  Clinical Data Studio <Month> <Year> Release Notes to: Clinical Data Studio <Release Version Number> <Release Type> Release Notes. 
+ Important: Clinical Data Studio Release Notes Rebrand and Structure
+ Clinical Data Studio comprises three capability suites: 
+- Data Surveillance
+- RBQM
+- Data Connect
+ The former Medidata Detect Release Notes previously documented updates to the capabilities that are now provided in Data Surveillance and RBQM capability suites. Therefore, as of Jun-26-2024, the former Medidata Detect Release Notes are now rebranded to the Clinical Data Studio Release Notes. Meanwhile, updates provided in the Data Connect capability suite are documented in a separate release notes document, the Data Connect Release Notes. 
+ Important: All Former Detect Module Release Information Previously Consolidated in One Release Notes Document
+ Prior to the Medidata Detect November 2022 release, the former Detect modules of Detect Landing Page, Patient Profiles, Data Reviewer, Centralized Statistical Monitoring, and Detect Configuration Manager were each released as separate products with their own sets of release notes. As of Nov-18-2022, all release notes content for all former Detect modules—that is, Detect Landing Page, Patient Data Surveillance, Centralized Statistical Monitoring, Quality Tolerance Limits, Key Risk Indicators, Utilities, and Detect Configuration Manager—became documented under one release notes document per release beginning with the Medidata Detect November 2022 Feature Release Notes. 
+ To view released features prior to the Medidata Detect November 2022, see:
+- Detect Landing Page Releases History 
+- Data Reviewer Releases History 
+- Patient Profiles Releases History 
+- Centralized Statistical Monitoring Releases History 
+- Detect Configuration Manager Releases History 
+ Prior to the Medidata Detect March 2023 release, Risk Management was released as a separate product with its own set of release notes. As of Mar-14-2023, all release notes content for Risk Management became documented under the consolidated release notes beginning with the Medidata Detect March 2023 Release Notes.
+ To view released features prior to the Medidata Detect March 2023, see:
+- Risk Management Released Features 
+ Code Continuity Across Releases
+ All Clinical Data Studio releases are cumulative.  That is, each release or software update builds on prior releases as noted in the release notes. For example, Software Update 2020.2.1  includes all of the release   2020.2.0 code, which in turn is based on the  release  2020.1.0 code and so on. The release notes describe any updates between releases or s oftware updates (urgent or otherwise) 
+## Clinical Data Studio 2026.3.5 (Oct 2026)
+ Clinical Data Studio 2026.3.5 includes the following updates:
+ In this release: 
+ RBQM 
+ New Enhancements 
+- 
+ KRI Dashboard: Technical Enhancements 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.3.5 Resolved Issues List 
+## Clinical Data Studio 2026.3.4 (Sep 2026)
+ Clinical Data Studio 2026.3.4 includes the following updates:
+ In this release: 
+ Data Surveillance 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.3.4 Resolved Issues List 
+## Clinical Data Studio 2026.3.3 (Aug 2026)
+ Clinical Data Studio 2026.3.3 includes the following updates:
+ In this release: 
+ Data Surveillance 
+ New Enhancements 
+- 
+ Technical Enhancements in RBQM and Data Surveillance 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.3.3 Resolved Issues List 
+ RBQM 
+ New Enhancements 
+- 
+ Technical Enhancements in RBQM and Data Surveillance 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.3.3 Resolved Issues List 
+## Clinical Data Studio 2026.3.2 (Aug 2026)
+ Clinical Data Studio 2026.3.2 includes the following updates:
+ In this release: 
+ Data Surveillance 
+ New Enhancements 
+- 
+ Listings: Create Multiconditional Missing Records Expressions With OR Operator 
+- 
+ Listings: Technical Enhancements 
+- 
+ Internal and Technical Enhancements in RBQM and Data Surveillance 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.3.2 Resolved Issues List 
+ RBQM 
+ New Enhancements 
+- 
+ Internal and Technical Enhancements in RBQM and Data Surveillance 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.3.2 Resolved Issues List 
+## Clinical Data Studio 2026.3.1 (Aug 2026)
+ Clinical Data Studio 2026.3.1 includes the following updates:
+ In this release: 
+ Data Surveillance 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.3.1 Resolved Issues List 
+ RBQM 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.3.1 Resolved Issues List 
+## Clinical Data Studio 2026.3.0 (Jul 2026)
+ Clinical Data Studio 2026.3.0 includes the following updates:
+ In this release: 
+ Data Surveillance 
+ New Features 
+- 
+ Data Surveillance Configuration: Schedule Data Refreshes Using Unified Scheduler 
+- 
+ Listings: Get Newest Listings Data With On-Demand And Scheduled Refreshes 
+- 
+ Custom Graphs: Summary Table Highlights Critical Data 
+- 
+ Custom Graphs: Rebranded Visualizations Includes On-Demand And Scheduled Data Refreshes 
+- 
+ Patient Profiles: Get Newest Published Designs Data Using On-Demand And Scheduled Refreshes 
+ New Enhancements 
+- 
+ Custom Graphs: View Audit Reports for Custom Graphs 
+- 
+ Vendor Queries: View Audit Reports for Vendor Queries and Vendor Feedback 
+- 
+ Templates: View and Manage Listing, KRI, QTL, and Custom Graph Templates in the Platform Library 
+- 
+ Data Oversight: Updated And Rebranded Task Oversight Includes Enhanced Capabilities 
+- 
+ Configuration: Oncology Mapping Removes Enriched Date Variable Mapping Options 
+- 
+ Clean Patient Tracker: Aggregated Count of Outstanding Tasks by Patient Chart Replaces Patients in Progress By Site and Outstanding Tasks Charts 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.3.0 Resolved Issues List 
+ RBQM 
+ New Features 
+- 
+ Data Quality Hub: Centralized, Prioritized View of Site-level Data Quality 
+- 
+ Protocol Integrity Report: Protocol Integrity Report Now Available 
+ New Enhancements 
+- 
+ Risk Assessment: View Audit Reports for Critical Data, Critical Processes, and Categorization 
+- 
+ Templates: View and Manage Listing, KRI, QTL, and Custom Graph Templates in the Platform Library 
+- 
+ Audit Trail Review: Data Preview Shows Audit Site's Local Time 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.3.0 Resolved Issues List 
+## Clinical Data Studio 2026.2.1 (Jun 2026)
+ Clinical Data Studio 2026.2.1 includes the following updates: 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.1.0 Resolved Issues List 
+## Clinical Data Studio 2026.2.0 (May 2026)
+ Clinical Data Studio 2026.2.0 includes the following updates:
+ In this release: 
+ Data Surveillance 
+ New Features 
+- 
+ Data Surveillance: Query Veeva EDC Data Using Bulk Queries In Listings and AI Reconciliation 
+ New Enhancements 
+- 
+ Listings: Configuration And Column Order Maintained Across Studies In Copied Listings 
+- 
+ Listings: Maintain Data Continuity After Data Refreshes Using Dropped Listing Records 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.2.0 Resolved Issues List 
+ RBQM 
+ There are no new features or enhancements with this release.
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.2.0 Resolved Issues List 
+## Clinical Data Studio 2026.1.1 (Apr 2026)
+ Clinical Data Studio 2026.1.1 includes the following updates: 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.1.1 Resolved Issues List 
+## Clinical Data Studio 2026.1.0 (Apr 2026)
+ Clinical Data Studio 2026.1.0 includes the following updates:
+ In this release: 
+ Data Surveillance 
+ New Features 
+- 
+ Data Oversight: Monitor Counts of Issues, Patients, and Study Data Using Data Oversight 
+- 
+ Visualizations: Identify Data Patterns Using Scatter Plots 
+ New Enhancements 
+- 
+ Listings: Mark Listings As In Progress During Review Cycles 
+- 
+ Clean Patient Tracker: Monitor Vendor Queries Data In Clean Patient Tracker 
+- 
+ Internal And Technical Enhancements In Clinical Data Studio 
+- 
+ AI Reconciliation And Anomalies User Interfaces Show AI Assistant Dot And Dot Generated Data 
+- 
+ Listings: Preview Listings With Up To Thirty Thousand Records 
+- 
+ Visualizations: Create Visualization Charts Using Queries and Audit Datasets 
+- 
+ Patient Profiles: Transpose And Wide Tables Allow All Date Formats 
+- 
+ Configuration: Updated Configuration Page Enhances Usability 
+- 
+ Oncology: Data Refresh Limit Prevents Performance Degradation 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.1.0 Resolved Issues List 
+ RBQM 
+ New Features 
+- 
+ KRI Dashboard: Modification Rate System KRI Highlights Sites with Outlying Data Modification Rates 
+ New Enhancements 
+- 
+ Review Reports: Template Group's KRIs Template List Includes Numeric KRI Filter Criteria 
+- 
+ RBQM Library: Import Custom Templates Across Study Groups 
+- 
+ Configuration: Configure AI Reconciliation In Clean Patient Tracker 
+- 
+ Signals: View Potential Duplicate Patients, Rounding And Propagation, Or Under-Over Reporting At A Site Using Signals 
+- 
+ Signals: View Issue Actions And Comments From Rave CTMS In Signals 
+- 
+ RBQM Configuration: Configure Custom Numeric KRIs That Run Statistical Analysis on Specific Data Subsets 
+- 
+ RBQM Configuration: Set Observation Thresholds For Weekend and Holiday Visits Using Signal Configurations 
+- 
+ Signals: Updated Signals User Interface Shows Changed Data 
+- 
+ Signals: Updated Create CTMS Issue User Interface Includes Additional Fields 
+- 
+ Internal And Technical Enhancements In Clinical Data Studio 
+- 
+ AI Reconciliation And Anomalies User Interfaces Show AI Assistant Dot And Dot Generated Data 
+- 
+ Configuration: Updated Configuration Page Enhances Usability 
+- 
+ Signals: Identify Issue Type And Issue Target Using The Signals Table 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2026.1.0 Resolved Issues List 
+## Clinical Data Studio 2025.3.7 (Mar 2026)
+ Clinical Data Studio 2025.3.7 includes the following updates: 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.3.7 Resolved Issues List 
+## Clinical Data Studio 2025.3.6 (Mar 2026)
+ Clinical Data Studio 2025.3.6 includes the following updates: 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.3.6 Resolved Issues List 
+## Clinical Data Studio 2025.3.5 (Feb 2026)
+ Clinical Data Studio 2025.3.5 includes the following updates: 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.3.5 Resolved Issues List 
+## Clinical Data Studio 2025.3.4 (Dec 2025)
+ Clinical Data Studio 2025.3.4 includes the following updates: 
+ New Enhancements 
+- 
+ Internal and Technical Changes in Data Surveillance and RBQM Dec 2025 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.3.4 Resolved Issues List 
+## Clinical Data Studio 2025.3.3 (Dec 2025)
+ Clinical Data Studio 2025.3.3 includes the following updates: 
+ New Enhancements 
+- 
+ Listings: Submit EDC Queries For Add Column Fields In Listings 
+ Resolved Issues 
+ Content by label 
+ There is no content with the specified labels
+## Clinical Data Studio 2025.3.2 (Dec 2025)
+ Clinical Data Studio 2025.3.2 includes the following updates: 
+ New Enhancements 
+- 
+ Patient Profiles: Technical Enhancement in Patient Profiles 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.3.2 Resolved Issues List 
+## Clinical Data Studio 2025.3.1 (Nov 2025)
+ Clinical Data Studio 2025.3.1 includes the following updates: 
+ New Enhancements 
+- 
+ Last Action Taken Date Excludes Future Dates 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.3.1 Resolved Issues List 
+## Clinical Data Studio 2025.3.0 (Nov 2025)
+ Clinical Data Studio 2025.3.0 includes the following updates:
+ In this release: 
+ Data Surveillance 
+ New Features 
+- 
+ Data Surveillance: Query Veeva EDC Data Using Listings And AI Reconciliation 
+- 
+ Data Surveillance: Reuse Visualizations Across Study Environments Using Templates 
+ New Enhancements 
+- 
+ EDC Queries: Track Queries Created From The Queries Dataset Using Open EDC Queries 
+- 
+ Patient Profiles: Audit Details Capture Reviews and Comments 
+- 
+ Patient Profiles: Quality of Life Updates 
+- 
+ AI Reconciliation: Reconciliation Page Name Reverted To AI Reconciliation 
+- 
+ Vendor Queries: Vendor Query Shows Vendor Personnel Name After Vendor Provides Response 
+- 
+ Visualizations: Additional Aggregations Available For All Charts 
+- 
+ Visualizations: Updated User Interface Provides Better Usability 
+- 
+ Visualizations: PDF Downloads Include Summary Table 
+- 
+ Listings: Updated Data Set Variable Types Enable Better Listings and Query Submission Experience 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.3.0 Resolved Issues List 
+ RBQM 
+ New Features 
+- 
+ Signals:Track Signal Action Progress Using the Actions Tab 
+- 
+ RBQM Configuration: Signals Integration With Rave CTMS Issue Management 
+- 
+ Signals: Resolve Issues Within Signals Or Using External Issue Management System Rave CTMS 
+- 
+ Signals: Updated Signals Include Preset Filters, Comments, And Downloads 
+- 
+ Signals: Raise Protocol Deviation And Non-Protocol Deviation Issues Using Signals 
+ New Enhancements 
+- 
+ Risk Assessment: Reuse Templates Across Study Groups 
+- 
+ Risk Assessment: General Enhancements 
+- 
+ Clinical Data Studio 2025.3.0 Minor and Technical Enhancements 
+- 
+ RBQM Configuration: Patient Profile Designs With No Flags Unavailable For Signal Configuration 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.3.0 Resolved Issues List 
+## Clinical Data Studio 2025.2.2 (Oct 2025)
+ Clinical Data Studio 2025.2.2 introduced the following resolved issue: 
+ In this release 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.2.2 Resolved Issues List 
+## Clinical Data Studio 2025.2.1 (Sept 2025)
+ Clinical Data Studio 2025.2.1 introduced the following resolved issue: 
+ In this release 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.2.1 Resolved Issues List 
+## Clinical Data Studio 2025.2.0 (Jul 2025)
+ Clinical Data Studio 2025.2.0 (July 2025) includes the following updates:
+ In this release: 
+ Data Surveillance 
+ New Features 
+- 
+ Visualizations: Chart Categorical Study Data Counts Using Tabular Visualizations 
+ New Enhancements 
+- 
+ Data Surveillance: Access All Open EDC Queries Using The Queries Dataset 
+- 
+ Data Surveillance: TSDV and Form Counts Show Information at Patient Level In Clean Patient Tracker 
+- 
+ Visualizations: Updated Charts Provide Better Usability 
+- 
+ Patient Profiles: Quality of Life Improvements 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.2.0 Resolved Issues List 
+ RBQM 
+ New Features 
+- 
+ RBQM: Set Observation Thresholds For Modules Using Signal Configurations 
+- 
+ RBQM: Identify Potential Study Data Issues Using Signals 
+- 
+ KRI Dashboard: View and Analyze Patient-level Impact on KRI Values 
+ New Enhancements 
+- 
+ RBQM: Updated User Names In Preview Enhances Audit Trail Review Usability 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.2.0 Resolved Issues List 
+## Clinical Data Studio 2025.1.4 (Jul 2025)
+ Clinical Data Studio 2025.1.4 introduced the following resolved issue: 
+ In this release 
+ New Enhancements 
+- 
+ Patient Profiles: Only Users With Full Site and Country Access Can Refresh Patient Profiles 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.1.4 Resolved Issues List 
+## Clinical Data Studio 2025.1.3 (Jun 2025)
+ Clinical Data Studio 2025.1.3 introduced the following resolved issue: 
+ In this release 
+ New Enhancements 
+- 
+ Updated AI Reconciliation Audit Button Improves Usability 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.1.3 Resolved Issues List 
+## Clinical Data Studio 2025.1.2 (Jun 2025)
+ Clinical Data Studio 2025.1.2 introduced the following resolved issue: 
+- 
+ Clinical Data Studio 2025.1.2 Resolved Issues List 
+## Clinical Data Studio 2025.1.1 (May 2025)
+ Clinical Data Studio 2025.1.1 introduced the following resolved issues: 
+- 
+ Clinical Data Studio 2025.1.1 Resolved Issues List 
+## Clinical Data Studio 2025.1.0 (May 2025)
+ Clinical Data Studio 2025.1.0 introduced updates to the following 
+ In this release: 
+ Data Surveillance 
+ New Features 
+- 
+ Data Surveillance and RBQM: Help Menu Launches Contextually Relevant Knowledge Hub User Assistance Directly in App 
+- 
+ Data Surveillance and RBQM: Configure Study Data Source Using Event Analysis Mapping 
+- 
+ Listings: Query Rave Data using Derived Datasets 
+- 
+ Configuration: Configure Missing Pages Source And Form Status Data 
+ New Enhancements 
+- 
+ Patient Profiles: Quality of Life Enhancements 
+- 
+ Patient Profiles: Edit, Delete, and View Audit History of Patient Profile Comments 
+- 
+ Patient Profiles: Copy Patient Profile Designs Across Client Divisions 
+- 
+ Clinical Data Studio 2025.1.0 Minor and Technical Enhancements 
+- 
+ AI Reconciliation: Query Rave Data In External Datasets Using Derived Datasets 
+- 
+ Data Surveillance and RBQM: KRI, QTL, And Derived Variables Configuration Updates Enhance Usability 
+- 
+ AI Reconciliation: Updated AI Reconciliation Provides A Better User Experience 
+- 
+ Data Surveillance: Download Listings and AI Reconciliation Reports As Excel Files 
+- 
+ Clean Patient Tracker: Track Up To Twenty-Five Listings In Clean Patient Tracker 
+- 
+ Listings: Obtain Latest Listings Study Data With Simultaneous Refresh 
+- 
+ Listings: Copy Listings Within And Across Study Environments 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.1.0 Resolved Issues List 
+ RBQM 
+ New Features 
+- 
+ Data Surveillance and RBQM: Help Menu Launches Contextually Relevant Knowledge Hub User Assistance Directly in App 
+- 
+ Data Surveillance and RBQM: Configure Study Data Source Using Event Analysis Mapping 
+ New Enhancements 
+- 
+ Data Surveillance and RBQM: KRI, QTL, And Derived Variables Configuration Updates Enhance Usability 
+- 
+ Audit Trail Review: Updated Audit Trail Review Improves User Experience 
+- 
+ Plan Documents: Plan Documents Updates Ensure Better User Experience 
+- 
+ Risk Assessment: Updated Risk Management Provides A Better User Experience 
+- 
+ QTL Dashboard: Improved QTL Report Download Performance 
+- 
+ Audit Trail Review: Publish Option Disabled For Unsaved Audit Trail Chats 
+- 
+ Audit Trail Review: Verify Audit Trail Chat Questions Using SQL Query 
+ Resolved Issues 
+- 
+ Clinical Data Studio 2025.1.0 Resolved Issues List 
+## Clinical Data Studio - Patient Profiles 2024.4.4 (March 2025)
+ Clinical Data Studio - Patient Profiles 2024.4.4 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Patient Profiles 2024.4.4 Resolved Issues List 
+## Clinical Data Studio - Data Reviewer 2024.4.2 (March 2025)
+ Clinical Data Studio - Data Reviewer 2024.4.2 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Data Reviewer 2024.4.2 Resolved Issues List 
+## Clinical Data Studio - Patient Profiles 2024.4.3 (February 2025)
+ Clinical Data Studio - Patient Profiles 2024.4.3 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Patient Profiles 2024.4.3 Resolved Issues List 
+## Clinical Data Studio - Configuration 2024.4.1 (February 2025)
+ Clinical Data Studio - Configuration 2024.4.1 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Configuration 2024.4.1 Resolved Issues List 
+## Clinical Data Studio - Risk Management 2024.4.2 (February 2025)
+ Clinical Data Studio - Risk Management 2024.4.2 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Risk Management 2024.4.2 Resolved Issues List 
+## Clinical Data Studio - Patient Profiles 2024.4.2 (January 2025)
+ Clinical Data Studio - Patient Profiles 2024.4.2 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Patient Profiles 2024.4.2 Resolved Issues List 
+## Clinical Data Studio - Data Reviewer 2024.4.1 (January 2025)
+ Clinical Data Studio - Data Reviewer 2024.4.1 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Data Reviewer 2024.4.1 Resolved Issues List 
+## Clinical Data Studio - KRI Dashboard 2024.1.2 (January 2025)
+ Clinical Data Studio - KRI Dashboard 2024.1.2 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - KRI Dashboard 2024.1.2 Resolved Issues List 
+## Clinical Data Studio December 2024 (December 2024)
+ Clinical Data Studio December 2024 introduced updates to the following: 
+ In this release: 
+ Data Surveillance 
+ New Features 
+- 
+ Data Surveillance: Verify Rave Target Source Data Count In Clean Patient Tracker 
+- 
+ Data Surveillance: Add Patient-level Internal Review Comments Within Patient Profile Designs 
+- 
+ Map Patient Milestone Data Points for Third-party, Fully Ingested Studies 
+ New Enhancements 
+- 
+ Data Surveillance: Patient Profile Refresh Building Block Allows Users to Refresh Published Designs 
+- 
+ Data Surveillance: Updated Data Sets Page Shows Better Usability 
+- 
+ Listings, Data Sets, KRIs Include Published Audit Datasets 
+- 
+ Data Surveillance: Clean Patient Tracker Missing Pages Count Column Uneditable When Sourced from Rave 
+- 
+ Data Surveillance: Patient Profiles Design Page and Profiles Tab Redesigned for Better Usability 
+- 
+ Data Surveillance: Autopopulate Missing Page Counts Sourced Directly from Rave 
+- 
+ Data Surveillance: Updated Clean Patient Tracker Page Shows Better Usability 
+ Resolved Issues 
+- 
+ Clinical Data Studio December 2024 Resolved Issues List 
+ RBQM 
+ New Features 
+- 
+ RBQM: Enhance Study Data Compliance And Accuracy With Audit Trail Review 
+- 
+ RBQM: Ensure Study Data Accuracy Using Data Quality Plans 
+- 
+ Map Patient Milestone Data Points for Third-party, Fully Ingested Studies 
+- 
+ RBQM: Associate Mitigations with Functional Plans 
+ New Enhancements 
+- 
+ Listings, Data Sets, KRIs Include Published Audit Datasets 
+- 
+ RBQM: Redesigned Risk Documentation Interface Mirrors and Streamlines Risk Examination Workflow 
+ Resolved Issues 
+- 
+ Clinical Data Studio December 2024 Resolved Issues List 
+## Clinical Data Studio - Data Reviewer 2024.3.3 (October 2024)
+ Clinical Data Studio - Data Reviewer 2024.3.3 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Data Reviewer 2024.3.3 Resolved Issues List 
+## Clinical Data Studio - Statistical Monitoring 2024.1.2 (October 2024)
+ Clinical Data Studio - Statistical Monitoring 2024.1.2 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Statistical Monitoring 2024.1.2 Resolved Issues List 
+## Clinical Data Studio - Data Reviewer 2024.3.2 (October 2024)
+ Clinical Data Studio - Data Reviewer 2024.3.2 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Data Reviewer 2024.3.2 Resolved Issues List 
+## Clinical Data Studio - Risk Management 2024.3.1 (September 2024)
+ Clinical Data Studio - Risk Management 2024.3.1 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Risk Management 2024.3.1 Resolved Issues List 
+## Clinical Data Studio - Clean Patient Tracker 2024.1.3 (September 2024)
+ Clinical Data Studio - Clean Patient Tracker 2024.1.3 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Clean Patient Tracker 2024.1.3 Resolved Issues List 
+## Clinical Data Studio - Data Reviewer 2024.3.1 (September 2024)
+ Clinical Data Studio - Data Reviewer 2024.3.1 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Data Reviewer 2024.3.1 Resolved Issues List 
+## Clinical Data Studio September 2024 (September 2024)
+ Clinical Data Studio September 2024 introduced updates to the following: 
+ In this release: 
+ Data Surveillance 
+ New Features 
+- 
+ Access and Reuse Data Listing, QTL, and KRI Templates Across Multiple Client Divisions 
+- 
+ Data Surveillance: Vendor Issue Sets for Listings Renamed To Vendor Queries 
+- 
+ Data Surveillance: Vendor Queries Enables Submitting Queries Directly To Vendors 
+- 
+ Data Surveillance: Configure Clean Patient Tracker to Autopopulate Missing Page Counts 
+- 
+ Data Surveillance: Patient Profiles Highlights Variables Containing Critical Data Points When Designing Profiles 
+- 
+ Data Surveillance: Identify and Review New and Updated Patient Profile Data in Published Designs 
+- 
+ Data Surveillance: Manually Refresh Data in Individual Patient Profile Designs 
+ New Enhancements 
+- 
+ Data Surveillance: Updated AI Reconciliation Provide Clearer Information In Reports 
+- 
+ Data Surveillance: Listings And Data Sets Enhancements Provide Better User Experience 
+- 
+ Technical Changes In The September 2024 Release 
+- 
+ Data Surveillance: Configure Vendor Groups To Assign Query Sets To Vendors 
+- 
+ Data Surveillance: Filter the Patient Selector to Show Only Profiles That Are Reviewed or Requiring Review 
+- 
+ Data Surveillance: Clean Patient Tracker Metrics and Table Improvements 
+- 
+ Data Surveillance: Open Query Records Table List Log Lines 
+- 
+ Data Surveillance: Updated Listings Enable Better Vendor Queries Access 
+- 
+ Data Surveillance: Build Visualizations For A Maximum Of Twenty Categories Using Donut Charts 
+- 
+ Data Surveillance: Updated Visualizations Include Additional Sort Options And Better Usability 
+ Resolved Issues 
+- 
+ Clinical Data Studio September 2024 Resolved Issues List 
+ RBQM 
+ New Features 
+- 
+ Access and Reuse Data Listing, QTL, and KRI Templates Across Multiple Client Divisions 
+ New Enhancements 
+- 
+ RBQM: Risk Assessment Quality of Life Improvements for RBQM September 2024 
+- 
+ Data Mapping Reports Include Lab Measurements And Oncology Options 
+- 
+ Technical Changes In The September 2024 Release 
+- 
+ Data Surveillance: Configure Vendor Groups To Assign Query Sets To Vendors 
+- 
+ RBQM: Risk Inventory Filter Selections Persist When Changing Tabs 
+- 
+ RBQM: Schedule Daily KRI Dashboard and QTL Dashboard Data Refreshes 
+ Resolved Issues 
+- 
+ Clinical Data Studio September 2024 Resolved Issues List 
+## Clinical Data Studio - Patient Profiles 2024.2.1 (July 2024)
+ Clinical Data Studio - Patient Profiles 2024.2.1 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Patient Profiles 2024.2.1 Resolved Issues List 
+## QTL Dashboard 2024.1.1 (June 2024)
+ QTL Dashboard 2024.1.1 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - QTLs 2024.1.1 Resolved Issues List 
+## Risk Management 2024.2.1 (June 2024)
+ Risk Management 2024.2.1 introduced the following resolved issues: 
+- 
+ Clinical Data Studio - Risk Management 2024.2.1 Resolved Issues List 
+## Medidata Clinical Data Studio June 2024 (June 2024)
+ Clinical Data Studio June 2024 introduced updates to the following:
+ In this release: 
+ Data Surveillance 
+ New Features 
+- 
+ Data Surveillance: Configure The Data Sets And Variables Used In CTCAE Reports 
+- 
+ Data Surveillance: Improved Profile Designs Enables Identifying Reviewed Patients 
+ New Enhancements 
+- 
+ Introducing Clinical Data Studio 
+- 
+ Data Surveillance: Visualization Donut Charts Show Values Up to Two Decimal Points 
+- 
+ RBQM: Subjects Updated To Patients In KRIs and QTLs 
+- 
+ Data Surveillance: CP And CM Condition Mapping Reference Possible Only After Configuring Treatment And Procedure Data Sets 
+- 
+ Derived Variables Updates Ensure Accurate Data Set Selection While Merging 
+- 
+ Data Surveillance: View Refresh Status For Individual AI Data Reconciliation Reports 
+- 
+ Data Surveillance: Names And OIDs Appear For Data Sets And Variables Used In RECIST 1.1 Mapping 
+- 
+ RBQM: Identify Stacked Data Sets While Configuring KRIs, QTLs and Data Mapping Fields 
+- 
+ Data Surveillance: Reorder Data Listing Columns For Better Accessibility 
+- 
+ Identify Critical Data In Expression Builder, KRIs, QTLs and In Data Mapping 
+- 
+ Data Surveillance: Patient Selector Table Improvements Enable Better Data Filtering 
+- 
+ Data Surveillance: Identify Changed Data Points In Approved Listings After Data Refresh 
+- 
+ Data Surveillance: Updated Vendor Issue Sets Page Provides Better Usability 
+- 
+ Data Surveillance: Improved RECIST 1.1 Dashboard Enables Better Information Access 
+- 
+ Data Surveillance: Data Listings Updates Enable Easier Access To Vendor Issues 
+ Resolved Issues 
+- 
+ Clinical Data Studio June 2024 Resolved Issues List 
+ RBQM 
+ New Features 
+- 
+ Customize Study Specific Risk Assessment Using Risk Assessment Configurations 
+ New Enhancements 
+- 
+ Introducing Clinical Data Studio 
+- 
+ RBQM: Subjects Updated To Patients In KRIs and QTLs 
+- 
+ RBQM: Schedule Data Refreshes Using the QTL Scheduler 
+- 
+ RBQM: Schedule Data Refreshes Using the KRI Scheduler 
+- 
+ Derived Variables Updates Ensure Accurate Data Set Selection While Merging 
+- 
+ RBQM: Identify Stacked Data Sets While Configuring KRIs, QTLs and Data Mapping Fields 
+- 
+ RBQM: Updated Risk Assessment Page Enables Better Study Risk Assessment 
+- 
+ Identify Critical Data In Expression Builder, KRIs, QTLs and In Data Mapping 
+ Resolved Issues 
+- 
+ Clinical Data Studio June 2024 Resolved Issues List 
+## Data Reviewer 2024.1.1 (May 2024)
+ Data Reviewer 2024.1.1 introduced the following resolved issues: 
+- 
+ Data Reviewer 2024.1.1 Resolved Issues List 
+## Medidata Detect April 2024 (April 2024)
+ Medidata Detect April 2024 introduced updates to the following   modules: 
+ Detect Landing Page 
+ Detect Landing Page 2024.1.0 
+ New Features 
+- 
+ Detect Landing Page: PDS Module Card Provides Access to Stacked Datasets and Vendor Configuration 
+ New Enhancements 
+- 
+ Detect Landing Page: Insights Card Relabels Unclean Patients to In Progress Patients 
+ Resolved Issues 
+- 
+ Medidata Detect April 2024 Resolved Issues List 
+ Risk Management 
+ Risk Management 2024.1.0 
+ New Features 
+- 
+ Find the Precise, Comprehensive Risk Management User Assistance You Need 
+- 
+ Risk Management: Associate Critical Data Elements with Specific Data Points 
+ New Enhancements 
+- 
+ Internal and Technical Changes in Medidata Detect April 2024 
+ Resolved Issues 
+- 
+ Medidata Detect April 2024 Resolved Issues List 
+ Patient Data Surveillance 
+ Medidata Patient Profiles 2024.1.0 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ PDS: Patient Profiles Quality of Life Improvements for April 2024 
+- 
+ Internal and Technical Changes in Medidata Detect April 2024 
+ Resolved Issues 
+- 
+ Medidata Detect November 2023 Resolved Issues List 
+ CDS Oncology UI 2024.1.0 
+ New Features 
+- 
+ PDS: Track Patient Tumor Burden Data with The RECIST 1.1 Dashboard 
+ New Enhancements 
+ None.
+ Resolved Issues 
+ None.
+ Data Reviewer 2024.1.0 
+ New Features 
+- 
+ PDS: Download Listings Table from the Listings Manager 
+- 
+ PDS: Build Custom Study Data Visualizations On Demand 
+- 
+ PDS: Add and Manage Internal Review Comments on AI Data Reconciliation Report Records 
+- 
+ PDS: View and Use Stacked Datasets in Data Reviewer 
+- 
+ PDS: Report External Data Issues and Track with Vendor Issue Sets 
+ New Enhancements 
+- 
+ PDS: Minor AI Data Reconciliation User Interface Enhancements for April 2024 
+- 
+ PDS: Updated AI Data Reconciliation Report Download Files 
+- 
+ PDS: Build Data Listings to Identify Records Present in Rave EDC But Missing from External Lab Data 
+- 
+ PDS: No Default Marking Group Selected When Submitting Rave Queries on Data Listing Records 
+- 
+ PDS: Track Up to Fifteen Approved Listings for Clean Patient Data Analysis 
+- 
+ Internal and Technical Changes in Medidata Detect April 2024 
+- 
+ PDS: Data Reviewer Shows Snapshot Timestamp of Data Currently Presented on Screen 
+- 
+ PDS: Data Reviewer Includes WHODRUG- and MEDRA-coded Terms as Seletable Variables 
+- 
+ PDS: Add Columns to Listings Without Defining in the Listing Expression 
+ Resolved Issues 
+- 
+ Medidata Detect April 2024 Resolved Issues List 
+ Quality Tolerance Limits (QTLs) 
+ QTL Dashboard 2023.1.2 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Launch Instructional Videos in-App Directly at the Point of Need 
+- 
+ Internal and Technical Enhancements in Medidata Detect November 2023 
+- 
+ QTL Enhancements for Detect November 2023 
+ Resolved Issues 
+ None.
+ Centralized Statistical Monitoring (CSM) 
+ Medidata Detect 2024.1.0 
+ New Features 
+ None.
+ New Enhancements 
+ None.
+ Resolved Issues 
+- 
+ Medidata Detect April 2024 Resolved Issues List 
+ Insights 
+ Detect Insights 2024.1.0 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Insights: Downloaded Open Query Records Report Includes Data Snapshot Timestamp 
+- 
+ Insights: Outstanding Tasks Bar Graph No Longer Charts Open Queries 
+- 
+ Insights: Unclean Patients Relabeled to In Progress Patients 
+- 
+ Insights: Open Queries Table Now Includes Query Response Text 
+ Resolved Issues 
+- 
+ Medidata Detect April 2024 Resolved Issues List 
+ Configuration and Reporting 
+ Detect Configuration Manager 2024.1.0 
+ New Features 
+- 
+ Configuration and Reporting: Merge Multiple Datasets with Common Variables into One Dataset 
+- 
+ Configuration and Reporting: Map Data Set and Variables for Vendor Issues 
+- 
+ Configuration and Reporting: Map Data Set and Variables for the RECIST 1.1 Dashboard 
+- 
+ Configuration and Reporting: Preview the Number of Patients That Exceed a QTL or Percentage KRI Risk Threshold 
+ New Enhancements 
+- 
+ Configuration and Reporting: Derived Variables Enhancement Allows Selecting Type of Merge 
+ Resolved Issues 
+- 
+ Medidata Detect April 2024 Resolved Issues List 
+ Derived Variables (part of Data Reviewer 2024.1.0) 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Configuration and Reporting: Derived Variables Enhancement Allows Selecting Type of Merge 
+ Resolved Issues 
+- 
+ Medidata Detect November 2023 Resolved Issues List 
+ Review Reports (part of Detect Landing Page 2024.1.0) 
+ New Features 
+ None.
+ New Enhancements 
+ None.
+ Resolved Issues 
+ None.
+ Detect Templates (part of Detect Landing Page 2024.1.0) 
+ New Features 
+ None.
+ New Enhancements 
+ None.
+ Resolved Issues 
+ None.
+## Risk Management 2023.3.1 (Mar 2024)
+ Risk Management 2023.3.1 introduced the following resolved issues: 
+- 
+ Risk Management 2023.3.1 Resolved Issues List 
+## Medidata Patient Profiles 2023.2.1 (Feb 2024)
+ Medidata Patient Profiles 2023.2.1 introduced the following resolved issues: 
+- 
+ Medidata Patient Profiles 2023.2.1 Resolved Issues List 
+## Medidata Detect 2023.1.3 (Feb 2024)
+ Medidata Detect 2023.1.3 introduces the following technical change:
+ Technical Change in Medidata Detect 2023.1.3 
+## KRI Dashboard 2023.2.2 (Feb 2024) 
+ KRI Dashboard 2023.2.2 introduces the following technical change : 
+ Technical Change in KRI Dashboard 2023.2.2 
+## KRI Dashboard 2023.2.1 (Feb 2024)
+ KRI Dashboard 2023.2.1  introduced the following resolved issues: 
+- 
+ KRI Dashboard 2023.2.1 Resolved Issues List 
+## Medidata Detect November 2023 (Nov 2023)
+ Medidata Detect November 2023 introduced updates to the following modules: 
+ Detect Landing Page 
+ Detect Landing Page 2023.4.0 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Internal and Technical Enhancements in Medidata Detect November 2023 
+- 
+ Detect Global Template Library Template Groups Now Support QTL Templates 
+ Resolved Issues 
+- 
+ Medidata Detect November 2023 Resolved Issues List 
+ Risk Management 
+ Risk Management 2023.3.0 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Risk Review Detailed Page Improvements 
+- 
+ Add Custom Risk Categories to Templates and Associated Studies 
+- 
+ Risk Inventory Includes Study Risk Score 
+ Resolved Issues 
+ None.
+ Patient Data Surveillance 
+ Medidata Patient Profiles 2023.2.0 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Launch Instructional Videos in-App Directly at the Point of Need 
+- 
+ Patient Data Surveillance: Patient Profiles Enhancements for November 2023 
+ Resolved Issues 
+- 
+ Medidata Detect November 2023 Resolved Issues List 
+ Data Reviewer 2023.2.3 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Launch Instructional Videos in-App Directly at the Point of Need 
+- 
+ Internal and Technical Enhancements in Medidata Detect November 2023 
+- 
+ PDS: Conditions Without Treatments Report Includes Indication 
+- 
+ PDS: AI Data Reconcilation Reports Now Include Data Set and Overlapping Data Set 
+- 
+ PDS: Conditions Without Treatments Report Indicates Actions Taken 
+- 
+ Preselected AI Data Reconciliation Patient IDs Enable Easy Rave Query Submission 
+- 
+ PDS: Build Data Listing Configurations Using Time Variables 
+- 
+ PDS: Submit Rave Queries on Data Listing Records to Alternate Marking Groups 
+- 
+ PDS: Updated AI Data Reconciliation Page Terminology Enables Multi-Data Set Analysis 
+- 
+ PDS: Show or Hide Tables Columns for Approved Listings Results and AI Data Reconciliation Reports 
+- 
+ PDS: Minor Data Reviewer Enhancements for November 2023 
+ Resolved Issues 
+- 
+ Medidata Detect November 2023 Resolved Issues List 
+ Key Risk Indicators (KRIs) 
+ KRI Dashboard 2023.2.0 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Internal and Technical Enhancements in Medidata Detect November 2023 
+- 
+ KRI Enhancements for Detect November 2023 
+ Resolved Issues 
+- 
+ Medidata Detect November 2023 Resolved Issues List 
+ Quality Tolerance Limits (QTLs) 
+ QTL Dashboard 2023.1.1 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Launch Instructional Videos in-App Directly at the Point of Need 
+- 
+ Internal and Technical Enhancements in Medidata Detect November 2023 
+- 
+ QTL Enhancements for Detect November 2023 
+ Resolved Issues 
+ None.
+ Centralized Statistical Monitoring (CSM) 
+ Medidata Detect 2023.1.2 
+ New Features 
+- 
+ CSM: Download Rounding Events and Propagation Events Summary Lists 
+ New Enhancements 
+- 
+ Launch Instructional Videos in-App Directly at the Point of Need 
+- 
+ CSM: Rounding Events and Propagation Events Summary Table Improvements 
+- 
+ CSM: Rounding and Propagation Heatmap Improvements 
+- 
+ CSM: Potential Duplicate Patients Export Updates 
+- 
+ CSM: Potential Duplicate Patients Analysis Accounts for Sites Without Recognizable Addresses 
+ Resolved Issues 
+- 
+ Medidata Detect November 2023 Resolved Issues List 
+ Insights 
+ Detect Insights 2023.2.0 
+ New Features 
+- 
+ Insights: Download the Clean Patient Tracker Patients List and Open Queries List 
+ New Enhancements 
+- 
+ Insights: Clean Patient Tracker Terminology Updates 
+- 
+ Insights: Open Queries List Includes Open By and Query Data Columns 
+ Resolved Issues 
+ None.
+ Configuration and Reporting 
+ Detect Configuration Manager 2023.3.0 
+ New Features 
+- 
+ View Patient-level Data for QTLs 
+- 
+ Expand Event Analysis to Allow Multiple Domain Mappings 
+- 
+ View Patient-level Data for KRIs 
+- 
+ Save and Reuse Custom QTL Configurations as Templates 
+ New Enhancements 
+- 
+ Internal and Technical Enhancements in Medidata Detect November 2023 
+- 
+ Configuration and Reporting: Minor Detect Configuration Manager Enhancements for November 2023 
+ Resolved Issues 
+- 
+ Medidata Detect November 2023 Resolved Issues List 
+ Review Reports (part of Detect Landing Page 2023.4.0) 
+ New Features 
+ None.
+ New Enhancements 
+ None.
+ Resolved Issues 
+ None.
+ Detect Templates (part of Detect Landing Page 2023.4.0) 
+ New Features 
+ None.
+ New Enhancements 
+ None.
+ Resolved Issues 
+ None.
+## Medidata Patient Profiles 2023.1.6 Standard Software Update (Sep 2023)
+ Medidata Patient Profiles 2023.1.6 Standard Software Update introduces the following updates:
+ Detect Landing Page 
+ New Enhancements 
+- 
+ Profiles Tab No Longer Automatically Loads a Patient Profile By Default 
+ Resolved Issues 
+- 
+ Medidata Patient Profiles 2023.1.6 Resolved Issues List 
+## Medidata Detect August 2023 (Aug 2023)
+ Medidata Detect August 2023 introduces updates to following Medidata Detect modules:
+ Detect Landing Page 
+ Detect Landing Page 2023.3.0 
+ New Features 
+- 
+ Detect Landing Page Includes the Insights Module Card 
+ New Enhancements 
+- 
+ Internal and Technical Enhancements in Medidata Detect August 2023 
+ Resolved Issues 
+ None.
+ Risk Management 
+ Risk Management 2023.2.0 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Risk Management Enhancements 
+ Resolved Issues 
+- 
+ Medidata Detect August 2023 Resolved Issues List 
+ Patient Data Surveillance 
+ Medidata Patient Profiles 2023.1.5 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Internal and Technical Enhancements in Medidata Detect August 2023 
+ Resolved Issues 
+- 
+ Medidata Detect August 2023 Resolved Issues List 
+ Data Reviewer 2023.2.2 
+ New Features 
+- 
+ Track and Untrack Approved Listings for Clean Patient Data Analysis 
+ New Enhancements 
+- 
+ Easily Find the Precise, Comprehensive Data Reviewer User Assistance You Need 
+ Resolved Issues 
+- 
+ Medidata Detect August 2023 Resolved Issues List 
+ Insights 
+ Detect Insights 2023.1.0 
+ New Features 
+- 
+ Track and Clean Unclean Patient Data with Clean Patient Tracker 
+- 
+ View All Patient Queries in One Location 
+ New Enhancements 
+ None.
+ Resolved Issues 
+ None.
+ Configuration and Reporting 
+ Detect Configuration Manager 2023.2.1 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Event Analysis Includes AE Action Taken - Concomitant Medication Mapping Reference 
+ Resolved Issues 
+ None.
+ Review Reports (part of Detect Landing Page 2023.0) 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Review Reports User Interface Enhancements 
+ Resolved Issues 
+- 
+ Medidata Detect August 2023 Resolved Issues List 
+ Detect Templates (part of Detect Landing Page 2023.0) 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Internal and Technical Enhancements in Medidata Detect August 2023 
+ Resolved Issues 
+ None.
+## Medidata Patient Profiles 2023.1.4 Urgent Software Update (Aug 2023)
+ The Medidata Patient Profiles 2023.1.4 Urgent Software Update introduced the following resolved issues: 
+- 
+ Medidata Patient Profiles 2023.1.4 Resolved Issues List 
+## Medidata Detect Landing Page 2023.2.1 Urgent Software Update (Jul 2023)
+ The Risk Management 2023.1.2 Urgent Software Update introduced the following resolved issues: 
+- 
+ Medidata Detect Landing Page 2023.2.1 Resolved Issues List 
+## Data Reviewer 2023.2.1 Urgent Software Update  (Jul 2023)
+ The Data Reviewer 2023.2.1 Urgent Software Update introduced the following resolved issues: 
+- 
+ Data Reviewer 2023.2.1 Urgent Software Update Resolved Issues List 
+## Medidata Detect July 2023 (Jul 2023)
+ Medidata Detect July 2023 introduces updates to the following Medidata Detect modules:
+ Detect Landing Page 
+ Detect Landing Page 2023.2.0 
+ New Features 
+- 
+ Detect Global Template Library and Template Groups 
+ New Enhancements 
+- 
+ Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience 
+ Resolved Issues 
+- 
+ Medidata Detect July 2023 Resolved Issues List 
+ Risk Management 
+ No new product code version 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience 
+ Resolved Issues 
+ None.
+ Patient Data Surveillance 
+ Medidata Patient Profiles 2023.1.3 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience 
+- 
+ Resize Patient Selector Columns to Better View Variables 
+ Resolved Issues 
+- 
+ Medidata Detect July 2023 Resolved Issues List 
+ Data Reviewer 2023.2.0 
+ New Features 
+- 
+ Save and Reuse Listing Configurations as Templates 
+ New Enhancements 
+- 
+ AI Data Reconciliation Enhancements 
+- 
+ Data Reviewer Enhancements 
+ Resolved Issues 
+- 
+ Medidata Detect July 2023 Resolved Issues List 
+ KRI Dashboard 
+ KRI Dashboard 2023.1.1 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience 
+- 
+ Display Counts in KRI Dashboard Columns 
+ Resolved Issues 
+- 
+ Medidata Detect July 2023 Resolved Issues List 
+ QTL Dashboard 
+ No new product code version 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Get Notified When QTLs Exceed Quality Thresholds 
+- 
+ Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience 
+ Resolved Issues 
+ None.
+ Centralized Statistical Monitoring 
+ No new product code version 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience 
+ Resolved Issues 
+ None.
+ Configuration and Reporting 
+ Detect Configuration Manager 2023.2.0 
+ New Features 
+- 
+ Save and Reuse Custom KRI Configurations as Templates 
+ New Enhancements 
+- 
+ KRI and QTL Configuration Updates 
+- 
+ Detect Configuration Manager Enhancements 
+- 
+ Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience 
+ Resolved Issues 
+- 
+ Medidata Detect July 2023 Resolved Issues List 
+ Review Reports (part of Detect Landing Page 2023.2.0) 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience 
+ Resolved Issues 
+- 
+ Medidata Detect March 2023 Resolved Issues List 
+ Derived Variables (part of Data Reviewer 2023.2.0) 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Redesigned Release Notes Content Provides a Clearer and Easier to Consume Experience 
+- 
+ Derived Variables Updates 
+ Resolved Issues 
+- 
+ Medidata Detect March 2023 Resolved Issues List 
+## Risk Management 2023.1.2 Urgent Software Update (Jun 2023)
+ The Risk Management 2023.1.2 Urgent Software Update introduced the following resolved issues: 
+- 
+ Risk Management 2023.1.2 Resolved Issues List 
+## Medidata Patient Profiles 2023.1.2 Urgent Software Update (Jun 2023)
+ The Medidata Patient Profiles 2023.1.2 Urgent Software Update introduced the following resolved issues: 
+- 
+ Medidata Patient Profiles 2023.1.2 Resolved Issues List 
+## Medidata Risk Management 2023.1.1 Urgent Software Update (Jun 2023)
+ The Medidata Risk Management 2023.1.1 Urgent Software Update introduced the following resolved issues: 
+- 
+ Risk Management 2023.1.1 Resolved Issues List 
+## Medidata Data Reviewer 2023.1.1 Urgent Software Update (Jun 2023)
+ The Medidata Data Reviewer 2023.1.1 Urgent Software Update introduced the following resolved issues:
+- 
+ Medidata Data Reviewer 2023.1.1 Resolved Issues List 
+## Medidata Detect May 2023 Urgent Software Update (May 2023)
+ Medidata Detect May 2023 Urgent Software Update introduced the following resolved issues: 
+- 
+ Medidata Detect May 2023 Urgent Software Update Resolved Issues List 
+- 
+ Medidata Patient Profiles 2023.1.2 Resolved Issues List 
+## Medidata Detect May 2023 Standard Software Update (May 2023)
+ Medidata Detect May 2023 Standard Software Update introduced the following enhancements:
+- 
+ Patient Profile Enhancements 
+- 
+ KRI Configuration Risk Category Tab Enhancement 
+- 
+ Notification Center for Detect 
+- 
+ Centralized Statistical Monitoring Enhancements 
+- 
+ Review Report Enhancements 
+- 
+ Detect Landing Page Enhancement 
+ Medidata Detect May 2023 Standard Software Update introduced the following resolved issues: 
+- 
+ Medidata Detect May 2023 Resolved Issues List 
+## Medidata Detect March 2023 (March 2023)
+ Medidata Detect March 2023 introduced updates to following Medidata Detect modules:
+ Detect Landing Page 2023.1.0 
+ New Features 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+- 
+ Detect Landing Page Shows Module-level Status Details and High-level Analytics 
+- 
+ Detect Landing Page Includes Risk Management Module Card 
+- 
+ Detect Landing Page Module Cards Renamed and Reorganized 
+ New Enhancements 
+ None.
+ Resolved Issues 
+- 
+ Medidata Detect March 2023 Resolved Issues List 
+ Risk Management 2023.1.0 
+ New Features 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+- 
+ Quality Tolerance Limit (QTL) Changes in Risk Management 2023.1.0 
+ New Enhancements 
+ None.
+ Resolved Issues 
+- 
+ Medidata Detect March 2023 Resolved Issues List 
+ Patient Data Surveillance 
+ Medidata Patient Profiles 2023.1.0 
+ New Features 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+ New Enhancements 
+- 
+ Flag Patient Profiles as Reviewed 
+- 
+ Patient Profile Designs No Longer Marked As Blinded 
+ Resolved Issues 
+- 
+ Medidata Detect March 2023 Resolved Issues List 
+ Data Reviewer 2023.1.0 
+ New Features 
+- 
+ Reconcile Data Accurately Using Data Reviewer Algorithms 
+ New Enhancements 
+- 
+ Data Reviewer Listings Pages Redesigned For Better Usability 
+- 
+ Rave Enabled Listings Provide Insights Into Rave Query Status 
+- 
+ Listing Manager Enables Making Listings Active Or Inactive 
+- 
+ Data Reviewer Data Sets Page Redesigned For Better Usability 
+ Resolved Issues 
+- 
+ Medidata Detect March 2023 Resolved Issues List 
+ KRI Dashboard 2023.1.0 
+ New Features 
+- 
+ Schedule or Trigger When KRI Dashboard Refreshes with the Latest Study Data Analysis 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+ New Enhancements 
+- 
+ KRI Dashboard 2023.1.0 Minor Enhancements 
+ Resolved Issues 
+- 
+ Medidata Detect March 2023 Resolved Issues List 
+ QTL Dashboard 2023.1.0 
+ New Features 
+- 
+ Schedule or Trigger When QTL Dashboard Refreshes with the Latest Study Data Analysis 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+ New Enhancements 
+ None.
+ Resolved Issues 
+- 
+ Medidata Detect March 2023 Resolved Issues List 
+ Centralized Statistical Monitoring (part of Medidata Detect 2022.3.0) 
+ New Features 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+ New Enhancements 
+- 
+ Exit Rounding and Propagation History View 
+ Resolved Issues 
+- 
+ Medidata Detect March 2023 Resolved Issues List 
+ Configuration and Reporting 
+ Detect Configuration Manager 2023.1.0 
+ New Features 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+- 
+ View Comprehensive Audits of KRI and QTL Configurations 
+ New Enhancements 
+- 
+ CSM Configuration Renamed to Detect Mapping and Other Label Changes 
+- 
+ Event Analysis Includes New Mapping References 
+- 
+ Detect Configuration Manager 2023.1.0 Minor Enhancements 
+- 
+ Percentage KRI Configuration Risk Threshold Edit Checks 
+ Resolved Issues 
+- 
+ Medidata Detect March 2023 Resolved Issues List 
+ Review Reports (part of Detect Landing Page 2023.1.0) 
+ New Features 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+ New Enhancements 
+- 
+ Close Date No Longer Required In Review Reports 
+ Resolved Issues 
+- 
+ Medidata Detect March 2023 Resolved Issues List 
+ Derived Variables (part of Data Reviewer 2023.1.0) 
+ New Features 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+ New Enhancements 
+ None.
+ Resolved Issues 
+- 
+ Medidata Detect March 2023 Resolved Issues List 
+## Medidata Patient Profiles 2022.3.5 (Feb 2023)
+ Medidata Patient Profiles 2022.3.5 introduced the following resolved issue:
+- 
+ Medidata Patient Profiles 2022.3.5 Resolved Issues List 
+## Medidata Detect January 2023 (Jan 2023)
+ Medidata Detect January 2023 introduced the following enhancements:
+- CSM Rounding and Propagation UI Enhancements 
+- Detect Configuration Manager Minor Enhancements 
+- Chinese Characters Display In Patient Profile Reports and PDFs 
+- Consolidated Medidata Detect Help Accessible From Patient Profiles 
+ Medidata Detect January 2023 introduced the following resolved issues:
+- 
+ Medidata Detect January 2023 Resolved Issues List 
+## Data Reviewer 2022.3.1 (Dec 2022)
+ Data Reviewer 2022.3.1 introduced the following resolved issue:
+- 
+ Data Reviewer 2022.3.1 Resolved Issues List 
+## Medidata Detect 2022.3.1 (Dec 2022)
+ Medidata Detect 2022.3.1 introduced the following resolved issue:
+- 
+ Data Reviewer 2022.3.1 Resolved Issues List 
+- 
+ Medidata Detect 2022.3.1 Resolved Issues List 
+## Medidata Detect November 2022 (Nov 2022)
+ Medidata Detect November 2022 introduced the new updates to following Medidata Detect modules:
+ Detect Landing Page 2022.3.0 
+ Detect Landing Page
+ New Features 
+- 
+ Detect Applications No Longer Available On iMedidata 
+ New Enhancements 
+ None.
+ Resolved Issues 
+- 
+ Medidata Detect November 2022 Resolved Issues List 
+ Patient Data Surveillance 
+ Patient Profiles 2022.3.3 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Generate Patient Profile PDFs in Chinese 
+- 
+ Medidata Detect Knowledge Space Consolidates User Assistance and Release Notes For All Detect Applications 
+ Resolved Issues 
+- 
+ Medidata Detect November 2022 Resolved Issues List 
+ Data Reviewer 2022.3.0 
+ New Features 
+- 
+ Export Listings and Listings History 
+ New Enhancements 
+- 
+ Updates to Detect User Permissions 
+- 
+ Enhancements Improve Listings Functionality 
+- 
+ Derived Variable Names Save In Upper Case 
+- 
+ Rave Access Required To Submit Rave Queries For Listings 
+ Resolved Issues 
+- 
+ Medidata Detect November 2022 Resolved Issues List 
+ Key Risk Indicators (part of Medidata Detect 2022.3.0) 
+ New Features 
+- 
+ New KRI Dashboard Orientation and Site Risk Indicator 
+ New Enhancements 
+- 
+ Updates to Detect User Permissions 
+ Resolved Issues 
+- 
+ Medidata Detect November 2022 Resolved Issues List 
+ Quality Tolerance Limits (part of Medidata Detect 2022.3.0) 
+ New Features 
+ None.
+ New Enhancements 
+- 
+ Updates to Detect User Permissions 
+- 
+ QTL Patient and Time Trend Graphs More Clearly Deliniate Excursions 
+ Resolved Issues 
+- 
+ Medidata Detect November 2022 Resolved Issues List 
+ Centralized Statistical Monitoring (part of Medidata Detect 2022.3.0) 
+ New Features 
+- 
+ Identify Sites That Potentially Round or Propagate Vital Sign Records 
+ New Enhancements 
+- 
+ Updates to Detect User Permissions 
+ Resolved Issues 
+- 
+ Medidata Detect November 2022 Resolved Issues List 
+ Utilities (part of Detect Landing Page 2022.3.0) 
+ New Features 
+ None. 
+ New Enhancements 
+- 
+ Filter Review Reports By Countries, Sites, And Patients 
+ Resolved Issues 
+- 
+ Medidata Detect November 2022 Resolved Issues List 
+ Detect Configuration Manager 2022.3.0 
+ New Features 
+- 
+ Configure How Detect Determines and Signifies a Site's Level of Risk 
+- 
+ Configure the Data Sets and Variables Used for CSM's Error Plot Analysis 
+- 
+ Configure the Vital Sign Data Used for CSM's Rounding and Propagation Analysis 
+- 
+ Configure All CSM-related Data Mappings on the CSM Configuration Page 
+- 
+ Export CSM Configuration Report PDFs 
+ New Enhancements 
+- 
+ Updates to Detect User Permissions 
+- 
+ Detect-Risk Management QTL Integration Enhancement 
+- 
+ QTL Configuration November 2022 Minor Enhancements 
+- 
+ QTL Configuration Report Enhancements 
+- 
+ KRI Configuration November 2022 Minor Enhancements 
+- 
+ KRI Configuration Report Enhancements 
+- 
+ Medidata Detect Knowledge Space Consolidates User Assistance and Release Notes For All Detect Applications 
+ Resolved Issues 
+- 
+ Medidata Detect November 2022 Resolved Issues List

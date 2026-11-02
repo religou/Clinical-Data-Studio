@@ -1,0 +1,36 @@
+# View Under- and Overreporting Event Trends at the Site and Country Level
+
+## View Under- and Overreporting Event Trends at the Site and Country Level
+## Description
+ The Under-Over Reporting Events Plot is a multi-view funnel plot that displays the site- and country-level reported rate of:
+- Adverse events over time in months. 
+- Concomitant medications compared to the combined number of reported adverse events and ongoing medical history events. 
+- Medical history events compared to total number of enrolled patients. 
+ The Under-Over Reporting Events Plot simultaneously overlays each site or country data point against funnel lines, which represent the normalized study-wide reported event data thresholds at the:
+- Upper 99th percentile 
+- Upper 95th percentile 
+- Mean 
+- Lower 95th percentile 
+- Lower 99th percentile 
+ The site or country's data point position relative to the funnel lines indicates whether the event reporting rate is considered normal, an outlier, or extremely outlier.
+ You can use the Under-Over Reporting Events Plot to identify event reporting non-compliance at the site or country level.
+## Affected Roles
+ Central monitors
+## Advantages
+ By analyzing event reporting rates, you can Identify whether sites are reporting events correctly. For example, whether a site is over or underreporting adverse events, concomitant medications, and medical history. 
+ Based on your findings, you can determine appropriate corresponding actions such as to:
+- Create an issue in Issue Management. 
+- Investigate sites to ensure proper protocols and procedures are being followed. 
+- Provide training or corrective actions to the site. 
+- Discontinue the drug. 
+## User Impact
+ You can access the Under-Over Reporting Events Plot on the Under-Over Reporting Events Plot page. To learn more, see Under-Over Reporting Events Plot .
+## Knowledge Space Updates
+ The Centralized Statistical Monitoring Knowledge Space provides new and updated content to support this feature/enhancement: 
+- Under-Over Reporting Events Plot 
+- Access and View the Under-Over Reporting Events Plot 
+- Investigate Data Using the Under-Over Reporting Events Plot 
+## Special Considerations
+ For the most accurate level of event reporting analysis, we recommend using Detect Configuration Manager's   Event Configuration Analysis   page to map your preferred adverse event, concomitant medication, and medical history terms. 
+ To output the concomitant medication analysis on the Under-Over Reporting Events Plot, you must map adverse event, concomitant medication, and medical history terms in Detect Configuration Manager's   Event Configuration Analysis   page 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

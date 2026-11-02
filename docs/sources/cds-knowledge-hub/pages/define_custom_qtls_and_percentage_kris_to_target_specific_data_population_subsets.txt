@@ -1,0 +1,23 @@
+# Define Custom QTLs and Percentage KRIs to Target Specific Data Population Subsets
+
+## Define Custom QTLs and Percentage KRIs to Target Specific Data Population Subsets
+## Description
+ When building or modifying custom QTL or percentage KRI expressions, you can now configure expressions to calculate against specific data population subsets. 
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ Configuring expressions to target and produce QTL and KRI values for data population subsets allows you to more precisely monitor specific data of interest.
+## User Impact
+ When you:
+- Add or edit custom percentage KRIs on the Custom Percentage KRI dialog box, or 
+- Add or edit custom QTLs on the Quality Tolerance Limit dialog box 
+ each dialog box now includes the Denominator Query section and Denominator Expression section.
+ Building an expression in the Denominator Query section works the same as building an expression using the Numerator Query section. Likewise, the Denominator Expression section previews the expression in the same way as the Numerator Expression section. The difference is that the expression in the Numerator Query section targets the entire data set population. Whereas the Denominator Query targets a data set population subset as specified in the query.
+## Knowledge Space Updates
+ The Detect Configuration Manager Knowledge Space provides new and updated content to support this feature/enhancement:
+- Add and Edit Custom QTLs 
+- Add and Edit Custom Numeric and Percentage KRIs 
+## Special Considerations
+ When adding or editing custom QTLs, you must build an expression in the Denominator Query section. However, when adding or editing custom percentage KRIs, building an expression in the Denominator Query section is optional. Leaving the c ustom percentage KRI's D enominator Query section empty results in the KRI calculating against the study's entire patient population. 
+ In the Custom Percentage KRI dialog box and Quality Tolerance Limit dialog box, the Expression Builder section and Expression section are renamed to Numerator Query and Numerator Expression , respectively.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

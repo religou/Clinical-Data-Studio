@@ -1,0 +1,41 @@
+# View and Create Issues on the Weekend and Holiday Visits Page
+
+## View and Create Issues on the Weekend and Holiday Visits Page
+## Description
+ Medidata Detect-Issue Management integration now allows authorized users working in Centralized Statistical Monitoring (CSM) to: 
+- View site- and country-level weekend and holiday visits that are flagged with one or more issues.
+- View a list of issues and associated issue details observed for specific weekend and holiday visits, such as issue description, issue creation date, and issue status.
+- Launch Issue Management's New Issue page to create issues for site- and county-level weekend and holiday visits.
+- Launch Issue Management directly to a specific issue's page to view or edit that issue's details and statuses. 
+## Affected Roles
+ Central Monitors. 
+## Advantages
+ CSM provides a centralized, singular workspace to log, track, and manage issues while jointly reviewing your study data analysis. This yields the following benefits: 
+- Streamlined issue logging. 
+- Reduced recurrence of duplicate issues. 
+- Clear line of sight of site or country  issues and issue status. 
+- Reduced time and cost required to create and manage issues. 
+- Enhanced work experience and productivity in a centralized location. 
+- Improved ability to identify and mitigate risks to protocol compliance, patient safety, data integrity, and overall study quality. 
+## User Impact
+ From the  Weekend and Holiday Visits page > Issues tab, authorized users can: 
+- View site- and county-level weekend and holiday visits that are flagged as having one or more closed and open issues. 
+- View a list of issues and associated issue details observed for specific data points, such as issue description, issue creation date, and issue status. 
+- Create issues for  site- and county-level weekend and holiday visits. 
+ Important : When creating an issue, Issue Management opens up directly from the CSM user interface. Upon saving the issue, you automatically navigate back to CSM and the Weekend and Holiday Visits page automatically reloads to include the new issue.
+- Drill down to an individual issue and open that issue in Issue Management  to update the issue details and status . 
+## Knowledge Space Updates
+ The Centralized Statistical Monitoring Knowledge Space provides new and updated content to support this feature: 
+- Investigate Site Visits On Non-Business Days 
+## Special Considerations
+ To view issue flags and issue details, you must have the following Cloud Administration  permissions granted: 
+- View Issues, Create Issues, or Edit Issues 
+- Read Issue Management Settings 
+ To edit issues, you must have the following Cloud Administration permissions granted: 
+- Create Issues or Edit Issues 
+- Read Issue Management Settings 
+ To create issues, you must have the following Cloud Administration permissions granted: 
+- Create Issues 
+- Read Issue Management Settings 
+ You can create protocol deviation  issues and non-protocol deviation issues at the site level. However, you can only create non-protocol deviation issues at the country level. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

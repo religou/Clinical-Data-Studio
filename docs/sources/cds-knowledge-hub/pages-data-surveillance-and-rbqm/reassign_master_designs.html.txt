@@ -1,0 +1,26 @@
+# Reassign Master Designs
+
+## Reassign Master Designs
+ The master design is the main study design used for overall study review. You can publish multiple designs and assign them as the master design for use across Clinical Data Studio. But only one design can be assigned as the master design at one time . However, Patient Profiles designates the published design with the most recent date and time stamp as the master design. 
+## Reassign Designs as Master for Detect
+ You can reassign patient profile designs as master for Detect so that you can directly access the design from other Data Surveillance and RBQM capabilities.
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+The Patient Profile Designs page shows. 
+- Click the Draft Designs tab, and then find the design you want to assign as the master design.
+ Tip : The Published Designs list shows current and previous master designs. The current master design appears with a  next to the design name. You can copy the current master design, make changes to the duplicate, and reassign the copy as the new master design .
+- Click   within the row of corresponding design. 
+- Click  Make Master for Detect . 
+- Master designs display under the Published Designs list. 
+- The new master design becomes read-only, however you can copy the master design.
+- The master design with the latest Published Date and Time becomes the current master. displays next to the design name in the Published Designs list, indicating that it is the current master design.
+## Publish Designs as View Only
+ You can mark designs as “View Only” to publish designs as only available for viewing.  
+ Note : You cannot edit View Only designs. You can copy them to another study, or create a duplicate within the same study.
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu. 
+- On the Patient Profile Design page, click the Draft Designs tab, and then find the design you want to assign as a view only design.
+- Click   within the row of corresponding design. 
+- Click  View Only . 
+- On the Confirm window, click View Only .
+ The View Only design appears under the Published Designs list. 
+- The View Only design is read-only. 
+- The Type column on the Published Designs page marks the design as View Only.

@@ -1,0 +1,4 @@
+# Issues Resolved Outside of Clinical Data Studio
+
+## Issues Resolved Outside of Clinical Data Studio
+ To view the list of issues reported against Clinical Data Studio but resolved in other products or services, click Issues Resolved Outside of Clinical Data Studio .

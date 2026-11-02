@@ -1,0 +1,20 @@
+# Transformations: Support for Third-Party Data from Non-EDC Sources
+
+## Transformations: Support for Third-Party Data from Non-EDC Sources
+## What Is New?
+ Users can use Data Connect to configure third-party data from non-EDC sources such as labs and protocol deviations into data models that Data Surveillance can consume.
+## What Is the Impact?
+## Users/Roles
+ All. 
+## Workflow Process
+ Users can select non-EDC data sources imported with the Imports capability when configuring data models with the Transformations capability. They can also activate these data models so that Data Surveillance can consume that data for its capabilities. 
+## Other Applications
+ If users create and activated data models using third-party non-EDC data, then Data Surveillance can use and process that data for its capabilities. 
+## How Do I Benefit?
+ This new integration enables a simplified configuration experience with real-time validation for third-party data from non-EDC data sources. This mitigates the challenge of creating, configuring, managing multiple metadata files offline with limited knowledge of the data's correctness, and therefore aids in the data review and data cleaning process. 
+## Where Do I See the Change?
+ Users can see any imported third-party non-EDC datasets on the Datasets screen. They can also use or select these datasets when building data models with the Transformations capability. 
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

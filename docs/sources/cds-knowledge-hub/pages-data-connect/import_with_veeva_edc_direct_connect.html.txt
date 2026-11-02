@@ -1,0 +1,89 @@
+# Import with Veeva EDC Direct Connect
+
+## Import with Veeva EDC Direct Connect
+ You can use Data Connect's Veeva EDC Direct Connect integration to import EDC data by providing API credentials. This data includes metadata dataset extracts and clinical dataset extracts. 
+## Limitations and Considerations
+## Unsupported CDS Capabilities
+ Unsupported Capability
+ | Medidata does not support system KRIs ingested from Veeva EDCs:  
+- AE Entry Delay 
+- Visit Entry Delay 
+- Missing Visits 
+- Out-of-window Visits 
+- System and Non-System Query Rate 
+- Non-System Query Delay 
+- Number of SAEs per Month 
+- Number of AEs per Month 
+ | The following other capabilities are not supported from Veeva EDCs: 
+- GenAI Audit Trail Review (ATR) 
+- Clean Patient Tracker Source Data Verification (CPT SDV) Query Metrics 
+- Page Status 
+- Weekend and Holiday visits 
+- Deep Link into EDC 
+## General Limitations
+ Category 
+ Details 
+ | General 
+ | 
+ Important : Veeva Direct Connect only supports importing data for the latest CRF published version. If there is a new CRF version, all patients must be migrated to the new CRF version to ensure there is no data loss.  
+- While you can import multiple form types, Data Surveillance only supports forms with patients, sites, and visits. 
+- All third-party EDC studies must be in their own client – that is, completely separate from the Medidata platform – because the system assumes the source of the metadata is Data Connect. For example, if you import sites from Data Connect and use Cloud Administration to update client division organizations (CDOs) and sites, it leads to data inconsistencies. 
+- Veeva direct connect does not support ingestion of Veeva LAB module datasets. Any dataset that is produced from Veeva's LAB module will error out ingestion.  
+ | Summary of Veeva Direct Connect Gaps and Limitations 
+ | 
+ Important : There are no plans for Veeva Direct Connect to support Veeva Coder. Instead, you can use Medidata Coder with Veeva datasets. For details on using Coder with external datasets, see  Manage External Verbatims .
+- Codelist Decoded 
+- Multiple Active eCRF Versions 
+- Non-production Study Environment 
+- Veeva Query 
+- Veeva Lab module datasets
+The system rejects any dataset produced from Veeva's Lab module. 
+ | Processing Queries in Veeva EDC 
+ | The process for submitting and viewing query details for Veeva EDC data mirrors the established workflow for Medidata Rave data. To learn more, see Important Considerations.
+- Submit a Query – You can submit queries on non-system fields. You can use either imported raw Veeva EDC data or derived datasets. You can select a single record or multiple records in bulk for query submission. 
+- Wait for Synchronization – Veeva EDC generates the query within approximately five minutes. 
+- Verify Opened Query in Veeva – You can locate the query with the following corresponding details:
+- Source System – CDS_Systems 
+- Source User – John Smith (The name of the user who submitted the query in DQM) 
+- Source Type – external_v 
+- Viewing Query Feedback – Clicking the Status column for an available record retrieves all Veeva EDC queries, including queries created by CDS users and non-CDS users. Veeva provides query details every three hours. 
+ Important Considerations 
+- System Fields – You cannot submit queries against system fields (for example, SUBJID, SITEID, or system dates). 
+- Read-Only Fields – You cannot submit queries against fields designed as read-only within Veeva. 
+- Group Selection – You do not need to mark group selection for Veeva EDC data. 
+- Query Text Editability – You can only modify query text before submission. 
+## Special Considerations 
+- Data Connect automatically tags third-party EDC datasets as a Derived Dataset when it requires extensive transformations before being available for activation. 
+- Data Connect shows a banner on Data Connect if the onboarding step is not complete.  
+- The system checks for new or changed files and processes them every 12 hours.
+ Important :
+- The Trigger Data Source Synchronization does not trigger a manual refresh for data sources using Veeva Direct Connect. If there is a queue of pending updates, then the system attempts to process the previous update before processing new ones. 
+- To use this feature to open EDC queries in Veeva and to retrieve EDC queries from Veeva, the API account user requires the following additional permissions: 
+- View Query 
+- Open Query 
+## Prepare Veeva EDC
+ You must have an account in Veeva that can authenticate using a Vault Name, Vault User Name, and Password. This account must have the following permissions:  
+- API Access 
+- Manage Jobs 
+- View Casebook 
+- View Study Design 
+- View Library 
+## Connect Veeva EDC to Data Connect
+- Access Data Connect , and click   Imports   in the left-hand menu. 
+- Click   Add data source . 
+- Select Veeva EDC Direct Connect > Next . 
+- Provide the below connection details:
+- Vault Name – The Veeva vault name  
+- Study Name – The Veeva study name 
+- User Name – User name to connect to Veeva's API 
+- Password – Veeva password 
+- Click   Test Connection . 
+ Tip : Recheck the connection details if the authentication fails.   You can continue configuring your data source even without testing the connection.  
+- Click Add datasource . 
+- On the Add clinical dataset screen, select the datasets to import and click Add dataset .
+ Note :
+- You cannot create patients associated with more than one site. Clinical Data Studio supports only successfully screened patient data and requires unique patient IDs within the study. Importing duplicate patient IDs causes errors and prevents patient creation in the Medidata platform. 
+- Data Connect automatically triggers an import from Veeva every 12 hours.  
+-  Innovate: 11am and 11pm 
+- Production: 12am and 12pm 
+- After importing metadata and clinical datasets, the system automatically activates datasets for Data Surveillance. There is no manual activation step required for data sources configured with Veeva EDC Direct Connect.

@@ -1,0 +1,27 @@
+# Data Lake House Integration with Extractor
+
+## Data Lake House Integration with Extractor
+## What Is New?
+ Platform Workbench includes access to Extractor capabilities. Extractor is Medidata's data export capability. 
+ With Extractor, you can create export jobs to download data from the Medidata platform, including the new Transformed Data export type that export data set projects you create with Platform Workbench. Moreover, you can use Extractor functionality from Platform Workbench interface, including job administration, scheduling, and delivery configuration. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process. This is a new capability.
+## Other Applications
+ You can also create the Transformed Data export job type in the stand-alone Extractor interface.
+## How Do I Benefit?
+ You can export published data pertaining to data sets and transformations you create in Platform Workbench through an integrated export experience. 
+## Where Do I See the Change?
+ Platform Workbench now includes the Exports tab where you can create and manage export jobs, including the new Transformed Data export job. 
+## Where Do I Learn More?
+ Use the following links to learn more about Extractor's capabilities:
+- Extracting Data with Export Jobs 
+- Configuring Jobs to Deliver to SFTP 
+- Configuring Jobs to Deliver to FTPS 
+- Configuring Jobs to Deliver to Amazon S3 Locations 
+- Extractor Data Objects 
+ Articles specific to Platform Workbench will come at a future date.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

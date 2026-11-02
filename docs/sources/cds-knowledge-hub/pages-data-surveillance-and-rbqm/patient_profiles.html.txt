@@ -1,0 +1,37 @@
+# Patient Profiles
+
+## Patient Profiles
+ Patient Profiles is a Data Surveillance capability that enables you to build patient profile designs   using tables, flags, graphs, and timelines   to identify safety signals and ensure patient data consistency. 
+## What Is Patient Profiles?
+ Unable to render {include} The included page could not be found.
+## What Is the Purpose of Patient Profiles?
+ Patient Profiles allows you to create profile designs, which are highly configurable templates that you use to design detailed reports for study patients. You can generate physical report documentation based on profile designs for various clinical trial roles—such as data managers or site managers—to review and interpret study data or for FDA consumption.
+## Who Uses Patient Profiles?
+ Life sciences professionals such as programmers, statisticians, medical writers, and clinicians work in Patient Profiles to view, create, and edit profile designs.
+## How Does Patient Profiles Work?
+ The goal of Patient Profiles is to build patient profile designs. You build the patient profile design infrastructure using containers of information known as elements. Elements consist of headers, tables, and timelines. And then you populate your elements with data in the form of variables, which derive from multiple preloaded study environment-specific data sets.
+ When adding elements, and based on the element type you are working with, you can:
+- define element details; 
+- adjust the placement of variables, rows, and columns within elements; 
+- configure variable data points to display in the color of your choosing; 
+- and much more. 
+ After adding elements to your profile design, you can:
+- arrange where the elements are positioned in the design layout; 
+- apply color-coding to entire element sections; and  
+ Meanwhile, throughout the course of the patient profile design process, you can:
+- view patient profiles  with actual study data to help you evaluate how the profile design is taking shape in real time. 
+ When satisfied with your design and layout, you can:
+- review and generate reports based on the profile design. 
+ The workflow progress bar below illustrates the recommended patient profile design workflow from creation to completion.
+ Note : In Data Surveillance and RBQM, s tudy data automatically refreshes four times daily at approximately 9:00am (EST), 3:00pm (EST), 9:00pm (EST) and 3:00am (EST), and the data presented within the user interface is current as of 11:00 pm (EST) the previous day, 5:00 am (EST) the same day, 11:00 am (EST) the same day, 5:00 pm (EST) the same day, respectively. Each study data refresh produces a data snapshot. Updated data from Medidata Rave and   activated datasets from Data Connect   are available in 6 to 12 hours within Data Surveillance and RBQM.  For more information, see Clinical Data Studio Data Pipeline.   
+## What Are the Benefits of Patient Profiles?
+ To give you a truly great working experience, Patient Profiles:
+- Uses Medidata's platform data workflow , which feeds in  high quality, up-to-date, and study environment-specific  study variables with which to populate your profile designs. 
+- Provides a simple, open, and intuitive design work space featuring: 
+- a consistent accordion structure to select data sets and variables across elements. 
+- easy-to-use drag-and-drop functionality to add variables. 
+- customizable text for table column headers and timeline data point displays. 
+- error-reducing save validations to enforce the use of correct variable types and  prevent creation of incomplete or incorrectly configured elements. 
+- Allows you to preview profiles with actual study data while still being designed in real time to evaluate how the profile design is taking shape. 
+- Creates elegant, comprehensive reports in PDF or Word format for each patient in your study that include colorful graphics and timelines showcasing important events in a patient’s time on the study while highlighting new or interesting data. 
+- Makes blind reviews more attractive and consistent by providing instant access to readable data, allowing a rapid and easy exchange of information.

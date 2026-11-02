@@ -1,0 +1,20 @@
+# Detailed Import Status
+
+## Detailed Import Status
+## Description
+ With this release you can monitor the progress of file imports as they occur in different stages of progression. The file Import progresses through file upload, data validation, and data processing before being completed. 
+ Feature/enhancement stories referenced in this article:
+ MCC-451296, MCC-480113, MCC-496842, MCC-498604, MCC-511236, MCC-523728, MCC-542830 
+## Affected Roles
+ All roles with MEDS Ingestor permissions.
+## Advantages
+ You can monitor the progress of individual file import jobs. The uploaded file data populates MEDS.
+## User Impact
+ The Import Summary provides more information about each stage of the data import process.
+ Color-coded bars show the progress of data file upload, import, and validation. Errors at any stage cause the import to fail.
+ Ingestor displays the current process stage with appropriate colors and text updates.
+ The Review Import Jobs page contains the detailed import summary with row counts. 
+ Special Considerations 
+- You must have at least one published protocol and Data Integration from Medidata Designer to create import jobs. 
+- The study must be active in order to create import jobs. 
+- You can only import single files.

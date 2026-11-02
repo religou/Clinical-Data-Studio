@@ -1,0 +1,818 @@
+# Medidata CTMS Data File Standards
+
+## Medidata CTMS Data File Standards
+ To ensure the successful import of Medidata CTMS data files to Ingestor, the files must follow specific file name and format conventions. The imported data corresponds to the appropriate fields in the respective Medidata CTMS application, such as Study Management. You can confirm the data changes in the respective Medidata CTMS application.
+## General File Considerations
+- Uploaded files must be in the comma-separated value (CSV) file format.
+- Files containing empty data cause the import process to fail. 
+- Any OID identifier referenced in these files must comply with the following rules: 
+- Uppercase alphanumeric text only. 
+- No spaces. 
+- The OID must begin with an alphabetical character. 
+- Underscores can appear in an OID, but not as the first character. 
+## File Name Standards
+ The file names for your imported files must contain a string denoting which data set  the imported file corresponds to.
+ Tip : For files you can use as a model and starting point, see  Starter Import Files . 
+ Data Set Type 
+ Usage 
+ Required String in File Name 
+ | Country Enrollment Planning 
+ | Plan or revise subject enrollment counts at country level in Study Management . 
+ | EnrollmentPlanningCountry 
+ | Enrollment Metrics 
+ | Plan or revise enrollment metrics at a specified context in Study Management . 
+ | EnrollmentMetrics 
+ | Service Providers 
+ | Create service provider details in Study Management.  
+ | ServiceProviders 
+ | Tasks 
+ | Create tasks details in Task Management.  
+ | Tasks 
+ | Issues 
+ | Create issues details in Issue Management. 
+ | Issues 
+ | Actions 
+ | Create actions details in Issue Management. 
+ | Actions 
+ Note : The required string is case-insensitive, and you can prefix or append alphanumeric characters to the string by separating the added text with underscores. For example, when uploading a file corresponding to the Country Enrollment Planning data set type, the file name must contain "EnrollmentPlanningCountry". Therefore, Ingestor accepts or rejects the following example file names:
+- Valid File Names
+- Enrollmentplanningcountry_20210604.csv 
+- Enrollmentplanningcountry.csv 
+- SponsorA_EnrollmentPlanningCountry.csv 
+- Invalid File Names 
+- CountryEnrollmentPlanning.csv 
+## File Structure Standards
+ Uploaded files must follow a specific file structure:
+- Your files must include all listed column headers, but optional columns can include empty data. 
+- Header records must be on the first row of each metadata file, and must the values specified in the below table's Column Header. 
+- Headers with noted acceptance values must contain one or more of the listed values.   
+- If a String-based value contains a comma in the string, you must enclose the entire value in quotations. For example: “Congo, Democratic Republic of“. 
+ Tip : Click image to expand.
+## Country Enrollment Planning
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Type 
+ Attribute Description 
+ Content Expectations / Validations 
+ | Study Environment Name 
+ | Required 
+ | 
+ The associated Study Environment name as it appears in Cloud Administration. 
+ | 
+ Column data must be an exact match to the study environment name as listed in Cloud Administration.
+ Note : Currently, Ingestor only supports standard, noncustom study environments: 
+- Production 
+- Development 
+- User Acceptance Testing 
+- Training 
+- Functional Testing 
+- Interactive Verification 
+ | Study Name 
+ | Required 
+ | The associated study name as it appears in Cloud Administration. 
+ | Column data must be an exact match to the study name as listed in Cloud Administration. 
+ | Study Country Name 
+ | Required 
+ | The associated country name as it appears in Cloud Administration. 
+ | Column data must be an exact match to the country name as listed in Cloud Administration. 
+ | Revision Type 
+ | Required 
+ | Denotes if the data refers to Planned or Revised Enrollment Counts for any given Country. You must have one Planned row and one Revised row per country. Ingestor validates both as a pair.   
+ | Column data must be an exact match of either:
+- Revised 
+- Planned 
+ | Date Format (dd/mm/yyyy) 
+ | Required 
+ | Placeholder Column. Informs the date format expectations for the following date columns. Leave empty for every row. 
+ | Leave empty for every row. 
+ | Date 1 
+ | Required 
+ | The planned or revised enrollment counts for the date entered in the column header. 
+ Replace "Date 1” with the planned or revised date value. The import file requires at least one date to process successfully. 
+ | 
+ You must replace the column header "Date 1” with the planned or revised date value.  Column headers may be in any of the following date formats:
+- dd/mm/yyyy 
+- d/m/yyyy 
+- dd/m/yyyy 
+- d/mm/yyyy 
+ Note :
+- You can use multiple date formats in the same column if it is one of the four accepted formats. 
+- Dates column headers must be in ascending order. Planned Enrollment counts are cumulative and always increase in value or stay the same. 
+ | Date 2 
+ | Conditional 
+ | The planned or revised enrollment counts for the date entered in the column header. 
+ Replace "Date 2” with the planned or revised date value. The import file requires at least one date to process successfully. 
+ Acceptable Date Formats : 
+- dd/mm/yyyy 
+- d/m/yyyy 
+- dd/m/yyyy 
+- d/mm/yyyy 
+ | 
+ You must replace the column header "Date 2” with the planned or revised date value.  Column headers may be in any of the following date formats:
+- dd/mm/yyyy 
+- d/m/yyyy 
+- dd/m/yyyy 
+- d/mm/yyyy 
+ Note :
+- You can use multiple date formats in the same column if it is one of the four accepted formats. 
+- Dates column headers must be in ascending order. Planned Enrollment counts are cumulative and always increase in value or stay the same. 
+ | Date <n> 
+ | Conditional 
+ | The planned or revised enrollment counts for the date entered in the column header. 
+ Replace "Date <n>” with the planned or revised date value. The import file requires at least one date to process successfully. 
+ Acceptable Date Formats : 
+- dd/mm/yyyy 
+- d/m/yyyy 
+- dd/m/yyyy 
+- d/mm/yyyy 
+ | 
+ You must replace the column header "Date <n>” with the planned or revised date value.  Column headers may be in any of the following date formats:
+- dd/mm/yyyy 
+- d/m/yyyy 
+- dd/m/yyyy 
+- d/mm/yyyy 
+ Note :
+- You can use multiple date formats in the same column if it is one of the four accepted formats. 
+- Dates column headers must be in ascending order. Planned Enrollment counts are cumulative and always increase in value or stay the same. 
+## Enrollment Metrics
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Type 
+ Attribute Description 
+ Content Expectations / Validations 
+ | Study Name 
+ | Required 
+ | The associated study name as it appears in Cloud Administration. 
+ | Column data must be an exact match to the study name as listed in Cloud Administration. 
+ | Study Environment Name 
+ | Required 
+ | 
+ The associated Study Environment name as it appears in Cloud Administration. 
+ | 
+ Column data must be an exact match to the study environment name as listed in Cloud Administration.
+ Note : Currently, Ingestor only supports standard, noncustom study environments: 
+- Production 
+- Development 
+- User Acceptance Testing 
+- Training 
+- Functional Testing 
+- Interactive Verification 
+ | Country Name 
+ | Required 
+ | The associated country name as it appears in Cloud Administration. 
+ | Column data must be an exact match to the country name as listed in Cloud Administration. 
+ | Site Name 
+ | Conditional;  
+ | The site's name. 
+ | Column data must be an exact match to the site name in Cloud Administration
+ Required if Context Level is set to Site.
+ | Context Level 
+ | Required 
+ | The context the uploaded data pertains to. 
+ |  Must be one of:
+- Study 
+- Country 
+- Site 
+ | Screened (Planned) 
+ | Conditional 
+ | The planned count of screened subjects.
+ | Must be a nonnegative integer.
+ At least one of the Planning and Tracking fields per record must have valid data.
+ | Enrolled (Planned) 
+ | Conditional 
+ | The planned count of enrolled subjects.
+ | Must be a nonnegative integer.
+ At least one of the Planning and Tracking fields per record must have valid data.
+ | Completed (Planned) 
+ | Conditional 
+ | The planned count of completed subjects. 
+ | Must be a nonnegative integer.
+ At least one of the Planning and Tracking fields per record must have valid data.
+ | Screened (Revised) 
+ | Conditional 
+ | The revised count of screened subjects. 
+ | Must be a nonnegative integer.
+ At least one of the Planning and Tracking fields per record must have valid data.
+ | Enrolled (Revised) 
+ | Conditional 
+ | The revised count of enrolled subjects. 
+ | Must be a nonnegative integer.
+ At least one of the Planning and Tracking fields per record must have valid data.
+ | Completed (Revised) 
+ | Conditional 
+ | The revised count of completed subjects. 
+ | Must be a nonnegative integer.
+ At least one of the Planning and Tracking fields per record must have valid data.
+ | Screened (Actual) 
+ | Conditional 
+ | The actual count of screened subjects. 
+ | Must be a nonnegative integer.
+ At least one of the Planning and Tracking fields per record must have valid data.
+ | Enrolled (Actual) 
+ | Conditional 
+ | The actual count of enrolled subjects. 
+ | Must be a nonnegative integer.
+ At least one of the Planning and Tracking fields per record must have valid data.
+ | Early Terminated (Actual) 
+ | Conditional 
+ | The actual count of subjects terminated early. 
+ | Must be a nonnegative integer.
+ At least one of the Planning and Tracking fields per record must have valid data.
+ | Completed (Actual) 
+ | Conditional 
+ | The actual count of completed subjects. 
+ | Must be a nonnegative integer.
+ At least one of the Planning and Tracking fields per record must have valid data.
+## Service Providers
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Type 
+ Attribute Description 
+ Content Expectations / Validations 
+ | Study Name 
+ | Required 
+ | The study's name. 
+ | Column data must be an exact match to the study name as listed in Cloud Administration. 
+ | Study Environment 
+ | Required 
+ | The study environment's name. 
+ | 
+ Column data must be an exact match to the study environment name as listed in Cloud Administration.
+ Note : Currently, Ingestor only supports standard, noncustom study environments: 
+- Production 
+- Development 
+- User Acceptance Testing 
+- Training 
+- Functional Testing 
+- Interactive Verification 
+ | Organization ID 
+ | Required 
+ | The Organization ID as it appears in Cloud Administration. 
+ | Column data must be an exact match to the organization ID as listed in Cloud Administration.  
+ | Services Provided 
+ | Required 
+ | The name of the service or group of services. 
+ | Must be the name of a service available to that Organization's Organization Type. If there are multiple services, you must separate each name was a pipe-delimiter: '|'
+ Grouped services share Services Record IDs. You can update or change service records. You can also add or remove services from the group while maintaining the same Service Record ID. You cannot change individual services in the group; once added to the group all services within a service group function as a single entity. 
+ | External ID 
+ | Optional 
+ | A user-supplied unique identifier. 
+ | Must be unique to the record.
+ You cannot change or remove the External ID by file import.
+ | Services Record ID 
+ | Optional 
+ | If updating, the service's record identifier as it appears in the Study Management user interface.
+ | If updating a service record, must be an existing Services Record ID. 
+ You cannot change or remove the Services Record ID by file import.
+ | Start Date 
+ | Conditional 
+ | The service's start date. 
+ | 
+ Optional unless End Date is present.
+ Date format can be one of:
+- dd-MMM-yyyy 
+- yyyy-mm-dd 
+ Note : Service records can have one of the following date permutations: 
+- No Start Date or End Date 
+- Only a Start Date without an End Date 
+- Start Date with an End Date 
+ | End Date 
+ | Optional 
+ | The service's end date.
+ | 
+ Date format can be one of:
+- dd-MMM-yyyy 
+- yyyy-mm-dd 
+ Note : End Date must have a corresponding Start Date. 
+ | Service Area 
+ | Required 
+ | The location where the services took place.
+ | Must be one of the following:
+- Study Only 
+- Specific Countries or Sites 
+- All Countries, All Sites 
+ | Specific Countries 
+ | Optional 
+ | The countries that used the service.
+ | 
+ Must be countries that appear in Cloud Administration.
+ If there are multiple countries, you must separate each with a pipe-delimiter: '|'
+ Note : Only applicable when Service Area is "Specific Countries or Sites". 
+ | Specific Sites 
+ | Optional 
+ | The sites the used the service. 
+ | 
+ Must be sites that appear in Cloud Administration.
+ If there are multiple countries, you must separate each with a pipe-delimiter: '|'
+ Note : Only applicable when Service Area is "Specific Countries or Sites". 
+ | Excluded Countries 
+ | Optional 
+ | Sites excluded from the Service Area.
+ | 
+ Must be countries that appear in Cloud Administration.
+ If there are multiple countries, you must separate each with a pipe-delimiter: '|'
+ Note : Only applicable when Service Area is "All Countries, All Sites". 
+ | Excluded Sites 
+ | Optional 
+ | Countries excluded from the Service Area. 
+ | 
+ Must be sites that appear in Cloud Administration.
+ If there are multiple countries, you must separate each with a pipe-delimiter: '|'
+ Note : Only applicable when Service Area is "All Countries, All Sites". 
+## Tasks
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Type 
+ Attribute Description 
+ Content Expectations / Validations 
+ | External ID 
+ | Required 
+ | The task's unique identification number.
+ | Must be an alphanumeric value with a maximum of 36 characters. No special characters, except dashes '-'.
+ | Study Environment 
+ | Required 
+ | 
+ The associated Study Environment name as it appears in Cloud Administration. 
+ Note : Currently, Ingestor only supports standard, noncustom study environments.  
+ | 
+ Column data must be an exact match an existing study environment name for the study as listed in Cloud Administration.
+ Note : Currently, Ingestor only supports standard, noncustom study environments: 
+- Production 
+- Development 
+- User Acceptance Testing 
+- Training 
+- Functional Testing 
+- Interactive Verification 
+ | Study Name 
+ | Required 
+ | The associated study name as it appears in Cloud Administration. 
+ | Column data must be an exact match to an existing study name as listed in Cloud Administration.
+ | Country Name 
+ | Optional 
+ | The associated country name as it appears in Cloud Administration. 
+ | Column data must be an exact match to the country name for the study as listed in Cloud Administration. 
+ | Site Number 
+ | Optional 
+ | 
+ The unique number of the site pertaining to the issue.
+ | The associated site number must match an existing site with the study on the Medidata platform. 
+ | Name 
+ | Required 
+ | The reported task's name. 
+ | This is a free text field with a maximum length of 100 characters. 
+ | Description 
+ | Required 
+ | The task's description as it would appear in Task Management. 
+ | This is a free text field with a maximum length of 500 characters. 
+ | Lifecycle (optional) 
+ | Optional 
+ | The study lifecycle phase of the study associated with the task.
+ | Must be one of the following:
+- Startup 
+- Conduct 
+- Closeout 
+ | Billable Task 
+ | Optional 
+ | The task's billable status. 
+ | Must be one of the following:
+- Yes 
+- No 
+ | Watcher Primary Email Address 
+ | Optional 
+ | The task watcher's primary email address. 
+ | Email must be in the correct email format.
+ You can enter multiple email addresses. When enter multiple email addresses, you must separate each email with a pipe character '|'. For example: address1@mail.com|address2@mail.com 
+ You must complete this field if you also enter data for the Watcher Role field. The number of email addresses in this field must match the number of roles the watcher has.
+ | Watcher Role 
+ | Optional 
+ | The task watcher's role as defined in the Cloud Administration. 
+ | The role must be a valid role within Cloud Administration.
+ You can enter multiple roles. When enter roles, you must separate each role with a pipe character '|'. For example: Study Manager|Data Manager 
+ You must complete this field if you also enter data for the Watcher Email Address field. The number of roles in this field must match the number of email addresses the watcher has.
+ | Notes 
+ | Required 
+ | More notes about the task. 
+ | This is a free text field with a maximum length of 1000 characters. 
+ | Due Date 
+ | Required 
+ | The task's expected closure date. 
+ | Expected format is yyyy-mm-dd 
+ | Assignee Primary Email Address 
+ | Optional 
+ | The task assignee's primary email address. 
+ | Email must be in the correct email format and available in the Medidata platform 
+ | Assignee Role 
+ | Optional 
+ | The task assignee's role as defined in the Cloud Administration. 
+ | The role must be a valid role in Cloud Administration. 
+## Issues
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Type 
+ Attribute Description 
+ Content Expectations / Validations 
+ | Issue Type 
+ | Required 
+ | Denotes the issue's type:
+- Protocol Deviation 
+- Non-Protocol Deviation 
+ | Each field must be one of:
+- Protocol Deviation 
+- Non-Protocol Deviation 
+ | External ID 
+ | Required 
+ | The issue's unique identification number.
+ | Must be an alphanumeric value with a maximum of 36 characters. No special characters, except dashes '-'.
+ | Study Environment 
+ | Required 
+ | 
+ The associated Study Environment name as it appears in Cloud Administration. 
+ Note : Currently, Ingestor only supports standard, noncustom study environments.  
+ | 
+ Column data must be an exact match an existing study environment name for the study as listed in Cloud Administration.
+ Note : Currently, Ingestor only supports standard, noncustom study environments: 
+- Production 
+- Development 
+- User Acceptance Testing 
+- Training 
+- Functional Testing 
+- Interactive Verification 
+ | Study Name 
+ | Required 
+ | The study's name. 
+ | Must match an existing Cloud Administration study.
+ | Country Name 
+ | Optional 
+ | The associated country name as it appears in Cloud Administration. 
+ | Column data must be an exact match to the country name for the study as listed in Cloud Administration. 
+ | Site Number 
+ | Optional 
+ | 
+ The unique number of the site pertaining to the issue.
+ | The associated site number must match an existing site with the study on the Medidata platform. 
+ | Category 
+ | Required 
+ | The clinical trial category where the issue occurs. 
+ | Must be a valid category configured in Issue Management. 
+ | Subcategory 
+ | Required 
+ | The clinical trial subcategory where the issue occurs. 
+ | Must be a valid category configured in Issue Management. 
+ | Description 
+ | Required 
+ | The issue's description. 
+ | A free text field with a maximum length of 3000 characters. 
+ | Status 
+ | Required 
+ | 
+ The issue's status.
+ Note : On the Medidata platform, an issue can be one of the following:
+- Open 
+- In Progress 
+- On Hold 
+- Closed - Invalid 
+- Closed - Duplicate 
+- Closed - Other 
+- Closed - Resolved 
+ However, when uploading files with Ingestor, you can only use the Open status.
+ | Must be "Open". 
+ | Assignee Primary Email Address 
+ | Required 
+ | The issue assignee's primary email address 
+ | Email must be in the correct email format and exist on the Medidata platform. 
+ | Assignee Role 
+ | Required 
+ | The issue assignee's Cloud Administration role. 
+ | Must be a valid role on the Medidata platform. If you must change an assignee's role, Medidata recommends that you change the role on Cloud Administration.  
+ | Visibility 
+ | Required 
+ | The issue's visibility. 
+ | For non-protocol deviations, must be one of:
+- External 
+- Internal 
+ For protocol deviations, must be External.
+ | Root Cause 
+ | Optional 
+ | The issue's reason or root cause. 
+ | This is a free text field with a maximum length of 500 characters. 
+ | Root Cause Category 
+ | Optional 
+ | The issue's root cause category. Additional Information on root cause 
+ | Must be a valid root cause category configured in Issue Management. For details, see  Set Up Root Cause Categories . 
+ | Occurred Date 
+ | Optional 
+ | The issue's occurrence date. 
+ | Expected format : yyyy-mm-dd
+ Accepted values depend on the presence of Discovered Date:
+- If Discovered Date is present, must be on or before the Discovered Date. 
+- If Discovered Date is empty, then must be on or before the  current date. 
+ | Discovered Date 
+ | Optional 
+ | The issue's discovery date. 
+ | Expected format : yyyy-mm-dd
+ Must be on or after Occurred Date, and on or before the current date.
+ If any notification dates are present, then Discovered date must be on or before the notification dates.
+ | Severity 
+ | Required 
+ | The issue's severity. 
+ | Must be a valid severity as set in Issue Management.
+ | IRB Notification Required (PD only) 
+ | Optional 
+ | Denotes if Institutional Review Board (IRB) notification is required. 
+ | 
+ Must be one of the following:
+- Yes 
+- No 
+ Note : Only available for issues marked as protocol deviations. Ingestor ignores this field for non-protocol deviation issues.
+ | IRB/EC Notification Date (PD only) 
+ | Optional 
+ | Date of Institutional Review Board (IRB) notification. 
+ | 
+ Expected format : yyyy-mm-dd
+ Date must be after Discovered Date.
+ Note : 
+ Only available for issues with the following conditions:
+- site level issues 
+- Issues with that have IRB Notification Required set to "Yes". 
+ Ingestor ignores this field for non-site level issues.
+ | Sponsor Notification Required (PD only) 
+ | Optional 
+ | Denotes if sponsor notification is required. 
+ | 
+ Must be one of the following:
+- Yes 
+- No 
+ Note : Only available for issues marked as protocol deviations. Ingestor ignores this field for non-protocol deviation issues.
+ | Sponsor Notification Date (PD only) 
+ | Optional 
+ | Date when the Sponsor was notified. 
+ | 
+ Expected format : yyyy-mm-dd
+ Date must be after Discovered Date.
+ Note : 
+ Only available for issues with the following conditions:
+- site level issues 
+- Issues with that have Sponsor Notification Required set to "Yes". 
+ Ingestor ignores this field for non-site level issues.
+ | Regulatory Authority Notification Required (PD only) 
+ | Optional 
+ | Denotes if Regulatory Authority notification is required. 
+ | 
+ Must be one of the following:
+- Yes 
+- No 
+ Note : Only available for issues marked as protocol deviations. Ingestor ignores this field for non-protocol deviation issues.
+ | Regulatory Authority Notification Date (PD only) 
+ | Optional 
+ | Date of  Regulatory Authority   notification. 
+ | 
+ Expected format : yyyy-mm-dd
+ Date must be after Discovered Date.
+ Note : 
+ Only available for issues with the following conditions:
+- site level issues 
+- Issues with that have Regulatory Authority Notification Required set to "Yes". 
+ Ingestor ignores this field for non-site level issues.
+## Actions
+ Note : If you add an assignee to an action, the assignee must be active. That is, they cannot have an end date.
+ * 
+- Add filter 
+- Reset all filters 
+- Disable all filters 
+- Reset column sorting 
+- Modify Settings 
+- Copy the filter URL 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+- Enable all filters 
+- Export to PDF 
+- Export to CSV 
+- Export to Word 
+- Print 
+- Documentation 
+- What's new 
+- Rate our app 
+ Oops, it seems that you need to place a table or a macro generating a table within the Table Filter macro.
+ The table is being loaded. Please wait for a bit ... 
+ Attribute Name 
+ Attribute Type 
+ Attribute Description 
+ Content Expectations / Validation 
+ | Action Type 
+ | Required 
+ | The action's type. 
+ | Must be one of the following:
+- Corrective 
+- Preventive 
+ | External ID 
+ | Required 
+ | The action's unique identification number.
+ | Must be an alphanumeric value with a maximum of 36 characters. No special characters, except dashes '-'.
+ | Study Environment 
+ | Required 
+ | 
+ The associated Study Environment name as it appears in Cloud Administration. 
+ Note : Currently, Ingestor only supports standard, noncustom study environments.  
+ | 
+ Column data must be an exact match an existing study environment name for the study as listed in Cloud Administration.
+ Note : Currently, Ingestor only supports standard, noncustom study environments: 
+- Production 
+- Development 
+- User Acceptance Testing 
+- Training 
+- Functional Testing 
+- Interactive Verification 
+ | Study Name 
+ | Required 
+ | The study's name. 
+ | Must match an existing Cloud Administration study.
+ | Country Name 
+ | Optional 
+ | The associated country name as it appears in Cloud Administration. 
+ | Column data must be an exact match to the country name for the study as listed in Cloud Administration. 
+ | Site Number 
+ | Optional 
+ | 
+ The unique number of the site pertaining to the issue.
+ | The associated site number must match an existing site with the study on the Medidata platform. 
+ | Brief Summary 
+ | Required 
+ | A brief summary of the action taken against the issue. 
+ | This is a free text field with a maximum length of 90 characters. 
+ | Description 
+ | Optional 
+ | A longer summary of the action taken against the issue. 
+ | This is a free text field with a maximum length of 3000 characters. 
+ | Assignee Primary Email Address 
+ | Required 
+ | The action assignee's primary email address 
+ | Email must be in the correct email format and exist on the Medidata platform. 
+ | Assignee Role 
+ | Required 
+ | The action assignee's Cloud Administration role. 
+ | Must be a valid role on the Medidata platform.
+ If you must change an assignee's role, Medidata recommends that you change the role on Cloud Administration. 
+ | Assignee Start Date 
+ | Optional 
+ | The action assignee's start date. 
+ | 
+ | Assignee End Date 
+ | Optional 
+ | The action assignee's end date. 
+ | 
+ | Assignee is Primary in Role 
+ | Required 
+ | Denotes if the assignee is the primary assignee. 
+ | Must be one of the following:
+- Y 
+- N 
+ | Status 
+ | Required 
+ | 
+ The issue's status.
+ Note : On the Medidata platform, an issue can be one of the following:
+- Open 
+- In Progress 
+- On Hold 
+- Closed - Invalid 
+- Closed - Duplicate 
+- Closed - Other 
+- Closed - Resolved 
+ However, when uploading files with Ingestor, you can only use the Open status.
+ | Must be "Open". 
+ | Visibility 
+ | Required 
+ | The action's visibility. 
+ | For internal issues, must be one of:
+- External 
+- Internal 
+ For external issues, must be External.
+ | Issue External ID 
+ | Required 
+ | The external identification number for the issue associated with the action. 
+ | Must be an alphanumeric value and exist in the Medidata platform. 
+ | Due Date 
+ | Optional 
+ | The action's completion due date. 
+ | Expected format : yyyy-mm-dd
+ Must be on or before the  current date.

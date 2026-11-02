@@ -1,0 +1,8 @@
+# Update Connection Details for a Data Source
+
+## Update Connection Details for a Data Source
+ You can update your data source connection details as required.
+- Access Data Connect , and click   Imports   in the left-hand menu. 
+- Click the More icon of the data source, and select View. 
+- Click the Edit icon for the connection details. 
+- Update the data source's connection details.

@@ -1,0 +1,12 @@
+# Error Plots Features
+
+## Error Plots Features
+ Medidata Detect includes the following error plots-related capabilities:
+- View Rave Queries With Comment and Status History on Error Plot Outlier Data Points 
+- Error Plot Enhancements 
+- Determine Study Data Outliers, Risks, and Trends Using Error Plots 
+- Flag, Track, and Audit Reviewed Error Plot Outlier Data Points 
+- Text Versus Text Analysis Plot X- and Y-Axes Display Text in Alphanumeric Order 
+- Performance Improvements in Medidata Detect 2020.3.2 
+- Error Plots Streamline Navigation to View a Specific Patient's Profile 
+- Trends Plots Improve Your Ability to Monitor Variable Data Across Sites

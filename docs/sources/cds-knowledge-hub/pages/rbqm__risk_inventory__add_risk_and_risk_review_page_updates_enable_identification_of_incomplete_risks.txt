@@ -1,0 +1,22 @@
+# RBQM: Risk Inventory, Add Risk And Risk Review Page Updates Enable Identification of Incomplete Risks
+
+## RBQM: Risk Inventory, Add Risk And Risk Review Page Updates Enable Identification of Incomplete Risks
+## What Is New?
+ Risk Inventory now flags risks as incomplete if any fields marked as expected are empty. The Status column shows a warning icon , for incomplete risks. The Add Risk and Risk Review pages now include field marked as expected which if left empty, saves the risk as incomplete. Additionally, you can also select risk owners enabled for a study on the Risk Review page and assign to specific risks.
+## What Is the Impact?
+## Users/Roles
+ Risk managers.
+## Workflow Process
+ No change to workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Risk managers can easily identify incomplete risks and the associated risk owners in a study, and take appropriate action to mitigate the risk.
+## Where Do I See the Change?
+ If you click Add Risk in the RBQM > Risk Assessment > Critical Data or Critical Process pages, f ields configured in the study appear with an expected label next to the field name. If you save a risk leaving expected fields empty, a notification message appears and the risk saves, but marked as incomplete. The same applies if you click any risk in RBQM > Risks > Risk Inventory > Risk Review page. Additionally, i ncomplete risks on the Risk Inventory page appear with a , warning icon, status. If you hover over the icon, an Incomplete flag appears.  
+ On the RBQM > Risks > Risk Inventory > Risk Review page, the Risk Owner column replaces the Action Taken column. The field shows a list of risk owners, where you can select multiple risk owners to be associated with a risk. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Risk Inventory 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

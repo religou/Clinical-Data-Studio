@@ -1,0 +1,25 @@
+# PDS: Build Data Listing Configurations Using Time Variables
+
+## PDS: Build Data Listing Configurations Using Time Variables
+## What Is New?
+ You can now build data listing configurations to include time variables.
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ The time variable's comparator value format is based on how the variable is formatted in Rave EDC. For example, HH.NN. You must enter the comparator value based on the defined format in Rave EDC.
+## How Do I Benefit?
+ You can build data listing configurations to monitor for assessments that your protocol specifies to occur in a set chronological order. For example, if a protocol calls for patients to get their blood taken after the first medication dosage, you can build a listing to monitor for patients who report getting their blood taken first. Therefore, you can better assess whether the site follows the study protocol correctly.
+## Where Do I See the Change?
+ On the Data Reviewer > Data Listings page, on the New Listing window or Edit Listing window > Define Listing section, you can enter or select time variables along with the associated comparator and comparator value.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement.
+- View, Create, and Edit Draft Listings 
+- View and Edit Approved Listings 
+## What Else Should I Know?
+ To preview data listings containing time variables, you must enter time variables in the data listing's conditional expression using the following 12- or 24-hour format: 
+- 12-hour Format – HH:nn am/PM 
+- 24-hour Format – HH:nn. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

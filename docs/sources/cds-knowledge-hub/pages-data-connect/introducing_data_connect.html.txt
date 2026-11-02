@@ -1,0 +1,41 @@
+# Introducing Data Connect
+
+## Introducing Data Connect
+## What Is New?
+ Data Connect is a part of Clinical Data Studio. Clinical Data Studio is a complete data management and quality experience that provides seamless access to integrated data from Medidata and non-Medidata sources using AI to streamline data aggregation, standardization, and management workflows. With Clinical Data Studio, clinical or IT programmers, clinical data management, and clinical operations can address data in real time and reduce user burden, shorten operational timelines, increase data quality, and improve safety. 
+ Data Connect unifies data discovery, ingestion, transformation, and exports. It provides interoperability across various data sources and systems. Users can explore internal and external datasets, import  non-Medidata data sources, and transform datasets into industry or custom data models. Users can then activate  non-Medidata datasets for downstream Medidata experiences, or export and share datasets to external systems. 
+ Extractor is no longer a stand-alone product, but a part of Data Connect . Clinical Data Studio includes rebranded Extractor capabilities along with three other capabilities: Imports, Datasets, and Transformations. 
+ You can access Data Connect and other Clinical Data Studio offerings and capabilities from the Medidata home page . Once in Clinical Data Studio, you can select the Data Connect tab to access the following capabilities according to your permissions: 
+- Imports – M anage and import data from external sources. 
+- Exports – Create and manage export jobs to extract your data from the Medidata platform. 
+- Datasets and Transformations – R eview existing datasets, create datasets, and transform them depending on your needs. 
+## What Is the Impact?
+## Users/Roles
+ All Clinical Data Studio and Extractor users.
+## Workflow Process
+ You can use Data Connect's capabilities to import, view, transform, and export data.
+ Important : Extractor users can continue managing existing export jobs through Data Connect.
+## Other Applications
+ You can use data imported and transformed with Data Connect in other Clinical Data Studio offerings such as Data Surveillance and RBQM.
+## How Do I Benefit?
+ With Data Connect you can:
+- Ingest Any Data Quickly and Easily – Data Connect provides access to data from Medidata data sources, such as Rave EDC, and simplifies importing data from any  non-Medidata source, such as labs. You can configure data transfer agreements into Data Connect to validate ingested data automatically. 
+- Transform Data with Minimal Effort – With Data Connect, clinical data managers build complex listings across multiple datasets without the need for programming. Clinical programmers and biostatisticians use Data Connect's no-/low-code data transformation capabilities to create custom datasets. Data Connect maintains complete traceability of all data transformations so users can always see what and how data was transformed. 
+- Extract Data from Various Sources – Users can create export jobs to enable the extraction of data sets from the Medidata platform  for any studies and environments they have access to . 
+## Where Do I See the Change?
+ You can access Clinical Data Studio on the Medidata Home page, and Data Connect from the Clinical Data Studio's Data Connect tab.
+## Where Do I Learn More?
+ Use the following links to find new content in support of Data Connect:
+- About Data Connect 
+- Grant Access to Data Connect 
+- Access Data Connect 
+- Data Connect Roles and Capabilities 
+- Datasets 
+- Exports 
+- Transformations 
+## What Else Should I Know?
+ For an historical listing of features introduced into Data Connect's module prior to this release, including beta releases for Datasets and Transformations, Imports, and Exports, see:
+- Datasets and Transformations Releases History 
+- Imports Releases History 
+- Exports Releases History 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

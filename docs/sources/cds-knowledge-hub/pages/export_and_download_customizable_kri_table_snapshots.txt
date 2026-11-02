@@ -1,0 +1,19 @@
+# Export and Download Customizable KRI Table Snapshots
+
+## Export and Download Customizable KRI Table Snapshots
+## Description
+ You can download and export data from the KRI Dashboard in .csv format. You can e xport everything on the KRI Dashboard or select specific KRIs and sites to export. 
+## Affected Roles
+- Risk managers 
+- Data managers 
+- Medical monitors 
+## Advantages
+ Exporting the KRIs table allows you to print and view snapshots of KRIs and compare history across data refreshes. This helps you track and audit KRI history. 
+## User Impact
+ The KRI Dashboard now contains a Generate Report button. You can click this button to generate a .csv file of the KRI table based on how it is current filtered in the app.
+## Knowledge Space Updates
+ The KRIs Knowledge Space provides new and updated content to support this feature: 
+- About Key Risk Indicators 
+## Special Considerations
+ The color-coding that indicates the KRIs level of risk does not propagate to the Excel sheet. However, a KRI value appended with one asterisk * represents an orange KRI, two asterisks (**) indicate red. 
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

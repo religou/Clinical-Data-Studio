@@ -1,0 +1,56 @@
+# Signals: Updated Signals User Interface Shows Changed Data
+
+## Signals: Updated Signals User Interface Shows Changed Data
+ Important: 
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the release history .   
+- For a summary of all features released, the released  features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.1.0
+ Change Type 
+ | Enhancement (Updated Functionality)
+ Functionality or Module 
+ | Signals
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter : 
+ You can now easily identify changes in observation values between workflows, helping detect updates to previously acted-upon signals. Signals highlights scenarios where observations fall below the configured threshold while the configuration remains active in modules like Rounding and Propagation, QTLs, Under/Over Reporting, and KRIs. Signals includes a Changed Data column which shows changes in observation between data refreshes. 
+ Benefit to Users 
+ | Central monitors, CRAs, and study managers can identify significant updates, and trends of a signal, and prioritize review without the need to manually compare new data versus previous data. Preset filters allow you to quickly identify signals of interest.
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+- Central Monitors and Central Statistical Monitors, Clinical Research Associates. 
+- Users with View Signals and Manage Signals building blocks. 
+ Impact to Workflow Processes 
+ No impact to workflow processes.
+ Impact to Applications 
+ No impact to other applications.
+ Impact on Interface 
+ The Signals table shows three new columns. if there is a change in signal observation. You can hover over icon to view the previous observation value. In the example below, for an issue, the Issue Type and Target Issue columns reads Protocol Deviation and Internal respectively. 
+ The Signals table includes a new Changed Data column. Between refreshes, signal data may change due to observation values going above or below set thresholds for respective modules. The updated Signals page includes a Changed Data column with a  icon that shows if an open or reopened signal's underlying data changed. If you hover over the changed data icon, a tooltip shows the changed value, for example, over 16.7% . It also includes preset filters. A changed card also appears at the top of the Signals page showing the total count of observations. 
+- If no signals get generated as observations fall below configured thresholds, the change is shown as follows: 
+- For Potential Duplicate Patients analysis, the observation value updates to “No longer duplicate” for acted-upon signals. 
+- For Patient Profiles analysis, the observation value sets to 0 patients when signals get no longer identified. 
+- For Weekend and Holiday Visits analysis, the observation value updates to 0 when no visits get detected. 
+- If a signal configuration for any module is no longer active, then the analysis hyperlink reads the inactive configuration when you hover over it. 
+ Impact to Existing Data or Settings 
+ No existing data changes; no configuration or permission updates required.
+ User Impact Assessment 
+ | Medium 
+ Learning Resource Updates 
+ | The following lists any new or added resources that support this change: 
+- Updated Article: Refresh Signals to View the Latest Signal Observations. 
+ Special Considerations 
+ | The changed data does not show for new signals and for Potential Duplicate Patient signal observations. Any new patient duplicate pair is a new signal. To view Medidata testing documentation for this release, refer to the Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

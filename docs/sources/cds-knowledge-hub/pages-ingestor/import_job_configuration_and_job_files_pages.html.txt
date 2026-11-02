@@ -1,0 +1,17 @@
+# Import Job Configuration and Job Files Pages
+
+## Import Job Configuration and Job Files Pages
+## Description
+ MEDS Ingestor introduces two tabbed panes displaying details of the selected import job: 
+- Job Files – Lists all the imported files associated with the executed job. 
+- Job Configuration – Displays full details of the selected import job. 
+ Feature/enhancement stories referenced in this article:
+ MCC-616341 
+## Affected Roles
+ All roles with the Data Import permission. 
+## Advantages
+ The new design provides more detail about the selected import job, and details of every file imported into MEDS Ingestor.
+## User Impact
+ While reviewing import jobs, you access the two detail panes  by clicking the job name. This simplified user interface provides additional details about the selected import job and files imported by the job.
+## Special Considerations
+ None.

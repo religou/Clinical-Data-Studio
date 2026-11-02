@@ -1,0 +1,18 @@
+# Manage Dataset Collections
+
+## Manage Dataset Collections
+ The Dataset Collections provide a way to organize and group datasets.
+## Add Collection
+- Access Data Connect , and  click   Datasets   in the left-hand menu. 
+- On the Datasets page, click  Manage Collections  on the right-hand side. 
+- Click + Collection. 
+- Enter the Collection Name.  
+- Click Save . 
+ Note : You cannot delete the collections that have assigned datasets. Remove the datasets from the collection and then click the Trash icon to delete a collection.  
+##  Add Dataset to Collections
+- Access Data Connect , and  click   Datasets   in the left-hand menu. 
+- Click the More icon for a dataset > Add to Collections . 
+- Select one or more collections from the list. 
+- Click Save . 
+ Note : To modify the assigned collection for a dataset:
+- Click the More icon for a dataset > Modify Collection .

@@ -1,0 +1,16 @@
+# Create Derived Variable to Show Data Refresh Date
+
+## Create Derived Variable to Show Data Refresh Date
+ You can create a derived variable to show the day when the data refresh occurs in Derived Variables .  Today’s date is typically used as a reference derivation for subsequent derivations. This date field is dynamic, meaning the value for “Today’s Date” will constantly update with each data refresh. 
+- Access Data Surveillance or RBQM , and then click Configuration > Derived Variables in the left-hand menu. 
+- Click  Create Derived Variable . 
+- Identify and drag a data set f rom the Data Sets list into the Configure Variable section. For example, Adverse Events.
+ Note : If data set variables include unknowns, the data set replaces them with interpolated (enriched) fields like _INT, or _DTC. For example, if the source date is missing the day, the enriched _INT field interpolates the 1st day of the month, and _DTC fields drop the unknown value. If the source field uses dictionary terms, the enriched _TXT field shows the coded terms. Source fields refer to the original source of a data point, while enriched fields add extra information or context to the source data. Enriched fields are used to provide more detail about the about source fields, or to add derived information that is not directly present in the original source. 
+- Enter the derived variable’s identification information. 
+- Name – Object identifier (OID) of derived variable. For example, Today. Must be unique. 
+- Label  –  N ame for derived variable to appear in other applications. This can be the same as the Name field, or a more specific descriptor. For example, Today. 
+- Select Today   from the Derived Variable Type   menu. 
+- Optional . Click Preview to display the preview panel.
+With the preview panel, you can review the derived variable and adjust the variable's parameters before saving. 
+- Click  Save .
+ In Data Surveillance and RBQM, the list of available datasets and variables that you can view and select from include derived variables at the bottom of the list. In Data Surveillance, the list of available datasets and variables appends derived variable names with the blue DERIVED icon.

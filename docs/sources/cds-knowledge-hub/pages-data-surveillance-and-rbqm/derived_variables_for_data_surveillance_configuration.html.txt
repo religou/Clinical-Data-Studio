@@ -1,0 +1,52 @@
+# Derived Variables
+
+## Derived Variables
+ Derived variables are custom configured data set variables. You can use derived variables across the Data Surveillance and RBQM capabilities just like you use any other variable. For example, to build data listings , visualizations , or patient profile design elements . Or you can use derived variables to configure data mappings , custom QTLs , or custom KRIs .
+## What Are Derived Variables?
+ Derived variables are custom  data set variables  formed by various data set calculations such as text concatenation and text substrings. 
+## What Is the Purpose of Derived Variables?
+ With derived variables, you can  perform the following actions: 
+- Create Derived Variable from Expression   – Use the Expression builder to a pply mathematical and logical operations to   data set variables . For example,use derived variables to show particular values such as “If Visit Name = Day 1, then show “Randomization”, Else = "Null "" or"If SYSBP > 60, then show LOW, else HIGH”. These expressions can use multiple conditions and can be rather complex. 
+- Create Derived Variable to Show Data Refresh Date   – Use Data Refresh Date to s how the day  that the data refresh occurs in Derived Variables. Today’s date is typically used as a reference derivation for subsequent derivations. This date field is dynamic, meaning the value for “Today’s Date” will constantly update with each data refresh. 
+- Create Derived Variable with Difference in Dates Calculation   – Use Differences in date derivations to calculate the number of days between two dates. For example, AE Start Date - Randomization Date display the number of days between when the AE started and when the subject was randomized. 
+- Create Derived Variable with Concatenated Text –  Use Concatenate derived variables to link text variables. For example, if a field in Medidata Rave exists for “Visit” and another field for “Timepoint”, you can link the values in these two text fields together to create a new derived field.   
+- Create Derived Variable with Text Substring – Use Substring derivations to derive a subset of alphanumeric or numeric characters from a given text field. For example, if a field value for a visit is “Visit 1 Day 29”, but if you only want to display “Day 29”, you can substring out “Visit 1” using a substring derivation.    
+- Merge Variables to Data Sets   – Use Merge derivations to bring variables from one dataset into another, that is, to m erge a  data set variable   from one data set into a target data set. These derivations vary depending on which types of datasets you use to perform the merge (multiple record per patient datasets vs. single record per patient datasets). When merging from MRPP to MRPP, a “linking” variable must be present in the dataset to ensure the merge functions as designed. 
+- Check all that Apply – U se Check all that apply derivations when Rave data is structured such that multiple options can apply to a single field. For example, multiple races can be selected in the demographics form. By using this derived variable type, you can automatically concatenate Boolean data set variables to create a text variable.  
+- Conditional Concatenate   - Use Concatenate derivations to concatenate mathematical and logical expressions. For example, you can bring together values in two fields, namely "Visit" and " Timepoint" in Rave, to create a new derived field. 
+ You can also update derived variables' names and labels.
+ Important : Your  customer-defined platform role   must include the following permissions to create and update derived variables:
+- View Derived Variables 
+- Manage Derived Variables 
+## Who Uses Derived Variables?
+ Clinical study managers, clinical research associates, site monitors, central monitors, safety monitors, medical monitors, data managers, biostaticians, programmers, and clinical reviewers.
+## How Does Derived Variables Work?
+ The Derived Variables capability in Data Surveillance and RBQM enables you to create derived variables. You can then:
+- View and investigate the derived variables as part of your overall study data review process. 
+- Use derived variables to : 
+- Build data listings . 
+- Create visualizations . 
+- Add elements to patient profile designs . 
+- Configure within Data Mapping the datasets and variables that Data Surveillance and RBQM use to consume and produce the reports, statistical analysis, and visual output for: 
+- Data anomaly detection and trends . 
+- Potential duplication patients . 
+- Rounding and propagating vital sign records . 
+- RECIST 1.1 dashboard plots . 
+- Define and add custom QTLs and custom KRIs that target specific facets of your study data that you want to monitor for risk. 
+ In addition, you can: 
+- View the derived variables in your study data along with configuration details for each derived variable. 
+- Edit Derived Variables . 
+- Copy Derived Variables 
+- Merge Variables into Data Sets 
+ Note : In Data Surveillance, the list of available datasets and variables that you can view and select from appends derived variable names with the blue DERIVED icon. 
+## What Are the Benefits of Derived Variables?
+ With derived variables, you can  perform the following actions: 
+- Create Derived Variable from Expression – A pply mathematical and logical operations to data set variables. 
+- Create Derived Variable to Show Data Refresh Date – S how the day  that the data refresh occurs in Derived Variables. 
+- Create Derived Variable with Difference in Dates Calculation – C alculate the number of days between two dates. 
+- Create Derived Variable with Concatenated Text – Link text variables. 
+- Create Derived Variable with Text Substring – Derive a subset of text. 
+- Merge Variables to Data Sets – Merge a  data set variable   from one data set into a target data set. 
+- Check all that Apply - Concatenate Boolean data set variables to create a text variable. 
+- Conditional Concatenate - Concatenate mathematical and logical expressions.  
+ You can also update derived variables' names and labels.

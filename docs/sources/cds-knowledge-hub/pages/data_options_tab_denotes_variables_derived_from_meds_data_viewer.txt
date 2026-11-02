@@ -1,0 +1,13 @@
+# Data Options Tab Denotes Variables Derived from MEDS Data Viewer
+
+## Data Options Tab Denotes Variables Derived from MEDS Data Viewer
+## Description
+ In the Data Options tab, a blue "Derived" icon ( ) displays next to derived variables from Medidata Enterprise Data Storage (MEDS) Data Viewer. 
+## Affected Roles
+ All. 
+## Advantages
+ Denoting derived variables in patient profile reports allows you to identify which variables are custom data points that do not come from Rave . You can use derived variables to create a more targeted analysis of a patient's profile. 
+## User Impact
+ On the Design page > Elements tab, when you create or edit an element, the Data Options tab indicates derived variables with a  next to the variable. 
+## Special Considerations
+ None.

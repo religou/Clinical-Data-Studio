@@ -1,0 +1,21 @@
+# Ability to Export Transformed Data Sets
+
+## Ability to Export Transformed Data Sets
+## What Is New?
+ You can publish configured data projects to save the configured and validated data sets therein. Once published, you can see your published data sets on the Study Projects screen > Data Source section > Curated Views list. You can download the data sets that the data project generates as a CSV extract.
+## What Is the Impact?
+## Users/Roles
+ All users.
+## Workflow Process
+ No impact to the existing workflow process. You can publish data projects after successfully configuring transformations or derived variables.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ After publishing data project, you can e xtract the project's data sets as a CSV. You can use the extract in other applications such as Statistical Computing Environments (SCE) and visualization tools. You can also use the published data set as a data source for create more data sets. This saves you time in configuring complex transformations by making the process more modular . 
+## Where Do I See the Change?
+ A Publish button appears for each given data project on the Study Project screen. Clicking More shows other options including Subscribe and Export as CSV.
+## Where Do I Learn More?
+ The Platform Workbench Publication provides new content to support this feature:
+- Export Dataset Snapshots from Project 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

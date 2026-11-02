@@ -1,0 +1,31 @@
+# Generate Custom Code Projects
+
+## Generate Custom Code Projects
+ Important : This capability is available as a limited release for selected users.
+ Data Connect's Custom Code data project serves as the 
+ destination and container 
+ for datasets you externally create and transform with Data Connect R Software Development Kit (SDK) . This article covers the different aspects and purposes of the Custom Code project type. 
+## Overview
+ This project hosts all datasets published into Data Connect by the available SDKs through your development environment using the dry_publish() and publish() functions from the SDK library. For details, see the respective Data Connect Library reference file in Data Connect.  
+ Before creating the Custom Code project, you must first generate an authentication token from  Developer Center and use it to initialize the connection to the Data Connect R or Python library. After  making the connection, you can use your development environment to perform transformations wing the R library. When you are ready to publish the R-transformed dataset back to Data Connect, create a Custom Code project in Transformations. 
+ After creating the Custom Code project, you can generate a Project  token , which you use in your development environment as the project_token parameter when calling the dry_publish and publish() function . For details, see the R Data Connect Library reference file in Data Connect > Developer Center > Documentation. 
+ The project view shows the output dataset published from R into Data Connect and the source datasets that you used to generate that output. You can only see the source datasets that Data Connect supports, such as Rave datasets, derived datasets ,  third-party imported data , and custom code datasets .
+## Publish Dataset
+ You must use the Custom Code project to publish datasets transformed with your development environment into Data Connect.
+- If not done already,  assign   the Manage Custom Code Projects building block to access and enable the   Custom Code project   in Transformations. 
+- In your development environment, perform any necessary operations and validations on the dataset according to R Data Connect library reference. 
+- In Data Connect > Transformations, create a Custom Code project in Transformations. 
+- View the project, and copy the project token in the Access Keys panel. 
+- In your development environment, paste the project token as the project_token parameter for the dry_publish() and publish() functions, and run the respective functions. 
+ Important : 
+- Token Generation : When you create a Custom Code project, the system automatically generates the project token. This token is specific to the study and to the project. 
+- Publishing Requirements :
+- Only the user that creates the project can publish datasets into it. 
+- The published dataset must meet validation rules, including having a unique dataset name and passing all necessary key fields. 
+## Other Considerations
+ After successfully publishing the dataset, Data Connect categorizes it with the Custom Code dataset type, from which you can perform functions such as activation. The below highlights considerations pertaining to these functions and downstream impact, such as with Data Surveillance and RBQM.
+- Versioning – You can only have one custom code dataset per project. Successfully publishing an R-transformed dataset creates version 1 of the dataset in Data Connect. If you make a change to the dataset such that both the dataset name and dataset metadata is unchanged, then Data Connect appends the dataset without creating another version of the dataset. However, if you do change the dataset such that the dataset name remains the same and metadata changes, then Data Connect creates another version of the same dataset. 
+- Activation for Data Surveillance – If the published dataset includes compatible key fields such as patient, sites, and visits, then you can activate the dataset for Data Surveillance. 
+- Module Usage and Restrictions for Data Surveillance and RBQM –
+- You cannot submit queries on datasets transformed by custom code. 
+- You cannot use these datasets when using the following modules in Data Surveillance and RBQM: Derived Variables, Stake Datasets, and Event Analysis Mapping. However, you can use these datasets for Listings, KRIs, QTLs, Critical Data, and self-service visualization.

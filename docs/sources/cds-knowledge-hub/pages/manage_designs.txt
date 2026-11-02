@@ -1,0 +1,20 @@
+# Manage Designs
+
+## Manage Designs
+ Medidata Patient Profiles includes the following capabilities relating to design management:
+- Patient Profiles: Copy Patient Profile Designs Across Client Divisions 
+- Data Surveillance: Patient Profile Refresh Building Block Allows Users to Refresh Published Designs 
+- Data Surveillance: Identify and Review New and Updated Patient Profile Data in Published Designs 
+- Data Surveillance: Patient Profiles Highlights Variables Containing Critical Data Points When Designing Profiles 
+- Patient Profiles Does Not Permit Duplicate Design Names 
+- Profile Designs Marked As Master Become Read-only 
+- Design Management Patient Profiles 
+- Enhanced Ability to Identify Data Sets and Variables in Your Design in Patient Profiles 
+- Duplicate Designs to Other Study Environments Within the Same Study in Patient Profiles 
+- Designate Designs as Blinded or Unblinded 
+- Patient Profiles Cloud Indicates Whether a Design is Unblinded or Blinded 
+- Study Environments Require Study Data to Create or Edit Designs 
+- Copy Designs Between Studies 
+- Patient Profile Designs No Longer Marked As Blinded 
+- Publish Profile Designs as View Only or Master for Detect 
+- Data Surveillance: Add Patient-level Internal Review Comments Within Patient Profile Designs

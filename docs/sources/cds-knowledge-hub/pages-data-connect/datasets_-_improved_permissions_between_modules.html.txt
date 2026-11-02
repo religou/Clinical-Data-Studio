@@ -1,0 +1,22 @@
+# Datasets: Improved Permissions Between Modules
+
+## Datasets: Improved Permissions Between Modules
+## What Is New?
+ Data Connect includes compatibility improvements between the Datasets, Transformations, Imports, and Exports modules. Users can only use the capabilities that they have been granted access to use, including: 
+- Specific data project types such as SDTM projects. 
+- Specific Data Connect capabilities such as Exports. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The improved permissions ensures that users can access Data Connect capabilities consistent with their organization's technology strategy.  
+## Where Do I See the Change?
+ No changes to the user interface.
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

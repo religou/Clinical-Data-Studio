@@ -1,0 +1,24 @@
+# Data Surveillance: Patient Profiles Highlights Variables Containing Critical Data Points When Designing Profiles
+
+## Data Surveillance: Patient Profiles Highlights Variables Containing Critical Data Points When Designing Profiles
+## What Is New?
+ In Data Surveillance > Patient Profiles, when adding or updating elements for a draft design, the dataset browser appends a blue flag next to datasets and variables identified in Risk Assessment for that study as  critical data.
+## What Is the Impact?
+## Users/Roles
+ Patient profile designers.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ For Patient Profiles to highlight critical data points on the Elements tab > Data tab, you must first use Risk Assessment to configure the data points in your study that you want to associate with a critical data element. To learn more, see  Add and Manage Critical Data .
+## How Do I Benefit?
+ Highlighting critical data points directly in the dataset browser when working on draft designs enables patient profile designers to easily identify and incorporate pertinent, high value data points into designs.
+## Where Do I See the Change?
+ See the What Is New section.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Add and Manage Headers 
+- Add and Manage Flags 
+- Add, Edit, and Delete Tables 
+- Add, Edit, and Delete Timelines 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

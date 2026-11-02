@@ -1,0 +1,14 @@
+# Quickly View a Date Variable's Date Format on the Reports Page
+
+## Quickly View a Date Variable's Date Format on the Reports Page
+## Description
+ On the Reports page, if an element in the design has a date variable, then the new "Format" column displays. And then  that date variable’s corresponding row in the Format column displays the variable's date format. 
+ Tip : Click image to enlarge.
+## Affected Roles
+ All.
+## Advantages
+ Navigating directly to the Reports page to view a date variable's date format streamlines your ability to troubleshoot date-related issues in your data.
+## User Impact
+ See the Description section.
+## Special Considerations
+ If a variable is not a date variable, then that variable’s corresponding row in the Format column is blank.

@@ -1,0 +1,26 @@
+# Calculation Method Updated for Six System KRIs
+
+## Calculation Method Updated for Six System KRIs
+## Description
+ The calculation logic for threshold limits for six system KRIs has changed. See User Impact . 
+## Affected Roles
+- Risk managers 
+- Data managers 
+- Medical monitors 
+## Advantages
+ Defining and tracking system KRIs helps your organization target and track unique and specific facets of your study that you want to monitor for risk. 
+## User Impact
+ The threshold limits for Percent out of window visit and Missing visit percentage system KRIs, calculated based on percentage KRI values in Detect Configuration Manager, appear as follows in the Detect Landing Page > Key Risk Indicators (KRIs) > Key Risk Indicators Dashboard: 
+- KRI values between 0 -10% appear Green 
+- KRI values between 10 - 20% appear Orange 
+- KRI values >= 20% appear Red 
+ Similarly, the threshold limits for AE Entry Delay , Visit Entry Delay , System Query Delay and Non-System Query Delay system KRIs, calculated based on the number of days KRI values in Detect Configuration Manager, appear as follows in the Detect Landing Page > Key Risk Indicators (KRIs) > KRI Dashboard: 
+- KRI values < = 7 days appear Green 
+- KRI values between 7 -14 days appear Yellow 
+- KRI values >= 7 days appear Red 
+## Knowledge Space Updates
+ None. 
+## Special Considerations
+- System KRIs are always available and activated in the Key Risk Indicators table. 
+- System KRIs and Custom KRIs with errors display as grayed out with no KRI values in the Key Risk Indicators table. 
+ To view Medidata testing documentation for this release, refer to the   Medidata Validation Portal .

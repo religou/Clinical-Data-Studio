@@ -1,0 +1,19 @@
+# Updates to Date Format Display and Behavior in Patient Profiles
+
+## Updates to Date Format Display and Behavior in Patient Profiles
+## Description
+ Patient Profiles 2018.2.0 updates the date format display and behavior:
+- Non-conformant dates display as entered in tables and do not display on timelines or graphs.
+- UN or UNK values display as entered in table elements, and change to Jan for UN or UNK month or 01 for day to display on timelines or graphs.
+- Date formats display in elements to align with the CSA date display.
+- PRF_DAT displays in tables in full formatting including the timestamp; for example, 2016-04-01 00:00:00.0.
+## Affected Roles
+ All.
+## Advantages
+ Updating the data format display and behavior provides:
+- consistency of date handling between CSA and Patient Profiles, and  
+- visibility to non-conformant date data. 
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

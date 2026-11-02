@@ -1,0 +1,26 @@
+# Risk Assessment: Updated Risk Management Provides A Better User Experience
+
+## Risk Assessment: Updated Risk Management Provides A Better User Experience
+## What Is New?
+ Risk Management includes the following updates that ensure a clearer user interface and an enhanced user experience.
+- Risk name appears as the first field when you add a risk or perform a risk review on any of the pages: RBQM > Risk Assessment  > Details or Critical Processes or Categorization. 
+- You can select derived datasets and external data points when you add critical data to your study on the RBQM > Risk Assessment > Critical Data page. 
+- You can download an audit report from the RBQM > Risk Inventory and Risk Review pages by clicking  next to the page title, or the top-right corner of the page, respectively. 
+## What Is the Impact?
+## Users/Roles
+ Data managers.
+## Workflow Process
+ No impact to the workflow.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Improved navigation and labeling on the Risk Management pages provide a more consistent user experience with the capability. Data managers can better track all actions related to a particular risk so evidence of adherence can be provided for audits. 
+## Where Do I See the Change?
+ See What's New?. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the enhancement:
+- Risk Assessment 
+- Risk Inventory 
+## What Else Should I Know?
+ You cannot add audit datasets as critical data to your study.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

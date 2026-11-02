@@ -1,0 +1,26 @@
+# View and Export Listing Configurations Audit Reports
+
+## View and Export Listing Configurations Audit Reports
+ You can view an audit report of historical actions and updates made on all data listing configurations in your study. For example, you can see:
+- User actions made on data listing configurations. 
+- Users who create or updated data listing configurations. 
+- Users who deactivated or activated specific data listings. 
+ Viewing the audit trail of actions made on data listing configurations ensures traceability using a reportable single source of truth. 
+ You can also export the audit trail for:
+- Additional data manipulation in Excel or .csv format. 
+- Offline stakeholder communication. 
+- Local record retention. 
+ Note : Actions made in Data Surveillance can take up to five minutes to show in audit reports.
+- 
+ If necessary, access the Manage Listing page. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Data Listings page shows. 
+- Click Manage Listing on the upper-right side of the Data Listings page.
+ The Manage Listing page > Listings table shows all draft and approved listings in your study and each listing's associated details. 
+- Click next to the Manage Listing page header. 
+- The Data Reviewer Listings Audit Report appears.
+ Tip : Click Show Filters above the upper-right corner of the table to filter the report by Start Date and End Date .
+- Optional : To export the audit report, click Export in the upper-right corner of the page, and then select one of the following:
+- To Excel 
+- To CSV 
+- To PDF

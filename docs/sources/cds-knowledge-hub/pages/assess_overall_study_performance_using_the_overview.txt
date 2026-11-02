@@ -1,0 +1,31 @@
+# Assess Overall Study Performance Using the Overview
+
+## Assess Overall Study Performance Using the Overview
+## Description
+ Medidata Detect now includes the Overview page. The Overview is the initial landing page when you launch Medidata Detect . The Overview provides Medidata Detect's summarized analysis of your study data by reporting: 
+- An overall study performance assessment based on an  A-F grading scale . 
+- The percentage of discrepant data in your study data at the overall study level. 
+- The average discrepancy score for all data points in the study. 
+- The most discrepant, high-risk individual study factors at the following perspectives: 
+- Risk Categories 
+- Domains 
+- Countries 
+- Sites 
+ The Overview serves as a clear starting point in your study data review process by:
+- Reporting the overall health and level of discrepant data in the study. 
+- Presenting the worst to best performing aspects within each data perspective based on percentage of discrepant data. 
+- Providing guided navigation, which allows you to easily drill down and investigate the aspects and specific data most requiring your attention. 
+## Affected Roles
+ All Medidata Detect users use the Overview. Based on your role in a study, you may want to focus on specific data perspectives or aspects within a perspective. 
+## Advantages
+ The Overview: 
+- Provides a clear and natural starting point in your study data review process. 
+- Navigates you on the optimal path to find and investigate the data that's most important and relevant to you. 
+- Provides quick and easy access to the error plots. 
+- Ensures you are always clearly oriented within Medidata Detect . 
+- Expedites the data review process. 
+- Leads to higher-quality study data. 
+## User Impact
+ The Overview is the initial landing page when you launch Medidata Detect .   You can  navigate to the Overview page from any other Medidata Detect page. To learn more, see   Overview . 
+## Special Considerations
+ None.

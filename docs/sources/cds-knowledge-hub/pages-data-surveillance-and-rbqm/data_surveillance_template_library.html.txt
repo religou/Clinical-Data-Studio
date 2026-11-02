@@ -1,0 +1,30 @@
+# Data Surveillance Template Library
+
+## Data Surveillance Template Library
+ You can use templates in Data Surveillance and RBQM to save and store commonly used data listing , custom graph,  QTL , custom numeric KRI, or custom percentage KRI configurations for reuse within a study.
+## What Are Templates?
+ Templates are listing, custom graph, QTL,  custom numeric KRI , or custom percentage KRI  configurations that you can save and store in your organization's global template library. 
+## What Is the Purpose of Templates?
+ You can store and reuse common listing, custom graph , QTL, and KRI configurations that your organization is likely to include in multiple study configurations.
+## Who Uses Templates?
+ Members of your organization who build studies can save and store listing, custom graph , QTL, and custom KRI configurations as templates in your organization's template library.
+ Members of your organization who review data; for example, study managers or data managers, can import and reuse listing and KRI configuration templates in studies.
+## What Are the Benefits of Templates?
+ Adding and using specific listings,  custom graphs, QTLs, and custom KRIs as templates:
+- Enables you and your team to quickly and easily reapply common data listings, custom graph s,  QTLs, and custom KRIs as needed across study configurations. 
+- Promotes faster study start time. 
+- Ensures consistency and accuracy in listing, custom graph , QTL, and custom KRI details across studies. 
+## How Do Templates Work?
+ In Listings , Custom Graphs ,  QTL Configuration , and KRI Configuration , you can save listing, custom graph , QTL, or custom KRI configurations, respectively, as templates. When you save templates, you export and store the templates in a template group.
+ Template groups generally comprise a collection of templates that you might logically bundle together and use when building studies. For example, you could have a template group that consists of one or more listings, or a combination of listings, QTLs, and KRIs. Templates in the template group may pertain to studies based on therapeutic area, phase, or therapy . 
+ Template groups live at the study  level . You can access and reuse templates for any study across studies . Your organization has its own client division-level global template library in Data Surveillance and RBQM . You can create template groups in the template library. The template library also stores and lists the collection of your organization's templates groups and associated templates. 
+## How Do I Create, Manage, and Use Templates?
+ See:
+- View, Add, and Manage Template Groups 
+- Add Listings as Templates to Template Groups 
+- Add Custom Graphs Templates to Template Groups 
+## Permission Requirements
+ Template access requires the following permissions:
+- Manage Detect Templates 
+- View Detect Templates 
+ To learn more about permissions, see  RBQM Building Blocks and Permissions .

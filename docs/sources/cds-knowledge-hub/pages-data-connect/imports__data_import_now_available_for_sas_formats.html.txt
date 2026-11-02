@@ -1,0 +1,23 @@
+# Imports: Data Import Now Available for SAS Formats
+
+## Imports: Data Import Now Available for SAS Formats
+## What Is New?
+ Users can now import datasets in SAS formats (.SAS7BDAT and .XPT).
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ There is no change to the existing process. Users can now, however, import datasets in SAS formats.
+## Other Applications
+- Data Connect   >   Datasets   and   Transformations   – Users can see the datasets imported with Imports when using Data Connect's Datasets module or the Transformations module. 
+- Data Surveillance   and   RBQM   – Users can use the transformed imported data for use by downstream capabilities such as Data Surveillance and RBQM. 
+- Data Connect   >   Exports   – Users can export transformed data using imported external data from Data Connect's Exports module. 
+## How Do I Benefit?
+ Clinical statisticians and programmers commonly use SAS formats as an analytical tool to make data ready for submission. With Imports, you can now import data in .SAS7BDAT and .XPT formats without converting them to CSV. 
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Imports tab. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this enhancement : 
+- Add Dataset 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

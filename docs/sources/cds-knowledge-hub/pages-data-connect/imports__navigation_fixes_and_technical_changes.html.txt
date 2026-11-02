@@ -1,0 +1,23 @@
+# Imports: Navigation Fixes and Technical Changes
+
+## Imports: Navigation Fixes and Technical Changes
+## What Is New?
+ As a part of November 2024 release, the Imports experience introduces internal code changes: 
+- When the users switch between different studies in imports, they are to Data Connect - Imports home page. 
+- Users can now preview the latest version of a dataset. 
+- Technical updates to improve consistency for dataset level record IDs. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+## There is no impact to the workflow processes, however users are now only able to preview the latest dataset. Preview for older dataset versions are disabled.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ These updates improve the look, feel, and navigation of the respective experiences.  
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Imports tab. 
+## Where Do I Learn More?
+ There are no additional relevant resources.
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

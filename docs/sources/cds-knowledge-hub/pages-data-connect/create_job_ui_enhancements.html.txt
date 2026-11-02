@@ -1,0 +1,15 @@
+# Create Job UI Enhancements
+
+## Create Job UI Enhancements
+## Description
+ Enhancements to user interface (UI) when using the extract job wizard include the following updates: 
+- Improved variable drag-and-drop functionality in the New Export Job wizard's Name Outputs step. 
+- Renamed the Data Type "Rave EDC [Raw]" to "EDC [Raw]" as data can originate from EDC systems other than Rave. 
+## Affected Roles
+ All roles with the Manage Extracts permission.
+## Advantages
+ The usage of variables in the Name Outputs step works consistently, and the dashed border of the drag region disappears when all variables are used in output names.
+## User Impact
+ See the Description section.
+## Special Considerations
+ None.

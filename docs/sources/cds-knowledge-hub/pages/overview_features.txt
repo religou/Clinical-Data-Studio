@@ -1,0 +1,10 @@
+# Overview Features
+
+## Overview Features
+ Medidata Detect includes the following overview-related capabilities:
+- Assess Overall Study Performance Using the Overview 
+- Impact Factor Scores and Prioritizes Most Critical Study Data Quality Issues 
+- Top Contributors List Now Includes KRIs and Event Incidences 
+- Filter Perspectives to Display Only the Aspects You Want to View 
+- Role-based Permissions Now Determine the Pespectives You Can View and Access 
+- Top Contributors List Now Includes Site Trends

@@ -1,0 +1,12 @@
+# Reports
+
+## Reports
+ Medidata Patient Profiles includes the following capabilities relating to reviewing and auditing design reports:
+- Patient Profiles: Audit Details Capture Reviews and Comments 
+- Patient Data Surveillance: Patient Profiles Enhancements for November 2023 
+- Design Reports Show Last Updated And Published Details 
+- Review and Audit Designs Patient Profiles 
+- Design Report Enhancements 
+- Quickly View a Date Variable's Date Format on the Reports Page 
+- Standardized Data Type Terminology 
+- Patient Profile PDFs Include Additional Details in Page Footers

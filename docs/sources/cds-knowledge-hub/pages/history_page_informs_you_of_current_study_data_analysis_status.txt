@@ -1,0 +1,24 @@
+# History Page Informs You of Current Study Data Analysis Status
+
+## History Page Informs You of Current Study Data Analysis Status
+## Description
+ The History page shows a banner informing you about:
+- The current status and time stamp of the study data analysis currently output in Detect, or 
+- The availability of more recent study data analysis. 
+## Affected Roles
+ Medidata Detect administrators
+## Advantages
+ You have a clearer understanding of how recently collected and analyzed the Detect data you are viewing is.
+ The banner also better informs you of whether:
+- You are looking at the most recently available data analysis. 
+- There are any issues preventing you from viewing the analysis of the most recently available data. 
+## User Impact
+ The History page shows one of the following banners depending on the current status of the study data analysis:
+- If Detect is currently rendering analytics for the most recent study data analysis, the following message appears: "You are viewing Detect's most recent study data analysis, which generated on <snapshot date and time stamp in user's local time>." 
+- If Detect is currently not rendering analytics for the most recent study data analysis, the following message appears: "Detect performed a new study data analysis on: <snapshot date and time stamp in local time>. Click Refresh to view Detect's latest study data insights and visualizations." 
+- If Detect is currently processing but not yet rendering analytics for the most recent study data analysis, the following message appears: "Detect is currently refreshing to display the most recent study data analysis, generated on: <snapshot date and time stamp in local time>." 
+- If Detect fails to refresh to render analytics for the most study data analysis, the following message appears: "Detect is unable to refresh and output the most recent data analysis generated on: <snapshot date and time stamp in local time>. Trace id: <trace_id>. Contact your Medidata representative." 
+## Knowledge Space Updates
+ None.
+## Special Considerations
+ None.

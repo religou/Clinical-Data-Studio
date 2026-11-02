@@ -1,0 +1,31 @@
+# Vendor Queries
+
+## Vendor Queries
+ Data with missing or incorrect information can undermine study integrity or even patient safety. Reconciliation between third-party vendors and data in Medidata Rave is common and necessary to ensure accurate data is being reported in both systems.  With the Vendor Queries, you can report external data issues and track communication with vendors. For example, you can create Vendor Queries for: 
+- Data Managers to group issues by vendor during data reconciliation. 
+- Programmers to enquire the completeness and accuracy of lab data imports. 
+- Study team members to manage records with outstanding data issues. 
+## What Is Vendor Queries?
+ Vendor Queries is a Data Surveillance capability that enables you to manage external data queries and issues with vendors. 
+## What Is the Purpose of Vendor Queries?
+ While reconciling data, you may identify patient records with incorrect or missing vendor data. You can use Vendor Queries to group data listing records with external data issues into vendor query sets, track communication with vendors, and mark records as reviewed once the vendor responds.   
+## Who Uses Vendor Queries?
+ Study managers and data managers.
+## What are the Benefits of Using Vendor Queries?
+ Vendor Queries:
+- Allows users to easily track all Vendor Queries in a central location.  
+- Provides easy management of discrepancies and inconsistencies with vendors. 
+- Facilitates faster reconciliation of Rave and external vendor data. 
+ You can also build easily downloadable and shareable vendor query sets for vendor consumption and action. Vendor Queries s aves time and effort by integrating tracking of Vendor Queries into your data review process and ensures study data integrity. 
+## How Does Vendor Queries Work?
+ When reviewing an approved listing's results, you can report issues on external data by creating Vendor Queries. When creating Vendor Queries, you can group multiple patient records into a single vendor query set. You can then  submit the vendor query sets you raised for patient records to approved vendors. Once the vendor responds to the queries, you can mark the patient records as reviewed.  
+ You can also: 
+- View Query sets . 
+- Download query sets. 
+- Submit Vendor Query sets . 
+- Delete query sets . 
+- View and export Vendor Audit Reports . 
+## How Do I Create Vendor Queries?
+ See Create Vendor Queries .
+## How Do I Access Vendor Queries?
+ See Access and View Vendor Queries .

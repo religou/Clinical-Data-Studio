@@ -1,0 +1,93 @@
+# Data Oversight: Updated And Rebranded Task Oversight Includes Enhanced Capabilities
+
+## Data Oversight: Updated And Rebranded Task Oversight Includes Enhanced Capabilities
+ Important :
+- For a summary of changes done to these release notes, if any, see the revision history . 
+- For features and enhancements covered in previous releases, see the  releases history.   
+- For a summary of all features released, the   released features index . 
+## Change Details
+ Product 
+ | Clinical Data Studio
+ Version 
+ | 2026.3.0
+ Change Type 
+ | Enhancement (Updated Functionality) 
+ Functionality or Module 
+ | Task Oversight 
+ Summary of Changes 
+ | 
+ As highlighted in the Release Newsletter :
+ The Data Oversight dashboard is now renamed to Task Oversight. Task Oversight serves as a singular place to understand key operational activities like set up, data import, refresh, and data review as documented in Data Connect and Data Surveillance. It also includes key metrics for Custom Graphs, in addition to all published Patient Profile designs, Listings, Vendor Queries, AI Reconciliation reports.  
+ Benefit to Users 
+ | Task Oversight provides:
+- Complete operational transparency – Lead Clinical Data Managers (LCDMs) and Clinical Data Team Leads (CDTLs) can access critical operational metrics and user work compliance from a single page. 
+- Flexibility to select key operational metrics – You can select metrics of interest to display on the Task Oversight dashboard, such as:
+- Metrics covering reviewed patient profiles, and last refresh date. 
+- Visibility into listings created, last refresh date, and records reviewed/not reviewed per listing. 
+- Tracking unreviewed AI Reconciliation data per report. 
+- Tracking Custom Graphs data for all charts. 
+- Tracking reviewed vendor queries per query set. 
+- Reduced friction and risk – By centralizing information, Task Oversight avoids the need to switch between multiple capabilities, bringing critical information directly into one page.  
+ Summary of User Impact 
+ | 
+ Impact to Users and Roles 
+- Lead Clinical Data Managers (LCDMs) and Clinical Data Team Leads (CDTLs). 
+- All users with the View CDS Task Oversight building block. 
+ Impact to Workflow Processes 
+ Task Oversight reads data from the following modules based on their latest refresh data snapshot.
+- Patient Profiles. 
+- AI Reconciliation. 
+- Listings. 
+- Custom Graphs. 
+- Vendor Queries, and 
+- Data Connect. 
+ Updates made to records, such as marking listings as reviewed or unreviewed, or similar actions in any of the modules, reflects in the metrics shown on the Task Oversight dashboard instantly. 
+ Impact to Applications 
+ Data Oversight reads data from the following capabilities:
+- Patient Profiles. 
+- AI Reconciliation. 
+- Listings. 
+- Custom Graphs. 
+- Vendor Queries, and 
+- Data Connect. 
+ Impact on Interface 
+ The Task Oversight tab appears with the following details:
+ Number 
+ Description 
+ | 1 
+ | Clinical Data Studio's   Data Oversight tab is now renamed as Task Oversight . If you click the Task Oversight tab, the Task Oversight page appears and displays all the configured modules and their associated metrics. Any configurations you make remain the same every time you log into Clinical Data Studio > Task Oversight.
+AI Reconciliation or Listings cards include data refresh icons, and if you hover, a tooltip shows the total refreshes for each module. For any metrics card on the Task Oversight dashboard, the last refreshed date and time appear in the user's local time zone. 
+ | 
+ | 2 
+ | Custom Graphs – The Task Oversight page now includes metrics for Custom Graphs (previously known as Visualizations) if you configure the module in the Select Widgets pane. Custom Graphs shows the total configured visuals in your study. Each row shows a custom graph, its last refreshed date, and the person who refreshed. If you click  View All Custom Graphs , a page shows a list of all custom graphs in the study. 
+ | 
+ | 3 
+ | Patient Profiles – The updated patient profiles section shows metrics for all published patient profile designs, with the master profile design indicated with the key icon as the first row. If you click View All Patient Profile s , a page shows a list of all published profile designs in the study. For any profile design you select, the metrics show:
+- Profile Name 
+- Total Patients 
+- Status   – Reviewed, Not Reviewed, or Needs Review. 
+ | 
+ | 4 
+ | Listings – The updated listings section shows the count of all listings in the study, categorized by status; draft or approved.  
+ | 
+ | 5 
+ | Configure Widgets – The updated Configure Widgets slide-out panel appears when you click Configure Widgets . The slide-out panel now allows you to view and select all approved listings, all published patient profile designs, and custom graphs in the study, showing them, 5 at a time. You can also search or filter by specific names, for example Listing124 .
+ | 
+ Impact to Existing Data or Settings 
+- No existing data changes; no configuration required. 
+- All CDS Data Oversight building blocks are updated to CDS Task Oversight. 
+ User Impact Assessment 
+ | High 
+ Learning Resource Updates 
+ | The following lists resources that support this change: 
+- Updated Article:   Data Oversight  
+ Special Considerations 
+ | To view Medidata testing documentation for this release, see the   Medidata Validation Portal. 
+## Definitions
+ Acronym Glossary 
+ For definitions of the different acronyms that can appear in the Knowledge Hub, see  Global Acronym Glossary .
+ User Impact Assessment 
+ The impact of the change on system behavior and on the user's interaction with it.
+- Low – There is no change to current software behavior.
+- Moderate – Change includes corrections or improvements that may change user interaction with the software, such as minor UI or minor functionality changes.
+- High – Change includes software changes which require review of existing settings, workflow and/or operational procedures to ensure correct user interaction with the software.

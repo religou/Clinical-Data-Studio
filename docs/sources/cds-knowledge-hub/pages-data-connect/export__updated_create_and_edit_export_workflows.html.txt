@@ -1,0 +1,25 @@
+# Export: Updated Create and Edit Export Workflows
+
+## Export: Updated Create and Edit Export Workflows
+## What Is New?
+ Technical changes to Data Connect's Create Export and Edit Export workflows to: 
+- Improve performance and backend processes.  
+- For the users that are redirected from Data Connect's Transformation to Create Export workflow can see pre-populated fields. 
+- You can select multiple studies in a single export. 
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No Impact to the workflow process. However, you can select multiple studies while creating the export or when you edit an export.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ The transition from Data Connect's Transformations module to the Create Export workflow facilitates a smooth  transition that includes some pre-populated fields. This reduces manual input and minimizes the number of clicks required to create an export. By automating data population, you can focus on configuring the export with minimal effort. 
+ The multiselect feature in the study drop down enhances the user experience. 
+## Where Do I See the Change?
+ No changes to the user interface.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Enhancement: 
+- Extracting Data with Exports 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

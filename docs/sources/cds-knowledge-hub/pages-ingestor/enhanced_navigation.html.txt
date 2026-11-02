@@ -1,0 +1,21 @@
+# Enhanced Navigation
+
+## Enhanced Navigation
+## Description
+ With the streamlined import job dashboard, you can review import jobs easily and navigate the dashboard with fewer clicks. In this release, you can: 
+- Navigate to MEDS Ingestor from a client division as well as the study level from iMedidata.  
+- Select a Data Integration version for each study environment. 
+- Expand or collapse the import dashboard view by study and environment. 
+ Feature/enhancement stories referenced in this article:
+ MCC-464293, MCC-495029, MCC-510806, MCC-519345, MCC-528322, MCC-532214, MCC-532215 
+## Affected Roles
+ All roles with access to MEDS Ingestor.
+## Advantages
+ With the streamlined import job dashboard, you can  review import jobs easily and navigate it with fewer clicks.  The grouping of Import jobs by Study across a Client Division provides a broad overview of all import jobs. 
+## User Impact
+ You can:
+- navigate to MEDS Ingestor from study level as well as Client Division from the navigation bar, and 
+- narrow the job list to a specific study if you have access to many studies. 
+ The label 'DTS Name' is now labelled 'Version Name' for consistency with  Medidata Designer .
+## Special Considerations
+ None.

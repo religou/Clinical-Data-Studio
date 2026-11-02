@@ -1,0 +1,10 @@
+# Rerun Export
+
+## Rerun Export
+ You can rerun a previously completed export to get the latest data instead of creating an export. You can rerun an export from the Exports screen. After rerunning the export, a new instance of the export appears on the Export Run History screen. Once the export completes, you can download the extracted data files. For details, see Download Data Extracts . 
+- Access Data Connect , and click   Exports   in the left-hand menu to land on the Exports screen.
+ Note : You can only see the exports you created unless you have Super User permission that allows you to see all exports in the study group. For details, see Data Connect Roles and Capabilities . 
+- Identify an export to rerun, and click the Options icon >  Run Now .
+ Note : 
+- You can only select Run Now for the exports you created. You cannot execute exports created by another user. 
+- You cannot select Run Now when the export is "In Progress."

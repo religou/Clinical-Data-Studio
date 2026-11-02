@@ -1,0 +1,28 @@
+# Preview, Edit, and Download Plan Documents
+
+## Preview, Edit, and Download Plan Documents
+ You can preview a plan document to evaluate whether the plan generates in the expected format with normal looking results. You can preview both a draft or a published document. You can further download the plan and distribute it to study team members for use. 
+## Preview Plan Documents
+- If necessary, create a plan , and then add elements . 
+- Optional. Toggle on the  Table of Contents from the top-right corner of the page, if you want to include a table of contents in your plan. 
+-   Click Preview .
+ The Preview shows all the data pulled from elements you added into the plan document. In the preview mock data appears in the Document Workspace for dynamic elements like Risk Inventory and Critical Data tables you add into the plan. 
+## Edit Plan Documents
+- If necessary, create a plan , and then add elements . 
+- On the Plan Documents page, click the plan you want to edit. 
+- Edit the plan document as needed. 
+- Optional. Toggle on the Table of Contents from the top-right corner of the page, if you want to include a table of contents in your plan. 
+- Optional . Click Preview .
+ The Preview shows all the data pulled from elements you added into the plan document. 
+- Click Save .
+The plan document saves with a new version. Any mock data that appears in the Document Workspace for dynamic elements like Risk Inventory and Critical Data tables in the preview, replaces with actual data in the saved document. 
+## Download Plan Documents
+- If necessary, create a plan , and then add elements . 
+- On the Plan Documents page, click  , the More icon, in row corresponding to any plan. 
+- Click Create PDF . 
+- Optional.  Toggle on the Table of Contents from the top-right corner of the page, if you want to include a table of contents in your plan. 
+- Optional. Click  Preview .
+ The Preview shows your data plan with all the sections. 
+- Click Download PDF . 
+A PDF version of the plan with dates, title, and page numbering along with all the sections you added, downloads to your browser. 
+ Note : No Latin characters display in the Document Workspace and the downloaded PDF. Similarly, no headers, footers, or images appear in the downloaded PDF. Some duplication around page breaks may occur in some PDF files.

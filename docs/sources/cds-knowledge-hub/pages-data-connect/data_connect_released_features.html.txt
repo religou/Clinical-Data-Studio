@@ -1,0 +1,753 @@
+# Data Connect Released Features
+
+## Data Connect Released Features
+ Data Connect includes the following features, enhancements, and resolved issues that have been documented over the history of the releases:  Data Connect Releases History . 
+ Imports 
+- 
+ Introducing Data Connect 
+- 
+ Imports: Import External Data with Data Connect 
+- 
+ Imports: Interface and Technical Enhancements for Data Connect 2026.3.3 
+- 
+ Imports: Veeva Direct Connect Enhancements for 2026.3.0 
+- 
+ Imports: Compatibility Enhancements and Preparation for Future Capabilities 
+- 
+ Imports: Support for Versionless Veeva EDC Datasets 
+- 
+ Codelist and Unit Codelist Support for Veeva EDC 
+- 
+ Imports: Quality of Life Updates for Data Connect 2025.6.2 
+- 
+ Imports: Direct Querying Compatibility for Veeva EDC 
+- 
+ Imports: Processing Enhancements for Data Connect 2025.4.1 
+- 
+ Internal and Technical Changes in Data Connect for 2025.3.1 
+- 
+ Imports: Upgrade Dataset Version in Collections 
+- 
+ Imports: Trigger Immediate Data Synchronization for Veeva Datasets 
+- 
+ Imports: Technical and Interface Updates for 2025.2.3 
+- 
+ Datasets: Interface Updates for 2025.2.3 
+- 
+ Imports: Ability to Import External Data from Veeva EDC 
+- 
+ Imports: Import Support for Third-party EDC Data 
+- 
+ Imports: Partial Date Support for External Data 
+- 
+ Imports - Technical Changes for Data Connect Imports 2025.1.0 
+- 
+ Imports - DateTime Data Type Added for Dataset Configuration 
+- 
+ Manage Third-Party Data Transfers with Sync 
+- 
+ Imports: Navigation Fixes and Technical Changes 
+- 
+ Imports: Configure Datasets with Codelists 
+- 
+ Imports: View Creation Details for Data Sources and Datasets 
+- 
+ Imports: Data Import Now Available for SAS Formats 
+- 
+ Imports: Automatic Data Type Selection During Dataset Configuration 
+- 
+ Imports: Streaming Cleanup for Updated Datasets 
+ For a list of released features prior to Data Connect's June 2024 release, see  Imports Released Features - 2023 and Earlier .
+ Exports 
+- 
+ Updated SFTP Support 
+- 
+ Hourly Extractions Now Available 
+- 
+ Store Extracts on Secure FTP Sites 
+- 
+ Study Master Data Extraction Now Available 
+- 
+ Extract Data from CTMS 
+- 
+ New Job Configuration Details Page 
+- 
+ New Job History Page 
+- 
+ Rerun Data Extracts 
+- 
+ Revised Permissions for Export Jobs 
+- 
+ Schedule Data Extracts 
+- 
+ Search Studies 
+- 
+ Workflow for New Export Job 
+- 
+ Create Data Extracts in MEDS Extractor 
+- 
+ Review Data Extracts in MEDS Extractor 
+- 
+ Audit Data Extraction Now Available 
+- 
+ Include Multiple Studies in an Export Job 
+- 
+ Incremental Data Extraction Now Available 
+- 
+ Job Archival Now Available 
+- 
+ Super User Role Now Available 
+- 
+ Amazon S3 Extraction Location Option Now Available 
+- 
+ Extract User Login History Data 
+- 
+ Rave Audit Data Export Now Available for Selected Users 
+- 
+ SQL-based Post Processing for Exports 
+- 
+ Incremental Master Data Extraction Now Available 
+- 
+ Introducing Data Connect 
+- 
+ Task Management Data Extraction Now Availbale 
+- 
+ Client Division Level Extraction Now Available 
+- 
+ SAS Export File Support for Data Extracts 
+- 
+ Internal Technical Updates in MEDS Extractor 2021.2.0 
+- 
+ New Home Page for MEDS Extractor 
+- 
+ Updated Job Configuration and Job History Details 
+- 
+ Create Job UI Enhancements 
+- 
+ Improved Job List 
+- 
+ Improved Sort Order for Environments 
+- 
+ Job List Usability Enhancements 
+- 
+ Navigation Enhancements 
+- 
+ Exports: Interface and Technical Enhancements for Data Connect 2026.2.1 
+- 
+ Externalized API Endpoints for MEDS Extractor 
+- 
+ Ability to Pause and Resume Schedule Jobs 
+- 
+ Ability to Delete Output File Location Now Available 
+- 
+ Exports: Export Datasets with Data Connect 
+- 
+ Updated Instructional Text for CTMS and Master Data Export Jobs 
+- 
+ Interface Updates in Extractor 2023.2.0 
+- 
+ Exports: Export Configuration Updates for Data Connect 2025.5.0 
+- 
+ Exports: Internal and Technical Changes in Data Connect 2025.5.0 
+- 
+ Internal and Technical Changes in Data Connect for 2025.3.2 
+- 
+ Exports: Export Multiple Data Sources from Data Connect Data Type 
+- 
+ Export: Updated Create and Edit Export Workflows 
+- 
+ Exports: Technical Changes for Data Connect 2025.2.5 
+- 
+ Exports: Interface Enhancements for September 2024 
+- 
+ Exports: Data Export Now Available in JSON Format 
+- 
+ Exports: View Dataset Versions in Export Settings, Edit Exports and Create Exports 
+- 
+ Exports: Technical Changes for April 2025 
+- 
+ Extractor Now Compatiable with Platform Workbench 
+- 
+ Export Job Editing Now Available 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+- 
+ FTPS Location Support for Export Jobs 
+- 
+ Create Export Jobs with Externalized API Endpoints 
+- 
+ Job Run Notifications 
+- 
+ Exports: Interface Enhancements and Technical Changes for Data Connect 2025.1.0 
+- 
+ Exports - Improved Error Handling for Export Failures 
+- 
+ Exports: Technical Changes for January 2025 
+- 
+ Exports - Interface Enhancements for January 2025 
+- 
+ Exports: Interface Enhancements and Technical Changes for November 2024 
+- 
+ Exports: Export Data with Date Range 
+- 
+ Selectable Data Sets During Export Job Creation 
+- 
+ Download Period for Successful Exports Extended to 60 Days 
+- 
+ Internal and Technical Changes in Extractor for 2024.1.0 
+- 
+ Internal Technical Changes in Extractor 2023.1.0 
+- 
+ Internal Technical Changes in Extractor 2023.2.0 
+- 
+ Internal Technical Updates in MEDS Extractor 2021.3.0 
+- 
+ Updates to Export Job List Screen 
+- 
+ Internal and Technical Changes in Extractor for 2023.3.0 
+- 
+ File Export Type Selection Update 
+- 
+ Internal and Technical Changes in Extractor 2022.4.0 
+- 
+ Internal Technical Updates in Extractor 2022.3.0 
+- 
+ Internal Technical Updates in MEDS Extractor 2022.1.0 
+- 
+ Internal Technical Updates in MEDS Extractor 2022.2.0 
+- 
+ Product Name Changed to Extractor 
+- 
+ Table Filtering Enhancements 
+- 
+ Date Validation While Creating Export Jobs 
+ For a list of released features prior to Data Connect's June 2024 release, see  Exports Released Features - 2023 and Earlier .
+ Datasets and Transformations 
+- 
+ SDTM-like Data Set Creation and Standardization 
+- 
+ Support for Derived Data Sets 
+- 
+ Custom View Creation Now Available 
+- 
+ Introducing Data Connect 
+- 
+ Domain and Concept Configuration 
+- 
+ Revamped Data Project Creation and Review Capabilities 
+- 
+ Map Rave EDC Form Records with Platform Workbench 
+- 
+ Revamped Source to Target Mapping and Transformation 
+- 
+ Transformations: Support for Versionless Veeva EDC Datasets 
+- 
+ Transformations: Internal and Technical Changes in Data Connect 2026.1.0 
+- 
+ Codelist and Unit Codelist Support for Veeva EDC 
+- 
+ Data Lake House Integration with Sync 
+- 
+ Datasets and Transformations: Interface Enhancements for December 2024 
+- 
+ Transformations: Support for Third-Party Data from Non-EDC Sources 
+- 
+ Datasets and Transformations – Technical Changes for Data Connect 2025.1.0 
+- 
+ Datasets: Improved Permissions Between Modules 
+- 
+ Datasets: Technical Changes and Preparatory Development for June 2024 
+- 
+ Datasets and Transformations: Performance Enhancement for QC 
+- 
+ Datasets and Transformations: Technical Changes for Data Connect 2025.3.0 
+- 
+ Datasets and Transformations: Introducing Derived Dataset Templates and Platform Library for Templates 
+- 
+ Datasets and Transformations: Interface Updates for Data Connect 2025.3.0 
+- 
+ Datasets - Ability to Enable Rave Query Data for Existing Derived Datasets 
+- 
+ Datasets and Transformations - Technical Changes and Preparatory Development for Data Connect 2025.2.0 
+- 
+ Datasets and Transformations: Technical Changes for 2025.2.3 
+- 
+ Datasets: Interface Updates for 2025.2.3 
+- 
+ Datasets and Transformations: Ability to Reuse SDTM Configurations 
+- 
+ Datasets and Transformations: Internal and Technical Changes for December 2024 
+- 
+ Datasets and Transformations - Interface Updates for Data Connect 2025.1.0 
+- 
+ Transformations: Ability to Save Customized Datasets as Templates 
+- 
+ Ability to Export Transformed Data Sets 
+- 
+ Transformations Now Include Multiple Concatenation 
+- 
+ Ability Delete Custom Transformations Now Available 
+- 
+ Ability to Delete Manually Entered Records for Selected Domains 
+- 
+ Unit Conversion Now Available 
+- 
+ Data Lake House Integration with Extractor 
+- 
+ Datasets and Transformations: Technical Changes for November 2024 
+- 
+ Datasets and Transformations: Interface Enhancements for November 2024 
+- 
+ Datasets and Transformations: Interface Enhancements for August 2024 
+- 
+ Internal Technical Changes in Platform Workbench 2023.2.0 
+- 
+ Internal and Technical Changes in Platform Workbench for 2023.1.0 
+- 
+ Internal and Technical Changes in Platform Workbench 2023.3.0 
+- 
+ Filtered Views During Field-Variable Mapping 
+- 
+ Internal and Technical Changes in Platform Workbench for 2023.4.0 
+- 
+ Transformations and Developer Center: Data Connect R SDK Integration 
+- 
+ Transformations: Upstream Editing for Filter, Union, and Join Operators 
+- 
+ Transformations - Support for SDTM IG v3.3 and v3.4 and Latest CDiSC Controlled Terminology 
+- 
+ Transformations: Interface Updates to Transformations for June 2024 
+- 
+ Transformations: Edit Derived Variables in Intermediary Nodes 
+- 
+ Transformations: Updates to Unit Conversion Workflow, Veeva EDC Datasets, and Other Enhancements 
+- 
+ Transformations: Derived Variable and Field Count Enhancements 
+- 
+ Transformations: Quality of Life Enhancements in Data Connect 2026.1.0 
+- 
+ Datasets and Transformations: Dataset Activation for Third-party EDC Data 
+- 
+ Transformations: Enhanced String Transformations for Derived Variables 
+- 
+ Transformations: Project Archive Ability Now Available 
+- 
+ Datasets: Organize Datasets with Dataset Collections 
+- 
+ Transformations: Quality of Life Updates in 2025.6.0 
+- 
+ Transformations: Quality-of-Life Updates in Data Connect 2025.5.0 
+- 
+ Datahub: Interface Updates for Data Connect 2025.3.5 
+- 
+ Transformations: Internal and Technical Changes in Data Connect 2025.5.0 
+- 
+ Data Connect - Centralized Error Handling of Datasets 
+- 
+ Datasets: Interface Updates for Data Connect 2025.3.0 
+- 
+ Transformations: Internal and Technical Change in Data Connect for 2025.3.6 
+- 
+ Datasets: Data Profiling and Comparision 
+- 
+ Transformations - Partial Date Support for Rave Data 
+- 
+ Datasets - Interface Enhancements for 2025.1.0 
+- 
+ Transformations: SDTM Projects Validation with Pinnacle 21 
+- 
+ Datasets and Transformations: Technical Changes 
+- 
+ Transformations - Configuration Locking for Dataset Preview and Quality Check 
+- 
+ Transformations - Automated Visit Mapping 
+- 
+ Transformations: Automated Mapping for SDTM Data Models and Unit Conversion 
+- 
+ Transformations: Ability to Add Custom Analytes 
+- 
+ Transformations: Improved Date Format Processing in Field Transformation 
+ For a list of released features prior to Data Connect's June 2024 release, see  Datasets and Transformations Released Features - 2023 and Earlier .
+ UI Updates and Technical Enhancements 
+- 
+ Internal Technical Updates in MEDS Extractor 2021.2.0 
+- 
+ Introducing the Enhanced Release Notes Experience 
+- 
+ Imports: Technical Changes and Preparatory Work for Future Capabilities in Data Connect 2026.2.5 
+- 
+ Transformations: Internal and Technical Changes in Data Connect 2026.2.6 
+- 
+ Exports: Interface and Technical Enhancements for Data Connect 2026.2.1 
+- 
+ Internal and Technical Changes in Data Connect 2026.1.2 
+- 
+ Transformations: Internal and Technical Changes in Data Connect 2026.1.0 
+- 
+ Datahub: Internal and Technical Changes in Data Connect for 2025.6.3 
+- 
+ Transformations: Quality-of-Life Updates in Data Connect 2025.5.0 
+- 
+ Transformations: Internal and Technical Changes in Data Connect 2025.5.0 
+- 
+ Interface Updates in Extractor 2023.2.0 
+- 
+ Datasets: Technical Changes and Preparatory Development for June 2024 
+- 
+ Exports: Export Configuration Updates for Data Connect 2025.5.0 
+- 
+ Exports: Internal and Technical Changes in Data Connect 2025.5.0 
+- 
+ Transformations: Internal and Technical Change in Data Connect for 2025.3.6 
+- 
+ Datahub: Interface Updates for Data Connect 2025.3.5 
+- 
+ Internal and Technical Changes in Data Connect for 2025.3.1 
+- 
+ Internal and Technical Changes in Data Connect for 2025.3.2 
+- 
+ Internal Technical Changes in Platform Workbench 2023.2.0 
+- 
+ Internal and Technical Changes in Platform Workbench for 2023.1.0 
+- 
+ Internal and Technical Changes in Platform Workbench 2023.3.0 
+- 
+ Internal and Technical Changes in Platform Workbench for 2023.4.0 
+- 
+ Internal and Technical Changes in Extractor for 2024.1.0 
+- 
+ Internal Technical Changes in Extractor 2023.2.0 
+- 
+ Internal Technical Updates in MEDS Extractor 2021.3.0 
+- 
+ Internal and Technical Changes in Extractor for 2023.3.0 
+- 
+ Internal Technical Updates in MEDS Extractor 2022.1.0 
+- 
+ Internal Technical Updates in MEDS Extractor 2022.2.0 
+- 
+ Product Name Changed to Extractor 
+- 
+ Imports: Enhanced Veeva API Requests 
+- 
+ Transformations: Upstream Editing for Filter, Union, and Join Operators 
+- 
+ Imports: Performance and Reliability Enhancements, and Preparation for Future Capabilities 
+- 
+ New Home Page for MEDS Extractor 
+- 
+ Updated Job Configuration and Job History Details 
+- 
+ Create Job UI Enhancements 
+- 
+ Improved Job List 
+- 
+ Improved Sort Order for Environments 
+- 
+ Job List Usability Enhancements 
+- 
+ Navigation Enhancements 
+- 
+ Transformations - Support for SDTM IG v3.3 and v3.4 and Latest CDiSC Controlled Terminology 
+- 
+ Transformations: Interface Updates to Transformations for June 2024 
+- 
+ Transformations: Edit Derived Variables in Intermediary Nodes 
+- 
+ Imports: Interface and Technical Enhancements for Data Connect 2026.3.3 
+- 
+ Imports: Veeva Direct Connect Enhancements for 2026.3.0 
+- 
+ Transformations: Updates to Unit Conversion Workflow, Veeva EDC Datasets, and Other Enhancements 
+- 
+ Imports: Direct Querying Compatibility for Veeva EDC 
+- 
+ Transformations: Derived Variable and Field Count Enhancements 
+- 
+ Imports: Compatibility Enhancements and Preparation for Future Capabilities 
+- 
+ Developer Center: Enhancements and Updates in Data Connect 2026.1.4 
+- 
+ Transformations: Internal and Technical Changes in Data Connect 2026.1.4 
+- 
+ Imports: Support for Versionless Veeva EDC Datasets 
+- 
+ Transformations: Quality of Life Enhancements in Data Connect 2026.1.0 
+- 
+ Developer Center: Developer Center and Data Source Enhancements 
+- 
+ Transformations: Enhanced String Transformations for Derived Variables 
+- 
+ Imports: Quality of Life Updates for Data Connect 2025.6.2 
+- 
+ Developer Center - Quality of Life Updates for Data Connect 2026.1.0 
+- 
+ Transformations: Quality of Life Updates in 2025.6.0 
+- 
+ Imports: Processing Enhancements for Data Connect 2025.4.1 
+- 
+ Updated Instructional Text for CTMS and Master Data Export Jobs 
+- 
+ Datahub: Technical Changes and Preparatory Development 
+- 
+ Datasets: Improved Permissions Between Modules 
+- 
+ Exports: Export Multiple Data Sources from Data Connect Data Type 
+- 
+ Export: Updated Create and Edit Export Workflows 
+- 
+ Imports: Upgrade Dataset Version in Collections 
+- 
+ Datasets and Transformations: Interface Updates for Data Connect 2025.3.0 
+- 
+ Datasets: Interface Updates for Data Connect 2025.3.0 
+- 
+ Exports: Technical Changes for Data Connect 2025.2.5 
+- 
+ Imports: Trigger Immediate Data Synchronization for Veeva Datasets 
+- 
+ Imports: Technical and Interface Updates for 2025.2.3 
+- 
+ Datasets and Transformations: Technical Changes for 2025.2.3 
+- 
+ Datasets: Interface Updates for 2025.2.3 
+- 
+ Imports: Partial Date Support for External Data 
+- 
+ Exports: View Dataset Versions in Export Settings, Edit Exports and Create Exports 
+- 
+ Exports: Technical Changes for April 2025 
+- 
+ Transformations - Configuration Locking for Dataset Preview and Quality Check 
+- 
+ Transformations - Automated Visit Mapping 
+- 
+ Datasets and Transformations - Interface Updates for Data Connect 2025.1.0 
+- 
+ Datasets - Interface Enhancements for 2025.1.0 
+- 
+ Exports: Interface Enhancements and Technical Changes for Data Connect 2025.1.0 
+- 
+ Imports - Technical Changes for Data Connect Imports 2025.1.0 
+- 
+ Imports - DateTime Data Type Added for Dataset Configuration 
+- 
+ Exports - Improved Error Handling for Export Failures 
+- 
+ Exports: Technical Changes for January 2025 
+- 
+ Exports - Interface Enhancements for January 2025 
+- 
+ Transformations: Ability to Add Custom Analytes 
+- 
+ Datahub: Technical Changes for November 2024 
+- 
+ Exports: Interface Enhancements and Technical Changes for November 2024 
+- 
+ Datasets and Transformations: Technical Changes for November 2024 
+- 
+ Datasets and Transformations: Interface Enhancements for November 2024 
+- 
+ Imports: Navigation Fixes and Technical Changes 
+- 
+ Imports: Configure Datasets with Codelists 
+- 
+ Datasets and Transformations: Technical Changes 
+- 
+ Exports: Export Data with Date Range 
+- 
+ Transformations: Improved Date Format Processing in Field Transformation 
+- 
+ Imports: View Creation Details for Data Sources and Datasets 
+- 
+ Imports: Data Import Now Available for SAS Formats 
+- 
+ Imports: Automatic Data Type Selection During Dataset Configuration 
+- 
+ Imports: Streaming Cleanup for Updated Datasets 
+- 
+ Datasets and Transformations: Interface Enhancements for August 2024 
+ Online Help, Localization, and Documentation 
+- 
+ Introducing the Enhanced Release Notes Experience 
+- 
+ Medidata Knowledge Hub Provides a Centralized, Transformative Product Content Experience 
+ Resolved Issues 
+- 
+ Data Connect 2026.3.9 Resolved Issues List 
+- 
+ Data Connect 2026.3.10 Resolved Issues List 
+- 
+ Data Connect 2026.3.8 Resolved Issues List 
+- 
+ Data Connect 2026.3.7 Resolved Issues List 
+- 
+ Data Connect 2026.3.6 Resolved Issues List 
+- 
+ MEDS Extractor 2020.1.1 Resolved Issues List 
+- 
+ Data Connect 2026.3.5 Resolved Issues List 
+- 
+ Data Connect 2026.3.4 Resolved Issues List 
+- 
+ Data Connect 2026.3.3 Resolved Issues List 
+- 
+ Data Connect 2026.3.2 Resolved Issues List 
+- 
+ Data Connect 2026.3.1 Resolved Issues List 
+- 
+ Data Connect 2026.3.0 Resolved Issues List 
+- 
+ MEDS Extractor 2021.2.0 Resolved Issues List 
+- 
+ MEDS Extractor 2021.3.0 Resolved Issues List 
+- 
+ MEDS Extractor 2021.3.1 Resolved Issues List 
+- 
+ MEDS Extractor 2020.3.0 Resolved Issues List 
+- 
+ Platform Workbench 2023.1.0 Resolved Issues List 
+- 
+ Data Connect June 2024 Resolved Issues List 
+- 
+ Data Connect 2026.2.7 Resolved Issues List 
+- 
+ Extractor 2024.1.0 Resolved Issues List 
+- 
+ Extractor 2023.3.0 Resolved Issues List 
+- 
+ Extractor 2023.1.0 Resolved Issues List 
+- 
+ Extractor 2023.2.0 Resolved Issues List 
+- 
+ Extractor 2022.3.0 Resolved Issues List 
+- 
+ Extractor 2022.4.0 Resolved Issues List 
+- 
+ MEDS Extractor 2022.1.0 Resolved Issues List 
+- 
+ MEDS Extractor 2021.1.0 Resolved Issues List 
+- 
+ MEDS Extractor 2020.1.0 Resolved Issues List 
+- 
+ MEDS Extractor 2020.2.0 Resolved Issues List 
+- 
+ MEDS Extractor 2019.1.0 Resolved Issues List 
+- 
+ Platform Workbench 2023.2.0 Resolved Issues List 
+- 
+ Platform Workbench 2023.3.0 Resolved Issues List 
+- 
+ Platform Workbench 2023.4.0 Resolved Issues List 
+- 
+ Data Connect - Datasets and Transformations 2024.1.1 Resolved Issues List 
+- 
+ Data Connect July 2024 Resolved Issues List 
+- 
+ Data Connect August 2024 Resolved Issues List 
+- 
+ Data Connect September 2024 Resolved Issues List 
+- 
+ Data Connect - Imports 2024.2.2 Resolved Issues List 
+- 
+ Data Connect - Imports 2024.2.3 Resolved Issues List 
+- 
+ Data Connect - Datasets and Transformations 2024.1.5 Resolved Issues List 
+- 
+ Data Connect November 2024 Resolved Issues List 
+- 
+ Data Connect December 2024 Resolved Issues List 
+- 
+ Data Connect - Imports 2024.2.5 Resolved Issues List 
+- 
+ Data Connect - Exports 2024.3.2 Resolved Issues List 
+- 
+ Data Connect - Imports 2024.3.1 Resolved Issues List 
+- 
+ Data Connect 2025.1.0 Resolved Issues List 
+- 
+ Data Connect - Imports 2024.3.3 Resolved Issues List 
+- 
+ Data Connect - Imports 2024.3.4 Resolved Issues List 
+- 
+ Data Connect 2025.1.4 Resolved Issues List 
+- 
+ Data Connect 2025.2.0 Resolved Issues List 
+- 
+ Data Connect 2025.2.2 Resolved Issues List 
+- 
+ Data Connect 2025.2.3 Resolved Issues List 
+- 
+ Data Connect 2025.2.4 Resolved Issues List 
+- 
+ Data Connect 2025.3.1 Resolved Issues List 
+- 
+ Data Connect 2025.3.3 Resolved Issues List 
+- 
+ Data Connect 2025.3.4 Resolved Issues List 
+- 
+ Data Connect 2025.3.5 Resolved Issues List 
+- 
+ Data Connect 2025.3.6 Resolved Issues List 
+- 
+ Data Connect 2025.4.0 Resolved Issues List 
+- 
+ Data Connect - Datasets and Transformations - 2024.2.3 Resolved Issues List 
+- 
+ Data Connect 2025.2.1 Resolved Issues List 
+- 
+ Data Connect 2025.3.2 Resolved Issues List 
+- 
+ Data Connect - Datasets & Transformation 2024.2.1 Resolved Issues List 
+- 
+ Data Connect 2025.3.0 Resolved Issues List 
+- 
+ Data Connect 2025.5.0 Resolved Issues List 
+- 
+ Data Connect 2025.4.1 Resolved Issues List 
+- 
+ Data Connect 2025.6.0 Resolved Issues List 
+- 
+ Data Connect 2025.6.1 Resolved Issues List 
+- 
+ Data Connect 2025.6.2 Resolved Issues List 
+- 
+ Data Connect 2025.6.3 Resolved Issues List 
+- 
+ Data Connect 2025.6.4 Resolved Issues List 
+- 
+ Data Connect 2026.1.0 Resolved Issues List 
+- 
+ Data Connect 2026.1.1 Resolved Issues List 
+- 
+ Data Connect 2026.1.2 Resolved Issues List 
+- 
+ Data Connect 2026.1.4 Resolved Issues List 
+- 
+ Data Connect 2026.1.5 Resolved Issues List 
+- 
+ Data Connect 2026.2.0 Resolved Issues List 
+- 
+ Data Connect 2026.2.1 Resolved Issues List 
+- 
+ Data Connect 2026.2.2 Resolved Issues List 
+- 
+ Data Connect 2026.2.3 Resolved Issues List 
+- 
+ Data Connect 2026.2.4 Resolved Issues List 
+- 
+ Data Connect 2026.2.6 Resolved Issues List 
+- 
+ Data Connect 2026.1.3 Resolved Issues List 
+- 
+ Data Connect 2025.3.2 Resolved Issues List 
+- 
+ Data Connect 2025.2.5 Resolved Issues List 
+- 
+ Data Connect September 2024 Standard Software Update Resolved Issues List 
+- 
+ Data Connect - Datasets and Transformations 2024.1.4 Resolved Issues List 
+- 
+ MEDS Extractor 2022.2.0 Resolved Issues List 
+ Deprecated Functionailty 
+ None.

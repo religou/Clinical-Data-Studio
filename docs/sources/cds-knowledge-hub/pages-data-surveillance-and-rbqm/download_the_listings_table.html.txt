@@ -1,0 +1,24 @@
+# Download the Listings Table
+
+## Download the Listings Table
+ You can download the Listing Manager page > Listings table locally as a CSV file. Downloading the Listings table enables you to: 
+- Review the listings and associated listing details in your study outside of Data Surveillance. 
+- Easily exchange the Listings table externally with stakeholders to facilitate communication. 
+- Locally save and archive the Listings table. 
+- 
+ If necessary, access the Manage Listing page. 
+- Access Data Surveillance , and then click Listings in the left-hand menu.
+The Data Listings page shows. 
+- Click Manage Listing on the upper-right side of the Data Listings page.
+ The Manage Listing page > Listings table shows all draft and approved listings in your study and each listing's associated details. 
+- Click Download in the upper-right corner of the Listings Manager page.
+ The Listings table downloads as a CSV file to your browser. The Listings Manager CSV file contains the following details:
+- Name – The listing's object identifier (OID). 
+- Expression – The data listing's user-defined conditional expression, which Data Surveillance runs against your study data to capture the patient records within a specified variable that match the expression's defined specifications. In general, expressions are built to identify and report high-risk data points that your study team can review and investigate as necessary. 
+- Created By – The user who created the listing. 
+- Created – The listing's creation date is formatted as: DD MON YYYY 
+- Updated by – The user who most recently updated the listing. 
+- Last Updated – The data listing's creation date or when the last saved edit occurred. The date is formatted as: DD MON YYYY 
+- Rave Enabled – Shows either True or False. True  indicates that the listing is configured so that users can directly within Data Surveillance view and submit Rave queries on the patient records captured by the data listing . 
+- Status – Shows either Draft or Approved. The status indicates whether the listing is in approved or draft status. 
+- Activated – Shows either Yes or No. Yes indicates that the listing currently shows in its Approved Listings table or Draft Listings table. No indicates that the listing is currently hidden from the Approved Listings table or Draft Listings table.

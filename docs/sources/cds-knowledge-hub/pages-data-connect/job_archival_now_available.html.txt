@@ -1,0 +1,22 @@
+# Job Archival Now Available
+
+## Job Archival Now Available
+## Description
+ You can now archive export jobs. Archived scheduled jobs no longer run. You also cannot manually run archived jobs.   
+ The Export Jobs screen lists active and archived jobs between the following tabs:
+- Active – Shows all active export jobs. 
+- Archived – Shows all of your archived export jobs. If you are a super user, this tab shows all archived export jobs within your client division. This tab also includes a Refresh Job List button, in case other users such as a super users or API endpoint users archive your jobs while you are in Extractor. Clicking the button ensures that you see the most current list of archived jobs. 
+ You can archive jobs from either the Export Jobs screen or from a specific job's Job Configuration screen.
+ Important : You cannot reactivate archived jobs.
+## Affected Roles
+ All, although only users with the Manage Extracts building block on the platform role can archive jobs.
+## Advantages
+ You can organize your export jobs by archiving jobs you no longer need. The Archived tab provides an audit trail for archived jobs.
+## User Impact
+ Existing jobs are generally unaffected by this update. However, if a Super User within your client division has already archived one or more of your jobs, those jobs appear in the Export Jobs screen's Archived tab.
+## Knowledge Space Updates
+ The Extractor Knowledge Space provides new and updated content to support the new archival capability: 
+- Archive Export (new) 
+- Exports Roles and Capabilities (updated) 
+## Special Considerations
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

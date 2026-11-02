@@ -1,0 +1,21 @@
+# Critical Data Identification
+
+## Critical Data Identification
+## Description
+ You can list the critical data you want to track across studies at the client division level through the use of templates. Or you can identify critical data points at the study level. Here are some examples of critical data points relevant to a study: 
+- Administrative and demographic information 
+- Diagnosis 
+- Treatment 
+- Prescription drugs 
+- Laboratory tests 
+- Physiologic monitoring data 
+- Hospitalization data 
+- Patient insurance data 
+## Affected Roles
+ All.
+## Advantages
+ You can list the critical data in a template for use in many studies or define a unique set of critical data for a single study. It is important to identify the set of risks associated with the critical data. 
+## User Impact
+ None. 
+## Special Considerations
+ None.

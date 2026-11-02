@@ -1,0 +1,32 @@
+# KRI Configuration Report Enhancements
+
+## KRI Configuration Report Enhancements
+## Description
+ On the KRI Configuration page:
+- The "PDF" button label is changed to "Report." 
+- The dates that display in the The Last Updated column are now formatted as DD-MMM-YYYY. 
+ In addition, the KRI Configuration Report:
+- Downloads as an XLS file instead of a PDF file. 
+- Includes the following additional columns:
+- Risk Category Weightage – Indicates whether the KRI's risk category is configured as Low, Medium, or High Risk. 
+- Add to SRI – Indicates whether or not the KRI is configured as being factored in to Detect's Site Risk Indicator analysis. 
+## Affected Roles
+ Detect Configuration Manager Admin
+## Advantages
+ The KRI Configuration page enhancements provides the following benefits:
+- Renaming the PDF button to the Report button:
+- Makes it clearer as to the functionality that the button provides. 
+- Ensures label consistency across other Detect modules. 
+- Downloading KRI Configuration Reports as XLS files:
+- Enables reports to support additional report data that PDF files did not support. 
+- Allows for greater report data manipulation like sorting and filtering capabilities. 
+- Including the Risk Category Weightage and Add to SRI columns supports KRI Configuration's new Site Risk Indicators configuration capability. 
+## User Impact
+ See the Description section.
+## Knowledge Space Updates
+ The Medidata Detect Knowledge Space provides new and updated content to support this feature/enhancement: 
+- View, Filter, and Sort the KRI Configurations List 
+- Download KRI Configuration Reports 
+## Special Considerations
+ None.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

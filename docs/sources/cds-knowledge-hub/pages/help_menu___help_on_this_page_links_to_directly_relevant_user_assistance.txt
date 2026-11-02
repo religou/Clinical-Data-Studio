@@ -1,0 +1,15 @@
+# Help Menu > Help On This Page Links to Directly Relevant User Assistance
+
+## Help Menu > Help On This Page Links to Directly Relevant User Assistance
+## Description
+ The Help menu > Help On This Page option on the Quality Tolerance Limits page now links to the  QTL Dashboard knowledge space article .
+ The Help menu > Help On This Page option on the History page now links to the  History knowledge space article .
+## Affected Roles
+ All.
+## Advantages
+ The Help On This Page option on the Quality Tolerance Limits page and History page now directs you to more contextually relevant user assistance.
+## User Impact
+ When you are viewing the Quality Tolerance Limits page and you click the Help menu > Help On This Page option, you navigate to the QTL Dashboard knowledge space article .
+ Likewise, when you are viewing the History page and you click the Help menu > Help On This Page option, you navigate to the History knowledge space article .
+## Special Considerations
+ None.

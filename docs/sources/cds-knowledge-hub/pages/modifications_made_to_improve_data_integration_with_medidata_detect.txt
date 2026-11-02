@@ -1,0 +1,32 @@
+# Modifications Made To Improve Data Integration With Medidata Detect
+
+## Modifications Made To Improve Data Integration With Medidata Detect
+## Description
+ Some functionalities have changed in Patient Profiles 2021.1.0 to improve data integration with Medidata Detect.  
+## Affected Roles
+ Medidata Detect users. 
+## Advantages
+ Authorized users can seamlessly access Patient Profiles from the Medidata Detect user interface to identify outliers or percentage key risk indicators in individual patient data. 
+## User Impact
+ Improved data integration allows authorized Medidata Detect users to access the following functionality in Medidata Patient Profiles from the Medidata Detect user interface. 
+- On clicking a single patient ID, the Patient Selector and the corresponding patient's profile displays. 
+- Selecting another patient ID from the Patient Selector displays the patient's profile. 
+- You can export a single patient's profile or bulk export all patient profiles in a study. 
+ Published master designs and unpublished draft designs display in Published Designs and Draft Designs tables respectively. The current master design appears at the top of the Published Designs table and can be copied, updated, and published as a new master. Master designs cannot be edited, but can be renamed or duplicated. 
+ On the Patient Profile Designs page: 
+- Two new tabs exist : Published Designs and Draft Designs . 
+- The Published Designs table displays current and previous master designs. 
+- Any new design that is not a master displays in the Draft Designs table. 
+- By default, the Published Designs table lists the current master design at the top of the table. This table is sorted in the reverse chronological order. You can change this sorting order. 
+- By default, the Draft Designs table lists draft designs with the latest draft design displayed at the top of the table. This table is sorted in the reverse chronological order. You can change this sorting order. 
+- Both Published Designs and Draft Designs tables display data in Name , Privacy , Published Date , and Updated By columns. 
+- The Draft Designs table displays a Create Design button that lets you create new designs.  
+- If a master design is not yet set, the Published Designs table displays "A master design has not yet been setup" message. 
+- If a master design has been set, the Published Designs table displays the current master design at the top, with a  (key) icon next to it indicating that it the master design. 
+- If a new design is set as master, it displays at the top of the Published Designs table, with a  icon next to it. 
+- To duplicate current and previous master designs, click   in the far right of the page, and then click Duplicate . You can rename a master design after duplicating. 
+- If you set a new design as master, a warning message displays "Once a design is set as the master design, it can no longer be edited. Master designs can still be duplicated. Do you wish to continue?." You can click Set as Master Design to continue or click Cancel . Once a design is set as master, it becomes read-only. The Save button is disabled. 
+- If you set an existing design in the Draft Designs table as master by clicking  in the far right of the page, and then clicking  Make Master , a warning message displays "Once a design is set as the master design, it can no longer be edited. Master designs can still be duplicated. Do you wish to continue?". Click Make Master to mark the design a master. Once a design is set as master, it becomes a read-only design. 
+ Data you view in Patient Profiles by way of Detect aligns with the last snapshot date in Detect. Patient Profiles does not show any patient data added or modified after the last snapshot date. 
+## Special Considerations
+ None.

@@ -1,0 +1,34 @@
+# View Design Reports
+
+## View Design Reports
+ The workflow progress bar below depicts where viewing design reports occurs within the recommended patient profile design workflow.
+ At any time after  adding elements to your design layout , you can view the profile design specifications and layout information.  
+ As you pull additional elements into the layout, the Reports page updates accordingly in real time. The report displays the Published Date if a design was published along with the Published By and the Last Updated Date. 
+## Missing data in Reports
+ If you copy elements between studies, and the element has  patient data that does not match exactly with the destination study, the Report tab indicates missing variables, configurations or settings in elements in a design copied from another study show with yellow markers . The report s hows all the missing variables in Element Type, Element Name, Section Name and Missing Variables columns at the top of the report. For more information, see  Copy Elements between Studies, Environments, and Draft Designs . 
+ You can use the design report to provide a straightforward and efficient way for reviewers and stakeholders to view and sign off on the components used to create the design. 
+- 
+ Access the design. 
+- Access Data Surveillance , and then click Patient Profiles in the left-hand menu.
+ The Patient Profile Designs page shows the Published Designs and Draft Designs   tabs, which contain the list of designs in your study environment. 
+- On the Patient Profiles Designs page, do one of the following: 
+- Click the Published Designs tab.
+ Published Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Type – Indicates whether the patient profile is one of the following types: 
+- Detect – The patient profile design is integrated with an accessible directly from other Data Surveillance and RBQM capabilities. 
+- View Only – A read-only patient profile design. 
+- Last Refresh Date – The time stamp when the last data refresh was performed for the profile design. 
+- Published Date  – The time stamp when the profile design was marked as master. This field displays for Published Designs. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Click the Draft Designs tab.
+ Draft Designs Tab Column Descriptions 
+- Name  – The patient profile design's name. 
+- Last Updated – The time stamp of when the most recent update was made to the draft patient profile design. 
+- Updated By  – The user who most recently updated the patient profile design. 
+- Optional . Click any column header to sort the designs list. Clicking once sorts the list in descending order (A to Z, 0 to 9) by the selected column header; twice sorts in ascending order (Z to A, 9 to 0).
+ Note : Published Designs and Draft Designs lists appear in the reverse chronological order based on the Published Date and the Last Updated dates, respectively. 
+- Click anywhere within the row of the design you want to access. 
+ The Design page appears and shows the Profiles tab by default. 
+- On the Design page, click the Design Report tab. 
+- To print the report or save the report as a PDF, click  , and enter or select the required information in the pop-up window.

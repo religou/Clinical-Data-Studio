@@ -1,0 +1,20 @@
+# Datahub: Preparations for Future Capabilities
+
+## Datahub: Preparations for Future Capabilities
+## What Is New?
+ Data Connect introduces updates that prepares the Datahub experience for future updates. Datahub enables users to view and activate their datasets, and perform other actions. This update has no impact on the current Data Connect experience.
+## What Is the Impact?
+## Users/Roles
+ All.
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ This update prepares Data Connect for more robust capabilities through the Datahub experience. 
+## Where Do I See the Change?
+ There is no impact to the user experience. 
+## Where Do I Learn More?
+ There are no additional relevant resources.  
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

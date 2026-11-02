@@ -1,0 +1,23 @@
+# RBQM: Schedule Data Refreshes Using the KRI Scheduler
+
+## RBQM: Schedule Data Refreshes Using the KRI Scheduler
+## What Is New?
+The Clinical Data Studio - KRIs capability includes a KRI Scheduler button which you can use to 
+ schedule study data refreshes and perform on-demand data refreshes. The KRI Scheduler page no longer exists in Clinical Data Studio. 
+## What Is the Impact?
+## Users/Roles
+ Users with the Manage KRI Scheduler role. 
+ Workflow Process 
+ No change in workflow.
+## Other Applications
+ No impact to other applications.
+## How Do I Benefit?
+ Administrators can schedule data refreshes at appropriate times/intervals so that the study shows the most recent KRIs data.
+## Where Do I See the Change?
+ On RBQM > Configuration > KRI Dashboard, the KRI Scheduler button appears on the top right corner of the page.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of the change:
+- Key Risk Indicators 
+## What Else Should I Know?
+ You must have the Manage KRI Scheduler access assigned to your role in Cloud Administration. 
+ To view Medidata testing documentation for this release, refer to the Medidata Validation Portal .

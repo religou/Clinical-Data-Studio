@@ -1,0 +1,21 @@
+# Imports: Configure Datasets with Codelists
+
+## Imports: Configure Datasets with Codelists
+## What Is New?
+ For Data Connect's Imports capability, users can now configure column data type  to have a codelist.  
+## What Is the Impact?
+## Users/Roles
+ All. 
+## Workflow Process
+ There is no change to the existing  dataset configuration process . These updates augment existing functionalities. Users can now, however, use the Codelist functionality to provide a list of values expected for a specific field.  
+## Other Applications
+- Data Connect   >   Transformations   – Users can see the data with unique list of values and use them for use cases like unit conversion.  
+## How Do I Benefit?
+ Users can now define a set of acceptable values for a column, and validate the ingested data. Imports shows an error when the imported file does not meet the acceptable values for the codelist. This eliminates the process of manually validating the imported data for the right format and data. 
+## Where Do I See the Change?
+ Users can access these functionalities from Data Connect's Imports tab. On the Dataset   screen, click the More   icon     >   Edit  to edit the dataset specifications and select Codelist for the data type. 
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this Enhancement: 
+- Add Dataset 
+## What Else Should I Know?
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

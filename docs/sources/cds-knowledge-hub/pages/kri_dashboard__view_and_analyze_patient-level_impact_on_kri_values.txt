@@ -1,0 +1,44 @@
+# KRI Dashboard: View and Analyze Patient-level Impact on KRI Values
+
+## KRI Dashboard: View and Analyze Patient-level Impact on KRI Values
+## What Is New?
+ On the KRI Dashboard, when you click a KRI value for a site, and then click the Summary button, the Summary panel now includes a KRI Impact section. The KRI Impact section includes a table that lists all patients at the selected site and shows the following for each patient:
+- For Percentage KRIs, the KRI Impact section calls out all patients that either do (True) or do (False) not meet the criteria set for that percentage KRI.
+- For Numeric KRIs, the KRI Impact section lists the value for each patient ID based on the calculation type configured for that numeric KRI. 
+- Calculations types can be: 
+- Count 
+- Count values 
+- Mean 
+- Rate 
+- Rate values 
+- For System KRIs, the KRI Impact section lists the value for each patient ID based on the calculation type configured for that system KRI. 
+- The KRI Impact section only provides information about patients meeting the criteria for the following system KRIs by providing numeric values representing the percentages or numbers per month: 
+- Number of SAEs per Patient-Month 
+- Percent Out of Window Visit 
+- Missing Visit Percentage 
+- Number of AEs per Patient-Month. 
+- The KRI Impact section not provide information about patients meeting the criteria for the following site-level, operational system KRIs: 
+- AE Entry Delay 
+- Manual Query Rate 
+- Non-System Query Delay 
+- System Query Delay 
+- System Query Rate 
+- Visit Entry Delay  
+ You can then click patient IDs listed in the KRI Impact table to link to and directly access and review the patient profile for that patient ID.
+## What Is the Impact?
+## Users/Roles
+ Anyone who is assigned to track risks can use the Key Risk Indicators table. 
+## Workflow Process
+ No impact to the workflow process.
+## Other Applications
+ You can click a patient ID in the KRI Impact table to link to and directly access the patient profile for that patient ID.
+## How Do I Benefit?
+ You can better assess the degree of impact a specific patient or group of patients are making on a site's KRI value and investigate root cause at the patient level.
+## Where Do I See the Change?
+ KRI Dashboard > Summary panel > KRI Impact table.
+## Where Do I Learn More?
+ Use the following links to find new and updated content in support of this feature:
+- Investigate Data Using the KRI Dashboard 
+## What Else Should I Know?
+ The KRI Impact table does not provide information for numeric KRIs or system KRIs whose calculation type is standard deviation.
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

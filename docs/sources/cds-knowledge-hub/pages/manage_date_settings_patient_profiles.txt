@@ -1,0 +1,20 @@
+# Manage Date Settings Patient Profiles
+
+## Manage Date Settings Patient Profiles
+## Description
+ Patient Profiles requires a reference point for a patient’s study participation, which is represented by the Day 0 Date. The Day 0 Date is when the patient officially meets the study eligibility criteria and gets enrolled into the study. In addition, you can provide additional details such as:
+- Setting the lower time limit and upper time limit  that Patient Profiles pulls data for timelines or graphs relative to the Day 0 Date ;
+- Setting the study start date to occur one day after the Day 0 Date; and
+- Defining a variable in which CSA's analytics will use to cluster patients.
+## Affected Roles
+ All.
+## Advantages
+ See the Description section.
+## User Impact
+ On the right side of the Settings page > Date Options tab, you can:
+- Define your study's Day 0 Date;
+- Define the lower time limit and upper time limit from the Day 0 Date in which Patient Profiles pulls data for timelines or graphs; 
+- Set the study start date to occur one day after the Day 0 Date; and
+- Define a variable in which CSA's analytics will use to cluster patients.
+## Special Considerations
+ None.

@@ -1,0 +1,126 @@
+# Add and Manage Critical Processes
+
+## Add and Manage Critical Processes
+ You can identify and include as part of your risk assessment the processes that are most critical to your study outcome . For example, developing enough of a drug to conduct the study, transporting the drug to sites, administering the drug, drug labeling, and so on. 
+ Adding critical processes to the risk assessment helps you focus on and monitor the most important processes to ensure:
+- Protocol compliance, patient safety, data quality, and data integrity. 
+- Product or treatment efficacy. 
+ You can:
+- Add critical processes to the risk assessment. 
+- Add and manage the risks associated with critical processes. 
+- View the critical processes and their associated high-level details included in the risk assessment. 
+- View the risks associated with critical processes. 
+- Edit critical process details. 
+- Delete critical processes. 
+- View and export Critical Process Audit Reports. 
+## Add Critical Processes to the Risk Assessment
+ You can identify and include as part of your risk assessment the processes that are most critical to your study outcome . For example, developing enough of a drug to deliver to sites, transporting the drug to sites, administering the drug, drug labeling, and so on. 
+ You can add critical processes by: 
+- Creating new critical processes at the study level. 
+- Using a preexisting study-level critical process template. 
+ Adding critical processes to the risk assessment helps you focus and monitor the most important processes to ensure:
+- Protocol compliance, patient safety, data quality, and data integrity. 
+- Product or treatment efficacy. 
+ Tip : After adding a critical process to the risk assessment, you can associate risks to the critical process . And then in addition, you can:
+- Associate QTLs , KRIs , and risk mitigations to the risk. 
+- Monitor the risk in the Risk Inventory . 
+- Manage the risk from the Risk Assessment or Risk Inventory . 
+- Access RBQM , and then click Risk Assessment > Critical Processes in the left-hand menu.
+- On the Critical Processes page, click Add Critical Process .
+- In the Add Critical Process dialog, and do one of the following: 
+- To add a new, unique critical process, click >>New Critical Process . 
+- To add a critical process from a critical process template that resides at the client division or study group level, click a template name 
+- Select or enter the following: 
+- Name – Enter up to 255 characters as the name of the critical process, for example, Tumor Assessment. This is a required field. The name must be unique. 
+- Category – This is a required field. 
+ Unable to render {include} The included page could not be found.
+- Group Name – Optional . Enter up to 225 characters describing the type of critical process, for example, Oncology. The group name does not have to be unique. 
+- Description – Optional . Enter up to 3000 characters to provide a more detailed description of the critical process. For example, "CT scan of a tumor at visit 5." 
+- Rationale – Optional . Enter up to 3000 characters to provide the reason for the critical process. For example, "Data supports the primary endpoint of the study." 
+- Click Save .
+ Note : When you add a study-level critical process, it is available only for your study. Contact your administrator if you believe that the critical process belongs in the list of client division templates.
+## Add and Manage Critical Process Risks
+ In addition to including critical processes in your risk assessment, you can also associate specific risks to the critical processes that you want to monitor as part of your risk assessment. You can: 
+- Add and associate risks to critical processes. 
+- View and edit critical process risks. 
+- Link and unlink QTLs to critical process risks. 
+- View and edit the details of QTLs associated with risks. 
+- Evaluate the performance of QTLs associated with risks. 
+- Link and unlink Key Risk Indicators (KRIs) to critical process risks. 
+- View and edit the details of KRIs associated with risks. 
+- Add, view, edit, and delete critical process risk mitigations. 
+- Mark critical process risks as reviewed. 
+- Close critical process risks. 
+- Delete critical process risks. 
+ To learn more, see: 
+- Add and Manage Risks 
+- View and Monitor the Risk Inventory 
+- Add and Manage QTLs Associated with Risks 
+- Add and Manage KRIs Associated with Risks 
+- Add and Manage Risk Mitigations 
+## View the Critical Processes Included in the Risk Assessment
+ You can view the list of critical processes and their associated high-level details included in your risk assessment. For example, you can view the critical processes:
+- For oversight to ensure the study team is following the risk plan, or 
+- As a reference for another study's risk assessment. 
+- Access RBQM , and then click Risk Assessment > Critical Processes in the left-hand menu.
+The Critical Processes page > Critical Processes table shows the following details for all critical processes included in the active risk assessment:
+ Column Descriptions 
+- Name – The unique name of the critical process; for example, Tumor Assessment. 
+- Category –  
+ Unable to render {include} The included page could not be found.
+- Group Name – A user-entered description of the type of critical process; for example, Oncology. 
+- #Risks – The number of risks associated with the critical process.
+ Tip : On the Critical Processes table, you can click the Down Arrow , , to the left of a critical process name to view the list of risks associated with that critical process.
+- Add Risk – Click to add a new risk to associate with the critical process. To learn more, see Add and Manage Risks . 
+ Tip : To filter the Critical Processes table to show only critical processes assigned to a specific category, click the View by menu, and then select a category.
+## View the Risks Associated with a Critical Process
+ You can view the list of risks associated with critical processes in your risk assessment. For example, you can view the critical process risks:
+- For oversight to ensure the study team is following the risk plan, or 
+- As a reference for another study's risk assessment. 
+- Access RBQM , and then click Risk Assessment > Critical Processes in the left-hand menu.
+ The Critical Processes page appears. 
+- Optional . To filter the Critical Processes table to show only critical processes assigned to a specific category, click the View by menu, and then select a category. 
+- On the Critical Processes table, click the Down Arrow , , to the left of the critical process name whose risks you want to view.
+A table shows the list of risks associated with the critical process and the following risk details:
+ Column Descriptions 
+- Risk ID – The risk's system-assigned unique ID. You can click a risk ID to view and edit the risk review details . 
+- Risk Name – The name of the risk. 
+- Review Status – A color-coded pill icon shows the review status for each risk associated with the critical process:
+- Red – Overdue. The Current Date > Target Review Date, indicating the risk review is overdue. 
+- Yellow – Due Soon. The Current Date is between Last Review Date and Target Review Date, indicating the risk review is due soon. 
+- Green – Reviewed. The Last Review Date = Current Date, indicating the risk is reviewed. 
+- Gray – Closed. The Risk Status is closed. 
+- Risk Score – A calculated number (score) that reflects the risk's severity. When adding a risk or updating a risk's review details, you can score each of the following risk factors, Probability, Impact, and Detectability, on a scale of 1 to 3. The risk score is calculated by multiplying each risk factor's score together (Probability x Impact x Detectability). The maximum risk score is 27. 
+- A risk score of 1-3 appears with a green color-coded block and indicates a minimal risk. 
+- A risk score of 4-9 appears with a yellow color-coded block and indicates a moderate risk. 
+- A risk score of 10-27 appears with a red color-coded black and indicates a high risk. 
+## Edit Critical Process Details
+ You can edit a critical process's details. For example, if you must update the risk assessment's critical processes based on a protocol amendment or update a typo or other mistake.
+- Access RBQM , and then click Risk Assessment > Critical Processes in the left-hand menu.
+- On the Critical Processes page, click the Actions menu, , on the far right of the row of the critical process you want to update.
+- Click Edit . 
+- On the Edit Critical Process dialog, select or enter the following: 
+- Name – Enter up to 255 characters as the name of the critical process, for example, Tumor Assessment. This is a required field. The name must be unique. 
+- Category – This is a required field. 
+ Unable to render {include} The included page could not be found.
+- Group Name – Optional . Enter up to 225 characters describing the type of critical process, for example, Oncology. The group name does not have to be unique. 
+- Description – Optional . Enter up to 3000 characters to provide a more detailed description of the critical process. For example, "CT scan of a tumor at visit 5." 
+- Rationale – Optional . Enter up to 3000 characters to provide the reason for the critical process. For example, "Data supports the primary endpoint of the study." 
+- Click Save .
+## View and Export Critical Process Audit Reports
+ Audit Reports allow you to  track actions made on the critical processes in your study . This provides a single, traceable record of updates for audit readiness. For example, you can 
+- Identify specific changes that were made (like adding risks to the critical processes, deleting critical processes from the risk assessment, and so on). 
+- Track the study personnel who made updates. 
+- Identify when the updates were made. 
+ Note :   You require permissions to view the audit trail. To learn more, see   RBQM Building Blocks and Permissions .
+- Access RBQM , and then click   Risk Assessment > Critical Processes   in the left-hand menu. The Critical Processes page shows. 
+- Click the Clock     icon next to the page header. A new browser tab opens to the Audit Viewer > Critical Process Audit Report page. 
+- Optional: You can click Show Filters  above the upper-right corner of the table to filter the reports by  Start Date  and  End Date . 
+ Tip :   In Audit Viewer, you can click   Export   and then  Excel ,   CSV , or   PDF   to download the report locally and  view offline or sort data by column headings. Report exports include the entire history, regardless of the filters applied in the Audit Viewer window. 
+ Important:  Critical Process Audit Report records actions made on critical processes in your study after 30-July-2026. Any actions made on critical processes prior to this date is excluded from the audit report.
+ Note:   Any changes to risks on Critical Processes page will be recorded in Risk Inventory Audit Report. To learn more, see Generate Risk Inventory Audit Report . 
+## Delete Critical Processes
+ You can delete a critical process from the risk assessment. For example, if you must update the risk assessment critical processes based on a protocol amendment or a critical process was added to the risk assessment in error. 
+- Access RBQM , and then click Risk Assessment > Critical Processes in the left-hand menu.
+- On the Critical Processes page, click the Actions menu, , on the far right of the row of the critical process you want to delete.
+- Click Delete .

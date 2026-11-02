@@ -1,0 +1,12 @@
+# Medidata CTMS Data Objects
+
+## Medidata CTMS Data Objects
+ You can extract data pertaining to Medidata CTMS through different export types. The tables below list the data you can download by export type and data objects.
+ Important : Your Rave URL configuration can affect your ability to access exported data. For details, please contact your Medidata representative or Medidata Support.
+ Note : All data except Study Enrollment Metrics data are available for cumulative and incremental extracts. Study Enrollment Metrics data are only available for cumulative extracts.
+ Available data objects:
+- CTMS Issues and Actions 
+- CTMS Monitoring Visits, Letters, and Reports Data Objects 
+- CTMS Documents, Submissions, Enrollment, Milestones, and Service Providers 
+- CTMS Tasks 
+- CTMS Audit

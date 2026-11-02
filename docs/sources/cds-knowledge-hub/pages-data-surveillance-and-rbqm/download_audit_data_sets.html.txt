@@ -1,0 +1,63 @@
+# Download Audit Data Sets
+
+## Download Audit Data Sets
+ You can download audit data sets locally as a CSV file.   Downloading the audit data sets enables you to: 
+- Review audit data sets and associated details in your study outside of RBQM. 
+- Easily exchange the audit data sets externally with stakeholders to identify any risks or inaccuracies. 
+ Note : You can download audit data sets without publishing. However, you cannot download or publish audit data sets if the Data Preview section shows no records.
+ When a download is complete you receive a notification in your email. Notifications are processed and sent through the Medidata's  Notification Center . 
+ You can view audit data set download notifications in two forms: 
+- Email notifications with a deep-link sent to your email inbox. 
+- In-app notifications accessible by way of the Medidata platform user interface. 
+## Download Audit Data Sets From the Data Preview Section 
+- If necessary, create an audit data set. 
+- Click Download .
+Once the download is complete, you receive a notification email.
+ Note : The Download button gets disabled after you click it once, indicating that the download process is in progress.
+- Optional. Click , double-sided arrows icon, from the top-right corner of the Data Preview section, and then click Download . 
+- Click the  View in Notification Center link in the email.
+ Note : If you are not logged into iMedidata.com , you must first log on.
+- On the Notifications page, look for the Audit Download Notification . 
+A brief message indicates that the download you requested is now available.  
+- Click the file name link.
+The audit data set downloads as a zipped file, which you can unzip as a CSV file to your browser. It includes the following variables:
+- STUDY_ENV_ID Study included in the audit data set. 
+- SITE_NUMBER 
+- PATIENT_NAME 
+- PATIENT_UUID 
+- SITE_COUNTRY 
+- RECORD_POSITION 
+- INSTANCE_DATE 
+- INSTANCE_NAME 
+- INSTANCE_REPEAT_NUMBER 
+- STUDYSITES_UUID 
+- FORM_NAME 
+- FORM_OID 
+- FIELD_NAME 
+- FIELD_OID 
+- FOLDER_NAME 
+- FOLDER_OID 
+- AUDIT_VALUE Captures the raw value recorded in the audit trail.   
+- AUDIT_USER_FIRST_NAME 
+- AUDIT_USER_LAST_NAME 
+- AUDIT_TIME 
+- STUDY_ENV_NAME 
+- DATAPOINT_RAVEALL_UUID 
+- AUDIT_RAVEALL_UUID 
+- CRFVERSION_ID 
+- FIELD_SAS_LABEL 
+- AUDIT_SUBCATEGORY_NAME 
+ Note: For certain field types, the AUDIT_VALUE column displays internal identifiers, coded references, delimiters, and metadata instead of the corresponding display text. This behavior represents a system limitation and does not indicate missing audit values. You may encounter this limitation when the audited value uses data dictionary entries, localized data strings, coded metadata, and medical coding dictionaries. 
+## View Audit Data Set Download Notifications Through Email
+- Open the email notification you receive from Medidata. 
+- Click  View in Notification Center .
+ On the Notifications page, an information message regarding the audit data set download appears. 
+- Click the file name link.
+ The audit data set downloads as a zipped file, which you can unzip as a CSV file to your browser.  
+## View Audit Data Set Download Notifications in the Notification Center
+- Log in to iMedidata.com . 
+- Click the Notifications icon in the iMedidata toolbar.
+ Note : An icon with a red circle  indicates new, unread notifications.
+The Notifications page shows all notifications you have received, listed in order from newest at top.
+ Note : You can continuously scroll through notifications to the end. When you reach the bottom, if there are more notifications, then the page automatically shows the notifications.
+- Optional . In the left-hand pane, click to filter the Notifications page to show specific notifications by type: All, Information, Warning, or Critical.

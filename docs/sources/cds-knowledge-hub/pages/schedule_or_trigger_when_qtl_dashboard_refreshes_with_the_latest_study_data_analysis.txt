@@ -1,0 +1,28 @@
+# Schedule or Trigger When QTL Dashboard Refreshes with the Latest Study Data Analysis
+
+## Schedule or Trigger When QTL Dashboard Refreshes with the Latest Study Data Analysis
+## Description
+ QTL Dashboard now has a QTL Scheduler page, which allows you to schedule or trigger when QTL Dashboard refreshes and renders the most recent study data analysis.
+## Affected Roles
+ Users with:
+- View QTL Dashboard permissions can view the QTL scheduler. 
+- Manage QTL Scheduler permissions can schedule and run refreshes. 
+## Advantages
+ In previous QTL Dashboard releases, you had to schedule and trigger data refreshes from the Centralized Statistical Monitoring (CSM) History page. Now you can schedule and trigger data refreshes from directly within QTL Dashboard.
+## User Impact
+ You can now access the QTL Scheduler page from the Detect Landing Page or from QTL Dashboard's left-hand menu. On the QTL Scheduler page, you can: 
+- Select the Snapshot Schedule to determine the data refresh frequency:
+- Weekly 
+- Bi-Weekly 
+- Monthly 
+- Bi-Monthly 
+- Quarterly 
+- Select the specific day of the week or month you want the data refresh to trigger. 
+ Also, for users with proper permissions, the QTL Scheduler page includes the   Refresh button. When you click  Refresh , the QTL Dashboard refreshes to show visual renderings of the most recent study data analysis. The Last Updated field updates to show the time stamp of the currently rendered study data's most recent completed run through Medidata Detect's analytics.  
+## Knowledge Hub Updates
+ The Medidata Detect Knowledge Hub provides new and updated content to support this feature: 
+- Schedule or Trigger When QTL Dashboard Refreshes and Outputs the Latest Study Data Analysis 
+## Special Considerations
+ Depending on study data volume, there may be lag time between when the data refresh triggers and when the updated data renders in QTL Dashboard. So newly rendered data analyses that you view in the QTL Dashboard may reflect the data snapshot from a day or two prior.
+ Detect now includes a new user role building block, Manage QTL Scheduler. To learn more, see Detect User Roles and Capabilities .
+ To view Medidata testing documentation for this release, refer to the  Medidata Validation Portal .

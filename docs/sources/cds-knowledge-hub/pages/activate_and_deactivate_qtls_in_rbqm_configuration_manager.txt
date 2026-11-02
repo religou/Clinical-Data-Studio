@@ -1,0 +1,31 @@
+# Activate and Deactivate QTLs in RBQM Configuration Manager
+
+## Activate and Deactivate QTLs in RBQM Configuration Manager
+## Description
+ You can activate custom QTLs  so   that data gets filtered, analyzed, calculated, and displayed in: 
+- Medidata Detect's Key Risk Indicator table 
+- Risk Management's Risk Inventory page and Add Risk page 
+ If a custom QTL no longer requires analysis, you can deactivate that QTL so the data no longer gets filtered, analyzed, calculated, or displayed in Medidata Detect or Risk Management. 
+ When you deactivate QTLs, you must enter the reason for deactivation in the Deactivation Note dialog box. 
+## Affected Roles
+ RBQM Configuration Manager Admin
+## Advantages
+ Activating and tracking custom QTLs helps your organization  target and monitor the greatest risks to  a study's: 
+- Safety 
+- Conduct 
+- Performance 
+- Compliance 
+- Data quality 
+ Deactivating custom QTLs:
+- Removes from Medidata Detect's Quality Tolerance Limits page the QTL data that you have no need to track or analyze. 
+- Yields a cleaner QTL table view by displaying only data that is relevant to your study. 
+- Optimizes your QTL data analysis speed and efficiency. 
+ Documenting deactivation notes for deactivated QTLs enables you to track QTL status and to further target analysis.
+## User Impact
+ On the QTLs page > Quality Tolerance Limits list > Activate column, you can click   in the corresponding row of the QTL you want to activate. To deactivate, you can click  . 
+ When you deactivate a QTL, you must describe the reason for deactivating the QTL in the Deactivation Note dialog box. 
+ You can then  View Audit Details for Deactivated QTLs . 
+## Special Considerations
+- Allow one business day after activating custom QTLs to allow Detect to refresh the analytics and render the custom QTLs' data in the Quality Tolerance Limits table. 
+- RBQM Configuration Manager only stores the most recent deactivation note for deactivated QTLs. 
+- You can reactivate previously deactivated QTLs using the same process you would to activate. To learn more, see Activate and Deactivate QTLs .
